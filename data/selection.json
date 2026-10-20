@@ -1,0 +1,2411 @@
+{
+  "grerhe1": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon"
+    ],
+    "sourceDe": "Nandu",
+    "row": "Nandu             Rhea americana*                 III        157–362          Ind.             –         3    3",
+    "note": ""
+  },
+  "wiltur": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon"
+    ],
+    "sourceDe": "Truthuhn",
+    "row": "Truthuhn          Meleagris gallopavo             III        60–80            Ind.             –         3    5                                             –        5",
+    "note": ""
+  },
+  "hazgro1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Haselhuhn",
+    "row": "Haselhuhn         Tetrastes bonasia (I)            I       1 500–2 900        Rev.    (<)      5         5    5       1 400–2 800        95          5     00        0",
+    "note": ""
+  },
+  "wescap1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Auerhuhn",
+    "row": "Auerhuhn          Tetrao urogallus (I)             I        700–1 000         Rev.1   (<)      0         0    0        550–800           79          5      5        5",
+    "note": ""
+  },
+  "blagro1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Birkhuhn",
+    "row": "Birkhuhn          Lyrurus tetrix (I)               I       1 200–1 500        Rev.1   (<)      5         5    5        410–800           43          5     00        5",
+    "note": ""
+  },
+  "rocpta1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Alpenschneehuhn",
+    "row": "Alpenschneehuhn   Lagopus muta (I)                 I        200–280           Rev.     =       5         5    5        180–250          90           5      5        5",
+    "note": ""
+  },
+  "rocpar2": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Steinhuhn",
+    "row": "Steinhuhn         Alectoris graeca (I)             I          1–10            Rev.     =       –         4    4          1–10           100          4      5        5",
+    "note": ""
+  },
+  "grypar": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Rebhuhn",
+    "row": "Rebhuhn           Perdix perdix                    I      35 000–61 000       Rev.    (<)     00         00    5                                            0       00",
+    "note": ""
+  },
+  "comqua1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Wachtel",
+    "row": "Wachtel           Coturnix coturnix                I      11 500–22 000       Rev.    (<)      0         0    00                                            3       5",
+    "note": ""
+  },
+  "rinphe1": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon"
+    ],
+    "sourceDe": "Jagdfasan",
+    "row": "Jagdfasan         Phasianus colchicus             III    200 000–275 000      Rev.             –         1     5                                            0       0",
+    "note": ""
+  },
+  "cangoo": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon",
+      "Rastvogel"
+    ],
+    "sourceDe": "Kanadagans",
+    "row": "Kanadagans        Branta canadensis               III     6 000–8 000          Pa              3         3    3                                             3       3",
+    "note": ""
+  },
+  "bargoo": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Weißwangengans",
+    "row": "Weißwangengans    Branta leucopsis (I)             I       1 900–2 000         Bp     [>]      3         3    3        400–430           21          5      3       3",
+    "note": ""
+  },
+  "bahgoo": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon",
+      "Rastvogel"
+    ],
+    "sourceDe": "Streifengans",
+    "row": "Streifengans      Anser indicus*                  III          4–8             Bp              5         5    5",
+    "note": ""
+  },
+  "snogoo": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon",
+      "Rastvogel"
+    ],
+    "sourceDe": "Schneegans",
+    "row": "Schneegans        Anser caerulescens*             III         3–15             Bp              3         5    5",
+    "note": ""
+  },
+  "gragoo": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Graugans",
+    "row": "Graugans          Anser anser                      I      54 000–77 000        Pa     (>)      3         3    3                                             3        3",
+    "note": ""
+  },
+  "blkswa": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon",
+      "Rastvogel"
+    ],
+    "sourceDe": "Schwarzschwan",
+    "row": "Schwarzschwan     Cygnus atratus*                 III         15–25            Bp              –         0    0",
+    "note": ""
+  },
+  "mutswa": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Höckerschwan",
+    "row": "Höckerschwan      Cygnus olor                      I      14 000–19 500        Pa     (>)      5         3    3                                             5        5",
+    "note": ""
+  },
+  "whoswa": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Singschwan",
+    "row": "Singschwan        Cygnus cygnus (I)                I         100–140           Bp     [>]      3         3    3         40–50            38          3      3        3",
+    "note": ""
+  },
+  "egygoo": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon",
+      "Rastvogel"
+    ],
+    "sourceDe": "Nilgans",
+    "row": "Nilgans           Alopochen aegyptiaca*           III     11 000–15 500        Pa              3         3    3",
+    "note": ""
+  },
+  "comshe": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Brandgans",
+    "row": "Brandgans         Tadorna tadorna                  I       7 000–7 500         Pa     (>)      5         3    5                                             5        5",
+    "note": ""
+  },
+  "manduc": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon",
+      "Rastvogel"
+    ],
+    "sourceDe": "Mandarinente",
+    "row": "Mandarinente      Aix galericulata*               III       480–700            Bp              3         3    3",
+    "note": ""
+  },
+  "rintea1": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon"
+    ],
+    "sourceDe": "Rotschulterente",
+    "row": "Rotschulterente   Callonetta leucophrys*          III          0–1             Bp              –         –     –",
+    "note": ""
+  },
+  "gargan": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Knäkente",
+    "row": "Knäkente          Spatula querquedula              I       1 100–1 500         Pa     (<)      0         0    0        650–750           54          0      0       0",
+    "note": ""
+  },
+  "norsho": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Löffelente",
+    "row": "Löffelente        Spatula clypeata                 I       1 500–1 800         Pa     (<)      5         0    0                                             0       5",
+    "note": ""
+  },
+  "gadwal": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Schnatterente",
+    "row": "Schnatterente     Mareca strepera                  I       8 500–11 500        Pa     (>)      3         3    3                                             3       3",
+    "note": ""
+  },
+  "eurwig": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Pfeifente",
+    "row": "Pfeifente         Mareca penelope                  I          10–25            Bp     [>]      ?         ?     ?                                            5       00",
+    "note": ""
+  },
+  "mallar3": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Stockente",
+    "row": "Stockente         Anas platyrhynchos               I     175 000–320 000       Pa      =       0         5    5                                             5       5",
+    "note": ""
+  },
+  "norpin": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Spießente",
+    "row": "Spießente         Anas acuta                       I          15–35            Pa     (<)      ?         ?     ?                                            0       0",
+    "note": ""
+  },
+  "gnwtea": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Krickente",
+    "row": "Krickente         Anas crecca                      I       4 100–6 500         Pa     (<)      5         5    5                                             0       0",
+    "note": ""
+  },
+  "recpoc": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Kolbenente",
+    "row": "Kolbenente        Netta rufina                     I        850–1 100          Bp     [>]      3         5    5           –              –           –      3       3",
+    "note": ""
+  },
+  "compoc": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Tafelente",
+    "row": "Tafelente            Aythya ferina                    I       2 300–3 100          Pa     (>)      0         0    00                                            0        0",
+    "note": ""
+  },
+  "ferduc": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Moorente",
+    "row": "Moorente             Aythya nyroca (I)                I          8–10              Bp     (<)      5         4     4         8–10           100          4      5        3",
+    "note": ""
+  },
+  "tufduc": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Reiherente",
+    "row": "Reiherente           Aythya fuligula                  I      18 000–27 000         Pa     (>)      5         3    5                                             5        5",
+    "note": ""
+  },
+  "gresca": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Bergente",
+    "row": "Bergente             Aythya marila                    I           0–2              Bp     [>]      –         4     4                                            –        5",
+    "note": ""
+  },
+  "comeid": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Eiderente",
+    "row": "Eiderente            Somateria mollissima             I       1 700–1 900          Pa     (>)      3         3    3                                             5        5",
+    "note": ""
+  },
+  "comgol": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Schellente",
+    "row": "Schellente           Bucephala clangula               I       3 700–4 900          Pa     (>)      3         3    3                                             3        5",
+    "note": ""
+  },
+  "commer": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Gänsesäger",
+    "row": "Gänsesäger           Mergus merganser                 I       1 000–1 200          Bp     (<)      3         3    5        350–410           35          3      3        3",
+    "note": ""
+  },
+  "rebmer": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Mittelsäger",
+    "row": "Mittelsäger          Mergus serrator                  I        280–340             Bp     (>)      5         0    0                                             5        5",
+    "note": ""
+  },
+  "eurnig1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Nachtschwalbe",
+    "row": "Nachtschwalbe        Caprimulgus europaeus (I)        I       7 000–9 000         Rev.    (<)      5         5    5       5 500–6 000        72          3      0        5",
+    "note": ""
+  },
+  "alpswi1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Alpensegler",
+    "row": "Alpensegler          Tachymarptis melba               I        390–600             Pa     [>]      3         3    3                                             3        3",
+    "note": ""
+  },
+  "comswi": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Mauersegler",
+    "row": "Mauersegler          Apus apus                        I     235 000–435 000        Pa      =       5         5    2                                            5         5",
+    "note": ""
+  },
+  "grebus1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Großtrappe",
+    "row": "Großtrappe           Otis tarda (I)                   I           315             Ind.    (<)      3         3    3           315           100          3     00        5",
+    "note": ""
+  },
+  "comcuc": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Kuckuck",
+    "row": "Kuckuck              Cuculus canorus                  I     39 000–65 000         Rev.    (<)      5         1    5                                             5        5",
+    "note": ""
+  },
+  "stodov1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Hohltaube",
+    "row": "Hohltaube            Columba oenas                    I     87 000–145 000        Rev.     =       3         3    3                                             5        5",
+    "note": ""
+  },
+  "cowpig1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Ringeltaube",
+    "row": "Ringeltaube          Columba palumbus                 I      3,55–4,25 Mio.       Rev.    (>)      3         3     3                                            5        5",
+    "note": ""
+  },
+  "eutdov": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Turteltaube",
+    "row": "Turteltaube          Streptopelia turtur              I      16 500–29 000        Rev.    (<)     00         00   00                                            5        0",
+    "note": ""
+  },
+  "eucdov": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Türkentaube",
+    "row": "Türkentaube          Streptopelia decaocto            I     140 000–260 000       Rev.    [>]      5         3    3                                             5        5",
+    "note": ""
+  },
+  "watrai1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Wasserralle",
+    "row": "Wasserralle          Rallus aquaticus                 I      12 000–17 500        Rev.    (<)      5         5    5                                             5        5",
+    "note": ""
+  },
+  "corcra": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Wachtelkönig",
+    "row": "Wachtelkönig         Crex crex (I)                    I       1 200–2 100         Rev.    (<)      0         00   00       450–650           34          00     5        0",
+    "note": ""
+  },
+  "litcra1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Kleinsumpfhuhn",
+    "row": "Kleinsumpfhuhn       Porzana parva (I)                I            –              Rev.    (<)      –         –     –          –              –           –      –        –",
+    "note": ""
+  },
+  "baicra1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Zwergsumpfhuhn",
+    "row": "Zwergsumpfhuhn       Porzana pusilla (I)              I            –              Rev.     =       –         –     –          –              –           –      –        –",
+    "note": ""
+  },
+  "spocra1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Tüpfelsumpfhuhn",
+    "row": "Tüpfelsumpfhuhn      Porzana porzana (I)              I        700–1 100          Rev.    (<)      5         0    0        250–390           36          0      0        0",
+    "note": ""
+  },
+  "commoo3": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Teichhuhn",
+    "row": "Teichhuhn            Gallinula chloropus              I     36 000–63 000         Rev.    (<)      5         3    5                                             5        5",
+    "note": ""
+  },
+  "eurcoo": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Blässhuhn",
+    "row": "Blässhuhn            Fulica atra                      I     59 000–105 000        Rev.    (>)      5         5    5                                             5        5",
+    "note": ""
+  },
+  "comcra": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Kranich",
+    "row": "Kranich              Grus grus (I)                    I      12 000–12 500         Pa     (>)      3         3    3       3 900–4 200        33          3      3        3",
+    "note": ""
+  },
+  "litgre1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Zwergtaucher",
+    "row": "Zwergtaucher         Tachybaptus ruficollis           I      8 500–13 500         Rev.     =       0         5     0                                            5        5",
+    "note": ""
+  },
+  "rengre": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Rothalstaucher",
+    "row": "Rothalstaucher       Podiceps grisegena               I       1 600–2 300          Pa     (>)      5         5    0                                             5        0",
+    "note": ""
+  },
+  "grcgre1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Haubentaucher",
+    "row": "Haubentaucher        Podiceps cristatus               I      10 500–16 000         Pa     (>)      0         00   00                                            5        0",
+    "note": ""
+  },
+  "eargre": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Schwarzhalstaucher",
+    "row": "Schwarzhalstaucher   Podiceps nigricollis             I        430–900             Pa     [>]     00         00   00                                            0       00",
+    "note": ""
+  },
+  "chifla1": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon"
+    ],
+    "sourceDe": "Chileflamingo",
+    "row": "Chileflamingo         Phoenicopterus chilensis*       III         3–4               Bp              5         5     5",
+    "note": ""
+  },
+  "eutkne1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Triel",
+    "row": "Triel                 Burhinus oedicnemus (I)          I           1–2              Bp     (<)      –         –     4            1             71          –      –        5",
+    "note": ""
+  },
+  "euroys1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Austernfischer",
+    "row": "Austernfischer        Haematopus ostralegus            I     18 500–19 000          Pa     (>)      5         0    00                                             5        5",
+    "note": ""
+  },
+  "bkwsti": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Stelzenläufer",
+    "row": "Stelzenläufer         Himantopus himantopus (I)        I          15–25             Bp     [>]      –         –     3           6              31          3      –        3",
+    "note": ""
+  },
+  "pieavo1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Säbelschnäbler",
+    "row": "Säbelschnäbler        Recurvirostra avosetta (I)       I      3 900–4 300           Pa     (>)      0         0    00      3 600–4 100        94           0      0        0",
+    "note": ""
+  },
+  "norlap": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Kiebitz",
+    "row": "Kiebitz               Vanellus vanellus                I     49 000–77 000          Pa     (<)     00         00    0      18 500–19 500       31          5      0        0",
+    "note": ""
+  },
+  "corplo": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Sandregenpfeifer",
+    "row": "Sandregenpfeifer      Charadrius hiaticula             I       1 000–1 100          Pa     (<)      0         5    5         800–850           79          5      0        5",
+    "note": ""
+  },
+  "lirplo": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Flussregenpfeifer",
+    "row": "Flussregenpfeifer     Charadrius dubius                I      4 600–6 500           Pa      =       0         0    0                                              5        0",
+    "note": ""
+  },
+  "kenplo1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Seeregenpfeifer",
+    "row": "Seeregenpfeifer       Charadrius alexandrinus (I)      I          299               Pa     (<)      5         3    3           298            100          3      0        5",
+    "note": ""
+  },
+  "bktgod": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Uferschnepfe",
+    "row": "Uferschnepfe          Limosa limosa                    I      2 900–3 100           Pa     (<)     00         00   0       2 100–2 200         72          0     00       00",
+    "note": ""
+  },
+  "ruff": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Kampfläufer",
+    "row": "Kampfläufer           Calidris pugnax (I)              I         15–30              Bp     (<)      0         00   4          15–30           100          4     00       5",
+    "note": ""
+  },
+  "dunlin": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Alpenstrandläufer",
+    "row": "Alpenstrandläufer     Calidris alpina (I)              I          4–5               Pa     (<)     00         00   4           4–5            100          4     00       00",
+    "note": ""
+  },
+  "eurwoo": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Waldschnepfe",
+    "row": "Waldschnepfe          Scolopax rusticola               I     20 000–39 000         Rev.    (<)      5         ?     ?                                             5        ?",
+    "note": ""
+  },
+  "comsni": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Bekassine",
+    "row": "Bekassine             Gallinago gallinago              I      2 600–3 900          Rev.    (<)     00         00   00      2 500–2 800         83          0      0       00",
+    "note": ""
+  },
+  "comsan": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Flussuferläufer",
+    "row": "Flussuferläufer       Actitis hypoleucos               I        150–220             Pa     (<)      5         0    00        120–160           76          0     00       0",
+    "note": ""
+  },
+  "grnsan": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Waldwasserläufer",
+    "row": "Waldwasserläufer      Tringa ochropus                  I       1 000–1 300          Pa     (>)      –         5     ?                                             5       5",
+    "note": ""
+  },
+  "comred1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Rotschenkel",
+    "row": "Rotschenkel           Tringa totanus                   I      11 000–11 500         Pa     (<)      5         5    5       8 500–9 500        80           5      0       5",
+    "note": ""
+  },
+  "woosan": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Bruchwasserläufer",
+    "row": "Bruchwasserläufer     Tringa glareola (I)              I           1–2              Pa     (<)      4         4    4            1–2           100          4      –        –",
+    "note": ""
+  },
+  "bklkit": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Dreizehenmöwe",
+    "row": "Dreizehenmöwe         Rissa tridactyla                 I          2 463             Bp     [>]      3         00   00          2 463          100          00     5        5",
+    "note": ""
+  },
+  "bkhgul": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Lachmöwe",
+    "row": "Lachmöwe              Chroicocephalus ridibundus       I     110 000–135 000        Pa      =       5         5    5                                              5        5",
+    "note": ""
+  },
+  "litgul": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Zwergmöwe",
+    "row": "Zwergmöwe             Hydrocoloeus minutus (I)         I           0                Bp     [>]      4          4    4           0                          4      –        –",
+    "note": ""
+  },
+  "mewgul": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Sturmmöwe",
+    "row": "Sturmmöwe             Larus canus                      I     16 500–18 000          Pa     (>)      5         5    0                                              5        5",
+    "note": ""
+  },
+  "gbbgul": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Mantelmöwe",
+    "row": "Mantelmöwe            Larus marinus                    I        160–200             Pa     [>]      3         3    3         150–190          94           3      3        3",
+    "note": ""
+  },
+  "euhgul1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Silbermöwe",
+    "row": "Silbermöwe             Larus argentatus                 I     22 000–24 000        Pa     (<)      0         0    0                                              5        5",
+    "note": ""
+  },
+  "casgul2": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Steppenmöwe",
+    "row": "Steppenmöwe            Larus cachinnans                 I      1 100–1 600         Bp     [>]      3         3    3                                              3        3",
+    "note": ""
+  },
+  "yelgul1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Mittelmeermöwe",
+    "row": "Mittelmeermöwe         Larus michahellis                I       300–380            Bp     [>]      3         3    3                                              3        3",
+    "note": ""
+  },
+  "lbbgul": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Heringsmöwe",
+    "row": "Heringsmöwe            Larus fuscus                     I     38 000–41 000        Pa     [>]      3         3    3                                              3        3",
+    "note": ""
+  },
+  "gubter2": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Lachseeschwalbe",
+    "row": "Lachseeschwalbe        Gelochelidon nilotica (I)        I          43              Pa     (<)      5         3    3            43            100          3      5        5",
+    "note": ""
+  },
+  "santer1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Brandseeschwalbe",
+    "row": "Brandseeschwalbe       Thalasseus sandvicensis (I)      I     10 200–10 400        Pa     (<)      3         0    3       10 200–10 400      100          3      5        5",
+    "note": ""
+  },
+  "litter1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Zwergseeschwalbe",
+    "row": "Zwergseeschwalbe       Sternula albifrons (I)           I       550–700            Pa     (<)      5         0    5         500–650           92          5      0        0",
+    "note": ""
+  },
+  "comter": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Flussseeschwalbe",
+    "row": "Flussseeschwalbe       Sterna hirundo (I)               I      7 500–9 000         Pa     (<)      5         0    5       5 000–6 500        69           0      5       5",
+    "note": ""
+  },
+  "arcter": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Küstenseeschwalbe",
+    "row": "Küstenseeschwalbe      Sterna paradisaea (I)            I      2 900–3 300         Pa     (<)      0         00   0       2 900–3 300        100          0      5       0",
+    "note": ""
+  },
+  "whwter": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Weißflügel-",
+    "row": "Weißflügel-            Chlidonias leucopterus           I         0–10             Pa     [>]      –          4   4                                              3       00",
+    "note": ""
+  },
+  "blkter": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Trauerseeschwalbe",
+    "row": "Trauerseeschwalbe      Chlidonias niger (I)             I       700–950            Pa     (<)      5         5    00        550–650           70          0      0        5",
+    "note": ""
+  },
+  "commur": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Trottellumme",
+    "row": "Trottellumme           Uria aalge                       I         4 007            Bp     (>)      3         3     3          4 007          100          3      5        5",
+    "note": ""
+  },
+  "razorb": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Tordalk",
+    "row": "Tordalk                Alca torda                       I          74              Bp     (>)      3         3    3            74            100          3      5        5",
+    "note": ""
+  },
+  "norful": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Eissturmvogel",
+    "row": "Eissturmvogel          Fulmarus glacialis               I          23              Bp     [>]      3         00   00           23            100          00     5        5",
+    "note": ""
+  },
+  "blasto1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Schwarzstorch",
+    "row": "Schwarzstorch          Ciconia nigra (I)                I       800–900            Pa     (>)      3         3    3         140–220           21          0      3        3",
+    "note": ""
+  },
+  "whisto1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Weißstorch",
+    "row": "Weißstorch             Ciconia ciconia (I)              I     9 600–10 600        Bp2     (<)      3         3    3       3 700–3 900         38          3      3        3",
+    "note": ""
+  },
+  "norgan": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Basstölpel",
+    "row": "Basstölpel             Morus bassanus                   I         1485             Bp     [>]      3         3    3           1485           100          3      5        5",
+    "note": ""
+  },
+  "grecor": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Kormoran",
+    "row": "Kormoran               Phalacrocorax carbo              I     23 000–28 000        Bp     (>)      3         3    3                                              3        3",
+    "note": ""
+  },
+  "eurspo1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Löffler",
+    "row": "Löffler                Platalea leucorodia (I)          I      1 190–1 192         Bp     [>]      3         3    3        1 190–1 192       100          3      3        3",
+    "note": ""
+  },
+  "grebit1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Rohrdommel",
+    "row": "Rohrdommel             Botaurus stellaris (I)           I           –             Rev.    (<)      5         3    4            –              –           4      5        5",
+    "note": ""
+  },
+  "litbit1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Zwergdommel",
+    "row": "Zwergdommel            Ixobrychus minutus (I)           I       210–360           Rev.    (<)      3         3    3         180–250           77          3      5        5",
+    "note": ""
+  },
+  "bcnher": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Nachtreiher",
+    "row": "Nachtreiher            Nycticorax nycticorax (I)        I        45–50             Bp     (<)      3         3    3          15–20            37          3      3        3",
+    "note": ""
+  },
+  "graher1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Graureiher",
+    "row": "Graureiher             Ardea cinerea                    I     22 000–24 000        Bp      =       2         1    2                                              5        3",
+    "note": ""
+  },
+  "purher1": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Purpurreiher",
+    "row": "Purpurreiher           Ardea purpurea (I)               I        80–120            Bp     (>)      3         3    3          80–100           91          3      5        3",
+    "note": ""
+  },
+  "greegr": {
+    "status": [
+      "Brutvogel",
+      "Rastvogel"
+    ],
+    "sourceDe": "Silberreiher",
+    "row": "Silberreiher           Ardea alba (I)                   I         12–34            Bp     [>]      –         –    3            0              0           –      –        3",
+    "note": ""
+  },
+  "euhbuz1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Wespenbussard",
+    "row": "Wespenbussard     Pernis apivorus (I)            I      4 200–6 000          Pa      =       5         5    5        1 200–1 500        27          5      5        0",
+    "note": ""
+  },
+  "leseag1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Schreiadler",
+    "row": "Schreiadler       Clanga pomarina (I)            I        130–140            Pa     (<)      5         5    3          80–110           70          3      5        3",
+    "note": ""
+  },
+  "goleag": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Steinadler",
+    "row": "Steinadler        Aquila chrysaetos (I)          I         44–46             Pa     (>)      5         5    5          31–33            71          5      5       3",
+    "note": ""
+  },
+  "eurspa1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Sperber",
+    "row": "Sperber           Accipiter nisus                I     23 000–35 000        Rev.     =       –         0    5                                              5       5",
+    "note": ""
+  },
+  "norgos1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Habicht",
+    "row": "Habicht           Accipiter gentilis             I     10 000–14 500        Rev.     =       5         0    0                                              5       5",
+    "note": ""
+  },
+  "wemhar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Rohrweihe",
+    "row": "Rohrweihe         Circus aeruginosus (I)         I      6 500–8 500          Pa      =       5         0    0       1 400–1 600         20          0      5       5",
+    "note": ""
+  },
+  "norhar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Kornweihe",
+    "row": "Kornweihe         Circus cyaneus (I)             I          5–10             Bp     (<)     00         00   00          5–9             95          00    00       00",
+    "note": ""
+  },
+  "monhar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Wiesenweihe",
+    "row": "Wiesenweihe       Circus pygargus (I)            I        400–550            Pa     (<)      3         3    5         240–270           54          5      5        3",
+    "note": ""
+  },
+  "redkit1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Rotmilan",
+    "row": "Rotmilan          Milvus milvus (I)              I     14 500–22 000         Pa      =       5         3    3       3 100–3 500         18          3      5        5",
+    "note": ""
+  },
+  "blakit1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Schwarzmilan",
+    "row": "Schwarzmilan      Milvus migrans (I)             I      7 000–10 500         Pa      =       5         3    3       2 400–2 700         30          3      3        5",
+    "note": ""
+  },
+  "whteag": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Seeadler",
+    "row": "Seeadler          Haliaeetus albicilla (I)       I         1 100             Pa     (>)      3         3    3         400–480          40           3      3        3",
+    "note": ""
+  },
+  "combuz1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Mäusebussard",
+    "row": "Mäusebussard      Buteo buteo                    I     79 000–135 000       Rev.     =       5         0    5                                              5        5",
+    "note": ""
+  },
+  "webowl1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Schleiereule",
+    "row": "Schleiereule      Tyto alba                      I     14 500–26 000        Rev.    (<)      5         4    4                                              5        0",
+    "note": ""
+  },
+  "eursco1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Zwergohreule",
+    "row": "Zwergohreule      Otus scops*                    I          1–5              Bp     [>]      –         –    4                                              –        3",
+    "note": ""
+  },
+  "eueowl1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Uhu",
+    "row": "Uhu               Bubo bubo (I)                  I      4 000–4 600          Pa      =       3         3    3         550–650           14          3      3        3",
+    "note": ""
+  },
+  "tawowl1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Waldkauz",
+    "row": "Waldkauz          Strix aluco                    I     42 000–74 000        Rev.     =       5         5    5                                              5        5",
+    "note": ""
+  },
+  "uraowl1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Habichtskauz x",
+    "row": "Habichtskauz x    Strix uralensis (I)            I         20–25            Rev.    (>)      –         3    3           13–17          66           3      5        3",
+    "note": ""
+  },
+  "eupowl1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Sperlingskauz",
+    "row": "Sperlingskauz     Glaucidium passerinum (I)      I      4 000–7 000         Rev.    (>)      3         3    3       1 400–1 600         28          3      3        5",
+    "note": ""
+  },
+  "litowl1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Steinkauz",
+    "row": "Steinkauz         Athene noctua                  I      7 500–8 000         Rev.    (<)      5         3    5                                              5        3",
+    "note": ""
+  },
+  "borowl": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Raufußkauz",
+    "row": "Raufußkauz        Aegolius funereus (I)          I      2 800–5 000         Rev.    (>)      5         0    0        1 100–1 600        35          0      5        5",
+    "note": ""
+  },
+  "loeowl": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Waldohreule",
+    "row": "Waldohreule       Asio otus                      I     23 000–38 000        Rev.     =       5         5    0                                              5        5",
+    "note": ""
+  },
+  "sheowl": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Sumpfohreule",
+    "row": "Sumpfohreule      Asio flammeus (I)              I        40–180            Rev.    (<)      5         4    4          70–80           88           00     0        3",
+    "note": ""
+  },
+  "hoopoe": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Wiedehopf",
+    "row": "Wiedehopf         Upupa epops                    I      1 800–2 300         Rev.    (<)      3         3    3         750–800           38          3      3        3",
+    "note": ""
+  },
+  "comkin1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Eisvogel",
+    "row": "Eisvogel          Alcedo atthis (I)              I      9 500–15 500        Rev.     =       5         5    5        2 100–2 500        19          5      3        5",
+    "note": ""
+  },
+  "eubeat1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Bienenfresser",
+    "row": "Bienenfresser     Merops apiaster                I      4 700–6 000          Pa     (>)      3         3    3                                              3        3",
+    "note": ""
+  },
+  "eurwry": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Wendehals",
+    "row": "Wendehals         Jynx torquilla                 I     10 500–19 500        Rev.    (<)      0         5    3       2 500–3 500         21          3      5        5",
+    "note": ""
+  },
+  "ettwoo1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Dreizehenspecht",
+    "row": "Dreizehenspecht   Picoides tridactylus (I)       I      1 000–1 500         Rev.     =       –         3    3         850–950           73          3      5        3",
+    "note": ""
+  },
+  "miswoo1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Mittelspecht",
+    "row": "Mittelspecht      Dendrocoptes medius (I)        I     37 000–66 000        Rev.    (>)      3         3    3       16 500–18 500       35          3      3        3",
+    "note": ""
+  },
+  "leswoo1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Kleinspecht",
+    "row": "Kleinspecht       Dryobates minor                I     37 000–60 000        Rev.    (<)      5         3    3                                              5        5",
+    "note": ""
+  },
+  "grswoo": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Buntspecht",
+    "row": "Buntspecht           Dendrocopos major             I     950 000–1,25 Mio.     Rev.    (>)      3         3    3                                              5        5",
+    "note": ""
+  },
+  "whbwoo1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Weißrückenspecht",
+    "row": "Weißrückenspecht     Dendrocopos leucotos (I)      I         500–700           Rev.    (<)      –         5    5         400–470           73          5      5        5",
+    "note": ""
+  },
+  "blawoo1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Schwarzspecht",
+    "row": "Schwarzspecht        Dryocopus martius (I)         I      43 000–67 000        Rev.    (>)      5         3    3       7 500–9 000         15          3      5        5",
+    "note": ""
+  },
+  "eugwoo2": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Grünspecht",
+    "row": "Grünspecht           Picus viridis                 I     69 000–125 000        Rev.     =       3         3    3                                              5        5",
+    "note": ""
+  },
+  "gyfwoo1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Grauspecht",
+    "row": "Grauspecht           Picus canus (I)               I      16 500–25 000        Rev.    (<)      5         3    3            –              –           –      5        5",
+    "note": ""
+  },
+  "eurkes": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Turmfalke",
+    "row": "Turmfalke            Falco tinnunculus             I     80 000–135 000        Rev.     =       3         3    3                                              5        5",
+    "note": ""
+  },
+  "eurhob": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Baumfalke",
+    "row": "Baumfalke            Falco subbuteo                I       5 000–6 500          Pa     (<)      5         3    4                                              5        5",
+    "note": ""
+  },
+  "perfal": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Wanderfalke",
+    "row": "Wanderfalke          Falco peregrinus (I)          I       1 600–1 800          Pa      =       3         3    3           550             32          3      3        3",
+    "note": ""
+  },
+  "yehpar": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon"
+    ],
+    "sourceDe": "Gelbkopfamazone",
+    "row": "Gelbkopfamazone      Amazona oratrix*             III         50–60            Ind.             –         3    3",
+    "note": ""
+  },
+  "alepar2": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon"
+    ],
+    "sourceDe": "Alexandersittich",
+    "row": "Alexandersittich     Psittacula eupatria*         III        380–500            Bp              3         3    3",
+    "note": ""
+  },
+  "rorpar": {
+    "status": [
+      "Brutvogel",
+      "Etabliertes Neozoon"
+    ],
+    "sourceDe": "Halsbandsittich",
+    "row": "Halsbandsittich      Psittacula krameri*          III      4 600–7 500          Bp              3         3    3",
+    "note": ""
+  },
+  "rebshr1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Neuntöter",
+    "row": "Neuntöter            Lanius collurio (I)           I     115 000–200 000       Rev.    (<)      5         5    3       31 000–35 000       22          5      5        5",
+    "note": ""
+  },
+  "norshr1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Raubwürger",
+    "row": "Raubwürger           Lanius excubitor              I       1 800–2 700          Pa     (<)      0         0    0         490–600           25          5      0       00",
+    "note": ""
+  },
+  "eugori2": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Pirol",
+    "row": "Pirol                Oriolus oriolus               I      39 000–70 000        Rev.    (<)      5         3    3                                              5       5",
+    "note": ""
+  },
+  "eurjay1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Eichelhäher",
+    "row": "Eichelhäher          Garrulus glandarius           I     520 000–700 000       Rev.     =       5         2    5                                              5       5",
+    "note": ""
+  },
+  "eurmag1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Elster",
+    "row": "Elster               Pica pica                     I     410 000–610 000       Rev.     =       5         5    2                                              5       5",
+    "note": ""
+  },
+  "eurnut3": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Tannenhäher",
+    "row": "Tannenhäher          Nucifraga caryocatactes       I       3 600–6 500         Rev.     =       5         0    0                                              5       0",
+    "note": ""
+  },
+  "yebcho1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Alpendohle",
+    "row": "Alpendohle           Pyrrhocorax graculus          I            –              Rev.     =       –         –     –                                             5       5",
+    "note": ""
+  },
+  "eurjac": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Dohle",
+    "row": "Dohle                Coloeus monedula              I     130 000–220 000        Pa      =       3         3    3                                              5       5",
+    "note": ""
+  },
+  "rook1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Saatkrähe",
+    "row": "Saatkrähe            Corvus frugilegus             I     140 000–155 000        Bp      =       3         3    3                                              3       3",
+    "note": ""
+  },
+  "carcro1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Rabenkrähe",
+    "row": "Rabenkrähe           Corvus corone                 I      740 000–1 Mio.       Rev.    (>)      3         3    3                                              5       5",
+    "note": ""
+  },
+  "hoocro1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Nebelkrähe",
+    "row": "Nebelkrähe           Corvus cornix                 I      61 000–85 000        Rev.    (>)      5         3    3                                              5       5",
+    "note": ""
+  },
+  "comrav": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Kolkrabe",
+    "row": "Kolkrabe             Corvus corax                  I      21 000–30 000         Pa     (>)      3         3    3                                              3       3",
+    "note": ""
+  },
+  "coatit2": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Tannenmeise",
+    "row": "Tannenmeise          Periparus ater                I        1–1,45 Mio.        Rev.    (>)      5         1    0                                              5       5",
+    "note": ""
+  },
+  "cretit2": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Haubenmeise",
+    "row": "Haubenmeise          Lophophanes cristatus         I     330 000–520 000       Rev.    (>)      5         2     5                                             5       5",
+    "note": ""
+  },
+  "martit2": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Sumpfmeise",
+    "row": "Sumpfmeise           Poecile palustris             I     430 000–560 000       Rev.     =       5         2     5                                             5       5",
+    "note": ""
+  },
+  "wiltit1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Weidenmeise",
+    "row": "Weidenmeise          Poecile montanus              I      61 000–115 000       Rev.     =       0         0     0                                             5       5",
+    "note": ""
+  },
+  "blutit": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Blaumeise",
+    "row": "Blaumeise            Cyanistes caeruleus           I       3,55–5,3 Mio.       Rev.    (>)      5         3    3                                              5       5",
+    "note": ""
+  },
+  "gretit1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Kohlmeise",
+    "row": "Kohlmeise            Parus major                   I        6–7,45 Mio.        Rev.    (>)      5         3    3                                              5       5",
+    "note": ""
+  },
+  "euptit1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Beutelmeise",
+    "row": "Beutelmeise          Remiz pendulinus              I       1 400–2 400         Rev.    [>]      0         00   00                                             0       00",
+    "note": ""
+  },
+  "bearee1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Bartmeise",
+    "row": "Bartmeise            Panurus biarmicus             I       3 400–6 500         Rev.    (>)      3         3    5                                              3       3",
+    "note": ""
+  },
+  "woolar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Heidelerche",
+    "row": "Heidelerche          Lullula arborea (I)             I       41 000–71 000        Rev.    (<)      5         3    3          15 000           28          3     5        3",
+    "note": ""
+  },
+  "skylar": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Feldlerche",
+    "row": "Feldlerche           Alauda arvensis                 I        1,2–1,9 Mio.        Rev.    (<)      0         0    1                                             5        5",
+    "note": ""
+  },
+  "crelar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Haubenlerche",
+    "row": "Haubenlerche         Galerida cristata               I        2 300–3 700         Rev.    (<)     00         00   00                                            00       00",
+    "note": ""
+  },
+  "banswa": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Uferschwalbe",
+    "row": "Uferschwalbe         Riparia riparia                 I      105 000–165 000        Pa     (<)      5         5    5                                             5        5",
+    "note": ""
+  },
+  "barswa": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Rauchschwalbe",
+    "row": "Rauchschwalbe        Hirundo rustica                 I       530 000–1 Mio.       Rev.    (<)      5         2     3                                             5       5",
+    "note": ""
+  },
+  "eurcrm1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Felsenschwalbe",
+    "row": "Felsenschwalbe       Ptyonoprogne rupestris          I          90–140             Pa     (>)      3         3    3          40–60            44          3     3        3",
+    "note": ""
+  },
+  "comhom1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Mehlschwalbe",
+    "row": "Mehlschwalbe         Delichon urbicum                I      415 000–770 000       Rev.    (<)      0         0    0                                             5        5",
+    "note": ""
+  },
+  "cetwar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Seidensänger",
+    "row": "Seidensänger         Cettia cetti                    I           14–18             Bp     [>]      –         –    3                                              –       3",
+    "note": ""
+  },
+  "lottit1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Schwanzmeise",
+    "row": "Schwanzmeise         Aegithalos caudatus             I      76 000–140 000        Rev.     =       5         5    0                                              5       5",
+    "note": ""
+  },
+  "woowar": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Waldlaubsänger",
+    "row": "Waldlaubsänger       Phylloscopus sibilatrix         I      99 000–185 000        Rev.     =       0         1    0                                              5       5",
+    "note": ""
+  },
+  "webwar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Berglaubsänger",
+    "row": "Berglaubsänger       Phylloscopus bonelli            I        2 500–3 500         Rev.     =       5         5    5       2 400–2 600        84           5      5       5",
+    "note": ""
+  },
+  "wlwwar": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Fitis",
+    "row": "Fitis                Phylloscopus trochilus          I      740 000–1,15 Mio.     Rev.     =       0         0    0                                              5       5",
+    "note": ""
+  },
+  "comchi1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Zilpzalp",
+    "row": "Zilpzalp             Phylloscopus collybita          I        3,15–4,3 Mio.       Rev.    (>)      5         3    3                                              5       5",
+    "note": ""
+  },
+  "grewar3": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Grünlaubsänger",
+    "row": "Grünlaubsänger       Phylloscopus trochiloides       I            3–20            Rev.    [>]      3         3    5                                              5       5",
+    "note": ""
+  },
+  "grrwar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Drosselrohrsänger",
+    "row": "Drosselrohrsänger    Acrocephalus arundinaceus       I       14 000–23 000        Rev.    (<)      3         3     3                                             5       5",
+    "note": ""
+  },
+  "aquwar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Seggenrohrsänger x",
+    "row": "Seggenrohrsänger x   Acrocephalus paludicola (I)     I             0              Rev.    (<)     00         00   00           0                          00    00        –",
+    "note": ""
+  },
+  "eurwar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Teichrohrsänger",
+    "row": "Teichrohrsänger      Acrocephalus scirpaceus         I      99 000–160 000        Rev.    (<)      3         5    1                                              5        5",
+    "note": ""
+  },
+  "marwar3": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Sumpfrohrsänger",
+    "row": "Sumpfrohrsänger      Acrocephalus palustris          I      315 000–455 000       Rev.    (>)      0         0    0                                              5        5",
+    "note": ""
+  },
+  "melwar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Orpheusspötter",
+    "row": "Orpheusspötter       Hippolais polyglotta            I         850–1 700          Rev.    [>]      3         3    3         120–180           12          3      3        3",
+    "note": ""
+  },
+  "ictwar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Gelbspötter",
+    "row": "Gelbspötter          Hippolais icterina              I      92 000–140 000        Rev.     =       0         0    0                                              0        0",
+    "note": ""
+  },
+  "cogwar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Feldschwirl",
+    "row": "Feldschwirl          Locustella naevia               I       23 000–40 000        Rev.    (<)     00         00   00                                             5        5",
+    "note": ""
+  },
+  "eurwar2": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Schlagschwirl",
+    "row": "Schlagschwirl        Locustella fluviatilis          I        2 800–5 000         Rev.    (>)      5         0    00                                             5        0",
+    "note": ""
+  },
+  "savwar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Rohrschwirl",
+    "row": "Rohrschwirl          Locustella luscinioides         I       6 000–10 500         Rev.    (>)      5         5    5                                              5        5",
+    "note": ""
+  },
+  "blackc1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Mönchsgrasmücke",
+    "row": "Mönchsgrasmücke      Sylvia atricapilla              I        4,5–5,95 Mio.       Rev.    (>)      3         3    3                                              5        5",
+    "note": ""
+  },
+  "garwar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Gartengrasmücke",
+    "row": "Gartengrasmücke      Sylvia borin                    I      570 000–820 000       Rev.     =       0         0    00                                             5        5",
+    "note": ""
+  },
+  "barwar1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Sperbergrasmücke",
+    "row": "Sperbergrasmücke     Sylvia nisoria (I)              I        3 800–6 500         Rev.    (<)      0         0    00      2 600–3 000         56          0      5        5",
+    "note": ""
+  },
+  "leswhi4": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Klappergrasmücke",
+    "row": "Klappergrasmücke     Sylvia curruca                  I      200 000–330 000       Rev.    (<)      5         5    5                                              5        5",
+    "note": ""
+  },
+  "grewhi1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Dorngrasmücke",
+    "row": "Dorngrasmücke        Sylvia communis                 I      560 000–890 000       Rev.    (<)      5         3    3                                              5        5",
+    "note": ""
+  },
+  "firecr1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Sommergoldhähnchen",
+    "row": "Sommergoldhähnchen   Regulus ignicapilla             I        1,45–2,1 Mio.       Rev.    (>)      5         5    3                                              5        5",
+    "note": ""
+  },
+  "goldcr1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Wintergoldhähnchen",
+    "row": "Wintergoldhähnchen   Regulus regulus              I     750 000–1,1 Mio.       Rev.    (>)      0         00   00                                            5        5",
+    "note": ""
+  },
+  "winwre4": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Zaunkönig",
+    "row": "Zaunkönig            Troglodytes troglodytes      I        4–4,75 Mio.         Rev.     =       3         1     3                                            5        5",
+    "note": ""
+  },
+  "eurnut2": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Kleiber",
+    "row": "Kleiber              Sitta europaea               I       1,35–1,85 Mio.       Rev.    (>)      3         3    3                                             5        5",
+    "note": ""
+  },
+  "wallcr1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Mauerläufer",
+    "row": "Mauerläufer          Tichodroma muraria           I          80–120            Rev.     =       5         5    5                                             5        5",
+    "note": ""
+  },
+  "eurtre1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Waldbaumläufer",
+    "row": "Waldbaumläufer       Certhia familiaris           I     365 000–630 000        Rev.     =       3         3     3                                            5        5",
+    "note": ""
+  },
+  "shttre1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Gartenbaumläufer",
+    "row": "Gartenbaumläufer     Certhia brachydactyla        I     560 000–770 000        Rev.     =       3         3     3                                            5        5",
+    "note": ""
+  },
+  "eursta": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Star",
+    "row": "Star                 Sturnus vulgaris             I       3,5–4,8 Mio.         Rev.    (<)      0         0    3                                             5        5",
+    "note": ""
+  },
+  "rinouz1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Ringdrossel",
+    "row": "Ringdrossel          Turdus torquatus             I       2 500–4 600          Rev.     =       5         5    5                                             5        5",
+    "note": ""
+  },
+  "eurbla": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Amsel",
+    "row": "Amsel                Turdus merula                I       7,65–9,3 Mio.        Rev.    (>)      5         2    2                                             5        5",
+    "note": ""
+  },
+  "fieldf": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Wacholderdrossel",
+    "row": "Wacholderdrossel     Turdus pilaris               I      64 000–125 000        Rev.    (>)      0         0    00                                            0        0",
+    "note": ""
+  },
+  "sonthr1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Singdrossel",
+    "row": "Singdrossel          Turdus philomelos            I        1,7–2,1 Mio.        Rev.     =       5         2    3                                             5       5",
+    "note": ""
+  },
+  "misthr1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Misteldrossel",
+    "row": "Misteldrossel        Turdus viscivorus            I     175 000–345 000        Rev.    (>)      5         2    3                                             5       5",
+    "note": ""
+  },
+  "spofly1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Grauschnäpper",
+    "row": "Grauschnäpper        Muscicapa striata            I     175 000–260 000        Rev.    (<)      5         0    5                                             5       5",
+    "note": ""
+  },
+  "eurrob1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Rotkehlchen",
+    "row": "Rotkehlchen          Erithacus rubecula           I       4,1–5,25 Mio.        Rev.     =       5         3    3                                             5       5",
+    "note": ""
+  },
+  "blueth": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Blaukehlchen",
+    "row": "Blaukehlchen         Luscinia svecica (I)         I      29 000–50 000         Rev.    (<)      3         3    3       9 500–10 000       26          3      3       3",
+    "note": ""
+  },
+  "thrnig1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Sprosser",
+    "row": "Sprosser             Luscinia luscinia            I             –              Rev.    (>)      –         –     –                                            –       0",
+    "note": ""
+  },
+  "comnig1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Nachtigall",
+    "row": "Nachtigall           Luscinia megarhynchos        I     87 000–160 000         Rev.     =       3         3    3                                             5       5",
+    "note": ""
+  },
+  "eupfly1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Trauerschnäpper",
+    "row": "Trauerschnäpper      Ficedula hypoleuca           I      70 000–135 000        Rev.    (<)      5         1    5                                             5       5",
+    "note": ""
+  },
+  "colfly1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Halsbandschnäpper",
+    "row": "Halsbandschnäpper    Ficedula albicollis (I)      I       3 000–6 000          Rev.    (<)      5         5    5            –             –           –      0       5",
+    "note": ""
+  },
+  "rebfly": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Zwergschnäpper",
+    "row": "Zwergschnäpper       Ficedula parva (I)           I             –              Rev.     =       –         –     –           –             –           –      5       5",
+    "note": ""
+  },
+  "blared1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Hausrotschwanz",
+    "row": "Hausrotschwanz       Phoenicurus ochruros         I     840 000–1,15 Mio.      Rev.    (>)      5         5    5                                             5       5",
+    "note": ""
+  },
+  "comred2": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Gartenrotschwanz",
+    "row": "Gartenrotschwanz     Phoenicurus phoenicurus      I     110 000–190 000        Rev.    (<)      3         3    3                                             5       5",
+    "note": ""
+  },
+  "rtrthr1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Steinrötel",
+    "row": "Steinrötel           Monticola saxatilis          I            1–3             Rev.    (<)      –          4    4          1–3           100          4      –       5",
+    "note": ""
+  },
+  "whinch1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Braunkehlchen",
+    "row": "Braunkehlchen        Saxicola rubetra             I      19 000–34 000         Rev.    (<)      0         00   00      6 500–7 500        27          0      0       00",
+    "note": ""
+  },
+  "stonec4": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Schwarzkehlchen",
+    "row": "Schwarzkehlchen      Saxicola rubicola            I      26 000–46 000         Rev.    (<)      3         3    3                                             3       3",
+    "note": ""
+  },
+  "norwhe": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Steinschmätzer",
+    "row": "Steinschmätzer       Oenanthe oenanthe            I       2 300–3 500          Rev.    (<)     00         00   00      1 000–1 200        39          5     00       00",
+    "note": ""
+  },
+  "whtdip1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Wasseramsel",
+    "row": "Wasseramsel          Cinclus cinclus              I       8 000–14 500         Rev.     =       5         5    0                                             5       5",
+    "note": ""
+  },
+  "houspa": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Haussperling",
+    "row": "Haussperling         Passer domesticus            I      4,45–6,45 Mio.        Rev.    (<)      5         3    3                                             5       5",
+    "note": ""
+  },
+  "eutspa": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Feldsperling",
+    "row": "Feldsperling         Passer montanus              I     690 000–1,05 Mio.      Rev.    (<)      0         5    0                                             5       5",
+    "note": ""
+  },
+  "whwsno1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Schneesperling",
+    "row": "Schneesperling       Montifringilla nivalis       I         140–270            Rev.     =       5         5    5                                             5        5",
+    "note": ""
+  },
+  "alpacc1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Alpenbraunelle",
+    "row": "Alpenbraunelle       Prunella collaris            I        600–1 000           Rev.     =       –         –     –        580–935          95          –      5        5",
+    "note": ""
+  },
+  "dunnoc1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Heckenbraunelle",
+    "row": "Heckenbraunelle      Prunella modularis           I       1,15–1,55 Mio.       Rev.    (>)      5         1    0                                             5        5",
+    "note": ""
+  },
+  "eaywag1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Wiesenschafstelze",
+    "row": "Wiesenschafstelze    Motacilla flava              I      98 000–185 000        Rev.     =       5         0    0                                             5        5",
+    "note": ""
+  },
+  "grywag": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Gebirgsstelze",
+    "row": "Gebirgsstelze          Motacilla cinerea             I       37 000–65 000        Rev.    (>)      5         5    5                                             5       5",
+    "note": ""
+  },
+  "whiwag": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Bachstelze",
+    "row": "Bachstelze             Motacilla alba                I      395 000–570 000       Rev.    (>)      0         0     0                                            5       5",
+    "note": ""
+  },
+  "tawpip1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Brachpieper",
+    "row": "Brachpieper            Anthus campestris (I)         I          310–500           Rev.    (<)     00         00   00        90–210           26          00     0       0",
+    "note": ""
+  },
+  "meapip1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Wiesenpieper",
+    "row": "Wiesenpieper           Anthus pratensis              I       37 000–59 000        Rev.    (<)     00         0    5                                             0       00",
+    "note": ""
+  },
+  "trepip": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Baumpieper",
+    "row": "Baumpieper             Anthus trivialis              I      255 000–360 000       Rev.    (<)      0         0    5                                             5       5",
+    "note": ""
+  },
+  "watpip1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Bergpieper",
+    "row": "Bergpieper             Anthus spinoletta             I        1 600–1 800         Rev.     =       5         5    5       1 300–1 500        82          5      5       5",
+    "note": ""
+  },
+  "comcha": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Buchfink",
+    "row": "Buchfink               Fringilla coelebs             I        6,8–8,15 Mio.       Rev.    (>)      5         1    1                                             5        5",
+    "note": ""
+  },
+  "eurbul": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Gimpel",
+    "row": "Gimpel                 Pyrrhula pyrrhula             I      140 000–270 000       Rev.    (>)      3         3    3                                             5        5",
+    "note": ""
+  },
+  "comros": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Karmingimpel",
+    "row": "Karmingimpel           Carpodacus erythrinus         I             –              Rev.    [>]      –         –     –                                            5        0",
+    "note": ""
+  },
+  "eurgre1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Grünfink",
+    "row": "Grünfink               Chloris chloris               I        1,05–1,5 Mio.       Rev.    (>)      0         0    00                                            5        5",
+    "note": ""
+  },
+  "eurlin1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Bluthänfling",
+    "row": "Bluthänfling           Linaria cannabina             I      155 000–295 000       Rev.    (<)      0         0    3                                             5        5",
+    "note": ""
+  },
+  "redpol1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Alpenbirkenzeisig",
+    "row": "Alpenbirkenzeisig      Acanthis cabaret              I        3 900–6 500         Rev.    (>)      0         0    00                                            5        0",
+    "note": ""
+  },
+  "redcro": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Fichtenkreuzschnabel",
+    "row": "Fichtenkreuzschnabel   Loxia curvirostra             I       13 000–34 000        Rev.    (>)      –         4    00                                            5        5",
+    "note": ""
+  },
+  "eurgol": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Stieglitz",
+    "row": "Stieglitz              Carduelis carduelis           I      550 000–820 000       Rev.     =       3         2    3                                             5        5",
+    "note": ""
+  },
+  "citfin1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Zitronenzeisig",
+    "row": "Zitronenzeisig         Carduelis citrinella          I             –              Rev.    (<)      –         –     –           –             –           –      5        5",
+    "note": ""
+  },
+  "eurser1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Girlitz",
+    "row": "Girlitz                Serinus serinus               I      48 000–96 000         Rev.    (>)     00         00   00                                            5        0",
+    "note": ""
+  },
+  "eursis": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Erlenzeisig",
+    "row": "Erlenzeisig            Spinus spinus                 I       22 000–53 000        Rev.    (>)      –         5    5                                             5        5",
+    "note": ""
+  },
+  "corbun1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Grauammer",
+    "row": "Grauammer              Emberiza calandra             I       35 000–62 000        Rev.    (<)      5         3     3      9 500–10 500       21          3      0        5",
+    "note": ""
+  },
+  "yellow2": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Goldammer",
+    "row": "Goldammer              Emberiza citrinella           I        1,05–1,6 Mio.       Rev.    (<)      5         1    0                                             5        5",
+    "note": ""
+  },
+  "rocbun1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Zippammer",
+    "row": "Zippammer              Emberiza cia                  I         480–500            Rev.    (<)      5         5     0           –             –           –      0        5",
+    "note": ""
+  },
+  "ortbun1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Ortolan",
+    "row": "Ortolan                Emberiza hortulana (I)        I       8 500–13 500         Rev.    (<)      0         0     0      2 100–2 300        21          0      0        0",
+    "note": ""
+  },
+  "cirbun1": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Zaunammer",
+    "row": "Zaunammer              Emberiza cirlus               I        1 000–1 400         Rev.     =       3         3    3         220–250          20          3      3        3",
+    "note": ""
+  },
+  "reebun": {
+    "status": [
+      "Brutvogel"
+    ],
+    "sourceDe": "Rohrammer",
+    "row": "Rohrammer              Emberiza schoeniclus          I      115 000–200 000       Rev.     =       0         0    0                                             5        5",
+    "note": ""
+  },
+  "brant": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Ringelgans",
+    "row": "Ringelgans         Branta bernicla                9.500                100.000      Frühling   –         –       0        0     5         5       5        85            –         5         –",
+    "note": ""
+  },
+  "rebgoo1": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Rothalsgans",
+    "row": "Rothalsgans        Branta ruficollis (I)          25–50                 25–50        Herbst    –         –       3        3     3         3       3         –           50          –        3",
+    "note": ""
+  },
+  "taibeg1": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Waldsaatgans",
+    "row": "Waldsaatgans       Anser fabalis                             15.500                  Winter         –                 0              3            0       20–50          –         3         –",
+    "note": ""
+  },
+  "pifgoo": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Kurzschnabelgans",
+    "row": "Kurzschnabelgans   Anser brachyrhynchus        [401–1.000]            [401–1.000]    Herbst    –         –       3        3     3         3       3       10–20          –         3         –",
+    "note": ""
+  },
+  "tunbeg1": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Tundrasaatgans",
+    "row": "Tundrasaatgans     Anser serrirostris           350.000                450.000       Herbst    –         –       5        5     5         0       0       30–50          –         5         –",
+    "note": ""
+  },
+  "gwfgoo": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Blässgans",
+    "row": "Blässgans          Anser albifrons                          540.000                  Winter         –                 3              3            3      40–60           –         3         –",
+    "note": ""
+  },
+  "lwfgoo": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Zwerggans",
+    "row": "Zwerggans          Anser erythropus (I)          20–45                  20–45        Herbst    –         –        –       –     3         3       3         –          50–75        –        3",
+    "note": ""
+  },
+  "tunswa": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Zwergschwan",
+    "row": "Zwergschwan        Cygnus columbianus (I)         4.700                 10.500      Frühling   –         –       3        3     3         3       3       30–50       30–50        3         3",
+    "note": ""
+  },
+  "rudshe": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Rostgans",
+    "row": "Rostgans           Tadorna ferruginea N           1.500                 1.900        Herbst    –         –      33        33   33        33      33         –            –          –        –",
+    "note": ""
+  },
+  "wooduc": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Brautente",
+    "row": "Brautente          Aix sponsa N                  [51–150]              [51–150]                –         –        –       –     –          –      –         –            –          –        –",
+    "note": ""
+  },
+  "whwsco3": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Samtente",
+    "row": "Samtente              Melanitta fusca                              110.000                   Winter           –                33             33           3        95            –         3         –",
+    "note": ""
+  },
+  "blksco1": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Trauerente",
+    "row": "Trauerente            Melanitta nigra                             1.300.000                  Winter           –                33             2            3        85            –         0         –",
+    "note": ""
+  },
+  "lotduc": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Eisente",
+    "row": "Eisente               Clangula hyemalis               460.000                 550.000       Frühling     –        –       1         5    33        33      5        90            –         3         –",
+    "note": ""
+  },
+  "smew": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Zwergsäger",
+    "row": "Zwergsäger            Mergellus albellus (I)                        7.500                    Winter           3                3              33           0        60            –         3         –",
+    "note": ""
+  },
+  "horgre": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Ohrentaucher",
+    "row": "Ohrentaucher          Podiceps auritus (I)                         3.900                     Winter           –                3              33           3        80            –         3         –",
+    "note": ""
+  },
+  "eugplo": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Goldregenpfeifer",
+    "row": "Goldregenpfeifer      Pluvialis apricaria (I)      [20.001–50.000]            190.000        Herbst      –        –       4         –    3         5       5       30–50          –         3         –",
+    "note": ""
+  },
+  "bkbplo": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Kiebitzregenpfeifer",
+    "row": "Kiebitzregenpfeifer   Pluvialis squatarola             16.500                  67.000       Frühling     –        –       5         0    33        3       1         –            –          –        –",
+    "note": ""
+  },
+  "eurdot": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Mornellregenpfeifer",
+    "row": "Mornellregenpfeifer    Charadrius morinellus (I)          0                    [151–400]      Herbst    ô       –      ô         –    ô         5       5         ô           –         ô         –",
+    "note": ""
+  },
+  "whimbr5": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Regenbrachvogel",
+    "row": "Regenbrachvogel        Numenius phaeopus                  0                  [3.001–8.000]   Frühling   ô       –      ô         –    ô         33      3         ô           –         ô         –",
+    "note": ""
+  },
+  "batgod": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Pfuhlschnepfe",
+    "row": "Pfuhlschnepfe          Limosa lapponica (I)             3.200                   85.000       Frühling   –       –     00         0     ?        0       0         –           –          –        –",
+    "note": ""
+  },
+  "rudtur": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Steinwälzer",
+    "row": "Steinwälzer            Arenaria interpres               2.800                   3.200        Frühling   –       –      3         5    33        33      3         –           –          –        –",
+    "note": ""
+  },
+  "redkno": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Knutt",
+    "row": "Knutt                  Calidris canutus                 21.000                 190.000       Frühling   –       –      0         0    00        3       0        100          –         00        –",
+    "note": ""
+  },
+  "brbsan": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Sumpfläufer",
+    "row": "Sumpfläufer            Calidris falcinellus               0                    [151–400]     Frühling   ô       –      ô         –    ô          –      –         ô           –         ô         –",
+    "note": ""
+  },
+  "cursan": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Sichelstrandläufer",
+    "row": "Sichelstrandläufer     Calidris ferruginea                0                     4.300         Herbst    ô       –      ô         5    ô          ?      5         ô           –         ô         –",
+    "note": ""
+  },
+  "temsti": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Temminckstrandläufer",
+    "row": "Temminckstrandläufer   Calidris temminckii                0                   [401–1000]     Frühling   ô       –      ô         –    ô          –      –         ô           –         ô         –",
+    "note": ""
+  },
+  "sander": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Sanderling",
+    "row": "Sanderling             Calidris alba                    4.400                   19.500       Frühling   –       –     33         5    33        33      5         –           –          –        –",
+    "note": ""
+  },
+  "pursan": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Meerstrandläufer",
+    "row": "Meerstrandläufer       Calidris maritima                             620                      Winter        –               3              ?            5         –           –          –        –",
+    "note": ""
+  },
+  "litsti": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Zwergstrandläufer",
+    "row": "Zwergstrandläufer      Calidris minuta                    0                  [1.001–3.000]    Herbst    ô       –      ô         –    ô          –      –         ô           –         ô         –",
+    "note": ""
+  },
+  "spored": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Dunkelwasserläufer",
+    "row": "Dunkelwasserläufer     Tringa erythropus                [11–50]            [8.001–20.000]     Herbst    –       –       –        0    –         00      0         –           –          –        –",
+    "note": ""
+  },
+  "comgre": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Grünschenkel",
+    "row": "Grünschenkel           Tringa nebularia                 [11–50]            [8.001–20.000]     Herbst    –       –       –        0    –         0       0         –           –          –        –",
+    "note": ""
+  },
+  "caster1": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Raubseeschwalbe",
+    "row": "Raubseeschwalbe        Hydroprogne caspia (I)              0                     700         Herbst      ô        –       ô         –    ô          –      –         ô           –         ô         –",
+    "note": ""
+  },
+  "gresku1": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Skua",
+    "row": "Skua                   Stercorarius skua                [11–50]                  300         Herbst      ô        –       ô         00   ô          ?      0         ô           –         ô         –",
+    "note": ""
+  },
+  "parjae": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Schmarotzerraubmöwe",
+    "row": "Schmarotzerraubmöwe    Stercorarius parasiticus            0                      120        Herbst      ô        –       ô         0    ô         00      0         ô           –         ô         –",
+    "note": ""
+  },
+  "blkgui": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Gryllteiste",
+    "row": "Gryllteiste            Cepphus grylle                                 400                    Winter           –                –              33           –        65           –         3         –",
+    "note": ""
+  },
+  "atlpuf": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Papageitaucher",
+    "row": "Papageitaucher         Fratercula arctica                2.600                   2.800      Frühling     –        –        –        –    –          ?      –         –           –          –        –",
+    "note": ""
+  },
+  "retloo": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Sterntaucher",
+    "row": "Sterntaucher           Gavia stellata (I)                17.000                43.000       Frühling     –        –       3         3    33        3        3       65          60         3         3",
+    "note": ""
+  },
+  "arcloo": {
+    "status": [
+      "Rastvogel"
+    ],
+    "sourceDe": "Prachttaucher",
+    "row": "Prachttaucher          Gavia arctica (I)                            2.800                    Winter           –                –              33           –        55          60         3         0",
+    "note": ""
+  }
+}

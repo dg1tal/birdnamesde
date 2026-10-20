@@ -1,0 +1,9 @@
+data/names.xlsx
+data/extracted.json
+data/status.pdf
+data/status.txt
+node_modules/
+*.tar.gz
+data/dog.pdf
+data/dog.txt
+data/*-output.txt
