@@ -50,18 +50,19 @@ details summary{cursor:pointer}ul{padding-left:22px}
 .photo-option input{margin:0;flex:none}
 .learn-photo-option{margin-top:16px}
 .bird-photo{margin:14px 0 4px}
-.bird-photo iframe{display:block;width:100%;height:360px;border:0;border-radius:8px;background:var(--soft)}
-.bird-photo figcaption{font-size:13px;color:var(--muted);margin-top:8px;line-height:1.4}
+.bird-photo .photo-original{display:block;float:none;margin:0}
+.bird-photo img{display:block;width:100%;height:300px;object-fit:contain;border-radius:8px;background:var(--soft)}
+.bird-photo figcaption{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.5;overflow-wrap:anywhere;text-align:left}
 .card .bird-photo{clear:both;margin:16px 0 12px}
-.card .bird-photo iframe{height:220px}
-.card .photo-slot{height:220px;border-radius:8px;background:var(--soft)}
-.photo-unavailable{display:flex;min-height:180px;flex-direction:column;align-items:center;justify-content:center;gap:12px;border-radius:8px;background:var(--soft);padding:18px;text-align:center}
-.photo-unavailable p{margin:0;color:var(--muted)}
-.photo-unavailable a{display:inline-block;border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:10px 14px;font-size:14px}
+.card .bird-photo img{height:240px}
+.card .bird-photo .photo-credit{padding-top:4px}
+.photo-credit{font-size:12px;margin-top:4px}
+.photo-credit p{font-size:12px}
+.bird-photo [hidden]{display:none!important}
 .card .bird-photo a{float:none;margin:0;font-size:inherit}
 .photo-fallback{font-size:14px}
 body.studying .bird-photo{max-width:520px;margin:18px auto}
-body.studying .bird-photo iframe{height:280px}
+body.studying .bird-photo img{height:280px}
 @media(max-width:720px){.grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:580px){header,nav,main,footer{padding-left:16px;padding-right:16px}nav{justify-content:space-between;gap:12px}nav a{font-size:14px}main{padding-top:18px}.toolbar .search{flex-basis:100%;min-width:0}.toolbar select{flex:1;width:calc(50% - 5px);min-width:0;font-size:14px;padding-left:10px;padding-right:25px}.settings{grid-template-columns:1fr;gap:14px}.card,.panel{padding:16px}.choices{grid-template-columns:1fr}.question{padding:24px 16px}.meta{flex-wrap:wrap}.brand{font-size:20px}td,th{font-size:13px;padding:9px 4px}}
 
@@ -79,4 +80,4 @@ body.studying .feedback{margin-top:12px;padding:18px}body.studying .feedback p{m
 body.studying #answer-area>.english{font-size:22px;margin:22px 0 12px}body.studying #answer-area>.code{margin:8px 0 16px}
 @media(max-width:580px){body.studying main{padding-left:16px;padding-right:16px}body.studying .question{padding:22px 16px}body.studying .session>.meta{font-size:12px}body.studying .study-actions{gap:10px}body.studying .study-actions button{font-size:15px;padding:12px}}
 @media(max-height:600px){body.studying .question{padding-top:16px;padding-bottom:16px}body.studying .question h1{margin-top:12px;font-size:30px}}
-@media(max-width:580px){.bird-photo iframe{height:265px}.card .bird-photo iframe{height:220px}body.studying .bird-photo iframe{height:230px}}
+@media(max-width:580px){.bird-photo img{height:265px}.card .bird-photo img{height:240px}body.studying .bird-photo img{height:230px}}

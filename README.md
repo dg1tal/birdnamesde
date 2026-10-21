@@ -19,7 +19,7 @@ node scripts/test.mjs
 node --check dist/app.js
 ```
 
-No build step required. Serve `dist/` as static assets; publish using the Sites workflow. Visual desktop/mobile browser QA was unavailable in the creation environment; do not claim it was performed.
+No build step required. Serve `dist/` as static assets; publish using the Sites workflow. Original creation had no visual browser QA. The Wikimedia update was checked in Chrome preview: inline photo and license links, no photo before flashcard grading, photo after grading, and eBird fallback after a missing-image response. No physical iOS-device test was performed.
 
 ## Data provenance and reproduction
 
@@ -35,4 +35,12 @@ Learning levels are editorial vocabulary sets, independent of learning progress.
 
 ## Limits
 
-No account sync, promised offline mode, or external image assets. Local browser data can be cleared by privacy modes or storage cleanup; JSON export is the portable backup. The validation proves source alignment and structural integrity, not ongoing availability of every external eBird page. Occurrence source periods and editorial status interpretation are documented in the app.
+No account sync or promised offline mode. Species photos are local static assets with their own documented licenses. Local browser data can be cleared by privacy modes or storage cleanup; JSON export is the portable backup. The validation proves source alignment and structural integrity, not ongoing availability of every external eBird page. Occurrence source periods and editorial status interpretation are documented in the app.
+
+## Wikimedia Commons photos
+
+`dist/photos.json` maps every species ID to one locally served, unmodified Wikimedia Commons thumbnail in `dist/images/`. Each record retains the author, optional required attribution, image title, Commons description URL, license and license URL, download URL, source SHA-1 and local SHA-256. The browser never contacts Wikimedia to display a photo. It shows source and license links beside the image; full titles and optional attribution are available under Bildnachweis. Failed image loads provide the eBird species gallery. Learning photos appear only after grading.
+
+Images were selected from the corresponding English Wikipedia species articles, with scientific-name redirects and Wikidata P225 taxon names checked. Four taxonomic exceptions are documented in `data/commons-taxon-exceptions.json`; the Thrush Nightingale uses an alternative Wikidata P18 photo under CC BY-SA 4.0. `data/commons-photo-sources.json` retains the retrieved file metadata, including descriptions and licensing information. Image licenses apply separately to each image.
+
+Run `node scripts/validate-photos.mjs` to verify coverage, taxon mappings, attribution, licenses and local file hashes. `python scripts/fetch-commons-photos.py` restores missing image files from their recorded Wikimedia URLs and verifies their hashes. It uses only the Python standard library and does not overwrite an existing file with different bytes.

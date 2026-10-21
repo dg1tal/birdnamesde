@@ -1,0 +1,22 @@
+{
+  "redpol1": {
+    "scientificName": "Acanthis flammea",
+    "wikidataTaxonName": "Acanthis",
+    "reason": "The English Wikipedia Redpoll article represents the merged redpoll concept; its selected photograph Carduelis flammea CT6.jpg shows a Common Redpoll, included in the app's merged Acanthis flammea taxon."
+  },
+  "lirplo": {
+    "scientificName": "Thinornis dubius",
+    "wikidataTaxonName": "Charadrius dubius",
+    "reason": "Genus synonym; Little ringed plover article and selected file both identify the same species."
+  },
+  "eurdot": {
+    "scientificName": "Eudromias morinellus",
+    "wikidataTaxonName": "Charadrius morinellus",
+    "reason": "Genus synonym; Eurasian dotterel article and selected file both identify the same species."
+  },
+  "kenplo1": {
+    "scientificName": "Anarhynchus alexandrinus",
+    "wikidataTaxonName": "Charadrius alexandrinus",
+    "reason": "Genus synonym; Kentish plover article and selected file both identify the same species."
+  }
+}
