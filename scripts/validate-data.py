@@ -6,6 +6,8 @@ for b in birds:
  t=tax[b['id']];n=raw['names'][b['id']];c=raw['codes'][b['id']]
  assert t['CATEGORY']=='species'
  assert b['en']==t['PRIMARY_COM_NAME'] and b['sci']==t['SCI_NAME']
+ gb=n['English, United Kingdom'] or n['English']
+ assert b['enGB']==(gb if gb!=b['en'] else '')
  assert b['de']==n['German']
  assert b['sci']==n['sci_name'],(b['id'],'cross-version sci')
  assert b['codes'] and all(re.fullmatch('[A-Z]{4}',code) for code in b['codes'])

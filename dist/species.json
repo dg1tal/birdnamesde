@@ -28,6 +28,7 @@
       "id": "alepar2",
       "de": "Alexandersittich",
       "en": "Alexandrine Parakeet",
+      "enGB": "",
       "sci": "Psittacula eupatria",
       "codes": [
         "ALPA"
@@ -51,6 +52,7 @@
       "id": "alpacc1",
       "de": "Alpenbraunelle",
       "en": "Alpine Accentor",
+      "enGB": "",
       "sci": "Prunella collaris",
       "codes": [
         "ALAC"
@@ -73,6 +75,7 @@
       "id": "yebcho1",
       "de": "Alpendohle",
       "en": "Yellow-billed Chough",
+      "enGB": "Alpine Chough",
       "sci": "Pyrrhocorax graculus",
       "codes": [
         "ALCH",
@@ -98,6 +101,7 @@
       "id": "rocpta1",
       "de": "Alpenschneehuhn",
       "en": "Rock Ptarmigan",
+      "enGB": "",
       "sci": "Lagopus muta",
       "codes": [
         "ROPT"
@@ -120,6 +124,7 @@
       "id": "alpswi1",
       "de": "Alpensegler",
       "en": "Alpine Swift",
+      "enGB": "",
       "sci": "Tachymarptis melba",
       "codes": [
         "ALSW"
@@ -142,6 +147,7 @@
       "id": "dunlin",
       "de": "Alpenstrandläufer",
       "en": "Dunlin",
+      "enGB": "",
       "sci": "Calidris alpina",
       "codes": [
         "DUNL"
@@ -165,6 +171,7 @@
       "id": "eurbla",
       "de": "Amsel",
       "en": "Eurasian Blackbird",
+      "enGB": "Common Blackbird",
       "sci": "Turdus merula",
       "codes": [
         "EUBL",
@@ -190,6 +197,7 @@
       "id": "manshe",
       "de": "Atlantiksturmtaucher",
       "en": "Manx Shearwater",
+      "enGB": "",
       "sci": "Puffinus puffinus",
       "codes": [
         "MASH"
@@ -212,6 +220,7 @@
       "id": "wescap1",
       "de": "Auerhuhn",
       "en": "Western Capercaillie",
+      "enGB": "",
       "sci": "Tetrao urogallus",
       "codes": [
         "WECA"
@@ -234,6 +243,7 @@
       "id": "euroys1",
       "de": "Austernfischer",
       "en": "Eurasian Oystercatcher",
+      "enGB": "",
       "sci": "Haematopus ostralegus",
       "codes": [
         "EUOY"
@@ -257,6 +267,7 @@
       "id": "whiwag",
       "de": "Bachstelze",
       "en": "White Wagtail",
+      "enGB": "Pied Wagtail/White Wagtail",
       "sci": "Motacilla alba",
       "codes": [
         "PWWA"
@@ -279,6 +290,7 @@
       "id": "bearee1",
       "de": "Bartmeise",
       "en": "Bearded Reedling",
+      "enGB": "Bearded Tit",
       "sci": "Panurus biarmicus",
       "codes": [
         "BERE",
@@ -304,6 +316,7 @@
       "id": "norgan",
       "de": "Basstölpel",
       "en": "Northern Gannet",
+      "enGB": "",
       "sci": "Morus bassanus",
       "codes": [
         "NOGA"
@@ -327,6 +340,7 @@
       "id": "eurhob",
       "de": "Baumfalke",
       "en": "Eurasian Hobby",
+      "enGB": "",
       "sci": "Falco subbuteo",
       "codes": [
         "EUHO"
@@ -349,6 +363,7 @@
       "id": "trepip",
       "de": "Baumpieper",
       "en": "Tree Pipit",
+      "enGB": "",
       "sci": "Anthus trivialis",
       "codes": [
         "TRPI"
@@ -371,6 +386,7 @@
       "id": "comsni",
       "de": "Bekassine",
       "en": "Common Snipe",
+      "enGB": "",
       "sci": "Gallinago gallinago",
       "codes": [
         "COSN"
@@ -394,6 +410,7 @@
       "id": "gresca",
       "de": "Bergente",
       "en": "Greater Scaup",
+      "enGB": "",
       "sci": "Aythya marila",
       "codes": [
         "GRSC"
@@ -417,6 +434,7 @@
       "id": "brambl",
       "de": "Bergfink",
       "en": "Brambling",
+      "enGB": "",
       "sci": "Fringilla montifringilla",
       "codes": [
         "BRAM"
@@ -440,6 +458,7 @@
       "id": "twite1",
       "de": "Berghänfling",
       "en": "Twite",
+      "enGB": "",
       "sci": "Linaria flavirostris",
       "codes": [
         "TWIT"
@@ -463,6 +482,7 @@
       "id": "webwar1",
       "de": "Berglaubsänger",
       "en": "Western Bonelli's Warbler",
+      "enGB": "",
       "sci": "Phylloscopus bonelli",
       "codes": [
         "WBWA"
@@ -485,6 +505,7 @@
       "id": "watpip1",
       "de": "Bergpieper",
       "en": "Water Pipit",
+      "enGB": "",
       "sci": "Anthus spinoletta",
       "codes": [
         "WAPI"
@@ -507,6 +528,7 @@
       "id": "euptit1",
       "de": "Beutelmeise",
       "en": "Eurasian Penduline-Tit",
+      "enGB": "Eurasian Penduline Tit",
       "sci": "Remiz pendulinus",
       "codes": [
         "EUPT",
@@ -533,6 +555,7 @@
       "id": "eubeat1",
       "de": "Bienenfresser",
       "en": "European Bee-eater",
+      "enGB": "",
       "sci": "Merops apiaster",
       "codes": [
         "EUBE",
@@ -558,6 +581,7 @@
       "id": "redpol1",
       "de": "Birkenzeisig",
       "en": "Redpoll",
+      "enGB": "",
       "sci": "Acanthis flammea",
       "codes": [
         "REDP"
@@ -584,6 +608,7 @@
       "id": "blagro1",
       "de": "Birkhuhn",
       "en": "Black Grouse",
+      "enGB": "",
       "sci": "Lyrurus tetrix",
       "codes": [
         "BLGR"
@@ -606,6 +631,7 @@
       "id": "blueth",
       "de": "Blaukehlchen",
       "en": "Bluethroat",
+      "enGB": "",
       "sci": "Luscinia svecica",
       "codes": [
         "BLUE"
@@ -628,6 +654,7 @@
       "id": "blutit",
       "de": "Blaumeise",
       "en": "Eurasian Blue Tit",
+      "enGB": "",
       "sci": "Cyanistes caeruleus",
       "codes": [
         "EBTI"
@@ -650,6 +677,7 @@
       "id": "eurlin1",
       "de": "Bluthänfling",
       "en": "Eurasian Linnet",
+      "enGB": "Common Linnet",
       "sci": "Linaria cannabina",
       "codes": [
         "COLI",
@@ -675,6 +703,7 @@
       "id": "gwfgoo",
       "de": "Blässgans",
       "en": "Greater White-fronted Goose",
+      "enGB": "",
       "sci": "Anser albifrons",
       "codes": [
         "GWFG"
@@ -697,6 +726,7 @@
       "id": "eurcoo",
       "de": "Blässhuhn",
       "en": "Eurasian Coot",
+      "enGB": "",
       "sci": "Fulica atra",
       "codes": [
         "EUCO"
@@ -720,6 +750,7 @@
       "id": "tawpip1",
       "de": "Brachpieper",
       "en": "Tawny Pipit",
+      "enGB": "",
       "sci": "Anthus campestris",
       "codes": [
         "TAPI"
@@ -742,6 +773,7 @@
       "id": "comshe",
       "de": "Brandgans",
       "en": "Common Shelduck",
+      "enGB": "",
       "sci": "Tadorna tadorna",
       "codes": [
         "COSH"
@@ -765,6 +797,7 @@
       "id": "santer1",
       "de": "Brandseeschwalbe",
       "en": "Sandwich Tern",
+      "enGB": "",
       "sci": "Thalasseus sandvicensis",
       "codes": [
         "SATE"
@@ -788,6 +821,7 @@
       "id": "whinch1",
       "de": "Braunkehlchen",
       "en": "Whinchat",
+      "enGB": "",
       "sci": "Saxicola rubetra",
       "codes": [
         "WHIN"
@@ -810,6 +844,7 @@
       "id": "wooduc",
       "de": "Brautente",
       "en": "Wood Duck",
+      "enGB": "",
       "sci": "Aix sponsa",
       "codes": [
         "AWDU",
@@ -835,6 +870,7 @@
       "id": "woosan",
       "de": "Bruchwasserläufer",
       "en": "Wood Sandpiper",
+      "enGB": "",
       "sci": "Tringa glareola",
       "codes": [
         "WOSA"
@@ -858,6 +894,7 @@
       "id": "comcha",
       "de": "Buchfink",
       "en": "Common Chaffinch",
+      "enGB": "Eurasian Chaffinch",
       "sci": "Fringilla coelebs",
       "codes": [
         "EUCH",
@@ -883,6 +920,7 @@
       "id": "grswoo",
       "de": "Buntspecht",
       "en": "Great Spotted Woodpecker",
+      "enGB": "",
       "sci": "Dendrocopos major",
       "codes": [
         "GSWO"
@@ -905,6 +943,7 @@
       "id": "chifla1",
       "de": "Chileflamingo",
       "en": "Chilean Flamingo",
+      "enGB": "",
       "sci": "Phoenicopterus chilensis",
       "codes": [
         "CHFL"
@@ -928,6 +967,7 @@
       "id": "eurjac",
       "de": "Dohle",
       "en": "Eurasian Jackdaw",
+      "enGB": "Western Jackdaw",
       "sci": "Coloeus monedula",
       "codes": [
         "WEJA"
@@ -952,6 +992,7 @@
       "id": "grewhi1",
       "de": "Dorngrasmücke",
       "en": "Greater Whitethroat",
+      "enGB": "Common Whitethroat",
       "sci": "Curruca communis",
       "codes": [
         "COWH",
@@ -977,6 +1018,7 @@
       "id": "bklkit",
       "de": "Dreizehenmöwe",
       "en": "Black-legged Kittiwake",
+      "enGB": "",
       "sci": "Rissa tridactyla",
       "codes": [
         "BLKI"
@@ -1000,6 +1042,7 @@
       "id": "ettwoo1",
       "de": "Dreizehenspecht",
       "en": "Eurasian Three-toed Woodpecker",
+      "enGB": "",
       "sci": "Picoides tridactylus",
       "codes": [
         "ETTW",
@@ -1023,6 +1066,7 @@
       "id": "grrwar1",
       "de": "Drosselrohrsänger",
       "en": "Great Reed Warbler",
+      "enGB": "",
       "sci": "Acrocephalus arundinaceus",
       "codes": [
         "GRWA",
@@ -1048,6 +1092,7 @@
       "id": "sooshe",
       "de": "Dunkelsturmtaucher",
       "en": "Sooty Shearwater",
+      "enGB": "",
       "sci": "Ardenna grisea",
       "codes": [
         "SOSH"
@@ -1070,6 +1115,7 @@
       "id": "spored",
       "de": "Dunkelwasserläufer",
       "en": "Spotted Redshank",
+      "enGB": "",
       "sci": "Tringa erythropus",
       "codes": [
         "SPRE"
@@ -1092,6 +1138,7 @@
       "id": "eurjay1",
       "de": "Eichelhäher",
       "en": "Eurasian Jay",
+      "enGB": "",
       "sci": "Garrulus glandarius",
       "codes": [
         "ECFJ",
@@ -1115,6 +1162,7 @@
       "id": "comeid",
       "de": "Eiderente",
       "en": "Common Eider",
+      "enGB": "",
       "sci": "Somateria mollissima",
       "codes": [
         "COEI"
@@ -1138,6 +1186,7 @@
       "id": "lotduc",
       "de": "Eisente",
       "en": "Long-tailed Duck",
+      "enGB": "",
       "sci": "Clangula hyemalis",
       "codes": [
         "LTDU"
@@ -1160,6 +1209,7 @@
       "id": "norful",
       "de": "Eissturmvogel",
       "en": "Northern Fulmar",
+      "enGB": "",
       "sci": "Fulmarus glacialis",
       "codes": [
         "NOFU"
@@ -1183,6 +1233,7 @@
       "id": "comloo",
       "de": "Eistaucher",
       "en": "Common Loon",
+      "enGB": "Great Northern Diver",
       "sci": "Gavia immer",
       "codes": [
         "GNDI"
@@ -1208,6 +1259,7 @@
       "id": "comkin1",
       "de": "Eisvogel",
       "en": "Common Kingfisher",
+      "enGB": "",
       "sci": "Alcedo atthis",
       "codes": [
         "COKI"
@@ -1230,6 +1282,7 @@
       "id": "eurmag1",
       "de": "Elster",
       "en": "Eurasian Magpie",
+      "enGB": "Common Magpie",
       "sci": "Pica pica",
       "codes": [
         "COMA",
@@ -1255,6 +1308,7 @@
       "id": "eursis",
       "de": "Erlenzeisig",
       "en": "Eurasian Siskin",
+      "enGB": "",
       "sci": "Spinus spinus",
       "codes": [
         "EUSI"
@@ -1277,6 +1331,7 @@
       "id": "lotjae",
       "de": "Falkenraubmöwe",
       "en": "Long-tailed Jaeger",
+      "enGB": "Long-tailed Skua",
       "sci": "Stercorarius longicaudus",
       "codes": [
         "LTSK"
@@ -1301,6 +1356,7 @@
       "id": "skylar",
       "de": "Feldlerche",
       "en": "Eurasian Skylark",
+      "enGB": "",
       "sci": "Alauda arvensis",
       "codes": [
         "SKYL"
@@ -1323,6 +1379,7 @@
       "id": "cogwar1",
       "de": "Feldschwirl",
       "en": "Common Grasshopper Warbler",
+      "enGB": "",
       "sci": "Locustella naevia",
       "codes": [
         "COGW",
@@ -1348,6 +1405,7 @@
       "id": "eutspa",
       "de": "Feldsperling",
       "en": "Eurasian Tree Sparrow",
+      "enGB": "",
       "sci": "Passer montanus",
       "codes": [
         "ETSP"
@@ -1370,6 +1428,7 @@
       "id": "eurcrm1",
       "de": "Felsenschwalbe",
       "en": "Eurasian Crag-Martin",
+      "enGB": "Eurasian Crag Martin",
       "sci": "Ptyonoprogne rupestris",
       "codes": [
         "ECMA",
@@ -1395,6 +1454,7 @@
       "id": "rocpig",
       "de": "Felsentaube",
       "en": "Rock Pigeon",
+      "enGB": "Rock Dove",
       "sci": "Columba livia",
       "codes": [
         "RODO"
@@ -1423,6 +1483,7 @@
       "id": "redcro",
       "de": "Fichtenkreuzschnabel",
       "en": "Red Crossbill",
+      "enGB": "Common Crossbill",
       "sci": "Loxia curvirostra",
       "codes": [
         "COCR"
@@ -1447,6 +1508,7 @@
       "id": "osprey",
       "de": "Fischadler",
       "en": "Osprey",
+      "enGB": "",
       "sci": "Pandion haliaetus",
       "codes": [
         "OSPR"
@@ -1470,6 +1532,7 @@
       "id": "wlwwar",
       "de": "Fitis",
       "en": "Willow Warbler",
+      "enGB": "",
       "sci": "Phylloscopus trochilus",
       "codes": [
         "WIWA"
@@ -1492,6 +1555,7 @@
       "id": "lirplo",
       "de": "Flussregenpfeifer",
       "en": "Little Ringed Plover",
+      "enGB": "",
       "sci": "Thinornis dubius",
       "codes": [
         "LRPL"
@@ -1515,6 +1579,7 @@
       "id": "comter",
       "de": "Flussseeschwalbe",
       "en": "Common Tern",
+      "enGB": "",
       "sci": "Sterna hirundo",
       "codes": [
         "COTE"
@@ -1538,6 +1603,7 @@
       "id": "comsan",
       "de": "Flussuferläufer",
       "en": "Common Sandpiper",
+      "enGB": "",
       "sci": "Actitis hypoleucos",
       "codes": [
         "COSA"
@@ -1561,6 +1627,7 @@
       "id": "shttre1",
       "de": "Gartenbaumläufer",
       "en": "Short-toed Treecreeper",
+      "enGB": "",
       "sci": "Certhia brachydactyla",
       "codes": [
         "STTR"
@@ -1583,6 +1650,7 @@
       "id": "garwar1",
       "de": "Gartengrasmücke",
       "en": "Garden Warbler",
+      "enGB": "",
       "sci": "Sylvia borin",
       "codes": [
         "GAWA"
@@ -1605,6 +1673,7 @@
       "id": "comred2",
       "de": "Gartenrotschwanz",
       "en": "Common Redstart",
+      "enGB": "",
       "sci": "Phoenicurus phoenicurus",
       "codes": [
         "CORE"
@@ -1627,6 +1696,7 @@
       "id": "grywag",
       "de": "Gebirgsstelze",
       "en": "Gray Wagtail",
+      "enGB": "Grey Wagtail",
       "sci": "Motacilla cinerea",
       "codes": [
         "GRWA"
@@ -1651,6 +1721,7 @@
       "id": "yebwar3",
       "de": "Gelbbrauen-Laubsänger",
       "en": "Yellow-browed Warbler",
+      "enGB": "",
       "sci": "Phylloscopus inornatus",
       "codes": [
         "YBWA"
@@ -1673,6 +1744,7 @@
       "id": "yehpar",
       "de": "Gelbkopfamazone",
       "en": "Yellow-headed Amazon",
+      "enGB": "",
       "sci": "Amazona oratrix",
       "codes": [
         "YHAM"
@@ -1696,6 +1768,7 @@
       "id": "ictwar1",
       "de": "Gelbspötter",
       "en": "Icterine Warbler",
+      "enGB": "",
       "sci": "Hippolais icterina",
       "codes": [
         "ICWA"
@@ -1718,6 +1791,7 @@
       "id": "eurbul",
       "de": "Gimpel",
       "en": "Eurasian Bullfinch",
+      "enGB": "",
       "sci": "Pyrrhula pyrrhula",
       "codes": [
         "EUBU"
@@ -1740,6 +1814,7 @@
       "id": "eurser1",
       "de": "Girlitz",
       "en": "European Serin",
+      "enGB": "",
       "sci": "Serinus serinus",
       "codes": [
         "EUSE"
@@ -1762,6 +1837,7 @@
       "id": "yellow2",
       "de": "Goldammer",
       "en": "Yellowhammer",
+      "enGB": "",
       "sci": "Emberiza citrinella",
       "codes": [
         "YELL"
@@ -1784,6 +1860,7 @@
       "id": "eugplo",
       "de": "Goldregenpfeifer",
       "en": "European Golden-Plover",
+      "enGB": "European Golden Plover",
       "sci": "Pluvialis apricaria",
       "codes": [
         "EGPL"
@@ -1809,6 +1886,7 @@
       "id": "corbun1",
       "de": "Grauammer",
       "en": "Corn Bunting",
+      "enGB": "",
       "sci": "Emberiza calandra",
       "codes": [
         "COBU"
@@ -1831,6 +1909,7 @@
       "id": "gragoo",
       "de": "Graugans",
       "en": "Graylag Goose",
+      "enGB": "Greylag Goose",
       "sci": "Anser anser",
       "codes": [
         "GRGO"
@@ -1856,6 +1935,7 @@
       "id": "graher1",
       "de": "Graureiher",
       "en": "Gray Heron",
+      "enGB": "Grey Heron",
       "sci": "Ardea cinerea",
       "codes": [
         "GRHE"
@@ -1881,6 +1961,7 @@
       "id": "spofly1",
       "de": "Grauschnäpper",
       "en": "Spotted Flycatcher",
+      "enGB": "",
       "sci": "Muscicapa striata",
       "codes": [
         "SPFL"
@@ -1903,6 +1984,7 @@
       "id": "gyfwoo1",
       "de": "Grauspecht",
       "en": "Gray-headed Woodpecker",
+      "enGB": "Grey-headed Woodpecker",
       "sci": "Picus canus",
       "codes": [
         "GHWO",
@@ -1928,6 +2010,7 @@
       "id": "grebus1",
       "de": "Großtrappe",
       "en": "Great Bustard",
+      "enGB": "",
       "sci": "Otis tarda",
       "codes": [
         "GRBU"
@@ -1950,6 +2033,7 @@
       "id": "blkgui",
       "de": "Gryllteiste",
       "en": "Black Guillemot",
+      "enGB": "",
       "sci": "Cepphus grylle",
       "codes": [
         "BLGU"
@@ -1972,6 +2056,7 @@
       "id": "eurgre1",
       "de": "Grünfink",
       "en": "European Greenfinch",
+      "enGB": "",
       "sci": "Chloris chloris",
       "codes": [
         "EUGR"
@@ -1994,6 +2079,7 @@
       "id": "grewar3",
       "de": "Grünlaubsänger",
       "en": "Greenish Warbler",
+      "enGB": "",
       "sci": "Phylloscopus trochiloides",
       "codes": [
         "GRWA"
@@ -2016,6 +2102,7 @@
       "id": "comgre",
       "de": "Grünschenkel",
       "en": "Common Greenshank",
+      "enGB": "",
       "sci": "Tringa nebularia",
       "codes": [
         "COGR"
@@ -2038,6 +2125,7 @@
       "id": "eugwoo2",
       "de": "Grünspecht",
       "en": "Eurasian Green Woodpecker",
+      "enGB": "European Green Woodpecker",
       "sci": "Picus viridis",
       "codes": [
         "EGWO"
@@ -2062,6 +2150,7 @@
       "id": "commer",
       "de": "Gänsesäger",
       "en": "Common Merganser",
+      "enGB": "Goosander",
       "sci": "Mergus merganser",
       "codes": [
         "GOOS"
@@ -2087,6 +2176,7 @@
       "id": "norgos1",
       "de": "Habicht",
       "en": "Eurasian Goshawk",
+      "enGB": "",
       "sci": "Astur gentilis",
       "codes": [
         "EUGO",
@@ -2110,6 +2200,7 @@
       "id": "uraowl1",
       "de": "Habichtskauz",
       "en": "Ural Owl",
+      "enGB": "",
       "sci": "Strix uralensis",
       "codes": [
         "UROW"
@@ -2134,6 +2225,7 @@
       "id": "colfly1",
       "de": "Halsbandschnäpper",
       "en": "Collared Flycatcher",
+      "enGB": "",
       "sci": "Ficedula albicollis",
       "codes": [
         "COFL"
@@ -2156,6 +2248,7 @@
       "id": "rorpar",
       "de": "Halsbandsittich",
       "en": "Rose-ringed Parakeet",
+      "enGB": "Ring-necked Parakeet",
       "sci": "Psittacula krameri",
       "codes": [
         "RNPA"
@@ -2181,6 +2274,7 @@
       "id": "hazgro1",
       "de": "Haselhuhn",
       "en": "Hazel Grouse",
+      "enGB": "",
       "sci": "Tetrastes bonasia",
       "codes": [
         "HAGR"
@@ -2203,6 +2297,7 @@
       "id": "crelar1",
       "de": "Haubenlerche",
       "en": "Crested Lark",
+      "enGB": "",
       "sci": "Galerida cristata",
       "codes": [
         "CRLA"
@@ -2225,6 +2320,7 @@
       "id": "cretit2",
       "de": "Haubenmeise",
       "en": "Crested Tit",
+      "enGB": "",
       "sci": "Lophophanes cristatus",
       "codes": [
         "CRTI"
@@ -2247,6 +2343,7 @@
       "id": "grcgre1",
       "de": "Haubentaucher",
       "en": "Great Crested Grebe",
+      "enGB": "",
       "sci": "Podiceps cristatus",
       "codes": [
         "GCGR",
@@ -2273,6 +2370,7 @@
       "id": "blared1",
       "de": "Hausrotschwanz",
       "en": "Black Redstart",
+      "enGB": "",
       "sci": "Phoenicurus ochruros",
       "codes": [
         "BLRE"
@@ -2295,6 +2393,7 @@
       "id": "houspa",
       "de": "Haussperling",
       "en": "House Sparrow",
+      "enGB": "",
       "sci": "Passer domesticus",
       "codes": [
         "HOSP"
@@ -2317,6 +2416,7 @@
       "id": "dunnoc1",
       "de": "Heckenbraunelle",
       "en": "Dunnock",
+      "enGB": "",
       "sci": "Prunella modularis",
       "codes": [
         "DUNN"
@@ -2339,6 +2439,7 @@
       "id": "woolar1",
       "de": "Heidelerche",
       "en": "Wood Lark",
+      "enGB": "Woodlark",
       "sci": "Lullula arborea",
       "codes": [
         "WOOD",
@@ -2364,6 +2465,7 @@
       "id": "lbbgul",
       "de": "Heringsmöwe",
       "en": "Lesser Black-backed Gull",
+      "enGB": "",
       "sci": "Larus fuscus",
       "codes": [
         "LBBG"
@@ -2387,6 +2489,7 @@
       "id": "stodov1",
       "de": "Hohltaube",
       "en": "Stock Dove",
+      "enGB": "",
       "sci": "Columba oenas",
       "codes": [
         "STDO"
@@ -2409,6 +2512,7 @@
       "id": "mutswa",
       "de": "Höckerschwan",
       "en": "Mute Swan",
+      "enGB": "",
       "sci": "Cygnus olor",
       "codes": [
         "MUSW"
@@ -2432,6 +2536,7 @@
       "id": "rinphe1",
       "de": "Jagdfasan",
       "en": "Ring-necked Pheasant",
+      "enGB": "Common Pheasant",
       "sci": "Phasianus colchicus",
       "codes": [
         "COPH",
@@ -2460,6 +2565,7 @@
       "id": "ruff",
       "de": "Kampfläufer",
       "en": "Ruff",
+      "enGB": "",
       "sci": "Calidris pugnax",
       "codes": [
         "RUFF"
@@ -2483,6 +2589,7 @@
       "id": "cangoo",
       "de": "Kanadagans",
       "en": "Canada Goose",
+      "enGB": "",
       "sci": "Branta canadensis",
       "codes": [
         "CAGO"
@@ -2507,6 +2614,7 @@
       "id": "comros",
       "de": "Karmingimpel",
       "en": "Common Rosefinch",
+      "enGB": "",
       "sci": "Carpodacus erythrinus",
       "codes": [
         "CORO"
@@ -2529,6 +2637,7 @@
       "id": "hawfin",
       "de": "Kernbeißer",
       "en": "Hawfinch",
+      "enGB": "",
       "sci": "Coccothraustes coccothraustes",
       "codes": [
         "HAWF"
@@ -2551,6 +2660,7 @@
       "id": "norlap",
       "de": "Kiebitz",
       "en": "Northern Lapwing",
+      "enGB": "",
       "sci": "Vanellus vanellus",
       "codes": [
         "NOLA"
@@ -2574,6 +2684,7 @@
       "id": "bkbplo",
       "de": "Kiebitzregenpfeifer",
       "en": "Black-bellied Plover",
+      "enGB": "Grey Plover",
       "sci": "Pluvialis squatarola",
       "codes": [
         "GRPL"
@@ -2598,6 +2709,7 @@
       "id": "leswhi4",
       "de": "Klappergrasmücke",
       "en": "Lesser Whitethroat",
+      "enGB": "",
       "sci": "Curruca curruca",
       "codes": [
         "LEWH"
@@ -2620,6 +2732,7 @@
       "id": "eurnut2",
       "de": "Kleiber",
       "en": "Eurasian Nuthatch",
+      "enGB": "",
       "sci": "Sitta europaea",
       "codes": [
         "EUNU"
@@ -2642,6 +2755,7 @@
       "id": "leswoo1",
       "de": "Kleinspecht",
       "en": "Lesser Spotted Woodpecker",
+      "enGB": "",
       "sci": "Dryobates minor",
       "codes": [
         "LSWO"
@@ -2664,6 +2778,7 @@
       "id": "litcra1",
       "de": "Kleinsumpfhuhn",
       "en": "Little Crake",
+      "enGB": "",
       "sci": "Zapornia parva",
       "codes": [
         "LICR"
@@ -2687,6 +2802,7 @@
       "id": "redkno",
       "de": "Knutt",
       "en": "Red Knot",
+      "enGB": "",
       "sci": "Calidris canutus",
       "codes": [
         "REKN"
@@ -2709,6 +2825,7 @@
       "id": "gargan",
       "de": "Knäkente",
       "en": "Garganey",
+      "enGB": "",
       "sci": "Spatula querquedula",
       "codes": [
         "GARG"
@@ -2732,6 +2849,7 @@
       "id": "gretit1",
       "de": "Kohlmeise",
       "en": "Great Tit",
+      "enGB": "",
       "sci": "Parus major",
       "codes": [
         "GRTI",
@@ -2757,6 +2875,7 @@
       "id": "recpoc",
       "de": "Kolbenente",
       "en": "Red-crested Pochard",
+      "enGB": "",
       "sci": "Netta rufina",
       "codes": [
         "RCPO"
@@ -2780,6 +2899,7 @@
       "id": "comrav",
       "de": "Kolkrabe",
       "en": "Common Raven",
+      "enGB": "Northern Raven",
       "sci": "Corvus corax",
       "codes": [
         "NORA"
@@ -2804,6 +2924,7 @@
       "id": "grecor",
       "de": "Kormoran",
       "en": "Great Cormorant",
+      "enGB": "",
       "sci": "Phalacrocorax carbo",
       "codes": [
         "GBCO",
@@ -2832,6 +2953,7 @@
       "id": "norhar1",
       "de": "Kornweihe",
       "en": "Hen Harrier",
+      "enGB": "",
       "sci": "Circus cyaneus",
       "codes": [
         "HEHA"
@@ -2854,6 +2976,7 @@
       "id": "comcra",
       "de": "Kranich",
       "en": "Common Crane",
+      "enGB": "",
       "sci": "Grus grus",
       "codes": [
         "COCR"
@@ -2877,6 +3000,7 @@
       "id": "gnwtea",
       "de": "Krickente",
       "en": "Green-winged Teal",
+      "enGB": "Eurasian/Green-winged Teal",
       "sci": "Anas crecca",
       "codes": [
         "EWTE",
@@ -2904,6 +3028,7 @@
       "id": "comcuc",
       "de": "Kuckuck",
       "en": "Common Cuckoo",
+      "enGB": "",
       "sci": "Cuculus canorus",
       "codes": [
         "COCU"
@@ -2926,6 +3051,7 @@
       "id": "pifgoo",
       "de": "Kurzschnabelgans",
       "en": "Pink-footed Goose",
+      "enGB": "",
       "sci": "Anser brachyrhynchus",
       "codes": [
         "PFGO"
@@ -2948,6 +3074,7 @@
       "id": "arcter",
       "de": "Küstenseeschwalbe",
       "en": "Arctic Tern",
+      "enGB": "",
       "sci": "Sterna paradisaea",
       "codes": [
         "ARTE"
@@ -2971,6 +3098,7 @@
       "id": "bkhgul",
       "de": "Lachmöwe",
       "en": "Black-headed Gull",
+      "enGB": "",
       "sci": "Chroicocephalus ridibundus",
       "codes": [
         "BHGU"
@@ -2994,6 +3122,7 @@
       "id": "gubter2",
       "de": "Lachseeschwalbe",
       "en": "Gull-billed Tern",
+      "enGB": "",
       "sci": "Gelochelidon nilotica",
       "codes": [
         "CGBT"
@@ -3019,6 +3148,7 @@
       "id": "norsho",
       "de": "Löffelente",
       "en": "Northern Shoveler",
+      "enGB": "",
       "sci": "Spatula clypeata",
       "codes": [
         "NOSH"
@@ -3044,6 +3174,7 @@
       "id": "eurspo1",
       "de": "Löffler",
       "en": "Eurasian Spoonbill",
+      "enGB": "",
       "sci": "Platalea leucorodia",
       "codes": [
         "EUSP"
@@ -3067,6 +3198,7 @@
       "id": "manduc",
       "de": "Mandarinente",
       "en": "Mandarin Duck",
+      "enGB": "",
       "sci": "Aix galericulata",
       "codes": [
         "MADU"
@@ -3091,6 +3223,7 @@
       "id": "gbbgul",
       "de": "Mantelmöwe",
       "en": "Great Black-backed Gull",
+      "enGB": "",
       "sci": "Larus marinus",
       "codes": [
         "GBBG"
@@ -3114,6 +3247,7 @@
       "id": "wallcr1",
       "de": "Mauerläufer",
       "en": "Wallcreeper",
+      "enGB": "",
       "sci": "Tichodroma muraria",
       "codes": [
         "WALL"
@@ -3136,6 +3270,7 @@
       "id": "comswi",
       "de": "Mauersegler",
       "en": "Common Swift",
+      "enGB": "",
       "sci": "Apus apus",
       "codes": [
         "COSW"
@@ -3158,6 +3293,7 @@
       "id": "pursan",
       "de": "Meerstrandläufer",
       "en": "Purple Sandpiper",
+      "enGB": "",
       "sci": "Calidris maritima",
       "codes": [
         "PUSA"
@@ -3180,6 +3316,7 @@
       "id": "comhom1",
       "de": "Mehlschwalbe",
       "en": "Western House-Martin",
+      "enGB": "Western House Martin",
       "sci": "Delichon urbicum",
       "codes": [
         "WHMA",
@@ -3206,6 +3343,7 @@
       "id": "merlin",
       "de": "Merlin",
       "en": "Merlin",
+      "enGB": "",
       "sci": "Falco columbarius",
       "codes": [
         "MERL"
@@ -3229,6 +3367,7 @@
       "id": "misthr1",
       "de": "Misteldrossel",
       "en": "Mistle Thrush",
+      "enGB": "",
       "sci": "Turdus viscivorus",
       "codes": [
         "MITH"
@@ -3251,6 +3390,7 @@
       "id": "yelgul1",
       "de": "Mittelmeermöwe",
       "en": "Yellow-legged Gull",
+      "enGB": "",
       "sci": "Larus michahellis",
       "codes": [
         "YLGU"
@@ -3274,6 +3414,7 @@
       "id": "miswoo1",
       "de": "Mittelspecht",
       "en": "Middle Spotted Woodpecker",
+      "enGB": "",
       "sci": "Dendrocoptes medius",
       "codes": [
         "MSWO"
@@ -3296,6 +3437,7 @@
       "id": "rebmer",
       "de": "Mittelsäger",
       "en": "Red-breasted Merganser",
+      "enGB": "",
       "sci": "Mergus serrator",
       "codes": [
         "RBME"
@@ -3319,6 +3461,7 @@
       "id": "ferduc",
       "de": "Moorente",
       "en": "Ferruginous Duck",
+      "enGB": "",
       "sci": "Aythya nyroca",
       "codes": [
         "FEDU"
@@ -3342,6 +3485,7 @@
       "id": "eurdot",
       "de": "Mornellregenpfeifer",
       "en": "Eurasian Dotterel",
+      "enGB": "",
       "sci": "Eudromias morinellus",
       "codes": [
         "EUDO"
@@ -3364,6 +3508,7 @@
       "id": "combuz1",
       "de": "Mäusebussard",
       "en": "Common Buzzard",
+      "enGB": "",
       "sci": "Buteo buteo",
       "codes": [
         "COBU",
@@ -3389,6 +3534,7 @@
       "id": "blackc1",
       "de": "Mönchsgrasmücke",
       "en": "Eurasian Blackcap",
+      "enGB": "",
       "sci": "Sylvia atricapilla",
       "codes": [
         "BLAC",
@@ -3414,6 +3560,7 @@
       "id": "comnig1",
       "de": "Nachtigall",
       "en": "Common Nightingale",
+      "enGB": "",
       "sci": "Luscinia megarhynchos",
       "codes": [
         "CONI"
@@ -3436,6 +3583,7 @@
       "id": "bcnher",
       "de": "Nachtreiher",
       "en": "Black-crowned Night Heron",
+      "enGB": "",
       "sci": "Nycticorax nycticorax",
       "codes": [
         "BCNH"
@@ -3461,6 +3609,7 @@
       "id": "eurnig1",
       "de": "Nachtschwalbe",
       "en": "Eurasian Nightjar",
+      "enGB": "European Nightjar",
       "sci": "Caprimulgus europaeus",
       "codes": [
         "EUNI"
@@ -3487,6 +3636,7 @@
       "id": "grerhe1",
       "de": "Nandu",
       "en": "Greater Rhea",
+      "enGB": "",
       "sci": "Rhea americana",
       "codes": [
         "GRRH"
@@ -3510,6 +3660,7 @@
       "id": "hoocro1",
       "de": "Nebelkrähe",
       "en": "Hooded Crow",
+      "enGB": "Carrion Crow (Hooded/Mesopotamian)",
       "sci": "Corvus cornix",
       "codes": [
         "HOCR",
@@ -3533,6 +3684,7 @@
       "id": "rebshr1",
       "de": "Neuntöter",
       "en": "Red-backed Shrike",
+      "enGB": "",
       "sci": "Lanius collurio",
       "codes": [
         "RBSH"
@@ -3555,6 +3707,7 @@
       "id": "egygoo",
       "de": "Nilgans",
       "en": "Egyptian Goose",
+      "enGB": "",
       "sci": "Alopochen aegyptiaca",
       "codes": [
         "EGGO"
@@ -3579,6 +3732,7 @@
       "id": "horlar",
       "de": "Ohrenlerche",
       "en": "Horned Lark",
+      "enGB": "Shore Lark",
       "sci": "Eremophila alpestris",
       "codes": [
         "SHLA"
@@ -3604,6 +3758,7 @@
       "id": "horgre",
       "de": "Ohrentaucher",
       "en": "Horned Grebe",
+      "enGB": "Slavonian Grebe",
       "sci": "Podiceps auritus",
       "codes": [
         "SLGR"
@@ -3628,6 +3783,7 @@
       "id": "melwar1",
       "de": "Orpheusspötter",
       "en": "Melodious Warbler",
+      "enGB": "",
       "sci": "Hippolais polyglotta",
       "codes": [
         "MEWA"
@@ -3650,6 +3806,7 @@
       "id": "ortbun1",
       "de": "Ortolan",
       "en": "Ortolan Bunting",
+      "enGB": "",
       "sci": "Emberiza hortulana",
       "codes": [
         "ORBU"
@@ -3672,6 +3829,7 @@
       "id": "atlpuf",
       "de": "Papageitaucher",
       "en": "Atlantic Puffin",
+      "enGB": "",
       "sci": "Fratercula arctica",
       "codes": [
         "ATPU"
@@ -3694,6 +3852,7 @@
       "id": "eurwig",
       "de": "Pfeifente",
       "en": "Eurasian Wigeon",
+      "enGB": "",
       "sci": "Mareca penelope",
       "codes": [
         "EUWI"
@@ -3717,6 +3876,7 @@
       "id": "batgod",
       "de": "Pfuhlschnepfe",
       "en": "Bar-tailed Godwit",
+      "enGB": "",
       "sci": "Limosa lapponica",
       "codes": [
         "BTGO"
@@ -3739,6 +3899,7 @@
       "id": "eugori2",
       "de": "Pirol",
       "en": "Eurasian Golden Oriole",
+      "enGB": "",
       "sci": "Oriolus oriolus",
       "codes": [
         "EGOR"
@@ -3761,6 +3922,7 @@
       "id": "arcloo",
       "de": "Prachttaucher",
       "en": "Arctic Loon",
+      "enGB": "Black-throated Diver",
       "sci": "Gavia arctica",
       "codes": [
         "BTLO",
@@ -3787,6 +3949,7 @@
       "id": "purher1",
       "de": "Purpurreiher",
       "en": "Purple Heron",
+      "enGB": "",
       "sci": "Ardea purpurea",
       "codes": [
         "PUHE"
@@ -3810,6 +3973,7 @@
       "id": "carcro1",
       "de": "Rabenkrähe",
       "en": "Carrion Crow",
+      "enGB": "Carrion Crow (Western/Eastern)",
       "sci": "Corvus corone",
       "codes": [
         "CACR"
@@ -3832,6 +3996,7 @@
       "id": "caster1",
       "de": "Raubseeschwalbe",
       "en": "Caspian Tern",
+      "enGB": "",
       "sci": "Hydroprogne caspia",
       "codes": [
         "CATE"
@@ -3854,6 +4019,7 @@
       "id": "norshr1",
       "de": "Raubwürger",
       "en": "Great Gray Shrike",
+      "enGB": "Great Grey Shrike",
       "sci": "Lanius excubitor",
       "codes": [
         "GGSH"
@@ -3879,6 +4045,7 @@
       "id": "barswa",
       "de": "Rauchschwalbe",
       "en": "Barn Swallow",
+      "enGB": "",
       "sci": "Hirundo rustica",
       "codes": [
         "BASW"
@@ -3901,6 +4068,7 @@
       "id": "rolhaw",
       "de": "Raufußbussard",
       "en": "Rough-legged Hawk",
+      "enGB": "Rough-legged Buzzard",
       "sci": "Buteo lagopus",
       "codes": [
         "RLBU"
@@ -3926,6 +4094,7 @@
       "id": "borowl",
       "de": "Raufußkauz",
       "en": "Boreal Owl",
+      "enGB": "Tengmalm's Owl",
       "sci": "Aegolius funereus",
       "codes": [
         "TEOW"
@@ -3950,6 +4119,7 @@
       "id": "grypar",
       "de": "Rebhuhn",
       "en": "Gray Partridge",
+      "enGB": "Grey Partridge",
       "sci": "Perdix perdix",
       "codes": [
         "GRPA"
@@ -3974,6 +4144,7 @@
       "id": "whimbr5",
       "de": "Regenbrachvogel",
       "en": "Eurasian Whimbrel",
+      "enGB": "",
       "sci": "Numenius phaeopus",
       "codes": [
         "EUWH"
@@ -3996,6 +4167,7 @@
       "id": "tufduc",
       "de": "Reiherente",
       "en": "Tufted Duck",
+      "enGB": "",
       "sci": "Aythya fuligula",
       "codes": [
         "TUDU"
@@ -4019,6 +4191,7 @@
       "id": "rinouz1",
       "de": "Ringdrossel",
       "en": "Ring Ouzel",
+      "enGB": "",
       "sci": "Turdus torquatus",
       "codes": [
         "RIOU"
@@ -4041,6 +4214,7 @@
       "id": "brant",
       "de": "Ringelgans",
       "en": "Brant",
+      "enGB": "Brent Goose",
       "sci": "Branta bernicla",
       "codes": [
         "BRGO"
@@ -4066,6 +4240,7 @@
       "id": "cowpig1",
       "de": "Ringeltaube",
       "en": "Common Wood-Pigeon",
+      "enGB": "Common Woodpigeon",
       "sci": "Columba palumbus",
       "codes": [
         "COWO",
@@ -4092,6 +4267,7 @@
       "id": "reebun",
       "de": "Rohrammer",
       "en": "Reed Bunting",
+      "enGB": "Common Reed Bunting",
       "sci": "Emberiza schoeniclus",
       "codes": [
         "CRBU"
@@ -4116,6 +4292,7 @@
       "id": "grebit1",
       "de": "Rohrdommel",
       "en": "Eurasian Bittern",
+      "enGB": "",
       "sci": "Botaurus stellaris",
       "codes": [
         "EUBI"
@@ -4139,6 +4316,7 @@
       "id": "savwar1",
       "de": "Rohrschwirl",
       "en": "Savi's Warbler",
+      "enGB": "",
       "sci": "Locustella luscinioides",
       "codes": [
         "SAWA"
@@ -4161,6 +4339,7 @@
       "id": "wemhar1",
       "de": "Rohrweihe",
       "en": "Western Marsh Harrier",
+      "enGB": "",
       "sci": "Circus aeruginosus",
       "codes": [
         "WEMH"
@@ -4185,6 +4364,7 @@
       "id": "grefla3",
       "de": "Rosaflamingo",
       "en": "Greater Flamingo",
+      "enGB": "",
       "sci": "Phoenicopterus roseus",
       "codes": [
         "GRFL"
@@ -4208,6 +4388,7 @@
       "id": "rudshe",
       "de": "Rostgans",
       "en": "Ruddy Shelduck",
+      "enGB": "",
       "sci": "Tadorna ferruginea",
       "codes": [
         "RUSH"
@@ -4232,6 +4413,7 @@
       "id": "redwin",
       "de": "Rotdrossel",
       "en": "Redwing",
+      "enGB": "",
       "sci": "Turdus iliacus",
       "codes": [
         "REDW"
@@ -4255,6 +4437,7 @@
       "id": "rebgoo1",
       "de": "Rothalsgans",
       "en": "Red-breasted Goose",
+      "enGB": "",
       "sci": "Branta ruficollis",
       "codes": [
         "RBGO"
@@ -4277,6 +4460,7 @@
       "id": "rengre",
       "de": "Rothalstaucher",
       "en": "Red-necked Grebe",
+      "enGB": "",
       "sci": "Podiceps grisegena",
       "codes": [
         "RNGR"
@@ -4300,6 +4484,7 @@
       "id": "eurrob1",
       "de": "Rotkehlchen",
       "en": "European Robin",
+      "enGB": "",
       "sci": "Erithacus rubecula",
       "codes": [
         "EURO"
@@ -4322,6 +4507,7 @@
       "id": "redkit1",
       "de": "Rotmilan",
       "en": "Red Kite",
+      "enGB": "",
       "sci": "Milvus milvus",
       "codes": [
         "REKI"
@@ -4344,6 +4530,7 @@
       "id": "comred1",
       "de": "Rotschenkel",
       "en": "Common Redshank",
+      "enGB": "",
       "sci": "Tringa totanus",
       "codes": [
         "CORE"
@@ -4367,6 +4554,7 @@
       "id": "rintea1",
       "de": "Rotschulterente",
       "en": "Ringed Teal",
+      "enGB": "",
       "sci": "Callonetta leucophrys",
       "codes": [
         "RITE"
@@ -4390,6 +4578,7 @@
       "id": "rook1",
       "de": "Saatkrähe",
       "en": "Rook",
+      "enGB": "",
       "sci": "Corvus frugilegus",
       "codes": [
         "ROOK"
@@ -4412,6 +4601,7 @@
       "id": "whwsco3",
       "de": "Samtente",
       "en": "Velvet Scoter",
+      "enGB": "",
       "sci": "Melanitta fusca",
       "codes": [
         "VESC"
@@ -4434,6 +4624,7 @@
       "id": "sander",
       "de": "Sanderling",
       "en": "Sanderling",
+      "enGB": "",
       "sci": "Calidris alba",
       "codes": [
         "SAND"
@@ -4458,6 +4649,7 @@
       "id": "corplo",
       "de": "Sandregenpfeifer",
       "en": "Common Ringed Plover",
+      "enGB": "",
       "sci": "Charadrius hiaticula",
       "codes": [
         "RIPL"
@@ -4483,6 +4675,7 @@
       "id": "eaywag1",
       "de": "Schafstelze",
       "en": "Western Yellow Wagtail",
+      "enGB": "",
       "sci": "Motacilla flava",
       "codes": [
         "WYWA"
@@ -4507,6 +4700,7 @@
       "id": "comgol",
       "de": "Schellente",
       "en": "Common Goldeneye",
+      "enGB": "",
       "sci": "Bucephala clangula",
       "codes": [
         "COGO"
@@ -4530,6 +4724,7 @@
       "id": "sedwar1",
       "de": "Schilfrohrsänger",
       "en": "Sedge Warbler",
+      "enGB": "",
       "sci": "Acrocephalus schoenobaenus",
       "codes": [
         "SEWA"
@@ -4553,6 +4748,7 @@
       "id": "eurwar2",
       "de": "Schlagschwirl",
       "en": "River Warbler",
+      "enGB": "",
       "sci": "Locustella fluviatilis",
       "codes": [
         "RIWA"
@@ -4575,6 +4771,7 @@
       "id": "webowl1",
       "de": "Schleiereule",
       "en": "Western Barn Owl",
+      "enGB": "",
       "sci": "Tyto alba",
       "codes": [
         "EBOW",
@@ -4601,6 +4798,7 @@
       "id": "parjae",
       "de": "Schmarotzerraubmöwe",
       "en": "Parasitic Jaeger",
+      "enGB": "Arctic Skua",
       "sci": "Stercorarius parasiticus",
       "codes": [
         "ARSK",
@@ -4627,6 +4825,7 @@
       "id": "gadwal",
       "de": "Schnatterente",
       "en": "Gadwall",
+      "enGB": "",
       "sci": "Mareca strepera",
       "codes": [
         "GADW"
@@ -4650,6 +4849,7 @@
       "id": "snobun",
       "de": "Schneeammer",
       "en": "Snow Bunting",
+      "enGB": "",
       "sci": "Plectrophenax nivalis",
       "codes": [
         "SNBU"
@@ -4673,6 +4873,7 @@
       "id": "snogoo",
       "de": "Schneegans",
       "en": "Snow Goose",
+      "enGB": "",
       "sci": "Anser caerulescens",
       "codes": [
         "SNGO"
@@ -4697,6 +4898,7 @@
       "id": "whwsno1",
       "de": "Schneesperling",
       "en": "White-winged Snowfinch",
+      "enGB": "",
       "sci": "Montifringilla nivalis",
       "codes": [
         "WWSN"
@@ -4719,6 +4921,7 @@
       "id": "leseag1",
       "de": "Schreiadler",
       "en": "Lesser Spotted Eagle",
+      "enGB": "",
       "sci": "Clanga pomarina",
       "codes": [
         "LSEA"
@@ -4741,6 +4944,7 @@
       "id": "lottit1",
       "de": "Schwanzmeise",
       "en": "Long-tailed Tit",
+      "enGB": "",
       "sci": "Aegithalos caudatus",
       "codes": [
         "LTTI"
@@ -4763,6 +4967,7 @@
       "id": "eargre",
       "de": "Schwarzhalstaucher",
       "en": "Eared Grebe",
+      "enGB": "Black-necked Grebe",
       "sci": "Podiceps nigricollis",
       "codes": [
         "BNGR"
@@ -4788,6 +4993,7 @@
       "id": "stonec4",
       "de": "Schwarzkehlchen",
       "en": "European Stonechat",
+      "enGB": "",
       "sci": "Saxicola rubicola",
       "codes": [
         "COST",
@@ -4811,6 +5017,7 @@
       "id": "medgul1",
       "de": "Schwarzkopfmöwe",
       "en": "Mediterranean Gull",
+      "enGB": "",
       "sci": "Ichthyaetus melanocephalus",
       "codes": [
         "MEGU"
@@ -4834,6 +5041,7 @@
       "id": "blakit1",
       "de": "Schwarzmilan",
       "en": "Black Kite",
+      "enGB": "",
       "sci": "Milvus migrans",
       "codes": [
         "BBKI",
@@ -4857,6 +5065,7 @@
       "id": "blkswa",
       "de": "Schwarzschwan",
       "en": "Black Swan",
+      "enGB": "",
       "sci": "Cygnus atratus",
       "codes": [
         "BLSW"
@@ -4881,6 +5090,7 @@
       "id": "blawoo1",
       "de": "Schwarzspecht",
       "en": "Black Woodpecker",
+      "enGB": "",
       "sci": "Dryocopus martius",
       "codes": [
         "BLWO"
@@ -4903,6 +5113,7 @@
       "id": "blasto1",
       "de": "Schwarzstorch",
       "en": "Black Stork",
+      "enGB": "",
       "sci": "Ciconia nigra",
       "codes": [
         "BLST"
@@ -4926,6 +5137,7 @@
       "id": "whteag",
       "de": "Seeadler",
       "en": "White-tailed Eagle",
+      "enGB": "",
       "sci": "Haliaeetus albicilla",
       "codes": [
         "WTSE"
@@ -4950,6 +5162,7 @@
       "id": "kenplo1",
       "de": "Seeregenpfeifer",
       "en": "Kentish Plover",
+      "enGB": "",
       "sci": "Anarhynchus alexandrinus",
       "codes": [
         "KEPL"
@@ -4973,6 +5186,7 @@
       "id": "aquwar1",
       "de": "Seggenrohrsänger",
       "en": "Aquatic Warbler",
+      "enGB": "",
       "sci": "Acrocephalus paludicola",
       "codes": [
         "AQWA"
@@ -4997,6 +5211,7 @@
       "id": "bohwax",
       "de": "Seidenschwanz",
       "en": "Bohemian Waxwing",
+      "enGB": "",
       "sci": "Bombycilla garrulus",
       "codes": [
         "BOWA"
@@ -5019,6 +5234,7 @@
       "id": "cetwar1",
       "de": "Seidensänger",
       "en": "Cetti's Warbler",
+      "enGB": "",
       "sci": "Cettia cetti",
       "codes": [
         "CEWA"
@@ -5041,6 +5257,7 @@
       "id": "cursan",
       "de": "Sichelstrandläufer",
       "en": "Curlew Sandpiper",
+      "enGB": "",
       "sci": "Calidris ferruginea",
       "codes": [
         "CUSA"
@@ -5063,6 +5280,7 @@
       "id": "euhgul1",
       "de": "Silbermöwe",
       "en": "European Herring Gull",
+      "enGB": "",
       "sci": "Larus argentatus",
       "codes": [
         "EHGU"
@@ -5086,6 +5304,7 @@
       "id": "greegr",
       "de": "Silberreiher",
       "en": "Great Egret",
+      "enGB": "Great White Egret",
       "sci": "Ardea alba",
       "codes": [
         "GWEG",
@@ -5113,6 +5332,7 @@
       "id": "sonthr1",
       "de": "Singdrossel",
       "en": "Song Thrush",
+      "enGB": "",
       "sci": "Turdus philomelos",
       "codes": [
         "SOTH"
@@ -5135,6 +5355,7 @@
       "id": "whoswa",
       "de": "Singschwan",
       "en": "Whooper Swan",
+      "enGB": "",
       "sci": "Cygnus cygnus",
       "codes": [
         "WHSW"
@@ -5158,6 +5379,7 @@
       "id": "gresku1",
       "de": "Skua",
       "en": "Great Skua",
+      "enGB": "",
       "sci": "Stercorarius skua",
       "codes": [
         "GRSK"
@@ -5180,6 +5402,7 @@
       "id": "firecr1",
       "de": "Sommergoldhähnchen",
       "en": "Common Firecrest",
+      "enGB": "",
       "sci": "Regulus ignicapilla",
       "codes": [
         "COFI"
@@ -5202,6 +5425,7 @@
       "id": "pomjae",
       "de": "Spatelraubmöwe",
       "en": "Pomarine Jaeger",
+      "enGB": "Pomarine Skua",
       "sci": "Stercorarius pomarinus",
       "codes": [
         "POSK"
@@ -5226,6 +5450,7 @@
       "id": "eurspa1",
       "de": "Sperber",
       "en": "Eurasian Sparrowhawk",
+      "enGB": "",
       "sci": "Accipiter nisus",
       "codes": [
         "EUSP"
@@ -5248,6 +5473,7 @@
       "id": "barwar1",
       "de": "Sperbergrasmücke",
       "en": "Barred Warbler",
+      "enGB": "",
       "sci": "Curruca nisoria",
       "codes": [
         "BAWA"
@@ -5270,6 +5496,7 @@
       "id": "eupowl1",
       "de": "Sperlingskauz",
       "en": "Eurasian Pygmy-Owl",
+      "enGB": "Eurasian Pygmy Owl",
       "sci": "Glaucidium passerinum",
       "codes": [
         "EUPO",
@@ -5296,6 +5523,7 @@
       "id": "norpin",
       "de": "Spießente",
       "en": "Northern Pintail",
+      "enGB": "",
       "sci": "Anas acuta",
       "codes": [
         "NOPI"
@@ -5321,6 +5549,7 @@
       "id": "laplon",
       "de": "Spornammer",
       "en": "Lapland Longspur",
+      "enGB": "Lapland Bunting",
       "sci": "Calcarius lapponicus",
       "codes": [
         "LABU"
@@ -5346,6 +5575,7 @@
       "id": "thrnig1",
       "de": "Sprosser",
       "en": "Thrush Nightingale",
+      "enGB": "",
       "sci": "Luscinia luscinia",
       "codes": [
         "THNI"
@@ -5368,6 +5598,7 @@
       "id": "eursta",
       "de": "Star",
       "en": "European Starling",
+      "enGB": "Common Starling",
       "sci": "Sturnus vulgaris",
       "codes": [
         "COST"
@@ -5392,6 +5623,7 @@
       "id": "goleag",
       "de": "Steinadler",
       "en": "Golden Eagle",
+      "enGB": "",
       "sci": "Aquila chrysaetos",
       "codes": [
         "GOEA"
@@ -5414,6 +5646,7 @@
       "id": "rocpar2",
       "de": "Steinhuhn",
       "en": "Rock Partridge",
+      "enGB": "",
       "sci": "Alectoris graeca",
       "codes": [
         "ROPA"
@@ -5436,6 +5669,7 @@
       "id": "litowl1",
       "de": "Steinkauz",
       "en": "Little Owl",
+      "enGB": "",
       "sci": "Athene noctua",
       "codes": [
         "LIOW"
@@ -5458,6 +5692,7 @@
       "id": "rtrthr1",
       "de": "Steinrötel",
       "en": "Rufous-tailed Rock-Thrush",
+      "enGB": "Common Rock Thrush",
       "sci": "Monticola saxatilis",
       "codes": [
         "CRTH"
@@ -5484,6 +5719,7 @@
       "id": "norwhe",
       "de": "Steinschmätzer",
       "en": "Northern Wheatear",
+      "enGB": "",
       "sci": "Oenanthe oenanthe",
       "codes": [
         "NOWH"
@@ -5506,6 +5742,7 @@
       "id": "rudtur",
       "de": "Steinwälzer",
       "en": "Ruddy Turnstone",
+      "enGB": "",
       "sci": "Arenaria interpres",
       "codes": [
         "RUTU"
@@ -5530,6 +5767,7 @@
       "id": "bkwsti",
       "de": "Stelzenläufer",
       "en": "Black-winged Stilt",
+      "enGB": "",
       "sci": "Himantopus himantopus",
       "codes": [
         "EBWS"
@@ -5554,6 +5792,7 @@
       "id": "casgul2",
       "de": "Steppenmöwe",
       "en": "Caspian Gull",
+      "enGB": "",
       "sci": "Larus cachinnans",
       "codes": [
         "CAGU"
@@ -5577,6 +5816,7 @@
       "id": "retloo",
       "de": "Sterntaucher",
       "en": "Red-throated Loon",
+      "enGB": "Red-throated Diver",
       "sci": "Gavia stellata",
       "codes": [
         "RTDI"
@@ -5601,6 +5841,7 @@
       "id": "eurgol",
       "de": "Stieglitz",
       "en": "European Goldfinch",
+      "enGB": "",
       "sci": "Carduelis carduelis",
       "codes": [
         "EUGO",
@@ -5626,6 +5867,7 @@
       "id": "mallar3",
       "de": "Stockente",
       "en": "Mallard",
+      "enGB": "",
       "sci": "Anas platyrhynchos",
       "codes": [
         "MALL"
@@ -5649,6 +5891,7 @@
       "id": "rocpip1",
       "de": "Strandpieper",
       "en": "Rock Pipit",
+      "enGB": "European Rock Pipit",
       "sci": "Anthus petrosus",
       "codes": [
         "ERPI",
@@ -5675,6 +5918,7 @@
       "id": "bahgoo",
       "de": "Streifengans",
       "en": "Bar-headed Goose",
+      "enGB": "",
       "sci": "Anser indicus",
       "codes": [
         "BHGO"
@@ -5699,6 +5943,7 @@
       "id": "mewgul",
       "de": "Sturmmöwe",
       "en": "Common Gull",
+      "enGB": "",
       "sci": "Larus canus",
       "codes": [
         "MEGU"
@@ -5722,6 +5967,7 @@
       "id": "bripet",
       "de": "Sturmwellenläufer",
       "en": "European Storm-Petrel",
+      "enGB": "European Storm Petrel",
       "sci": "Hydrobates pelagicus",
       "codes": [
         "ESPE"
@@ -5747,6 +5993,7 @@
       "id": "brbsan",
       "de": "Sumpfläufer",
       "en": "Broad-billed Sandpiper",
+      "enGB": "",
       "sci": "Calidris falcinellus",
       "codes": [
         "BBSA"
@@ -5769,6 +6016,7 @@
       "id": "martit2",
       "de": "Sumpfmeise",
       "en": "Marsh Tit",
+      "enGB": "",
       "sci": "Poecile palustris",
       "codes": [
         "MATI"
@@ -5791,6 +6039,7 @@
       "id": "sheowl",
       "de": "Sumpfohreule",
       "en": "Short-eared Owl",
+      "enGB": "",
       "sci": "Asio flammeus",
       "codes": [
         "SEOW"
@@ -5815,6 +6064,7 @@
       "id": "marwar3",
       "de": "Sumpfrohrsänger",
       "en": "Marsh Warbler",
+      "enGB": "",
       "sci": "Acrocephalus palustris",
       "codes": [
         "MAWA"
@@ -5837,6 +6087,7 @@
       "id": "pieavo1",
       "de": "Säbelschnäbler",
       "en": "Pied Avocet",
+      "enGB": "",
       "sci": "Recurvirostra avosetta",
       "codes": [
         "PIAV"
@@ -5860,6 +6111,7 @@
       "id": "compoc",
       "de": "Tafelente",
       "en": "Common Pochard",
+      "enGB": "",
       "sci": "Aythya ferina",
       "codes": [
         "COPO"
@@ -5883,6 +6135,7 @@
       "id": "eurnut3",
       "de": "Tannenhäher",
       "en": "Northern Nutcracker",
+      "enGB": "Spotted Nutcracker",
       "sci": "Nucifraga caryocatactes",
       "codes": [
         "NONU",
@@ -5908,6 +6161,7 @@
       "id": "coatit2",
       "de": "Tannenmeise",
       "en": "Coal Tit",
+      "enGB": "",
       "sci": "Periparus ater",
       "codes": [
         "COTI"
@@ -5930,6 +6184,7 @@
       "id": "commoo3",
       "de": "Teichhuhn",
       "en": "Eurasian Moorhen",
+      "enGB": "Common Moorhen",
       "sci": "Gallinula chloropus",
       "codes": [
         "EUMO"
@@ -5955,6 +6210,7 @@
       "id": "eurwar1",
       "de": "Teichrohrsänger",
       "en": "Common Reed Warbler",
+      "enGB": "",
       "sci": "Acrocephalus scirpaceus",
       "codes": [
         "CORW",
@@ -5980,6 +6236,7 @@
       "id": "temsti",
       "de": "Temminckstrandläufer",
       "en": "Temminck's Stint",
+      "enGB": "",
       "sci": "Calidris temminckii",
       "codes": [
         "TEST"
@@ -6002,6 +6259,7 @@
       "id": "razorb",
       "de": "Tordalk",
       "en": "Razorbill",
+      "enGB": "",
       "sci": "Alca torda",
       "codes": [
         "RAZO"
@@ -6025,6 +6283,7 @@
       "id": "blksco1",
       "de": "Trauerente",
       "en": "Common Scoter",
+      "enGB": "",
       "sci": "Melanitta nigra",
       "codes": [
         "COSC"
@@ -6047,6 +6306,7 @@
       "id": "eupfly1",
       "de": "Trauerschnäpper",
       "en": "European Pied Flycatcher",
+      "enGB": "",
       "sci": "Ficedula hypoleuca",
       "codes": [
         "PIFL",
@@ -6072,6 +6332,7 @@
       "id": "blkter",
       "de": "Trauerseeschwalbe",
       "en": "Black Tern",
+      "enGB": "",
       "sci": "Chlidonias niger",
       "codes": [
         "BLTE"
@@ -6095,6 +6356,7 @@
       "id": "eutkne1",
       "de": "Triel",
       "en": "Eurasian Thick-knee",
+      "enGB": "Stone-curlew",
       "sci": "Burhinus oedicnemus",
       "codes": [
         "STCU",
@@ -6124,6 +6386,7 @@
       "id": "commur",
       "de": "Trottellumme",
       "en": "Common Murre",
+      "enGB": "Common Guillemot",
       "sci": "Uria aalge",
       "codes": [
         "COGU"
@@ -6149,6 +6412,7 @@
       "id": "wiltur",
       "de": "Truthuhn",
       "en": "Wild Turkey",
+      "enGB": "",
       "sci": "Meleagris gallopavo",
       "codes": [
         "WITU"
@@ -6172,6 +6436,7 @@
       "id": "tunbeg1",
       "de": "Tundrasaatgans",
       "en": "Tundra Bean-Goose",
+      "enGB": "Tundra Bean Goose",
       "sci": "Anser serrirostris",
       "codes": [
         "BEGO",
@@ -6197,6 +6462,7 @@
       "id": "eurkes",
       "de": "Turmfalke",
       "en": "Eurasian Kestrel",
+      "enGB": "Common Kestrel",
       "sci": "Falco tinnunculus",
       "codes": [
         "COKE"
@@ -6221,6 +6487,7 @@
       "id": "eutdov",
       "de": "Turteltaube",
       "en": "European Turtle-Dove",
+      "enGB": "European Turtle Dove",
       "sci": "Streptopelia turtur",
       "codes": [
         "ETDO"
@@ -6246,6 +6513,7 @@
       "id": "spocra1",
       "de": "Tüpfelsumpfhuhn",
       "en": "Spotted Crake",
+      "enGB": "",
       "sci": "Porzana porzana",
       "codes": [
         "SPCR"
@@ -6269,6 +6537,7 @@
       "id": "eucdov",
       "de": "Türkentaube",
       "en": "Eurasian Collared-Dove",
+      "enGB": "Collared Dove",
       "sci": "Streptopelia decaocto",
       "codes": [
         "CODO",
@@ -6296,6 +6565,7 @@
       "id": "bktgod",
       "de": "Uferschnepfe",
       "en": "Black-tailed Godwit",
+      "enGB": "",
       "sci": "Limosa limosa",
       "codes": [
         "BTGO"
@@ -6319,6 +6589,7 @@
       "id": "banswa",
       "de": "Uferschwalbe",
       "en": "Bank Swallow",
+      "enGB": "Sand Martin",
       "sci": "Riparia riparia",
       "codes": [
         "SAMA",
@@ -6346,6 +6617,7 @@
       "id": "eueowl1",
       "de": "Uhu",
       "en": "Eurasian Eagle-Owl",
+      "enGB": "Eurasian Eagle Owl",
       "sci": "Bubo bubo",
       "codes": [
         "EEOW",
@@ -6372,6 +6644,7 @@
       "id": "fieldf",
       "de": "Wacholderdrossel",
       "en": "Fieldfare",
+      "enGB": "",
       "sci": "Turdus pilaris",
       "codes": [
         "FIEL"
@@ -6394,6 +6667,7 @@
       "id": "comqua1",
       "de": "Wachtel",
       "en": "Common Quail",
+      "enGB": "",
       "sci": "Coturnix coturnix",
       "codes": [
         "COQU"
@@ -6416,6 +6690,7 @@
       "id": "corcra",
       "de": "Wachtelkönig",
       "en": "Corn Crake",
+      "enGB": "Corncrake",
       "sci": "Crex crex",
       "codes": [
         "COCR",
@@ -6442,6 +6717,7 @@
       "id": "eurtre1",
       "de": "Waldbaumläufer",
       "en": "Eurasian Treecreeper",
+      "enGB": "",
       "sci": "Certhia familiaris",
       "codes": [
         "EUTR"
@@ -6466,6 +6742,7 @@
       "id": "tawowl1",
       "de": "Waldkauz",
       "en": "Tawny Owl",
+      "enGB": "",
       "sci": "Strix aluco",
       "codes": [
         "TAOW"
@@ -6488,6 +6765,7 @@
       "id": "woowar",
       "de": "Waldlaubsänger",
       "en": "Wood Warbler",
+      "enGB": "",
       "sci": "Phylloscopus sibilatrix",
       "codes": [
         "WOWA"
@@ -6510,6 +6788,7 @@
       "id": "loeowl",
       "de": "Waldohreule",
       "en": "Long-eared Owl",
+      "enGB": "",
       "sci": "Asio otus",
       "codes": [
         "LEOW"
@@ -6532,6 +6811,7 @@
       "id": "taibeg1",
       "de": "Waldsaatgans",
       "en": "Taiga Bean-Goose",
+      "enGB": "Taiga Bean Goose",
       "sci": "Anser fabalis",
       "codes": [
         "BEGO",
@@ -6557,6 +6837,7 @@
       "id": "eurwoo",
       "de": "Waldschnepfe",
       "en": "Eurasian Woodcock",
+      "enGB": "",
       "sci": "Scolopax rusticola",
       "codes": [
         "EUWO"
@@ -6580,6 +6861,7 @@
       "id": "grnsan",
       "de": "Waldwasserläufer",
       "en": "Green Sandpiper",
+      "enGB": "",
       "sci": "Tringa ochropus",
       "codes": [
         "GRSA"
@@ -6603,6 +6885,7 @@
       "id": "perfal",
       "de": "Wanderfalke",
       "en": "Peregrine Falcon",
+      "enGB": "",
       "sci": "Falco peregrinus",
       "codes": [
         "PEFA"
@@ -6625,6 +6908,7 @@
       "id": "whtdip1",
       "de": "Wasseramsel",
       "en": "White-throated Dipper",
+      "enGB": "",
       "sci": "Cinclus cinclus",
       "codes": [
         "WTDI"
@@ -6647,6 +6931,7 @@
       "id": "watrai1",
       "de": "Wasserralle",
       "en": "Water Rail",
+      "enGB": "",
       "sci": "Rallus aquaticus",
       "codes": [
         "WWRA",
@@ -6673,6 +6958,7 @@
       "id": "wiltit1",
       "de": "Weidenmeise",
       "en": "Willow Tit",
+      "enGB": "",
       "sci": "Poecile montanus",
       "codes": [
         "WITI"
@@ -6695,6 +6981,7 @@
       "id": "whwter",
       "de": "Weißflügel-Seeschwalbe",
       "en": "White-winged Tern",
+      "enGB": "White-winged Black Tern",
       "sci": "Chlidonias leucopterus",
       "codes": [
         "WWBT"
@@ -6721,6 +7008,7 @@
       "id": "whbwoo1",
       "de": "Weißrückenspecht",
       "en": "White-backed Woodpecker",
+      "enGB": "",
       "sci": "Dendrocopos leucotos",
       "codes": [
         "WBWO"
@@ -6743,6 +7031,7 @@
       "id": "whisto1",
       "de": "Weißstorch",
       "en": "White Stork",
+      "enGB": "",
       "sci": "Ciconia ciconia",
       "codes": [
         "WHST"
@@ -6766,6 +7055,7 @@
       "id": "bargoo",
       "de": "Weißwangengans",
       "en": "Barnacle Goose",
+      "enGB": "",
       "sci": "Branta leucopsis",
       "codes": [
         "BAGO"
@@ -6789,6 +7079,7 @@
       "id": "lcspet",
       "de": "Wellenläufer",
       "en": "Leach's Storm-Petrel",
+      "enGB": "Leach's Storm Petrel",
       "sci": "Hydrobates leucorhous",
       "codes": [
         "LSPE"
@@ -6814,6 +7105,7 @@
       "id": "eurwry",
       "de": "Wendehals",
       "en": "Eurasian Wryneck",
+      "enGB": "",
       "sci": "Jynx torquilla",
       "codes": [
         "EUWR"
@@ -6836,6 +7128,7 @@
       "id": "euhbuz1",
       "de": "Wespenbussard",
       "en": "European Honey-buzzard",
+      "enGB": "European Honey Buzzard",
       "sci": "Pernis apivorus",
       "codes": [
         "EUHB",
@@ -6861,6 +7154,7 @@
       "id": "hoopoe",
       "de": "Wiedehopf",
       "en": "Common Hoopoe",
+      "enGB": "",
       "sci": "Upupa epops",
       "codes": [
         "EUHO",
@@ -6887,6 +7181,7 @@
       "id": "meapip1",
       "de": "Wiesenpieper",
       "en": "Meadow Pipit",
+      "enGB": "",
       "sci": "Anthus pratensis",
       "codes": [
         "MEPI"
@@ -6909,6 +7204,7 @@
       "id": "monhar1",
       "de": "Wiesenweihe",
       "en": "Montagu's Harrier",
+      "enGB": "",
       "sci": "Circus pygargus",
       "codes": [
         "MOHA"
@@ -6931,6 +7227,7 @@
       "id": "goldcr1",
       "de": "Wintergoldhähnchen",
       "en": "Goldcrest",
+      "enGB": "",
       "sci": "Regulus regulus",
       "codes": [
         "GOLD"
@@ -6953,6 +7250,7 @@
       "id": "cirbun1",
       "de": "Zaunammer",
       "en": "Cirl Bunting",
+      "enGB": "",
       "sci": "Emberiza cirlus",
       "codes": [
         "CIBU"
@@ -6975,6 +7273,7 @@
       "id": "winwre4",
       "de": "Zaunkönig",
       "en": "Eurasian Wren",
+      "enGB": "",
       "sci": "Troglodytes troglodytes",
       "codes": [
         "EUWR",
@@ -7000,6 +7299,7 @@
       "id": "comchi1",
       "de": "Zilpzalp",
       "en": "Common Chiffchaff",
+      "enGB": "",
       "sci": "Phylloscopus collybita",
       "codes": [
         "COCH"
@@ -7022,6 +7322,7 @@
       "id": "rocbun1",
       "de": "Zippammer",
       "en": "Rock Bunting",
+      "enGB": "",
       "sci": "Emberiza cia",
       "codes": [
         "ROBU"
@@ -7044,6 +7345,7 @@
       "id": "citfin1",
       "de": "Zitronenzeisig",
       "en": "Citril Finch",
+      "enGB": "",
       "sci": "Carduelis citrinella",
       "codes": [
         "CIFI"
@@ -7066,6 +7368,7 @@
       "id": "litbit1",
       "de": "Zwergdommel",
       "en": "Little Bittern",
+      "enGB": "",
       "sci": "Botaurus minutus",
       "codes": [
         "CLBI"
@@ -7091,6 +7394,7 @@
       "id": "lwfgoo",
       "de": "Zwerggans",
       "en": "Lesser White-fronted Goose",
+      "enGB": "",
       "sci": "Anser erythropus",
       "codes": [
         "LWFG"
@@ -7113,6 +7417,7 @@
       "id": "litgul",
       "de": "Zwergmöwe",
       "en": "Little Gull",
+      "enGB": "",
       "sci": "Hydrocoloeus minutus",
       "codes": [
         "LIGU"
@@ -7136,6 +7441,7 @@
       "id": "eursco1",
       "de": "Zwergohreule",
       "en": "Eurasian Scops-Owl",
+      "enGB": "Eurasian Scops Owl",
       "sci": "Otus scops",
       "codes": [
         "EUSO",
@@ -7162,6 +7468,7 @@
       "id": "rebfly",
       "de": "Zwergschnäpper",
       "en": "Red-breasted Flycatcher",
+      "enGB": "",
       "sci": "Ficedula parva",
       "codes": [
         "RBFL"
@@ -7184,6 +7491,7 @@
       "id": "tunswa",
       "de": "Zwergschwan",
       "en": "Tundra Swan",
+      "enGB": "Bewick's Swan",
       "sci": "Cygnus columbianus",
       "codes": [
         "BESW"
@@ -7208,6 +7516,7 @@
       "id": "litter1",
       "de": "Zwergseeschwalbe",
       "en": "Little Tern",
+      "enGB": "",
       "sci": "Sternula albifrons",
       "codes": [
         "LITE"
@@ -7231,6 +7540,7 @@
       "id": "litsti",
       "de": "Zwergstrandläufer",
       "en": "Little Stint",
+      "enGB": "",
       "sci": "Calidris minuta",
       "codes": [
         "LIST"
@@ -7253,6 +7563,7 @@
       "id": "baicra1",
       "de": "Zwergsumpfhuhn",
       "en": "Baillon's Crake",
+      "enGB": "",
       "sci": "Zapornia pusilla",
       "codes": [
         "MACR",
@@ -7279,6 +7590,7 @@
       "id": "smew",
       "de": "Zwergsäger",
       "en": "Smew",
+      "enGB": "",
       "sci": "Mergellus albellus",
       "codes": [
         "SMEW"
@@ -7301,6 +7613,7 @@
       "id": "litgre1",
       "de": "Zwergtaucher",
       "en": "Little Grebe",
+      "enGB": "",
       "sci": "Tachybaptus ruficollis",
       "codes": [
         "LIGR"

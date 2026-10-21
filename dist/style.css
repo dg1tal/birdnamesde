@@ -26,6 +26,9 @@ button{cursor:pointer;font-weight:600}button.primary{background:var(--ink);color
 .card,.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
 .card p{margin:6px 0}.card a{float:right;font-size:14px;margin-top:7px}.card details{clear:both;padding-top:12px}
 .english{font-size:17px}.latin{font-style:italic;color:var(--muted);font-size:14px}
+.english-variants{display:flex;flex-wrap:wrap;gap:4px 22px;margin:8px 0;font-size:17px}
+.english-variants>span{min-width:0}
+.variant-label{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--muted);margin-right:5px}
 .code{font:700 19px ui-monospace,monospace;letter-spacing:1.3px;background:var(--soft);padding:5px 9px;border-radius:6px;display:inline-block}
 .tags{font-size:12px;color:var(--muted);margin-top:10px}
 .settings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}

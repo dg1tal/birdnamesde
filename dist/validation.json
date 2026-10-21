@@ -212,7 +212,7 @@
     "Zwergstrandläufer",
     "Zwergsäger"
   ],
-  "data_sha256": "818dc8861bfcab898133721177a80e3a979a65f7b6767b59f8783cde087adae7",
+  "data_sha256": "a2ad08e519c0be68c0f60e6d0aba5f4c094f82bd723097c0fa80116ce269c8d3",
   "verification_limits": [
     "No live HTTP test of every eBird species page; IDs validated against official taxonomy.",
     "Occurrence selection and learning levels are editorial; no independent ornithological peer review.",
