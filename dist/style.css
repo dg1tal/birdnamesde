@@ -96,3 +96,80 @@ body.studying #answer-area>.english{font-size:22px;margin:22px 0 12px}body.study
 .photo-set-multiple .bird-photo img,.photo-set-multiple .study-photo-slot{height:230px}
 body.studying .photo-set-multiple .bird-photo{margin:14px 0 4px}
 @media(max-width:580px){.photo-set-multiple{grid-template-columns:1fr;gap:4px}.photo-set-multiple .bird-photo img{height:240px}}
+
+/* Shared layouts for lookup, lesson setup and feedback. */
+[hidden]{display:none!important}
+.card h2{font-size:20px;margin:0}
+.card{min-width:0;overflow-wrap:anywhere}
+.lookup-tools{margin-bottom:12px}
+.search-label{display:block;font-size:14px;font-weight:650;margin-bottom:6px}
+.lookup-tools .search{display:block;width:100%;min-width:0}
+.lookup-filters{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;align-items:end;gap:12px;margin:14px 0 0}
+.lookup-filters select{width:100%;min-width:0;max-width:100%}
+.lookup-filters .photo-option{margin-bottom:1px}
+.active-filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:12px}
+.active-filters:empty{display:none}
+.filter-chip{font-size:13px;min-height:40px;padding:7px 12px;background:var(--soft);border-color:var(--line);text-align:left}
+.empty-state{grid-column:1/-1}
+.back-top{position:fixed;right:16px;bottom:18px;z-index:5;background:var(--panel);box-shadow:0 3px 12px #0002}
+.resume-panel,.practice-panel{margin-bottom:18px}
+.resume-panel p{margin:10px 0}
+#setup>h2{margin-bottom:18px}
+.check-row{min-height:44px;cursor:pointer;padding:5px 0;gap:9px}
+.group-picker{padding-top:14px}
+.group-picker>label{display:block;font-weight:650;font-size:14px;margin-bottom:6px}
+#group-search{width:100%;min-width:0}
+.group-picker .toolbar{margin-top:12px}
+.group-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 16px;max-height:360px;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable}
+.group-list .check-row{display:flex;margin:0;align-items:center;min-width:0;overflow-wrap:anywhere}
+.group-list input{flex:none}
+.group-list .muted{font-size:12px}
+fieldset label{min-height:44px}
+.photo-option{white-space:normal}
+.selection-count{margin-top:20px;font-weight:600}
+.lesson-controls{display:flex;gap:7px;flex-shrink:0}
+.repeat-count{display:block;font-size:12px;color:var(--muted)}
+body.studying .session>.meta{gap:12px}
+body.studying .session>.meta button{font-size:13px;min-height:44px;padding:8px 10px}
+body.studying .feedback h2{font-size:19px;margin:0 0 14px}
+.your-answer{overflow-wrap:anywhere;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.answer-label{font-size:12px;font-weight:650;color:var(--muted);letter-spacing:.04em}
+.answer-main{font-size:18px}
+body.studying .english-variants{gap:8px 24px;justify-content:center;text-align:center}
+body.studying #answer-area>.english-variants{margin:22px 0;font-size:21px}
+.summary{text-align:center}
+.summary-score{font-size:22px;font-weight:650}
+.button-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 14px}
+.difficult-species{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.difficult-species button{flex:none;font-size:14px}
+#practice-hard{margin-top:16px}
+.table-scroll{overflow-x:auto}
+th[scope=row]{font-weight:400}
+.backup-actions{display:flex;flex-wrap:wrap;align-items:start;gap:18px}
+.backup-actions label{display:flex;flex-direction:column;gap:6px;min-width:0;max-width:100%}
+.backup-actions input{width:100%;min-width:0;max-width:100%}
+.reset-area{margin-top:24px;padding-top:16px;border-top:1px solid var(--line)}
+.danger{color:var(--bad)}
+summary{min-height:44px;padding-top:9px;padding-bottom:9px}
+.photo-credit summary{min-height:36px;padding:6px 0}
+.bird-photo .photo-visual{display:block;position:relative;float:none;width:100%;min-height:0;margin:0;padding:0;border:0;border-radius:8px;overflow:hidden;background:var(--soft)}
+.photo-zoom{cursor:zoom-in}
+.zoom-hint{position:absolute;right:7px;bottom:6px;background:var(--panel);color:var(--ink);border-radius:5px;padding:3px 7px;font-size:11px;box-shadow:0 1px 5px #0002}
+.bird-photo .photo-label{text-align:center}
+#photo-dialog{width:min(1100px,calc(100% - 24px));max-height:calc(100svh - 24px);padding:22px;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--ink);overflow:auto}
+#photo-dialog::backdrop{background:#081612bb}
+.dialog-header{display:flex;justify-content:space-between;align-items:center;gap:12px;position:sticky;top:-22px;z-index:2;padding:12px 0;background:var(--panel)}
+.dialog-header h2{margin:0}
+.dialog-header button{flex:none}
+#photo-dialog .bird-photo{max-width:none;margin:14px 0}
+#photo-dialog .bird-photo img{height:min(55svh,520px);object-fit:contain}
+#photo-dialog .photo-set:not(.photo-set-multiple){max-width:850px;margin:auto}
+body.studying .bird-photo{margin-top:14px}
+body.studying .photo-set-multiple .bird-photo img,body.studying .photo-set-multiple .study-photo-slot{height:210px}
+@media(max-width:720px){.lookup-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.lookup-filters .photo-option{grid-column:1/-1}.group-list{grid-template-columns:1fr}.meta{font-size:12px}.card .bird-photo img{height:220px}}
+@media(max-width:580px){.lookup-filters{gap:10px}.lookup-filters select{font-size:14px;padding-left:10px;padding-right:22px}.group-list{max-height:310px}body.studying .session>.meta{align-items:flex-start;flex-wrap:wrap}.lesson-controls{margin-left:auto}body.studying .session>.meta button{font-size:12px}body.studying .question{padding:20px 14px}body.studying .feedback{padding:14px}.difficult-species{align-items:start}.difficult-species>span{min-width:0}.difficult-species .muted{display:block}.stats .panel{padding:14px}.stats .muted{font-size:13px}.backup-actions{flex-direction:column}#photo-dialog{padding:14px}.dialog-header{top:-14px}#photo-dialog .photo-set-multiple{grid-template-columns:1fr}#photo-dialog .bird-photo img{height:42svh}.photo-set-multiple .bird-photo img,.photo-set-multiple .study-photo-slot,body.studying .photo-set-multiple .bird-photo img,body.studying .photo-set-multiple .study-photo-slot{height:180px}}
+@media(min-width:360px) and (max-width:580px){.photo-set-multiple{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.photo-set-multiple .bird-photo img,.photo-set-multiple .study-photo-slot,body.studying .photo-set-multiple .bird-photo img,body.studying .photo-set-multiple .study-photo-slot{height:155px}.photo-set-multiple figcaption{font-size:11px}.photo-set-multiple .zoom-hint{font-size:10px;padding:2px 4px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+.field{min-width:0}
+.field select{width:100%;min-width:0;max-width:100%}
+.panel{overflow-wrap:anywhere}

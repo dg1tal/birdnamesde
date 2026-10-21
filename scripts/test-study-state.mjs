@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {validateLesson,lessonProgress,recordLessonAnswer} from '../dist/study-state.js';
+const x={version:1,queue:[{id:'eursta',t:'en',retry:0}],index:0,method:'text',photos:true,paused:false,done:false,hint:false,answered:0,correct:0,firstAnswered:0,firstCorrect:0};
+assert(recordLessonAnswer(x,false,'Starling'));
+assert.deepEqual(lessonProgress(x),{total:1,completed:1,repeats:1});
+const restored=validateLesson(JSON.parse(JSON.stringify(x)),new Set(['eursta']));
+assert(restored);assert.equal(restored.result.answer,'Starling');
+assert.equal(recordLessonAnswer(restored,true,'European Starling'),false);
+assert.equal(restored.answered,1);
+restored.index++;restored.done=false;restored.result=null;
+assert(recordLessonAnswer(restored,true,'Common Starling'));
+assert.deepEqual(lessonProgress(restored),{total:1,completed:1,repeats:0});
+assert.equal(restored.firstAnswered,1);assert.equal(restored.firstCorrect,0);assert.equal(restored.correct,1);
+assert.equal(validateLesson({...x,index:99},new Set(['eursta'])),null);
+assert.equal(validateLesson(x,new Set()),null);
+assert.equal(validateLesson({...x,result:null},new Set(['eursta'])),null);
+console.log('PASS: restored feedback cannot grade twice; stable original total, separate retries and first answers; corrupt lessons rejected.');

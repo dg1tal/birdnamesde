@@ -22,3 +22,6 @@ assert.throws(()=>validProgress({app:'Other',version:1,records},ids));assert.thr
 let isolated={'eurbla:en':review(undefined,true,now)};assert.equal(isolated['eurbla:code'],undefined);
 for(let s of birds){assert(accepts(s,'en',s.en));for(let c of s.codes)assert(accepts(s,'code',c));assert(matches(s,s.de));assert(matches(s,s.sci));assert(matches(s,s.en));}
 console.log('PASS: all '+birds.length+' species searchable; accepted answers and synonyms, diacritics, collisions, intervals, error reset, hints, due dates, mastery, independent targets and import validation.');
+
+assert.throws(()=>validProgress({app:'BirdNames DE',version:1,records:{'eurbla:en':{...p,lessonFirstAttempts:'2'}}},ids));
+assert.deepEqual(validProgress({app:'BirdNames DE',version:1,records:{'eurbla:en':{...p,lessonFirstAttempts:1,lessonFirstCorrect:1}}},ids)['eurbla:en'].lessonFirstCorrect,1);

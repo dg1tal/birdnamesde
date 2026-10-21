@@ -7,6 +7,7 @@ Public, buildless, browser-local bird-name dictionary and spaced-repetition trai
 - `dist/species.json`: independently replaceable species data and provenance metadata.
 - `dist/logic.js`: search normalization, answer acceptance, repetition scheduling and import validation.
 - `dist/app.js`: lookup, text/flashcard/multiple-choice learning, IndexedDB persistence, statistics, JSON export/import and theme.
+- `dist/study-state.js`: serializable lesson recovery, single grading and separate first-question/retry progress.
 - `dist/style.css`: responsive layout and dark mode.
 - `dist/validation.json`: complete machine validation result, code collisions and limitations.
 
@@ -16,6 +17,8 @@ Public, buildless, browser-local bird-name dictionary and spaced-repetition trai
 python scripts/finalize-data.py
 python scripts/validate-data.py
 node scripts/test.mjs
+node scripts/test-study-state.mjs
+node scripts/test-photo-cache.mjs
 node --check dist/app.js
 ```
 
@@ -50,3 +53,7 @@ Run `node scripts/validate-photos.mjs` to verify coverage, taxon mappings, attri
 `dist/photo-cache.js` prefetches and decodes the current and next two question photos only when lesson photos are enabled. It retains up to 12 decoded image objects and reuses the actual element after grading, avoiding lazy-load scheduling and repeat decoding for nearby retries. Compressed responses are stored in the browser Cache API (`birdnames-photos-v1`) with content-hash URLs; old versions of a replaced photo are removed. Cache restrictions or quota errors fall back to memory reuse, and a host that rejects blob image URLs falls back to a preloaded normal image URL. Image caching is separate from IndexedDB learning records. The browser can evict either storage under its usual policies; this does not make the whole app available offline.
 
 Run `node scripts/test-photo-cache.mjs` for network deduplication, decoded-object reuse, persistent cache reuse without network, invalidation, memory limits and recovery tests.
+
+## UI/UX update
+
+See `docs/ui-ux-update-20261021.md` for the approved UX scope, storage compatibility and browser verification. Existing learning records are preserved; only new UI settings and a resumable lesson state are added.
