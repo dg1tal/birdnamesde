@@ -49,15 +49,13 @@ details summary{cursor:pointer}ul{padding-left:22px}
 .photo-option{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:var(--muted);font-size:14px;white-space:nowrap}
 .photo-option input{margin:0;flex:none}
 .learn-photo-option{margin-top:16px}
-.photo-trigger{display:block;margin:12px 0 4px;padding:7px 12px;min-height:38px;font-size:13px}
-.card .gallery-trigger{display:inline-block;float:none;margin:12px 0 4px;font-size:13px}
-.photo-dialog{width:min(680px,calc(100vw - 24px));max-height:calc(100dvh - 24px);overflow:auto;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--ink);padding:18px}
-.photo-dialog::backdrop{background:#0b1d18b8}
-.dialog-head{display:flex;justify-content:space-between;align-items:center;gap:12px}
-.dialog-head h2{margin:0}
 .bird-photo{margin:14px 0 4px}
 .bird-photo iframe{display:block;width:100%;height:360px;border:0;border-radius:8px;background:var(--soft)}
 .bird-photo figcaption{font-size:13px;color:var(--muted);margin-top:8px;line-height:1.4}
+.card .bird-photo{clear:both;margin:16px 0 12px}
+.card .bird-photo iframe{height:220px}
+.card .photo-slot{height:220px;border-radius:8px;background:var(--soft)}
+.card .bird-photo a{float:none;margin:0;font-size:inherit}
 .photo-fallback{font-size:14px}
 body.studying .bird-photo{max-width:520px;margin:18px auto}
 body.studying .bird-photo iframe{height:280px}
@@ -78,4 +76,4 @@ body.studying .feedback{margin-top:12px;padding:18px}body.studying .feedback p{m
 body.studying #answer-area>.english{font-size:22px;margin:22px 0 12px}body.studying #answer-area>.code{margin:8px 0 16px}
 @media(max-width:580px){body.studying main{padding-left:16px;padding-right:16px}body.studying .question{padding:22px 16px}body.studying .session>.meta{font-size:12px}body.studying .study-actions{gap:10px}body.studying .study-actions button{font-size:15px;padding:12px}}
 @media(max-height:600px){body.studying .question{padding-top:16px;padding-bottom:16px}body.studying .question h1{margin-top:12px;font-size:30px}}
-@media(max-width:580px){.bird-photo iframe{height:265px}body.studying .bird-photo iframe{height:230px}.photo-dialog{padding:14px}}
+@media(max-width:580px){.bird-photo iframe{height:265px}.card .bird-photo iframe{height:220px}body.studying .bird-photo iframe{height:230px}}
