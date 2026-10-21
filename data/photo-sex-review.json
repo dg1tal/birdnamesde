@@ -1,0 +1,2226 @@
+{
+  "reviewed": "2026-10-21",
+  "scope": "Photographically distinguishable adult sexes, including seasonal breeding plumage and bill/head markings. Images are not to scale; size-only and overlapping individual variation cannot reliably be compared. Species/sex assignments require an explicit Commons description, category or species-article caption.",
+  "species": {
+    "alepar2": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Alexandrine_parakeet_(Psittacula_eupatria_eupatria)_male.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Female_Alexandrine_Parakeet_1.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female Alexandrine parakeet in Jolly Grant, Dehradun, Uttarakhand, India.; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "rocpta1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Rock_ptarmigan_(Lagopus_muta_islandorum)_female_breeding_Botnsvatn.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Lagopus_Muta-_Male_in_summer_plumage.JPG",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Commons-Bildbeschreibung:  Lagopus muta , male in summer plumage; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "eurbla": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_Blackbird.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Amsel_Weibchen_aufgeplustert_edit2.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Blackbird female; Wikipedia-Bildunterschrift: File:Amsel Weibchen aufgeplustert edit2.jpg|Female of subspecies ''merula''"
+        }
+      ],
+      "note": ""
+    },
+    "wescap1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:David_Palmer_Capercaillie.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Tetrao_urogallus_-Bayerischer_Wald,_Europe_-female-8a_(1).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female Western Capercaillie in Bayerischer Wald, Europe.; Wikipedia-Bildunterschrift: [[File:Tetrao urogallus -Bayerischer Wald, Europe -female-8a (1).jpg|thumb|Female in [[Bavarian Forest]], Germany]]"
+        }
+      ],
+      "note": ""
+    },
+    "whiwag": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:20180415_015_Winterswijk_Witte_kwikstaart_(40785272624).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:White_wagtail_female_first_summer.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung:  White wagtail , female, first summer; Wikipedia-Bildunterschrift: First summer female ''M. alba alba''"
+        }
+      ],
+      "note": ""
+    },
+    "bearee1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Bearded_reedling_(Panurus_biarmicus).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Panurus_biarmicus_-Oare_Marshes,_Kent,_England_-female-8_(2).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female Bearded Reedling at Oare Marshes Nature Reserve, Kent, England.; Wikipedia-Bildunterschrift: File:Panurus biarmicus -Oare Marshes, Kent, England -female-8 (2).jpg|Adult female in [[Oare Marshes]], [[Kent]], England"
+        }
+      ],
+      "note": ""
+    },
+    "gresca": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Drake_Greater_scaup_(Aythya_marila)_Barnegat_Inlet,_New_Jersey,_USA.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Greater_scaup_(Aythya_marila)_female_Laxa.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Greater scaup ( Aythya marila marila ) female, Laxá River, Northeastern Iceland; Wikipedia-Bildunterschrift: Greater scaup (Aythya marila) female Laxa.jpg|''A. m. marila'' female, Laxá River, Northeastern Iceland"
+        }
+      ],
+      "note": ""
+    },
+    "brambl": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Pinson_du_nord.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Fringilla_montifringilla_-England_-female-8_(2).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female Brambling in England.; Wikipedia-Bildunterschrift: Female in England"
+        }
+      ],
+      "note": ""
+    },
+    "twite1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Twite_(Linaria_flavirostris),_Zinc_Road,_Teesside_(53540824279).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Bestehendes Foto im Vollbild geprüft: rosa Bürzel hinter dem rechten Flügel erkennbar, männliches Bestimmungsmerkmal; adulte Zeichnung."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Carduelis_flavirostris.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Carduelis flavirostris.jpg; Twite   Linaria flavirostris  , female, Druridge Bay, Northumberland, UK"
+        }
+      ],
+      "note": ""
+    },
+    "euptit1": {
+      "status": "unresolved",
+      "reason": "Weibchen mit kleinerer Gesichtsmaske; ähnliche Masken bei jungen Vögeln. Unter den Commons-Fotos und Bildunterschriften in 17 Sprachversionen kein alters- und geschlechtssicheres Weibchen gefunden."
+    },
+    "eubeat1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Merops_apiaster_displaying_to_female_in_Germany.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: European bee-eater (Merops apiaster) male displaying to female, carrying insect prey, Germany; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "redpol1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Carduelis_flammea_CT6.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Carduelis_flammea_CT7.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung:  Common Redpoll  ( Carduelis flammea ), female,  Cap Tourmente National Wildlife Area , Quebec, Canada.; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "blagro1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Black_Grouse_Nationalpark_Bayerischer_Wald.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%BC%D0%BA%D0%B0_%D1%82%D0%B5%D1%82%D0%B5%D1%80%D0%B5%D0%B2%D0%B0.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Кентский горный массив, Каркаралинский национальный парк: Карагандинская область; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "blueth": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Bluethroat_(Luscinia_svecica_svecica)_male_Oppdal.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Bluethroat_female_1.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Bluethroat; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "eurlin1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Carduelis_cannabina_-England_-male-8.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:2017.07.06.-42-Wendisch_Rietz--Bluthaenfling-Weibchen.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Common linnet - Linaria cannabina, female. Taken in Wendisch Rietz, Brandenburg, Germany.; Wikipedia-Bildunterschrift: Female "
+        }
+      ],
+      "note": ""
+    },
+    "comshe": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_Shelduck_(Tadorna_tadorna)_(26499348215).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_shelduck_(Tadorna_tadorna)_female_in_flight_Sfax.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Common shelduck ( Tadorna tadorna ) female, Sfax, Tunisia; Wikipedia-Bildunterschrift: Common shelduck (Tadorna tadorna) female in flight Sfax.jpg|Female in flight"
+        }
+      ],
+      "note": ""
+    },
+    "whinch1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Tarier_des_pr%C3%A8s_Zaghouan_NP001.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Saxicola_rubetra_LC0029.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Whinchat (  Saxicola rubetra  ), female adult; found in Chemnitz, Germany; Wikipedia-Bildunterschrift: [[File:Saxicola rubetra LC0029.jpg|thumb|right|Adult female [[Chemnitz]], Germany]]"
+        }
+      ],
+      "note": ""
+    },
+    "wooduc": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Wood_Duck_Wissahickon_Creek.png",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Wood_duck_female_(73468).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female wood duck; Wikipedia-Bildunterschrift: File:Wood duck female (73468).jpg|Female in New York"
+        }
+      ],
+      "note": ""
+    },
+    "comcha": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Male_Chaffinch_-_Fringilla_coelebs.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_chaffinch_(Fringilla_coelebs)_female_Drenthe_2.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Common chaffinch ( Fringilla coelebs ) female, Drenthe, Netherlands; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "grswoo": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_male_Drenthe.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_female_Drenthe.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Great spotted woodpecker ( Dendrocopos major ) female, Drenthe, Netherlands; Wikipedia-Bildunterschrift: Male"
+        }
+      ],
+      "note": ""
+    },
+    "grewhi1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_Whitethroat.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Bestehendes Foto und Wikipedia-Bildunterschrift; erkennbare Geschlechtsmerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_whitethroat_(Sylvia_communis)_female.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Common whitethroat (Sylvia communis) female.jpg; Common whitethroat (  Sylvia communis  ) female, Aston Upthorpe, Oxfordshire"
+        }
+      ],
+      "note": ""
+    },
+    "ettwoo1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Three-toed_Woodpecker_-_Finlandia_0005_(3).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Samica_dzi%C4%99cio%C5%82a_tr%C3%B3jpalczastego_pod_Luboniem_Wielkim,_20210306_0853_5758.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Eurasian three-toed woodpecker ( Picoides tridactylus ) female on the Luboń Wielki mount in Poland; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "spored": {
+      "status": "unresolved",
+      "reason": "Weibchen im Brutkleid meist weniger vollständig schwarz; Übergänge und saisonale Kleider überlappen. Kein sicher geschlechtsbestimmtes lebendes Paarfoto nach Taxon-/Namenssuche, Kategorie- und 17 Wikipedia-Sprachversionenprüfung gefunden."
+    },
+    "comeid": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%83%D1%85%D1%96%D0%B2%D0%BA%D0%B0_%D0%BD%D0%B0_%D0%9A%D1%96%D0%BD%D0%B1%D1%83%D1%80%D0%BD%D1%81%D1%8C%D0%BA%D1%96%D0%B9_%D0%BA%D0%BE%D1%81%D1%96.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_eider_female_at_Jones_Beach_(04713).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Common eider female at Jones Beach; Wikipedia-Bildunterschrift: Female"
+        }
+      ],
+      "note": ""
+    },
+    "lotduc": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Long-tailed-duck.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Clangula-hyemalis-011.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Long-tailed Duck -- Cobourg, Ontario, Canada -- 2007 February; Wikipedia-Bildunterschrift: Female<br />"
+        }
+      ],
+      "note": ""
+    },
+    "comkin1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_-England-8_(cropped).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis_ispida)_female.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Common kingfisher ( Alcedo atthis ispida ) female, Kondor Tanya, near Kecskemét, Hungary.; Wikipedia-Bildunterschrift: Female<br />[[Kecskemét]], [[Hungary]]<br/>Both ''A. a. ispida''"
+        }
+      ],
+      "note": ""
+    },
+    "eursis": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Eurasian_siskin_(Spinus_spinus)_male_Biebrzanski.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung und visuelle Prüfung des Fotos. Bestehendes Foto bereits bestimmt."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Eurasian_siskin_(Spinus_spinus)_female_Biebrzanski.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons filename and ImageDescription explicitly identify species and sex."
+        }
+      ],
+      "note": ""
+    },
+    "redcro": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Red_Crossbills_(Male).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Female_red_crossbill_(40805).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Female red crossbill at Nicholas Farm in RI; Wikipedia-Bildunterschrift: Female red crossbill"
+        }
+      ],
+      "note": ""
+    },
+    "osprey": {
+      "status": "excluded",
+      "reason": "Gefiederunterschiede überlappen; Weibchen können stärkeres Brustband haben. Die Geschlechtszuordnung des vorhandenen Fotos ist nicht gesichert."
+    },
+    "comred2": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Phoenicurus_phoenicurus_08(js),_Lodz_(Poland).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Phoenicurus_phoenicurus_female.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Phoenicurus phoenicurus - female; Wikipedia-Bildunterschrift: [[Image:Phoenicurus phoenicurus female.jpg|left|thumb|Female]]"
+        }
+      ],
+      "note": ""
+    },
+    "grywag": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Gebirgsstelze_im_Geo-Naturpark_Bergstra%C3%9Fe-Odenwald.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Bestehendes Foto und Wikipedia-Bildunterschrift; erkennbare Geschlechtsmerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Grey_Wagtail_(Breeding_female)_I_IMG_3079.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung nennt das Geschlecht; lebendes Tier in besserem Bildausschnitt visuell geprüft."
+        }
+      ],
+      "note": ""
+    },
+    "eurbul": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Bullfinch_male.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Pyrrhula_pyrrhula_female_2.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Eurasian Bullfinch,  Pyrrhula pyrrhula , female; Wikipedia-Bildunterschrift: Female in [[Lancashire]], UK[[File:Bullfinch (Pyrrhula pyrrhula) (W1CDR0001509 BD14).ogg|thumb|center|Song and calls recorded in [[Surrey]], England]]"
+        }
+      ],
+      "note": ""
+    },
+    "eurser1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:European_serin_(Serinus_serinus)_male.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:European_serin_(Serinus_serinus)_female.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: European serin  (Serinus serinus ) female, Souss-Massa National Park, Morocco; Wikipedia-Bildunterschrift: Female<br />both [[Souss-Massa National Park]], [[Morocco]]"
+        }
+      ],
+      "note": ""
+    },
+    "yellow2": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Goldammer_Emberiza_citrinella.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Emberiza_citrinella_LC229.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Female  Yellowhammer  (  Emberiza citrinella  ), Augustusburg, Saxony, Germany; Wikipedia-Bildunterschrift: [[File:Emberiza citrinella LC229.jpg|thumb|Female|upright]]"
+        }
+      ],
+      "note": ""
+    },
+    "eugplo": {
+      "status": "excluded",
+      "reason": "Gefiederunterschiede überlappen mit Alter und Herkunft; männliche Fotobestimmung bislang nicht gesichert."
+    },
+    "gyfwoo1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B5%D0%B4%D0%BE%D0%B9_%D0%B4%D1%8F%D1%82%D0%B5%D0%BB_%D1%83_%D0%B1%D0%BE%D0%BB%D0%BE%D1%82%D0%B0_%D1%80%D0%B5%D1%87%D0%BA%D0%B8_%D0%97%D0%B8%D0%BC%D1%91%D0%BD%D0%BA%D0%B8.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:%D0%94%D1%8F%D1%82%D0%B5%D0%BB_%D0%B7%D0%B0_%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%8E.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung:  Новокодацький парк , м. Дніпро, Новокодацький район; Wikipedia-Bildunterschrift: ''Picus canus canus'', female, Dnipro, Ukraine"
+        }
+      ],
+      "note": ""
+    },
+    "grebus1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Drop_f%C3%BAzat%C3%BD_(Otis_tarda)_(2416576086).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Bestehendes Foto und Wikipedia-Bildunterschrift; erkennbare Geschlechtsmerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Great_bustard_(Otis_tarda_tarda)_female_in_flight.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung nennt das Geschlecht; lebendes Tier in besserem Bildausschnitt visuell geprüft."
+        }
+      ],
+      "note": ""
+    },
+    "eurgre1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:European_Greenfinch_male_female.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung:  European Greenfinch ; Wikipedia-Bildunterschrift: [[File:European Greenfinch male female.jpg|thumb|Comparison between a male (top) and a female (bottom) greenfinch]]"
+        }
+      ],
+      "note": ""
+    },
+    "eugwoo2": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:European_green_woodpecker_(Picus_viridis)_female_Barnes.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung und visuelle Prüfung des Fotos. Bestehendes Foto bereits bestimmt."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:European_green_woodpecker_(Picus_viridis)_male.JPG",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Commons filename and ImageDescription explicitly identify species and sex."
+        }
+      ],
+      "note": ""
+    },
+    "colfly1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Collared_flycatcher_(Ficedula_albicollis).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Female_Collared_Flycatcher_(Ficedula_torquata),_Park_Pa%C5%82acowy,_Bia%C5%82owie%C5%BCa,_Poland.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female of Collared Flycatcher ( Ficedula albicollis ) hunting for insects in the Palace Park of Białowieża. Photograph taken by digiscoping with Swarovski ATM 80 HD 30 X, Coolpix P6000 (Adapter DCB); Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "rorpar": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:African_Rose-ringed_Parakeet,_Tendaba,_Gambia_1.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Rose-ringed_parakeet_(female)_in_New_Delhi.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Rose-ringed parakeet (female) in New Delhi.; Wikipedia-Bildunterschrift: [[File:Rose-ringed parakeet (female) in New Delhi.jpg|thumb|Rose-ringed parakeet (female) in New Delhi]]"
+        }
+      ],
+      "note": ""
+    },
+    "hazgro1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Hazel_Grouse_imported_from_iNaturalist_photo_116195913_on_11_June_2024.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Tetrastes_bonasia_3.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Female Hazel Grouse in the Southern Carpathians, Romania; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "blared1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Rougequeue_noir_ichkeul058_(cropped).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Rougequeue_noir_Douga006.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Black redstart (Phoenicurus ochruros) Female; Wikipedia-Bildunterschrift: Female ''P. o. gibraltariensis'' in Tunisia"
+        }
+      ],
+      "note": ""
+    },
+    "houspa": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_(53532).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:House_sparrow_feeding_grains.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female house sparrow feeding on rice grains; Wikipedia-Bildunterschrift: [[File:House sparrow feeding grains.jpg|thumb|A female house sparrow feeding on rice grains]]"
+        }
+      ],
+      "note": ""
+    },
+    "rinphe1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Phasianus_colchicus_Oulu_20200524_02.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Phasianus_colchicus_-Rutland_Water_-female-8.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female Common Pheasant near Rutland Water, Rutland, England on a cold but sunny December afternoon.; Wikipedia-Bildunterschrift: | image2            = Phasianus colchicus -Rutland Water -female-8.jpg"
+        }
+      ],
+      "note": ""
+    },
+    "ruff": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Philomachus_pugnax_-Diergaarde_Blijdorp-8c.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Ruff_female_RWD.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Female Ruff ( Philomachus pugnax ) - Sylvan Heights Waterfowl Park, Scotland Neck, North Carolina; Wikipedia-Bildunterschrift: Breeding female in [[North Carolina]]"
+        }
+      ],
+      "note": ""
+    },
+    "comros": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Carpodacus_erythrinus_284921386.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_Rosefinch_Baur_reservoir_Uttarakhand_03.12.2014.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: The specie Common Rosefinch had been photographed during the bird photography tour of GoingWild from Baur reservoir, Uttarakhand, India on  03.12.2014.; Wikipedia-Bildunterschrift: Female at Baur reservoir in [[Uttarakhand]], India"
+        }
+      ],
+      "note": ""
+    },
+    "hawfin": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Hawfinch_(Coccothraustes_coccothraustes)_male_Drenthe.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Hawfinch_(Coccothraustes_coccothraustes)_female_Drenthe.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Hawfinch ( Coccothraustes coccothraustes ) female, Drenthe, Netherlands; Wikipedia-Bildunterschrift: male"
+        }
+      ],
+      "note": ""
+    },
+    "norlap": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Northern-Lapwing-Vanellus-vanellus.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Northern_lapwing_(Vanellus_vanellus)_female_display_Marken.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Northern lapwing ( Vanellus vanellus ) female displaying, Marken, Netherlands; Wikipedia-Bildunterschrift: Northern lapwing (Vanellus vanellus) female display Marken.jpg|female displaying"
+        }
+      ],
+      "note": ""
+    },
+    "eurnut2": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Kleiber_Sitta_europaea-0447.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Sitta_europaea_europaea,_%C3%96nner%C3%B6d,_Sweden_2.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung:   Sitta europaea  europaea , Önneröd, Västra Frölunda, Vastra Gotaland, Sweden; Wikipedia-Bildunterschrift: [[File:Sitta europaea europaea, Önneröd, Sweden 2.jpg|thumb|Female ''S.&nbsp;e.&nbsp;europaea'' in Sweden]]"
+        }
+      ],
+      "note": ""
+    },
+    "leswoo1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Male_lesser_spotted_woodpecker_(Dryobates_minor).png",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D0%BB%D1%8B%D0%B9_%D0%BF%D1%91%D1%81%D1%82%D1%80%D1%8B%D0%B9_%D0%B4%D1%8F%D1%82%D0%B5%D0%BB_%D0%BD%D0%B0_%D1%80%D0%B5%D0%BF%D0%B5%D0%B9%D0%BD%D0%B8%D0%BA%D0%B5_(Dendrocopos_minor,_fem),_%D0%9A%D1%80%D1%8B%D0%BB%D0%B0%D1%82%D1%81%D0%BA%D0%B8%D0%B5_%D1%85%D0%BE%D0%BB%D0%BC%D1%8B.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Dendrocopos minor, fem; Wikipedia-Bildunterschrift: Female ''D. m. minor'', near Moscow, Russia"
+        }
+      ],
+      "note": ""
+    },
+    "litcra1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Porzana_parva_(50).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Bestehendes Foto Porzana parva (50).jpg visuell geprüft: schiefergraues Gesicht und Unterseite, adulte männliche Zeichnung."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Porzana_parva_Vlaskop_cropped.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Wikipedia-Bildunterschrift weibliches zweites Bild; visuell geprüft: cremefarbene Unterseite und helles Gesicht."
+        }
+      ],
+      "note": ""
+    },
+    "gargan": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Pair_of_Garganey,_Fen_Drayton_Lakes_-_geograph.org.uk_-_6843574.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Pair of Garganey, Fen Drayton Lakes - geograph.org.uk - 6843574.jpg; Pair of Garganey, Fen Drayton Lakes      "
+        }
+      ],
+      "note": ""
+    },
+    "gretit1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Great_tit_(Parus_major)_gender.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Great tit (Parus major) gender.jpg; Genders of great tit (Parus major)."
+        }
+      ],
+      "note": ""
+    },
+    "recpoc": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Netta_rufina_(Red-crested_Pochard)_Male,_London_Wetland_Centre_-_Diliff.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Netta_rufina_(female),_London_Wetland_Centre,_UK_-_Diliff.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female Netta rufina, also known as the Red-crested Pochard, at the London Wetland Centre in Barnes, London, UK.; Wikipedia-Bildunterschrift: Female"
+        }
+      ],
+      "note": ""
+    },
+    "norhar1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Circus_cyaneus_265961899.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Hen_Harrier_Pangolakha_Wildlife_Sanctuary_Sikkim_India_Nov_2016.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Hen Harrier Pangolakha Wildlife Sanctuary Sikkim India Nov 2016.; Wikipedia-Bildunterschrift: [[File:Hen Harrier Pangolakha Wildlife Sanctuary Sikkim India Nov 2016.jpg|thumb|240px|left|Female soaring in [[Pangolakha Wildlife Sanctuary]], India]]"
+        }
+      ],
+      "note": ""
+    },
+    "gnwtea": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Pair_of_Teal_(6801492955).jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Pair of Teal (6801492955).jpg; Pair of Teal   Anas crecca  "
+        }
+      ],
+      "note": ""
+    },
+    "comcuc": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Cuckoo_(51169010335).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Bild: männliches Gefieder / Wikipedia-Bildunterschrift geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_Cuckoo_(Cuculus_canorus)_(53993484373).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Russische Wikipedia-Artenseite Bildunterschrift ausdrücklich самка (Weibchen); Commons-Taxon/Lizenz und lebendes Tier im Vollbild geprüft. https://ru.wikipedia.org/wiki/Кукушка"
+        }
+      ],
+      "note": ""
+    },
+    "norsho": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Northern_shoveler_(Spatula_clypeata)_male_Marken.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Northern_shoveler_(Spatula_clypeata)_female_Marken.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Northern shoveler ( Spatula clypeata ) female, Marken, Netherlands; Wikipedia-Bildunterschrift: Male"
+        }
+      ],
+      "note": ""
+    },
+    "manduc": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Pair_of_mandarin_ducks.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Bestätigtes bestehendes Paarfoto; Wikimedia-Bildbeschreibung/Wikipedia-Bildunterschrift"
+        }
+      ],
+      "note": ""
+    },
+    "wallcr1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Tichodroma_muraria_Pyrenees_2.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung nennt das Geschlecht; lebendes Tier in besserem Bildausschnitt visuell geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Wallcreeper_(Tichodroma_muraria)_female_Piatra_Craiului_2.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Wallcreeper (Tichodroma muraria) female Piatra Craiului 2.jpg; Wallcreeper ( Tichodroma muraria ) female, Piatra Craiului, Transylvania, Romania"
+        }
+      ],
+      "note": ""
+    },
+    "merlin": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Falco_columbarius_Male.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Falco columbarius Male.jpg; Male Prairie Merlin"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Falco_columbarius_female.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Falco columbarius female.jpg; Merlin (Falco columbarius) female"
+        }
+      ],
+      "note": ""
+    },
+    "rebmer": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Red-breasted_Merganser_male_(Mergus_serrator),_Barnegat_Inlet,_New_Jersey,_USA.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Red-breasted_merganser_female_in_CP_(40744).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Red-breasted merganser in the Central Park Reservoir; Wikipedia-Bildunterschrift: Female, New York, US"
+        }
+      ],
+      "note": ""
+    },
+    "ferduc": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Aythya_nyroca_at_Martin_Mere.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Ferruginous_Pochard_female_RWD.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Female Ferruginous Duck, also Ferruginous Pochard ( Aythya nyroca ) - Sylvan Heights Waterfowl Park, Scotland Neck, North Carolina; Wikipedia-Bildunterschrift: Female"
+        }
+      ],
+      "note": ""
+    },
+    "eurdot": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Charadrius_morinellus_Varanger_3.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Charadrius morinellus Varanger 3.jpg; Pair of Dotterel   Charadrius morinellus  , male brooding, female standing nearby. Varanger Peninsula, arctic Norway"
+        }
+      ],
+      "note": ""
+    },
+    "blackc1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Eurasian_blackcap_(Sylvia_atricapilla)_male_Drenthe.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Sylvia_atricapilla_-Slottsskogen,_Gothenburg,_Vastra_Gotaland,_Sweden_-female-8.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female Eurasian Blackcap in Slottsskogen, Gothenburg, Vastra Gotaland, Sweden.; Wikipedia-Bildunterschrift: [[File:Sylvia atricapilla -Slottsskogen, Gothenburg, Vastra Gotaland, Sweden -female-8.jpg|Adult female in Sweden showing reddish brown cap|thumb|alt=A grey bird with a brown cap]]"
+        }
+      ],
+      "note": ""
+    },
+    "eurnig1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Caprimulgus_europaeus_by_mourad-harzallah_cropped.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Czech Wikipedia Caprimulgus europaeus: Samec lelka lesního v letu za tmy s dobře zřetelnými bílými skvrnami v křídlech a na rozích ocasu. Bild zeigt lebendes Männchen mit weißen Flügel-/Schwanzflecken, visuell bestätigt."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Caprimulgus_europaeus_1200x855.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Swedish Wikipedia Caprimulgus europaeus: Hona på en björkgren (Weibchen auf Birkenzweig); lebendes Tier im Vollbild geprüft."
+        }
+      ],
+      "note": ""
+    },
+    "rebshr1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Red-backed_shrike.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Lanius_collurio_-Poland_-female-8-4c.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: An adult female Red-backed Shrike in Poland.; Wikipedia-Bildunterschrift: File:Lanius collurio -Poland -female-8-4c.jpg|Adult female in Poland"
+        }
+      ],
+      "note": ""
+    },
+    "horlar": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Horned_lark_(eremophila_alpestris)_01.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Horned_Lark,_female_(24802473921).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Plain Lake area, Two Hills County, Alberta; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "ortbun1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Ortolan_bunting_in_Sierra_de_Guara,_Aragon,_Spain.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung und visuelle Prüfung des Fotos. Bestehendes Foto bereits bestimmt."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Emberiza_hortulana_-_Ortolan_bunting_01.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons filename and ImageDescription explicitly identify species and sex."
+        }
+      ],
+      "note": ""
+    },
+    "eurwig": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Eurasian_wigeon_in_Sakai,_Osaka,_February_2016.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Eurasian_wigeon_(female)_in_Sakai,_Osaka,_February_2016.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung:  Eurasian wigeon  (female) in  Sakai, Osaka .; Wikipedia-Bildunterschrift: Female<br />[[File:Eurasian Wigeon (Anas penelope) (W1CDR0001386 BD2).ogg|thumb|<br />Calls recorded in Dorset]]"
+        }
+      ],
+      "note": ""
+    },
+    "batgod": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Bar-tailed_Godwit.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Female_bar-tailed_godwit_(53702795552).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female bar-tailed godwit on the Yukon Delta Refuge tundra.\nCredit: Mark Lindberg for USFWS; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "eugori2": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Rigogolo-(Oriolus_oriolus)_Lazio,_isola_di_Ventotene_(LT)_19.4.2024_(cropped).png",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Rigogolo_(Oriolus_oriolus)-Lazio,_isola_di_Ventotene_(LT)_17.4.2024.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Femmina; Wikipedia-Bildunterschrift: Female in Ventotene, Italy<br />"
+        }
+      ],
+      "note": ""
+    },
+    "norshr1": {
+      "status": "excluded",
+      "reason": "Sehr ähnliche Geschlechter; die angebotenen Fotos sind nicht sicher zugeordnet."
+    },
+    "barswa": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Rauchschwalbe_Hirundo_rustica.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Barn_Swallow_female.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Gathering both straw and mud for the nest. Western Washington State.; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "rolhaw": {
+      "status": "excluded",
+      "reason": "Sehr ähnliche Geschlechter; keine sicher geschlechtsbestimmten Fotos gefunden."
+    },
+    "grypar": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Perdix_perdix_Turvey_3.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes männliches Foto, Wikipedia-Artbild/Bildbeschreibung bestimmt."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Nurmkanad.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Slovak Wikipedia Perdix perdix galerie: Nurmkanad.jpg|Prvá je samička, má svetlý pás nad očami (das erste Tier ist das Weibchen mit hellem Überaugenstreif). Lebende adulte Tiere visuell geprüft; vorderes rechtes Tier im Fokus."
+        }
+      ],
+      "note": ""
+    },
+    "tufduc": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Tufted_Duck_09_05_2025_02.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Tufted_duck_(Aythya_fuligula)_female.JPG",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Tufted duck (Aythya fuligula) female, WWT London Wetland Centre; Wikipedia-Bildunterschrift: File:Tufted duck (Aythya fuligula) female.JPG|Female, [[WWT London Wetland Centre]]"
+        }
+      ],
+      "note": ""
+    },
+    "rinouz1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Turdus_torquatus,_Spain_1.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Bestehendes Foto und Wikipedia-Bildunterschrift; erkennbare Geschlechtsmerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Ring_Ouzel_female.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Flickr - Rainbirder - Ring Ouzel female.jpg; A female Ring Ouzel photographed in Glenturret, Scotland."
+        }
+      ],
+      "note": ""
+    },
+    "reebun": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Reed_Bunting_-_Emberiza_schoeniclus_(52015951301).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_reed_bunting_(emberiza_schoeniclus)_f.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Common reed bunting (emberiza schoeniclus) - female, at Otmoor RSPB Reserve, Oxfordshire; Wikipedia-Bildunterschrift: Female at [[Otmoor]], [[Oxfordshire]]<br/>"
+        }
+      ],
+      "note": ""
+    },
+    "wemhar1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:M%C3%A4nnliche_Rohrweihe_im_Flug_04.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Eurasian_Marsh_Harrier_(Circus_aeruginosus)-_Female_near_Hodal_I_Picture_2101.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Eurasian Marsh Harrier   Circus aeruginosus     at/ near   Hodal  in   Faridabad  District of  Haryana ,  India .; Wikipedia-Bildunterschrift: [[File:Eurasian Marsh Harrier (Circus aeruginosus)- Female near Hodal I Picture 2101.jpg|thumb|right|A fairly pale adult female (note brown [[remiges]] and yellow eye) winters near [[Hodal]] ([[Faridabad district]], [[Haryana]], [[India]])]]"
+        }
+      ],
+      "note": ""
+    },
+    "rudshe": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:2021-01-30_Ruddy_Shelduck_pair_at_Keoladeo,_Rajasthan,_India.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Bestätigtes bestehendes Paarfoto; Wikimedia-Bildbeschreibung/Wikipedia-Bildunterschrift"
+        }
+      ],
+      "note": ""
+    },
+    "rintea1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Callonetta_leucophrys,_Ingeniero_Maschwitz,_Buenos_Aires,_Argentina_458883111.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Bestätigtes bestehendes Paarfoto; Wikimedia-Bildbeschreibung/Wikipedia-Bildunterschrift"
+        }
+      ],
+      "note": ""
+    },
+    "whwsco3": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Velvet_Scoter,_Eyebrook_Reservoir,_Leics.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Velvet_Scoter,_female,_Musselburgh.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Velvet Scoter ( Melanitta fusca ), female, Musselburgh, Scotland; Wikipedia-Bildunterschrift: Female"
+        }
+      ],
+      "note": ""
+    },
+    "corplo": {
+      "status": "excluded",
+      "reason": "Schlichtkleider überlappen; Fotozuordnung nicht gesichert."
+    },
+    "eaywag1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Wiesenschafstelze.JPG",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Bestehendes Foto und Wikipedia-Bildunterschrift; erkennbare Geschlechtsmerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Motacilla_flava_thunbergi_LC0303.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Motacilla flava thunbergi LC0303.jpg; Female  Western Yellow Wagtail  (Dark-headed Wagtail,   Motacilla flava  thunbergi ), Grimsdalen, Rondane National Park, Norway"
+        }
+      ],
+      "note": ""
+    },
+    "comgol": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_Goldeneye_(Bucephala_clangula).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Bucephala_clangula_female.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Female goldeneye ( Bucephala clangula ); Wikipedia-Bildunterschrift: File:Bucephala clangula female.jpg|Female"
+        }
+      ],
+      "note": ""
+    },
+    "webowl1": {
+      "status": "excluded",
+      "reason": "Geschlechtsunterschiede überlappen stark; keine sicher bestimmten Vergleichsfotos."
+    },
+    "gadwal": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Gadwall-Anas-strepera.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Female_gadwall_posing.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: female gadwall posing in taudaha lake; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "snobun": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Snow_Bunting_(Plectrophenax_nivalis),_Thule,_Greenland_1.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:SnowBunting-MtA.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female snow bunting wintering in Maine atop Mount Agamenticus.; Wikipedia-Bildunterschrift: [[File:SnowBunting-MtA.jpg|thumb|right|A female snow bunting wintering atop Mount [[Agamenticus]] in York, Maine]]"
+        }
+      ],
+      "note": ""
+    },
+    "whwsno1": {
+      "status": "unresolved",
+      "reason": "Ein Weibchen durch französische Wikipedia-Bildunterschrift gefunden; kein sicher bestimmtes Männchen mit passendem Alter/Kleid unter Commons-Fotos und 17 Sprachversionen gefunden."
+    },
+    "stonec4": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Stonechat_(Saxicola_rubicola)_male,_Beaulieu,_Hampshire.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Saxicola_rubicola_-Belgium_-female-8_(1).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female European Stonechat in Belgium.; Wikipedia-Bildunterschrift: Female ''S. r. rubicola''<br />[[Belgium]] [[File:Common Stonechat (Saxicola torquata) (W1CDR0001536 BD16).ogg|thumb|center|Recorded in [[Surrey]] ]]"
+        }
+      ],
+      "note": ""
+    },
+    "blawoo1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:%D0%96%D0%B5%D0%BB%D0%BD%D0%B0_(Dryocopus_martius,_fem),_%C2%AB%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D1%88%D1%83%D0%BC%D0%B0%D1%88%D0%B5%D1%88%D0%B0%D1%8F%C2%BB.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Black_woodpecker_(Dryocopus_martius_martius)_male.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Commons-Bildbeschreibung: Black woodpecker ( Dryocopus martius martius ) male, Hungary; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "kenplo1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Kentish_Plover_Charadrius_alexandrinus,_India.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Bestehendes Foto und Wikipedia-Bildunterschrift; erkennbare Geschlechtsmerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Kentish_Plover_adult.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Kentish Plover adult.jpg; A female adult Kentish Plover"
+        }
+      ],
+      "note": ""
+    },
+    "firecr1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_firecrest_Franconville_03.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung und visuelle Prüfung des Fotos. Bestehendes Foto bereits bestimmt."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:ULI_5829_DxO_01.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons ImageDescription explicitly identifies Sommergoldhähnchen (Regulus ignicapilla) Weibchen; adult yellow crest checked visually."
+        }
+      ],
+      "note": ""
+    },
+    "eurspa1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1-%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D0%B5%D0%BB%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_(Accipiter_nisus,_m),_%D0%98%D0%B7%D0%BC%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%B0%D1%80%D0%BA.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Accipiter_nisus_Meneer_Zjeroen.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Eurasian Sparrowhawk   Accipiter nisus  , perching on fence, Betuwe, Gelderland, Netherlands; Wikipedia-Bildunterschrift: Female"
+        }
+      ],
+      "note": ""
+    },
+    "barwar1": {
+      "status": "unresolved",
+      "reason": "Gefieder-/Irisunterschiede hängen auch von Alter ab. Kein ausdrücklich weiblich bestimmtes adultes lebendes Vergleichsfoto nach Commons-Taxon-/Namenssuche, Kategorie- und 17 Wikipedia-Sprachversionenprüfung gefunden."
+    },
+    "norpin": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Northern_Pintails_(Male_%26_Female)_I_IMG_0911.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Bestätigtes bestehendes Paarfoto; Wikimedia-Bildbeschreibung/Wikipedia-Bildunterschrift"
+        }
+      ],
+      "note": ""
+    },
+    "laplon": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Lapland_Longspur_-_Calcarius_lapponicus_-_Sportittlingur_1.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Lapland_longspur_female_(51101295901).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Female Lapland longspur perched on a post.\nPhoto by Peter Pearsall/USFWS; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "eursta": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_starling_(Sturnus_vulgaris)_breeding_male_Marken.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Sturnus_vulgaris_female_Tuileries_20200107.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Female Common Starling ( Sturnus vulgaris ) perched on a chair at the Tuileries Gardens in Paris.; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "rtrthr1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Monsax.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Bild: männliches Gefieder / Wikipedia-Bildunterschrift geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Merla_roquera_01_(Monticola_saxatilis).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Russische Wikipedia-Artenseite Bildunterschrift ausdrücklich самка (Weibchen); Commons-Taxon/Lizenz und lebendes Tier im Vollbild geprüft. https://ru.wikipedia.org/wiki/Пёстрый_каменный_дрозд"
+        }
+      ],
+      "note": ""
+    },
+    "norwhe": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Steinschmaetzer_Northern_wheatear_male.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Northern_wheatear_Oenanthe_oenanthe.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung:  Northern wheatear ; Wikipedia-Bildunterschrift: Female<br />"
+        }
+      ],
+      "note": ""
+    },
+    "rudtur": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Ruddy_turnstones_Assateague_MD1.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Ruddy turnstones Assateague MD1.jpg; Ruddy turnstones ( Arenaria interpres ) at Assateague Isalnd National Seashore, Maryland, USA. A female is on the left and behind, a male is on the right in the foreground"
+        }
+      ],
+      "note": ""
+    },
+    "bkwsti": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Himantopus_himantopus_Black-winged_Stilt_male_female_Stelzenl%C3%A4ufer_MD284.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Himantopus himantopus Black-winged Stilt male female Stelzenläufer MD284.jpg; Himantopus himantopus - Recurvirostridae  Charadriiformes  Aves - Black-winged Stilt - bird plover-like wading - birds - male and female"
+        }
+      ],
+      "note": ""
+    },
+    "eurgol": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:European_goldfinch_(Carduelis_carduelis)_male.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:European goldfinch (Carduelis carduelis) male.jpg; European goldfinch (  Carduelis carduelis  ), male, Beckley, Oxfordshire"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Female_Goldfinch_(4464269643).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Female Goldfinch (4464269643).jpg; This pair of Goldfinches are now regular visitors to the garden"
+        }
+      ],
+      "note": ""
+    },
+    "compoc": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_Pochard_2025_11_15_04.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Aythya_ferina_(female),_Krasnodar,_Russia.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Самка красноголового нырка стоит на бревне. Покровское озеро, Краснодар, Россия.; Wikipedia-Bildunterschrift: Female"
+        }
+      ],
+      "note": ""
+    },
+    "blksco1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:M%C3%A4nnliche_Trauerente_(Melanitta_nigra)_-_Spiekeroog,_Nationalpark_Nieders%C3%A4chsisches_Wattenmeer.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Sj%C3%B6orre_-_Common_Scoter_2.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Scientific name: Melanitta nigra (female); Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "eupfly1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Ficedula_hypoleuca_-Wood_of_Cree_Nature_Reserve,_Scotland_-male-8a.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Ficedula_hypoleuca_-Finland_-female-8.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female European Pied Flycatcher in Finland. It has got an insect in its beak.; Wikipedia-Bildunterschrift: [[File:Ficedula hypoleuca -Finland -female-8.jpg|thumb|Adult female in Finland]]"
+        }
+      ],
+      "note": ""
+    },
+    "wiltur": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:20260428_tom_wild_turkey_matthaei_botanical_gardens_PD08952.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Wild_Turkey_(female)_-_Meleagris_gallopavo,_Occoquan_Bay_National_Wildlife_Refuge,_Woodbridge,_Virginia.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Wild Turkey (female) - Meleagris gallopavo, Occoquan Bay National Wildlife Refuge, Woodbridge, Virginia.; Wikipedia-Bildunterschrift: Female (hen)"
+        }
+      ],
+      "note": ""
+    },
+    "eurkes": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_kestrel_falco_tinnunculus.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Common_Kestrel_Falco_tinnunculus_Tal_Chappar_Rajasthan_India_14.02.2013.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: The species Common Kestrel ( Falco tinnunculus ) has been photographed at  Tal Chappar, Rajasthan, India during the birding photo tour of GoingWild on 14.02.2013.; Wikipedia-Bildunterschrift: Adult female ''Falco tinnunculus tinnunculus'' from [[Tal Chhapar Sanctuary]], [[Churu, Rajasthan]], India"
+        }
+      ],
+      "note": ""
+    },
+    "comqua1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Coturnix_coturnix,_Fraunberg,_Bayern,_Deutschland_1,_Ausschnitt.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:A_common_quail_in_Lebanon,_crop.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female Common quail (  Coturnix coturnix  coturnix ) in Lebanon; Wikipedia-Bildunterschrift: A common quail in Lebanon, crop.jpg|Head of female of the nominate subspecies"
+        }
+      ],
+      "note": ""
+    },
+    "corcra": {
+      "status": "unresolved",
+      "reason": "Unterschiede der Grau-/Brauntöne überlappen; kein sicher weiblich bestimmtes lebendes Vergleichsfoto gefunden. Suchtreffer mit Geschlechtsangabe waren Zeichnungen oder falsch beschriftete Fasan-Fotos."
+    },
+    "euhbuz1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Wespenbussard_European_honey_buzzard_Pernis_apivorus,_crop.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Pernis_apivorus_i080515_w_ad_080519.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung:   Pernis apivorus  , ad. female; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "monhar1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Montagu%27s_harrier_male.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Montagu%27s_Harrier_in_Tal_Chhapar_Sanctuary_November_2025_by_Tisha_Mukherjee_05.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Montagu's Harrier (  Circus pygargus  ,  Accipitridae ,  Accipitriformes ) female in  Tal Chhapar Sanctuary , Rajasthan, India.; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "goldcr1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Goldcrest_1.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Regulus_regulus_-Vendee,_France-8.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Commons-Bildbeschreibung: A male Goldcrest in Vendée, France; Wikipedia-Bildunterschrift: [[File:Regulus regulus -Vendee, France-8.jpg|left|thumb|Male in [[France]] displaying orange crest feathers that are set within a narrow rim of yellow feathers]]"
+        }
+      ],
+      "note": ""
+    },
+    "rocbun1": {
+      "status": "unresolved",
+      "reason": "Weibliche Kopfzeichnung ist matter, aber Alters-/Geschlechtszuordnung der vorhandenen Fotos ungesichert. Keine sichere weibliche Aufnahme in Commons-Taxon-/Namenssuche, Kategorie und 17 Wikipedia-Sprachversionen gefunden."
+    },
+    "citfin1": {
+      "status": "unresolved",
+      "reason": "Matteres Weibchen kann jungen Männchen ähneln. Keine alters- und geschlechtssicheren lebenden Vergleichsfotos in Commons und 17 Wikipedia-Sprachversionen gefunden; Suchtreffer waren andere Finkenarten oder Präparate."
+    },
+    "litbit1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Zwergdommel.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Little_Bittern_2025_06_03_05.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: A female little bittern.; Dateiname und Kategorien geben das Geschlecht an."
+        }
+      ],
+      "note": ""
+    },
+    "rebfly": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Ficedula_parva_%D0%BC%D1%83%D1%85%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0_%D0%BC%D0%B0%D0%BB%D0%B0.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Bestehendes Foto und Wikipedia-Bildunterschrift; erkennbare Geschlechtsmerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Red-breasted_Flycatcher_Ficedula_parva_Female_by_Vedant_Kasambe_01.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Red-breasted Flycatcher Ficedula parva Female by Vedant Kasambe 01.jpg; Ficedula parva"
+        }
+      ],
+      "note": ""
+    },
+    "smew": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Zwergsaeger_maenchen_weibchen.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Bestätigtes bestehendes Paarfoto; Wikimedia-Bildbeschreibung/Wikipedia-Bildunterschrift"
+        }
+      ],
+      "note": ""
+    },
+    "commer": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Mergus_merganser,_female_and_male,_Vaxholm,_Sweden.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Goosander   Mergus merganser  , female and male, in Vaxholm, Sweden; Wikipedia-Bildunterschrift:   |File:Mergus merganser, female and male, Vaxholm, Sweden.jpg"
+        }
+      ],
+      "note": ""
+    },
+    "whbwoo1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Dendrocopos_leucotos_2.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:White-backed_woodpecker_(Dendrocopos_leucotos)_female_Bia%C5%82owiez.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: White-backed woodpecker ( Dendrocopos leucotos ) female Białowiez, Poland; Wikipedia-Bildunterschrift: Female"
+        }
+      ],
+      "note": ""
+    },
+    "bktgod": {
+      "status": "excluded",
+      "reason": "Gefieder- und Größenunterschiede überlappen; sichere Fotozuordnung fehlt."
+    },
+    "cirbun1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Cirl_bunting_cropped.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Vorhandenes Foto; Wikipedia-Bildunterschrift/erkennbare Gefiedermerkmale geprüft."
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Cirl_Bunting_Chiker_Morocco_Nov25_A7CR_09378.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Commons-Bildbeschreibung: Cirl bunting ( Emberiza cirlus ) female, Douar Chiker, Taza, Morocco; Wikipedia-Bildunterschrift: Female [[File:Cirl Bunting (Emberiza cirlus) (W1CDR0001391 BD17).ogg|thumb|right|Song recorded in [[Devon]], England]]"
+        }
+      ],
+      "note": ""
+    },
+    "mallar3": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male_female_quadrat.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Bestätigtes bestehendes Paarfoto; Wikimedia-Bildbeschreibung/Wikipedia-Bildunterschrift"
+        }
+      ],
+      "note": ""
+    },
+    "bohwax": {
+      "status": "excluded",
+      "reason": "Unterschiede in Ausdehnung der Zeichnung überlappen mit Alter; keine sichere Fotozuordnung."
+    },
+    "cursan": {
+      "status": "excluded",
+      "reason": "Geschlechter im Feld weitgehend gleich; Größenunterschiede nicht im maßstabsfreien Fotovergleich erlernbar."
+    },
+    "watpip1": {
+      "status": "excluded",
+      "reason": "Sehr ähnliche Geschlechter; Vergleichsfotos nicht sicher geschlechtsbestimmt."
+    },
+    "norgan": {
+      "status": "excluded",
+      "reason": "Geschlechter äußerlich weitgehend gleich; keine verlässlichen Vergleichsfotos."
+    },
+    "fieldf": {
+      "status": "excluded",
+      "reason": "Gefiederunterschiede überlappen; sichere Fotozuordnung fehlt."
+    },
+    "hoopoe": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:N%C3%A1mluvn%C3%AD_krmen%C3%AD.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Commons-Dateiname/Bildbeschreibung: File:Námluvní krmení.jpg; Courtship feeding of Eurasian hoopoes (Upupa epops) prior to mating. The male presents prey to the female to demonstrate his foraging skills and ability to provide for a future brood, strengthening their pair bond."
+        }
+      ],
+      "note": ""
+    }
+  }
+}

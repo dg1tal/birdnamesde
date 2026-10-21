@@ -9,11 +9,21 @@ const cache=createPhotoCache(options);
 const [first,second]=await Promise.all([cache.get(photo('a')),cache.get(photo('a'))]);
 assert.equal(first,second);assert.equal(requests,1);assert.equal(decodes,1);
 assert.equal(await cache.get(photo('a')),first);assert.equal(requests,1);assert.equal(decodes,1);
+// Both sex photos use independent entries and are reused together on a repeated question.
+const pair=[photo('pair-male'),photo('pair-female')];
+cache.warm(pair);
+const pairImages=await Promise.all(pair.map(p=>cache.get(p)));
+const pairRequests=requests,pairDecodes=decodes;
+assert.notEqual(pairImages[0],pairImages[1]);
+assert.deepEqual(await Promise.all(pair.map(p=>cache.get(p))),pairImages);
+assert.equal(requests,pairRequests);assert.equal(decodes,pairDecodes);
+// Isolate the following original single-photo cache assertions.
+for(const key of [...files.keys()])if(key.includes('/pair-'))files.delete(key);
 // A fresh page instance retrieves persisted bytes even when the network is unavailable.
 const offline=createPhotoCache({...options,fetchPhoto:async()=>{throw Error('offline')}});
-assert.ok(await offline.get(photo('a')));assert.equal(requests,1);
+assert.ok(await offline.get(photo('a')));assert.equal(requests,pairRequests);
 // Content hashes invalidate just the changed asset, never retain its old persistent version.
-await cache.get(photo('a','b'));assert.equal(requests,2);assert.equal(files.size,1);assert.ok([...files.keys()][0].endsWith('?v=b'));
+await cache.get(photo('a','b'));assert.equal(requests,pairRequests+1);assert.equal(files.size,1);assert.ok([...files.keys()][0].endsWith('?v=b'));
 // Limit decoded images, retaining compressed files on disk for longer lessons.
 const bounded=createPhotoCache({...options,limit:2});
 await bounded.get(photo('b'));await bounded.get(photo('c'));await bounded.get(photo('d'));

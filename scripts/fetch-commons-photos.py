@@ -2,7 +2,8 @@
 import hashlib,json,pathlib,time,urllib.request
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 photos=json.loads((ROOT/'dist/photos.json').read_text())['photos']
-for sid,p in photos.items():
+entries=[(sid,p) for sid,main in photos.items() for p in [main,*main.get('additional',[])]]
+for sid,p in entries:
     path=ROOT/'dist'/p['local']
     if path.exists():
         if hashlib.sha256(path.read_bytes()).hexdigest()!=p['localSha256']:
@@ -14,4 +15,4 @@ for sid,p in photos.items():
         raise SystemExit(f'Remote image changed; review source and license before updating: {sid}')
     path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(blob)
     time.sleep(.5)
-print(f'All {len(photos)} Commons thumbnails present and verified.')
+print(f'All {len(entries)} Commons thumbnails present and verified.')
