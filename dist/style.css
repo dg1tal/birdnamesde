@@ -28,6 +28,7 @@ button{cursor:pointer;font-weight:600}button.primary{background:var(--ink);color
 .english{font-size:17px}.latin{font-style:italic;color:var(--muted);font-size:14px}
 .english-variants{display:flex;flex-wrap:wrap;gap:4px 22px;margin:8px 0;font-size:17px}
 .english-variants>span{min-width:0}
+body.studying .english-variants{justify-content:center;text-align:center}
 .variant-label{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--muted);margin-right:5px}
 .code{font:700 19px ui-monospace,monospace;letter-spacing:1.3px;background:var(--soft);padding:5px 9px;border-radius:6px;display:inline-block}
 .tags{font-size:12px;color:var(--muted);margin-top:10px}
