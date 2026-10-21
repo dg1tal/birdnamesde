@@ -173,3 +173,14 @@ body.studying .photo-set-multiple .bird-photo img,body.studying .photo-set-multi
 .field{min-width:0}
 .field select{width:100%;min-width:0;max-width:100%}
 .panel{overflow-wrap:anywhere}
+
+.media-badge{display:table;margin:0 auto 8px;padding:4px 9px;border:1px solid var(--line);border-radius:6px;background:var(--soft);color:var(--ink);font-size:12px;font-weight:650}
+.comparison-description{margin:7px 0!important;font-size:13px!important;color:var(--ink);line-height:1.5}
+.bird-illustration .photo-label{font-size:13px}
+.bird-illustration img{object-fit:contain}
+@media(max-width:580px){.photo-set-illustrated .bird-illustration figcaption{font-size:12px}}
+
+.photo-set-multiple.photo-set-illustrated{grid-template-columns:1fr}
+.photo-set-illustrated .bird-illustration img,.photo-set-illustrated .bird-illustration .study-photo-slot,body.studying .photo-set-illustrated .bird-illustration img,body.studying .photo-set-illustrated .bird-illustration .study-photo-slot{height:300px}
+
+@media(min-width:581px){#photo-dialog .photo-set-illustrated{grid-template-columns:repeat(2,minmax(0,1fr))}}

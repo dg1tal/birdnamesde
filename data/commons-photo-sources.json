@@ -1,6 +1,6 @@
 {
   "retrieved": "2026-10-21",
-  "source": "Commons API imageinfo extmetadata; author corrections from file-description wikitext",
+  "source": "Commons API imageinfo extmetadata; author corrections from file-description wikitext; original scientific plate legends for illustration sex assignments",
   "files": {
     "Alexandrine parakeet (Psittacula eupatria eupatria) male.jpg": {
       "pageid": 116326963,
@@ -48836,6 +48836,631 @@
             }
           },
           "mime": "image/jpeg"
+        }
+      ]
+    },
+    "Barred Warbler Grönvold.jpg": {
+      "pageid": 13369852,
+      "ns": 6,
+      "title": "File:Barred Warbler Grönvold.jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 756204,
+          "width": 1190,
+          "height": 1080,
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Barred_Warbler_Gr%C3%B6nvold.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbwidth": 1190,
+          "thumbheight": 1080,
+          "thumbattribs": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Barred_Warbler_Gr%C3%B6nvold.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 1190,
+            "height": 1080
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Barred_Warbler_Gr%C3%B6nvold.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barred_Warbler_Gr%C3%B6nvold.jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=13369852",
+          "sha1": "96badbbe7bb9c4af363ae05888b49302bb682043",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2011-02-18 22:12:17",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Barred Warbler Grönvold",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Henrik Grönvold|PD-old-70-expired|Birds of Great Britain and Ireland (Butler)|CC-PD-Mark|Sylvia nisoria (illustrations)",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "An illustration of a male (above) and a female (below) Barred Warbler by Henrik Grönvold",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "circa 1907<div style=\"display: none;\">date QS:P,+1907-00-00T00:00:00Z/9,P1480,Q5727902</div>–1908",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.biodiversitylibrary.org/page/8993788\">Birds of Great Britain and Ireland, Order Passeres, vol. I, plate</a>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Henrik_Gr%C3%B8nvold\" class=\"extiw\" title=\"w:en:Henrik Grønvold\"><span title=\"Danish illustrator (1858–1940)\">Henrik Grønvold</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "Permission": {
+              "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 70 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ],
+      "revisions": [
+        {
+          "slots": {
+            "main": {
+              "contentmodel": "wikitext",
+              "contentformat": "text/x-wiki",
+              "*": "{{Information\n|Description    ={{en|1=An illustration of a male (above) and a female (below) Barred Warbler by Henrik Grönvold}}\n|Source         =[https://www.biodiversitylibrary.org/page/8993788 Birds of Great Britain and Ireland, Order Passeres, vol. I, plate]\n|Author={{Creator:Henrik Grönvold}}; in a book by Arthur G. Butler (d. 1925)\n|Date           ={{other date|circa|1907}}–1908\n|Permission     ={{PD-old-70-1923}}\n|other_versions =\n}}\n\n[[Category:Henrik Grönvold]]\n[[Category:Sylvia nisoria (illustrations)]]\n[[Category:Birds of Great Britain and Ireland (Butler)]]"
+            }
+          }
+        }
+      ]
+    },
+    "Remiz pendulinus Naumann.png": {
+      "pageid": 70083314,
+      "ns": 6,
+      "title": "File:Remiz pendulinus Naumann.png",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 33076581,
+          "width": 3027,
+          "height": 4667,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Remiz_pendulinus_Naumann.png/1280px-Remiz_pendulinus_Naumann.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 1280,
+          "thumbheight": 1973,
+          "responsiveUrls": {
+            "2": "https://upload.wikimedia.org/wikipedia/commons/6/65/Remiz_pendulinus_Naumann.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+          },
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Remiz_pendulinus_Naumann.png/1280px-Remiz_pendulinus_Naumann.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 1280,
+            "height": 1973,
+            "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/65/Remiz_pendulinus_Naumann.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Remiz_pendulinus_Naumann.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Remiz_pendulinus_Naumann.png",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=70083314",
+          "sha1": "2d04687c8da0097fa75ba1ca92792ee5c52c8c85",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2018-06-20 07:53:01",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Remiz pendulinus Naumann",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Remiz pendulinus (illustrations)",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Remiz pendulinus Naumann",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "2018-06-20",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/Naumann2Naum#page/240/mode/2up\">Naumann. <i>Naturgeschichte der Vögel Mitteleuropas. Band II.</i> 1897</a>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "Naumann",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "CC BY-SA 4.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution-Share Alike 4.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "https://creativecommons.org/licenses/by-sa/4.0",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-sa-4.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    },
+    "Crex crex00.jpg": {
+      "pageid": 252974,
+      "ns": 6,
+      "title": "File:Crex crex00.jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 103414,
+          "width": 1102,
+          "height": 1440,
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Crex_crex00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbwidth": 1100,
+          "thumbheight": 1437,
+          "thumbattribs": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Crex_crex00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 1100,
+            "height": 1437
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Crex_crex00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Crex_crex00.jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=252974",
+          "sha1": "e98ee2704753e6e3ece441a455facecf21296f55",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2005-08-04 12:44:59",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Crex crex00",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Naumann - Naturgeschichte der Vögel Mitteleuropas (1905)|PD-old-100-expired|CC-PD-Mark|Crex crex in art|Rallidae (juvenile)",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Drawing of the Corncrake from Naumann, <i>Natural History of Birds in Central Europe</i>, Volume VII, Table 15 - published 1899",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "1899",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.biologie.uni-hamburg.de/b-online/birds/regdeu.htm\">http://www.biologie.uni-hamburg.de/b-online/birds/regdeu.htm</a>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Johann_Friedrich_Naumann\" class=\"extiw\" title=\"w:en:Johann Friedrich Naumann\"><span title=\"German ornithologist, engraver and editor (1780-1857)\">Johann Friedrich Naumann</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "Permission": {
+              "value": "<table class=\"toccolours layouttemplate\" style=\"width: 100%; box-sizing: border-box; padding: 2px;\" dir=\"ltr\" lang=\"en\">\n<tbody><tr>\n<td> <span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span> </td>\n<td> This image comes from the book:\n<p><b><a href=\"https://en.wikipedia.org/wiki/Johann_Friedrich_Naumann\" class=\"extiw\" title=\"w:Johann Friedrich Naumann\">Naumann</a>, Naturgeschichte der Vögel Mitteleuropas. 3. Aufl. Neubearb. von G. Berg et al. Hrsg. von Carl R. Hennicke.</b> (Naumann, Natural history of the birds of central Europe, 3rd Ed. Revised by G. Berg et al.; Edited by Carl R. Hennicke.) of 1905 or his earlier works.\n</p><p>The <a href=\"https://en.wikipedia.org/wiki/Copyrights\" class=\"extiw\" title=\"w:Copyrights\">copyrights</a> for those books have expired and this image is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b>.\n</p><p>See all volumes at <a rel=\"nofollow\" class=\"external text\" href=\"https://www.biodiversitylibrary.org/bibliography/60905#/summary\">Biodiversity Heritage Library</a>\n</p>\n</td>\n</tr>\n</tbody></table>\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ],
+      "revisions": [
+        {
+          "slots": {
+            "main": {
+              "contentmodel": "wikitext",
+              "contentformat": "text/x-wiki",
+              "*": "{{information\n|description={{de|Zeichnung vom Wachtelkönig aus: NAUMANN : ''Naturgeschichte der Vögel Mitteleuropas'', Band VII, Tafel 15 - Gera, 1899}}\n{{en|Drawing of the Corncrake from Naumann, ''Natural History of Birds in Central Europe'', Volume VII, Table 15 - published 1899}}\n|source=http://www.biologie.uni-hamburg.de/b-online/birds/regdeu.htm\n|permission={{NAUMANN}}\n|author={{Creator:Johann Friedrich Naumann}}\n|date=1899\n}}\n\n[[Category:Crex crex in art]]\n[[Category:Rallidae (juvenile)]]"
+            }
+          }
+        }
+      ]
+    },
+    "C chloris m nivalis naumann.jpg": {
+      "pageid": 514229,
+      "ns": 6,
+      "title": "File:C chloris m nivalis naumann.jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 78624,
+          "width": 939,
+          "height": 1332,
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/15/C_chloris_m_nivalis_naumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbwidth": 1280,
+          "thumbheight": 1816,
+          "thumbattribs": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/C_chloris_m_nivalis_naumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 1280,
+            "height": 1816
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/C_chloris_m_nivalis_naumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:C_chloris_m_nivalis_naumann.jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=514229",
+          "sha1": "2f4b9e86775f02549bdea79053bfb80569a82a57",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2006-01-15 09:21:43",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "C chloris m nivalis naumann",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Naumann - Naturgeschichte der Vögel Mitteleuropas (1905)|PD-old-100-expired|Chloris chloris (illustrations)|CC-PD-Mark|Montifringilla nivalis (illustrations)",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "<i><a href=\"//commons.wikimedia.org/wiki/Carduelis_chloris\" class=\"mw-redirect\" title=\"Carduelis chloris\">Carduelis chloris</a></i> (bottom) and <i><a href=\"//commons.wikimedia.org/wiki/Montifringilla_nivalis\" title=\"Montifringilla nivalis\">Montifringilla nivalis</a></i> (top), from Naumann, Naturgeschichte der Vögel Mitteleuropas, 1905.",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "1905",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "Source: <a rel=\"nofollow\" class=\"external free\" href=\"http://www.biologie.uni-hamburg.de/b-online/birds/2181_96.htm\">http://www.biologie.uni-hamburg.de/b-online/birds/2181_96.htm</a>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Johann_Friedrich_Naumann\" class=\"extiw\" title=\"w:en:Johann Friedrich Naumann\"><span title=\"German ornithologist, engraver and editor (1780-1857)\">Johann Friedrich Naumann</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "Permission": {
+              "value": "<table class=\"toccolours layouttemplate\" style=\"width: 100%; box-sizing: border-box; padding: 2px;\" dir=\"ltr\" lang=\"en\">\n<tbody><tr>\n<td> <span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span> </td>\n<td> This image comes from the book:\n<p><b><a href=\"https://en.wikipedia.org/wiki/Johann_Friedrich_Naumann\" class=\"extiw\" title=\"w:Johann Friedrich Naumann\">Naumann</a>, Naturgeschichte der Vögel Mitteleuropas. 3. Aufl. Neubearb. von G. Berg et al. Hrsg. von Carl R. Hennicke.</b> (Naumann, Natural history of the birds of central Europe, 3rd Ed. Revised by G. Berg et al.; Edited by Carl R. Hennicke.) of 1905 or his earlier works.\n</p><p>The <a href=\"https://en.wikipedia.org/wiki/Copyrights\" class=\"extiw\" title=\"w:Copyrights\">copyrights</a> for those books have expired and this image is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b>.\n</p><p>See all volumes at <a rel=\"nofollow\" class=\"external text\" href=\"https://www.biodiversitylibrary.org/bibliography/60905#/summary\">Biodiversity Heritage Library</a>\n</p>\n</td>\n</tr>\n</tbody></table>\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    },
+    "Emberiza cia.jpg": {
+      "pageid": 1247649,
+      "ns": 6,
+      "title": "File:Emberiza cia.jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 95841,
+          "width": 931,
+          "height": 667,
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Emberiza_cia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbwidth": 1280,
+          "thumbheight": 917,
+          "thumbattribs": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Emberiza_cia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 1280,
+            "height": 917
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Emberiza_cia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Emberiza_cia.jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1247649",
+          "sha1": "f0c44e789a856365dc1cbf2f77485e91f2c34862",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2006-10-05 12:25:28",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Emberiza cia",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Naumann - Naturgeschichte der Vögel Mitteleuropas (1905)|Files with no machine-readable author|Files with no machine-readable source|Media missing infobox template|PD-old-100-expired|CC-PD-Mark|PD-old missing SDC copyright status|Emberiza cia (illustrations)",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ],
+      "revisions": [
+        {
+          "slots": {
+            "main": {
+              "contentmodel": "wikitext",
+              "contentformat": "text/x-wiki",
+              "*": "== {{int:filedesc}} ==\n:''[[Emberiza cia]]'' \n:Rock Bunting\n:Bruant fou\n\n== {{int:license-header}} ==\n{{NAUMANN}}\n\n[[Category:Emberiza cia (illustrations)]]\n[[Category:Media missing infobox template]]"
+            }
+          }
+        }
+      ]
+    },
+    "Naturgeschichte der Vögel Deutschlands in getreuen Abbildungen und Beschreibungen - Johann Wolf, Bernhard Meyer, 1805 (IA Naturgeschichte00Wolf).pdf": {
+      "pageid": 91446554,
+      "ns": 6,
+      "title": "File:Naturgeschichte der Vögel Deutschlands in getreuen Abbildungen und Beschreibungen - Johann Wolf, Bernhard Meyer, 1805 (IA Naturgeschichte00Wolf).pdf",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 67348349,
+          "width": 1485,
+          "height": 1779,
+          "pagecount": 574,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Naturgeschichte_der_V%C3%B6gel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf%2C_Bernhard_Meyer%2C_1805_%28IA_Naturgeschichte00Wolf%29.pdf/page1-1280px-Naturgeschichte_der_V%C3%B6gel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf%2C_Bernhard_Meyer%2C_1805_%28IA_Naturgeschichte00Wolf%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 1280,
+          "thumbheight": 1533,
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Naturgeschichte_der_V%C3%B6gel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf%2C_Bernhard_Meyer%2C_1805_%28IA_Naturgeschichte00Wolf%29.pdf/page1-1280px-Naturgeschichte_der_V%C3%B6gel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf%2C_Bernhard_Meyer%2C_1805_%28IA_Naturgeschichte00Wolf%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 1280,
+            "height": 1533
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Naturgeschichte_der_V%C3%B6gel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf%2C_Bernhard_Meyer%2C_1805_%28IA_Naturgeschichte00Wolf%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Naturgeschichte_der_V%C3%B6gel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf,_Bernhard_Meyer,_1805_(IA_Naturgeschichte00Wolf).pdf",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91446554",
+          "sha1": "234541a16e277ba72ff6d281030cb80aba834751",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2020-06-22 11:49:52",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Naturgeschichte der Vögel Deutschlands in getreuen Abbildungen und Beschreibungen",
+              "source": "commons-desc-page"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Naturgeschichte der Vögel Deutschlands in getreuen Abbildungen und Beschreibungen|Scans from the Internet Archive/unverified|Images with extracted images|PD US expired|Files from the Biodiversity Heritage Library|Scans from the Internet Archive|Books uploaded by Fæ|Books without Wikidata item|Books from the Biodiversity Heritage Library",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Johann_Wolf_(naturalist)\" class=\"extiw\" title=\"w:en:Johann Wolf (naturalist)\"><span title=\"German naturalist and ornithologist (1765–1824)\">Johann Wolf</span></a></bdi> / <bdi><a href=\"https://en.wikipedia.org/wiki/en:Bernhard_Meyer\" class=\"extiw\" title=\"w:en:Bernhard Meyer\"><span title=\"German physician and naturalist (1767–1836)\">Bernhard Meyer</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "ImageDescription": {
+              "value": "<div class=\"description\">\n<dl><dd>statement of responsibility: von Iohann Wolf und Bernhard Meyer</dd>\n<dd>German and French</dd>\n<dd>Added t.p. in French, which reads: Histoire naturelle des oiseaux de l'allemagne, représentés d'après nature et décrits par Jean Wolf et par Bernard Meyer. Nuremberg : I.F. Frauenholz, 1805</dd>\n<dd>Issued in 29 parts, each having six plates with their text. A thirtieth part was in preparation, and others projected, in January, 1821. Hefte 1-15 constitute the first Band. The text to Hefte 1-7 was written by Wolf alone. See BM (Nat. hist.), v. 5, p. 2348</dd>\n<dd>The plates were illustrated by A. Gabler, J.M. Hergenroeder, and Stoelzner. The engravers included Gabler, J.C. Bock, and Dieterich</dd>\n<dd>Errors in paging: p. 123-130 (Bd. 1) and p. 91-92 (Bd. 2) were apparently omitted by the printer, with no loss of text</dd>\n<dd>\"For a list of the contents of the parts, see note by Wolf in 'Isis,' Bd. VIII, 1821, Beylage No. 4. This list differs somewhat from the actual contents of the volumes, and the published list of the plates in Vol. 1\" --BM (Nat. hist.), v. 5, p. 2348</dd>\n<dd>citation/reference: Nissen, C. Illustrierte Vogelbücher, 1007</dd>\n<dd>citation/reference: Ripley &amp; Scribner. Ornith. books in Yale, p. 314-315</dd>\n<dd>Includes bibliographical references</dd>\n<dd>Nissen, C. Illustrierte Vogelbücher</dd>\n<dd>Ripley &amp; Scribner. Ornith. books in Yale</dd>\n<dd>CHMRB copy 39088009319518 is bound in 1 v</dd>\n<dd>CHMRB copy is imperfect: all text pages after p. 72 in Bd. 2 (i.e. p. 73-196) are wanting; only 150 of the 176 unnumbered plates are present</dd>\n<dd>CHMRB copy was purchased from the Mary Stuart Book Fund, 1901</dd>\n<dd>CHMRB copy has modern red quarter-leather binding with cloth-covered boards and gilt-tooled spine</dd>\n<dd>Subjects: Birds</dd></dl></div>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<dl><dd><a href=\"//archive.org/details/Naturgeschichte00Wolf\" class=\"extiw\" title=\"iarchive:Naturgeschichte00Wolf\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: Naturgeschichte00Wolf</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/Naturgeschichte00Wolf/Naturgeschichte00Wolf.pdf\">https://archive.org/download/Naturgeschichte00Wolf/Naturgeschichte00Wolf.pdf</a></dd></dl>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
         }
       ]
     }

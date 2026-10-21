@@ -1,10 +1,11 @@
 {
   "meta": {
     "source": "Wikimedia Commons",
-    "method": "Species articles and Wikidata taxon names; individual Commons file licenses and author metadata; locally served unmodified thumbnails",
+    "method": "Species articles and Wikidata taxon names; individual Commons file licenses and author metadata; locally served unmodified photos and explicitly labeled historical scientific illustrations",
     "updated": "2026-10-21",
-    "imageCount": 409,
-    "sexReviewedSpecies": 112
+    "imageCount": 415,
+    "sexReviewedSpecies": 118,
+    "illustrationCount": 6
   },
   "photos": {
     "alepar2": {
@@ -747,7 +748,39 @@
       ],
       "sha1": "dd6bce3403dbd7896e427d8b27d200533fc55620",
       "localSha256": "238ada2812112067337d1c8f97ab3d91b3eea0b12389d8571951f42fc8329144",
-      "comparisonMissing": true
+      "additional": [
+        {
+          "sci": "Remiz pendulinus",
+          "wikiTitle": "Eurasian penduline tit",
+          "wikidata": "Q273067",
+          "local": "images/euptit1-pair.jpg",
+          "title": "Remiz pendulinus Naumann",
+          "credit": "Naumann, Naturgeschichte der Vögel Mitteleuropas, Band II (1897), Tafel 17",
+          "attribution": "",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Remiz_pendulinus_Naumann.png",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Remiz_pendulinus_Naumann.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Remiz_pendulinus_Naumann.png/1280px-Remiz_pendulinus_Naumann.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1280,
+          "height": 1973,
+          "taxonNames": [
+            "Remiz pendulinus"
+          ],
+          "sha1": "2d04687c8da0097fa75ba1ca92792ee5c52c8c85",
+          "localSha256": "a03c6847b8c39bb44a28714b75cd334876b41342d58fa2bc31fb9135e4678bc6",
+          "mediaType": "illustration",
+          "illustrationDate": "1897",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "label": "Männchen und Weibchen",
+          "comparisonDescription": "Männchen (1, oben links), Weibchen (4, unten rechts); die Figuren 2 und 3 zeigen Jungvögel. Darstellung von 1897.",
+          "transformation": "Aus Commons-PNG in JPEG konvertiert; keine inhaltliche Änderung.",
+          "verificationUrl": "https://archive.org/download/Naumann2Naum/page/n288.jpg"
+        }
+      ]
     },
     "eubeat1": {
       "sci": "Merops apiaster",
@@ -6563,7 +6596,46 @@
       ],
       "sha1": "e12ef5e869f69d85bd42e9d4de6c88ed313afe18",
       "localSha256": "117a900753a1f5ffbda6464dd1cb0c60c1989645e959c14ab7c5e70048d20508",
-      "comparisonMissing": true
+      "additional": [
+        {
+          "sci": "Montifringilla nivalis",
+          "wikiTitle": "White-winged snowfinch",
+          "wikidata": "Q499290",
+          "local": "images/whwsno1-pair.jpg",
+          "title": "C chloris m nivalis naumann — Schneefinkenpaar (Ausschnitt)",
+          "credit": "Naumann, Naturgeschichte der Vögel Mitteleuropas, Band III, Tafel 41; Ausschnitt",
+          "attribution": "",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:C_chloris_m_nivalis_naumann.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/C_chloris_m_nivalis_naumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/C_chloris_m_nivalis_naumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 939,
+          "height": 700,
+          "taxonNames": [
+            "Montifringilla nivalis",
+            "Fringilla nivalis"
+          ],
+          "sha1": "2f4b9e86775f02549bdea79053bfb80569a82a57",
+          "localSha256": "81e63453b6bcc8474e21c291557cbfda986cbbdb749332353630e4d397a86f86",
+          "mediaType": "illustration",
+          "illustrationDate": "1900",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "label": "Männchen und Weibchen",
+          "comparisonDescription": "Männchen und Weibchen. Ausschnitt aus einer historischen Tafel (1900); die einzelne Links-rechts-Zuordnung ist im Scan nicht sicher lesbar.",
+          "transformation": "Ausschnitt der beiden Schneesperlinge aus einer Tafel mit mehreren Arten; Schwanzspitzen am unteren Rand leicht beschnitten; als JPEG gespeichert.",
+          "crop": [
+            0,
+            0,
+            939,
+            700
+          ],
+          "verificationUrl": "https://archive.org/download/Naumann3Naum/page/n442.jpg"
+        }
+      ]
     },
     "leseag1": {
       "sci": "Clanga pomarina",
@@ -7223,7 +7295,39 @@
       ],
       "sha1": "219dfa33c85f693624ce551306bb03f3a00a75ba",
       "localSha256": "3d8597bcd770456bed84761cc395641601ce98524cdd8635e6b96ee980639ee4",
-      "comparisonMissing": true
+      "additional": [
+        {
+          "sci": "Curruca nisoria",
+          "local": "images/barwar1-pair.jpg",
+          "title": "Barred Warbler Grönvold",
+          "credit": "Henrik Grønvold",
+          "attribution": "",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Barred_Warbler_Gr%C3%B6nvold.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Barred_Warbler_Gr%C3%B6nvold.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Barred_Warbler_Gr%C3%B6nvold.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1190,
+          "height": 1080,
+          "wikiTitle": "Barred warbler",
+          "wikidata": "Q104867606",
+          "taxonNames": [
+            "Curruca nisoria",
+            "Sylvia nisoria"
+          ],
+          "sha1": "96badbbe7bb9c4af363ae05888b49302bb682043",
+          "localSha256": "b1224f9cf914d0cabe845dd729ac2f4681bf413d90dfe8e9237b9a0d9120acc8",
+          "mediaType": "illustration",
+          "illustrationDate": "um 1907–1908",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "label": "Männchen und Weibchen",
+          "comparisonDescription": "Männchen oben, Weibchen unten. Darstellung um 1907–1908.",
+          "verificationUrl": "https://www.biodiversitylibrary.org/page/8993788"
+        }
+      ]
     },
     "eupowl1": {
       "sci": "Glaucidium passerinum",
@@ -8614,7 +8718,38 @@
       ],
       "sha1": "584795eed216206e9bc15ade6ef5e1580a758bab",
       "localSha256": "a20d865b0b8b551f2fa953cb1d1c866f32aff6b158578d7e3887a4ce7e09dac1",
-      "comparisonMissing": true
+      "additional": [
+        {
+          "sci": "Crex crex",
+          "wikiTitle": "Corn crake",
+          "wikidata": "Q26017",
+          "local": "images/corcra-pair.jpg",
+          "title": "Wachtelkönig — Naumann, Naturgeschichte der Vögel Mitteleuropas, Band VII, Tafel 15 (1899)",
+          "credit": "J. G. Keulemans · Naumann, Naturgeschichte der Vögel Mitteleuropas, Band VII, Tafel 15 (1899)",
+          "attribution": "",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Crex_crex00.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Crex_crex00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Crex_crex00.jpg",
+          "width": 1102,
+          "height": 1440,
+          "taxonNames": [
+            "Crex crex"
+          ],
+          "sha1": "e98ee2704753e6e3ece441a455facecf21296f55",
+          "localSha256": "cd342add102909449fddd40439795e406eed73ff94172bc54d8ba18fe477b3c1",
+          "mediaType": "illustration",
+          "illustrationDate": "1899",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "label": "Männchen und Weibchen",
+          "comparisonDescription": "Männchen im Frühling (unten), Weibchen im Herbst (oben); außerdem ein Dunenjunges. Darstellung von 1899. Die Gefieder unterscheiden sich auch durch die Jahreszeit.",
+          "verificationUrl": "https://www.zobodat.at/pdf/Natgesch-Voegel-Mitteleuropas_7_0001-0264.pdf#page=219"
+        }
+      ]
     },
     "eurtre1": {
       "sci": "Certhia familiaris",
@@ -9321,7 +9456,38 @@
       ],
       "sha1": "cfa1e05cb0ab1bef6773d43716f1c5f04edff906",
       "localSha256": "fee68ae4222d3e6dedbbb1d1ec603e0b122d205adf2983cdc6fbfbfafd91b3ef",
-      "comparisonMissing": true
+      "additional": [
+        {
+          "sci": "Emberiza cia",
+          "wikiTitle": "Rock bunting",
+          "wikidata": "Q205491",
+          "local": "images/rocbun1-pair.jpg",
+          "title": "Emberiza cia.jpg",
+          "credit": "J. G. Keulemans, in Naumann/Hennicke, Naturgeschichte der Vögel Mitteleuropas, Band III (1900), Tafel 23; Wikimedia Commons",
+          "attribution": "",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Emberiza_cia.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Emberiza_cia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Emberiza_cia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 931,
+          "height": 667,
+          "taxonNames": [
+            "Emberiza cia"
+          ],
+          "sha1": "f0c44e789a856365dc1cbf2f77485e91f2c34862",
+          "localSha256": "86801f949d30a537ed19667810beebab98bdde1780093cc169559a89085106d2",
+          "mediaType": "illustration",
+          "illustrationDate": "1900",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "label": "Männchen und Weibchen",
+          "comparisonDescription": "Männchen oben (Figur 2 der Originaltafel), Weibchen unten (Figur 3). Darstellung von 1900.",
+          "verificationUrl": "https://commons.wikimedia.org/wiki/File:Naumann,_Naturgeschichte_der_Vögel_Mitteleuropas_(IA_Naumann3Naum).pdf?page=257"
+        }
+      ]
     },
     "citfin1": {
       "sci": "Carduelis citrinella",
@@ -9343,7 +9509,48 @@
       ],
       "sha1": "3e19d0a4bbe8f08c0733583e86ff64e0aa5f36f2",
       "localSha256": "e62bdd6a86f6133c9f83d033a7e0363cbacde092bfc961c77af32d831b204ebf",
-      "comparisonMissing": true
+      "additional": [
+        {
+          "sci": "Carduelis citrinella",
+          "wikiTitle": "Citril finch",
+          "wikidata": "Q206550",
+          "local": "images/citfin1-pair.jpg",
+          "title": "Fringilla Citrinella. Nobis. 1. Mas. 2. Fem. Der Citronenfink.",
+          "credit": "Johann Mathias Hergenröder (Zeichnung), Johann Carl Bock (Stich); Wolf/Meyer, Naturgeschichte der Vögel Deutschlands (1805); Smithsonian/BHL/Wikimedia Commons",
+          "attribution": "",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Naturgeschichte_der_Vögel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf,_Bernhard_Meyer,_1805_(IA_Naturgeschichte00Wolf).pdf?page=379",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Naturgeschichte_der_V%C3%B6gel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf%2C_Bernhard_Meyer%2C_1805_%28IA_Naturgeschichte00Wolf%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Naturgeschichte_der_V%C3%B6gel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf%2C_Bernhard_Meyer%2C_1805_%28IA_Naturgeschichte00Wolf%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 760,
+          "height": 810,
+          "taxonNames": [
+            "Carduelis citrinella",
+            "Serinus citrinella",
+            "Fringilla citrinella"
+          ],
+          "sha1": "234541a16e277ba72ff6d281030cb80aba834751",
+          "localSha256": "1f735738c2631f912297b997e1b85ed12ef063360fd3d566fd8f30c4eeb3026e",
+          "mediaType": "illustration",
+          "illustrationDate": "1805",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "label": "Männchen und Weibchen",
+          "comparisonDescription": "Männchen oben rechts (1), Weibchen unten links (2). Darstellung von 1805; Ausschnitt der Originaltafel.",
+          "transformation": "Tafel auf Seite 379 des historischen PDF gerastert; Ausschnitt der beiden Vögel, ohne inhaltliche Retusche; als JPEG gespeichert.",
+          "crop": [
+            240,
+            490,
+            1000,
+            1300
+          ],
+          "renderPage": 379,
+          "verificationUrl": "https://commons.wikimedia.org/wiki/File:Naturgeschichte_der_Vögel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf,_Bernhard_Meyer,_1805_(IA_Naturgeschichte00Wolf).pdf?page=379"
+        }
+      ]
     },
     "litbit1": {
       "sci": "Botaurus minutus",

@@ -9,6 +9,8 @@ for sid,p in entries:
         if hashlib.sha256(path.read_bytes()).hexdigest()!=p['localSha256']:
             raise SystemExit(f'Existing file differs; leaving it untouched: {path}')
         continue
+    if p.get('transformation'):
+        raise SystemExit(f'Derived illustration missing; restore this exact asset from Git: {path}')
     req=urllib.request.Request(p['downloadUrl'],headers={'User-Agent':'BirdNamesDE/1.0 (educational Commons image reuse)'})
     with urllib.request.urlopen(req,timeout=60) as response:blob=response.read()
     if hashlib.sha256(blob).hexdigest()!=p['localSha256']:

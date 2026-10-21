@@ -1,6 +1,6 @@
 {
   "reviewed": "2026-10-21",
-  "scope": "Photographically distinguishable adult sexes, including seasonal breeding plumage and bill/head markings. Images are not to scale; size-only and overlapping individual variation cannot reliably be compared. Species/sex assignments require an explicit Commons description, category or species-article caption.",
+  "scope": "Photographically distinguishable adult sexes or explicitly identified adult sexes in historical scientific illustrations. Sex and age assignments require an explicit source description, original caption or plate legend. Illustrations are labeled separately from photos. Images are not to scale; age, season and subspecies can affect appearance.",
   "species": {
     "alepar2": {
       "status": "covered",
@@ -183,8 +183,29 @@
       "note": ""
     },
     "euptit1": {
-      "status": "unresolved",
-      "reason": "Weibchen mit kleinerer Gesichtsmaske; ähnliche Masken bei jungen Vögeln. Unter den Commons-Fotos und Bildunterschriften in 17 Sprachversionen kein alters- und geschlechtssicheres Weibchen gefunden."
+      "status": "covered",
+      "comparisonMedia": "illustration",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Remiz_pendulinus_Naumann.png",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Inspected downloaded Commons image and original printed plate. Both adults explicitly sex-labelled; young birds separately labelled.",
+          "publications": [
+            {
+              "url": "https://archive.org/stream/Naumann2Naum#page/240/mode/2up",
+              "description": "Source chapter p240, Tafel17 legend identifies Fig1 altes Männchen; Fig4 altes Weibchen; Figs2/3 junge Vögel."
+            },
+            {
+              "url": "https://archive.org/download/Naumann2Naum/page/n288.jpg",
+              "description": "Original full plate with printed bottom legend: 1 altes Männchen. 2 3 junge Vögel. 4 Weibchen. Viewed locally; exact same artwork as Commons crop."
+            }
+          ]
+        }
+      ],
+      "note": "Vorhandenes Foto bleibt erhalten; Geschlechtervergleich durch klar gekennzeichnete historische Illustration."
     },
     "eubeat1": {
       "status": "covered",
@@ -422,7 +443,27 @@
     },
     "spored": {
       "status": "unresolved",
-      "reason": "Weibchen im Brutkleid meist weniger vollständig schwarz; Übergänge und saisonale Kleider überlappen. Kein sicher geschlechtsbestimmtes lebendes Paarfoto nach Taxon-/Namenssuche, Kategorie- und 17 Wikipedia-Sprachversionenprüfung gefunden."
+      "reason": "Weibchen im Brutkleid meist weniger vollständig schwarz; Übergänge und saisonale Kleider überlappen. Kein sicher geschlechtsbestimmtes lebendes Paarfoto nach Taxon-/Namenssuche, Kategorie- und 17 Wikipedia-Sprachversionenprüfung gefunden.",
+      "illustrationReview": {
+        "id": "spored",
+        "accepted": false,
+        "blocker": "No explicitly verified adult male + adult female illustration found during bounded Commons search. Do not count this species as covered.",
+        "reviewed": [
+          {
+            "source": "https://commons.wikimedia.org/wiki/File:Tringa_erythropus_svartsnaeppa.jpg",
+            "localFile": "/workspace/scratch/illustration-review/spored/candidate.jpg",
+            "rejection": "Mixed species plate (Spotted Redshank and Greenshank); no explicit adult male/female Spotted Redshank pair."
+          },
+          {
+            "source": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(19676577364).jpg",
+            "localFile": "/workspace/scratch/illustration-review/spored/lilford.jpg",
+            "rejection": "Two Spotted Redshanks visible, but printed caption only says DUSKY REDSHANK Totanus fuscus, no sex/age mapping. Pair cannot be inferred from plumage.",
+            "bookPlate": "https://www.biodiversitylibrary.org/page/43056695",
+            "rawMetadata": "/workspace/scratch/illustration-review/spored/lilford-metadata.json"
+          }
+        ],
+        "searchScope": "Commons illustrations category (17 files), targeted Tringa erythropus / Totanus fuscus + female / Männchen / Weibchen / plate / Naumann / Lilford searches. No explicit adult sex-pair evidence retrieved."
+      }
     },
     "comeid": {
       "status": "covered",
@@ -1621,8 +1662,29 @@
       "note": ""
     },
     "whwsno1": {
-      "status": "unresolved",
-      "reason": "Ein Weibchen durch französische Wikipedia-Bildunterschrift gefunden; kein sicher bestimmtes Männchen mit passendem Alter/Kleid unter Commons-Fotos und 17 Sprachversionen gefunden."
+      "status": "covered",
+      "comparisonMedia": "illustration",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:C_chloris_m_nivalis_naumann.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Zuordnung anhand der gedruckten Originallegende geprüft; Jungvogel nicht als Geschlechtervergleich gezählt.",
+          "publications": [
+            {
+              "url": "https://archive.org/download/Naumann3Naum/page/n442.jpg",
+              "description": "Original full plate III41 visually inspected; exact identical artwork to Commons. Printed legend: Fringilla nivalis L. Schneefink. 1 Männchen. 2 Weibchen. Lower birds explicitly separate species Chloris chloris."
+            },
+            {
+              "url": "https://archive.org/details/Naumann3Naum/page/n414/mode/1up",
+              "description": "Species chapter p327 repeats male/female plate41 figure legend and nomenclature includes Montifringilla nivalis."
+            }
+          ]
+        }
+      ],
+      "note": "Vorhandenes Foto bleibt erhalten; Geschlechtervergleich durch klar gekennzeichnete historische Illustration."
     },
     "stonec4": {
       "status": "covered",
@@ -1725,8 +1787,20 @@
       "note": ""
     },
     "barwar1": {
-      "status": "unresolved",
-      "reason": "Gefieder-/Irisunterschiede hängen auch von Alter ab. Kein ausdrücklich weiblich bestimmtes adultes lebendes Vergleichsfoto nach Commons-Taxon-/Namenssuche, Kategorie- und 17 Wikipedia-Sprachversionenprüfung gefunden."
+      "status": "covered",
+      "comparisonMedia": "illustration",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Barred_Warbler_Gr%C3%B6nvold.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Commons-Dateibeschreibung benennt ausdrücklich male (above) and female (below); beide Figuren in der Originalillustration visuell geprüft.",
+          "publication": "https://www.biodiversitylibrary.org/page/8993788"
+        }
+      ],
+      "note": "Vorhandenes Foto bleibt erhalten; Geschlechtervergleich durch klar gekennzeichnete historische Illustration."
     },
     "norpin": {
       "status": "covered",
@@ -1991,8 +2065,31 @@
       "note": ""
     },
     "corcra": {
-      "status": "unresolved",
-      "reason": "Unterschiede der Grau-/Brauntöne überlappen; kein sicher weiblich bestimmtes lebendes Vergleichsfoto gefunden. Suchtreffer mit Geschlechtsangabe waren Zeichnungen oder falsch beschriftete Fasan-Fotos."
+      "status": "covered",
+      "comparisonMedia": "illustration",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Crex_crex00.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Zuordnung anhand der gedruckten Originallegende geprüft; Jungvogel nicht als Geschlechtervergleich gezählt.",
+          "publications": [
+            {
+              "url": "https://www.zobodat.at/pdf/Natgesch-Voegel-Mitteleuropas_7_0001-0264.pdf#page=10",
+              "quote": "Tafel 15. Crex crex (L.), Wiesensumpfhuhn. 1 altes Männchen im Frühling, 2 altes Weibchen im Herbst, 3 ganz junger Vogel.",
+              "localScreenshot": "/workspace/scratch/illustration-review/corcra/plate-list.png"
+            },
+            {
+              "url": "https://www.zobodat.at/pdf/Natgesch-Voegel-Mitteleuropas_7_0001-0264.pdf#page=219",
+              "quote": "1 altes Männchen. 2 altes Weibchen. 3 Dunenjunges.",
+              "localScreenshot": "/workspace/scratch/illustration-review/corcra/full-plate.png"
+            }
+          ]
+        }
+      ],
+      "note": "Vorhandenes Foto bleibt erhalten; Geschlechtervergleich durch klar gekennzeichnete historische Illustration."
     },
     "euhbuz1": {
       "status": "covered",
@@ -2055,12 +2152,47 @@
       "note": ""
     },
     "rocbun1": {
-      "status": "unresolved",
-      "reason": "Weibliche Kopfzeichnung ist matter, aber Alters-/Geschlechtszuordnung der vorhandenen Fotos ungesichert. Keine sichere weibliche Aufnahme in Commons-Taxon-/Namenssuche, Kategorie und 17 Wikipedia-Sprachversionen gefunden."
+      "status": "covered",
+      "comparisonMedia": "illustration",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Emberiza_cia.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Full primary plate23 PDF page257 explicitly prints Emberiza cia L., Zipammer. 2 Männchen, 3 Weibchen. Existing Commons crop contains precisely these two birds. No juvenile indicated; shown as adult male/female in book treatment. Full plate visually inspected at 1280px.",
+          "publications": [
+            {
+              "url": "https://commons.wikimedia.org/wiki/File:Naumann,_Naturgeschichte_der_Vögel_Mitteleuropas_(IA_Naumann3Naum).pdf?page=257"
+            }
+          ]
+        }
+      ],
+      "note": "Vorhandenes Foto bleibt erhalten; Geschlechtervergleich durch klar gekennzeichnete historische Illustration."
     },
     "citfin1": {
-      "status": "unresolved",
-      "reason": "Matteres Weibchen kann jungen Männchen ähneln. Keine alters- und geschlechtssicheren lebenden Vergleichsfotos in Commons und 17 Wikipedia-Sprachversionen gefunden; Suchtreffer waren andere Finkenarten oder Präparate."
+      "status": "covered",
+      "comparisonMedia": "illustration",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Naturgeschichte_der_Vögel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf,_Bernhard_Meyer,_1805_(IA_Naturgeschichte00Wolf).pdf?page=379",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Printed primary plate PDF page379 explicitly labels 1 Mas. 2 Fem. under Fringilla Citrinella, Der Citronenfink. Both numbered birds visible. Primary text PDF page121 printed105 identifies high Alps Switzerland and Tyrol, explicitly describes male vs female, excluding Corsican Finch. No juvenile depicted or indicated; adults are species type illustrations, age not separately printed. Historical plate rendered from Commons PDF, not generated.",
+          "publications": [
+            {
+              "url": "https://commons.wikimedia.org/wiki/File:Naturgeschichte_der_Vögel_Deutschlands_in_getreuen_Abbildungen_und_Beschreibungen_-_Johann_Wolf,_Bernhard_Meyer,_1805_(IA_Naturgeschichte00Wolf).pdf?page=379"
+            },
+            {
+              "url": "https://www.biodiversitylibrary.org/item/126846"
+            }
+          ]
+        }
+      ],
+      "note": "Vorhandenes Foto bleibt erhalten; Geschlechtervergleich durch klar gekennzeichnete historische Illustration."
     },
     "litbit1": {
       "status": "covered",
