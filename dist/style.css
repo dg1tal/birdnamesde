@@ -55,6 +55,9 @@ details summary{cursor:pointer}ul{padding-left:22px}
 .card .bird-photo{clear:both;margin:16px 0 12px}
 .card .bird-photo iframe{height:220px}
 .card .photo-slot{height:220px;border-radius:8px;background:var(--soft)}
+.photo-unavailable{display:flex;min-height:180px;flex-direction:column;align-items:center;justify-content:center;gap:12px;border-radius:8px;background:var(--soft);padding:18px;text-align:center}
+.photo-unavailable p{margin:0;color:var(--muted)}
+.photo-unavailable a{display:inline-block;border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:10px 14px;font-size:14px}
 .card .bird-photo a{float:none;margin:0;font-size:inherit}
 .photo-fallback{font-size:14px}
 body.studying .bird-photo{max-width:520px;margin:18px auto}
