@@ -1,0 +1,1574 @@
+{
+  "meta": {
+    "source": "Cornell Lab of Ornithology | Macaulay Library",
+    "method": "Individuell zugeordnete Foto-Mediennummern; offizielle Einbettung mit Urheberangabe",
+    "updated": "2026-10-21"
+  },
+  "photos": {
+    "alepar2": {
+      "id": "578661541",
+      "credit": "Natthaphat Chotjuckdikul",
+      "sci": "Psittacula eupatria"
+    },
+    "alpacc1": {
+      "id": "639021165",
+      "credit": "Łukasz Haluch",
+      "sci": "Prunella collaris"
+    },
+    "yebcho1": {
+      "id": "350911511",
+      "credit": "Vivek Saggar",
+      "sci": "Pyrrhocorax graculus"
+    },
+    "rocpta1": {
+      "id": "458126701",
+      "credit": "A & C Tennant",
+      "sci": "Lagopus muta"
+    },
+    "alpswi1": {
+      "id": "616903950",
+      "credit": "Sarah Foote",
+      "sci": "Tachymarptis melba"
+    },
+    "dunlin": {
+      "id": "644814059",
+      "credit": "Oscar Wainwright",
+      "sci": "Calidris alpina"
+    },
+    "eurbla": {
+      "id": "628608382",
+      "credit": "Marco Sozzi",
+      "sci": "Turdus merula"
+    },
+    "manshe": {
+      "id": "623326108",
+      "credit": "Ant Tab",
+      "sci": "Puffinus puffinus"
+    },
+    "wescap1": {
+      "id": "64884431",
+      "credit": "Christoph Moning",
+      "sci": "Tetrao urogallus"
+    },
+    "euroys1": {
+      "id": "634347426",
+      "credit": "John Alexander",
+      "sci": "Haematopus ostralegus"
+    },
+    "whiwag": {
+      "id": "487615051",
+      "credit": "Christopher Lindsey",
+      "sci": "Motacilla alba"
+    },
+    "bearee1": {
+      "id": "709811",
+      "credit": "Stanislav Harvančík",
+      "sci": "Panurus biarmicus"
+    },
+    "norgan": {
+      "id": "483271471",
+      "credit": "Drew Weber",
+      "sci": "Morus bassanus"
+    },
+    "eurhob": {
+      "id": "499417671",
+      "credit": "Jon Irvine",
+      "sci": "Falco subbuteo"
+    },
+    "trepip": {
+      "id": "622845738",
+      "credit": "dan esudri",
+      "sci": "Anthus trivialis"
+    },
+    "comsni": {
+      "id": "637852529",
+      "credit": "Kyle Ruotsalainen",
+      "sci": "Gallinago gallinago"
+    },
+    "gresca": {
+      "id": "627841865",
+      "credit": "Eric Hughes",
+      "sci": "Aythya marila"
+    },
+    "brambl": {
+      "id": "397399291",
+      "credit": "Liam Huber",
+      "sci": "Fringilla montifringilla"
+    },
+    "twite1": {
+      "id": "658597998",
+      "credit": "James Heal",
+      "sci": "Linaria flavirostris"
+    },
+    "webwar1": {
+      "id": "641803690",
+      "credit": "Bruno García",
+      "sci": "Phylloscopus bonelli"
+    },
+    "watpip1": {
+      "id": "610865212",
+      "credit": "צבי שוורצפוקס",
+      "sci": "Anthus spinoletta"
+    },
+    "euptit1": {
+      "id": "513250011",
+      "credit": "Max Ko",
+      "sci": "Remiz pendulinus"
+    },
+    "eubeat1": {
+      "id": "656106778",
+      "credit": "Will Scott",
+      "sci": "Merops apiaster"
+    },
+    "redpol1": {
+      "id": "301728521",
+      "credit": "Mollie Ficker",
+      "sci": "Acanthis flammea"
+    },
+    "blagro1": {
+      "id": "621315112",
+      "credit": "Stanislav Harvančík",
+      "sci": "Lyrurus tetrix"
+    },
+    "blueth": {
+      "id": "329612071",
+      "credit": "NILANJAN COOMAR",
+      "sci": "Luscinia svecica"
+    },
+    "blutit": {
+      "id": "718176",
+      "credit": "Eduardo Soler",
+      "sci": "Cyanistes caeruleus"
+    },
+    "eurlin1": {
+      "id": "146165661",
+      "credit": "Rui Pereira | Portugal Birding Tours",
+      "sci": "Linaria cannabina"
+    },
+    "gwfgoo": {
+      "id": "613457956",
+      "credit": "Anonymous",
+      "sci": "Anser albifrons"
+    },
+    "eurcoo": {
+      "id": "645960300",
+      "credit": "Michael Stubblefield",
+      "sci": "Fulica atra"
+    },
+    "tawpip1": {
+      "id": "218735681",
+      "credit": "Armando Barbosa",
+      "sci": "Anthus campestris"
+    },
+    "comshe": {
+      "id": "630101870",
+      "credit": "Sarawin Kreangpichitchai",
+      "sci": "Tadorna tadorna"
+    },
+    "santer1": {
+      "id": "626542349",
+      "credit": "Riccardo Errico",
+      "sci": "Thalasseus sandvicensis"
+    },
+    "whinch1": {
+      "id": "656437308",
+      "credit": "Gwidon Gaudnik",
+      "sci": "Saxicola rubetra"
+    },
+    "wooduc": {
+      "id": "642822248",
+      "credit": "Dori Eldridge",
+      "sci": "Aix sponsa"
+    },
+    "woosan": {
+      "id": "624147303",
+      "credit": "Iker Fernández Martínez",
+      "sci": "Tringa glareola"
+    },
+    "comcha": {
+      "id": "644503741",
+      "credit": "Amy Collins",
+      "sci": "Fringilla coelebs"
+    },
+    "grswoo": {
+      "id": "632441960",
+      "credit": "Jonathan Farooqi",
+      "sci": "Dendrocopos major"
+    },
+    "chifla1": {
+      "id": "658494155",
+      "credit": "Juan Carlos Carreño Rojas",
+      "sci": "Phoenicopterus chilensis"
+    },
+    "eurjac": {
+      "id": "641836211",
+      "credit": "SONER SABIRLI",
+      "sci": "Coloeus monedula"
+    },
+    "grewhi1": {
+      "id": "636951727",
+      "credit": "Arto Keskinen",
+      "sci": "Curruca communis"
+    },
+    "bklkit": {
+      "id": "627387900",
+      "credit": "Allen Schenck",
+      "sci": "Rissa tridactyla"
+    },
+    "ettwoo1": {
+      "id": "625690848",
+      "credit": "Marco Wanke",
+      "sci": "Picoides tridactylus"
+    },
+    "grrwar1": {
+      "id": "639823102",
+      "credit": "Massimo Marcone",
+      "sci": "Acrocephalus arundinaceus"
+    },
+    "sooshe": {
+      "id": "582060371",
+      "credit": "Kyle Matera",
+      "sci": "Ardenna grisea"
+    },
+    "spored": {
+      "id": "205208861",
+      "credit": "Prof.Dr. Ahmet Karatash",
+      "sci": "Tringa erythropus"
+    },
+    "eurjay1": {
+      "id": "650971337",
+      "credit": "Florian Dietrich",
+      "sci": "Garrulus glandarius"
+    },
+    "comeid": {
+      "id": "641463303",
+      "credit": "Jerry Horak",
+      "sci": "Somateria mollissima"
+    },
+    "lotduc": {
+      "id": "652609219",
+      "credit": "Edward Muennich",
+      "sci": "Clangula hyemalis"
+    },
+    "norful": {
+      "id": "651479120",
+      "credit": "Marshall Iliff",
+      "sci": "Fulmarus glacialis"
+    },
+    "comloo": {
+      "id": "655731998",
+      "credit": "Chris Van Norman",
+      "sci": "Gavia immer"
+    },
+    "comkin1": {
+      "id": "648093123",
+      "credit": "Eric Bischoff",
+      "sci": "Alcedo atthis"
+    },
+    "eurmag1": {
+      "id": "300189371",
+      "credit": "Sergey Buben",
+      "sci": "Pica pica"
+    },
+    "eursis": {
+      "id": "616820711",
+      "credit": "Sergey Krasnoperov",
+      "sci": "Spinus spinus"
+    },
+    "lotjae": {
+      "id": "618806337",
+      "credit": "Per Smith",
+      "sci": "Stercorarius longicaudus"
+    },
+    "skylar": {
+      "id": "553369091",
+      "credit": "Kan Tojima",
+      "sci": "Alauda arvensis"
+    },
+    "cogwar1": {
+      "id": "588211941",
+      "credit": "Ergün Cengiz",
+      "sci": "Locustella naevia"
+    },
+    "eutspa": {
+      "id": "645213786",
+      "credit": "Toni Pons",
+      "sci": "Passer montanus"
+    },
+    "eurcrm1": {
+      "id": "205846291",
+      "credit": "Imran Shah",
+      "sci": "Ptyonoprogne rupestris"
+    },
+    "rocpig": {
+      "id": "633383825",
+      "credit": "David Howdon",
+      "sci": "Columba livia"
+    },
+    "redcro": {
+      "id": "618712167",
+      "credit": "Harshil Mehta",
+      "sci": "Loxia curvirostra"
+    },
+    "osprey": {
+      "id": "635149155",
+      "credit": "cicely lorraine",
+      "sci": "Pandion haliaetus"
+    },
+    "wlwwar": {
+      "id": "624211839",
+      "credit": "Anand Birdlife",
+      "sci": "Phylloscopus trochilus"
+    },
+    "lirplo": {
+      "id": "572084341",
+      "credit": "Umer Farooq | World and the Wild Team",
+      "sci": "Thinornis dubius"
+    },
+    "comter": {
+      "id": "657876974",
+      "credit": "Mahendra Hegde",
+      "sci": "Sterna hirundo"
+    },
+    "comsan": {
+      "id": "622643922",
+      "credit": "Sujith Ravindran",
+      "sci": "Actitis hypoleucos"
+    },
+    "shttre1": {
+      "id": "644403350",
+      "credit": "Antoine COULONDRE",
+      "sci": "Certhia brachydactyla"
+    },
+    "garwar1": {
+      "id": "643590931",
+      "credit": "R Miller",
+      "sci": "Sylvia borin"
+    },
+    "comred2": {
+      "id": "558599911",
+      "credit": "Rui Pereira | Portugal Birding",
+      "sci": "Phoenicurus phoenicurus"
+    },
+    "grywag": {
+      "id": "643391031",
+      "credit": "Nikola Zabunov",
+      "sci": "Motacilla cinerea"
+    },
+    "yebwar3": {
+      "id": "300125291",
+      "credit": "Durankulak ringingcamp",
+      "sci": "Phylloscopus inornatus"
+    },
+    "yehpar": {
+      "id": "516051701",
+      "credit": "David Pereksta",
+      "sci": "Amazona oratrix"
+    },
+    "ictwar1": {
+      "id": "623700847",
+      "credit": "Jon Sola",
+      "sci": "Hippolais icterina"
+    },
+    "eurbul": {
+      "id": "557711601",
+      "credit": "Jana Václavíková",
+      "sci": "Pyrrhula pyrrhula"
+    },
+    "eurser1": {
+      "id": "300606121",
+      "credit": "Agostinho Oliveira",
+      "sci": "Serinus serinus"
+    },
+    "yellow2": {
+      "id": "713639",
+      "credit": "Nathalie SANTA MARIA",
+      "sci": "Emberiza citrinella"
+    },
+    "eugplo": {
+      "id": "639991251",
+      "credit": "Ken Wright",
+      "sci": "Pluvialis apricaria"
+    },
+    "corbun1": {
+      "id": "590422481",
+      "credit": "Simone Stefanetti",
+      "sci": "Emberiza calandra"
+    },
+    "gragoo": {
+      "id": "639519392",
+      "credit": "Craig Rasmussen",
+      "sci": "Anser anser"
+    },
+    "graher1": {
+      "id": "658957465",
+      "credit": "Mary Alice HAYWARD",
+      "sci": "Ardea cinerea"
+    },
+    "spofly1": {
+      "id": "496208341",
+      "credit": "Bob Bowers",
+      "sci": "Muscicapa striata"
+    },
+    "gyfwoo1": {
+      "id": "651783685",
+      "credit": "Anonymous",
+      "sci": "Picus canus"
+    },
+    "grebus1": {
+      "id": "581010271",
+      "credit": "Sergey Buben",
+      "sci": "Otis tarda"
+    },
+    "blkgui": {
+      "id": "26623671",
+      "credit": "Tasha Dimarzio",
+      "sci": "Cepphus grylle"
+    },
+    "eurgre1": {
+      "id": "651325449",
+      "credit": "Simon Harvey",
+      "sci": "Chloris chloris"
+    },
+    "grewar3": {
+      "id": "44704121",
+      "credit": "Rhys Marsh",
+      "sci": "Phylloscopus trochiloides"
+    },
+    "comgre": {
+      "id": "640659959",
+      "credit": "Joseph Walston",
+      "sci": "Tringa nebularia"
+    },
+    "eugwoo2": {
+      "id": "300827481",
+      "credit": "Василий Калиниченко",
+      "sci": "Picus viridis"
+    },
+    "commer": {
+      "id": "658318050",
+      "credit": "Michelle Kienholz",
+      "sci": "Mergus merganser"
+    },
+    "norgos1": {
+      "id": "652397822",
+      "credit": "Éric Francois Roualet",
+      "sci": "Astur gentilis"
+    },
+    "uraowl1": {
+      "id": "234190461",
+      "credit": "Holger Teichmann",
+      "sci": "Strix uralensis"
+    },
+    "colfly1": {
+      "id": "45365481",
+      "credit": "gab zeke",
+      "sci": "Ficedula albicollis"
+    },
+    "rorpar": {
+      "id": "204527881",
+      "credit": "Theodosis Mamais",
+      "sci": "Psittacula krameri"
+    },
+    "hazgro1": {
+      "id": "610038269",
+      "credit": "Ana Rivas",
+      "sci": "Tetrastes bonasia"
+    },
+    "crelar1": {
+      "id": "621176390",
+      "credit": "Biel Montoro Falcó",
+      "sci": "Galerida cristata"
+    },
+    "cretit2": {
+      "id": "645884897",
+      "credit": "Yevheniia Stentsel",
+      "sci": "Lophophanes cristatus"
+    },
+    "grcgre1": {
+      "id": "641816238",
+      "credit": "צבי שוורצפוקס",
+      "sci": "Podiceps cristatus"
+    },
+    "blared1": {
+      "id": "620310064",
+      "credit": "Levent Uysal",
+      "sci": "Phoenicurus ochruros"
+    },
+    "houspa": {
+      "id": "640702017",
+      "credit": "Christopher Bock",
+      "sci": "Passer domesticus"
+    },
+    "dunnoc1": {
+      "id": "652301797",
+      "credit": "Luca Grispoldi",
+      "sci": "Prunella modularis"
+    },
+    "woolar1": {
+      "id": "108392971",
+      "credit": "Volker Hesse",
+      "sci": "Lullula arborea"
+    },
+    "lbbgul": {
+      "id": "652554961",
+      "credit": "Jan Kool",
+      "sci": "Larus fuscus"
+    },
+    "stodov1": {
+      "id": "627180374",
+      "credit": "Marco D'Errico",
+      "sci": "Columba oenas"
+    },
+    "mutswa": {
+      "id": "635469985",
+      "credit": "Mason Bye",
+      "sci": "Cygnus olor"
+    },
+    "rinphe1": {
+      "id": "651691447",
+      "credit": "Alan Bird",
+      "sci": "Phasianus colchicus"
+    },
+    "ruff": {
+      "id": "123635101",
+      "credit": "Bhaarat Vyas",
+      "sci": "Calidris pugnax"
+    },
+    "cangoo": {
+      "id": "624564813",
+      "credit": "Melanie Barnett",
+      "sci": "Branta canadensis"
+    },
+    "comros": {
+      "id": "202937021",
+      "credit": "Mike Prince",
+      "sci": "Carpodacus erythrinus"
+    },
+    "hawfin": {
+      "id": "637893678",
+      "credit": "Francisco Javier Calvo lesmes",
+      "sci": "Coccothraustes coccothraustes"
+    },
+    "norlap": {
+      "id": "649684181",
+      "credit": "Sylvain Reyt",
+      "sci": "Vanellus vanellus"
+    },
+    "bkbplo": {
+      "id": "205040891",
+      "credit": "Josep del Hoyo",
+      "sci": "Pluvialis squatarola"
+    },
+    "leswhi4": {
+      "id": "212053331",
+      "credit": "Ivan Sjögren",
+      "sci": "Curruca curruca"
+    },
+    "eurnut2": {
+      "id": "651198359",
+      "credit": "현진 이",
+      "sci": "Sitta europaea"
+    },
+    "leswoo1": {
+      "id": "610016259",
+      "credit": "David Campbell",
+      "sci": "Dryobates minor"
+    },
+    "litcra1": {
+      "id": "64286061",
+      "credit": "Christoph Moning",
+      "sci": "Zapornia parva"
+    },
+    "redkno": {
+      "id": "105699551",
+      "credit": "Dobrin Botev",
+      "sci": "Calidris canutus"
+    },
+    "gargan": {
+      "id": "641715253",
+      "credit": "Muhummed H",
+      "sci": "Spatula querquedula"
+    },
+    "gretit1": {
+      "id": "642837675",
+      "credit": "Amanda Damin",
+      "sci": "Parus major"
+    },
+    "recpoc": {
+      "id": "196891681",
+      "credit": "Alejandro Garcia",
+      "sci": "Netta rufina"
+    },
+    "comrav": {
+      "id": "150069311",
+      "credit": "Chris Wood",
+      "sci": "Corvus corax"
+    },
+    "grecor": {
+      "id": "652519490",
+      "credit": "Hajime Koga",
+      "sci": "Phalacrocorax carbo"
+    },
+    "norhar1": {
+      "id": "651945071",
+      "credit": "frostioe Chen",
+      "sci": "Circus cyaneus"
+    },
+    "comcra": {
+      "id": "638072011",
+      "credit": "Jan de Groot",
+      "sci": "Grus grus"
+    },
+    "gnwtea": {
+      "id": "290604061",
+      "credit": "Ismael Khalifa",
+      "sci": "Anas crecca"
+    },
+    "comcuc": {
+      "id": "657300719",
+      "credit": "Radoslaw Gwozdz",
+      "sci": "Cuculus canorus"
+    },
+    "pifgoo": {
+      "id": "649623672",
+      "credit": "David Provencher",
+      "sci": "Anser brachyrhynchus"
+    },
+    "arcter": {
+      "id": "659496633",
+      "credit": "George Mohl",
+      "sci": "Sterna paradisaea"
+    },
+    "bkhgul": {
+      "id": "621019755",
+      "credit": "Dan Json",
+      "sci": "Chroicocephalus ridibundus"
+    },
+    "gubter2": {
+      "id": "626523454",
+      "credit": "Ian Melbourne",
+      "sci": "Gelochelidon nilotica"
+    },
+    "norsho": {
+      "id": "651550624",
+      "credit": "Uri Wolkowski",
+      "sci": "Spatula clypeata"
+    },
+    "eurspo1": {
+      "id": "708548",
+      "credit": "Ciro De Simone",
+      "sci": "Platalea leucorodia"
+    },
+    "manduc": {
+      "id": "554215211",
+      "credit": "David Kuster",
+      "sci": "Aix galericulata"
+    },
+    "gbbgul": {
+      "id": "191410081",
+      "credit": "C Douglas",
+      "sci": "Larus marinus"
+    },
+    "wallcr1": {
+      "id": "712018",
+      "credit": "Tom Martin",
+      "sci": "Tichodroma muraria"
+    },
+    "comswi": {
+      "id": "300081921",
+      "credit": "Rodney Baker",
+      "sci": "Apus apus"
+    },
+    "pursan": {
+      "id": "285293751",
+      "credit": "Ryan Schain",
+      "sci": "Calidris maritima"
+    },
+    "comhom1": {
+      "id": "712946",
+      "credit": "Zsuzsanna Guba",
+      "sci": "Delichon urbicum"
+    },
+    "merlin": {
+      "id": "526193211",
+      "credit": "Steve Hovey",
+      "sci": "Falco columbarius"
+    },
+    "misthr1": {
+      "id": "649150683",
+      "credit": "Giorgi Maisuradze",
+      "sci": "Turdus viscivorus"
+    },
+    "yelgul1": {
+      "id": "652405780",
+      "credit": "Keith Pritchard",
+      "sci": "Larus michahellis"
+    },
+    "miswoo1": {
+      "id": "386354561",
+      "credit": "constantin georgian",
+      "sci": "Dendrocoptes medius"
+    },
+    "rebmer": {
+      "id": "658337732",
+      "credit": "Jennifer Tonge",
+      "sci": "Mergus serrator"
+    },
+    "ferduc": {
+      "id": "614299993",
+      "credit": "Manish Kumar Chattopadhyay",
+      "sci": "Aythya nyroca"
+    },
+    "eurdot": {
+      "id": "43164261",
+      "credit": "Ian Davies",
+      "sci": "Eudromias morinellus"
+    },
+    "combuz1": {
+      "id": "648938513",
+      "credit": "Irmantas Šalaševičius",
+      "sci": "Buteo buteo"
+    },
+    "blackc1": {
+      "id": "647677734",
+      "credit": "Martins Dunajevs",
+      "sci": "Sylvia atricapilla"
+    },
+    "comnig1": {
+      "id": "204729881",
+      "credit": "Mikko Pyhälä",
+      "sci": "Luscinia megarhynchos"
+    },
+    "bcnher": {
+      "id": "649031712",
+      "credit": "Daniel Montoya (@danielmontoya155_)",
+      "sci": "Nycticorax nycticorax"
+    },
+    "eurnig1": {
+      "id": "644023709",
+      "credit": "Benjamin Rodling",
+      "sci": "Caprimulgus europaeus"
+    },
+    "grerhe1": {
+      "id": "371088741",
+      "credit": "Holger Schneider",
+      "sci": "Rhea americana"
+    },
+    "hoocro1": {
+      "id": "632060465",
+      "credit": "Peiying Deng",
+      "sci": "Corvus cornix"
+    },
+    "rebshr1": {
+      "id": "643587601",
+      "credit": "Paul Ha",
+      "sci": "Lanius collurio"
+    },
+    "egygoo": {
+      "id": "630960100",
+      "credit": "Janny Brunner 🦆🦅",
+      "sci": "Alopochen aegyptiaca"
+    },
+    "horlar": {
+      "id": "524363341",
+      "credit": "Michael Stubblefield",
+      "sci": "Eremophila alpestris"
+    },
+    "horgre": {
+      "id": "632114108",
+      "credit": "Laura and Bob Bengtson",
+      "sci": "Podiceps auritus"
+    },
+    "melwar1": {
+      "id": "205956301",
+      "credit": "Juan José Bazan Hiraldo",
+      "sci": "Hippolais polyglotta"
+    },
+    "ortbun1": {
+      "id": "620632731",
+      "credit": "Giuseppe Citino",
+      "sci": "Emberiza hortulana"
+    },
+    "atlpuf": {
+      "id": "632887820",
+      "credit": "Ricky Owen",
+      "sci": "Fratercula arctica"
+    },
+    "eurwig": {
+      "id": "629396274",
+      "credit": "Hüseyin Çiçek",
+      "sci": "Mareca penelope"
+    },
+    "batgod": {
+      "id": "655658521",
+      "credit": "Sean Jacques",
+      "sci": "Limosa lapponica"
+    },
+    "eugori2": {
+      "id": "638149099",
+      "credit": "Tom van Toorenburg",
+      "sci": "Oriolus oriolus"
+    },
+    "arcloo": {
+      "id": "507716041",
+      "credit": "דניאל ושני סלוצקי",
+      "sci": "Gavia arctica"
+    },
+    "purher1": {
+      "id": "629800817",
+      "credit": "Dr Sumit Chakrabarti",
+      "sci": "Ardea purpurea"
+    },
+    "carcro1": {
+      "id": "652837319",
+      "credit": "Aitor Zabala",
+      "sci": "Corvus corone"
+    },
+    "caster1": {
+      "id": "37358211",
+      "credit": "Andrew Allen",
+      "sci": "Hydroprogne caspia"
+    },
+    "norshr1": {
+      "id": "66108031",
+      "credit": "Christoph Moning",
+      "sci": "Lanius excubitor"
+    },
+    "barswa": {
+      "id": "524660011",
+      "credit": "Joost Foppes",
+      "sci": "Hirundo rustica"
+    },
+    "rolhaw": {
+      "id": "415979471",
+      "credit": "Connor Naughton",
+      "sci": "Buteo lagopus"
+    },
+    "borowl": {
+      "id": "40604721",
+      "credit": "Chris Neri",
+      "sci": "Aegolius funereus"
+    },
+    "grypar": {
+      "id": "204527171",
+      "credit": "Henrik Bringsøe",
+      "sci": "Perdix perdix"
+    },
+    "whimbr5": {
+      "id": "653600262",
+      "credit": "Flynte Trace",
+      "sci": "Numenius phaeopus"
+    },
+    "tufduc": {
+      "id": "48117761",
+      "credit": "Stephen Fettig",
+      "sci": "Aythya fuligula"
+    },
+    "rinouz1": {
+      "id": "204438961",
+      "credit": "Rafael Merchante",
+      "sci": "Turdus torquatus"
+    },
+    "brant": {
+      "id": "651580738",
+      "credit": "John Troth",
+      "sci": "Branta bernicla"
+    },
+    "cowpig1": {
+      "id": "615385294",
+      "credit": "Tom Turk",
+      "sci": "Columba palumbus"
+    },
+    "reebun": {
+      "id": "204671281",
+      "credit": "Rob Belterman",
+      "sci": "Emberiza schoeniclus"
+    },
+    "grebit1": {
+      "id": "654201513",
+      "credit": "Yakup Yener",
+      "sci": "Botaurus stellaris"
+    },
+    "savwar1": {
+      "id": "172916321",
+      "credit": "Manuel Segura Herrero",
+      "sci": "Locustella luscinioides"
+    },
+    "wemhar1": {
+      "id": "640865446",
+      "credit": "Rajko Podgornik",
+      "sci": "Circus aeruginosus"
+    },
+    "grefla3": {
+      "id": "200087991",
+      "credit": "Nikos Mavris",
+      "sci": "Phoenicopterus roseus"
+    },
+    "rudshe": {
+      "id": "645123277",
+      "credit": "Aaron Long",
+      "sci": "Tadorna ferruginea"
+    },
+    "redwin": {
+      "id": "650951766",
+      "credit": "Martin Rheinheimer",
+      "sci": "Turdus iliacus"
+    },
+    "rebgoo1": {
+      "id": "63726401",
+      "credit": "Christoph Moning",
+      "sci": "Branta ruficollis"
+    },
+    "rengre": {
+      "id": "652303337",
+      "credit": "Martin Stelbrink",
+      "sci": "Podiceps grisegena"
+    },
+    "eurrob1": {
+      "id": "417785421",
+      "credit": "Kike Junco",
+      "sci": "Erithacus rubecula"
+    },
+    "redkit1": {
+      "id": "645747895",
+      "credit": "Enric Pàmies",
+      "sci": "Milvus milvus"
+    },
+    "comred1": {
+      "id": "629852389",
+      "credit": "Slava Krylov",
+      "sci": "Tringa totanus"
+    },
+    "rintea1": {
+      "id": "645884722",
+      "credit": "João Ferreira da Silva",
+      "sci": "Callonetta leucophrys"
+    },
+    "rook1": {
+      "id": "641792189",
+      "credit": "Sarah Foote",
+      "sci": "Corvus frugilegus"
+    },
+    "whwsco3": {
+      "id": "629695179",
+      "credit": "Thomas Jungbauer",
+      "sci": "Melanitta fusca"
+    },
+    "sander": {
+      "id": "639671737",
+      "credit": "Joshua Wendle",
+      "sci": "Calidris alba"
+    },
+    "corplo": {
+      "id": "204207651",
+      "credit": "Lorenzo Vinciguerra",
+      "sci": "Charadrius hiaticula"
+    },
+    "eaywag1": {
+      "id": "63967521",
+      "credit": "Christoph Moning",
+      "sci": "Motacilla flava"
+    },
+    "comgol": {
+      "id": "653158749",
+      "credit": "Ashley Dulaney",
+      "sci": "Bucephala clangula"
+    },
+    "sedwar1": {
+      "id": "635878603",
+      "credit": "Gabriela Kretosz",
+      "sci": "Acrocephalus schoenobaenus"
+    },
+    "eurwar2": {
+      "id": "255296051",
+      "credit": "Bassel Abi Jummaa",
+      "sci": "Locustella fluviatilis"
+    },
+    "webowl1": {
+      "id": "647241603",
+      "credit": "João Esteves",
+      "sci": "Tyto alba"
+    },
+    "parjae": {
+      "id": "400725151",
+      "credit": "Caitlin Chock",
+      "sci": "Stercorarius parasiticus"
+    },
+    "gadwal": {
+      "id": "619286100",
+      "credit": "Joshua van der Meulen",
+      "sci": "Mareca strepera"
+    },
+    "snobun": {
+      "id": "509690251",
+      "credit": "Garrett Lau",
+      "sci": "Plectrophenax nivalis"
+    },
+    "snogoo": {
+      "id": "125096491",
+      "credit": "Linda Greble 🦜",
+      "sci": "Anser caerulescens"
+    },
+    "whwsno1": {
+      "id": "106252441",
+      "credit": "Pavel Parkhaev",
+      "sci": "Montifringilla nivalis"
+    },
+    "leseag1": {
+      "id": "35864181",
+      "credit": "Ferit Başbuğ",
+      "sci": "Clanga pomarina"
+    },
+    "lottit1": {
+      "id": "544578401",
+      "credit": "Özgür Ekincioğlu",
+      "sci": "Aegithalos caudatus"
+    },
+    "eargre": {
+      "id": "642637462",
+      "credit": "Joshua Smolders",
+      "sci": "Podiceps nigricollis"
+    },
+    "stonec4": {
+      "id": "653221545",
+      "credit": "Kike Junco",
+      "sci": "Saxicola rubicola"
+    },
+    "medgul1": {
+      "id": "646306017",
+      "credit": "Eduardo Blanco Vega",
+      "sci": "Ichthyaetus melanocephalus"
+    },
+    "blakit1": {
+      "id": "611082982",
+      "credit": "Andy Lee",
+      "sci": "Milvus migrans"
+    },
+    "blkswa": {
+      "id": "317858761",
+      "credit": "Cynthia Case",
+      "sci": "Cygnus atratus"
+    },
+    "blawoo1": {
+      "id": "402246521",
+      "credit": "Tora Benzeyen",
+      "sci": "Dryocopus martius"
+    },
+    "blasto1": {
+      "id": "651494098",
+      "credit": "Oliver Cottis",
+      "sci": "Ciconia nigra"
+    },
+    "whteag": {
+      "id": "621102389",
+      "credit": "Uriel Levy",
+      "sci": "Haliaeetus albicilla"
+    },
+    "kenplo1": {
+      "id": "626242257",
+      "credit": "Matthieu Chotard",
+      "sci": "Anarhynchus alexandrinus"
+    },
+    "aquwar1": {
+      "id": "644023227",
+      "credit": "Szymon Beuch",
+      "sci": "Acrocephalus paludicola"
+    },
+    "bohwax": {
+      "id": "647005137",
+      "credit": "Darshana Perera",
+      "sci": "Bombycilla garrulus"
+    },
+    "cetwar1": {
+      "id": "633854327",
+      "credit": "Mehmet Altunbas",
+      "sci": "Cettia cetti"
+    },
+    "cursan": {
+      "id": "642060211",
+      "credit": "Manuel Angel Agulla Núñez",
+      "sci": "Calidris ferruginea"
+    },
+    "euhgul1": {
+      "id": "23640781",
+      "credit": "Samuel Belleau",
+      "sci": "Larus argentatus"
+    },
+    "greegr": {
+      "id": "646654040",
+      "credit": "Scott Templeton",
+      "sci": "Ardea alba"
+    },
+    "sonthr1": {
+      "id": "710239",
+      "credit": "Stanislav Harvančík",
+      "sci": "Turdus philomelos"
+    },
+    "whoswa": {
+      "id": "611907205",
+      "credit": "Irmantas Šalaševičius",
+      "sci": "Cygnus cygnus"
+    },
+    "gresku1": {
+      "id": "651139221",
+      "credit": "T. Jay Adams",
+      "sci": "Stercorarius skua"
+    },
+    "firecr1": {
+      "id": "615053125",
+      "credit": "Xavi Andrés-Loire",
+      "sci": "Regulus ignicapilla"
+    },
+    "pomjae": {
+      "id": "144464301",
+      "credit": "Noel Hohenthal",
+      "sci": "Stercorarius pomarinus"
+    },
+    "eurspa1": {
+      "id": "611461872",
+      "credit": "Colin Dillingham",
+      "sci": "Accipiter nisus"
+    },
+    "barwar1": {
+      "id": "658701624",
+      "credit": "Mantas Miliauskas",
+      "sci": "Curruca nisoria"
+    },
+    "eupowl1": {
+      "id": "630794825",
+      "credit": "Andrej Tabak",
+      "sci": "Glaucidium passerinum"
+    },
+    "norpin": {
+      "id": "108660111",
+      "credit": "Trevor Sleight",
+      "sci": "Anas acuta"
+    },
+    "laplon": {
+      "id": "413819801",
+      "credit": "Ryan Sanderson",
+      "sci": "Calcarius lapponicus"
+    },
+    "thrnig1": {
+      "id": "617867501",
+      "credit": "הלל נחמן",
+      "sci": "Luscinia luscinia"
+    },
+    "eursta": {
+      "id": "621153328",
+      "credit": "Michael Yellin",
+      "sci": "Sturnus vulgaris"
+    },
+    "goleag": {
+      "id": "649331011",
+      "credit": "Choi Jinyoung",
+      "sci": "Aquila chrysaetos"
+    },
+    "rocpar2": {
+      "id": "204071231",
+      "credit": "Jonathan Slifkin",
+      "sci": "Alectoris graeca"
+    },
+    "litowl1": {
+      "id": "591960271",
+      "credit": "Ana Amaral",
+      "sci": "Athene noctua"
+    },
+    "rtrthr1": {
+      "id": "426200031",
+      "credit": "Craig Rasmussen",
+      "sci": "Monticola saxatilis"
+    },
+    "norwhe": {
+      "id": "651672743",
+      "credit": "Pedro Ribeiro",
+      "sci": "Oenanthe oenanthe"
+    },
+    "rudtur": {
+      "id": "653641371",
+      "credit": "Niek Aarts",
+      "sci": "Arenaria interpres"
+    },
+    "bkwsti": {
+      "id": "705481",
+      "credit": "Kun Chin Chung",
+      "sci": "Himantopus himantopus"
+    },
+    "casgul2": {
+      "id": "613563590",
+      "credit": "HARUN RESIT UNEY",
+      "sci": "Larus cachinnans"
+    },
+    "retloo": {
+      "id": "392203141",
+      "credit": "Jay McGowan",
+      "sci": "Gavia stellata"
+    },
+    "eurgol": {
+      "id": "623880749",
+      "credit": "Joan Ramon Santasusana Gallardo",
+      "sci": "Carduelis carduelis"
+    },
+    "mallar3": {
+      "id": "658103180",
+      "credit": "Akinori Miura",
+      "sci": "Anas platyrhynchos"
+    },
+    "rocpip1": {
+      "id": "614950666",
+      "credit": "Zongzhuang Liu",
+      "sci": "Anthus petrosus"
+    },
+    "bahgoo": {
+      "id": "609444155",
+      "credit": "Souvik Roychoudhury",
+      "sci": "Anser indicus"
+    },
+    "mewgul": {
+      "id": "628100639",
+      "credit": "Brian Daniels",
+      "sci": "Larus canus"
+    },
+    "bripet": {
+      "id": "622965133",
+      "credit": "Jon Irvine",
+      "sci": "Hydrobates pelagicus"
+    },
+    "brbsan": {
+      "id": "625109001",
+      "credit": "Hayato Ishibashi",
+      "sci": "Calidris falcinellus"
+    },
+    "martit2": {
+      "id": "383891641",
+      "credit": "Anna Ivanova",
+      "sci": "Poecile palustris"
+    },
+    "sheowl": {
+      "id": "654895544",
+      "credit": "Antoni Ostoja-Lniski",
+      "sci": "Asio flammeus"
+    },
+    "marwar3": {
+      "id": "606606121",
+      "credit": "Valia Pavlou",
+      "sci": "Acrocephalus palustris"
+    },
+    "pieavo1": {
+      "id": "426254481",
+      "credit": "Anton Liebermann",
+      "sci": "Recurvirostra avosetta"
+    },
+    "compoc": {
+      "id": "651550603",
+      "credit": "Uri Wolkowski",
+      "sci": "Aythya ferina"
+    },
+    "eurnut3": {
+      "id": "364848821",
+      "credit": "Maryse Neukomm",
+      "sci": "Nucifraga caryocatactes"
+    },
+    "coatit2": {
+      "id": "630360016",
+      "credit": "Fran Kim",
+      "sci": "Periparus ater"
+    },
+    "commoo3": {
+      "id": "713009",
+      "credit": "Tom Martin",
+      "sci": "Gallinula chloropus"
+    },
+    "eurwar1": {
+      "id": "640003930",
+      "credit": "Richard Münscher",
+      "sci": "Acrocephalus scirpaceus"
+    },
+    "temsti": {
+      "id": "651614222",
+      "credit": "Mark Hogarth",
+      "sci": "Calidris temminckii"
+    },
+    "razorb": {
+      "id": "644646441",
+      "credit": "Stephen Taylor",
+      "sci": "Alca torda"
+    },
+    "blksco1": {
+      "id": "625577210",
+      "credit": "Fang-Shuo Hu",
+      "sci": "Melanitta nigra"
+    },
+    "eupfly1": {
+      "id": "608804514",
+      "credit": "Francisco Pires",
+      "sci": "Ficedula hypoleuca"
+    },
+    "blkter": {
+      "id": "634740974",
+      "credit": "Sam O'Donnell",
+      "sci": "Chlidonias niger"
+    },
+    "eutkne1": {
+      "id": "620210362",
+      "credit": "Can Karayel",
+      "sci": "Burhinus oedicnemus"
+    },
+    "commur": {
+      "id": "614627576",
+      "credit": "Nick Thorpe",
+      "sci": "Uria aalge"
+    },
+    "wiltur": {
+      "id": "649243662",
+      "credit": "Line Landreville",
+      "sci": "Meleagris gallopavo"
+    },
+    "tunbeg1": {
+      "id": "41964711",
+      "credit": "Doug Hitchcox",
+      "sci": "Anser serrirostris"
+    },
+    "eurkes": {
+      "id": "648436086",
+      "credit": "Coleta Holzhäuser",
+      "sci": "Falco tinnunculus"
+    },
+    "eutdov": {
+      "id": "711389",
+      "credit": "Tom Martin",
+      "sci": "Streptopelia turtur"
+    },
+    "spocra1": {
+      "id": "207300951",
+      "credit": "Harish Thangaraj",
+      "sci": "Porzana porzana"
+    },
+    "eucdov": {
+      "id": "642770133",
+      "credit": "Tom Lowe",
+      "sci": "Streptopelia decaocto"
+    },
+    "bktgod": {
+      "id": "635343595",
+      "credit": "Pauline and Ray Priest",
+      "sci": "Limosa limosa"
+    },
+    "banswa": {
+      "id": "46653421",
+      "credit": "Jeffrey Offermann",
+      "sci": "Riparia riparia"
+    },
+    "eueowl1": {
+      "id": "205967961",
+      "credit": "Lars Petersson | My World of Bird Photography",
+      "sci": "Bubo bubo"
+    },
+    "fieldf": {
+      "id": "622014608",
+      "credit": "Lars Petersson | My World of Bird Photography",
+      "sci": "Turdus pilaris"
+    },
+    "comqua1": {
+      "id": "100482121",
+      "credit": "Alaz Uslu",
+      "sci": "Coturnix coturnix"
+    },
+    "corcra": {
+      "id": "355863991",
+      "credit": "Markus Craig",
+      "sci": "Crex crex"
+    },
+    "eurtre1": {
+      "id": "640692907",
+      "credit": "Giota Bourneli",
+      "sci": "Certhia familiaris"
+    },
+    "tawowl1": {
+      "id": "204371941",
+      "credit": "Maurizio Ravasini",
+      "sci": "Strix aluco"
+    },
+    "woowar": {
+      "id": "204244021",
+      "credit": "Ivan Sjögren",
+      "sci": "Phylloscopus sibilatrix"
+    },
+    "loeowl": {
+      "id": "45715401",
+      "credit": "Matt Brady",
+      "sci": "Asio otus"
+    },
+    "taibeg1": {
+      "id": "397440121",
+      "credit": "Abhijeet Rasal",
+      "sci": "Anser fabalis"
+    },
+    "eurwoo": {
+      "id": "42407851",
+      "credit": "Ian Davies",
+      "sci": "Scolopax rusticola"
+    },
+    "grnsan": {
+      "id": "610016197",
+      "credit": "Juan Escudero",
+      "sci": "Tringa ochropus"
+    },
+    "perfal": {
+      "id": "192970611",
+      "credit": "Joan and/or George Sims",
+      "sci": "Falco peregrinus"
+    },
+    "whtdip1": {
+      "id": "204814001",
+      "credit": "Luis Mario Arce",
+      "sci": "Cinclus cinclus"
+    },
+    "watrai1": {
+      "id": "204433631",
+      "credit": "Stanislav Harvančík",
+      "sci": "Rallus aquaticus"
+    },
+    "wiltit1": {
+      "id": "641346068",
+      "credit": "Xenia Louverdi",
+      "sci": "Poecile montanus"
+    },
+    "whwter": {
+      "id": "628337484",
+      "credit": "Glenda Rees",
+      "sci": "Chlidonias leucopterus"
+    },
+    "whbwoo1": {
+      "id": "622093507",
+      "credit": "Sangyoon Lee",
+      "sci": "Dendrocopos leucotos"
+    },
+    "whisto1": {
+      "id": "639776434",
+      "credit": "Mark Thomson",
+      "sci": "Ciconia ciconia"
+    },
+    "bargoo": {
+      "id": "512180461",
+      "credit": "Sam Zhang",
+      "sci": "Branta leucopsis"
+    },
+    "lcspet": {
+      "id": "632263683",
+      "credit": "Richard Fuller",
+      "sci": "Hydrobates leucorhous"
+    },
+    "eurwry": {
+      "id": "657058902",
+      "credit": "Jina Yi",
+      "sci": "Jynx torquilla"
+    },
+    "euhbuz1": {
+      "id": "649658231",
+      "credit": "Abhijit Mishra",
+      "sci": "Pernis apivorus"
+    },
+    "hoopoe": {
+      "id": "653833309",
+      "credit": "Sylvain Reyt",
+      "sci": "Upupa epops"
+    },
+    "meapip1": {
+      "id": "498617041",
+      "credit": "Francesco Barberini",
+      "sci": "Anthus pratensis"
+    },
+    "monhar1": {
+      "id": "711425",
+      "credit": "Tom Martin",
+      "sci": "Circus pygargus"
+    },
+    "goldcr1": {
+      "id": "622161402",
+      "credit": "(Ai)Tao Liu",
+      "sci": "Regulus regulus"
+    },
+    "cirbun1": {
+      "id": "635745520",
+      "credit": "Ogün Aydin",
+      "sci": "Emberiza cirlus"
+    },
+    "winwre4": {
+      "id": "655642519",
+      "credit": "Kyle Shay",
+      "sci": "Troglodytes troglodytes"
+    },
+    "comchi1": {
+      "id": "626696318",
+      "credit": "Umut Özten",
+      "sci": "Phylloscopus collybita"
+    },
+    "rocbun1": {
+      "id": "112309651",
+      "credit": "Daniel Pettersson",
+      "sci": "Emberiza cia"
+    },
+    "citfin1": {
+      "id": "613181764",
+      "credit": "Carlos Nos",
+      "sci": "Carduelis citrinella"
+    },
+    "litbit1": {
+      "id": "144001051",
+      "credit": "Ri Nique",
+      "sci": "Botaurus minutus"
+    },
+    "lwfgoo": {
+      "id": "274924931",
+      "credit": "Holger Teichmann",
+      "sci": "Anser erythropus"
+    },
+    "litgul": {
+      "id": "656156810",
+      "credit": "Gordon Newman",
+      "sci": "Hydrocoloeus minutus"
+    },
+    "eursco1": {
+      "id": "338865131",
+      "credit": "Antonio Ceballos Barbancho",
+      "sci": "Otus scops"
+    },
+    "rebfly": {
+      "id": "140603461",
+      "credit": "Tom Johnson",
+      "sci": "Ficedula parva"
+    },
+    "tunswa": {
+      "id": "610433116",
+      "credit": "Jack Belleghem",
+      "sci": "Cygnus columbianus"
+    },
+    "litter1": {
+      "id": "463698491",
+      "credit": "Atsushi Shimazaki",
+      "sci": "Sternula albifrons"
+    },
+    "litsti": {
+      "id": "286302291",
+      "credit": "Bhaarat Vyas",
+      "sci": "Calidris minuta"
+    },
+    "baicra1": {
+      "id": "161401621",
+      "credit": "Andrew Dobson",
+      "sci": "Zapornia pusilla"
+    },
+    "smew": {
+      "id": "650831239",
+      "credit": "Olaf Sobota",
+      "sci": "Mergellus albellus"
+    },
+    "litgre1": {
+      "id": "660190566",
+      "credit": "Thomas Schmelzer",
+      "sci": "Tachybaptus ruficollis"
+    }
+  }
+}
