@@ -57,3 +57,7 @@ Run `node scripts/test-photo-cache.mjs` for network deduplication, decoded-objec
 ## UI/UX update
 
 See `docs/ui-ux-update-20261021.md` for the approved UX scope, storage compatibility and browser verification. Existing learning records are preserved; only new UI settings and a resumable lesson state are added.
+
+## German alternative and historical names
+
+`dist/german-names.json` adds a sourced editorial overlay without changing the eBird species dataset. Names are separated into current alternatives (including regional and traditional names) and historical attestations, with per-name source and usage notes. `dist/logic.js` includes these names in search; English and code answers retain their existing acceptance rules. Lookup and all answer reveals/feedback share the same centered-in-study display. See `docs/german-names-update-20261022.md` and run `node scripts/test-german-names.mjs`.

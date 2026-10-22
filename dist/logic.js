@@ -1,5 +1,5 @@
 export const normalize=s=>String(s??'').toLowerCase().replace(/ä/g,'a').replace(/ö/g,'o').replace(/ü/g,'u').replace(/ß/g,'ss').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
-export function matches(s,q){return q.trim().split(/\s+/).every(t=>[s.de,s.en,s.enGB,s.sci,...s.codes,...s.aliases.de,...s.aliases.en].some(v=>normalize(v).includes(normalize(t))||normalize(v).includes(normalize(t.replace(/ae/g,'ä').replace(/oe/g,'ö').replace(/ue/g,'ü')))));}
+export function matches(s,q){return q.trim().split(/\s+/).every(t=>[s.de,s.en,s.enGB,s.sci,...s.codes,...s.aliases.de,...(s.germanNames||[]).map(n=>n.name),...s.aliases.en].some(v=>normalize(v).includes(normalize(t))||normalize(v).includes(normalize(t.replace(/ae/g,'ä').replace(/oe/g,'ö').replace(/ue/g,'ü')))));}
 export function accepts(s,target,value){return (target==='code'?s.codes:[s.en,s.enGB,...s.aliases.en]).some(v=>normalize(v)===normalize(value));}
 export function review(old,correct,now=Date.now(),hint=false){let p={attempts:0,correct:0,streak:0,lapses:0,interval:0,...old};p.attempts++;p.correct+=+correct;p.last=now;p.lastWrong=!correct;p.streak=correct&&!hint?p.streak+1:0;p.lapses+=+!correct;p.interval=correct&&!hint?[1,3,7,14,30,60][Math.min(p.streak-1,5)]:0;p.due=now+(p.interval? p.interval*86400000:600000);return p;}
 export const mastered=p=>!!p&&p.streak>=3;

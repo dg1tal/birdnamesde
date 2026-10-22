@@ -1,0 +1,868 @@
+{
+  "songbirds": {
+    "reviewed": "2026-10-22",
+    "method": "Current primary conservation/natural-history pages inspected with web search. Classification distinguishes explicitly historical wording from currently documented alternatives. Old age alone does not prove extinct usage.",
+    "species": [
+      {
+        "de": "Stieglitz",
+        "sci": "Carduelis carduelis",
+        "names": [
+          {
+            "name": "Distelfink",
+            "status": "alternative",
+            "note": "Heute gebräuchlicher Zweitname."
+          },
+          {
+            "name": "Augsburger Nachtwächter",
+            "status": "historical",
+            "note": "Historische volkstümliche Bezeichnung; Quelle verwendet ausdrücklich früher."
+          }
+        ],
+        "source": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/stieglitz-oder-distelfink/",
+        "basis": "Aktuelles LBV-Artenporträt unterscheidet häufig verwendeten Distelfink und frühere Bezeichnung Augsburger Nachtwächter."
+      },
+      {
+        "de": "Gimpel",
+        "sci": "Pyrrhula pyrrhula",
+        "names": [
+          {
+            "name": "Dompfaff",
+            "status": "alternative",
+            "note": "Gebräuchlicher volkstümlicher Zweitname."
+          },
+          {
+            "name": "Blutfink",
+            "status": "alternative",
+            "note": "Volkstümliche Bezeichnung, im aktuellen LBV-Porträt dokumentiert."
+          }
+        ],
+        "source": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/gimpel-oder-dompfaff/",
+        "basis": "LBV nennt beide Namen ohne Kennzeichnung als veraltet; Dompfaff steht im Titel."
+      },
+      {
+        "de": "Kleiber",
+        "sci": "Sitta europaea",
+        "names": [
+          {
+            "name": "Spechtmeise",
+            "status": "alternative",
+            "note": "Traditioneller volkstümlicher Name; wird laut aktueller Quelle weiterhin verwendet."
+          }
+        ],
+        "source": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/kleiber/",
+        "basis": "LBV sagt ausdrücklich, dass er oft auch Spechtmeise genannt wird. Daher keine Behauptung, dass der Name nicht mehr verwendet wird."
+      },
+      {
+        "de": "Kernbeißer",
+        "sci": "Coccothraustes coccothraustes",
+        "names": [
+          {
+            "name": "Kirschkernbeißer",
+            "status": "alternative",
+            "note": "Gebräuchlicher volkstümlicher Zweitname."
+          },
+          {
+            "name": "Kirschfink",
+            "status": "alternative",
+            "note": "Volkstümlicher Name."
+          },
+          {
+            "name": "Finkenkönig",
+            "status": "historical",
+            "note": "Ältere volkstümliche Bezeichnung; Quelle formuliert wurde ... genannt."
+          }
+        ],
+        "source": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/kernbeisser/",
+        "basis": "Aktuelle LBV-Seite nennt Kirschkernbeißer und Kirschfink in Präsens; Finkenkönig unter Charakteristisches Verhalten in Vergangenheit."
+      },
+      {
+        "de": "Schwanzmeise",
+        "sci": "Aegithalos caudatus",
+        "names": [
+          {
+            "name": "Pfannenstiel",
+            "status": "alternative",
+            "note": "Volkstümliche Bezeichnung."
+          }
+        ],
+        "source": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/schwanzmeise/",
+        "basis": "Aktuelles LBV-Artenporträt unter Volkstümliche Namen."
+      },
+      {
+        "de": "Bergfink",
+        "sci": "Fringilla montifringilla",
+        "names": [
+          {
+            "name": "Quecker",
+            "status": "alternative",
+            "note": "Lautmalerischer volkstümlicher Name."
+          },
+          {
+            "name": "Gegler",
+            "status": "alternative",
+            "region": "Bayern",
+            "note": "Bayerische lautmalerische Bezeichnung."
+          }
+        ],
+        "source": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/bergfink/",
+        "basis": "LBV dokumentiert beide Namen ausdrücklich, Gegler regional Bayern.",
+        "additionalSources": [
+          {
+            "source": "https://www.nabu-mg.de/vogelwelt/bergfink/",
+            "name": "Quäker",
+            "status": "alternative",
+            "basis": "Aktuelle NABU-Ortsgruppenseite benennt ausdrücklich volkstümlichen Namen Quäker."
+          }
+        ]
+      },
+      {
+        "de": "Haussperling",
+        "sci": "Passer domesticus",
+        "names": [
+          {
+            "name": "Spatz",
+            "status": "alternative",
+            "note": "Übliche umgangssprachliche Bezeichnung für den Haussperling; kann allgemein auch andere Sperlinge meinen.",
+            "ambiguous": true
+          }
+        ],
+        "source": "https://www.nabu.de/news/2017/06/22528.html",
+        "basis": "NABU-Artikel Spatz bleibt häufigster Gartenvogel identifiziert die Art ausdrücklich als Haussperling. Nicht als taxonomisch eindeutigen Namen behandeln."
+      },
+      {
+        "de": "Grünfink",
+        "sci": "Chloris chloris",
+        "names": [
+          {
+            "name": "Grünling",
+            "status": "alternative",
+            "note": "Häufiges Synonym; außerhalb dieses Zusammenhangs mehrdeutig.",
+            "ambiguous": true
+          },
+          {
+            "name": "Zwuntsch",
+            "status": "historical",
+            "note": "Von der Quelle ausdrücklich als alter Name beschrieben."
+          },
+          {
+            "name": "Schwunsch",
+            "status": "historical",
+            "note": "Von der Quelle ausdrücklich als alter Name beschrieben."
+          }
+        ],
+        "source": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/gruenfink/",
+        "basis": "LBV kennzeichnet Zwuntsch/Schwunsch als alte Namen und Grünling als häufiges Synonym. Grünling wird laut separatem LBV-Grünspechtporträt auch selten für Grünspecht verwendet; Alias ist deshalb ornithologisch nicht vollkommen eindeutig."
+      },
+      {
+        "de": "Amsel",
+        "sci": "Turdus merula",
+        "names": [
+          {
+            "name": "Schwarzdrossel",
+            "status": "alternative",
+            "note": "Älterer, weiterhin verwendeter Zweitname."
+          }
+        ],
+        "source": "https://www.lbv-muenchen.de/tiere-pflanzen/voegel/details/amsel/",
+        "basis": "Aktuelles LBV-München-Porträt führt Amsel und Schwarzdrossel gleich unter Name. Älter heißt hier nicht ungebräuchlich."
+      },
+      {
+        "de": "Zaunkönig",
+        "sci": "Troglodytes troglodytes",
+        "names": [
+          {
+            "name": "Schneekönig",
+            "status": "alternative",
+            "note": "Volkstümlicher Zweitname."
+          }
+        ],
+        "source": "https://www.lbv-muenchen.de/tiere-pflanzen/voegel/details/zaunkoenig/",
+        "basis": "Aktuelles LBV-München-Porträt führt beide Namen mit wissenschaftlichem Taxon.",
+        "additionalSources": [
+          {
+            "source": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/zaunkoenig/",
+            "name": "Zaunschlüpfer",
+            "status": "alternative",
+            "note": "Regionale Bezeichnung; Quelle nennt keine einzelne Region.",
+            "basis": "LBV beschreibt ausdrücklich regionale Bezeichnungen Zaunschlüpfer und Mäusekönig; Zaunschlüpfer ist weniger missverständlich."
+          }
+        ]
+      },
+      {
+        "de": "Pirol",
+        "sci": "Oriolus oriolus",
+        "names": [
+          {
+            "name": "Goldamsel",
+            "status": "alternative",
+            "note": "Volkstümlicher Name."
+          },
+          {
+            "name": "Pfingstvogel",
+            "status": "alternative",
+            "note": "Volkstümlicher Name."
+          },
+          {
+            "name": "Vogel Bülow",
+            "status": "alternative",
+            "note": "Volkstümlicher Name."
+          }
+        ],
+        "source": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/pirol/",
+        "basis": "LBV nennt die Namen als gegenwärtig bekannte volkstümliche Bezeichnungen; nicht als nur historische Namen einstufen."
+      },
+      {
+        "de": "Schneesperling",
+        "sci": "Montifringilla nivalis",
+        "names": [
+          {
+            "name": "Schneefink",
+            "status": "alternative",
+            "note": "Ältere Bezeichnung, umgangssprachlich weiterhin verwendet; ornithologischer Hauptname ist Schneesperling."
+          }
+        ],
+        "source": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/schneesperling/",
+        "basis": "LBV unterscheidet ausdrücklich heutige Umgangssprache Schneefink und neuere ornithologische Bezeichnung Schneesperling."
+      },
+      {
+        "de": "Wacholderdrossel",
+        "sci": "Turdus pilaris",
+        "names": [
+          {
+            "name": "Krammetsvogel",
+            "status": "alternative",
+            "note": "Traditioneller, umgangssprachlich weiterhin dokumentierter Name."
+          }
+        ],
+        "source": "https://www.lwf.bayern.de/biodiversitaet/biologische-vielfalt/068729/index.php",
+        "basis": "Bayerische Landesanstalt für Wald und Forstwirtschaft formuliert umgangssprachlich ... bezeichnet. Naturkundemuseum bezeichnet ihn dagegen als früheren Namen; deshalb nicht pauschal als ausgestorben erklären."
+      },
+      {
+        "de": "Rotkehlchen",
+        "sci": "Erithacus rubecula",
+        "names": [
+          {
+            "name": "Rotkröpferl",
+            "status": "alternative",
+            "note": "Volkstümliche Bezeichnung."
+          },
+          {
+            "name": "Rotbrüstle",
+            "status": "alternative",
+            "note": "Volkstümliche Bezeichnung."
+          },
+          {
+            "name": "Rötele",
+            "status": "historical",
+            "region": "alemannischer Sprachraum",
+            "note": "Von der Quelle als altes alemannisches Wort beschrieben."
+          }
+        ],
+        "source": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/rotkehlchen/",
+        "basis": "LBV unterscheidet altes alemannisches Rötele und weitere volkstümliche Bezeichnungen."
+      }
+    ]
+  },
+  "other": {
+    "reviewed": "2026-10-22",
+    "scope": "Verified nonpasserine German alternatives; source text paraphrased. Current alternative means explicitly presented by a contemporary bird organization, museum or dictionary; does not claim nationwide high frequency.",
+    "entries": [
+      {
+        "de": "Graureiher",
+        "sci": "Ardea cinerea",
+        "names": [
+          {
+            "name": "Fischreiher",
+            "status": "alternative",
+            "usage": "älterer Name; umgangssprachlich weiterhin gebräuchlich",
+            "basis": "LBV presents Fischreiher under folk names as still known in many places; DJV explains the shift from the former fish-pest framing to Graureiher. Not globally obsolete.",
+            "sources": [
+              {
+                "title": "LBV: Graureiher",
+                "url": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/graureiher/"
+              },
+              {
+                "title": "Deutscher Jagdverband: Graureiher",
+                "url": "https://www.jagdverband.de/graureiher-ardea-cinerea"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Turmfalke",
+        "sci": "Falco tinnunculus",
+        "names": [
+          {
+            "name": "Rüttelfalke",
+            "status": "alternative",
+            "usage": "volkstümlich",
+            "basis": "LBV explicitly explains the name using the hovering flight of this species. Duden uses Rüttelfalke more broadly for a hovering falcon, so do not treat the term as universally species-exclusive.",
+            "sources": [
+              {
+                "title": "LBV: Turmfalke",
+                "url": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/turmfalke/"
+              },
+              {
+                "title": "NABU Rinteln: Informationen über Turmfalken",
+                "url": "https://www.nabu-rinteln.de/artenschutzprojekte/greifv%C3%B6gel/informationen-%C3%BCber-turmfalken/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Rotmilan",
+        "sci": "Milvus milvus",
+        "names": [
+          {
+            "name": "Gabelweihe",
+            "status": "alternative",
+            "usage": "volkstümlich",
+            "basis": "LBV explicitly lists the name for the forked tail; modern official species remains Rotmilan and it is not a Circus harrier.",
+            "sources": [
+              {
+                "title": "LBV: Rotmilan",
+                "url": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/rotmilan/"
+              },
+              {
+                "title": "NABU-Station Münsterland: Rotmilan",
+                "url": "https://www.nabu-station.de/wer-hat-den-rotmilan-gesehen/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Stockente",
+        "sci": "Anas platyrhynchos",
+        "names": [
+          {
+            "name": "Märzente",
+            "status": "alternative",
+            "usage": "traditionell; weiterhin als Alternativname geführt",
+            "basis": "LBV describes the traditional March arrival explanation; DJV contemporary species page explicitly says also Märzente. Do not mark completely obsolete.",
+            "sources": [
+              {
+                "title": "LBV: Stockente",
+                "url": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/stockente/"
+              },
+              {
+                "title": "Deutscher Jagdverband: Stockente",
+                "url": "https://www.jagdverband.de/zahlen-fakten/tiersteckbriefe/stockente-anas-platyrhynchos"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Brandgans",
+        "sci": "Tadorna tadorna",
+        "names": [
+          {
+            "name": "Brandente",
+            "status": "alternative",
+            "usage": "gelegentlich gebräuchlich",
+            "basis": "Nationalpark Wattenmeer explicitly presents a bird with two names and says Brandente is occasionally found.",
+            "sources": [
+              {
+                "title": "Nationalpark Wattenmeer: Brandgans",
+                "url": "https://www.nationalpark-wattenmeer.de/wissensbeitrag/brandgans-august/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Teichhuhn",
+        "sci": "Gallinula chloropus",
+        "names": [
+          {
+            "name": "Teichralle",
+            "status": "alternative",
+            "usage": "gebräuchlicher Alternativname",
+            "basis": "Museum für Naturkunde Naturblick lists Teichralle immediately below the primary name and taxon; NRW state species portrait says also Teichralle.",
+            "sources": [
+              {
+                "title": "Museum für Naturkunde Berlin: Teichhuhn",
+                "url": "https://naturblick.museumfuernaturkunde.berlin/species/portrait/118"
+              },
+              {
+                "title": "LANUV NRW: Teichhuhn",
+                "url": "https://artenschutz.naturschutzinformationen.nrw.de/artenschutz/de/arten/gruppe/voegel/kurzbeschreibung/103066"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Blässhuhn",
+        "sci": "Fulica atra",
+        "names": [
+          {
+            "name": "Blässralle",
+            "status": "alternative",
+            "usage": "gebräuchlicher Alternativname",
+            "basis": "Museum für Naturkunde Naturblick lists Blässralle and explains the ralle-family reference. Keep eBird primary label unchanged.",
+            "sources": [
+              {
+                "title": "Museum für Naturkunde Berlin: Blässhuhn",
+                "url": "https://naturblick.museumfuernaturkunde.berlin/species/portrait/83"
+              },
+              {
+                "title": "Deutscher Jagdverband: Blässhuhn / Blässralle",
+                "url": "https://www.jagdverband.de/blaesshuhn-blaessralle-fulica-atra"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Bekassine",
+        "sci": "Gallinago gallinago",
+        "names": [
+          {
+            "name": "Himmelsziege",
+            "status": "alternative",
+            "usage": "volkstümlich",
+            "basis": "NRW state species portrait explicitly links the traditional name to feather-generated bleating in the display flight.",
+            "sources": [
+              {
+                "title": "LANUV NRW: Bekassine",
+                "url": "https://artenschutz.naturschutzinformationen.nrw.de/artenschutz/de/arten/gruppe/voegel/kurzbeschreibung/103120"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Wachtelkönig",
+        "sci": "Crex crex",
+        "names": [
+          {
+            "name": "Wiesenralle",
+            "status": "alternative",
+            "usage": "Alternativname",
+            "basis": "Official Brandenburg nature portal explicitly lists this name with Crex crex.",
+            "sources": [
+              {
+                "title": "Natur Brandenburg: Wachtelkönig",
+                "url": "https://www.natur-brandenburg.de/themen/tiere/wachtelkoenig/"
+              }
+            ]
+          },
+          {
+            "name": "Wiesenknarrer",
+            "status": "alternative",
+            "usage": "volkstümlich",
+            "basis": "Official Brandenburg nature portal explicitly lists this name with Crex crex.",
+            "sources": [
+              {
+                "title": "Natur Brandenburg: Wachtelkönig",
+                "url": "https://www.natur-brandenburg.de/themen/tiere/wachtelkoenig/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Ringeltaube",
+        "sci": "Columba palumbus",
+        "names": [
+          {
+            "name": "Waldtaube",
+            "status": "alternative",
+            "usage": "Alternativname",
+            "basis": "LBV München explicitly lists Ringeltaube and Waldtaube together with Columba palumbus. Broad folk use should not be treated as a separate taxon.",
+            "sources": [
+              {
+                "title": "LBV München: Ringeltaube",
+                "url": "https://www.lbv-muenchen.de/tiere-pflanzen/voegel/details/ringeltaube/"
+              },
+              {
+                "title": "Duden: Waldtaube",
+                "url": "https://www.duden.de/rechtschreibung/Waldtaube"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Schleiereule",
+        "sci": "Tyto alba",
+        "names": [
+          {
+            "name": "Herzeule",
+            "status": "alternative",
+            "usage": "umgangssprachlich",
+            "basis": "NABU Rinteln explicitly identifies this as colloquial name referring to heart-shaped facial disc.",
+            "sources": [
+              {
+                "title": "NABU Rinteln: Schleiereulen",
+                "url": "https://www.nabu-rinteln.de/artenschutzprojekte/eulen/"
+              }
+            ]
+          },
+          {
+            "name": "Scheuneneule",
+            "status": "alternative",
+            "usage": "volkstümlich",
+            "basis": "NABU Rinteln explicitly gives German bynames based on nest sites; not merely an English translation inferred by us.",
+            "sources": [
+              {
+                "title": "NABU Rinteln: Schleiereulen",
+                "url": "https://www.nabu-rinteln.de/artenschutzprojekte/eulen/"
+              }
+            ]
+          },
+          {
+            "name": "Kircheneule",
+            "status": "alternative",
+            "usage": "volkstümlich",
+            "basis": "NABU Rinteln explicitly gives German bynames based on nest sites; not merely a Dutch translation inferred by us.",
+            "sources": [
+              {
+                "title": "NABU Rinteln: Schleiereulen",
+                "url": "https://www.nabu-rinteln.de/artenschutzprojekte/eulen/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Uhu",
+        "sci": "Bubo bubo",
+        "names": [
+          {
+            "name": "Schuhu",
+            "status": "historical",
+            "usage": "landschaftlich veraltend",
+            "basis": "Duden explicitly labels usage landschaftlich veraltend and meaning Uhu. Veraltend is more precise than already completely extinct.",
+            "sources": [
+              {
+                "title": "Duden: Schuhu",
+                "url": "https://www.duden.de/rechtschreibung/Schuhu"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "de": "Habicht",
+        "sci": "Astur gentilis",
+        "legacySci": "Accipiter gentilis",
+        "names": [
+          {
+            "name": "Hühnerhabicht",
+            "status": "alternative",
+            "usage": "volkstümlich; älterer Name",
+            "basis": "LBV explicitly includes this name in present-tense folk names. NABU historical context explains former persecution. Avoid claiming it is no longer used; source still uses old genus Accipiter but European taxon is current Astur gentilis.",
+            "sources": [
+              {
+                "title": "LBV: Habicht",
+                "url": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/habicht/"
+              },
+              {
+                "title": "Museum für Naturkunde Berlin: Habicht",
+                "url": "https://naturblick.museumfuernaturkunde.berlin/species/portrait/29271"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "optionalCandidates": [
+      {
+        "de": "Haubentaucher",
+        "sci": "Podiceps cristatus",
+        "name": "Haubensteißfuß",
+        "suggestedStatus": "historical",
+        "usage": "historischer Name (belegt bei Brehm 1868)",
+        "caution": "Strong taxon mapping, but frequency of current folk use not established. LBV still lists it among folk/trivial names; cannot assert never used today.",
+        "sources": [
+          {
+            "title": "LBV: Haubentaucher",
+            "url": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/haubentaucher/"
+          },
+          {
+            "title": "LNVL: Haubentaucher, Vogel des Jahres 2001",
+            "url": "https://www.luxnatur.lu/vogel01.htm",
+            "retrieval": "Search result explicitly identifies Brehm 1868 wording; page fetch returned 403."
+          }
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "name": "Wildente",
+        "reason": "Broader than Stockente; not species-exclusive."
+      },
+      {
+        "name": "Steißfuß",
+        "reason": "Also family/group term for grebes, avoid species-exclusive mapping."
+      },
+      {
+        "name": "Fischaar / Fischgeier",
+        "reason": "Historical work explicitly applies to both osprey and white-tailed eagle; avoid unambiguous mapping."
+      },
+      {
+        "name": "Mausaar",
+        "reason": "Academic etymology supports older form but many related regional words refer to different raptors; no simple exact current taxon needed here."
+      },
+      {
+        "name": "Schnepfenkönig",
+        "reason": "Can describe successful hunter, and historical bird term also maps to curlew; not a clean Waldschnepfe synonym."
+      },
+      {
+        "name": "Hühnerdieb / Hühnergeier",
+        "reason": "Broad pejorative folk labels applied to multiple raptors; omit as species-specific alias."
+      }
+    ]
+  },
+  "historical": {
+    "reviewed": "2026-10-22",
+    "method": "Conservative distinction: historical attestations do not prove a name is globally extinct. Entries marked historical reflect explicit former-use statements or a dated scholarly attestation; current alternatives remain alternatives.",
+    "entries": [
+      {
+        "de": "Zwergtaucher",
+        "sci": "Tachybaptus ruficollis",
+        "name": "Zwergsteißfuß",
+        "category": "historical",
+        "label": "älterer Name",
+        "basis": "NABU Mönchengladbach identifies this as a name common in earlier literature.",
+        "sources": [
+          {
+            "title": "NABU Mönchengladbach: Der Zwergtaucher",
+            "url": "https://www.nabu-mg.de/vogelwelt/zwergtaucher/"
+          }
+        ]
+      },
+      {
+        "de": "Zwergtaucher",
+        "sci": "Tachybaptus ruficollis",
+        "name": "Sumpftaucher",
+        "category": "historical",
+        "label": "historischer Volksname",
+        "basis": "NABU Mönchengladbach explicitly groups this among names no longer known today. Do not claim a uniquely current common name.",
+        "sources": [
+          {
+            "title": "NABU Mönchengladbach: Der Zwergtaucher",
+            "url": "https://www.nabu-mg.de/vogelwelt/zwergtaucher/"
+          }
+        ]
+      },
+      {
+        "de": "Zwergtaucher",
+        "sci": "Tachybaptus ruficollis",
+        "name": "Käferentchen",
+        "category": "historical",
+        "label": "historischer Volksname",
+        "basis": "NABU Mönchengladbach explicitly groups this among names no longer known today.",
+        "sources": [
+          {
+            "title": "NABU Mönchengladbach: Der Zwergtaucher",
+            "url": "https://www.nabu-mg.de/vogelwelt/zwergtaucher/"
+          }
+        ]
+      },
+      {
+        "de": "Gelbspötter",
+        "sci": "Hippolais icterina",
+        "name": "Gartenlaubvogel",
+        "category": "historical",
+        "label": "älterer Volksname",
+        "basis": "NABU Mönchengladbach calls it a former vernacular name, in an article dated July 2024.",
+        "sources": [
+          {
+            "title": "NABU Mönchengladbach: Der Gelbspötter",
+            "url": "https://www.nabu-mg.de/vogelwelt/gelbsp%C3%B6tter/"
+          }
+        ]
+      },
+      {
+        "de": "Gelbspötter",
+        "sci": "Hippolais icterina",
+        "name": "Gartenspötter",
+        "category": "historical",
+        "label": "älterer Volksname",
+        "basis": "NABU Mönchengladbach calls it a former vernacular name.",
+        "sources": [
+          {
+            "title": "NABU Mönchengladbach: Der Gelbspötter",
+            "url": "https://www.nabu-mg.de/vogelwelt/gelbsp%C3%B6tter/"
+          }
+        ]
+      },
+      {
+        "de": "Gelbspötter",
+        "sci": "Hippolais icterina",
+        "name": "Sprachmeister",
+        "category": "historical",
+        "label": "älterer Volksname",
+        "basis": "NABU Mönchengladbach explicitly identifies this as another former vernacular name based on the song.",
+        "sources": [
+          {
+            "title": "NABU Mönchengladbach: Der Gelbspötter",
+            "url": "https://www.nabu-mg.de/vogelwelt/gelbsp%C3%B6tter/"
+          }
+        ]
+      },
+      {
+        "de": "Zilpzalp",
+        "sci": "Phylloscopus collybita",
+        "name": "Weidenlaubvogel",
+        "category": "historical",
+        "label": "älterer Name",
+        "basis": "LBV Würzburg–Ochsenfurt explicitly contrasts former Weidenlaubvogel with still-used Weidenlaubsänger; page updated 29 April 2024.",
+        "sources": [
+          {
+            "title": "LBV Würzburg–Ochsenfurt: Zilpzalp",
+            "url": "https://www.lbv-wue.de/streuobst/ZILPzalp.php"
+          }
+        ]
+      },
+      {
+        "de": "Zilpzalp",
+        "sci": "Phylloscopus collybita",
+        "name": "Weidenlaubsänger",
+        "category": "alternative",
+        "label": "Alternativname",
+        "basis": "LBV Würzburg–Ochsenfurt currently uses it as an alternative. Earlier official usage is documented by ornithological literature; do not mark globally obsolete.",
+        "sources": [
+          {
+            "title": "LBV Würzburg–Ochsenfurt: Zilpzalp",
+            "url": "https://www.lbv-wue.de/streuobst/ZILPzalp.php"
+          },
+          {
+            "title": "BUND Naturschutz: Welcher Vogel singt da?",
+            "url": "https://www.bund-naturschutz.de/artenschutz-in-bayern/natur-und-artenkenner-werden/welcher-vogel-singt-da"
+          }
+        ]
+      },
+      {
+        "de": "Waldlaubsänger",
+        "sci": "Phylloscopus sibilatrix",
+        "name": "Waldlaubvogel",
+        "category": "historical",
+        "label": "historisch belegt (1950)",
+        "basis": "Ala's index maps Geissbühler's 1950 article on Weiden- und Waldlaubvogel to Phylloscopus collybita and Phylloscopus sibilatrix. Historical scholarly attestation; no claim that every current use has vanished.",
+        "sources": [
+          {
+            "title": "Ala: Geissbühler (1950), Bestandesschwankungen beim Weiden- und Waldlaubvogel",
+            "url": "https://www.ala-schweiz.ch/index.php/ornithologischer-beobachter/artikel-suche?indexid=2126"
+          },
+          {
+            "title": "Original article, Ornithologischer Beobachter 47: 4–7",
+            "url": "https://www.ala-schweiz.ch/images/stories/pdf/ob/1950_47/OrnitholBeob_1950_47_4_Geissbuehler.pdf"
+          }
+        ]
+      },
+      {
+        "de": "Mauersegler",
+        "sci": "Apus apus",
+        "name": "Turmschwalbe",
+        "category": "alternative",
+        "label": "älterer, noch verwendeter Volksname",
+        "basis": "NABU Mönchengladbach calls it a former name, but current LBV portrait still presents it as a vernacular alternative. Thus not safe to say no longer used. Mauersegler is not a swallow taxonomically.",
+        "sources": [
+          {
+            "title": "LBV: Mauersegler",
+            "url": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/mauersegler/"
+          },
+          {
+            "title": "NABU Mönchengladbach: Der Mauersegler",
+            "url": "https://www.nabu-mg.de/vogelwelt/mauersegler/"
+          }
+        ]
+      },
+      {
+        "de": "Haubentaucher",
+        "sci": "Podiceps cristatus",
+        "name": "Haubensteißfuß",
+        "category": "alternative",
+        "label": "älterer Volksname",
+        "basis": "LBV currently lists it among vernacular names. Historical usage is separately attested in Brehm 1868 by Luxembourg's conservation association; no categorical obsolete claim.",
+        "sources": [
+          {
+            "title": "LBV: Haubentaucher",
+            "url": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/haubentaucher/"
+          }
+        ]
+      },
+      {
+        "de": "Haubentaucher",
+        "sci": "Podiceps cristatus",
+        "name": "Straußtaucher",
+        "category": "alternative",
+        "label": "Volksname",
+        "basis": "LBV lists this as a vernacular name; contemporary prevalence is not quantified.",
+        "sources": [
+          {
+            "title": "LBV: Haubentaucher",
+            "url": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/haubentaucher/"
+          }
+        ]
+      },
+      {
+        "de": "Fitis",
+        "sci": "Phylloscopus trochilus",
+        "name": "Fitislaubsänger",
+        "category": "alternative",
+        "label": "Alternativname",
+        "basis": "Museum für Naturkunde Berlin's Naturblick portrait lists this immediately under Fitis and scientific species name.",
+        "sources": [
+          {
+            "title": "Museum für Naturkunde Berlin / Naturblick: Fitis",
+            "url": "https://naturblick.museumfuernaturkunde.berlin/species/portrait/57"
+          }
+        ]
+      },
+      {
+        "de": "Trauerschnäpper",
+        "sci": "Ficedula hypoleuca",
+        "name": "Trauerfliegenschnäpper",
+        "category": "alternative",
+        "label": "Alternativname",
+        "basis": "Current LBV portrait explicitly presents it as another name, not obsolete.",
+        "sources": [
+          {
+            "title": "LBV: Trauerschnäpper",
+            "url": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/trauerschnaepper/"
+          }
+        ]
+      },
+      {
+        "de": "Rauchschwalbe",
+        "sci": "Hirundo rustica",
+        "name": "Stallschwalbe",
+        "category": "alternative",
+        "label": "Volksname",
+        "basis": "NABU Saarland's current portrait uses both names in the heading.",
+        "sources": [
+          {
+            "title": "NABU Saarland: Rauchschwalben helfen",
+            "url": "https://nabu-saar.de/tiere-pflanzen/schwalben-willkommen/rauchschwalben-helfen"
+          }
+        ]
+      }
+    ],
+    "excluded": [
+      {
+        "name": "Weiße Bachstelze",
+        "reason": "Often denotes nominate subspecies Motacilla alba alba rather than the entire modern species; avoid unqualified species synonym."
+      },
+      {
+        "name": "Ohrensteißfuß",
+        "reason": "Historical evidence found but existing sources mix Ohrentaucher and Schwarzhalstaucher compounds; omitted from compact reviewed set pending closer primary plate check."
+      },
+      {
+        "name": "Rothalssteißfuß",
+        "reason": "Insufficient strong primary confirmation in bounded search."
+      },
+      {
+        "name": "Ducker / Duckchen",
+        "reason": "Broad dialectal terms may be applied to multiple diving waterbirds; left out of unqualified species search aliases."
+      }
+    ]
+  }
+}

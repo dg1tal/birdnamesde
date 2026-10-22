@@ -184,3 +184,13 @@ body.studying .photo-set-multiple .bird-photo img,body.studying .photo-set-multi
 .photo-set-illustrated .bird-illustration img,.photo-set-illustrated .bird-illustration .study-photo-slot,body.studying .photo-set-illustrated .bird-illustration img,body.studying .photo-set-illustrated .bird-illustration .study-photo-slot{height:300px}
 
 @media(min-width:581px){#photo-dialog .photo-set-illustrated{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.german-names{margin:8px 0 14px;font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+.german-names p{margin:5px 0}
+.name-sources{margin-top:6px;font-size:12px;color:var(--muted)}
+.name-sources summary{cursor:pointer;min-height:26px;padding:3px 0}
+.name-sources ul{padding-left:20px;margin:8px 0}
+.name-sources li{margin:6px 0}
+body.studying .german-names{text-align:center}
+body.studying .german-names p{font-size:14px;margin:6px 0}
+body.studying .name-sources ul{display:inline-block;max-width:100%;text-align:left}
