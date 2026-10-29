@@ -1,5 +1,5 @@
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js';
-import {validateRegions,regionalSelection,regionAllows,regionalDataStale} from './regions.js?v=20261029-nl2';
+import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261029-uklocal1';
 import {english,localize,t} from './i18n.js?v=20261029-nl2';
 const defaultNameTarget=english?'de':'en';
 let nameTarget=defaultNameTarget,availableNameLanguages=['de','en'];
@@ -127,15 +127,26 @@ function lookup() {
 function languageOptions(selected){return NAME_LANGUAGES.map(l=>`<option value="${l.code}"${selected===l.code?' selected':''}${availableNameLanguages.includes(l.code)?'':' disabled'}>${esc(languageLabel(l.code,english?'en':'de'))}${availableNameLanguages.includes(l.code)?'':english?' (unavailable)':' (nicht verfügbar)'}</option>`).join('');}
 function nameLanguageControls(cfg){return `<fieldset class="name-language-settings"><legend>${english?'Bird name languages':'Sprachen der Vogelnamen'}</legend><div class="settings"><div class="field"><label for="source-language">${english?'Question language':'Sprache der Frage'}</label><select id="source-language">${languageOptions(cfg.sourceLanguage)}</select></div><div class="field"><label for="answer-language">${english?'Answer language':'Sprache der Antwort'}</label><select id="answer-language">${languageOptions(cfg.nameLanguage)}</select></div></div><button type="button" id="swap-name-languages" class="quiet">${english?'⇄ Swap languages':'⇄ Sprachen tauschen'}</button><p id="name-language-status" role="status"></p></fieldset>`;}
 function regionOptions(country,selected){
- const available=regionalData?.regions.filter(r=>r.country===country)||[];
+ const available=regionalData?.regions.filter(r=>r.code===country||r.parentCode===country)||[];
  if(!country)return opt('',english?'Choose a country first':'Zuerst ein Land wählen',true);
  const missing=selected&&!available.some(r=>r.code===selected)?opt(selected,english?'Saved region (data unavailable)':'Gespeicherte Region (Daten nicht verfügbar)',true):'';
- return missing+available.map(r=>opt(r.code,(english?r.nameEn:r.nameDe)+(!r.code.includes('-')?(english?' (whole country)':' (gesamt)'):''),r.code===selected)).join('');
+ return missing+available.map(r=>opt(r.code,(english?r.nameEn:r.nameDe)+(!r.parentCode?(english?' (whole country)':' (gesamt)'):''),r.code===selected)).join('');
+}
+function localRegionOptions(parent,selected){
+ const children=regionChildren(regionalData,parent);
+ const missing=selected!==parent&&!children.some(r=>r.code===selected)?opt(selected,english?'Saved local region (unavailable)':'Gespeicherte lokale Region (nicht verfügbar)',true):'';
+ return opt(parent,english?'Whole selected region':'Gesamte ausgewählte Region',selected===parent)+missing+children.map(r=>opt(r.code,english?r.nameEn:r.nameDe,r.code===selected)).join('');
+}
+function configureLocalRegions(parent,selected=parent){
+ const visible=parent.includes('-')&&(regionChildren(regionalData,parent).length>0||selected!==parent);
+ $('#local-region-field').hidden=!visible;$('#local-region').disabled=!visible;
+ $('#local-region').innerHTML=localRegionOptions(parent,selected);
 }
 function regionControls(cfg){
- const country=cfg.region.split('-')[0];const countries=regionalData?.countries||[];
+ const country=cfg.region.split('-')[0],parent=topRegion(cfg.region);const countries=regionalData?.countries||[];
  const missing=country&&!countries.some(c=>c.code===country)?opt(country,english?'Saved country (unavailable)':'Gespeichertes Land (nicht verfügbar)',true):'';
- return `<fieldset class="region-settings"><legend>${english?'Learn for a region':'Für eine Region lernen'}</legend><div class="settings"><div class="field"><label for="region-country">${english?'Country':'Land'}</label><select id="region-country">${opt('',english?'No regional filter':'Kein Regionsfilter',!country)}${missing}${countries.map(c=>opt(c.code,english?c.nameEn:c.nameDe,c.code===country)).join('')}</select></div><div class="field"><label for="region">Region</label><select id="region"${country?'':' disabled'}>${regionOptions(country,cfg.region)}</select></div><div class="field"><label for="region-mode">${english?'Regional list':'Regionale Auswahl'}</label><select id="region-mode">${opt('recent',english?'Observed in the last 30 days':'In den letzten 30 Tagen beobachtet',cfg.regionMode==='recent')}${opt('all',english?'All recorded taxa':'Alle dort nachgewiesenen Taxa',cfg.regionMode==='all')}</select></div></div><p id="region-status" role="status"></p><p class="muted">${english?'Regional lists filter the existing 313 species. Recent reports are not a frequency ranking or a promise of sightings. All-time lists can include historical rarities.':'Regionale Listen filtern die vorhandenen 313 Arten. Aktuelle Meldungen sind keine Häufigkeitsrangliste oder Sichtungsgarantie. Gesamtlisten können historische Seltenheiten enthalten.'}</p></fieldset>`;
+ const hasLocal=parent.includes('-')&&(regionChildren(regionalData,parent).length>0||cfg.region!==parent);
+ return `<fieldset class="region-settings"><legend>${english?'Learn for a region':'Für eine Region lernen'}</legend><div class="settings"><div class="field"><label for="region-country">${english?'Country':'Land'}</label><select id="region-country">${opt('',english?'No regional filter':'Kein Regionsfilter',!country)}${missing}${countries.map(c=>opt(c.code,english?c.nameEn:c.nameDe,c.code===country)).join('')}</select></div><div class="field"><label id="region-label" for="region">${country==='GB'?(english?'Constituent country':'Landesteil'):'Region'}</label><select id="region"${country?'':' disabled'}>${regionOptions(country,parent)}</select></div><div class="field" id="local-region-field"${hasLocal?'':' hidden'}><label for="local-region">${english?'Local region':'Lokale Region'}</label><select id="local-region"${hasLocal?'':' disabled'}>${localRegionOptions(parent,cfg.region)}</select></div><div class="field"><label for="region-mode">${english?'Regional list':'Regionale Auswahl'}</label><select id="region-mode">${opt('recent',english?'Observed in the last 30 days':'In den letzten 30 Tagen beobachtet',cfg.regionMode==='recent')}${opt('all',english?'All recorded taxa':'Alle dort nachgewiesenen Taxa',cfg.regionMode==='all')}</select></div></div><p id="region-status" role="status"></p><p class="muted">${english?'Regional lists filter the existing 313 species. Recent reports are not a frequency ranking or a promise of sightings. All-time lists can include historical rarities.':'Regionale Listen filtern die vorhandenen 313 Arten. Aktuelle Meldungen sind keine Häufigkeitsrangliste oder Sichtungsgarantie. Gesamtlisten können historische Seltenheiten enthalten.'}</p></fieldset>`;
 }
 function updateRegionStatus(cfg){
  const el=$('#region-status');const list=regionalSelection(regionalData,cfg.region,cfg.regionMode);
@@ -161,7 +172,7 @@ function learn(preset) {
     nameTarget=$('#answer-language').value;
     Object.assign(cfg,{nameLanguage:nameTarget,sourceLanguage:$('#source-language').value});
     if(!['mixed','code'].includes($('#target').value))$('#target').options[0].value=nameTarget;
-    Object.assign(cfg,{region:$('#region').value,regionMode:$('#region-mode').value,target:$('#target').value,method:$('#method').value,scope:$('#scope').value,count:$('#count').value,levels:[...document.querySelectorAll('[name=levels]:checked')].map(x=>+x.value),groups:[...document.querySelectorAll('[name=groups]:checked')].map(x=>x.value),photos:$('#learn-photos').checked});
+    Object.assign(cfg,{region:$('#local-region-field').hidden?$('#region').value:$('#local-region').value,regionMode:$('#region-mode').value,target:$('#target').value,method:$('#method').value,scope:$('#scope').value,count:$('#count').value,levels:[...document.querySelectorAll('[name=levels]:checked')].map(x=>+x.value),groups:[...document.querySelectorAll('[name=groups]:checked')].map(x=>x.value),photos:$('#learn-photos').checked});
     learnPhotos=cfg.photos;saveUI();
   };
   const selection=()=>{
@@ -184,7 +195,8 @@ function learn(preset) {
   };
   $('#setup').onchange=update;
   $('#swap-name-languages').onclick=()=>{const source=$('#source-language').value;$('#source-language').value=$('#answer-language').value;$('#answer-language').value=source;update();};
-  $('#region-country').onchange=e=>{e.stopPropagation();const country=e.target.value;$('#region').innerHTML=regionOptions(country,country);$('#region').disabled=!country;update();};
+  $('#region-country').onchange=e=>{e.stopPropagation();const country=e.target.value;$('#region').innerHTML=regionOptions(country,country);$('#region').disabled=!country;$('#region-label').textContent=country==='GB'?(english?'Constituent country':'Landesteil'):'Region';configureLocalRegions(country);update();};
+  $('#region').onchange=e=>{e.stopPropagation();configureLocalRegions(e.target.value);update();};
   $('#group-search').oninput=()=>{const q=normalize($('#group-search').value);let visible=0;document.querySelectorAll('[data-group-label]').forEach(l=>{l.hidden=!normalize(t(l.dataset.groupLabel)).includes(q);visible+=+!l.hidden;});$('#group-empty').hidden=!!visible;};
   $('#all-groups').onclick=()=>{document.querySelectorAll('[name=groups]').forEach(x=>x.checked=true);update();};
   $('#no-groups').onclick=()=>{document.querySelectorAll('[name=groups]').forEach(x=>x.checked=false);update();};
@@ -296,9 +308,9 @@ const allGroups=groups(),ids=new Set(birds.map(s=>s.id));
 ui.lookup.query=typeof ui.lookup.query==='string'?ui.lookup.query:'';ui.lookup.group=allGroups.includes(ui.lookup.group)?ui.lookup.group:'';ui.lookup.level=['1','2','3'].includes(ui.lookup.level)?ui.lookup.level:'';ui.lookup.scroll=Number.isFinite(ui.lookup.scroll)?Math.max(0,ui.lookup.scroll):0;
 ui.learn.groups=Array.isArray(ui.learn.groups)?ui.learn.groups.filter(g=>allGroups.includes(g)):allGroups;
 ui.learn.ids=Array.isArray(ui.learn.ids)?ui.learn.ids.filter(id=>ids.has(id)):[];
-ui.learn.region=typeof ui.learn.region==='string'&&/^[A-Z]{2}(?:-[A-Z0-9]{1,4})?$/.test(ui.learn.region)?ui.learn.region:'';
+ui.learn.region=typeof ui.learn.region==='string'&&/^[A-Z]{2}(?:-[A-Z0-9]{1,4}){0,2}$/.test(ui.learn.region)?ui.learn.region:'';
 ui.learn.regionMode=['all','recent'].includes(ui.learn.regionMode)?ui.learn.regionMode:'recent';
 ui.learn.levels=Array.isArray(ui.learn.levels)?ui.learn.levels.filter(n=>[1,2,3].includes(n)):[1];
 for(const [field,options]of Object.entries({target:[nameTarget,'code','mixed'],method:['text','flash','mc'],scope:['all','unmastered','due','wrong'],count:['10','15','25','all']}))if(!options.includes(ui.learn[field]))ui.learn[field]=defaults.learn[field];
-try{const response=await fetch('regions.json?format=multilingual',{cache:'no-cache'});if(response.ok)regionalData=validateRegions(await response.json(),ids);}catch{console.warn('Regional lists unavailable');}
+try{const response=await fetch('regions.json?format=hierarchy',{cache:'no-cache'});if(response.ok)regionalData=validateRegions(await response.json(),ids);}catch{console.warn('Regional lists unavailable');}
 try{photos=(await(await fetch('photos.json')).json()).photos}catch(err){console.warn('Artenbilder nicht geladen',err)}try{await initDB()}catch{storageOK=false}window.addEventListener('hashchange',route);route();}catch(err){app.innerHTML='<h1>Daten konnten nicht geladen werden.</h1><p>Bitte Seite erneut laden.</p>';console.error(err)}

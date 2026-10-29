@@ -21,6 +21,7 @@
       "GB-NIR": "Nordirland",
       "GB-SCT": "Schottland",
       "GB-WLS": "Wales"
-    }
+    },
+    "includeLocalRegions": true
   }
 ]

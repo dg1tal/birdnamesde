@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {validateRegions,regionalSelection,regionAllows,regionalDataStale} from '../dist/regions.js';
+import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from '../dist/regions.js';
 import {validateLesson} from '../dist/study-state.js';
 const ids=new Set(['eurbla','grnsan']);const now=Date.now();
 const list={ids:['eurbla'],reportedTaxa:7,updatedAt:new Date(now).toISOString()};
@@ -11,6 +11,17 @@ assert(!regionalDataStale(list,now));assert(regionalDataStale(list,now+4*8640000
 for(const bad of [{...source,version:2},{...source,regions:[...source.regions,...source.regions]},{...source,regions:[{...source.regions[0],recent:{...list,ids:['unknown']}}]},{...source,regions:[{...source.regions[0],recent:{...list,updatedAt:'not-a-date'}}]}])assert.throws(()=>validateRegions(bad,ids));
 const nl=validateRegions({...source,regions:[{...source.regions[0],code:'NL',nameDe:'Niederlande',nameEn:'Netherlands'},{...source.regions[0],code:'NL-NH',nameDe:'Noord-Holland',nameEn:'Noord-Holland'}]},ids);assert.equal(nl.countries[0].code,'NL');assert(regionAllows(nl,'NL-NH','recent','eurbla'));
 const uk=validateRegions({...source,regions:[{...source.regions[0],code:'GB',nameDe:'Vereinigtes Königreich',nameEn:'United Kingdom'},{...source.regions[0],code:'GB-SCT',nameDe:'Schottland',nameEn:'Scotland'}]},ids);assert.equal(uk.countries[0].code,'GB');assert.equal(uk.regions[1].country,'GB');assert(regionAllows(uk,'GB-SCT','recent','eurbla'));assert(!regionAllows(uk,'GB-SCT','recent','grnsan'));
+const local=validateRegions({...source,regions:[
+ {...source.regions[0],code:'GB',nameDe:'UK',nameEn:'UK'},
+ {...source.regions[0],code:'GB-ENG',nameDe:'England',nameEn:'England'},
+ {...source.regions[0],code:'GB-ENG-LND',nameDe:'London',nameEn:'London',parentCode:'GB-ENG'},
+ {...source.regions[0],code:'GB-SCT',nameDe:'Schottland',nameEn:'Scotland'}]},ids);
+assert.equal(topRegion('GB-ENG-LND'),'GB-ENG');assert.equal(topRegion('NL'),'NL');
+assert.deepEqual(regionChildren(local,'GB-ENG').map(r=>r.code),['GB-ENG-LND']);
+assert.deepEqual(regionChildren(local,'GB-SCT'),[]);
+assert(regionAllows(local,'GB-ENG-LND','recent','eurbla'));assert(!regionAllows(local,'GB-ENG-LND','recent','grnsan'));
+assert.throws(()=>validateRegions({...source,regions:[{...source.regions[0],code:'GB-ENG-LND',nameDe:'London',nameEn:'London'}]},ids));
+assert.throws(()=>validateRegions({...source,regions:[...local.regions.map(r=>r.code==='GB-ENG-LND'?{...r,parentCode:'GB-SCT'}:r)]},ids));
 const empty=validateRegions({...source,regions:[{...source.regions[0],recent:{...list,ids:[],reportedTaxa:0}}]},ids);assert(!regionAllows(empty,'DE','recent','eurbla'));
 const missing=validateRegions({...source,regions:[{...source.regions[0],recent:null}]},ids);assert(!regionAllows(missing,'DE','recent','eurbla'));
 const lesson={version:1,queue:[{id:'eurbla',t:'de',retry:0}],regionIds:['eurbla'],regionLabel:'Germany',index:0,method:'mc',answered:0,correct:0,firstAnswered:0,firstCorrect:0,done:false,paused:true,hint:false};assert(validateLesson(lesson,ids));assert(!validateLesson({...lesson,regionIds:['grnsan']},ids));
