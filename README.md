@@ -107,3 +107,5 @@ The interface switch translates the current learning context. Settings use `bird
 The learning pair and start button precede collapsible selection/settings. A visible summary includes active region, list mode, vocabulary, groups, study scope and pictures. Code-only learning hides the unused answer-language/swap controls and explains separate code progress. `node scripts/test-learning-settings.mjs` checks migration and selection messages.
 
 English editorial metadata is centralized in `dist/editorial-en.js`. `node scripts/test-editorial-translations.mjs` checks coverage of every species status/note, German-name explanation/region and photo label/comparison/transformation in the current dataset. Names and original source titles remain unchanged.
+
+Study feedback and backup errors use explicit locale-aware message composition. `node scripts/test-study-translations.mjs` checks counters, review/hint/retry combinations, singular/plural forms and import errors in English and German. Selected-group chips render translated labels; species names in difficult-species statistics keep their original language.
