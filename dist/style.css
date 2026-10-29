@@ -241,3 +241,6 @@ header{flex-wrap:wrap;gap:8px}
 #language-picker .language-option:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 #start-lesson-hint{font-size:14px;margin:12px 0}
 @media(max-width:580px){#language-picker .language-option{padding:0 9px;font-size:14px}}
+
+/* Route headings retain screen-reader focus without a visual selection frame. */
+main h1[tabindex="-1"]:focus{outline:none}
