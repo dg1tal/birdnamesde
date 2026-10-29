@@ -24,6 +24,12 @@ node --check dist/app.js
 
 No build step required. Serve `dist/` as static assets; publish using the Sites workflow. Original creation had no visual browser QA. The Wikimedia update was checked in Chrome preview: inline photo and license links, no photo before flashcard grading, photo after grading, and eBird fallback after a missing-image response. No physical iOS-device test was performed.
 
+## GitHub Pages
+
+The workflow in `.github/workflows/pages.yml` deploys `dist/` from `main` without a build step. In the GitHub repository, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. The app's data, scripts, styles, photos and license links use relative paths, so the repository URL path works without a custom base URL. Keep the existing Sites publication independent of this workflow.
+
+Learning progress is stored per browser origin. Before switching domains, open **Statistik → Lernstand sichern und verwalten** on the existing site and export the JSON backup. On GitHub Pages, open the same section and import that file. Import replaces the current progress on the Pages origin after confirmation, so export any progress made there first. Browser settings and a paused lesson are not part of the progress export.
+
 ## Data provenance and reproduction
 
 Official taxonomy CSV: https://www.birds.cornell.edu/clementschecklist/wp-content/uploads/2026/04/eBird_taxonomy_v2025-4.csv
