@@ -13,6 +13,11 @@ import urllib.request
 ROOT = Path(__file__).resolve().parents[1]
 PREVIOUS = 'https://dg1tal.github.io/birdnamesde/regions.json'
 API = 'https://api.ebird.org/v2/'
+COUNTRIES=json.loads((ROOT/'data/region-countries.json').read_text())
+COUNTRY_CODES={c['code'] for c in COUNTRIES}
+
+def supported_region(code):
+    return isinstance(code,str) and bool(re.fullmatch(r'[A-Z]{2}(?:-[A-Z0-9]{1,4})?',code)) and code.split('-')[0] in COUNTRY_CODES
 GERMAN = {'DE-BW':'Baden-Württemberg','DE-BY':'Bayern','DE-BE':'Berlin','DE-BB':'Brandenburg','DE-HB':'Bremen','DE-HH':'Hamburg','DE-HE':'Hessen','DE-MV':'Mecklenburg-Vorpommern','DE-NI':'Niedersachsen','DE-NW':'Nordrhein-Westfalen','DE-RP':'Rheinland-Pfalz','DE-SL':'Saarland','DE-SN':'Sachsen','DE-ST':'Sachsen-Anhalt','DE-SH':'Schleswig-Holstein','DE-TH':'Thüringen'}
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -53,7 +58,7 @@ def safe_previous(data, known):
         return {}
     result = {}
     for r in data.get('regions',[]):
-        if not isinstance(r,dict) or r.get('code') not in {'DE',*GERMAN}:
+        if not isinstance(r,dict) or not supported_region(r.get('code')):
             continue
         lists = {}
         for mode in ('all','recent'):
@@ -94,17 +99,21 @@ def main():
                 if not old or item['updatedAt'] > old['updatedAt']:
                     previous[code][mode] = item
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z')
-    # Discover official region codes; local labels do not replace the API's region identity.
+    # Country support is declared independently of UI and name-language support.
+    regions=[]
     try:
-        states = request_json(API+'ref/region/list/subnational1/DE?fmt=json',token)
-        assert isinstance(states,list) and len(states)==16
-        assert {r['code'] for r in states} == set(GERMAN)
-        assert all(isinstance(r.get('name'),str) and len(r['name'])<=150 for r in states)
+        for country in COUNTRIES:
+            code=country['code']
+            states=request_json(API+f'ref/region/list/subnational1/{code}?fmt=json',token)
+            assert isinstance(states,list) and len(states)==country['expectedSubregions']
+            assert len({r['code'] for r in states})==len(states)
+            assert all(supported_region(r['code']) and r['code'].startswith(code+'-') and isinstance(r.get('name'),str) and 0<len(r['name'])<=150 for r in states)
+            if code=='DE':assert {r['code'] for r in states}==set(GERMAN)
+            regions.append({'code':code,'country':code,'nameDe':country['nameDe'],'nameEn':country['nameEn']})
+            regions.extend({'code':r['code'],'country':code,'nameDe':GERMAN.get(r['code'],r['name']),'nameEn':r['name']} for r in sorted(states,key=lambda r:r['name']))
     except (urllib.error.URLError,ValueError,AssertionError,KeyError,TypeError):
-        print('Could not verify the 16 eBird subregions; leaving the existing deployment untouched.',file=sys.stderr)
+        print('Could not verify configured eBird subregions; leaving the existing deployment untouched.',file=sys.stderr)
         return 1
-    regions = [{'code':'DE','nameDe':'Deutschland','nameEn':'Germany'}] + [
-        {'code':r['code'],'nameDe':GERMAN[r['code']],'nameEn':r['name']} for r in sorted(states,key=lambda r:GERMAN[r['code']])]
     failures = 0
     for region in regions:
         code = region['code']
@@ -120,7 +129,7 @@ def main():
     if not any(r.get('all') or r.get('recent') for r in regions):
         print('No usable regional lists; leaving the existing deployment untouched.',file=sys.stderr)
         return 1
-    output = {'version':1,'generatedAt':now,'recentDays':30,'regions':regions}
+    output = {'version':1,'generatedAt':now,'recentDays':30,'countries':[{k:c[k] for k in ('code','nameDe','nameEn')} for c in COUNTRIES],'regions':regions}
     encoded = json.dumps(output,ensure_ascii=False,indent=2)+'\n'
     if token in encoded:
         print('Refusing to output credential material.',file=sys.stderr)
@@ -128,7 +137,7 @@ def main():
     temporary = ROOT/'dist/regions.json.tmp'
     temporary.write_text(encoded)
     temporary.replace(local)
-    print(f'Prepared {len(regions)} regions; {34-failures}/34 lists refreshed. Only species IDs, labels, counts and timestamps are published.')
+    print(f'Prepared {len(regions)} regions; {len(regions)*2-failures}/{len(regions)*2} lists refreshed. Only species IDs, labels, counts and timestamps are published.')
     return 0
 
 if __name__ == '__main__':

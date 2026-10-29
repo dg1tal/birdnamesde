@@ -1,0 +1,4 @@
+[
+  {"code":"DE","nameDe":"Deutschland","nameEn":"Germany","expectedSubregions":16},
+  {"code":"NL","nameDe":"Niederlande","nameEn":"Netherlands","expectedSubregions":12}
+]

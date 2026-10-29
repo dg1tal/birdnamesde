@@ -7,3 +7,8 @@ node_modules/
 data/dog.pdf
 data/dog.txt
 data/*-output.txt
+
+# Generated snapshots and Python bytecode
+dist/regions.json
+dist/regions.json.tmp
+__pycache__/

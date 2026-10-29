@@ -1,10 +1,11 @@
+import {isNameLanguage} from './name-languages.js';
 // Serializable lesson state. Grading and navigation are separate so restored
 // feedback cannot grade an answer twice.
 export function validateLesson(value, ids) {
   if (!value || value.version !== 1 || !Array.isArray(value.queue) || !value.queue.length || value.queue.length > 939) return null;
   if (!Number.isInteger(value.index) || value.index < 0 || value.index >= value.queue.length) return null;
   if (!['text','flash','mc'].includes(value.method)) return null;
-  if (!value.queue.every(i => i && ids.has(i.id) && ['en','de','code'].includes(i.t) && Number.isInteger(i.retry) && i.retry >= 0 && i.retry <= 2)) return null;
+  if (!value.queue.every(i => i && ids.has(i.id) && (isNameLanguage(i.t)||i.t==='code') && Number.isInteger(i.retry) && i.retry >= 0 && i.retry <= 2)) return null;
   for (const field of ['answered','correct','firstAnswered','firstCorrect']) if (!Number.isInteger(value[field]) || value[field] < 0) return null;
   if (value.correct > value.answered || value.firstCorrect > value.firstAnswered || value.firstAnswered > value.answered) return null;
   if (typeof value.done !== 'boolean' || typeof value.paused !== 'boolean' || typeof value.hint !== 'boolean') return null;
@@ -13,6 +14,8 @@ export function validateLesson(value, ids) {
   if(value.firstAnswered !== value.queue.slice(0,value.index+(value.done?1:0)).filter(i=>!i.retry).length) return null;
   if(value.regionIds!=null&&(!Array.isArray(value.regionIds)||value.regionIds.length>ids.size||!value.regionIds.every(id=>ids.has(id))||!value.queue.every(i=>value.regionIds.includes(i.id))))return null;
   if(value.regionLabel!==undefined&&(typeof value.regionLabel!=='string'||value.regionLabel.length>150))return null;
+  if(value.sourceLanguage!==undefined&&!isNameLanguage(value.sourceLanguage))return null;
+  if(value.nameLanguage!==undefined&&!isNameLanguage(value.nameLanguage))return null;
   const lesson = structuredClone(value);
   lesson.photos = !!lesson.photos;
   lesson.revealed = !!lesson.revealed;

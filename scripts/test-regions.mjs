@@ -9,6 +9,7 @@ assert(regionAllows(data,'','recent','grnsan'));assert(regionAllows(data,'DE','r
 assert(!regionAllows(null,'DE','recent','eurbla'));assert(!regionAllows(data,'DE-BY','recent','eurbla'));assert.equal(regionalSelection(data,'DE-BY','all'),null);
 assert(!regionalDataStale(list,now));assert(regionalDataStale(list,now+4*86400000));
 for(const bad of [{...source,version:2},{...source,regions:[...source.regions,...source.regions]},{...source,regions:[{...source.regions[0],recent:{...list,ids:['unknown']}}]},{...source,regions:[{...source.regions[0],recent:{...list,updatedAt:'not-a-date'}}]}])assert.throws(()=>validateRegions(bad,ids));
+const nl=validateRegions({...source,regions:[{...source.regions[0],code:'NL',nameDe:'Niederlande',nameEn:'Netherlands'},{...source.regions[0],code:'NL-NH',nameDe:'Noord-Holland',nameEn:'Noord-Holland'}]},ids);assert.equal(nl.countries[0].code,'NL');assert(regionAllows(nl,'NL-NH','recent','eurbla'));
 const empty=validateRegions({...source,regions:[{...source.regions[0],recent:{...list,ids:[],reportedTaxa:0}}]},ids);assert(!regionAllows(empty,'DE','recent','eurbla'));
 const missing=validateRegions({...source,regions:[{...source.regions[0],recent:null}]},ids);assert(!regionAllows(missing,'DE','recent','eurbla'));
 const lesson={version:1,queue:[{id:'eurbla',t:'de',retry:0}],regionIds:['eurbla'],regionLabel:'Germany',index:0,method:'mc',answered:0,correct:0,firstAnswered:0,firstCorrect:0,done:false,paused:true,hint:false};assert(validateLesson(lesson,ids));assert(!validateLesson({...lesson,regionIds:['grnsan']},ids));

@@ -206,3 +206,5 @@ header{flex-wrap:wrap;gap:8px}
 #theme-picker .theme-option:hover{background:var(--soft);color:var(--ink)}
 #theme-picker .theme-option:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 #theme-picker svg{pointer-events:none}
+
+.name-language-settings .settings{margin-bottom:8px}.stats-language{max-width:320px;margin-bottom:20px}.translated-name{margin:8px 0}

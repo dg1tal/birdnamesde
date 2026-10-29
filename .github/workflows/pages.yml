@@ -29,6 +29,10 @@ jobs:
         run: |
           python3 -m unittest discover -s scripts -p 'test_regions.py'
           node scripts/test-regions.mjs
+          node scripts/test-multilingual.mjs
+          node scripts/test-study-state.mjs
+          node --check dist/app.js
+          node --check dist/i18n.js
       - name: Refresh eBird regional species lists
         env:
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}

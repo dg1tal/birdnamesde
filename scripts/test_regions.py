@@ -18,6 +18,12 @@ class RegionTests(unittest.TestCase):
         self.assertNotIn('secret',m.safe_previous(data,{'eurbla'})['DE']['recent'])
         data['regions'][0]['recent']['ids']=['unknown']
         self.assertEqual(m.safe_previous(data,{'eurbla'})['DE'],{})
+    def test_supported_countries(self):
+        self.assertTrue(m.supported_region('NL'))
+        self.assertTrue(m.supported_region('NL-NH'))
+        self.assertFalse(m.supported_region('FR'))
+        self.assertFalse(m.supported_region('NL/../../secret'))
+
     def test_no_cross_host_credential(self):
         with self.assertRaises(ValueError):m.request_json('https://example.com','fake-test-token')
 
