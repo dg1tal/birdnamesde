@@ -49,11 +49,20 @@ window.visualViewport?.addEventListener('scroll',updateStudyViewport);
 window.addEventListener('resize',updateStudyViewport);
 
 const key=(s,t)=>s.id+':'+t,progress=(s,t)=>records[key(s,t)];
-try{theme=localStorage.getItem('birdnames-theme')||'system';}catch{}
-function applyTheme(){document.body.classList.toggle('dark',theme==='dark'||(theme==='system'&&matchMedia('(prefers-color-scheme:dark)').matches));const label={system:'Automatisch',light:'Hell',dark:'Dunkel'}[theme];$('#theme').title='Farbschema: '+label;$('#theme').setAttribute('aria-label','Farbschema: '+label+'. Wechseln');}
+try{const savedTheme=localStorage.getItem('birdnames-theme');if(['system','light','dark'].includes(savedTheme))theme=savedTheme;}catch{}
+function applyTheme(){
+ document.body.classList.toggle('dark',theme==='dark'||(theme==='system'&&matchMedia('(prefers-color-scheme:dark)').matches));
+ $('#theme-picker').setAttribute('aria-label',english?'Appearance':'Farbschema');
+ const labels=english?{system:'System settings',light:'Day',dark:'Night'}:{system:'Systemeinstellungen',light:'Tag',dark:'Nacht'};
+ document.querySelectorAll('[data-theme]').forEach(button=>{
+  const selected=button.dataset.theme===theme;
+  button.setAttribute('aria-pressed',String(selected));button.title=labels[button.dataset.theme];button.setAttribute('aria-label',labels[button.dataset.theme]);
+ });
+}
 localize();
 $('#language').onclick=async()=>{if(session)session.paused=true;rememberLookup();await save();try{localStorage.setItem('birdnames-language',english?'de':'en');}catch{}location.reload();};
-applyTheme();matchMedia('(prefers-color-scheme:dark)').addEventListener('change',applyTheme);$('#theme').onclick=()=>{theme=theme==='system'?'light':theme==='light'?'dark':'system';applyTheme();try{localStorage.setItem('birdnames-theme',theme)}catch{}};
+applyTheme();matchMedia('(prefers-color-scheme:dark)').addEventListener('change',applyTheme);
+document.querySelectorAll('[data-theme]').forEach(button=>button.onclick=()=>{theme=button.dataset.theme;applyTheme();try{localStorage.setItem('birdnames-theme',theme)}catch{}});
 async function initDB(){return new Promise((resolve,reject)=>{
  const req=indexedDB.open('birdnames-de',1);req.onupgradeneeded=()=>req.result.createObjectStore('state');req.onerror=()=>reject(req.error);
  req.onsuccess=()=>{db=req.result;const tx=db.transaction('state'),store=tx.objectStore('state'),r=store.get('records'),lesson=store.get(english?'lesson-en':'lesson');

@@ -196,3 +196,13 @@ body.studying .german-names p{font-size:14px;margin:6px 0}
 body.studying .name-sources ul{display:inline-block;max-width:100%;text-align:left}
 
 .header-controls{display:flex;gap:8px;align-items:center}#language{font-weight:700;white-space:nowrap}body.studying>header{display:flex}body.studying>header .brand{font-size:16px}
+
+/* Direct theme choices stay visible alongside the language control. */
+header{flex-wrap:wrap;gap:8px}
+.header-controls{margin-left:auto}
+#theme-picker{display:inline-flex;gap:2px;padding:3px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+#theme-picker .theme-option{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;min-height:44px;padding:0;margin:0;border:1px solid transparent;border-radius:8px;background:transparent;color:var(--muted)}
+#theme-picker .theme-option[aria-pressed="true"]{background:var(--soft);color:var(--ink);border-color:var(--accent)}
+#theme-picker .theme-option:hover{background:var(--soft);color:var(--ink)}
+#theme-picker .theme-option:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#theme-picker svg{pointer-events:none}
