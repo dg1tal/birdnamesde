@@ -30,6 +30,7 @@ jobs:
           python3 -m unittest discover -s scripts -p 'test_regions.py'
           node scripts/test-regions.mjs
           node scripts/test-multilingual.mjs
+          node scripts/test-editorial-translations.mjs
           node scripts/test-study-state.mjs
           node scripts/test-learning-settings.mjs
           node --check dist/app.js
