@@ -11,6 +11,8 @@ export function validateLesson(value, ids) {
   if (value.done && (!value.result || typeof value.result.correct !== 'boolean' || typeof value.result.answer !== 'string')) return null;
   if(value.answered !== value.index + (value.done?1:0)) return null;
   if(value.firstAnswered !== value.queue.slice(0,value.index+(value.done?1:0)).filter(i=>!i.retry).length) return null;
+  if(value.regionIds!=null&&(!Array.isArray(value.regionIds)||value.regionIds.length>ids.size||!value.regionIds.every(id=>ids.has(id))||!value.queue.every(i=>value.regionIds.includes(i.id))))return null;
+  if(value.regionLabel!==undefined&&(typeof value.regionLabel!=='string'||value.regionLabel.length>150))return null;
   const lesson = structuredClone(value);
   lesson.photos = !!lesson.photos;
   lesson.revealed = !!lesson.revealed;

@@ -1,15 +1,17 @@
-import {english,localize,t} from './i18n.js?v=20261029-en3';
+import {validateRegions,regionalSelection,regionAllows,regionalDataStale} from './regions.js?v=20261029-regions1';
+import {english,localize,t} from './i18n.js?v=20261029-regions1';
 const nameTarget=english?'de':'en';
-import {validateLesson,lessonProgress,recordLessonAnswer} from './study-state.js?v=20261029-en3';
+import {validateLesson,lessonProgress,recordLessonAnswer} from './study-state.js?v=20261029-regions1';
 import {createPhotoCache} from './photo-cache.js';
-import {normalize,matches,accepts,review,mastered,due,validProgress} from './logic.js?v=20261029-en3';
+import {normalize,matches,accepts,review,mastered,due,validProgress} from './logic.js?v=20261029-regions1';
 const $=s=>document.querySelector(s),app=$('#app');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let birds=[],meta={},records={},db,storageOK=true,session=null,theme='system';
 // Loaded separately from the taxonomy so media updates cannot overwrite species data.
 let photos={};
 let germanNamesMeta={};
-const defaults={lookup:{query:'',group:'',level:'',photos:false,scroll:0},learn:{target:nameTarget,method:'mc',scope:'all',count:'10',levels:[1],groups:null,ids:[],photos:true}};
+let regionalData=null;
+const defaults={lookup:{query:'',group:'',level:'',photos:false,scroll:0},learn:{target:nameTarget,method:'mc',scope:'all',count:'10',levels:[1],groups:null,ids:[],photos:true,region:'',regionMode:'recent'}};
 let ui=structuredClone(defaults);
 try{const stored=JSON.parse(localStorage.getItem((english?'birdnames-ui-en':'birdnames-ui'))||'null');if(stored&&typeof stored==='object'){ui.lookup={...ui.lookup,...stored.lookup};ui.learn={...ui.learn,...stored.learn};}}catch{}
 function saveUI(){try{localStorage.setItem((english?'birdnames-ui-en':'birdnames-ui'),JSON.stringify(ui));}catch{}}
@@ -98,6 +100,20 @@ function lookup() {
   $('#back-top').onclick=()=>{window.scrollTo(0,0);$('#search').focus({preventScroll:true});};
   update();requestAnimationFrame(()=>window.scrollTo(0,state.scroll||0));
 }
+function regionControls(cfg){
+ const available=regionalData?.regions||[];
+ const unavailable=cfg.region&&!available.some(r=>r.code===cfg.region)?opt(cfg.region,english?'Saved region (data unavailable)':'Gespeicherte Region (Daten nicht verfügbar)',true):'';
+ return `<fieldset class="region-settings"><legend>${english?'Learn for a region':'Für eine Region lernen'}</legend><div class="settings"><div class="field"><label for="region">${english?'Region':'Region'}</label><select id="region">${opt('',english?'All species in the app':'Alle Arten der App',!cfg.region)}${unavailable}${available.map(r=>opt(r.code,english?r.nameEn:r.nameDe,r.code===cfg.region)).join('')}</select></div><div class="field"><label for="region-mode">${english?'Regional list':'Regionale Auswahl'}</label><select id="region-mode">${opt('recent',english?'Observed in the last 30 days':'In den letzten 30 Tagen beobachtet',cfg.regionMode==='recent')}${opt('all',english?'All recorded taxa':'Alle dort nachgewiesenen Taxa',cfg.regionMode==='all')}</select></div></div><p id="region-status" role="status"></p><p class="muted">${english?'Regional lists filter the existing 313 species. Recent reports are not a frequency ranking or a promise of sightings. All-time lists can include historical rarities.':'Regionale Listen filtern die vorhandenen 313 Arten. Aktuelle Meldungen sind keine Häufigkeitsrangliste oder Sichtungsgarantie. Gesamtlisten können historische Seltenheiten enthalten.'}</p></fieldset>`;
+}
+function updateRegionStatus(cfg){
+ const el=$('#region-status');const list=regionalSelection(regionalData,cfg.region,cfg.regionMode);
+ $('#region-mode').disabled=!cfg.region;
+ if(!cfg.region){el.textContent=regionalData?(english?'Choose Germany or a federal state to limit your quiz.':'Wähle Deutschland oder ein Bundesland, um dein Quiz einzugrenzen.'):(english?'Regional lists could not be loaded. You can still study without a region.':'Regionale Listen konnten nicht geladen werden. Ohne Regionsfilter kannst du weiterhin lernen.');return;}
+ if(!list){el.textContent=english?'This regional list is unavailable. Choose another list or region, or remove the regional filter.':'Diese regionale Liste ist nicht verfügbar. Wähle eine andere Liste oder Region oder entferne den Regionsfilter.';return;}
+ const date=new Date(list.updatedAt).toLocaleString(english?'en-GB':'de-DE');
+ el.textContent=english?`${list.ids.length} species available in our learning data · Updated: ${date}. eBird reports ${list.reportedTaxa} taxa in this list; additional taxa are outside this app’s learning data.`:`${list.ids.length} Arten in unserem Lernbestand verfügbar · Datenstand: ${date}. eBird meldet ${list.reportedTaxa} Taxa in dieser Liste; weitere Taxa sind nicht Teil unseres Lernbestands.`;
+ if(regionalDataStale(list))el.textContent+=' '+(english?'Warning: this snapshot is more than three days old; the last successful list is being used.':'Achtung: Dieser Datenstand ist älter als drei Tage; verwendet wird die letzte erfolgreiche Liste.');
+}
 function learn(preset) {
   if (preset) {
     if(session)session.paused=true;
@@ -107,19 +123,19 @@ function learn(preset) {
   if(session&&!session.paused){renderQuestion();return;}
   studyMode(false);
   const cfg=ui.learn;
-  app.innerHTML=`<h1>Lerneinheit</h1>${storageNotice()}${session?`<section class="panel resume-panel" aria-labelledby="resume-title"><h2 id="resume-title">Pausierte Einheit</h2><p>${lessonProgress(session).completed} von ${lessonProgress(session).total} Fragen beantwortet · ${lessonProgress(session).repeats} ${lessonProgress(session).repeats===1?'Wiederholung':'Wiederholungen'} offen</p><div class="toolbar"><button id="resume" class="primary">Einheit fortsetzen →</button><button id="finish-paused">Einheit abschließen</button></div><p class="muted">Deine bisherigen Antworten sind gespeichert. Schließe diese Einheit ab, bevor du eine neue beginnst.</p></section>`:''}<form id="setup" class="panel"><h2>Neue Einheit zusammenstellen</h2><div class="settings"><div class="field"><label for="target">Lernziel</label><select id="target">${opt(nameTarget,'Englische Namen',cfg.target===nameTarget)+opt('code','Quick Find Codes',cfg.target==='code')+opt('mixed','Namen und Codes, abwechselnd',cfg.target==='mixed')}</select></div><div class="field"><label for="method">Antwortmethode</label><select id="method">${opt('text','Aktive Texteingabe',cfg.method==='text')+opt('flash','Karteikarten',cfg.method==='flash')+opt('mc','Multiple Choice',cfg.method==='mc')}</select></div><div class="field"><label for="scope">Lernstand</label><select id="scope">${opt('all','Alle Arten',cfg.scope==='all')+opt('unmastered','Noch nicht beherrscht',cfg.scope==='unmastered')+opt('due','Nur fällige Wiederholungen',cfg.scope==='due')+opt('wrong','Zuletzt falsch beantwortet',cfg.scope==='wrong')}</select></div><div class="field"><label for="count">Fragen pro Einheit</label><select id="count">${[10,15,25].map(n=>opt(n,n+' Fragen',cfg.count===String(n))).join('')+opt('all','Alle passenden Arten',cfg.count==='all')}</select></div></div><fieldset><legend>Wortschatz</legend>${levels.map((l,i)=>`<label class="check-row"><input name="levels" type="checkbox" value="${i+1}" ${cfg.levels.includes(i+1)?'checked':''}>${l}</label>`).join('')}</fieldset><details id="group-selection"><summary>Artengruppen <span id="group-summary"></span></summary><div class="group-picker"><label for="group-search">Gruppen suchen</label><input type="search" id="group-search" placeholder="Zum Beispiel Enten oder Spechte"><div class="toolbar"><button type="button" id="all-groups">Alle Gruppen</button><button type="button" id="no-groups">Auswahl löschen</button></div><div id="selected-groups" class="active-filters"></div><fieldset><legend>Eine oder mehrere Gruppen</legend><div class="group-list">${groups().map(g=>`<label class="check-row" data-group-label="${esc(g)}"><input type="checkbox" name="groups" value="${esc(g)}" ${cfg.groups.includes(g)?'checked':''}>${esc(g)} <span class="muted">(${birds.filter(s=>s.group===g).length})</span></label>`).join('')}</div><p id="group-empty" hidden>Keine passende Gruppe.</p></fieldset></div></details>${cfg.ids.length?`<div class="notice" id="species-selection"><p>${cfg.ids.length} gezielt ${cfg.ids.length===1?'ausgewählte Art':'ausgewählte Arten'} aus der Statistik.</p><button type="button" id="clear-species">Artenauswahl aufheben</button></div>`:''}<label class="photo-option learn-photo-option"><input type="checkbox" id="learn-photos" ${cfg.photos?'checked':''}>Artenbilder nach der Antwort anzeigen</label><p class="selection-count" id="selection-count" role="status"></p><div class="actions"><button id="start-lesson" class="primary" type="submit">Lerneinheit starten →</button></div><p class="form-note">US- und GB-Namen sowie hinterlegte Alternativnamen werden akzeptiert. Namen und Codes haben getrennte Lernstände. Fehler werden zusätzlich wiederholt.</p></form>`;
+  app.innerHTML=`<h1>Lerneinheit</h1>${storageNotice()}${session?`<section class="panel resume-panel" aria-labelledby="resume-title"><h2 id="resume-title">Pausierte Einheit</h2><p>${lessonProgress(session).completed} von ${lessonProgress(session).total} Fragen beantwortet · ${lessonProgress(session).repeats} ${lessonProgress(session).repeats===1?'Wiederholung':'Wiederholungen'} offen</p><div class="toolbar"><button id="resume" class="primary">Einheit fortsetzen →</button><button id="finish-paused">Einheit abschließen</button></div><p class="muted">Deine bisherigen Antworten sind gespeichert. Schließe diese Einheit ab, bevor du eine neue beginnst.</p></section>`:''}<form id="setup" class="panel"><h2>Neue Einheit zusammenstellen</h2>${regionControls(cfg)}<div class="settings"><div class="field"><label for="target">Lernziel</label><select id="target">${opt(nameTarget,'Englische Namen',cfg.target===nameTarget)+opt('code','Quick Find Codes',cfg.target==='code')+opt('mixed','Namen und Codes, abwechselnd',cfg.target==='mixed')}</select></div><div class="field"><label for="method">Antwortmethode</label><select id="method">${opt('text','Aktive Texteingabe',cfg.method==='text')+opt('flash','Karteikarten',cfg.method==='flash')+opt('mc','Multiple Choice',cfg.method==='mc')}</select></div><div class="field"><label for="scope">Lernstand</label><select id="scope">${opt('all','Alle Arten',cfg.scope==='all')+opt('unmastered','Noch nicht beherrscht',cfg.scope==='unmastered')+opt('due','Nur fällige Wiederholungen',cfg.scope==='due')+opt('wrong','Zuletzt falsch beantwortet',cfg.scope==='wrong')}</select></div><div class="field"><label for="count">Fragen pro Einheit</label><select id="count">${[10,15,25].map(n=>opt(n,n+' Fragen',cfg.count===String(n))).join('')+opt('all','Alle passenden Arten',cfg.count==='all')}</select></div></div><fieldset><legend>Wortschatz</legend>${levels.map((l,i)=>`<label class="check-row"><input name="levels" type="checkbox" value="${i+1}" ${cfg.levels.includes(i+1)?'checked':''}>${l}</label>`).join('')}</fieldset><details id="group-selection"><summary>Artengruppen <span id="group-summary"></span></summary><div class="group-picker"><label for="group-search">Gruppen suchen</label><input type="search" id="group-search" placeholder="Zum Beispiel Enten oder Spechte"><div class="toolbar"><button type="button" id="all-groups">Alle Gruppen</button><button type="button" id="no-groups">Auswahl löschen</button></div><div id="selected-groups" class="active-filters"></div><fieldset><legend>Eine oder mehrere Gruppen</legend><div class="group-list">${groups().map(g=>`<label class="check-row" data-group-label="${esc(g)}"><input type="checkbox" name="groups" value="${esc(g)}" ${cfg.groups.includes(g)?'checked':''}>${esc(g)} <span class="muted">(${birds.filter(s=>s.group===g).length})</span></label>`).join('')}</div><p id="group-empty" hidden>Keine passende Gruppe.</p></fieldset></div></details>${cfg.ids.length?`<div class="notice" id="species-selection"><p>${cfg.ids.length} gezielt ${cfg.ids.length===1?'ausgewählte Art':'ausgewählte Arten'} aus der Statistik.</p><button type="button" id="clear-species">Artenauswahl aufheben</button></div>`:''}<label class="photo-option learn-photo-option"><input type="checkbox" id="learn-photos" ${cfg.photos?'checked':''}>Artenbilder nach der Antwort anzeigen</label><p class="selection-count" id="selection-count" role="status"></p><div class="actions"><button id="start-lesson" class="primary" type="submit">Lerneinheit starten →</button></div><p class="form-note">US- und GB-Namen sowie hinterlegte Alternativnamen werden akzeptiert. Namen und Codes haben getrennte Lernstände. Fehler werden zusätzlich wiederholt.</p></form>`;
   const readSettings=()=>{
-    Object.assign(cfg,{target:$('#target').value,method:$('#method').value,scope:$('#scope').value,count:$('#count').value,levels:[...document.querySelectorAll('[name=levels]:checked')].map(x=>+x.value),groups:[...document.querySelectorAll('[name=groups]:checked')].map(x=>x.value),photos:$('#learn-photos').checked});
+    Object.assign(cfg,{region:$('#region').value,regionMode:$('#region-mode').value,target:$('#target').value,method:$('#method').value,scope:$('#scope').value,count:$('#count').value,levels:[...document.querySelectorAll('[name=levels]:checked')].map(x=>+x.value),groups:[...document.querySelectorAll('[name=groups]:checked')].map(x=>x.value),photos:$('#learn-photos').checked});
     learnPhotos=cfg.photos;saveUI();
   };
   const selection=()=>{
     const ts=cfg.target==='mixed'?[nameTarget,'code']:[cfg.target];
     const eligible=(s,t)=>cfg.scope==='all'||cfg.scope==='unmastered'&&!mastered(progress(s,t))||cfg.scope==='due'&&due(progress(s,t))||cfg.scope==='wrong'&&progress(s,t)?.lastWrong;
-    const pool=birds.filter(s=>cfg.levels.includes(s.level)&&cfg.groups.includes(s.group)&&(!cfg.ids.length||cfg.ids.includes(s.id))&&ts.some(t=>eligible(s,t)));
+    const pool=birds.filter(s=>regionAllows(regionalData,cfg.region,cfg.regionMode,s.id)&&cfg.levels.includes(s.level)&&cfg.groups.includes(s.group)&&(!cfg.ids.length||cfg.ids.includes(s.id))&&ts.some(t=>eligible(s,t)));
     return {pool,eligible,target:cfg.target};
   };
   const update=()=>{
-    readSettings();const n=selection().pool.length;
+    readSettings();updateRegionStatus(cfg);const n=selection().pool.length;
     $('#selection-count').textContent=n?`${n} ${n===1?'Art passt':'Arten passen'} zur Auswahl.`:'Keine passenden Arten. Erweitere Wortschatz, Gruppen oder Lernstand.';
     $('#start-lesson').disabled=!n||!!session;
     $('#group-summary').textContent=cfg.groups.length===groups().length?'· alle':`· ${cfg.groups.length} ausgewählt`;
@@ -141,7 +157,7 @@ function learn(preset) {
     pool=pool.map(s=>({s,r:Math.random()})).sort((a,b)=>rank(a.s)-rank(b.s)||a.r-b.r).map(x=>x.s);
     const n=cfg.count==='all'?pool.length:Math.min(+cfg.count,pool.length);
     const queue=pool.slice(0,n).map((s,i)=>{let t=target==='mixed'?(i%2?'code':nameTarget):target;if(!eligible(s,t))t=t===nameTarget?'code':nameTarget;return {id:s.id,t,retry:0};});
-    session={version:1,queue,index:0,correct:0,answered:0,firstAnswered:0,firstCorrect:0,method:cfg.method,photos:cfg.photos,paused:false,done:false,hint:false,result:null,draft:''};
+    session={version:1,regionIds:cfg.region?[...regionalSelection(regionalData,cfg.region,cfg.regionMode).ids]:null,regionLabel:cfg.region?(english?regionalData.regions.find(r=>r.code===cfg.region).nameEn:regionalData.regions.find(r=>r.code===cfg.region).nameDe):'',queue,index:0,correct:0,answered:0,firstAnswered:0,firstCorrect:0,method:cfg.method,photos:cfg.photos,paused:false,done:false,hint:false,result:null,draft:''};
     save();renderQuestion();
   };
 }
@@ -155,7 +171,7 @@ function renderQuestion() {
   const x=session;if(!x)return learn();if(x.index>=x.queue.length){endLesson();return;}
   studyMode(true);window.scrollTo(0,0);warmStudyPhotos(x);
   const item=x.queue[x.index],s=birds.find(s=>s.id===item.id),p=lessonProgress(x),target=item.t===nameTarget?'Englischer Name':'Quick Find Code';
-  app.innerHTML=`<div class="session"><div class="meta"><span id="lesson-progress">${p.completed} von ${p.total} Fragen beantwortet${item.retry?' · Wiederholung':''}<span class="repeat-count">${p.repeats} ${p.repeats===1?'Wiederholung':'Wiederholungen'} offen</span></span><div class="lesson-controls"><button id="pause" class="quiet">Pausieren</button><button id="stop" class="quiet">Abschließen</button></div></div><progress value="${p.completed}" max="${p.total}" aria-label="Ursprüngliche Fragen beantwortet"></progress><div class="panel question"><div class="eyebrow">Deutsch → ${target}</div><h1>${esc(english?s.en:s.de)}</h1><div id="answer-area"></div><div id="feedback" aria-live="polite" aria-atomic="false"></div></div>${storageNotice()}</div>`;
+  app.innerHTML=`<div class="session"><div class="meta"><span id="lesson-progress">${p.completed} von ${p.total} Fragen beantwortet${item.retry?' · Wiederholung':''}<span class="repeat-count">${p.repeats} ${p.repeats===1?'Wiederholung':'Wiederholungen'} offen</span></span><div class="lesson-controls"><button id="pause" class="quiet">Pausieren</button><button id="stop" class="quiet">Abschließen</button></div></div><progress value="${p.completed}" max="${p.total}" aria-label="Ursprüngliche Fragen beantwortet"></progress><div class="panel question"><div class="eyebrow">Deutsch → ${target}</div>${x.regionLabel?`<p class="muted">Region: ${esc(x.regionLabel)}</p>`:''}<h1>${esc(english?s.en:s.de)}</h1><div id="answer-area"></div><div id="feedback" aria-live="polite" aria-atomic="false"></div></div>${storageNotice()}</div>`;
   $('#pause').onclick=()=>{x.paused=true;save();learn();window.scrollTo(0,0);focusHeading();};$('#stop').onclick=endLesson;
   if(x.done){renderFeedback(s,item);return;}
   const area=$('#answer-area');
@@ -172,7 +188,7 @@ function renderQuestion() {
   }
   if(x.method==='mc') {
     const value=b=>item.t===nameTarget?(english?b.de:b.en):b.codes[0],correct=value(s);
-    const pool=birds.filter(b=>b.id!==s.id&&!accepts(s,item.t,value(b))).map(b=>({b,r:Math.random()})).sort((a,b)=>+(b.b.group===s.group)-+(a.b.group===s.group)||a.r-b.r);
+    const pool=birds.filter(b=>(!x.regionIds||x.regionIds.includes(b.id))&&b.id!==s.id&&!accepts(s,item.t,value(b))).map(b=>({b,r:Math.random()})).sort((a,b)=>+(b.b.group===s.group)-+(a.b.group===s.group)||a.r-b.r);
     let answers=[correct];for(const {b}of pool)if(!answers.includes(value(b))&&answers.length<4)answers.push(value(b));
     answers=answers.map(v=>({v,r:Math.random()})).sort((a,b)=>a.r-b.r).map(x=>x.v);
     area.innerHTML='<div class="choices" role="group" aria-label="Antwort auswählen">'+answers.map((v,i)=>`<button data-choice="${i}">${esc(v)}</button>`).join('')+'</div>';
@@ -231,6 +247,9 @@ const allGroups=groups(),ids=new Set(birds.map(s=>s.id));
 ui.lookup.query=typeof ui.lookup.query==='string'?ui.lookup.query:'';ui.lookup.group=allGroups.includes(ui.lookup.group)?ui.lookup.group:'';ui.lookup.level=['1','2','3'].includes(ui.lookup.level)?ui.lookup.level:'';ui.lookup.scroll=Number.isFinite(ui.lookup.scroll)?Math.max(0,ui.lookup.scroll):0;
 ui.learn.groups=Array.isArray(ui.learn.groups)?ui.learn.groups.filter(g=>allGroups.includes(g)):allGroups;
 ui.learn.ids=Array.isArray(ui.learn.ids)?ui.learn.ids.filter(id=>ids.has(id)):[];
+ui.learn.region=typeof ui.learn.region==='string'&&/^DE(?:-[A-Z]{2})?$/.test(ui.learn.region)?ui.learn.region:'';
+ui.learn.regionMode=['all','recent'].includes(ui.learn.regionMode)?ui.learn.regionMode:'recent';
 ui.learn.levels=Array.isArray(ui.learn.levels)?ui.learn.levels.filter(n=>[1,2,3].includes(n)):[1];
 for(const [field,options]of Object.entries({target:[nameTarget,'code','mixed'],method:['text','flash','mc'],scope:['all','unmastered','due','wrong'],count:['10','15','25','all']}))if(!options.includes(ui.learn[field]))ui.learn[field]=defaults.learn[field];
+try{const response=await fetch('regions.json',{cache:'no-cache'});if(response.ok)regionalData=validateRegions(await response.json(),ids);}catch{console.warn('Regional lists unavailable');}
 try{photos=(await(await fetch('photos.json')).json()).photos}catch(err){console.warn('Artenbilder nicht geladen',err)}try{await initDB()}catch{storageOK=false}window.addEventListener('hashchange',route);route();}catch(err){app.innerHTML='<h1>Daten konnten nicht geladen werden.</h1><p>Bitte Seite erneut laden.</p>';console.error(err)}

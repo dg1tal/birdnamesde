@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {validateRegions,regionalSelection,regionAllows,regionalDataStale} from '../dist/regions.js';
+import {validateLesson} from '../dist/study-state.js';
+const ids=new Set(['eurbla','grnsan']);const now=Date.now();
+const list={ids:['eurbla'],reportedTaxa:7,updatedAt:new Date(now).toISOString()};
+const source={version:1,recentDays:30,regions:[{code:'DE',nameDe:'Deutschland',nameEn:'Germany',recent:list,all:{...list,ids:[...ids]}}]};
+const data=validateRegions(source,ids);
+assert(regionAllows(data,'','recent','grnsan'));assert(regionAllows(data,'DE','recent','eurbla'));assert(!regionAllows(data,'DE','recent','grnsan'));assert(regionAllows(data,'DE','all','grnsan'));
+assert(!regionAllows(null,'DE','recent','eurbla'));assert(!regionAllows(data,'DE-BY','recent','eurbla'));assert.equal(regionalSelection(data,'DE-BY','all'),null);
+assert(!regionalDataStale(list,now));assert(regionalDataStale(list,now+4*86400000));
+for(const bad of [{...source,version:2},{...source,regions:[...source.regions,...source.regions]},{...source,regions:[{...source.regions[0],recent:{...list,ids:['unknown']}}]},{...source,regions:[{...source.regions[0],recent:{...list,updatedAt:'not-a-date'}}]}])assert.throws(()=>validateRegions(bad,ids));
+const empty=validateRegions({...source,regions:[{...source.regions[0],recent:{...list,ids:[],reportedTaxa:0}}]},ids);assert(!regionAllows(empty,'DE','recent','eurbla'));
+const missing=validateRegions({...source,regions:[{...source.regions[0],recent:null}]},ids);assert(!regionAllows(missing,'DE','recent','eurbla'));
+const lesson={version:1,queue:[{id:'eurbla',t:'de',retry:0}],regionIds:['eurbla'],regionLabel:'Germany',index:0,method:'mc',answered:0,correct:0,firstAnswered:0,firstCorrect:0,done:false,paused:true,hint:false};assert(validateLesson(lesson,ids));assert(!validateLesson({...lesson,regionIds:['grnsan']},ids));
+console.log('PASS: regional intersection, modes, missing/empty data fail closed, schema validation, stale data and lesson recovery.');

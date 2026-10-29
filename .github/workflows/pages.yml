@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "23 4 * * *"
 
 permissions:
   contents: read
@@ -20,8 +22,17 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: Check regional data code
+        run: |
+          python3 -m unittest discover -s scripts -p 'test_regions.py'
+          node scripts/test-regions.mjs
+      - name: Refresh eBird regional species lists
+        env:
+          EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
+        run: python3 scripts/update-regions.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
