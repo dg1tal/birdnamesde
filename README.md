@@ -67,3 +67,9 @@ See `docs/ui-ux-update-20261021.md` for the approved UX scope, storage compatibi
 ## German alternative and historical names
 
 `dist/german-names.json` adds a sourced editorial overlay without changing the eBird species dataset. Names are separated into current alternatives (including regional and traditional names) and historical attestations, with per-name source and usage notes. `dist/logic.js` includes these names in search; English and code answers retain their existing acceptance rules. Lookup and all answer reveals/feedback share the same centered-in-study display. See `docs/german-names-update-20261022.md` and run `node scripts/test-german-names.mjs`.
+
+## English interface and reverse learning
+
+The header language button switches between German UI (German → English) and English UI (English → German), including during a lesson. It saves and pauses the current lesson before switching. The language choice persists in this browser. Each direction retains its own settings and paused lesson. German-name progress uses `species-id:de`; existing `:en` and shared `:code` records retain their meaning. JSON export/import includes all directions and remains compatible with existing version-1 backups.
+
+English mode supports text, flashcards and multiple choice. German main names and sourced current alternatives are accepted; historical or ambiguous overlay names are excluded. Umlaut transliterations (`ae`, `oe`, `ue`) and `ss` are accepted. UI labels and species groups are translated by `dist/i18n.js`; original species names, attribution and source notes are retained. English data/privacy text explains both directions. Run `node scripts/test-language-mode.mjs` alongside the existing tests.
