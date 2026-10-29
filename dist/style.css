@@ -216,3 +216,19 @@ header{flex-wrap:wrap;gap:8px}
 .lookup-name-list dd{margin:3px 0 0}
 .lookup-name-list dd p,.lookup-name-list dd .english-variants{margin:0}
 .lookup-name-list .latin{font-size:15px}
+
+/* Keep the learning pair and start action ahead of optional settings. */
+.name-language-settings .settings{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.name-language-settings .field label{margin:0;min-height:0}
+.name-language-settings #name-language-status{font-size:13px;color:var(--muted);margin-bottom:0}
+.name-language-settings:has([aria-invalid="true"]){border-color:var(--bad)}
+.name-language-settings:has([aria-invalid="true"]) #name-language-status{color:var(--bad)}
+.setup-start .selection-count{margin:10px 0}
+.setup-start .actions{justify-content:flex-start;margin-top:10px}
+.setup-start #setup-summary{font-size:13px;line-height:1.6;margin:14px 0 18px}
+#lesson-options{border-top:1px solid var(--line);padding-top:8px}
+#lesson-options>summary{font-weight:650;color:var(--accent)}
+#lesson-options>.settings{margin:18px 0}
+@media(max-width:580px){.name-language-settings{padding:10px;margin:14px 0}.name-language-settings .field select{padding-left:8px;padding-right:18px;font-size:14px}.setup-start .actions button{width:100%}}
+
+@media(max-width:580px){.name-language-settings .field label{min-height:2.8em}}

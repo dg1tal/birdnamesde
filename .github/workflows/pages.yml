@@ -31,6 +31,7 @@ jobs:
           node scripts/test-regions.mjs
           node scripts/test-multilingual.mjs
           node scripts/test-study-state.mjs
+          node scripts/test-learning-settings.mjs
           node --check dist/app.js
           node --check dist/i18n.js
       - name: Refresh eBird regional species lists
