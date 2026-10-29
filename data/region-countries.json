@@ -1,4 +1,26 @@
 [
-  {"code":"DE","nameDe":"Deutschland","nameEn":"Germany","expectedSubregions":16},
-  {"code":"NL","nameDe":"Niederlande","nameEn":"Netherlands","expectedSubregions":12}
+  {
+    "code": "DE",
+    "nameDe": "Deutschland",
+    "nameEn": "Germany",
+    "expectedSubregions": 16
+  },
+  {
+    "code": "NL",
+    "nameDe": "Niederlande",
+    "nameEn": "Netherlands",
+    "expectedSubregions": 12
+  },
+  {
+    "code": "GB",
+    "nameDe": "Vereinigtes Königreich (UK)",
+    "nameEn": "United Kingdom (UK)",
+    "expectedSubregions": 4,
+    "subregionNamesDe": {
+      "GB-ENG": "England",
+      "GB-NIR": "Nordirland",
+      "GB-SCT": "Schottland",
+      "GB-WLS": "Wales"
+    }
+  }
 ]

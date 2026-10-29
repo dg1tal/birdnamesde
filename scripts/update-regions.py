@@ -109,8 +109,9 @@ def main():
             assert len({r['code'] for r in states})==len(states)
             assert all(supported_region(r['code']) and r['code'].startswith(code+'-') and isinstance(r.get('name'),str) and 0<len(r['name'])<=150 for r in states)
             if code=='DE':assert {r['code'] for r in states}==set(GERMAN)
+            if country.get('subregionNamesDe'):assert {r['code'] for r in states}==set(country['subregionNamesDe'])
             regions.append({'code':code,'country':code,'nameDe':country['nameDe'],'nameEn':country['nameEn']})
-            regions.extend({'code':r['code'],'country':code,'nameDe':GERMAN.get(r['code'],r['name']),'nameEn':r['name']} for r in sorted(states,key=lambda r:r['name']))
+            regions.extend({'code':r['code'],'country':code,'nameDe':country.get('subregionNamesDe',{}).get(r['code'],GERMAN.get(r['code'],r['name'])),'nameEn':r['name']} for r in sorted(states,key=lambda r:r['name']))
     except (urllib.error.URLError,ValueError,AssertionError,KeyError,TypeError):
         print('Could not verify configured eBird subregions; leaving the existing deployment untouched.',file=sys.stderr)
         return 1

@@ -19,6 +19,8 @@ class RegionTests(unittest.TestCase):
         data['regions'][0]['recent']['ids']=['unknown']
         self.assertEqual(m.safe_previous(data,{'eurbla'})['DE'],{})
     def test_supported_countries(self):
+        self.assertTrue(m.supported_region('GB'))
+        self.assertTrue(m.supported_region('GB-ENG'))
         self.assertTrue(m.supported_region('NL'))
         self.assertTrue(m.supported_region('NL-NH'))
         self.assertFalse(m.supported_region('FR'))

@@ -140,7 +140,7 @@ function regionControls(cfg){
 function updateRegionStatus(cfg){
  const el=$('#region-status');const list=regionalSelection(regionalData,cfg.region,cfg.regionMode);
  $('#region-mode').disabled=!cfg.region;
- if(!cfg.region){el.textContent=regionalData?(english?'Choose Germany or the Netherlands, then a region to limit your quiz.':'Wähle Deutschland oder die Niederlande und danach eine Region, um dein Quiz einzugrenzen.'):(english?'Regional lists could not be loaded. You can still study without a region.':'Regionale Listen konnten nicht geladen werden. Ohne Regionsfilter kannst du weiterhin lernen.');return;}
+ if(!cfg.region){el.textContent=regionalData?(english?'Choose a country and then a region to limit your quiz.':'Wähle ein Land und danach eine Region, um dein Quiz einzugrenzen.'):(english?'Regional lists could not be loaded. You can still study without a region.':'Regionale Listen konnten nicht geladen werden. Ohne Regionsfilter kannst du weiterhin lernen.');return;}
  if(!list){el.textContent=english?'This regional list is unavailable. Choose another list or region, or remove the regional filter.':'Diese regionale Liste ist nicht verfügbar. Wähle eine andere Liste oder Region oder entferne den Regionsfilter.';return;}
  const date=new Date(list.updatedAt).toLocaleString(english?'en-GB':'de-DE');
  el.textContent=english?`${list.ids.length} species available in our learning data · Updated: ${date}. eBird reports ${list.reportedTaxa} taxa in this list; additional taxa are outside this app’s learning data.`:`${list.ids.length} Arten in unserem Lernbestand verfügbar · Datenstand: ${date}. eBird meldet ${list.reportedTaxa} Taxa in dieser Liste; weitere Taxa sind nicht Teil unseres Lernbestands.`;
