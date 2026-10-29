@@ -208,3 +208,11 @@ header{flex-wrap:wrap;gap:8px}
 #theme-picker svg{pointer-events:none}
 
 .name-language-settings .settings{margin-bottom:8px}.stats-language{max-width:320px;margin-bottom:20px}.translated-name{margin:8px 0}
+
+.card-language-label,.lookup-name-list dt{display:block;font:600 12px/1.4 system-ui,-apple-system,sans-serif;color:var(--muted);letter-spacing:.02em}
+.card-language-label{margin-bottom:4px}
+.lookup-name-list{margin:12px 0 16px}
+.lookup-name-list>div{margin:10px 0}
+.lookup-name-list dd{margin:3px 0 0}
+.lookup-name-list dd p,.lookup-name-list dd .english-variants{margin:0}
+.lookup-name-list .latin{font-size:15px}
