@@ -244,3 +244,5 @@ header{flex-wrap:wrap;gap:8px}
 
 /* Route headings retain screen-reader focus without a visual selection frame. */
 main h1[tabindex="-1"]:focus{outline:none}
+
+.information-page section+section{margin-top:28px}
