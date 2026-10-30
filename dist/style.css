@@ -298,3 +298,23 @@ main h1[tabindex="-1"]:focus{outline:none}
 .clearable-field .input-clear svg{pointer-events:none}
 .question .clearable-field{max-width:450px;margin-inline:auto}
 .question .clearable-field input{max-width:none}
+
+/* Feedback is grouped by meaning, with compact text spacing inside each block. */
+body.studying .question:has(.feedback) h1{margin:12px 0 16px}
+body.studying .feedback{display:grid;gap:12px;margin-top:8px;padding:16px}
+body.studying .feedback p,body.studying .feedback h2{margin:0;line-height:1.45}
+body.studying .feedback-result{display:grid;gap:4px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+body.studying .feedback .your-answer{padding:0;border:0}
+body.studying .feedback-answer{display:grid;gap:4px}
+body.studying .feedback-details{display:grid;gap:6px}
+body.studying .answer-reference{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:4px 12px}
+body.studying .answer-reference .code{font-size:17px;padding:3px 8px}
+body.studying .answer-reference .other-codes{flex-basis:100%;font-size:14px}
+body.studying .feedback .german-names{margin:0}
+body.studying .feedback .german-names p{margin:0}
+body.studying .feedback .name-sources{margin-top:2px}
+body.studying .feedback .answer-species-link{font-size:14px}
+body.studying .feedback .photo-set{min-width:0}
+body.studying .feedback .bird-photo{margin:0}
+body.studying .feedback .review-schedule{font-size:13px}
+@media(max-width:580px){body.studying .feedback{gap:10px;padding:12px}}

@@ -36,3 +36,11 @@ Release gate: GitHub Pages workflow must succeed for the release commit, followe
 - The 44 × 44 px button is available only for a nonempty, editable input, has DE/EN accessible labels, never submits the form, emits the existing input event and returns focus to the input. Native WebKit search cancel buttons are hidden to avoid duplicates.
 - Verified search results reset to 313, the global reset also hides the button, clearing group search restores all 60 groups, keyboard activation works, and clearing an answer neither grades it nor restores the old draft after pause/reload/resume. Mobile browser checks passed; no physical iOS 26 device was available.
 - All 11 Node test scripts, syntax and whitespace checks passed.
+
+## Follow-up: compact answer feedback
+
+- Grouped feedback into result/own answer, accepted names, and reference details. Reduced spacing within these groups while preserving separation between them.
+- Code and scientific name share a wrapping reference row. Alternative codes, German names/sources, eBird links, photos/credits and review schedule remain available.
+- Kept question/name text sizes and the fixed Next button; reduced repeated paragraph margins and feedback padding.
+- Browser checks passed for the screenshot's Eurasian Wren case, correct/incorrect text answers, flashcard grading, code answers without pictures, DE/EN switching, feedback pause/reload/resume, and widths 360/390/1280 px. No horizontal overflow or console warnings/errors observed.
+- Study translation and state regression tests, JS syntax and whitespace checks passed.
