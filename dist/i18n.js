@@ -14,6 +14,9 @@ Deutsch, Englisch, wissenschaftlich oder Code|German, English, scientific name o
 Artengruppe|Species group
 Alle Artengruppen|All species groups
 Wortschatz|Vocabulary
+Lernstufe|Vocabulary level
+Nach Lernstand filtern|Progress filter
+Texteingabe|Text input
 Alle Lernstufen|All vocabulary levels
 Grundwortschatz|Basic vocabulary
 Erweitert|Intermediate

@@ -35,5 +35,5 @@ export function selectionMessage({same,count,unavailable},english){
  if(same)return english?'Choose different question and answer languages to start.':'Wähle unterschiedliche Frage- und Antwortsprachen, um zu starten.';
  if(unavailable)return english?'This regional list is unavailable. Change or remove the regional filter in settings.':'Diese regionale Liste ist nicht verfügbar. Ändere oder entferne den Regionsfilter in den Einstellungen.';
  if(count)return english?`${count} ${count===1?'species matches':'species match'} your selection.`:`${count} ${count===1?'Art passt':'Arten passen'} zur Auswahl.`;
- return english?'No matching species. Adjust vocabulary, species groups, learning progress or regional filters in settings.':'Keine passenden Arten. Passe Wortschatz, Artengruppen, Lernstand oder Regionsfilter in den Einstellungen an.';
+ return english?'No matching species. Adjust vocabulary levels, species groups, learning progress or regional filters in settings.':'Keine passenden Arten. Passe Lernstufen, Artengruppen, Lernstand oder Regionsfilter in den Einstellungen an.';
 }

@@ -231,7 +231,6 @@ header{flex-wrap:wrap;gap:8px}
 #lesson-options>.settings{margin:18px 0}
 @media(max-width:580px){.name-language-settings{padding:10px;margin:14px 0}.name-language-settings .field select{padding-left:8px;padding-right:18px;font-size:14px}.setup-start .actions button{width:100%}}
 
-@media(max-width:580px){.name-language-settings .field label{min-height:2.8em}}
 
 /* Explicit interface choices use the same selected-state treatment as themes. */
 #language-picker{display:inline-flex;gap:2px;padding:3px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
@@ -248,3 +247,44 @@ main h1[tabindex="-1"]:focus{outline:none}
 .information-page section+section{margin-top:28px}
 
 @media(max-width:440px){.lookup-filters{grid-template-columns:1fr}}
+
+/* Compact primary choices; secondary controls retain full-width, labelled fields. */
+.lookup-options{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-top:12px;flex-wrap:wrap}
+#lookup-filter-options{flex:1;min-width:180px}
+#lookup-filter-options>summary{min-height:44px;padding:10px 0;font-weight:650}
+.lookup-filters{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:6px}
+#lookup-filter-options[open]{flex-basis:100%;order:2}
+.lookup-options .photo-option{margin:0}
+#results-meta{align-items:center;gap:4px 12px}
+#results-meta #clear-lookup{font-size:13px;min-height:44px;padding:6px 10px;margin-left:auto}
+.lookup-sort{font-size:12px}
+#setup .field label{margin:0;min-height:0}
+#setup .primary-settings{margin:12px 0}
+#setup .primary-target{grid-template-columns:1fr;margin-bottom:12px}
+.name-language-settings{border:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0;padding:10px 0;margin:12px 0}
+.name-language-settings legend{padding:0 6px 0 0}
+.name-language-settings .field label{min-height:0}
+.name-language-settings #name-language-status:not([hidden]){margin:8px 0 0}
+.setup-start #setup-summary{margin:8px 0 12px;line-height:1.5}
+#setup-summary p{margin:3px 0}
+.setup-start .actions{margin:12px 0}
+#lesson-options{margin-top:16px}
+#lesson-options>.settings{margin:12px 0}
+#setup .region-settings .settings{gap:12px}
+#setup .region-settings .field{min-width:0}
+#setup select{max-width:100%;width:100%;min-width:0}
+.region-settings{margin:14px 0;padding:10px 12px}
+.region-settings p{font-size:13px}
+.region-notes summary{min-height:44px;padding:10px 0;font-size:14px}
+.new-session-options>summary{min-height:44px;padding:10px 0;font-weight:650;color:var(--accent)}
+.new-session-options #setup{margin-top:10px}
+@media(max-width:580px){
+  #setup .primary-settings{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  #setup .primary-settings select{font-size:14px;padding-left:8px;padding-right:18px}
+  .name-language-settings{padding:10px 0;margin:12px 0}
+  .name-language-settings .field label{min-height:0}
+  .lookup-filters{grid-template-columns:1fr}
+  .lookup-sort{flex-basis:100%;order:3}
+  .lookup-name-list{margin:10px 0 12px}
+  .lookup-name-list>div{margin:8px 0}
+}
