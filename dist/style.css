@@ -315,6 +315,6 @@ body.studying .feedback .german-names p{margin:0}
 body.studying .feedback .name-sources{margin-top:2px}
 body.studying .feedback .answer-species-link{font-size:14px}
 body.studying .feedback .photo-set{min-width:0}
-body.studying .feedback .bird-photo{margin:0}
+body.studying .feedback .bird-photo{margin-top:0;margin-bottom:0}
 body.studying .feedback .review-schedule{font-size:13px}
 @media(max-width:580px){body.studying .feedback{gap:10px;padding:12px}}
