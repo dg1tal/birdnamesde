@@ -29,3 +29,10 @@ Scope: German and English Lookup and Learn views, including 360/390 px mobile la
 - No browser console warnings or errors observed.
 
 Release gate: GitHub Pages workflow must succeed for the release commit, followed by checking the deployed layout/version. Mobile coverage uses browser viewport simulation, not a physical phone.
+
+## Follow-up: explicit text-field clearing
+
+- Added a shared visible clear control to species search, group search and typed quiz answers, independent of the native search cancel button.
+- The 44 × 44 px button is available only for a nonempty, editable input, has DE/EN accessible labels, never submits the form, emits the existing input event and returns focus to the input. Native WebKit search cancel buttons are hidden to avoid duplicates.
+- Verified search results reset to 313, the global reset also hides the button, clearing group search restores all 60 groups, keyboard activation works, and clearing an answer neither grades it nor restores the old draft after pause/reload/resume. Mobile browser checks passed; no physical iOS 26 device was available.
+- All 11 Node test scripts, syntax and whitespace checks passed.

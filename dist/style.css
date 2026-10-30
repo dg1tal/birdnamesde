@@ -288,3 +288,13 @@ main h1[tabindex="-1"]:focus{outline:none}
   .lookup-name-list{margin:10px 0 12px}
   .lookup-name-list>div{margin:8px 0}
 }
+
+/* Explicit clear buttons also work where native search-cancel controls are absent. */
+.clearable-field{display:block;position:relative;width:100%;min-width:0}
+.clearable-field input{display:block;width:100%;min-width:0;padding-right:54px}
+.clearable-field input::-webkit-search-cancel-button{display:none;-webkit-appearance:none}
+.clearable-field .input-clear{position:absolute;right:3px;top:50%;transform:translateY(-50%);display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;min-height:44px;padding:0;border:0;background:transparent;color:var(--muted);border-radius:7px}
+.clearable-field .input-clear:hover{color:var(--ink);background:var(--soft)}
+.clearable-field .input-clear svg{pointer-events:none}
+.question .clearable-field{max-width:450px;margin-inline:auto}
+.question .clearable-field input{max-width:none}
