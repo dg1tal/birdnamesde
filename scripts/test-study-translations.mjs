@@ -3,10 +3,14 @@ globalThis.localStorage={getItem:()=> 'en'};
 const {t,reviewMessage,importErrorMessage}=await import('../dist/i18n.js');
 const cases=new Map([
  ['· 1 ausgewählt','· 1 selected'],
- ['1 von 1 Fragen beantwortet','1 of 1 questions answered'],
+ ['1 von 1 Frage beantwortet','1 of 1 question answered'],
+ ['1 von 1 Fragen beantwortet','1 of 1 question answered'],
+ ['1 von 2 Fragen beantwortet','1 of 2 questions answered'],
  ['1 Wiederholung offen','1 repeat remaining'],
- ['0 von 1 Erstantworten richtig','0 of 1 first answers correct'],
- ['1 zusätzliche Wiederholung · 0 davon richtig.','1 extra repeats · 0 correct.'],
+ ['0 von 1 Erstantwort richtig','0 of 1 first answer correct'],
+ ['0 von 2 Erstantworten richtig','0 of 2 first answers correct'],
+ ['1 von 1 ursprünglichen Frage bearbeitet.','1 of 1 original question completed.'],
+ ['1 zusätzliche Wiederholung · 0 davon richtig.','1 extra repeat · 0 correct.'],
  ['1 Namen und 0 Codes sind fällig.','1 names and 0 codes are due.'],
  ['100 % richtig bei 1 Antworten einschließlich Wiederholungen.','100% correct across 1 answer including repeats.'],
  ['50 % richtig bei 2 Antworten einschließlich Wiederholungen.','50% correct across 2 answers including repeats.'],

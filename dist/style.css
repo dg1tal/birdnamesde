@@ -246,3 +246,5 @@ header{flex-wrap:wrap;gap:8px}
 main h1[tabindex="-1"]:focus{outline:none}
 
 .information-page section+section{margin-top:28px}
+
+@media(max-width:440px){.lookup-filters{grid-template-columns:1fr}}
