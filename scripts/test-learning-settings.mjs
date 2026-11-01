@@ -16,4 +16,12 @@ assert.equal(restoreLessonState(undefined,null,en,false,ids).session.sourceLangu
 assert(!selectionMessage({same:true,count:0},false).includes('Wortschatz'));
 assert(selectionMessage({same:false,count:0,unavailable:true},true).includes('regional list'));
 assert.equal(selectionMessage({count:1},false),'1 Art passt zur Auswahl.');
+
+assert.match(selectionMessage({count:0,noLevels:true},false),/Keine Lernstufe/);
+assert.match(selectionMessage({count:0,noGroups:true},true),/No species group/);
+assert.match(selectionMessage({count:0,scope:'due'},false),/keine Wiederholungen fällig/);
+assert.match(selectionMessage({count:0,scope:'wrong'},true),/last answered incorrectly/);
+assert.equal(selectionMessage({count:3,scope:'due'},true),'3 species match your selection.');
+assert.match(selectionMessage({count:0,unavailable:true,noLevels:true},false),/regionale Liste/);
+
 console.log('PASS: shared interface-independent settings, both legacy lessons preserved, cleared lessons stay cleared, drafts/region retained and actionable selection messages.');
