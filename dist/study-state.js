@@ -1,4 +1,4 @@
-import {isNameLanguage} from './name-languages.js';
+import {isNameLanguage} from './name-languages.js?v=20261101-scientific1';
 // Serializable lesson state. Grading and navigation are separate so restored
 // feedback cannot grade an answer twice.
 export function validateLesson(value, ids) {
