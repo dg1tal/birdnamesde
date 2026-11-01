@@ -362,3 +362,10 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 #import-preview .toolbar{margin:14px 0 0}
 #import-preview button{white-space:normal}
 @media(max-width:580px){#import-preview{padding:12px}#import-preview .toolbar{flex-direction:column}#import-preview button{width:100%}}
+
+/* Visible keyboard entry point, with native controls retaining their tab order. */
+.skip-link{position:fixed;z-index:100;top:8px;left:8px;padding:12px 16px;background:var(--panel);color:var(--ink);border:2px solid var(--ink);border-radius:8px;transform:translateY(-160%)}
+.skip-link:focus{transform:translateY(0)}
+[tabindex="-1"]:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+#revealed-answer:focus{outline:3px solid var(--accent);outline-offset:3px}
+@media(forced-colors:active){:focus-visible,#revealed-answer:focus{outline:3px solid Highlight!important}}

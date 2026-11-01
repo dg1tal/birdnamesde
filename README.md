@@ -26,6 +26,7 @@ node scripts/test.mjs
 node scripts/test-study-state.mjs
 node scripts/test-progress-copy.mjs
 node scripts/test-backup.mjs
+node scripts/test-accessibility.mjs
 node scripts/test-study-viewport.mjs
 node scripts/test-photo-cache.mjs
 node --check dist/app.js
@@ -132,3 +133,9 @@ The UI distinguishes the fixed round questions (first attempts in the current ro
 Statistics visibly identifies browser/device-local storage and links directly to backup controls. The dated JSON download includes all answer-language/code records independently of current filters; preferences, paused sessions, drafts and cached media are excluded. Selecting a file only validates and previews it, showing its date, supported learning-target/species counts and the current browser counts. Explicit replacement overwrites all progress without merging and ends paused sessions. Users can download their current records before replacement or cancel without changing them. Empty backups have a distinct removal warning; files containing only unsupported records are rejected, while partially supported files report skipped records.
 
 `dist/learning-storage.js` writes records and saved lessons in one transaction. Restore publishes the new in-memory state only after the transaction commits; quota, closed-database or synchronous write failures preserve the prior state. Export format version 1 remains compatible. Browser downloads are announced as started, rather than claiming the file has been saved to disk.
+
+### Keyboard and screenreader behavior
+
+The first Tab reaches Skip to content; activating it focuses the current search, answer field or heading without changing routes. Route changes, removed group/species controls, statistics-language changes and paused-session preparation preserve meaningful focus. Queued render focus never overrides an intervening user focus change. Native modal picture dialogs start at Close, support Escape and return focus to the invoking picture.
+
+Typed questions describe their language pair, bird and attempt type. Feedback focuses the result with accepted names, learning consequences and progress as its description; photos and source credits are outside that automatic announcement. The next Tab reaches Next. Flashcard reveal focuses the answer group before the two grading buttons. Search announcements are coalesced and route changes cancel stale messages. Scientific names use the valid Latin language tag, and the redundant scientific-name lookup row was removed. Keyboard focus has an explicit visible outline, including forced-colors styling.
