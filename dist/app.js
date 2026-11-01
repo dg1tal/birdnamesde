@@ -1,3 +1,4 @@
+import {studyPhotoHeight} from './study-photo-layout.js?v=20261101-adaptive1';
 import {renderInformation} from './info-page.js?v=20261101-license2';
 import {loadSharedUI,restoreLessonState,selectionMessage} from './learning-settings.js?v=20261101-scientific1';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
@@ -45,8 +46,36 @@ document.addEventListener('click',event=>{
 });
 document.addEventListener('error',event=>{const img=event.target;if(img instanceof HTMLImageElement&&img.classList.contains('species-photo')){const figure=img.closest('.bird-photo');img.parentElement.hidden=true;figure.querySelector('.photo-error').hidden=false;}},true);
 const levels=['Grundwortschatz','Erweitert','Spezialwortschatz'];
-function studyMode(active){document.body.classList.toggle('studying',active);updateStudyViewport();}
-function updateStudyViewport(){const v=window.visualViewport;const inset=v?Math.max(0,window.innerHeight-v.height-v.offsetTop):0;document.documentElement.style.setProperty('--study-keyboard-inset',inset+'px');}
+let studyPhotoFrame=0;
+const studyPhotoObserver=new ResizeObserver(scheduleStudyPhotoLayout);
+function scheduleStudyPhotoLayout(){
+  if(studyPhotoFrame)return;
+  studyPhotoFrame=requestAnimationFrame(()=>{
+    studyPhotoFrame=0;
+    if(!document.body.classList.contains('studying'))return;
+    const set=$('#feedback .photo-set'),actions=$('#feedback .study-actions');
+    const visuals=set?[...set.querySelectorAll('.photo-visual')].filter(el=>el.getClientRects().length):[];
+    if(!visuals.length||!actions)return;
+    const rowTop=Math.min(...visuals.map(el=>el.closest('.bird-photo').getBoundingClientRect().top));
+    const firstRow=visuals.filter(el=>Math.abs(el.closest('.bird-photo').getBoundingClientRect().top-rowTop)<2);
+    const photoTop=Math.max(...firstRow.map(el=>el.getBoundingClientRect().top+window.scrollY));
+    const viewport=window.visualViewport;
+    // Document coordinates keep image sizing stable while scrolling through the text.
+    const height=studyPhotoHeight({photoTop,
+      viewportBottom:viewport?viewport.offsetTop+viewport.height:window.innerHeight,
+      actionsTop:actions.getBoundingClientRect().top});
+    const value=height+'px';
+    if(set.style.getPropertyValue('--study-photo-height')!==value)set.style.setProperty('--study-photo-height',value);
+  });
+}
+function observeStudyPhotoLayout(){
+  studyPhotoObserver.disconnect();
+  if(!$('#feedback .photo-set'))return;
+  studyPhotoObserver.observe($('.question'));studyPhotoObserver.observe($('#feedback .study-actions'));
+  scheduleStudyPhotoLayout();
+}
+function studyMode(active){studyPhotoObserver.disconnect();document.body.classList.toggle('studying',active);updateStudyViewport();}
+function updateStudyViewport(){const v=window.visualViewport;const inset=v?Math.max(0,window.innerHeight-v.height-v.offsetTop):0;document.documentElement.style.setProperty('--study-keyboard-inset',inset+'px');scheduleStudyPhotoLayout();}
 window.visualViewport?.addEventListener('resize',updateStudyViewport);
 window.visualViewport?.addEventListener('scroll',updateStudyViewport);
 window.addEventListener('resize',updateStudyViewport);
@@ -314,7 +343,7 @@ function renderFeedback(s,item) {
   $('#lesson-progress').innerHTML=`${p.completed} von ${p.total} ${p.total===1?'Frage':'Fragen'} beantwortet<span class="repeat-count">${p.repeats} ${p.repeats===1?'Wiederholung':'Wiederholungen'} offen</span>`;
   const bar=$('progress');bar.value=p.completed;
   $('#feedback').innerHTML=`<div class="feedback"><div class="feedback-result"><h2 class="${correct?'good':'bad'}" tabindex="-1">${correct?'✓ Richtig.':'Noch nicht richtig.'}</h2>${x.method!=='flash'?`<p class="your-answer"><span class="muted">Deine Antwort:</span> <span data-name-content>${esc(answer)}</span></p>`:''}</div><div class="feedback-answer"><p class="answer-label">${item.t==='code'?'Offizieller Quick Find Code':item.t==='sci'?(english?'Scientific name':'Wissenschaftlicher Name'):'Akzeptierte Namen'}</p>${nameAnswerMarkup(s,item.t)}</div><div class="feedback-details"><div class="answer-reference">${item.t!=='code'?`<p class="code">${esc(s.codes[0])}</p>`:''}${item.t==='sci'?'':`<p class="latin">${esc(s.sci)}</p>`}${s.codes.length>1?`<p class="other-codes">Weitere akzeptierte Codes: ${s.codes.slice(1).map(esc).join(', ')}</p>`:''}</div>${germanNames(s)}<p class="answer-species-link">${ebirdLink(s)}</p></div>${x.photos?photoMarkup(s,true):''}<p class="muted review-schedule">${esc(reviewMessage({correct,hint:x.hint,days:records[key(s,item.t)].interval,retry:item.retry}))}</p><div class="study-actions"><button id="next" class="primary">Weiter →</button></div></div>`;
-  if(x.photos)mountStudyPhoto(s);
+  if(x.photos){mountStudyPhoto(s);observeStudyPhotoLayout();}
   $('#next').onclick=()=>{if(!x.done||session!==x)return;x.index++;x.done=false;x.hint=false;x.result=null;x.draft='';x.revealed=false;if(x.index>=x.queue.length)endLesson();else{save();renderQuestion();}};
   focusHeading('#feedback h2');
 }
