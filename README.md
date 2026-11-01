@@ -24,6 +24,7 @@ python scripts/finalize-data.py
 python scripts/validate-data.py
 node scripts/test.mjs
 node scripts/test-study-state.mjs
+node scripts/test-study-viewport.mjs
 node scripts/test-photo-cache.mjs
 node --check dist/app.js
 ```

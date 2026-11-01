@@ -72,7 +72,7 @@ body.studying .bird-photo img{height:280px}
 @media(max-width:580px){header,nav,main,footer{padding-left:16px;padding-right:16px}nav{justify-content:space-between;gap:12px}nav a{font-size:14px}main{padding-top:18px}.toolbar .search{flex-basis:100%;min-width:0}.toolbar select{flex:1;width:calc(50% - 5px);min-width:0;font-size:14px;padding-left:10px;padding-right:25px}.settings{grid-template-columns:1fr;gap:14px}.card,.panel{padding:16px}.choices{grid-template-columns:1fr}.question{padding:24px 16px}.meta{flex-wrap:wrap}.brand{font-size:20px}td,th{font-size:13px;padding:9px 4px}}
 
 body.studying>header,body.studying>nav,body.studying>footer{display:none}
-body.studying main{min-height:100svh;padding-top:max(12px,env(safe-area-inset-top));padding-bottom:calc(100px + env(safe-area-inset-bottom));max-width:800px}
+body.studying main{min-height:100svh;padding-top:max(12px,env(safe-area-inset-top));padding-bottom:var(--study-bottom-space,calc(100px + env(safe-area-inset-bottom)));max-width:800px}
 body.studying .session>.meta{align-items:center;margin:0 0 10px;flex-wrap:nowrap}
 body.studying .session>.meta button{padding:8px 11px;white-space:nowrap;font-size:14px}
 body.studying .session>progress{display:block;height:6px;margin-bottom:14px}
@@ -332,3 +332,7 @@ body.studying .feedback .photo-set .bird-photo .study-photo-slot{height:var(--st
 #lesson-basics[open]>.primary-target{margin-top:16px}
 #selection-help{margin:8px 0}
 #setup .setup-start .selection-count{margin-top:0}
+
+/* Leave room to scroll the focused answer above the keyboard and action bar. */
+body.studying #answer,body.studying .feedback-result{scroll-margin-block:12px}
+body.studying #answer-form .clearable-field{min-width:0}
