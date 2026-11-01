@@ -1,8 +1,8 @@
-import {renderInformation} from './info-page.js?v=20261101-scientific1';
+import {renderInformation} from './info-page.js?v=20261101-license1';
 import {loadSharedUI,restoreLessonState,selectionMessage} from './learning-settings.js?v=20261101-scientific1';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261029-uklocal1';
-import {english,localize,t,reviewMessage,importErrorMessage} from './i18n.js?v=20261101-scientific1';
+import {english,localize,t,reviewMessage,importErrorMessage} from './i18n.js?v=20261101-license1';
 const defaultNameTarget=english?'de':'en';
 let nameTarget=defaultNameTarget,availableNameLanguages=['de','en'];
 import {validateLesson,lessonProgress,recordLessonAnswer} from './study-state.js?v=20261101-scientific1';
