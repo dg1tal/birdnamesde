@@ -325,3 +325,10 @@ body.studying .feedback .review-schedule{font-size:13px}
 body.studying .feedback .photo-set .bird-photo img,
 body.studying .feedback .photo-set .bird-photo .study-photo-slot{height:var(--study-photo-height,280px);object-fit:contain}
 @media(max-width:580px){body.studying .feedback .photo-set-multiple{grid-template-columns:1fr}}
+
+/* Keep the ready-to-start session ahead of optional configuration. */
+#lesson-basics{border-top:1px solid var(--line);padding-top:8px;margin-top:16px}
+#lesson-basics>summary{font-weight:650;color:var(--accent)}
+#lesson-basics[open]>.primary-target{margin-top:16px}
+#selection-help{margin:8px 0}
+#setup .setup-start .selection-count{margin-top:0}

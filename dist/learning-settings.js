@@ -31,9 +31,13 @@ export function restoreLessonState(shared,de,en,english,ids){
  return {session:lessons.shift()||null,pending:lessons};
 }
 
-export function selectionMessage({same,count,unavailable},english){
+export function selectionMessage({same,count,unavailable,noLevels,noGroups,scope},english){
  if(same)return english?'Choose different question and answer languages to start.':'Wähle unterschiedliche Frage- und Antwortsprachen, um zu starten.';
  if(unavailable)return english?'This regional list is unavailable. Change or remove the regional filter in settings.':'Diese regionale Liste ist nicht verfügbar. Ändere oder entferne den Regionsfilter in den Einstellungen.';
+ if(noLevels)return english?'No vocabulary level selected. Include at least one level.':'Keine Lernstufe ausgewählt. Beziehe mindestens eine Lernstufe ein.';
+ if(noGroups)return english?'No species group selected. Include at least one group.':'Keine Artengruppe ausgewählt. Beziehe mindestens eine Artengruppe ein.';
  if(count)return english?`${count} ${count===1?'species matches':'species match'} your selection.`:`${count} ${count===1?'Art passt':'Arten passen'} zur Auswahl.`;
+ if(scope==='due')return english?'No reviews are due within these species filters. Include all progress or change the species filters.':'Innerhalb dieser Artenfilter sind keine Wiederholungen fällig. Beziehe alle Lernstände ein oder ändere die Artenfilter.';
+ if(scope==='wrong')return english?'No species last answered incorrectly match these filters. Include all progress or change the species filters.':'Keine zuletzt falsch beantwortete Art passt zu diesen Filtern. Beziehe alle Lernstände ein oder ändere die Artenfilter.';
  return english?'No matching species. Adjust vocabulary levels, species groups, learning progress or regional filters in settings.':'Keine passenden Arten. Passe Lernstufen, Artengruppen, Lernstand oder Regionsfilter in den Einstellungen an.';
 }
