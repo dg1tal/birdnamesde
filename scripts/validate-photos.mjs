@@ -28,7 +28,7 @@ for(const s of species){
  assert.ok(p.credit?.trim()&&p.title?.trim(),`attribution: ${s.de}`);
  assert.match(p.source,/^https:\/\/commons.wikimedia.org\/wiki\/File:/);
  assert.match(p.license,/^(CC BY(?:-SA)? (?:[234]\.0|2\.5)(?: de)?|CC0|Public domain|PDM)$/);
- assert.match(p.licenseUrl,/^https?:\/\/creativecommons.org\//);
+ assert.match(p.licenseUrl,/^https:\/\/creativecommons.org\//);
  assert.ok(p.width>0&&p.height>0,`dimensions: ${s.de}`);
  const bytes=readFileSync('dist/'+p.local);assert.ok(bytes.length>1000);
  assert.equal(createHash('sha256').update(bytes).digest('hex'),p.localSha256,`file changed: ${s.de}`);
