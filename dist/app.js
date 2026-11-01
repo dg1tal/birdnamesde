@@ -1,5 +1,5 @@
 import {studyPhotoHeight} from './study-photo-layout.js?v=20261101-adaptive1';
-import {renderInformation} from './info-page.js?v=20261101-license2';
+import {renderInformation} from './info-page.js?v=20261101-storage1';
 import {loadSharedUI,restoreLessonState,selectionMessage} from './learning-settings.js?v=20261101-scientific1';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261029-uklocal1';
