@@ -25,6 +25,7 @@ python scripts/validate-data.py
 node scripts/test.mjs
 node scripts/test-study-state.mjs
 node scripts/test-progress-copy.mjs
+node scripts/test-backup.mjs
 node scripts/test-study-viewport.mjs
 node scripts/test-photo-cache.mjs
 node --check dist/app.js
@@ -125,3 +126,9 @@ Study feedback and backup errors use explicit locale-aware message composition. 
 ### Learning-progress terminology
 
 The UI distinguishes the fixed round questions (first attempts in the current round, which may include previously practised targets) from extra attempts after errors. The progress bar counts first attempts whether correct or incorrect; pending extra attempts remain visible even when the bar is full. Setup, pause, feedback and summaries use the same definitions. Statistics explain that due reviews and mastered targets can overlap, and feedback shows the current consecutive unhinted-correct streak before the photos. This is a presentation change; scheduling, grading, saved lessons and export formats retain their existing semantics.
+
+### Backup and restore flow
+
+Statistics visibly identifies browser/device-local storage and links directly to backup controls. The dated JSON download includes all answer-language/code records independently of current filters; preferences, paused sessions, drafts and cached media are excluded. Selecting a file only validates and previews it, showing its date, supported learning-target/species counts and the current browser counts. Explicit replacement overwrites all progress without merging and ends paused sessions. Users can download their current records before replacement or cancel without changing them. Empty backups have a distinct removal warning; files containing only unsupported records are rejected, while partially supported files report skipped records.
+
+`dist/learning-storage.js` writes records and saved lessons in one transaction. Restore publishes the new in-memory state only after the transaction commits; quota, closed-database or synchronous write failures preserve the prior state. Export format version 1 remains compatible. Browser downloads are announced as started, rather than claiming the file has been saved to disk.
