@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Fetch public regional species IDs in Actions; never publish credentials/observations."""
 import datetime as dt
+import argparse
 import json
 import os
 from pathlib import Path
@@ -17,6 +18,7 @@ PREVIOUS = 'https://dg1tal.github.io/birdnamesde/regions.json'
 API = 'https://api.ebird.org/v2/'
 COUNTRIES=json.loads((ROOT/'data/region-countries.json').read_text())
 COUNTRY_CODES={c['code'] for c in COUNTRIES}
+REFRESH_INTERVAL = dt.timedelta(hours=24)
 
 def supported_region(code):
     return isinstance(code,str) and bool(re.fullmatch(r'[A-Z]{2}(?:-[A-Z0-9]{1,4}){0,2}',code)) and code.split('-')[0] in COUNTRY_CODES
@@ -88,6 +90,52 @@ def safe_previous(data, known):
         result[r['code']] = lists
     return result
 
+def reusable_snapshot(data, known, now):
+    """Return a validated, allowlisted snapshot while every list is current."""
+    if not isinstance(data, dict) or data.get('version') != 1 or data.get('recentDays') != 30:
+        return None
+    raw_regions = data.get('regions')
+    if not isinstance(raw_regions, list) or not raw_regions or len(raw_regions) > 512:
+        return None
+    previous = safe_previous(data, known)
+    regions = []
+    seen = set()
+    for item in raw_regions:
+        if not isinstance(item, dict) or not supported_region(item.get('code')):
+            return None
+        code = item['code']
+        if code in seen or any(not isinstance(item.get(k), str) or not 0 < len(item[k]) <= 150 for k in ('nameDe', 'nameEn')):
+            return None
+        seen.add(code)
+        parent = code.rsplit('-', 1)[0] if '-' in code else None
+        if item.get('parentCode') != parent or item.get('country') != code.split('-')[0]:
+            return None
+        lists = previous.get(code, {})
+        if any(mode not in lists for mode in ('all', 'recent')):
+            return None
+        for value in lists.values():
+            stamp = dt.datetime.fromisoformat(value['updatedAt'].replace('Z', '+00:00'))
+            if now - stamp >= REFRESH_INTERVAL:
+                return None
+        regions.append({'code': code, 'country': code.split('-')[0], 'parentCode': parent,
+                        'nameDe': item['nameDe'], 'nameEn': item['nameEn'], **lists})
+    if any(r['parentCode'] and r['parentCode'] not in seen for r in regions):
+        return None
+    if {r['code'] for r in regions if r['parentCode'] is None} != COUNTRY_CODES:
+        return None
+    for country in COUNTRIES:
+        if sum(r['parentCode'] == country['code'] for r in regions) != country['expectedSubregions']:
+            return None
+    try:
+        generated = dt.datetime.fromisoformat(data['generatedAt'].replace('Z', '+00:00'))
+        if not generated.tzinfo or generated > now + dt.timedelta(minutes=5):
+            return None
+    except (KeyError, TypeError, ValueError, AttributeError):
+        return None
+    return {'version': 1, 'generatedAt': data['generatedAt'], 'recentDays': 30,
+            'countries': [{k: c[k] for k in ('code', 'nameDe', 'nameEn')} for c in COUNTRIES],
+            'regions': regions}
+
 def discover_regions(fetch):
     """Retain the upstream hierarchy; never invent county boundaries or region IDs."""
     regions=[]
@@ -113,10 +161,9 @@ def discover_regions(fetch):
     return regions
 
 def main():
-    token = os.environ.get('EBIRD_API_KEY','').strip()
-    if not token or any(c.isspace() for c in token):
-        print('EBIRD_API_KEY is missing or malformed; no output generated.',file=sys.stderr)
-        return 1
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--if-due', action='store_true', help='Reuse a complete public snapshot if all lists are less than 24 hours old')
+    args = parser.parse_args()
     known = {s['id'] for s in json.loads((ROOT/'dist/species.json').read_text())['species']}
     previous = {}
     # Previous Pages snapshot is read without any credential. Failed fetches leave local fallback available.
@@ -127,6 +174,20 @@ def main():
         except ValueError: pass
     try: candidates.append(request_json(PREVIOUS))
     except (urllib.error.URLError,ValueError): pass
+    now_dt = dt.datetime.now(dt.timezone.utc)
+    if args.if_due:
+        reusable = [snapshot for candidate in candidates if (snapshot := reusable_snapshot(candidate, known, now_dt))]
+        if reusable:
+            selected = max(reusable, key=lambda x: x['generatedAt'])
+            temporary = ROOT/'dist/regions.json.tmp'
+            temporary.write_text(json.dumps(selected, ensure_ascii=False, indent=2) + '\n')
+            temporary.replace(local)
+            print('Regional lists are current; reused the public snapshot without contacting eBird.', flush=True)
+            return 0
+    token = os.environ.get('EBIRD_API_KEY','').strip()
+    if not token or any(c.isspace() for c in token):
+        print('EBIRD_API_KEY is missing or malformed; no output generated.',file=sys.stderr)
+        return 1
     for candidate in candidates:
         for code, lists in safe_previous(candidate, known).items():
             for mode,item in lists.items():

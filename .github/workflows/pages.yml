@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: Refresh regional data even if it is less than 24 hours old
+        type: boolean
+        default: false
   schedule:
     - cron: "23 4 * * *"
 
@@ -40,7 +45,12 @@ jobs:
       - name: Refresh eBird regional species lists
         env:
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
-        run: python3 scripts/update-regions.py
+        run: |
+          if [ "${{ inputs.force_refresh }}" = "true" ]; then
+            python3 scripts/update-regions.py
+          else
+            python3 scripts/update-regions.py --if-due
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
