@@ -11,7 +11,7 @@ nav{display:flex;gap:26px;border-bottom:1px solid var(--line)}
 nav a{padding:10px 0;color:var(--muted);text-decoration:none;border-bottom:3px solid transparent}
 nav a.active{color:var(--ink);border-color:var(--accent);font-weight:650}
 main{min-height:calc(100svh - 170px);padding-top:22px;padding-bottom:64px}
-footer{padding-top:18px;padding-bottom:26px;font-size:13px;border-top:1px solid var(--line)}
+footer{display:flex;flex-wrap:wrap;gap:8px 20px;padding-top:18px;padding-bottom:26px;font-size:13px;border-top:1px solid var(--line)}
 a{color:var(--accent)}
 h1{font:400 clamp(28px,4vw,36px)/1.2 Georgia,serif;letter-spacing:-.5px;margin:0 0 22px}
 h2{font-size:20px;margin:0 0 12px}

@@ -7,6 +7,8 @@ Lernen|Learn
 Statistik|Statistics
 Hauptnavigation|Main navigation
 Daten & Datenschutz|Data & privacy
+GitHub-Repository ↗|GitHub repository ↗
+Lizenz|Licence
 Artenbestand wird geladen …|Loading species …
 Arten nachschlagen|Look up species
 Art suchen|Search species
