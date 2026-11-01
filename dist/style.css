@@ -369,3 +369,6 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 [tabindex="-1"]:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 #revealed-answer:focus{outline:3px solid var(--accent);outline-offset:3px}
 @media(forced-colors:active){:focus-visible,#revealed-answer:focus{outline:3px solid Highlight!important}}
+
+/* Persistent route targets; only the selected application view is visible. */
+.app-view[hidden]{display:none!important}

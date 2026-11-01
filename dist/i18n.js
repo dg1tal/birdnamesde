@@ -11,6 +11,15 @@ Daten & Datenschutz|Data & privacy
 GitHub-Repository ↗|GitHub repository ↗
 Lizenz|Licence
 Artenbestand wird geladen …|Loading species …
+Die interaktiven Funktionen starten mit JavaScript.|The interactive features start with JavaScript.
+Vogelnamen nachschlagen und lernen|Look up and learn bird names
+Suche nach deutschen, englischen, niederländischen und wissenschaftlichen Vogelnamen oder eBird Quick Find Codes.|Search German, English, Dutch and scientific bird names or eBird Quick Find Codes.
+Vogelnamen lernen|Learn bird names
+Übe Namen und Codes mit Texteingabe, Karteikarten oder Multiple Choice. Die Lerneinstellungen werden nach dem Laden der App verfügbar.|Practise names and codes with text input, flashcards or multiple choice. Study settings become available once the app has loaded.
+Lernstand und Sicherung|Progress and backups
+Dein Lernstand wird lokal in diesem Browser auf diesem Gerät gespeichert. In der gestarteten App kannst du eine JSON-Sicherung herunterladen oder wiederherstellen.|Your progress is stored locally in this browser on this device. Once the app has loaded, you can download or restore a JSON backup.
+Daten und Datenschutz|Data and privacy
+BirdNames DE benötigt kein Benutzerkonto und synchronisiert deinen Lernstand nicht automatisch. Hinweise zu Datenquellen und Bildnachweisen findest du nach dem Laden unter Daten & Datenschutz.|BirdNames DE does not require an account and does not automatically sync your progress. After loading, Data & privacy explains data sources and image credits.
 Arten nachschlagen|Look up species
 Art suchen|Search species
 Deutsch, Englisch, wissenschaftlich oder Code|German, English, scientific name or code

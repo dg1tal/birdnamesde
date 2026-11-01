@@ -27,3 +27,16 @@ export function queueFocus(element,{document:doc=document,frame=requestAnimation
   focusElement(element,{preventScroll});
  });
 }
+
+// Hash routes point to real view containers, even before JavaScript starts.
+// Keep inactive containers as navigation targets, but clear stale forms/IDs.
+export function activateView(main,id){
+ const views=[...main.querySelectorAll('.app-view')];
+ const active=views.find(view=>view.id===id);
+ if(!active)throw Error('Unknown application view: '+id);
+ for(const view of views){
+  view.hidden=view!==active;
+  if(view!==active)view.replaceChildren();
+ }
+ return active;
+}
