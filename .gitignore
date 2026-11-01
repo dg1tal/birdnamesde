@@ -3,6 +3,7 @@ data/extracted.json
 data/status.pdf
 data/status.txt
 node_modules/
+BirdNames-DE-history.bundle
 *.tar.gz
 data/dog.pdf
 data/dog.txt
