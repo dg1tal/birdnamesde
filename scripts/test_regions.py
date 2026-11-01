@@ -1,5 +1,8 @@
 import importlib.util
+import datetime as dt
+import json
 from pathlib import Path
+import tempfile
 import unittest
 from unittest.mock import patch
 spec=importlib.util.spec_from_file_location('update_regions',Path(__file__).with_name('update-regions.py'))
@@ -49,5 +52,41 @@ class RegionTests(unittest.TestCase):
 
     def test_no_cross_host_credential(self):
         with self.assertRaises(ValueError):m.request_json('https://example.com','fake-test-token')
+
+    def test_current_snapshot_is_reused_without_ebird_requests(self):
+        now = dt.datetime.now(dt.timezone.utc)
+        stamp = now.isoformat(timespec='seconds').replace('+00:00', 'Z')
+        entry = {'ids':['eurbla'], 'reportedTaxa':1, 'updatedAt':stamp, 'secret':'discard'}
+        snapshot = {'version':1, 'generatedAt':stamp, 'recentDays':30,
+                    'regions':[{'code':'DE','country':'DE','parentCode':None,
+                                'nameDe':'Deutschland','nameEn':'Germany',
+                                'all':entry,'recent':entry}]}
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root/'dist').mkdir()
+            (root/'dist/species.json').write_text(json.dumps({'species':[{'id':'eurbla'}]}))
+            calls = []
+            def fake_request(url, token=None):
+                calls.append((url, token))
+                return snapshot
+            with patch.object(m,'ROOT',root), patch.object(m,'COUNTRIES',[{'code':'DE','nameDe':'Deutschland','nameEn':'Germany','expectedSubregions':0}]), patch.object(m,'COUNTRY_CODES',{'DE'}), patch.object(m,'request_json',fake_request), patch.object(m.sys,'argv',['update-regions.py','--if-due']), patch.dict(m.os.environ,{'EBIRD_API_KEY':''}):
+                self.assertEqual(m.main(),0)
+            self.assertEqual(calls,[(m.PREVIOUS,None)])
+            output=json.loads((root/'dist/regions.json').read_text())
+            self.assertEqual(output['regions'][0]['all']['ids'],['eurbla'])
+            self.assertNotIn('secret',output['regions'][0]['all'])
+
+    def test_stale_or_incomplete_snapshot_requires_refresh(self):
+        now = dt.datetime.now(dt.timezone.utc)
+        stamp = now.isoformat(timespec='seconds').replace('+00:00','Z')
+        entry = {'ids':['eurbla'], 'reportedTaxa':1, 'updatedAt':stamp}
+        region = {'code':'DE','country':'DE','parentCode':None,'nameDe':'Deutschland','nameEn':'Germany','all':entry,'recent':entry}
+        snapshot = {'version':1,'generatedAt':stamp,'recentDays':30,'regions':[region]}
+        with patch.object(m,'COUNTRIES',[{'code':'DE','nameDe':'Deutschland','nameEn':'Germany','expectedSubregions':0}]), patch.object(m,'COUNTRY_CODES',{'DE'}):
+            self.assertIsNotNone(m.reusable_snapshot(snapshot,{'eurbla'},now))
+            old = (now-m.REFRESH_INTERVAL).isoformat(timespec='seconds').replace('+00:00','Z')
+            self.assertIsNone(m.reusable_snapshot({**snapshot,'regions':[{**region,'recent':{**entry,'updatedAt':old}}]},{'eurbla'},now))
+            self.assertIsNone(m.reusable_snapshot({**snapshot,'regions':[{**region,'recent':None}]},{'eurbla'},now))
+            self.assertIsNone(m.reusable_snapshot({**snapshot,'regions':[{**region,'nameDe':'<script>'*30}]},{'eurbla'},now))
 
 if __name__=='__main__':unittest.main()
