@@ -124,6 +124,7 @@ Lernstand sichern und verwalten|Back up and manage progress
 Ein Import ersetzt nach Bestätigung den aktuellen Lernstand. Lade eine Sicherung herunter, bevor du ihn ersetzt oder zurücksetzt.|After confirmation, importing replaces your current progress. Download a backup before replacing or resetting it.
 Lernstand als JSON sichern|Export progress as JSON
 Sicherung importieren|Import backup
+Keine unterstützten Lernwerte in dieser Sicherung.|No supported progress records in this backup.
 Lernstand zurücksetzen|Reset learning progress
 Entfernt alle Lernwerte und die laufende Einheit aus diesem Browser.|Removes all progress and the current session from this browser.
 Fortschritt zurücksetzen|Reset progress

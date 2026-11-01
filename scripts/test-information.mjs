@@ -37,4 +37,6 @@ const changed=renderInformation({...args,english:true,birds:[birds[0]],photos:{}
 const escaped=renderInformation({...args,english:false,meta:{...meta,selection:'<script>alert(1)</script>'}});assert(escaped.includes('&lt;script&gt;'));assert(!escaped.includes('<script>'));
 let progress,now=1000;for(const days of [1,3,7,14,30,60,60]){progress=review(progress,true,now);assert.equal(progress.interval,days);now=progress.due;}
 assert.equal(review(progress,false,now).due,now+600000);assert.equal(review(progress,true,now,true).due,now+600000);
+assert(en.includes('Records are not merged'));assert(en.includes('Only the Replace button'));
+assert(de.includes('Erst der Ersetzen-Button'));assert(de.includes('Wenn das Speichern fehlschlägt'));
 console.log('PASS: bilingual information sections, actual species/media counts, per-list regional timestamps, unavailable/partial snapshots, translated source labels, exports/storage wording and review intervals.');

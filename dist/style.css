@@ -347,3 +347,18 @@ body.studying #answer-form .clearable-field{min-width:0}
 body.studying .question-attempt{font-size:12px;color:var(--muted);margin:6px 0 0}
 body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:1px solid var(--line);padding-top:10px}
 #lesson-progress{min-width:0}
+
+.local-storage-note{margin:14px 0;padding:12px;border:1px solid var(--line);border-radius:10px;font-size:14px}
+.local-storage-note p{margin:0 0 8px}
+.backup-step{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
+.backup-step h3{font-size:17px}
+.backup-step label{display:flex;flex-direction:column;gap:8px;font-weight:600}
+.backup-step input[type=file]{width:100%;min-width:0;max-width:100%;font-size:14px}
+#import-preview{margin-top:18px;padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow-wrap:anywhere}
+#import-preview h4{margin:0 0 12px;font-size:18px}
+.backup-comparison{margin:12px 0}
+.backup-comparison dt{font-weight:650;font-size:13px;color:var(--muted);margin-top:10px}
+.backup-comparison dd{margin:2px 0 0}
+#import-preview .toolbar{margin:14px 0 0}
+#import-preview button{white-space:normal}
+@media(max-width:580px){#import-preview{padding:12px}#import-preview .toolbar{flex-direction:column}#import-preview button{width:100%}}
