@@ -1,4 +1,4 @@
-import {acceptedNames,acceptsName,isNameLanguage,NAME_LANGUAGES} from './name-languages.js';
+import {acceptedNames,acceptsName,isNameLanguage,NAME_LANGUAGES} from './name-languages.js?v=20261101-scientific1';
 export const normalize=s=>String(s??'').toLowerCase().replace(/ä/g,'a').replace(/ö/g,'o').replace(/ü/g,'u').replace(/ß/g,'ss').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^\p{L}\p{N}]/gu,'');
 export function matches(s,q){return q.trim().split(/\s+/).every(t=>[s.de,s.en,s.enGB,s.sci,...s.codes,...s.aliases.de,...(s.germanNames||[]).map(n=>n.name),...s.aliases.en,...NAME_LANGUAGES.flatMap(l=>acceptedNames(s,l.code))].some(v=>normalize(v).includes(normalize(t))||normalize(v).includes(normalize(t.replace(/ae/g,'ä').replace(/oe/g,'ö').replace(/ue/g,'ü')))));}
 export function accepts(s,target,value){if(target!=='code')return acceptsName(s,target,value);const answer=normalize(value);return !!answer&&s.codes.some(v=>normalize(v)===answer);}

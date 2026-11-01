@@ -26,6 +26,7 @@ button{cursor:pointer;font-weight:600}button.primary{background:var(--ink);color
 .card,.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
 .card p{margin:6px 0}.card a{float:right;font-size:14px;margin-top:7px}.card details{clear:both;padding-top:12px}
 .english{font-size:17px}.latin{font-style:italic;color:var(--muted);font-size:14px}
+.scientific-name{font-style:italic}
 .english-variants{display:flex;flex-wrap:wrap;gap:4px 22px;margin:8px 0;font-size:17px}
 .english-variants>span{min-width:0}
 body.studying .english-variants{justify-content:center;text-align:center}

@@ -1,4 +1,4 @@
-import {validateLesson} from './study-state.js';
+import {validateLesson} from './study-state.js?v=20261101-scientific1';
 
 // First visit adopts the current interface's old preferences. All later visits
 // share the same preferences; old keys stay intact as a recovery copy.
