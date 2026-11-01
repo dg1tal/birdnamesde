@@ -21,7 +21,7 @@ assert.deepEqual(sectionIds(en),sectionIds(de));assert.equal(sectionIds(en).leng
 assert(en.includes('id="info-project"')&&de.includes('id="info-project"'));
 for(const html of [en,de]){
  assert(html.includes('href="https://github.com/dg1tal/birdnamesde"'));
- assert(html.includes('href="LICENSE"'));
+ assert(html.includes('href="https://github.com/dg1tal/birdnamesde/blob/main/LICENSE"'));
 }
 assert(en.includes('does not cover species and taxonomy data'));
 assert(de.includes('Diese Lizenz gilt nicht für die Arten- und Taxonomiedaten'));
