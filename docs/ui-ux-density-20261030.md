@@ -44,3 +44,9 @@ Release gate: GitHub Pages workflow must succeed for the release commit, followe
 - Kept question/name text sizes and the fixed Next button; reduced repeated paragraph margins and feedback padding.
 - Browser checks passed for the screenshot's Eurasian Wren case, correct/incorrect text answers, flashcard grading, code answers without pictures, DE/EN switching, feedback pause/reload/resume, and widths 360/390/1280 px. No horizontal overflow or console warnings/errors observed.
 - Study translation and state regression tests, JS syntax and whitespace checks passed.
+
+## Follow-up: hide the header during active study · 2026-11-01
+
+- Removed the CSS override that kept the logo and UI-language/theme controls visible in study mode. They are hidden for both questions and feedback, with no replacement settings button.
+- Pausing and finishing restore the normal header. Language/theme settings remain available while paused; resuming retains the current question, draft or graded feedback.
+- Browser checks passed at 360/390/1280 px, in DE/EN and light/dark appearances. The Common Crane photo fits fully above the fixed Next bar at 360 × 800 px. Verified pause → change language/theme → resume and completion → visible header. No horizontal overflow or browser errors observed.
