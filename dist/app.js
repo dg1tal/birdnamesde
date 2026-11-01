@@ -1,3 +1,4 @@
+import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight} from './study-photo-layout.js?v=20261101-adaptive1';
 import {renderInformation} from './info-page.js?v=20261101-storage1';
 import {loadSharedUI,restoreLessonState,selectionMessage} from './learning-settings.js?v=20261101-entry2';
@@ -74,11 +75,63 @@ function observeStudyPhotoLayout(){
   studyPhotoObserver.observe($('.question'));studyPhotoObserver.observe($('#feedback .study-actions'));
   scheduleStudyPhotoLayout();
 }
-function studyMode(active){studyPhotoObserver.disconnect();document.body.classList.toggle('studying',active);updateStudyViewport();}
-function updateStudyViewport(){const v=window.visualViewport;const inset=v?Math.max(0,window.innerHeight-v.height-v.offsetTop):0;document.documentElement.style.setProperty('--study-keyboard-inset',inset+'px');scheduleStudyPhotoLayout();}
-window.visualViewport?.addEventListener('resize',updateStudyViewport);
-window.visualViewport?.addEventListener('scroll',updateStudyViewport);
-window.addEventListener('resize',updateStudyViewport);
+let studyVisibilityFrame=0,studyFocusPinned=true;
+const studyActionsObserver=new ResizeObserver(()=>updateStudyViewport(true));
+function studyMode(active){
+  studyPhotoObserver.disconnect();studyActionsObserver.disconnect();
+  document.body.classList.toggle('studying',active);updateStudyViewport();
+}
+function ensureStudyFocusVisible(){
+  if(studyVisibilityFrame)return;
+  studyVisibilityFrame=requestAnimationFrame(()=>{
+    studyVisibilityFrame=0;
+    if(!studyFocusPinned||!document.body.classList.contains('studying')||$('#photo-dialog')?.open)return;
+    const focused=document.activeElement;
+    const input=focused?.id==='answer';
+    const feedback=focused?.matches('#feedback h2');
+    const flash=focused?.matches('#yes,#no');
+    if(!input&&!feedback&&!flash)return;
+    const bar=$('.study-actions');if(!bar)return;
+    const v=window.visualViewport;
+    const metrics=studyViewportMetrics({layoutHeight:window.innerHeight,viewportHeight:v?.height,offsetTop:v?.offsetTop});
+    const first=input?focused:flash?$('#answer-area').firstElementChild:$('#feedback .feedback-result');
+    const last=input?($('#hint-text')?.textContent?$('#hint-text'):focused):flash?$('#answer-area .study-actions').previousElementSibling:$('#feedback .feedback-answer');
+    const delta=studyScrollDelta({top:first.getBoundingClientRect().top,bottom:last.getBoundingClientRect().bottom,
+      visibleTop:metrics.top,visibleBottom:Math.min(metrics.bottom,bar.getBoundingClientRect().top)});
+    if(Math.abs(delta)>1)window.scrollBy({top:delta,behavior:'instant'});
+  });
+}
+function updateStudyViewport(reveal=false){
+  const root=document.documentElement;
+  if(!document.body.classList.contains('studying')){
+    root.style.removeProperty('--study-keyboard-inset');root.style.removeProperty('--study-bottom-space');return;
+  }
+  const v=window.visualViewport,bar=$('.study-actions');
+  const metrics=studyViewportMetrics({layoutHeight:window.innerHeight,viewportHeight:v?.height,offsetTop:v?.offsetTop,actionsHeight:bar?.getBoundingClientRect().height});
+  root.style.setProperty('--study-keyboard-inset',metrics.inset+'px');
+  root.style.setProperty('--study-bottom-space',metrics.padding+'px');
+  scheduleStudyPhotoLayout();if(reveal)ensureStudyFocusVisible();
+}
+function observeStudyActions(){
+  studyActionsObserver.disconnect();const bar=$('.study-actions');if(bar)studyActionsObserver.observe(bar);
+  updateStudyViewport(true);
+}
+// Scroll events reposition the bar, but never fight a reader's manual scrolling.
+window.visualViewport?.addEventListener('resize',()=>updateStudyViewport(true));
+window.visualViewport?.addEventListener('scroll',()=>updateStudyViewport());
+window.addEventListener('resize',()=>updateStudyViewport(true));
+document.addEventListener('focusin',event=>{
+  if(event.target.matches('#answer,#feedback h2,#yes,#no')){studyFocusPinned=true;ensureStudyFocusVisible();}
+});
+// Mobile browser chrome can resize during a swipe. Once the user starts reading,
+// those resizes must not pull the page back to the still-focused result heading.
+for(const type of ['wheel','touchmove'])document.addEventListener(type,()=>{studyFocusPinned=false;},{passive:true});
+document.addEventListener('keydown',event=>{
+  if(document.activeElement?.id!=='answer'&&['PageDown','PageUp','Home','End','ArrowDown','ArrowUp'].includes(event.key))studyFocusPinned=false;
+});
+document.addEventListener('pointerdown',event=>{
+  if(document.activeElement?.id==='answer'&&event.target.closest('#hint,#answer-form .input-clear'))event.preventDefault();
+});
 
 const key=(s,t)=>s.id+':'+t,progress=(s,t)=>records[key(s,t)];
 try{const savedTheme=localStorage.getItem('birdnames-theme');if(['system','light','dark'].includes(savedTheme))theme=savedTheme;}catch{}
@@ -156,6 +209,7 @@ document.addEventListener('click',event=>{
   if(input.disabled||input.readOnly)return;
   input.value='';input.dispatchEvent(new Event('input',{bubbles:true}));
   input.focus({preventScroll:true});
+  if(input.id==='answer'){studyFocusPinned=true;ensureStudyFocusVisible();}
 });
 function lookup() {
   const state=ui.lookup;
@@ -336,14 +390,14 @@ function renderQuestion() {
   if(x.done){renderFeedback(s,item);return;}
   const area=$('#answer-area');
   if(x.method==='text') {
-    area.innerHTML=`<form id="answer-form"><label class="sr" for="answer">${target}</label>${clearableField(`<input id="answer" placeholder="${item.t==='code'?'Vier Buchstaben':item.t==='sci'?(english?'Enter the scientific name':'Wissenschaftlichen Namen eingeben'):english?'Enter the bird name':'Vogelnamen eingeben'}" value="${esc(x.draft||'')}" ${item.t==='code'?'maxlength="4" autocapitalize="characters"':'maxlength="300" autocapitalize="off"'} autocomplete="off" autocorrect="off" spellcheck="false">`,x.draft)}<div class="actions study-actions"><button type="submit" class="primary">Prüfen</button><button type="button" id="hint" class="quiet">Hinweis</button></div><p id="hint-text" class="muted" role="status">${x.hint?'Beginnt mit „'+esc(targetName(s,item.t)[0])+'“.':''}</p></form>`;
-    $('#answer').oninput=()=>{x.draft=$('#answer').value;save();};
+    area.innerHTML=`<form id="answer-form"><label class="sr" for="answer">${target}</label>${clearableField(`<input id="answer" placeholder="${item.t==='code'?'Vier Buchstaben':item.t==='sci'?(english?'Enter the scientific name':'Wissenschaftlichen Namen eingeben'):english?'Enter the bird name':'Vogelnamen eingeben'}" value="${esc(x.draft||'')}" ${item.t==='code'?'maxlength="4" autocapitalize="characters"':'maxlength="300" autocapitalize="off"'} autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done" aria-describedby="hint-text">`,x.draft)}<div class="actions study-actions"><button id="check-answer" type="submit" class="primary"${x.draft?.trim()?'':' disabled'}>Prüfen</button><button type="button" id="hint" class="quiet">Hinweis</button></div><p id="hint-text" class="muted" role="status">${x.hint?'Beginnt mit „'+esc(targetName(s,item.t)[0])+'“.':''}</p></form>`;
+    $('#answer').oninput=()=>{x.draft=$('#answer').value;$('#check-answer').disabled=!x.draft.trim();save();};
     $('#answer-form').onsubmit=e=>{e.preventDefault();const answer=$('#answer').value.trim();if(answer)finish(accepts(s,item.t,answer),s,item,answer);};
-    $('#hint').onclick=()=>{x.hint=true;$('#hint-text').textContent='Beginnt mit „'+targetName(s,item.t)[0]+'“.';save();$('#answer').focus();};
+    $('#hint').onclick=()=>{x.hint=true;$('#hint-text').textContent='Beginnt mit „'+targetName(s,item.t)[0]+'“.';save();$('#answer').focus({preventScroll:true});studyFocusPinned=true;ensureStudyFocusVisible();};
     requestAnimationFrame(()=>$('#answer')?.focus({preventScroll:true}));
   }
   if(x.method==='flash') {
-    const reveal=()=>{x.revealed=true;save();area.innerHTML=`${nameAnswerMarkup(s,item.t)}${item.t!=='code'?`<p class="code">${esc(s.codes[0])}</p>`:''}${germanNames(s)}<div class="actions study-actions"><button id="no">Nicht gewusst</button><button id="yes" class="primary">Gewusst</button></div>`;$('#no').onclick=()=>finish(false,s,item,'Nicht gewusst');$('#yes').onclick=()=>finish(true,s,item,'Gewusst');$('#yes').focus({preventScroll:true});};
+    const reveal=()=>{x.revealed=true;save();area.innerHTML=`${nameAnswerMarkup(s,item.t)}${item.t!=='code'?`<p class="code">${esc(s.codes[0])}</p>`:''}${germanNames(s)}<div class="actions study-actions"><button id="no">Nicht gewusst</button><button id="yes" class="primary">Gewusst</button></div>`;$('#no').onclick=()=>finish(false,s,item,'Nicht gewusst');$('#yes').onclick=()=>finish(true,s,item,'Gewusst');$('#yes').focus({preventScroll:true});observeStudyActions();};
     if(x.revealed)reveal();else{area.innerHTML='<div class="study-actions"><button id="reveal" class="primary">Antwort aufdecken</button></div>';$('#reveal').onclick=reveal;requestAnimationFrame(()=>$('#reveal')?.focus({preventScroll:true}));}
   }
   if(x.method==='mc') {
@@ -355,6 +409,7 @@ function renderQuestion() {
     document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>finish(accepts(s,item.t,answers[+b.dataset.choice]),s,item,answers[+b.dataset.choice]));
     focusHeading();
   }
+  observeStudyActions();
 }
 async function finish(correct,s,item,answer) {
   const x=session;if(!x||!recordLessonAnswer(x,correct,answer))return;
@@ -373,7 +428,7 @@ function renderFeedback(s,item) {
   $('#feedback').innerHTML=`<div class="feedback"><div class="feedback-result"><h2 class="${correct?'good':'bad'}" tabindex="-1">${correct?'✓ Richtig.':'Noch nicht richtig.'}</h2>${x.method!=='flash'?`<p class="your-answer"><span class="muted">Deine Antwort:</span> <span data-name-content>${esc(answer)}</span></p>`:''}</div><div class="feedback-answer"><p class="answer-label">${item.t==='code'?'Offizieller Quick Find Code':item.t==='sci'?(english?'Scientific name':'Wissenschaftlicher Name'):'Akzeptierte Namen'}</p>${nameAnswerMarkup(s,item.t)}</div><div class="feedback-details"><div class="answer-reference">${item.t!=='code'?`<p class="code">${esc(s.codes[0])}</p>`:''}${item.t==='sci'?'':`<p class="latin">${esc(s.sci)}</p>`}${s.codes.length>1?`<p class="other-codes">Weitere akzeptierte Codes: ${s.codes.slice(1).map(esc).join(', ')}</p>`:''}</div>${germanNames(s)}<p class="answer-species-link">${ebirdLink(s)}</p></div>${x.photos?photoMarkup(s,true):''}<p class="muted review-schedule">${esc(reviewMessage({correct,hint:x.hint,days:records[key(s,item.t)].interval,retry:item.retry}))}</p><div class="study-actions"><button id="next" class="primary">Weiter →</button></div></div>`;
   if(x.photos){mountStudyPhoto(s);observeStudyPhotoLayout();}
   $('#next').onclick=()=>{if(!x.done||session!==x)return;x.index++;x.done=false;x.hint=false;x.result=null;x.draft='';x.revealed=false;if(x.index>=x.queue.length)endLesson();else{save();renderQuestion();}};
-  focusHeading('#feedback h2');
+  observeStudyActions();focusHeading('#feedback h2');
 }
 function stats() {
   if(session&&!session.paused){session.paused=true;save();}
