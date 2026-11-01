@@ -319,3 +319,8 @@ body.studying .feedback .photo-set{min-width:0}
 body.studying .feedback .bird-photo{margin-top:0;margin-bottom:0}
 body.studying .feedback .review-schedule{font-size:13px}
 @media(max-width:580px){body.studying .feedback{gap:10px;padding:12px}}
+
+/* Fit feedback pictures into the visible height, with a readable 220px floor. */
+body.studying .feedback .photo-set .bird-photo img,
+body.studying .feedback .photo-set .bird-photo .study-photo-slot{height:var(--study-photo-height,280px);object-fit:contain}
+@media(max-width:580px){body.studying .feedback .photo-set-multiple{grid-template-columns:1fr}}

@@ -50,3 +50,12 @@ Release gate: GitHub Pages workflow must succeed for the release commit, followe
 - Removed the CSS override that kept the logo and UI-language/theme controls visible in study mode. They are hidden for both questions and feedback, with no replacement settings button.
 - Pausing and finishing restore the normal header. Language/theme settings remain available while paused; resuming retains the current question, draft or graded feedback.
 - Browser checks passed at 360/390/1280 px, in DE/EN and light/dark appearances. The Common Crane photo fits fully above the fixed Next bar at 360 × 800 px. Verified pause → change language/theme → resume and completion → visible header. No horizontal overflow or browser errors observed.
+
+## Follow-up: adaptive feedback pictures · 2026-11-01
+
+- Size feedback images and loading placeholders from the document position of the first photo row, visual viewport and actual fixed action-bar position, with 12 px clearance where possible.
+- Clamp image height to 220–360 CSS px: long feedback scrolls instead of shrinking pictures into thumbnails. Preserve the full image with `object-fit: contain`; names, captions and source credits remain available.
+- At mobile widths up to 580 px, comparison pictures stack at full width so individual birds remain identifiable. Desktop comparison pictures share a height that fits the lowest image start in the first row. Enlarged dialogs and Lookup images retain their own sizing.
+- Recalculate after viewport/keyboard changes, feedback layout changes and expanded sources, without changing image size merely because the page scrolls. Observe only active feedback and disconnect on pause/question changes.
+- Verified 390 × 844, 390 × 740, 360 × 800, 844 × 390 and 1280 × 900: short Common Crane feedback fits above the action bar; long Wren feedback and expanded sources respect the 220 px floor; male/female Nuthatch pictures stack on mobile and fit side-by-side on desktop. Tested scientific-name feedback, DE/EN switching, pause/reload/resume, image enlargement and stable sizing while scrolling. No browser console warnings/errors observed.
+- All 12 Node test scripts and syntax/whitespace checks passed. Added height-boundary and viewport-clearance tests to the Pages workflow.
