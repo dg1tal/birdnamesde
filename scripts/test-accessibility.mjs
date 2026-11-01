@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {createAnnouncer,setTextIfChanged,focusElement,contentLanguage,queueFocus} from '../dist/accessibility.js';
+import {createAnnouncer,setTextIfChanged,focusElement,contentLanguage,queueFocus,activateView} from '../dist/accessibility.js';
 
 let tasks=new Map(),serial=0;
 const region={textContent:''};
@@ -33,4 +33,25 @@ doc.activeElement=body;queueFocus(target,{document:doc,frame:fn=>{queued=fn;}});
 doc.activeElement={};queueFocus(target,{document:doc,frame:fn=>{queued=fn;}});target.isConnected=false;queued();assert.equal(focused,1);
 
 target.isConnected=true;doc.activeElement={};queueFocus(target,{document:doc,frame:fn=>{queued=fn;}});queued();assert.equal(focused,2);
+
+// Route targets stay real while stale forms/headings are removed from inactive views.
+const views=['nachschlagen','lernen','statistik','info'].map(id=>({id,hidden:false,content:id,replaceChildren(){this.content='';}}));
+const main={querySelectorAll:()=>views};
+assert.equal(activateView(main,'lernen'),views[1]);
+assert.equal(views[1].content,'lernen');
+assert(views.filter(view=>view.hidden).every(view=>view.content===''));
+views[1].content='answer form';views[2].content='statistics';
+assert.equal(activateView(main,'statistik'),views[2]);
+assert.equal(views[1].content,'');assert.equal(views[2].content,'statistics');
+assert.equal(views.filter(view=>!view.hidden).length,1);
+assert.throws(()=>activateView(main,'missing'));
+const {readFileSync}=await import('node:fs');
+const shell=readFileSync(new URL('../dist/index.html',import.meta.url),'utf8');
+const ids=[...shell.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
+assert.equal(ids.length,new Set(ids).size);
+for(const [,fragment]of shell.matchAll(/href="#([^"]+)"/g))assert(ids.includes(fragment),'Missing initial fragment target: '+fragment);
+assert.match(shell,/<h1>[^<]+<\/h1>/);
+assert.match(shell,/<noscript>/);
+for(const id of ['nachschlagen','lernen','statistik','info'])assert.match(shell,new RegExp('<section[^>]+id="'+id+'"[^>]*>[\\s\\S]*?<h[12]>'));
 console.log('PASS: coalesced/repeatable status announcements, cancellation on navigation, unchanged statuses stay silent, safe focus and native tab order.');
+console.log('PASS: meaningful initial heading/noscript help, valid static route targets and one active view without stale form content.');

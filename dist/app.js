@@ -1,22 +1,24 @@
-import {createAnnouncer,setTextIfChanged,focusElement,contentLanguage,queueFocus} from './accessibility.js?v=20261101-a11y6';
-import {persistLearningState} from './learning-storage.js?v=20261101-a11y6';
-import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from './backup.js?v=20261101-a11y6';
+import {createAnnouncer,setTextIfChanged,focusElement,contentLanguage,queueFocus,activateView} from './accessibility.js?v=20261101-wave2';
+import {persistLearningState} from './learning-storage.js?v=20261101-wave2';
+import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from './backup.js?v=20261101-wave2';
 import {lessonProgressText,attemptText,masteryText,progressDefinitions} from './progress-copy.js?v=20261101-progress2';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight} from './study-photo-layout.js?v=20261101-adaptive1';
-import {renderInformation} from './info-page.js?v=20261101-a11y6';
+import {renderInformation} from './info-page.js?v=20261101-wave2';
 import {loadSharedUI,restoreLessonState,selectionMessage} from './learning-settings.js?v=20261101-entry2';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261029-uklocal1';
-import {english,localize,t,reviewMessage,importErrorMessage} from './i18n.js?v=20261101-a11y6';
+import {english,localize,t,reviewMessage,importErrorMessage} from './i18n.js?v=20261101-wave2';
 const defaultNameTarget=english?'de':'en';
 let nameTarget=defaultNameTarget,availableNameLanguages=['de','en'];
 import {validateLesson,lessonProgress,recordLessonAnswer} from './study-state.js?v=20261101-scientific1';
 import {createPhotoCache} from './photo-cache.js';
-import {normalize,matches,accepts,review,mastered,due} from './logic.js?v=20261101-a11y6';
-const $=s=>document.querySelector(s),app=$('#app');
+import {normalize,matches,accepts,review,mastered,due} from './logic.js?v=20261101-wave2';
+const $=s=>document.querySelector(s),main=$('#app');
+let app=$('#nachschlagen');
+$('#app-start-status').setAttribute('role','status');$('#app-start-status').textContent=t('Artenbestand wird geladen …');
 const announce=createAnnouncer($('#a11y-status'));
-$('#skip-content').onclick=event=>{event.preventDefault();focusElement($('#answer')||$('#search')||$('main h1')||app);};
+$('#skip-content').onclick=event=>{event.preventDefault();focusElement($('#answer')||$('#search')||$('main h1')||main);};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let birds=[],meta={},records={},db,storageOK=true,session=null,pendingLessons=[],theme='system';
 // Loaded separately from the taxonomy so media updates cannot overwrite species data.
@@ -220,6 +222,7 @@ document.addEventListener('click',event=>{
   if(input.id==='answer'){studyFocusPinned=true;ensureStudyFocusVisible();}
 });
 function lookup() {
+  app=activateView(main,'nachschlagen');
   const state=ui.lookup;
   app.innerHTML=`<h1 class="sr">Arten nachschlagen</h1><div class="lookup-tools"><label class="search-label" for="search">Art suchen</label>${clearableField(`<input type="search" id="search" class="search" aria-controls="results" placeholder="${english?'German, English, Dutch, scientific name or code':'Deutsch, Englisch, Niederländisch, wissenschaftlich oder Code'}" autocomplete="off" value="${esc(state.query)}">`,state.query)}<div class="lookup-options"><details id="lookup-filter-options"><summary><span>${english?'Filters':'Filter'}</span><span id="filter-count"></span></summary><div class="lookup-filters"><div class="field"><label for="group">Artengruppe</label><select id="group">${opt('','Alle Artengruppen')+groups().map(g=>opt(g,g,g===state.group)).join('')}</select></div><div class="field"><label for="level">Lernstufe</label><select id="level">${opt('','Alle Lernstufen')+levels.map((l,i)=>opt(i+1,l,String(i+1)===state.level)).join('')}</select></div></div></details><label class="photo-option"><input type="checkbox" id="lookup-photos" ${lookupPhotos?'checked':''}>Artenbilder</label></div><div id="active-filters" class="active-filters" aria-label="Aktive Filter"></div></div><div id="results-meta" class="meta"></div><div id="results" class="grid"></div><button class="back-top quiet" id="back-top" hidden>↑ Zur Suche</button>`;
   const update=()=>{
@@ -286,6 +289,7 @@ function updateRegionStatus(cfg){
 function lessonRegionLabel(x){const r=regionalData?.regions.find(r=>r.code===x.regionCode||r.nameDe===x.regionLabel||r.nameEn===x.regionLabel);return r?(english?r.nameEn:r.nameDe):x.regionLabel||'';}
 function canResumeLesson(x){return !!x&&x.queue.slice(x.index).every(i=>{const s=birds.find(b=>b.id===i.id);return s&&hasLanguagePair(s,x.sourceLanguage,i.t);});}
 function learn(preset) {
+  app=activateView(main,'lernen');
   if (preset) {
     if(session)session.paused=true;
     ui.learn={...ui.learn,scope:preset.scope||'all',levels:preset.levels||[1,2,3],groups:groups(),ids:preset.ids||[],target:preset.target||'mixed'};
@@ -394,11 +398,13 @@ function progressHelp(roundOnly=false){
 }
 function endLesson() { const ended=session;session=pendingLessons.shift()||null;save();if(ended)showSummary(ended); }
 function showSummary(x) {
+  app=activateView(main,'lernen');
   studyMode(false);const p=lessonProgress(x),repeats=x.answered-x.firstAnswered;
   app.innerHTML=`<div class="session panel summary"><h1>Einheit abgeschlossen</h1><p class="summary-score">${english?`First attempts: ${x.firstCorrect} of ${x.firstAnswered} correct`:`Erste Versuche: ${x.firstCorrect} von ${x.firstAnswered} richtig`}</p><p>${esc(lessonProgressText(p,english).primary)}</p><p>${english?`Extra attempts after errors: ${repeats} completed · ${x.correct-x.firstCorrect} correct`:`Zusatzversuche nach Fehlern: ${repeats} bearbeitet · ${x.correct-x.firstCorrect} richtig`}</p>${p.completed<p.total||p.repeats?`<p class="muted">${english?'Finished early. '+lessonProgressText(p,true).pending+'. Graded answers remain saved.':'Vorzeitig beendet. '+lessonProgressText(p,false).pending+'. Bewertete Antworten bleiben gespeichert.'}</p>`:''}${progressHelp()}${storageNotice()}<div class="actions"><button id="restart" class="primary">${session?(english?'Continue to saved session':'Zur gespeicherten Einheit'):'Neue Einheit'}</button><a class="button-link" href="#statistik">Fortschritt ansehen</a></div></div>`;
   $('#restart').onclick=()=>{learn();focusHeading();};window.scrollTo(0,0);focusHeading();
 }
 function renderQuestion() {
+  app=activateView(main,'lernen');
   const x=session;if(!x)return learn();if(x.index>=x.queue.length){endLesson();return;}
   if(!canResumeLesson(x)){x.paused=true;save();learn();return;}
   studyMode(true);window.scrollTo(0,0);warmStudyPhotos(x);
@@ -449,6 +455,7 @@ function renderFeedback(s,item) {
   observeStudyActions();focusHeading('#feedback h2');
 }
 function stats() {
+  app=activateView(main,'statistik');
   if(session&&!session.paused){session.paused=true;save();}
   const ps=Object.entries(records).filter(([k])=>k.endsWith(':'+nameTarget)||k.endsWith(':code')).map(([,p])=>p),attempts=ps.reduce((a,p)=>a+p.attempts,0),correct=ps.reduce((a,p)=>a+p.correct,0),learned=birds.filter(s=>progress(s,nameTarget)||progress(s,'code')).length,counts=t=>birds.filter(s=>mastered(progress(s,t))).length;
   const dueNames=birds.filter(s=>due(progress(s,nameTarget))).length,dueCodes=birds.filter(s=>due(progress(s,'code'))).length;
@@ -502,7 +509,7 @@ function stats() {
   };
   $('#reset').onclick=async()=>{if(confirm(t('Alle Lernwerte und die laufende Einheit in diesem Browser löschen?'))){records={};session=null;pendingLessons=[];await save();stats();focusHeading();}};
 }
-function info(){app.innerHTML=renderInformation({english,birds,meta,germanNamesMeta,photos,regions:regionalData});}
+function info(){app=activateView(main,'info');app.innerHTML=renderInformation({english,birds,meta,germanNamesMeta,photos,regions:regionalData});}
 
 function setActiveNav(page){document.querySelectorAll('nav a').forEach(a=>{const active=a.hash==='#'+page;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});}
 function route(){
