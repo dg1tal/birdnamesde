@@ -336,3 +336,14 @@ body.studying .feedback .photo-set .bird-photo .study-photo-slot{height:var(--st
 /* Leave room to scroll the focused answer above the keyboard and action bar. */
 body.studying #answer,body.studying .feedback-result{scroll-margin-block:12px}
 body.studying #answer-form .clearable-field{min-width:0}
+
+/* Explain progress in context while keeping the active round compact. */
+.progress-help{margin:14px 0;font-size:14px}
+.progress-help>summary{font-weight:650}
+.progress-definitions{font-size:14px;margin:12px 0}
+.progress-definitions dt{font-weight:700;margin-top:12px}
+.progress-definitions dd{margin:3px 0 0;color:var(--muted);line-height:1.5}
+.stats-definitions{padding:0 2px}
+body.studying .question-attempt{font-size:12px;color:var(--muted);margin:6px 0 0}
+body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:1px solid var(--line);padding-top:10px}
+#lesson-progress{min-width:0}

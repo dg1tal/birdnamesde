@@ -178,9 +178,9 @@ export function t(text){if(!english)return text;const leading=text.match(/^\s*/)
 export function reviewMessage({correct,hint,days,retry}){
  if(english){
   const schedule=correct&&!hint?`Next scheduled review in ${days} ${days===1?'day':'days'}.`:'Next scheduled review in ten minutes.';
-  return schedule+(!correct&&retry<2?' Also repeated in this session.':'')+(hint?' Answered with a hint.':'');
+  return schedule+(!correct&&retry<2?' An extra attempt follows in this round.':'')+(hint?' Answered with a hint.':'');
  }
- return (correct&&!hint?'Nächste planmäßige Wiederholung in '+days+(days===1?' Tag.':' Tagen.'):'Planmäßig wieder fällig in zehn Minuten.')+(!correct&&retry<2?' Zusätzlich in dieser Einheit.':'')+(hint?' Mit Hinweis beantwortet.':'');
+ return (correct&&!hint?'Nächste planmäßige Wiederholung in '+days+(days===1?' Tag.':' Tagen.'):'Planmäßig wieder fällig in zehn Minuten.')+(!correct&&retry<2?' Ein Zusatzversuch folgt in dieser Runde.':'')+(hint?' Mit Hinweis beantwortet.':'');
 }
 export function importErrorMessage(error){
  const message=error instanceof SyntaxError?(english?'The file does not contain valid JSON.':'Die Datei enthält kein gültiges JSON.'):t(String(error?.message||''));

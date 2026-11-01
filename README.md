@@ -24,6 +24,7 @@ python scripts/finalize-data.py
 python scripts/validate-data.py
 node scripts/test.mjs
 node scripts/test-study-state.mjs
+node scripts/test-progress-copy.mjs
 node scripts/test-study-viewport.mjs
 node scripts/test-photo-cache.mjs
 node --check dist/app.js
@@ -120,3 +121,7 @@ Study feedback and backup errors use explicit locale-aware message composition. 
 ### Data and privacy information
 
 `dist/info-page.js` renders matching German and English information sections. Species/level/media totals and regional coverage/timestamps derive from loaded data; the review date is separate from taxonomy and dataset dates. English source links have English descriptions and retain original titles in a disclosure. The page documents the Actions-only eBird fetch, hosting requests, shared learning context, local storage/cache, backup scope and domain migration. Tests: `node scripts/test-information.mjs`.
+
+### Learning-progress terminology
+
+The UI distinguishes the fixed round questions (first attempts in the current round, which may include previously practised targets) from extra attempts after errors. The progress bar counts first attempts whether correct or incorrect; pending extra attempts remain visible even when the bar is full. Setup, pause, feedback and summaries use the same definitions. Statistics explain that due reviews and mastered targets can overlap, and feedback shows the current consecutive unhinted-correct streak before the photos. This is a presentation change; scheduling, grading, saved lessons and export formats retain their existing semantics.

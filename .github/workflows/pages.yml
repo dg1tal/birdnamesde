@@ -41,6 +41,7 @@ jobs:
           node scripts/test-study-photo-layout.mjs
           node scripts/test-study-viewport.mjs
           node scripts/test-study-state.mjs
+          node scripts/test-progress-copy.mjs
           node scripts/test-learning-settings.mjs
           node scripts/validate-photos.mjs
           node --check dist/app.js

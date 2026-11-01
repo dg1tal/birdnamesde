@@ -26,7 +26,7 @@ for(const [de,en] of cases)assert.equal(t(de),en);
 for(const days of [1,3,7,14,30,60])assert.equal(reviewMessage({correct:true,hint:false,days,retry:0}),`Next scheduled review in ${days} ${days===1?'day':'days'}.`);
 for(const hint of [false,true])for(const retry of [0,1,2]){
  const message=reviewMessage({correct:false,hint,days:0,retry});
- assert.equal(message,'Next scheduled review in ten minutes.'+(retry<2?' Also repeated in this session.':'')+(hint?' Answered with a hint.':''));
+ assert.equal(message,'Next scheduled review in ten minutes.'+(retry<2?' An extra attempt follows in this round.':'')+(hint?' Answered with a hint.':''));
 }
 assert.equal(reviewMessage({correct:true,hint:true,days:0,retry:0}),'Next scheduled review in ten minutes. Answered with a hint.');
 for(const error of ['Keine gültige BirdNames-DE-Sicherung.','Ungültiger Lerneintrag.','Ungültige Lernwerte.','Ungültige getrennte Antwortzähler.','Widersprüchliche Antwortzähler.','Widersprüchliche Lernwerte.','Datei ist zu groß (maximal 5 MB).'])assert.equal(importErrorMessage(Error(error)),'Import failed: '+t(error));
@@ -34,7 +34,7 @@ assert.equal(importErrorMessage(new SyntaxError('engine-specific message')),'Imp
 assert.equal(importErrorMessage(Error('unbekannter Fehler')),'Import failed: The backup could not be read. Please check the file and try again.');
 globalThis.localStorage={getItem:()=>null};
 const de=await import('../dist/i18n.js?study-test-de');
-assert.equal(de.reviewMessage({correct:false,hint:true,retry:0}),'Planmäßig wieder fällig in zehn Minuten. Zusätzlich in dieser Einheit. Mit Hinweis beantwortet.');
+assert.equal(de.reviewMessage({correct:false,hint:true,retry:0}),'Planmäßig wieder fällig in zehn Minuten. Ein Zusatzversuch folgt in dieser Runde. Mit Hinweis beantwortet.');
 assert.equal(de.importErrorMessage(Error('Keine gültige BirdNames-DE-Sicherung.')),'Import fehlgeschlagen: Keine gültige BirdNames-DE-Sicherung.');
 for(const text of cases.keys())assert.equal(de.t(text),text);
 console.log('PASS: English study/progress counters, singular/plural, all review/hint/retry states, backup errors and unchanged German messages.');
