@@ -472,3 +472,5 @@ body.studying .question-selection-context{display:grid;gap:4px;font-size:13px;co
 #free-setup #lesson-options{margin:16px 0}.migration-explanation{font-size:14px;margin-top:14px}
 .migration-explanation>summary{min-height:44px;padding:10px 0;color:var(--muted)}
 .daily-panel .actions{justify-content:flex-start}.daily-panel .form-note{font-size:14px}
+
+.introduction>.intro-instruction{margin:0 0 18px;font-weight:600}
