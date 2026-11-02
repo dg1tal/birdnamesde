@@ -119,3 +119,12 @@ Release gate: GitHub Pages workflow must succeed for the release commit, followe
 - Sources: [WAVE report](https://wave.webaim.org/report#/https://dg1tal.github.io/birdnamesde/), [WAVE help](https://wave.webaim.org/help.php), [WebAIM evaluation guidance](https://webaim.org/articles/evaluationguide/).
 
 WAVE scope clarification: inspection of the final report frame showed zero script elements and an unloaded app stylesheet (`link.sheet` was null). Its zero contrast findings therefore do not evaluate the actual application palette. The static heading/fragment checks remain useful; interactive behavior and styled contrast require evaluation of the loaded application, for example with the WAVE browser extension. The initial descriptions and noscript guidance do not make the application functional without JavaScript.
+
+
+## Nachschlagen: Regionsfilter statt Lernstufe (2026-11-02)
+
+- Lernstufenfilter aus der Nachschlagefunktion entfernt; alte gespeicherte Stufen werden verworfen.
+- Optionaler Regionsfilter verwendet dieselbe Länder-/Regions-/Lokalregionshierarchie wie Lernen. Standard ist „Alle Regionen“; eine gewählte Region verwendet zunächst alle Nachweise. Optional sind die letzten 30 Tage wählbar.
+- Nachschlageregion wird unabhängig von der Lernregion gespeichert. Sichtbarer Hinweis erklärt eBird-Nachweise, Zeitraum und historische Seltenheiten.
+- Aktiver Regionschip und passende Hilfe bei null Treffern entfernen nur die Region und erhalten die Suche. „Alles zurücksetzen“ setzt Suche, Gruppe und Region zurück und den Nachweiszeitraum auf alle Nachweise.
+- Geprüft im Browser: Länderwechsel, England/Cornwall, Bayern, beide Zeiträume, Suche ohne Treffer und gezielte Erholung, Tastaturfolge, Neuladen, Unabhängigkeit der Lernregion sowie 360-Pixel-Layout ohne horizontalen Überlauf. Bestehende automatisierte Tests ergänzt um die Übernahme alter Einstellungen und unabhängig gespeicherte Regionen.

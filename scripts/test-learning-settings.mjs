@@ -25,3 +25,18 @@ assert.equal(selectionMessage({count:3,scope:'due'},true),'3 species match your 
 assert.match(selectionMessage({count:0,unavailable:true,noLevels:true},false),/regionale Liste/);
 
 console.log('PASS: shared interface-independent settings, both legacy lessons preserved, cleared lessons stay cleared, drafts/region retained and actionable selection messages.');
+
+// Existing learning regions must not silently restrict the new lookup filter.
+const regionDefaults={lookup:{query:'',region:'',regionMode:'all'},learn:{region:''}};
+const oldPreferences={getItem:key=>key==='birdnames-ui-shared-v1'?JSON.stringify({lookup:{query:'Amsel',level:'1'},learn:{region:'GB-ENG-CON'}}):null};
+const lookupMigration=loadSharedUI(regionDefaults,oldPreferences,false);
+assert.equal(lookupMigration.lookup.query,'Amsel');
+assert.equal(lookupMigration.lookup.region,'');
+assert.equal(lookupMigration.lookup.regionMode,'all');
+assert.equal(lookupMigration.learn.region,'GB-ENG-CON');
+const separateRegions={getItem:()=>JSON.stringify({lookup:{region:'DE-BY',regionMode:'recent'},learn:{region:'NL'}})};
+const restoredRegions=loadSharedUI(regionDefaults,separateRegions,true);
+assert.equal(restoredRegions.lookup.region,'DE-BY');
+assert.equal(restoredRegions.lookup.regionMode,'recent');
+assert.equal(restoredRegions.learn.region,'NL');
+console.log('PASS: lookup starts with all regions for legacy settings and restores its own region independently of learning.');
