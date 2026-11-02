@@ -471,8 +471,17 @@ function endLesson() { const ended=session;session=pendingLessons.shift()||null;
 function showSummary(x) {
   app=activateView(main,'lernen');
   studyMode(false);const p=lessonProgress(x),repeats=x.answered-x.firstAnswered;
-  app.innerHTML=`<div class="session panel summary"><h1>Einheit abgeschlossen</h1><p class="summary-score">${english?`First attempts: ${x.firstCorrect} of ${x.firstAnswered} correct`:`Erste Versuche: ${x.firstCorrect} von ${x.firstAnswered} richtig`}</p><p>${esc(lessonProgressText(p,english).primary)}</p><p>${english?`Extra attempts after errors: ${repeats} completed · ${x.correct-x.firstCorrect} correct`:`Zusatzversuche nach Fehlern: ${repeats} bearbeitet · ${x.correct-x.firstCorrect} richtig`}</p>${p.completed<p.total||p.repeats?`<p class="muted">${english?'Finished early. '+lessonProgressText(p,true).pending+'. Graded answers remain saved.':'Vorzeitig beendet. '+lessonProgressText(p,false).pending+'. Bewertete Antworten bleiben gespeichert.'}</p>`:''}${progressHelp()}${storageNotice()}<div class="actions"><button id="restart" class="primary">${session?(english?'Continue to saved session':'Zur gespeicherten Einheit'):'Neue Einheit'}</button><a class="button-link" href="#statistik">Fortschritt ansehen</a></div></div>`;
-  $('#restart').onclick=()=>{learn();focusHeading();};window.scrollTo(0,0);focusHeading();
+  app.innerHTML=`<div class="session panel summary"><h1>Einheit abgeschlossen</h1><p class="summary-score">${english?`First attempts: ${x.firstCorrect} of ${x.firstAnswered} correct`:`Erste Versuche: ${x.firstCorrect} von ${x.firstAnswered} richtig`}</p><p>${esc(lessonProgressText(p,english).primary)}</p><p>${english?`Extra attempts after errors: ${repeats} completed · ${x.correct-x.firstCorrect} correct`:`Zusatzversuche nach Fehlern: ${repeats} bearbeitet · ${x.correct-x.firstCorrect} richtig`}</p>${p.completed<p.total||p.repeats?`<p class="muted">${english?'Finished early. '+lessonProgressText(p,true).pending+'. Graded answers remain saved.':'Vorzeitig beendet. '+lessonProgressText(p,false).pending+'. Bewertete Antworten bleiben gespeichert.'}</p>`:''}${progressHelp()}${storageNotice()}<div class="actions"><button id="restart" class="primary">${english?'Back to learning settings':'Zur Lernvorbereitung'}</button>${session?`<button id="continue-saved">${english?'Resume saved session':'Gespeicherte Einheit fortsetzen'}</button>`:''}<a class="button-link" href="#statistik">Fortschritt ansehen</a></div></div>`;
+  $('#restart').onclick=showLearningSetup;
+  $('#continue-saved')?.addEventListener('click',()=>{session.paused=false;save();renderQuestion();});
+  window.scrollTo(0,0);focusHeading();
+}
+function showLearningSetup(){
+  if(session&&!session.paused){session.paused=true;save();}
+  learn();
+  const preparation=$('.new-session-options');
+  if(preparation){preparation.open=true;focusElement($('#region-country'));}
+  else{window.scrollTo(0,0);focusHeading();}
 }
 function renderQuestion() {
   app=activateView(main,'lernen');
@@ -583,6 +592,11 @@ function stats() {
 }
 function info(){app=activateView(main,'info');app.innerHTML=renderInformation({english,birds,meta,germanNamesMeta,photos,regions:regionalData});}
 
+// Clicking the active Learn tab must also leave an in-page completion summary.
+document.querySelector('nav a[href="#lernen"]').addEventListener('click',event=>{
+ if(!hasRouted||location.hash!=='#lernen'||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+ event.preventDefault();showLearningSetup();
+});
 function setActiveNav(page){document.querySelectorAll('nav a').forEach(a=>{const active=a.hash==='#'+page;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});}
 function route(){
  if(skipNextRoute){skipNextRoute=false;return;}
