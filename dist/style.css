@@ -476,3 +476,24 @@ body.studying .question-selection-context{display:grid;gap:4px;font-size:13px;co
 .introduction>.intro-instruction{margin:0 0 18px;font-weight:600}
 
 .summary #continue-practice{min-width:200px}
+
+/* Introductions use the same always-visible controls as the question flow. */
+body.studying .introduction{display:grid;gap:8px;padding:20px;overflow-wrap:anywhere}
+body.studying .introduction>p,body.studying .introduction>h1{margin:0}
+body.studying .introduction>.intro-instruction{font-size:16px;line-height:1.4}
+body.studying .introduction>.eyebrow,body.studying .introduction>.intro-answer-language{font-size:13px;color:var(--muted)}
+body.studying .introduction>h1{font-size:clamp(28px,5vw,40px);line-height:1.2}
+body.studying .introduction>.answer-main{font-size:clamp(23px,4vw,30px);line-height:1.3}
+body.studying .introduction>.answer-aliases{font-size:14px;line-height:1.4}
+body.studying .introduction .photo-set{min-width:0;margin-top:4px}
+body.studying .introduction .bird-photo{margin:0;max-width:none}
+body.studying .introduction .photo-set .bird-photo .photo-visual img{height:var(--intro-photo-height,240px);object-fit:contain}
+body.studying .introduction .study-actions{flex-direction:row;align-items:stretch}
+body.studying .introduction #intro-pause{flex:0 0 auto}
+@media(max-width:580px){body.studying .introduction{padding:16px;gap:7px}}
+@media(max-height:600px){body.studying .introduction{gap:6px;padding:14px}}
+
+.answer-name-with-code{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.answer-name-with-code>span[data-name-content]{min-width:0;max-width:100%;overflow-wrap:anywhere}
+.answer-name-with-code>.answer-code{flex:none;white-space:nowrap;font-size:17px;line-height:1.3;padding:3px 8px}
+body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .answer-name-with-code{justify-content:center}

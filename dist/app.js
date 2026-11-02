@@ -9,7 +9,7 @@ import {persistLearningState} from './learning-storage.js?v=20261102-learning2';
 import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from './backup.js?v=20261102-learning2';
 import {lessonProgressText,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261102-learning2';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
-import {studyPhotoHeight} from './study-photo-layout.js?v=20261101-adaptive1';
+import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
 import {renderInformation} from './info-page.js?v=20261102-learning2';
 import {loadSharedUI,restoreLessonState,selectionMessage} from './learning-settings.js?v=20261102-learning2';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
@@ -72,9 +72,26 @@ function scheduleStudyPhotoLayout(){
   studyPhotoFrame=requestAnimationFrame(()=>{
     studyPhotoFrame=0;
     if(!document.body.classList.contains('studying'))return;
-    const set=$('#feedback .photo-set'),actions=$('#feedback .study-actions');
+    const introduction=$('.introduction');
+    const set=introduction?$('.introduction .photo-set'):$('#feedback .photo-set'),actions=introduction?$('.introduction .study-actions'):$('#feedback .study-actions');
     const visuals=set?[...set.querySelectorAll('.photo-visual')].filter(el=>el.getClientRects().length):[];
     if(!visuals.length||!actions)return;
+    if(introduction){
+      const rows=[];
+      for(const visual of visuals){
+        const top=visual.closest('.bird-photo').getBoundingClientRect().top;
+        let row=rows.find(row=>Math.abs(row.top-top)<2);
+        if(!row){row={top,height:0};rows.push(row);}
+        row.height=Math.max(row.height,visual.getBoundingClientRect().height);
+      }
+      const box=set.getBoundingClientRect(),card=introduction.getBoundingClientRect(),viewport=window.visualViewport;
+      const overhead=Math.max(0,box.height-rows.reduce((sum,row)=>sum+row.height,0))+Math.max(0,card.bottom-box.bottom);
+      const maxHeight=Math.max(160,Math.min(340,Math.floor(Math.min(...visuals.map(el=>el.getBoundingClientRect().width))*.9)));
+      const height=introductionPhotoHeight({maxHeight,photoTop:box.top+window.scrollY,viewportBottom:viewport?viewport.offsetTop+viewport.height:window.innerHeight,actionsTop:actions.getBoundingClientRect().top,overhead,rows:rows.length});
+      const value=height+'px';
+      if(set.style.getPropertyValue('--intro-photo-height')!==value)set.style.setProperty('--intro-photo-height',value);
+      return;
+    }
     const rowTop=Math.min(...visuals.map(el=>el.closest('.bird-photo').getBoundingClientRect().top));
     const firstRow=visuals.filter(el=>Math.abs(el.closest('.bird-photo').getBoundingClientRect().top-rowTop)<2);
     const photoTop=Math.max(...firstRow.map(el=>el.getBoundingClientRect().top+window.scrollY));
@@ -89,8 +106,9 @@ function scheduleStudyPhotoLayout(){
 }
 function observeStudyPhotoLayout(){
   studyPhotoObserver.disconnect();
-  if(!$('#feedback .photo-set'))return;
-  studyPhotoObserver.observe($('.question'));studyPhotoObserver.observe($('#feedback .study-actions'));
+  const introduction=$('.introduction');
+  if(!$(introduction?'.introduction .photo-set':'#feedback .photo-set'))return;
+  studyPhotoObserver.observe(introduction||$('.question'));studyPhotoObserver.observe($(introduction?'.introduction .study-actions':'#feedback .study-actions'));
   scheduleStudyPhotoLayout();
 }
 let studyVisibilityFrame=0,studyFocusPinned=true;
@@ -98,6 +116,7 @@ const studyActionsObserver=new ResizeObserver(()=>updateStudyViewport(true));
 function studyMode(active){
   announce.clear();
   studyPhotoObserver.disconnect();studyActionsObserver.disconnect();
+  document.body.classList.remove('introducing');
   document.body.classList.toggle('studying',active);updateStudyViewport();
 }
 function ensureStudyFocusVisible(){
@@ -184,7 +203,7 @@ function nameMarkup(s,code){return `<span data-name-content${code==='sci'?' lang
 function nameAnswerMarkup(s,target){
  if(target==='code')return `<p class="answer-main code">${esc(s.codes[0])}</p>`;
  const aliases=acceptedNames(s,target).filter(n=>n!==primaryName(s,target));
- return `<p class="answer-main">${nameMarkup(s,target)}</p>${aliases.length?`<p class="answer-aliases"><span class="muted">${english?'Also accepted:':'Ebenfalls akzeptiert:'}</span> <span data-name-content lang="${esc(contentLanguage(target))}">${aliases.map(esc).join(' · ')}</span></p>`:''}`;
+ return `<p class="answer-main answer-name-with-code">${nameMarkup(s,target)}${s.codes[0]?`<span class="code answer-code"><span class="sr">${english?'eBird Quick Find Code':'eBird-Kurzcode'}: </span><span data-name-content>${esc(s.codes[0])}</span></span>`:''}</p>${aliases.length?`<p class="answer-aliases"><span class="muted">${english?'Also accepted:':'Ebenfalls akzeptiert:'}</span> <span data-name-content lang="${esc(contentLanguage(target))}">${aliases.map(esc).join(' · ')}</span></p>`:''}`;
 }
 function englishNames(s){return s.enGB?`<div class="english-variants" data-name-content lang="en"><span><span class="variant-label">US</span> ${esc(s.en)}</span><span><span class="variant-label">GB</span> ${esc(s.enGB)}</span></div>`:`<p class="english" data-name-content lang="en">${esc(s.en)}</p>`;}
 const otherEnglishNames=s=>s.aliases.en.filter(name=>name!==s.enGB);
@@ -514,10 +533,10 @@ function startRound(queue,cfg,isDaily,hybrid){
 function renderIntroduction(x){
  const item=x.queue[x.introductions[x.introIndex]],s=birds.find(s=>s.id===item.id),unit=x.sourceLanguage+':'+item.id+':'+item.t;
  if(!item.introduced){daily=introduce(daily,unit);records[key(s,item.t)]=beginIntroduction(records[key(s,item.t)],x.sourceLanguage,x.method);item.introduced=true;save();}
- studyMode(false);
+ studyMode(true);document.body.classList.add('introducing');
  const instruction=item.t==='code'?(english?'Remember the code. You will be asked for it shortly.':'Merke dir den Code. Er wird gleich abgefragt.'):(english?'Remember the translation. You will be asked for it shortly.':'Merke dir die Übersetzung. Sie wird gleich abgefragt.');
- app.innerHTML=`<div class="panel introduction"><p id="intro-instruction" class="intro-instruction">${instruction}</p><p class="eyebrow">${english?'New learning target':'Neues Lernziel'} · ${x.introIndex+1}/${x.introductions.length}</p><h1 aria-describedby="intro-instruction">${nameMarkup(s,x.sourceLanguage)}</h1><p>${esc(item.t==='code'?'Quick Find Code':languageLabel(item.t,english?'en':'de'))}</p>${nameAnswerMarkup(s,item.t)}${item.t!=='code'&&s.codes[0]?`<p class="intro-code"><span class="muted">${english?'eBird Quick Find Code':'eBird-Kurzcode'}:</span> <span class="code">${esc(s.codes[0])}</span></p>`:''}${x.photos?photoMarkup(s):''}${storageNotice()}<div class="actions"><button id="intro-next" class="primary">${english?'Continue →':'Weiter →'}</button><button id="intro-pause">${english?'Pause':'Pausieren'}</button></div></div>`;
- $('#intro-next').onclick=()=>{x.introIndex++;save();renderQuestion();};$('#intro-pause').onclick=()=>{x.paused=true;save();learn();focusHeading();};focusElement($('.introduction h1'),{preventScroll:true});window.scrollTo(0,0);
+ app.innerHTML=`<div class="panel introduction"><p id="intro-instruction" class="intro-instruction">${instruction}</p><p class="eyebrow">${english?'New learning target':'Neues Lernziel'} · ${x.introIndex+1}/${x.introductions.length}</p><h1 aria-describedby="intro-instruction">${nameMarkup(s,x.sourceLanguage)}</h1><p class="intro-answer-language">${esc(item.t==='code'?'Quick Find Code':languageLabel(item.t,english?'en':'de'))}</p>${nameAnswerMarkup(s,item.t)}${x.photos?photoMarkup(s):''}${storageNotice()}<div class="actions study-actions"><button id="intro-next" class="primary">${english?'Continue →':'Weiter →'}</button><button id="intro-pause">${english?'Pause':'Pausieren'}</button></div></div>`;
+ $('#intro-next').onclick=()=>{x.introIndex++;save();renderQuestion();};$('#intro-pause').onclick=()=>{x.paused=true;save();learn();focusHeading();};focusElement($('.introduction h1'),{preventScroll:true});window.scrollTo(0,0);observeStudyActions();observeStudyPhotoLayout();
 }
 function lessonProgressMarkup(x){
   const copy=lessonProgressText(lessonProgress(x),english);
@@ -569,7 +588,7 @@ function renderQuestion() {
     queueFocus($('#answer'));
   }
   if(x.method==='flash') {
-    const reveal=()=>{x.revealed=true;save();area.innerHTML=`<div id="revealed-answer" tabindex="-1" role="group" aria-describedby="revealed-answer-content" aria-label="${english?'Revealed answer':'Aufgedeckte Antwort'}"><div id="revealed-answer-content">${nameAnswerMarkup(s,item.t)}</div></div><div class="actions study-actions"><button id="no">Nicht gewusst</button><button id="yes" class="primary">Gewusst</button></div>${item.t!=='code'?`<p class="code">${esc(s.codes[0])}</p>`:''}${germanNames(s)}`;$('#no').onclick=()=>finish(false,s,item,'Nicht gewusst');$('#yes').onclick=()=>finish(true,s,item,'Gewusst');focusElement($('#revealed-answer'),{preventScroll:true});observeStudyActions();};
+    const reveal=()=>{x.revealed=true;save();area.innerHTML=`<div id="revealed-answer" tabindex="-1" role="group" aria-describedby="revealed-answer-content" aria-label="${english?'Revealed answer':'Aufgedeckte Antwort'}"><div id="revealed-answer-content">${nameAnswerMarkup(s,item.t)}</div></div><div class="actions study-actions"><button id="no">Nicht gewusst</button><button id="yes" class="primary">Gewusst</button></div>${germanNames(s)}`;$('#no').onclick=()=>finish(false,s,item,'Nicht gewusst');$('#yes').onclick=()=>finish(true,s,item,'Gewusst');focusElement($('#revealed-answer'),{preventScroll:true});observeStudyActions();};
     if(x.revealed)reveal();else{area.innerHTML='<div class="study-actions"><button id="reveal" class="primary">Antwort aufdecken</button></div>';$('#reveal').onclick=reveal;queueFocus($('#reveal'));}
   }
   if(x.method==='mc'||x.method==='think') {
@@ -606,7 +625,7 @@ function renderFeedback(s,item) {
   const x=session,{correct,answer}=x.result,p=lessonProgress(x);
   $('#lesson-progress').innerHTML=lessonProgressMarkup(x);
   const bar=$('progress');bar.value=p.completed;bar.setAttribute('aria-valuetext',lessonProgressText(p,english).primary+'. '+lessonProgressText(p,english).pending);
-  $('#feedback').innerHTML=`<div class="feedback"><div class="feedback-result"><h2 class="${correct?'good':'bad'}" tabindex="-1" aria-describedby="${x.method!=='flash'?'feedback-your-answer ':''}feedback-accepted">${correct?'✓ Richtig.':'Noch nicht richtig.'}</h2>${x.method!=='flash'?`<p class="your-answer" id="feedback-your-answer"><span class="muted">Deine Antwort:</span> <span data-name-content lang="${esc(contentLanguage(item.t))}">${esc(answer)}</span></p>`:''}</div><div class="feedback-answer" id="feedback-accepted"><p class="answer-label">${item.t==='code'?'Offizieller Quick Find Code':item.t==='sci'?(english?'Scientific name':'Wissenschaftlicher Name'):'Akzeptierte Namen'}</p> ${nameAnswerMarkup(s,item.t)}</div><div class="feedback-details"><div class="answer-reference">${item.t!=='code'?`<p class="code">${esc(s.codes[0])}</p>`:''}${item.t==='sci'?'':`<p class="latin">${esc(s.sci)}</p>`}${s.codes.length>1?`<p class="other-codes">Weitere akzeptierte Codes: ${s.codes.slice(1).map(esc).join(', ')}</p>`:''}</div>${germanNames(s)}<p class="answer-species-link">${ebirdLink(s)}</p></div>${x.photos?photoMarkup(s,true):''}<details class="question-explanation" id="feedback-learning"><summary>${english?'Why am I seeing this bird?':'Warum sehe ich diesen Vogel?'}</summary><div class="learning-feedback"><p>${esc(questionReasonText(item,english))}</p>${regionalQuestionNote(x,s.id,true)}${item.retry?`<p class="muted">${esc(attemptText(item.retry,english))}</p>`:''}<p>${esc(evidenceText(progress(s,item.t,x),x.method,english))}</p><p class="muted review-schedule">${esc(scheduleText(progress(s,item.t,x),Date.now(),english)+(x.hint?(english?' Answered with support.':' Mit Unterstützung beantwortet.'):''))}</p><p><a href="#lernmethode">${english?'How learning works':'So funktioniert das Lernen'}</a></p></div></details><div class="study-actions"><button id="next" class="primary">Weiter →</button></div></div>`;
+  $('#feedback').innerHTML=`<div class="feedback"><div class="feedback-result"><h2 class="${correct?'good':'bad'}" tabindex="-1" aria-describedby="${x.method!=='flash'?'feedback-your-answer ':''}feedback-accepted">${correct?'✓ Richtig.':'Noch nicht richtig.'}</h2>${x.method!=='flash'?`<p class="your-answer" id="feedback-your-answer"><span class="muted">Deine Antwort:</span> <span data-name-content lang="${esc(contentLanguage(item.t))}">${esc(answer)}</span></p>`:''}</div><div class="feedback-answer" id="feedback-accepted"><p class="answer-label">${item.t==='code'?'Offizieller Quick Find Code':item.t==='sci'?(english?'Scientific name':'Wissenschaftlicher Name'):'Akzeptierte Namen'}</p> ${nameAnswerMarkup(s,item.t)}</div><div class="feedback-details"><div class="answer-reference">${item.t==='sci'?'':`<p class="latin">${esc(s.sci)}</p>`}${s.codes.length>1?`<p class="other-codes">Weitere akzeptierte Codes: ${s.codes.slice(1).map(esc).join(', ')}</p>`:''}</div>${germanNames(s)}<p class="answer-species-link">${ebirdLink(s)}</p></div>${x.photos?photoMarkup(s,true):''}<details class="question-explanation" id="feedback-learning"><summary>${english?'Why am I seeing this bird?':'Warum sehe ich diesen Vogel?'}</summary><div class="learning-feedback"><p>${esc(questionReasonText(item,english))}</p>${regionalQuestionNote(x,s.id,true)}${item.retry?`<p class="muted">${esc(attemptText(item.retry,english))}</p>`:''}<p>${esc(evidenceText(progress(s,item.t,x),x.method,english))}</p><p class="muted review-schedule">${esc(scheduleText(progress(s,item.t,x),Date.now(),english)+(x.hint?(english?' Answered with support.':' Mit Unterstützung beantwortet.'):''))}</p><p><a href="#lernmethode">${english?'How learning works':'So funktioniert das Lernen'}</a></p></div></details><div class="study-actions"><button id="next" class="primary">Weiter →</button></div></div>`;
   if(x.photos){mountStudyPhoto(s);observeStudyPhotoLayout();}
   $('#next').onclick=()=>{if(!x.done||session!==x)return;x.index++;x.done=false;x.hint=false;x.result=null;x.draft='';x.revealed=false;if(x.index>=x.queue.length)endLesson();else{save();renderQuestion();}};
   observeStudyActions();focusHeading('#feedback h2');
