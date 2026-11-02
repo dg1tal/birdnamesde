@@ -76,6 +76,11 @@ function scheduleStudyPhotoLayout(){
     const set=introduction?$('.introduction .photo-set'):$('#feedback .photo-set'),actions=introduction?$('.introduction .study-actions'):$('#feedback .study-actions');
     const visuals=set?[...set.querySelectorAll('.photo-visual')].filter(el=>el.getClientRects().length):[];
     if(!visuals.length||!actions)return;
+    // In-card desktop actions follow the content; sizing against their position
+    // would make image height feed back into the position of the action row.
+    if(getComputedStyle(actions).position!=='fixed'){
+      set.style.removeProperty('--intro-photo-height');set.style.removeProperty('--study-photo-height');return;
+    }
     if(introduction){
       const rows=[];
       for(const visual of visuals){

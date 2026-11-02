@@ -497,3 +497,12 @@ body.studying .introduction #intro-pause{flex:0 0 auto}
 .answer-name-with-code>span[data-name-content]{min-width:0;max-width:100%;overflow-wrap:anywhere}
 .answer-name-with-code>.answer-code{flex:none;white-space:nowrap;font-size:17px;line-height:1.3;padding:3px 8px}
 body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .answer-name-with-code{justify-content:center}
+
+/* Wide study layouts keep actions with the card; sticky positioning keeps them
+   reachable when a long answer or photo extends beyond the viewport. */
+@media(min-width:900px) and (min-height:650px){
+ body.studying main{padding-bottom:24px}
+ body.studying .study-actions{position:sticky;left:auto;right:auto;bottom:16px;margin-top:20px;padding:12px;border:1px solid var(--line);border-radius:10px}
+ body.studying .introduction .photo-set .bird-photo .photo-visual img{height:300px}
+ body.studying #feedback .photo-set .bird-photo .photo-visual img{height:300px}
+}
