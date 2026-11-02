@@ -451,3 +451,6 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 body.studying .question-explanation{border-top:1px solid var(--line);padding-top:4px;text-align:left;font-size:13px;color:var(--muted)}
 body.studying .question-explanation summary{cursor:pointer;min-height:44px;padding:11px 0}
 body.studying .question-explanation .learning-feedback{display:grid;gap:8px;padding:4px 0 8px;border:0;color:var(--ink)}
+
+body.studying .question > .regional-question-note{display:inline-block;border:1px solid var(--accent);border-radius:6px;padding:3px 8px;margin:6px 0;font-size:12px;line-height:1.4}
+body.studying .question-selection-context{display:grid;gap:4px;font-size:13px;color:var(--muted)}
