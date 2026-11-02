@@ -8,7 +8,7 @@ for(const en of [false,true]){
  const html=renderLearningMethod(en);assert(html.includes(en?'<h1>Learning method</h1>':'<h1>Lernmethode</h1>'));
  for(const [,title,url]of METHOD_SOURCES){assert(html.includes(url));assert(html.includes(title.replaceAll('&','&amp;').replaceAll("'",'&#39;')));}
  assert(html.includes(String(RULES.round)));assert(html.includes('href="#lernen"'));
- assert(html.includes(en?'not scientifically optimal thresholds':'keine wissenschaftlich optimalen Schwellen'));
+ assert(html.includes(en?'not a scientifically established optimum':'kein wissenschaftlich ermitteltes Optimum'));
  assert(html.includes(en?'no difference in measured short-term learning gains':'keinen Unterschied im gemessenen kurzfristigen Lernzuwachs'));
  assert(!html.includes('href="#method-source-'));
 }
