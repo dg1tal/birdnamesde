@@ -430,12 +430,20 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 
 .seasonal-coverage{overflow-x:auto;margin:20px 0}.seasonal-coverage table{width:100%;border-collapse:collapse;font-size:14px}.seasonal-coverage th,.seasonal-coverage td{padding:10px;border:1px solid var(--line);text-align:left;vertical-align:top;min-width:135px}.seasonal-coverage:focus-visible{outline:3px solid var(--accent)}
 
-#frequency-options{margin:12px 0 8px 30px;padding:12px;min-width:0;border:1px solid var(--line);border-radius:8px}
+#frequency-options{margin:0;padding:10px;min-width:0;border:1px solid var(--line);border-radius:8px}
 #frequency-options legend{font-size:14px;font-weight:650;padding:0 5px}
-#frequency-options > .form-note,#frequency-options .frequency-option > .form-note{margin:4px 0}
-.frequency-option{padding:8px 0;border-bottom:1px solid var(--line)}.frequency-option:last-child{border-bottom:0}
-.frequency-option .check-row{flex-wrap:wrap}.frequency-option strong{margin-left:auto;font-size:13px;white-space:nowrap}
-.frequency-option .preview-species{margin-left:0}
-@media(max-width:480px){#frequency-options{margin-left:0;padding:8px}.frequency-option .check-row{gap:6px}}
-
-.filter-preview #frequency-row > td{font-size:14px;font-weight:400;white-space:normal;text-align:left;min-width:0;width:auto;padding:4px 10px 12px}#frequency-row #frequency-options{margin:0}
+.frequency-options-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;align-items:start}
+.frequency-option{position:relative;min-width:0;padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.frequency-option:has(input:checked){border-color:var(--accent)}
+.frequency-option .check-row{width:calc(100% - 80px);min-width:0;gap:6px;flex-wrap:nowrap}
+.frequency-option strong{margin-left:auto;font-size:12px;white-space:nowrap}
+#frequency-options .frequency-option > .form-note{margin:2px 0 0;font-size:13px}
+.frequency-option .preview-species{margin:0}
+.frequency-option .preview-species summary{position:absolute;right:8px;top:8px;padding:11px 0;min-height:44px;width:74px;text-align:right;font-size:13px;cursor:pointer}
+.frequency-option .preview-species p{margin:10px 0 0}
+.frequency-explanation{margin-top:4px;font-size:13px}
+.frequency-explanation summary{cursor:pointer;min-height:44px;padding:11px 0;color:var(--accent)}
+#frequency-options .frequency-explanation .form-note{margin:0 0 4px}
+.filter-preview #frequency-row > td{font-size:14px;font-weight:400;white-space:normal;text-align:left;min-width:0;width:auto;padding:4px 10px 12px}
+@media(max-width:900px){.frequency-options-grid{grid-template-columns:1fr}}
+@media(max-width:480px){#frequency-options{padding:8px}.frequency-option .check-row{flex-wrap:wrap}.filter-preview #frequency-row > td{padding:4px 6px 10px}}
