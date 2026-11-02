@@ -414,3 +414,14 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 @media(max-width:480px){.preview-species{margin-left:0}}
 .filter-preview thead th:last-child,.filter-preview td{width:90px;min-width:90px}.filter-preview thead th:last-child{overflow-wrap:normal;word-break:normal;text-align:right}
 .preview-species p:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+.learning-selection{border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px;background:var(--panel)}
+.learning-selection > .region-settings{border:0;padding:0;margin:0 0 20px;min-width:0}
+.learning-selection > .region-settings > legend{font-size:19px;font-weight:650;margin-bottom:12px;padding:0}
+.learning-selection > h2{font-size:19px;margin-bottom:12px}
+.learning-selection .regional-preview{border:0;padding:0;margin:0}
+.learning-selection .regional-preview h3{font-size:15px;font-weight:600;margin:0 0 8px}
+.learning-selection #hybrid-settings{border-bottom:0;margin:12px 0 0;padding-bottom:0}
+#setup > .setup-start > #lesson-options{margin:16px 0}
+.round-heading{font-size:19px;margin-top:20px}
+@media(max-width:480px){.learning-selection{padding:12px}.learning-selection .regional-preview{padding:0}}
