@@ -119,6 +119,8 @@ def reusable_snapshot(data, known, now):
                 return None
         regions.append({'code': code, 'country': code.split('-')[0], 'parentCode': parent,
                         'nameDe': item['nameDe'], 'nameEn': item['nameEn'], **lists})
+    if any(local['code'] not in seen for c in COUNTRIES for entries in c.get('localRegions',{}).values() for local in entries):
+        return None
     if any(r['parentCode'] and r['parentCode'] not in seen for r in regions):
         return None
     if {r['code'] for r in regions if r['parentCode'] is None} != COUNTRY_CODES:
@@ -151,6 +153,9 @@ def discover_regions(fetch):
         for state in sorted(states,key=lambda r:r['name']):
             parent=state['code']
             regions.append({'code':parent,'country':code,'parentCode':code,'nameDe':country.get('subregionNamesDe',{}).get(parent,GERMAN.get(parent,state['name'])),'nameEn':state['name']})
+            for local in country.get('localRegions',{}).get(parent,[]):
+                assert supported_region(local['code']) and local['code'].rsplit('-',1)[0]==parent
+                regions.append({'code':local['code'],'country':code,'parentCode':parent,'nameDe':local['nameDe'],'nameEn':local['nameEn']})
             if country.get('includeLocalRegions'):
                 local=fetch(f'ref/region/list/subnational2/{parent}?fmt=json')
                 assert isinstance(local,list) and len(local)<=400

@@ -385,6 +385,11 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 .species-package-list{columns:3 180px;padding-left:22px;line-height:1.7}
 .species-package-list li{break-inside:avoid;overflow-wrap:anywhere}
 
+#hybrid-settings{padding:12px 0;border-bottom:1px solid var(--line);margin-bottom:12px}
+#hybrid-settings .check-row{display:flex;gap:9px}
+#hybrid-settings summary{min-height:44px;padding:10px 0}
+.regional-question-note{font-size:13px;line-height:1.5;padding:8px 10px;border-left:3px solid var(--accent);background:var(--soft)}
+
 /* Keep the initial document quiet until the selected app view is ready. */
 #nachschlagen:has(> #app-start-status) > h1{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 #app-start-status{display:flex;align-items:center;justify-content:center;gap:12px;min-height:180px;margin:8vh 0;color:var(--muted)}

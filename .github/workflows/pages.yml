@@ -27,7 +27,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Check regional data code
@@ -45,6 +45,8 @@ jobs:
           node scripts/test-backup.mjs
           node scripts/test-accessibility.mjs
           node scripts/test-learning-settings.mjs
+          node scripts/test-hybrid-learning.mjs
+          python3 -m unittest discover -s scripts -p 'test_current.py'
           node scripts/validate-photos.mjs
           node --check dist/app.js
           node --check dist/accessibility.js
@@ -61,6 +63,10 @@ jobs:
           else
             python3 scripts/update-regions.py --if-due
           fi
+      - name: Refresh current notable records
+        env:
+          EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
+        run: python3 scripts/update-current.py
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:

@@ -16,6 +16,10 @@ export function validateLesson(value, ids) {
   if(value.regionLabel!==undefined&&(typeof value.regionLabel!=='string'||value.regionLabel.length>150))return null;
   if(value.sourceLanguage!==undefined&&!isNameLanguage(value.sourceLanguage))return null;
   if(value.nameLanguage!==undefined&&!isNameLanguage(value.nameLanguage))return null;
+  if(value.regionalContext!=null){
+    const h=value.regionalContext;
+    if(!['winter','spring','summer','autumn'].includes(h.season)||typeof h.seasonalReady!=='boolean'||typeof h.seasonalRequested!=='boolean'||!Array.isArray(h.additions)||h.additions.length>ids.size||!h.additions.every(r=>r&&ids.has(r.id)&&/^\d{4}-\d{2}-\d{2}$/.test(r.observedOn)&&/^\d{4}-\d{2}-\d{2}$/.test(r.expiresOn)&&Date.parse(r.expiresOn)-Date.parse(r.observedOn)===14*86400000))return null;
+  }
   const lesson = structuredClone(value);
   lesson.photos = !!lesson.photos;
   lesson.revealed = !!lesson.revealed;
