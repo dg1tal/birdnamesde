@@ -1,5 +1,7 @@
 # Species links and sex comparison photos
 
+Current-status note · 2 November 2026: The subsequent [illustration update](illustrations-update-20261021.md) added six historical illustrations: current totals are 415 images and 118 reviewed comparisons, with only Spotted Redshank still incomplete. The counts and seven gaps below describe the photographic review at this release. See [README](../README.md) for current behavior.
+
 The learning feedback now includes the same eBird species destination as lookup cards, including when photos are disabled. Photo records support a primary photo and optional additional photos; each has an independent caption, author and license. Both photos are prepared for current/upcoming questions and displayed only after grading.
 
 All 313 species retain photos. The 409 image files cover both adult sexes for 112 species, either in a documented pair/composite or in separate photographs. Seasonal plumage and visible subspecies differences are included in captions where relevant. The taxonomy, learning logic and progress storage were preserved.
