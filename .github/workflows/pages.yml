@@ -42,6 +42,7 @@ jobs:
           node scripts/test-study-viewport.mjs
           npm test
           node scripts/test-learning-model.mjs
+          node scripts/test-practice-queue.mjs
           node scripts/test-learning-method.mjs
           node scripts/test-study-state.mjs
           node scripts/test-progress-copy.mjs

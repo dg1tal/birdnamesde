@@ -474,3 +474,5 @@ body.studying .question-selection-context{display:grid;gap:4px;font-size:13px;co
 .daily-panel .actions{justify-content:flex-start}.daily-panel .form-note{font-size:14px}
 
 .introduction>.intro-instruction{margin:0 0 18px;font-weight:600}
+
+.summary #continue-practice{min-width:200px}
