@@ -47,6 +47,7 @@ jobs:
           node scripts/test-learning-settings.mjs
           node scripts/test-hybrid-learning.mjs
           python3 -m unittest discover -s scripts -p 'test_current.py'
+          python3 -m unittest discover -s scripts -p 'test_seasonal.py'
           node scripts/validate-photos.mjs
           node --check dist/app.js
           node --check dist/accessibility.js

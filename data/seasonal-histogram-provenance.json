@@ -1,0 +1,1216 @@
+{
+  "retrievedAt": "2026-11-02",
+  "period": "2021–2025",
+  "source": "eBird / Cornell Lab of Ornithology",
+  "terms": "https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/",
+  "originalExportsPublished": false,
+  "regions": [
+    {
+      "code": "DE-BB",
+      "nameDe": "Brandenburg",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "44667f4de985b654e882b1a552e6ce3532a8528587eec7dfa4776fece0920e64",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-BB"
+        },
+        {
+          "period": "2021",
+          "sha256": "942cac5be710c2179b805ab7b9144c59405dcd47da19983ffbea2b9d9e2d93e4",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-BB"
+        },
+        {
+          "period": "2022",
+          "sha256": "5a5df824104c20fc44d012468a65970e52520a9c5918548a09b216f4eba01a5b",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-BB"
+        },
+        {
+          "period": "2023",
+          "sha256": "5122258a5260dba5a6f2309bd5f9f1c7db14976cd9e0999820e09532905e966f",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-BB"
+        },
+        {
+          "period": "2024",
+          "sha256": "42097777fd1d47dc5e79bdcc3c6506226c529e0661571df1a4b505a4eba75235",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-BB"
+        },
+        {
+          "period": "2025",
+          "sha256": "ffbaac8b131c5e172ddf959b868d7204693409df5cac052e8f81ca15a5cec7c3",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-BB"
+        }
+      ],
+      "taxonMappingSha256": "5e45f02d869935412ee44270a6a4b74f898b979812941ac80aefd363782f81fb",
+      "matchedCatalogSpecies": 256,
+      "annualSamples": {
+        "2021": 1714,
+        "2022": 2273,
+        "2023": 3291,
+        "2024": 5128,
+        "2025": 6226
+      },
+      "seasons": {
+        "winter": {
+          "sample": 3568,
+          "supportedYears": 5,
+          "species": 101,
+          "ready": true
+        },
+        "spring": {
+          "sample": 6362,
+          "supportedYears": 5,
+          "species": 158,
+          "ready": true
+        },
+        "summer": {
+          "sample": 4675,
+          "supportedYears": 5,
+          "species": 140,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 4027,
+          "supportedYears": 5,
+          "species": 126,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-BE",
+      "nameDe": "Berlin",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "14853dca8ea39da29e7d5d11f6fa0a5ed1f9e1da2359dda2ba617f3b2f7012f6",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-BE"
+        },
+        {
+          "period": "2021",
+          "sha256": "3afecd4b556d2ba0ee0a0f44701305c1ccff5ba0003d883d6f19a09434271814",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-BE"
+        },
+        {
+          "period": "2022",
+          "sha256": "42b3a011a775fd194e4d2610b6417b3c7b5e57e3724e48363baab2ffe4a32eae",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-BE"
+        },
+        {
+          "period": "2023",
+          "sha256": "839cc28d2877e3c1f78bf696224ef13ab98b4cda8dd24aa920bffd505e56c56b",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-BE"
+        },
+        {
+          "period": "2024",
+          "sha256": "34f88d43dd244eff94f712392f0b1dc9dfa785c38de59b6bbc38137a4cd00fb3",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-BE"
+        },
+        {
+          "period": "2025",
+          "sha256": "cf37c4610ec061af993712cbda1ff3141103732ad390de7c85f4f38a372c2cc6",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-BE"
+        }
+      ],
+      "taxonMappingSha256": "859c78f1207630d5c99f05caa45fe52fc4f1e8fa2da31ca7b64533092c6a0854",
+      "matchedCatalogSpecies": 221,
+      "annualSamples": {
+        "2021": 1914,
+        "2022": 2513,
+        "2023": 3364,
+        "2024": 4410,
+        "2025": 5297
+      },
+      "seasons": {
+        "winter": {
+          "sample": 3747,
+          "supportedYears": 5,
+          "species": 83,
+          "ready": true
+        },
+        "spring": {
+          "sample": 5953,
+          "supportedYears": 5,
+          "species": 128,
+          "ready": true
+        },
+        "summer": {
+          "sample": 3913,
+          "supportedYears": 5,
+          "species": 109,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 3885,
+          "supportedYears": 5,
+          "species": 113,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-BW",
+      "nameDe": "Baden-Württemberg",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "e1f2bddcbc67a0db3402cb47fd42dcf6de5a718a2494980d94a8491130b4c432",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-BW"
+        },
+        {
+          "period": "2021",
+          "sha256": "6129c60b004b6f133ad3d9086763d36cf396315fa86d19bbc1e8a6e6208202f0",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-BW"
+        },
+        {
+          "period": "2022",
+          "sha256": "02907997b3339fe7776b44735c8440feabd1e895ef861080076e8a17ce47b268",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-BW"
+        },
+        {
+          "period": "2023",
+          "sha256": "7565954859063835d08cd1487922ed49eb1d3eeb8b97f4c2969d21a8dbdcbafc",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-BW"
+        },
+        {
+          "period": "2024",
+          "sha256": "dc914d0ee9f4d972d0527848fda5fe9ca1966b99933e4fc0da1057fc0d4811b7",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-BW"
+        },
+        {
+          "period": "2025",
+          "sha256": "cc1db04ee3648589977baed1f3848da9138b193e7ae8b37b879a6d7ccdd2fc9e",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-BW"
+        }
+      ],
+      "taxonMappingSha256": "53946f815091765401afc5aa53ffcaf2882bd63ffb66fd64768d88c4de58f2b9",
+      "matchedCatalogSpecies": 278,
+      "annualSamples": {
+        "2021": 3990,
+        "2022": 6360,
+        "2023": 10441,
+        "2024": 13376,
+        "2025": 12531
+      },
+      "seasons": {
+        "winter": {
+          "sample": 10460,
+          "supportedYears": 5,
+          "species": 101,
+          "ready": true
+        },
+        "spring": {
+          "sample": 14915,
+          "supportedYears": 5,
+          "species": 141,
+          "ready": true
+        },
+        "summer": {
+          "sample": 10208,
+          "supportedYears": 5,
+          "species": 123,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 11115,
+          "supportedYears": 5,
+          "species": 106,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-BY",
+      "nameDe": "Bayern",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "3ed470ef31c5fd5317a55f90ba52d4a654c5e2274739bfee57d37d85cc706b0f",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-BY"
+        },
+        {
+          "period": "2021",
+          "sha256": "d951e0c20b907b4b534f96c888470495c95ab1a3c0debf89e2c1ead66b12eec8",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-BY"
+        },
+        {
+          "period": "2022",
+          "sha256": "f0415acf980227a0fd4791974d20a59f6e33a72be8d3ec2f003eb868743119d5",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-BY"
+        },
+        {
+          "period": "2023",
+          "sha256": "4bc71ce0fb246084afecff4fa7c6ee9cc9cc4ddcc5ba447fe769364b05a9ca60",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-BY"
+        },
+        {
+          "period": "2024",
+          "sha256": "2e470778a8b442d54fedb282ae07b2d99469ddfcf71c07b157f250206de3d678",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-BY"
+        },
+        {
+          "period": "2025",
+          "sha256": "fbf60ad7f915913abc2cb4721155f33dc397d0038723d46cb4d4c7104992683f",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-BY"
+        }
+      ],
+      "taxonMappingSha256": "137ac937c06bab77b0b0c5df6d68c37cb25d047ffd2d2ff7249caaab4f4d0f81",
+      "matchedCatalogSpecies": 284,
+      "annualSamples": {
+        "2021": 7545,
+        "2022": 8861,
+        "2023": 10734,
+        "2024": 12535,
+        "2025": 15553
+      },
+      "seasons": {
+        "winter": {
+          "sample": 12186,
+          "supportedYears": 5,
+          "species": 107,
+          "ready": true
+        },
+        "spring": {
+          "sample": 18527,
+          "supportedYears": 5,
+          "species": 151,
+          "ready": true
+        },
+        "summer": {
+          "sample": 13122,
+          "supportedYears": 5,
+          "species": 143,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 11393,
+          "supportedYears": 5,
+          "species": 128,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-BY-GAP",
+      "nameDe": "Garmisch-Partenkirchen",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "e7f7b7fcb11d0eef64b5d59ecd13f0ec9235996ce8a0919d68f0877d3120ac7d",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-BY-GAP"
+        },
+        {
+          "period": "2021",
+          "sha256": "743715d76b75c2672c3a64af73b46a5037b77c7bef5a940e069f82563c1aca9c",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-BY-GAP"
+        },
+        {
+          "period": "2022",
+          "sha256": "967c4e0eb1189d7db1638c95ccd608b5e67e8a9a85e90eadde8d1e1b756980fc",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-BY-GAP"
+        },
+        {
+          "period": "2023",
+          "sha256": "fdcae6d2a059cc59ff19e86d6455bfcd81091effabd07a10862d9e89550c45e9",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-BY-GAP"
+        },
+        {
+          "period": "2024",
+          "sha256": "6c12c49474f4180641d6a6631bc4abeecd4419f840af1405e452d5ac0c65673a",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-BY-GAP"
+        },
+        {
+          "period": "2025",
+          "sha256": "f5efbf79e69e4ebabb4024c57de11fd4b1fd221caf8cba29c1f5ba4cf7af48a0",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-BY-GAP"
+        }
+      ],
+      "taxonMappingSha256": "b0f4965f26e8d122ed277d7eb79f0beabbcd8a72bb4c8236e5c9a420aa2ea405",
+      "matchedCatalogSpecies": 198,
+      "annualSamples": {
+        "2021": 247,
+        "2022": 381,
+        "2023": 421,
+        "2024": 543,
+        "2025": 627
+      },
+      "seasons": {
+        "winter": {
+          "sample": 270,
+          "supportedYears": 0,
+          "species": 72,
+          "ready": false
+        },
+        "spring": {
+          "sample": 605,
+          "supportedYears": 4,
+          "species": 121,
+          "ready": true
+        },
+        "summer": {
+          "sample": 1036,
+          "supportedYears": 5,
+          "species": 113,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 308,
+          "supportedYears": 0,
+          "species": 103,
+          "ready": false
+        }
+      }
+    },
+    {
+      "code": "DE-HB",
+      "nameDe": "Bremen",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "b5ba634a4b02463ab108b57a32fb836ca3456347a5d0d071a803098788be3f66",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-HB"
+        },
+        {
+          "period": "2021",
+          "sha256": "7ac1b6c2e368d82ed5d5305723f53e59dc0d0f03add8c13ca158f935ed137ca1",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-HB"
+        },
+        {
+          "period": "2022",
+          "sha256": "aed93c27ad8014d496e006f20792ddffe81f01d2968bba7658f44fa99641fc59",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-HB"
+        },
+        {
+          "period": "2023",
+          "sha256": "4fc236fd19dea871dd62a077440435248d6a1bf7eb4b8a55442105dfcc02b469",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-HB"
+        },
+        {
+          "period": "2024",
+          "sha256": "09825edb22a5ad4b6a977a60e999aef6548e9d18ad1d87aea65018512f7b0553",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-HB"
+        },
+        {
+          "period": "2025",
+          "sha256": "68153c2590ab6df453f195bd9af65fe118127ee40290f6945070c4440b1836d4",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-HB"
+        }
+      ],
+      "taxonMappingSha256": "969a350f601d380563b6e92ec3303496c73cbd414ddfb55f01c8358e20acef5d",
+      "matchedCatalogSpecies": 218,
+      "annualSamples": {
+        "2021": 857,
+        "2022": 1015,
+        "2023": 995,
+        "2024": 1047,
+        "2025": 1223
+      },
+      "seasons": {
+        "winter": {
+          "sample": 1242,
+          "supportedYears": 5,
+          "species": 83,
+          "ready": true
+        },
+        "spring": {
+          "sample": 1813,
+          "supportedYears": 5,
+          "species": 113,
+          "ready": true
+        },
+        "summer": {
+          "sample": 1074,
+          "supportedYears": 5,
+          "species": 101,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 1008,
+          "supportedYears": 5,
+          "species": 92,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-HE",
+      "nameDe": "Hessen",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "311f55fe0d1db2e0cb50ba1c1c298e1e4b82e46471b75b6111d6d61157f99452",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-HE"
+        },
+        {
+          "period": "2021",
+          "sha256": "f05f8635071c243c1707367076e525c3194bf4838aa8a63ab863c3283212d34d",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-HE"
+        },
+        {
+          "period": "2022",
+          "sha256": "53b319cd0aec6c763291f4bed759c6c43b532cce38d726086d4659009c2cfeca",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-HE"
+        },
+        {
+          "period": "2023",
+          "sha256": "2c97bdf84dde91d7ae8fb232eb768dc3ee041ced381e9fc1285dd617b9466e6e",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-HE"
+        },
+        {
+          "period": "2024",
+          "sha256": "44886526bc1b0c46e0411221ff6516414a4ea067e81a3e45747a155d624be64a",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-HE"
+        },
+        {
+          "period": "2025",
+          "sha256": "3f3740eb0ea5de131727006fe041d4d7057533cd6fae28ad864d1a0b01f71135",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-HE"
+        }
+      ],
+      "taxonMappingSha256": "242077a085b89483a0d8f54c48b2d3c5f33609a8605cef0648da78f42bbd1ed5",
+      "matchedCatalogSpecies": 261,
+      "annualSamples": {
+        "2021": 3328,
+        "2022": 3394,
+        "2023": 3765,
+        "2024": 4708,
+        "2025": 6592
+      },
+      "seasons": {
+        "winter": {
+          "sample": 4618,
+          "supportedYears": 5,
+          "species": 100,
+          "ready": true
+        },
+        "spring": {
+          "sample": 6686,
+          "supportedYears": 5,
+          "species": 137,
+          "ready": true
+        },
+        "summer": {
+          "sample": 5204,
+          "supportedYears": 5,
+          "species": 122,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 5279,
+          "supportedYears": 5,
+          "species": 110,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-HH",
+      "nameDe": "Hamburg",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "2e5200e513b2880cfeef6fdc96814d1596196758845d364abff324ca9ba91e96",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-HH"
+        },
+        {
+          "period": "2021",
+          "sha256": "808a0a09bd82f4efe5e909e07aab0cd818192ff5e11f86bce40ab2d6bfb206ee",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-HH"
+        },
+        {
+          "period": "2022",
+          "sha256": "1ff932220ca9a9a92da754506a41c06e8873ba0862638468e4a7c265001683dd",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-HH"
+        },
+        {
+          "period": "2023",
+          "sha256": "a0f7c802514d4bf1304ab295afaf72ba078ad2e1fc3023aa73a7dd6729103775",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-HH"
+        },
+        {
+          "period": "2024",
+          "sha256": "21ce7b89410e8ec1513e76539a50145c168cecf27114973cf369ee283ba0e376",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-HH"
+        },
+        {
+          "period": "2025",
+          "sha256": "04a252b6ddf13f2742775b95eb7e82215d40762886b5971b7bdb7afd4d325a2c",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-HH"
+        }
+      ],
+      "taxonMappingSha256": "5be3ce50d47631b29b8bc5d485c1116bbb9f42faffd8d925f4b96a6ac8f66aa1",
+      "matchedCatalogSpecies": 246,
+      "annualSamples": {
+        "2021": 773,
+        "2022": 701,
+        "2023": 762,
+        "2024": 1234,
+        "2025": 1578
+      },
+      "seasons": {
+        "winter": {
+          "sample": 1072,
+          "supportedYears": 5,
+          "species": 81,
+          "ready": true
+        },
+        "spring": {
+          "sample": 1783,
+          "supportedYears": 5,
+          "species": 109,
+          "ready": true
+        },
+        "summer": {
+          "sample": 1184,
+          "supportedYears": 5,
+          "species": 103,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 1009,
+          "supportedYears": 5,
+          "species": 102,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-MV",
+      "nameDe": "Mecklenburg-Vorpommern",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "57df1af279b258a3cc78e752ca6ad3dae6c3b21a88a6bf5adc97a2093d86e3f3",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-MV"
+        },
+        {
+          "period": "2021",
+          "sha256": "febcff4c94dd9d0df9b92f35f23df275400d04901adf49b93098b733bdd8d456",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-MV"
+        },
+        {
+          "period": "2022",
+          "sha256": "812f23985684e9f4f11f55ede187e82c6c6cef206087773409e59fd705188fc0",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-MV"
+        },
+        {
+          "period": "2023",
+          "sha256": "7f7a07756aef3458a5bd29ecdae4d4f27f44f05dfbfcd851adc22d99ef30ec51",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-MV"
+        },
+        {
+          "period": "2024",
+          "sha256": "952c59dddb5c2abc18cdd482b82c47949de6d397e577aa33c03e7950bf082ad1",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-MV"
+        },
+        {
+          "period": "2025",
+          "sha256": "cce9b1d1ebeda76da33bb16cd4208adfcf30d36b1b5c0577ee496dbe02bf30b5",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-MV"
+        }
+      ],
+      "taxonMappingSha256": "25ea3191963a3de56912bdd8a0ca39c123a575a51c3106587710a5efe5da0557",
+      "matchedCatalogSpecies": 271,
+      "annualSamples": {
+        "2021": 779,
+        "2022": 1103,
+        "2023": 2176,
+        "2024": 3336,
+        "2025": 4486
+      },
+      "seasons": {
+        "winter": {
+          "sample": 2137,
+          "supportedYears": 5,
+          "species": 126,
+          "ready": true
+        },
+        "spring": {
+          "sample": 3493,
+          "supportedYears": 5,
+          "species": 179,
+          "ready": true
+        },
+        "summer": {
+          "sample": 2943,
+          "supportedYears": 5,
+          "species": 171,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 3307,
+          "supportedYears": 5,
+          "species": 166,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-NI",
+      "nameDe": "Niedersachsen",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "efd5fc4cf979cce206324acc40f91a54a35c7456df10352e933c2d3923508f7e",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-NI"
+        },
+        {
+          "period": "2021",
+          "sha256": "acc51210259fad857f0efc3a902d8b0b4ee7bfe27253feb99609ff6eb8e5edc0",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-NI"
+        },
+        {
+          "period": "2022",
+          "sha256": "d2b26eb7d524f311af8060b935aeb5926985a5f4e08212a076841ca2f6f55813",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-NI"
+        },
+        {
+          "period": "2023",
+          "sha256": "5ee139fb96229a0ad91fb9311f33eb0276bf1774393514b402e06dd3a63b0dcf",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-NI"
+        },
+        {
+          "period": "2024",
+          "sha256": "b403526428f98d57708a59b456a6ec5220ee89bb2a77329306651b7137d557d2",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-NI"
+        },
+        {
+          "period": "2025",
+          "sha256": "8f0b382fd9149db5c0d0e00516e4386b8fc7644a1c56aeeb8ad5bf1698945731",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-NI"
+        }
+      ],
+      "taxonMappingSha256": "8ffb42558490158132ca787a196581400f3fe36fb70e0be13a4a7446a66c8567",
+      "matchedCatalogSpecies": 286,
+      "annualSamples": {
+        "2021": 3654,
+        "2022": 4245,
+        "2023": 6577,
+        "2024": 9556,
+        "2025": 11923
+      },
+      "seasons": {
+        "winter": {
+          "sample": 7649,
+          "supportedYears": 5,
+          "species": 117,
+          "ready": true
+        },
+        "spring": {
+          "sample": 11524,
+          "supportedYears": 5,
+          "species": 158,
+          "ready": true
+        },
+        "summer": {
+          "sample": 8047,
+          "supportedYears": 5,
+          "species": 152,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 8735,
+          "supportedYears": 5,
+          "species": 149,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-NW",
+      "nameDe": "Nordrhein-Westfalen",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "8a8374995e6dd2d84b71acb01c8446247ad23c82bdf02b1e365f9b8786a6f5ac",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-NW"
+        },
+        {
+          "period": "2021",
+          "sha256": "dae5b763f9573f9a6c089d701212eb5e5fc7216aaaef142d603b978e0492daf6",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-NW"
+        },
+        {
+          "period": "2022",
+          "sha256": "41135291de3c031ed7978764bdd554948c0aa685c176b86ac34042c89803f266",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-NW"
+        },
+        {
+          "period": "2023",
+          "sha256": "ae4e873506f0ca489de64012c3b6257442ef0ad05e0a40f7de1931b28c35585e",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-NW"
+        },
+        {
+          "period": "2024",
+          "sha256": "c1b37e5f32a2dbb47fe075f9ce54460aebf12ec7c2d669686147f15fd56ab47a",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-NW"
+        },
+        {
+          "period": "2025",
+          "sha256": "6cb391501da78bb24b339f74ec49d1e5631789e1fa8930160fac29d2149aa62f",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-NW"
+        }
+      ],
+      "taxonMappingSha256": "5fb0ab86ce9446b04647638f2ffa94ba499bc63506cde40586df77112d5beddb",
+      "matchedCatalogSpecies": 261,
+      "annualSamples": {
+        "2021": 5304,
+        "2022": 5860,
+        "2023": 7995,
+        "2024": 9696,
+        "2025": 11125
+      },
+      "seasons": {
+        "winter": {
+          "sample": 9455,
+          "supportedYears": 5,
+          "species": 100,
+          "ready": true
+        },
+        "spring": {
+          "sample": 12657,
+          "supportedYears": 5,
+          "species": 139,
+          "ready": true
+        },
+        "summer": {
+          "sample": 9241,
+          "supportedYears": 5,
+          "species": 123,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 8627,
+          "supportedYears": 5,
+          "species": 110,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-RP",
+      "nameDe": "Rheinland-Pfalz",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "be934162e77c021322da5f32c6918dd252451f24e54007b0e4c862a1be2ac114",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-RP"
+        },
+        {
+          "period": "2021",
+          "sha256": "c9c965064aeb7116151dba5f0affa515541e4e2ce8b1a6fa26b91873bca7bffa",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-RP"
+        },
+        {
+          "period": "2022",
+          "sha256": "747740cfa4e792e4b40ba35741595c46ede9b2f097453a6458f426669bb7c908",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-RP"
+        },
+        {
+          "period": "2023",
+          "sha256": "76c410453f4608d0cd1b8a1ba9bd2ae24aa6a1d7fbd658bd9d47584016559171",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-RP"
+        },
+        {
+          "period": "2024",
+          "sha256": "69f18970c4316a3198c521a248f9f3620cc594c2752b0793936f3551f2908666",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-RP"
+        },
+        {
+          "period": "2025",
+          "sha256": "5d8cc88b1bd89a768f3eda76f29bf3b1cae8c91ec66b2994a72c6aec53ed8d8e",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-RP"
+        }
+      ],
+      "taxonMappingSha256": "a7fc9c8b2dd10755cfb3486e4643e57364da3a63d9bca9f75103235e9b27a82d",
+      "matchedCatalogSpecies": 252,
+      "annualSamples": {
+        "2021": 2599,
+        "2022": 3557,
+        "2023": 3992,
+        "2024": 4379,
+        "2025": 5247
+      },
+      "seasons": {
+        "winter": {
+          "sample": 4378,
+          "supportedYears": 5,
+          "species": 106,
+          "ready": true
+        },
+        "spring": {
+          "sample": 6137,
+          "supportedYears": 5,
+          "species": 142,
+          "ready": true
+        },
+        "summer": {
+          "sample": 4952,
+          "supportedYears": 5,
+          "species": 128,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 4307,
+          "supportedYears": 5,
+          "species": 115,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-SH",
+      "nameDe": "Schleswig-Holstein",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "5ee622df77d6aa04a590c298e7438dc2a23352ed72b55bb1035af2c86d642d63",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-SH"
+        },
+        {
+          "period": "2021",
+          "sha256": "62c25a6ba23046cab8e29abadeaf39111d604c4825fcaaef704523052337aa64",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-SH"
+        },
+        {
+          "period": "2022",
+          "sha256": "67d7f49d5ab929ffad2fa6256f88f2c9f1eae695d744e2225ee5c847f2b1a6b4",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-SH"
+        },
+        {
+          "period": "2023",
+          "sha256": "ebf85bdc332152a1f6db2804c7eb5492f339fd80c5c158d47d4cd2bd0d164c91",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-SH"
+        },
+        {
+          "period": "2024",
+          "sha256": "b1ec6ca8dc8e422c985da71068da3ab55c34f6aac062200bbaf15e52169483ea",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-SH"
+        },
+        {
+          "period": "2025",
+          "sha256": "538d1c226adb3e40d3d6e518e20952b5af2f86c054f926d7e757d4bf9682cdbb",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-SH"
+        }
+      ],
+      "taxonMappingSha256": "90d44b9c01ac318e4254d21e07f46bf403052e147343747b6a017509e1574b5d",
+      "matchedCatalogSpecies": 277,
+      "annualSamples": {
+        "2021": 2308,
+        "2022": 2333,
+        "2023": 2991,
+        "2024": 4819,
+        "2025": 6709
+      },
+      "seasons": {
+        "winter": {
+          "sample": 2967,
+          "supportedYears": 5,
+          "species": 125,
+          "ready": true
+        },
+        "spring": {
+          "sample": 5571,
+          "supportedYears": 5,
+          "species": 173,
+          "ready": true
+        },
+        "summer": {
+          "sample": 4760,
+          "supportedYears": 5,
+          "species": 157,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 5862,
+          "supportedYears": 5,
+          "species": 164,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-SL",
+      "nameDe": "Saarland",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "416b18484e38202522cf8110609f6634f9802dffef2e0d367167fdf8af221752",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-SL"
+        },
+        {
+          "period": "2021",
+          "sha256": "0986de2a67f2397849b502a5d032cdf61284007bdcd011e46d4cc2504a670092",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-SL"
+        },
+        {
+          "period": "2022",
+          "sha256": "d342f8738950416cea59883383f25e37c5d3c44f9f9ba7c6dec4d381d21e1855",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-SL"
+        },
+        {
+          "period": "2023",
+          "sha256": "72c0c9f56469eebe57230f24f7071196869463bdcb612984927d86651eb27042",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-SL"
+        },
+        {
+          "period": "2024",
+          "sha256": "6bd09ef6639d1abe6c79aa191c6502d3fc9823b4f3a95fd8234561c7b41875fb",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-SL"
+        },
+        {
+          "period": "2025",
+          "sha256": "75ecbf73c6c4a76b3667c32cdbe7c880adf5d2f0d2601bfca23d741461e557c5",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-SL"
+        }
+      ],
+      "taxonMappingSha256": "f098fdccb84a243a4ed689286068990c4da63245d055107fa457fd663e6c0d89",
+      "matchedCatalogSpecies": 189,
+      "annualSamples": {
+        "2021": 46,
+        "2022": 95,
+        "2023": 92,
+        "2024": 194,
+        "2025": 215
+      },
+      "seasons": {
+        "winter": {
+          "sample": 85,
+          "supportedYears": 0,
+          "species": 94,
+          "ready": false
+        },
+        "spring": {
+          "sample": 220,
+          "supportedYears": 0,
+          "species": 113,
+          "ready": false
+        },
+        "summer": {
+          "sample": 214,
+          "supportedYears": 0,
+          "species": 106,
+          "ready": false
+        },
+        "autumn": {
+          "sample": 123,
+          "supportedYears": 0,
+          "species": 95,
+          "ready": false
+        }
+      }
+    },
+    {
+      "code": "DE-SN",
+      "nameDe": "Sachsen",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "54c2321b95374c8d0d4f6be31d7a59517561c4a1f3bad4c5fcffb4c175a738b1",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-SN"
+        },
+        {
+          "period": "2021",
+          "sha256": "8339da6c51945ba323038c99b981d9eba6763c5777f0952acea39f119a30c251",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-SN"
+        },
+        {
+          "period": "2022",
+          "sha256": "261f4ef2bc55283fed9fce2491af0a0fe2f075cf24132bd69c458c2c2c83248d",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-SN"
+        },
+        {
+          "period": "2023",
+          "sha256": "26cd371e2be2a71fc0782bee59360c4437c7cfb638306a00dc306ccdd2a1c545",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-SN"
+        },
+        {
+          "period": "2024",
+          "sha256": "413cef72854fdad82fa13e5f1564aa03e8e06381f530878555d554a868fb825c",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-SN"
+        },
+        {
+          "period": "2025",
+          "sha256": "6b18b46b90a1922c69976448a59ff0526cc5b56316c5e70eb8505476601e19d5",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-SN"
+        }
+      ],
+      "taxonMappingSha256": "1e5efe29ad9ff4289722985563a208c60cc316c98c0c8ec611932317bc39e051",
+      "matchedCatalogSpecies": 262,
+      "annualSamples": {
+        "2021": 3378,
+        "2022": 3566,
+        "2023": 4616,
+        "2024": 4753,
+        "2025": 4852
+      },
+      "seasons": {
+        "winter": {
+          "sample": 5062,
+          "supportedYears": 5,
+          "species": 108,
+          "ready": true
+        },
+        "spring": {
+          "sample": 7079,
+          "supportedYears": 5,
+          "species": 150,
+          "ready": true
+        },
+        "summer": {
+          "sample": 4937,
+          "supportedYears": 5,
+          "species": 126,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 4087,
+          "supportedYears": 5,
+          "species": 116,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-ST",
+      "nameDe": "Sachsen-Anhalt",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "3ccdfcaa988ffe7ab439c932641cc986ad6fa81a3c4e5d456c179980a07f1f17",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-ST"
+        },
+        {
+          "period": "2021",
+          "sha256": "9d362cbcb4b4fe6da50a75bbbf300154505f41ccaf08c66e48f3cd88aae06ddd",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-ST"
+        },
+        {
+          "period": "2022",
+          "sha256": "a08ae3d036b3468fb002147b2bef61539774914c6a0cb9e3f5cc72d2c5f4d502",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-ST"
+        },
+        {
+          "period": "2023",
+          "sha256": "bd2d478b8229729e7c57510c98e6a236c3bcc67169187ef0b04ca2a606aa6419",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-ST"
+        },
+        {
+          "period": "2024",
+          "sha256": "0f36b537de1f37f3926f7510ffb05e9d6302bf364efefedb171c6f82911adb1d",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-ST"
+        },
+        {
+          "period": "2025",
+          "sha256": "efd655e18c095eba9ccdfaec646fcae28f0109c8086e6fb62a6dcab05176790c",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-ST"
+        }
+      ],
+      "taxonMappingSha256": "3699a4415408312e928358bb15c5066493308a0c82ef03b4a3ddad6532a33ed2",
+      "matchedCatalogSpecies": 251,
+      "annualSamples": {
+        "2021": 463,
+        "2022": 616,
+        "2023": 1240,
+        "2024": 1867,
+        "2025": 2117
+      },
+      "seasons": {
+        "winter": {
+          "sample": 1290,
+          "supportedYears": 3,
+          "species": 105,
+          "ready": true
+        },
+        "spring": {
+          "sample": 2086,
+          "supportedYears": 5,
+          "species": 157,
+          "ready": true
+        },
+        "summer": {
+          "sample": 1542,
+          "supportedYears": 5,
+          "species": 148,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 1385,
+          "supportedYears": 4,
+          "species": 135,
+          "ready": true
+        }
+      }
+    },
+    {
+      "code": "DE-TH",
+      "nameDe": "Thüringen",
+      "files": [
+        {
+          "period": "2021-2025",
+          "sha256": "1d946ee434d28adc154300bb788b7c0bc148d1ce4b63f242196308ee8605c996",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2025&bmo=1&emo=12&r=DE-TH"
+        },
+        {
+          "period": "2021",
+          "sha256": "67b1be1e641dbcfa90796d62e89a07ecf8087837e9f8315aab2b5f3b3b8b431c",
+          "source": "https://ebird.org/barchart?byr=2021&eyr=2021&bmo=1&emo=12&r=DE-TH"
+        },
+        {
+          "period": "2022",
+          "sha256": "3e0702048d8bed014c4d1832e4a0e59b7487068213cc4bd0fc7d718a504c6632",
+          "source": "https://ebird.org/barchart?byr=2022&eyr=2022&bmo=1&emo=12&r=DE-TH"
+        },
+        {
+          "period": "2023",
+          "sha256": "fa44c1647baee90ae02a5190cf5ad68fbbc2d77d28e4f7a3fad91ac051779d8b",
+          "source": "https://ebird.org/barchart?byr=2023&eyr=2023&bmo=1&emo=12&r=DE-TH"
+        },
+        {
+          "period": "2024",
+          "sha256": "3f581bc0b5dfdb43f3904ca6bdd411526a1821848b32eae6c2a098f5a348519c",
+          "source": "https://ebird.org/barchart?byr=2024&eyr=2024&bmo=1&emo=12&r=DE-TH"
+        },
+        {
+          "period": "2025",
+          "sha256": "58a6ca97e01bacb678e61a35bb224e298a36ae39bbcdf16a619dabd5f58e62ee",
+          "source": "https://ebird.org/barchart?byr=2025&eyr=2025&bmo=1&emo=12&r=DE-TH"
+        }
+      ],
+      "taxonMappingSha256": "a4cd2992df6f57a217ce2f17c6ad0f0c6cf953e6a4da46de87d27e488e873d66",
+      "matchedCatalogSpecies": 243,
+      "annualSamples": {
+        "2021": 1252,
+        "2022": 1250,
+        "2023": 1889,
+        "2024": 2821,
+        "2025": 2725
+      },
+      "seasons": {
+        "winter": {
+          "sample": 2291,
+          "supportedYears": 5,
+          "species": 82,
+          "ready": true
+        },
+        "spring": {
+          "sample": 3062,
+          "supportedYears": 5,
+          "species": 129,
+          "ready": true
+        },
+        "summer": {
+          "sample": 2305,
+          "supportedYears": 5,
+          "species": 124,
+          "ready": true
+        },
+        "autumn": {
+          "sample": 2279,
+          "supportedYears": 5,
+          "species": 115,
+          "ready": true
+        }
+      }
+    }
+  ]
+}

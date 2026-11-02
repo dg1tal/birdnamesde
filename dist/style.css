@@ -425,3 +425,7 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 #setup > .setup-start > #lesson-options{margin:16px 0}
 .round-heading{font-size:19px;margin-top:20px}
 @media(max-width:480px){.learning-selection{padding:12px}.learning-selection .regional-preview{padding:0}}
+
+.experimental-badge{display:inline-block;font-size:11px;font-weight:650;border:1px solid var(--accent);border-radius:5px;padding:2px 5px;line-height:1.4;color:var(--accent);overflow-wrap:normal}
+
+.seasonal-coverage{overflow-x:auto;margin:20px 0}.seasonal-coverage table{width:100%;border-collapse:collapse;font-size:14px}.seasonal-coverage th,.seasonal-coverage td{padding:10px;border:1px solid var(--line);text-align:left;vertical-align:top;min-width:135px}.seasonal-coverage:focus-visible{outline:3px solid var(--accent)}
