@@ -54,24 +54,44 @@
           "sample": 3568,
           "supportedYears": 5,
           "species": 101,
+          "groups": {
+            "frequent": 45,
+            "medium": 56,
+            "rare": 63
+          },
           "ready": true
         },
         "spring": {
           "sample": 6362,
           "supportedYears": 5,
           "species": 158,
+          "groups": {
+            "frequent": 67,
+            "medium": 91,
+            "rare": 78
+          },
           "ready": true
         },
         "summer": {
           "sample": 4675,
           "supportedYears": 5,
           "species": 140,
+          "groups": {
+            "frequent": 61,
+            "medium": 79,
+            "rare": 78
+          },
           "ready": true
         },
         "autumn": {
           "sample": 4027,
           "supportedYears": 5,
           "species": 126,
+          "groups": {
+            "frequent": 50,
+            "medium": 76,
+            "rare": 103
+          },
           "ready": true
         }
       }
@@ -125,24 +145,44 @@
           "sample": 3747,
           "supportedYears": 5,
           "species": 83,
+          "groups": {
+            "frequent": 43,
+            "medium": 40,
+            "rare": 56
+          },
           "ready": true
         },
         "spring": {
           "sample": 5953,
           "supportedYears": 5,
           "species": 128,
+          "groups": {
+            "frequent": 49,
+            "medium": 79,
+            "rare": 78
+          },
           "ready": true
         },
         "summer": {
           "sample": 3913,
           "supportedYears": 5,
           "species": 109,
+          "groups": {
+            "frequent": 41,
+            "medium": 68,
+            "rare": 67
+          },
           "ready": true
         },
         "autumn": {
           "sample": 3885,
           "supportedYears": 5,
           "species": 113,
+          "groups": {
+            "frequent": 41,
+            "medium": 72,
+            "rare": 82
+          },
           "ready": true
         }
       }
@@ -196,24 +236,44 @@
           "sample": 10460,
           "supportedYears": 5,
           "species": 101,
+          "groups": {
+            "frequent": 46,
+            "medium": 55,
+            "rare": 85
+          },
           "ready": true
         },
         "spring": {
           "sample": 14915,
           "supportedYears": 5,
           "species": 141,
+          "groups": {
+            "frequent": 52,
+            "medium": 89,
+            "rare": 119
+          },
           "ready": true
         },
         "summer": {
           "sample": 10208,
           "supportedYears": 5,
           "species": 123,
+          "groups": {
+            "frequent": 43,
+            "medium": 80,
+            "rare": 116
+          },
           "ready": true
         },
         "autumn": {
           "sample": 11115,
           "supportedYears": 5,
           "species": 106,
+          "groups": {
+            "frequent": 39,
+            "medium": 67,
+            "rare": 140
+          },
           "ready": true
         }
       }
@@ -267,24 +327,44 @@
           "sample": 12186,
           "supportedYears": 5,
           "species": 107,
+          "groups": {
+            "frequent": 46,
+            "medium": 61,
+            "rare": 86
+          },
           "ready": true
         },
         "spring": {
           "sample": 18527,
           "supportedYears": 5,
           "species": 151,
+          "groups": {
+            "frequent": 53,
+            "medium": 98,
+            "rare": 123
+          },
           "ready": true
         },
         "summer": {
           "sample": 13122,
           "supportedYears": 5,
           "species": 143,
+          "groups": {
+            "frequent": 43,
+            "medium": 100,
+            "rare": 117
+          },
           "ready": true
         },
         "autumn": {
           "sample": 11393,
           "supportedYears": 5,
           "species": 128,
+          "groups": {
+            "frequent": 51,
+            "medium": 77,
+            "rare": 128
+          },
           "ready": true
         }
       }
@@ -338,24 +418,44 @@
           "sample": 270,
           "supportedYears": 0,
           "species": 72,
+          "groups": {
+            "frequent": 19,
+            "medium": 53,
+            "rare": 29
+          },
           "ready": false
         },
         "spring": {
           "sample": 605,
           "supportedYears": 4,
           "species": 121,
+          "groups": {
+            "frequent": 41,
+            "medium": 80,
+            "rare": 60
+          },
           "ready": true
         },
         "summer": {
           "sample": 1036,
           "supportedYears": 5,
           "species": 113,
+          "groups": {
+            "frequent": 37,
+            "medium": 76,
+            "rare": 56
+          },
           "ready": true
         },
         "autumn": {
           "sample": 308,
           "supportedYears": 0,
           "species": 103,
+          "groups": {
+            "frequent": 34,
+            "medium": 69,
+            "rare": 44
+          },
           "ready": false
         }
       }
@@ -409,24 +509,44 @@
           "sample": 1242,
           "supportedYears": 5,
           "species": 83,
+          "groups": {
+            "frequent": 36,
+            "medium": 47,
+            "rare": 49
+          },
           "ready": true
         },
         "spring": {
           "sample": 1813,
           "supportedYears": 5,
           "species": 113,
+          "groups": {
+            "frequent": 52,
+            "medium": 61,
+            "rare": 86
+          },
           "ready": true
         },
         "summer": {
           "sample": 1074,
           "supportedYears": 5,
           "species": 101,
+          "groups": {
+            "frequent": 42,
+            "medium": 59,
+            "rare": 58
+          },
           "ready": true
         },
         "autumn": {
           "sample": 1008,
           "supportedYears": 5,
           "species": 92,
+          "groups": {
+            "frequent": 35,
+            "medium": 57,
+            "rare": 77
+          },
           "ready": true
         }
       }
@@ -480,24 +600,44 @@
           "sample": 4618,
           "supportedYears": 5,
           "species": 100,
+          "groups": {
+            "frequent": 39,
+            "medium": 61,
+            "rare": 70
+          },
           "ready": true
         },
         "spring": {
           "sample": 6686,
           "supportedYears": 5,
           "species": 137,
+          "groups": {
+            "frequent": 48,
+            "medium": 89,
+            "rare": 106
+          },
           "ready": true
         },
         "summer": {
           "sample": 5204,
           "supportedYears": 5,
           "species": 122,
+          "groups": {
+            "frequent": 42,
+            "medium": 80,
+            "rare": 95
+          },
           "ready": true
         },
         "autumn": {
           "sample": 5279,
           "supportedYears": 5,
           "species": 110,
+          "groups": {
+            "frequent": 34,
+            "medium": 76,
+            "rare": 111
+          },
           "ready": true
         }
       }
@@ -551,24 +691,44 @@
           "sample": 1072,
           "supportedYears": 5,
           "species": 81,
+          "groups": {
+            "frequent": 34,
+            "medium": 47,
+            "rare": 58
+          },
           "ready": true
         },
         "spring": {
           "sample": 1783,
           "supportedYears": 5,
           "species": 109,
+          "groups": {
+            "frequent": 39,
+            "medium": 70,
+            "rare": 113
+          },
           "ready": true
         },
         "summer": {
           "sample": 1184,
           "supportedYears": 5,
           "species": 103,
+          "groups": {
+            "frequent": 36,
+            "medium": 67,
+            "rare": 93
+          },
           "ready": true
         },
         "autumn": {
           "sample": 1009,
           "supportedYears": 5,
           "species": 102,
+          "groups": {
+            "frequent": 30,
+            "medium": 72,
+            "rare": 109
+          },
           "ready": true
         }
       }
@@ -622,24 +782,44 @@
           "sample": 2137,
           "supportedYears": 5,
           "species": 126,
+          "groups": {
+            "frequent": 52,
+            "medium": 74,
+            "rare": 45
+          },
           "ready": true
         },
         "spring": {
           "sample": 3493,
           "supportedYears": 5,
           "species": 179,
+          "groups": {
+            "frequent": 70,
+            "medium": 109,
+            "rare": 79
+          },
           "ready": true
         },
         "summer": {
           "sample": 2943,
           "supportedYears": 5,
           "species": 171,
+          "groups": {
+            "frequent": 71,
+            "medium": 100,
+            "rare": 68
+          },
           "ready": true
         },
         "autumn": {
           "sample": 3307,
           "supportedYears": 5,
           "species": 166,
+          "groups": {
+            "frequent": 65,
+            "medium": 101,
+            "rare": 79
+          },
           "ready": true
         }
       }
@@ -693,24 +873,44 @@
           "sample": 7649,
           "supportedYears": 5,
           "species": 117,
+          "groups": {
+            "frequent": 45,
+            "medium": 72,
+            "rare": 83
+          },
           "ready": true
         },
         "spring": {
           "sample": 11524,
           "supportedYears": 5,
           "species": 158,
+          "groups": {
+            "frequent": 65,
+            "medium": 93,
+            "rare": 117
+          },
           "ready": true
         },
         "summer": {
           "sample": 8047,
           "supportedYears": 5,
           "species": 152,
+          "groups": {
+            "frequent": 53,
+            "medium": 99,
+            "rare": 108
+          },
           "ready": true
         },
         "autumn": {
           "sample": 8735,
           "supportedYears": 5,
           "species": 149,
+          "groups": {
+            "frequent": 57,
+            "medium": 92,
+            "rare": 118
+          },
           "ready": true
         }
       }
@@ -764,24 +964,44 @@
           "sample": 9455,
           "supportedYears": 5,
           "species": 100,
+          "groups": {
+            "frequent": 46,
+            "medium": 54,
+            "rare": 74
+          },
           "ready": true
         },
         "spring": {
           "sample": 12657,
           "supportedYears": 5,
           "species": 139,
+          "groups": {
+            "frequent": 51,
+            "medium": 88,
+            "rare": 106
+          },
           "ready": true
         },
         "summer": {
           "sample": 9241,
           "supportedYears": 5,
           "species": 123,
+          "groups": {
+            "frequent": 43,
+            "medium": 80,
+            "rare": 99
+          },
           "ready": true
         },
         "autumn": {
           "sample": 8627,
           "supportedYears": 5,
           "species": 110,
+          "groups": {
+            "frequent": 43,
+            "medium": 67,
+            "rare": 124
+          },
           "ready": true
         }
       }
@@ -835,24 +1055,44 @@
           "sample": 4378,
           "supportedYears": 5,
           "species": 106,
+          "groups": {
+            "frequent": 53,
+            "medium": 53,
+            "rare": 64
+          },
           "ready": true
         },
         "spring": {
           "sample": 6137,
           "supportedYears": 5,
           "species": 142,
+          "groups": {
+            "frequent": 54,
+            "medium": 88,
+            "rare": 91
+          },
           "ready": true
         },
         "summer": {
           "sample": 4952,
           "supportedYears": 5,
           "species": 128,
+          "groups": {
+            "frequent": 50,
+            "medium": 78,
+            "rare": 84
+          },
           "ready": true
         },
         "autumn": {
           "sample": 4307,
           "supportedYears": 5,
           "species": 115,
+          "groups": {
+            "frequent": 53,
+            "medium": 62,
+            "rare": 98
+          },
           "ready": true
         }
       }
@@ -906,24 +1146,44 @@
           "sample": 2967,
           "supportedYears": 5,
           "species": 125,
+          "groups": {
+            "frequent": 54,
+            "medium": 71,
+            "rare": 63
+          },
           "ready": true
         },
         "spring": {
           "sample": 5571,
           "supportedYears": 5,
           "species": 173,
+          "groups": {
+            "frequent": 67,
+            "medium": 106,
+            "rare": 89
+          },
           "ready": true
         },
         "summer": {
           "sample": 4760,
           "supportedYears": 5,
           "species": 157,
+          "groups": {
+            "frequent": 68,
+            "medium": 89,
+            "rare": 98
+          },
           "ready": true
         },
         "autumn": {
           "sample": 5862,
           "supportedYears": 5,
           "species": 164,
+          "groups": {
+            "frequent": 65,
+            "medium": 99,
+            "rare": 92
+          },
           "ready": true
         }
       }
@@ -977,24 +1237,44 @@
           "sample": 85,
           "supportedYears": 0,
           "species": 94,
+          "groups": {
+            "frequent": 44,
+            "medium": 50,
+            "rare": 4
+          },
           "ready": false
         },
         "spring": {
           "sample": 220,
           "supportedYears": 0,
           "species": 113,
+          "groups": {
+            "frequent": 53,
+            "medium": 60,
+            "rare": 45
+          },
           "ready": false
         },
         "summer": {
           "sample": 214,
           "supportedYears": 0,
           "species": 106,
+          "groups": {
+            "frequent": 47,
+            "medium": 59,
+            "rare": 31
+          },
           "ready": false
         },
         "autumn": {
           "sample": 123,
           "supportedYears": 0,
           "species": 95,
+          "groups": {
+            "frequent": 39,
+            "medium": 56,
+            "rare": 41
+          },
           "ready": false
         }
       }
@@ -1048,24 +1328,44 @@
           "sample": 5062,
           "supportedYears": 5,
           "species": 108,
+          "groups": {
+            "frequent": 43,
+            "medium": 65,
+            "rare": 57
+          },
           "ready": true
         },
         "spring": {
           "sample": 7079,
           "supportedYears": 5,
           "species": 150,
+          "groups": {
+            "frequent": 53,
+            "medium": 97,
+            "rare": 99
+          },
           "ready": true
         },
         "summer": {
           "sample": 4937,
           "supportedYears": 5,
           "species": 126,
+          "groups": {
+            "frequent": 45,
+            "medium": 81,
+            "rare": 101
+          },
           "ready": true
         },
         "autumn": {
           "sample": 4087,
           "supportedYears": 5,
           "species": 116,
+          "groups": {
+            "frequent": 45,
+            "medium": 71,
+            "rare": 105
+          },
           "ready": true
         }
       }
@@ -1119,24 +1419,44 @@
           "sample": 1290,
           "supportedYears": 3,
           "species": 105,
+          "groups": {
+            "frequent": 46,
+            "medium": 59,
+            "rare": 48
+          },
           "ready": true
         },
         "spring": {
           "sample": 2086,
           "supportedYears": 5,
           "species": 157,
+          "groups": {
+            "frequent": 60,
+            "medium": 97,
+            "rare": 78
+          },
           "ready": true
         },
         "summer": {
           "sample": 1542,
           "supportedYears": 5,
           "species": 148,
+          "groups": {
+            "frequent": 62,
+            "medium": 86,
+            "rare": 71
+          },
           "ready": true
         },
         "autumn": {
           "sample": 1385,
           "supportedYears": 4,
           "species": 135,
+          "groups": {
+            "frequent": 59,
+            "medium": 76,
+            "rare": 77
+          },
           "ready": true
         }
       }
@@ -1190,24 +1510,44 @@
           "sample": 2291,
           "supportedYears": 5,
           "species": 82,
+          "groups": {
+            "frequent": 31,
+            "medium": 51,
+            "rare": 65
+          },
           "ready": true
         },
         "spring": {
           "sample": 3062,
           "supportedYears": 5,
           "species": 129,
+          "groups": {
+            "frequent": 43,
+            "medium": 86,
+            "rare": 92
+          },
           "ready": true
         },
         "summer": {
           "sample": 2305,
           "supportedYears": 5,
           "species": 124,
+          "groups": {
+            "frequent": 41,
+            "medium": 83,
+            "rare": 81
+          },
           "ready": true
         },
         "autumn": {
           "sample": 2279,
           "supportedYears": 5,
           "species": 115,
+          "groups": {
+            "frequent": 39,
+            "medium": 76,
+            "rare": 91
+          },
           "ready": true
         }
       }
