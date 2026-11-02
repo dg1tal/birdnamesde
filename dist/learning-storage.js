@@ -10,6 +10,8 @@ export function persistLearningState(db,state){
    tx.onerror=tx.onabort=()=>resolve(false);
    const store=tx.objectStore('state');
    store.put(state.records,'records');
+   store.put(2,'progress-version');
+   store.put(state.daily||null,'daily-v2');
    store.put({version:1,session:state.session,pending:state.pending},'lesson-state-v2');
   }catch{
    try{tx?.abort();}catch{}
