@@ -30,9 +30,9 @@ Lernstufe|Vocabulary level
 Nach Lernstand filtern|Progress filter
 Texteingabe|Text input
 Alle Lernstufen|All vocabulary levels
-Grundwortschatz|Basic vocabulary
-Erweitert|Intermediate
-Spezialwortschatz|Advanced vocabulary
+Einstieg|Getting started
+Ausbau|Building on the basics
+Vertiefung|Exploring further
 Artenbilder|Species pictures
 Aktive Filter|Active filters
 Alles zurücksetzen|Clear all

@@ -128,3 +128,11 @@ WAVE scope clarification: inspection of the final report frame showed zero scrip
 - Nachschlageregion wird unabhängig von der Lernregion gespeichert. Sichtbarer Hinweis erklärt eBird-Nachweise, Zeitraum und historische Seltenheiten.
 - Aktiver Regionschip und passende Hilfe bei null Treffern entfernen nur die Region und erhalten die Suche. „Alles zurücksetzen“ setzt Suche, Gruppe und Region zurück und den Nachweiszeitraum auf alle Nachweise.
 - Geprüft im Browser: Länderwechsel, England/Cornwall, Bayern, beide Zeiträume, Suche ohne Treffer und gezielte Erholung, Tastaturfolge, Neuladen, Unabhängigkeit der Lernregion sowie 360-Pixel-Layout ohne horizontalen Überlauf. Bestehende automatisierte Tests ergänzt um die Übernahme alter Einstellungen und unabhängig gespeicherte Regionen.
+
+
+## Lernstufen verständlich als Artenpakete (2026-11-02)
+
+- „Grundwortschatz“, „Erweitert“ und „Spezialwortschatz“ heißen nun „Einstieg“, „Ausbau“ und „Vertiefung“, zusammengefasst unter „Artenpakete“.
+- Beschreibungen mit tatsächlichen Beispielarten, dynamischen Gesamtzahlen und vollständigen alphabetischen Artenlisten erklären die drei redaktionellen Mengen. Jede Art gehört nur einem Paket an. Die Auswahl ist kombinierbar und nicht kumulativ; andere Artenfilter grenzen weiter ein. Die Gesamtlisten und Zahlen sind ausdrücklich ungefiltert.
+- Numerische IDs, Artenzuordnungen, bisherige Auswahl und Lernstände bleiben erhalten. Neue Begriffe gelten ebenso für Startzusammenfassung, Auswahlhilfe, Nachschlagekarten und Dateninformation. Deutsch und Englisch werden unterstützt; Listen tragen ihre Namenssprache.
+- Geprüft: einzelne und kombinierte Pakete (106, 103, 209 Arten), leere Auswahl, Aufklappen der vollständigen Listen, Beschreibungsreferenzen, Tastaturfolge und englische Texte. Bei 360 Pixeln Breite kein horizontaler Überlauf, auch mit offener 104-Arten-Liste. Automatisierte Prüfung der vollständigen Listen, stabilen Auswahl-IDs, beider Sprachen und HTML-Escaping.
