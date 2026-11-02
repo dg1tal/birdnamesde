@@ -1,3 +1,5 @@
+import {readFileSync} from 'node:fs';
+import {SPECIES_PACKAGES,speciesPackageControls} from '../dist/species-packages.js';
 import assert from 'node:assert/strict';
 import {loadSharedUI,restoreLessonState,selectionMessage} from '../dist/learning-settings.js';
 const defaults={lookup:{query:''},learn:{region:'',sourceLanguage:'de',nameLanguage:'en'}};
@@ -17,7 +19,7 @@ assert(!selectionMessage({same:true,count:0},false).includes('Wortschatz'));
 assert(selectionMessage({same:false,count:0,unavailable:true},true).includes('regional list'));
 assert.equal(selectionMessage({count:1},false),'1 Art passt zur Auswahl.');
 
-assert.match(selectionMessage({count:0,noLevels:true},false),/Keine Lernstufe/);
+assert.match(selectionMessage({count:0,noLevels:true},false),/Kein Artenpaket/);
 assert.match(selectionMessage({count:0,noGroups:true},true),/No species group/);
 assert.match(selectionMessage({count:0,scope:'due'},false),/keine Wiederholungen fällig/);
 assert.match(selectionMessage({count:0,scope:'wrong'},true),/last answered incorrectly/);
@@ -40,3 +42,19 @@ assert.equal(restoredRegions.lookup.region,'DE-BY');
 assert.equal(restoredRegions.lookup.regionMode,'recent');
 assert.equal(restoredRegions.learn.region,'NL');
 console.log('PASS: lookup starts with all regions for legacy settings and restores its own region independently of learning.');
+
+const catalogue=JSON.parse(readFileSync('dist/species.json')).species;
+assert.deepEqual(SPECIES_PACKAGES.map(p=>p.id),[1,2,3]);
+assert.deepEqual(SPECIES_PACKAGES.map(p=>catalogue.filter(s=>s.level===p.id).length),[106,103,104]);
+for(const english of [false,true]){
+ const markup=speciesPackageControls(catalogue,[1,3],english);
+ assert.equal((markup.match(/<li>/g)||[]).length,catalogue.length);
+ assert.equal((markup.match(/ checked/g)||[]).length,2);
+ assert.equal((markup.match(/name="levels"/g)||[]).length,3);
+ for(const bird of catalogue)assert(markup.includes(`<li>${bird[english?'en':'de'].replaceAll("'",'&#39;')}</li>`));
+ assert(markup.includes(english?'do not include earlier packages':'enthalten die vorherigen Pakete nicht'));
+ assert(markup.includes(english?'before those filters':'vor diesen Filtern'));
+}
+const unsafe=speciesPackageControls([{level:1,de:'<img src=x>',en:'<script>'}],[1],false);
+assert(unsafe.includes('&lt;img src=x&gt;'));assert(!unsafe.includes('<img'));
+console.log('PASS: complete bilingual package lists cover all species, preserve stable selections and escape names.');
