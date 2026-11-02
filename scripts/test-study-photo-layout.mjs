@@ -15,3 +15,17 @@ for(let photoTop=0;photoTop<1000;photoTop+=17){
   if(770-photoTop-12>=220)assert(photoTop+height<=770-12);
 }
 console.log('PASS: adaptive photo height fits above actions, respects visual viewport, and preserves minimum size for long feedback.');
+
+const {introductionPhotoHeight}=await import('../dist/study-photo-layout.js');
+assert.equal(introductionPhotoHeight({photoTop:240,viewportBottom:900,actionsTop:820,overhead:80}),340);
+assert.equal(introductionPhotoHeight({photoTop:380,viewportBottom:800,actionsTop:730,overhead:95}),243);
+assert.equal(introductionPhotoHeight({photoTop:240,viewportBottom:800,actionsTop:730,overhead:100,rows:2}),189);
+assert.equal(introductionPhotoHeight({photoTop:400,viewportBottom:420,actionsTop:340,overhead:180,rows:2}),160);
+assert.equal(introductionPhotoHeight({photoTop:180,viewportBottom:500,actionsTop:700,overhead:100}),208);
+assert.equal(introductionPhotoHeight({photoTop:180,viewportBottom:500,actionsTop:450,rows:0}),340);
+for(const rows of [1,2])for(const overhead of [50,100,180])for(let photoTop=20;photoTop<650;photoTop+=23){
+ const height=introductionPhotoHeight({photoTop,viewportBottom:844,actionsTop:770,overhead,rows});
+ assert(height>=160&&height<=340);
+ if(770-photoTop-overhead-12>=160*rows)assert(photoTop+rows*height+overhead<=770-12);
+}
+console.log('PASS: introduction image rows budget for captions and padding, responsive viewport limits, readable floors and invalid geometry.');
