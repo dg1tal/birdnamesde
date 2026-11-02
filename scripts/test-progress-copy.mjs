@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {lessonProgressText,attemptText,masteryText,progressDefinitions} from '../dist/progress-copy.js';
+import {lessonProgressText,attemptText,masteryText,progressDefinitions,questionReason,questionReasonText} from '../dist/progress-copy.js';
 import {lessonProgress,recordLessonAnswer,validateLesson} from '../dist/study-state.js';
 import {review,due,mastered} from '../dist/logic.js';
 
@@ -44,3 +44,19 @@ for(const en of [false,true]){
 assert.equal(lessonProgressText({total:10,completed:4,repeats:2}).pending,'Noch offen: 6 Rundenfragen · 2 Zusatzversuche');
 assert.equal(lessonProgressText({total:10,completed:4,repeats:2},true).pending,'Remaining: 6 round questions · 2 extra attempts');
 console.log('PASS: fixed round totals, first/extra attempts through retry limits and restore, due/mastered overlap and hint/error resets.');
+
+const before={attempts:2,due:1000};
+assert.equal(questionReason({progress:undefined,now:1000}),'new');
+assert.equal(questionReason({progress:before,now:1000}),'due');
+assert.equal(questionReason({progress:before,now:999}),'practice');
+assert.equal(questionReason({retry:1,progress:before,now:999}),'retry');
+const question={id:'eursta',t:'en',retry:0,reason:questionReason({progress:before,now:1000})};
+const graded=review(before,true,1000,false);
+assert(graded.due>1000);assert.match(questionReasonText(question),/war vor dieser Frage fällig/);
+assert.match(questionReasonText({retry:1,reason:'new'}),/zählt nicht als neue Rundenfrage/);
+assert.match(questionReasonText({reason:'new',t:'code'},true),/had not practised this code/);
+assert.equal(questionReasonText({retry:0,t:'en'}),'Dieser Vogel gehört zu deiner gewählten Runde.');
+const withReason={...lesson,queue:lesson.queue.map(i=>({...i,reason:'due'}))};
+assert(validateLesson(withReason,new Set(['eursta'])));
+assert.equal(validateLesson({...withReason,queue:withReason.queue.map(i=>({...i,reason:'unknown'}))},new Set(['eursta'])),null);
+console.log('PASS: question reasons captured before grading, separate names/codes, retries, neutral legacy fallback and restored metadata.');

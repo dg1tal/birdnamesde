@@ -447,3 +447,7 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 .filter-preview #frequency-row > td{font-size:14px;font-weight:400;white-space:normal;text-align:left;min-width:0;width:auto;padding:4px 10px 12px}
 @media(max-width:900px){.frequency-options-grid{grid-template-columns:1fr}}
 @media(max-width:480px){#frequency-options{padding:8px}.frequency-option .check-row{flex-wrap:wrap}.filter-preview #frequency-row > td{padding:4px 6px 10px}}
+
+body.studying .question-explanation{border-top:1px solid var(--line);padding-top:4px;text-align:left;font-size:13px;color:var(--muted)}
+body.studying .question-explanation summary{cursor:pointer;min-height:44px;padding:11px 0}
+body.studying .question-explanation .learning-feedback{display:grid;gap:8px;padding:4px 0 8px;border:0;color:var(--ink)}

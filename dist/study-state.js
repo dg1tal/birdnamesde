@@ -6,6 +6,7 @@ export function validateLesson(value, ids) {
   if (!Number.isInteger(value.index) || value.index < 0 || value.index >= value.queue.length) return null;
   if (!['text','flash','mc'].includes(value.method)) return null;
   if (!value.queue.every(i => i && ids.has(i.id) && (isNameLanguage(i.t)||i.t==='code') && Number.isInteger(i.retry) && i.retry >= 0 && i.retry <= 2)) return null;
+  if(!value.queue.every(i=>i.reason===undefined||['new','due','practice','retry'].includes(i.reason)))return null;
   for (const field of ['answered','correct','firstAnswered','firstCorrect']) if (!Number.isInteger(value[field]) || value[field] < 0) return null;
   if (value.correct > value.answered || value.firstCorrect > value.firstAnswered || value.firstAnswered > value.answered) return null;
   if (typeof value.done !== 'boolean' || typeof value.paused !== 'boolean' || typeof value.hint !== 'boolean') return null;
