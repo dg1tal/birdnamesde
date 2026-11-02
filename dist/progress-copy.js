@@ -28,3 +28,19 @@ export function progressDefinitions(english=false){
   ['Zusatzversuche','Nach einem Fehler kommt die Frage später in dieser Runde erneut dran, höchstens zweimal. Diese Versuche zählen separat; die Zahl der Rundenfragen bleibt gleich.']
  ];
 }
+
+// Capture the reason before grading changes the learning record. Restored graded
+// questions without this metadata use neutral wording rather than a guess.
+export function questionReason({retry=0,progress,now=Date.now()}){
+ if(retry)return 'retry';
+ if(!progress?.attempts)return 'new';
+ return Number.isFinite(progress.due)&&progress.due<=now?'due':'practice';
+}
+export function questionReasonText(item,english=false){
+ if(item.retry||item.reason==='retry')return english?'You answered this question incorrectly earlier in this round, so it returns for another attempt. This extra attempt does not count as a new round question.':'Du hast diese Frage zuvor in dieser Runde falsch beantwortet. Deshalb kommt sie erneut dran. Dieser Zusatzversuch zählt nicht als neue Rundenfrage.';
+ const code=item.t==='code';
+ if(item.reason==='new')return english?`You had not practised this ${code?'code':'name'} before this question.`:`Diesen ${code?'Code':'Namen'} hattest du vor dieser Frage noch nicht geübt.`;
+ if(item.reason==='due')return english?`The scheduled review of this ${code?'code':'name'} was due before this question.`:`Die geplante Wiederholung für diesen ${code?'Code':'Namen'} war vor dieser Frage fällig.`;
+ if(item.reason==='practice')return english?`You are practising this ${code?'code':'name'} again as part of your chosen round. Its scheduled review was not yet due.`:`Du übst diesen ${code?'Code':'Namen'} im Rahmen deiner gewählten Runde erneut. Eine planmäßige Wiederholung war noch nicht fällig.`;
+ return english?'This bird is part of your chosen round.':'Dieser Vogel gehört zu deiner gewählten Runde.';
+}
