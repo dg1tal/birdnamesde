@@ -1,5 +1,8 @@
 import {regionalSelection} from './regions.js?v=20261029-uklocal1';
 const DAY=86400000;
+export const FREQUENCY_GROUPS=['frequent','medium','rare'];
+export function frequencyGroups(value){return Array.isArray(value)?FREQUENCY_GROUPS.filter(g=>value.includes(g)):['frequent','medium'];}
+export function frequencyLabel(group,english=false){return ({frequent:['Häufig','Frequent'],medium:['Mittel','Medium'],rare:['Selten','Rare']})[group]?.[+english]||'';}
 export function seasonAt(now=new Date()) {return ['winter','winter','spring','spring','spring','summer','summer','summer','autumn','autumn','autumn','winter'][now.getMonth()];}
 export function seasonLabel(season,english=false){return ({winter:['Winter (Dez–Feb)','Winter (Dec–Feb)'],spring:['Frühjahr (Mär–Mai)','Spring (Mar–May)'],summer:['Sommer (Jun–Aug)','Summer (Jun–Aug)'],autumn:['Herbst (Sep–Nov)','Autumn (Sep–Nov)']})[season]?.[+english]||'';}
 export function validateSeasonal(data,ids){
@@ -9,6 +12,12 @@ export function validateSeasonal(data,ids){
   if(typeof r.code!=='string'||seen.has(r.code)||!r.seasons)throw Error('Invalid seasonal region');seen.add(r.code);
   for(const [key,s] of Object.entries(r.seasons)){
    if(!['winter','spring','summer','autumn'].includes(key)||!Number.isInteger(s.sample)||s.sample<0||!Number.isInteger(s.years)||s.years<0||s.years>5||!Array.isArray(s.ids)||new Set(s.ids).size!==s.ids.length||!s.ids.every(id=>ids.has(id)))throw Error('Invalid seasonal list');
+   if(s.groups!=null){
+    if(Object.keys(s.groups).length!==3||!FREQUENCY_GROUPS.every(g=>Array.isArray(s.groups[g])&&s.groups[g].every(id=>ids.has(id))))throw Error('Invalid frequency groups');
+    const all=FREQUENCY_GROUPS.flatMap(g=>s.groups[g]);
+    const standard=[...s.groups.frequent,...s.groups.medium];
+    if(new Set(all).size!==all.length||standard.length!==s.ids.length||!standard.every(id=>s.ids.includes(id)))throw Error('Overlapping or inconsistent frequency groups');
+   }
   }
  }
  return data;
@@ -25,16 +34,17 @@ export function validCurrentRecords(region,ids,now=Date.now()){
  }
  return [...result.values()];
 }
-export function hybridSelection(regions,seasonal,current,cfg,ids,now=new Date()){
+export function hybridSelection(regions,seasonal,current,cfg,ids,now=new Date(),includeReports=true){
  const season=seasonAt(now),list=seasonal?.regions.find(r=>r.code===cfg.region)?.seasons[season];
  const seasonalReady=cfg.regionMode==='seasonal'&&!!list&&list.sample>=300&&list.years>=3;
  const fallback=regionalSelection(regions,cfg.region,cfg.regionMode==='recent'?'recent':'all');
- const base=cfg.region?(seasonalReady?list.ids:fallback?.ids||[]):[...ids];
+ const selectedGroups=frequencyGroups(cfg.frequencyGroups),groups=seasonalReady?list.groups||null:null;
+ const base=cfg.region?(seasonalReady?(groups?selectedGroups.flatMap(g=>groups[g]):list.ids):fallback?.ids||[]):[...ids];
  const available=current?.regions?.find(r=>r?.code===cfg.region);
  const currentFresh=!!available&&Number.isFinite(Date.parse(available.updatedAt))&&now.getTime()-Date.parse(available.updatedAt)<=3*DAY&&Date.parse(available.updatedAt)<=now.getTime()+300000;
- const records=cfg.region&&cfg.includeCurrent?validCurrentRecords(available,ids,now.getTime()):[];
+ const records=cfg.region&&includeReports?validCurrentRecords(available,ids,now.getTime()):[];
  const additions=records.filter(r=>!base.includes(r.id));
- return {ids:[...new Set([...base,...additions.map(r=>r.id)])],baseIds:base,additions,season,seasonalReady,seasonalRequested:cfg.regionMode==='seasonal',sample:list?.sample||0,years:list?.years||0,available:!cfg.region||seasonalReady||!!fallback||additions.length>0,currentFresh,currentUpdatedAt:currentFresh?available.updatedAt:null};
+ return {ids:[...new Set([...base,...additions.map(r=>r.id)])],baseIds:base,additions,season,frequencyGroups:groups,selectedGroups,seasonalReady,seasonalRequested:cfg.regionMode==='seasonal',sample:list?.sample||0,years:list?.years||0,available:!cfg.region||seasonalReady||!!fallback||additions.length>0,currentFresh,currentUpdatedAt:currentFresh?available.updatedAt:null};
 }
 export function hybridQueue(pool,n,additionIds,rank,random=Math.random){
  const sorted=pool.map(s=>({s,r:random()})).sort((a,b)=>rank(a.s)-rank(b.s)||a.r-b.r).map(x=>x.s);

@@ -69,9 +69,14 @@ def seasonal_sets(pooled, annual):
         bins = [m * 4 + i for m in months for i in range(4)]
         n = sum(pooled['sample'][i] for i in bins)
         supported = sum(sum(annual[y]['sample'][i] for i in bins) >= 100 for y in YEARS)
-        ids = sorted(key for key, rates in pooled['species'].items()
-                     if n and sum(pooled['sample'][i] * rates[i] for i in bins) / n >= .01)
-        result[season] = {'sample': n, 'years': supported, 'ids': ids}
+        groups = {'frequent': [], 'medium': [], 'rare': []}
+        for key, rates in sorted(pooled['species'].items()):
+            f = sum(pooled['sample'][i] * rates[i] for i in bins) / n if n else 0
+            if f > 0:
+                groups['frequent' if f >= .1 else 'medium' if f >= .01 else 'rare'].append(key)
+        # Retain the old default set for older clients and membership comparisons.
+        ids = sorted(groups['frequent'] + groups['medium'])
+        result[season] = {'sample': n, 'years': supported, 'ids': ids, 'groups': groups}
     return result
 
 
@@ -80,7 +85,7 @@ def build(source, today):
     known = {s['sci']: s['id'] for s in birds}
     output = {'version': 1, 'experimental': True, 'source': 'eBird histogram exports',
               'period': '2021–2025', 'preparedAt': today, 'terms': TERMS,
-              'method': 'Meldeanteil mindestens 1 %, nach Exportstichprobe gewichtet. Mindestens 300 Listen insgesamt und mindestens drei Jahre mit je 100 Listen. Winter: Dezember/Januar/Februar der jeweiligen Kalenderjahre. Experimentelle Auswahlregeln; keine Häufigkeits- oder Schwierigkeitseinstufung.',
+              'method': 'Meldeanteile nach Exportstichprobe gewichtet: häufig ab 10 %, mittel 1 bis unter 10 %, selten über 0 bis unter 1 %. Standard: häufig und mittel. Mindestens 300 Listen insgesamt und mindestens drei Jahre mit je 100 Listen. Winter: Dezember/Januar/Februar der jeweiligen Kalenderjahre. Experimentelle Auswahlregeln; keine Bestands- oder Schwierigkeitseinstufung.',
               'regions': []}
     audit = {'retrievedAt': today, 'period': '2021–2025', 'source': 'eBird / Cornell Lab of Ornithology',
              'terms': TERMS, 'originalExportsPublished': False, 'regions': []}
@@ -114,7 +119,7 @@ def build(source, today):
             'matchedCatalogSpecies': len(pooled['species']),
             'annualSamples': {str(y): sum(annual[y]['sample']) for y in YEARS},
             'seasons': {k: {'sample': v['sample'], 'supportedYears': v['years'],
-                            'species': len(v['ids']), 'ready': v['sample'] >= 300 and v['years'] >= 3}
+                            'species': len(v['ids']), 'groups': {g: len(ids) for g, ids in v['groups'].items()}, 'ready': v['sample'] >= 300 and v['years'] >= 3}
                         for k, v in seasons.items()}})
     return output, audit
 

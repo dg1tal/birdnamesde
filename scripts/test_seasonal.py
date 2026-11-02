@@ -14,7 +14,7 @@ class SeasonalTests(unittest.TestCase):
         pooled = {'sample': [50] * 48, 'species': {'threshold': [.01] * 48, 'below': [.009] * 48}}
         sets = m.seasonal_sets(pooled, annual)
         for value in sets.values():
-            self.assertEqual(value, {'sample': 600, 'years': 5, 'ids': ['threshold']})
+            self.assertEqual(value, {'sample': 600, 'years': 5, 'ids': ['threshold'], 'groups': {'frequent': [], 'medium': ['threshold'], 'rare': ['below']}})
         # A large pooled sample from a single year must not pass the multi-year gate.
         annual = {year: {'sample': [50 if year == 2025 else 0] * 48} for year in m.YEARS}
         self.assertEqual(m.seasonal_sets(pooled, annual)['summer']['years'], 1)
@@ -27,6 +27,12 @@ class SeasonalTests(unittest.TestCase):
         rates[21] = 1  # Unweighted mean would incorrectly pass 1%.
         pooled = {'sample': counts, 'species': {'misleading': rates}}
         self.assertEqual(m.seasonal_sets(pooled, annual)['summer']['ids'], [])
+
+    def test_group_boundaries_and_no_detection(self):
+        annual = {y: {'sample': [10] * 48} for y in m.YEARS}
+        pooled = {'sample': [50] * 48, 'species': {'frequent': [.1]*48, 'medium': [.01]*48, 'rare': [.00999]*48, 'zero': [0]*48}}
+        groups = m.seasonal_sets(pooled, annual)['autumn']['groups']
+        self.assertEqual(groups, {'frequent': ['frequent'], 'medium': ['medium'], 'rare': ['rare']})
 
     def test_mismatched_individual_years_rejected(self):
         annual = {y: {'sample': [1] * 48} for y in m.YEARS}
@@ -59,6 +65,10 @@ class SeasonalTests(unittest.TestCase):
             for season, value in r['seasons'].items():
                 self.assertEqual(value['species'], len(bycode[r['code']]['seasons'][season]['ids']))
                 self.assertEqual(value['sample'], bycode[r['code']]['seasons'][season]['sample'])
+                groups = bycode[r['code']]['seasons'][season]['groups']
+                self.assertEqual(value['groups'], {g: len(ids) for g, ids in groups.items()})
+                flat = sum(groups.values(), [])
+                self.assertEqual(len(flat), len(set(flat)))
         self.assertFalse(audit['originalExportsPublished'])
 
 
