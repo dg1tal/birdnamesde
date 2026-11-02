@@ -3,7 +3,16 @@
     "code": "DE",
     "nameDe": "Deutschland",
     "nameEn": "Germany",
-    "expectedSubregions": 16
+    "expectedSubregions": 16,
+    "localRegions": {
+      "DE-BY": [
+        {
+          "code": "DE-BY-GAP",
+          "nameDe": "Garmisch-Partenkirchen",
+          "nameEn": "Garmisch-Partenkirchen"
+        }
+      ]
+    }
   },
   {
     "code": "NL",
