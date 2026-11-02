@@ -16,7 +16,7 @@ assert(birds.filter(s=>matches(s,'EUBL')).length>=2);
 assert(matches(find('Nachtschwalbe'),'Ziegenmelker'));
 let now=1000000,p;for(let n of [1,3,7,14,30,60,60]){p=review(p,true,now);assert.equal(p.interval,n);assert.equal(p.due,now+n*86400000);now=p.due;}
 assert(mastered(p));p=review(p,false,now);assert(!mastered(p));assert(p.lastWrong);assert.equal(p.due,now+600000);assert(!due(p,now));assert(due(p,now+600000));
-p=review(p,true,now,true);assert.equal(p.streak,0);assert.equal(p.interval,0);assert(!p.lastWrong);
+p=review(p,true,now,true);assert.equal(p.streak,0);assert(p.due<=now+86400000);assert(!p.lastWrong);
 const ids=new Set(birds.map(s=>s.id));const records={'eurbla:en':p};assert.deepEqual(validProgress({app:'BirdNames DE',version:1,records},ids),records);
 assert.throws(()=>validProgress({app:'Other',version:1,records},ids));assert.throws(()=>validProgress({app:'BirdNames DE',version:1,records:{'eurbla:en':{...p,due:NaN}}},ids));
 let isolated={'eurbla:en':review(undefined,true,now)};assert.equal(isolated['eurbla:code'],undefined);

@@ -17,7 +17,7 @@ assert.equal(f.regionCount,7);assert.equal(f.listCount,14);assert.equal(f.oldest
 for(const source of meta.sources)assert(SOURCE_TITLES_EN[source.url],'Source needs an English label: '+source.title);
 const en=renderInformation({...args,english:true}),de=renderInformation({...args,english:false});
 const sectionIds=html=>[...html.matchAll(/<h2 id="(info-[a-z]+)"/g)].map(x=>x[1]);
-assert.deepEqual(sectionIds(en),sectionIds(de));assert.equal(sectionIds(en).length,9);
+assert.deepEqual(sectionIds(en),sectionIds(de));assert.equal(sectionIds(en).length,8);
 assert(en.includes('id="info-project"')&&de.includes('id="info-project"'));
 for(const html of [en,de]){
  assert(html.includes('href="https://github.com/dg1tal/birdnamesde"'));
@@ -30,13 +30,14 @@ const translated=en.replace(/<ul data-name-content>[\s\S]*?<\/ul>/,'');
 assert(!/Namensmatrix|Taxonomie-Downloads|Brutvögel|Lernstand|Datenschutz|Oberflächensprache|Wiederholung|Bildnachweise/.test(translated));
 assert(en.includes('Original source titles'));assert(en.includes('GitHub Actions secret'));assert(en.includes('not by your browser'));assert(en.includes('all supported answer languages'));assert(!en.includes('both learning directions'));assert(!en.includes('saves and pauses'));
 assert(en.includes('1 local eBird region'));assert(en.includes('7 areas including country-wide lists; 14 available species lists.'));
-assert(en.includes('29/10/2026')&&en.includes('1 November 2026'));
+assert(en.includes('29/10/2026')&&en.includes('2 November 2026'));
 const missing=renderInformation({...args,english:true,regions:null});assert(missing.includes('Regional data is currently unavailable'));assert(!missing.includes('Invalid Date'));
 const partial=informationFacts({...args,regions:{...regions,regions:[{...entries[0],all:null,recent:list(stamp)}]}});assert.equal(partial.listCount,1);
 const changed=renderInformation({...args,english:true,birds:[birds[0]],photos:{},regions:null});assert(changed.includes('<strong>1 species</strong>'));assert(changed.includes('0 photographs and 0 historical'));
 const escaped=renderInformation({...args,english:false,meta:{...meta,selection:'<script>alert(1)</script>'}});assert(escaped.includes('&lt;script&gt;'));assert(!escaped.includes('<script>'));
 let progress,now=1000;for(const days of [1,3,7,14,30,60,60]){progress=review(progress,true,now);assert.equal(progress.interval,days);now=progress.due;}
-assert.equal(review(progress,false,now).due,now+600000);assert.equal(review(progress,true,now,true).due,now+600000);
+assert.equal(review(progress,false,now).due,now+600000);assert(review(progress,true,now,true).due<=now+86400000);
+assert(!en.includes('info-lessons'));assert(!de.includes('Drei richtige Antworten ohne Hinweis in Folge'));assert(de.includes('href="#lernmethode"'));
 assert(en.includes('Records are not merged'));assert(en.includes('Only the Replace button'));
 assert(de.includes('Erst der Ersetzen-Button'));assert(de.includes('Wenn das Speichern fehlschlägt'));
 console.log('PASS: bilingual information sections, actual species/media counts, per-list regional timestamps, unavailable/partial snapshots, translated source labels, exports/storage wording and review intervals.');

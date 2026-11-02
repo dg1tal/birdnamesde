@@ -66,6 +66,9 @@ Karteikarten|Flashcards
 Lernstand|Learning progress
 Alle Arten|All species
 Noch nicht beherrscht|Not yet mastered
+Lernmethode|Learning method
+Noch nicht sicher|Not yet secure
+Gerade ist keine Wiederholung fällig. Du kannst neue oder noch unsichere Ziele üben.|No reviews are due. You can practise new or uncertain targets.
 Nur fällige Wiederholungen|Due reviews only
 Zuletzt falsch beantwortet|Last answered incorrectly
 Fragen pro Einheit|Questions per session

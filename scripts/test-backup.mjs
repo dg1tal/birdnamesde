@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from '../dist/backup.js';
+import {migrateRecords} from '../dist/learning-model.js';
 import {review} from '../dist/logic.js';
 const ids=new Set(['eurbla','eursta']);
 const record=review(undefined,true,1000);
@@ -7,13 +8,14 @@ const records={'eurbla:en':record,'eurbla:code':record,'eursta:nl':record};
 const file={app:'BirdNames DE',version:1,exported:'2026-11-01T12:34:56.789Z',records};
 const candidate=inspectBackup(file,ids);
 assert.equal(candidate.count,3);assert.equal(candidate.species,2);assert.equal(candidate.skipped,0);
-assert.deepEqual(candidate.records,records);
+assert.deepEqual(candidate.records,migrateRecords(records));
 assert.equal(backupSummary(records),'3 Lernziele für 2 Arten');
 assert.equal(backupSummary({'eurbla:en':record},true),'1 learning target for 1 species');
 assert.equal(backupFilename(file.exported),'birdnames-de-lernstand-2026-11-01T12-34-56Z.json');
 assert.throws(()=>inspectBackup({...file,records:[]},ids));
 assert.throws(()=>inspectBackup({...file,records:null},ids));
-assert.throws(()=>inspectBackup({...file,version:2},ids));
+assert.equal(inspectBackup({...file,version:2},ids).count,3);
+assert.throws(()=>inspectBackup({...file,version:3},ids));
 assert.throws(()=>inspectBackup({...file,records:{'eurbla:en':{...record,streak:-1}}},ids));
 assert.throws(()=>inspectBackup({...file,records:{'missing:en':record}},ids),/Keine unterstützten/);
 const partial=inspectBackup({...file,records:{...records,'missing:en':record,'eurbla:unknown':record}},ids);
@@ -68,6 +70,6 @@ for(const mode of ['closed','quota','clone']){
  if(mode==='clone')assert(db.aborted,'A partially queued write must be aborted');
 }
 const db=fakeDB('ok');assert.equal(await persistLearningState(db,snapshot),true);
-assert.deepEqual(db.saved.records,records);
+assert.deepEqual(db.saved.records,records);assert.equal(db.saved['progress-version'],2);assert.equal(db.saved['daily-v2'],null);
 assert.deepEqual(db.saved['lesson-state-v2'],{version:1,session:null,pending:[]});
 console.log('PASS: replacement snapshots commit atomically; missing/closed storage, quota and synchronous write errors preserve previous data.');
