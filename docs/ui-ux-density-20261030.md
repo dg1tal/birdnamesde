@@ -1,5 +1,7 @@
 # UI/UX follow-up checklist · 2026-10-30
 
+This is a dated change log; later entries supersede earlier setup layouts and labels. See [README](../README.md) for current behavior. UI labels are quoted from the English interface.
+
 Scope: German and English Lookup and Learn views, including 360/390 px mobile layouts. No species, taxonomy, attribution or learning-data format changes.
 
 ## Review suggestions
@@ -12,10 +14,10 @@ Scope: German and English Lookup and Learn views, including 360/390 px mobile la
 - [x] Remove the duplicate setup heading, simplify the name-language frame and eliminate reserved two-line label space.
 - [x] Hide dependent regional fields when no country is selected.
 - [x] Move detailed regional methodology/count explanations into a disclosure; retain unavailable/stale warnings visibly.
-- [x] Use “Lernstufe / Vocabulary level” consistently for the level controls.
-- [x] Label the learning-progress filter “Nach Lernstand filtern / Progress filter”.
-- [x] Use “Texteingabe / Text input” alongside Flashcards and Multiple Choice.
-- [x] Label the regional list selector “Artennachweise / Species records”.
+- [x] Use “Vocabulary level” (subsequently replaced by “Species packages” in Learn and removed from Lookup) consistently for the level controls.
+- [x] Label the learning-progress filter “Progress filter”.
+- [x] Use “Text input” alongside Flashcards and Multiple Choice.
+- [x] Label the regional list selector “Species records”.
 - [x] Name the parent explicitly in whole-region choices and remove stacked country parentheses.
 - [x] Retain all supported names, image credits, visible UI-language/theme choices and large answer buttons; slightly tighten name-card spacing.
 
@@ -121,18 +123,25 @@ Release gate: GitHub Pages workflow must succeed for the release commit, followe
 WAVE scope clarification: inspection of the final report frame showed zero script elements and an unloaded app stylesheet (`link.sheet` was null). Its zero contrast findings therefore do not evaluate the actual application palette. The static heading/fragment checks remain useful; interactive behavior and styled contrast require evaluation of the loaded application, for example with the WAVE browser extension. The initial descriptions and noscript guidance do not make the application functional without JavaScript.
 
 
-## Nachschlagen: Regionsfilter statt Lernstufe (2026-11-02)
+## Lookup: region filter replaces vocabulary level · 2026-11-02
 
-- Lernstufenfilter aus der Nachschlagefunktion entfernt; alte gespeicherte Stufen werden verworfen.
-- Optionaler Regionsfilter verwendet dieselbe Länder-/Regions-/Lokalregionshierarchie wie Lernen. Standard ist „Alle Regionen“; eine gewählte Region verwendet zunächst alle Nachweise. Optional sind die letzten 30 Tage wählbar.
-- Nachschlageregion wird unabhängig von der Lernregion gespeichert. Sichtbarer Hinweis erklärt eBird-Nachweise, Zeitraum und historische Seltenheiten.
-- Aktiver Regionschip und passende Hilfe bei null Treffern entfernen nur die Region und erhalten die Suche. „Alles zurücksetzen“ setzt Suche, Gruppe und Region zurück und den Nachweiszeitraum auf alle Nachweise.
-- Geprüft im Browser: Länderwechsel, England/Cornwall, Bayern, beide Zeiträume, Suche ohne Treffer und gezielte Erholung, Tastaturfolge, Neuladen, Unabhängigkeit der Lernregion sowie 360-Pixel-Layout ohne horizontalen Überlauf. Bestehende automatisierte Tests ergänzt um die Übernahme alter Einstellungen und unabhängig gespeicherte Regionen.
+- Removed the vocabulary-level filter from Lookup; old stored levels are discarded.
+- The optional region filter uses the same country/region/local-region hierarchy as Learn. The default is “All regions”; selecting a region initially uses all records, with the last 30 days available as an option.
+- Lookup remembers its region independently of Learn. Visible guidance explains eBird records, time periods and historical rarities.
+- The active region chip and relevant empty-result action remove only the region, preserving the query. “Clear all” clears the query, group and region and restores all-time records.
+- Browser verification covered country changes, England/Cornwall, Bavaria, both periods, empty search and targeted recovery, keyboard order, reload, independence from the learning region and a 360 px layout without horizontal overflow. Automated tests cover legacy settings migration and independent region storage.
 
+## Species packages replace vocabulary levels · 2026-11-02
 
-## Lernstufen verständlich als Artenpakete (2026-11-02)
+- The three editorial sets are now called “Getting started”, “Building on the basics” and “Exploring further”, under “Species packages”.
+- Descriptions use actual example species, dynamic totals and complete alphabetical lists. Each species belongs to exactly one package. Packages can be combined and are not cumulative; other species filters narrow the selection further. Full lists and totals explicitly precede filtering.
+- Numeric IDs, species assignments, saved selections and progress remain intact. The labels apply to setup summaries, selection help, lookup cards and data information in both interfaces; lists identify their name language.
+- Verified individual and combined packages (106, 103 and 209 species), empty selection, complete-list disclosures, description references, keyboard order and English copy. No horizontal overflow at 360 px, including the expanded 104-species list. Automated checks cover complete lists, stable selection IDs, both languages and HTML escaping.
 
-- „Grundwortschatz“, „Erweitert“ und „Spezialwortschatz“ heißen nun „Einstieg“, „Ausbau“ und „Vertiefung“, zusammengefasst unter „Artenpakete“.
-- Beschreibungen mit tatsächlichen Beispielarten, dynamischen Gesamtzahlen und vollständigen alphabetischen Artenlisten erklären die drei redaktionellen Mengen. Jede Art gehört nur einem Paket an. Die Auswahl ist kombinierbar und nicht kumulativ; andere Artenfilter grenzen weiter ein. Die Gesamtlisten und Zahlen sind ausdrücklich ungefiltert.
-- Numerische IDs, Artenzuordnungen, bisherige Auswahl und Lernstände bleiben erhalten. Neue Begriffe gelten ebenso für Startzusammenfassung, Auswahlhilfe, Nachschlagekarten und Dateninformation. Deutsch und Englisch werden unterstützt; Listen tragen ihre Namenssprache.
-- Geprüft: einzelne und kombinierte Pakete (106, 103, 209 Arten), leere Auswahl, Aufklappen der vollständigen Listen, Beschreibungsreferenzen, Tastaturfolge und englische Texte. Bei 360 Pixeln Breite kein horizontaler Überlauf, auch mit offener 104-Arten-Liste. Automatisierte Prüfung der vollständigen Listen, stabilen Auswahl-IDs, beider Sprachen und HTML-Escaping.
+## Regional selection and frequency previews · 2026-11-02
+
+- Learning setup places country/region and species selection before the round controls. Regional selection replaces global packages; further filters and learning-target/session settings remain available in disclosures.
+- A live preview offers all records, seasonal selection and recent records, with selectable modes, counts, explanations and expandable species lists. Counts reflect the other active filters.
+- Seasonal selection defaults to “Frequent” (at least 10%) and “Medium” (1% to less than 10%); “Rare” (above 0% but less than 1%) is independently selectable. Compact checkbox rows retain counts, explanations and expandable species lists.
+- Current notable reports are automatically included, with no opt-out control. The preview separates base species and current additions and explains validity or missing fresh data. Insufficient seasonal samples visibly fall back to all regional records.
+- See [README](../README.md#hybrid-regional-learning) for source coverage, thresholds, expiry and reproduction. These behavior notes were checked against the current source; earlier browser-verification results above remain tied to their dated changes.

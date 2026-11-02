@@ -1,5 +1,7 @@
 # Dutch learning and Netherlands regions — 29 October 2026
 
+Current-status note · 2 November 2026: The current name registry also supports scientific names. Germany, the Netherlands and the United Kingdom are supported regional countries, including UK local regions. UI settings and saved lessons now share storage across interfaces, and interface switching preserves the active lesson; the per-interface behavior below records the original release. See [README](../README.md) for current behavior.
+
 The interface language is separated from question and answer languages. German, English and Dutch can be combined in both interfaces. The shared name-language registry supplies labels, primary names and accepted answers; new languages need an entry plus a sourced JSON overlay. Dutch names are literal workbook entries, not automatic translations.
 
 ## Data
@@ -20,4 +22,4 @@ Name-language coverage is shown before starting. Same-language name quizzes are 
 
 Automated checks cover all 313 Dutch entries against the original records, registered language pairs, Dutch search and acceptance, accents/Unicode normalization, empty/unsupported answers, missing translations, independent target records, legacy/Dutch import and lesson recovery, region membership and API-output sanitization.
 
-Local browser checks: German UI Deutsch → Niederländisch text answer (Gartengrasmücke → Tuinfluiter), English UI English → Dutch flashcard (Green-winged Teal → Wintertaling), Dutch → English multiple choice (Putter → European Goldfinch), Dutch search (Boomklever → Kleiber), Dutch statistics and recovery of an old English → German graded lesson. Live Netherlands data and both interfaces are checked after deployment.
+Local browser checks: German UI German → Dutch text answer (Gartengrasmücke → Tuinfluiter), English UI English → Dutch flashcard (Green-winged Teal → Wintertaling), Dutch → English multiple choice (Putter → European Goldfinch), Dutch search (Boomklever → Kleiber), Dutch statistics and recovery of an old English → German graded lesson. Live Netherlands data and both interfaces are checked after deployment.

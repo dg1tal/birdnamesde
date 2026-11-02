@@ -1,6 +1,8 @@
 # BirdNames DE
 
-Public, buildless, browser-local bird-name dictionary and spaced-repetition trainer. No runtime dependencies, analytics, server database, or authentication. Hosting identity: `.openai/hosting.json`.
+Public, buildless, browser-local bird-name dictionary and spaced-repetition trainer. No runtime dependencies, analytics, server database, or authentication. The GitHub Pages workflow publishes `dist/`; `.openai/hosting.json` retains the separate Sites hosting identity.
+
+Documentation reviewed against the repository on 2 November 2026. UI labels below use the English interface. Dated reports in `docs/` retain their release-specific verification results; later changes are noted where they supersede earlier behavior.
 
 ## License and third-party material
 
@@ -19,26 +21,25 @@ The photos and illustrations in `dist/images/` retain their individual licenses 
 
 ## Checks
 
-```
-python scripts/finalize-data.py
-python scripts/validate-data.py
-node scripts/test.mjs
-node scripts/test-study-state.mjs
-node scripts/test-progress-copy.mjs
-node scripts/test-backup.mjs
-node scripts/test-accessibility.mjs
-node scripts/test-study-viewport.mjs
-node scripts/test-photo-cache.mjs
-node --check dist/app.js
+```sh
+npm test
+for test in scripts/test-*.mjs; do node "$test" || exit 1; done
+python3 -m unittest discover -s scripts -p 'test_*.py'
+python3 scripts/validate-data.py
+node scripts/validate-photos.mjs
+for file in dist/*.js; do node --check "$file" || exit 1; done
+git diff --check
 ```
 
-No build step required. Serve `dist/` as static assets; publish using the Sites workflow. Original creation had no visual browser QA. The Wikimedia update was checked in Chrome preview: inline photo and license links, no photo before flashcard grading, photo after grading, and eBird fallback after a missing-image response. No physical iOS-device test was performed.
+No build step is required. Serve `dist/` as static assets, for example with `python3 -m http.server 8000 --directory dist`. The Pages workflow runs the deployment checks and refreshes regional/current data before uploading this directory. `scripts/finalize-data.py` regenerates data and is not a read-only check; run it only when intentionally updating the dataset.
+
+Browser verification and its limits are recorded in the dated reports below. Recent checks include responsive layouts, keyboard navigation, backup/restore and lesson recovery. Physical mobile keyboards and actual screenreader speech remain unverified.
 
 ## GitHub Pages
 
 The workflow in `.github/workflows/pages.yml` deploys `dist/` from `main` without a build step. In the GitHub repository, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. The app's data, scripts, styles, photos and license links use relative paths, so the repository URL path works without a custom base URL. Keep the existing Sites publication independent of this workflow.
 
-Learning progress is stored per browser origin. Before switching domains, open **Statistik → Lernstand sichern und verwalten** on the existing site and export the JSON backup. On GitHub Pages, open the same section and import that file. Import replaces the current progress on the Pages origin after confirmation, so export any progress made there first. Browser settings and a paused lesson are not part of the progress export.
+Learning progress is stored per browser origin. Before switching domains, open **Statistics → Back up and manage progress** on the existing site and export the JSON backup. On GitHub Pages, open the same section and import that file. Import replaces the current progress on the Pages origin after confirmation, so export any progress made there first. Browser settings and a paused lesson are not part of the progress export.
 
 ## Data provenance and reproduction
 
@@ -50,7 +51,7 @@ DDA report: https://www.dda-web.de/downloads/publications/statusreports/vid_best
 
 Official common-name quick codes are literal `com_quick_codes` entries. When that field is empty, the official `banding_code` entry supplies the eBird entry shortcut; these cases are explicitly marked in the UI and validation report. Scientific quick codes are excluded. Multiple common-name variants and code collisions are intentional; no code is generated from a name. The Blackbird primary common-name quick code is EUBL, with the official alternate COBL accepted. Code groups and aliases must stay attached to the official species ID.
 
-Species packages (stored as the existing numeric learning levels) are editorial sets, independent of learning progress or difficulty: Einstieg / Getting started (106 species), Ausbau / Building on the basics (103), Vertiefung / Exploring further (104). Each species belongs to exactly one package; packages can be combined. The learning setup explains their scope and provides complete alphabetic lists before other filters. Shared labels and controls live in `dist/species-packages.js`. Learning schedules are separate per species ID and target (`en`/`code`). Correct unhinted intervals: 1, 3, 7, 14, 30, 60 days; wrong or hinted: ten minutes and streak reset. Three correct unhinted answers in a row mark a target as mastered. Failed session questions are retried after up to three intervening questions, at most twice per item. Session repetitions are included in accuracy statistics.
+Species packages (stored as the existing numeric learning levels) are editorial sets, independent of learning progress or difficulty: Getting started (106 species), Building on the basics (103), Exploring further (104). Each species belongs to exactly one package; packages can be combined. The learning setup explains their scope and provides complete alphabetic lists before other filters. Shared labels and controls live in `dist/species-packages.js`. Learning schedules are separate per species ID and target (`de`/`en`/`nl`/`sci`/`code`). Correct unhinted intervals: 1, 3, 7, 14, 30, 60 days; wrong or hinted: ten minutes and streak reset. Three correct unhinted answers in a row mark a target as mastered. Failed session questions are retried after up to three intervening questions, at most twice per item. Session repetitions are included in accuracy statistics.
 
 ## Limits
 
@@ -58,7 +59,7 @@ No account sync or promised offline mode. Species photos are local static assets
 
 ## Wikimedia Commons photos
 
-`dist/photos.json` maps every species ID to locally served Wikimedia Commons photos in `dist/images/`. Six additional historical scientific illustrations are clearly labeled; converted, cropped or PDF-rendered assets record their transformation and original legend. Existing photos remain unchanged. A primary record can contain `additional` records, with `sexes` and German `label` fields for a photographed male, female or pair. Each image retains its own author, optional required attribution, image title, Commons description URL, license and license URL, download URL, source SHA-1 and local SHA-256. The browser never contacts Wikimedia to display a photo. It shows source and license links beside each image; full titles and optional attribution are available under Bildnachweis. Failed image loads provide the eBird species gallery. Learning photos appear only after grading, alongside a permanent eBird species link. All images are prepared by the existing lesson cache. `data/photo-sex-review.json` records the scope and source evidence of the sex review; size alone cannot be compared using these photos.
+`dist/photos.json` maps every species ID to locally served Wikimedia Commons photos in `dist/images/`. Six additional historical scientific illustrations are clearly labeled; converted, cropped or PDF-rendered assets record their transformation and original legend. Existing photos remain unchanged. A primary record can contain `additional` records, with `sexes` and German `label` fields for a photographed male, female or pair. Each image retains its own author, optional required attribution, image title, Commons description URL, license and license URL, download URL, source SHA-1 and local SHA-256. The browser never contacts Wikimedia to display a photo. It shows source and license links beside each image; full titles and optional attribution are available under Image credit. Failed image loads provide the eBird species gallery. Learning photos appear only after grading, alongside a permanent eBird species link. Lesson images are prepared by the existing lesson cache when pictures are enabled. `data/photo-sex-review.json` records the scope and source evidence of the sex review; size alone cannot be compared using these photos.
 
 Images were selected from the corresponding English Wikipedia species articles, with scientific-name redirects and Wikidata P225 taxon names checked. Four taxonomic exceptions are documented in `data/commons-taxon-exceptions.json`; the Thrush Nightingale uses an alternative Wikidata P18 photo under CC BY-SA 4.0. `data/commons-photo-sources.json` retains the retrieved file metadata, including descriptions and licensing information. Image licenses apply separately to each image.
 
@@ -72,7 +73,7 @@ Run `node scripts/test-photo-cache.mjs` for network deduplication, decoded-objec
 
 ## UI/UX update
 
-See `docs/ui-ux-update-20261021.md` for the approved UX scope, storage compatibility and browser verification. Existing learning records are preserved; only new UI settings and a resumable lesson state are added.
+See `docs/ui-ux-density-20261030.md` for follow-ups through 2 November, including lookup regions, species packages and regional previews. See `docs/ui-ux-update-20261021.md` for the approved UX scope, storage compatibility and browser verification. Existing learning records are preserved; only new UI settings and a resumable lesson state are added.
 
 ## German alternative and historical names
 
@@ -98,23 +99,23 @@ Checks: `node scripts/test-multilingual.mjs`, alongside the existing answer, ali
 
 The generated `dist/regions.json` contains public region labels, matched species IDs, total returned taxon counts and per-list fetch timestamps. It is generated during deployment, not committed. The browser never sends a request to eBird. The updater loads the previous public Pages snapshot without credentials and retains successful lists independently if a refresh fails; a failed region discovery or completely unusable first snapshot stops deployment. Credentials are sent only to the fixed HTTPS eBird API origin, and redirects are rejected. Response bodies and credential-bearing exceptions are not logged. Only allowlisted fields can be copied from the previous snapshot. A list older than three days is visibly marked in the UI.
 
-Region and list mode persist with the shared study settings. Region membership intersects vocabulary, group and progress filters. Missing or empty selected lists produce no eligible questions. Regional multiple-choice distractors also come from the selected regional snapshot, and paused lessons retain their original regional membership. Learning records and export format are unchanged.
+Lookup has an independently remembered optional region filter with all-time or recent-30-day records; its former vocabulary-level filter has been removed. Learning region and list mode persist with the shared study settings. Region membership intersects species-group, name-availability and progress filters; global packages apply only without a region. Missing or empty selected lists produce no eligible questions. Regional multiple-choice distractors also come from the selected regional snapshot, and paused lessons retain their original regional membership. Learning records and export format are unchanged.
 
 Checks: `python3 -m unittest discover -s scripts -p 'test_regions.py'` and `node scripts/test-regions.mjs`. API reference: https://documenter.getpostman.com/view/664302/S1ENwy59?version=latest .
 
-UK uses the official eBird country code `GB`. The country selector offers “United Kingdom (UK)” / “Vereinigtes Königreich (UK)”, with whole-country and constituent-country lists. German subregion labels are declared in the country configuration; their keys are verified against the discovered official eBird region codes. Both recent and all-time lists participate in the existing daily refresh and last-good-snapshot fallback. Region coverage remains limited to the existing learning catalogue.
+UK uses the official eBird country code `GB`. The country selector offers “United Kingdom (UK)”, with whole-country and constituent-country lists. German subregion labels are declared in the country configuration; their keys are verified against the discovered official eBird region codes. Both recent and all-time lists participate in the existing daily refresh and last-good-snapshot fallback. Region coverage remains limited to the existing learning catalogue.
 
 ## Fine UK regional filters
 
 UK now uses the eBird hierarchy country → constituent country → local (`subnational2`) region. The updater discovers the available local regions under each UK constituent country from eBird rather than maintaining invented boundaries. Selecting a country or constituent country resets the narrower selection; stored local selections are restored on reload. Unavailable local lists remain unavailable instead of silently broadening the quiz. Existing country/state/province selections and paused lessons remain compatible.
 
-`includeLocalRegions` in the country configuration enables the additional discovery level. Three bounded network workers share a global 0.5-second request-start interval (at most two starts per second), and individual failed lists retain the previous valid snapshot. The workflow timeout is 15 minutes to accommodate the larger first refresh. Only matched species IDs, counts, timestamps and public hierarchy metadata are published; no coordinates, checklist records or credentials are included. The app still uses the 313-species catalogue and the same recent/all-time modes.
+`includeLocalRegions` in the country configuration enables the additional discovery level. Three bounded network workers share a global 0.5-second request-start interval (at most two starts per second), and individual failed lists retain the previous valid snapshot. The workflow timeout is 20 minutes to accommodate the larger first refresh. Only matched species IDs, counts, timestamps and public hierarchy metadata are published; no coordinates, checklist records or credentials are included. The app still uses the 313-species catalogue; recent and all-time records also support the hybrid seasonal selection described below.
 
 ### Shared learning setup
 
 The interface switch translates the current learning context. Settings use `birdnames-ui-shared-v1`; the first visit adopts the current interface's legacy settings, falling back to the other interface. Old preference keys remain as recovery copies. IndexedDB `lesson-state-v2` shares the current lesson and preserves a second legacy paused lesson until the first is finished. Learning records and the version 1 JSON export/import format are unchanged. Active questions, drafts and feedback survive interface switches; ordinary reloads still pause the lesson.
 
-The ready-to-start summary and start button precede two disclosures for learning target/session configuration and species filters. A visible summary includes active region, list mode, vocabulary, groups, study scope and pictures. Code-only learning hides the unused answer-language/swap controls and explains separate code progress. `node scripts/test-learning-settings.mjs` checks migration and selection messages.
+Learning setup begins with country/region and species selection. Without a region, it offers the three global species packages. With a region, a live preview compares all records, seasonal selection and recent records, with counts, species lists and automatic current additions. Seasonal frequency choices show their counts and expandable species lists. Further filters and learning-target/session controls use disclosures before the start button. The summary includes active region, list mode or packages, groups, study scope and pictures. Code-only learning hides the unused answer-language/swap controls and explains separate code progress. `node scripts/test-learning-settings.mjs` checks migration and selection messages.
 
 English editorial metadata is centralized in `dist/editorial-en.js`. `node scripts/test-editorial-translations.mjs` checks coverage of every species status/note, German-name explanation/region and photo label/comparison/transformation in the current dataset. Names and original source titles remain unchanged.
 
@@ -152,7 +153,7 @@ WAVE scope clarification: inspection of the final report frame showed zero scrip
 
 ## Hybrid regional learning
 
-Regional learning defaults to the experimental seasonal frequency groups “Häufig” (≥10%) and “Mittel” (1–<10%). “Selten” (>0–<1%) can be added or selected independently. Rates are weighted complete-checklist reporting proportions for the selected region and season, not abundance or difficulty. Zero/missing seasonal reports do not form a rare group. Current notable records are always included automatically in regional learning; the former checkbox and opt-out setting have been removed. Global species packages do not restrict regional rounds; language, species-group and progress filters still apply. See `dist/seasonal-data.html` for user-facing methods, limitations and source terms.
+Regional learning defaults to the experimental seasonal frequency groups “Frequent” (≥10%) and “Medium” (1–<10%). “Rare” (>0–<1%) can be added or selected independently. Rates are weighted complete-checklist reporting proportions for the selected region and season, not abundance or difficulty. Zero/missing seasonal reports do not form a rare group. Current notable records are always included automatically in regional learning; the former checkbox and opt-out setting have been removed. Global species packages do not restrict regional rounds; language, species-group and progress filters still apply. See `dist/seasonal-data.html` for user-facing methods, limitations and source terms.
 
 `dist/seasonal-species.json` contains experimental derived species sets from one-off 2021–2025 eBird histogram exports for all 16 German states and DE-BY-GAP. Fifteen states support all four seasons. Saarland falls back in every season; DE-BY-GAP supports spring/summer only. For each season, sum reporting frequency × checklist count over its twelve four-per-month bins, then divide by their total checklist count. Assign positive-rate catalog species to the three mutually exclusive groups. The legacy `ids` array retains the ≥1% default set for older clients; new clients use `groups` and a persisted `frequencyGroups` selection. Accept the seasonal set only with ≥300 checklists overall and ≥3 separate years with ≥100 checklists in that season. December, January and February belong to the same calendar-year sample. The aggregate sets are static and must be regenerated from approved source data when expanding coverage; do not automate authenticated histogram downloads by exporting browser cookies. Regions/seasons without sufficient data visibly fall back to the regional occurrence list. The selection threshold is provisional and is not a difficulty classification or a guarantee of detectability. Raw exports are not redistributed.
 

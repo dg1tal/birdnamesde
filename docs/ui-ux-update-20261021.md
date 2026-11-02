@@ -1,5 +1,7 @@
 # UI/UX update — 21 October 2026
 
+Current-status note · 2 November 2026: Later changes share UI settings through `birdnames-ui-shared-v1` and saved lessons through `lesson-state-v2`; interface switching preserves active questions, drafts and feedback. The storage description below records the original release. See [README](../README.md) for current behavior.
+
 ## Scope
 
 Implements the approved three-stage review on the existing BirdNames DE Site. Species data, names, codes, photos and photo attribution records are unchanged.
