@@ -395,3 +395,22 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 #app-start-status{display:flex;align-items:center;justify-content:center;gap:12px;min-height:180px;margin:8vh 0;color:var(--muted)}
 #app-start-status::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--accent);opacity:.5;flex:none}
 @media (scripting:none){#app-start-status{display:none}}
+
+.regional-preview{margin:0 0 20px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.regional-preview h2{font-size:19px;margin-bottom:8px}
+.filter-preview{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+.filter-preview th,.filter-preview td{padding:12px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.filter-preview thead th{font-size:12px;color:var(--muted)}
+.filter-preview tbody th{font-weight:400}
+.filter-preview td{font-size:20px;font-weight:700;white-space:nowrap;text-align:right}
+.filter-preview tr.selected{background:var(--soft)}
+.filter-preview .check-row{display:flex;gap:10px;align-items:center;font-weight:650;cursor:pointer;min-height:44px}
+.filter-preview input{flex:none;margin:0;width:20px;height:20px;min-height:20px;padding:0;accent-color:var(--accent)}
+.filter-preview .form-note{margin:4px 0 0 30px}
+.preview-result{font-weight:650;margin-bottom:0}
+@media(max-width:480px){.regional-preview{padding:12px 8px}.filter-preview th,.filter-preview td{padding:10px 6px}.filter-preview .form-note{margin-left:0}}
+
+.preview-species{margin:6px 0 0 30px;font-size:13px}.preview-species summary{cursor:pointer;min-height:44px;padding:10px 0;color:var(--accent)}.preview-species p{max-height:180px;overflow:auto;overflow-wrap:anywhere;font-weight:400}
+@media(max-width:480px){.preview-species{margin-left:0}}
+.filter-preview thead th:last-child,.filter-preview td{width:90px;min-width:90px}.filter-preview thead th:last-child{overflow-wrap:normal;word-break:normal;text-align:right}
+.preview-species p:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
