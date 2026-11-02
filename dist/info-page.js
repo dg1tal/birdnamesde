@@ -1,4 +1,4 @@
-import {SPECIES_PACKAGES} from './species-packages.js?v=20261102-packages1';
+import {SPECIES_PACKAGES} from './species-packages.js?v=20261102-selection1';
 import {NAME_LANGUAGES,languageLabel} from './name-languages.js?v=20261101-scientific1';
 
 export const INFO_REVIEWED='2026-11-02';

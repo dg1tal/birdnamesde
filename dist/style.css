@@ -462,3 +462,13 @@ body.studying .question-selection-context{display:grid;gap:4px;font-size:13px;co
 .information-page :target{scroll-margin-top:20px}
 .introduction{max-width:760px;margin:0 auto}.introduction .answer-main{font-size:1.8rem}
 @media(max-width:600px){.daily-panel .actions,.introduction .actions{display:flex;flex-direction:column;align-items:stretch}.daily-panel button{white-space:normal}.studying .study-actions{gap:8px}.studying .study-actions button{min-width:0;white-space:normal}}
+
+.shared-learning{margin-bottom:16px}.shared-learning>p{margin:6px 0}.shared-learning>h2{margin-bottom:12px}
+#shared-settings>summary{color:var(--accent);font-weight:650;min-height:44px;padding:10px 0}
+#shared-settings[open]>summary{margin-bottom:12px}
+#shared-settings .learning-selection{margin-top:18px}
+#free-setup{margin-top:16px}#free-setup>summary{padding:0;min-height:44px;display:list-item;align-content:center}
+#free-setup[open]>summary{margin-bottom:12px}
+#free-setup #lesson-options{margin:16px 0}.migration-explanation{font-size:14px;margin-top:14px}
+.migration-explanation>summary{min-height:44px;padding:10px 0;color:var(--muted)}
+.daily-panel .actions{justify-content:flex-start}.daily-panel .form-note{font-size:14px}
