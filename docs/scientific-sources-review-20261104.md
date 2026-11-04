@@ -1,0 +1,27 @@
+# Learning-method source review · 4 November 2026
+
+Reviewed all seven references against primary publication records, abstracts and, where available, relevant full-text sections. Titles, author groups, publication years and identifiers match the cited publications. This is an evidence-to-copy review, not an independent systematic review or an evaluation of BirdNames DE’s effectiveness.
+
+| Source | Evidence and scope checked | Result for app copy |
+| --- | --- | --- |
+| [Yang et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/33683913/), DOI 10.1037/bul0000309 | PubMed’s indexed abstract: 222 classroom studies, 48,478 learners; average achievement benefit, with moderators including comparison condition, test format and feedback. | General retrieval-practice rationale supported; no app-specific effectiveness estimate. |
+| [Latimier, Peyre & Ramus (2021)](https://link.springer.com/article/10.1007/s10648-020-09572-8), DOI 10.1007/s10648-020-09572-8 | Publisher abstract: 29 studies; spaced retrieval outperformed massed retrieval. No significant overall advantage of expanding over uniform intervals. Online 2020, journal volume 2021. | Explicitly distinguish evidence for spacing from validation of the app’s expanding schedule. |
+| [Rawson & Dunlosky (2022)](https://www.psychologicalscience.org/journals/current-directions/09637214221100484/), DOI 10.1177/09637214221100484 | Society abstract and publisher-indexed full-text discussion: successful retrieval to criterion, repeated in spaced sessions; limits to generalisation across materials/populations. | Supports successive relearning, not three app confirmations, a 24-hour cutoff or secure-status labels. |
+| [Butler & Roediger (2008)](https://pubmed.ncbi.nlm.nih.gov/18491500/), DOI 10.3758/mc.36.3.604 | PubMed abstract: passage learning followed by MCQs; immediate/delayed feedback improved later cued recall and reduced lure intrusions versus no feedback. | Place citation beside the feedback finding, not beside the app’s retry count or hint rules. |
+| [van den Broek et al. (2023)](https://research-portal.uu.nl/en/publications/optimizing-multiple-choice-questions-for-retrieval-practice-delay/), DOI 10.1037/edu0000810 | University publication record/abstract: fixed four-second delay; improved vocabulary retention after several days in three of four experiments. | Clarify that the app’s learner-paced reveal differs from the tested fixed delay. |
+| [Brom et al. (2026)](https://research-portal.uu.nl/en/publications/retrieval-practice-in-the-wild-comparing-different-multiple-choic/), DOI 10.1002/acp.70217 | Publisher full text and university abstract: children’s gaming website; learner-paced reveal versus immediate display or fixed six-second delay, all with feedback. Slightly greater quiz completion; no difference detected in short-term learning gains. | Distinguish completion/persistence from retention; do not infer a long-term benefit or equivalence of formats. The publication year agrees across records; publisher and repository differ on the exact publication date, which the app does not quote. |
+| [Ruitenburg et al. (2026)](https://link.springer.com/article/10.1007/s10648-026-10225-5), DOI 10.1007/s10648-026-10225-5 | Publisher abstract: 53 primary/secondary-school studies, 7,303 participants; average benefits for retrieval, distributed and interleaved practice, moderated by conditions. Published 29 October 2026. | General contextual evidence only; not a direct test of bird-name training, the app’s mixed-target selection or its scheduling thresholds. |
+
+## Link verification
+
+No identifier/title mismatch or confirmed missing publication was found. DOI redirects identify the expected publishers. Direct automated requests to Sage, APA and Wiley returned HTTP 403; this is an access restriction, not evidence of a dead DOI. PubMed sometimes returned HTTP 203 with a reduced/challenge document; indexed abstracts remained available. Springer’s DOI redirects sometimes added a cookie-related query parameter; the canonical publisher article pages were readable.
+
+For Rawson, van den Broek and Brom, the app now links the title to the readable society/university publication record and retains the DOI as a separate link. The records provide the abstract and a publisher/full-text route; unrestricted full-text access is not promised. Yang and Butler retain their PubMed links. The two Springer DOIs remain unchanged.
+
+Primary records were read through web retrieval/search. Direct HTTP status checks were also made; automated access restrictions mean this review cannot guarantee that every publisher will serve every visitor or browser. Full-text PDF downloads were not required for claims already explicitly supported by the primary abstracts; the Utrecht PDF route returned 403 during this review.
+
+## Changes and verification
+
+Both interface languages now describe study-specific findings and limits. Citations for spacing and feedback precede the app-specific rules. Round sizes, daily limits, minimum gaps, confirmation counts, retries and the interval sequence are explicitly identified as product choices, not thresholds validated by these studies. Secure status is described as an internal progress label, not guaranteed long-term retention. The source-review date is now 4 November 2026.
+
+The learning-method rendering/reference test and relevant information, learning-model and accessibility regression checks verify the edited route. No learning, grading or storage rules were changed.
