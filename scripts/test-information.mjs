@@ -30,7 +30,7 @@ const translated=en.replace(/<ul data-name-content>[\s\S]*?<\/ul>/,'');
 assert(!/Namensmatrix|Taxonomie-Downloads|Brutvögel|Lernstand|Datenschutz|Oberflächensprache|Wiederholung|Bildnachweise/.test(translated));
 assert(en.includes('Original source titles'));assert(en.includes('GitHub Actions secret'));assert(en.includes('not by your browser'));assert(en.includes('all supported answer languages'));assert(!en.includes('both learning directions'));assert(!en.includes('saves and pauses'));
 assert(en.includes('1 local eBird region'));assert(en.includes('7 areas including country-wide lists; 14 available species lists.'));
-assert(en.includes('29/10/2026')&&en.includes('2 November 2026'));
+assert(en.includes('29/10/2026')&&en.includes('4 November 2026'));
 const missing=renderInformation({...args,english:true,regions:null});assert(missing.includes('Regional data is currently unavailable'));assert(!missing.includes('Invalid Date'));
 const partial=informationFacts({...args,regions:{...regions,regions:[{...entries[0],all:null,recent:list(stamp)}]}});assert.equal(partial.listCount,1);
 const changed=renderInformation({...args,english:true,birds:[birds[0]],photos:{},regions:null});assert(changed.includes('<strong>1 species</strong>'));assert(changed.includes('0 photographs and 0 historical'));
