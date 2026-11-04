@@ -1,6 +1,6 @@
 # Dutch learning and Netherlands regions — 29 October 2026
 
-Current-status note · 2 November 2026: The current name registry also supports scientific names. Germany, the Netherlands and the United Kingdom are supported regional countries, including UK local regions. UI settings and saved lessons now share storage across interfaces, and interface switching preserves the active lesson; the per-interface behavior below records the original release. See [README](../README.md) for current behavior.
+Current-status note · reviewed 4 November 2026: The current name registry also supports scientific names. Germany, the Netherlands and the United Kingdom are supported regional countries, including UK local regions. UI settings and saved lessons now share storage across interfaces, and interface switching preserves the active lesson; the per-interface behavior below records the original release. See [README](../README.md) for current behavior. Current learning evidence is separated by direction and method family; exports now use version 2, with version-1 imports still accepted. The learning/storage claims below describe the dated release.
 
 The interface language is separated from question and answer languages. German, English and Dutch can be combined in both interfaces. The shared name-language registry supplies labels, primary names and accepted answers; new languages need an entry plus a sourced JSON overlay. Dutch names are literal workbook entries, not automatic translations.
 
