@@ -6,7 +6,7 @@ const app=readFileSync('dist/app.js','utf8'),shell=readFileSync('dist/index.html
 assert(shell.includes('id="lernmethode"'));assert(shell.includes('href="#lernmethode"'));assert(app.includes('lernmethode:learningMethod'));
 for(const en of [false,true]){
  const html=renderLearningMethod(en);assert(html.includes(en?'<h1>Learning method</h1>':'<h1>Lernmethode</h1>'));
- for(const [,title,url]of METHOD_SOURCES){assert(html.includes(url));assert(html.includes(title.replaceAll('&','&amp;').replaceAll("'",'&#39;')));}
+ for(const [,title,url,,,doi]of METHOD_SOURCES){if(doi)assert(html.includes('href="'+doi+'"'));assert(html.includes(url));assert(html.includes(title.replaceAll('&','&amp;').replaceAll("'",'&#39;')));}
  assert(html.includes(String(RULES.round)));assert(html.includes('href="#lernen"'));
  assert(html.includes(en?'not a scientifically established optimum':'kein wissenschaftlich ermitteltes Optimum'));
  assert(html.includes(en?'no difference in measured short-term learning gains':'keinen Unterschied im gemessenen kurzfristigen Lernzuwachs'));
