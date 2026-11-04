@@ -1,6 +1,6 @@
 # UI/UX follow-up checklist · 2026-10-30
 
-This is a dated change log; later entries supersede earlier setup layouts and labels. See [README](../README.md) for current behavior. UI labels are quoted from the English interface.
+This is a dated change log; later entries supersede earlier setup layouts, labels, scheduling and backup rules. The current-status follow-up below was reviewed on 4 November 2026. See [README](../README.md) for current behavior. UI labels are quoted from the English interface.
 
 Scope: German and English Lookup and Learn views, including 360/390 px mobile layouts. No species, taxonomy, attribution or learning-data format changes.
 
@@ -145,3 +145,15 @@ WAVE scope clarification: inspection of the final report frame showed zero scrip
 - Seasonal selection defaults to “Frequent” (at least 10%) and “Medium” (1% to less than 10%); “Rare” (above 0% but less than 1%) is independently selectable. Compact checkbox rows retain counts, explanations and expandable species lists.
 - Current notable reports are automatically included, with no opt-out control. The preview separates base species and current additions and explains validity or missing fresh data. Insufficient seasonal samples visibly fall back to all regional records.
 - See [README](../README.md#hybrid-regional-learning) for source coverage, thresholds, expiry and reproduction. These behavior notes were checked against the current source; earlier browser-verification results above remain tied to their dated changes.
+
+## Current-status follow-up · reviewed 2026-11-04
+
+- Daily rounds now select up to ten targets, due reviews first, and introduce up to three new direction-specific names/codes per local calendar day across languages and methods. Species settings govern introductions; due reviews of started targets remain eligible beyond those filters. Shared settings apply to daily and optional rounds; custom question-count/progress filters apply only to custom rounds.
+- New pairs receive introduction cards before practice. Cards start with concise memorisation guidance, show the full answer with its code badge and optionally show pictures. “Think first” initially hides choices; direct choice shares its recognition evidence, while text recall and flashcard self-assessment have separate evidence.
+- Secure status requires three consecutive qualifying due reviews without hints, at least 24 hours after the previous graded attempt. Early practice and retries do not postpone scheduled reviews or add confirmations. Errors reset confirmations, reduce the stage and schedule a ten-minute repair; hints preserve confirmations and retain an earlier due date. These rules supersede the 1 November mastery description.
+- Exports use version 2 with method/direction contexts and the daily introduction ledger. Imports accept v1/v2; legacy counters/dates are retained without inventing evidence. Records, daily budget and saved sessions are persisted atomically. The older storage/backup descriptions above record their release state.
+- Answer explanations now follow pictures and credits in a closed “Why am I seeing this bird?” disclosure. They include the saved question reason, regional round context, confirmations and scheduling. First-attempt labels are hidden; retries show “Repeat”. Current additions retain a short “Currently reported” badge, with dated details in the explanation.
+- Completion places “Keep learning” and any additional due-review action before supplementary details, without a next-review timestamp. Direct continuation uses up to ten questions, the shared species/language/method settings and all progress states, allowing further introductions beyond the daily-round budget. “Back to learning settings” and the active Learn navigation link open setup.
+- Introduction pictures budget for image rows, captions and card padding, with readable minimum sizes and scrolling when necessary. At viewport widths of at least 900 px and heights of at least 650 px, study actions stay inside the card with sticky positioning; smaller viewports keep the fixed action bar.
+- The separate bilingual `#lernmethode` view explains current rules and lists seven research references. The original WAVE counts above predate this fifth route and do not constitute a fresh accessibility audit.
+- This documentation review compared source, regression tests and changes since `ad7cdc6`; it did not repeat physical-device, screenreader or browser visual checks. Relevant checks: `test-learning-model.mjs`, `test-practice-queue.mjs`, `test-learning-method.mjs`, `test-study-state.mjs`, `test-progress-copy.mjs`, `test-backup.mjs`, `test-study-photo-layout.mjs` and `test-information.mjs` in `scripts/`.
