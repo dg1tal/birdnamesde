@@ -2,13 +2,40 @@
 
 Public, buildless, browser-local bird-name dictionary and spaced-repetition trainer. No runtime dependencies, analytics, server database, or authentication. The GitHub Pages workflow publishes `dist/`; `.openai/hosting.json` retains the separate Sites hosting identity.
 
-Documentation reviewed against the repository on 4 November 2026. UI labels below use the English interface. Dated reports in `docs/` retain their release-specific verification results; later changes are noted where they supersede earlier behavior.
+Documentation reviewed against the repository on 5 November 2026. UI labels below use the English interface. Dated reports in `docs/` retain their release-specific verification results; later changes are noted where they supersede earlier behavior.
 
 ## License and third-party material
 
 The original application code in `dist/` (HTML, CSS and JavaScript), the code in `scripts/`, and project configuration are licensed under the [MIT License](LICENSE), copyright (c) 2026 DG1TAL. A copy of the license in `dist/LICENSE` accompanies the hosted application. This grant does not cover the JSON datasets, images, or other third-party material in this repository.
 
-The photos and illustrations in `dist/images/` retain their individual licenses and attribution requirements, recorded per image in `dist/photos.json`. The eBird/Clements taxonomy, common names, quick codes and API-derived regional data are sourced from Cornell Lab of Ornithology/eBird; this project's MIT license does not grant rights to those materials. Review the [eBird API terms](https://www.birds.cornell.edu/home/ebird-api-terms-of-use/) and [eBird data access terms](https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/) before reusing or redistributing them. Other source material and editorial provenance are documented below.
+The photos and illustrations in `dist/images/` retain their individual licenses and attribution requirements, recorded per image in `dist/photos.json`. The eBird/Clements taxonomy, common names, quick codes, EBD-derived seasonal groups and API-derived regional data are sourced from Cornell Lab of Ornithology/eBird; this project's MIT license does not grant rights to those materials. Review the [eBird API terms](https://www.birds.cornell.edu/home/ebird-api-terms-of-use/) and [eBird data access terms](https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/) before reusing or redistributing them. Other source material and editorial provenance are documented below.
+
+## eBird data sources and citation
+
+The seasonal frequency groups for Germany, the Netherlands and the UK are derived
+from the **eBird Basic Dataset (EBD), September 2026 release**, restricted to
+2021–2025. The previous histogram exports are historical provenance only.
+Regional all-time/30-day species lists and current notable reports still use the
+eBird API. Taxonomy, names and quick codes retain their existing sources below.
+These sources serve different parts of the app and remain separately documented.
+
+The exact dataset citation supplied in `recommended_citation.txt` in each of the
+three country archives is:
+
+> eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026.
+
+The [official eBird citation guidance](https://science.ebird.org/en/use-ebird-data/citation)
+also identifies the primary project reference:
+
+Sullivan, B.L., C.L. Wood, M.J. Iliff, R.E. Bonney, D. Fink, and S. Kelling. 2009. eBird: a citizen-based bird observation network in the biological sciences. Biological Conservation 142: 2282-2292.
+[DOI](https://doi.org/10.1016/j.biocon.2009.05.006).
+
+We thank the Cornell Lab of Ornithology for providing the eBird data and the eBird
+contributors for their observations. The source EBD is available through the
+[official eBird data access page](https://science.ebird.org/en/use-ebird-data/download-ebird-data-products).
+Derived data retain the [eBird Data Access Terms of Use](https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/),
+including the full terms distributed in `dist/ebd-terms.txt`; they are excluded from
+the code's MIT licence. Attribution does not imply endorsement by Cornell or eBird.
 
 ## Application
 

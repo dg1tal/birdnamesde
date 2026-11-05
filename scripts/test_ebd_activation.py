@@ -38,6 +38,7 @@ class EBDActivationTests(unittest.TestCase):
         mutations = [lambda p: p.update(period='2022–2026'),
                      lambda p: p['method']['thresholds'].update(frequentAtLeast=.2),
                      lambda p: p['method'].update(minimumSample=200),
+                     lambda p: p['provenance'][0].update(citation=''),
                      lambda p: p['provenance'][0].update(unresolvedCatalogTaxa={'unknown': 1}),
                      lambda p: p['regions'][0].update(code='DE-UNKNOWN'),
                      lambda p: p['regions'][0]['seasons']['winter']['groups']['rare'].append('invented')]

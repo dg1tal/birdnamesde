@@ -1,0 +1,12 @@
+{
+  "dataSourceURL": "https://science.ebird.org/en/use-ebird-data/download-ebird-data-products",
+  "citationGuidelinesURL": "https://science.ebird.org/en/use-ebird-data/citation",
+  "primaryReference": {
+    "citation": "Sullivan, B.L., C.L. Wood, M.J. Iliff, R.E. Bonney, D. Fink, and S. Kelling. 2009. eBird: a citizen-based bird observation network in the biological sciences. Biological Conservation 142: 2282-2292.",
+    "url": "https://doi.org/10.1016/j.biocon.2009.05.006"
+  },
+  "acknowledgement": {
+    "de": "Wir danken dem Cornell Lab of Ornithology für die Bereitstellung der eBird-Daten und den eBird-Beitragenden für ihre Beobachtungen.",
+    "en": "We thank the Cornell Lab of Ornithology for providing the eBird data and the eBird contributors for their observations."
+  }
+}
