@@ -1,28 +1,29 @@
 import {LOOKUP_PAGE_SIZE,lookupSettings,lookupTitle,sortLookup,lookupLanguages,showGermanStatus} from './lookup-settings.js?v=20261105-catalog1';
 import {continuationSettings,practiceQueue} from './practice-queue.js?v=20261102-continue1';
 import {dailyNewNamesText,selectionExplanation} from './learning-selection-copy.js?v=20261102-selection1';
-import {RULES,migrateRecords,evidence,secure,dailyQueue,dailyLedger,introduce,pairKnown,beginIntroduction,gradeRecord,statusLabel,evidenceText,scheduleText,family} from './learning-model.js?v=20261102-learning2';
+import {RULES,lessonBaseLimit,evidence,secure,dailyQueue,dailyLedger,introduce,pairKnown,beginIntroduction,gradeRecord,statusLabel,evidenceText,scheduleText,family} from './learning-model.js?v=20261105-recovery1';
 import {renderLearningMethod} from './learning-method.js?v=20261105-copy1';
 import {validateSeasonal,hybridSelection,hybridQueue,seasonLabel,regionalSnapshot,seasonalDatasetText,FREQUENCY_GROUPS,frequencyGroups,frequencyLabel} from './hybrid-learning.js?v=20261105-requiredregion1';
 import {createAnnouncer,setTextIfChanged,focusElement,contentLanguage,queueFocus,activateView} from './accessibility.js?v=20261101-wave2';
-import {persistLearningState} from './learning-storage.js?v=20261102-learning2';
-import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from './backup.js?v=20261102-learning2';
+import {persistLearningState,loadLearningState} from './learning-storage.js?v=20261105-recovery1';
+import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from './backup.js?v=20261105-recovery1';
 import {lessonProgressText,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261102-learning2';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
 import {renderInformation} from './info-page.js?v=20261105-codes1';
-import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,restoreLessonState,selectionMessage} from './learning-settings.js?v=20261105-requiredregion1';
+import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261105-recovery1';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261105-catalog1';
 import {english,localize,t,importErrorMessage} from './i18n.js?v=20261105-images1';
 const defaultNameTarget=english?'de':'en';
 let nameTarget=defaultNameTarget,availableNameLanguages=['de','en'];
-import {validateLesson,lessonProgress,recordLessonAnswer} from './study-state.js?v=20261105-ebd1';
+import {lessonProgress,recordLessonAnswer} from './study-state.js?v=20261105-recovery1';
 import {createPhotoCache} from './photo-cache.js';
-import {normalize,matches,accepts,due} from './logic.js?v=20261102-learning2';
+import {normalize,matches,accepts,due} from './logic.js?v=20261105-recovery1';
 const mastered=secure;
 const $=s=>document.querySelector(s),main=$('#app');
 let app=$('#nachschlagen');
+let storageState='loading',storageRecovery=null;
 $('#app-start-status').setAttribute('role','status');$('#app-start-status').textContent=t('Artenbestand wird geladen …');
 const announce=createAnnouncer($('#a11y-status'));
 $('#skip-content').onclick=event=>{event.preventDefault();focusElement($('#answer')||$('#search')||$('main h1')||main);};
@@ -190,15 +191,25 @@ localize();
 document.querySelectorAll('[data-ui-language]').forEach(button=>button.onclick=async()=>{if(button.dataset.uiLanguage===(english?'en':'de'))return;rememberLookup();saveUI();await save();try{sessionStorage.setItem('birdnames-interface-reload',JSON.stringify({at:Date.now(),resume:!!session&&!session.paused}));localStorage.setItem('birdnames-language',button.dataset.uiLanguage);}catch{}location.reload();});
 applyTheme();matchMedia('(prefers-color-scheme:dark)').addEventListener('change',applyTheme);
 document.querySelectorAll('[data-theme]').forEach(button=>button.onclick=()=>{theme=button.dataset.theme;applyTheme();try{localStorage.setItem('birdnames-theme',theme)}catch{}});
-async function initDB(){return new Promise((resolve,reject)=>{
- const req=indexedDB.open('birdnames-de',1);req.onupgradeneeded=()=>req.result.createObjectStore('state');req.onerror=()=>reject(req.error);
- req.onsuccess=()=>{db=req.result;const tx=db.transaction('state'),store=tx.objectStore('state'),r=store.get('records'),day=store.get('daily-v2'),shared=store.get('lesson-state-v2'),de=store.get('lesson'),en=store.get('lesson-en');
- tx.oncomplete=()=>{records=migrateRecords(r.result||{});daily=day.result||null;const restored=restoreLessonState(shared.result,de.result,en.result,english,new Set(birds.map(s=>s.id)));session=restored.session;pendingLessons=restored.pending;
+async function initDB(){
+ let loaded;
+ try{loaded=await loadLearningState({indexedDB:globalThis.indexedDB,ids:new Set(birds.map(s=>s.id)),english});}
+ catch(error){loaded={status:'unavailable',db:null,raw:null,error};}
+ db=loaded.db;storageState=loaded.status;storageRecovery=loaded.status==='ready'?null:loaded;
+ storageOK=loaded.status==='ready';
+ if(!storageOK)return;
+ ({records,daily,session,pending:pendingLessons}=loaded.state);
  let resume=false;try{const flag=JSON.parse(sessionStorage.getItem('birdnames-interface-reload')||'null');sessionStorage.removeItem('birdnames-interface-reload');resume=flag?.resume&&Date.now()-flag.at>=0&&Date.now()-flag.at<10000;}catch{}
- if(session)session.paused=!resume;resolve();};tx.onerror=()=>reject(tx.error);};
-});}
+ if(session)session.paused=!resume;
+}
 async function save(state={records,session,pending:pendingLessons,daily}){
+ if(storageState!=='ready')return false;
  storageOK=await persistLearningState(db,state);return storageOK;
+}
+function recoveryView(page){
+ app=activateView(main,page);studyMode(false);
+ app.innerHTML=`<h1>${english?'Recover saved progress':'Gespeicherten Lernstand wiederherstellen'}</h1><div class="local-storage-note"><p>${english?'Your stored data have not been changed. Download a rescue file if available before replacing them with a valid progress backup. If storage is temporarily unavailable, reload and try again.':'Deine gespeicherten Daten wurden nicht verändert. Lade nach Möglichkeit eine Rettungsdatei herunter, bevor du sie durch eine gültige Lernstandsicherung ersetzt. Ist der Speicher vorübergehend nicht verfügbar, lade die Seite erneut.'}</p><button id="reload-storage" type="button">${english?'Reload and try again':'Neu laden und erneut versuchen'}</button></div>${backupPanel(english,false,{recovery:true,readable:!!storageRecovery?.raw})}`;
+ $('#reload-storage').onclick=()=>location.reload();bindBackupActions();$('#backup-panel').open=true;
 }
 function storageNotice(){return storageOK?'':`<p class="notice" role="alert">${english?'Your browser cannot save progress right now. Before closing, download a backup under Statistics → Back up or restore progress.':'Der Browser kann den Lernstand gerade nicht speichern. Lade vor dem Schließen eine Sicherung unter Statistik → Lernstand sichern oder wiederherstellen herunter.'}</p>`;}
 const opt=(v,l=v,selected=false)=>`<option value="${esc(v)}"${selected?' selected':''}>${esc(l)}</option>`;
@@ -403,6 +414,7 @@ function startPractice(quick=true){
  startRound(selected.queue,settings,false,selected.hybrid);return true;
 }
 function learn(preset) {
+  if(storageState!=='ready')return recoveryView('lernen');
   app=activateView(main,'lernen');
   if (preset) {
     if(session)session.paused=true;
@@ -570,6 +582,8 @@ function learn(preset) {
   };
 }
 function startRound(queue,cfg,isDaily,hybrid){
+ if(storageState!=='ready')return recoveryView('lernen');
+ if(!queue.length||queue.length>lessonBaseLimit(birds.length))throw Error('Invalid round size');
  const region=regionMetadata(cfg.region);
  const id=crypto.randomUUID();
  session={version:2,id,daily:isDaily,sourceLanguage:cfg.sourceLanguage,nameLanguage:cfg.nameLanguage,regionCode:cfg.region,regionIds:isDaily?null:(cfg.region?[...hybrid.ids]:null),regionalContext:cfg.region?regionalSnapshot(hybrid):null,regionLabel:region?(english?region.nameEn:region.nameDe):'',queue:queue.map((u,i)=>({...u,retry:0,uid:id+':'+i})),index:0,correct:0,answered:0,firstAnswered:0,firstCorrect:0,supported:0,method:cfg.method,photos:cfg.photos,paused:false,done:false,hint:false,result:null,draft:'',introductions:queue.map((u,i)=>u.introduce?i:-1).filter(i=>i>=0),introIndex:0};
@@ -614,6 +628,7 @@ function showLearningSetup(){
   else{window.scrollTo(0,0);focusHeading();}
 }
 function renderQuestion() {
+  if(storageState!=='ready')return recoveryView('lernen');
   app=activateView(main,'lernen');
   const x=session;if(!x)return learn();if(x.index>=x.queue.length){endLesson();return;}
   if(!canResumeLesson(x)){x.paused=true;save();learn();return;}
@@ -676,6 +691,7 @@ function renderFeedback(s,item) {
   observeStudyActions();focusHeading('#feedback h2');
 }
 function stats() {
+  if(storageState!=='ready')return recoveryView('statistik');
   app=activateView(main,'statistik');
   if(session&&!session.paused){session.paused=true;save();}
   const ps=Object.entries(records).filter(([k])=>k.endsWith(':'+nameTarget)||k.endsWith(':code')).map(([,p])=>p),attempts=ps.reduce((a,p)=>a+p.attempts,0),correct=ps.reduce((a,p)=>a+p.correct,0),learned=birds.filter(s=>pairKnown(records[key(s,nameTarget)],ui.learn.sourceLanguage)||pairKnown(records[key(s,'code')],ui.learn.sourceLanguage)).length,counts=t=>birds.filter(s=>mastered(progress(s,t))).length;
@@ -691,13 +707,22 @@ function stats() {
   $('#stats-resume')?.addEventListener('click',()=>{session.paused=false;save();setActiveNav('lernen');skipNextRoute=true;location.hash='lernen';renderQuestion();});
   document.querySelectorAll('[data-practice]').forEach(b=>b.onclick=()=>launch({ids:[b.dataset.practice]}));
   $('#practice-hard')?.addEventListener('click',()=>launch({ids:hard.map(x=>x.s.id)}));
+  bindBackupActions();
+}
+function bindBackupActions(){
+  const recovering=storageState!=='ready';
   const openBackup=()=>{const panel=$('#backup-panel');panel.open=true;panel.querySelector('summary').focus({preventScroll:true});panel.scrollIntoView({block:'start'});};
-  $('#open-backup').onclick=openBackup;
+  if($('#open-backup'))$('#open-backup').onclick=openBackup;
   const downloadBackup=()=>{
     const stamp=new Date().toISOString();
-    const blob=new Blob([JSON.stringify({app:'BirdNames DE',version:2,taxonomy:meta.taxonomy,exported:stamp,records,daily},null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');
-    link.href=url;link.download=backupFilename(stamp);link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
-    $('#export-status').textContent=english?'Download started. Keep the JSON file somewhere you can find it; your browser controls where it is saved.':'Download gestartet. Bewahre die JSON-Datei gut auffindbar auf; den Speicherort bestimmt dein Browser.';
+    try{
+      const value=recovering?{app:'BirdNames DE rescue',version:1,exported:stamp,state:storageRecovery.raw}:{app:'BirdNames DE',version:2,taxonomy:meta.taxonomy,exported:stamp,records,daily};
+      const blob=new Blob([JSON.stringify(value,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');
+      link.href=url;link.download=recovering?backupFilename(stamp).replace('lernstand','rettungsdatei'):backupFilename(stamp);link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+      $('#export-status').textContent=english?'Download started. Keep the JSON file somewhere you can find it; your browser controls where it is saved.':'Download gestartet. Bewahre die JSON-Datei gut auffindbar auf; den Speicherort bestimmt dein Browser.';
+    }catch{
+      $('#export-status').textContent=english?'This stored state could not be downloaded. It has not been changed.':'Dieser gespeicherte Zustand konnte nicht heruntergeladen werden. Er wurde nicht verändert.';
+    }
   };
   $('#export').onclick=downloadBackup;
   const input=$('#import');let request=0;
@@ -709,28 +734,30 @@ function stats() {
       const value=JSON.parse(await file.text());
       if(token!==request||!input.isConnected)return;
       const candidate=inspectBackup(value,new Set(birds.map(s=>s.id)));
-      preview.innerHTML=backupPreview({candidate,current:records,filename:file.name,hasSession:!!session||!!pendingLessons.length,english});preview.hidden=false;
+      preview.innerHTML=backupPreview({candidate,current:records,filename:file.name,hasSession:recovering||!!session||!!pendingLessons.length,english,recovery:recovering,readable:!!storageRecovery?.raw});preview.hidden=false;
       status.textContent=english?'Backup checked. Your current progress has not been changed.':'Sicherung geprüft. Dein bisheriger Lernstand wurde noch nicht geändert.';
       $('#import-preview-title').focus({preventScroll:true});preview.scrollIntoView({block:'start'});
-      $('#export-before-import').onclick=()=>{downloadBackup();status.textContent=english?'Download of your current progress started. The selected backup has not been imported.':'Download deines bisherigen Lernstands gestartet. Die ausgewählte Sicherung wurde noch nicht importiert.';};
+      $('#export-before-import').onclick=()=>{downloadBackup();status.textContent=recovering?(english?'Rescue file download requested. The selected backup has not been imported.':'Download der Rettungsdatei angefordert. Die ausgewählte Sicherung wurde noch nicht importiert.'):(english?'Download of your current progress started. The selected backup has not been imported.':'Download deines bisherigen Lernstands gestartet. Die ausgewählte Sicherung wurde noch nicht importiert.');};
       $('#cancel-import').onclick=()=>{request++;input.value='';preview.replaceChildren();preview.hidden=true;status.textContent=english?'Restore cancelled. Your progress is unchanged.':'Wiederherstellen abgebrochen. Dein Lernstand bleibt unverändert.';input.focus();};
       $('#confirm-import').onclick=async()=>{
         input.disabled=true;preview.querySelectorAll('button').forEach(button=>button.disabled=true);
-        const ok=await save({records:candidate.records,session:null,pending:[],daily:candidate.daily});
+        const ok=await persistLearningState(db,{records:candidate.records,session:null,pending:[],daily:candidate.daily});
+        storageOK=ok;
         if(!ok){
           input.disabled=false;preview.querySelectorAll('button').forEach(button=>button.disabled=false);
-          const warning=english?'The browser cannot save changes right now. Keep a backup of your current progress.':'Der Browser kann Änderungen gerade nicht speichern. Bewahre eine Sicherung deines bisherigen Lernstands auf.';
+          $('#export-before-import').disabled=recovering&&!storageRecovery?.raw;
+          const warning=recovering?(english?'The original stored data have been kept. Learning remains paused. Keep the rescue file and try restoring again.':'Die gespeicherten Originaldaten bleiben erhalten. Lernen bleibt gesperrt. Bewahre die Rettungsdatei auf und versuche die Wiederherstellung erneut.'):(english?'The browser cannot save changes right now. Keep a backup of your current progress.':'Der Browser kann Änderungen gerade nicht speichern. Bewahre eine Sicherung deines bisherigen Lernstands auf.');
           $('.local-storage-note p').textContent=warning;$('#backup-storage-description').textContent=warning;
           status.tabIndex=-1;status.focus();
           status.textContent=english?'Restore failed: the browser could not save the backup. Your previous progress and paused sessions have been kept. Keep the backup and try again.':'Wiederherstellen fehlgeschlagen: Der Browser konnte die Sicherung nicht speichern. Dein bisheriger Lernstand und pausierte Einheiten bleiben erhalten. Behalte die Datei und versuche es erneut.';return;
         }
-        records=candidate.records;daily=candidate.daily;session=null;pendingLessons=[];stats();openBackup();
+        storageState='ready';storageRecovery=null;records=candidate.records;daily=candidate.daily;session=null;pendingLessons=[];setActiveNav('statistik');if(location.hash!=='#statistik'){skipNextRoute=true;location.hash='statistik';}stats();openBackup();
         $('#import-status').textContent=english?`Restored: ${backupSummary(records,true)}. Previous progress was replaced and paused sessions were ended.`:`Wiederhergestellt: ${backupSummary(records)}. Der bisherige Lernstand wurde ersetzt und pausierte Einheiten wurden beendet.`;
         $('#import-status').tabIndex=-1;$('#import-status').focus();
       };
     }catch(error){if(token!==request||!input.isConnected)return;status.textContent=importErrorMessage(error)+(english?' Your existing progress is unchanged.':' Dein bisheriger Lernstand bleibt unverändert.');input.value='';}
   };
-  $('#reset').onclick=async()=>{if(confirm(t('Alle Lernwerte und die laufende Einheit in diesem Browser löschen?'))){const ok=await save({records:{},session:null,pending:[],daily:null});if(ok){records={};daily=null;session=null;pendingLessons=[];}stats();focusHeading();}};
+  if($('#reset'))$('#reset').onclick=async()=>{if(confirm(t('Alle Lernwerte und die laufende Einheit in diesem Browser löschen?'))){const ok=await save({records:{},session:null,pending:[],daily:null});if(ok){records={};daily=null;session=null;pendingLessons=[];}stats();focusHeading();}};
 }
 function learningMethod(){app=activateView(main,'lernmethode');app.innerHTML=renderLearningMethod(english);}
 function info(){app=activateView(main,'info');app.innerHTML=renderInformation({english,birds,meta,germanNamesMeta,photos,regions:regionalData,seasonal:seasonalData});}
@@ -770,4 +797,4 @@ for(const [field,options]of Object.entries({target:[nameTarget,'code','mixed'],m
 try{const response=await fetch('regions.json?format=hierarchy',{cache:'no-cache'});if(response.ok)regionalData=validateRegions(await response.json(),ids,meta.catalog?.fingerprint);}catch{console.warn('Regional lists unavailable');}
 try{seasonalData=validateSeasonal(await(await fetch('seasonal-species.json?v=20261105-codes1')).json(),ids);if(meta.catalog&&seasonalData.dataset?.catalogFingerprint!==meta.catalog.fingerprint)throw Error('Seasonal catalogue mismatch');}catch{console.warn('Seasonal data unavailable');}
 try{const data=await(await fetch('current-notable.json',{cache:'no-cache'})).json();if(data?.version===1&&Array.isArray(data.regions)&&(!meta.catalog||data.catalogFingerprint===meta.catalog.fingerprint))currentNotable=data;}catch{console.warn('Current reports unavailable');}
-try{photos=(await(await fetch('photos.json?v=20261105-images3')).json()).photos}catch(err){console.warn('Artenbilder nicht geladen',err)}saveUI();try{await initDB();await save()}catch{storageOK=false}window.addEventListener('hashchange',route);route();}catch(err){app.innerHTML='<h1>Daten konnten nicht geladen werden.</h1><p>Bitte Seite erneut laden.</p>';console.error(err)}
+try{photos=(await(await fetch('photos.json?v=20261105-images3')).json()).photos}catch(err){console.warn('Artenbilder nicht geladen',err)}saveUI();await initDB();if(storageState==='ready')await save();window.addEventListener('hashchange',route);route();}catch(err){app.innerHTML='<h1>Daten konnten nicht geladen werden.</h1><p>Bitte Seite erneut laden.</p>';console.error(err)}

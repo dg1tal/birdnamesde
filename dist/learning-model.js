@@ -1,5 +1,8 @@
 // Product rules shared by scheduling, UI and method documentation.
 export const RULES=Object.freeze({round:10,newPerDay:3,confirmations:3,minGap:86400000,retryDelay:600000,maxRetries:2,intervals:[1,3,7,14,30,60]});
+// A round has at most a name and a code per species, plus bounded retries.
+export const lessonQueueLimit=speciesCount=>speciesCount*2*(1+RULES.maxRetries);
+export const lessonBaseLimit=speciesCount=>speciesCount*2;
 export const family=method=>method==='text'?'recall':method==='flash'?'self':'recognition';
 export const contextKey=(source,method)=>source+':'+family(method);
 export const localDay=(now=Date.now())=>{const d=new Date(now);return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');};

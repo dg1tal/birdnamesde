@@ -1,4 +1,4 @@
-import {validateLesson} from './study-state.js?v=20261105-ebd1';
+import {validateLesson} from './study-state.js?v=20261105-recovery1';
 
 // Countries remain selectable if a regional snapshot is temporarily unavailable.
 export const LEARNING_COUNTRIES=[
@@ -36,13 +36,14 @@ export function loadSharedUI(defaults,storage,english){
  return ui;
 }
 
-export function restoreLessonState(shared,de,en,english,ids){
+export function restoreLessonState(shared,de,en,english,ids,{strict=false}={}){
  const restore=(value,source)=>{
-  const lesson=validateLesson(value,ids);if(!lesson)return null;
+  const lesson=validateLesson(value,ids);if(!lesson){if(strict&&value!=null)throw Error('Ungültige gespeicherte Einheit.');return null;}
   lesson.sourceLanguage??=source;lesson.nameLanguage??=lesson.queue.find(i=>i.t!=='code')?.t||(source==='en'?'de':'en');lesson.paused=true;
   return lesson;
  };
  // A deliberately cleared shared session must never resurrect an old lesson.
+ if(strict&&shared!=null&&(shared.version!==1||!Object.hasOwn(shared,'session')||!Array.isArray(shared.pending)||shared.pending.length>2||shared.pending.some(x=>x==null)))throw Error('Ungültige gespeicherte Einheiten.');
  if(shared?.version===1){
   const session=restore(shared.session,'de');
   const pending=Array.isArray(shared.pending)?shared.pending.slice(0,2).map(x=>restore(x,'de')).filter(Boolean):[];
