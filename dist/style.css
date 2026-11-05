@@ -327,9 +327,6 @@ body.studying .feedback .photo-set .bird-photo .study-photo-slot{height:var(--st
 @media(max-width:580px){body.studying .feedback .photo-set-multiple{grid-template-columns:1fr}}
 
 /* Keep the ready-to-start session ahead of optional configuration. */
-#lesson-basics{border-top:1px solid var(--line);padding-top:8px;margin-top:16px}
-#lesson-basics>summary{font-weight:650;color:var(--accent)}
-#lesson-basics[open]>.primary-target{margin-top:16px}
 #selection-help{margin:8px 0}
 #setup .setup-start .selection-count{margin-top:0}
 
@@ -416,9 +413,6 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 .preview-species p:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 
 .learning-selection{border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px;background:var(--panel)}
-.learning-selection > .region-settings{border:0;padding:0;margin:0 0 20px;min-width:0}
-.learning-selection > .region-settings > legend{font-size:19px;font-weight:650;margin-bottom:12px;padding:0}
-.learning-selection > h2{font-size:19px;margin-bottom:12px}
 .learning-selection .regional-preview{border:0;padding:0;margin:0}
 .learning-selection .regional-preview h3{font-size:15px;font-weight:600;margin:0 0 8px}
 .learning-selection #hybrid-settings{border-bottom:0;margin:12px 0 0;padding-bottom:0}
@@ -466,7 +460,6 @@ body.studying .question-selection-context{display:grid;gap:4px;font-size:13px;co
 .shared-learning{margin-bottom:16px}.shared-learning>p{margin:6px 0}.shared-learning>h2{margin-bottom:12px}
 #shared-settings>summary{color:var(--accent);font-weight:650;min-height:44px;padding:10px 0}
 #shared-settings[open]>summary{margin-bottom:12px}
-#shared-settings .learning-selection{margin-top:18px}
 #free-setup{margin-top:16px}#free-setup>summary{padding:0;min-height:44px;display:list-item;align-content:center}
 #free-setup[open]>summary{margin-bottom:12px}
 #free-setup #lesson-options{margin:16px 0}.migration-explanation{font-size:14px;margin-top:14px}
@@ -506,3 +499,11 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
  body.studying .introduction .photo-set .bird-photo .photo-visual img{height:300px}
  body.studying #feedback .photo-set .bird-photo .photo-visual img{height:300px}
 }
+
+/* Equal visual and semantic weight for the four learning settings groups. */
+#shared-settings > fieldset{border:1px solid var(--line);border-radius:12px;padding:16px;margin:18px 0;min-width:0;background:var(--panel)}
+#shared-settings > fieldset > legend{font-size:19px;font-weight:650;padding:0 6px;max-width:100%;overflow-wrap:anywhere}
+#shared-settings .learning-settings-group .field{min-width:0}
+#shared-settings .learning-settings-group > .form-note{margin:12px 0}
+#shared-settings .learning-settings-group > .learn-photo-option{margin:12px 0}
+@media(max-width:480px){#shared-settings > fieldset{padding:12px}.name-language-settings .settings{grid-template-columns:1fr}#setup .primary-settings{grid-template-columns:1fr}}
