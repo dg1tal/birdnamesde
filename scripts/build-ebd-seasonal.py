@@ -40,6 +40,10 @@ def build(preview, region_snapshot, species_ids):
         raise ValueError('Duplicate regions')
     if bycode.keys() - labels.keys():
         raise ValueError('EBD region not available in the reviewed API hierarchy')
+    citations = {p['citation'] for p in sources}
+    if len(citations) != 1 or not next(iter(citations)).strip():
+        raise ValueError('Source citations differ or are empty; review before activation')
+    credit = {**load(ROOT / 'data/ebird-citation.json'), 'datasetCitation': next(iter(citations))}
     regions = []
     for code, region in sorted(bycode.items()):
         if set(region['seasons']) != set(SEASONS):
@@ -64,10 +68,10 @@ def build(preview, region_snapshot, species_ids):
         regions.append({'code': code, 'seasons': seasons})
     dataset = {'id': DATASET_ID, 'source': 'eBird Basic Dataset', 'release': 'September 2026', 'period': '2021–2025'}
     output = {'version': 1, 'experimental': True, 'dataset': dataset,
-              'source': dataset['source'], 'period': dataset['period'], 'preparedAt': preview['preparedAt'],
+              'source': dataset['source'], 'period': dataset['period'], 'credit': credit, 'preparedAt': preview['preparedAt'],
               'terms': TERMS, 'termsFile': 'ebd-terms.txt', 'provenance': 'seasonal-provenance.json', 'regions': regions}
     audit = {'dataset': dataset, 'preparedAt': preview['preparedAt'], 'terms': TERMS,
-             'method': preview['method'], 'sources': sources,
+             'method': preview['method'], 'sources': sources, 'credit': credit,
              'regionMatch': {'source': region_snapshot['source'],
                              'snapshotGeneratedAt': region_snapshot['snapshotGeneratedAt'],
                              'checkedAt': region_snapshot['checkedAt'],
@@ -103,7 +107,8 @@ def method_page(data, audit, snapshot):
         local = [r for r in regions if r['code'].count('-') == 2]
         if local:
             coverage.append(f'<details><summary>Lokale Regionen / Local regions ({len(local)})</summary>{table(local)}</details>')
-    citations = ''.join(f'<li>{esc(p["citation"])}</li>' for p in audit['sources'][:1])
+    credit = data['credit']
+    citations = f'<li>{esc(credit["datasetCitation"])}</li><li><a href="{esc(credit["primaryReference"]["url"])}">{esc(credit["primaryReference"]["citation"])}</a></li>'
     return f'''<!doctype html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Saisonale Auswahl – Daten und Methode</title><link rel="stylesheet" href="style.css?v=20261102-cardactions1"></head><body><main>
 <p><a href="./#lernen">← Zurück zum Lernen / Back to learning</a> · <a href="#method-en" lang="en">English explanation</a></p>
@@ -120,6 +125,8 @@ def method_page(data, audit, snapshot):
 <p>Neue Runden verwenden die neue Datengrundlage. Begonnene und pausierte Runden behalten ihre gespeicherte Auswahl und Meldungsdaten. Neue saisonale Runden speichern zusätzlich die Datenquellen-Version. Ältere Runden ohne Quellenangabe erhalten nachträglich keine neue Zuordnung. Lernfortschritt und Wiederholungstermine werden durch die Umstellung nicht geändert.</p>
 <p>EBD wird lokal aus manuellen Downloads aufbereitet und nicht täglich aktualisiert. Die API aktualisiert weiterhin separat die regionalen Artenlisten (einschließlich des 30-Tage-Modus) und aktuellen bemerkenswerten Meldungen. Bei fehlenden frischen aktuellen Daten gibt es keine aktuellen Ergänzungen; die historische Grundlage bleibt nutzbar.</p>
 <h2>Quellen und Nutzungsbedingungen / Sources and terms</h2><ul>{citations}</ul>
+<p>{esc(credit["acknowledgement"]["de"])} <span lang="en">{esc(credit["acknowledgement"]["en"])}</span></p>
+<p><a href="{esc(credit["dataSourceURL"])}">EBD-Datenquelle / EBD data source</a> · <a href="{esc(credit["citationGuidelinesURL"])}">Offizielle Zitierhinweise / Official citation guidance</a>. Die Datensatzzitierung wurde unverändert aus recommended_citation.txt der drei Archive übernommen. / The dataset citation is reproduced unchanged from recommended_citation.txt supplied with all three archives.</p>
 <p>Die abgeleiteten Daten unterliegen den <a href="{TERMS}">eBird Data Access Terms of Use</a>. <a href="ebd-terms.txt">Vollständige mitgelieferte Bedingungen / Full supplied terms</a>. Die MIT-Lizenz des Programmcodes gilt nicht für diese Daten. Die Bedingungen verlangen insbesondere Quellenangabe, nichtkommerzielle Nutzung, Nutzung für den beantragten Zweck und dieselben Bedingungen bei Weitergabe abgeleiteter Daten. Originaldaten, Beobachter- und Checklistenkennungen, Koordinaten und Kommentare werden nicht veröffentlicht. Keine Bestätigung oder Empfehlung durch Cornell oder eBird.</p>
 <p><a href="seasonal-species.json">Saisonale Artenauswahl / Seasonal species (JSON)</a> · <a href="seasonal-provenance.json">Herkunft, Methode und Prüfsummen / Provenance, method and hashes (JSON)</a></p>
 <section lang="en" id="method-en"><h2>Seasonal selection and current additions</h2>
@@ -143,7 +150,7 @@ def main():
     preview, snapshot = load(preview_path), load(regions_path)
     ids = {s['id'] for s in load(ROOT / 'dist/species.json')['species']}
     data, audit = build(preview, snapshot, ids)
-    audit['inputs'] = {str(p.relative_to(ROOT)): digest(p) for p in [preview_path, regions_path, ROOT / 'data/taxonomy.csv', ROOT / 'data/ebd-seasonal-preview.terms.txt', Path(__file__).resolve()]}
+    audit['inputs'] = {str(p.relative_to(ROOT)): digest(p) for p in [preview_path, regions_path, ROOT / 'data/taxonomy.csv', ROOT / 'data/ebird-citation.json', ROOT / 'data/ebd-seasonal-preview.terms.txt', Path(__file__).resolve()]}
     files = {ROOT / 'dist/seasonal-species.json': json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n',
              ROOT / 'dist/seasonal-provenance.json': json.dumps(audit, ensure_ascii=False, indent=2) + '\n',
              ROOT / 'dist/ebd-terms.txt': (ROOT / 'data/ebd-seasonal-preview.terms.txt').read_text(),

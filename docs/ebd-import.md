@@ -67,6 +67,36 @@ These rules can produce different counts and group membership from histogram
 exports. The import is a reproducible educational selection, not a reconstruction
 of eBird's bar charts or a statistical abundance model.
 
+## Source acknowledgement and citation
+
+Source attribution was checked on 5 November 2026 against the supplied archive
+terms and the [official eBird citation guidance](https://science.ebird.org/en/use-ebird-data/citation).
+The terms require full and appropriate acknowledgement and citation in materials
+and publications derived wholly or partly from eBird data; the dataset supplies
+the relevant citation. The EBD-specific guidance explicitly points to the supplied
+`recommended_citation.txt` rather than the generic website citation.
+
+All three archives contain the same citation, reproduced verbatim:
+
+> eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026.
+
+The general project reference identified by the citation guidance is also included:
+
+Sullivan, B.L., C.L. Wood, M.J. Iliff, R.E. Bonney, D. Fink, and S. Kelling. 2009. eBird: a citizen-based bird observation network in the biological sciences. Biological Conservation 142: 2282-2292.
+[DOI](https://doi.org/10.1016/j.biocon.2009.05.006).
+
+The original bibliography in `dist/species.json` concerns taxonomy, names and the
+editorial species catalogue. It remains applicable. EBD supplies the seasonal
+groups; the API supplies regional occurrence lists and current notable reports.
+The retired histogram exports are not presented as the active seasonal source.
+No Status and Trends product or GBIF/EOD release is used for this EBD analysis.
+
+`data/ebird-citation.json` retains the source/guidance links, project reference and
+bilingual acknowledgement to Cornell and the eBird contributors. The generator
+copies these credits and the supplied dataset citation into both published JSON
+artifacts and the method page. The main information page displays the same credits.
+The README and this document include the dataset citation for repository users.
+
 ## Public repository and terms
 
 Raw archives stay under `/Users/thumax/EBD/`, outside Git. The public preview contains
