@@ -93,8 +93,9 @@ No Status and Trends product or GBIF/EOD release is used for this EBD analysis.
 
 `data/ebird-citation.json` retains the source/guidance links, project reference and
 bilingual acknowledgement to Cornell and the eBird contributors. The generator
-copies these credits and the supplied dataset citation into both published JSON
-artifacts and the method page. The main information page displays the same credits.
+copies the source credits and supplied dataset citation into both published JSON
+artifacts and the method page. The citation-guidance URL is retained here as a
+development verification reference, not published as a data-source credit. The main information page displays the same credits.
 The README and this document include the dataset citation for repository users.
 
 ## Public repository and terms
