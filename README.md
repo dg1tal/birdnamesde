@@ -24,8 +24,7 @@ three country archives is:
 
 > eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026.
 
-The [official eBird citation guidance](https://science.ebird.org/en/use-ebird-data/citation)
-also identifies the primary project reference:
+General eBird project reference:
 
 Sullivan, B.L., C.L. Wood, M.J. Iliff, R.E. Bonney, D. Fink, and S. Kelling. 2009. eBird: a citizen-based bird observation network in the biological sciences. Biological Conservation 142: 2282-2292.
 [DOI](https://doi.org/10.1016/j.biocon.2009.05.006).

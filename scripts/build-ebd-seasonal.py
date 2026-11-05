@@ -43,7 +43,8 @@ def build(preview, region_snapshot, species_ids):
     citations = {p['citation'] for p in sources}
     if len(citations) != 1 or not next(iter(citations)).strip():
         raise ValueError('Source citations differ or are empty; review before activation')
-    credit = {**load(ROOT / 'data/ebird-citation.json'), 'datasetCitation': next(iter(citations))}
+    credit = {k: v for k, v in load(ROOT / 'data/ebird-citation.json').items() if k != 'citationGuidelinesURL'}
+    credit['datasetCitation'] = next(iter(citations))
     regions = []
     for code, region in sorted(bycode.items()):
         if set(region['seasons']) != set(SEASONS):
@@ -126,7 +127,7 @@ def method_page(data, audit, snapshot):
 <p>EBD wird lokal aus manuellen Downloads aufbereitet und nicht täglich aktualisiert. Die API aktualisiert weiterhin separat die regionalen Artenlisten (einschließlich des 30-Tage-Modus) und aktuellen bemerkenswerten Meldungen. Bei fehlenden frischen aktuellen Daten gibt es keine aktuellen Ergänzungen; die historische Grundlage bleibt nutzbar.</p>
 <h2>Quellen und Nutzungsbedingungen / Sources and terms</h2><ul>{citations}</ul>
 <p>{esc(credit["acknowledgement"]["de"])} <span lang="en">{esc(credit["acknowledgement"]["en"])}</span></p>
-<p><a href="{esc(credit["dataSourceURL"])}">EBD-Datenquelle / EBD data source</a> · <a href="{esc(credit["citationGuidelinesURL"])}">Offizielle Zitierhinweise / Official citation guidance</a>. Die Datensatzzitierung wurde unverändert aus recommended_citation.txt der drei Archive übernommen. / The dataset citation is reproduced unchanged from recommended_citation.txt supplied with all three archives.</p>
+<p><a href="{esc(credit["dataSourceURL"])}">EBD-Datenquelle / EBD data source</a></p>
 <p>Die abgeleiteten Daten unterliegen den <a href="{TERMS}">eBird Data Access Terms of Use</a>. <a href="ebd-terms.txt">Vollständige mitgelieferte Bedingungen / Full supplied terms</a>. Die MIT-Lizenz des Programmcodes gilt nicht für diese Daten. Die Bedingungen verlangen insbesondere Quellenangabe, nichtkommerzielle Nutzung, Nutzung für den beantragten Zweck und dieselben Bedingungen bei Weitergabe abgeleiteter Daten. Originaldaten, Beobachter- und Checklistenkennungen, Koordinaten und Kommentare werden nicht veröffentlicht. Keine Bestätigung oder Empfehlung durch Cornell oder eBird.</p>
 <p><a href="seasonal-species.json">Saisonale Artenauswahl / Seasonal species (JSON)</a> · <a href="seasonal-provenance.json">Herkunft, Methode und Prüfsummen / Provenance, method and hashes (JSON)</a></p>
 <section lang="en" id="method-en"><h2>Seasonal selection and current additions</h2>

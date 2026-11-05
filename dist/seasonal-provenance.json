@@ -77,7 +77,6 @@
   ],
   "credit": {
     "dataSourceURL": "https://science.ebird.org/en/use-ebird-data/download-ebird-data-products",
-    "citationGuidelinesURL": "https://science.ebird.org/en/use-ebird-data/citation",
     "primaryReference": {
       "citation": "Sullivan, B.L., C.L. Wood, M.J. Iliff, R.E. Bonney, D. Fink, and S. Kelling. 2009. eBird: a citizen-based bird observation network in the biological sciences. Biological Conservation 142: 2282-2292.",
       "url": "https://doi.org/10.1016/j.biocon.2009.05.006"
@@ -250,6 +249,6 @@
     "data/taxonomy.csv": "38ae7e68a03b651e8056e2f4abfad898533a12dbd9343f0e01cb2723ec20aaeb",
     "data/ebird-citation.json": "1ee4dd5aaf34f6f6c305ac9ab9565b90b304c266886f17813fc86b37890076d4",
     "data/ebd-seasonal-preview.terms.txt": "e07599e66ec0aa0f03c6366077b0f7f74fe0bd85f898d1e8bbf4544fcd5bda52",
-    "scripts/build-ebd-seasonal.py": "01bdc220ca6221f84d181dc1e4796662623dfba4fe4354758900df94037deaf0"
+    "scripts/build-ebd-seasonal.py": "6a327241bf2bd47ba67fa8fff94c50ebda04234c19ed7aa70e5f631f217f2c82"
   }
 }

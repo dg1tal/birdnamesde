@@ -10,7 +10,7 @@ import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} fr
 import {lessonProgressText,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261102-learning2';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
-import {renderInformation} from './info-page.js?v=20261105-ebdcredit1';
+import {renderInformation} from './info-page.js?v=20261105-ebdcredit2';
 import {loadSharedUI,restoreLessonState,selectionMessage} from './learning-settings.js?v=20261105-ebd1';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261029-uklocal1';
@@ -728,6 +728,6 @@ if(!ui.learn.hybridVersion){ui.learn.regionMode='seasonal';ui.learn.hybridVersio
 ui.learn.levels=Array.isArray(ui.learn.levels)?ui.learn.levels.filter(n=>[1,2,3].includes(n)):[1];
 for(const [field,options]of Object.entries({target:[nameTarget,'code','mixed'],method:['text','flash','mc','think'],scope:['all','unmastered','due','wrong'],count:['10','15','25','all']}))if(!options.includes(ui.learn[field]))ui.learn[field]=defaults.learn[field];
 try{const response=await fetch('regions.json?format=hierarchy',{cache:'no-cache'});if(response.ok)regionalData=validateRegions(await response.json(),ids);}catch{console.warn('Regional lists unavailable');}
-try{seasonalData=validateSeasonal(await(await fetch('seasonal-species.json?v=20261105-ebdcredit1')).json(),ids);}catch{console.warn('Seasonal data unavailable');}
+try{seasonalData=validateSeasonal(await(await fetch('seasonal-species.json?v=20261105-ebdcredit2')).json(),ids);}catch{console.warn('Seasonal data unavailable');}
 try{const data=await(await fetch('current-notable.json',{cache:'no-cache'})).json();if(data?.version===1&&Array.isArray(data.regions))currentNotable=data;}catch{console.warn('Current reports unavailable');}
 try{photos=(await(await fetch('photos.json')).json()).photos}catch(err){console.warn('Artenbilder nicht geladen',err)}saveUI();try{await initDB();await save()}catch{storageOK=false}window.addEventListener('hashchange',route);route();}catch(err){app.innerHTML='<h1>Daten konnten nicht geladen werden.</h1><p>Bitte Seite erneut laden.</p>';console.error(err)}
