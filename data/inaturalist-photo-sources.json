@@ -1,0 +1,260 @@
+{
+  "retrieved": "2026-11-05",
+  "sexAnnotation": {
+    "attribute": 9,
+    "values": {
+      "female": 10,
+      "male": 11
+    }
+  },
+  "photos": {
+    "https://www.inaturalist.org/photos/673465958": {
+      "observation": "https://www.inaturalist.org/observations/368720891",
+      "taxon": {
+        "id": 144441,
+        "name": "Puffinus baroli"
+      },
+      "qualityGrade": "research",
+      "photo": {
+        "id": 673465958,
+        "license_code": "cc0",
+        "attribution": "no rights reserved",
+        "original_dimensions": {
+          "width": 1015,
+          "height": 677
+        }
+      },
+      "annotations": [
+        {
+          "controlled_attribute_id": 17,
+          "controlled_value_id": 18,
+          "vote_score": 0
+        }
+      ],
+      "sex": null,
+      "basis": "Research-grade species identification"
+    },
+    "https://www.inaturalist.org/photos/622488874": {
+      "observation": "https://www.inaturalist.org/observations/341875609",
+      "taxon": {
+        "id": 9198,
+        "name": "Emberiza fucata"
+      },
+      "qualityGrade": "research",
+      "photo": {
+        "id": 622488874,
+        "license_code": "cc-by",
+        "attribution": "(c) 呂一起(Lyu yi-chi), some rights reserved (CC BY)",
+        "original_dimensions": {
+          "width": 1246,
+          "height": 846
+        }
+      },
+      "annotations": [
+        {
+          "controlled_attribute_id": 9,
+          "controlled_value_id": 11,
+          "vote_score": 0
+        }
+      ],
+      "sex": "male",
+      "basis": "Research-grade species identification; explicit non-disagreed sex annotation"
+    },
+    "https://www.inaturalist.org/photos/111595440": {
+      "observation": "https://www.inaturalist.org/observations/68855678",
+      "taxon": {
+        "id": 12779,
+        "name": "Turdus pallidus"
+      },
+      "qualityGrade": "research",
+      "photo": {
+        "id": 111595440,
+        "license_code": "cc-by",
+        "attribution": "(c) WATANABE Hitoshi 渡辺仁, some rights reserved (CC BY)",
+        "original_dimensions": {
+          "width": 2048,
+          "height": 1365
+        }
+      },
+      "annotations": [
+        {
+          "controlled_attribute_id": 9,
+          "controlled_value_id": 10,
+          "vote_score": 0
+        }
+      ],
+      "sex": "female",
+      "basis": "Research-grade species identification; explicit non-disagreed sex annotation"
+    },
+    "https://www.inaturalist.org/photos/308823912": {
+      "observation": "https://www.inaturalist.org/observations/177563437",
+      "taxon": {
+        "id": 9210,
+        "name": "Emberiza leucocephalos"
+      },
+      "qualityGrade": "research",
+      "photo": {
+        "id": 308823912,
+        "license_code": "cc-by",
+        "attribution": "(c) Andrew Bazdyrev, some rights reserved (CC BY)",
+        "original_dimensions": {
+          "width": 2048,
+          "height": 1366
+        }
+      },
+      "annotations": [
+        {
+          "controlled_attribute_id": 1,
+          "controlled_value_id": 2,
+          "vote_score": 0
+        },
+        {
+          "controlled_attribute_id": 9,
+          "controlled_value_id": 11,
+          "vote_score": 0
+        }
+      ],
+      "sex": "male",
+      "basis": "Research-grade species identification; explicit non-disagreed sex annotation"
+    },
+    "https://www.inaturalist.org/photos/342284604": {
+      "observation": "https://www.inaturalist.org/observations/194688134",
+      "taxon": {
+        "id": 5020,
+        "name": "Butorides virescens"
+      },
+      "qualityGrade": "research",
+      "photo": {
+        "id": 342284604,
+        "license_code": "cc-by",
+        "attribution": "(c) Ricard Busquets Reverte, some rights reserved (CC BY)",
+        "original_dimensions": {
+          "width": 2048,
+          "height": 1365
+        }
+      },
+      "annotations": [
+        {
+          "controlled_attribute_id": 1,
+          "controlled_value_id": 2,
+          "vote_score": 0
+        },
+        {
+          "controlled_attribute_id": 9,
+          "controlled_value_id": 10,
+          "vote_score": 0
+        },
+        {
+          "controlled_attribute_id": 17,
+          "controlled_value_id": 18,
+          "vote_score": 0
+        },
+        {
+          "controlled_attribute_id": 22,
+          "controlled_value_id": 24,
+          "vote_score": 0
+        }
+      ],
+      "sex": "female",
+      "basis": "Research-grade species identification; explicit non-disagreed sex annotation"
+    },
+    "https://www.inaturalist.org/photos/490519085": {
+      "observation": "https://www.inaturalist.org/observations/272645898",
+      "taxon": {
+        "id": 1720368,
+        "name": "Schoeniclus pallasi"
+      },
+      "qualityGrade": "research",
+      "photo": {
+        "id": 490519085,
+        "license_code": "cc-by",
+        "attribution": "(c) Marco Mussita, some rights reserved (CC BY)",
+        "original_dimensions": {
+          "width": 2048,
+          "height": 1536
+        }
+      },
+      "annotations": [
+        {
+          "controlled_attribute_id": 1,
+          "controlled_value_id": 2,
+          "vote_score": 0
+        },
+        {
+          "controlled_attribute_id": 9,
+          "controlled_value_id": 10,
+          "vote_score": 1
+        },
+        {
+          "controlled_attribute_id": 17,
+          "controlled_value_id": 18,
+          "vote_score": 1
+        },
+        {
+          "controlled_attribute_id": 22,
+          "controlled_value_id": 24,
+          "vote_score": 1
+        }
+      ],
+      "sex": "female",
+      "basis": "Research-grade species identification; explicit non-disagreed sex annotation"
+    },
+    "https://www.inaturalist.org/photos/449889125": {
+      "observation": "https://www.inaturalist.org/observations/251434084",
+      "taxon": {
+        "id": 18881,
+        "name": "Neophema elegans"
+      },
+      "qualityGrade": "research",
+      "photo": {
+        "id": 449889125,
+        "license_code": "cc-by",
+        "attribution": "(c) Rolf Lawrenz, some rights reserved (CC BY)",
+        "original_dimensions": {
+          "width": 2048,
+          "height": 1322
+        }
+      },
+      "annotations": [
+        {
+          "controlled_attribute_id": 9,
+          "controlled_value_id": 11,
+          "vote_score": 0
+        }
+      ],
+      "sex": "male",
+      "basis": "Research-grade species identification; explicit non-disagreed sex annotation"
+    },
+    "https://www.inaturalist.org/photos/49470620": {
+      "observation": "https://www.inaturalist.org/observations/31599444",
+      "taxon": {
+        "id": 19284,
+        "name": "Lathamus discolor"
+      },
+      "qualityGrade": "research",
+      "photo": {
+        "id": 49470620,
+        "license_code": "cc-by",
+        "attribution": "(c) Andrew Allen, some rights reserved (CC BY)",
+        "original_dimensions": {
+          "width": 2048,
+          "height": 1365
+        }
+      },
+      "annotations": [
+        {
+          "controlled_attribute_id": 9,
+          "controlled_value_id": 11,
+          "vote_score": 0
+        },
+        {
+          "controlled_attribute_id": 17,
+          "controlled_value_id": 18,
+          "vote_score": 0
+        }
+      ],
+      "sex": "male",
+      "basis": "Research-grade species identification; explicit non-disagreed sex annotation"
+    }
+  }
+}

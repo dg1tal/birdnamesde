@@ -1,5 +1,8 @@
 // English renderings of editorial species metadata; names and source titles remain original.
 export const editorialEnglish=Object.freeze({
+  "Weibchen · Brutkleid": "Female · breeding plumage",
+  "Weibchen · Schlichtkleid": "Female · non-breeding plumage",
+  "Historische Darstellung; Farbgebung und Proportionen können idealisiert sein.": "Historical illustration; colours and proportions may be idealised.",
   "Limikolen": "Shorebirds",
   "Brutvogel": "Breeding bird",
   "Durchzügler": "Passage migrant",

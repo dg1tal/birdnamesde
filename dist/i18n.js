@@ -1,4 +1,4 @@
-import {editorialEnglish} from './editorial-en.js?v=20261029-editorial1';
+import {editorialEnglish} from './editorial-en.js?v=20261105-images1';
 // UI translation is applied to text nodes and accessible labels before paint.
 // Species names, source titles and attribution metadata retain their originals.
 export const english=(()=>{try{return localStorage.getItem('birdnames-language')==='en';}catch{return false;}})();
