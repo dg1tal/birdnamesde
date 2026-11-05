@@ -5,15 +5,21 @@ permissions:
   contents: read
 jobs:
   sources:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.15'
+          check-latest: true
+      - name: Report runtime version
+        run: python3 --version
       - name: Fetch unfiltered national taxon lists
         env:
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
         run: python3 scripts/catalog-sources.py --output review/catalog-country-lists.json
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: catalogue-sources
           path: review/catalog-country-lists.json

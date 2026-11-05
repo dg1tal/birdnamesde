@@ -54,19 +54,48 @@ the code's MIT licence. Attribution does not imply endorsement by Cornell or eBi
 
 ## Checks
 
+CI selects Node.js 26 LTS and standard CPython 3.15, taking current stable patches
+within those release lines, on Ubuntu 26.04. Use the same runtime lines locally.
+The app has no npm dependencies; no npm install or package-manager cache is needed.
+
 ```sh
 npm test
 for test in scripts/test-*.mjs; do node "$test" || exit 1; done
 python3 -m unittest discover -s scripts -p 'test_*.py'
 python3 scripts/validate-data.py
+python3 scripts/build-ebd-seasonal.py --check
+python3 scripts/check-private-ebd.py
 node scripts/validate-photos.mjs
 for file in dist/*.js; do node --check "$file" || exit 1; done
+git diff --exit-code -- dist data
 git diff --check
 ```
 
 No build step is required. Serve `dist/` as static assets, for example with `python3 -m http.server 8000 --directory dist`. The Pages workflow runs the deployment checks and refreshes regional/current data before uploading this directory. `scripts/finalize-data.py` regenerates data and is not a read-only check; run it only when intentionally updating the dataset.
 
 Browser verification and its limits are recorded in the dated reports below. Recent checks include responsive layouts, keyboard navigation, backup/restore and lesson recovery. Physical mobile keyboards and actual screenreader speech remain unverified.
+
+### Optional workbook tooling
+
+Only the legacy `scripts/build-data.py` importer needs openpyxl. Install its pinned
+development dependency in a virtual environment outside the checkout:
+
+```sh
+python3.15 -m venv /tmp/birdnames-workbook-venv
+/tmp/birdnames-workbook-venv/bin/python -m pip install -r requirements-dev.txt
+```
+
+Routine checks and deployment do not install this dependency. Loading the workbook
+for inspection does not require running the importer or regenerating datasets.
+
+### Dependency maintenance
+
+GitHub Actions are pinned to full commit SHAs with release-version comments.
+Dependabot proposes monthly updates for Actions and the optional Python dependency,
+targeting `main`, with at most five open pull requests per ecosystem and no automatic
+merging. Review migration notes and run the checks before merging. Runtime major
+upgrades are reviewed separately; patch releases within the selected lines are
+picked up by the setup actions. The workflows log their runtime versions.
 
 ## GitHub Pages
 
