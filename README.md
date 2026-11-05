@@ -12,14 +12,18 @@ The photos and illustrations in `dist/images/` retain their individual licenses 
 
 ## eBird data sources and citation
 
+**The eBird Basic Dataset (EBD) itself is not included in this repository.**
+Neither the country download archives nor raw observation or sampling-event
+records are published here. The seasonal data files contain derived aggregates:
+regional species groups and summary checklist counts.
+
 The seasonal frequency groups for Germany, the Netherlands and the UK are derived
 from the **eBird Basic Dataset (EBD), September 2026 release**, restricted to
 2021–2025. The previous histogram exports are historical provenance only.
 Regional all-time/30-day species lists and current notable reports still use the
 eBird API. Taxonomy, names and quick codes retain their existing sources below.
 
-The exact dataset citation supplied in `recommended_citation.txt` in each of the
-three country archives is:
+Source dataset used to calculate the seasonal aggregates:
 
 > eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026.
 
