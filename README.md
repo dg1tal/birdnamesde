@@ -184,3 +184,15 @@ Answer-card explanations: the first-attempt label is hidden; in-round retries sh
 Regional round selection (region, season, chosen frequency groups and historical period) is shown in the folded answer-card explanation instead of above every question. A current addition retains only a short “Currently reported” badge; its observation/expiry dates are shown in the explanation together with the original round-selection snapshot.
 
 The completion summary offers “Back to learning settings”, which opens the editable setup without starting a round. A click on the already-active Learn navigation link also opens setup instead of waiting for a hashchange. Existing settings and any saved session are preserved; if another session remains, setup is expanded and its separate resume action remains available.
+
+## EBD import preparation
+
+`scripts/import-ebd.py` streams the user's private country ZIP archives from
+`/Users/thumax/EBD/downloads/` into `data/ebd-seasonal-preview.json`. This is a
+reviewable aggregate preview for 2021–2025, **not yet the app's seasonal data**.
+Raw data remain outside Git and Pages; the preview and its adjacent full terms
+file are derived eBird data, excluded from the MIT code licence. See
+`docs/ebd-import.md` for reproduction, filtering, shared-checklist handling,
+taxonomy checks, publication terms and the remaining activation work.
+Run `python3 -m unittest discover -s scripts -p 'test_ebd.py'` and
+`python3 scripts/check-private-ebd.py` before committing an import.

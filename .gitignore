@@ -5,6 +5,13 @@ data/status.txt
 node_modules/
 BirdNames-DE-history.bundle
 *.tar.gz
+# Private eBird downloads must never enter Git, even if copied into this checkout.
+*.tar
+*.tar.*
+*.zip
+ebd_*.txt
+EBD/
+data/ebd-private/
 data/dog.pdf
 data/dog.txt
 data/*-output.txt
