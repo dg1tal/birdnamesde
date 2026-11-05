@@ -1,7 +1,6 @@
 import {readFileSync} from 'node:fs';
-import {SPECIES_PACKAGES,speciesPackageControls} from '../dist/species-packages.js';
 import assert from 'node:assert/strict';
-import {loadSharedUI,restoreLessonState,selectionMessage} from '../dist/learning-settings.js';
+import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,migrateLearningRegion,restoreLessonState,selectionMessage} from '../dist/learning-settings.js';
 const defaults={lookup:{query:''},learn:{region:'',sourceLanguage:'de',nameLanguage:'en'}};
 const values=new Map([['birdnames-ui',JSON.stringify({learn:{region:'GB-ENG-CON',sourceLanguage:'de',nameLanguage:'nl'}})],['birdnames-ui-en',JSON.stringify({learn:{region:'NL'}})]]);
 const storage={getItem:key=>values.get(key)};
@@ -19,12 +18,11 @@ assert(!selectionMessage({same:true,count:0},false).includes('Wortschatz'));
 assert(selectionMessage({same:false,count:0,unavailable:true},true).includes('regional list'));
 assert.equal(selectionMessage({count:1},false),'1 Art passt zur Auswahl.');
 
-assert.match(selectionMessage({count:0,noLevels:true},false),/Kein Artenpaket/);
 assert.match(selectionMessage({count:0,noGroups:true},true),/No species group/);
 assert.match(selectionMessage({count:0,scope:'due'},false),/keine Wiederholungen fällig/);
 assert.match(selectionMessage({count:0,scope:'wrong'},true),/last answered incorrectly/);
 assert.equal(selectionMessage({count:3,scope:'due'},true),'3 species match your selection.');
-assert.match(selectionMessage({count:0,unavailable:true,noLevels:true},false),/regionale Liste/);
+assert.match(selectionMessage({count:0,unavailable:true},false),/regionale Liste/);
 
 console.log('PASS: shared interface-independent settings, both legacy lessons preserved, cleared lessons stay cleared, drafts/region retained and actionable selection messages.');
 
@@ -43,22 +41,6 @@ assert.equal(restoredRegions.lookup.regionMode,'recent');
 assert.equal(restoredRegions.learn.region,'NL');
 console.log('PASS: lookup starts with all regions for legacy settings and restores its own region independently of learning.');
 
-const catalogue=JSON.parse(readFileSync('dist/species.json')).species;
-assert.deepEqual(SPECIES_PACKAGES.map(p=>p.id),[1,2,3]);
-assert.deepEqual(SPECIES_PACKAGES.map(p=>catalogue.filter(s=>s.level===p.id).length),[106,103,104]);
-for(const english of [false,true]){
- const markup=speciesPackageControls(catalogue,[1,3],english);
- assert.equal((markup.match(/<li>/g)||[]).length,catalogue.length);
- assert.equal((markup.match(/ checked/g)||[]).length,2);
- assert.equal((markup.match(/name="levels"/g)||[]).length,3);
- for(const bird of catalogue)assert(markup.includes(`<li>${bird[english?'en':'de'].replaceAll("'",'&#39;')}</li>`));
- assert(markup.includes(english?'do not include earlier packages':'enthalten die vorherigen Pakete nicht'));
- assert(markup.includes(english?'before those filters':'vor diesen Filtern'));
-}
-const unsafe=speciesPackageControls([{level:1,de:'<img src=x>',en:'<script>'}],[1],false);
-assert(unsafe.includes('&lt;img src=x&gt;'));assert(!unsafe.includes('<img'));
-console.log('PASS: complete bilingual package lists cover all species, preserve stable selections and escape names.');
-
 for(const english of [false,true]){
  assert.match(selectionMessage({count:0,noFrequency:true},english),english?/No frequency group/:/Keine Häufigkeitsstufe/);
  // Current additions may still supply species even when no historical group is selected.
@@ -67,3 +49,31 @@ for(const english of [false,true]){
  assert.match(selectionMessage({count:0,noFrequency:true,unavailable:true},english),english?/regional list/:/regionale Liste/);
 }
 console.log('PASS: empty seasonal selections explain the missing frequency group without rejecting available current additions.');
+
+// New rounds require geography; only settings are migrated, never lesson queues.
+assert.deepEqual(LEARNING_COUNTRIES.map(c=>c.code),JSON.parse(readFileSync('data/region-countries.json')).map(c=>c.code));
+const newDefaults={lookup:{region:''},learn:{sourceLanguage:'de',nameLanguage:'en',...structuredClone(LEARNING_REGION_DEFAULTS)}};
+const firstVisit=loadSharedUI(newDefaults,{getItem:()=>null},false);
+assert.deepEqual(firstVisit.learn,newDefaults.learn);assert(!firstVisit.learn.regionMigrationNotice);
+for(const key of ['birdnames-ui-shared-v1','birdnames-ui','birdnames-ui-en']){
+ const old={region:'',regionMode:'all',frequencyGroups:['rare'],levels:[2],sourceLanguage:'nl',nameLanguage:'sci',method:'text',groups:['Enten'],ids:['eurbla'],scope:'wrong',count:'25',photos:false};
+ const storage={getItem:k=>k===key?JSON.stringify({lookup:{region:''},learn:old}):null};
+ const loaded=loadSharedUI(newDefaults,storage,false);
+ assert.equal(loaded.learn.region,'DE');assert.equal(loaded.learn.regionMode,'seasonal');assert.deepEqual(loaded.learn.frequencyGroups,['frequent','medium']);
+ assert(loaded.learn.regionMigrationNotice);assert(!('levels' in loaded.learn));assert.equal(loaded.lookup.region,'');
+ for(const field of ['sourceLanguage','nameLanguage','method','groups','ids','scope','count','photos'])assert.deepEqual(loaded.learn[field],old[field]);
+ assert.equal(old.region,'');assert.deepEqual(old.levels,[2]);
+ const dismissed={...loaded.learn,regionMigrationNotice:false};
+ assert.equal(migrateLearningRegion(dismissed,dismissed).regionMigrationNotice,false);
+}
+for(const region of ['DE','NL','GB','GB-ENG-CON','DE-BY-GAP','FR']){
+ const saved={region,regionMode:'recent',frequencyGroups:['rare'],levels:[]};
+ const loaded=migrateLearningRegion(saved,saved);
+ assert.equal(loaded.region,region);assert.equal(loaded.regionMode,'recent');assert.deepEqual(loaded.frequencyGroups,['rare']);assert(!loaded.regionMigrationNotice);assert(!('levels' in loaded));
+}
+for(const region of ['',null,undefined,'garbage'])assert.equal(migrateLearningRegion({region},{region}).region,'DE');
+for(const english of [false,true]){
+ assert(!selectionMessage({unavailable:true},english).includes(english?'remove':'entferne'));
+ assert(!selectionMessage({count:0},english).includes(english?'packages':'Artenpakete'));
+}
+console.log('PASS: regional defaults, migration of all old preference keys, retained selections and notice dismissal; lookup and paused lessons stay independent.');
