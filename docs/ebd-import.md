@@ -5,7 +5,7 @@ of 5 November 2026, `scripts/build-ebd-seasonal.py` uses the reviewed aggregate 
 generate the active `dist/seasonal-species.json`, its provenance/terms, and the
 bilingual method and coverage page. The app's daily API refresh is unchanged.
 Learning progress and existing rounds are retained. New seasonal rounds snapshot
-`ebd-relSep-2026-2021-2025-v1`; old rounds without source metadata stay unassigned.
+`ebd-relSep-2026-2021-2025-catalog-v2`; old rounds without source metadata stay unassigned.
 
 ## Reproduce
 
@@ -162,3 +162,5 @@ The historical histogram builder is retained only for archival reproduction;
 invoking it overwrites seasonal outputs and will fail the active EBD artifact check.
 To roll back an app release, restore all matching data/code/method/cache-version
 changes from Git together. Learning storage does not require migration or reset.
+
+The catalogue expansion on 5 November 2026 reran all three archives for the 940-species country union. Published seasonal data and dataset metadata now carry the catalogue fingerprint. Denominators, independent-checklist selection, source release, period and frequency thresholds are unchanged.

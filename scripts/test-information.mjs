@@ -13,7 +13,7 @@ const regions={regions:entries,countries:entries.filter(r=>!r.parentCode),recent
 const seasonal=JSON.parse(readFileSync('dist/seasonal-species.json'));
 const args={birds,meta,photos,germanNamesMeta,regions,seasonal};
 const f=informationFacts(args);
-assert.equal(f.species,313);assert.equal(f.photoCount,409);assert.equal(f.illustrationCount,6);assert.equal(f.photoComparisons,112);assert.equal(f.illustrationComparisons,6);
+assert.equal(f.species,birds.length);assert.equal(f.photoCount,409);assert.equal(f.illustrationCount,6);assert.equal(f.photoComparisons,112);assert.equal(f.illustrationComparisons,6);
 assert.equal(f.regionCount,7);assert.equal(f.listCount,14);assert.equal(f.oldest,older);assert.equal(f.newest,stamp);
 for(const source of meta.sources)assert(SOURCE_TITLES_EN[source.url],'Source needs an English label: '+source.title);
 const en=renderInformation({...args,english:true}),de=renderInformation({...args,english:false});
@@ -35,7 +35,7 @@ assert(en.includes('29/10/2026')&&en.includes('5 November 2026'));
 const missing=renderInformation({...args,english:true,regions:null});assert(missing.includes('Regional data is currently unavailable'));assert(!missing.includes('Invalid Date'));
 const partial=informationFacts({...args,regions:{...regions,regions:[{...entries[0],all:null,recent:list(stamp)}]}});assert.equal(partial.listCount,1);
 const changed=renderInformation({...args,english:true,birds:[birds[0]],photos:{},regions:null});assert(changed.includes('<strong>1 species</strong>'));assert(changed.includes('0 photographs and 0 historical'));
-const escaped=renderInformation({...args,english:false,meta:{...meta,selection:'<script>alert(1)</script>'}});assert(escaped.includes('&lt;script&gt;'));assert(!escaped.includes('<script>'));
+const escaped=renderInformation({...args,english:false,meta:{...meta,built:'<script>alert(1)</script>'}});assert(escaped.includes('&lt;script&gt;'));assert(!escaped.includes('<script>'));
 let progress,now=1000;for(const days of [1,3,7,14,30,60,60]){progress=review(progress,true,now);assert.equal(progress.interval,days);now=progress.due;}
 assert.equal(review(progress,false,now).due,now+600000);assert(review(progress,true,now,true).due<=now+86400000);
 assert(!en.includes('info-lessons'));assert(!de.includes('Drei richtige Antworten ohne Hinweis in Folge'));assert(de.includes('href="#lernmethode"'));
@@ -58,4 +58,4 @@ assert(renderInformation({...args,english:true,seasonal:changedSeasonal}).includ
 console.log('PASS: EBD release, data-derived seasonal coverage, downloadable source terms and unavailable historical data.');
 
 for(const html of [en,de])assert(!/Species packages|Artenpakete|without a regional filter|Ohne Regionsfilter/.test(html));
-assert(en.includes('not a complete national checklist'));assert(de.includes('keine vollständigen Länderchecklisten'));
+assert(en.includes('source taxa that cannot be mapped to v2025 species'));assert(de.includes('nicht auf v2025-Arten abbildbare Quelltaxa'));

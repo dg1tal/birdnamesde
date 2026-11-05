@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Fetch public regional species IDs in Actions; never publish credentials/observations."""
 import datetime as dt
+import csv
 import argparse
 import json
 import os
@@ -52,7 +53,7 @@ def request_json(url, token=None):
             raise ValueError('Response too large')
         return json.loads(raw)
 
-def make_list(payload, mode, known, now):
+def make_list(payload, mode, known, now, mapping=None):
     if not isinstance(payload, list):
         raise ValueError('Expected list')
     if mode == 'all':
@@ -63,7 +64,12 @@ def make_list(payload, mode, known, now):
         if not all(isinstance(x,dict) and isinstance(x.get('speciesCode'),str) for x in payload):
             raise ValueError('Unexpected observation schema')
         codes = {x['speciesCode'] for x in payload}
-    return {'ids':sorted(codes & known), 'reportedTaxa':len(codes), 'updatedAt':now}
+    resolved = {mapping.get(code) for code in codes} if mapping is not None else codes
+    result = {'ids':sorted(resolved & known), 'reportedTaxa':len(codes), 'updatedAt':now}
+    if mapping is not None:
+        result['catalogCandidates'] = sorted(resolved - known - {None})
+        result['unknownTaxa'] = sorted(codes - mapping.keys())
+    return result
 
 def safe_previous(data, known):
     """Only allow whitelisted public fields back into an output snapshot."""
@@ -90,9 +96,11 @@ def safe_previous(data, known):
         result[r['code']] = lists
     return result
 
-def reusable_snapshot(data, known, now):
+def reusable_snapshot(data, known, now, fingerprint=None):
     """Return a validated, allowlisted snapshot while every list is current."""
     if not isinstance(data, dict) or data.get('version') != 1 or data.get('recentDays') != 30:
+        return None
+    if fingerprint and data.get('catalogFingerprint') != fingerprint:
         return None
     raw_regions = data.get('regions')
     if not isinstance(raw_regions, list) or not raw_regions or len(raw_regions) > 512:
@@ -135,6 +143,7 @@ def reusable_snapshot(data, known, now):
     except (KeyError, TypeError, ValueError, AttributeError):
         return None
     return {'version': 1, 'generatedAt': data['generatedAt'], 'recentDays': 30,
+            **({'catalogFingerprint':fingerprint} if fingerprint else {}),
             'countries': [{k: c[k] for k in ('code', 'nameDe', 'nameEn')} for c in COUNTRIES],
             'regions': regions}
 
@@ -169,7 +178,13 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--if-due', action='store_true', help='Reuse a complete public snapshot if all lists are less than 24 hours old')
     args = parser.parse_args()
-    known = {s['id'] for s in json.loads((ROOT/'dist/species.json').read_text())['species']}
+    catalog = json.loads((ROOT/'dist/species.json').read_text())
+    known = {s['id'] for s in catalog['species']}
+    fingerprint = catalog.get('meta',{}).get('catalog',{}).get('fingerprint')
+    mapping = None
+    if fingerprint:
+        with (ROOT/'data/taxonomy.csv').open(encoding='utf-8-sig') as stream:
+            mapping = {r['SPECIES_CODE']:(r['REPORT_AS'] or r['SPECIES_CODE']) if r['CATEGORY'] in {'species','issf','form','domestic','intergrade'} else None for r in csv.DictReader(stream)}
     previous = {}
     # Previous Pages snapshot is read without any credential. Failed fetches leave local fallback available.
     candidates = []
@@ -181,7 +196,7 @@ def main():
     except (urllib.error.URLError,ValueError): pass
     now_dt = dt.datetime.now(dt.timezone.utc)
     if args.if_due:
-        reusable = [snapshot for candidate in candidates if (snapshot := reusable_snapshot(candidate, known, now_dt))]
+        reusable = [snapshot for candidate in candidates if (snapshot := reusable_snapshot(candidate, known, now_dt, fingerprint))]
         if reusable:
             selected = max(reusable, key=lambda x: x['generatedAt'])
             temporary = ROOT/'dist/regions.json.tmp'
@@ -194,6 +209,7 @@ def main():
         print('EBIRD_API_KEY is missing or malformed; no output generated.',file=sys.stderr)
         return 1
     for candidate in candidates:
+        if fingerprint and candidate.get('catalogFingerprint') != fingerprint:continue
         for code, lists in safe_previous(candidate, known).items():
             for mode,item in lists.items():
                 old = previous.setdefault(code,{}).get(mode)
@@ -209,7 +225,7 @@ def main():
     print(f'Discovered {len(regions)} regions, including {sum(r["code"].count("-")==2 for r in regions)} local regions. Refreshing with at most 3 workers and 2 request starts/second.',flush=True)
     def refresh(region,mode,path):
         try:
-            return region,mode,make_list(request_json(API+path,token),mode,known,now),False
+            return region,mode,make_list(request_json(API+path,token),mode,known,now,mapping),False
         except (urllib.error.URLError,ValueError,TypeError,TimeoutError):
             return region,mode,previous.get(region['code'],{}).get(mode),True
     with ThreadPoolExecutor(max_workers=3) as executor:
@@ -229,7 +245,10 @@ def main():
     if not any(r.get('all') or r.get('recent') for r in regions):
         print('No usable regional lists; leaving the existing deployment untouched.',file=sys.stderr)
         return 1
-    output = {'version':1,'generatedAt':now,'recentDays':30,'countries':[{k:c[k] for k in ('code','nameDe','nameEn')} for c in COUNTRIES],'regions':regions}
+    candidates_report = sorted({code for r in regions for mode in ('all','recent') for code in (r.get(mode) or {}).get('catalogCandidates',[])})
+    unknown_report = sorted({code for r in regions for mode in ('all','recent') for code in (r.get(mode) or {}).get('unknownTaxa',[])})
+    if candidates_report or unknown_report:print(f'Catalogue review needed: {len(candidates_report)} candidate species; {len(unknown_report)} unknown source taxa.',flush=True)
+    output = {'version':1,'catalogFingerprint':fingerprint,'catalogCandidates':candidates_report,'unknownTaxa':unknown_report,'generatedAt':now,'recentDays':30,'countries':[{k:c[k] for k in ('code','nameDe','nameEn')} for c in COUNTRIES],'regions':regions}
     encoded = json.dumps(output,ensure_ascii=False,indent=2)+'\n'
     if token in encoded:
         print('Refusing to output credential material.',file=sys.stderr)

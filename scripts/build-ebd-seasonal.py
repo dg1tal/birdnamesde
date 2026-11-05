@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DATASET_ID = 'ebd-relSep-2026-2021-2025-v1'
+DATASET_ID = 'ebd-relSep-2026-2021-2025-catalog-v2'
 SEASONS = ('winter', 'spring', 'summer', 'autumn')
 TERMS = 'https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/'
 
@@ -67,11 +67,12 @@ def build(preview, region_snapshot, species_ids):
                 raise ValueError('Default groups mismatch')
             seasons[season] = {k: value[k] for k in ('sample', 'years', 'ids', 'groups')}
         regions.append({'code': code, 'seasons': seasons})
-    dataset = {'id': DATASET_ID, 'source': 'eBird Basic Dataset', 'release': 'September 2026', 'period': '2021–2025'}
-    output = {'version': 1, 'experimental': False, 'dataset': dataset,
+    fingerprint = hashlib.sha256('\n'.join(sorted(species_ids)).encode()).hexdigest()
+    dataset = {'catalogFingerprint':fingerprint, 'id': DATASET_ID, 'source': 'eBird Basic Dataset', 'release': 'September 2026', 'period': '2021–2025'}
+    output = {'catalogFingerprint':fingerprint, 'version': 1, 'experimental': False, 'dataset': dataset,
               'source': dataset['source'], 'period': dataset['period'], 'credit': credit, 'preparedAt': preview['preparedAt'],
               'terms': TERMS, 'termsFile': 'ebd-terms.txt', 'provenance': 'seasonal-provenance.json', 'regions': regions}
-    audit = {'dataset': dataset, 'preparedAt': preview['preparedAt'], 'terms': TERMS,
+    audit = {'catalogFingerprint':fingerprint, 'dataset': dataset, 'preparedAt': preview['preparedAt'], 'terms': TERMS,
              'method': preview['method'], 'sources': sources, 'credit': credit,
              'regionMatch': {'source': region_snapshot['source'],
                              'snapshotGeneratedAt': region_snapshot['snapshotGeneratedAt'],
@@ -149,7 +150,8 @@ def main():
     preview_path = ROOT / 'data/ebd-seasonal-preview.json'
     regions_path = ROOT / 'data/ebd-region-match.json'
     preview, snapshot = load(preview_path), load(regions_path)
-    ids = {s['id'] for s in load(ROOT / 'dist/species.json')['species']}
+    catalog = load(ROOT / 'dist/species.json')
+    ids = {s['id'] for s in catalog['species']}
     data, audit = build(preview, snapshot, ids)
     audit['inputs'] = {str(p.relative_to(ROOT)): digest(p) for p in [preview_path, regions_path, ROOT / 'data/taxonomy.csv', ROOT / 'data/ebird-citation.json', ROOT / 'data/ebd-seasonal-preview.terms.txt', Path(__file__).resolve()]}
     files = {ROOT / 'dist/seasonal-species.json': json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n',

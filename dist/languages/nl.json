@@ -6,9 +6,25 @@
     "sourceUrl": "https://support.ebird.org/en/support/solutions/articles/48000804865-bird-names-in-ebird",
     "column": "Dutch",
     "taxonomy": "eBird/Clements v2025",
-    "speciesCount": 313
+    "speciesCount": 940
   },
   "species": {
+    "abdsto1": {
+      "name": "Abdims ooievaar",
+      "aliases": []
+    },
+    "lolbuz1": {
+      "name": "Arendbuizerd",
+      "aliases": []
+    },
+    "macduc1": {
+      "name": "Afrikaanse stekelstaart",
+      "aliases": []
+    },
+    "afrhae1": {
+      "name": "Afrikaanse havikarend",
+      "aliases": []
+    },
     "alepar2": {
       "name": "Grote alexanderparkiet",
       "aliases": []
@@ -19,6 +35,10 @@
     },
     "yebcho1": {
       "name": "Alpenkauw",
+      "aliases": []
+    },
+    "rebcho1": {
+      "name": "Alpenkraai",
       "aliases": []
     },
     "rocpta1": {
@@ -33,28 +53,124 @@
       "name": "Bonte strandloper",
       "aliases": []
     },
+    "amepip": {
+      "name": "Amerikaanse waterpieper",
+      "aliases": []
+    },
     "eurbla": {
       "name": "Merel",
+      "aliases": []
+    },
+    "amufal1": {
+      "name": "Amoerroodpootvalk",
+      "aliases": []
+    },
+    "grekno": {
+      "name": "Grote kanoet",
+      "aliases": []
+    },
+    "andgoo1": {
+      "name": "Andesgans",
+      "aliases": []
+    },
+    "leater1": {
+      "name": "Amerikaanse dwergstern",
       "aliases": []
     },
     "manshe": {
       "name": "Noordse pijlstormvogel",
       "aliases": []
     },
+    "norwhe3": {
+      "name": "Seebohms tapuit",
+      "aliases": []
+    },
     "wescap1": {
       "name": "Auerhoen",
+      "aliases": []
+    },
+    "pabduc1": {
+      "name": "Wenkbrauweend",
       "aliases": []
     },
     "euroys1": {
       "name": "Scholekster",
       "aliases": []
     },
+    "laugul": {
+      "name": "Lachmeeuw",
+      "aliases": []
+    },
+    "chpher1": {
+      "name": "Chinese ralreiger",
+      "aliases": []
+    },
     "whiwag": {
       "name": "Witte kwikstaart",
       "aliases": []
     },
+    "baepoc1": {
+      "name": "Amoerwitoogeend",
+      "aliases": []
+    },
+    "whcpin": {
+      "name": "Witwangpijlstaart",
+      "aliases": []
+    },
+    "baisan": {
+      "name": "Bairds strandloper",
+      "aliases": []
+    },
+    "balshe1": {
+      "name": "Vale pijlstormvogel",
+      "aliases": []
+    },
+    "easwar1": {
+      "name": "Balkanbaardgrasmus",
+      "aliases": []
+    },
+    "eabwar1": {
+      "name": "Balkanbergfluiter",
+      "aliases": []
+    },
+    "bkewhe2": {
+      "name": "Oostelijke blonde tapuit",
+      "aliases": []
+    },
+    "balori": {
+      "name": "Baltimoretroepiaal",
+      "aliases": []
+    },
+    "chebun2": {
+      "name": "Grijskopgors",
+      "aliases": []
+    },
+    "redjun": {
+      "name": "Bankivahoen",
+      "aliases": []
+    },
+    "litshe1": {
+      "name": "Kleine pijlstormvogel",
+      "aliases": []
+    },
+    "lammer1": {
+      "name": "Lammergier",
+      "aliases": []
+    },
+    "radwar1": {
+      "name": "Raddes boszanger",
+      "aliases": []
+    },
     "bearee1": {
       "name": "Baardman",
+      "aliases": []
+    },
+    "rebpar4": {
+      "name": "Kleine alexanderparkiet",
+      "aliases": []
+    },
+    "chibab2": {
+      "name": "Gestreepte babax",
       "aliases": []
     },
     "norgan": {
@@ -73,6 +189,18 @@
       "name": "Watersnip",
       "aliases": []
     },
+    "roeowl1": {
+      "name": "Bengaalse oehoe",
+      "aliases": []
+    },
+    "hilmyn": {
+      "name": "Grote beo",
+      "aliases": []
+    },
+    "sibacc": {
+      "name": "Bergheggenmus",
+      "aliases": []
+    },
     "gresca": {
       "name": "Topper",
       "aliases": []
@@ -85,12 +213,28 @@
       "name": "Frater",
       "aliases": []
     },
+    "bimlar1": {
+      "name": "Bergkalanderleeuwerik",
+      "aliases": []
+    },
     "webwar1": {
       "name": "Bergfluiter",
       "aliases": []
     },
     "watpip1": {
       "name": "Waterpieper",
+      "aliases": []
+    },
+    "wessan": {
+      "name": "Alaskastrandloper",
+      "aliases": []
+    },
+    "glwgul": {
+      "name": "Beringmeeuw",
+      "aliases": []
+    },
+    "bertea1": {
+      "name": "Madagaskartaling",
       "aliases": []
     },
     "euptit1": {
@@ -101,12 +245,52 @@
       "name": "Bijeneter",
       "aliases": []
     },
+    "whwcro": {
+      "name": "Witbandkruisbek",
+      "aliases": []
+    },
+    "lakduc1": {
+      "name": "Argentijnse stekelstaart",
+      "aliases": []
+    },
+    "stisan": {
+      "name": "Steltstrandloper",
+      "aliases": []
+    },
+    "pibgre": {
+      "name": "Dikbekfuut",
+      "aliases": []
+    },
+    "yebfly": {
+      "name": "Berkenfeetiran",
+      "aliases": []
+    },
     "redpol1": {
       "name": "Barmsijs",
       "aliases": []
     },
     "blagro1": {
       "name": "Korhoen",
+      "aliases": []
+    },
+    "pahros1": {
+      "name": "Bleekkoprosella",
+      "aliases": []
+    },
+    "eaowar1": {
+      "name": "Oostelijke vale spotvogel",
+      "aliases": []
+    },
+    "buwtea": {
+      "name": "Blauwvleugeltaling",
+      "aliases": []
+    },
+    "buwgoo1": {
+      "name": "Blauwvleugelgans",
+      "aliases": []
+    },
+    "blujay": {
+      "name": "Blauwe gaai",
       "aliases": []
     },
     "blueth": {
@@ -117,8 +301,48 @@
       "name": "Pimpelmees",
       "aliases": []
     },
+    "burthr": {
+      "name": "Blauwe rotslijster",
+      "aliases": []
+    },
+    "sibrob": {
+      "name": "Blauwe nachtegaal",
+      "aliases": []
+    },
+    "blfhon1": {
+      "name": "Blauwoorhoningeter",
+      "aliases": []
+    },
+    "eurrol1": {
+      "name": "Scharrelaar",
+      "aliases": []
+    },
+    "paipar6": {
+      "name": "Venezolaanse parkiet",
+      "aliases": []
+    },
+    "refblu1": {
+      "name": "Blauwstaart",
+      "aliases": []
+    },
+    "bufpar": {
+      "name": "Blauwvoorhoofdamazone",
+      "aliases": []
+    },
+    "bcbeat1": {
+      "name": "Groene bijeneter",
+      "aliases": []
+    },
     "eurlin1": {
       "name": "Kneu",
+      "aliases": []
+    },
+    "rebque1": {
+      "name": "Roodbekwever",
+      "aliases": []
+    },
+    "syrwoo1": {
+      "name": "Syrische bonte specht",
       "aliases": []
     },
     "gwfgoo": {
@@ -129,8 +353,20 @@
       "name": "Meerkoet",
       "aliases": []
     },
+    "bongul": {
+      "name": "Kleine kokmeeuw",
+      "aliases": []
+    },
+    "souboo8": {
+      "name": "Australische boeboek",
+      "aliases": []
+    },
     "tawpip1": {
       "name": "Duinpieper",
+      "aliases": []
+    },
+    "eurcur": {
+      "name": "Wulp",
       "aliases": []
     },
     "comshe": {
@@ -141,36 +377,204 @@
       "name": "Grote stern",
       "aliases": []
     },
+    "tenwar": {
+      "name": "Tennesseezanger",
+      "aliases": []
+    },
+    "chbmun1": {
+      "name": "Bruinborstrietvink",
+      "aliases": []
+    },
+    "brephe1": {
+      "name": "Bruine oorfazant",
+      "aliases": []
+    },
+    "babwar": {
+      "name": "Kastanjezanger",
+      "aliases": []
+    },
     "whinch1": {
       "name": "Paapje",
+      "aliases": []
+    },
+    "bnhcow": {
+      "name": "Bruinkopkoevogel",
+      "aliases": []
+    },
+    "vitpar1": {
+      "name": "Bruinkopdiksnavelmees",
+      "aliases": []
+    },
+    "rehbun1": {
+      "name": "Bruinkopgors",
+      "aliases": []
+    },
+    "yebtea1": {
+      "name": "Chileense taling",
+      "aliases": []
+    },
+    "sugspa1": {
+      "name": "Bruinruggoudmus",
+      "aliases": []
+    },
+    "asbfly": {
+      "name": "Bruine vliegenvanger",
+      "aliases": []
+    },
+    "brnshr": {
+      "name": "Bruine klauwier",
       "aliases": []
     },
     "wooduc": {
       "name": "Carolinaeend",
       "aliases": []
     },
+    "sursco": {
+      "name": "Brilzee-eend",
+      "aliases": []
+    },
+    "spewar2": {
+      "name": "Brilgrasmus",
+      "aliases": []
+    },
+    "yehbla": {
+      "name": "Geelkoptroepiaal",
+      "aliases": []
+    },
     "woosan": {
       "name": "Bosruiter",
+      "aliases": []
+    },
+    "acafly": {
+      "name": "Beukenfeetiran",
       "aliases": []
     },
     "comcha": {
       "name": "Vink",
       "aliases": []
     },
+    "amekes": {
+      "name": "Amerikaanse torenvalk",
+      "aliases": []
+    },
+    "rinphe2": {
+      "name": "Groene fazant",
+      "aliases": []
+    },
+    "wispet": {
+      "name": "Wilsons stormvogeltje",
+      "aliases": []
+    },
     "grswoo": {
       "name": "Grote bonte specht",
+      "aliases": []
+    },
+    "blrwar1": {
+      "name": "Struikrietzanger",
+      "aliases": []
+    },
+    "boowar1": {
+      "name": "Kleine spotvogel",
+      "aliases": []
+    },
+    "buffle": {
+      "name": "Buffelkopeend",
+      "aliases": []
+    },
+    "sora": {
+      "name": "Soraral",
+      "aliases": []
+    },
+    "moudov": {
+      "name": "Treurduif",
       "aliases": []
     },
     "chifla1": {
       "name": "Chileense flamingo",
       "aliases": []
     },
+    "chiwig1": {
+      "name": "Chileense smient",
+      "aliases": []
+    },
+    "spbduc": {
+      "name": "Chinese vlekbekeend",
+      "aliases": []
+    },
+    "derpar1": {
+      "name": "Lord derby's parkiet",
+      "aliases": []
+    },
+    "chukar": {
+      "name": "Aziatische steenpatrijs",
+      "aliases": []
+    },
+    "corshe1": {
+      "name": "Kuhlpijlstormvogel",
+      "aliases": []
+    },
+    "cosswa1": {
+      "name": "Coscoroba",
+      "aliases": []
+    },
+    "whcspa": {
+      "name": "Witkruingors",
+      "aliases": []
+    },
+    "orhthr1": {
+      "name": "Damalijster",
+      "aliases": []
+    },
+    "feapet2": {
+      "name": "Desertasstormvogel",
+      "aliases": []
+    },
+    "moured1": {
+      "name": "Diadeemroodstaart",
+      "aliases": []
+    },
+    "laaphe1": {
+      "name": "Lady-Amherstfazant",
+      "aliases": []
+    },
+    "diadov1": {
+      "name": "Diamantduif",
+      "aliases": []
+    },
+    "thbmur": {
+      "name": "Kortbekzeekoet",
+      "aliases": []
+    },
+    "thbwar1": {
+      "name": "Diksnavelrietzanger",
+      "aliases": []
+    },
     "eurjac": {
       "name": "Kauw",
       "aliases": []
     },
+    "kelgul": {
+      "name": "Kelpmeeuw",
+      "aliases": []
+    },
+    "pitwhy": {
+      "name": "Dominicanerwida",
+      "aliases": []
+    },
+    "gresni1": {
+      "name": "Poelsnip",
+      "aliases": []
+    },
+    "vilwea1": {
+      "name": "Grote textorwever",
+      "aliases": []
+    },
     "grewhi1": {
       "name": "Grasmus",
+      "aliases": []
+    },
+    "upcwar1": {
+      "name": "Grote vale spotvogel",
       "aliases": []
     },
     "bklkit": {
@@ -185,12 +589,40 @@
       "name": "Grote karekiet",
       "aliases": []
     },
+    "sposan": {
+      "name": "Amerikaanse oeverloper",
+      "aliases": []
+    },
+    "norwat": {
+      "name": "Noordelijke waterlijster",
+      "aliases": []
+    },
+    "ambduc": {
+      "name": "Amerikaanse zwarte eend",
+      "aliases": []
+    },
+    "duswar": {
+      "name": "Bruine boszanger",
+      "aliases": []
+    },
     "sooshe": {
       "name": "Grauwe pijlstormvogel",
       "aliases": []
     },
     "spored": {
       "name": "Zwarte ruiter",
+      "aliases": []
+    },
+    "slbgul1": {
+      "name": "Dunbekmeeuw",
+      "aliases": []
+    },
+    "eclpar4": {
+      "name": "Papoea-edelpapegaai",
+      "aliases": []
+    },
+    "edwphe1": {
+      "name": "Edwardsfazant",
       "aliases": []
     },
     "eurjay1": {
@@ -201,8 +633,20 @@
       "name": "Eider",
       "aliases": []
     },
+    "solsan": {
+      "name": "Amerikaanse bosruiter",
+      "aliases": []
+    },
+    "herthr": {
+      "name": "Heremietlijster",
+      "aliases": []
+    },
     "lotduc": {
       "name": "IJseend",
+      "aliases": []
+    },
+    "glagul": {
+      "name": "Grote burgemeester",
       "aliases": []
     },
     "norful": {
@@ -217,12 +661,72 @@
       "name": "IJsvogel",
       "aliases": []
     },
+    "elefal1": {
+      "name": "Eleonora's valk",
+      "aliases": []
+    },
+    "ivogul": {
+      "name": "Ivoormeeuw",
+      "aliases": []
+    },
+    "elllau1": {
+      "name": "Elliots lijstergaai",
+      "aliases": []
+    },
     "eurmag1": {
       "name": "Ekster",
       "aliases": []
     },
+    "daujac1": {
+      "name": "Daurische kauw",
+      "aliases": []
+    },
+    "aspsta2": {
+      "name": "Indiase eksterspreeuw",
+      "aliases": []
+    },
+    "emu1": {
+      "name": "Emoe",
+      "aliases": []
+    },
+    "scathr2": {
+      "name": "Goudlijster",
+      "aliases": []
+    },
+    "aldfly": {
+      "name": "Elzenfeetiran",
+      "aliases": []
+    },
     "eursis": {
       "name": "Sijs",
+      "aliases": []
+    },
+    "eskcur": {
+      "name": "Eskimowulp",
+      "aliases": []
+    },
+    "semplo": {
+      "name": "Amerikaanse bontbekplevier",
+      "aliases": []
+    },
+    "palthr1": {
+      "name": "Bleke lijster",
+      "aliases": []
+    },
+    "captea1": {
+      "name": "Kaapse taling",
+      "aliases": []
+    },
+    "palswi3": {
+      "name": "Vale gierzwaluw",
+      "aliases": []
+    },
+    "cliswa": {
+      "name": "Amerikaanse klifzwaluw",
+      "aliases": []
+    },
+    "comnig": {
+      "name": "Amerikaanse nachtzwaluw",
       "aliases": []
     },
     "lotjae": {
@@ -233,6 +737,10 @@
       "name": "Veldleeuwerik",
       "aliases": []
     },
+    "padwar1": {
+      "name": "Veldrietzanger",
+      "aliases": []
+    },
     "cogwar1": {
       "name": "Sprinkhaanzanger",
       "aliases": []
@@ -241,24 +749,64 @@
       "name": "Ringmus",
       "aliases": []
     },
+    "barpar2": {
+      "name": "Barbarijse patrijs",
+      "aliases": []
+    },
     "eurcrm1": {
       "name": "Rotszwaluw",
+      "aliases": []
+    },
+    "burpar": {
+      "name": "Holenparkiet",
       "aliases": []
     },
     "rocpig": {
       "name": "Rotsduif",
       "aliases": []
     },
+    "orabis1": {
+      "name": "Oranje wever",
+      "aliases": []
+    },
+    "pinbun": {
+      "name": "Witkopgors",
+      "aliases": []
+    },
     "redcro": {
       "name": "Kruisbek",
+      "aliases": []
+    },
+    "bkbwar": {
+      "name": "Sparrenzanger",
       "aliases": []
     },
     "osprey": {
       "name": "Visarend",
       "aliases": []
     },
+    "fistur1": {
+      "name": "Fischers toerako",
+      "aliases": []
+    },
+    "gbhgul2": {
+      "name": "Reuzenzwartkopmeeuw",
+      "aliases": []
+    },
     "wlwwar": {
       "name": "Fitis",
+      "aliases": []
+    },
+    "blwbis1": {
+      "name": "Roodvoorhoofdwever",
+      "aliases": []
+    },
+    "spotow": {
+      "name": "Gevlekte towie",
+      "aliases": []
+    },
+    "spoeao2": {
+      "name": "Afrikaanse oehoe",
       "aliases": []
     },
     "lirplo": {
@@ -273,6 +821,22 @@
       "name": "Oeverloper",
       "aliases": []
     },
+    "forter": {
+      "name": "Forsters stern",
+      "aliases": []
+    },
+    "redsho1": {
+      "name": "Argentijnse slobeend",
+      "aliases": []
+    },
+    "librol2": {
+      "name": "Vorkstaartscharrelaar",
+      "aliases": []
+    },
+    "indwhe1": {
+      "name": "Indische brilvogel",
+      "aliases": []
+    },
     "shttre1": {
       "name": "Boomkruiper",
       "aliases": []
@@ -285,20 +849,76 @@
       "name": "Gekraagde roodstaart",
       "aliases": []
     },
+    "normoc": {
+      "name": "Noordelijke spotlijster",
+      "aliases": []
+    },
     "grywag": {
       "name": "Grote gele kwikstaart",
+      "aliases": []
+    },
+    "yebsap": {
+      "name": "Geelbuiksapspecht",
       "aliases": []
     },
     "yebwar3": {
       "name": "Bladkoning",
       "aliases": []
     },
+    "yebbun1": {
+      "name": "Geelbrauwgors",
+      "aliases": []
+    },
+    "fuwduc": {
+      "name": "Rosse fluiteend",
+      "aliases": []
+    },
+    "baymac": {
+      "name": "Blauw-gele ara",
+      "aliases": []
+    },
+    "succoc": {
+      "name": "Grote geelkuifkaketoe",
+      "aliases": []
+    },
+    "yetvir": {
+      "name": "Geelborstvireo",
+      "aliases": []
+    },
     "yehpar": {
       "name": "Geelkopamazone",
       "aliases": []
     },
+    "ywcpar": {
+      "name": "Geelvoorhoofdamazone",
+      "aliases": []
+    },
+    "lesyel": {
+      "name": "Kleine geelpootruiter",
+      "aliases": []
+    },
+    "yebduc1": {
+      "name": "Geelsnaveleend",
+      "aliases": []
+    },
+    "yebcuc": {
+      "name": "Geelsnavelkoekoek",
+      "aliases": []
+    },
+    "yebloo": {
+      "name": "Geelsnavelduiker",
+      "aliases": []
+    },
+    "tufpuf": {
+      "name": "Kuifpapegaaiduiker",
+      "aliases": []
+    },
     "ictwar1": {
       "name": "Spotvogel",
+      "aliases": []
+    },
+    "gyrfal": {
+      "name": "Giervalk",
       "aliases": []
     },
     "eurbul": {
@@ -309,20 +929,116 @@
       "name": "Europese kanarie",
       "aliases": []
     },
+    "comduc2": {
+      "name": "Afrikaanse knobbeleend",
+      "aliases": []
+    },
+    "houcro1": {
+      "name": "Huiskraai",
+      "aliases": []
+    },
+    "bkskit1": {
+      "name": "Grijze wouw",
+      "aliases": []
+    },
+    "baitea": {
+      "name": "Siberische taling",
+      "aliases": []
+    },
+    "tancoc1": {
+      "name": "Goffinkaketoe",
+      "aliases": []
+    },
     "yellow2": {
       "name": "Geelgors",
+      "aliases": []
+    },
+    "yefpar5": {
+      "name": "Geelbuikamazone",
+      "aliases": []
+    },
+    "meypar1": {
+      "name": "Meyerpapegaai",
+      "aliases": []
+    },
+    "golphe": {
+      "name": "Goudfazant",
+      "aliases": []
+    },
+    "gowwar": {
+      "name": "Geelvleugelzanger",
+      "aliases": []
+    },
+    "palwar5": {
+      "name": "Pallas' boszanger",
       "aliases": []
     },
     "eugplo": {
       "name": "Goudplevier",
       "aliases": []
     },
+    "yelwar1": {
+      "name": "Gele zanger",
+      "aliases": []
+    },
+    "amegfi": {
+      "name": "Goudsijs",
+      "aliases": []
+    },
+    "savspa": {
+      "name": "Savannahgors",
+      "aliases": []
+    },
+    "bubsan": {
+      "name": "Blonde ruiter",
+      "aliases": []
+    },
     "corbun1": {
       "name": "Grauwe gors",
       "aliases": []
     },
+    "pecsan": {
+      "name": "Gestreepte strandloper",
+      "aliases": []
+    },
     "gragoo": {
       "name": "Grauwe gans",
+      "aliases": []
+    },
+    "grccra1": {
+      "name": "Grijze kroonkraanvogel",
+      "aliases": []
+    },
+    "purswa3": {
+      "name": "Grijskoppurperkoet",
+      "aliases": []
+    },
+    "ashgoo1": {
+      "name": "Grijskopgans",
+      "aliases": []
+    },
+    "gyhlap1": {
+      "name": "Grijskopkievit",
+      "aliases": []
+    },
+    "grhgul": {
+      "name": "Grijskopmeeuw",
+      "aliases": []
+    },
+    "silver3": {
+      "name": "Grijsrugbrilvogel",
+      "aliases": []
+    },
+    "grygul": {
+      "name": "Grijze meeuw",
+      "aliases": []
+    },
+    "crebun2": {
+      "name": "Bruinkeelortolaan",
+      "aliases": []
+    },
+    "grepar": {
+      "name": "Grijze roodstaartpapegaai",
       "aliases": []
     },
     "graher1": {
@@ -333,8 +1049,24 @@
       "name": "Grauwe vliegenvanger",
       "aliases": []
     },
+    "gyttat1": {
+      "name": "Siberische grijze ruiter",
+      "aliases": []
+    },
     "gyfwoo1": {
       "name": "Grijskopspecht",
+      "aliases": []
+    },
+    "graeao1": {
+      "name": "Grijze oehoe",
+      "aliases": []
+    },
+    "gycthr": {
+      "name": "Grijswangdwerglijster",
+      "aliases": []
+    },
+    "grtgra": {
+      "name": "Langstaarttroepiaal",
       "aliases": []
     },
     "grebus1": {
@@ -349,28 +1081,84 @@
       "name": "Groenling",
       "aliases": []
     },
+    "ragmac1": {
+      "name": "Groenvleugelara",
+      "aliases": []
+    },
     "grewar3": {
       "name": "Grauwe fitis",
+      "aliases": []
+    },
+    "grnher": {
+      "name": "Groene reiger",
       "aliases": []
     },
     "comgre": {
       "name": "Groenpootruiter",
       "aliases": []
     },
+    "gbesta1": {
+      "name": "Groenstaartglansspreeuw",
+      "aliases": []
+    },
+    "grnpar": {
+      "name": "Groene aratinga",
+      "aliases": []
+    },
     "eugwoo2": {
       "name": "Groene specht",
+      "aliases": []
+    },
+    "recpar": {
+      "name": "Groenwangamazone",
+      "aliases": []
+    },
+    "blhpar4": {
+      "name": "Zwartkopcaique",
+      "aliases": []
+    },
+    "eurgri1": {
+      "name": "Vale gier",
       "aliases": []
     },
     "commer": {
       "name": "Grote zaagbek",
       "aliases": []
     },
+    "belkin1": {
+      "name": "Bandijsvogel",
+      "aliases": []
+    },
     "norgos1": {
       "name": "Havik",
       "aliases": []
     },
+    "boneag2": {
+      "name": "Havikarend",
+      "aliases": []
+    },
     "uraowl1": {
       "name": "Oeraluil",
+      "aliases": []
+    },
+    "pingro": {
+      "name": "Haakbek",
+      "aliases": []
+    },
+    "aussho1": {
+      "name": "Australische slobeend",
+      "aliases": []
+    },
+    "varthr": {
+      "name": "Bonte lijster",
+      "aliases": []
+    },
+    "blkfra": {
+      "name": "Zwarte frankolijn",
+      "aliases": []
+    },
+    "ausshe1": {
+      "name": "Australische bergeend",
       "aliases": []
     },
     "colfly1": {
@@ -389,12 +1177,20 @@
       "name": "Kuifleeuwerik",
       "aliases": []
     },
+    "cremyn": {
+      "name": "Kuifmaina",
+      "aliases": []
+    },
     "cretit2": {
       "name": "Kuifmees",
       "aliases": []
     },
     "grcgre1": {
       "name": "Fuut",
+      "aliases": []
+    },
+    "houfin": {
+      "name": "Mexicaanse roodmus",
       "aliases": []
     },
     "blared1": {
@@ -405,40 +1201,252 @@
       "name": "Huismus",
       "aliases": []
     },
+    "hawgoo": {
+      "name": "Hawaïgans",
+      "aliases": []
+    },
     "dunnoc1": {
       "name": "Heggenmus",
+      "aliases": []
+    },
+    "rutscr1": {
+      "name": "Rosse waaierstaart",
       "aliases": []
     },
     "woolar1": {
       "name": "Boomleeuwerik",
       "aliases": []
     },
+    "wilpta1": {
+      "name": "Schots sneeuwhoen",
+      "aliases": []
+    },
+    "helgui": {
+      "name": "Helmparelhoen",
+      "aliases": []
+    },
     "lbbgul": {
       "name": "Kleine mantelmeeuw",
+      "aliases": []
+    },
+    "pacpar2": {
+      "name": "Blauwe muspapegaai",
+      "aliases": []
+    },
+    "commyn": {
+      "name": "Treurmaina",
       "aliases": []
     },
     "stodov1": {
       "name": "Holenduif",
       "aliases": []
     },
+    "whimbr3": {
+      "name": "Amerikaanse regenwulp",
+      "aliases": []
+    },
+    "hudgod": {
+      "name": "Rode grutto",
+      "aliases": []
+    },
+    "norhar2": {
+      "name": "Amerikaanse blauwe kiekendief",
+      "aliases": []
+    },
+    "grscuc1": {
+      "name": "Kuifkoekoek",
+      "aliases": []
+    },
+    "whwsco2": {
+      "name": "Amerikaanse grote zee-eend",
+      "aliases": []
+    },
+    "comduc3": {
+      "name": "Amerikaanse knobbeleend",
+      "aliases": []
+    },
     "mutswa": {
       "name": "Knobbelzwaan",
+      "aliases": []
+    },
+    "cabgoo1": {
+      "name": "Hoendergans",
+      "aliases": []
+    },
+    "subwar6": {
+      "name": "Westelijke baardgrasmus",
+      "aliases": []
+    },
+    "ibechi2": {
+      "name": "Iberische tjiftjaf",
+      "aliases": []
+    },
+    "y00475": {
+      "name": "Amerikaanse meerkoet",
+      "aliases": []
+    },
+    "leabit": {
+      "name": "Amerikaanse woudaap",
+      "aliases": []
+    },
+    "isbduc1": {
+      "name": "Indische vlekbekeend",
+      "aliases": []
+    },
+    "insowl1": {
+      "name": "Indische dwergooruil",
+      "aliases": []
+    },
+    "ingori1": {
+      "name": "Indiase wielewaal",
+      "aliases": []
+    },
+    "indbun": {
+      "name": "Indigogors",
+      "aliases": []
+    },
+    "incter1": {
+      "name": "Incastern",
+      "aliases": []
+    },
+    "weowar1": {
+      "name": "Westelijke vale spotvogel",
+      "aliases": []
+    },
+    "isawhe1": {
+      "name": "Izabeltapuit",
+      "aliases": []
+    },
+    "isashr1": {
+      "name": "Daurische klauwier",
+      "aliases": []
+    },
+    "itaspa1": {
+      "name": "Italiaanse mus",
       "aliases": []
     },
     "rinphe1": {
       "name": "Fazant",
       "aliases": []
     },
+    "japqua": {
+      "name": "Japanse kwartel",
+      "aliases": []
+    },
+    "lewduc1": {
+      "name": "Indische fluiteend",
+      "aliases": []
+    },
+    "demcra1": {
+      "name": "Jufferkraanvogel",
+      "aliases": []
+    },
+    "laukoo1": {
+      "name": "Kookaburra",
+      "aliases": []
+    },
+    "impeag1": {
+      "name": "Keizerarend",
+      "aliases": []
+    },
+    "empgoo": {
+      "name": "Keizergans",
+      "aliases": []
+    },
+    "callar1": {
+      "name": "Kalanderleeuwerik",
+      "aliases": []
+    },
+    "kalphe": {
+      "name": "Nepalese fazant",
+      "aliases": []
+    },
     "ruff": {
       "name": "Kemphaan",
+      "aliases": []
+    },
+    "slbgul": {
+      "name": "Kamtsjatkameeuw",
+      "aliases": []
+    },
+    "whwsco1": {
+      "name": "Aziatische grote zee-eend",
+      "aliases": []
+    },
+    "lessca": {
+      "name": "Kleine topper",
       "aliases": []
     },
     "cangoo": {
       "name": "Grote Canadese gans",
       "aliases": []
     },
+    "sancra": {
+      "name": "Canadese kraanvogel",
+      "aliases": []
+    },
+    "amhgul1": {
+      "name": "Amerikaanse zilvermeeuw",
+      "aliases": []
+    },
+    "amewig": {
+      "name": "Amerikaanse smient",
+      "aliases": []
+    },
+    "grbher3": {
+      "name": "Amerikaanse blauwe reiger",
+      "aliases": []
+    },
+    "canwar": {
+      "name": "Canadese zanger",
+      "aliases": []
+    },
+    "comcan": {
+      "name": "Kanarie",
+      "aliases": []
+    },
+    "burowl": {
+      "name": "Holenuil",
+      "aliases": []
+    },
+    "soashe1": {
+      "name": "Kaapse casarca",
+      "aliases": []
+    },
+    "blhbun1": {
+      "name": "Zwartkopgors",
+      "aliases": []
+    },
+    "greshe": {
+      "name": "Grote pijlstormvogel",
+      "aliases": []
+    },
+    "hoomer": {
+      "name": "Kokardezaagbek",
+      "aliases": []
+    },
+    "cavspa1": {
+      "name": "Kaapverdische mus",
+      "aliases": []
+    },
     "comros": {
       "name": "Roodmus",
+      "aliases": []
+    },
+    "chetea1": {
+      "name": "Kastanjetaling",
+      "aliases": []
+    },
+    "barpar1": {
+      "name": "Katharinaparkiet",
+      "aliases": []
+    },
+    "grycat": {
+      "name": "Katvogel",
+      "aliases": []
+    },
+    "killde": {
+      "name": "Killdeerplevier",
       "aliases": []
     },
     "hawfin": {
@@ -451,6 +1459,10 @@
     },
     "bkbplo": {
       "name": "Zilverplevier",
+      "aliases": []
+    },
+    "parcro2": {
+      "name": "Grote kruisbek",
       "aliases": []
     },
     "leswhi4": {
@@ -467,6 +1479,10 @@
     },
     "litcra1": {
       "name": "Klein waterhoen",
+      "aliases": []
+    },
+    "bawwar": {
+      "name": "Bonte zanger",
       "aliases": []
     },
     "redkno": {
@@ -489,6 +1505,18 @@
       "name": "Raaf",
       "aliases": []
     },
+    "lessap2": {
+      "name": "Mongoolse plevier",
+      "aliases": []
+    },
+    "refpar5": {
+      "name": "Congopapegaai",
+      "aliases": []
+    },
+    "audgul1": {
+      "name": "Audouins meeuw",
+      "aliases": []
+    },
     "grecor": {
       "name": "Aalscholver",
       "aliases": []
@@ -497,20 +1525,84 @@
       "name": "Blauwe kiekendief",
       "aliases": []
     },
+    "categr2": {
+      "name": "Oostelijke koereiger",
+      "aliases": []
+    },
+    "doveki": {
+      "name": "Kleine alk",
+      "aliases": []
+    },
+    "harduc": {
+      "name": "Harlekijneend",
+      "aliases": []
+    },
     "comcra": {
       "name": "Kraanvogel",
+      "aliases": []
+    },
+    "dalpel1": {
+      "name": "Kroeskoppelikaan",
       "aliases": []
     },
     "gnwtea": {
       "name": "Wintertaling",
       "aliases": []
     },
+    "eacwar1": {
+      "name": "Kroonboszanger",
+      "aliases": []
+    },
+    "yerwar": {
+      "name": "Geelstuitzanger",
+      "aliases": []
+    },
+    "eursha1": {
+      "name": "Kuifaalscholver",
+      "aliases": []
+    },
+    "grefla2": {
+      "name": "Caribische flamingo",
+      "aliases": []
+    },
     "comcuc": {
       "name": "Koekoek",
       "aliases": []
     },
+    "blhduc1": {
+      "name": "Koekoekseend",
+      "aliases": []
+    },
+    "categr1": {
+      "name": "Westelijke koereiger",
+      "aliases": []
+    },
     "pifgoo": {
       "name": "Kleine rietgans",
+      "aliases": []
+    },
+    "gstlar1": {
+      "name": "Kortteenleeuwerik",
+      "aliases": []
+    },
+    "ferhaw": {
+      "name": "Rosse ruigpootbuizerd",
+      "aliases": []
+    },
+    "reephe1": {
+      "name": "Koningsfazant",
+      "aliases": []
+    },
+    "royter1": {
+      "name": "Amerikaanse koningsstern",
+      "aliases": []
+    },
+    "aukpar1": {
+      "name": "Australische koningsparkiet",
+      "aliases": []
+    },
+    "werher": {
+      "name": "Westelijke rifreiger",
       "aliases": []
     },
     "arcter": {
@@ -525,6 +1617,42 @@
       "name": "Lachstern",
       "aliases": []
     },
+    "afcdov1": {
+      "name": "Izabeltortel",
+      "aliases": []
+    },
+    "lobmur": {
+      "name": "Aziatische marmeralk",
+      "aliases": []
+    },
+    "lotsti": {
+      "name": "Taigastrandloper",
+      "aliases": []
+    },
+    "lanfal1": {
+      "name": "Lannervalk",
+      "aliases": []
+    },
+    "azutit2": {
+      "name": "Azuurmees",
+      "aliases": []
+    },
+    "layduc": {
+      "name": "Laysaneend",
+      "aliases": []
+    },
+    "lazbun": {
+      "name": "Lazuligors",
+      "aliases": []
+    },
+    "verfly4": {
+      "name": "Azuurvliegenvanger",
+      "aliases": []
+    },
+    "subwar8": {
+      "name": "Moltoni's baardgrasmus",
+      "aliases": []
+    },
     "norsho": {
       "name": "Slobeend",
       "aliases": []
@@ -533,12 +1661,80 @@
       "name": "Lepelaar",
       "aliases": []
     },
+    "melduc1": {
+      "name": "Mellereend",
+      "aliases": []
+    },
+    "madpet": {
+      "name": "Freira",
+      "aliases": []
+    },
+    "barpet": {
+      "name": "Madeirastormvogeltje",
+      "aliases": []
+    },
+    "uplgoo1": {
+      "name": "Magelhaengans",
+      "aliases": []
+    },
+    "afrcha1": {
+      "name": "Afrikaanse vink",
+      "aliases": []
+    },
+    "magwar": {
+      "name": "Magnoliazanger",
+      "aliases": []
+    },
     "manduc": {
       "name": "Mandarijneend",
       "aliases": []
     },
+    "reccra1": {
+      "name": "Chinese kraanvogel",
+      "aliases": []
+    },
     "gbbgul": {
       "name": "Grote mantelmeeuw",
+      "aliases": []
+    },
+    "nezsca1": {
+      "name": "Nieuw-Zeelandse topper",
+      "aliases": []
+    },
+    "marsto1": {
+      "name": "Afrikaanse maraboe",
+      "aliases": []
+    },
+    "mouwar1": {
+      "name": "Zwartkoprietzanger",
+      "aliases": []
+    },
+    "martea1": {
+      "name": "Marmereend",
+      "aliases": []
+    },
+    "bkfbun1": {
+      "name": "Siberische maskergors",
+      "aliases": []
+    },
+    "ruewar1": {
+      "name": "Rüppells grasmus",
+      "aliases": []
+    },
+    "japgro1": {
+      "name": "Maskerdikbek",
+      "aliases": []
+    },
+    "maslap1": {
+      "name": "Maskerkievit",
+      "aliases": []
+    },
+    "afmwea": {
+      "name": "Maskerwever",
+      "aliases": []
+    },
+    "masshr1": {
+      "name": "Maskerklauwier",
       "aliases": []
     },
     "wallcr1": {
@@ -549,6 +1745,14 @@
       "name": "Gierzwaluw",
       "aliases": []
     },
+    "bkewhe1": {
+      "name": "Westelijke blonde tapuit",
+      "aliases": []
+    },
+    "schpar1": {
+      "name": "Maximiliaanmargrietje",
+      "aliases": []
+    },
     "pursan": {
       "name": "Paarse strandloper",
       "aliases": []
@@ -557,12 +1761,32 @@
       "name": "Huiszwaluw",
       "aliases": []
     },
+    "lotros1": {
+      "name": "Langstaartroodmus",
+      "aliases": []
+    },
+    "norpar": {
+      "name": "Brilparulazanger",
+      "aliases": []
+    },
     "merlin": {
       "name": "Smelleken",
       "aliases": []
     },
+    "lbesta1": {
+      "name": "Blauwoorglansspreeuw",
+      "aliases": []
+    },
+    "grewar2": {
+      "name": "Swinhoes boszanger",
+      "aliases": []
+    },
     "misthr1": {
       "name": "Grote lijster",
+      "aliases": []
+    },
+    "levshe1": {
+      "name": "Yelkouanpijlstormvogel",
       "aliases": []
     },
     "yelgul1": {
@@ -577,24 +1801,80 @@
       "name": "Middelste zaagbek",
       "aliases": []
     },
+    "gncpar": {
+      "name": "Groenwangparkiet",
+      "aliases": []
+    },
+    "dausta1": {
+      "name": "Daurische spreeuw",
+      "aliases": []
+    },
     "ferduc": {
       "name": "Witoogeend",
+      "aliases": []
+    },
+    "shbdow": {
+      "name": "Kleine grijze snip",
+      "aliases": []
+    },
+    "rucspa1": {
+      "name": "Roodkraaggors",
       "aliases": []
     },
     "eurdot": {
       "name": "Morinelplevier",
       "aliases": []
     },
+    "yefcan": {
+      "name": "Mozambiquesijs",
+      "aliases": []
+    },
+    "musduc": {
+      "name": "Muskuseend",
+      "aliases": []
+    },
+    "mugfly": {
+      "name": "Mugimakivliegenvanger",
+      "aliases": []
+    },
+    "nutman": {
+      "name": "Muskaatvink",
+      "aliases": []
+    },
+    "manduc1": {
+      "name": "Manengans",
+      "aliases": []
+    },
     "combuz1": {
       "name": "Buizerd",
+      "aliases": []
+    },
+    "cinvul1": {
+      "name": "Monniksgier",
       "aliases": []
     },
     "blackc1": {
       "name": "Zwartkop",
       "aliases": []
     },
+    "monpar": {
+      "name": "Monniksparkiet",
+      "aliases": []
+    },
+    "wlswar": {
+      "name": "Wilsons zanger",
+      "aliases": []
+    },
+    "meapar": {
+      "name": "Grote amazone",
+      "aliases": []
+    },
     "comnig1": {
       "name": "Nachtegaal",
+      "aliases": []
+    },
+    "eaowar2": {
+      "name": "Oostelijke orpheusgrasmus",
       "aliases": []
     },
     "bcnher": {
@@ -603,6 +1883,10 @@
     },
     "eurnig1": {
       "name": "Nachtzwaluw",
+      "aliases": []
+    },
+    "bkhpar": {
+      "name": "Nandayparkiet",
       "aliases": []
     },
     "grerhe1": {
@@ -621,12 +1905,56 @@
       "name": "Nijlgans",
       "aliases": []
     },
+    "piewhe1": {
+      "name": "Bonte tapuit",
+      "aliases": []
+    },
+    "cockat": {
+      "name": "Valkparkiet",
+      "aliases": []
+    },
+    "renpha": {
+      "name": "Grauwe franjepoot",
+      "aliases": []
+    },
     "horlar": {
       "name": "Strandleeuwerik",
       "aliases": []
     },
+    "doccor": {
+      "name": "Geoorde aalscholver",
+      "aliases": []
+    },
     "horgre": {
       "name": "Kuifduiker",
+      "aliases": []
+    },
+    "oltwar1": {
+      "name": "Griekse spotvogel",
+      "aliases": []
+    },
+    "orcwax": {
+      "name": "Oranjekaakje",
+      "aliases": []
+    },
+    "oripra": {
+      "name": "Oosterse vorkstaartplevier",
+      "aliases": []
+    },
+    "oripip1": {
+      "name": "Oriëntaalse pieper",
+      "aliases": []
+    },
+    "ortdov": {
+      "name": "Oosterse tortel",
+      "aliases": []
+    },
+    "origoo1": {
+      "name": "Orinocogans",
+      "aliases": []
+    },
+    "weowar2": {
+      "name": "Westelijke orpheusgrasmus",
       "aliases": []
     },
     "melwar1": {
@@ -637,32 +1965,188 @@
       "name": "Ortolaan",
       "aliases": []
     },
+    "redbis": {
+      "name": "Grenadierwever",
+      "aliases": []
+    },
+    "palbun": {
+      "name": "Pallas' rietgors",
+      "aliases": []
+    },
+    "sibsto1": {
+      "name": "Aziatische roodborsttapuit",
+      "aliases": []
+    },
+    "laudov1": {
+      "name": "Palmtortel",
+      "aliases": []
+    },
+    "subwar2": {
+      "name": "Steenboszanger",
+      "aliases": []
+    },
     "atlpuf": {
       "name": "Papegaaiduiker",
+      "aliases": []
+    },
+    "paibun": {
+      "name": "Purpergors",
+      "aliases": []
+    },
+    "parshe1": {
+      "name": "Paradijscasarca",
+      "aliases": []
+    },
+    "whepar2": {
+      "name": "Witoogaratinga",
+      "aliases": []
+    },
+    "fotswi": {
+      "name": "Siberische gierzwaluw",
+      "aliases": []
+    },
+    "pacloo": {
+      "name": "Pacifische parelduiker",
+      "aliases": []
+    },
+    "blksco2": {
+      "name": "Amerikaanse zee-eend",
+      "aliases": []
+    },
+    "criros2": {
+      "name": "Pennantrosella",
+      "aliases": []
+    },
+    "madpar2": {
+      "name": "Madagaskarpatrijs",
+      "aliases": []
+    },
+    "pecpip": {
+      "name": "Petsjorapieper",
+      "aliases": []
+    },
+    "compea": {
+      "name": "Blauwe pauw",
       "aliases": []
     },
     "eurwig": {
       "name": "Smient",
       "aliases": []
     },
+    "fislov1": {
+      "name": "Fischers agapornis",
+      "aliases": []
+    },
+    "plhpar1": {
+      "name": "Pruimkopparkiet",
+      "aliases": []
+    },
     "batgod": {
       "name": "Rosse grutto",
+      "aliases": []
+    },
+    "sacibi2": {
+      "name": "Heilige ibis",
+      "aliases": []
+    },
+    "egynig1": {
+      "name": "Egyptische nachtzwaluw",
+      "aliases": []
+    },
+    "phivir": {
+      "name": "Philadelphiavireo",
+      "aliases": []
+    },
+    "phiduc1": {
+      "name": "Filipijnse eend",
+      "aliases": []
+    },
+    "ovenbi1": {
+      "name": "Ovenvogel",
       "aliases": []
     },
     "eugori2": {
       "name": "Wielewaal",
       "aliases": []
     },
+    "speeid": {
+      "name": "Brileider",
+      "aliases": []
+    },
+    "y00478": {
+      "name": "Kleine burgemeester",
+      "aliases": []
+    },
+    "kineid": {
+      "name": "Koningseider",
+      "aliases": []
+    },
     "arcloo": {
       "name": "Parelduiker",
+      "aliases": []
+    },
+    "darwar1": {
+      "name": "Provençaalse grasmus",
+      "aliases": []
+    },
+    "amgplo": {
+      "name": "Amerikaanse goudplevier",
+      "aliases": []
+    },
+    "uplsan": {
+      "name": "Bartrams ruiter",
+      "aliases": []
+    },
+    "fragul": {
+      "name": "Franklins meeuw",
+      "aliases": []
+    },
+    "puntea1": {
+      "name": "Punataling",
+      "aliases": []
+    },
+    "pugsta1": {
+      "name": "Purperglansspreeuw",
+      "aliases": []
+    },
+    "comgra": {
+      "name": "Glanstroepiaal",
+      "aliases": []
+    },
+    "purswa1": {
+      "name": "Purperkoet",
       "aliases": []
     },
     "purher1": {
       "name": "Purperreiger",
       "aliases": []
     },
+    "purmar": {
+      "name": "Purperzwaluw",
+      "aliases": []
+    },
+    "hottea1": {
+      "name": "Gouden taling",
+      "aliases": []
+    },
+    "blkvul": {
+      "name": "Zwarte gier",
+      "aliases": []
+    },
     "carcro1": {
       "name": "Zwarte kraai",
+      "aliases": []
+    },
+    "radshe1": {
+      "name": "Radjaheend",
+      "aliases": []
+    },
+    "larspa": {
+      "name": "Roodoorgors",
+      "aliases": []
+    },
+    "squher1": {
+      "name": "Ralreiger",
       "aliases": []
     },
     "caster1": {
@@ -689,12 +2173,36 @@
       "name": "Patrijs",
       "aliases": []
     },
+    "railor5": {
+      "name": "Australische regenbooglori",
+      "aliases": []
+    },
     "whimbr5": {
       "name": "Regenwulp",
       "aliases": []
     },
     "tufduc": {
       "name": "Kuifeend",
+      "aliases": []
+    },
+    "javspa": {
+      "name": "Rijstvogel",
+      "aliases": []
+    },
+    "boboli": {
+      "name": "Bobolink",
+      "aliases": []
+    },
+    "crccou1": {
+      "name": "Renvogel",
+      "aliases": []
+    },
+    "stseag": {
+      "name": "Stellers zeearend",
+      "aliases": []
+    },
+    "canvas": {
+      "name": "Grote tafeleend",
       "aliases": []
     },
     "rinouz1": {
@@ -707,6 +2215,18 @@
     },
     "cowpig1": {
       "name": "Houtduif",
+      "aliases": []
+    },
+    "rinduc": {
+      "name": "Ringsnaveleend",
+      "aliases": []
+    },
+    "ribgul": {
+      "name": "Ringsnavelmeeuw",
+      "aliases": []
+    },
+    "polpar1": {
+      "name": "Halsringparkiet",
       "aliases": []
     },
     "reebun": {
@@ -729,12 +2249,96 @@
       "name": "Flamingo",
       "aliases": []
     },
+    "galah": {
+      "name": "Roze kaketoe",
+      "aliases": []
+    },
+    "grwpel1": {
+      "name": "Roze pelikaan",
+      "aliases": []
+    },
+    "easros1": {
+      "name": "Prachtrosella",
+      "aliases": []
+    },
+    "robgro": {
+      "name": "Roodborstkardinaal",
+      "aliases": []
+    },
+    "palros2": {
+      "name": "Pallas' roodmus",
+      "aliases": []
+    },
+    "blhpar3": {
+      "name": "Bloesemkopparkiet",
+      "aliases": []
+    },
+    "peflov": {
+      "name": "Perzikkopagapornis",
+      "aliases": []
+    },
+    "rosgul": {
+      "name": "Ross' meeuw",
+      "aliases": []
+    },
+    "pieduc1": {
+      "name": "Lepelbekeend",
+      "aliases": []
+    },
+    "robpoc1": {
+      "name": "Peposakaeend",
+      "aliases": []
+    },
+    "roster": {
+      "name": "Dougalls stern",
+      "aliases": []
+    },
+    "rossta2": {
+      "name": "Roze spreeuw",
+      "aliases": []
+    },
+    "dusthr2": {
+      "name": "Bruine lijster",
+      "aliases": []
+    },
     "rudshe": {
       "name": "Casarca",
       "aliases": []
     },
+    "dusthr1": {
+      "name": "Naumanns lijster",
+      "aliases": []
+    },
+    "reevir1": {
+      "name": "Roodoogvireo",
+      "aliases": []
+    },
+    "rebnut": {
+      "name": "Canadese boomklever",
+      "aliases": []
+    },
     "redwin": {
       "name": "Koperwiek",
+      "aliases": []
+    },
+    "colpra": {
+      "name": "Vorkstaartplevier",
+      "aliases": []
+    },
+    "rewbla": {
+      "name": "Epauletspreeuw",
+      "aliases": []
+    },
+    "reffal1": {
+      "name": "Roodpootvalk",
+      "aliases": []
+    },
+    "refboo": {
+      "name": "Roodpootgent",
+      "aliases": []
+    },
+    "afrspo1": {
+      "name": "Afrikaanse lepelaar",
       "aliases": []
     },
     "rebgoo1": {
@@ -745,28 +2349,176 @@
       "name": "Roodhalsfuut",
       "aliases": []
     },
+    "relpar1": {
+      "name": "Rode patrijs",
+      "aliases": []
+    },
+    "norcar": {
+      "name": "Rode kardinaal",
+      "aliases": []
+    },
+    "rensti": {
+      "name": "Roodkeelstrandloper",
+      "aliases": []
+    },
     "eurrob1": {
       "name": "Roodborst",
+      "aliases": []
+    },
+    "retthr1": {
+      "name": "Roodkeellijster",
+      "aliases": []
+    },
+    "retpip": {
+      "name": "Roodkeelpieper",
+      "aliases": []
+    },
+    "retpar3": {
+      "name": "Roodkoppapegaaiamadine",
+      "aliases": []
+    },
+    "redhea": {
+      "name": "Amerikaanse tafeleend",
+      "aliases": []
+    },
+    "ruhgoo1": {
+      "name": "Roodkopgans",
+      "aliases": []
+    },
+    "schbla1": {
+      "name": "Roodkoptroepiaal",
+      "aliases": []
+    },
+    "wooshr1": {
+      "name": "Roodkopklauwier",
+      "aliases": []
+    },
+    "rewlap1": {
+      "name": "Indische kievit",
       "aliases": []
     },
     "redkit1": {
       "name": "Rode wouw",
       "aliases": []
     },
+    "rewbul": {
+      "name": "Roodoorbuulbuul",
+      "aliases": []
+    },
     "comred1": {
       "name": "Tureluur",
+      "aliases": []
+    },
+    "bbwduc": {
+      "name": "Zwartbuikfluiteend",
+      "aliases": []
+    },
+    "reblei": {
+      "name": "Japanse nachtegaal",
+      "aliases": []
+    },
+    "rebtro": {
+      "name": "Roodsnavelkeerkringvogel",
+      "aliases": []
+    },
+    "rebduc1": {
+      "name": "Roodsnavelpijlstaart",
+      "aliases": []
+    },
+    "reccar": {
+      "name": "Roodkuifkardinaal",
       "aliases": []
     },
     "rintea1": {
       "name": "Ringtaling",
       "aliases": []
     },
+    "amered": {
+      "name": "Amerikaanse roodstaart",
+      "aliases": []
+    },
+    "rethaw": {
+      "name": "Roodstaartbuizerd",
+      "aliases": []
+    },
+    "rutshr2": {
+      "name": "Turkestaanse klauwier",
+      "aliases": []
+    },
+    "relpar10": {
+      "name": "Geelwangamazone",
+      "aliases": []
+    },
+    "fifser1": {
+      "name": "Roodvoorhoofdkanarie",
+      "aliases": []
+    },
+    "sibrub": {
+      "name": "Roodkeelnachtegaal",
+      "aliases": []
+    },
+    "blclov1": {
+      "name": "Zwartwangagapornis",
+      "aliases": []
+    },
+    "dasfly": {
+      "name": "Roetvliegenvanger",
+      "aliases": []
+    },
+    "sooter1": {
+      "name": "Bonte stern",
+      "aliases": []
+    },
+    "chebun1": {
+      "name": "Rosse gors",
+      "aliases": []
+    },
+    "leskes1": {
+      "name": "Kleine torenvalk",
+      "aliases": []
+    },
+    "pibpel1": {
+      "name": "Kleine pelikaan",
+      "aliases": []
+    },
+    "rerswa8": {
+      "name": "Roodrugzwaluw (Roodstuitzwaluw)",
+      "aliases": []
+    },
+    "ruepar1": {
+      "name": "Rüppellpapegaai",
+      "aliases": []
+    },
+    "lecter2": {
+      "name": "Bengaalse stern",
+      "aliases": []
+    },
     "rook1": {
       "name": "Roek",
       "aliases": []
     },
+    "saffin": {
+      "name": "Gewone saffraangors",
+      "aliases": []
+    },
+    "afdwar1": {
+      "name": "Afrikaanse woestijngrasmus",
+      "aliases": []
+    },
+    "whtwhe1": {
+      "name": "Witkruintapuit",
+      "aliases": []
+    },
+    "duccoc1": {
+      "name": "Ducorpskaketoe",
+      "aliases": []
+    },
     "whwsco3": {
       "name": "Grote zee-eend",
+      "aliases": []
+    },
+    "sarwar1": {
+      "name": "Kleine zwartkop",
       "aliases": []
     },
     "sander": {
@@ -777,12 +2529,68 @@
       "name": "Bontbekplevier",
       "aliases": []
     },
+    "semsan": {
+      "name": "Grijze strandloper",
+      "aliases": []
+    },
+    "marwar1": {
+      "name": "Sardijnse grasmus",
+      "aliases": []
+    },
+    "sattra1": {
+      "name": "Rood saterhoen",
+      "aliases": []
+    },
+    "lotshr1": {
+      "name": "Langstaartklauwier",
+      "aliases": []
+    },
     "eaywag1": {
       "name": "Gele kwikstaart",
       "aliases": []
     },
+    "scamac1": {
+      "name": "Geelvleugelara",
+      "aliases": []
+    },
+    "scatan": {
+      "name": "Zwartvleugeltangare",
+      "aliases": []
+    },
+    "scaibi": {
+      "name": "Rode ibis",
+      "aliases": []
+    },
+    "ncbeat1": {
+      "name": "Noordelijke karmijnrode bijeneter",
+      "aliases": []
+    },
+    "steeid": {
+      "name": "Stellers eider",
+      "aliases": []
+    },
+    "grseag1": {
+      "name": "Bastaardarend",
+      "aliases": []
+    },
     "comgol": {
       "name": "Brilduiker",
+      "aliases": []
+    },
+    "sibthr1": {
+      "name": "Siberische lijster",
+      "aliases": []
+    },
+    "easkin": {
+      "name": "Oostelijke koningstiran",
+      "aliases": []
+    },
+    "piecro1": {
+      "name": "Schildraaf",
+      "aliases": []
+    },
+    "suppar1": {
+      "name": "Barrabandparkiet",
       "aliases": []
     },
     "sedwar1": {
@@ -793,12 +2601,36 @@
       "name": "Krekelzanger",
       "aliases": []
     },
+    "shteag1": {
+      "name": "Slangenarend",
+      "aliases": []
+    },
     "webowl1": {
       "name": "Kerkuil",
       "aliases": []
     },
     "parjae": {
       "name": "Kleine jager",
+      "aliases": []
+    },
+    "reccor": {
+      "name": "Blauwfazantje",
+      "aliases": []
+    },
+    "snoegr": {
+      "name": "Amerikaanse kleine zilverreiger",
+      "aliases": []
+    },
+    "eleter1": {
+      "name": "Sierlijke stern",
+      "aliases": []
+    },
+    "elepar1": {
+      "name": "Prachtparkiet",
+      "aliases": []
+    },
+    "egyvul1": {
+      "name": "Aasgier",
       "aliases": []
     },
     "gadwal": {
@@ -809,28 +2641,112 @@
       "name": "Sneeuwgors",
       "aliases": []
     },
+    "snoowl1": {
+      "name": "Sneeuwuil",
+      "aliases": []
+    },
     "snogoo": {
       "name": "Sneeuwgans",
+      "aliases": []
+    },
+    "whiibi": {
+      "name": "Witte ibis",
       "aliases": []
     },
     "whwsno1": {
       "name": "Sneeuwvink",
       "aliases": []
     },
+    "y00678": {
+      "name": "Kuifcaracara",
+      "aliases": []
+    },
+    "calqua": {
+      "name": "Californische kuifkwartel",
+      "aliases": []
+    },
+    "chiswi": {
+      "name": "Schoorsteengierzwaluw",
+      "aliases": []
+    },
+    "scocro1": {
+      "name": "Schotse kruisbek",
+      "aliases": []
+    },
     "leseag1": {
       "name": "Schreeuwarend",
+      "aliases": []
+    },
+    "strowl1": {
+      "name": "Gestreepte ransuil",
+      "aliases": []
+    },
+    "sabgul": {
+      "name": "Vorkstaartmeeuw",
+      "aliases": []
+    },
+    "swipar1": {
+      "name": "Zwaluwpapegaai",
+      "aliases": []
+    },
+    "swagoo1": {
+      "name": "Zwaangans",
       "aliases": []
     },
     "lottit1": {
       "name": "Staartmees",
       "aliases": []
     },
+    "amebit": {
+      "name": "Noord-Amerikaanse roerdomp",
+      "aliases": []
+    },
+    "bkbalb": {
+      "name": "Wenkbrauwalbatros",
+      "aliases": []
+    },
+    "blbthr2": {
+      "name": "Zwartborstlijster",
+      "aliases": []
+    },
+    "afbduc1": {
+      "name": "Afrikaanse zwarte eend",
+      "aliases": []
+    },
+    "blwpra1": {
+      "name": "Steppevorkstaartplevier",
+      "aliases": []
+    },
+    "blnswa2": {
+      "name": "Zwarthalszwaan",
+      "aliases": []
+    },
     "eargre": {
       "name": "Geoorde fuut",
       "aliases": []
     },
+    "chemun": {
+      "name": "Kastanjenon",
+      "aliases": []
+    },
+    "blcpar1": {
+      "name": "Zwartkopparkiet",
+      "aliases": []
+    },
     "stonec4": {
       "name": "Roodborsttapuit",
+      "aliases": []
+    },
+    "datthr1": {
+      "name": "Zwartkeellijster",
+      "aliases": []
+    },
+    "blacra1": {
+      "name": "Zwart porseleinhoen",
+      "aliases": []
+    },
+    "rudduc": {
+      "name": "Rosse stekelstaart",
       "aliases": []
     },
     "medgul1": {
@@ -841,6 +2757,18 @@
       "name": "Zwarte wouw",
       "aliases": []
     },
+    "bknsti": {
+      "name": "Amerikaanse steltkluut",
+      "aliases": []
+    },
+    "blhpar1": {
+      "name": "Zwartoormargrietje",
+      "aliases": []
+    },
+    "bkbcuc": {
+      "name": "Zwartsnavelkoekoek",
+      "aliases": []
+    },
     "blkswa": {
       "name": "Zwarte zwaan",
       "aliases": []
@@ -849,8 +2777,28 @@
       "name": "Zwarte specht",
       "aliases": []
     },
+    "blalar1": {
+      "name": "Zwarte leeuwerik",
+      "aliases": []
+    },
+    "legshr2": {
+      "name": "Kleine klapekster",
+      "aliases": []
+    },
     "blasto1": {
       "name": "Zwarte ooievaar",
+      "aliases": []
+    },
+    "bkfibi1": {
+      "name": "Zwartmaskeribis",
+      "aliases": []
+    },
+    "rutrob1": {
+      "name": "Snornachtegaal",
+      "aliases": []
+    },
+    "turpar1": {
+      "name": "Turkooisparkiet",
       "aliases": []
     },
     "whteag": {
@@ -865,6 +2813,10 @@
       "name": "Waterrietzanger",
       "aliases": []
     },
+    "litegr": {
+      "name": "Kleine zilverreiger",
+      "aliases": []
+    },
     "bohwax": {
       "name": "Pestvogel",
       "aliases": []
@@ -873,8 +2825,40 @@
       "name": "Cetti's zanger",
       "aliases": []
     },
+    "senpar": {
+      "name": "Bonte boertje",
+      "aliases": []
+    },
+    "scoshe1": {
+      "name": "Scopolipijlstormvogel",
+      "aliases": []
+    },
+    "sibpip1": {
+      "name": "Siberische waterpieper",
+      "aliases": []
+    },
+    "falduc": {
+      "name": "Bronskopeend",
+      "aliases": []
+    },
     "cursan": {
       "name": "Krombekstrandloper",
+      "aliases": []
+    },
+    "gloibi": {
+      "name": "Zwarte ibis",
+      "aliases": []
+    },
+    "ancmur": {
+      "name": "Zilveralk",
+      "aliases": []
+    },
+    "siltea1": {
+      "name": "Zilvertaling",
+      "aliases": []
+    },
+    "silphe": {
+      "name": "Zilverfazant",
       "aliases": []
     },
     "euhgul1": {
@@ -885,6 +2869,10 @@
       "name": "Grote zilverreiger",
       "aliases": []
     },
+    "sonspa": {
+      "name": "Zanggors",
+      "aliases": []
+    },
     "sonthr1": {
       "name": "Zanglijster",
       "aliases": []
@@ -893,12 +2881,32 @@
       "name": "Wilde zwaan",
       "aliases": []
     },
+    "rerpar1": {
+      "name": "Roodrugparkiet",
+      "aliases": []
+    },
     "gresku1": {
       "name": "Grote jager",
       "aliases": []
     },
+    "milmac": {
+      "name": "Soldatenara",
+      "aliases": []
+    },
     "firecr1": {
       "name": "Vuurgoudhaan",
+      "aliases": []
+    },
+    "sunpar1": {
+      "name": "Zonparkiet",
+      "aliases": []
+    },
+    "grejun2": {
+      "name": "Sonnerathoen",
+      "aliases": []
+    },
+    "bargol": {
+      "name": "IJslandse brilduiker",
       "aliases": []
     },
     "pomjae": {
@@ -907,6 +2915,14 @@
     },
     "eurspa1": {
       "name": "Sperwer",
+      "aliases": []
+    },
+    "nohowl": {
+      "name": "Sperweruil",
+      "aliases": []
+    },
+    "ruegri1": {
+      "name": "Rüppells gier",
       "aliases": []
     },
     "barwar1": {
@@ -921,12 +2937,44 @@
       "name": "Pijlstaart",
       "aliases": []
     },
+    "whrmun": {
+      "name": "Spitsstaartbronzemannetje",
+      "aliases": []
+    },
+    "shtsan": {
+      "name": "Siberische strandloper",
+      "aliases": []
+    },
+    "yebpin1": {
+      "name": "Geelsnavelpijlstaart",
+      "aliases": []
+    },
+    "bucpar": {
+      "name": "Blauwkoparatinga",
+      "aliases": []
+    },
     "laplon": {
       "name": "IJsgors",
       "aliases": []
     },
+    "spwgoo1": {
+      "name": "Spoorwiekgans",
+      "aliases": []
+    },
+    "spwlap1": {
+      "name": "Sporenkievit",
+      "aliases": []
+    },
+    "ricpip1": {
+      "name": "Grote pieper",
+      "aliases": []
+    },
     "thrnig1": {
       "name": "Noordse nachtegaal",
+      "aliases": []
+    },
+    "whtnee": {
+      "name": "Stekelstaartgierzwaluw",
       "aliases": []
     },
     "eursta": {
@@ -945,6 +2993,10 @@
       "name": "Steenuil",
       "aliases": []
     },
+    "gyhbun1": {
+      "name": "Steenortolaan",
+      "aliases": []
+    },
     "rtrthr1": {
       "name": "Rode rotslijster",
       "aliases": []
@@ -953,16 +3005,52 @@
       "name": "Tapuit",
       "aliases": []
     },
+    "rocpet1": {
+      "name": "Rotsmus",
+      "aliases": []
+    },
     "rudtur": {
       "name": "Steenloper",
+      "aliases": []
+    },
+    "stonec7": {
+      "name": "Stejnegers roodborsttapuit",
       "aliases": []
     },
     "bkwsti": {
       "name": "Steltkluut",
       "aliases": []
     },
+    "steeag1": {
+      "name": "Steppearend",
+      "aliases": []
+    },
+    "palsan1": {
+      "name": "Steppehoen",
+      "aliases": []
+    },
+    "soclap1": {
+      "name": "Steppekievit",
+      "aliases": []
+    },
     "casgul2": {
       "name": "Pontische meeuw",
+      "aliases": []
+    },
+    "blypip1": {
+      "name": "Mongoolse pieper",
+      "aliases": []
+    },
+    "oriplo1": {
+      "name": "Steppeplevier",
+      "aliases": []
+    },
+    "sykwar2": {
+      "name": "Sykes' spotvogel",
+      "aliases": []
+    },
+    "palhar1": {
+      "name": "Steppekiekendief",
       "aliases": []
     },
     "retloo": {
@@ -981,8 +3069,28 @@
       "name": "Oeverpieper",
       "aliases": []
     },
+    "crepar1": {
+      "name": "Roelroel",
+      "aliases": []
+    },
     "bahgoo": {
       "name": "Indische gans",
+      "aliases": []
+    },
+    "pagwar1": {
+      "name": "Siberische sprinkhaanzanger",
+      "aliases": []
+    },
+    "bkpwar": {
+      "name": "Zwartkopzanger",
+      "aliases": []
+    },
+    "y00621": {
+      "name": "Amoerroodstuitzwaluw",
+      "aliases": []
+    },
+    "lanwar": {
+      "name": "Kleine sprinkhaanzanger",
       "aliases": []
     },
     "mewgul": {
@@ -1009,12 +3117,44 @@
       "name": "Bosrietzanger",
       "aliases": []
     },
+    "treswa": {
+      "name": "Boomzwaluw",
+      "aliases": []
+    },
+    "swiphe1": {
+      "name": "Swinhoes fazant",
+      "aliases": []
+    },
+    "swspet": {
+      "name": "Chinees stormvogeltje",
+      "aliases": []
+    },
     "pieavo1": {
       "name": "Kluut",
       "aliases": []
     },
+    "sthsee2": {
+      "name": "Streepkopkanarie",
+      "aliases": []
+    },
+    "swfowl1": {
+      "name": "Zuidelijke witwanguil",
+      "aliases": []
+    },
+    "sopsku1": {
+      "name": "Zuidpooljager",
+      "aliases": []
+    },
     "compoc": {
       "name": "Tafeleend",
+      "aliases": []
+    },
+    "yecbis": {
+      "name": "Napoleonwever",
+      "aliases": []
+    },
+    "taifly1": {
+      "name": "Taigavliegenvanger",
       "aliases": []
     },
     "eurnut3": {
@@ -1025,6 +3165,10 @@
       "name": "Zwarte mees",
       "aliases": []
     },
+    "wheduc1": {
+      "name": "Australische witoogeend",
+      "aliases": []
+    },
     "commoo3": {
       "name": "Waterhoen",
       "aliases": []
@@ -1033,8 +3177,40 @@
       "name": "Kleine karekiet",
       "aliases": []
     },
+    "marsan": {
+      "name": "Poelruiter",
+      "aliases": []
+    },
     "temsti": {
       "name": "Temmincks strandloper",
+      "aliases": []
+    },
+    "temtra1": {
+      "name": "Temmincksaterhoen",
+      "aliases": []
+    },
+    "tersan": {
+      "name": "Terekruiter",
+      "aliases": []
+    },
+    "redpha1": {
+      "name": "Rosse franjepoot",
+      "aliases": []
+    },
+    "lessap1": {
+      "name": "Tibetaanse plevier",
+      "aliases": []
+    },
+    "humwar1": {
+      "name": "Humes bladkoning",
+      "aliases": []
+    },
+    "camwar": {
+      "name": "Tijgerzanger",
+      "aliases": []
+    },
+    "grypar10": {
+      "name": "Timnehpapegaai",
       "aliases": []
     },
     "razorb": {
@@ -1043,6 +3219,10 @@
     },
     "blksco1": {
       "name": "Zwarte zee-eend",
+      "aliases": []
+    },
+    "cargra1": {
+      "name": "Caribische troepiaal",
       "aliases": []
     },
     "eupfly1": {
@@ -1057,16 +3237,40 @@
       "name": "Griel",
       "aliases": []
     },
+    "trista1": {
+      "name": "Tristrams spreeuw",
+      "aliases": []
+    },
+    "truswa": {
+      "name": "Trompetzwaan",
+      "aliases": []
+    },
     "commur": {
       "name": "Zeekoet",
+      "aliases": []
+    },
+    "turvul": {
+      "name": "Roodkopgier",
       "aliases": []
     },
     "wiltur": {
       "name": "Kalkoen",
       "aliases": []
     },
+    "eaywag": {
+      "name": "Oostelijke gele kwikstaart",
+      "aliases": []
+    },
+    "pagplo": {
+      "name": "Aziatische goudplevier",
+      "aliases": []
+    },
     "tunbeg1": {
       "name": "Toendrarietgans",
+      "aliases": []
+    },
+    "lobdow": {
+      "name": "Grote grijze snip",
       "aliases": []
     },
     "eurkes": {
@@ -1075,6 +3279,10 @@
     },
     "eutdov": {
       "name": "Zomertortel",
+      "aliases": []
+    },
+    "greyel": {
+      "name": "Grote geelpootruiter",
       "aliases": []
     },
     "spocra1": {
@@ -1097,8 +3305,32 @@
       "name": "Oehoe",
       "aliases": []
     },
+    "pllwar1": {
+      "name": "Oessoerifitis",
+      "aliases": []
+    },
+    "orwpar": {
+      "name": "Oranjevleugelamazone",
+      "aliases": []
+    },
+    "mulpar1": {
+      "name": "Regenboogparkiet",
+      "aliases": []
+    },
+    "grhowl": {
+      "name": "Amerikaanse oehoe",
+      "aliases": []
+    },
+    "norbob": {
+      "name": "Bobwhite",
+      "aliases": []
+    },
     "fieldf": {
       "name": "Kramsvogel",
+      "aliases": []
+    },
+    "grnwar1": {
+      "name": "Groene fitis",
       "aliases": []
     },
     "comqua1": {
@@ -1109,8 +3341,16 @@
       "name": "Kwartelkoning",
       "aliases": []
     },
+    "rusbun": {
+      "name": "Bosgors",
+      "aliases": []
+    },
     "eurtre1": {
       "name": "Taigaboomkruiper",
+      "aliases": []
+    },
+    "woothr": {
+      "name": "Amerikaanse boslijster",
       "aliases": []
     },
     "tawowl1": {
@@ -1125,6 +3365,14 @@
       "name": "Ransuil",
       "aliases": []
     },
+    "olbpip": {
+      "name": "Siberische boompieper",
+      "aliases": []
+    },
+    "waldra1": {
+      "name": "Heremietibis",
+      "aliases": []
+    },
     "taibeg1": {
       "name": "Taigarietgans",
       "aliases": []
@@ -1137,8 +3385,20 @@
       "name": "Witgat",
       "aliases": []
     },
+    "amerob": {
+      "name": "Roodborstlijster",
+      "aliases": []
+    },
     "perfal": {
       "name": "Slechtvalk",
+      "aliases": []
+    },
+    "arcwar1": {
+      "name": "Noordse boszanger",
+      "aliases": []
+    },
+    "wawduc1": {
+      "name": "Zwervende fluiteend",
       "aliases": []
     },
     "whtdip1": {
@@ -1149,16 +3409,124 @@
       "name": "Waterral",
       "aliases": []
     },
+    "soppet1": {
+      "name": "Donsstormvogel",
+      "aliases": []
+    },
+    "yebbun": {
+      "name": "Wilgengors",
+      "aliases": []
+    },
+    "comyel": {
+      "name": "Gewone maskerzanger",
+      "aliases": []
+    },
     "wiltit1": {
       "name": "Matkop",
+      "aliases": []
+    },
+    "veery": {
+      "name": "Veery",
+      "aliases": []
+    },
+    "spaspa1": {
+      "name": "Spaanse mus",
+      "aliases": []
+    },
+    "whiter2": {
+      "name": "Witwangstern",
+      "aliases": []
+    },
+    "easpho": {
+      "name": "Grijze phoebe",
+      "aliases": []
+    },
+    "brnboo": {
+      "name": "Bruine gent",
+      "aliases": []
+    },
+    "eyethr": {
+      "name": "Vale lijster",
+      "aliases": []
+    },
+    "whhpig1": {
+      "name": "Witkopduif",
+      "aliases": []
+    },
+    "whrsan": {
+      "name": "Bonapartes strandloper",
+      "aliases": []
+    },
+    "whrsha": {
+      "name": "Witstuitshama",
+      "aliases": []
+    },
+    "whrswi1": {
+      "name": "Pijlstaartgierzwaluw",
       "aliases": []
     },
     "whwter": {
       "name": "Witvleugelstern",
       "aliases": []
     },
+    "desfin2": {
+      "name": "Vale woestijnvink",
+      "aliases": []
+    },
+    "yebgro1": {
+      "name": "Witvleugeldikbek",
+      "aliases": []
+    },
+    "whtspa": {
+      "name": "Witkeelgors",
+      "aliases": []
+    },
+    "whtrob3": {
+      "name": "Perzische roodborst",
+      "aliases": []
+    },
+    "whhduc1": {
+      "name": "Witkopeend",
+      "aliases": []
+    },
+    "baleag": {
+      "name": "Amerikaanse zeearend",
+      "aliases": []
+    },
+    "whhmun1": {
+      "name": "Witkopnon",
+      "aliases": []
+    },
+    "whncra1": {
+      "name": "Witnekkraanvogel",
+      "aliases": []
+    },
+    "whebul1": {
+      "name": "Witoorbuulbuul",
+      "aliases": []
+    },
+    "whctur1": {
+      "name": "Witwangtoerako",
+      "aliases": []
+    },
+    "whbvul1": {
+      "name": "Witruggier",
+      "aliases": []
+    },
     "whbwoo1": {
       "name": "Witrugspecht",
+      "aliases": []
+    },
+    "whcred1": {
+      "name": "Rivierroodstaart",
+      "aliases": []
+    },
+    "whtlap1": {
+      "name": "Witstaartkievit",
+      "aliases": []
+    },
+    "whcpar": {
+      "name": "Witkopmargrietje",
       "aliases": []
     },
     "whisto1": {
@@ -1169,12 +3537,24 @@
       "name": "Brandgans",
       "aliases": []
     },
+    "comwax": {
+      "name": "Sint-Helenafazantje",
+      "aliases": []
+    },
     "lcspet": {
       "name": "Vaal stormvogeltje",
       "aliases": []
     },
+    "budger": {
+      "name": "Grasparkiet",
+      "aliases": []
+    },
     "eurwry": {
       "name": "Draaihals",
+      "aliases": []
+    },
+    "casplo1": {
+      "name": "Kaspische plevier",
       "aliases": []
     },
     "euhbuz1": {
@@ -1185,16 +3565,64 @@
       "name": "Hop",
       "aliases": []
     },
+    "meabun1": {
+      "name": "Weidegors",
+      "aliases": []
+    },
     "meapip1": {
       "name": "Graspieper",
+      "aliases": []
+    },
+    "leasan": {
+      "name": "Kleinste strandloper",
       "aliases": []
     },
     "monhar1": {
       "name": "Grauwe kiekendief",
       "aliases": []
     },
+    "wilsni1": {
+      "name": "Amerikaanse watersnip",
+      "aliases": []
+    },
+    "wilpha": {
+      "name": "Grote franjepoot",
+      "aliases": []
+    },
+    "daejun": {
+      "name": "Grijze junco",
+      "aliases": []
+    },
     "goldcr1": {
       "name": "Goudhaan",
+      "aliases": []
+    },
+    "wfwduc1": {
+      "name": "Witwangfluiteend",
+      "aliases": []
+    },
+    "sakfal1": {
+      "name": "Sakervalk",
+      "aliases": []
+    },
+    "hrshaw": {
+      "name": "Woestijnbuizerd",
+      "aliases": []
+    },
+    "trufin2": {
+      "name": "Woestijnvink",
+      "aliases": []
+    },
+    "asdwar1": {
+      "name": "Aziatische woestijngrasmus",
+      "aliases": []
+    },
+    "grsplo": {
+      "name": "Woestijnplevier",
+      "aliases": []
+    },
+    "deswhe1": {
+      "name": "Woestijntapuit",
       "aliases": []
     },
     "cirbun1": {
@@ -1205,24 +3633,76 @@
       "name": "Winterkoning",
       "aliases": []
     },
+    "zebfin2": {
+      "name": "Zebravink",
+      "aliases": []
+    },
+    "cedwax": {
+      "name": "Cederpestvogel",
+      "aliases": []
+    },
+    "refpar4": {
+      "name": "Roodvoorhoofdkakariki",
+      "aliases": []
+    },
     "comchi1": {
       "name": "Tjiftjaf",
+      "aliases": []
+    },
+    "cintea": {
+      "name": "Kaneeltaling",
       "aliases": []
     },
     "rocbun1": {
       "name": "Grijze gors",
       "aliases": []
     },
+    "zitcis1": {
+      "name": "Graszanger",
+      "aliases": []
+    },
+    "citwag": {
+      "name": "Citroenkwikstaart",
+      "aliases": []
+    },
     "citfin1": {
       "name": "Citroensijs",
+      "aliases": []
+    },
+    "booeag1": {
+      "name": "Dwergarend",
+      "aliases": []
+    },
+    "litbun": {
+      "name": "Dwerggors",
+      "aliases": []
+    },
+    "resmac2": {
+      "name": "Roodschouderara",
+      "aliases": []
+    },
+    "litcur": {
+      "name": "Kleine regenwulp",
       "aliases": []
     },
     "litbit1": {
       "name": "Woudaap",
       "aliases": []
     },
+    "lesfla1": {
+      "name": "Kleine flamingo",
+      "aliases": []
+    },
     "lwfgoo": {
       "name": "Dwerggans",
+      "aliases": []
+    },
+    "cacgoo1": {
+      "name": "Kleine Canadese gans",
+      "aliases": []
+    },
+    "swathr": {
+      "name": "Dwerglijster",
       "aliases": []
     },
     "litgul": {
@@ -1231,6 +3711,18 @@
     },
     "eursco1": {
       "name": "Dwergooruil",
+      "aliases": []
+    },
+    "pygcor2": {
+      "name": "Dwergaalscholver",
+      "aliases": []
+    },
+    "rosgoo": {
+      "name": "Ross' gans",
+      "aliases": []
+    },
+    "jacsni": {
+      "name": "Bokje",
       "aliases": []
     },
     "rebfly": {
@@ -1249,6 +3741,10 @@
       "name": "Kleine strandloper",
       "aliases": []
     },
+    "purgal2": {
+      "name": "Amerikaans purperhoen",
+      "aliases": []
+    },
     "baicra1": {
       "name": "Kleinst waterhoen",
       "aliases": []
@@ -1259,6 +3755,18 @@
     },
     "litgre1": {
       "name": "Dodaars",
+      "aliases": []
+    },
+    "litbus1": {
+      "name": "Kleine trap",
+      "aliases": []
+    },
+    "briter1": {
+      "name": "Brilstern",
+      "aliases": []
+    },
+    "grepea1": {
+      "name": "Groene pauw",
       "aliases": []
     }
   }

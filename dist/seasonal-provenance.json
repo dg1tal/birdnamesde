@@ -1,6 +1,8 @@
 {
+  "catalogFingerprint": "c89c2434c7790ae7524ee3926d25502865c9d2176e12c97487546f337e86c1d0",
   "dataset": {
-    "id": "ebd-relSep-2026-2021-2025-v1",
+    "catalogFingerprint": "c89c2434c7790ae7524ee3926d25502865c9d2176e12c97487546f337e86c1d0",
+    "id": "ebd-relSep-2026-2021-2025-catalog-v2",
     "source": "eBird Basic Dataset",
     "release": "September 2026",
     "period": "2021–2025"
@@ -244,11 +246,11 @@
   },
   "originalDataPublished": false,
   "inputs": {
-    "data/ebd-seasonal-preview.json": "e5697504a63d634c0c550663b5574577ee1ac12d46c98fe691732f77ad82c839",
+    "data/ebd-seasonal-preview.json": "7dc4dda1e4a2cb56f349acb1c7b33c4276cceccc242a9aa25c8682bbad14f807",
     "data/ebd-region-match.json": "0f8af750e8973f410c25be29a2ef22fd203d2582b0499954db87ae3c0116602d",
     "data/taxonomy.csv": "38ae7e68a03b651e8056e2f4abfad898533a12dbd9343f0e01cb2723ec20aaeb",
     "data/ebird-citation.json": "1ee4dd5aaf34f6f6c305ac9ab9565b90b304c266886f17813fc86b37890076d4",
     "data/ebd-seasonal-preview.terms.txt": "e07599e66ec0aa0f03c6366077b0f7f74fe0bd85f898d1e8bbf4544fcd5bda52",
-    "scripts/build-ebd-seasonal.py": "8d984eae3d52b3f657d7ce54e0a1affd7d51599f61aa39e9c5961ec344444ed6"
+    "scripts/build-ebd-seasonal.py": "26aaa4f3b360be71ae5263b04da23b7c090d2023c8bdc5a5ea04bcb05e5d6f49"
   }
 }

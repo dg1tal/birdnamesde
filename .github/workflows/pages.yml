@@ -40,6 +40,8 @@ jobs:
           node scripts/test-information.mjs
           node scripts/test-study-photo-layout.mjs
           node scripts/test-study-viewport.mjs
+          node scripts/test-lookup-settings.mjs
+          python3 -m unittest discover -s scripts -p 'test_catalog.py'
           npm test
           node scripts/test-learning-model.mjs
           node scripts/test-practice-queue.mjs

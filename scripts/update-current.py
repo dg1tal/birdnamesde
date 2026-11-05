@@ -37,15 +37,18 @@ def notable_records(payload,known,now):
     return [{'id':key,'observedOn':date.isoformat(),'expiresOn':(date+dt.timedelta(days=14)).isoformat()} for key,date in sorted(latest.items())]
 
 def main():
-    now=dt.datetime.now(dt.timezone.utc);known={s['id'] for s in json.loads((ROOT/'dist/species.json').read_text())['species']}
+    now=dt.datetime.now(dt.timezone.utc)
+    catalog=json.loads((ROOT/'dist/species.json').read_text())
+    known={s['id'] for s in catalog['species']}
+    fingerprint=catalog.get('meta',{}).get('catalog',{}).get('fingerprint')
     previous={}
     local=ROOT/'dist/current-notable.json'
-    for data in [json.loads(local.read_text())] if local.exists() else []:
-        previous.update({r['code']:r for r in data.get('regions',[])})
-    try:
-        data=regions.request_json('https://dg1tal.github.io/birdnamesde/current-notable.json')
-        if data.get('version')==1:previous.update({r['code']:r for r in data.get('regions',[])})
+    sources=[json.loads(local.read_text())] if local.exists() else []
+    try:sources.append(regions.request_json('https://dg1tal.github.io/birdnamesde/current-notable.json'))
     except Exception:pass
+    for data in sources:
+        if data.get('version')==1 and (not fingerprint or data.get('catalogFingerprint')==fingerprint):
+            previous.update({r['code']:r for r in data.get('regions',[])})
     codes=[r['code'] for r in json.loads((ROOT/'dist/regions.json').read_text())['regions']]
     token=os.environ.get('EBIRD_API_KEY','').strip();output=[]
     def refresh(code):
@@ -61,7 +64,7 @@ def main():
         for future in as_completed([executor.submit(refresh,c) for c in codes]):
             item=future.result()
             if item:output.append(item)
-    encoded=json.dumps({'version':1,'source':'eBird recent notable observations','terms':'https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/','regions':sorted(output,key=lambda r:r['code'])},ensure_ascii=False,indent=2)+'\n'
+    encoded=json.dumps({'version':1,'catalogFingerprint':fingerprint,'source':'eBird recent notable observations','terms':'https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/','regions':sorted(output,key=lambda r:r['code'])},ensure_ascii=False,indent=2)+'\n'
     if token and token in encoded:raise ValueError('Credential material rejected')
     temporary=local.with_suffix('.json.tmp');temporary.write_text(encoded);temporary.replace(local)
     print(f'Prepared dated notable records for {len(output)}/{len(codes)} regions; no locations or observer data published.')

@@ -1,4 +1,4 @@
-import {regionalSelection} from './regions.js?v=20261029-uklocal1';
+import {regionalSelection} from './regions.js?v=20261105-catalog1';
 const DAY=86400000;
 export const FREQUENCY_GROUPS=['frequent','medium','rare'];
 export function frequencyGroups(value){return Array.isArray(value)?FREQUENCY_GROUPS.filter(g=>value.includes(g)):['frequent','medium'];}
