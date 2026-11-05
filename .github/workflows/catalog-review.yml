@@ -1,0 +1,20 @@
+name: Review catalogue sources
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Fetch unfiltered national taxon lists
+        env:
+          EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
+        run: python3 scripts/catalog-sources.py --output review/catalog-country-lists.json
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: catalogue-sources
+          path: review/catalog-country-lists.json
+          retention-days: 7
