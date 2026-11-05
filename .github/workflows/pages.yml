@@ -26,46 +26,35 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
-      - name: Check regional data code
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '26'
+          check-latest: true
+          package-manager-cache: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.15'
+          check-latest: true
+      - name: Report runtime versions
         run: |
-          python3 -m unittest discover -s scripts -p 'test_regions.py'
-          node scripts/test-regions.mjs
-          node scripts/test-multilingual.mjs
-          node scripts/test-editorial-translations.mjs
-          node scripts/test-study-translations.mjs
-          node scripts/test-information.mjs
-          node scripts/test-study-photo-layout.mjs
-          node scripts/test-study-viewport.mjs
-          node scripts/test-lookup-settings.mjs
-          python3 -m unittest discover -s scripts -p 'test_catalog.py'
+          node --version
+          npm --version
+          python3 --version
+      - name: Check application and data
+        run: |
           npm test
-          node scripts/test-learning-model.mjs
-          node scripts/test-practice-queue.mjs
-          node scripts/test-learning-method.mjs
-          node scripts/test-study-state.mjs
-          node scripts/test-progress-copy.mjs
-          node scripts/test-backup.mjs
-          node scripts/test-accessibility.mjs
-          node scripts/test-learning-settings.mjs
-          node scripts/test-hybrid-learning.mjs
-          python3 -m unittest discover -s scripts -p 'test_current.py'
-          python3 -m unittest discover -s scripts -p 'test_seasonal.py'
-          python3 -m unittest discover -s scripts -p 'test_ebd.py'
-          python3 -m unittest discover -s scripts -p 'test_ebd_activation.py'
+          for test in scripts/test-*.mjs; do node "$test" || exit 1; done
+          python3 -m unittest discover -s scripts -p 'test_*.py'
+          python3 scripts/validate-data.py
           python3 scripts/build-ebd-seasonal.py --check
           python3 scripts/check-private-ebd.py
-          python3 -m unittest discover -s scripts -p 'test_photo*.py'
           node scripts/validate-photos.mjs
-          node --check dist/app.js
-          node --check dist/accessibility.js
-          node --check dist/backup.js
-          node --check dist/learning-storage.js
-          node --check dist/study-viewport.js
-          node --check dist/i18n.js
+          for file in dist/*.js; do node --check "$file" || exit 1; done
+          git diff --exit-code -- dist data
       - name: Refresh eBird regional species lists
         env:
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
@@ -79,9 +68,9 @@ jobs:
         env:
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
         run: python3 scripts/update-current.py
-      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
-      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: dist
       - id: deployment
-        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
