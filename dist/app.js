@@ -1,7 +1,7 @@
 import {continuationSettings,practiceQueue} from './practice-queue.js?v=20261102-continue1';
 import {dailyNewNamesText,selectionExplanation} from './learning-selection-copy.js?v=20261102-selection1';
 import {RULES,migrateRecords,evidence,secure,dailyQueue,dailyLedger,introduce,pairKnown,beginIntroduction,gradeRecord,statusLabel,evidenceText,scheduleText,family} from './learning-model.js?v=20261102-learning2';
-import {renderLearningMethod} from './learning-method.js?v=20261104-sources1';
+import {renderLearningMethod} from './learning-method.js?v=20261105-copy1';
 import {validateSeasonal,hybridSelection,hybridQueue,seasonLabel,regionalSnapshot,seasonalDatasetText,FREQUENCY_GROUPS,frequencyGroups,frequencyLabel} from './hybrid-learning.js?v=20261105-ebd1';
 import {SPECIES_PACKAGES,speciesPackageControls} from './species-packages.js?v=20261102-selection1';
 import {createAnnouncer,setTextIfChanged,focusElement,contentLanguage,queueFocus,activateView} from './accessibility.js?v=20261101-wave2';
@@ -10,7 +10,7 @@ import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} fr
 import {lessonProgressText,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261102-learning2';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
-import {renderInformation} from './info-page.js?v=20261105-ebdcredit2';
+import {renderInformation} from './info-page.js?v=20261105-copy1';
 import {loadSharedUI,restoreLessonState,selectionMessage} from './learning-settings.js?v=20261105-ebd1';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261029-uklocal1';
