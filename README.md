@@ -352,3 +352,20 @@ feedback and draft instead of being discarded at the former 1,878-entry limit.
 regression, maximum sizes, legacy backup round trips, malformed counters/dates,
 failed/aborted/blocked reads, late callbacks and preservation of original data.
 See `docs/quality-review-20261105.md` for the original findings and verification.
+
+
+## Completion messages and module consistency
+
+A positive completion message requires all round questions and extra attempts to
+be finished. Daily-round completion additionally checks the currently offered
+questions for the same learning direction/method and remaining reviews today.
+Ending a round early preserves its graded answers and reports its open questions.
+Setup and completion share `dailyLearningPlan()`; current additions retain their
+priority among new candidates without reserving a fixed share. The unused former
+quota queue has been removed. `scripts/test-hybrid-learning.mjs` exercises the
+actual daily/practice paths, and `scripts/test-progress-copy.mjs` checks the
+completion conditions in German and English.
+
+Run `node scripts/test-module-versions.mjs` to check that production imports and
+the HTML entry point use a single URL version for each local JavaScript module.
+This check runs in the existing Pages test loop.

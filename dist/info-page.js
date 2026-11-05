@@ -1,4 +1,4 @@
-import {seasonalDatasetText} from './hybrid-learning.js?v=20261105-requiredregion1';
+import {seasonalDatasetText} from './hybrid-learning.js?v=20261105-quality2';
 import {NAME_LANGUAGES,languageLabel} from './name-languages.js?v=20261101-scientific1';
 
 export const INFO_REVIEWED='2026-11-05';

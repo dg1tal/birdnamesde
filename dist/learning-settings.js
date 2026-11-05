@@ -1,4 +1,4 @@
-import {validateLesson} from './study-state.js?v=20261105-recovery1';
+import {validateLesson} from './study-state.js?v=20261105-quality2';
 
 // Countries remain selectable if a regional snapshot is temporarily unavailable.
 export const LEARNING_COUNTRIES=[

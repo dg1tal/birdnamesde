@@ -1,10 +1,47 @@
 # Qualitätskontrolle BirdNames DE · 5. November 2026
 
+## Nachtrag: Behebung F4, W1 und W2
+
+Auch die drei verbleibenden Befunde sind behoben:
+
+- **F4:** Eine positive Abschlussmeldung erfordert die vollständige Bearbeitung
+  aller Rundenfragen und Zusatzversuche. Tagesrunden berücksichtigen zusätzlich
+  die noch angebotenen Aufgaben derselben Lernrichtung und Methode sowie heutige
+  Wiederholungstermine. Ein vorzeitiger Abschluss bleibt als solcher bezeichnet.
+- **W1:** Die ungenutzte Funktion `hybridQueue()` samt Import und Tests eines festen
+  Fünftel-Anteils wurde entfernt. Die unveränderte tatsächliche Tagesauswahl ist
+  jetzt als `dailyLearningPlan()` für Vorbereitung und Zusammenfassung gemeinsam
+  nutzbar. Integrationstests verbinden regionale Auswahl, aktuelle Ergänzungen,
+  Einführung und Tagesbudget; fällige Ziele außerhalb der Auswahl und erste
+  Abfragen einer weiteren Methode bleiben berücksichtigt. Freie Übung enthält
+  weiterhin alle ausgewählten aktuellen Ergänzungen, ohne feste Quote.
+- **W2:** Alle produktiven Verweise auf `hybrid-learning.js` verwenden dieselbe
+  Versionskennung. Die betroffenen abhängigen Module und der HTML-Einstieg
+  erhielten neue Cachekennungen. Der neue CI-Test `test-module-versions.mjs`
+  überprüft die lokalen Modul-URLs einschließlich des HTML-Einstiegs und lehnt
+  unterschiedliche Kennungen für dieselbe Datei ab.
+
+**Nachweise:** Vollständige Node-Suite, 46 Python-Tests, Daten-/Medienvalidierung,
+EBD-Reproduzierbarkeit und Syntaxprüfungen bestanden. Ergänzte Regressionen prüfen
+DE/EN vor der ersten Antwort, nach Teilbearbeitung, mit offenen Zusatzversuchen,
+mit ausstehenden Methodenabfragen, bei fälligen/heute noch geplanten Wiederholungen
+und nach vollständiger Bearbeitung.
+
+**Browser:** Getrennte lokale Testdaten an Port 48766. Deutsch: Tagesrunde nach
+1/3 Antworten beendet, offene Fragen korrekt ausgewiesen. Englisch: Bekannte
+Namen mit einer weiteren Antwortmethode abgefragt, eine richtige Antwort ohne
+fällige Wiederholungen, dann vorzeitig beendet. Die vorher widersprüchliche
+Erledigt-Meldung blieb aus; die beiden ausstehenden Methodenabfragen wurden in
+der Vorbereitung erneut angeboten. Nach ihrer vollständigen richtigen
+Bearbeitung erschien „Daily round complete.“ wieder. Keine erfassten
+Console-Warnungen/-Fehler. Die historischen Befundbeschreibungen unten bleiben
+als Ausgangsnachweis erhalten.
+
 ## Nachtrag: Behebung F1–F3
 
 Die nachfolgende Bestandsaufnahme beschreibt weiterhin den ursprünglichen Commit
-`8fd1c9d`. F1–F3 wurden anschließend behoben; F4, W1 und W2 bleiben außerhalb dieses
-Änderungspakets offen.
+`8fd1c9d`. F1–F3 wurden im ersten Änderungspaket behoben. Die anschließende
+Behebung von F4, W1 und W2 ist im vorstehenden Nachtrag dokumentiert.
 
 - **F1:** Gemeinsame, aus Kataloggröße und `RULES.maxRetries` abgeleitete Rundengrenzen
   ersetzen 1.878. Eine feste Regression erzeugt 1.750 Ausgangsfragen, erweitert sie

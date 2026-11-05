@@ -42,3 +42,8 @@ export function questionReasonText(item,english=false){
  if(item.reason==='practice')return english?`You are practising this ${code?'code':'name'} again as part of your chosen round. Its scheduled review was not yet due.`:`Du übst diesen ${code?'Code':'Namen'} im Rahmen deiner gewählten Runde erneut. Eine planmäßige Wiederholung war noch nicht fällig.`;
  return english?'This bird is part of your chosen round.':'Dieser Vogel gehört zu deiner gewählten Runde.';
 }
+
+export function completionMessage({total,completed,repeats},{daily=false,dueCount=0,nextDue,pendingDaily=false,now=Date.now()}={},english=false){
+ if(!total||completed!==total||repeats||dueCount||nextDue!=null&&new Date(nextDue).toDateString()===new Date(now).toDateString()||daily&&pendingDaily)return '';
+ return daily?(english?'Daily round complete.':'Tagesrunde erledigt.'):(english?'No reviews are due right now.':'Zurzeit sind keine Wiederholungen fällig.');
+}

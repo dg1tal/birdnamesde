@@ -57,13 +57,3 @@ export function hybridSelection(regions,seasonal,current,cfg,ids,now=new Date(),
  const additions=records.filter(r=>!base.includes(r.id));
  return {ids:[...new Set([...base,...additions.map(r=>r.id)])],baseIds:base,additions,season,frequencyGroups:groups,selectedGroups,seasonalReady,seasonalRequested:cfg.regionMode==='seasonal',seasonalDataset:cfg.regionMode==='seasonal'&&seasonal?.dataset?structuredClone(seasonal.dataset):null,sample:list?.sample||0,years:list?.years||0,available:!!cfg.region&&(seasonalReady||!!fallback||additions.length>0),currentFresh,currentUpdatedAt:currentFresh?available.updatedAt:null};
 }
-export function hybridQueue(pool,n,additionIds,rank,random=Math.random){
- const sorted=pool.map(s=>({s,r:random()})).sort((a,b)=>rank(a.s)-rank(b.s)||a.r-b.r).map(x=>x.s);
- if(n>=pool.length)return sorted;
- const extras=sorted.filter(s=>additionIds.has(s.id)),base=sorted.filter(s=>!additionIds.has(s.id));
- // At most a fifth of a normal round; only fill beyond it if no base questions remain.
- const extraCount=extras.length?Math.min(extras.length,Math.max(1,Math.floor(n/5))):0;
- const chosen=[...base.slice(0,n-extraCount),...extras.slice(0,extraCount)];
- for(const s of sorted)if(chosen.length<n&&!chosen.includes(s))chosen.push(s);
- return chosen.sort((a,b)=>sorted.indexOf(a)-sorted.indexOf(b));
-}
