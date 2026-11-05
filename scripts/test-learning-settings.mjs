@@ -58,3 +58,12 @@ for(const english of [false,true]){
 const unsafe=speciesPackageControls([{level:1,de:'<img src=x>',en:'<script>'}],[1],false);
 assert(unsafe.includes('&lt;img src=x&gt;'));assert(!unsafe.includes('<img'));
 console.log('PASS: complete bilingual package lists cover all species, preserve stable selections and escape names.');
+
+for(const english of [false,true]){
+ assert.match(selectionMessage({count:0,noFrequency:true},english),english?/No frequency group/:/Keine Häufigkeitsstufe/);
+ // Current additions may still supply species even when no historical group is selected.
+ assert.equal(selectionMessage({count:2,noFrequency:true},english),english?'2 species match your selection.':'2 Arten passen zur Auswahl.');
+ assert.match(selectionMessage({count:0,noFrequency:true,noGroups:true},english),english?/No species group/:/Keine Artengruppe/);
+ assert.match(selectionMessage({count:0,noFrequency:true,unavailable:true},english),english?/regional list/:/regionale Liste/);
+}
+console.log('PASS: empty seasonal selections explain the missing frequency group without rejecting available current additions.');
