@@ -16,6 +16,7 @@ assert(Object.keys(media).every(id=>species.some(s=>s.id===id)),'Media reference
 const seen=new Set(),files=new Set();let count=0,illustrations=0;
 for(const s of species.filter(s=>media[s.id])){
  const images=[media[s.id],...(media[s.id].additional||[])];
+ assert(images.length<=2,`At most two images per species: ${s.de||s.en}`);
  for(const p of images){
  count++;
  assert.ok(!p.mediaType||['photo','illustration'].includes(p.mediaType),`media type: ${s.de}`);

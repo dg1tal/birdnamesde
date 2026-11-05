@@ -84,4 +84,15 @@ class EggExclusionTests(unittest.TestCase):
     def test_egg_without_egg_in_filename(self):
         self.assertFalse(p.usable(image(title='File:Vautour africain MHNT.jpg',description='Egg of White-backed Vulture',categories='Gyps eggs')))
 
+class ComparisonLimitTests(unittest.TestCase):
+    def test_redundant_neutral_lead_is_removed(self):
+        def candidate(filename):return (filename,image(title='File:'+filename),{'caption':''})
+        neutral=candidate('Example.jpg');male=candidate('Example male.jpg');female=candidate('Example female.jpg')
+        self.assertEqual(p.limit_comparison_images([neutral,male,female]),[male,female])
+        self.assertEqual(p.limit_comparison_images([male,female]),[male,female])
+        self.assertEqual(p.limit_comparison_images([neutral]),[neutral])
+        pair=candidate('Example male and female.jpg')
+        self.assertEqual(p.limit_comparison_images([neutral,male,pair]),[male,pair])
+
+
 if __name__=='__main__':unittest.main()

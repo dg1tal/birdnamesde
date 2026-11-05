@@ -376,6 +376,16 @@ def score(name,page,caption):
     return value
 
 
+def limit_comparison_images(chosen):
+    # Once both labelled sexes are available, the unlabelled lead is redundant.
+    if len(chosen)>2:
+        labelled=[item for item in chosen if sex_evidence(item[0],item[1]['imageinfo'][0].get('extmetadata',{}),item[2]['caption'])[0]]
+        coverage={sex for item in labelled for sex in sex_evidence(item[0],item[1]['imageinfo'][0].get('extmetadata',{}),item[2]['caption'])[0]}
+        if len(labelled)==2 and coverage=={'male','female'}:return labelled
+        raise ValueError('Image selection exceeds two without a complete labelled comparison')
+    return chosen
+
+
 def stage(args,cache,birds):
     data=json.loads(args.output.read_text());destination=args.destination
     if destination is None:raise ValueError('--destination is required for staging')
@@ -406,7 +416,7 @@ def stage(args,cache,birds):
                 if candidate and candidate[1]['title'] not in {x[1]['title'] for x in chosen}:
                     chosen.append(candidate)
                     covered.update(sex_evidence(candidate[0],candidate[1]['imageinfo'][0].get('extmetadata',{}),candidate[2]['caption'])[0])
-        selected[s['id']]={'species':s,'entry':entry,'chosen':chosen}
+        selected[s['id']]={'species':s,'entry':entry,'chosen':limit_comparison_images(chosen)}
     print(f'Staging {sum(len(x["chosen"]) for x in selected.values())} images for {len(selected)} species; {len(missing)} unresolved species',flush=True)
     output={};source_files={}
     def work(item):
