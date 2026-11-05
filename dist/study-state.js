@@ -1,13 +1,14 @@
-import {RULES} from './learning-model.js?v=20261102-learning2';
+import {RULES,lessonQueueLimit,lessonBaseLimit} from './learning-model.js?v=20261105-recovery1';
 import {isNameLanguage} from './name-languages.js?v=20261101-scientific1';
 import {validSeasonalDataset} from './hybrid-learning.js?v=20261105-ebd1';
 // Serializable lesson state. Grading and navigation are separate so restored
 // feedback cannot grade an answer twice.
 export function validateLesson(value, ids) {
-  if (!value || ![1,2].includes(value.version) || !Array.isArray(value.queue) || !value.queue.length || value.queue.length > 1878) return null;
+  if (!value || ![1,2].includes(value.version) || !Array.isArray(value.queue) || !value.queue.length || value.queue.length > lessonQueueLimit(ids.size)) return null;
+  if(value.queue.filter(i=>i?.retry===0).length>lessonBaseLimit(ids.size))return null;
   if (!Number.isInteger(value.index) || value.index < 0 || value.index >= value.queue.length) return null;
   if (!['text','flash','mc','think'].includes(value.method)) return null;
-  if (!value.queue.every(i => i && ids.has(i.id) && (isNameLanguage(i.t)||i.t==='code') && Number.isInteger(i.retry) && i.retry >= 0 && i.retry <= 2)) return null;
+  if (!value.queue.every(i => i && ids.has(i.id) && (isNameLanguage(i.t)||i.t==='code') && Number.isInteger(i.retry) && i.retry >= 0 && i.retry <= RULES.maxRetries)) return null;
   if(!value.queue.every(i=>i.reason===undefined||['new','due','practice','retry','legacy'].includes(i.reason)))return null;
   for (const field of ['answered','correct','firstAnswered','firstCorrect']) if (!Number.isInteger(value[field]) || value[field] < 0) return null;
   if (value.correct > value.answered || value.firstCorrect > value.firstAnswered || value.firstAnswered > value.answered) return null;

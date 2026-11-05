@@ -321,3 +321,34 @@ actual official code. Coverage and counts in the information view are dynamic.
 Checks: `node scripts/test-lookup-settings.mjs`,
 `python3 -m unittest discover -s scripts -p 'test_catalog.py'`, the existing complete
 Node/Python suite, data validation, EBD reproducibility and media validation.
+
+## Protected progress recovery (5 November 2026)
+
+Saved learning state is validated before migration or any normal write. The same
+counter/date rules apply to backups and local records, including method contexts
+and legacy values; optional historical counters remain optional. Unsupported
+entries retain the existing skip-and-report behavior during backup import. Local
+startup never silently removes unsupported or damaged records.
+
+If records, the daily ledger or a saved lesson cannot be restored safely, Learn
+and Statistics show a recovery view in the selected interface language. Lookup
+remains available. Normal learning writes are blocked, and the original stored
+state is kept until the user explicitly replaces it with a checked v1/v2 backup.
+Readable original state can be downloaded as a separately marked rescue JSON
+file; this is diagnostic material, not an importable progress backup. A failed
+replacement keeps both the original data and the recovery lock. A reload retries
+storage initialization. Opening/reading storage is bounded to ten seconds; late
+callbacks cannot publish state or start normal writes after a timeout. Backup
+format version 2 and IndexedDB database version 1 remain unchanged.
+
+Round recovery uses the catalogue size and `RULES.maxRetries`: at most two initial
+targets per species, each with its permitted extra attempts (5,640 entries for
+940 species and two retries). Large v1/v2 rounds retain their queue, counters,
+feedback and draft instead of being discarded at the former 1,878-entry limit.
+
+`dist/progress-validation.js` owns shared record and daily-ledger validation;
+`dist/learning-storage.js` owns bounded loading and atomic replacement. Run
+`node scripts/test-learning-recovery.mjs` for the fixed 1,750-question large-round
+regression, maximum sizes, legacy backup round trips, malformed counters/dates,
+failed/aborted/blocked reads, late callbacks and preservation of original data.
+See `docs/quality-review-20261105.md` for the original findings and verification.

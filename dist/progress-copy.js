@@ -1,4 +1,4 @@
-import {RULES} from './learning-model.js?v=20261102-learning2';
+import {RULES} from './learning-model.js?v=20261105-recovery1';
 // A round's first attempts are distinct from never-before-practised learning
 // targets and from scheduled reviews. Keep these labels consistent everywhere.
 export function lessonProgressText({total,completed,repeats},english=false){

@@ -1,4 +1,4 @@
-import {RULES} from './learning-model.js?v=20261102-learning2';
+import {RULES} from './learning-model.js?v=20261105-recovery1';
 export const METHOD_REVIEWED='2026-11-04';
 export const METHOD_CONTENT_REVIEWED='2026-11-05';
 export const METHOD_SOURCES=[

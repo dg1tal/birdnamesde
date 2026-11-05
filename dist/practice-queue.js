@@ -1,4 +1,4 @@
-import {RULES,evidence,isDue,pairKnown} from './learning-model.js?v=20261102-learning2';
+import {RULES,evidence,isDue,pairKnown} from './learning-model.js?v=20261105-recovery1';
 
 // One-click continuation uses shared selection settings, not hidden custom filters.
 export function continuationSettings(settings){return {...settings,scope:'all',count:String(RULES.round)};}
