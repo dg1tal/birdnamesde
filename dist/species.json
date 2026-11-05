@@ -3,7 +3,7 @@
     "taxonomy": "v2025",
     "built": "2026-11-05",
     "selection": "Union of eBird species records in DE, NL and GB, including historical rarities, plus the retained original German catalogue. Occurrence records are not breeding or establishment status. Taxonomy is pinned to v2025; excluded source taxa are documented in catalog-review.json.",
-    "validation": "Alle Arten-IDs, englischen und wissenschaftlichen Namen gegen die offizielle v2025-4 CSV geprüft; deutsche Namen und Codes gegen die offizielle mehrsprachige XLSX.",
+    "validation": "Arten-IDs, englische und wissenschaftliche Namen gegen die offizielle v2025-4 CSV geprüft; deutsche Namen gegen die Namensmatrix von 2025. Eingabecodes gegen die offizielle Codetabelle vom 27. Oktober 2026 mit dokumentierter Taxonomie-Ausnahme geprüft.",
     "sources": [
       {
         "title": "eBird: Bird Names – Namensmatrix und 4-letter codes (30.10.2025)",
@@ -2102,6 +2102,17 @@
       "workbookUrl": "https://cornell.box.com/s/zjci66divvqnz00k98r7pmmb6kpc69zs",
       "workbookSha256": "5a6c29b6a48db107b20f8bd1bc6f468ef652a51ccae299b1102350459d73b909",
       "countrySourceSha256": "3e68fc3f424f1f77795c2cf397981545521296b7fa5488c013e38314120d7624"
+    },
+    "codes": {
+      "version": "eBird v2026 codes / 27 October 2026",
+      "sourceUrl": "https://support.ebird.org/en/support/solutions/articles/48000804865",
+      "workbookUrl": "https://cornell.box.com/s/fjp112mh25nlvbyr1p28r9ya7nriblls",
+      "workbookSha256": "989a1c4e9524c6b0fb3b8a69f99bad98f80706cd183e934bc620c6dd24e70e62",
+      "policy": "Fewest matching species worldwide across official common-name and banding codes; prefer banding on ties, then alphabetical order. All candidates are accepted. Scientific codes excluded.",
+      "specificitySpecies": 11202,
+      "exceptions": {
+        "spofly1": "Retained v2025 species concept; v2026 reclassifies this ID as a slash (Muscicapa striata/tyrrhenica). Codes remain from the official 2025 workbook pending a taxonomy migration."
+      }
     }
   },
   "species": [
@@ -2360,10 +2371,11 @@
       "enGB": "Buff-bellied Pipit",
       "sci": "Anthus rubescens",
       "codes": [
+        "AMPI",
         "BBPI"
       ],
       "bandingCode": "AMPI",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -2379,11 +2391,12 @@
       "enGB": "Common Blackbird",
       "sci": "Turdus merula",
       "codes": [
-        "EUBL",
-        "COBL"
+        "EUBB",
+        "COBL",
+        "EUBL"
       ],
       "bandingCode": "EUBB",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -2615,7 +2628,8 @@
       "enGB": "Chinese Pond Heron",
       "sci": "Ardeola bacchus",
       "codes": [
-        "CPHE"
+        "CPHE",
+        "CHPH"
       ],
       "bandingCode": "CHPH",
       "codeSource": "com_quick_codes",
@@ -2634,7 +2648,8 @@
       "enGB": "Pied Wagtail/White Wagtail",
       "sci": "Motacilla alba",
       "codes": [
-        "PWWA"
+        "PWWA",
+        "WHWA"
       ],
       "bandingCode": "WHWA",
       "codeSource": "com_quick_codes",
@@ -2677,10 +2692,11 @@
       "enGB": "",
       "sci": "Anas bahamensis",
       "codes": [
+        "WCHP",
         "WCPI"
       ],
       "bandingCode": "WCHP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -2735,8 +2751,8 @@
       "enGB": "",
       "sci": "Curruca cantillans",
       "codes": [
-        "SUWA",
-        "ESWA"
+        "ESWA",
+        "SUWA"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -2851,10 +2867,11 @@
       "enGB": "",
       "sci": "Puffinus baroli",
       "codes": [
+        "BASH",
         "AUSH"
       ],
       "bandingCode": "BASH",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -2870,8 +2887,8 @@
       "enGB": "",
       "sci": "Gypaetus barbatus",
       "codes": [
-        "LAMM",
-        "BEVU"
+        "BEVU",
+        "LAMM"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -3074,10 +3091,10 @@
       "enGB": "Rock Eagle Owl",
       "sci": "Bubo bengalensis",
       "codes": [
-        "ROEO",
         "IEOW",
-        "REOW",
-        "INEO"
+        "INEO",
+        "ROEO",
+        "REOW"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -3317,8 +3334,8 @@
       "enGB": "",
       "sci": "Anas bernieri",
       "codes": [
-        "MATE",
-        "BETE"
+        "BETE",
+        "MATE"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -3394,10 +3411,11 @@
       "enGB": "Two-barred Crossbill",
       "sci": "Loxia leucoptera",
       "codes": [
+        "WWCR",
         "TBCR"
       ],
       "bandingCode": "WWCR",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -3684,10 +3702,11 @@
       "enGB": "Blue Rock Thrush",
       "sci": "Monticola solitarius",
       "codes": [
+        "BLRT",
         "BRTH"
       ],
       "bandingCode": "BLRT",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -3724,8 +3743,8 @@
       "enGB": "",
       "sci": "Entomyzon cyanotis",
       "codes": [
-        "BFQH",
-        "BFHO"
+        "BFHO",
+        "BFQH"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -3765,8 +3784,8 @@
       "enGB": "",
       "sci": "Pyrrhura emma",
       "codes": [
-        "PAPA",
-        "VEPA"
+        "VEPA",
+        "PAIP"
       ],
       "bandingCode": "PAIP",
       "codeSource": "com_quick_codes",
@@ -3785,10 +3804,11 @@
       "enGB": "",
       "sci": "Tarsiger cyanurus",
       "codes": [
+        "RFBL",
         "OFBR"
       ],
       "bandingCode": "RFBL",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -4040,10 +4060,11 @@
       "enGB": "",
       "sci": "Tadorna tadorna",
       "codes": [
+        "COMS",
         "COSH"
       ],
       "bandingCode": "COMS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -4109,8 +4130,8 @@
       "enGB": "Chestnut-breasted Mannikin",
       "sci": "Lonchura castaneothorax",
       "codes": [
-        "CBMA",
-        "CBMU"
+        "CBMU",
+        "CBMA"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -4129,8 +4150,8 @@
       "enGB": "Brown Eared Pheasant",
       "sci": "Crossoptilon mantchuricum",
       "codes": [
-        "BEPH",
-        "BREP"
+        "BREP",
+        "BEPH"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -4308,10 +4329,11 @@
       "enGB": "",
       "sci": "Lanius cristatus",
       "codes": [
+        "BROS",
         "BRSH"
       ],
       "bandingCode": "BROS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -4327,11 +4349,11 @@
       "enGB": "",
       "sci": "Aix sponsa",
       "codes": [
-        "AWDU",
-        "CWDU"
+        "WODU",
+        "AWDU"
       ],
       "bandingCode": "WODU",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -4455,11 +4477,12 @@
       "enGB": "Eurasian Chaffinch",
       "sci": "Fringilla coelebs",
       "codes": [
+        "CCHA",
         "EUCH",
         "COCH"
       ],
       "bandingCode": "CCHA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -4520,10 +4543,11 @@
       "enGB": "Wilson's Storm Petrel",
       "sci": "Oceanites oceanicus",
       "codes": [
+        "WISP",
         "WSPE"
       ],
       "bandingCode": "WISP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -4565,11 +4589,12 @@
       "enGB": "",
       "sci": "Acrocephalus dumetorum",
       "codes": [
+        "BREW",
         "BLRW",
         "BRWA"
       ],
       "bandingCode": "BREW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -4707,10 +4732,11 @@
       "enGB": "",
       "sci": "Anas zonorhyncha",
       "codes": [
+        "ESBD",
         "CSBD"
       ],
       "bandingCode": "ESBD",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -4728,8 +4754,8 @@
       "enGB": "Lord Derby's Parakeet",
       "sci": "Psittacula derbiana",
       "codes": [
-        "LDPA",
-        "DEPA"
+        "DEPA",
+        "LDPA"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -4748,10 +4774,11 @@
       "enGB": "Chukar Partridge",
       "sci": "Alectoris chukar",
       "codes": [
+        "CHUK",
         "CHPA"
       ],
       "bandingCode": "CHUK",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -4769,10 +4796,11 @@
       "enGB": "",
       "sci": "Calonectris borealis",
       "codes": [
+        "CORS",
         "COSH"
       ],
       "bandingCode": "CORS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -4845,11 +4873,10 @@
       "enGB": "",
       "sci": "Pterodroma deserta",
       "codes": [
-        "DEPE",
-        "FEPE"
+        "DEPE"
       ],
-      "bandingCode": "",
-      "codeSource": "com_quick_codes",
+      "bandingCode": "DEPE",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -4922,10 +4949,11 @@
       "enGB": "Brünnich's Guillemot",
       "sci": "Uria lomvia",
       "codes": [
+        "TBMU",
         "BRGU"
       ],
       "bandingCode": "TBMU",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -4960,10 +4988,11 @@
       "enGB": "Western Jackdaw",
       "sci": "Coloeus monedula",
       "codes": [
+        "EUJA",
         "WEJA"
       ],
       "bandingCode": "EUJA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -4986,10 +5015,11 @@
       "enGB": "",
       "sci": "Larus dominicanus",
       "codes": [
+        "KEGU",
         "SBBG"
       ],
       "bandingCode": "KEGU",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -5160,8 +5190,8 @@
       "enGB": "",
       "sci": "Acrocephalus arundinaceus",
       "codes": [
-        "GRWA",
-        "GRRW"
+        "GRRW",
+        "GRWA"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -5527,7 +5557,8 @@
       "enGB": "Great Northern Diver",
       "sci": "Gavia immer",
       "codes": [
-        "GNDI"
+        "GNDI",
+        "COLO"
       ],
       "bandingCode": "COLO",
       "codeSource": "com_quick_codes",
@@ -5879,10 +5910,11 @@
       "enGB": "American Cliff Swallow",
       "sci": "Petrochelidon pyrrhonota",
       "codes": [
+        "CLSW",
         "ACSW"
       ],
       "bandingCode": "CLSW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -5917,10 +5949,11 @@
       "enGB": "Long-tailed Skua",
       "sci": "Stercorarius longicaudus",
       "codes": [
+        "LTJA",
         "LTSK"
       ],
       "bandingCode": "LTJA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -5943,10 +5976,10 @@
       "enGB": "",
       "sci": "Alauda arvensis",
       "codes": [
-        "SKYL"
+        "EUSK"
       ],
       "bandingCode": "EUSK",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -6102,7 +6135,8 @@
       "enGB": "Rock Dove",
       "sci": "Columba livia",
       "codes": [
-        "RODO"
+        "RODO",
+        "ROPI"
       ],
       "bandingCode": "ROPI",
       "codeSource": "com_quick_codes",
@@ -6170,10 +6204,11 @@
       "enGB": "Common Crossbill",
       "sci": "Loxia curvirostra",
       "codes": [
+        "RECR",
         "COCR"
       ],
       "bandingCode": "RECR",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -6196,10 +6231,11 @@
       "enGB": "",
       "sci": "Setophaga fusca",
       "codes": [
+        "BLBW",
         "BLWA"
       ],
       "bandingCode": "BLBW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -6278,10 +6314,11 @@
       "enGB": "",
       "sci": "Phylloscopus trochilus",
       "codes": [
+        "WILW",
         "WIWA"
       ],
       "bandingCode": "WILW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -6563,10 +6600,11 @@
       "enGB": "",
       "sci": "Phoenicurus phoenicurus",
       "codes": [
+        "CRET",
         "CORE"
       ],
       "bandingCode": "CRET",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -6606,10 +6644,11 @@
       "enGB": "Grey Wagtail",
       "sci": "Motacilla cinerea",
       "codes": [
+        "GRAW",
         "GRWA"
       ],
       "bandingCode": "GRAW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -6675,10 +6714,11 @@
       "enGB": "",
       "sci": "Emberiza chrysophrys",
       "codes": [
+        "YBWB",
         "YBBU"
       ],
       "bandingCode": "YBWB",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -6694,10 +6734,11 @@
       "enGB": "Fulvous Whistling Duck",
       "sci": "Dendrocygna bicolor",
       "codes": [
+        "FUWD",
         "FWDU"
       ],
       "bandingCode": "FUWD",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -6873,7 +6914,8 @@
       "enGB": "White-billed Diver",
       "sci": "Gavia adamsii",
       "codes": [
-        "WBDI"
+        "WBDI",
+        "YBLO"
       ],
       "bandingCode": "YBLO",
       "codeSource": "com_quick_codes",
@@ -6935,10 +6977,11 @@
       "enGB": "Gyr Falcon",
       "sci": "Falco rusticolus",
       "codes": [
+        "GYRF",
         "GYFA"
       ],
       "bandingCode": "GYRF",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -7203,12 +7246,13 @@
       "enGB": "Pallas's Warbler",
       "sci": "Phylloscopus proregulus",
       "codes": [
+        "PLEW",
         "PALW",
         "PAWA",
         "PLWA"
       ],
       "bandingCode": "PLEW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -7226,10 +7270,11 @@
       "enGB": "European Golden Plover",
       "sci": "Pluvialis apricaria",
       "codes": [
+        "EUGP",
         "EGPL"
       ],
       "bandingCode": "EUGP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -7253,11 +7298,11 @@
       "enGB": "American Yellow Warbler",
       "sci": "Setophaga aestiva",
       "codes": [
-        "AYWA",
         "NYWA",
-        "YEWA"
+        "YEWA",
+        "AYWA"
       ],
-      "bandingCode": "",
+      "bandingCode": "YEWA",
       "codeSource": "com_quick_codes",
       "aliases": {
         "de": [],
@@ -7274,10 +7319,11 @@
       "enGB": "",
       "sci": "Spinus tristis",
       "codes": [
+        "AGOL",
         "AMGO"
       ],
       "bandingCode": "AGOL",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -7293,11 +7339,12 @@
       "enGB": "",
       "sci": "Passerculus sandwichensis",
       "codes": [
+        "SAVS",
         "SBBS",
         "SASP"
       ],
       "bandingCode": "SAVS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -7402,8 +7449,8 @@
       "enGB": "Grey Crowned Crane",
       "sci": "Balearica regulorum",
       "codes": [
-        "GCCR",
-        "GRCC"
+        "GRCC",
+        "GCCR"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -7422,7 +7469,9 @@
       "enGB": "Purple Swamphen (Grey-headed)",
       "sci": "Porphyrio poliocephalus",
       "codes": [
-        "GHSW"
+        "GHSW",
+        "GRHE",
+        "PUSW"
       ],
       "bandingCode": "PUSW",
       "codeSource": "com_quick_codes",
@@ -7576,10 +7625,11 @@
       "enGB": "Grey Heron",
       "sci": "Ardea cinerea",
       "codes": [
+        "GRAH",
         "GRHE"
       ],
       "bandingCode": "GRAH",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -7646,8 +7696,8 @@
       "enGB": "Grey-headed Woodpecker",
       "sci": "Picus canus",
       "codes": [
-        "GHWO",
-        "GFNW"
+        "GFNW",
+        "GHWO"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -7849,8 +7899,9 @@
       "enGB": "",
       "sci": "Butorides virescens",
       "codes": [
-        "GBHE",
-        "NAGH"
+        "NAGH",
+        "GRHE",
+        "GBHE"
       ],
       "bandingCode": "GRHE",
       "codeSource": "com_quick_codes",
@@ -7871,10 +7922,11 @@
       "enGB": "",
       "sci": "Tringa nebularia",
       "codes": [
+        "COMG",
         "COGR"
       ],
       "bandingCode": "COMG",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -7914,11 +7966,12 @@
       "enGB": "",
       "sci": "Psittacara holochlorus",
       "codes": [
+        "GREP",
         "GTPA",
         "GRPA"
       ],
       "bandingCode": "GREP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -7998,9 +8051,9 @@
       "enGB": "Griffon Vulture",
       "sci": "Gyps fulvus",
       "codes": [
+        "GRVU",
         "EGVU",
-        "EUGR",
-        "GRVU"
+        "EUGR"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -8021,7 +8074,8 @@
       "enGB": "Goosander",
       "sci": "Mergus merganser",
       "codes": [
-        "GOOS"
+        "GOOS",
+        "COME"
       ],
       "bandingCode": "COME",
       "codeSource": "com_quick_codes",
@@ -8067,11 +8121,13 @@
       "enGB": "",
       "sci": "Astur gentilis",
       "codes": [
+        "EGOS",
+        "EURA",
         "EUGO",
         "NOGO"
       ],
       "bandingCode": "EGOS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -8259,7 +8315,8 @@
       "enGB": "Ring-necked Parakeet",
       "sci": "Psittacula krameri",
       "codes": [
-        "RNPA"
+        "RNPA",
+        "RRPA"
       ],
       "bandingCode": "RRPA",
       "codeSource": "com_quick_codes",
@@ -8377,8 +8434,8 @@
       "enGB": "",
       "sci": "Podiceps cristatus",
       "codes": [
-        "GCGR",
-        "ACGR"
+        "ACGR",
+        "GCGR"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -8474,10 +8531,11 @@
       "enGB": "Nene",
       "sci": "Branta sandvicensis",
       "codes": [
+        "HAGO",
         "NENE"
       ],
       "bandingCode": "HAGO",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -8519,8 +8577,8 @@
       "enGB": "Rufous-tailed Scrub Robin",
       "sci": "Cercotrichas galactotes",
       "codes": [
-        "RBCH",
-        "RTSR"
+        "RTSR",
+        "RBCH"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -8542,8 +8600,8 @@
       "enGB": "Woodlark",
       "sci": "Lullula arborea",
       "codes": [
-        "WOOD",
-        "WOLA"
+        "WOLA",
+        "WOOD"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -8569,7 +8627,6 @@
       "enGB": "",
       "sci": "Lagopus scotica",
       "codes": [
-        "WIPT",
         "REGR",
         "WIGR"
       ],
@@ -8590,10 +8647,11 @@
       "enGB": "",
       "sci": "Numida meleagris",
       "codes": [
+        "HELG",
         "HEGU"
       ],
       "bandingCode": "HELG",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -8698,10 +8756,11 @@
       "enGB": "",
       "sci": "Numenius hudsonicus",
       "codes": [
-        "HUWH"
+        "HUWH",
+        "WHIM"
       ],
-      "bandingCode": "WHIM",
-      "codeSource": "com_quick_codes",
+      "bandingCode": "HUWH",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -8793,10 +8852,11 @@
       "enGB": "",
       "sci": "Sarkidiornis sylvicola",
       "codes": [
+        "CODU",
         "ACDU"
       ],
       "bandingCode": "CODU",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -8954,8 +9014,8 @@
       "enGB": "Indian Scops Owl",
       "sci": "Otus bakkamoena",
       "codes": [
-        "ISOW",
-        "INSO"
+        "INSO",
+        "ISOW"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -9109,11 +9169,12 @@
       "enGB": "Common Pheasant",
       "sci": "Phasianus colchicus",
       "codes": [
+        "RNEP",
         "COPH",
         "RNPH"
       ],
       "bandingCode": "RNEP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [
           "Fasan"
@@ -9158,8 +9219,8 @@
       "enGB": "Lesser Whistling Duck",
       "sci": "Dendrocygna javanica",
       "codes": [
-        "LWDU",
-        "LEWD"
+        "LEWD",
+        "LWDU"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -9320,10 +9381,11 @@
       "enGB": "",
       "sci": "Larus schistisagus",
       "codes": [
+        "SBAG",
         "SBGU"
       ],
       "bandingCode": "SBAG",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -9339,10 +9401,11 @@
       "enGB": "",
       "sci": "Melanitta stejnegeri",
       "codes": [
+        "STSC",
         "SISC"
       ],
       "bandingCode": "STSC",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -9379,10 +9442,11 @@
       "enGB": "",
       "sci": "Branta canadensis",
       "codes": [
+        "CANG",
         "CAGO"
       ],
       "bandingCode": "CANG",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -9462,7 +9526,8 @@
       "enGB": "",
       "sci": "Ardea herodias",
       "codes": [
-        "GBWH"
+        "GBWH",
+        "GBHE"
       ],
       "bandingCode": "GBHE",
       "codeSource": "com_quick_codes",
@@ -9500,10 +9565,11 @@
       "enGB": "Atlantic Canary",
       "sci": "Serinus canaria",
       "codes": [
+        "ISCA",
         "ATCA"
       ],
       "bandingCode": "ISCA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -9783,7 +9849,8 @@
       "enGB": "Grey Plover",
       "sci": "Pluvialis squatarola",
       "codes": [
-        "GRPL"
+        "GRPL",
+        "BBPL"
       ],
       "bandingCode": "BBPL",
       "codeSource": "com_quick_codes",
@@ -9993,8 +10060,8 @@
       "enGB": "",
       "sci": "Parus major",
       "codes": [
-        "GRTI",
-        "EGTI"
+        "EGTI",
+        "GRTI"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -10045,10 +10112,11 @@
       "enGB": "Northern Raven",
       "sci": "Corvus corax",
       "codes": [
+        "CORA",
         "NORA"
       ],
       "bandingCode": "CORA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -10071,8 +10139,10 @@
       "enGB": "Siberian Sand Plover",
       "sci": "Anarhynchus mongolus",
       "codes": [
-        "LESA",
-        "SSPL"
+        "SSPL",
+        "SISP",
+        "SISA",
+        "LESA"
       ],
       "bandingCode": "SISP",
       "codeSource": "com_quick_codes",
@@ -10129,9 +10199,9 @@
       "enGB": "",
       "sci": "Phalacrocorax carbo",
       "codes": [
-        "GBCO",
-        "WBCO",
-        "BLSH"
+        "BLSH",
+        "GRCO",
+        "WBCO"
       ],
       "bandingCode": "GRCO",
       "codeSource": "com_quick_codes",
@@ -10161,8 +10231,8 @@
       "codes": [
         "HEHA"
       ],
-      "bandingCode": "",
-      "codeSource": "com_quick_codes",
+      "bandingCode": "HEHA",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -10183,11 +10253,12 @@
       "enGB": "Eastern Cattle Egret",
       "sci": "Ardea coromanda",
       "codes": [
-        "CAEG",
-        "ECEG"
+        "EACE",
+        "ECEG",
+        "CAEG"
       ],
       "bandingCode": "EACE",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -10203,10 +10274,11 @@
       "enGB": "Little Auk",
       "sci": "Alle alle",
       "codes": [
+        "DOVE",
         "LIAU"
       ],
       "bandingCode": "DOVE",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -10241,10 +10313,11 @@
       "enGB": "",
       "sci": "Grus grus",
       "codes": [
+        "CCRA",
         "COCR"
       ],
       "bandingCode": "CCRA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -10285,12 +10358,14 @@
       "enGB": "Eurasian/Green-winged Teal",
       "sci": "Anas crecca",
       "codes": [
+        "GWTE",
+        "EUTE",
         "EWTE",
-        "CWTE",
-        "EUTE"
+        "GRWI",
+        "CWTE"
       ],
       "bandingCode": "GWTE",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -10333,10 +10408,11 @@
       "enGB": "",
       "sci": "Setophaga coronata",
       "codes": [
+        "YRWA",
         "MYWA"
       ],
       "bandingCode": "YRWA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -10433,11 +10509,12 @@
       "enGB": "Western Cattle Egret",
       "sci": "Ardea ibis",
       "codes": [
-        "CAEG",
-        "WCEG"
+        "WECE",
+        "WCEG",
+        "CAEG"
       ],
       "bandingCode": "WECE",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -10534,10 +10611,11 @@
       "enGB": "",
       "sci": "Thalasseus maximus",
       "codes": [
+        "ROYT",
         "ROTE"
       ],
       "bandingCode": "ROYT",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -10575,11 +10653,12 @@
       "enGB": "Western Reef Heron",
       "sci": "Egretta gularis",
       "codes": [
+        "WERH",
         "WREG",
         "WRHE"
       ],
       "bandingCode": "WERH",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -10647,7 +10726,8 @@
       "enGB": "",
       "sci": "Gelochelidon nilotica",
       "codes": [
-        "CGBT"
+        "CGBT",
+        "GBTE"
       ],
       "bandingCode": "GBTE",
       "codeSource": "com_quick_codes",
@@ -10674,11 +10754,12 @@
       "enGB": "African Collared Dove",
       "sci": "Streptopelia roseogrisea",
       "codes": [
+        "AFCD",
         "ACDO",
         "BADO"
       ],
       "bandingCode": "AFCD",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -10773,10 +10854,11 @@
       "enGB": "",
       "sci": "Anas laysanensis",
       "codes": [
+        "LAYD",
         "LADU"
       ],
       "bandingCode": "LAYD",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -10792,10 +10874,11 @@
       "enGB": "",
       "sci": "Passerina amoena",
       "codes": [
+        "LAZB",
         "LABU"
       ],
       "bandingCode": "LAZB",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -10849,10 +10932,11 @@
       "enGB": "",
       "sci": "Spatula clypeata",
       "codes": [
+        "NSHO",
         "NOSH"
       ],
       "bandingCode": "NSHO",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -10876,10 +10960,11 @@
       "enGB": "",
       "sci": "Platalea leucorodia",
       "codes": [
+        "ESPO",
         "EUSP"
       ],
       "bandingCode": "ESPO",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -10939,10 +11024,11 @@
       "enGB": "Band-rumped Storm Petrel",
       "sci": "Hydrobates castro",
       "codes": [
+        "BSTP",
         "BRSP"
       ],
       "bandingCode": "BSTP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -10980,8 +11066,8 @@
       "enGB": "",
       "sci": "Fringilla spodiogenys",
       "codes": [
-        "COCH",
-        "AFCH"
+        "AFCH",
+        "COCH"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -11222,9 +11308,9 @@
       "enGB": "",
       "sci": "Vanellus miles",
       "codes": [
-        "MALA",
+        "MSLA",
         "SWPL",
-        "MSLA"
+        "MALA"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -11245,8 +11331,8 @@
       "enGB": "Southern Masked Weaver",
       "sci": "Ploceus velatus",
       "codes": [
-        "SOMW",
-        "SMWE"
+        "SMWE",
+        "SOMW"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -11332,8 +11418,8 @@
       "enGB": "",
       "sci": "Oenanthe hispanica",
       "codes": [
-        "BEWH",
-        "WBEW"
+        "WBEW",
+        "BEWH"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -11395,11 +11481,12 @@
       "enGB": "Western House Martin",
       "sci": "Delichon urbicum",
       "codes": [
+        "WEHM",
         "WHMA",
         "NHMA"
       ],
       "bandingCode": "WEHM",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -11423,8 +11510,8 @@
       "enGB": "",
       "sci": "Carpodacus sibiricus",
       "codes": [
-        "SLTR",
-        "LTRO"
+        "LTRO",
+        "SLTR"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -11549,8 +11636,8 @@
       "enGB": "Mediterranean Shearwater (Yelkouan)",
       "sci": "Puffinus yelkouan",
       "codes": [
-        "MESH",
-        "YESH"
+        "YESH",
+        "MESH"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -11728,10 +11815,11 @@
       "enGB": "",
       "sci": "Zonotrichia capensis",
       "codes": [
+        "RCOS",
         "RCSP"
       ],
       "bandingCode": "RCOS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -11847,8 +11935,8 @@
       "enGB": "",
       "sci": "Chenonetta jubata",
       "codes": [
-        "MADU",
-        "AWDU"
+        "AWDU",
+        "MADU"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -11869,8 +11957,8 @@
       "enGB": "",
       "sci": "Buteo buteo",
       "codes": [
-        "COBU",
-        "EUBU"
+        "EUBU",
+        "COBU"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -11916,11 +12004,12 @@
       "enGB": "",
       "sci": "Sylvia atricapilla",
       "codes": [
-        "BLAC",
-        "EUBL"
+        "EUBC",
+        "EUBL",
+        "BLAC"
       ],
       "bandingCode": "EUBC",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -11981,10 +12070,11 @@
       "enGB": "",
       "sci": "Amazona farinosa",
       "codes": [
+        "MEAM",
         "SMAM"
       ],
       "bandingCode": "MEAM",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -12142,11 +12232,12 @@
       "enGB": "Carrion Crow (Hooded/Mesopotamian)",
       "sci": "Corvus cornix",
       "codes": [
+        "HCRW",
         "HOCR",
         "CACR"
       ],
       "bandingCode": "HCRW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -12274,10 +12365,11 @@
       "enGB": "Shore Lark",
       "sci": "Eremophila alpestris",
       "codes": [
+        "HOLA",
         "SHLA"
       ],
       "bandingCode": "HOLA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -12320,7 +12412,8 @@
       "enGB": "Slavonian Grebe",
       "sci": "Podiceps auritus",
       "codes": [
-        "SLGR"
+        "SLGR",
+        "HOGR"
       ],
       "bandingCode": "HOGR",
       "codeSource": "com_quick_codes",
@@ -12365,10 +12458,11 @@
       "enGB": "",
       "sci": "Estrilda melpoda",
       "codes": [
+        "OCHW",
         "OCWA"
       ],
       "bandingCode": "OCHW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -12422,11 +12516,12 @@
       "enGB": "Rufous Turtle Dove",
       "sci": "Streptopelia orientalis",
       "codes": [
-        "RTDO",
-        "OTDO"
+        "ORTD",
+        "OTDO",
+        "RTDO"
       ],
       "bandingCode": "ORTD",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -12550,11 +12645,12 @@
       "enGB": "Pallas's Reed Bunting",
       "sci": "Emberiza pallasi",
       "codes": [
-        "PABU",
-        "PRBU"
+        "PALB",
+        "PRBU",
+        "PABU"
       ],
       "bandingCode": "PALB",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -12571,6 +12667,7 @@
       "sci": "Saxicola maurus",
       "codes": [
         "SIST",
+        "ASST",
         "COST"
       ],
       "bandingCode": "ASST",
@@ -12709,10 +12806,11 @@
       "enGB": "Fork-tailed Swift (Pacific)",
       "sci": "Apus pacificus",
       "codes": [
+        "FTSW",
         "PASW"
       ],
       "bandingCode": "FTSW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -12730,7 +12828,8 @@
       "enGB": "Pacific Diver",
       "sci": "Gavia pacifica",
       "codes": [
-        "PADI"
+        "PADI",
+        "PALO"
       ],
       "bandingCode": "PALO",
       "codeSource": "com_quick_codes",
@@ -13110,11 +13209,12 @@
       "enGB": "Black-throated Diver",
       "sci": "Gavia arctica",
       "codes": [
-        "BTLO",
-        "BTDI"
+        "ARLO",
+        "BTDI",
+        "BTLO"
       ],
       "bandingCode": "ARLO",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -13157,10 +13257,11 @@
       "enGB": "American Golden Plover",
       "sci": "Pluvialis dominica",
       "codes": [
+        "AMGP",
         "AGPL"
       ],
       "bandingCode": "AMGP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -13271,7 +13372,8 @@
       "enGB": "Purple Swamphen (Western)",
       "sci": "Porphyrio porphyrio",
       "codes": [
-        "WESW"
+        "WESW",
+        "PUSW"
       ],
       "bandingCode": "PUSW",
       "codeSource": "com_quick_codes",
@@ -13334,8 +13436,8 @@
       "enGB": "",
       "sci": "Spatula hottentota",
       "codes": [
-        "BBTE",
-        "HOTE"
+        "HOTE",
+        "BBTE"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -13356,7 +13458,8 @@
       "enGB": "American Black Vulture",
       "sci": "Coragyps atratus",
       "codes": [
-        "ABVU"
+        "ABVU",
+        "BLVU"
       ],
       "bandingCode": "BLVU",
       "codeSource": "com_quick_codes",
@@ -13439,8 +13542,8 @@
       "codes": [
         "SQHE"
       ],
-      "bandingCode": "",
-      "codeSource": "com_quick_codes",
+      "bandingCode": "SQHE",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -13507,10 +13610,11 @@
       "enGB": "",
       "sci": "Hirundo rustica",
       "codes": [
+        "BARS",
         "BASW"
       ],
       "bandingCode": "BARS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -13531,10 +13635,11 @@
       "enGB": "Rough-legged Buzzard",
       "sci": "Buteo lagopus",
       "codes": [
+        "RLHA",
         "RLBU"
       ],
       "bandingCode": "RLHA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -13558,10 +13663,11 @@
       "enGB": "Tengmalm's Owl",
       "sci": "Aegolius funereus",
       "codes": [
+        "BOOW",
         "TEOW"
       ],
       "bandingCode": "BOOW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -13584,10 +13690,11 @@
       "enGB": "Grey Partridge",
       "sci": "Perdix perdix",
       "codes": [
+        "GRAP",
         "GRPA"
       ],
       "bandingCode": "GRAP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -13629,10 +13736,11 @@
       "enGB": "",
       "sci": "Numenius phaeopus",
       "codes": [
-        "EUWH"
+        "EUWH",
+        "WHIM"
       ],
-      "bandingCode": "WHIM",
-      "codeSource": "com_quick_codes",
+      "bandingCode": "EUWH",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -13735,7 +13843,8 @@
       "enGB": "Steller's Sea Eagle",
       "sci": "Haliaeetus pelagicus",
       "codes": [
-        "SSEA"
+        "SSEA",
+        "STSE"
       ],
       "bandingCode": "STSE",
       "codeSource": "com_quick_codes",
@@ -13799,10 +13908,11 @@
       "enGB": "Brent Goose",
       "sci": "Branta bernicla",
       "codes": [
+        "BRAN",
         "BRGO"
       ],
       "bandingCode": "BRAN",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -13826,11 +13936,12 @@
       "enGB": "Common Woodpigeon",
       "sci": "Columba palumbus",
       "codes": [
-        "COWO",
-        "COWP"
+        "CWPI",
+        "COWP",
+        "COWO"
       ],
       "bandingCode": "CWPI",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -13911,10 +14022,11 @@
       "enGB": "Common Reed Bunting",
       "sci": "Emberiza schoeniclus",
       "codes": [
+        "REBU",
         "CRBU"
       ],
       "bandingCode": "REBU",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -13986,10 +14098,11 @@
       "enGB": "",
       "sci": "Circus aeruginosus",
       "codes": [
+        "WMHA",
         "WEMH"
       ],
       "bandingCode": "WMHA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -14227,10 +14340,11 @@
       "enGB": "",
       "sci": "Sterna dougallii",
       "codes": [
+        "ROST",
         "ROTE"
       ],
       "bandingCode": "ROST",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -14817,10 +14931,11 @@
       "enGB": "",
       "sci": "Tringa totanus",
       "codes": [
+        "CREH",
         "CORE"
       ],
       "bandingCode": "CREH",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -15424,7 +15539,8 @@
       "enGB": "",
       "sci": "Charadrius hiaticula",
       "codes": [
-        "RIPL"
+        "RIPL",
+        "CRPL"
       ],
       "bandingCode": "CRPL",
       "codeSource": "com_quick_codes",
@@ -15817,8 +15933,8 @@
       "enGB": "Short-toed Eagle",
       "sci": "Circaetus gallicus",
       "codes": [
-        "STSE",
-        "STEA"
+        "STEA",
+        "STSE"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -15841,8 +15957,8 @@
       "sci": "Tyto alba",
       "codes": [
         "EBOW",
-        "CBOW",
-        "WBOW"
+        "WBOW",
+        "CBOW"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -15868,8 +15984,9 @@
       "enGB": "Arctic Skua",
       "sci": "Stercorarius parasiticus",
       "codes": [
+        "ARJA",
         "ARSK",
-        "ARJA"
+        "PAJA"
       ],
       "bandingCode": "PAJA",
       "codeSource": "com_quick_codes",
@@ -16087,10 +16204,11 @@
       "enGB": "American White Ibis",
       "sci": "Eudocimus albus",
       "codes": [
+        "WHIB",
         "AWIB"
       ],
       "bandingCode": "WHIB",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -16230,10 +16348,11 @@
       "enGB": "",
       "sci": "Asio clamator",
       "codes": [
+        "STRO",
         "STOW"
       ],
       "bandingCode": "STRO",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -16349,10 +16468,11 @@
       "enGB": "",
       "sci": "Thalassarche melanophris",
       "codes": [
+        "BBAL",
         "BBMO"
       ],
       "bandingCode": "BBAL",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -16444,10 +16564,11 @@
       "enGB": "Black-necked Grebe",
       "sci": "Podiceps nigricollis",
       "codes": [
+        "EAGR",
         "BNGR"
       ],
       "bandingCode": "EAGR",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -16509,8 +16630,8 @@
       "enGB": "",
       "sci": "Saxicola rubicola",
       "codes": [
-        "COST",
-        "EUST"
+        "EUST",
+        "COST"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -16616,11 +16737,12 @@
       "enGB": "",
       "sci": "Milvus migrans",
       "codes": [
-        "BBKI",
-        "BLKI"
+        "BLAK",
+        "BLKI",
+        "BBKI"
       ],
       "bandingCode": "BLAK",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -16641,8 +16763,9 @@
       "enGB": "",
       "sci": "Himantopus mexicanus",
       "codes": [
-        "BWST",
-        "BNBS"
+        "BNBS",
+        "BNST",
+        "BWST"
       ],
       "bandingCode": "BNST",
       "codeSource": "com_quick_codes",
@@ -16663,11 +16786,12 @@
       "enGB": "",
       "sci": "Pionus menstruus",
       "codes": [
+        "BHEP",
         "BHBP",
         "BHPA"
       ],
       "bandingCode": "BHEP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -16872,7 +16996,8 @@
       "enGB": "",
       "sci": "Haliaeetus albicilla",
       "codes": [
-        "WTSE"
+        "WTSE",
+        "WTEA"
       ],
       "bandingCode": "WTEA",
       "codeSource": "com_quick_codes",
@@ -16949,10 +17074,11 @@
       "enGB": "",
       "sci": "Egretta garzetta",
       "codes": [
+        "LIEG",
         "LEWR"
       ],
       "bandingCode": "LIEG",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -17054,7 +17180,8 @@
       "enGB": "",
       "sci": "Anthus japonicus",
       "codes": [
-        "BBPI"
+        "BBPI",
+        "SIPI"
       ],
       "bandingCode": "SIPI",
       "codeSource": "com_quick_codes",
@@ -17217,11 +17344,12 @@
       "enGB": "Great White Egret",
       "sci": "Ardea alba",
       "codes": [
+        "GREG",
         "GWEG",
         "WHHE"
       ],
       "bandingCode": "GREG",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -17289,10 +17417,11 @@
       "enGB": "",
       "sci": "Cygnus cygnus",
       "codes": [
+        "WHOS",
         "WHSW"
       ],
       "bandingCode": "WHOS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -17457,10 +17586,11 @@
       "enGB": "Pomarine Skua",
       "sci": "Stercorarius pomarinus",
       "codes": [
+        "POJA",
         "POSK"
       ],
       "bandingCode": "POJA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -17483,10 +17613,11 @@
       "enGB": "",
       "sci": "Accipiter nisus",
       "codes": [
+        "ESPA",
         "EUSP"
       ],
       "bandingCode": "ESPA",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -17507,10 +17638,11 @@
       "enGB": "Northern Hawk-Owl",
       "sci": "Surnia ulula",
       "codes": [
+        "NHOW",
         "NOHO"
       ],
       "bandingCode": "NHOW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -17572,8 +17704,8 @@
       "enGB": "Eurasian Pygmy Owl",
       "sci": "Glaucidium passerinum",
       "codes": [
-        "EUPO",
-        "EPOW"
+        "EPOW",
+        "EUPO"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -17646,10 +17778,11 @@
       "enGB": "",
       "sci": "Calidris acuminata",
       "codes": [
+        "SPTS",
         "STSA"
       ],
       "bandingCode": "SPTS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -17703,10 +17836,11 @@
       "enGB": "Lapland Bunting",
       "sci": "Calcarius lapponicus",
       "codes": [
+        "LALO",
         "LABU"
       ],
       "bandingCode": "LALO",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -17749,8 +17883,8 @@
       "enGB": "",
       "sci": "Vanellus spinosus",
       "codes": [
-        "SWLA",
         "ASWL",
+        "SWLA",
         "SWPL"
       ],
       "bandingCode": "",
@@ -17835,10 +17969,12 @@
       "enGB": "Common Starling",
       "sci": "Sturnus vulgaris",
       "codes": [
+        "EUST",
+        "EURO",
         "COST"
       ],
       "bandingCode": "EUST",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -17952,10 +18088,11 @@
       "enGB": "Common Rock Thrush",
       "sci": "Monticola saxatilis",
       "codes": [
+        "RTRT",
         "CRTH"
       ],
       "bandingCode": "RTRT",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -18051,6 +18188,7 @@
       "codes": [
         "AMST",
         "SIST",
+        "ASST",
         "COST"
       ],
       "bandingCode": "ASST",
@@ -18070,7 +18208,8 @@
       "enGB": "",
       "sci": "Himantopus himantopus",
       "codes": [
-        "EBWS"
+        "EBWS",
+        "BWST"
       ],
       "bandingCode": "BWST",
       "codeSource": "com_quick_codes",
@@ -18254,7 +18393,8 @@
       "enGB": "Red-throated Diver",
       "sci": "Gavia stellata",
       "codes": [
-        "RTDI"
+        "RTDI",
+        "RTLO"
       ],
       "bandingCode": "RTLO",
       "codeSource": "com_quick_codes",
@@ -18280,11 +18420,12 @@
       "enGB": "",
       "sci": "Carduelis carduelis",
       "codes": [
-        "EUGO",
-        "WEGO"
+        "EGOL",
+        "WEGO",
+        "EUGO"
       ],
       "bandingCode": "EGOL",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -18405,7 +18546,8 @@
       "enGB": "",
       "sci": "Helopsaltes certhiola",
       "codes": [
-        "PAGW"
+        "PAGW",
+        "PGWA"
       ],
       "bandingCode": "PGWA",
       "codeSource": "com_quick_codes",
@@ -18426,10 +18568,11 @@
       "enGB": "",
       "sci": "Setophaga striata",
       "codes": [
+        "BLPW",
         "BLWA"
       ],
       "bandingCode": "BLPW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -18445,8 +18588,8 @@
       "enGB": "",
       "sci": "Cecropis daurica",
       "codes": [
-        "RRSW",
-        "ERRS"
+        "ERRS",
+        "RRSW"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -18467,10 +18610,11 @@
       "enGB": "",
       "sci": "Locustella lanceolata",
       "codes": [
+        "LANW",
         "LAWA"
       ],
       "bandingCode": "LANW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -18486,10 +18630,11 @@
       "enGB": "",
       "sci": "Larus canus",
       "codes": [
+        "COGU",
         "MEGU"
       ],
       "bandingCode": "COGU",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -18511,7 +18656,8 @@
       "enGB": "European Storm Petrel",
       "sci": "Hydrobates pelagicus",
       "codes": [
-        "ESPE"
+        "ESPE",
+        "EUSP"
       ],
       "bandingCode": "EUSP",
       "codeSource": "com_quick_codes",
@@ -18538,10 +18684,11 @@
       "enGB": "",
       "sci": "Calidris falcinellus",
       "codes": [
+        "BBIS",
         "BBSA"
       ],
       "bandingCode": "BBIS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -18636,10 +18783,11 @@
       "enGB": "",
       "sci": "Tachycineta bicolor",
       "codes": [
+        "TRES",
         "TRSW"
       ],
       "bandingCode": "TRES",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -18674,11 +18822,12 @@
       "enGB": "Swinhoe's Storm Petrel",
       "sci": "Hydrobates monorhis",
       "codes": [
-        "SWSP",
-        "SSPE"
+        "SSTP",
+        "SSPE",
+        "SWSP"
       ],
       "bandingCode": "SSTP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -18740,8 +18889,8 @@
       "enGB": "",
       "sci": "Ptilopsis granti",
       "codes": [
-        "SWFS",
-        "SWFO"
+        "SWFO",
+        "SWFS"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -18781,10 +18930,11 @@
       "enGB": "",
       "sci": "Aythya ferina",
       "codes": [
+        "COMP",
         "COPO"
       ],
       "bandingCode": "COMP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -18825,10 +18975,11 @@
       "enGB": "",
       "sci": "Ficedula albicilla",
       "codes": [
+        "TAFL",
         "RTFL"
       ],
       "bandingCode": "TAFL",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -18919,10 +19070,11 @@
       "enGB": "Common Moorhen",
       "sci": "Gallinula chloropus",
       "codes": [
+        "COMO",
         "EUMO"
       ],
       "bandingCode": "COMO",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -19054,10 +19206,11 @@
       "enGB": "Grey Phalarope",
       "sci": "Phalaropus fulicarius",
       "codes": [
+        "REPH",
         "GRPH"
       ],
       "bandingCode": "REPH",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -19074,6 +19227,7 @@
       "sci": "Anarhynchus atrifrons",
       "codes": [
         "TSPL",
+        "TISA",
         "TISP",
         "LESA"
       ],
@@ -19094,8 +19248,8 @@
       "enGB": "Hume's Leaf Warbler",
       "sci": "Phylloscopus humei",
       "codes": [
-        "HUWA",
         "HULW",
+        "HUWA",
         "HLWA"
       ],
       "bandingCode": "",
@@ -19223,8 +19377,8 @@
       "enGB": "",
       "sci": "Ficedula hypoleuca",
       "codes": [
-        "PIFL",
-        "EPFL"
+        "EPFL",
+        "PIFL"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -19275,11 +19429,11 @@
       "enGB": "Stone-curlew",
       "sci": "Burhinus oedicnemus",
       "codes": [
-        "STCU",
-        "ESCU",
         "ETKN",
+        "EUSC",
         "EUTK",
-        "EUSC"
+        "ESCU",
+        "STCU"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -19325,10 +19479,11 @@
       "enGB": "",
       "sci": "Cygnus buccinator",
       "codes": [
+        "TRUS",
         "TRSW"
       ],
       "bandingCode": "TRUS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -19344,10 +19499,11 @@
       "enGB": "Common Guillemot",
       "sci": "Uria aalge",
       "codes": [
+        "COMU",
         "COGU"
       ],
       "bandingCode": "COMU",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -19434,10 +19590,11 @@
       "enGB": "Pacific Golden Plover",
       "sci": "Pluvialis fulva",
       "codes": [
+        "PAGP",
         "PGPL"
       ],
       "bandingCode": "PAGP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -19455,11 +19612,12 @@
       "enGB": "Tundra Bean Goose",
       "sci": "Anser serrirostris",
       "codes": [
+        "TUBG",
         "BEGO",
         "TBGO"
       ],
       "bandingCode": "TUBG",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -19501,10 +19659,11 @@
       "enGB": "Common Kestrel",
       "sci": "Falco tinnunculus",
       "codes": [
+        "EUKE",
         "COKE"
       ],
       "bandingCode": "EUKE",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -19527,10 +19686,11 @@
       "enGB": "European Turtle Dove",
       "sci": "Streptopelia turtur",
       "codes": [
+        "EUTD",
         "ETDO"
       ],
       "bandingCode": "EUTD",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -19598,11 +19758,12 @@
       "enGB": "Collared Dove",
       "sci": "Streptopelia decaocto",
       "codes": [
+        "EUCD",
         "CODO",
         "ECDO"
       ],
       "bandingCode": "EUCD",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -19627,10 +19788,11 @@
       "enGB": "",
       "sci": "Limosa limosa",
       "codes": [
+        "BLTG",
         "BTGO"
       ],
       "bandingCode": "BLTG",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -19652,12 +19814,13 @@
       "enGB": "Sand Martin",
       "sci": "Riparia riparia",
       "codes": [
+        "BANS",
         "SAMA",
-        "BASW",
-        "CSMA"
+        "CSMA",
+        "BASW"
       ],
       "bandingCode": "BANS",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -19873,11 +20036,12 @@
       "enGB": "Corncrake",
       "sci": "Crex crex",
       "codes": [
-        "COCR",
-        "CORN"
+        "CORC",
+        "CORN",
+        "COCR"
       ],
       "bandingCode": "CORC",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -20075,11 +20239,12 @@
       "enGB": "Taiga Bean Goose",
       "sci": "Anser fabalis",
       "codes": [
+        "TABG",
         "BEGO",
         "TBGO"
       ],
       "bandingCode": "TABG",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -20152,10 +20317,11 @@
       "enGB": "",
       "sci": "Turdus migratorius",
       "codes": [
+        "AMRO",
         "ALRO"
       ],
       "bandingCode": "AMRO",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -20260,11 +20426,12 @@
       "enGB": "",
       "sci": "Rallus aquaticus",
       "codes": [
+        "WEWR",
         "WWRA",
         "WARA"
       ],
       "bandingCode": "WEWR",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -20307,10 +20474,11 @@
       "enGB": "",
       "sci": "Emberiza aureola",
       "codes": [
+        "YBSB",
         "YBBU"
       ],
       "bandingCode": "YBSB",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -20561,10 +20729,11 @@
       "enGB": "White-winged Black Tern",
       "sci": "Chlidonias leucopterus",
       "codes": [
+        "WWTE",
         "WWBT"
       ],
       "bandingCode": "WWTE",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [
           "Weißflügel-"
@@ -20608,8 +20777,8 @@
       "enGB": "Chinese Grosbeak",
       "sci": "Eophona migratoria",
       "codes": [
-        "YBGR",
-        "CHGR"
+        "CHGR",
+        "YBGR"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -20826,8 +20995,8 @@
       "enGB": "",
       "sci": "Phoenicurus leucocephalus",
       "codes": [
-        "WCWR",
-        "WCRE"
+        "WCRE",
+        "WCWR"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -20911,10 +21080,11 @@
       "enGB": "",
       "sci": "Branta leucopsis",
       "codes": [
+        "BARG",
         "BAGO"
       ],
       "bandingCode": "BARG",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -20936,10 +21106,11 @@
       "enGB": "",
       "sci": "Estrilda astrild",
       "codes": [
+        "COMW",
         "COWA"
       ],
       "bandingCode": "COMW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -20955,7 +21126,8 @@
       "enGB": "Leach's Storm Petrel",
       "sci": "Hydrobates leucorhous",
       "codes": [
-        "LSPE"
+        "LSPE",
+        "LESP"
       ],
       "bandingCode": "LESP",
       "codeSource": "com_quick_codes",
@@ -21044,8 +21216,8 @@
       "enGB": "European Honey Buzzard",
       "sci": "Pernis apivorus",
       "codes": [
-        "EUHB",
-        "EHBU"
+        "EHBU",
+        "EUHB"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -21071,11 +21243,12 @@
       "enGB": "",
       "sci": "Upupa epops",
       "codes": [
-        "EUHO",
-        "HOOP"
+        "COHO",
+        "HOOP",
+        "EUHO"
       ],
       "bandingCode": "COHO",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -21363,12 +21536,13 @@
       "enGB": "Greater Sand Plover",
       "sci": "Anarhynchus leschenaultii",
       "codes": [
+        "GSAP",
         "GSPL",
-        "GRSP",
-        "GRSA"
+        "GRSA",
+        "GRSP"
       ],
       "bandingCode": "GSAP",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -21429,8 +21603,8 @@
       "enGB": "",
       "sci": "Troglodytes troglodytes",
       "codes": [
-        "EUWR",
-        "NOWR"
+        "NOWR",
+        "EUWR"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -21456,8 +21630,8 @@
       "enGB": "",
       "sci": "Taeniopygia guttata",
       "codes": [
-        "TZFI",
         "SZFI",
+        "TZFI",
         "ZEFI"
       ],
       "bandingCode": "",
@@ -21477,10 +21651,11 @@
       "enGB": "",
       "sci": "Bombycilla cedrorum",
       "codes": [
+        "CEDW",
         "CEWA"
       ],
       "bandingCode": "CEDW",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -21496,8 +21671,9 @@
       "enGB": "",
       "sci": "Cyanoramphus novaezelandiae",
       "codes": [
-        "RFPA",
-        "RCPA"
+        "RCKA",
+        "RCPA",
+        "RFPA"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -21516,10 +21692,11 @@
       "enGB": "",
       "sci": "Phylloscopus collybita",
       "codes": [
+        "CCHI",
         "COCH"
       ],
       "bandingCode": "CCHI",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -21683,8 +21860,8 @@
       "enGB": "",
       "sci": "Diopsittaca nobilis",
       "codes": [
-        "RSMA",
-        "NRSM"
+        "NRSM",
+        "RSMA"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",
@@ -21703,7 +21880,8 @@
       "enGB": "Little Whimbrel",
       "sci": "Numenius minutus",
       "codes": [
-        "LIWH"
+        "LIWH",
+        "LICU"
       ],
       "bandingCode": "LICU",
       "codeSource": "com_quick_codes",
@@ -21722,10 +21900,11 @@
       "enGB": "",
       "sci": "Botaurus minutus",
       "codes": [
+        "LIBI",
         "CLBI"
       ],
       "bandingCode": "LIBI",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": [
@@ -21792,10 +21971,11 @@
       "enGB": "",
       "sci": "Branta hutchinsii",
       "codes": [
+        "CACG",
         "CAGO"
       ],
       "bandingCode": "CACG",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -21811,10 +21991,11 @@
       "enGB": "",
       "sci": "Catharus ustulatus",
       "codes": [
+        "SWTH",
         "RBTH"
       ],
       "bandingCode": "SWTH",
-      "codeSource": "com_quick_codes",
+      "codeSource": "banding_code",
       "aliases": {
         "de": [],
         "en": []
@@ -21964,7 +22145,8 @@
       "enGB": "Bewick's Swan",
       "sci": "Cygnus columbianus",
       "codes": [
-        "BESW"
+        "BESW",
+        "TUSW"
       ],
       "bandingCode": "TUSW",
       "codeSource": "com_quick_codes",
@@ -22058,8 +22240,8 @@
       "enGB": "",
       "sci": "Zapornia pusilla",
       "codes": [
-        "MACR",
-        "BACR"
+        "BACR",
+        "MACR"
       ],
       "bandingCode": "",
       "codeSource": "com_quick_codes",

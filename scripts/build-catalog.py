@@ -9,6 +9,7 @@ from pathlib import Path
 import re
 
 from catalog_workbook import workbook_rows
+from code_policy import apply_codes
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_URL = 'https://cornell.box.com/s/zjci66divvqnz00k98r7pmmb6kpc69zs'
@@ -91,7 +92,10 @@ def build(workbook, country_source, root=ROOT):
     report = {'catalog':catalog, 'speciesCount':len(birds), 'retainedSpecies':len(legacy),
               'addedSpecies':sorted(selected-legacy.keys()), 'excludedSourceTaxa':exclusions, 'missing':missing}
     records = {'names':{k:names[k] for k in sorted(selected)}, 'codes':{k:codes[k] for k in sorted(selected)}, 'groups':groups}
-    return {'meta':meta, 'species':sorted(birds,key=lambda s:s['de'] or s['sci'])}, records, report
+    data = {'meta':meta, 'species':sorted(birds,key=lambda s:s['de'] or s['sci'])}
+    data = apply_codes(data, json.loads((root/'data/code-records.json').read_text()))
+    report['missing']['codes'] = [b['id'] for b in data['species'] if not b['codes']]
+    return data, records, report
 
 
 def main():
