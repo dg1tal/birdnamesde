@@ -1,9 +1,11 @@
-# Private EBD import: seasonal preview
+# Private EBD import and active seasonal release
 
-The EBD importer prepares an aggregate preview for review. It does **not** replace
-`dist/seasonal-species.json`; the app continues to use its existing histogram data
-and daily API updates. Activation is a separate change that must update the method
-page, information text, coverage table, cache version and provenance checks together.
+The EBD importer prepares an intermediate aggregate for review. Since the release
+of 5 November 2026, `scripts/build-ebd-seasonal.py` uses the reviewed aggregate to
+generate the active `dist/seasonal-species.json`, its provenance/terms, and the
+bilingual method and coverage page. The app's daily API refresh is unchanged.
+Learning progress and existing rounds are retained. New seasonal rounds snapshot
+`ebd-relSep-2026-2021-2025-v1`; old rounds without source metadata stay unassigned.
 
 ## Reproduce
 
@@ -15,7 +17,9 @@ python3 scripts/import-ebd.py \
   /Users/thumax/EBD/downloads/ebd_DE_smp_relSep-2026.zip \
   /Users/thumax/EBD/downloads/ebd_NL_smp_relSep-2026.zip \
   /Users/thumax/EBD/downloads/ebd_GB_smp_relSep-2026.zip
-python3 -m unittest discover -s scripts -p 'test_ebd.py'
+python3 scripts/build-ebd-seasonal.py
+python3 -m unittest discover -s scripts -p 'test_ebd*.py'
+python3 scripts/build-ebd-seasonal.py --check
 python3 scripts/check-private-ebd.py
 ```
 
@@ -51,7 +55,7 @@ GB is larger than DE and NL combined; processing can take several minutes.
   approved records are not evidence of true absence; sensitive data may be withheld.
 - Groups: frequent ≥10%, medium ≥1% and <10%, rare >0% and <1%. Zero detections
   do not form a group. Groups are retained even below the sample gate, for inspection;
-  activation must apply ≥300 checklists and ≥3 years with ≥100 checklists each.
+  the app applies ≥300 checklists and ≥3 years with ≥100 checklists each.
 - Winter uses December, January and February of each calendar year, matching the
   existing app convention. Other seasons are March–May, June–August, September–November.
 - Country and state/province aggregates are generated. Local aggregates follow
@@ -82,7 +86,8 @@ sent automatically by the importer or this workflow.
 The ignore rules and `check-private-ebd.py` catch archives and typical raw filenames;
 the guard also checks the first line for a raw observation/sampling header, including
 renamed files. Run it before committing, since a CI check cannot undo a public push.
-The Pages workflow publishes only `dist/`, so the preview is not served by the app.
+The Pages workflow publishes only `dist/`. The intermediate preview is not fetched
+by the app; the compact active aggregates, source terms and provenance are public.
 
 ## Import reviewed on 5 November 2026
 
@@ -105,3 +110,24 @@ There were 49 eligible German sampling rows with a county/state hierarchy mismat
 the county rollup was omitted as described above. The two other archives had none.
 The archived source names and hashes, total input rows, pre/post-group checklist
 counts, annual samples and per-season groups are recorded in the preview itself.
+
+## Activation and future updates
+
+`data/ebd-region-match.json` retains the minimal public API labels and hierarchy
+reviewed for activation (145 selectable regions). Every EBD code matches exactly;
+GB-ENG-HAL has no historical sample. No name-based or nearest-region substitution is
+performed. New API regions without matching EBD data use the existing regional-list
+fallback. The published coverage page includes the reviewed hierarchy, with explicit
+zero-sample fallback cells for Halton.
+
+Run the builder after a reviewed import. It rejects changed periods, selection
+thresholds, unexpected releases, unresolved catalog concepts, overlapping groups,
+inconsistent annual samples or source codes missing from the reviewed hierarchy.
+It generates all four published artifacts together. `--check` in CI detects stale
+artifacts; daily API refreshes never modify the historical aggregates. New EBD
+releases require a new dataset ID and review of the source period and metadata.
+
+The historical histogram builder is retained only for archival reproduction;
+invoking it overwrites seasonal outputs and will fail the active EBD artifact check.
+To roll back an app release, restore all matching data/code/method/cache-version
+changes from Git together. Learning storage does not require migration or reset.

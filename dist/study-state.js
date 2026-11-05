@@ -1,5 +1,6 @@
 import {RULES} from './learning-model.js?v=20261102-learning2';
 import {isNameLanguage} from './name-languages.js?v=20261101-scientific1';
+import {validSeasonalDataset} from './hybrid-learning.js?v=20261105-ebd1';
 // Serializable lesson state. Grading and navigation are separate so restored
 // feedback cannot grade an answer twice.
 export function validateLesson(value, ids) {
@@ -20,6 +21,7 @@ export function validateLesson(value, ids) {
   if(value.nameLanguage!==undefined&&!isNameLanguage(value.nameLanguage))return null;
   if(value.regionalContext!=null){
     const h=value.regionalContext;
+    if(h.seasonalDataset!=null&&!validSeasonalDataset(h.seasonalDataset))return null;
     if(h.selectedGroups!=null&&(!Array.isArray(h.selectedGroups)||h.selectedGroups.length>3||new Set(h.selectedGroups).size!==h.selectedGroups.length||!h.selectedGroups.every(g=>['frequent','medium','rare'].includes(g))))return null;
     if(!['winter','spring','summer','autumn'].includes(h.season)||typeof h.seasonalReady!=='boolean'||typeof h.seasonalRequested!=='boolean'||!Array.isArray(h.additions)||h.additions.length>ids.size||!h.additions.every(r=>r&&ids.has(r.id)&&/^\d{4}-\d{2}-\d{2}$/.test(r.observedOn)&&/^\d{4}-\d{2}-\d{2}$/.test(r.expiresOn)&&Date.parse(r.expiresOn)-Date.parse(r.observedOn)===14*86400000))return null;
   }

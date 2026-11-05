@@ -49,26 +49,19 @@ class SeasonalTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 m.read_histogram(path)
 
-    def test_published_coverage_and_provenance(self):
+    def test_archived_histogram_provenance(self):
+        # Historical histogram audit remains available after EBD activation.
+        # Its original samples must not be compared with the new EBD estimates.
         root = Path(__file__).resolve().parents[1]
-        data = json.loads((root / 'dist/seasonal-species.json').read_text())
         audit = json.loads((root / 'data/seasonal-histogram-provenance.json').read_text())
-        self.assertTrue(data['experimental'])
-        states = {r['code']: r for r in data['regions'] if r['code'].count('-') == 1}
-        self.assertEqual(set(states), {'DE-BW','DE-BY','DE-BE','DE-BB','DE-HB','DE-HH','DE-HE','DE-MV','DE-NI','DE-NW','DE-RP','DE-SL','DE-SN','DE-ST','DE-SH','DE-TH'})
-        for code, r in states.items():
-            self.assertEqual(sum(s['sample'] >= 300 and s['years'] >= 3 for s in r['seasons'].values()), 0 if code == 'DE-SL' else 4)
         self.assertEqual(len(audit['regions']), 17)
-        bycode = {r['code']: r for r in data['regions']}
-        for r in audit['regions']:
-            self.assertEqual(len(r['files']), 6)
-            for season, value in r['seasons'].items():
-                self.assertEqual(value['species'], len(bycode[r['code']]['seasons'][season]['ids']))
-                self.assertEqual(value['sample'], bycode[r['code']]['seasons'][season]['sample'])
-                groups = bycode[r['code']]['seasons'][season]['groups']
-                self.assertEqual(value['groups'], {g: len(ids) for g, ids in groups.items()})
-                flat = sum(groups.values(), [])
-                self.assertEqual(len(flat), len(set(flat)))
+        for region in audit['regions']:
+            self.assertEqual(len(region['files']), 6)
+            for entry in region['files']:
+                self.assertEqual(len(entry['sha256']), 64)
+                self.assertTrue(entry['source'].startswith('https://ebird.org/barchart?'))
+            for value in region['seasons'].values():
+                self.assertEqual(value['ready'], value['sample'] >= 300 and value['supportedYears'] >= 3)
         self.assertFalse(audit['originalExportsPublished'])
 
 

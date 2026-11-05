@@ -1,0 +1,877 @@
+{
+  "source": "https://dg1tal.github.io/birdnamesde/regions.json",
+  "snapshotGeneratedAt": "2026-11-04T12:18:00Z",
+  "checkedAt": "2026-11-05",
+  "regions": [
+    {
+      "code": "DE",
+      "parentCode": null,
+      "nameDe": "Deutschland",
+      "nameEn": "Germany"
+    },
+    {
+      "code": "DE-BB",
+      "parentCode": "DE",
+      "nameDe": "Brandenburg",
+      "nameEn": "Brandenburg"
+    },
+    {
+      "code": "DE-BE",
+      "parentCode": "DE",
+      "nameDe": "Berlin",
+      "nameEn": "Berlin"
+    },
+    {
+      "code": "DE-BW",
+      "parentCode": "DE",
+      "nameDe": "Baden-Württemberg",
+      "nameEn": "Baden-Württemberg"
+    },
+    {
+      "code": "DE-BY",
+      "parentCode": "DE",
+      "nameDe": "Bayern",
+      "nameEn": "Bayern"
+    },
+    {
+      "code": "DE-BY-GAP",
+      "parentCode": "DE-BY",
+      "nameDe": "Garmisch-Partenkirchen",
+      "nameEn": "Garmisch-Partenkirchen"
+    },
+    {
+      "code": "DE-HB",
+      "parentCode": "DE",
+      "nameDe": "Bremen",
+      "nameEn": "Bremen"
+    },
+    {
+      "code": "DE-HE",
+      "parentCode": "DE",
+      "nameDe": "Hessen",
+      "nameEn": "Hessen"
+    },
+    {
+      "code": "DE-HH",
+      "parentCode": "DE",
+      "nameDe": "Hamburg",
+      "nameEn": "Hamburg"
+    },
+    {
+      "code": "DE-MV",
+      "parentCode": "DE",
+      "nameDe": "Mecklenburg-Vorpommern",
+      "nameEn": "Mecklenburg-Vorpommern"
+    },
+    {
+      "code": "DE-NI",
+      "parentCode": "DE",
+      "nameDe": "Niedersachsen",
+      "nameEn": "Niedersachsen"
+    },
+    {
+      "code": "DE-NW",
+      "parentCode": "DE",
+      "nameDe": "Nordrhein-Westfalen",
+      "nameEn": "Nordrhein-Westfalen"
+    },
+    {
+      "code": "DE-RP",
+      "parentCode": "DE",
+      "nameDe": "Rheinland-Pfalz",
+      "nameEn": "Rheinland-Pfalz"
+    },
+    {
+      "code": "DE-SH",
+      "parentCode": "DE",
+      "nameDe": "Schleswig-Holstein",
+      "nameEn": "Schleswig-Holstein"
+    },
+    {
+      "code": "DE-SL",
+      "parentCode": "DE",
+      "nameDe": "Saarland",
+      "nameEn": "Saarland"
+    },
+    {
+      "code": "DE-SN",
+      "parentCode": "DE",
+      "nameDe": "Sachsen",
+      "nameEn": "Sachsen"
+    },
+    {
+      "code": "DE-ST",
+      "parentCode": "DE",
+      "nameDe": "Sachsen-Anhalt",
+      "nameEn": "Sachsen-Anhalt"
+    },
+    {
+      "code": "DE-TH",
+      "parentCode": "DE",
+      "nameDe": "Thüringen",
+      "nameEn": "Thüringen"
+    },
+    {
+      "code": "GB",
+      "parentCode": null,
+      "nameDe": "Vereinigtes Königreich (UK)",
+      "nameEn": "United Kingdom (UK)"
+    },
+    {
+      "code": "GB-ENG",
+      "parentCode": "GB",
+      "nameDe": "England",
+      "nameEn": "England"
+    },
+    {
+      "code": "GB-ENG-BDF",
+      "parentCode": "GB-ENG",
+      "nameDe": "Bedfordshire",
+      "nameEn": "Bedfordshire"
+    },
+    {
+      "code": "GB-ENG-BKM",
+      "parentCode": "GB-ENG",
+      "nameDe": "Buckinghamshire",
+      "nameEn": "Buckinghamshire"
+    },
+    {
+      "code": "GB-ENG-BNS",
+      "parentCode": "GB-ENG",
+      "nameDe": "South Yorkshire",
+      "nameEn": "South Yorkshire"
+    },
+    {
+      "code": "GB-ENG-BRC",
+      "parentCode": "GB-ENG",
+      "nameDe": "Berkshire",
+      "nameEn": "Berkshire"
+    },
+    {
+      "code": "GB-ENG-BST",
+      "parentCode": "GB-ENG",
+      "nameDe": "Bristol",
+      "nameEn": "Bristol"
+    },
+    {
+      "code": "GB-ENG-CAM",
+      "parentCode": "GB-ENG",
+      "nameDe": "Cambridgeshire",
+      "nameEn": "Cambridgeshire"
+    },
+    {
+      "code": "GB-ENG-CHS",
+      "parentCode": "GB-ENG",
+      "nameDe": "Cheshire",
+      "nameEn": "Cheshire"
+    },
+    {
+      "code": "GB-ENG-CMA",
+      "parentCode": "GB-ENG",
+      "nameDe": "Cumbria",
+      "nameEn": "Cumbria"
+    },
+    {
+      "code": "GB-ENG-CON",
+      "parentCode": "GB-ENG",
+      "nameDe": "Cornwall",
+      "nameEn": "Cornwall"
+    },
+    {
+      "code": "GB-ENG-DBY",
+      "parentCode": "GB-ENG",
+      "nameDe": "Derbyshire",
+      "nameEn": "Derbyshire"
+    },
+    {
+      "code": "GB-ENG-DEV",
+      "parentCode": "GB-ENG",
+      "nameDe": "Devon",
+      "nameEn": "Devon"
+    },
+    {
+      "code": "GB-ENG-DOR",
+      "parentCode": "GB-ENG",
+      "nameDe": "Dorset",
+      "nameEn": "Dorset"
+    },
+    {
+      "code": "GB-ENG-DUR",
+      "parentCode": "GB-ENG",
+      "nameDe": "Durham",
+      "nameEn": "Durham"
+    },
+    {
+      "code": "GB-ENG-ERY",
+      "parentCode": "GB-ENG",
+      "nameDe": "East Riding of Yorkshire",
+      "nameEn": "East Riding of Yorkshire"
+    },
+    {
+      "code": "GB-ENG-ESS",
+      "parentCode": "GB-ENG",
+      "nameDe": "Essex",
+      "nameEn": "Essex"
+    },
+    {
+      "code": "GB-ENG-ESX",
+      "parentCode": "GB-ENG",
+      "nameDe": "East Sussex",
+      "nameEn": "East Sussex"
+    },
+    {
+      "code": "GB-ENG-GAT",
+      "parentCode": "GB-ENG",
+      "nameDe": "Tyne and Wear",
+      "nameEn": "Tyne and Wear"
+    },
+    {
+      "code": "GB-ENG-GLS",
+      "parentCode": "GB-ENG",
+      "nameDe": "Gloucestershire",
+      "nameEn": "Gloucestershire"
+    },
+    {
+      "code": "GB-ENG-HAL",
+      "parentCode": "GB-ENG",
+      "nameDe": "Halton",
+      "nameEn": "Halton"
+    },
+    {
+      "code": "GB-ENG-HAM",
+      "parentCode": "GB-ENG",
+      "nameDe": "Hampshire",
+      "nameEn": "Hampshire"
+    },
+    {
+      "code": "GB-ENG-HEF",
+      "parentCode": "GB-ENG",
+      "nameDe": "Herefordshire",
+      "nameEn": "Herefordshire"
+    },
+    {
+      "code": "GB-ENG-HRT",
+      "parentCode": "GB-ENG",
+      "nameDe": "Hertfordshire",
+      "nameEn": "Hertfordshire"
+    },
+    {
+      "code": "GB-ENG-IOW",
+      "parentCode": "GB-ENG",
+      "nameDe": "Isle of Wight",
+      "nameEn": "Isle of Wight"
+    },
+    {
+      "code": "GB-ENG-KEN",
+      "parentCode": "GB-ENG",
+      "nameDe": "Kent",
+      "nameEn": "Kent"
+    },
+    {
+      "code": "GB-ENG-KWL",
+      "parentCode": "GB-ENG",
+      "nameDe": "Merseyside",
+      "nameEn": "Merseyside"
+    },
+    {
+      "code": "GB-ENG-LAN",
+      "parentCode": "GB-ENG",
+      "nameDe": "Lancashire",
+      "nameEn": "Lancashire"
+    },
+    {
+      "code": "GB-ENG-LEC",
+      "parentCode": "GB-ENG",
+      "nameDe": "Leicestershire",
+      "nameEn": "Leicestershire"
+    },
+    {
+      "code": "GB-ENG-LIN",
+      "parentCode": "GB-ENG",
+      "nameDe": "Lincolnshire",
+      "nameEn": "Lincolnshire"
+    },
+    {
+      "code": "GB-ENG-LND",
+      "parentCode": "GB-ENG",
+      "nameDe": "London",
+      "nameEn": "London"
+    },
+    {
+      "code": "GB-ENG-MAN",
+      "parentCode": "GB-ENG",
+      "nameDe": "Manchester",
+      "nameEn": "Manchester"
+    },
+    {
+      "code": "GB-ENG-NBL",
+      "parentCode": "GB-ENG",
+      "nameDe": "Northumberland",
+      "nameEn": "Northumberland"
+    },
+    {
+      "code": "GB-ENG-NFK",
+      "parentCode": "GB-ENG",
+      "nameDe": "Norfolk",
+      "nameEn": "Norfolk"
+    },
+    {
+      "code": "GB-ENG-NTH",
+      "parentCode": "GB-ENG",
+      "nameDe": "Northamptonshire",
+      "nameEn": "Northamptonshire"
+    },
+    {
+      "code": "GB-ENG-NTT",
+      "parentCode": "GB-ENG",
+      "nameDe": "Nottinghamshire",
+      "nameEn": "Nottinghamshire"
+    },
+    {
+      "code": "GB-ENG-NYK",
+      "parentCode": "GB-ENG",
+      "nameDe": "North Yorkshire",
+      "nameEn": "North Yorkshire"
+    },
+    {
+      "code": "GB-ENG-OXF",
+      "parentCode": "GB-ENG",
+      "nameDe": "Oxfordshire",
+      "nameEn": "Oxfordshire"
+    },
+    {
+      "code": "GB-ENG-RUT",
+      "parentCode": "GB-ENG",
+      "nameDe": "Rutland",
+      "nameEn": "Rutland"
+    },
+    {
+      "code": "GB-ENG-SAW",
+      "parentCode": "GB-ENG",
+      "nameDe": "West Midlands",
+      "nameEn": "West Midlands"
+    },
+    {
+      "code": "GB-ENG-SFK",
+      "parentCode": "GB-ENG",
+      "nameDe": "Suffolk",
+      "nameEn": "Suffolk"
+    },
+    {
+      "code": "GB-ENG-SHR",
+      "parentCode": "GB-ENG",
+      "nameDe": "Shropshire",
+      "nameEn": "Shropshire"
+    },
+    {
+      "code": "GB-ENG-SOM",
+      "parentCode": "GB-ENG",
+      "nameDe": "Somerset",
+      "nameEn": "Somerset"
+    },
+    {
+      "code": "GB-ENG-SRY",
+      "parentCode": "GB-ENG",
+      "nameDe": "Surrey",
+      "nameEn": "Surrey"
+    },
+    {
+      "code": "GB-ENG-STS",
+      "parentCode": "GB-ENG",
+      "nameDe": "Staffordshire",
+      "nameEn": "Staffordshire"
+    },
+    {
+      "code": "GB-ENG-STT",
+      "parentCode": "GB-ENG",
+      "nameDe": "Stockton-on-Tees",
+      "nameEn": "Stockton-on-Tees"
+    },
+    {
+      "code": "GB-ENG-WAR",
+      "parentCode": "GB-ENG",
+      "nameDe": "Warwickshire",
+      "nameEn": "Warwickshire"
+    },
+    {
+      "code": "GB-ENG-WIL",
+      "parentCode": "GB-ENG",
+      "nameDe": "Wiltshire",
+      "nameEn": "Wiltshire"
+    },
+    {
+      "code": "GB-ENG-WKF",
+      "parentCode": "GB-ENG",
+      "nameDe": "West Yorkshire",
+      "nameEn": "West Yorkshire"
+    },
+    {
+      "code": "GB-ENG-WOR",
+      "parentCode": "GB-ENG",
+      "nameDe": "Worcestershire",
+      "nameEn": "Worcestershire"
+    },
+    {
+      "code": "GB-ENG-WSX",
+      "parentCode": "GB-ENG",
+      "nameDe": "West Sussex",
+      "nameEn": "West Sussex"
+    },
+    {
+      "code": "GB-NIR",
+      "parentCode": "GB",
+      "nameDe": "Nordirland",
+      "nameEn": "Northern Ireland"
+    },
+    {
+      "code": "GB-NIR-ANT",
+      "parentCode": "GB-NIR",
+      "nameDe": "Antrim",
+      "nameEn": "Antrim"
+    },
+    {
+      "code": "GB-NIR-ARM",
+      "parentCode": "GB-NIR",
+      "nameDe": "Armagh",
+      "nameEn": "Armagh"
+    },
+    {
+      "code": "GB-NIR-BFS",
+      "parentCode": "GB-NIR",
+      "nameDe": "Belfast",
+      "nameEn": "Belfast"
+    },
+    {
+      "code": "GB-NIR-DOW",
+      "parentCode": "GB-NIR",
+      "nameDe": "Down",
+      "nameEn": "Down"
+    },
+    {
+      "code": "GB-NIR-DRY",
+      "parentCode": "GB-NIR",
+      "nameDe": "Derry",
+      "nameEn": "Derry"
+    },
+    {
+      "code": "GB-NIR-FER",
+      "parentCode": "GB-NIR",
+      "nameDe": "Fermanagh",
+      "nameEn": "Fermanagh"
+    },
+    {
+      "code": "GB-NIR-NYM",
+      "parentCode": "GB-NIR",
+      "nameDe": "Newry and Mourne",
+      "nameEn": "Newry and Mourne"
+    },
+    {
+      "code": "GB-NIR-OMH",
+      "parentCode": "GB-NIR",
+      "nameDe": "Omagh",
+      "nameEn": "Omagh"
+    },
+    {
+      "code": "GB-SCT",
+      "parentCode": "GB",
+      "nameDe": "Schottland",
+      "nameEn": "Scotland"
+    },
+    {
+      "code": "GB-SCT-ABD",
+      "parentCode": "GB-SCT",
+      "nameDe": "Aberdeenshire",
+      "nameEn": "Aberdeenshire"
+    },
+    {
+      "code": "GB-SCT-ABE",
+      "parentCode": "GB-SCT",
+      "nameDe": "Aberdeen",
+      "nameEn": "Aberdeen"
+    },
+    {
+      "code": "GB-SCT-AGB",
+      "parentCode": "GB-SCT",
+      "nameDe": "Argyll and Bute",
+      "nameEn": "Argyll and Bute"
+    },
+    {
+      "code": "GB-SCT-ANS",
+      "parentCode": "GB-SCT",
+      "nameDe": "Angus",
+      "nameEn": "Angus"
+    },
+    {
+      "code": "GB-SCT-CLK",
+      "parentCode": "GB-SCT",
+      "nameDe": "Clackmannanshire",
+      "nameEn": "Clackmannanshire"
+    },
+    {
+      "code": "GB-SCT-DGY",
+      "parentCode": "GB-SCT",
+      "nameDe": "Dumfries and Galloway",
+      "nameEn": "Dumfries and Galloway"
+    },
+    {
+      "code": "GB-SCT-DND",
+      "parentCode": "GB-SCT",
+      "nameDe": "Dundee",
+      "nameEn": "Dundee"
+    },
+    {
+      "code": "GB-SCT-EAY",
+      "parentCode": "GB-SCT",
+      "nameDe": "East Ayrshire",
+      "nameEn": "East Ayrshire"
+    },
+    {
+      "code": "GB-SCT-EDH",
+      "parentCode": "GB-SCT",
+      "nameDe": "Edinburgh",
+      "nameEn": "Edinburgh"
+    },
+    {
+      "code": "GB-SCT-EDU",
+      "parentCode": "GB-SCT",
+      "nameDe": "East Dunbartonshire",
+      "nameEn": "East Dunbartonshire"
+    },
+    {
+      "code": "GB-SCT-ELN",
+      "parentCode": "GB-SCT",
+      "nameDe": "East Lothian",
+      "nameEn": "East Lothian"
+    },
+    {
+      "code": "GB-SCT-ELS",
+      "parentCode": "GB-SCT",
+      "nameDe": "Eilean Siar",
+      "nameEn": "Eilean Siar"
+    },
+    {
+      "code": "GB-SCT-FAL",
+      "parentCode": "GB-SCT",
+      "nameDe": "Falkirk",
+      "nameEn": "Falkirk"
+    },
+    {
+      "code": "GB-SCT-FIF",
+      "parentCode": "GB-SCT",
+      "nameDe": "Fife",
+      "nameEn": "Fife"
+    },
+    {
+      "code": "GB-SCT-GLG",
+      "parentCode": "GB-SCT",
+      "nameDe": "Glasgow",
+      "nameEn": "Glasgow"
+    },
+    {
+      "code": "GB-SCT-HLD",
+      "parentCode": "GB-SCT",
+      "nameDe": "Highland",
+      "nameEn": "Highland"
+    },
+    {
+      "code": "GB-SCT-MLN",
+      "parentCode": "GB-SCT",
+      "nameDe": "Midlothian",
+      "nameEn": "Midlothian"
+    },
+    {
+      "code": "GB-SCT-MRY",
+      "parentCode": "GB-SCT",
+      "nameDe": "Moray",
+      "nameEn": "Moray"
+    },
+    {
+      "code": "GB-SCT-NAY",
+      "parentCode": "GB-SCT",
+      "nameDe": "North Ayrshire",
+      "nameEn": "North Ayrshire"
+    },
+    {
+      "code": "GB-SCT-NLK",
+      "parentCode": "GB-SCT",
+      "nameDe": "North Lanarkshire",
+      "nameEn": "North Lanarkshire"
+    },
+    {
+      "code": "GB-SCT-ORK",
+      "parentCode": "GB-SCT",
+      "nameDe": "Orkney Islands",
+      "nameEn": "Orkney Islands"
+    },
+    {
+      "code": "GB-SCT-PKN",
+      "parentCode": "GB-SCT",
+      "nameDe": "Perthshire and Kinross",
+      "nameEn": "Perthshire and Kinross"
+    },
+    {
+      "code": "GB-SCT-RFW",
+      "parentCode": "GB-SCT",
+      "nameDe": "Renfrewshire",
+      "nameEn": "Renfrewshire"
+    },
+    {
+      "code": "GB-SCT-SAY",
+      "parentCode": "GB-SCT",
+      "nameDe": "South Ayrshire",
+      "nameEn": "South Ayrshire"
+    },
+    {
+      "code": "GB-SCT-SCB",
+      "parentCode": "GB-SCT",
+      "nameDe": "Scottish Borders",
+      "nameEn": "Scottish Borders"
+    },
+    {
+      "code": "GB-SCT-SLK",
+      "parentCode": "GB-SCT",
+      "nameDe": "South Lanarkshire",
+      "nameEn": "South Lanarkshire"
+    },
+    {
+      "code": "GB-SCT-STG",
+      "parentCode": "GB-SCT",
+      "nameDe": "Stirling",
+      "nameEn": "Stirling"
+    },
+    {
+      "code": "GB-SCT-WDU",
+      "parentCode": "GB-SCT",
+      "nameDe": "West Dunbartonshire",
+      "nameEn": "West Dunbartonshire"
+    },
+    {
+      "code": "GB-SCT-WLN",
+      "parentCode": "GB-SCT",
+      "nameDe": "West Lothian",
+      "nameEn": "West Lothian"
+    },
+    {
+      "code": "GB-SCT-ZET",
+      "parentCode": "GB-SCT",
+      "nameDe": "Shetland Islands",
+      "nameEn": "Shetland Islands"
+    },
+    {
+      "code": "GB-WLS",
+      "parentCode": "GB",
+      "nameDe": "Wales",
+      "nameEn": "Wales"
+    },
+    {
+      "code": "GB-WLS-AGY",
+      "parentCode": "GB-WLS",
+      "nameDe": "Anglesey",
+      "nameEn": "Anglesey"
+    },
+    {
+      "code": "GB-WLS-BGE",
+      "parentCode": "GB-WLS",
+      "nameDe": "Bridgend",
+      "nameEn": "Bridgend"
+    },
+    {
+      "code": "GB-WLS-BGW",
+      "parentCode": "GB-WLS",
+      "nameDe": "Blaenau Gwent",
+      "nameEn": "Blaenau Gwent"
+    },
+    {
+      "code": "GB-WLS-CAY",
+      "parentCode": "GB-WLS",
+      "nameDe": "Caerphilly",
+      "nameEn": "Caerphilly"
+    },
+    {
+      "code": "GB-WLS-CGN",
+      "parentCode": "GB-WLS",
+      "nameDe": "Ceredigion",
+      "nameEn": "Ceredigion"
+    },
+    {
+      "code": "GB-WLS-CMN",
+      "parentCode": "GB-WLS",
+      "nameDe": "Carmarthenshire",
+      "nameEn": "Carmarthenshire"
+    },
+    {
+      "code": "GB-WLS-CRF",
+      "parentCode": "GB-WLS",
+      "nameDe": "Cardiff",
+      "nameEn": "Cardiff"
+    },
+    {
+      "code": "GB-WLS-CWY",
+      "parentCode": "GB-WLS",
+      "nameDe": "Conwy",
+      "nameEn": "Conwy"
+    },
+    {
+      "code": "GB-WLS-DEN",
+      "parentCode": "GB-WLS",
+      "nameDe": "Denbighshire",
+      "nameEn": "Denbighshire"
+    },
+    {
+      "code": "GB-WLS-FLN",
+      "parentCode": "GB-WLS",
+      "nameDe": "Flintshire",
+      "nameEn": "Flintshire"
+    },
+    {
+      "code": "GB-WLS-GWN",
+      "parentCode": "GB-WLS",
+      "nameDe": "Gwynedd",
+      "nameEn": "Gwynedd"
+    },
+    {
+      "code": "GB-WLS-MON",
+      "parentCode": "GB-WLS",
+      "nameDe": "Monmouthshire",
+      "nameEn": "Monmouthshire"
+    },
+    {
+      "code": "GB-WLS-MTY",
+      "parentCode": "GB-WLS",
+      "nameDe": "Merthyr Tydfil",
+      "nameEn": "Merthyr Tydfil"
+    },
+    {
+      "code": "GB-WLS-NTL",
+      "parentCode": "GB-WLS",
+      "nameDe": "Neath Port Talbot",
+      "nameEn": "Neath Port Talbot"
+    },
+    {
+      "code": "GB-WLS-NWP",
+      "parentCode": "GB-WLS",
+      "nameDe": "Newport",
+      "nameEn": "Newport"
+    },
+    {
+      "code": "GB-WLS-PEM",
+      "parentCode": "GB-WLS",
+      "nameDe": "Pembrokeshire",
+      "nameEn": "Pembrokeshire"
+    },
+    {
+      "code": "GB-WLS-POW",
+      "parentCode": "GB-WLS",
+      "nameDe": "Powys",
+      "nameEn": "Powys"
+    },
+    {
+      "code": "GB-WLS-RCT",
+      "parentCode": "GB-WLS",
+      "nameDe": "Rhondda, Cynon, Taff",
+      "nameEn": "Rhondda, Cynon, Taff"
+    },
+    {
+      "code": "GB-WLS-SWA",
+      "parentCode": "GB-WLS",
+      "nameDe": "Swansea",
+      "nameEn": "Swansea"
+    },
+    {
+      "code": "GB-WLS-TOF",
+      "parentCode": "GB-WLS",
+      "nameDe": "Torfaen",
+      "nameEn": "Torfaen"
+    },
+    {
+      "code": "GB-WLS-VGL",
+      "parentCode": "GB-WLS",
+      "nameDe": "Vale of Glamorgan",
+      "nameEn": "Vale of Glamorgan"
+    },
+    {
+      "code": "GB-WLS-WRX",
+      "parentCode": "GB-WLS",
+      "nameDe": "Wrexham",
+      "nameEn": "Wrexham"
+    },
+    {
+      "code": "NL",
+      "parentCode": null,
+      "nameDe": "Niederlande",
+      "nameEn": "Netherlands"
+    },
+    {
+      "code": "NL-DR",
+      "parentCode": "NL",
+      "nameDe": "Drenthe",
+      "nameEn": "Drenthe"
+    },
+    {
+      "code": "NL-FL",
+      "parentCode": "NL",
+      "nameDe": "Flevoland",
+      "nameEn": "Flevoland"
+    },
+    {
+      "code": "NL-FR",
+      "parentCode": "NL",
+      "nameDe": "Fryslân",
+      "nameEn": "Fryslân"
+    },
+    {
+      "code": "NL-GE",
+      "parentCode": "NL",
+      "nameDe": "Gelderland",
+      "nameEn": "Gelderland"
+    },
+    {
+      "code": "NL-GR",
+      "parentCode": "NL",
+      "nameDe": "Groningen",
+      "nameEn": "Groningen"
+    },
+    {
+      "code": "NL-LI",
+      "parentCode": "NL",
+      "nameDe": "Limburg",
+      "nameEn": "Limburg"
+    },
+    {
+      "code": "NL-NB",
+      "parentCode": "NL",
+      "nameDe": "Noord-Brabant",
+      "nameEn": "Noord-Brabant"
+    },
+    {
+      "code": "NL-NH",
+      "parentCode": "NL",
+      "nameDe": "Noord-Holland",
+      "nameEn": "Noord-Holland"
+    },
+    {
+      "code": "NL-OV",
+      "parentCode": "NL",
+      "nameDe": "Overijssel",
+      "nameEn": "Overijssel"
+    },
+    {
+      "code": "NL-UT",
+      "parentCode": "NL",
+      "nameDe": "Utrecht",
+      "nameEn": "Utrecht"
+    },
+    {
+      "code": "NL-ZE",
+      "parentCode": "NL",
+      "nameDe": "Zeeland",
+      "nameEn": "Zeeland"
+    },
+    {
+      "code": "NL-ZH",
+      "parentCode": "NL",
+      "nameDe": "Zuid-Holland",
+      "nameEn": "Zuid-Holland"
+    }
+  ]
+}
