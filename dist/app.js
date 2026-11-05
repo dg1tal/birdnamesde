@@ -1,23 +1,23 @@
 import {LOOKUP_PAGE_SIZE,lookupSettings,lookupTitle,sortLookup,lookupLanguages,showGermanStatus} from './lookup-settings.js?v=20261105-catalog1';
-import {continuationSettings,practiceQueue} from './practice-queue.js?v=20261102-continue1';
+import {continuationSettings,practiceQueue,dailyLearningPlan} from './practice-queue.js?v=20261105-quality2';
 import {dailyNewNamesText,selectionExplanation} from './learning-selection-copy.js?v=20261102-selection1';
-import {RULES,lessonBaseLimit,evidence,secure,dailyQueue,dailyLedger,introduce,pairKnown,beginIntroduction,gradeRecord,statusLabel,evidenceText,scheduleText,family} from './learning-model.js?v=20261105-recovery1';
-import {renderLearningMethod} from './learning-method.js?v=20261105-copy1';
-import {validateSeasonal,hybridSelection,hybridQueue,seasonLabel,regionalSnapshot,seasonalDatasetText,FREQUENCY_GROUPS,frequencyGroups,frequencyLabel} from './hybrid-learning.js?v=20261105-requiredregion1';
+import {RULES,lessonBaseLimit,evidence,secure,introduce,pairKnown,beginIntroduction,gradeRecord,statusLabel,evidenceText,scheduleText,family} from './learning-model.js?v=20261105-recovery1';
+import {renderLearningMethod} from './learning-method.js?v=20261105-quality2';
+import {validateSeasonal,hybridSelection,seasonLabel,regionalSnapshot,seasonalDatasetText,FREQUENCY_GROUPS,frequencyGroups,frequencyLabel} from './hybrid-learning.js?v=20261105-quality2';
 import {createAnnouncer,setTextIfChanged,focusElement,contentLanguage,queueFocus,activateView} from './accessibility.js?v=20261101-wave2';
-import {persistLearningState,loadLearningState} from './learning-storage.js?v=20261105-recovery1';
+import {persistLearningState,loadLearningState} from './learning-storage.js?v=20261105-quality2';
 import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from './backup.js?v=20261105-recovery1';
-import {lessonProgressText,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261102-learning2';
+import {lessonProgressText,completionMessage,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261105-quality2';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
-import {renderInformation} from './info-page.js?v=20261105-codes1';
-import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261105-recovery1';
+import {renderInformation} from './info-page.js?v=20261105-quality2';
+import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261105-quality2';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261105-catalog1';
 import {english,localize,t,importErrorMessage} from './i18n.js?v=20261105-images1';
 const defaultNameTarget=english?'de':'en';
 let nameTarget=defaultNameTarget,availableNameLanguages=['de','en'];
-import {lessonProgress,recordLessonAnswer} from './study-state.js?v=20261105-recovery1';
+import {lessonProgress,recordLessonAnswer} from './study-state.js?v=20261105-quality2';
 import {createPhotoCache} from './photo-cache.js';
 import {normalize,matches,accepts,due} from './logic.js?v=20261105-recovery1';
 const mastered=secure;
@@ -443,15 +443,7 @@ function learn(preset) {
   };
   const selection=(settings=cfg,baseOnly=false)=>learningSelection(settings,baseOnly);
   const dailyOrder=new Map();
-  const dailySelection=()=>{
-    const selected=selection({...cfg,scope:'all'}),newIds=new Set(selected.pool.map(s=>s.id));
-    const targets=cfg.target==='mixed'?[cfg.nameLanguage,'code']:[cfg.target];
-    let units=birds.flatMap(s=>targets.filter(t=>hasLanguagePair(s,cfg.sourceLanguage,t)&&t!==cfg.sourceLanguage).map(t=>({id:s.id,t,allowNew:newIds.has(s.id)})));
-    // Keep current additions discoverable even when only a few new slots remain.
-    const additions=new Set(selected.hybrid.additions.map(r=>r.id));
-    units=units.map(u=>{const key=u.id+':'+u.t;if(!dailyOrder.has(key))dailyOrder.set(key,Math.random());return {...u,random:dailyOrder.get(key)};}).sort((a,b)=>+additions.has(b.id)-+additions.has(a.id)||a.random-b.random);
-    return dailyQueue({units,records,source:cfg.sourceLanguage,method:cfg.method,ledger:daily});
-  };
+  const dailySelection=()=>dailyLearningPlan({birds,settings:cfg,selection:selection({...cfg,scope:'all'}),records,ledger:daily,order:dailyOrder});
   const renderDaily=()=>{
     const plan=dailySelection(),panel=$('#daily-panel');
     const selected=selection({...cfg,scope:'all'}),hybrid=selected.hybrid;
@@ -611,8 +603,11 @@ function showSummary(x) {
   const scheduled=birds.flatMap(s=>[...new Set(x.queue.map(i=>i.t))].filter(t=>hasLanguagePair(s,x.sourceLanguage,t)&&t!==x.sourceLanguage).map(t=>progress(s,t,x))).filter(Boolean);
   const dueCount=scheduled.filter(v=>due(v)).length,next=scheduled.filter(v=>v.due>Date.now()).sort((a,b)=>a.due-b.due)[0];
   const canPractice=!!learningSelection(continuationSettings(ui.learn)).pool.length;
-  const dayDone=!dueCount&&(!next||new Date(next.due).toDateString()!==new Date().toDateString());
-  app.innerHTML=`<div class="session panel summary"><h1>Einheit abgeschlossen</h1><p class="summary-score">${english?`First attempts: ${x.firstCorrect} of ${x.firstAnswered} correct`:`Erste Versuche: ${x.firstCorrect} von ${x.firstAnswered} richtig`}</p><p>${esc(lessonProgressText(p,english).primary)}</p><p>${english?`Extra attempts after errors or hints: ${repeats} completed · ${x.correct-x.firstCorrect} correct`:`Zusatzversuche nach Fehlern oder Hinweisen: ${repeats} bearbeitet · ${x.correct-x.firstCorrect} richtig`}</p>${p.completed<p.total||p.repeats?`<p class="muted">${english?'Finished early. '+lessonProgressText(p,true).pending+'. Graded answers remain saved.':'Vorzeitig beendet. '+lessonProgressText(p,false).pending+'. Bewertete Antworten bleiben gespeichert.'}</p>`:''}<p>${english?`Correct answers with support: ${x.supported||0}`:`Richtige Antworten mit Unterstützung: ${x.supported||0}`}</p>${dayDone?`<p class="good">${x.daily?(english?'Daily round complete.':'Tagesrunde erledigt.'):(english?'No reviews are due right now.':'Zurzeit sind keine Wiederholungen fällig.')}</p>`:''}<div class="actions summary-next">${dueCount?`<button id="more-due" class="primary">${english?'Review more due targets':'Weitere fällige wiederholen'} (${dueCount})</button>`:''}<button id="continue-practice" class="${dueCount?'quiet':'primary'}" ${!canPractice||session?'disabled':''}>${english?'Keep learning →':'Weiterlernen →'}</button></div><p><a href="#lernmethode">${english?'How learning works':'So funktioniert das Lernen'}</a></p><p class="form-note">${english?`Keep learning starts up to ${RULES.round} questions with your current species selection and answer method, including more new names or codes if available.`:`Mit „Weiterlernen“ startest du bis zu ${RULES.round} Fragen mit deiner aktuellen Artenauswahl und Antwortmethode – bei Bedarf auch weitere neue Namen oder Codes.`}</p>${progressHelp()}${storageNotice()}<div class="actions"><button id="free-summary">${english?'Build another round':'Weitere Runde zusammenstellen'}</button><button id="restart">${english?'Back to learning settings':'Zur Lernvorbereitung'}</button>${session?`<button id="continue-saved">${english?'Resume saved session':'Gespeicherte Einheit fortsetzen'}</button>`:''}<a class="button-link" href="#statistik">Fortschritt ansehen</a></div></div>`;
+  const targets=[...new Set(x.queue.map(i=>i.t))];
+  const summarySettings={...ui.learn,sourceLanguage:x.sourceLanguage,nameLanguage:x.nameLanguage,method:x.method,target:targets.length>1?'mixed':targets[0],scope:'all'};
+  const pendingDaily=x.daily&&dailyLearningPlan({birds,settings:summarySettings,selection:learningSelection(summarySettings),records,ledger:daily}).queue.length>0;
+  const completedMessage=completionMessage(p,{daily:x.daily,dueCount,nextDue:next?.due,pendingDaily},english);
+  app.innerHTML=`<div class="session panel summary"><h1>Einheit abgeschlossen</h1><p class="summary-score">${english?`First attempts: ${x.firstCorrect} of ${x.firstAnswered} correct`:`Erste Versuche: ${x.firstCorrect} von ${x.firstAnswered} richtig`}</p><p>${esc(lessonProgressText(p,english).primary)}</p><p>${english?`Extra attempts after errors or hints: ${repeats} completed · ${x.correct-x.firstCorrect} correct`:`Zusatzversuche nach Fehlern oder Hinweisen: ${repeats} bearbeitet · ${x.correct-x.firstCorrect} richtig`}</p>${p.completed<p.total||p.repeats?`<p class="muted">${english?'Finished early. '+lessonProgressText(p,true).pending+'. Graded answers remain saved.':'Vorzeitig beendet. '+lessonProgressText(p,false).pending+'. Bewertete Antworten bleiben gespeichert.'}</p>`:''}<p>${english?`Correct answers with support: ${x.supported||0}`:`Richtige Antworten mit Unterstützung: ${x.supported||0}`}</p>${completedMessage?`<p class="good">${esc(completedMessage)}</p>`:''}<div class="actions summary-next">${dueCount?`<button id="more-due" class="primary">${english?'Review more due targets':'Weitere fällige wiederholen'} (${dueCount})</button>`:''}<button id="continue-practice" class="${dueCount?'quiet':'primary'}" ${!canPractice||session?'disabled':''}>${english?'Keep learning →':'Weiterlernen →'}</button></div><p><a href="#lernmethode">${english?'How learning works':'So funktioniert das Lernen'}</a></p><p class="form-note">${english?`Keep learning starts up to ${RULES.round} questions with your current species selection and answer method, including more new names or codes if available.`:`Mit „Weiterlernen“ startest du bis zu ${RULES.round} Fragen mit deiner aktuellen Artenauswahl und Antwortmethode – bei Bedarf auch weitere neue Namen oder Codes.`}</p>${progressHelp()}${storageNotice()}<div class="actions"><button id="free-summary">${english?'Build another round':'Weitere Runde zusammenstellen'}</button><button id="restart">${english?'Back to learning settings':'Zur Lernvorbereitung'}</button>${session?`<button id="continue-saved">${english?'Resume saved session':'Gespeicherte Einheit fortsetzen'}</button>`:''}<a class="button-link" href="#statistik">Fortschritt ansehen</a></div></div>`;
   $('#continue-practice').onclick=()=>startPractice();
   $('#restart').onclick=()=>{freeMode=false;showLearningSetup();};
   $('#free-summary').onclick=()=>{freeMode=true;showLearningSetup();};
