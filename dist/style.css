@@ -500,3 +500,12 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
 #shared-settings .learning-settings-group > .form-note{margin:12px 0}
 #shared-settings .learning-settings-group > .learn-photo-option{margin:12px 0}
 @media(max-width:480px){#shared-settings > fieldset{padding:12px}.name-language-settings .settings{grid-template-columns:1fr}#setup .primary-settings{grid-template-columns:1fr}}
+
+/* Keep lookup names, codes and occurrence context visible together. */
+.card .lookup-aliases{font-size:14px;margin-top:6px}
+.lookup-name-list dd .lookup-aliases{margin-top:6px}
+.lookup-code-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.lookup-codes{display:flex;flex-wrap:wrap;gap:6px}
+.card .lookup-code-row>a{float:none;flex-shrink:0;margin-top:7px}
+.lookup-status{display:flex;flex-wrap:wrap;gap:4px 12px;clear:both}
+.card .lookup-note{font-size:14px;line-height:1.5;margin-top:10px}
