@@ -53,6 +53,8 @@ jobs:
           python3 -m unittest discover -s scripts -p 'test_current.py'
           python3 -m unittest discover -s scripts -p 'test_seasonal.py'
           python3 -m unittest discover -s scripts -p 'test_ebd.py'
+          python3 -m unittest discover -s scripts -p 'test_ebd_activation.py'
+          python3 scripts/build-ebd-seasonal.py --check
           python3 scripts/check-private-ebd.py
           node scripts/validate-photos.mjs
           node --check dist/app.js

@@ -10,7 +10,8 @@ const list=updatedAt=>({ids:[],reportedTaxa:0,updatedAt});
 const entries=[['DE','Deutschland','Germany',null],['DE-BE','Berlin','Berlin','DE'],['NL','Niederlande','Netherlands',null],['NL-DR','Drenthe','Drenthe','NL'],['GB','Vereinigtes Königreich','United Kingdom',null],['GB-ENG','England','England','GB'],['GB-ENG-CON','Cornwall','Cornwall','GB-ENG']].map(([code,nameDe,nameEn,parentCode])=>({code,nameDe,nameEn,parentCode,country:code.split('-')[0],all:list(stamp),recent:list(stamp)}));
 entries[1].all=list(older);
 const regions={regions:entries,countries:entries.filter(r=>!r.parentCode),recentDays:30};
-const args={birds,meta,photos,germanNamesMeta,regions};
+const seasonal=JSON.parse(readFileSync('dist/seasonal-species.json'));
+const args={birds,meta,photos,germanNamesMeta,regions,seasonal};
 const f=informationFacts(args);
 assert.equal(f.species,313);assert.deepEqual(f.levels,[106,103,104]);assert.equal(f.photoCount,409);assert.equal(f.illustrationCount,6);assert.equal(f.photoComparisons,112);assert.equal(f.illustrationComparisons,6);
 assert.equal(f.regionCount,7);assert.equal(f.listCount,14);assert.equal(f.oldest,older);assert.equal(f.newest,stamp);
@@ -30,7 +31,7 @@ const translated=en.replace(/<ul data-name-content>[\s\S]*?<\/ul>/,'');
 assert(!/Namensmatrix|Taxonomie-Downloads|Brutvögel|Lernstand|Datenschutz|Oberflächensprache|Wiederholung|Bildnachweise/.test(translated));
 assert(en.includes('Original source titles'));assert(en.includes('GitHub Actions secret'));assert(en.includes('not by your browser'));assert(en.includes('all supported answer languages'));assert(!en.includes('both learning directions'));assert(!en.includes('saves and pauses'));
 assert(en.includes('1 local eBird region'));assert(en.includes('7 areas including country-wide lists; 14 available species lists.'));
-assert(en.includes('29/10/2026')&&en.includes('4 November 2026'));
+assert(en.includes('29/10/2026')&&en.includes('5 November 2026'));
 const missing=renderInformation({...args,english:true,regions:null});assert(missing.includes('Regional data is currently unavailable'));assert(!missing.includes('Invalid Date'));
 const partial=informationFacts({...args,regions:{...regions,regions:[{...entries[0],all:null,recent:list(stamp)}]}});assert.equal(partial.listCount,1);
 const changed=renderInformation({...args,english:true,birds:[birds[0]],photos:{},regions:null});assert(changed.includes('<strong>1 species</strong>'));assert(changed.includes('0 photographs and 0 historical'));
@@ -41,3 +42,17 @@ assert(!en.includes('info-lessons'));assert(!de.includes('Drei richtige Antworte
 assert(en.includes('Records are not merged'));assert(en.includes('Only the Replace button'));
 assert(de.includes('Erst der Ersetzen-Button'));assert(de.includes('Wenn das Speichern fehlschlägt'));
 console.log('PASS: bilingual information sections, actual species/media counts, per-list regional timestamps, unavailable/partial snapshots, translated source labels, exports/storage wording and review intervals.');
+
+for(const html of [en,de]){
+ assert(html.includes('eBird Basic Dataset'));
+ assert(html.includes('September 2026'));
+ for(const file of ['seasonal-species.json','seasonal-provenance.json','ebd-terms.txt'])assert(html.includes('href="'+file+'"'));
+ assert(!html.includes('histogram downloads')&&!html.includes('eBird-Histogrammdaten'));
+}
+assert(en.includes('18 areas with historical samples'));
+assert(en.includes('13 areas with historical samples'));
+assert(en.includes('113 areas with historical samples'));
+assert(renderInformation({...args,english:true,seasonal:null}).includes('Seasonal data is currently unavailable'));
+const changedSeasonal=structuredClone(seasonal);changedSeasonal.regions=changedSeasonal.regions.filter(r=>r.code==='DE');
+assert(renderInformation({...args,english:true,seasonal:changedSeasonal}).includes('1 area with historical samples'));
+console.log('PASS: EBD release, data-derived seasonal coverage, downloadable source terms and unavailable historical data.');
