@@ -209,7 +209,19 @@ function nameAnswerMarkup(s,target){
  return `<p class="answer-main answer-name-with-code">${nameMarkup(s,target)}${s.codes[0]?`<span class="code answer-code"><span class="sr">${english?'eBird Quick Find Code':'eBird-Kurzcode'}: </span><span data-name-content>${esc(s.codes[0])}</span></span>`:''}</p>${aliases.length?`<p class="answer-aliases"><span class="muted">${english?'Also accepted:':'Ebenfalls akzeptiert:'}</span> <span data-name-content lang="${esc(contentLanguage(target))}">${aliases.map(esc).join(' · ')}</span></p>`:''}`;
 }
 function englishNames(s){return s.enGB?`<div class="english-variants" data-name-content lang="en"><span><span class="variant-label">US</span> ${esc(s.en)}</span><span><span class="variant-label">GB</span> ${esc(s.enGB)}</span></div>`:`<p class="english" data-name-content lang="en">${esc(s.en)}</p>`;}
-const otherEnglishNames=s=>s.aliases.en.filter(name=>name!==s.enGB);
+function lookupAliases(s,language){
+ const nameKey=name=>name.toLocaleLowerCase(language).replace(/[\s‐‑–—-]/g,'');
+ const shown=new Set([s[language],...(language==='en'?[s.enGB]:((s.germanNames||[]).map(n=>n.name)))].filter(Boolean).map(nameKey));
+ return (s.aliases[language]||[]).filter(name=>{
+  // Keep source-only markers and combined local/English labels out of the name list.
+  if(/ x$|-$/.test(name)||name.includes(' - '))return false;
+  const key=nameKey(name);if(shown.has(key))return false;shown.add(key);return true;
+ });
+}
+function lookupAliasMarkup(s,language){
+ const names=lookupAliases(s,language);if(!names.length)return '';
+ return `<p class="lookup-aliases"><span class="muted">${english?'Other names:':'Weitere Namen:'}</span> <span data-name-content lang="${language}">${names.map(esc).join(' · ')}</span></p>`;
+}
 function germanNames(s){
  const names=s.germanNames||[];if(!names.length)return '';
  const groups=[['alternative','Alternative deutsche Namen'],['historical','Historische deutsche Namen']];
@@ -219,12 +231,13 @@ function germanNames(s){
 function lookupNameList(s){
  const rows=NAME_LANGUAGES.filter(language=>language.code!=='de').map(language=>{
   const name=primaryName(s,language.code);
-  const value=!name?`<span class="muted">${english?'Name unavailable':'Name nicht verfügbar'}</span>`:language.code==='en'?englishNames(s):nameMarkup(s,language.code);
+  const value=!name?`<span class="muted">${english?'Name unavailable':'Name nicht verfügbar'}</span>`:language.code==='en'?englishNames(s)+lookupAliasMarkup(s,'en'):nameMarkup(s,language.code);
   return `<div><dt>${esc(languageLabel(language.code,english?'en':'de'))}</dt><dd>${value}</dd></div>`;
  }).join('');
  return `<dl class="lookup-name-list">${rows}</dl>`;
 }
-function card(s){return `<article class="card"><h2><span class="card-language-label">${esc(languageLabel('de',english?'en':'de'))}</span>${nameMarkup(s,'de')}</h2>${lookupNameList(s)}${germanNames(s)}<p><span class="code">${esc(s.codes[0])}</span><a href="https://ebird.org/species/${s.id}" target="_blank" rel="noopener">eBird ↗<span class="sr">: ${esc(s.de)}</span></a></p>${lookupPhotos?photoMarkup(s):''}<div class="tags">${esc(s.group)}</div><details><summary>Status & Varianten</summary><p>${s.status.map(v=>esc(t(v))).join(' · ')}</p><p>${[...s.aliases.de.filter(name=>!(s.germanNames||[]).some(n=>n.name===name)),...otherEnglishNames(s)].length?`<span data-name-content>${esc([...s.aliases.de.filter(name=>!(s.germanNames||[]).some(n=>n.name===name)),...otherEnglishNames(s)].join(' · '))}</span>`:t('Keine weiteren Namensvarianten hinterlegt.')}</p>${s.codes.length>1?`<p>Weitere offizielle Quick Codes: ${s.codes.slice(1).map(esc).join(', ')}</p>`:''}${s.note?`<p>${esc(t(s.note))}</p>`:''}</details></article>`}
+function card(s){return `<article class="card"><h2><span class="card-language-label">${esc(languageLabel('de',english?'en':'de'))}</span>${nameMarkup(s,'de')}</h2>${lookupAliasMarkup(s,'de')}${germanNames(s)}${lookupNameList(s)}<div class="lookup-code-row"><div class="lookup-codes" role="group" aria-label="${english?'eBird Quick Find Codes':'eBird-Kurzcodes'}">${s.codes.map(code=>`<span class="code" data-name-content>${esc(code)}</span>`).join('')}</div><a href="https://ebird.org/species/${s.id}" target="_blank" rel="noopener">eBird ↗<span class="sr">: ${esc(s.de)}</span></a></div><div class="tags lookup-status"><span>${esc(s.group)}</span><span>${english?'In Germany:':'In Deutschland:'} ${s.status.map(v=>esc(t(v))).join(' · ')}</span></div>${s.note?`<p class="lookup-note">${esc(t(s.note))}</p>`:''}${lookupPhotos?photoMarkup(s):''}</article>`}
+
 function rememberLookup() {
   if ($('#search')) ui.lookup.scroll = window.scrollY;
   saveUI();
