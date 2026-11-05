@@ -5,10 +5,12 @@ const species=JSON.parse(readFileSync('dist/species.json','utf8')).species;
 const manifest=JSON.parse(readFileSync('dist/photos.json','utf8')),media=manifest.photos;
 const exceptions=JSON.parse(readFileSync('data/commons-taxon-exceptions.json','utf8'));
 const sexReview=JSON.parse(readFileSync('data/photo-sex-review.json','utf8'));
-assert.equal(species.length,313);
-assert.deepEqual(Object.keys(media).sort(),species.map(s=>s.id).sort());
+const baseline=JSON.parse(readFileSync('data/catalog-baseline.json','utf8')).species;
+assert(species.length>=baseline.length);
+assert(baseline.every(s=>media[s.id]),'Retain every original species image');
+assert(Object.keys(media).every(id=>species.some(s=>s.id===id)),'Media references known species');
 const seen=new Set(),files=new Set();let count=0,illustrations=0;
-for(const s of species){
+for(const s of species.filter(s=>media[s.id])){
  const images=[media[s.id],...(media[s.id].additional||[])];
  for(const p of images){
  count++;
@@ -45,4 +47,4 @@ assert.deepEqual(readdirSync('dist/images').map(x=>'images/'+x).sort(),[...files
 assert.equal(manifest.meta.imageCount,count);
 assert.equal(manifest.meta.illustrationCount||0,illustrations);
 assert.equal(manifest.meta.sexReviewedSpecies,Object.values(sexReview.species).filter(x=>x.status==='covered').length);
-console.log(`PASS: ${species.length} species, ${count-illustrations} local photos + ${illustrations} scientific illustrations, distinct sources, reviewed taxa, sex coverage, authors, licenses and SHA-256 hashes.`);
+console.log(`PASS: ${Object.keys(media).length} species with media in a ${species.length}-species catalogue, ${count-illustrations} local photos + ${illustrations} scientific illustrations, distinct sources, reviewed taxa, sex coverage, authors, licenses and SHA-256 hashes.`);

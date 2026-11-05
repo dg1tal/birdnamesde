@@ -7,12 +7,12 @@ const birds=JSON.parse(readFileSync('dist/species.json')).species;
 const original=JSON.parse(readFileSync('data/official-records.json')).names;
 const data=JSON.parse(readFileSync('dist/languages/nl.json'));
 const available=await loadNameData(birds,async path=>({ok:true,json:async()=>JSON.parse(readFileSync('dist/'+path))}));
-assert.deepEqual(available,['de','en','sci','nl']);assert.equal(Object.keys(data.species).length,313);
+assert.deepEqual(available,['de','en','sci','nl']);assert.equal(Object.keys(data.species).length,birds.filter(s=>original[s.id].Dutch).length);
 const ids=new Set(birds.map(s=>s.id));
 for(const s of birds){
  assert.equal(primaryName(s,'nl'),original[s.id].Dutch);
- for(const {code} of NAME_LANGUAGES){assert(accepts(s,code,primaryName(s,code)));assert(!accepts(s,code,''));assert(!accepts(s,code,'!!!'));assert(matches(s,primaryName(s,code)));}
- for(const source of available)for(const target of available)assert(hasLanguagePair(s,source,target));
+ for(const {code} of NAME_LANGUAGES){if(primaryName(s,code))assert(accepts(s,code,primaryName(s,code)));assert(!accepts(s,code,''));assert(!accepts(s,code,'!!!'));assert(matches(s,primaryName(s,code)));}
+ for(const source of available)for(const target of available)assert.equal(hasLanguagePair(s,source,target),!!primaryName(s,source)&&!!primaryName(s,target));
  assert.equal(targetName(s,'nl'),original[s.id].Dutch);
 }
 const robin=birds.find(s=>s.de==='Rotkehlchen');assert.equal(primaryName(robin,'nl'),'Roodborst');assert(accepts(robin,'nl',' roodborst '));assert(!accepts(robin,'nl','European Robin'));
@@ -36,4 +36,4 @@ const lesson={version:1,queue:[{id:robin.id,t:'nl',retry:0}],sourceLanguage:'en'
 assert(validateLesson({...lesson,sourceLanguage:'de',nameLanguage:'sci',queue:[{id:robin.id,t:'sci',retry:0}]},ids));
 assert(validateLesson({...lesson,sourceLanguage:undefined,nameLanguage:undefined,queue:[{id:robin.id,t:'en',retry:0}]},ids));
 assert.throws(()=>validateNameData({...data,language:'en'},'nl',ids));assert.throws(()=>validateNameData({...data,species:{unknown:{name:'X',aliases:[]}}},'nl',ids));
-console.log('PASS: 313 sourced Dutch names, all registered language pairs, search/answers, missing names, Unicode safety, legacy and Dutch progress/import/session recovery.');
+console.log('PASS: sourced Dutch names across the expanded catalogue, all registered language pairs, search/answers, missing names, Unicode safety, legacy and Dutch progress/import/session recovery.');

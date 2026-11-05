@@ -1,6 +1,7 @@
 // Region membership only filters the existing learning data; never changes taxonomy.
-export function validateRegions(data, speciesIds) {
+export function validateRegions(data, speciesIds, fingerprint=null) {
   if (!data || data.version!==1 || data.recentDays!==30 || !Array.isArray(data.regions) || data.regions.length>512) throw Error('Invalid regional snapshot');
+  if(fingerprint&&data.catalogFingerprint!==fingerprint)throw Error('Regional catalogue mismatch');
   const seen=new Set();
   const regions=data.regions.map(r=>{
     if(!r || !/^[A-Z]{2}(?:-[A-Z0-9]{1,4}){0,2}$/.test(r.code) || seen.has(r.code) || !['nameDe','nameEn'].every(k=>typeof r[k]==='string'&&r[k].length>0&&r[k].length<=150))throw Error('Invalid region');

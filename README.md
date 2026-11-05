@@ -82,7 +82,7 @@ Official eBird workbook: `eBird_Taxonomy_v2025_5-tab_30Oct2025.xlsx`, from the �
 
 DDA report: https://www.dda-web.de/downloads/publications/statusreports/vid_bestandssituation_2025.pdf . Regular native breeders (I) and established introduced breeders (III), excluding extinct populations, are the foundation. The report's wintering/resting waterbird tables add regular nonbreeders. `data/selection.json` preserves extracted fact rows. Additions cover regular winter landbirds and coastal migrants, with occurrence statuses checked against DO-G's national checklist v3.2 (2019). The selection is editorial, not a national checklist or independent peer-reviewed product. Later DDA notes correct Aquatic Warbler and Little Gull breeding extinction. Domestic Swan Goose is excluded as a domestic form without a matching species-level eBird concept; feral pigeon is retained under Rock Pigeon with an explicit note. Merged Redpoll and Tundra Swan concepts are documented in species notes.
 
-Official common-name quick codes are literal `com_quick_codes` entries. When that field is empty, the official `banding_code` entry supplies the eBird entry shortcut; these cases are explicitly marked in the UI and validation report. Scientific quick codes are excluded. Multiple common-name variants and code collisions are intentional; no code is generated from a name. The Blackbird primary common-name quick code is EUBL, with the official alternate COBL accepted. Code groups and aliases must stay attached to the official species ID.
+Official common-name quick codes are literal `com_quick_codes` entries. When that field is empty, the official `banding_code` entry supplies the eBird entry shortcut; these cases are recorded in the data export and validation report. Scientific quick codes are excluded. Multiple common-name variants and code collisions are intentional; no code is generated from a name. The Blackbird primary common-name quick code is EUBL, with the official alternate COBL accepted. Code groups and aliases must stay attached to the official species ID.
 
 The former editorial species packages are no longer used in the interface or learning selection. Historical numeric `level` metadata stays in the catalogue for data compatibility. Learning evidence is separated by species, question language, answer name/code and method family. The daily-round and scheduling rules are described under [Learning-progress terminology](#learning-progress-terminology).
 
@@ -116,7 +116,7 @@ See `docs/ui-ux-density-20261030.md` for follow-ups reviewed on 4 November, incl
 
 The header offers explicit German and English interface choices. In either interface, question and answer names are independently selectable: German, English, Dutch and the binomial scientific name. A swap button reverses them. Names, codes and mixed lessons support text entry, flashcards, direct multiple choice and “Think first” (options initially hidden). Both names must exist for a species to be eligible; missing translations never fall back to a different answer language. A paused lesson whose name data cannot be loaded is preserved and cannot be resumed until the data returns.
 
-Dutch names for all 313 existing species come from the `Dutch` column of the retained official `eBird_Taxonomy_v2025_5-tab_30Oct2025.xlsx` records. Reproduce them with `python3 scripts/build-name-language.py --language nl --column Dutch`. `dist/languages/nl.json` records provenance and exact official names. No new taxa, speculative name translations or taxonomy migrations are introduced. Dutch names are searchable and shown in lookup alongside the existing names, photos and attribution.
+Dutch names for the expanded catalogue come from the `Dutch` column of the retained official `eBird_Taxonomy_v2025_5-tab_30Oct2025.xlsx` records. Reproduce them with `python3 scripts/build-name-language.py --language nl --column Dutch`. `dist/languages/nl.json` records provenance and exact official names. Names are literal official records; the catalogue expansion retains the pinned v2025 taxonomy without speculative translations. Dutch names are searchable and shown in lookup alongside the existing names, photos and attribution.
 
 `dist/name-languages.js` is the shared registry and resolver for names, labels, accepted alternatives and Unicode-aware answer comparison. To add another language, add its registry entry and a sourced JSON file in the same version-1 schema. Session and progress validation derive supported name targets from this registry. UI translations remain separate in `dist/i18n.js`; bird names marked `data-name-content` are never transformed by UI translation.
 
@@ -130,11 +130,11 @@ Checks: `node scripts/test-multilingual.mjs`, alongside the existing answer, ali
 
 `EBIRD_API_KEY` is a repository Actions secret. The Pages workflow uses it only in the Python refresh step, never in browser code, repository files or published artifacts. Standard GitHub-hosted runners in this public repository keep this workflow within GitHub's free compute offering; no external backend is used. The schedule runs daily at 04:23 UTC, with manual and push triggers also available. On each run, the workflow reuses a validated public regional snapshot when every list is less than 24 hours old; only an expired or incomplete snapshot triggers eBird requests. Manual runs can force a refresh. Scheduled jobs can be delayed or disabled by GitHub after prolonged repository inactivity.
 
-`scripts/update-regions.py` discovers Germany's 16 federal states, the Netherlands' 12 provinces and the United Kingdom's four constituent countries (England, Scotland, Wales and Northern Ireland), then fetches all-time taxon lists and recent species observations (`back=30`, `cat=species`, provisional observations excluded). `data/region-countries.json` declares supported countries independently of name-language and UI support. Country and region are separate selectors. Only exact species-ID matches in the existing local learning dataset are retained. No taxonomy changes or speculative mappings are made. Original eBird taxon counts can exceed the app's coverage and can include non-species taxa in the all-time lists. Recent records indicate reports, not abundance or sighting probability.
+`scripts/update-regions.py` discovers Germany's 16 federal states, the Netherlands' 12 provinces and the United Kingdom's four constituent countries (England, Scotland, Wales and Northern Ireland), then fetches all-time taxon lists and recent species observations (`back=30`, `cat=species`, provisional observations excluded). `data/region-countries.json` declares supported countries independently of name-language and UI support. Country and region are separate selectors. Source taxa are resolved only through official v2025 species IDs and REPORT_AS links. Daily refreshes report candidate species and unknown source taxa; they never add catalogue entries automatically. Original eBird taxon counts can exceed the app's coverage and can include non-species taxa in the all-time lists. Recent records indicate reports, not abundance or sighting probability.
 
 The generated `dist/regions.json` contains public region labels, matched species IDs, total returned taxon counts and per-list fetch timestamps. It is generated during deployment, not committed. The browser never sends a request to eBird. The updater loads the previous public Pages snapshot without credentials and retains successful lists independently if a refresh fails; a failed region discovery or completely unusable first snapshot stops deployment. Credentials are sent only to the fixed HTTPS eBird API origin, and redirects are rejected. Response bodies and credential-bearing exceptions are not logged. Only allowlisted fields can be copied from the previous snapshot. A list older than three days is visibly marked in the UI.
 
-Lookup has an independently remembered optional region filter with all-time or recent-30-day records; its former vocabulary-level filter has been removed. Learning region and list mode persist with the shared study settings. Regional discovery intersects species-group and name-availability filters; custom practice also applies its progress filter. Every new learning selection requires a country or region; missing geography never enables unrestricted learning. Missing or empty regional lists prevent introductions/custom questions from that selection; daily due reviews of started targets remain available. Regional custom-practice distractors use the saved regional membership, while daily-round distractors can come from the whole eligible catalogue. Paused lessons preserve their original queue. Regional data does not change the catalogue; progress/export compatibility follows the version-2 learning model below.
+Lookup has an independently remembered optional region filter with all-time or recent-30-day records; its former vocabulary-level filter has been removed. Learning region and list mode persist with the shared study settings. Regional discovery intersects species-group and name-availability filters; custom practice also applies its progress filter. Every new learning selection requires a country or region; missing geography never enables unrestricted learning. Missing or empty regional lists prevent introductions/custom questions from that selection; daily due reviews of started targets remain available. Regional custom-practice distractors use the saved regional membership, while daily-round distractors can come from the whole eligible catalogue. Paused lessons preserve their original queue. Daily regional data does not automatically change the reviewed catalogue; progress/export compatibility follows the version-2 learning model below.
 
 Checks: `python3 -m unittest discover -s scripts -p 'test_regions.py'` and `node scripts/test-regions.mjs`. API reference: https://documenter.getpostman.com/view/664302/S1ENwy59?version=latest .
 
@@ -144,7 +144,7 @@ UK uses the official eBird country code `GB`. The country selector offers “Uni
 
 UK now uses the eBird hierarchy country → constituent country → local (`subnational2`) region. The updater discovers the available local regions under each UK constituent country from eBird rather than maintaining invented boundaries. Selecting a country or constituent country resets the narrower selection; stored local selections are restored on reload. Unavailable local lists remain unavailable instead of silently broadening the quiz. Existing country/state/province selections and paused lessons remain compatible.
 
-`includeLocalRegions` in the country configuration enables the additional discovery level. Three bounded network workers share a global 0.5-second request-start interval (at most two starts per second), and individual failed lists retain the previous valid snapshot. The workflow timeout is 20 minutes to accommodate the larger first refresh. Only matched species IDs, counts, timestamps and public hierarchy metadata are published; no coordinates, checklist records or credentials are included. The app still uses the 313-species catalogue; recent and all-time records also support the hybrid seasonal selection described below.
+`includeLocalRegions` in the country configuration enables the additional discovery level. Three bounded network workers share a global 0.5-second request-start interval (at most two starts per second), and individual failed lists retain the previous valid snapshot. The workflow timeout is 20 minutes to accommodate the larger first refresh. Only matched species IDs, counts, timestamps and public hierarchy metadata are published; no coordinates, checklist records or credentials are included. The app uses the reviewed DE/NL/UK union catalogue; recent and all-time records also support the hybrid seasonal selection described below.
 
 ### Shared learning setup
 
@@ -196,7 +196,7 @@ The report frame contained no scripts and an unloaded stylesheet (`link.sheet` w
 
 ## Hybrid regional learning
 
-New users start with Germany — whole country (`DE`). Existing settings without a region migrate to this country and the default seasonal groups, with a dismissible one-time explanation. Existing regions, other learning preferences, progress and paused queues are preserved. Lookup keeps its optional independent regional filter. Country selection starts with the whole country; all lists explicitly remain limited to the app’s 313-species catalogue. Missing API lists can still use supported seasonal data; unavailable selections are labelled and never broadened to the unrestricted catalogue.
+New users start with Germany — whole country (`DE`). Existing settings without a region migrate to this country and the default seasonal groups, with a dismissible one-time explanation. Existing regions, other learning preferences, progress and paused queues are preserved. Lookup keeps its optional independent regional filter. Country selection starts with the whole country; all lists use the reviewed country-union catalogue and report unresolved/non-species source taxa separately. Missing API lists can still use supported seasonal data; unavailable selections are labelled and never broadened to the unrestricted catalogue.
 
 Regional learning defaults to the seasonal frequency groups “Frequent” (≥10%) and “Medium” (1–<10%). “Rare” (>0–<1%) can be added or selected independently. Rates are weighted complete-checklist reporting proportions for the selected region and season, not abundance or difficulty. Zero/missing seasonal reports do not form a rare group. Current notable records are always included automatically in regional learning; the former checkbox and opt-out setting have been removed. Legacy species-package selections are removed from preferences and no longer restrict discovery. Shared language/species-group filters still apply; progress filters apply to custom practice. Daily due reviews remain eligible beyond the current species selection. See `dist/seasonal-data.html` for user-facing methods, limitations and source terms.
 
@@ -227,3 +227,60 @@ licence. See `docs/ebd-import.md` for reproduction, filters and source terms.
 Run `python3 -m unittest discover -s scripts -p 'test_ebd*.py'`,
 `python3 scripts/build-ebd-seasonal.py --check` and
 `python3 scripts/check-private-ebd.py` before committing an update.
+
+## Reviewed international catalogue and lookup (5 November 2026)
+
+The catalogue now contains 940 species: the union of public all-time eBird country
+lists for DE (596 mapped species), NL (587) and GB/UK (875), retaining all 313
+original German entries. Historical rarities and recorded introduced/escaped birds
+may occur in these lists. Membership is an occurrence record, not a breeding or
+establishment classification. Source taxa that cannot be mapped to one v2025
+species are listed in `dist/catalog-review.json`; the source lists and retrieval
+date are retained in `data/catalog-country-lists.json`. The exact official v2025
+workbook is pinned by SHA-256, while `data/taxonomy.csv` supplies species/concept
+and REPORT_AS links. The original catalogue is retained in
+`data/catalog-baseline.json` to verify IDs, names, codes, aliases and editorial
+metadata. The old Germany-only `finalize-data.py` refuses to overwrite this union.
+
+Run the manual **Review catalogue sources** Actions workflow to obtain fresh
+unfiltered national lists using the existing eBird secret. Its artifact contains
+public taxon IDs only. Catalogue updates require review; they are not part of the
+daily Pages refresh. To regenerate from the reviewed source workbook:
+
+```sh
+python3 scripts/build-catalog.py --workbook /tmp/birdnames-v2025.xlsx --countries data/catalog-country-lists.json
+python3 scripts/build-name-language.py --language nl --column Dutch
+python3 scripts/validate-data.py
+```
+
+The official workbook source is
+https://cornell.box.com/s/zjci66divvqnz00k98r7pmmb6kpc69zs
+(`eBird_Taxonomy_v2025_5-tab_30Oct2025.xlsx`). Review candidates, exclusions,
+missing names/codes and the complete output diff before activating another
+catalogue. Reimport all three private EBD country archives using the commands in
+`docs/ebd-import.md`, then regenerate the seasonal release. The new release ID is
+`ebd-relSep-2026-2021-2025-catalog-v2`; the sampling period, checklist rules and
+thresholds are unchanged. Regional and current-notable caches carry the catalogue
+fingerprint; an older catalogue's fresh cache cannot suppress the required first
+refresh. Older paused lessons and progress remain keyed by the same IDs.
+
+Lookup first adopts the learning country (not its subregion), then independently
+remembers its own geography. Existing saved lookup regions are retained. Country
+selection is always visible; the shared catalogue is available under **All
+supported countries**. Optional subregion and 30-day controls apply within one
+country. Reset preserves country and name languages, clearing search, species
+group, subregion and period. Title/sort language and additional name languages are
+independent of geography and study settings. Scientific names and codes remain
+visible; missing title names use the scientific name with an explicit notice.
+Search still includes every available language and alias. Results render 60 cards
+at a time. Only German selections display the retained German status and notes;
+those national statements never become subregional breeding claims.
+
+New species need no local picture: the existing gallery fallback handles missing
+media. Existing pictures and licences are retained. A species can only enter a
+study language pair if both required names exist, and code questions require an
+actual official code. Coverage and counts in the information view are dynamic.
+
+Checks: `node scripts/test-lookup-settings.mjs`,
+`python3 -m unittest discover -s scripts -p 'test_catalog.py'`, the existing complete
+Node/Python suite, data validation, EBD reproducibility and media validation.

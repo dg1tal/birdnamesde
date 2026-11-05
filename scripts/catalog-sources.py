@@ -30,7 +30,7 @@ def main():
         countries.append({'code':code, 'taxa':sorted(set(payload))})
         print(f'{code}: {len(set(payload))} source taxa')
     data = {'version':1, 'source':'eBird API v2 country species lists',
-            'taxonomy':'v2025', 'retrievedAt':dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds'),
+            'targetTaxonomy':'v2025', 'retrievedAt':dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds'),
             'countries':countries}
     encoded = json.dumps(data, ensure_ascii=False, indent=2)+'\n'
     if token in encoded:

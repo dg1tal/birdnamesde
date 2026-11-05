@@ -52,7 +52,7 @@ const bad=structuredClone(grouped);bad.regions[0].seasons.autumn.groups.rare.pus
 assert(validateLesson({...lesson,regionalContext:{...lesson.regionalContext,selectedGroups:['rare']}},ids));
 assert.equal(validateLesson({...lesson,regionalContext:{...lesson.regionalContext,selectedGroups:['unknown']}},ids),null);
 const ni=published.regions.find(r=>r.code==='DE-NI').seasons.autumn;
-assert.deepEqual(Object.fromEntries(Object.entries(ni.groups).map(([key,value])=>[key,value.length])),{frequent:55,medium:95,rare:105});
+assert.deepEqual(Object.fromEntries(Object.entries(ni.groups).map(([key,value])=>[key,value.length])),{frequent:56,medium:95,rare:146});
 console.log('PASS: frequency boundaries, defaults, empty selection, automatic current union, category overlap rejection, saved group selection and regional counts.');
 
 // Real EBD country/state/local selection must keep its sample gate and API layer.
@@ -62,7 +62,7 @@ for(const region of ['DE','NL','GB']){
  const selected=hybridSelection(realRegions,published,{regions:[]},{region,regionMode:'seasonal'},realIds,now);
  assert(selected.seasonalReady);
  assert.deepEqual(new Set(selected.baseIds),new Set(published.regions.find(r=>r.code===region).seasons.autumn.ids));
- assert.equal(selected.seasonalDataset.id,'ebd-relSep-2026-2021-2025-v1');
+ assert.equal(selected.seasonalDataset.id,published.dataset.id);
  assert.deepEqual(hybridSelection(realRegions,published,{regions:[]},{region,regionMode:'recent'},realIds,now).baseIds,[catalogue[1].id]);
 }
 for(const region of ['DE-SL','NL-DR','GB-ENG-HAL']){
