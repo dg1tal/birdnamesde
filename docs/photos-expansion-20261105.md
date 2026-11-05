@@ -1,6 +1,6 @@
 # Catalogue image expansion · 5 November 2026
 
-All 940 species now have local media: 1,414 photos and eight historical scientific illustrations (1,422 files). Added 1,007 images for the 627 new species; every original image, credit and record is unchanged. Both sexes are explicitly documented for 356 species.
+All 940 species now have local media: 1,352 photos and eight historical scientific illustrations (1,360 files). Added 945 images for the 627 new species; every original image, credit and record is unchanged. Both sexes are explicitly documented for 356 species.
 
 ## Acquisition and checks
 
@@ -39,3 +39,7 @@ A single-image or not-established review status does not mean that a species lac
 The collectors stage files for review and never publish them automatically. Run `python3 scripts/collect-commons-photos.py --help` and `python3 scripts/collect-inaturalist-photos.py --help` for their phase and cache options. Their output is a candidate pool, not an editorial approval. Use `python3 scripts/fetch-commons-photos.py` to restore the exact selected photo bytes from the published manifest, and `node scripts/validate-photos.mjs` to verify the final package. Derived historical crops/renders from the original collection must be restored from Git.
 
 License policy reference: [iNaturalist media reuse](https://help.inaturalist.org/en/support/solutions/articles/151000169918); API: [iNaturalist API](https://api.inaturalist.org/v1/docs/).
+
+## Two-image limit follow-up
+
+A complete manifest audit found 62 species with an unlabelled lead plus two explicitly sex-labelled images. The redundant leads and their unused local assets were removed; both-sex coverage remains 356 species, and all 940 species retain images. Lookup, dialogs and learning now share a manifest with 520 single-image species and 420 two-image species. The collector drops redundant leads and the publication validator rejects more than two images per species.
