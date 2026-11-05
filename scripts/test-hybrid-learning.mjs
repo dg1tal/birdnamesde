@@ -13,7 +13,7 @@ assert.deepEqual(h.ids,['base','extra']);assert(h.seasonalReady);assert.equal(h.
 assert.deepEqual(hybridSelection(regions,seasonal,current,{...cfg,includeCurrent:false},ids,now).ids,['base','extra']); // Legacy opt-out no longer suppresses automatic reports.
 assert.deepEqual(hybridSelection(regions,null,current,cfg,ids,now).ids,['base','old','extra']);
 assert(!hybridSelection(regions,null,current,cfg,ids,now).seasonalReady);
-assert.deepEqual(hybridSelection(regions,seasonal,current,{...cfg,region:''},ids,now).ids,[...ids]);
+assert.deepEqual(hybridSelection(regions,seasonal,current,{...cfg,region:''},ids,now).ids,[]);
 assert.deepEqual(hybridSelection(regions,seasonal,current,cfg,ids,new Date('2026-12-01')).ids,['base','old']);
 assert.deepEqual(validCurrentRecords(current.regions[0],ids,Date.parse('2026-11-13')),[]);
 assert.deepEqual(validCurrentRecords({...current.regions[0],updatedAt:'2026-10-28'},ids,+now),[]);
@@ -87,3 +87,13 @@ assert(seasonalDatasetText(frozen.seasonalDataset).includes('September 2026'));
 assert.equal(validateLesson({...lesson,regionalContext:{...lesson.regionalContext,seasonalDataset:{id:'bad'}}},ids),null);
 assert.throws(()=>validateSeasonal({...published,dataset:{id:'bad'}},realIds));
 console.log('PASS: EBD selection in all countries, exact regional fallbacks, independent 30-day lists, notable additions and immutable/legacy dataset snapshots.');
+
+for(const region of ['', 'UNKNOWN', 'DE-MISSING']){
+ const selection=hybridSelection(null,null,null,{region,regionMode:'all'},ids,now);
+ assert.deepEqual(selection.ids,[]);assert.equal(selection.available,false);
+}
+// A missing API snapshot can still use a validated seasonal dataset; it never expands to the catalogue.
+const seasonalOnly=hybridSelection(null,seasonal,null,cfg,ids,now);
+assert.deepEqual(seasonalOnly.ids,['base']);assert.equal(seasonalOnly.available,true);
+assert.equal(hybridSelection(null,seasonal,null,{...cfg,regionMode:'recent'},ids,now).available,false);
+console.log('PASS: missing geography or regional data never falls back to the unrestricted catalogue.');

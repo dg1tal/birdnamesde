@@ -13,7 +13,7 @@ const regions={regions:entries,countries:entries.filter(r=>!r.parentCode),recent
 const seasonal=JSON.parse(readFileSync('dist/seasonal-species.json'));
 const args={birds,meta,photos,germanNamesMeta,regions,seasonal};
 const f=informationFacts(args);
-assert.equal(f.species,313);assert.deepEqual(f.levels,[106,103,104]);assert.equal(f.photoCount,409);assert.equal(f.illustrationCount,6);assert.equal(f.photoComparisons,112);assert.equal(f.illustrationComparisons,6);
+assert.equal(f.species,313);assert.equal(f.photoCount,409);assert.equal(f.illustrationCount,6);assert.equal(f.photoComparisons,112);assert.equal(f.illustrationComparisons,6);
 assert.equal(f.regionCount,7);assert.equal(f.listCount,14);assert.equal(f.oldest,older);assert.equal(f.newest,stamp);
 for(const source of meta.sources)assert(SOURCE_TITLES_EN[source.url],'Source needs an English label: '+source.title);
 const en=renderInformation({...args,english:true}),de=renderInformation({...args,english:false});
@@ -56,3 +56,6 @@ assert(renderInformation({...args,english:true,seasonal:null}).includes('Seasona
 const changedSeasonal=structuredClone(seasonal);changedSeasonal.regions=changedSeasonal.regions.filter(r=>r.code==='DE');
 assert(renderInformation({...args,english:true,seasonal:changedSeasonal}).includes('1 area with historical samples'));
 console.log('PASS: EBD release, data-derived seasonal coverage, downloadable source terms and unavailable historical data.');
+
+for(const html of [en,de])assert(!/Species packages|Artenpakete|without a regional filter|Ohne Regionsfilter/.test(html));
+assert(en.includes('not a complete national checklist'));assert(de.includes('keine vollständigen Länderchecklisten'));

@@ -50,12 +50,12 @@ export function hybridSelection(regions,seasonal,current,cfg,ids,now=new Date(),
  const seasonalReady=cfg.regionMode==='seasonal'&&!!list&&list.sample>=300&&list.years>=3;
  const fallback=regionalSelection(regions,cfg.region,cfg.regionMode==='recent'?'recent':'all');
  const selectedGroups=frequencyGroups(cfg.frequencyGroups),groups=seasonalReady?list.groups||null:null;
- const base=cfg.region?(seasonalReady?(groups?selectedGroups.flatMap(g=>groups[g]):list.ids):fallback?.ids||[]):[...ids];
+ const base=cfg.region?(seasonalReady?(groups?selectedGroups.flatMap(g=>groups[g]):list.ids):fallback?.ids||[]):[];
  const available=current?.regions?.find(r=>r?.code===cfg.region);
  const currentFresh=!!available&&Number.isFinite(Date.parse(available.updatedAt))&&now.getTime()-Date.parse(available.updatedAt)<=3*DAY&&Date.parse(available.updatedAt)<=now.getTime()+300000;
  const records=cfg.region&&includeReports?validCurrentRecords(available,ids,now.getTime()):[];
  const additions=records.filter(r=>!base.includes(r.id));
- return {ids:[...new Set([...base,...additions.map(r=>r.id)])],baseIds:base,additions,season,frequencyGroups:groups,selectedGroups,seasonalReady,seasonalRequested:cfg.regionMode==='seasonal',seasonalDataset:cfg.regionMode==='seasonal'&&seasonal?.dataset?structuredClone(seasonal.dataset):null,sample:list?.sample||0,years:list?.years||0,available:!cfg.region||seasonalReady||!!fallback||additions.length>0,currentFresh,currentUpdatedAt:currentFresh?available.updatedAt:null};
+ return {ids:[...new Set([...base,...additions.map(r=>r.id)])],baseIds:base,additions,season,frequencyGroups:groups,selectedGroups,seasonalReady,seasonalRequested:cfg.regionMode==='seasonal',seasonalDataset:cfg.regionMode==='seasonal'&&seasonal?.dataset?structuredClone(seasonal.dataset):null,sample:list?.sample||0,years:list?.years||0,available:!!cfg.region&&(seasonalReady||!!fallback||additions.length>0),currentFresh,currentUpdatedAt:currentFresh?available.updatedAt:null};
 }
 export function hybridQueue(pool,n,additionIds,rank,random=Math.random){
  const sorted=pool.map(s=>({s,r:random()})).sort((a,b)=>rank(a.s)-rank(b.s)||a.r-b.r).map(x=>x.s);
