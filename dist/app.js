@@ -45,7 +45,7 @@ const studyPhotos=createPhotoCache({baseURL:document.baseURI});
 const speciesPhotos=s=>photos[s.id]?[photos[s.id],...(photos[s.id].additional||[])]:[];
 function warmStudyPhotos(x){if(x.photos)studyPhotos.warm(x.queue.slice(x.index,x.index+3).flatMap(item=>speciesPhotos(item)));}
 function mountStudyPhoto(s){const images=speciesPhotos(s);document.querySelectorAll('#feedback .study-photo-slot').forEach(slot=>{const p=images[+slot.dataset.photoIndex];if(!p)return;studyPhotos.get(p).then(image=>{if(!slot.isConnected)return;image.className='species-photo';image.alt=s.de+(p.label?' – '+t(p.label):'')+' ('+s.sci+')';image.width=p.width;image.height=p.height;slot.replaceWith(image);}).catch(()=>{if(!slot.isConnected)return;const figure=slot.closest('.bird-photo');slot.parentElement.hidden=true;figure.querySelector('.photo-error').hidden=false;});});}
-const ebirdLink=s=>`<a class="species-ebird" href="https://ebird.org/species/${encodeURIComponent(s.id)}" target="_blank" rel="noopener noreferrer">Art auf eBird ↗<span class="sr">: ${esc(s.de)}</span></a>`;
+const ebirdLink=s=>`<a class="species-ebird" href="https://ebird.org/species/${encodeURIComponent(s.id)}" target="_blank" rel="noopener noreferrer">Art auf eBird ↗<span class="sr">: ${esc(s.de||s.en||s.sci)}</span></a>`;
 const gallery=s=>`https://media.ebird.org/catalog?mediaType=photo&taxonCode=${encodeURIComponent(s.id)}`;
 const photoFallback=s=>`<p class="photo-fallback">Bild derzeit nicht verfügbar. <a href="${gallery(s)}" target="_blank" rel="noopener noreferrer">eBird-Fotogalerie öffnen ↗</a></p>`;
 function photoMarkup(s,study=false,expanded=false) {
@@ -60,7 +60,7 @@ document.addEventListener('click',event=>{
  const button=event.target.closest('[data-photo-species]');if(!button)return;
  const s=birds.find(s=>s.id===button.dataset.photoSpecies);if(!s)return;
  let dialog=$('#photo-dialog');if(!dialog){dialog=document.createElement('dialog');dialog.id='photo-dialog';dialog.setAttribute('aria-labelledby','photo-dialog-title');document.body.append(dialog);dialog.addEventListener('close',()=>{focusElement(photoInvoker,{preventScroll:true});photoInvoker=null;});dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});}
- dialog.innerHTML=`<div class="dialog-header"><h2 id="photo-dialog-title">${esc(s.de)}</h2><button id="close-photo">Schließen ×</button></div>${photoMarkup(s,false,true)}<p class="muted">Fotos und Illustrationen sind nicht maßstabsgetreu. Bei historischen Abbildungen kann die Farbwiedergabe vom heutigen Foto abweichen.</p>`;
+ dialog.innerHTML=`<div class="dialog-header"><h2 id="photo-dialog-title">${esc(s.de||s.en||s.sci)}</h2><button id="close-photo">Schließen ×</button></div>${photoMarkup(s,false,true)}<p class="muted">Fotos und Illustrationen sind nicht maßstabsgetreu. Bei historischen Abbildungen kann die Farbwiedergabe vom heutigen Foto abweichen.</p>`;
  photoInvoker=button;$('#close-photo').onclick=()=>dialog.close();dialog.showModal();dialog.scrollTop=0;$('#close-photo').focus({preventScroll:true});
 });
 document.addEventListener('error',event=>{const img=event.target;if(img instanceof HTMLImageElement&&img.classList.contains('species-photo')){const figure=img.closest('.bird-photo');img.parentElement.hidden=true;figure.querySelector('.photo-error').hidden=false;}},true);
