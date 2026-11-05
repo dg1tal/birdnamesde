@@ -1,0 +1,4929 @@
+{
+  "meta": {
+    "version": "eBird v2026 codes / 27 October 2026",
+    "sourceUrl": "https://support.ebird.org/en/support/solutions/articles/48000804865",
+    "workbookUrl": "https://cornell.box.com/s/fjp112mh25nlvbyr1p28r9ya7nriblls",
+    "workbookSha256": "989a1c4e9524c6b0fb3b8a69f99bad98f80706cd183e934bc620c6dd24e70e62",
+    "policy": "Fewest matching species worldwide across official common-name and banding codes; prefer banding on ties, then alphabetical order. All candidates are accepted. Scientific codes excluded.",
+    "specificitySpecies": 11202,
+    "exceptions": {
+      "spofly1": "Retained v2025 species concept; v2026 reclassifies this ID as a slash (Muscicapa striata/tyrrhenica). Codes remain from the official 2025 workbook pending a taxonomy migration."
+    }
+  },
+  "speciesCounts": {
+    "ABDU": 2,
+    "ABFL": 5,
+    "ABSK": 2,
+    "ABST": 2,
+    "ABVU": 1,
+    "ACDO": 3,
+    "ACDU": 1,
+    "ACFL": 3,
+    "ACGR": 1,
+    "ACSW": 1,
+    "ADWA": 3,
+    "AFCD": 1,
+    "AFCH": 2,
+    "AFHE": 1,
+    "AFSP": 1,
+    "AGOL": 1,
+    "AGPL": 1,
+    "AHEA": 2,
+    "AHGO": 1,
+    "AHGU": 3,
+    "AKPA": 1,
+    "ALAC": 2,
+    "ALCH": 1,
+    "ALFL": 1,
+    "ALPA": 1,
+    "ALRO": 1,
+    "ALSW": 1,
+    "AMBI": 1,
+    "AMCO": 1,
+    "AMFA": 1,
+    "AMFL": 1,
+    "AMGO": 2,
+    "AMGP": 1,
+    "AMKE": 1,
+    "AMPI": 1,
+    "AMRE": 1,
+    "AMRO": 1,
+    "AMST": 1,
+    "AMWI": 2,
+    "ANGO": 1,
+    "ANMU": 1,
+    "AQWA": 1,
+    "ARJA": 1,
+    "ARLO": 1,
+    "ARSK": 1,
+    "ARTE": 1,
+    "ARWA": 6,
+    "ASIB": 1,
+    "ASST": 4,
+    "ASWL": 1,
+    "ATCA": 2,
+    "ATPU": 1,
+    "ATWH": 1,
+    "AUBO": 1,
+    "AUGU": 1,
+    "AUKP": 1,
+    "AURI": 1,
+    "AUSH": 6,
+    "AWDU": 2,
+    "AWED": 1,
+    "AWIB": 2,
+    "AYWA": 3,
+    "AZTI": 1,
+    "BACR": 2,
+    "BADO": 3,
+    "BAEA": 1,
+    "BAGO": 2,
+    "BANS": 1,
+    "BAOR": 3,
+    "BAPA": 4,
+    "BAPO": 1,
+    "BARG": 1,
+    "BARS": 2,
+    "BASA": 1,
+    "BASH": 3,
+    "BASW": 4,
+    "BATE": 2,
+    "BAWA": 10,
+    "BAWW": 2,
+    "BAYM": 3,
+    "BBAL": 1,
+    "BBCU": 10,
+    "BBIS": 1,
+    "BBKI": 5,
+    "BBMO": 5,
+    "BBPI": 6,
+    "BBPL": 2,
+    "BBSA": 4,
+    "BBTE": 2,
+    "BBTH": 6,
+    "BBWA": 9,
+    "BBWD": 2,
+    "BCBE": 3,
+    "BCLO": 4,
+    "BCNH": 1,
+    "BCPA": 3,
+    "BEGO": 2,
+    "BEKI": 3,
+    "BEPH": 2,
+    "BERE": 1,
+    "BESW": 1,
+    "BETE": 1,
+    "BETI": 2,
+    "BEVU": 1,
+    "BEWH": 2,
+    "BFBU": 4,
+    "BFHO": 1,
+    "BFIB": 2,
+    "BFQH": 1,
+    "BHBP": 1,
+    "BHBU": 4,
+    "BHCO": 4,
+    "BHDU": 1,
+    "BHEP": 1,
+    "BHGO": 2,
+    "BHGU": 3,
+    "BHPA": 7,
+    "BILA": 2,
+    "BLAC": 3,
+    "BLAK": 1,
+    "BLBW": 1,
+    "BLCR": 2,
+    "BLFR": 2,
+    "BLGR": 3,
+    "BLGU": 3,
+    "BLJA": 2,
+    "BLKI": 3,
+    "BLLA": 4,
+    "BLPI": 3,
+    "BLPW": 1,
+    "BLRE": 1,
+    "BLRT": 1,
+    "BLRW": 2,
+    "BLSC": 2,
+    "BLSH": 2,
+    "BLST": 2,
+    "BLSW": 6,
+    "BLTE": 1,
+    "BLTG": 1,
+    "BLUE": 3,
+    "BLVU": 2,
+    "BLWA": 7,
+    "BLWO": 2,
+    "BNBS": 1,
+    "BNGR": 1,
+    "BNST": 2,
+    "BNSW": 2,
+    "BOBO": 1,
+    "BOEA": 3,
+    "BOGU": 1,
+    "BOOW": 1,
+    "BOWA": 2,
+    "BRAM": 1,
+    "BRAN": 1,
+    "BRBO": 3,
+    "BREP": 1,
+    "BREW": 1,
+    "BRGO": 2,
+    "BRGU": 1,
+    "BROS": 1,
+    "BRPA": 5,
+    "BRSH": 2,
+    "BRSP": 3,
+    "BRTE": 3,
+    "BRTH": 4,
+    "BRWA": 6,
+    "BSTP": 1,
+    "BTDI": 1,
+    "BTGO": 3,
+    "BTLO": 1,
+    "BTTH": 4,
+    "BUDG": 1,
+    "BUFF": 2,
+    "BUOW": 1,
+    "BUPA": 1,
+    "BWBI": 1,
+    "BWGO": 1,
+    "BWKI": 2,
+    "BWPR": 2,
+    "BWRB": 1,
+    "BWST": 6,
+    "BWTE": 1,
+    "CACG": 1,
+    "CACR": 4,
+    "CAEG": 2,
+    "CAGO": 2,
+    "CAGR": 7,
+    "CAGU": 3,
+    "CALA": 2,
+    "CANG": 1,
+    "CANV": 1,
+    "CAPL": 1,
+    "CAQU": 2,
+    "CATE": 3,
+    "CAWA": 2,
+    "CBGO": 2,
+    "CBMA": 3,
+    "CBMU": 1,
+    "CBOW": 5,
+    "CBSH": 2,
+    "CCCO": 3,
+    "CCHA": 1,
+    "CCHI": 1,
+    "CCRA": 1,
+    "CEBU": 2,
+    "CEDW": 1,
+    "CEWA": 3,
+    "CGBT": 1,
+    "CGWA": 3,
+    "CHBA": 5,
+    "CHBU": 5,
+    "CHFL": 7,
+    "CHGR": 3,
+    "CHMU": 1,
+    "CHMY": 2,
+    "CHPA": 4,
+    "CHPH": 2,
+    "CHSW": 4,
+    "CHTE": 2,
+    "CHUK": 1,
+    "CHWI": 1,
+    "CIBU": 3,
+    "CIFI": 2,
+    "CITE": 2,
+    "CIVU": 1,
+    "CIWA": 4,
+    "CLBI": 1,
+    "CLSW": 1,
+    "CMWA": 1,
+    "COBL": 1,
+    "COBU": 4,
+    "COCH": 8,
+    "COCK": 1,
+    "COCR": 6,
+    "COCU": 3,
+    "CODO": 1,
+    "CODU": 1,
+    "COEI": 1,
+    "COEM": 3,
+    "COFI": 6,
+    "COFL": 3,
+    "COGO": 1,
+    "COGR": 5,
+    "COGU": 2,
+    "COGW": 2,
+    "COHO": 1,
+    "COKE": 2,
+    "COKI": 8,
+    "COLI": 1,
+    "COLO": 3,
+    "COMA": 2,
+    "COME": 2,
+    "COMG": 1,
+    "COMO": 1,
+    "COMP": 1,
+    "COMS": 1,
+    "COMU": 1,
+    "COMW": 1,
+    "COMY": 2,
+    "CONI": 3,
+    "COPH": 2,
+    "COPO": 4,
+    "COPR": 1,
+    "COQU": 1,
+    "CORA": 1,
+    "CORC": 1,
+    "CORE": 3,
+    "CORN": 1,
+    "CORO": 1,
+    "CORS": 1,
+    "CORW": 1,
+    "COSA": 2,
+    "COSC": 3,
+    "COSH": 2,
+    "COSN": 1,
+    "COST": 5,
+    "COSW": 4,
+    "COTE": 1,
+    "COTI": 1,
+    "COWA": 3,
+    "COWH": 2,
+    "COWO": 3,
+    "COWP": 1,
+    "COYE": 1,
+    "CPHE": 1,
+    "CRBU": 3,
+    "CRCA": 1,
+    "CREH": 1,
+    "CRET": 1,
+    "CRLA": 2,
+    "CRMY": 2,
+    "CRPA": 2,
+    "CRPL": 3,
+    "CRRO": 1,
+    "CRTH": 4,
+    "CRTI": 1,
+    "CRWA": 8,
+    "CSBD": 1,
+    "CSMA": 2,
+    "CUSA": 1,
+    "CVSP": 2,
+    "CWPI": 1,
+    "CWTE": 2,
+    "DAJA": 1,
+    "DAPE": 2,
+    "DAST": 1,
+    "DAWA": 1,
+    "DCCO": 1,
+    "DECR": 1,
+    "DEFI": 1,
+    "DEJU": 1,
+    "DEPA": 1,
+    "DEPE": 1,
+    "DEWH": 1,
+    "DIDO": 2,
+    "DOVE": 1,
+    "DSFL": 1,
+    "DUNL": 1,
+    "DUNN": 1,
+    "DUTH": 1,
+    "DUWA": 1,
+    "EACE": 1,
+    "EAGR": 1,
+    "EAKI": 1,
+    "EAPH": 1,
+    "EARO": 1,
+    "EBEA": 2,
+    "EBEW": 1,
+    "EBOW": 2,
+    "EBTI": 1,
+    "EBWA": 1,
+    "EBWS": 1,
+    "ECDO": 2,
+    "ECEG": 1,
+    "ECFJ": 1,
+    "ECMA": 1,
+    "ECWA": 1,
+    "EDPH": 1,
+    "EEOW": 1,
+    "EGGO": 1,
+    "EGNI": 1,
+    "EGOL": 1,
+    "EGOR": 1,
+    "EGOS": 1,
+    "EGPL": 2,
+    "EGTI": 2,
+    "EGVU": 2,
+    "EGWO": 2,
+    "EHBU": 1,
+    "EHGU": 1,
+    "EIEA": 1,
+    "ELFA": 1,
+    "ELLA": 2,
+    "ELPA": 1,
+    "ELTE": 1,
+    "EMGO": 1,
+    "EOWA": 2,
+    "EPFL": 2,
+    "EPOW": 1,
+    "EPTI": 2,
+    "ERPI": 1,
+    "ERRS": 2,
+    "ESBD": 1,
+    "ESCU": 2,
+    "ESOW": 4,
+    "ESPA": 1,
+    "ESPE": 2,
+    "ESPO": 1,
+    "ESWA": 1,
+    "ETDO": 1,
+    "ETKN": 1,
+    "ETSP": 2,
+    "ETTW": 1,
+    "EUBB": 1,
+    "EUBC": 1,
+    "EUBE": 1,
+    "EUBI": 1,
+    "EUBL": 2,
+    "EUBU": 2,
+    "EUCD": 1,
+    "EUCH": 1,
+    "EUCM": 1,
+    "EUCO": 1,
+    "EUCU": 1,
+    "EUDO": 1,
+    "EUEO": 1,
+    "EUGO": 2,
+    "EUGP": 1,
+    "EUGR": 2,
+    "EUHB": 1,
+    "EUHO": 3,
+    "EUJA": 2,
+    "EUKE": 1,
+    "EULI": 1,
+    "EUMA": 3,
+    "EUMO": 1,
+    "EUNI": 1,
+    "EUNU": 1,
+    "EUOY": 1,
+    "EUPO": 1,
+    "EUPT": 1,
+    "EURA": 1,
+    "EURO": 4,
+    "EUSC": 1,
+    "EUSE": 1,
+    "EUSH": 1,
+    "EUSI": 1,
+    "EUSK": 1,
+    "EUSO": 1,
+    "EUSP": 3,
+    "EUST": 2,
+    "EUTD": 1,
+    "EUTE": 1,
+    "EUTK": 1,
+    "EUTR": 1,
+    "EUWH": 1,
+    "EUWI": 1,
+    "EUWO": 1,
+    "EUWR": 2,
+    "EWTE": 1,
+    "EYTH": 1,
+    "EYWA": 1,
+    "FADU": 1,
+    "FEDU": 1,
+    "FEHA": 1,
+    "FFSE": 1,
+    "FIEL": 1,
+    "FILO": 1,
+    "FITU": 1,
+    "FOTE": 1,
+    "FRGU": 1,
+    "FTSW": 4,
+    "FUWD": 1,
+    "FWDU": 1,
+    "GADW": 1,
+    "GALA": 1,
+    "GARG": 1,
+    "GAWA": 1,
+    "GBBG": 1,
+    "GBES": 1,
+    "GBHE": 8,
+    "GBTE": 3,
+    "GBWH": 3,
+    "GCCR": 2,
+    "GCGR": 2,
+    "GCPA": 3,
+    "GCTH": 2,
+    "GEOW": 1,
+    "GFNW": 1,
+    "GGSH": 2,
+    "GHGU": 1,
+    "GHLA": 2,
+    "GHOW": 3,
+    "GHSW": 1,
+    "GHWO": 2,
+    "GLGU": 1,
+    "GLIB": 1,
+    "GNBU": 1,
+    "GNDI": 1,
+    "GOEA": 1,
+    "GOLD": 2,
+    "GOOS": 1,
+    "GOPH": 1,
+    "GRAH": 1,
+    "GRAP": 2,
+    "GRAW": 1,
+    "GRBU": 5,
+    "GRCA": 2,
+    "GRCC": 1,
+    "GRCO": 4,
+    "GRDU": 1,
+    "GREG": 1,
+    "GREO": 1,
+    "GREP": 1,
+    "GRFL": 7,
+    "GRGO": 2,
+    "GRGU": 1,
+    "GRHE": 5,
+    "GRJU": 2,
+    "GRKN": 1,
+    "GRPA": 8,
+    "GRPE": 3,
+    "GRPH": 2,
+    "GRPL": 1,
+    "GRRH": 2,
+    "GRRW": 1,
+    "GRSA": 3,
+    "GRSC": 4,
+    "GRSH": 3,
+    "GRSK": 1,
+    "GRSN": 1,
+    "GRSP": 6,
+    "GRTI": 7,
+    "GRVU": 1,
+    "GRWA": 10,
+    "GRWH": 3,
+    "GRWI": 1,
+    "GRYE": 3,
+    "GSAP": 1,
+    "GSCU": 2,
+    "GSEA": 1,
+    "GSPL": 1,
+    "GSTL": 1,
+    "GSWO": 2,
+    "GTGR": 2,
+    "GTPA": 2,
+    "GTTA": 2,
+    "GWEG": 1,
+    "GWFG": 1,
+    "GWGU": 1,
+    "GWPE": 2,
+    "GWTE": 1,
+    "GWWA": 2,
+    "GYFA": 1,
+    "GYRF": 1,
+    "HADU": 3,
+    "HAGO": 1,
+    "HAGR": 1,
+    "HAHA": 2,
+    "HARD": 1,
+    "HAWF": 1,
+    "HCRW": 1,
+    "HEGU": 2,
+    "HEHA": 1,
+    "HELG": 1,
+    "HETH": 1,
+    "HLWA": 3,
+    "HOCR": 3,
+    "HOFI": 1,
+    "HOGR": 4,
+    "HOLA": 1,
+    "HOME": 1,
+    "HOOP": 1,
+    "HOSP": 1,
+    "HOTE": 1,
+    "HUGO": 1,
+    "HULW": 1,
+    "HUWA": 1,
+    "HUWH": 2,
+    "IASP": 1,
+    "IBCH": 1,
+    "ICGU": 1,
+    "ICWA": 1,
+    "IEOW": 1,
+    "IGOR": 1,
+    "IMEA": 1,
+    "INBU": 3,
+    "INEO": 1,
+    "INPE": 1,
+    "INSO": 1,
+    "INTE": 2,
+    "INWE": 1,
+    "IPMY": 1,
+    "IPST": 1,
+    "IRAN": 1,
+    "ISBD": 1,
+    "ISCA": 1,
+    "ISOW": 1,
+    "ISSH": 1,
+    "ISWH": 2,
+    "ITSP": 2,
+    "IVGU": 1,
+    "IWEY": 1,
+    "JAGR": 1,
+    "JAQU": 1,
+    "JASN": 3,
+    "JASP": 4,
+    "KAPH": 1,
+    "KBDU": 1,
+    "KEGU": 1,
+    "KEPL": 1,
+    "KIEI": 1,
+    "KILL": 1,
+    "LABU": 5,
+    "LADO": 1,
+    "LADU": 3,
+    "LAFA": 3,
+    "LAGU": 2,
+    "LAKO": 1,
+    "LALO": 1,
+    "LAMM": 1,
+    "LANW": 1,
+    "LAPH": 1,
+    "LASP": 1,
+    "LAWA": 3,
+    "LAYD": 1,
+    "LAZB": 1,
+    "LBBG": 1,
+    "LBDO": 1,
+    "LBES": 1,
+    "LBMU": 1,
+    "LBRO": 1,
+    "LCTE": 1,
+    "LDPA": 1,
+    "LEBI": 1,
+    "LEFL": 5,
+    "LEKE": 1,
+    "LEOW": 1,
+    "LESA": 3,
+    "LESC": 2,
+    "LESP": 4,
+    "LETE": 1,
+    "LEWD": 1,
+    "LEWH": 1,
+    "LEWR": 1,
+    "LEYE": 2,
+    "LGSH": 1,
+    "LIAU": 1,
+    "LIBI": 1,
+    "LIBU": 4,
+    "LICR": 2,
+    "LICU": 2,
+    "LIEG": 1,
+    "LIGR": 3,
+    "LIGU": 1,
+    "LIOW": 1,
+    "LIST": 2,
+    "LITE": 1,
+    "LIWH": 1,
+    "LLBU": 2,
+    "LRPL": 1,
+    "LSEA": 1,
+    "LSPE": 2,
+    "LSWO": 1,
+    "LTDU": 1,
+    "LTJA": 1,
+    "LTRO": 1,
+    "LTSH": 1,
+    "LTSK": 1,
+    "LTST": 2,
+    "LTTI": 1,
+    "LWDU": 1,
+    "LWFG": 1,
+    "MACR": 3,
+    "MADU": 6,
+    "MALA": 7,
+    "MALL": 2,
+    "MAPA": 8,
+    "MASA": 3,
+    "MASH": 6,
+    "MAST": 8,
+    "MATE": 2,
+    "MATI": 2,
+    "MAWA": 8,
+    "MEAM": 1,
+    "MEBU": 1,
+    "MEDU": 2,
+    "MEGU": 3,
+    "MEPA": 2,
+    "MEPI": 2,
+    "MERL": 1,
+    "MESH": 3,
+    "MEWA": 3,
+    "MIMA": 1,
+    "MITH": 4,
+    "MODO": 1,
+    "MOHA": 1,
+    "MOPA": 2,
+    "MORE": 2,
+    "MOWA": 6,
+    "MSLA": 1,
+    "MSWO": 1,
+    "MUDU": 2,
+    "MUFL": 2,
+    "MUPA": 1,
+    "MUSW": 1,
+    "MYWA": 3,
+    "NAGH": 1,
+    "NAPA": 2,
+    "NATH": 1,
+    "NBIB": 1,
+    "NCBE": 1,
+    "NENE": 1,
+    "NHMA": 3,
+    "NHOW": 1,
+    "NOBO": 2,
+    "NOCA": 2,
+    "NOFU": 1,
+    "NOGA": 1,
+    "NOGO": 2,
+    "NOHA": 1,
+    "NOHO": 1,
+    "NOLA": 1,
+    "NOMO": 2,
+    "NONU": 1,
+    "NOPA": 2,
+    "NOPI": 2,
+    "NORA": 1,
+    "NOSH": 3,
+    "NOWA": 1,
+    "NOWH": 2,
+    "NOWR": 1,
+    "NRBI": 1,
+    "NRSM": 1,
+    "NSHO": 1,
+    "NYWA": 1,
+    "NZSC": 1,
+    "OBPI": 2,
+    "OCHW": 1,
+    "OCWA": 3,
+    "OFBR": 2,
+    "OHTH": 1,
+    "ORBU": 3,
+    "ORGO": 1,
+    "ORPL": 1,
+    "ORPR": 1,
+    "ORTD": 1,
+    "OSPR": 1,
+    "OTDO": 1,
+    "OTWA": 1,
+    "OVEN": 1,
+    "OWAM": 1,
+    "PABU": 4,
+    "PACR": 4,
+    "PADI": 1,
+    "PAEC": 1,
+    "PAGP": 1,
+    "PAGU": 2,
+    "PAGW": 1,
+    "PAHA": 2,
+    "PAIP": 5,
+    "PAJA": 2,
+    "PALB": 1,
+    "PALO": 5,
+    "PALW": 1,
+    "PAPA": 5,
+    "PAPI": 6,
+    "PARO": 5,
+    "PASA": 2,
+    "PASH": 1,
+    "PASW": 8,
+    "PATH": 3,
+    "PAWA": 3,
+    "PBDU": 1,
+    "PBGR": 1,
+    "PBPE": 1,
+    "PBST": 1,
+    "PEDU": 1,
+    "PEFA": 2,
+    "PEPI": 4,
+    "PESA": 1,
+    "PFGO": 1,
+    "PGPL": 1,
+    "PGWA": 2,
+    "PHDU": 2,
+    "PHPA": 7,
+    "PHRO": 1,
+    "PHVI": 1,
+    "PIAV": 1,
+    "PIBU": 3,
+    "PICR": 2,
+    "PIFL": 4,
+    "PIGR": 2,
+    "PIWH": 1,
+    "PLEW": 1,
+    "PLLW": 2,
+    "PLWA": 6,
+    "POJA": 1,
+    "POSK": 1,
+    "PRBU": 2,
+    "PTWH": 1,
+    "PUGA": 1,
+    "PUHE": 1,
+    "PUMA": 1,
+    "PUSA": 1,
+    "PUST": 1,
+    "PUSW": 6,
+    "PUTE": 1,
+    "PWWA": 2,
+    "PYCO": 1,
+    "RAGM": 1,
+    "RALO": 1,
+    "RASH": 2,
+    "RAWA": 3,
+    "RAZO": 1,
+    "RBCH": 7,
+    "RBDU": 1,
+    "RBFL": 6,
+    "RBGO": 1,
+    "RBGR": 2,
+    "RBGU": 1,
+    "RBLE": 2,
+    "RBME": 2,
+    "RBNU": 2,
+    "RBPA": 6,
+    "RBPO": 1,
+    "RBQU": 2,
+    "RBSH": 2,
+    "RBTE": 1,
+    "RBTH": 5,
+    "RBTR": 4,
+    "RCAM": 1,
+    "RCCA": 3,
+    "RCCB": 1,
+    "RCCO": 4,
+    "RCCR": 3,
+    "RCKA": 1,
+    "RCOS": 1,
+    "RCPA": 4,
+    "RCPO": 1,
+    "RCSP": 3,
+    "RCST": 1,
+    "REBU": 3,
+    "RECR": 2,
+    "REDH": 1,
+    "REDP": 1,
+    "REDW": 1,
+    "REGR": 1,
+    "REJU": 1,
+    "REKI": 1,
+    "REKN": 1,
+    "REOW": 3,
+    "REPH": 2,
+    "RESH": 3,
+    "REVI": 1,
+    "RFBL": 2,
+    "RFBO": 1,
+    "RFFA": 1,
+    "RFLO": 3,
+    "RFPA": 12,
+    "RFSE": 1,
+    "RHBU": 2,
+    "RHGO": 1,
+    "RIOU": 1,
+    "RIPI": 2,
+    "RIPL": 1,
+    "RITE": 2,
+    "RIWA": 2,
+    "RLAM": 2,
+    "RLBU": 1,
+    "RLHA": 1,
+    "RLPA": 1,
+    "RNDU": 1,
+    "RNEP": 1,
+    "RNGR": 2,
+    "RNPA": 1,
+    "RNPH": 2,
+    "RNST": 1,
+    "ROBU": 2,
+    "RODO": 1,
+    "ROEO": 1,
+    "ROGO": 1,
+    "ROGU": 1,
+    "ROOK": 1,
+    "ROPA": 6,
+    "ROPI": 4,
+    "ROPT": 1,
+    "ROSP": 4,
+    "ROST": 3,
+    "ROTE": 3,
+    "ROYT": 1,
+    "RRPA": 2,
+    "RRSW": 4,
+    "RSMA": 1,
+    "RTDI": 2,
+    "RTDO": 2,
+    "RTFL": 7,
+    "RTHA": 2,
+    "RTLO": 3,
+    "RTPA": 3,
+    "RTPI": 2,
+    "RTRO": 2,
+    "RTRT": 1,
+    "RTSH": 2,
+    "RTSR": 1,
+    "RTTH": 3,
+    "RUBU": 2,
+    "RUDU": 2,
+    "RUFF": 1,
+    "RUGR": 2,
+    "RUPA": 1,
+    "RUSH": 1,
+    "RUTU": 2,
+    "RUVU": 1,
+    "RUWA": 1,
+    "RWBL": 1,
+    "RWBU": 2,
+    "RWLA": 4,
+    "SACR": 3,
+    "SAFA": 2,
+    "SAFI": 1,
+    "SAGU": 2,
+    "SAIB": 1,
+    "SAMA": 1,
+    "SAND": 1,
+    "SASH": 4,
+    "SASP": 5,
+    "SATE": 4,
+    "SATR": 2,
+    "SAVS": 1,
+    "SAWA": 2,
+    "SBAG": 1,
+    "SBBG": 1,
+    "SBBS": 1,
+    "SBDO": 1,
+    "SBGU": 3,
+    "SBMU": 1,
+    "SBRO": 3,
+    "SBWA": 8,
+    "SCCO": 5,
+    "SCCR": 1,
+    "SCIB": 1,
+    "SCMA": 3,
+    "SCSH": 5,
+    "SCTA": 6,
+    "SEOW": 3,
+    "SEPA": 3,
+    "SEPL": 2,
+    "SESA": 1,
+    "SEWA": 3,
+    "SGSP": 1,
+    "SHBL": 1,
+    "SHLA": 4,
+    "SHPA": 6,
+    "SHSE": 1,
+    "SIAC": 1,
+    "SILV": 2,
+    "SIPH": 1,
+    "SIPI": 8,
+    "SIRU": 1,
+    "SISA": 2,
+    "SISC": 1,
+    "SISP": 2,
+    "SIST": 3,
+    "SITE": 1,
+    "SITH": 5,
+    "SLGR": 2,
+    "SLTR": 1,
+    "SMAM": 1,
+    "SMEW": 1,
+    "SMWE": 1,
+    "SNBU": 2,
+    "SNEG": 1,
+    "SNGO": 1,
+    "SNOW": 3,
+    "SOBO": 3,
+    "SOCO": 4,
+    "SOLA": 3,
+    "SOMW": 1,
+    "SORA": 1,
+    "SOSA": 2,
+    "SOSH": 4,
+    "SOSP": 3,
+    "SOTE": 1,
+    "SOTH": 3,
+    "SPCR": 4,
+    "SPEI": 1,
+    "SPEO": 2,
+    "SPFL": 5,
+    "SPNU": 2,
+    "SPPE": 2,
+    "SPRE": 2,
+    "SPSA": 2,
+    "SPSK": 1,
+    "SPSP": 4,
+    "SPTO": 1,
+    "SPTS": 1,
+    "SPWA": 3,
+    "SQHE": 1,
+    "SRBI": 1,
+    "SSEA": 3,
+    "SSPE": 1,
+    "SSPL": 1,
+    "SSTP": 1,
+    "STCU": 2,
+    "STDO": 2,
+    "STEA": 4,
+    "STEI": 1,
+    "STOW": 2,
+    "STRO": 2,
+    "STSA": 3,
+    "STSC": 1,
+    "STSE": 4,
+    "STTR": 3,
+    "SUPA": 4,
+    "SUSC": 2,
+    "SUWA": 3,
+    "SWFO": 1,
+    "SWFS": 1,
+    "SWGO": 2,
+    "SWLA": 1,
+    "SWPA": 3,
+    "SWPH": 1,
+    "SWPL": 2,
+    "SWSP": 6,
+    "SWTH": 4,
+    "SYWA": 1,
+    "SYWO": 1,
+    "SZFI": 1,
+    "TABG": 1,
+    "TACO": 2,
+    "TAFL": 3,
+    "TAOW": 1,
+    "TAPI": 1,
+    "TBCR": 1,
+    "TBGO": 2,
+    "TBMU": 1,
+    "TBWA": 7,
+    "TEOW": 1,
+    "TESA": 1,
+    "TEST": 1,
+    "TETR": 1,
+    "TEWA": 1,
+    "TFAM": 1,
+    "THNI": 1,
+    "TIPA": 2,
+    "TISA": 2,
+    "TISP": 2,
+    "TRES": 1,
+    "TRFI": 1,
+    "TRPI": 2,
+    "TRST": 1,
+    "TRSW": 2,
+    "TRUS": 1,
+    "TSPL": 1,
+    "TTBW": 1,
+    "TUBG": 1,
+    "TUDU": 1,
+    "TUPA": 2,
+    "TUPU": 1,
+    "TUSH": 1,
+    "TUSW": 2,
+    "TUVU": 1,
+    "TWIT": 1,
+    "TZFI": 1,
+    "UPGO": 1,
+    "UPSA": 1,
+    "UPWA": 1,
+    "UROW": 1,
+    "VATH": 2,
+    "VEER": 1,
+    "VEFL": 5,
+    "VEPA": 1,
+    "VESC": 1,
+    "VIPH": 1,
+    "VIWE": 1,
+    "VTPA": 1,
+    "WALL": 1,
+    "WAPI": 2,
+    "WARA": 2,
+    "WAWD": 1,
+    "WBCO": 4,
+    "WBDI": 1,
+    "WBEW": 1,
+    "WBOW": 3,
+    "WBVU": 1,
+    "WBWA": 4,
+    "WBWO": 9,
+    "WCEG": 1,
+    "WCHP": 1,
+    "WCPA": 2,
+    "WCPI": 4,
+    "WCRE": 1,
+    "WCSP": 2,
+    "WCTU": 2,
+    "WCWH": 1,
+    "WCWR": 1,
+    "WEBU": 2,
+    "WECA": 4,
+    "WECE": 1,
+    "WEGO": 1,
+    "WEHM": 1,
+    "WEJA": 2,
+    "WEMH": 1,
+    "WEPA": 3,
+    "WERH": 1,
+    "WESA": 1,
+    "WESW": 2,
+    "WEWR": 1,
+    "WFWD": 1,
+    "WHDU": 1,
+    "WHHE": 2,
+    "WHIB": 2,
+    "WHIM": 2,
+    "WHIN": 1,
+    "WHMA": 1,
+    "WHMU": 1,
+    "WHOS": 1,
+    "WHPI": 4,
+    "WHST": 3,
+    "WHSW": 4,
+    "WHTE": 1,
+    "WHTH": 5,
+    "WHWA": 3,
+    "WIGR": 2,
+    "WILW": 1,
+    "WIPH": 1,
+    "WISN": 1,
+    "WISP": 1,
+    "WITI": 1,
+    "WITU": 1,
+    "WIWA": 4,
+    "WMHA": 1,
+    "WNCR": 2,
+    "WODU": 1,
+    "WOLA": 1,
+    "WOOD": 1,
+    "WOSA": 1,
+    "WOSH": 1,
+    "WOTH": 1,
+    "WOWA": 3,
+    "WREG": 1,
+    "WRHE": 1,
+    "WRMU": 1,
+    "WRSA": 1,
+    "WRSH": 7,
+    "WRSW": 3,
+    "WSPE": 1,
+    "WSWA": 3,
+    "WTDI": 1,
+    "WTEA": 3,
+    "WTLA": 3,
+    "WTNE": 1,
+    "WTRO": 2,
+    "WTSE": 2,
+    "WTSP": 2,
+    "WWBT": 3,
+    "WWCR": 1,
+    "WWDU": 2,
+    "WWRA": 1,
+    "WWSC": 1,
+    "WWSN": 1,
+    "WWTE": 1,
+    "WYWA": 1,
+    "YBBU": 4,
+    "YBCH": 2,
+    "YBCU": 1,
+    "YBDU": 1,
+    "YBFL": 4,
+    "YBGR": 4,
+    "YBLO": 4,
+    "YBPI": 2,
+    "YBSA": 3,
+    "YBSB": 1,
+    "YBTE": 2,
+    "YBWA": 5,
+    "YBWB": 1,
+    "YCAM": 1,
+    "YCBI": 1,
+    "YELL": 3,
+    "YESH": 1,
+    "YEWA": 3,
+    "YFCA": 1,
+    "YFPA": 4,
+    "YHAM": 1,
+    "YHBL": 2,
+    "YLGU": 1,
+    "YRWA": 1,
+    "YTVI": 1,
+    "ZEFI": 1,
+    "ZICI": 1,
+    "ZIPE": 1
+  },
+  "records": {
+    "abdsto1": {
+      "com_quick_codes": "ABST",
+      "banding_code": ""
+    },
+    "acafly": {
+      "com_quick_codes": "",
+      "banding_code": "ACFL"
+    },
+    "afbduc1": {
+      "com_quick_codes": "ABDU",
+      "banding_code": ""
+    },
+    "afcdov1": {
+      "com_quick_codes": "ACDO BADO",
+      "banding_code": "AFCD"
+    },
+    "afdwar1": {
+      "com_quick_codes": "ADWA",
+      "banding_code": ""
+    },
+    "afmwea": {
+      "com_quick_codes": "SOMW SMWE",
+      "banding_code": ""
+    },
+    "afrcha1": {
+      "com_quick_codes": "COCH AFCH",
+      "banding_code": ""
+    },
+    "afrhae1": {
+      "com_quick_codes": "AFHE AHEA",
+      "banding_code": ""
+    },
+    "afrspo1": {
+      "com_quick_codes": "AFSP",
+      "banding_code": ""
+    },
+    "aldfly": {
+      "com_quick_codes": "",
+      "banding_code": "ALFL"
+    },
+    "alepar2": {
+      "com_quick_codes": "ALPA",
+      "banding_code": ""
+    },
+    "alpacc1": {
+      "com_quick_codes": "ALAC",
+      "banding_code": ""
+    },
+    "alpswi1": {
+      "com_quick_codes": "",
+      "banding_code": "ALSW"
+    },
+    "ambduc": {
+      "com_quick_codes": "",
+      "banding_code": "ABDU"
+    },
+    "amebit": {
+      "com_quick_codes": "",
+      "banding_code": "AMBI"
+    },
+    "amegfi": {
+      "com_quick_codes": "AMGO",
+      "banding_code": "AGOL"
+    },
+    "amekes": {
+      "com_quick_codes": "",
+      "banding_code": "AMKE"
+    },
+    "amepip": {
+      "com_quick_codes": "BBPI",
+      "banding_code": "AMPI"
+    },
+    "amered": {
+      "com_quick_codes": "",
+      "banding_code": "AMRE"
+    },
+    "amerob": {
+      "com_quick_codes": "ALRO",
+      "banding_code": "AMRO"
+    },
+    "amewig": {
+      "com_quick_codes": "",
+      "banding_code": "AMWI"
+    },
+    "amgplo": {
+      "com_quick_codes": "AGPL",
+      "banding_code": "AMGP"
+    },
+    "amhgul1": {
+      "com_quick_codes": "",
+      "banding_code": "AHGU"
+    },
+    "amufal1": {
+      "com_quick_codes": "AMFA",
+      "banding_code": ""
+    },
+    "ancmur": {
+      "com_quick_codes": "",
+      "banding_code": "ANMU"
+    },
+    "andgoo1": {
+      "com_quick_codes": "ANGO",
+      "banding_code": ""
+    },
+    "aquwar1": {
+      "com_quick_codes": "AQWA",
+      "banding_code": ""
+    },
+    "arcloo": {
+      "com_quick_codes": "BTLO BTDI",
+      "banding_code": "ARLO"
+    },
+    "arcter": {
+      "com_quick_codes": "",
+      "banding_code": "ARTE"
+    },
+    "arcwar1": {
+      "com_quick_codes": "",
+      "banding_code": "ARWA"
+    },
+    "asbfly": {
+      "com_quick_codes": "",
+      "banding_code": "ABFL"
+    },
+    "asdwar1": {
+      "com_quick_codes": "ADWA",
+      "banding_code": ""
+    },
+    "ashgoo1": {
+      "com_quick_codes": "AHGO",
+      "banding_code": ""
+    },
+    "aspsta2": {
+      "com_quick_codes": "IPMY IPST",
+      "banding_code": ""
+    },
+    "atlpuf": {
+      "com_quick_codes": "",
+      "banding_code": "ATPU"
+    },
+    "audgul1": {
+      "com_quick_codes": "AUGU",
+      "banding_code": ""
+    },
+    "aukpar1": {
+      "com_quick_codes": "AKPA AUKP",
+      "banding_code": ""
+    },
+    "ausshe1": {
+      "com_quick_codes": "CBSH AUSH",
+      "banding_code": ""
+    },
+    "aussho1": {
+      "com_quick_codes": "AUSH",
+      "banding_code": ""
+    },
+    "azutit2": {
+      "com_quick_codes": "AZTI",
+      "banding_code": ""
+    },
+    "babwar": {
+      "com_quick_codes": "",
+      "banding_code": "BBWA"
+    },
+    "baepoc1": {
+      "com_quick_codes": "BAPO",
+      "banding_code": ""
+    },
+    "bahgoo": {
+      "com_quick_codes": "BHGO",
+      "banding_code": ""
+    },
+    "baicra1": {
+      "com_quick_codes": "MACR BACR",
+      "banding_code": ""
+    },
+    "baisan": {
+      "com_quick_codes": "",
+      "banding_code": "BASA"
+    },
+    "baitea": {
+      "com_quick_codes": "",
+      "banding_code": "BATE"
+    },
+    "baleag": {
+      "com_quick_codes": "",
+      "banding_code": "BAEA"
+    },
+    "balori": {
+      "com_quick_codes": "",
+      "banding_code": "BAOR"
+    },
+    "balshe1": {
+      "com_quick_codes": "BASH MESH",
+      "banding_code": ""
+    },
+    "banswa": {
+      "com_quick_codes": "SAMA BASW CSMA",
+      "banding_code": "BANS"
+    },
+    "bargol": {
+      "com_quick_codes": "",
+      "banding_code": "BAGO"
+    },
+    "bargoo": {
+      "com_quick_codes": "BAGO",
+      "banding_code": "BARG"
+    },
+    "barpar1": {
+      "com_quick_codes": "",
+      "banding_code": "BAPA"
+    },
+    "barpar2": {
+      "com_quick_codes": "BAPA",
+      "banding_code": ""
+    },
+    "barpet": {
+      "com_quick_codes": "BRSP",
+      "banding_code": "BSTP"
+    },
+    "barswa": {
+      "com_quick_codes": "BASW",
+      "banding_code": "BARS"
+    },
+    "barwar1": {
+      "com_quick_codes": "BAWA",
+      "banding_code": ""
+    },
+    "batgod": {
+      "com_quick_codes": "",
+      "banding_code": "BTGO"
+    },
+    "bawwar": {
+      "com_quick_codes": "",
+      "banding_code": "BAWW"
+    },
+    "baymac": {
+      "com_quick_codes": "",
+      "banding_code": "BAYM"
+    },
+    "bbwduc": {
+      "com_quick_codes": "",
+      "banding_code": "BBWD"
+    },
+    "bcbeat1": {
+      "com_quick_codes": "BCBE",
+      "banding_code": ""
+    },
+    "bcnher": {
+      "com_quick_codes": "",
+      "banding_code": "BCNH"
+    },
+    "bearee1": {
+      "com_quick_codes": "BERE BETI",
+      "banding_code": ""
+    },
+    "belkin1": {
+      "com_quick_codes": "",
+      "banding_code": "BEKI"
+    },
+    "bertea1": {
+      "com_quick_codes": "MATE BETE",
+      "banding_code": ""
+    },
+    "bimlar1": {
+      "com_quick_codes": "BILA",
+      "banding_code": ""
+    },
+    "bkbalb": {
+      "com_quick_codes": "BBMO",
+      "banding_code": "BBAL"
+    },
+    "bkbcuc": {
+      "com_quick_codes": "",
+      "banding_code": "BBCU"
+    },
+    "bkbplo": {
+      "com_quick_codes": "GRPL",
+      "banding_code": "BBPL"
+    },
+    "bkbwar": {
+      "com_quick_codes": "BLWA",
+      "banding_code": "BLBW"
+    },
+    "bkewhe1": {
+      "com_quick_codes": "BEWH WBEW",
+      "banding_code": ""
+    },
+    "bkewhe2": {
+      "com_quick_codes": "EBEW BEWH",
+      "banding_code": ""
+    },
+    "bkfbun1": {
+      "com_quick_codes": "BFBU",
+      "banding_code": ""
+    },
+    "bkfibi1": {
+      "com_quick_codes": "BFIB",
+      "banding_code": ""
+    },
+    "bkhgul": {
+      "com_quick_codes": "",
+      "banding_code": "BHGU"
+    },
+    "bkhpar": {
+      "com_quick_codes": "",
+      "banding_code": "NAPA"
+    },
+    "bklkit": {
+      "com_quick_codes": "",
+      "banding_code": "BLKI"
+    },
+    "bknsti": {
+      "com_quick_codes": "BWST BNBS",
+      "banding_code": "BNST"
+    },
+    "bkpwar": {
+      "com_quick_codes": "BLWA",
+      "banding_code": "BLPW"
+    },
+    "bkskit1": {
+      "com_quick_codes": "ABSK BWKI",
+      "banding_code": ""
+    },
+    "bktgod": {
+      "com_quick_codes": "BTGO",
+      "banding_code": "BLTG"
+    },
+    "bkwsti": {
+      "com_quick_codes": "EBWS",
+      "banding_code": "BWST"
+    },
+    "blackc1": {
+      "com_quick_codes": "BLAC EUBL",
+      "banding_code": "EUBC"
+    },
+    "blacra1": {
+      "com_quick_codes": "BLCR",
+      "banding_code": ""
+    },
+    "blagro1": {
+      "com_quick_codes": "BLGR",
+      "banding_code": ""
+    },
+    "blakit1": {
+      "com_quick_codes": "BBKI BLKI",
+      "banding_code": "BLAK"
+    },
+    "blalar1": {
+      "com_quick_codes": "BLLA",
+      "banding_code": ""
+    },
+    "blared1": {
+      "com_quick_codes": "BLRE",
+      "banding_code": ""
+    },
+    "blasto1": {
+      "com_quick_codes": "BLST",
+      "banding_code": ""
+    },
+    "blawoo1": {
+      "com_quick_codes": "BLWO",
+      "banding_code": ""
+    },
+    "blbthr2": {
+      "com_quick_codes": "BBTH",
+      "banding_code": ""
+    },
+    "blclov1": {
+      "com_quick_codes": "BCLO",
+      "banding_code": ""
+    },
+    "blcpar1": {
+      "com_quick_codes": "BCPA",
+      "banding_code": ""
+    },
+    "blfhon1": {
+      "com_quick_codes": "BFQH BFHO",
+      "banding_code": ""
+    },
+    "blhbun1": {
+      "com_quick_codes": "BHBU",
+      "banding_code": ""
+    },
+    "blhduc1": {
+      "com_quick_codes": "BHDU",
+      "banding_code": ""
+    },
+    "blhpar1": {
+      "com_quick_codes": "BHBP BHPA",
+      "banding_code": "BHEP"
+    },
+    "blhpar3": {
+      "com_quick_codes": "BHPA",
+      "banding_code": ""
+    },
+    "blhpar4": {
+      "com_quick_codes": "BHPA",
+      "banding_code": ""
+    },
+    "blkfra": {
+      "com_quick_codes": "",
+      "banding_code": "BLFR"
+    },
+    "blkgui": {
+      "com_quick_codes": "",
+      "banding_code": "BLGU"
+    },
+    "blksco1": {
+      "com_quick_codes": "",
+      "banding_code": "COSC"
+    },
+    "blksco2": {
+      "com_quick_codes": "",
+      "banding_code": "BLSC"
+    },
+    "blkswa": {
+      "com_quick_codes": "BLSW",
+      "banding_code": ""
+    },
+    "blkter": {
+      "com_quick_codes": "",
+      "banding_code": "BLTE"
+    },
+    "blkvul": {
+      "com_quick_codes": "ABVU",
+      "banding_code": "BLVU"
+    },
+    "blnswa2": {
+      "com_quick_codes": "BNSW",
+      "banding_code": ""
+    },
+    "blrwar1": {
+      "com_quick_codes": "BLRW BRWA",
+      "banding_code": "BREW"
+    },
+    "blueth": {
+      "com_quick_codes": "",
+      "banding_code": "BLUE"
+    },
+    "blujay": {
+      "com_quick_codes": "",
+      "banding_code": "BLJA"
+    },
+    "blutit": {
+      "com_quick_codes": "EBTI",
+      "banding_code": ""
+    },
+    "blwbis1": {
+      "com_quick_codes": "BWBI BWRB",
+      "banding_code": ""
+    },
+    "blwpra1": {
+      "com_quick_codes": "BWPR",
+      "banding_code": ""
+    },
+    "blypip1": {
+      "com_quick_codes": "BLPI",
+      "banding_code": ""
+    },
+    "bnhcow": {
+      "com_quick_codes": "",
+      "banding_code": "BHCO"
+    },
+    "boboli": {
+      "com_quick_codes": "",
+      "banding_code": "BOBO"
+    },
+    "bohwax": {
+      "com_quick_codes": "",
+      "banding_code": "BOWA"
+    },
+    "boneag2": {
+      "com_quick_codes": "BOEA",
+      "banding_code": ""
+    },
+    "bongul": {
+      "com_quick_codes": "",
+      "banding_code": "BOGU"
+    },
+    "booeag1": {
+      "com_quick_codes": "BOEA",
+      "banding_code": ""
+    },
+    "boowar1": {
+      "com_quick_codes": "BOWA",
+      "banding_code": ""
+    },
+    "borowl": {
+      "com_quick_codes": "TEOW",
+      "banding_code": "BOOW"
+    },
+    "brambl": {
+      "com_quick_codes": "",
+      "banding_code": "BRAM"
+    },
+    "brant": {
+      "com_quick_codes": "BRGO",
+      "banding_code": "BRAN"
+    },
+    "brbsan": {
+      "com_quick_codes": "BBSA",
+      "banding_code": "BBIS"
+    },
+    "brephe1": {
+      "com_quick_codes": "BEPH BREP",
+      "banding_code": ""
+    },
+    "bripet": {
+      "com_quick_codes": "ESPE",
+      "banding_code": "EUSP"
+    },
+    "briter1": {
+      "com_quick_codes": "",
+      "banding_code": "BRTE"
+    },
+    "brnboo": {
+      "com_quick_codes": "",
+      "banding_code": "BRBO"
+    },
+    "brnshr": {
+      "com_quick_codes": "BRSH",
+      "banding_code": "BROS"
+    },
+    "bubsan": {
+      "com_quick_codes": "",
+      "banding_code": "BBSA"
+    },
+    "bucpar": {
+      "com_quick_codes": "BCPA",
+      "banding_code": ""
+    },
+    "budger": {
+      "com_quick_codes": "BUDG",
+      "banding_code": ""
+    },
+    "buffle": {
+      "com_quick_codes": "",
+      "banding_code": "BUFF"
+    },
+    "bufpar": {
+      "com_quick_codes": "TFAM",
+      "banding_code": ""
+    },
+    "burowl": {
+      "com_quick_codes": "",
+      "banding_code": "BUOW"
+    },
+    "burpar": {
+      "com_quick_codes": "BUPA",
+      "banding_code": ""
+    },
+    "burthr": {
+      "com_quick_codes": "BRTH",
+      "banding_code": "BLRT"
+    },
+    "buwgoo1": {
+      "com_quick_codes": "BWGO",
+      "banding_code": ""
+    },
+    "buwtea": {
+      "com_quick_codes": "",
+      "banding_code": "BWTE"
+    },
+    "cabgoo1": {
+      "com_quick_codes": "CBGO",
+      "banding_code": ""
+    },
+    "cacgoo1": {
+      "com_quick_codes": "CAGO",
+      "banding_code": "CACG"
+    },
+    "callar1": {
+      "com_quick_codes": "CALA",
+      "banding_code": ""
+    },
+    "calqua": {
+      "com_quick_codes": "",
+      "banding_code": "CAQU"
+    },
+    "camwar": {
+      "com_quick_codes": "",
+      "banding_code": "CMWA"
+    },
+    "cangoo": {
+      "com_quick_codes": "CAGO",
+      "banding_code": "CANG"
+    },
+    "canvas": {
+      "com_quick_codes": "",
+      "banding_code": "CANV"
+    },
+    "canwar": {
+      "com_quick_codes": "",
+      "banding_code": "CAWA"
+    },
+    "captea1": {
+      "com_quick_codes": "CATE",
+      "banding_code": ""
+    },
+    "carcro1": {
+      "com_quick_codes": "CACR",
+      "banding_code": ""
+    },
+    "cargra1": {
+      "com_quick_codes": "",
+      "banding_code": "CAGR"
+    },
+    "casgul2": {
+      "com_quick_codes": "CAGU",
+      "banding_code": ""
+    },
+    "casplo1": {
+      "com_quick_codes": "CAPL",
+      "banding_code": ""
+    },
+    "caster1": {
+      "com_quick_codes": "",
+      "banding_code": "CATE"
+    },
+    "categr1": {
+      "com_quick_codes": "CAEG WCEG",
+      "banding_code": "WECE"
+    },
+    "categr2": {
+      "com_quick_codes": "CAEG ECEG",
+      "banding_code": "EACE"
+    },
+    "cavspa1": {
+      "com_quick_codes": "IASP CVSP",
+      "banding_code": ""
+    },
+    "cedwax": {
+      "com_quick_codes": "CEWA",
+      "banding_code": "CEDW"
+    },
+    "cetwar1": {
+      "com_quick_codes": "CEWA",
+      "banding_code": ""
+    },
+    "chbmun1": {
+      "com_quick_codes": "CBMA CBMU",
+      "banding_code": ""
+    },
+    "chebun1": {
+      "com_quick_codes": "CHBU",
+      "banding_code": ""
+    },
+    "chebun2": {
+      "com_quick_codes": "CEBU",
+      "banding_code": ""
+    },
+    "chemun": {
+      "com_quick_codes": "",
+      "banding_code": "CHMU"
+    },
+    "chetea1": {
+      "com_quick_codes": "CHTE",
+      "banding_code": ""
+    },
+    "chibab2": {
+      "com_quick_codes": "CHBA",
+      "banding_code": ""
+    },
+    "chifla1": {
+      "com_quick_codes": "CHFL",
+      "banding_code": ""
+    },
+    "chiswi": {
+      "com_quick_codes": "",
+      "banding_code": "CHSW"
+    },
+    "chiwig1": {
+      "com_quick_codes": "CHWI",
+      "banding_code": ""
+    },
+    "chpher1": {
+      "com_quick_codes": "CPHE",
+      "banding_code": "CHPH"
+    },
+    "chukar": {
+      "com_quick_codes": "CHPA",
+      "banding_code": "CHUK"
+    },
+    "cintea": {
+      "com_quick_codes": "",
+      "banding_code": "CITE"
+    },
+    "cinvul1": {
+      "com_quick_codes": "CIVU BLVU",
+      "banding_code": ""
+    },
+    "cirbun1": {
+      "com_quick_codes": "CIBU",
+      "banding_code": ""
+    },
+    "citfin1": {
+      "com_quick_codes": "CIFI",
+      "banding_code": ""
+    },
+    "citwag": {
+      "com_quick_codes": "",
+      "banding_code": "CIWA"
+    },
+    "cliswa": {
+      "com_quick_codes": "ACSW",
+      "banding_code": "CLSW"
+    },
+    "coatit2": {
+      "com_quick_codes": "COTI",
+      "banding_code": ""
+    },
+    "cockat": {
+      "com_quick_codes": "COCK",
+      "banding_code": ""
+    },
+    "cogwar1": {
+      "com_quick_codes": "COGW CGWA",
+      "banding_code": ""
+    },
+    "colfly1": {
+      "com_quick_codes": "COFL",
+      "banding_code": ""
+    },
+    "colpra": {
+      "com_quick_codes": "",
+      "banding_code": "COPR"
+    },
+    "combuz1": {
+      "com_quick_codes": "COBU EUBU",
+      "banding_code": ""
+    },
+    "comcan": {
+      "com_quick_codes": "ATCA",
+      "banding_code": "ISCA"
+    },
+    "comcha": {
+      "com_quick_codes": "EUCH COCH",
+      "banding_code": "CCHA"
+    },
+    "comchi1": {
+      "com_quick_codes": "COCH",
+      "banding_code": "CCHI"
+    },
+    "comcra": {
+      "com_quick_codes": "COCR",
+      "banding_code": "CCRA"
+    },
+    "comcuc": {
+      "com_quick_codes": "",
+      "banding_code": "COCU"
+    },
+    "comduc2": {
+      "com_quick_codes": "KBDU",
+      "banding_code": ""
+    },
+    "comduc3": {
+      "com_quick_codes": "ACDU",
+      "banding_code": "CODU"
+    },
+    "comeid": {
+      "com_quick_codes": "",
+      "banding_code": "COEI"
+    },
+    "comgol": {
+      "com_quick_codes": "",
+      "banding_code": "COGO"
+    },
+    "comgra": {
+      "com_quick_codes": "",
+      "banding_code": "COGR"
+    },
+    "comgre": {
+      "com_quick_codes": "COGR",
+      "banding_code": "COMG"
+    },
+    "comhom1": {
+      "com_quick_codes": "WHMA NHMA",
+      "banding_code": "WEHM"
+    },
+    "comkin1": {
+      "com_quick_codes": "COKI",
+      "banding_code": ""
+    },
+    "comloo": {
+      "com_quick_codes": "GNDI",
+      "banding_code": "COLO"
+    },
+    "commer": {
+      "com_quick_codes": "GOOS",
+      "banding_code": "COME"
+    },
+    "commoo3": {
+      "com_quick_codes": "EUMO",
+      "banding_code": "COMO"
+    },
+    "commur": {
+      "com_quick_codes": "COGU",
+      "banding_code": "COMU"
+    },
+    "commyn": {
+      "com_quick_codes": "",
+      "banding_code": "COMY"
+    },
+    "comnig": {
+      "com_quick_codes": "",
+      "banding_code": "CONI"
+    },
+    "comnig1": {
+      "com_quick_codes": "CONI",
+      "banding_code": ""
+    },
+    "compea": {
+      "com_quick_codes": "",
+      "banding_code": "INPE"
+    },
+    "compoc": {
+      "com_quick_codes": "COPO",
+      "banding_code": "COMP"
+    },
+    "comqua1": {
+      "com_quick_codes": "COQU",
+      "banding_code": ""
+    },
+    "comrav": {
+      "com_quick_codes": "NORA",
+      "banding_code": "CORA"
+    },
+    "comred1": {
+      "com_quick_codes": "CORE",
+      "banding_code": "CREH"
+    },
+    "comred2": {
+      "com_quick_codes": "CORE",
+      "banding_code": "CRET"
+    },
+    "comros": {
+      "com_quick_codes": "",
+      "banding_code": "CORO"
+    },
+    "comsan": {
+      "com_quick_codes": "",
+      "banding_code": "COSA"
+    },
+    "comshe": {
+      "com_quick_codes": "COSH",
+      "banding_code": "COMS"
+    },
+    "comsni": {
+      "com_quick_codes": "",
+      "banding_code": "COSN"
+    },
+    "comswi": {
+      "com_quick_codes": "",
+      "banding_code": "COSW"
+    },
+    "comter": {
+      "com_quick_codes": "",
+      "banding_code": "COTE"
+    },
+    "comwax": {
+      "com_quick_codes": "COWA",
+      "banding_code": "COMW"
+    },
+    "comyel": {
+      "com_quick_codes": "",
+      "banding_code": "COYE"
+    },
+    "corbun1": {
+      "com_quick_codes": "COBU",
+      "banding_code": ""
+    },
+    "corcra": {
+      "com_quick_codes": "COCR CORN",
+      "banding_code": "CORC"
+    },
+    "corplo": {
+      "com_quick_codes": "RIPL",
+      "banding_code": "CRPL"
+    },
+    "corshe1": {
+      "com_quick_codes": "COSH",
+      "banding_code": "CORS"
+    },
+    "cosswa1": {
+      "com_quick_codes": "COSW",
+      "banding_code": ""
+    },
+    "cowpig1": {
+      "com_quick_codes": "COWO COWP",
+      "banding_code": "CWPI"
+    },
+    "crccou1": {
+      "com_quick_codes": "CCCO",
+      "banding_code": ""
+    },
+    "crebun2": {
+      "com_quick_codes": "CRBU",
+      "banding_code": ""
+    },
+    "crelar1": {
+      "com_quick_codes": "CRLA",
+      "banding_code": ""
+    },
+    "cremyn": {
+      "com_quick_codes": "CRMY",
+      "banding_code": ""
+    },
+    "crepar1": {
+      "com_quick_codes": "CRPA",
+      "banding_code": ""
+    },
+    "cretit2": {
+      "com_quick_codes": "CRTI",
+      "banding_code": ""
+    },
+    "criros2": {
+      "com_quick_codes": "CRRO",
+      "banding_code": ""
+    },
+    "cursan": {
+      "com_quick_codes": "",
+      "banding_code": "CUSA"
+    },
+    "daejun": {
+      "com_quick_codes": "",
+      "banding_code": "DEJU"
+    },
+    "dalpel1": {
+      "com_quick_codes": "DAPE",
+      "banding_code": ""
+    },
+    "darwar1": {
+      "com_quick_codes": "DAWA",
+      "banding_code": ""
+    },
+    "dasfly": {
+      "com_quick_codes": "",
+      "banding_code": "DSFL"
+    },
+    "datthr1": {
+      "com_quick_codes": "BTTH",
+      "banding_code": ""
+    },
+    "daujac1": {
+      "com_quick_codes": "DAJA",
+      "banding_code": ""
+    },
+    "dausta1": {
+      "com_quick_codes": "DAST PBST",
+      "banding_code": ""
+    },
+    "demcra1": {
+      "com_quick_codes": "DECR",
+      "banding_code": ""
+    },
+    "derpar1": {
+      "com_quick_codes": "LDPA DEPA",
+      "banding_code": ""
+    },
+    "desfin2": {
+      "com_quick_codes": "DEFI",
+      "banding_code": ""
+    },
+    "deswhe1": {
+      "com_quick_codes": "DEWH",
+      "banding_code": ""
+    },
+    "diadov1": {
+      "com_quick_codes": "DIDO",
+      "banding_code": ""
+    },
+    "doccor": {
+      "com_quick_codes": "",
+      "banding_code": "DCCO"
+    },
+    "doveki": {
+      "com_quick_codes": "LIAU",
+      "banding_code": "DOVE"
+    },
+    "duccoc1": {
+      "com_quick_codes": "SOCO",
+      "banding_code": ""
+    },
+    "dunlin": {
+      "com_quick_codes": "",
+      "banding_code": "DUNL"
+    },
+    "dunnoc1": {
+      "com_quick_codes": "DUNN",
+      "banding_code": ""
+    },
+    "dusthr1": {
+      "com_quick_codes": "",
+      "banding_code": "NATH"
+    },
+    "dusthr2": {
+      "com_quick_codes": "",
+      "banding_code": "DUTH"
+    },
+    "duswar": {
+      "com_quick_codes": "",
+      "banding_code": "DUWA"
+    },
+    "eabwar1": {
+      "com_quick_codes": "EBWA",
+      "banding_code": ""
+    },
+    "eacwar1": {
+      "com_quick_codes": "ECWA",
+      "banding_code": ""
+    },
+    "eaowar1": {
+      "com_quick_codes": "EOWA",
+      "banding_code": ""
+    },
+    "eaowar2": {
+      "com_quick_codes": "EOWA",
+      "banding_code": ""
+    },
+    "eargre": {
+      "com_quick_codes": "BNGR",
+      "banding_code": "EAGR"
+    },
+    "easkin": {
+      "com_quick_codes": "",
+      "banding_code": "EAKI"
+    },
+    "easpho": {
+      "com_quick_codes": "",
+      "banding_code": "EAPH"
+    },
+    "easros1": {
+      "com_quick_codes": "EARO",
+      "banding_code": ""
+    },
+    "easwar1": {
+      "com_quick_codes": "SUWA ESWA",
+      "banding_code": ""
+    },
+    "eaywag": {
+      "com_quick_codes": "",
+      "banding_code": "EYWA"
+    },
+    "eaywag1": {
+      "com_quick_codes": "WYWA",
+      "banding_code": ""
+    },
+    "eclpar4": {
+      "com_quick_codes": "PAEC",
+      "banding_code": ""
+    },
+    "edwphe1": {
+      "com_quick_codes": "EDPH VIPH",
+      "banding_code": ""
+    },
+    "egygoo": {
+      "com_quick_codes": "",
+      "banding_code": "EGGO"
+    },
+    "egynig1": {
+      "com_quick_codes": "EGNI",
+      "banding_code": ""
+    },
+    "egyvul1": {
+      "com_quick_codes": "EGVU",
+      "banding_code": ""
+    },
+    "elefal1": {
+      "com_quick_codes": "ELFA",
+      "banding_code": ""
+    },
+    "elepar1": {
+      "com_quick_codes": "ELPA",
+      "banding_code": ""
+    },
+    "eleter1": {
+      "com_quick_codes": "",
+      "banding_code": "ELTE"
+    },
+    "elllau1": {
+      "com_quick_codes": "ELLA",
+      "banding_code": ""
+    },
+    "empgoo": {
+      "com_quick_codes": "",
+      "banding_code": "EMGO"
+    },
+    "emu1": {
+      "com_quick_codes": "COEM EMU",
+      "banding_code": ""
+    },
+    "eskcur": {
+      "com_quick_codes": "",
+      "banding_code": "ESCU"
+    },
+    "ettwoo1": {
+      "com_quick_codes": "ETTW TTBW",
+      "banding_code": ""
+    },
+    "eubeat1": {
+      "com_quick_codes": "EUBE EBEA",
+      "banding_code": ""
+    },
+    "eucdov": {
+      "com_quick_codes": "CODO ECDO",
+      "banding_code": "EUCD"
+    },
+    "eueowl1": {
+      "com_quick_codes": "EEOW EUEO",
+      "banding_code": ""
+    },
+    "eugori2": {
+      "com_quick_codes": "EGOR",
+      "banding_code": ""
+    },
+    "eugplo": {
+      "com_quick_codes": "EGPL",
+      "banding_code": "EUGP"
+    },
+    "eugwoo2": {
+      "com_quick_codes": "EGWO",
+      "banding_code": ""
+    },
+    "euhbuz1": {
+      "com_quick_codes": "EUHB EHBU",
+      "banding_code": ""
+    },
+    "euhgul1": {
+      "com_quick_codes": "",
+      "banding_code": "EHGU"
+    },
+    "eupfly1": {
+      "com_quick_codes": "PIFL EPFL",
+      "banding_code": ""
+    },
+    "eupowl1": {
+      "com_quick_codes": "EUPO EPOW",
+      "banding_code": ""
+    },
+    "euptit1": {
+      "com_quick_codes": "EUPT EPTI",
+      "banding_code": ""
+    },
+    "eurbla": {
+      "com_quick_codes": "COBL EUBL",
+      "banding_code": "EUBB"
+    },
+    "eurbul": {
+      "com_quick_codes": "",
+      "banding_code": "EUBU"
+    },
+    "eurcoo": {
+      "com_quick_codes": "",
+      "banding_code": "EUCO"
+    },
+    "eurcrm1": {
+      "com_quick_codes": "ECMA EUCM",
+      "banding_code": ""
+    },
+    "eurcur": {
+      "com_quick_codes": "",
+      "banding_code": "EUCU"
+    },
+    "eurdot": {
+      "com_quick_codes": "",
+      "banding_code": "EUDO"
+    },
+    "eurgol": {
+      "com_quick_codes": "EUGO WEGO",
+      "banding_code": "EGOL"
+    },
+    "eurgre1": {
+      "com_quick_codes": "EUGR",
+      "banding_code": ""
+    },
+    "eurgri1": {
+      "com_quick_codes": "EGVU EUGR GRVU",
+      "banding_code": ""
+    },
+    "eurhob": {
+      "com_quick_codes": "",
+      "banding_code": "EUHO"
+    },
+    "eurjac": {
+      "com_quick_codes": "WEJA",
+      "banding_code": "EUJA"
+    },
+    "eurjay1": {
+      "com_quick_codes": "ECFJ EUJA",
+      "banding_code": ""
+    },
+    "eurkes": {
+      "com_quick_codes": "COKE",
+      "banding_code": "EUKE"
+    },
+    "eurlin1": {
+      "com_quick_codes": "COLI EULI",
+      "banding_code": ""
+    },
+    "eurmag1": {
+      "com_quick_codes": "COMA EUMA",
+      "banding_code": ""
+    },
+    "eurnig1": {
+      "com_quick_codes": "EUNI",
+      "banding_code": ""
+    },
+    "eurnut2": {
+      "com_quick_codes": "EUNU",
+      "banding_code": ""
+    },
+    "eurnut3": {
+      "com_quick_codes": "NONU SPNU",
+      "banding_code": ""
+    },
+    "euroys1": {
+      "com_quick_codes": "",
+      "banding_code": "EUOY"
+    },
+    "eurrob1": {
+      "com_quick_codes": "",
+      "banding_code": "EURO"
+    },
+    "eurrol1": {
+      "com_quick_codes": "EURO",
+      "banding_code": ""
+    },
+    "eursco1": {
+      "com_quick_codes": "EUSO ESOW",
+      "banding_code": ""
+    },
+    "eurser1": {
+      "com_quick_codes": "EUSE",
+      "banding_code": ""
+    },
+    "eursha1": {
+      "com_quick_codes": "EUSH",
+      "banding_code": ""
+    },
+    "eursis": {
+      "com_quick_codes": "",
+      "banding_code": "EUSI"
+    },
+    "eurspa1": {
+      "com_quick_codes": "EUSP",
+      "banding_code": "ESPA"
+    },
+    "eurspo1": {
+      "com_quick_codes": "EUSP",
+      "banding_code": "ESPO"
+    },
+    "eursta": {
+      "com_quick_codes": "EURO COST",
+      "banding_code": "EUST"
+    },
+    "eurtre1": {
+      "com_quick_codes": "EUTR",
+      "banding_code": ""
+    },
+    "eurwar1": {
+      "com_quick_codes": "CORW CRWA",
+      "banding_code": ""
+    },
+    "eurwar2": {
+      "com_quick_codes": "",
+      "banding_code": "RIWA"
+    },
+    "eurwig": {
+      "com_quick_codes": "",
+      "banding_code": "EUWI"
+    },
+    "eurwoo": {
+      "com_quick_codes": "",
+      "banding_code": "EUWO"
+    },
+    "eurwry": {
+      "com_quick_codes": "",
+      "banding_code": "EUWR"
+    },
+    "eutdov": {
+      "com_quick_codes": "ETDO",
+      "banding_code": "EUTD"
+    },
+    "eutkne1": {
+      "com_quick_codes": "STCU ESCU ETKN EUTK EUSC",
+      "banding_code": ""
+    },
+    "eutspa": {
+      "com_quick_codes": "",
+      "banding_code": "ETSP"
+    },
+    "eyethr": {
+      "com_quick_codes": "",
+      "banding_code": "EYTH"
+    },
+    "falduc": {
+      "com_quick_codes": "",
+      "banding_code": "FADU"
+    },
+    "feapet2": {
+      "com_quick_codes": "",
+      "banding_code": "DEPE"
+    },
+    "ferduc": {
+      "com_quick_codes": "FEDU",
+      "banding_code": ""
+    },
+    "ferhaw": {
+      "com_quick_codes": "",
+      "banding_code": "FEHA"
+    },
+    "fieldf": {
+      "com_quick_codes": "",
+      "banding_code": "FIEL"
+    },
+    "fifser1": {
+      "com_quick_codes": "FFSE RFSE",
+      "banding_code": ""
+    },
+    "firecr1": {
+      "com_quick_codes": "COFI",
+      "banding_code": ""
+    },
+    "fislov1": {
+      "com_quick_codes": "FILO",
+      "banding_code": ""
+    },
+    "fistur1": {
+      "com_quick_codes": "FITU",
+      "banding_code": ""
+    },
+    "forter": {
+      "com_quick_codes": "",
+      "banding_code": "FOTE"
+    },
+    "fotswi": {
+      "com_quick_codes": "PASW",
+      "banding_code": "FTSW"
+    },
+    "fragul": {
+      "com_quick_codes": "",
+      "banding_code": "FRGU"
+    },
+    "fuwduc": {
+      "com_quick_codes": "FWDU",
+      "banding_code": "FUWD"
+    },
+    "gadwal": {
+      "com_quick_codes": "",
+      "banding_code": "GADW"
+    },
+    "galah": {
+      "com_quick_codes": "GALA",
+      "banding_code": ""
+    },
+    "gargan": {
+      "com_quick_codes": "",
+      "banding_code": "GARG"
+    },
+    "garwar1": {
+      "com_quick_codes": "GAWA",
+      "banding_code": ""
+    },
+    "gbbgul": {
+      "com_quick_codes": "",
+      "banding_code": "GBBG"
+    },
+    "gbesta1": {
+      "com_quick_codes": "GBES",
+      "banding_code": ""
+    },
+    "gbhgul2": {
+      "com_quick_codes": "",
+      "banding_code": "PAGU"
+    },
+    "glagul": {
+      "com_quick_codes": "",
+      "banding_code": "GLGU"
+    },
+    "gloibi": {
+      "com_quick_codes": "",
+      "banding_code": "GLIB"
+    },
+    "glwgul": {
+      "com_quick_codes": "",
+      "banding_code": "GWGU"
+    },
+    "gncpar": {
+      "com_quick_codes": "GCPA",
+      "banding_code": ""
+    },
+    "gnwtea": {
+      "com_quick_codes": "EWTE CWTE GRWI EUTE",
+      "banding_code": "GWTE"
+    },
+    "goldcr1": {
+      "com_quick_codes": "GOLD",
+      "banding_code": ""
+    },
+    "goleag": {
+      "com_quick_codes": "",
+      "banding_code": "GOEA"
+    },
+    "golphe": {
+      "com_quick_codes": "GOPH",
+      "banding_code": ""
+    },
+    "gowwar": {
+      "com_quick_codes": "",
+      "banding_code": "GWWA"
+    },
+    "graeao1": {
+      "com_quick_codes": "GEOW GREO",
+      "banding_code": ""
+    },
+    "gragoo": {
+      "com_quick_codes": "",
+      "banding_code": "GRGO"
+    },
+    "graher1": {
+      "com_quick_codes": "GRHE",
+      "banding_code": "GRAH"
+    },
+    "grbher3": {
+      "com_quick_codes": "GBWH",
+      "banding_code": "GBHE"
+    },
+    "grccra1": {
+      "com_quick_codes": "GCCR GRCC",
+      "banding_code": ""
+    },
+    "grcgre1": {
+      "com_quick_codes": "GCGR ACGR",
+      "banding_code": ""
+    },
+    "grebit1": {
+      "com_quick_codes": "EUBI",
+      "banding_code": ""
+    },
+    "grebus1": {
+      "com_quick_codes": "GRBU",
+      "banding_code": ""
+    },
+    "grecor": {
+      "com_quick_codes": "WBCO BLSH",
+      "banding_code": "GRCO"
+    },
+    "greegr": {
+      "com_quick_codes": "GWEG WHHE",
+      "banding_code": "GREG"
+    },
+    "grefla2": {
+      "com_quick_codes": "",
+      "banding_code": "AMFL"
+    },
+    "grefla3": {
+      "com_quick_codes": "GRFL",
+      "banding_code": ""
+    },
+    "grejun2": {
+      "com_quick_codes": "GRJU",
+      "banding_code": ""
+    },
+    "grekno": {
+      "com_quick_codes": "",
+      "banding_code": "GRKN"
+    },
+    "grepar": {
+      "com_quick_codes": "GRPA",
+      "banding_code": ""
+    },
+    "grepea1": {
+      "com_quick_codes": "GRPE",
+      "banding_code": ""
+    },
+    "grerhe1": {
+      "com_quick_codes": "GRRH",
+      "banding_code": ""
+    },
+    "gresca": {
+      "com_quick_codes": "",
+      "banding_code": "GRSC"
+    },
+    "greshe": {
+      "com_quick_codes": "",
+      "banding_code": "GRSH"
+    },
+    "gresku1": {
+      "com_quick_codes": "",
+      "banding_code": "GRSK"
+    },
+    "gresni1": {
+      "com_quick_codes": "GRSN",
+      "banding_code": ""
+    },
+    "gretit1": {
+      "com_quick_codes": "GRTI EGTI",
+      "banding_code": ""
+    },
+    "grewar2": {
+      "com_quick_codes": "TBWA",
+      "banding_code": ""
+    },
+    "grewar3": {
+      "com_quick_codes": "GRWA",
+      "banding_code": ""
+    },
+    "grewhi1": {
+      "com_quick_codes": "COWH GRWH",
+      "banding_code": ""
+    },
+    "greyel": {
+      "com_quick_codes": "",
+      "banding_code": "GRYE"
+    },
+    "grhgul": {
+      "com_quick_codes": "",
+      "banding_code": "GHGU"
+    },
+    "grhowl": {
+      "com_quick_codes": "",
+      "banding_code": "GHOW"
+    },
+    "grnher": {
+      "com_quick_codes": "GBHE NAGH",
+      "banding_code": "GRHE"
+    },
+    "grnpar": {
+      "com_quick_codes": "GTPA GRPA",
+      "banding_code": "GREP"
+    },
+    "grnsan": {
+      "com_quick_codes": "",
+      "banding_code": "GRSA"
+    },
+    "grnwar1": {
+      "com_quick_codes": "GRWA",
+      "banding_code": ""
+    },
+    "grrwar1": {
+      "com_quick_codes": "GRWA GRRW",
+      "banding_code": ""
+    },
+    "grscuc1": {
+      "com_quick_codes": "GSCU",
+      "banding_code": ""
+    },
+    "grseag1": {
+      "com_quick_codes": "GSEA",
+      "banding_code": ""
+    },
+    "grsplo": {
+      "com_quick_codes": "GSPL GRSP GRSA",
+      "banding_code": "GSAP"
+    },
+    "grswoo": {
+      "com_quick_codes": "",
+      "banding_code": "GSWO"
+    },
+    "grtgra": {
+      "com_quick_codes": "",
+      "banding_code": "GTGR"
+    },
+    "grwpel1": {
+      "com_quick_codes": "GWPE",
+      "banding_code": ""
+    },
+    "grycat": {
+      "com_quick_codes": "",
+      "banding_code": "GRCA"
+    },
+    "grygul": {
+      "com_quick_codes": "",
+      "banding_code": "GRGU"
+    },
+    "grypar": {
+      "com_quick_codes": "GRPA",
+      "banding_code": "GRAP"
+    },
+    "grypar10": {
+      "com_quick_codes": "TIPA",
+      "banding_code": ""
+    },
+    "grywag": {
+      "com_quick_codes": "GRWA",
+      "banding_code": "GRAW"
+    },
+    "gstlar1": {
+      "com_quick_codes": "GSTL",
+      "banding_code": ""
+    },
+    "gubter2": {
+      "com_quick_codes": "CGBT",
+      "banding_code": "GBTE"
+    },
+    "gwfgoo": {
+      "com_quick_codes": "",
+      "banding_code": "GWFG"
+    },
+    "gycthr": {
+      "com_quick_codes": "",
+      "banding_code": "GCTH"
+    },
+    "gyfwoo1": {
+      "com_quick_codes": "GHWO GFNW",
+      "banding_code": ""
+    },
+    "gyhbun1": {
+      "com_quick_codes": "GNBU",
+      "banding_code": ""
+    },
+    "gyhlap1": {
+      "com_quick_codes": "GHLA",
+      "banding_code": ""
+    },
+    "gyrfal": {
+      "com_quick_codes": "GYFA",
+      "banding_code": "GYRF"
+    },
+    "gyttat1": {
+      "com_quick_codes": "",
+      "banding_code": "GTTA"
+    },
+    "harduc": {
+      "com_quick_codes": "",
+      "banding_code": "HADU"
+    },
+    "hawfin": {
+      "com_quick_codes": "",
+      "banding_code": "HAWF"
+    },
+    "hawgoo": {
+      "com_quick_codes": "NENE",
+      "banding_code": "HAGO"
+    },
+    "hazgro1": {
+      "com_quick_codes": "HAGR",
+      "banding_code": ""
+    },
+    "helgui": {
+      "com_quick_codes": "HEGU",
+      "banding_code": "HELG"
+    },
+    "herthr": {
+      "com_quick_codes": "",
+      "banding_code": "HETH"
+    },
+    "hilmyn": {
+      "com_quick_codes": "CHMY",
+      "banding_code": ""
+    },
+    "hoocro1": {
+      "com_quick_codes": "HOCR CACR",
+      "banding_code": "HCRW"
+    },
+    "hoomer": {
+      "com_quick_codes": "",
+      "banding_code": "HOME"
+    },
+    "hoopoe": {
+      "com_quick_codes": "EUHO HOOP",
+      "banding_code": "COHO"
+    },
+    "horgre": {
+      "com_quick_codes": "SLGR",
+      "banding_code": "HOGR"
+    },
+    "horlar": {
+      "com_quick_codes": "SHLA",
+      "banding_code": "HOLA"
+    },
+    "hottea1": {
+      "com_quick_codes": "BBTE HOTE",
+      "banding_code": ""
+    },
+    "houcro1": {
+      "com_quick_codes": "HOCR",
+      "banding_code": ""
+    },
+    "houfin": {
+      "com_quick_codes": "",
+      "banding_code": "HOFI"
+    },
+    "houspa": {
+      "com_quick_codes": "",
+      "banding_code": "HOSP"
+    },
+    "hrshaw": {
+      "com_quick_codes": "",
+      "banding_code": "HAHA"
+    },
+    "hudgod": {
+      "com_quick_codes": "",
+      "banding_code": "HUGO"
+    },
+    "humwar1": {
+      "com_quick_codes": "HUWA HULW HLWA",
+      "banding_code": ""
+    },
+    "ibechi2": {
+      "com_quick_codes": "IBCH",
+      "banding_code": ""
+    },
+    "ictwar1": {
+      "com_quick_codes": "",
+      "banding_code": "ICWA"
+    },
+    "impeag1": {
+      "com_quick_codes": "EIEA IMEA",
+      "banding_code": ""
+    },
+    "incter1": {
+      "com_quick_codes": "",
+      "banding_code": "INTE"
+    },
+    "indbun": {
+      "com_quick_codes": "",
+      "banding_code": "INBU"
+    },
+    "indwhe1": {
+      "com_quick_codes": "INWE IWEY",
+      "banding_code": ""
+    },
+    "ingori1": {
+      "com_quick_codes": "IGOR",
+      "banding_code": ""
+    },
+    "insowl1": {
+      "com_quick_codes": "ISOW INSO",
+      "banding_code": ""
+    },
+    "isashr1": {
+      "com_quick_codes": "ISSH",
+      "banding_code": ""
+    },
+    "isawhe1": {
+      "com_quick_codes": "ISWH",
+      "banding_code": ""
+    },
+    "isbduc1": {
+      "com_quick_codes": "ISBD",
+      "banding_code": ""
+    },
+    "itaspa1": {
+      "com_quick_codes": "ITSP",
+      "banding_code": ""
+    },
+    "ivogul": {
+      "com_quick_codes": "",
+      "banding_code": "IVGU"
+    },
+    "jacsni": {
+      "com_quick_codes": "",
+      "banding_code": "JASN"
+    },
+    "japgro1": {
+      "com_quick_codes": "JAGR",
+      "banding_code": ""
+    },
+    "japqua": {
+      "com_quick_codes": "",
+      "banding_code": "JAQU"
+    },
+    "javspa": {
+      "com_quick_codes": "",
+      "banding_code": "JASP"
+    },
+    "kalphe": {
+      "com_quick_codes": "",
+      "banding_code": "KAPH"
+    },
+    "kelgul": {
+      "com_quick_codes": "SBBG",
+      "banding_code": "KEGU"
+    },
+    "kenplo1": {
+      "com_quick_codes": "",
+      "banding_code": "KEPL"
+    },
+    "killde": {
+      "com_quick_codes": "",
+      "banding_code": "KILL"
+    },
+    "kineid": {
+      "com_quick_codes": "",
+      "banding_code": "KIEI"
+    },
+    "laaphe1": {
+      "com_quick_codes": "LAPH",
+      "banding_code": ""
+    },
+    "lakduc1": {
+      "com_quick_codes": "LADU",
+      "banding_code": ""
+    },
+    "lammer1": {
+      "com_quick_codes": "LAMM BEVU",
+      "banding_code": ""
+    },
+    "lanfal1": {
+      "com_quick_codes": "LAFA",
+      "banding_code": ""
+    },
+    "lanwar": {
+      "com_quick_codes": "LAWA",
+      "banding_code": "LANW"
+    },
+    "laplon": {
+      "com_quick_codes": "LABU",
+      "banding_code": "LALO"
+    },
+    "larspa": {
+      "com_quick_codes": "",
+      "banding_code": "LASP"
+    },
+    "laudov1": {
+      "com_quick_codes": "LADO",
+      "banding_code": ""
+    },
+    "laugul": {
+      "com_quick_codes": "",
+      "banding_code": "LAGU"
+    },
+    "laukoo1": {
+      "com_quick_codes": "LAKO",
+      "banding_code": ""
+    },
+    "layduc": {
+      "com_quick_codes": "LADU",
+      "banding_code": "LAYD"
+    },
+    "lazbun": {
+      "com_quick_codes": "LABU",
+      "banding_code": "LAZB"
+    },
+    "lbbgul": {
+      "com_quick_codes": "",
+      "banding_code": "LBBG"
+    },
+    "lbesta1": {
+      "com_quick_codes": "LBES",
+      "banding_code": ""
+    },
+    "lcspet": {
+      "com_quick_codes": "LSPE",
+      "banding_code": "LESP"
+    },
+    "leabit": {
+      "com_quick_codes": "",
+      "banding_code": "LEBI"
+    },
+    "leasan": {
+      "com_quick_codes": "",
+      "banding_code": "LESA"
+    },
+    "leater1": {
+      "com_quick_codes": "",
+      "banding_code": "LETE"
+    },
+    "lecter2": {
+      "com_quick_codes": "LCTE",
+      "banding_code": ""
+    },
+    "legshr2": {
+      "com_quick_codes": "LGSH",
+      "banding_code": ""
+    },
+    "leseag1": {
+      "com_quick_codes": "LSEA",
+      "banding_code": ""
+    },
+    "lesfla1": {
+      "com_quick_codes": "LEFL",
+      "banding_code": ""
+    },
+    "leskes1": {
+      "com_quick_codes": "LEKE",
+      "banding_code": ""
+    },
+    "lessap1": {
+      "com_quick_codes": "TSPL TISA TISP LESA",
+      "banding_code": ""
+    },
+    "lessap2": {
+      "com_quick_codes": "LESA SSPL SISA",
+      "banding_code": "SISP"
+    },
+    "lessca": {
+      "com_quick_codes": "",
+      "banding_code": "LESC"
+    },
+    "leswhi4": {
+      "com_quick_codes": "",
+      "banding_code": "LEWH"
+    },
+    "leswoo1": {
+      "com_quick_codes": "LSWO",
+      "banding_code": ""
+    },
+    "lesyel": {
+      "com_quick_codes": "",
+      "banding_code": "LEYE"
+    },
+    "levshe1": {
+      "com_quick_codes": "MESH YESH",
+      "banding_code": ""
+    },
+    "lewduc1": {
+      "com_quick_codes": "LWDU LEWD",
+      "banding_code": ""
+    },
+    "librol2": {
+      "com_quick_codes": "LBRO",
+      "banding_code": ""
+    },
+    "lirplo": {
+      "com_quick_codes": "",
+      "banding_code": "LRPL"
+    },
+    "litbit1": {
+      "com_quick_codes": "CLBI",
+      "banding_code": "LIBI"
+    },
+    "litbun": {
+      "com_quick_codes": "",
+      "banding_code": "LIBU"
+    },
+    "litbus1": {
+      "com_quick_codes": "LIBU",
+      "banding_code": ""
+    },
+    "litcra1": {
+      "com_quick_codes": "LICR",
+      "banding_code": ""
+    },
+    "litcur": {
+      "com_quick_codes": "LIWH",
+      "banding_code": "LICU"
+    },
+    "litegr": {
+      "com_quick_codes": "LEWR",
+      "banding_code": "LIEG"
+    },
+    "litgre1": {
+      "com_quick_codes": "LIGR",
+      "banding_code": ""
+    },
+    "litgul": {
+      "com_quick_codes": "",
+      "banding_code": "LIGU"
+    },
+    "litowl1": {
+      "com_quick_codes": "LIOW",
+      "banding_code": ""
+    },
+    "litshe1": {
+      "com_quick_codes": "AUSH",
+      "banding_code": "BASH"
+    },
+    "litsti": {
+      "com_quick_codes": "",
+      "banding_code": "LIST"
+    },
+    "litter1": {
+      "com_quick_codes": "",
+      "banding_code": "LITE"
+    },
+    "lobdow": {
+      "com_quick_codes": "",
+      "banding_code": "LBDO"
+    },
+    "lobmur": {
+      "com_quick_codes": "",
+      "banding_code": "LBMU"
+    },
+    "loeowl": {
+      "com_quick_codes": "",
+      "banding_code": "LEOW"
+    },
+    "lolbuz1": {
+      "com_quick_codes": "",
+      "banding_code": "LLBU"
+    },
+    "lotduc": {
+      "com_quick_codes": "",
+      "banding_code": "LTDU"
+    },
+    "lotjae": {
+      "com_quick_codes": "LTSK",
+      "banding_code": "LTJA"
+    },
+    "lotros1": {
+      "com_quick_codes": "SLTR LTRO",
+      "banding_code": ""
+    },
+    "lotshr1": {
+      "com_quick_codes": "LTSH",
+      "banding_code": ""
+    },
+    "lotsti": {
+      "com_quick_codes": "",
+      "banding_code": "LTST"
+    },
+    "lottit1": {
+      "com_quick_codes": "LTTI",
+      "banding_code": ""
+    },
+    "lwfgoo": {
+      "com_quick_codes": "",
+      "banding_code": "LWFG"
+    },
+    "macduc1": {
+      "com_quick_codes": "MADU",
+      "banding_code": ""
+    },
+    "madpar2": {
+      "com_quick_codes": "MAPA",
+      "banding_code": ""
+    },
+    "madpet": {
+      "com_quick_codes": "",
+      "banding_code": "ZIPE"
+    },
+    "magwar": {
+      "com_quick_codes": "",
+      "banding_code": "MAWA"
+    },
+    "mallar3": {
+      "com_quick_codes": "",
+      "banding_code": "MALL"
+    },
+    "manduc": {
+      "com_quick_codes": "MADU",
+      "banding_code": ""
+    },
+    "manduc1": {
+      "com_quick_codes": "MADU AWDU",
+      "banding_code": ""
+    },
+    "manshe": {
+      "com_quick_codes": "",
+      "banding_code": "MASH"
+    },
+    "marsan": {
+      "com_quick_codes": "",
+      "banding_code": "MASA"
+    },
+    "marsto1": {
+      "com_quick_codes": "MAST",
+      "banding_code": ""
+    },
+    "martea1": {
+      "com_quick_codes": "MADU",
+      "banding_code": ""
+    },
+    "martit2": {
+      "com_quick_codes": "MATI",
+      "banding_code": ""
+    },
+    "marwar1": {
+      "com_quick_codes": "MAWA",
+      "banding_code": ""
+    },
+    "marwar3": {
+      "com_quick_codes": "MAWA",
+      "banding_code": ""
+    },
+    "maslap1": {
+      "com_quick_codes": "MALA SWPL MSLA",
+      "banding_code": ""
+    },
+    "masshr1": {
+      "com_quick_codes": "MASH",
+      "banding_code": ""
+    },
+    "meabun1": {
+      "com_quick_codes": "MEBU",
+      "banding_code": ""
+    },
+    "meapar": {
+      "com_quick_codes": "SMAM",
+      "banding_code": "MEAM"
+    },
+    "meapip1": {
+      "com_quick_codes": "",
+      "banding_code": "MEPI"
+    },
+    "medgul1": {
+      "com_quick_codes": "MEGU",
+      "banding_code": ""
+    },
+    "melduc1": {
+      "com_quick_codes": "MEDU",
+      "banding_code": ""
+    },
+    "melwar1": {
+      "com_quick_codes": "MEWA",
+      "banding_code": ""
+    },
+    "merlin": {
+      "com_quick_codes": "",
+      "banding_code": "MERL"
+    },
+    "mewgul": {
+      "com_quick_codes": "MEGU",
+      "banding_code": "COGU"
+    },
+    "meypar1": {
+      "com_quick_codes": "MEPA BRPA",
+      "banding_code": ""
+    },
+    "milmac": {
+      "com_quick_codes": "",
+      "banding_code": "MIMA"
+    },
+    "misthr1": {
+      "com_quick_codes": "",
+      "banding_code": "MITH"
+    },
+    "miswoo1": {
+      "com_quick_codes": "MSWO",
+      "banding_code": ""
+    },
+    "monhar1": {
+      "com_quick_codes": "MOHA",
+      "banding_code": ""
+    },
+    "monpar": {
+      "com_quick_codes": "",
+      "banding_code": "MOPA"
+    },
+    "moudov": {
+      "com_quick_codes": "",
+      "banding_code": "MODO"
+    },
+    "moured1": {
+      "com_quick_codes": "MORE",
+      "banding_code": ""
+    },
+    "mouwar1": {
+      "com_quick_codes": "MOWA",
+      "banding_code": ""
+    },
+    "mugfly": {
+      "com_quick_codes": "",
+      "banding_code": "MUFL"
+    },
+    "mulpar1": {
+      "com_quick_codes": "MUPA",
+      "banding_code": ""
+    },
+    "musduc": {
+      "com_quick_codes": "",
+      "banding_code": "MUDU"
+    },
+    "mutswa": {
+      "com_quick_codes": "",
+      "banding_code": "MUSW"
+    },
+    "ncbeat1": {
+      "com_quick_codes": "NCBE",
+      "banding_code": ""
+    },
+    "nezsca1": {
+      "com_quick_codes": "NZSC",
+      "banding_code": ""
+    },
+    "nohowl": {
+      "com_quick_codes": "NOHO",
+      "banding_code": "NHOW"
+    },
+    "norbob": {
+      "com_quick_codes": "",
+      "banding_code": "NOBO"
+    },
+    "norcar": {
+      "com_quick_codes": "",
+      "banding_code": "NOCA"
+    },
+    "norful": {
+      "com_quick_codes": "",
+      "banding_code": "NOFU"
+    },
+    "norgan": {
+      "com_quick_codes": "",
+      "banding_code": "NOGA"
+    },
+    "norgos1": {
+      "com_quick_codes": "EUGO NOGO EURA",
+      "banding_code": "EGOS"
+    },
+    "norhar1": {
+      "com_quick_codes": "",
+      "banding_code": "HEHA"
+    },
+    "norhar2": {
+      "com_quick_codes": "",
+      "banding_code": "NOHA"
+    },
+    "norlap": {
+      "com_quick_codes": "",
+      "banding_code": "NOLA"
+    },
+    "normoc": {
+      "com_quick_codes": "",
+      "banding_code": "NOMO"
+    },
+    "norpar": {
+      "com_quick_codes": "",
+      "banding_code": "NOPA"
+    },
+    "norpin": {
+      "com_quick_codes": "",
+      "banding_code": "NOPI"
+    },
+    "norsho": {
+      "com_quick_codes": "NOSH",
+      "banding_code": "NSHO"
+    },
+    "norshr1": {
+      "com_quick_codes": "GGSH",
+      "banding_code": ""
+    },
+    "norwat": {
+      "com_quick_codes": "",
+      "banding_code": "NOWA"
+    },
+    "norwhe": {
+      "com_quick_codes": "",
+      "banding_code": "NOWH"
+    },
+    "norwhe3": {
+      "com_quick_codes": "ATWH",
+      "banding_code": ""
+    },
+    "nutman": {
+      "com_quick_codes": "",
+      "banding_code": "SBMU"
+    },
+    "olbpip": {
+      "com_quick_codes": "",
+      "banding_code": "OBPI"
+    },
+    "oltwar1": {
+      "com_quick_codes": "OTWA",
+      "banding_code": ""
+    },
+    "orabis1": {
+      "com_quick_codes": "",
+      "banding_code": "NRBI"
+    },
+    "orcwax": {
+      "com_quick_codes": "OCWA",
+      "banding_code": "OCHW"
+    },
+    "orhthr1": {
+      "com_quick_codes": "OHTH",
+      "banding_code": ""
+    },
+    "origoo1": {
+      "com_quick_codes": "",
+      "banding_code": "ORGO"
+    },
+    "oripip1": {
+      "com_quick_codes": "PAPI",
+      "banding_code": ""
+    },
+    "oriplo1": {
+      "com_quick_codes": "",
+      "banding_code": "ORPL"
+    },
+    "oripra": {
+      "com_quick_codes": "",
+      "banding_code": "ORPR"
+    },
+    "ortbun1": {
+      "com_quick_codes": "ORBU",
+      "banding_code": ""
+    },
+    "ortdov": {
+      "com_quick_codes": "RTDO OTDO",
+      "banding_code": "ORTD"
+    },
+    "orwpar": {
+      "com_quick_codes": "OWAM",
+      "banding_code": ""
+    },
+    "osprey": {
+      "com_quick_codes": "",
+      "banding_code": "OSPR"
+    },
+    "ovenbi1": {
+      "com_quick_codes": "",
+      "banding_code": "OVEN"
+    },
+    "pabduc1": {
+      "com_quick_codes": "GRDU PBDU",
+      "banding_code": ""
+    },
+    "pacloo": {
+      "com_quick_codes": "PADI",
+      "banding_code": "PALO"
+    },
+    "pacpar2": {
+      "com_quick_codes": "PAPA",
+      "banding_code": ""
+    },
+    "padwar1": {
+      "com_quick_codes": "PAWA",
+      "banding_code": ""
+    },
+    "pagplo": {
+      "com_quick_codes": "PGPL",
+      "banding_code": "PAGP"
+    },
+    "pagwar1": {
+      "com_quick_codes": "PAGW",
+      "banding_code": "PGWA"
+    },
+    "pahros1": {
+      "com_quick_codes": "PHRO",
+      "banding_code": ""
+    },
+    "paibun": {
+      "com_quick_codes": "",
+      "banding_code": "PABU"
+    },
+    "paipar6": {
+      "com_quick_codes": "VEPA",
+      "banding_code": "PAIP"
+    },
+    "palbun": {
+      "com_quick_codes": "PABU PRBU",
+      "banding_code": "PALB"
+    },
+    "palhar1": {
+      "com_quick_codes": "PAHA",
+      "banding_code": ""
+    },
+    "palros2": {
+      "com_quick_codes": "",
+      "banding_code": "PARO"
+    },
+    "palsan1": {
+      "com_quick_codes": "PASA",
+      "banding_code": ""
+    },
+    "palswi3": {
+      "com_quick_codes": "PASW",
+      "banding_code": ""
+    },
+    "palthr1": {
+      "com_quick_codes": "PATH",
+      "banding_code": ""
+    },
+    "palwar5": {
+      "com_quick_codes": "PALW PAWA PLWA",
+      "banding_code": "PLEW"
+    },
+    "parcro2": {
+      "com_quick_codes": "PACR",
+      "banding_code": ""
+    },
+    "parjae": {
+      "com_quick_codes": "ARSK ARJA",
+      "banding_code": "PAJA"
+    },
+    "parshe1": {
+      "com_quick_codes": "PASH",
+      "banding_code": ""
+    },
+    "pecpip": {
+      "com_quick_codes": "",
+      "banding_code": "PEPI"
+    },
+    "pecsan": {
+      "com_quick_codes": "",
+      "banding_code": "PESA"
+    },
+    "peflov": {
+      "com_quick_codes": "",
+      "banding_code": "RFLO"
+    },
+    "perfal": {
+      "com_quick_codes": "",
+      "banding_code": "PEFA"
+    },
+    "phiduc1": {
+      "com_quick_codes": "PHDU",
+      "banding_code": ""
+    },
+    "phivir": {
+      "com_quick_codes": "",
+      "banding_code": "PHVI"
+    },
+    "pibgre": {
+      "com_quick_codes": "",
+      "banding_code": "PBGR"
+    },
+    "pibpel1": {
+      "com_quick_codes": "PBPE",
+      "banding_code": ""
+    },
+    "pieavo1": {
+      "com_quick_codes": "PIAV",
+      "banding_code": ""
+    },
+    "piecro1": {
+      "com_quick_codes": "PICR",
+      "banding_code": ""
+    },
+    "pieduc1": {
+      "com_quick_codes": "PEDU",
+      "banding_code": ""
+    },
+    "piewhe1": {
+      "com_quick_codes": "",
+      "banding_code": "PIWH"
+    },
+    "pifgoo": {
+      "com_quick_codes": "",
+      "banding_code": "PFGO"
+    },
+    "pinbun": {
+      "com_quick_codes": "",
+      "banding_code": "PIBU"
+    },
+    "pingro": {
+      "com_quick_codes": "",
+      "banding_code": "PIGR"
+    },
+    "pitwhy": {
+      "com_quick_codes": "",
+      "banding_code": "PTWH"
+    },
+    "plhpar1": {
+      "com_quick_codes": "PHPA",
+      "banding_code": ""
+    },
+    "pllwar1": {
+      "com_quick_codes": "PLLW",
+      "banding_code": ""
+    },
+    "polpar1": {
+      "com_quick_codes": "AURI",
+      "banding_code": ""
+    },
+    "pomjae": {
+      "com_quick_codes": "POSK",
+      "banding_code": "POJA"
+    },
+    "pugsta1": {
+      "com_quick_codes": "PUST",
+      "banding_code": ""
+    },
+    "puntea1": {
+      "com_quick_codes": "PUTE",
+      "banding_code": ""
+    },
+    "purgal2": {
+      "com_quick_codes": "",
+      "banding_code": "PUGA"
+    },
+    "purher1": {
+      "com_quick_codes": "",
+      "banding_code": "PUHE"
+    },
+    "purmar": {
+      "com_quick_codes": "",
+      "banding_code": "PUMA"
+    },
+    "pursan": {
+      "com_quick_codes": "",
+      "banding_code": "PUSA"
+    },
+    "purswa1": {
+      "com_quick_codes": "WESW",
+      "banding_code": "PUSW"
+    },
+    "purswa3": {
+      "com_quick_codes": "GRHE GHSW",
+      "banding_code": "PUSW"
+    },
+    "pygcor2": {
+      "com_quick_codes": "PYCO",
+      "banding_code": ""
+    },
+    "radshe1": {
+      "com_quick_codes": "RASH",
+      "banding_code": ""
+    },
+    "radwar1": {
+      "com_quick_codes": "RAWA",
+      "banding_code": ""
+    },
+    "ragmac1": {
+      "com_quick_codes": "",
+      "banding_code": "RAGM"
+    },
+    "railor5": {
+      "com_quick_codes": "RALO",
+      "banding_code": ""
+    },
+    "razorb": {
+      "com_quick_codes": "",
+      "banding_code": "RAZO"
+    },
+    "rebcho1": {
+      "com_quick_codes": "RBCH",
+      "banding_code": ""
+    },
+    "rebduc1": {
+      "com_quick_codes": "RBDU RBTE",
+      "banding_code": ""
+    },
+    "rebfly": {
+      "com_quick_codes": "RBFL",
+      "banding_code": ""
+    },
+    "rebgoo1": {
+      "com_quick_codes": "RBGO",
+      "banding_code": ""
+    },
+    "reblei": {
+      "com_quick_codes": "",
+      "banding_code": "RBLE"
+    },
+    "rebmer": {
+      "com_quick_codes": "",
+      "banding_code": "RBME"
+    },
+    "rebnut": {
+      "com_quick_codes": "",
+      "banding_code": "RBNU"
+    },
+    "rebpar4": {
+      "com_quick_codes": "RBPA",
+      "banding_code": ""
+    },
+    "rebque1": {
+      "com_quick_codes": "RBQU",
+      "banding_code": ""
+    },
+    "rebshr1": {
+      "com_quick_codes": "",
+      "banding_code": "RBSH"
+    },
+    "rebtro": {
+      "com_quick_codes": "",
+      "banding_code": "RBTR"
+    },
+    "reccar": {
+      "com_quick_codes": "",
+      "banding_code": "RCCA"
+    },
+    "reccor": {
+      "com_quick_codes": "RCCB RCCO",
+      "banding_code": ""
+    },
+    "reccra1": {
+      "com_quick_codes": "RCCR",
+      "banding_code": ""
+    },
+    "recpar": {
+      "com_quick_codes": "",
+      "banding_code": "RCAM"
+    },
+    "recpoc": {
+      "com_quick_codes": "RCPO",
+      "banding_code": ""
+    },
+    "redbis": {
+      "com_quick_codes": "SRBI",
+      "banding_code": ""
+    },
+    "redcro": {
+      "com_quick_codes": "COCR",
+      "banding_code": "RECR"
+    },
+    "redhea": {
+      "com_quick_codes": "",
+      "banding_code": "REDH"
+    },
+    "redjun": {
+      "com_quick_codes": "",
+      "banding_code": "REJU"
+    },
+    "redkit1": {
+      "com_quick_codes": "REKI",
+      "banding_code": ""
+    },
+    "redkno": {
+      "com_quick_codes": "",
+      "banding_code": "REKN"
+    },
+    "redpha1": {
+      "com_quick_codes": "GRPH",
+      "banding_code": "REPH"
+    },
+    "redpol1": {
+      "com_quick_codes": "",
+      "banding_code": "REDP"
+    },
+    "redsho1": {
+      "com_quick_codes": "RESH",
+      "banding_code": ""
+    },
+    "redwin": {
+      "com_quick_codes": "",
+      "banding_code": "REDW"
+    },
+    "reebun": {
+      "com_quick_codes": "CRBU",
+      "banding_code": "REBU"
+    },
+    "reephe1": {
+      "com_quick_codes": "REPH",
+      "banding_code": ""
+    },
+    "reevir1": {
+      "com_quick_codes": "",
+      "banding_code": "REVI"
+    },
+    "refblu1": {
+      "com_quick_codes": "OFBR",
+      "banding_code": "RFBL"
+    },
+    "refboo": {
+      "com_quick_codes": "",
+      "banding_code": "RFBO"
+    },
+    "reffal1": {
+      "com_quick_codes": "",
+      "banding_code": "RFFA"
+    },
+    "refpar4": {
+      "com_quick_codes": "RFPA RCPA RCKA",
+      "banding_code": ""
+    },
+    "refpar5": {
+      "com_quick_codes": "RFPA",
+      "banding_code": ""
+    },
+    "rehbun1": {
+      "com_quick_codes": "RHBU",
+      "banding_code": ""
+    },
+    "relpar1": {
+      "com_quick_codes": "RLPA",
+      "banding_code": ""
+    },
+    "relpar10": {
+      "com_quick_codes": "",
+      "banding_code": "RLAM"
+    },
+    "rengre": {
+      "com_quick_codes": "",
+      "banding_code": "RNGR"
+    },
+    "renpha": {
+      "com_quick_codes": "",
+      "banding_code": "RNPH"
+    },
+    "rensti": {
+      "com_quick_codes": "",
+      "banding_code": "RNST"
+    },
+    "rerpar1": {
+      "com_quick_codes": "RRPA",
+      "banding_code": ""
+    },
+    "rerswa8": {
+      "com_quick_codes": "ERRS RRSW",
+      "banding_code": ""
+    },
+    "resmac2": {
+      "com_quick_codes": "RSMA NRSM",
+      "banding_code": ""
+    },
+    "rethaw": {
+      "com_quick_codes": "",
+      "banding_code": "RTHA"
+    },
+    "retloo": {
+      "com_quick_codes": "RTDI",
+      "banding_code": "RTLO"
+    },
+    "retpar3": {
+      "com_quick_codes": "RTPA",
+      "banding_code": ""
+    },
+    "retpip": {
+      "com_quick_codes": "",
+      "banding_code": "RTPI"
+    },
+    "retthr1": {
+      "com_quick_codes": "RTTH",
+      "banding_code": ""
+    },
+    "rewbla": {
+      "com_quick_codes": "",
+      "banding_code": "RWBL"
+    },
+    "rewbul": {
+      "com_quick_codes": "",
+      "banding_code": "RWBU"
+    },
+    "rewlap1": {
+      "com_quick_codes": "RWLA",
+      "banding_code": ""
+    },
+    "ribgul": {
+      "com_quick_codes": "",
+      "banding_code": "RBGU"
+    },
+    "ricpip1": {
+      "com_quick_codes": "RIPI",
+      "banding_code": ""
+    },
+    "rinduc": {
+      "com_quick_codes": "",
+      "banding_code": "RNDU"
+    },
+    "rinouz1": {
+      "com_quick_codes": "RIOU",
+      "banding_code": ""
+    },
+    "rinphe1": {
+      "com_quick_codes": "COPH RNPH",
+      "banding_code": "RNEP"
+    },
+    "rinphe2": {
+      "com_quick_codes": "GRPH",
+      "banding_code": ""
+    },
+    "rintea1": {
+      "com_quick_codes": "RITE",
+      "banding_code": ""
+    },
+    "robgro": {
+      "com_quick_codes": "",
+      "banding_code": "RBGR"
+    },
+    "robpoc1": {
+      "com_quick_codes": "RBPO",
+      "banding_code": ""
+    },
+    "rocbun1": {
+      "com_quick_codes": "ROBU",
+      "banding_code": ""
+    },
+    "rocpar2": {
+      "com_quick_codes": "ROPA",
+      "banding_code": ""
+    },
+    "rocpet1": {
+      "com_quick_codes": "ROSP",
+      "banding_code": ""
+    },
+    "rocpig": {
+      "com_quick_codes": "RODO",
+      "banding_code": "ROPI"
+    },
+    "rocpip1": {
+      "com_quick_codes": "ERPI ROPI",
+      "banding_code": ""
+    },
+    "rocpta1": {
+      "com_quick_codes": "",
+      "banding_code": "ROPT"
+    },
+    "roeowl1": {
+      "com_quick_codes": "ROEO IEOW REOW INEO",
+      "banding_code": ""
+    },
+    "rolhaw": {
+      "com_quick_codes": "RLBU",
+      "banding_code": "RLHA"
+    },
+    "rook1": {
+      "com_quick_codes": "",
+      "banding_code": "ROOK"
+    },
+    "rorpar": {
+      "com_quick_codes": "RNPA",
+      "banding_code": "RRPA"
+    },
+    "rosgoo": {
+      "com_quick_codes": "",
+      "banding_code": "ROGO"
+    },
+    "rosgul": {
+      "com_quick_codes": "",
+      "banding_code": "ROGU"
+    },
+    "rossta2": {
+      "com_quick_codes": "RCST ROST",
+      "banding_code": ""
+    },
+    "roster": {
+      "com_quick_codes": "ROTE",
+      "banding_code": "ROST"
+    },
+    "royter1": {
+      "com_quick_codes": "ROTE",
+      "banding_code": "ROYT"
+    },
+    "rtrthr1": {
+      "com_quick_codes": "CRTH",
+      "banding_code": "RTRT"
+    },
+    "rucspa1": {
+      "com_quick_codes": "RCSP",
+      "banding_code": "RCOS"
+    },
+    "rudduc": {
+      "com_quick_codes": "",
+      "banding_code": "RUDU"
+    },
+    "rudshe": {
+      "com_quick_codes": "",
+      "banding_code": "RUSH"
+    },
+    "rudtur": {
+      "com_quick_codes": "",
+      "banding_code": "RUTU"
+    },
+    "ruegri1": {
+      "com_quick_codes": "RÜVU RÜGR RUVU RUGR",
+      "banding_code": ""
+    },
+    "ruepar1": {
+      "com_quick_codes": "RÜPA RUPA",
+      "banding_code": ""
+    },
+    "ruewar1": {
+      "com_quick_codes": "RÜWA RUWA",
+      "banding_code": ""
+    },
+    "ruff": {
+      "com_quick_codes": "",
+      "banding_code": "RUFF"
+    },
+    "ruhgoo1": {
+      "com_quick_codes": "RHGO",
+      "banding_code": ""
+    },
+    "rusbun": {
+      "com_quick_codes": "",
+      "banding_code": "RUBU"
+    },
+    "rutrob1": {
+      "com_quick_codes": "",
+      "banding_code": "RTRO"
+    },
+    "rutscr1": {
+      "com_quick_codes": "RBCH RTSR",
+      "banding_code": ""
+    },
+    "rutshr2": {
+      "com_quick_codes": "TUSH RTSH",
+      "banding_code": ""
+    },
+    "sabgul": {
+      "com_quick_codes": "",
+      "banding_code": "SAGU"
+    },
+    "sacibi2": {
+      "com_quick_codes": "ASIB SAIB",
+      "banding_code": ""
+    },
+    "saffin": {
+      "com_quick_codes": "",
+      "banding_code": "SAFI"
+    },
+    "sakfal1": {
+      "com_quick_codes": "SAFA",
+      "banding_code": ""
+    },
+    "sancra": {
+      "com_quick_codes": "",
+      "banding_code": "SACR"
+    },
+    "sander": {
+      "com_quick_codes": "",
+      "banding_code": "SAND"
+    },
+    "santer1": {
+      "com_quick_codes": "",
+      "banding_code": "SATE"
+    },
+    "sarwar1": {
+      "com_quick_codes": "SAWA",
+      "banding_code": ""
+    },
+    "sattra1": {
+      "com_quick_codes": "SATR",
+      "banding_code": ""
+    },
+    "savspa": {
+      "com_quick_codes": "SBBS SASP",
+      "banding_code": "SAVS"
+    },
+    "savwar1": {
+      "com_quick_codes": "SAWA",
+      "banding_code": ""
+    },
+    "scaibi": {
+      "com_quick_codes": "",
+      "banding_code": "SCIB"
+    },
+    "scamac1": {
+      "com_quick_codes": "",
+      "banding_code": "SCMA"
+    },
+    "scatan": {
+      "com_quick_codes": "",
+      "banding_code": "SCTA"
+    },
+    "scathr2": {
+      "com_quick_codes": "",
+      "banding_code": "WHTH"
+    },
+    "schbla1": {
+      "com_quick_codes": "SHBL",
+      "banding_code": ""
+    },
+    "schpar1": {
+      "com_quick_codes": "SHPA",
+      "banding_code": ""
+    },
+    "scocro1": {
+      "com_quick_codes": "SCCR",
+      "banding_code": ""
+    },
+    "scoshe1": {
+      "com_quick_codes": "",
+      "banding_code": "SCSH"
+    },
+    "sedwar1": {
+      "com_quick_codes": "",
+      "banding_code": "SEWA"
+    },
+    "semplo": {
+      "com_quick_codes": "",
+      "banding_code": "SEPL"
+    },
+    "semsan": {
+      "com_quick_codes": "",
+      "banding_code": "SESA"
+    },
+    "senpar": {
+      "com_quick_codes": "SEPA",
+      "banding_code": ""
+    },
+    "shbdow": {
+      "com_quick_codes": "",
+      "banding_code": "SBDO"
+    },
+    "sheowl": {
+      "com_quick_codes": "",
+      "banding_code": "SEOW"
+    },
+    "shteag1": {
+      "com_quick_codes": "STSE STEA",
+      "banding_code": ""
+    },
+    "shtsan": {
+      "com_quick_codes": "STSA",
+      "banding_code": "SPTS"
+    },
+    "shttre1": {
+      "com_quick_codes": "STTR",
+      "banding_code": ""
+    },
+    "sibacc": {
+      "com_quick_codes": "",
+      "banding_code": "SIAC"
+    },
+    "sibpip1": {
+      "com_quick_codes": "BBPI",
+      "banding_code": "SIPI"
+    },
+    "sibrob": {
+      "com_quick_codes": "",
+      "banding_code": "SBRO"
+    },
+    "sibrub": {
+      "com_quick_codes": "",
+      "banding_code": "SIRU"
+    },
+    "sibsto1": {
+      "com_quick_codes": "SIST COST",
+      "banding_code": "ASST"
+    },
+    "sibthr1": {
+      "com_quick_codes": "SITH",
+      "banding_code": ""
+    },
+    "silphe": {
+      "com_quick_codes": "SIPH",
+      "banding_code": ""
+    },
+    "siltea1": {
+      "com_quick_codes": "SITE",
+      "banding_code": ""
+    },
+    "silver3": {
+      "com_quick_codes": "SILV",
+      "banding_code": ""
+    },
+    "skylar": {
+      "com_quick_codes": "",
+      "banding_code": "EUSK"
+    },
+    "slbgul": {
+      "com_quick_codes": "SBGU",
+      "banding_code": "SBAG"
+    },
+    "slbgul1": {
+      "com_quick_codes": "SBGU",
+      "banding_code": ""
+    },
+    "smew": {
+      "com_quick_codes": "",
+      "banding_code": "SMEW"
+    },
+    "snobun": {
+      "com_quick_codes": "",
+      "banding_code": "SNBU"
+    },
+    "snoegr": {
+      "com_quick_codes": "",
+      "banding_code": "SNEG"
+    },
+    "snogoo": {
+      "com_quick_codes": "",
+      "banding_code": "SNGO"
+    },
+    "snoowl1": {
+      "com_quick_codes": "",
+      "banding_code": "SNOW"
+    },
+    "soashe1": {
+      "com_quick_codes": "SASH",
+      "banding_code": ""
+    },
+    "soclap1": {
+      "com_quick_codes": "SOLA",
+      "banding_code": ""
+    },
+    "solsan": {
+      "com_quick_codes": "",
+      "banding_code": "SOSA"
+    },
+    "sonspa": {
+      "com_quick_codes": "",
+      "banding_code": "SOSP"
+    },
+    "sonthr1": {
+      "com_quick_codes": "",
+      "banding_code": "SOTH"
+    },
+    "sooshe": {
+      "com_quick_codes": "",
+      "banding_code": "SOSH"
+    },
+    "sooter1": {
+      "com_quick_codes": "",
+      "banding_code": "SOTE"
+    },
+    "soppet1": {
+      "com_quick_codes": "SPPE",
+      "banding_code": ""
+    },
+    "sopsku1": {
+      "com_quick_codes": "",
+      "banding_code": "SPSK"
+    },
+    "sora": {
+      "com_quick_codes": "",
+      "banding_code": "SORA"
+    },
+    "souboo8": {
+      "com_quick_codes": "AUBO SOBO",
+      "banding_code": ""
+    },
+    "spaspa1": {
+      "com_quick_codes": "SPSP",
+      "banding_code": ""
+    },
+    "spbduc": {
+      "com_quick_codes": "CSBD",
+      "banding_code": "ESBD"
+    },
+    "speeid": {
+      "com_quick_codes": "",
+      "banding_code": "SPEI"
+    },
+    "spewar2": {
+      "com_quick_codes": "SPWA",
+      "banding_code": ""
+    },
+    "spocra1": {
+      "com_quick_codes": "",
+      "banding_code": "SPCR"
+    },
+    "spoeao2": {
+      "com_quick_codes": "SPEO SEOW",
+      "banding_code": ""
+    },
+    "spofly1": {
+      "com_quick_codes": "",
+      "banding_code": "SPFL"
+    },
+    "spored": {
+      "com_quick_codes": "",
+      "banding_code": "SPRE"
+    },
+    "sposan": {
+      "com_quick_codes": "",
+      "banding_code": "SPSA"
+    },
+    "spotow": {
+      "com_quick_codes": "",
+      "banding_code": "SPTO"
+    },
+    "spwgoo1": {
+      "com_quick_codes": "SWGO",
+      "banding_code": ""
+    },
+    "spwlap1": {
+      "com_quick_codes": "SWLA ASWL SWPL",
+      "banding_code": ""
+    },
+    "squher1": {
+      "com_quick_codes": "",
+      "banding_code": "SQHE"
+    },
+    "steeag1": {
+      "com_quick_codes": "STEA",
+      "banding_code": ""
+    },
+    "steeid": {
+      "com_quick_codes": "",
+      "banding_code": "STEI"
+    },
+    "sthsee2": {
+      "com_quick_codes": "SHSE",
+      "banding_code": ""
+    },
+    "stisan": {
+      "com_quick_codes": "",
+      "banding_code": "STSA"
+    },
+    "stodov1": {
+      "com_quick_codes": "STDO",
+      "banding_code": ""
+    },
+    "stonec4": {
+      "com_quick_codes": "COST EUST",
+      "banding_code": ""
+    },
+    "stonec7": {
+      "com_quick_codes": "AMST SIST COST",
+      "banding_code": "ASST"
+    },
+    "strowl1": {
+      "com_quick_codes": "STOW",
+      "banding_code": "STRO"
+    },
+    "stseag": {
+      "com_quick_codes": "SSEA",
+      "banding_code": "STSE"
+    },
+    "subwar2": {
+      "com_quick_codes": "SBWA",
+      "banding_code": ""
+    },
+    "subwar6": {
+      "com_quick_codes": "SUWA WSWA",
+      "banding_code": ""
+    },
+    "subwar8": {
+      "com_quick_codes": "MOWA",
+      "banding_code": ""
+    },
+    "succoc": {
+      "com_quick_codes": "SCCO",
+      "banding_code": ""
+    },
+    "sugspa1": {
+      "com_quick_codes": "SGSP",
+      "banding_code": ""
+    },
+    "sunpar1": {
+      "com_quick_codes": "SUPA",
+      "banding_code": ""
+    },
+    "suppar1": {
+      "com_quick_codes": "SUPA",
+      "banding_code": ""
+    },
+    "sursco": {
+      "com_quick_codes": "",
+      "banding_code": "SUSC"
+    },
+    "swagoo1": {
+      "com_quick_codes": "SWGO",
+      "banding_code": ""
+    },
+    "swathr": {
+      "com_quick_codes": "RBTH",
+      "banding_code": "SWTH"
+    },
+    "swfowl1": {
+      "com_quick_codes": "SWFS SWFO",
+      "banding_code": ""
+    },
+    "swipar1": {
+      "com_quick_codes": "SWPA",
+      "banding_code": ""
+    },
+    "swiphe1": {
+      "com_quick_codes": "SWPH",
+      "banding_code": ""
+    },
+    "swspet": {
+      "com_quick_codes": "SWSP SSPE",
+      "banding_code": "SSTP"
+    },
+    "sykwar2": {
+      "com_quick_codes": "SYWA",
+      "banding_code": ""
+    },
+    "syrwoo1": {
+      "com_quick_codes": "SYWO",
+      "banding_code": ""
+    },
+    "taibeg1": {
+      "com_quick_codes": "BEGO TBGO",
+      "banding_code": "TABG"
+    },
+    "taifly1": {
+      "com_quick_codes": "RTFL",
+      "banding_code": "TAFL"
+    },
+    "tancoc1": {
+      "com_quick_codes": "TACO",
+      "banding_code": ""
+    },
+    "tawowl1": {
+      "com_quick_codes": "TAOW",
+      "banding_code": ""
+    },
+    "tawpip1": {
+      "com_quick_codes": "TAPI",
+      "banding_code": ""
+    },
+    "temsti": {
+      "com_quick_codes": "",
+      "banding_code": "TEST"
+    },
+    "temtra1": {
+      "com_quick_codes": "TETR",
+      "banding_code": ""
+    },
+    "tenwar": {
+      "com_quick_codes": "",
+      "banding_code": "TEWA"
+    },
+    "tersan": {
+      "com_quick_codes": "",
+      "banding_code": "TESA"
+    },
+    "thbmur": {
+      "com_quick_codes": "BRGU",
+      "banding_code": "TBMU"
+    },
+    "thbwar1": {
+      "com_quick_codes": "",
+      "banding_code": "TBWA"
+    },
+    "thrnig1": {
+      "com_quick_codes": "THNI",
+      "banding_code": ""
+    },
+    "trepip": {
+      "com_quick_codes": "",
+      "banding_code": "TRPI"
+    },
+    "treswa": {
+      "com_quick_codes": "TRSW",
+      "banding_code": "TRES"
+    },
+    "trista1": {
+      "com_quick_codes": "TRST",
+      "banding_code": ""
+    },
+    "trufin2": {
+      "com_quick_codes": "TRFI",
+      "banding_code": ""
+    },
+    "truswa": {
+      "com_quick_codes": "TRSW",
+      "banding_code": "TRUS"
+    },
+    "tufduc": {
+      "com_quick_codes": "",
+      "banding_code": "TUDU"
+    },
+    "tufpuf": {
+      "com_quick_codes": "",
+      "banding_code": "TUPU"
+    },
+    "tunbeg1": {
+      "com_quick_codes": "BEGO TBGO",
+      "banding_code": "TUBG"
+    },
+    "tunswa": {
+      "com_quick_codes": "BESW",
+      "banding_code": "TUSW"
+    },
+    "turpar1": {
+      "com_quick_codes": "TUPA",
+      "banding_code": ""
+    },
+    "turvul": {
+      "com_quick_codes": "",
+      "banding_code": "TUVU"
+    },
+    "twite1": {
+      "com_quick_codes": "TWIT",
+      "banding_code": ""
+    },
+    "upcwar1": {
+      "com_quick_codes": "UPWA",
+      "banding_code": ""
+    },
+    "uplgoo1": {
+      "com_quick_codes": "UPGO",
+      "banding_code": ""
+    },
+    "uplsan": {
+      "com_quick_codes": "",
+      "banding_code": "UPSA"
+    },
+    "uraowl1": {
+      "com_quick_codes": "UROW",
+      "banding_code": ""
+    },
+    "varthr": {
+      "com_quick_codes": "",
+      "banding_code": "VATH"
+    },
+    "veery": {
+      "com_quick_codes": "",
+      "banding_code": "VEER"
+    },
+    "verfly4": {
+      "com_quick_codes": "VEFL",
+      "banding_code": ""
+    },
+    "vilwea1": {
+      "com_quick_codes": "",
+      "banding_code": "VIWE"
+    },
+    "vitpar1": {
+      "com_quick_codes": "VTPA",
+      "banding_code": ""
+    },
+    "waldra1": {
+      "com_quick_codes": "NBIB",
+      "banding_code": ""
+    },
+    "wallcr1": {
+      "com_quick_codes": "WALL",
+      "banding_code": ""
+    },
+    "watpip1": {
+      "com_quick_codes": "WAPI",
+      "banding_code": ""
+    },
+    "watrai1": {
+      "com_quick_codes": "WWRA WARA",
+      "banding_code": "WEWR"
+    },
+    "wawduc1": {
+      "com_quick_codes": "WAWD WWDU",
+      "banding_code": ""
+    },
+    "webowl1": {
+      "com_quick_codes": "EBOW CBOW WBOW",
+      "banding_code": ""
+    },
+    "webwar1": {
+      "com_quick_codes": "WBWA",
+      "banding_code": ""
+    },
+    "wemhar1": {
+      "com_quick_codes": "WEMH",
+      "banding_code": "WMHA"
+    },
+    "weowar1": {
+      "com_quick_codes": "WOWA",
+      "banding_code": ""
+    },
+    "weowar2": {
+      "com_quick_codes": "WOWA",
+      "banding_code": ""
+    },
+    "werher": {
+      "com_quick_codes": "WREG WRHE",
+      "banding_code": "WERH"
+    },
+    "wescap1": {
+      "com_quick_codes": "WECA",
+      "banding_code": ""
+    },
+    "wessan": {
+      "com_quick_codes": "",
+      "banding_code": "WESA"
+    },
+    "wfwduc1": {
+      "com_quick_codes": "",
+      "banding_code": "WFWD"
+    },
+    "whbvul1": {
+      "com_quick_codes": "WBVU",
+      "banding_code": ""
+    },
+    "whbwoo1": {
+      "com_quick_codes": "WBWO",
+      "banding_code": ""
+    },
+    "whcpar": {
+      "com_quick_codes": "",
+      "banding_code": "WCPA"
+    },
+    "whcpin": {
+      "com_quick_codes": "WCPI",
+      "banding_code": "WCHP"
+    },
+    "whcred1": {
+      "com_quick_codes": "WCWR WCRE",
+      "banding_code": ""
+    },
+    "whcspa": {
+      "com_quick_codes": "",
+      "banding_code": "WCSP"
+    },
+    "whctur1": {
+      "com_quick_codes": "WCTU",
+      "banding_code": ""
+    },
+    "whebul1": {
+      "com_quick_codes": "WEBU",
+      "banding_code": ""
+    },
+    "wheduc1": {
+      "com_quick_codes": "AWED HARD",
+      "banding_code": ""
+    },
+    "whepar2": {
+      "com_quick_codes": "WEPA",
+      "banding_code": ""
+    },
+    "whhduc1": {
+      "com_quick_codes": "WHDU",
+      "banding_code": ""
+    },
+    "whhmun1": {
+      "com_quick_codes": "WHMU",
+      "banding_code": ""
+    },
+    "whhpig1": {
+      "com_quick_codes": "WHPI",
+      "banding_code": ""
+    },
+    "whiibi": {
+      "com_quick_codes": "AWIB",
+      "banding_code": "WHIB"
+    },
+    "whimbr3": {
+      "com_quick_codes": "WHIM",
+      "banding_code": "HUWH"
+    },
+    "whimbr5": {
+      "com_quick_codes": "WHIM",
+      "banding_code": "EUWH"
+    },
+    "whinch1": {
+      "com_quick_codes": "WHIN",
+      "banding_code": ""
+    },
+    "whisto1": {
+      "com_quick_codes": "WHST",
+      "banding_code": ""
+    },
+    "whiter2": {
+      "com_quick_codes": "",
+      "banding_code": "WHTE"
+    },
+    "whiwag": {
+      "com_quick_codes": "PWWA",
+      "banding_code": "WHWA"
+    },
+    "whncra1": {
+      "com_quick_codes": "WNCR",
+      "banding_code": ""
+    },
+    "whoswa": {
+      "com_quick_codes": "WHSW",
+      "banding_code": "WHOS"
+    },
+    "whrmun": {
+      "com_quick_codes": "WRMU",
+      "banding_code": ""
+    },
+    "whrsan": {
+      "com_quick_codes": "",
+      "banding_code": "WRSA"
+    },
+    "whrsha": {
+      "com_quick_codes": "",
+      "banding_code": "WRSH"
+    },
+    "whrswi1": {
+      "com_quick_codes": "WRSW",
+      "banding_code": ""
+    },
+    "whtdip1": {
+      "com_quick_codes": "WTDI",
+      "banding_code": ""
+    },
+    "whteag": {
+      "com_quick_codes": "WTSE",
+      "banding_code": "WTEA"
+    },
+    "whtlap1": {
+      "com_quick_codes": "WTLA",
+      "banding_code": ""
+    },
+    "whtnee": {
+      "com_quick_codes": "",
+      "banding_code": "WTNE"
+    },
+    "whtrob3": {
+      "com_quick_codes": "IRAN WTRO",
+      "banding_code": ""
+    },
+    "whtspa": {
+      "com_quick_codes": "",
+      "banding_code": "WTSP"
+    },
+    "whtwhe1": {
+      "com_quick_codes": "WCWH",
+      "banding_code": ""
+    },
+    "whwcro": {
+      "com_quick_codes": "TBCR",
+      "banding_code": "WWCR"
+    },
+    "whwsco1": {
+      "com_quick_codes": "SISC",
+      "banding_code": "STSC"
+    },
+    "whwsco2": {
+      "com_quick_codes": "",
+      "banding_code": "WWSC"
+    },
+    "whwsco3": {
+      "com_quick_codes": "",
+      "banding_code": "VESC"
+    },
+    "whwsno1": {
+      "com_quick_codes": "WWSN",
+      "banding_code": ""
+    },
+    "whwter": {
+      "com_quick_codes": "WWBT",
+      "banding_code": "WWTE"
+    },
+    "wilpha": {
+      "com_quick_codes": "",
+      "banding_code": "WIPH"
+    },
+    "wilpta1": {
+      "com_quick_codes": "REGR WIGR",
+      "banding_code": ""
+    },
+    "wilsni1": {
+      "com_quick_codes": "",
+      "banding_code": "WISN"
+    },
+    "wiltit1": {
+      "com_quick_codes": "WITI",
+      "banding_code": ""
+    },
+    "wiltur": {
+      "com_quick_codes": "",
+      "banding_code": "WITU"
+    },
+    "winwre4": {
+      "com_quick_codes": "EUWR NOWR",
+      "banding_code": ""
+    },
+    "wispet": {
+      "com_quick_codes": "WSPE",
+      "banding_code": "WISP"
+    },
+    "wlswar": {
+      "com_quick_codes": "",
+      "banding_code": "WIWA"
+    },
+    "wlwwar": {
+      "com_quick_codes": "WIWA",
+      "banding_code": "WILW"
+    },
+    "wooduc": {
+      "com_quick_codes": "AWDU",
+      "banding_code": "WODU"
+    },
+    "woolar1": {
+      "com_quick_codes": "WOOD WOLA",
+      "banding_code": ""
+    },
+    "woosan": {
+      "com_quick_codes": "",
+      "banding_code": "WOSA"
+    },
+    "wooshr1": {
+      "com_quick_codes": "WOSH",
+      "banding_code": ""
+    },
+    "woothr": {
+      "com_quick_codes": "",
+      "banding_code": "WOTH"
+    },
+    "woowar": {
+      "com_quick_codes": "",
+      "banding_code": "WOWA"
+    },
+    "y00475": {
+      "com_quick_codes": "",
+      "banding_code": "AMCO"
+    },
+    "y00478": {
+      "com_quick_codes": "",
+      "banding_code": "ICGU"
+    },
+    "y00621": {
+      "com_quick_codes": "RRSW ERRS",
+      "banding_code": ""
+    },
+    "y00678": {
+      "com_quick_codes": "",
+      "banding_code": "CRCA"
+    },
+    "yebbun": {
+      "com_quick_codes": "YBBU",
+      "banding_code": "YBSB"
+    },
+    "yebbun1": {
+      "com_quick_codes": "YBBU",
+      "banding_code": "YBWB"
+    },
+    "yebcho1": {
+      "com_quick_codes": "ALCH YBCH",
+      "banding_code": ""
+    },
+    "yebcuc": {
+      "com_quick_codes": "",
+      "banding_code": "YBCU"
+    },
+    "yebduc1": {
+      "com_quick_codes": "YBDU",
+      "banding_code": ""
+    },
+    "yebfly": {
+      "com_quick_codes": "",
+      "banding_code": "YBFL"
+    },
+    "yebgro1": {
+      "com_quick_codes": "YBGR CHGR",
+      "banding_code": ""
+    },
+    "yebloo": {
+      "com_quick_codes": "WBDI",
+      "banding_code": "YBLO"
+    },
+    "yebpin1": {
+      "com_quick_codes": "YBPI",
+      "banding_code": ""
+    },
+    "yebsap": {
+      "com_quick_codes": "",
+      "banding_code": "YBSA"
+    },
+    "yebtea1": {
+      "com_quick_codes": "YBTE",
+      "banding_code": ""
+    },
+    "yebwar3": {
+      "com_quick_codes": "",
+      "banding_code": "YBWA"
+    },
+    "yecbis": {
+      "com_quick_codes": "",
+      "banding_code": "YCBI"
+    },
+    "yefcan": {
+      "com_quick_codes": "",
+      "banding_code": "YFCA"
+    },
+    "yefpar5": {
+      "com_quick_codes": "YFPA",
+      "banding_code": ""
+    },
+    "yehbla": {
+      "com_quick_codes": "",
+      "banding_code": "YHBL"
+    },
+    "yehpar": {
+      "com_quick_codes": "",
+      "banding_code": "YHAM"
+    },
+    "yelgul1": {
+      "com_quick_codes": "",
+      "banding_code": "YLGU"
+    },
+    "yellow2": {
+      "com_quick_codes": "YELL",
+      "banding_code": ""
+    },
+    "yelwar1": {
+      "com_quick_codes": "AYWA NYWA",
+      "banding_code": "YEWA"
+    },
+    "yerwar": {
+      "com_quick_codes": "MYWA",
+      "banding_code": "YRWA"
+    },
+    "yetvir": {
+      "com_quick_codes": "",
+      "banding_code": "YTVI"
+    },
+    "ywcpar": {
+      "com_quick_codes": "",
+      "banding_code": "YCAM"
+    },
+    "zebfin2": {
+      "com_quick_codes": "TZFI SZFI ZEFI",
+      "banding_code": ""
+    },
+    "zitcis1": {
+      "com_quick_codes": "ZICI",
+      "banding_code": ""
+    }
+  }
+}

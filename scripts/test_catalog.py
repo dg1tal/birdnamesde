@@ -4,6 +4,7 @@ import importlib.util
 import json
 from pathlib import Path
 import unittest
+from code_policy import CODE_FIELDS
 
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('regions',ROOT/'scripts/update-regions.py')
@@ -19,7 +20,8 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual(set(birds),country_ids|{s['id'] for s in baseline})
         self.assertEqual(data['meta']['catalog']['fingerprint'],hashlib.sha256('\n'.join(sorted(birds)).encode()).hexdigest())
         for original in baseline:
-            for key,value in original.items():self.assertEqual(birds[original['id']][key],value)
+            for key,value in original.items():
+                if key not in CODE_FIELDS:self.assertEqual(birds[original['id']][key],value)
         for code in ('eursha1','rebcho1','darwar1','roster','wilpta1'):
             self.assertIn(code,birds)
             self.assertIn(code,data['meta']['catalog']['countrySpecies']['GB'])
