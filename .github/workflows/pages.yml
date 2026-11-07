@@ -50,6 +50,7 @@ jobs:
           for test in scripts/test-*.mjs; do node "$test" || exit 1; done
           python3 -m unittest discover -s scripts -p 'test_*.py'
           python3 scripts/validate-data.py
+          python3 scripts/build-scientific-names.py --check
           python3 scripts/build-ebd-seasonal.py --check
           python3 scripts/check-private-ebd.py
           node scripts/validate-photos.mjs

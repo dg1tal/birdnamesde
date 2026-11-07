@@ -30,7 +30,7 @@ const render=source.slice(source.indexOf('function englishNames('),source.indexO
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const ui={lookup:{mainLanguage:'de',nameLanguages:['de','en','nl','sci'],region:'DE'}};
 const context=vm.createContext({ui,NAME_LANGUAGES,lookupTitle,lookupLanguages,showGermanStatus,primaryName,languageLabel,esc,
- english:false,lookupPhotos:false,t:s=>s,nameMarkup:(s,l)=>`<span data-name-content lang="${l==='sci'?'la':l}">${esc(primaryName(s,l))}</span>`});
+ english:false,lookupPhotos:false,scientificNameMarkup:()=>'',t:s=>s,nameMarkup:(s,l)=>`<span data-name-content lang="${l==='sci'?'la':l}">${esc(primaryName(s,l))}</span>`});
 vm.runInContext(render,context);
 const jay=context.card(birds.find(s=>s.id==='eurjay1'));
 assert(jay.includes('code-scientific'));

@@ -1,0 +1,62 @@
+# Explicit species-level identities for this catalogue. Format as other glosses.
+abdimii|zu Ehren von Bey El-Arnaut Abdim, einem osmanischen Gouverneur im Sudan|honours Bey El-Arnaut Abdim, an Ottoman governor in Sudan|vernoemd naar Bey El-Arnaut Abdim, een Ottomaanse gouverneur in Soedan
+adamsii|zu Ehren des Arktisreisenden und Arztes Edward Adams|honours Arctic explorer and surgeon Edward Adams|vernoemd naar poolreiziger en arts Edward Adams
+alexandri|zu Ehren Alexanders des Großen, König von Makedonien|honours Alexander the Great, king of Macedon|vernoemd naar Alexander de Grote, koning van Macedonië
+amherstiae|zu Ehren von Sarah, Gräfin Amherst|honours Sarah, Countess Amherst|vernoemd naar Sarah, gravin Amherst
+aristotelis|zu Ehren des griechischen Philosophen und Naturkundlers Aristoteles|honours Greek philosopher and naturalist Aristotle|vernoemd naar de Griekse filosoof en natuuronderzoeker Aristoteles
+audouinii|zu Ehren des Naturkundlers Jean Victoire Audouin|honours naturalist Jean Victoire Audouin|vernoemd naar natuuronderzoeker Jean Victoire Audouin
+baeri|zu Ehren des Naturkundlers Karl Ernst von Baer|honours naturalist Karl Ernst von Baer|vernoemd naar natuuronderzoeker Karl Ernst von Baer
+bairdii|zu Ehren des Ornithologen Spencer Fullerton Baird|honours ornithologist Spencer Fullerton Baird|vernoemd naar ornitholoog Spencer Fullerton Baird
+baroli|zu Ehren des Sammlers und Philanthropen Carlo Tancredi Falletti di Barolo|honours collector and philanthropist Carlo Tancredi Falletti di Barolo|vernoemd naar verzamelaar en filantroop Carlo Tancredi Falletti di Barolo
+bernieri|zu Ehren des Arztes und Sammlers J. A. Bernier|honours surgeon and collector J. A. Bernier|vernoemd naar arts en verzamelaar J. A. Bernier
+bonelli|zu Ehren des Naturkundlers Franco Andrea Bonelli|honours naturalist Franco Andrea Bonelli|vernoemd naar natuuronderzoeker Franco Andrea Bonelli
+buchanani|zu Ehren des Arztes und Naturkundlers Francis Buchanan, später Hamilton|honours surgeon and naturalist Francis Buchanan, later Hamilton|vernoemd naar arts en natuuronderzoeker Francis Buchanan, later Hamilton
+cetti|zu Ehren des Zoologen Francesco Cetti|honours zoologist Francesco Cetti|vernoemd naar zoöloog Francesco Cetti
+deglandi|zu Ehren des Ornithologen Côme Damien Degland|honours ornithologist Côme Damien Degland|vernoemd naar ornitholoog Côme Damien Degland
+derbiana|zu Ehren des Naturkundlers Edward Smith Stanley, Earl of Derby|honours naturalist Edward Smith Stanley, Earl of Derby|vernoemd naar natuuronderzoeker Edward Smith Stanley, graaf van Derby
+dougallii|Widmung an einen schottischen Arzt McDougall oder MacDougall; genaue Identität umstritten|dedicated to a Scottish doctor McDougall or MacDougall; exact identity disputed|vernoemd naar een Schotse arts McDougall of MacDougall; precieze identiteit omstreden|?
+ducorpsii|zu Ehren des französischen Marineangehörigen und Reisenden L. J. Ducorps|honours French naval administrator and traveller L. J. Ducorps|vernoemd naar de Franse marinefunctionaris en reiziger L. J. Ducorps
+edwardsi|zu Ehren des Zoologen Alphonse Milne-Edwards|honours zoologist Alphonse Milne-Edwards|vernoemd naar zoöloog Alphonse Milne-Edwards
+eleonorae|zu Ehren von Eleonora d'Arborea, sardischer Herrscherin mit frühem Greifvogelschutzgesetz|honours Eleonora of Arborea, Sardinian ruler associated with an early raptor-protection law|vernoemd naar Eleonora van Arborea, Sardijnse heerseres verbonden met vroege roofvogelbescherming
+elliotii|zu Ehren des Naturkundlers und Kolonialbeamten Walter Elliot|honours naturalist and colonial official Walter Elliot|vernoemd naar natuuronderzoeker en koloniaal ambtenaar Walter Elliot
+emma|zu Ehren von Emma Salvadori, geborene Jourdan|honours Emma Salvadori, née Jourdan|vernoemd naar Emma Salvadori, geboren Jourdan
+fischeri|zu Ehren des Arztes und Naturkundlers Gustav Adolf Fischer|honours surgeon and naturalist Gustav Adolf Fischer|vernoemd naar arts en natuuronderzoeker Gustav Adolf Fischer
+forsteri|zu Ehren des Naturkundlers Johann Reinhold Forster|honours naturalist Johann Reinhold Forster|vernoemd naar natuuronderzoeker Johann Reinhold Forster
+genei|zu Ehren des Naturkundlers Giuseppe Gené|honours naturalist Giuseppe Gené|vernoemd naar natuuronderzoeker Giuseppe Gené
+godlewskii|zu Ehren des Naturkundlers Wiktor Witold Godlewski|honours naturalist Wiktor Witold Godlewski|vernoemd naar natuuronderzoeker Wiktor Witold Godlewski
+goffiniana|zu Ehren des niederländischen Marineoffiziers Andreas Leopold Goffin|honours Dutch naval officer Andreas Leopold Goffin|vernoemd naar de Nederlandse marineofficier Andreas Leopold Goffin
+granti|zu Ehren des Ornithologen William Robert Ogilvie-Grant|honours ornithologist William Robert Ogilvie-Grant|vernoemd naar ornitholoog William Robert Ogilvie-Grant
+gulielmi|zu Ehren von William Jardine, Sohn des gleichnamigen Ornithologen|honours William Jardine, son of the ornithologist of the same name|vernoemd naar William Jardine, zoon van de gelijknamige ornitholoog
+gustavi|zu Ehren des Ornithologen und Sinologen Gustaaf Schlegel|honours ornithologist and sinologist Gustaaf Schlegel|vernoemd naar ornitholoog en sinoloog Gustaaf Schlegel
+hodgsoni|zu Ehren des Naturkundlers und Diplomaten Brian Houghton Hodgson|honours naturalist and diplomat Brian Houghton Hodgson|vernoemd naar natuuronderzoeker en diplomaat Brian Houghton Hodgson
+humei|zu Ehren des Ornithologen und Kolonialbeamten Allan Octavian Hume|honours ornithologist and colonial official Allan Octavian Hume|vernoemd naar ornitholoog en koloniaal ambtenaar Allan Octavian Hume
+hutchinsii|zu Ehren des Arztes Thomas Hutchins, tätig bei der Hudson's Bay Company|honours surgeon Thomas Hutchins of the Hudson's Bay Company|vernoemd naar arts Thomas Hutchins van de Hudson's Bay Company
+krameri|zu Ehren des Naturkundlers Wilhelm Heinrich Kramer|honours naturalist Wilhelm Heinrich Kramer|vernoemd naar natuuronderzoeker Wilhelm Heinrich Kramer
+leschenaultii|zu Ehren des Naturkundlers Jean Baptiste Louis Claude Théodore Leschenault de la Tour|honours naturalist Jean Baptiste Louis Claude Théodore Leschenault de la Tour|vernoemd naar natuuronderzoeker Jean Baptiste Louis Claude Théodore Leschenault de la Tour
+maccormicki|zu Ehren des Schiffsarztes und Polarforschers Robert McCormick|honours naval surgeon and polar explorer Robert McCormick|vernoemd naar scheepsarts en poolreiziger Robert McCormick
+mauri|zu Ehren des Botanikers Ernesto Mauri|honours botanist Ernesto Mauri|vernoemd naar botanicus Ernesto Mauri
+maximiliani|zu Ehren des Naturkundlers Maximilian, Prinz zu Wied-Neuwied|honours naturalist Maximilian, Prince of Wied-Neuwied|vernoemd naar natuuronderzoeker Maximilian, prins van Wied-Neuwied
+melleri|zu Ehren des Arztes und Botanikers Charles James Meller|honours surgeon and botanist Charles James Meller|vernoemd naar arts en botanicus Charles James Meller
+meyeri|zu Ehren des Naturkundlers Bernhard Meyer|honours naturalist Bernhard Meyer|vernoemd naar natuuronderzoeker Bernhard Meyer
+michahellis|zu Ehren des Arztes und Ornithologen Karl Michahelles|honours physician and ornithologist Karl Michahelles|vernoemd naar arts en ornitholoog Karl Michahelles
+molinae|zu Ehren des Naturkundlers und Priesters Juan Ignacio Molina|honours naturalist and priest Juan Ignacio Molina|vernoemd naar natuuronderzoeker en priester Juan Ignacio Molina
+moussieri|zu Ehren des Militärarztes und Naturkundlers Jean Moussier|honours army surgeon and naturalist Jean Moussier|vernoemd naar legerarts en natuuronderzoeker Jean Moussier
+naumanni|zu Ehren des Naturkundlers Johann Andreas Naumann|honours naturalist Johann Andreas Naumann|vernoemd naar natuuronderzoeker Johann Andreas Naumann
+nordmanni|zu Ehren des Zoologen Alexander von Nordmann|honours zoologist Alexander von Nordmann|vernoemd naar zoöloog Alexander von Nordmann
+pallasi|zu Ehren des Naturkundlers Peter Simon Pallas|honours naturalist Peter Simon Pallas|vernoemd naar natuuronderzoeker Peter Simon Pallas
+reevesii|zu Ehren des Naturkundlers und Teehändlers John Reeves|honours naturalist and tea inspector John Reeves|vernoemd naar natuuronderzoeker en thee-inspecteur John Reeves
+richardi|zu Ehren eines französischen Sammlers namens Richard; weitere Identität nicht sicher belegt|honours a French collector named Richard; further identity not securely established|vernoemd naar een Franse verzamelaar Richard; verdere identiteit niet zeker vastgesteld|?
+rossii|zu Ehren des Naturkundlers und Handelsbeamten Bernard Rogan Ross|honours naturalist and trading-company official Bernard Rogan Ross|vernoemd naar natuuronderzoeker en handelsfunctionaris Bernard Rogan Ross
+rueppelli rueppellii ruppeli|zu Ehren des Zoologen und Forschungsreisenden Eduard Rüppell|honours zoologist and explorer Eduard Rüppell|vernoemd naar zoöloog en ontdekkingsreiziger Eduard Rüppell
+sabini|zu Ehren des Naturkundlers und Polarforschers Edward Sabine|honours naturalist and Arctic explorer Edward Sabine|vernoemd naar natuuronderzoeker en poolreiziger Edward Sabine
+schwarzi|zu Ehren des Astronomen Ludwig Schwarz|honours astronomer Ludwig Schwarz|vernoemd naar astronoom Ludwig Schwarz
+seebohmi|zu Ehren des Ornithologen Henry Seebohm|honours ornithologist Henry Seebohm|vernoemd naar ornitholoog Henry Seebohm
+smithsonianus|zu Ehren von James Smithson, dessen Vermächtnis die Smithsonian Institution begründete|honours James Smithson, whose bequest founded the Smithsonian Institution|vernoemd naar James Smithson, wiens nalatenschap de Smithsonian Institution stichtte
+sonneratii|zu Ehren des Naturkundlers Pierre Sonnerat|honours naturalist Pierre Sonnerat|vernoemd naar natuuronderzoeker Pierre Sonnerat
+stejnegeri|zu Ehren des Zoologen Leonhard Hess Stejneger|honours zoologist Leonhard Hess Stejneger|vernoemd naar zoöloog Leonhard Hess Stejneger
+stelleri|zu Ehren des Naturkundlers Georg Wilhelm Steller|honours naturalist Georg Wilhelm Steller|vernoemd naar natuuronderzoeker Georg Wilhelm Steller
+swainsonii|zu Ehren des Naturkundlers und Illustrators William Swainson|honours naturalist and illustrator William Swainson|vernoemd naar natuuronderzoeker en illustrator William Swainson
+swinhoii|zu Ehren des Diplomaten und Naturkundlers Robert Swinhoe|honours diplomat and naturalist Robert Swinhoe|vernoemd naar diplomaat en natuuronderzoeker Robert Swinhoe
+temminckii|zu Ehren des Ornithologen Coenraad Jacob Temminck|honours ornithologist Coenraad Jacob Temminck|vernoemd naar ornitholoog Coenraad Jacob Temminck
+tristramii|zu Ehren des Geistlichen und Naturkundlers Henry Baker Tristram|honours clergyman and naturalist Henry Baker Tristram|vernoemd naar geestelijke en natuuronderzoeker Henry Baker Tristram
+webbiana|zu Ehren des Botanikers Philip Barker Webb|honours botanist Philip Barker Webb|vernoemd naar botanicus Philip Barker Webb

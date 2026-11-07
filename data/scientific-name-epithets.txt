@@ -1,0 +1,542 @@
+# Explicitly grouped spelling/gender variants; no runtime suffix guessing.
+acuminata acuta|zugespitzt|pointed|toegespitst
+acuticaudatus caudacutus|spitzschwänzig|pointed-tailed|spitsstaartig
+adscitus|hinzugefügt, aufgenommen|added, admitted|toegevoegd, opgenomen
+aedon|Nachtigall|nightingale|nachtegaal
+aegyptiaca aegyptius|ägyptisch|Egyptian|Egyptisch
+aeruginosus|rostfarben|rust-coloured|roestkleurig
+aestiva|sommerlich|of summer|van de zomer
+aethereus|zum Himmel gehörig|of the sky|van de hemel
+aethiopicus|äthiopisch; historischer Afrikabezug|Ethiopian; a historical African reference|Ethiopisch; een historische verwijzing naar Afrika
+afer africanus|afrikanisch|African|Afrikaans
+affinis|verwandt, ähnlich|related, similar|verwant, gelijkend
+agricola|Feldbewohner|field dweller|veldbewoner
+alba albus|weiß|white|wit
+albellus albeola|weißlich, kleiner weißer Vogel|whitish, small white bird|witachtig, kleine witte vogel
+albicilla|Weißschwanz|white tail|witte staart
+albicollis|weißhalsig|white-necked|withalzig
+albifrons|weißstirnig|white-fronted|witvoorhoofdig
+alcyon|alter Name eines Eisvogels|ancient kingfisher name|oude ijsvogelnaam
+alexandrinus|aus Alexandria|of Alexandria|uit Alexandrië
+alnorum|der Erlen|of alders|van elzen
+alpestris alpina|zum Hochgebirge gehörig|of high mountains|van het hooggebergte
+amoena|lieblich, reizvoll|pleasing, charming|lieflijk, bekoorlijk
+anaethetus|unachtsam|heedless|onoplettend
+angustirostris|schmalschnäblig|narrow-billed|smalsnavelig
+anser|Gans|goose|gans
+antiquus|alt, altertümlich|ancient|oud, ouderwets
+apiaster|Bienenfresser|bee-eater|bijeneter
+apivorus|Bienen fressend|bee-eating|bijen etend
+apricaria|sonnige Plätze aufsuchend|seeking sunny places|zonnige plaatsen opzoekend
+apus|fußlos; historischer Seglername, keine anatomische Beschreibung|footless; an old swift name, not an anatomical description|voetloos; een oude gierzwaluwnaam, geen anatomische beschrijving
+aquaticus|zum Wasser gehörig|of water|van het water
+arborea|zum Baum gehörig|of trees|van bomen
+arctica|nördlich, arktisch|northern, Arctic|noordelijk, arctisch
+arcuata|bogenförmig|bow-shaped|boogvormig
+argentatus|versilbert|silvery|verzilverd
+arquata|gebogen; historischer Brachvogelname|curved; an old curlew name|gebogen; een oude wulpennaam
+arundinaceus|zum Schilf gehörig|of reeds|van het riet
+arvensis|zum Acker gehörig|of fields|van akkers
+asiaticus|asiatisch|Asian|Aziatisch
+ater atra|schwarz|black|zwart
+atratus|schwarz gekleidet|clad in black|in zwart gekleed
+atricapilla|schwarzköpfig|black-capped|zwartkoppig
+atricilla|Schwarzschwanz; historisch unpassende Benennung|black tail; a historically inappropriate name|zwarte staart; een historisch onjuiste benaming
+atrifrons|schwarzstirnig|black-fronted|zwartvoorhoofdig
+atrogularis|schwarzkehlig|black-throated|zwartkeelig
+aurea aureola|golden, goldfarben|golden|goudkleurig
+auritum auritus|mit Ohren versehen|eared|met oren
+aurocapilla|goldköpfig|gold-capped|goudkoppig
+australis|südlich|southern|zuidelijk
+autumnalis|herbstlich|of autumn|van de herfst
+bacchus|Bacchus, Gott des Weines|Bacchus, god of wine|Bacchus, god van de wijn
+barbatus|bärtig|bearded|gebaard
+bernicla|alter Gänsename; mit der Legende der Entstehung aus Entenmuscheln verbunden|old goose name; linked to the legend of geese growing from barnacles|oude ganzennaam; verbonden met de legende dat ganzen uit eendenmossels ontstaan
+bicolor|zweifarbig|two-coloured|tweekleurig
+bimaculata|zweifleckig|two-spotted|tweevlekkig
+borealis|nördlich|northern|noordelijk
+brachydactyla|kurzzehig|short-toed|korttenig
+brachyrhynchus|kurzschnäblig|short-billed|kortsnavelig
+brevipes|kurzfüßig|short-footed|kortvoetig
+bruniceps|braunköpfig|brown-headed|bruinkoppig
+bubo|Uhu|eagle-owl|oehoe
+buccinator|Trompeter|trumpeter|trompetter
+buteo|Bussard|buzzard|buizerd
+cachinnans|laut lachend|laughing loudly|luid lachend
+caerulescens|bläulich|bluish|blauwachtig
+caeruleus|blau|blue|blauw
+caesia|blaugrau|blue-grey|blauwgrijs
+caffer|historische, heute abwertende Bezeichnung für Bewohner des südlichen Afrikas|historical, now derogatory term for inhabitants of southern Africa|historische, nu beledigende aanduiding voor inwoners van zuidelijk Afrika
+calandra|Kalanderlerche; alter Lerchenname|calandra lark; an old lark name|kalanderleeuwerik; een oude leeuwerikennaam
+caligata|gestiefelt|booted|gelaarsd
+campestris|zum offenen Feld gehörig|of open fields|van open velden
+cana canus|grau, grauweiß|grey, grey-white|grijs, grijswit
+canaria|von den Kanarischen Inseln|of the Canary Islands|van de Canarische Eilanden
+cannabina|mit Hanf verbunden|associated with hemp|verbonden met hennep
+canorus|wohlklingend|melodious|welluidend
+cantillans|trällernd|warbling|kwelend
+carbo|Kohle; Bezug auf die dunkle Farbe|coal; refers to the dark colour|kool; verwijst naar de donkere kleur
+cardinalis|Kardinal; Bezug auf die rote Kleidung|cardinal; refers to the red robes|kardinaal; verwijst naar de rode kleding
+carduelis|Stieglitz; mit der Distel verbunden|goldfinch; associated with thistles|putter; verbonden met distels
+caryocatactes|Nussknacker|nut breaker|notenkraker
+caspia|vom Kaspischen Meer|of the Caspian Sea|van de Kaspische Zee
+castanea|kastanienbraun|chestnut-coloured|kastanjebruin
+castaneothorax|kastanienbraune Brust|chestnut breast|kastanjebruine borst
+caudatus|mit einem Schwanz versehen|tailed|met een staart
+cedrorum|der Zedern, hier auch Wacholder gemeint|of cedars, also referring here to junipers|van ceders, hier ook verwijzend naar jeneverbessen
+certhiola|kleiner baumläuferartiger Vogel|small treecreeper-like bird|kleine boomkruiperachtige vogel
+cervinus|hirschfarben, bräunlich|deer-coloured, brownish|hertkleurig, bruinachtig
+chalybaeus|stahlfarben|steel-coloured|staalkleurig
+chloris|Grünfink|greenfinch|groenling
+chloropterus|grünflügelig|green-winged|groenvleugelig
+chloropus|grünfüßig|green-footed|groenvoetig
+chrysaetos|Goldadler|golden eagle|gouden arend
+chrysophrys|goldbrauig|golden-browed|goudwenkbrauwig
+chrysoptera|goldflügelig|golden-winged|goudvleugelig
+ciconia|Storch|stork|ooievaar
+cinclus|alter Name eines kleinen Wasservogels|ancient name for a small waterside bird|oude naam voor een kleine watervogel
+cinerascens|aschgrau werdend|becoming ash-grey|asgrijs wordend
+cinerea cinereus|aschgrau|ash-grey|asgrijs
+cioides|dem Vogel mit dem Namen cia ähnlich|resembling the bird named cia|lijkend op de vogel met de naam cia
+ciris|Kiris, Vogel aus einer griechischen Verwandlungssage|Ciris, a bird in a Greek transformation myth|Ciris, een vogel uit een Griekse veranderingsmythe
+cirrhata|gelockt, mit Kopfschmuck|curled, crested|gekruld, met kopversiering
+cirrocephalus|grauköpfig; historisch als grau verstandener Wortstamm|grey-headed; the stem was historically understood as grey|grijskoppig; de woordstam werd historisch als grijs opgevat
+citreola citrina|zitronengelb|lemon-yellow|citroengeel
+clamator|Schreier; alter Eulenname|shouter; an ancient owl name|schreeuwer; een oude uilennaam
+clanga|schreiender Adler|screaming eagle|schreeuwende arend
+clangula|kleiner Rufer|small caller|kleine roeper
+clypeata|mit einem Schild versehen; Bezug auf den breiten Schnabel|shield-bearing; refers to the broad bill|schilddragend; verwijst naar de brede snavel
+coccothraustes|Kernzerbrecher|kernel breaker|pittenbreker
+coelebs|unverheiratet; Bezug auf historische Beobachtungen getrennt überwinternder Geschlechter|unmarried; refers to historical observations of the sexes wintering separately|ongehuwd; verwijst naar historische waarnemingen van gescheiden overwinterende geslachten
+coelestis|himmlisch|heavenly|hemels
+colchicus|aus Kolchis, einer historischen Region am Schwarzen Meer|of Colchis, a historical Black Sea region|uit Colchis, een historische streek aan de Zwarte Zee
+collaris|mit Halsband|collared|met halsband
+collurio|alter Name eines Würgers|ancient shrike name|oude klauwierennaam
+collybita|Geldwechsler; der Gesang wurde mit Münzklang verglichen|money changer; the song was compared with clinking coins|geldwisselaar; de zang werd met klinkende munten vergeleken
+columbarius|taubenartig, zu Tauben gehörig|pigeon-like, of pigeons|duifachtig, van duiven
+communis|gewöhnlich, verbreitet|common, widespread|gewoon, algemeen
+conspicillata|mit Brille|spectacled|met bril
+corax|Rabe|raven|raaf
+cornix corone|Krähe|crow|kraai
+coronata coronatus|gekrönt|crowned|gekroond
+coturnix|Wachtel|quail|kwartel
+crassirostris|dickschnäblig|thick-billed|diksnavelig
+crex|alter, lautnachahmender Rallenname|ancient, imitative rail name|oude klanknabootsende rallennaam
+crispus|gekräuselt|curled|gekruld
+cristata cristatus|mit Haube|crested|met kuif
+cristatellus|mit kleiner Haube|small-crested|met kleine kuif
+crumenifer|Beutelträger; Bezug auf den Kehlsack|pouch bearer; refers to the throat pouch|buideldrager; verwijst naar de keelzak
+cucullatus|mit Kapuze|hooded|met kap
+cuneata|keilförmig|wedge-shaped|wigvormig
+cunicularia|in Erdhöhlen lebend|living in burrows|in holen levend
+curruca|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
+cursor|Läufer|runner|renner
+curvirostra|krummschnäblig|curved-billed|kromsnavelig
+cyane cyanea cyaneus cyanus|blau, dunkelblau|blue, dark blue|blauw, donkerblauw
+cyanocephala|blauköpfig|blue-headed|blauwkoppig
+cyanoptera|blauflügelig|blue-winged|blauwvleugelig
+cyanotis|blauohrig|blue-eared|blauworige
+cyanurus|blauschwänzig|blue-tailed|blauwstaartig
+cygnoides|schwanenähnlich|swan-like|zwaanachtig
+cygnus|Schwan|swan|zwaan
+decaocto|achtzehn; mit einer griechischen Sage verbunden|eighteen; associated with a Greek legend|achttien; verbonden met een Griekse legende
+delicata|zart, fein|delicate|teer, fijn
+deserta deserti|zur Wüste gehörig|of the desert|van de woestijn
+discolor|verschiedenfarbig|differently coloured|verschillend gekleurd
+discors|abweichend, ungleich|differing, unlike|afwijkend, ongelijk
+dissimilis|unähnlich|dissimilar|ongelijkend
+domesticus|zum Haus gehörig|of the house|van het huis
+dubius|zweifelhaft|doubtful|twijfelachtig
+dumetorum|der Gebüsche|of thickets|van struikgewas
+eburnea|elfenbeinfarben|ivory-coloured|ivoorkleurig
+elegans|elegant, geschmackvoll|elegant|elegant
+enucleator|Kernentferner|kernel remover|pittenverwijderaar
+epops|Wiedehopf|hoopoe|hop
+eremita|Einsiedler|hermit|kluizenaar
+erithacus|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
+erythrinus|rot|red|rood
+erythropthalmus|rotäugig|red-eyed|roodogig
+erythropus|rotfüßig|red-footed|roodvoetig
+erythrorhyncha|rotschnäblig|red-billed|roodsnavelig
+eunomus|wohlgeordnet|well ordered|goed geordend
+eupatria|von edler Herkunft|of noble ancestry|van edele afkomst
+europaea europaeus|europäisch|European|Europees
+excubitor|Wächter|sentinel|schildwacht
+exilis|klein, schlank|small, slender|klein, slank
+eximius|außergewöhnlich|exceptional|uitzonderlijk
+fabalis|zu Bohnen gehörig|of beans|van bonen
+falcata|sichelförmig|sickle-shaped|sikkelvormig
+familiaris|vertraut, zum Haus gehörig|familiar, of the household|vertrouwd, huiselijk
+farinosa|mehlig, bestäubt|mealy, dusted|melig, bestoven
+fasciata|gebändert|banded|gebandeerd
+ferina|wild, zum Wild gehörig|wild, of game|wild, van het wild
+ferruginea|rostfarben|rust-coloured|roestkleurig
+flammea flammeus|flammenfarben|flame-coloured|vlamkleurig
+flava|gelb|yellow|geel
+flaveola|gelblich|yellowish|geelachtig
+flavifrons|gelbstirnig|yellow-fronted|geelvoorhoofdig
+flavipes|gelbfüßig|yellow-footed|geelvoetig
+flavirostra flavirostris|gelbschnäblig|yellow-billed|geelsnavelig
+flaviventris|gelbbäuchig|yellow-bellied|geelbuikig
+fluviatilis|zum Fluss gehörig|of rivers|van rivieren
+formosa|schön; hier kein Bezug zur Insel Taiwan|beautiful; not a reference here to Taiwan|mooi; hier geen verwijzing naar Taiwan
+franciscanus|franziskanisch; Bezug auf die Kleidung des Ordens|Franciscan; refers to the order's clothing|franciscaans; verwijst naar de kleding van de orde
+frugilegus|Früchte sammelnd|gathering fruits|vruchten verzamelend
+fucata|bemalt|painted|beschilderd
+fulicarius|blässhuhnartig|coot-like|meerkoetachtig
+fuligula|Rußkehle|sooty throat|roetkeel
+fulva fulvus|gelbbraun|tawny|geelbruin
+funereus|düster, zum Begräbnis gehörig|gloomy, funereal|somber, rouwachtig
+fusca fuscus|dunkelbraun, dunkel|dark brown, dusky|donkerbruin, donker
+fuscatus fuscescens|bräunlich, dunkel werdend|brownish, becoming dusky|bruinachtig, donker wordend
+fuscicollis|braunhalsig|brown-necked|bruinhalzig
+galactotes|milchfarben|milk-coloured|melkkleurig
+galbula|alter Name des Pirols|ancient oriole name|oude wielewaalnaam
+galericulata|mit kleiner Kappe|small-capped|met kleine kap
+galerita|mit Haube|crested|met kuif
+gallicus|aus Gallien, Frankreich|of Gaul, France|uit Gallië, Frankrijk
+gallinago|Schnepfe; mit Henne verbunden|snipe; associated with hen|snip; verbonden met hen
+gallopavo|Hahn-Pfau; historischer Truthuhnname|cock peacock; an old turkey name|haan-pauw; een oude kalkoenennaam
+gallus|Hahn|cock|haan
+garrulus|geschwätzig|chattering|babbelend
+gentilis|edel, vornehm|noble|edel, voornaam
+glacialis|eisig, zum Eis gehörig|icy, of ice|ijzig, van het ijs
+glandarius|zu Eicheln gehörig|of acorns|van eikels
+glareola|zum Kies gehörig|of gravel|van grind
+glaucescens|graublau werdend|becoming grey-blue|grijsblauw wordend
+glaucoides|dem Vogel namens glaucus ähnlich|resembling the bird named glaucus|lijkend op de vogel met de naam glaucus
+graculus|alter Name eines Krähenvogels|ancient name for a crow-like bird|oude naam voor een kraaiachtige vogel
+graeca|griechisch|Greek|Grieks
+grammacus|mit Linien, gestreift|lined, striped|met lijnen, gestreept
+gravis|schwer|heavy|zwaar
+gregarius|gesellig, in Scharen lebend|living in flocks|in groepen levend
+grisea griseus|grau|grey|grijs
+grisegena|grauwangig|grey-cheeked|grijswangig
+griseolus|graulich|greyish|grijzig
+grus|Kranich|crane|kraanvogel
+gularis gutturalis|zur Kehle gehörig|of the throat|van de keel
+guttata guttatus|gefleckt|spotted|gevlekt
+haemastica|blutrot|blood-red|bloedrood
+haematonotus|blutroter Rücken|blood-red back|bloedrode rug
+haliaetus|Seeadler|sea eagle|zeearend
+heliaca|zur Sonne gehörig|of the sun|van de zon
+herodias|Reiher|heron|reiger
+hiaticula|kleiner Spaltenbewohner|small cleft dweller|kleine spleetbewoner
+himantopus|Riemenfuß|strap foot|riemvoet
+hirundo|Schwalbe|swallow|zwaluw
+hispanica|spanisch|Spanish|Spaans
+hispaniolensis|spanisch; hier kein Bezug zur Insel Hispaniola|Spanish; not a reference here to Hispaniola|Spaans; hier geen verwijzing naar Hispaniola
+histrionicus|Schauspieler|actor|toneelspeler
+holochlorus|ganz grün|entirely green|geheel groen
+holosericeus|ganz seidig|entirely silky|geheel zijdeachtig
+hordeaceus|zur Gerste gehörig|of barley|van gerst
+hortensis|zum Garten gehörig|of gardens|van tuinen
+hybrida|Mischling; historische Deutung|hybrid; a historical interpretation|bastaard; een historische interpretatie
+hyemalis|winterlich|of winter|van de winter
+hyperboreus|weit im Norden lebend|living in the far north|in het verre noorden levend
+hypoleuca hypoleucos|unten weiß|white below|van onderen wit
+iberiae ibericus|von der Iberischen Halbinsel|of the Iberian Peninsula|van het Iberisch Schiereiland
+ibis|Ibis; alter Vogelname|ibis; an ancient bird name|ibis; een oude vogelnaam
+ichthyaetus|Fischadler|fish eagle|visarend
+icterina|gelblich; mit einem alten gelben Vogelnamen verbunden|yellowish; linked to an ancient yellow-bird name|geelachtig; verbonden met een oude naam voor een gele vogel
+ignicapilla|Feuerkopf|fire cap|vuurkop
+iliacus|zur Flanke gehörig|of the flank|van de flank
+indicus|indisch|Indian|Indiaas
+inornatus|ungeschmückt|unadorned|onversierd
+interpres|Vermittler, Übersetzer; historischer Name|interpreter, intermediary; a historical name|tolk, bemiddelaar; een historische naam
+isabellina isabellinus|isabellfarben, sandfarben|isabelline, sandy-coloured|isabelkleurig, zandkleurig
+italiae|aus Italien|of Italy|uit Italië
+jocosus|scherzhaft, fröhlich|jocular, cheerful|schertsend, vrolijk
+jubata jubatus|mit Mähne|maned|met manen
+juncidis|zu Binsen gehörig|of rushes|van russen
+lagopus|Hasenfuß|hare foot|hazenvoet
+lanceolata lanceolatus|lanzettförmig|lance-shaped|lancetvormig
+languida|träge, matt|languid|loom, traag
+lateralis|seitlich, zur Seite gehörig|lateral, of the side|zijdelings, van de zijde
+lentiginosus|sommersprossig|freckled|gesproet
+leucocephala leucocephalos leucocephalus|weißköpfig|white-headed|witkoppig
+leucogaster|weißbäuchig|white-bellied|witbuikig
+leucomela leucomelanos|weiß und schwarz|white and black|wit en zwart
+leucophrys|weißbrauig|white-browed|witwenkbrauwig
+leucophthalmus|weißäugig|white-eyed|witogig
+leucopsis|weißgesichtig|white-faced|witgezicht
+leucoptera leucopterus|weißflügelig|white-winged|witvleugelig
+leucopyga leucorhous|weißbürzelig|white-rumped|witstuitig
+leucorodia|Weißreiher; alter Löfflername|white heron; an ancient spoonbill name|witte reiger; een oude lepelaarnaam
+leucotis|weißohrig|white-eared|witorig
+leucotos|weißrückig|white-backed|witruggig
+leucurus|weißschwänzig|white-tailed|witstaartig
+limosa|schlammig|muddy|modderig
+lineola|kleine Linie|little line|klein lijntje
+livia|blaugrau; alter Taubenname|blue-grey; an ancient pigeon name|blauwgrijs; een oude duivennaam
+lobatus|mit Lappen versehen|lobed|gelobd
+longicauda longicaudus|langschwänzig|long-tailed|langstaartig
+ludovicianus|aus Louisiana|of Louisiana|uit Louisiana
+lugubris|trauernd, düster|mournful, gloomy|treurend, somber
+luscinia|Nachtigall|nightingale|nachtegaal
+luscinioides|nachtigallenähnlich|nightingale-like|nachtegaalachtig
+lutea luteus|gelb|yellow|geel
+macroura macrourus|langschwänzig|long-tailed|langstaartig
+macularius maculatus|gefleckt|spotted|gevlekt
+major|größer|larger|groter
+marila|Kohlenglut, Kohlenstaub|embers, coal dust|gloeiende kolen, kolenstof
+marinus|zum Meer gehörig|of the sea|van de zee
+maritima|zur Meeresküste gehörig|of sea coasts|van zeekusten
+martius|dem römischen Gott Mars zugehörig|of the Roman god Mars|van de Romeinse god Mars
+mauretanicus|aus Mauretanien im antiken Sinn, Nordwestafrika|of ancient Mauretania, north-west Africa|uit het oude Mauretanië, Noordwest-Afrika
+maurus|maurisch, dunkel; historischer Farbvergleich|Moorish, dark; a historical colour comparison|Moors, donker; een historische kleurvergelijking
+maximus|der größte|largest|de grootste
+media medius|mittlere Größe, in der Mitte|middle, intermediate|middelgroot, in het midden
+megarhynchos|großer Schnabel|large bill|grote snavel
+melancoryphus|schwarzscheitelig|black-crowned|zwartkruinig
+melanocephala melanocephalus|schwarzköpfig|black-headed|zwartkoppig
+melanoleuca|schwarz und weiß|black and white|zwart en wit
+melanopis|schwarzgesichtig|black-faced|zwartgezicht
+melanopogon|schwarzbärtig|black-bearded|zwartgebaard
+melanophris|schwarzbrauig|black-browed|zwartwenkbrauwig
+melanopterus|schwarzflügelig|black-winged|zwartvleugelig
+melanotos|schwarzrückig|black-backed|zwartruggig
+meleagris|Perlhuhn|guineafowl|parelhoen
+melodia|Gesang|song|zang
+melpoda|singend, Sänger|singing, singer|zingend, zanger
+membranaceus|häutig, membranartig|membranous|vliezig
+menstruus|monatlich; historischer Name|monthly; a historical name|maandelijks; een historische naam
+merganser|Tauchgans|diving goose|duikgans
+merula|Amsel|blackbird|merel
+migrans migratoria migratorius|wandernd, ziehend|migrating|trekkend
+miles|Soldat|soldier|soldaat
+militaris|soldatisch|military|militair
+milvus|Milan|kite|wouw
+minimus|der kleinste|smallest|de kleinste
+minor|kleiner|smaller|kleiner
+minuta minutus|klein|small|klein
+minutilla|sehr klein|very small|zeer klein
+modestus|bescheiden, schlicht|modest, plain|bescheiden, eenvoudig
+modularis|melodisch singend|singing melodiously|melodieus zingend
+mollis|weich|soft|zacht
+mollissima|sehr weich|very soft|zeer zacht
+monachus|Mönch; Bezug auf die Färbung|monk; refers to the colouring|monnik; verwijst naar de kleur
+monedula|Dohle|jackdaw|kauw
+monorhis|ein Nasenloch; historischer Name|one nostril; a historical name|één neusgat; een historische naam
+montanella|kleiner Bergvogel|small mountain bird|kleine bergvogel
+montanus|zum Berg gehörig|of mountains|van bergen
+montifringilla|Bergfink|mountain finch|bergvink
+morinellus|kleiner Tor; historische Anspielung auf geringe Scheu|little fool; an old reference to its lack of fear|kleine dwaas; een oude verwijzing naar de geringe schuwheid
+moschata|nach Moschus duftend|musky|naar muskus ruikend
+muraria|zur Mauer gehörig|of walls|van muren
+mustelina|wieselfarben|weasel-coloured|wezelkleurig
+muta|stumm|mute|stom
+muticus|gestutzt, ohne spitzen Fortsatz|blunted, lacking a pointed projection|afgeknot, zonder puntig uitsteeksel
+naevia naevius|gefleckt|spotted|gevlekt
+nana|Zwerg|dwarf|dwerg
+nebularia|zum Nebel gehörig|of mist|van de nevel
+niger nigra|schwarz|black|zwart
+nigricollis|schwarzhalsig|black-necked|zwarthalzig
+nigrigenis|schwarzwangig|black-cheeked|zwartwangig
+nisoria|sperberartig|sparrowhawk-like|sperwerachtig
+nisus|Sperber; alter Vogelname mit mythologischem Bezug|sparrowhawk; an old bird name with a mythological connection|sperwer; een oude vogelnaam met een mythologisch verband
+nitidus|glänzend|shining|glanzend
+nivalis|zum Schnee gehörig|of snow|van de sneeuw
+nobilis|edel|noble|edel
+noctua|Nachteule|night owl|nachtuil
+nubicus|aus Nubien|of Nubia|uit Nubië
+nycthemera|Nacht und Tag; Bezug auf Schwarz und Weiß|night and day; refers to black and white|nacht en dag; verwijst naar zwart en wit
+nycticorax|Nachtrabe|night raven|nachtraaf
+obscurus|dunkel|dark|donker
+obsoleta|abgenutzt, unscheinbar|worn, indistinct|versleten, onopvallend
+oceanicus|zum Ozean gehörig|of the ocean|van de oceaan
+ochrocephala|ockerköpfig|ochre-headed|okerkoppig
+ochropus|ockerfüßig|ochre-footed|okervoetig
+ochruros|ockerschwänzig|ochre-tailed|okerstaartig
+oedicnemus|geschwollenes Schienbein; Bezug auf das Beingelenk|swollen shin; refers to the leg joint|gezwollen scheen; verwijst naar het pootgewricht
+oenanthe|Weinblüte; alter Vogelname|vine blossom; an ancient bird name|wijnbloesem; een oude vogelnaam
+oenas|Taube|pigeon, dove|duif
+olivacea olivaceus|olivfarben|olive-coloured|olijfkleurig
+olivetorum|der Olivenhaine|of olive groves|van olijfgaarden
+olor|Schwan|swan|zwaan
+onocrotalus|alter Pelikanname|ancient pelican name|oude pelikanennaam
+opaca|dunkel, schattig|dark, shady|donker, schaduwrijk
+oratrix|Rednerin|female orator|redenaarster
+orientalis|östlich|eastern|oostelijk
+oriolus|Pirol|oriole|wielewaal
+orix|Reis; keine Widmung an eine Person und kein Bezug zur Oryxantilope|rice; not a personal dedication or a reference to the oryx antelope|rijst; geen persoonlijke vernoeming of verwijzing naar de oryxantilope
+oryzivora oryzivorus|Reis fressend|rice-eating|rijst etend
+ostralegus|Austern sammelnd|oyster gathering|oesters verzamelend
+otus|Ohreule|eared owl|ooruil
+pallida pallidus|blass|pale|bleek
+palpebrosus|mit auffälligen Augenlidern|with conspicuous eyelids|met opvallende oogleden
+paludicola|Sumpfbewohner|marsh dweller|moerasbewoner
+palumbus|Ringeltaube|woodpigeon|houtduif
+palustris|zum Sumpf gehörig|of marshes|van moerassen
+paradisaea|zum Paradies gehörig|of paradise|van het paradijs
+paradoxus|ungewöhnlich, unerwartet|unusual, unexpected|ongewoon, onverwacht
+parasiticus|parasitisch; Bezug auf das Abjagen von Nahrung|parasitic; refers to stealing food|parasitair; verwijst naar het roven van voedsel
+parva|klein|small|klein
+passerinum|sperlingsartig|sparrow-like|musachtig
+pelagica pelagicus|zum offenen Meer gehörig|of the open sea|van de open zee
+pendulinus|hängend|hanging|hangend
+penelope|Penelope aus der griechischen Mythologie; auch alter Entenname|Penelope of Greek mythology; also an ancient duck name|Penelope uit de Griekse mythologie; ook een oude eendennaam
+pennatus|gefiedert|feathered|bevederd
+percnopterus|dunkelflügelig|dark-winged|donkervleugelig
+perdix|Rebhuhn|partridge|patrijs
+peregrina peregrinus|fremd, auswärts wandernd|foreign, wandering abroad|vreemd, rondtrekkend
+persicus|persisch|Persian|Perzisch
+personata|maskiert|masked|gemaskerd
+perspicillata|mit Brille|spectacled|met bril
+petrosus|felsig, zum Fels gehörig|rocky, of rocks|rotsig, van rotsen
+phaeopus|braunfüßig; alter Regenbrachvogelname|brown-footed; an old whimbrel name|bruinvoetig; een oude regenwulpennaam
+philomelos|Gesang liebend|song loving|zangliefhebber
+phoeniceus|purpurrot, scharlachrot|purple-red, scarlet|purperrood, scharlakenrood
+phoenicuroides|rotschwanzähnlich|redstart-like|roodstaartachtig
+phoenicurus|Rotschwanz|red tail|rode staart
+pica|Elster|magpie|ekster
+picta pictus|bemalt|painted|beschilderd
+pilaris|historisch gebildeter Drosselname; beruht auf einer Verwechslung von griechischen Wörtern für Drossel und Haar|historical thrush name formed through confusion between Greek words for thrush and hair|historisch gevormde lijsternaam door verwarring van Griekse woorden voor lijster en haar
+plancus|plattfüßig|flat-footed|platvoetig
+platalea|Löffler|spoonbill|lepelaar
+platyrhynchos|breitschnäblig|broad-billed|breedsnavelig
+plumbeitarsus|bleifarbener Lauf|lead-coloured tarsus|loodkleurige loop
+podiceps|Steißfuß|rump foot|stuitvoet
+poecilorhyncha|buntschnäblig|variegated-billed|bontsnavelig
+poliocephala poliocephalus|grauköpfig|grey-headed|grijskoppig
+polychloros|viel Grün, sehr grün|much green, very green|veel groen, zeer groen
+polyglotta polyglottos|vielsprachig|many-tongued|veeltalig
+pomarinus|Deckelnase; Bezug auf die Schnabelbedeckung, kein Bezug zu Pommern|covered nose; refers to the bill covering, not to Pomerania|bedekte neus; verwijst naar de snavelbedekking, niet naar Pommeren
+porphyrio|Purpurhuhn|purple gallinule|purperkoet
+pratensis|zur Wiese gehörig|of meadows|van weiden
+pratincola|Wiesenbewohner|meadow dweller|weidebewoner
+proregulus|dem Goldhähnchen nahe|close to the goldcrest|nabij het goudhaantje
+psittacea|papageienartig|parrot-like|papegaaiachtig
+puffinus|übernommener Sturmtauchername|borrowed shearwater name|overgenomen pijlstormvogelnaam
+pugnax|kämpferisch|pugnacious|strijdlustig
+pulchella|hübsch|pretty|mooi
+punctulata|fein gepunktet|finely spotted|fijn gestippeld
+purpurea purpureus|purpurfarben|purple|purperkleurig
+pusilla pusillus|sehr klein|very small|zeer klein
+pygargus|Weißbürzel|white rump|witte stuit
+pygmaeus|zwergenhaft|dwarfish|dwergachtig
+pyrrhocorax|Feuerrabe|flame raven|vuurraaf
+pyrrhonota|feuerfarbener Rücken|flame-coloured back|vlamkleurige rug
+pyrrhula|kleiner flammenfarbiger Vogel|small flame-coloured bird|kleine vlamkleurige vogel
+pytyopsittacus|Kiefernpapagei|pine parrot|dennenpapegaai
+quelea|aus einem alten Wachtelnamen; Übertragung ungeklärt|from an old quail name; reason for transfer unclear|uit een oude kwartelnaam; reden voor overdracht onduidelijk|?
+querquedula|alter Knäkentenname|ancient garganey name|oude zomertalingnaam
+ralloides|rallenähnlich|rail-like|ralachtig
+regalis|königlich|royal|koninklijk
+regulorum|der kleinen Könige|of little kings|van kleine koningen
+regulus|kleiner König|little king|kleine koning
+religiosa|heilig, religiös|sacred, religious|heilig, religieus
+rhynchotis|ähnlicher Schnabel; Vergleich mit einer anderen Ente|similar bill; a comparison with another duck|gelijkende snavel; een vergelijking met een andere eend
+ridibundus|lachend|laughing|lachend
+riparia|zum Flussufer gehörig|of river banks|van rivieroevers
+rosea roseata roseus|rosenfarben|rose-coloured|rozekleurig
+roseicapilla|rosenköpfig|rose-capped|rozekoppig
+roseicollis|rosenhalsig|rose-necked|rozehalzig
+roseogrisea|rosengrau|rose-grey|rozegrijs
+rubecula|Rotkehlchen; alter Vogelname|robin; an old bird name|roodborst; een oude vogelnaam
+ruber rufa|rot|red|rood
+rubescens|rötlich werdend|becoming reddish|roodachtig wordend
+rubicola|Brombeerbewohner|bramble dweller|braambewoner
+rubidiceps|rotköpfig|red-headed|roodkoppig
+rubripes|rotfüßig|red-footed|roodvoetig
+rufescens|rötlich werdend|becoming reddish|roodachtig wordend
+ruficollis|rothalsig|red-necked|roodhalzig
+rufina rufinus|goldrot, rötlich|golden-red, reddish|goudrood, roodachtig
+rufula rufulus|rötlich|reddish|roodachtig
+rupestris|zum Fels gehörig|of rocks|van rotsen
+rupicola|Felsbewohner|rock dweller|rotsbewoner
+rustica|ländlich|rural|landelijk
+rusticola|Landbewohner; historischer Waldschnepfenname|country dweller; an old woodcock name|landbewoner; een oude houtsnipnaam
+rusticolus|Landbewohner|country dweller|landbewoner
+ruticilla|Rotschwanz|red tail|rode staart
+rutila|rötlich, goldrot|reddish, golden-red|roodachtig, goudrood
+sarda|von Sardinien|of Sardinia|van Sardinië
+satyra|Satyr, mythisches Waldwesen|satyr, a mythical woodland being|sater, een mythisch boswezen
+saxatilis|zwischen Felsen lebend|living among rocks|tussen rotsen levend
+scapularis|zur Schulter gehörig|of the shoulder|van de schouder
+schistisagus|Schiefermantel|slate cloak|leisteenmantel
+schoeniclus|alter Name eines schilfbewohnenden Vogels|ancient name for a reed-dwelling bird|oude naam voor een rietbewonende vogel
+schoenobaenus|Schilfgänger|reed walker|rietloper
+scirpaceus|zum Schilf gehörig|of reeds|van het riet
+scolopaceus|schnepfenartig|snipe-like|snipachtig
+scops|alter Name einer kleinen Eule|ancient name for a small owl|oude naam voor een kleine uil
+scotica|schottisch|Scottish|Schots
+semipalmatus|halb mit Schwimmhäuten versehen|partly web-footed|gedeeltelijk zwemvliezig
+senator|Senator; Vergleich mit römischer Amtskleidung|senator; compared with Roman official dress|senator; vergeleken met Romeinse ambtskleding
+senilis|greisenhaft|elderly|bejaard
+serinus|übernommener Girlitzname|borrowed serin name|overgenomen naam voor de Europese kanarie
+serrator|Säger|sawyer|zager
+serrirostris|Sägeschnabel|saw bill|zaagsnavel
+sibilans sibilatrix|pfeifend, Pfeifer|whistling, whistler|fluitend, fluiter
+solitaria solitarius|einsam|solitary|eenzaam
+solstitialis|zur Sonnenwende gehörig|of the solstice|van de zonnewende
+sparsa|besprenkelt|sprinkled|besprenkeld
+sparverius|Sperber; alter Greifvogelname|sparrowhawk; an old raptor name|sperwer; een oude roofvogelnaam
+spectabilis|sehenswert, prächtig|remarkable, splendid|bezienswaardig, prachtig
+spilogaster|Fleckenbauch|spotted belly|gevlekte buik
+spinosus|dornig|thorny|doornig
+spinus|Zeisig|siskin|sijs
+splendens|glänzend|shining|glanzend
+spodiogenys|aschgraue Wange|ash-grey cheek|asgrijze wang
+spodocephala|aschgrauköpfig|ash-grey-headed|asgrijskoppig
+sponsa|Braut|bride|bruid
+stagnatilis|zu Teichen gehörig|of pools|van poelen
+stellaris stellata|sternartig, mit Sternflecken|star-like, star-spotted|sterachtig, met stervlekken
+strepera|lärmend|noisy|luidruchtig
+striata|gestreift|striped|gestreept
+sturninus|starenartig|starling-like|spreeuwachtig
+subalpina|unterhalb der Alpen, am Gebirgsfuß|below the Alps, at the mountain foot|onder de Alpen, aan de bergvoet
+subbuteo|einem Bussard nahe; vergleichender Name|near a buzzard; a comparative name|nabij een buizerd; een vergelijkende naam
+subis|alter Vogelname, auf Schwalben übertragen|ancient bird name, applied to swallows|oude vogelnaam, toegepast op zwaluwen
+subminuta|dem Vogel mit dem Namen minuta nahe|close to the bird named minuta|nabij de vogel met de naam minuta
+subruficollis|rötlicher Hals|reddish neck|roodachtige hals
+superciliosa|mit auffälliger Augenbraue|with a conspicuous eyebrow|met opvallende wenkbrauw
+svecica|schwedisch|Swedish|Zweeds
+sylvicola|Waldbewohner|woodland dweller|bosbewoner
+syriacus|syrisch|Syrian|Syrisch
+tadornoides|brandgansähnlich|shelduck-like|bergeendachtig
+tarda|langsam|slow|langzaam
+tenellipes|zarte Füße|delicate feet|tere voeten
+tenuirostris|dünnschnäblig|slender-billed|dunsnavelig
+tetrax tetrix|alter Name eines Hühnervogels|ancient name for a gamebird|oude naam voor een hoenderachtige
+thalassinus|meergrün|sea-green|zeegroen
+tigrina|tigerartig, gestreift|tiger-like, striped|tijgerachtig, gestreept
+tinnunculus|kleiner Klingler; alter Falkenname|little ringer; an old falcon name|kleine klingelaar; een oude valkennaam
+torquatus|mit Halsring|collared|met halsring
+torquilla|kleiner Dreher; Bezug auf die Kopfbewegungen|little twister; refers to the head movements|kleine draaier; verwijst naar de kopbewegingen
+trichas|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
+tricolor|dreifarbig|three-coloured|driekleurig
+tridactyla tridactylus|dreizehig|three-toed|drietenig
+tristis|traurig, düster|sad, gloomy|treurig, somber
+trivialis|an Wegen vorkommend|of roadsides|van wegkanten
+trochiloides|dem Vogel namens trochilus ähnlich|resembling the bird named trochilus|lijkend op de vogel met de naam trochilus
+trochilus|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
+troglodytes|Höhlenbewohner|cave dweller|holbewoner
+turtur|Turteltaube; lautnachahmender Name|turtle dove; an imitative name|tortelduif; een klanknabootsende naam
+tyrannus|Herrscher, Tyrann|ruler, tyrant|heerser, tiran
+ulula|alter Eulenname|ancient owl name|oude uilennaam
+undata undulata undulatus|gewellt, mit Wellenzeichnung|wavy, with wavy markings|gegolfd, met golftekening
+unicinctus|mit einem Band|single-banded|met één band
+urbicum|zur Stadt gehörig|of towns|van steden
+ustulatus|angesengt|scorched|verschroeid
+vanellus|kleiner Fächer; alter Kiebitzname|little fan; an old lapwing name|kleine waaier; een oude kievitnaam
+varia varius|bunt, verschiedenfarbig|variegated|bont, veelkleurig
+variegata|bunt gezeichnet|variegated|bont getekend
+velatus|verschleiert|veiled|gesluierd
+veredus|Kurierpferd; Vergleich mit schnellem Laufen|courier horse; a comparison with fast running|koerierspaard; een vergelijking met snel lopen
+versicolor|vielfarbig, wechselnd gefärbt|many-coloured, changing colour|veelkleurig, wisselend gekleurd
+vespertinus|abendlich|of evening|van de avond
+viduata|verwitwet; Bezug auf die Färbung|widowed; refers to the colouring|verweduwd; verwijst naar de kleur
+vipio|historischer Kranichname|historical crane name|historische kraanvogelnaam
+virescens|grünlich werdend|becoming greenish|groenachtig wordend
+virgo|Jungfrau|maiden|maagd
+viridigenalis|grünwangig|green-cheeked|groenwangig
+viridis|grün|green|groen
+viscivorus|Mistel fressend|mistletoe-eating|maretak etend
+vittata|gebändert|banded|gebandeerd
+vociferus|laut rufend|calling loudly|luid roepend
+vulgaris|gewöhnlich, verbreitet|common, widespread|gewoon, algemeen
+xanthocephalus|gelbköpfig|yellow-headed|geelkoppig
+xanthops|gelbgesichtig|yellow-faced|geelgezicht
+zonarius|mit Gürtel|belted|met gordel
+zonorhyncha|gebänderter Schnabel|banded bill|gebandeerde snavel
