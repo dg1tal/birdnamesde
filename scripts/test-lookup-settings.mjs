@@ -32,6 +32,12 @@ const ui={lookup:{mainLanguage:'de',nameLanguages:['de','en','nl','sci'],region:
 const context=vm.createContext({ui,NAME_LANGUAGES,lookupTitle,lookupLanguages,showGermanStatus,primaryName,languageLabel,esc,
  english:false,lookupPhotos:false,t:s=>s,nameMarkup:(s,l)=>`<span data-name-content lang="${l==='sci'?'la':l}">${esc(primaryName(s,l))}</span>`});
 vm.runInContext(render,context);
+const jay=context.card(birds.find(s=>s.id==='eurjay1'));
+assert(jay.includes('code-scientific'));
+assert(jay.includes('Wissenschaftlicher Kurzcode: Garrulus glandarius'));
+assert(jay.includes('wiss.'));
+assert(jay.indexOf('>GAGL<')<jay.indexOf('>ECFJ<'));
+assert(jay.indexOf('>GAGL<')<jay.indexOf('>EUJA<'));
 const redpoll=birds.find(s=>s.de==='Birkenzeisig');
 assert(context.card(redpoll).includes(redpoll.note));
 ui.lookup.region='GB';assert(!context.card(redpoll).includes(redpoll.note));

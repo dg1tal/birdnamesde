@@ -11,7 +11,7 @@ assert(birds.filter(s=>s.enGB).length>=70);
 assert.equal(find('Ringelgans').enGB,'Brent Goose');
 assert(accepts(find('Ringelgans'),'en','Brent Goose'));assert(matches(find('Ringelgans'),'brent goose'));
 assert.equal(find('Kleiber').enGB,'');
-assert(accepts(find('Amsel'),'code','cobl'));assert(accepts(find('Amsel'),'code','eubl'));assert(!accepts(find('Amsel'),'code','TUME'));
+assert(accepts(find('Amsel'),'code','cobl'));assert(accepts(find('Amsel'),'code','eubl'));assert(accepts(find('Amsel'),'code','TUME'));
 assert(birds.filter(s=>matches(s,'EUBL')).length>=2);
 assert(matches(find('Nachtschwalbe'),'Ziegenmelker'));
 let now=1000000,p;for(let n of [1,3,7,14,30,60,60]){p=review(p,true,now);assert.equal(p.interval,n);assert.equal(p.due,now+n*86400000);now=p.due;}

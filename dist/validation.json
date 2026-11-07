@@ -8,8 +8,8 @@
     "species category only",
     "all scientific and English names match v2025-4 official CSV",
     "all German names match official XLSX",
-    "all accepted codes are current literal official common-name and banding entries, with documented taxonomy exceptions",
-    "primary code has fewest worldwide species matches; banding preferred on ties",
+    "all accepted codes are current literal official scientific, common-name and banding entries, with documented taxonomy exceptions",
+    "official scientific codes come first; within each type, fewest worldwide species matches and banding preferred on ties",
     "all codes exactly four uppercase letters",
     "groups present; existing German status retained without inventing international status",
     "all direct eBird paths use verified species IDs"
@@ -2107,9 +2107,26 @@
       "Marmelente",
       "Mähnenente"
     ],
+    "ALCH": [
+      "Alpendohle",
+      "Chukarhuhn"
+    ],
+    "PYPY": [
+      "Alpenkrähe",
+      "Gimpel"
+    ],
     "RBCH": [
       "Alpenkrähe",
       "Heckensänger"
+    ],
+    "CAAL": [
+      "Alpenstrandläufer",
+      "Sanderling"
+    ],
+    "ANRU": [
+      "Amerikapieper",
+      "Dunkelente",
+      "Orientspornpieper"
     ],
     "BBPI": [
       "Amerikapieper",
@@ -2119,9 +2136,31 @@
       "Amsel",
       "Mönchsgrasmücke"
     ],
+    "AMFA": [
+      "Amurfalke",
+      "Mülleramazone"
+    ],
+    "CATE": [
+      "Anadyrknutt",
+      "Fahlente",
+      "Raubseeschwalbe",
+      "Temminckstrandläufer"
+    ],
+    "ANGO": [
+      "Andengans",
+      "Steppenpieper"
+    ],
     "MASH": [
       "Atlantiksturmtaucher",
       "Maskenwürger"
+    ],
+    "CHPH": [
+      "Bacchusreiher",
+      "Bonapartemöwe"
+    ],
+    "PUMA": [
+      "Balearensturmtaucher",
+      "Purpurschwalbe"
     ],
     "BASH": [
       "Balearensturmtaucher",
@@ -2131,6 +2170,10 @@
       "Balearensturmtaucher",
       "Mittelmeer-Sturmtaucher"
     ],
+    "CUCA": [
+      "Balkan-Bartgrasmücke",
+      "Kuckuck"
+    ],
     "SUWA": [
       "Balkan-Bartgrasmücke",
       "Iberien-Bartgrasmücke"
@@ -2139,6 +2182,10 @@
       "Balkansteinschmätzer",
       "Maurensteinschmätzer"
     ],
+    "GAGA": [
+      "Bankivahuhn",
+      "Bekassine"
+    ],
     "AUSH": [
       "Barolosturmtaucher",
       "Halbmond-Löffelente",
@@ -2146,7 +2193,32 @@
     ],
     "EUHO": [
       "Baumfalke",
+      "Flammenweber",
       "Wiedehopf"
+    ],
+    "PRMO": [
+      "Bergbraunelle",
+      "Heckenbraunelle"
+    ],
+    "PHBO": [
+      "Berglaubsänger",
+      "Wanderlaubsänger"
+    ],
+    "ANSP": [
+      "Bergpieper",
+      "Schwarzente"
+    ],
+    "CAMA": [
+      "Bergstrandläufer",
+      "Meerstrandläufer"
+    ],
+    "LAGL": [
+      "Beringmöwe",
+      "Polarmöwe"
+    ],
+    "LOLE": [
+      "Bindenkreuzschnabel",
+      "Kalifasan"
     ],
     "LADU": [
       "Bindenruderente",
@@ -2156,22 +2228,81 @@
       "Bindenstrandläufer",
       "Spitzschwanz-Strandläufer"
     ],
+    "POPO": [
+      "Bindentaucher",
+      "Graukopf-Purpurhuhn",
+      "Purpurhuhn",
+      "Tüpfelsumpfhuhn"
+    ],
+    "ACFL": [
+      "Birkenzeisig",
+      "Buchenschnäppertyrann"
+    ],
+    "PHRO": [
+      "Blasskopfsittich",
+      "Rosaflamingo"
+    ],
     "EOWA": [
       "Blassspötter",
       "Nachtigallengrasmücke"
+    ],
+    "CYCY": [
+      "Blauflügelgans",
+      "Lasurmeise",
+      "Singschwan"
     ],
     "EURO": [
       "Blauracke",
       "Rotkehlchen",
       "Star"
     ],
+    "MEPE": [
+      "Blauwangenspint",
+      "Brillenente"
+    ],
+    "COLI": [
+      "Bluthänfling",
+      "Felsentaube"
+    ],
+    "QUQU": [
+      "Blutschnabelweber",
+      "Purpurgrackel"
+    ],
+    "ANAL": [
+      "Blässgans",
+      "Seeregenpfeifer"
+    ],
+    "ANCA": [
+      "Brachpieper",
+      "Fahlente",
+      "Kaisergans",
+      "Kanadakranich",
+      "Kastanienente",
+      "Schneegans"
+    ],
+    "TATA": [
+      "Brandgans",
+      "Halsbandgans"
+    ],
     "COSH": [
       "Brandgans",
       "Corysturmtaucher"
     ],
+    "SECA": [
+      "Braunkehl-Waldsänger",
+      "Kanarengirlitz"
+    ],
+    "SARU": [
+      "Braunkehlchen",
+      "Schwarzkehlchen"
+    ],
     "AWDU": [
       "Brautente",
       "Mähnenente"
+    ],
+    "CUCO": [
+      "Brillengrasmücke",
+      "Dorngrasmücke"
     ],
     "COCH": [
       "Buchfink",
@@ -2182,21 +2313,45 @@
       "Buntfasan",
       "Thorshühnchen"
     ],
+    "ACDU": [
+      "Buschrohrsänger",
+      "Höckerschnabelente"
+    ],
     "BOWA": [
       "Buschspötter",
       "Seidenschwanz"
+    ],
+    "COCO": [
+      "Coscorobaschwan",
+      "Kernbeißer",
+      "Kolkrabe",
+      "Nebelkrähe",
+      "Rabenkrähe",
+      "Wachtel"
     ],
     "COSW": [
       "Coscorobaschwan",
       "Mauersegler"
     ],
+    "LAPH": [
+      "Diamantfasan",
+      "Rotschwanzwürger"
+    ],
     "TBWA": [
       "Dickschnabelspötter",
       "Middendorff-Laubsänger"
     ],
+    "COMO": [
+      "Dohle",
+      "Teichhuhn"
+    ],
     "EUJA": [
       "Dohle",
       "Eichelhäher"
+    ],
+    "LADO": [
+      "Dominikanermöwe",
+      "Palmtaube"
     ],
     "BLKI": [
       "Dreizehenmöwe",
@@ -2212,17 +2367,49 @@
       "Dunkelente",
       "Schwarzente"
     ],
+    "PHFU": [
+      "Dunkellaubsänger",
+      "Thorshühnchen"
+    ],
+    "ARGR": [
+      "Dunkelsturmtaucher",
+      "Kappensturmtaucher"
+    ],
     "SBGU": [
       "Dünnschnabelmöwe",
       "Kamtschatkamöwe"
+    ],
+    "VIPH": [
+      "Edwardsfasan",
+      "Philadelphiavireo"
+    ],
+    "CAGU": [
+      "Einsiedler-Musendrossel",
+      "Steppenmöwe"
+    ],
+    "COMA": [
+      "Elster",
+      "Weißbürzelschama"
+    ],
+    "GRCO": [
+      "Elsterstar",
+      "Kormoran"
+    ],
+    "SPSP": [
+      "Erlenzeisig",
+      "Weidensperling"
     ],
     "ESCU": [
       "Eskimobrachvogel",
       "Triel"
     ],
-    "CATE": [
-      "Fahlente",
-      "Raubseeschwalbe"
+    "TUPA": [
+      "Fahldrossel",
+      "Schönsittich"
+    ],
+    "APPA": [
+      "Fahlsegler",
+      "Pazifiksegler"
     ],
     "PASW": [
       "Fahlsegler",
@@ -2244,6 +2431,10 @@
       "Felsentaube",
       "Strandpieper"
     ],
+    "LOCU": [
+      "Fichtenkreuzschnabel",
+      "Kappensäger"
+    ],
     "COCR": [
       "Fichtenkreuzschnabel",
       "Kranich",
@@ -2253,9 +2444,22 @@
       "Fichtenwaldsänger",
       "Streifenwaldsänger"
     ],
+    "PAHA": [
+      "Fischadler",
+      "Steppenweihe"
+    ],
+    "PHTR": [
+      "Fitis",
+      "Grünlaubsänger",
+      "Wilsonwassertreter"
+    ],
     "WIWA": [
       "Fitis",
       "Mönchswaldsänger"
+    ],
+    "PIMA": [
+      "Fleckengrundammer",
+      "Maximilianpapagei"
     ],
     "SEOW": [
       "Fleckenuhu",
@@ -2264,6 +2468,10 @@
     "CORE": [
       "Gartenrotschwanz",
       "Rotschenkel"
+    ],
+    "MOCI": [
+      "Gebirgsstelze",
+      "Zitronenstelze"
     ],
     "YBBU": [
       "Gelbbrauenammer",
@@ -2277,9 +2485,36 @@
       "Glanzkrähe",
       "Nebelkrähe"
     ],
+    "CAGO": [
+      "Goffinkakadu",
+      "Kanadagans",
+      "Zwergkanadagans"
+    ],
+    "EMCI": [
+      "Goldammer",
+      "Wiesenammer",
+      "Zaunammer",
+      "Zippammer"
+    ],
+    "CHPI": [
+      "Goldfasan",
+      "Magellangans"
+    ],
+    "PASA": [
+      "Grasammer",
+      "Steppenflughuhn"
+    ],
+    "CASU": [
+      "Grasläufer",
+      "Langzehen-Strandläufer"
+    ],
     "BBSA": [
       "Grasläufer",
       "Sumpfläufer"
+    ],
+    "EMCA": [
+      "Grauammer",
+      "Grauortolan"
     ],
     "COBU": [
       "Grauammer",
@@ -2303,9 +2538,18 @@
       "Grünsittich",
       "Rebhuhn"
     ],
+    "CAMI": [
+      "Grauwangen-Musendrossel",
+      "Wiesenstrandläufer",
+      "Zwergstrandläufer"
+    ],
     "EUGR": [
       "Grünfink",
       "Gänsegeier"
+    ],
+    "BUVI": [
+      "Grünreiher",
+      "Virginiauhu"
     ],
     "GBHE": [
       "Grünreiher",
@@ -2314,6 +2558,14 @@
     "COGR": [
       "Grünschenkel",
       "Purpurgrackel"
+    ],
+    "LACH": [
+      "Grünschwanz-Glanzstar",
+      "Messingglanzstar"
+    ],
+    "PIME": [
+      "Grünzügelpapagei",
+      "Schwarzohrpapagei"
     ],
     "BHPA": [
       "Grünzügelpapagei",
@@ -2324,6 +2576,15 @@
       "Gänsegeier",
       "Schmutzgeier"
     ],
+    "MEME": [
+      "Gänsesäger",
+      "Kappenammer",
+      "Singammer"
+    ],
+    "MEAL": [
+      "Gürtelfischer",
+      "Zwergsäger"
+    ],
     "EUGO": [
       "Habicht",
       "Stieglitz"
@@ -2332,9 +2593,22 @@
       "Habichtsadler",
       "Zwergadler"
     ],
+    "FIAL": [
+      "Halsbandschnäpper",
+      "Taigaschnäpper"
+    ],
     "RRPA": [
       "Halsbandsittich",
       "Singsittich"
+    ],
+    "LASC": [
+      "Heideschneehuhn",
+      "Kamtschatkamöwe",
+      "Schachwürger"
+    ],
+    "STDO": [
+      "Hohltaube",
+      "Rosenseeschwalbe"
     ],
     "WHIM": [
       "Hudsonbrachvogel",
@@ -2345,13 +2619,39 @@
       "Orpheusgrasmücke",
       "Waldlaubsänger"
     ],
+    "PHCO": [
+      "Jagdfasan",
+      "Kronenlaubsänger",
+      "Zilpzalp"
+    ],
     "RNPH": [
       "Jagdfasan",
       "Odinshühnchen"
     ],
-    "CAGO": [
-      "Kanadagans",
-      "Zwergkanadagans"
+    "CALA": [
+      "Kalanderlerche",
+      "Spornammer"
+    ],
+    "CAPU": [
+      "Kampfläufer",
+      "Mönchswaldsänger",
+      "Sandstrandläufer"
+    ],
+    "CACA": [
+      "Kanadawaldsänger",
+      "Knutt",
+      "Rotkardinal",
+      "Rubinkehlchen",
+      "Schopfwachtel",
+      "Stieglitz"
+    ],
+    "PACR": [
+      "Kiefernkreuzschnabel",
+      "Pfau"
+    ],
+    "CUCU": [
+      "Klappergrasmücke",
+      "Rennvogel"
     ],
     "LESA": [
       "Kolymaregenpfeifer",
@@ -2366,6 +2666,10 @@
       "Koromandelkuhreiher",
       "Kuhreiher"
     ],
+    "HIHI": [
+      "Kragenente",
+      "Stelzenläufer"
+    ],
     "REPH": [
       "Königsfasan",
       "Thorshühnchen"
@@ -2373,6 +2677,14 @@
     "ROTE": [
       "Königsseeschwalbe",
       "Rosenseeschwalbe"
+    ],
+    "STPA": [
+      "Küstenseeschwalbe",
+      "Schmarotzerraubmöwe"
+    ],
+    "STRO": [
+      "Lachtaube",
+      "Schreieule"
     ],
     "LABU": [
       "Lazulifink",
@@ -2387,18 +2699,46 @@
       "Sperber",
       "Sturmwellenläufer"
     ],
+    "HYCA": [
+      "Madeirawellenläufer",
+      "Raubseeschwalbe"
+    ],
     "MAWA": [
       "Magnolienwaldsänger",
       "Sardengrasmücke",
       "Sumpfrohrsänger"
     ],
+    "MAST": [
+      "Marabu",
+      "Schnatterente"
+    ],
     "SWPL": [
       "Maskenkiebitz",
       "Spornkiebitz"
     ],
+    "LAMI": [
+      "Mittelmeermöwe",
+      "Schwarzstirnwürger"
+    ],
+    "LIGR": [
+      "Moorschlammläufer",
+      "Zwergtaucher"
+    ],
+    "EUMO": [
+      "Mornellregenpfeifer",
+      "Teichhuhn"
+    ],
+    "BUBU": [
+      "Mäusebussard",
+      "Uhu"
+    ],
     "BLVU": [
       "Mönchsgeier",
       "Rabengeier"
+    ],
+    "MEAM": [
+      "Mülleramazone",
+      "Pazifiktrauerente"
     ],
     "CACR": [
       "Nebelkrähe",
@@ -2407,6 +2747,10 @@
     "PABU": [
       "Pallasammer",
       "Papstfink"
+    ],
+    "SAMA": [
+      "Pallasschwarzkehlchen",
+      "Uferschwalbe"
     ],
     "SIST": [
       "Pallasschwarzkehlchen",
@@ -2426,9 +2770,21 @@
       "Pfuhlschnepfe",
       "Uferschnepfe"
     ],
+    "SOSP": [
+      "Prachteiderente",
+      "Singammer"
+    ],
+    "CHGR": [
+      "Rainammer",
+      "Weißhand-Kernbeißer"
+    ],
     "BASW": [
       "Rauchschwalbe",
       "Uferschwalbe"
+    ],
+    "PEPE": [
+      "Rebhuhn",
+      "Steinsperling"
     ],
     "STSE": [
       "Riesenseeadler",
@@ -2438,9 +2794,30 @@
       "Rohrschwirl",
       "Samtkopf-Grasmücke"
     ],
+    "PARO": [
+      "Rosengimpel",
+      "Rosenstar"
+    ],
+    "NEPE": [
+      "Rosenschnabelente",
+      "Schmutzgeier"
+    ],
     "ROST": [
       "Rosenseeschwalbe",
       "Rosenstar"
+    ],
+    "MIMI": [
+      "Rotmilan",
+      "Schwarzmilan"
+    ],
+    "ANER": [
+      "Rotschnabelente",
+      "Zwerggans"
+    ],
+    "SCRU": [
+      "Rötelammer",
+      "Waldammer",
+      "Waldschnepfe"
     ],
     "ERRS": [
       "Rötelschwalbe",
@@ -2454,17 +2831,33 @@
       "Saharagrasmücke",
       "Wüstengrasmücke"
     ],
+    "CUSA": [
+      "Sardengrasmücke",
+      "Sichelstrandläufer"
+    ],
     "SUPA": [
       "Schildsittich",
       "Sonnensittich"
+    ],
+    "ACSC": [
+      "Schilfrohrsänger",
+      "Teichrohrsänger"
     ],
     "STEA": [
       "Schlangenadler",
       "Steppenadler"
     ],
+    "CAPL": [
+      "Schopfkarakara",
+      "Wermutregenpfeifer"
+    ],
     "SWGO": [
       "Schwanengans",
       "Sporngans"
+    ],
+    "THME": [
+      "Schwarzbrauenalbatros",
+      "Schwarzzügelibis"
     ],
     "BCPA": [
       "Schwarzkappensittich",
@@ -2482,6 +2875,10 @@
       "Schwarznacken-Stelzenläufer",
       "Stelzenläufer"
     ],
+    "ACPA": [
+      "Seggenrohrsänger",
+      "Sumpfrohrsänger"
+    ],
     "CEWA": [
       "Seidensänger",
       "Zedernseidenschwanz"
@@ -2489,6 +2886,10 @@
     "BAGO": [
       "Spatelente",
       "Weißwangengans"
+    ],
+    "LACA": [
+      "Steppenmöwe",
+      "Sturmmöwe"
     ],
     "COGU": [
       "Sturmmöwe",
@@ -2498,6 +2899,10 @@
       "Sumpfschwalbe",
       "Trompeterschwan"
     ],
+    "TRST": [
+      "Teichwasserläufer",
+      "Tristramstar"
+    ],
     "BEGO": [
       "Tundrasaatgans",
       "Waldsaatgans"
@@ -2506,9 +2911,21 @@
       "Tundrasaatgans",
       "Waldsaatgans"
     ],
+    "STAL": [
+      "Waldkauz",
+      "Zwergseeschwalbe"
+    ],
     "GRSA": [
       "Waldwasserläufer",
       "Wüstenregenpfeifer"
+    ],
+    "CICI": [
+      "Wasseramsel",
+      "Weißstorch"
+    ],
+    "CAFU": [
+      "Weidenmusendrossel",
+      "Weißbürzel-Strandläufer"
     ],
     "EUWR": [
       "Wendehals",
@@ -2524,2073 +2941,2584 @@
     "sourceUrl": "https://support.ebird.org/en/support/solutions/articles/48000804865",
     "workbookUrl": "https://cornell.box.com/s/fjp112mh25nlvbyr1p28r9ya7nriblls",
     "workbookSha256": "989a1c4e9524c6b0fb3b8a69f99bad98f80706cd183e934bc620c6dd24e70e62",
-    "policy": "Fewest matching species worldwide across official common-name and banding codes; prefer banding on ties, then alphabetical order. All candidates are accepted. Scientific codes excluded.",
+    "policy": "Official scientific codes first. Within scientific and other codes separately, prefer fewest matching species worldwide, then banding codes, then alphabetical order. All candidates are accepted. Scientific code names follow their source workbook; catalogue names remain pinned to v2025.",
     "specificitySpecies": 11202,
     "exceptions": {
       "spofly1": "Retained v2025 species concept; v2026 reclassifies this ID as a slash (Muscicapa striata/tyrrhenica). Codes remain from the official 2025 workbook pending a taxonomy migration."
     }
   },
-  "primary_banding_codes": [
-    "Adlerbussard",
-    "Alpenschneehuhn",
-    "Alpensegler",
-    "Alpenstrandläufer",
-    "Amerikapieper",
-    "Amsel",
-    "Anadyrknutt",
-    "Antillenseeschwalbe",
-    "Atlantiksturmtaucher",
-    "Austernfischer",
-    "Aztekenmöwe",
-    "Bahamaente",
-    "Bairdstrandläufer",
-    "Baltimoretrupial",
-    "Bankivahuhn",
-    "Barolosturmtaucher",
-    "Basstölpel",
-    "Baumfalke",
-    "Baumpieper",
-    "Bekassine",
-    "Bergbraunelle",
-    "Bergente",
-    "Bergfink",
-    "Bergstrandläufer",
-    "Beringmöwe",
-    "Bindenkreuzschnabel",
-    "Bindenstrandläufer",
-    "Bindentaucher",
-    "Birkenschnäppertyrann",
-    "Birkenzeisig",
-    "Blauflügelente",
-    "Blauhäher",
-    "Blaukehlchen",
-    "Blaumerle",
-    "Blaunachtigall",
-    "Blauschwanz",
-    "Blässgans",
-    "Blässhuhn",
-    "Bonapartemöwe",
-    "Brachvogel",
-    "Brandgans",
-    "Brandseeschwalbe",
-    "Brauenwaldsänger",
-    "Braunkehl-Waldsänger",
-    "Braunkopf-Kuhstärling",
-    "Braunschnäpper",
-    "Braunwürger",
-    "Brautente",
-    "Brillenente",
-    "Brillenstärling",
-    "Bruchwasserläufer",
-    "Buchenschnäppertyrann",
-    "Buchfink",
-    "Buntfalke",
-    "Buntfuß-Sturmschwalbe",
-    "Buntspecht",
-    "Buschrohrsänger",
-    "Büffelkopfente",
-    "Carolinasumpfhuhn",
-    "Carolinataube",
-    "China-Fleckschnabelente",
-    "Chukarhuhn",
-    "Corysturmtaucher",
-    "Dachsammer",
-    "Desertassturmvogel",
-    "Dickschnabellumme",
-    "Dickschnabelspötter",
-    "Dohle",
-    "Dominikanermöwe",
-    "Dominikanerwitwe",
-    "Dorfweber",
-    "Dreizehenmöwe",
-    "Drosseluferläufer",
-    "Drosselwaldsänger",
-    "Dunkelente",
-    "Dunkellaubsänger",
-    "Dunkelsturmtaucher",
-    "Dunkelwasserläufer",
-    "Eiderente",
-    "Einsiedelwasserläufer",
-    "Einsiedler-Musendrossel",
-    "Eisente",
-    "Eismöwe",
-    "Eissturmvogel",
-    "Elfenbeinmöwe",
-    "Erddrossel",
-    "Erlenschnäppertyrann",
-    "Erlenzeisig",
-    "Eskimobrachvogel",
-    "Eskimoregenpfeifer",
-    "Fahlstirnschwalbe",
-    "Falkennachtschwalbe",
-    "Falkenraubmöwe",
-    "Feldlerche",
-    "Feldsperling",
-    "Feuerweber",
-    "Fichtenammer",
-    "Fichtenkreuzschnabel",
-    "Fichtenwaldsänger",
-    "Fischadler",
-    "Fischmöwe",
-    "Fitis",
-    "Fleckengrundammer",
-    "Flussregenpfeifer",
-    "Flussseeschwalbe",
-    "Flussuferläufer",
-    "Forsterseeschwalbe",
-    "Gartenrotschwanz",
-    "Gartenspottdrossel",
-    "Gebirgsstelze",
-    "Gelbbauch-Saftlecker",
-    "Gelbbrauen-Laubsänger",
-    "Gelbbrauenammer",
-    "Gelbbrust-Pfeifgans",
-    "Gelbbrustara",
-    "Gelbkehlvireo",
-    "Gelbkopfamazone",
-    "Gelbscheitelamazone",
-    "Gelbschenkel",
-    "Gelbschnabelkuckuck",
-    "Gelbschopflund",
-    "Gelbspötter",
-    "Gerfalke",
-    "Gimpel",
-    "Gluckente",
-    "Goldflügel-Waldsänger",
-    "Goldhähnchen-Laubsänger",
-    "Goldregenpfeifer",
-    "Goldzeisig",
-    "Grasammer",
-    "Grasläufer",
-    "Graubrust-Strandläufer",
-    "Graugans",
-    "Graukopfmöwe",
-    "Graumöwe",
-    "Graureiher",
-    "Grauschnäpper",
-    "Grauschwanz-Wasserläufer",
-    "Grauwangen-Musendrossel",
-    "Großschwanzgrackel",
-    "Gryllteiste",
-    "Grünflügelara",
-    "Grünschenkel",
-    "Grünsittich",
-    "Grünwangenamazone",
-    "Gürtelfischer",
-    "Habicht",
-    "Hakengimpel",
-    "Halsbanddrossel",
-    "Halsbandfrankolin",
-    "Hausgimpel",
-    "Haussperling",
-    "Hawaiigans",
-    "Helmperlhuhn",
-    "Heringsmöwe",
-    "Hirtenmaina",
-    "Hudsonbrachvogel",
-    "Hudsonschnepfe",
-    "Hudsonweihe",
-    "Höckersamtente",
-    "Höckerschnabelente",
-    "Höckerschwan",
-    "Indianerblässhuhn",
-    "Indianerdommel",
-    "Indigofink",
-    "Inkaseeschwalbe",
-    "Jagdfasan",
-    "Japanwachtel",
-    "Kaisergans",
-    "Kalifasan",
-    "Kampfläufer",
-    "Kamtschatkamöwe",
-    "Kamtschatkasamtente",
-    "Kanadabergente",
-    "Kanadagans",
-    "Kanadakranich",
-    "Kanadamöwe",
-    "Kanadapfeifente",
-    "Kanadawaldsänger",
-    "Kanarengirlitz",
-    "Kaninchenkauz",
-    "Kappensturmtaucher",
-    "Kappensäger",
-    "Karmingimpel",
-    "Katharinasittich",
-    "Katzenspottdrossel",
-    "Keilschwanz-Regenpfeifer",
-    "Kernbeißer",
-    "Kiebitz",
-    "Klappergrasmücke",
-    "Kletterwaldsänger",
-    "Knutt",
-    "Knäkente",
-    "Kolkrabe",
-    "Kornweihe",
-    "Koromandelkuhreiher",
-    "Krabbentaucher",
-    "Kragenente",
-    "Kranich",
-    "Krickente",
-    "Kronenwaldsänger",
-    "Kubaflamingo",
-    "Kuckuck",
-    "Kuhreiher",
-    "Kurzschnabelgans",
-    "Königsbussard",
-    "Königsseeschwalbe",
-    "Küstenreiher",
-    "Küstenseeschwalbe",
-    "Lachmöwe",
-    "Lachtaube",
-    "Langschnabelalk",
-    "Langzehen-Strandläufer",
-    "Laysanente",
-    "Lazulifink",
-    "Löffelente",
-    "Löffler",
-    "Madeirasturmvogel",
-    "Madeirawellenläufer",
-    "Magnolienwaldsänger",
-    "Mantelmöwe",
-    "Mauersegler",
-    "Meerstrandläufer",
-    "Mehlschwalbe",
-    "Meisenwaldsänger",
-    "Merlin",
-    "Misteldrossel",
-    "Mittelmeermöwe",
-    "Mittelsäger",
-    "Moorschlammläufer",
-    "Morgenammer",
-    "Mornellregenpfeifer",
-    "Mosambikgirlitz",
-    "Moschusente",
-    "Mugimakischnäpper",
-    "Muskatbronzemännchen",
-    "Mönchsgrasmücke",
-    "Mönchssittich",
-    "Mönchswaldsänger",
-    "Mülleramazone",
-    "Nachtreiher",
-    "Nandaysittich",
-    "Nebelkrähe",
-    "Neuntöter",
-    "Nilgans",
-    "Nonnensteinschmätzer",
-    "Odinshühnchen",
-    "Ohrenlerche",
-    "Ohrenscharbe",
-    "Orangewangenastrild",
-    "Orientbrachschwalbe",
-    "Orientturteltaube",
-    "Orinokogans",
-    "Pallasammer",
-    "Papageitaucher",
-    "Papstfink",
-    "Pazifiksegler",
-    "Pazifiktrauerente",
-    "Petschorapieper",
-    "Pfau",
-    "Pfeifente",
-    "Pfuhlschnepfe",
-    "Philadelphiavireo",
-    "Pieperwaldsänger",
-    "Plüschkopfente",
-    "Polarmöwe",
-    "Prachteiderente",
-    "Prachttaucher",
-    "Prärie-Goldregenpfeifer",
-    "Prärieläufer",
-    "Präriemöwe",
-    "Purpurgrackel",
-    "Purpurreiher",
-    "Purpurschwalbe",
-    "Rainammer",
-    "Rallenreiher",
-    "Raubseeschwalbe",
-    "Rauchschwalbe",
-    "Raufußbussard",
-    "Raufußkauz",
-    "Rebhuhn",
-    "Regenbrachvogel",
-    "Reiherente",
-    "Reisamadine",
-    "Reisstärling",
-    "Riesentafelente",
-    "Ringelgans",
-    "Ringeltaube",
-    "Ringschnabelente",
-    "Ringschnabelmöwe",
-    "Rohrammer",
-    "Rohrweihe",
-    "Rosenbrust-Kernknacker",
-    "Rosengimpel",
-    "Rosenköpfchen",
-    "Rosenmöwe",
-    "Rosenseeschwalbe",
-    "Rostflügeldrossel",
-    "Rostgans",
-    "Rostschwanzdrossel",
-    "Rotaugenvireo",
-    "Rotbrustkleiber",
-    "Rotdrossel",
-    "Rotflügel-Brachschwalbe",
-    "Rotflügelstärling",
-    "Rotfußfalke",
-    "Rotfußtölpel",
-    "Rothalstaucher",
-    "Rotkardinal",
-    "Rotkehl-Strandläufer",
-    "Rotkehlchen",
-    "Rotkehlpieper",
-    "Rotkopfente",
-    "Rotohrbülbül",
-    "Rotschenkel",
-    "Rotschnabel-Pfeifgans",
-    "Rotschnabel-Sonnenvogel",
-    "Rotschnabel-Tropikvogel",
-    "Rotschopftangare",
-    "Rotschwanz-Waldsänger",
-    "Rotschwanzbussard",
-    "Rotstirnamazone",
-    "Rubinkehlchen",
-    "Rußschnäpper",
-    "Rußseeschwalbe",
-    "Saatkrähe",
-    "Safrangilbtangare",
-    "Samtente",
-    "Sanderling",
-    "Sandstrandläufer",
-    "Scharlachara",
-    "Scharlachkardinal",
-    "Scharlachsichler",
-    "Scheckente",
-    "Schellente",
-    "Schieferrücken-Königstyrann",
-    "Schilfrohrsänger",
-    "Schlagschwirl",
-    "Schmuckreiher",
-    "Schmuckseeschwalbe",
-    "Schnatterente",
-    "Schneeammer",
-    "Schneeeule",
-    "Schneegans",
-    "Schneesichler",
-    "Schopfkarakara",
-    "Schopfwachtel",
-    "Schornsteinsegler",
-    "Schreieule",
-    "Schwalbenmöwe",
-    "Schwarzbart-Rohrdommel",
-    "Schwarzbrauenalbatros",
-    "Schwarzhalstaucher",
-    "Schwarzkappennonne",
-    "Schwarzkopf-Ruderente",
-    "Schwarzmilan",
-    "Schwarzohrpapagei",
-    "Schwarzschnabelkuckuck",
-    "Schwirrnachtigall",
-    "Seeregenpfeifer",
-    "Seidenreiher",
-    "Seidenschwanz",
-    "Sepiasturmtaucher",
-    "Sichelente",
-    "Sichelstrandläufer",
-    "Sichler",
-    "Silberalk",
-    "Silbermöwe",
-    "Silberreiher",
-    "Singammer",
-    "Singdrossel",
-    "Singschwan",
-    "Skua",
-    "Soldatenara",
-    "Spatelente",
-    "Spatelraubmöwe",
-    "Sperber",
-    "Sperbereule",
-    "Spießente",
-    "Spitzschwanz-Strandläufer",
-    "Spornammer",
-    "Stachelschwanzsegler",
-    "Star",
-    "Steinadler",
-    "Steinrötel",
-    "Steinschmätzer",
-    "Steinwälzer",
-    "Steppenregenpfeifer",
-    "Stieglitz",
-    "Stockente",
-    "Streifenwaldsänger",
-    "Strichelschwirl",
-    "Sturmmöwe",
-    "Sumpfläufer",
-    "Sumpfohreule",
-    "Sumpfschwalbe",
-    "Swinhoewellenläufer",
-    "Südpolarskua",
-    "Tafelente",
-    "Tahaweber",
-    "Taigaschnäpper",
-    "Teichhuhn",
-    "Teichwasserläufer",
-    "Temminckstrandläufer",
-    "Terekwasserläufer",
-    "Thorshühnchen",
-    "Tigerwaldsänger",
-    "Tordalk",
-    "Trauerente",
-    "Trauergrackel",
-    "Trauerseeschwalbe",
-    "Trompeterschwan",
-    "Trottellumme",
-    "Truthahngeier",
-    "Truthuhn",
-    "Tschuktschenstelze",
-    "Tundra-Goldregenpfeifer",
-    "Tundrasaatgans",
-    "Tundraschlammläufer",
-    "Turmfalke",
-    "Turteltaube",
-    "Tüpfelgelbschenkel",
-    "Tüpfelsumpfhuhn",
-    "Türkentaube",
-    "Uferschnepfe",
-    "Uferschwalbe",
-    "Virginiauhu",
-    "Virginiawachtel",
-    "Wacholderdrossel",
-    "Wachtelkönig",
-    "Waldammer",
-    "Walddrossel",
-    "Waldlaubsänger",
-    "Waldohreule",
-    "Waldpieper",
-    "Waldsaatgans",
-    "Waldschnepfe",
-    "Waldwasserläufer",
-    "Wanderdrossel",
-    "Wanderfalke",
-    "Wanderlaubsänger",
-    "Wasserralle",
-    "Weidenammer",
-    "Weidengelbkehlchen",
-    "Weidenmusendrossel",
-    "Weißbart-Seeschwalbe",
-    "Weißbauch-Phoebetyrann",
-    "Weißbauchtölpel",
-    "Weißbrauendrossel",
-    "Weißbürzel-Strandläufer",
-    "Weißbürzelschama",
-    "Weißflügel-Seeschwalbe",
-    "Weißkehlammer",
-    "Weißkopf-Seeadler",
-    "Weißstirnpapagei",
-    "Weißwangengans",
-    "Wellenastrild",
-    "Wendehals",
-    "Wiedehopf",
-    "Wiesenpieper",
-    "Wiesenstrandläufer",
-    "Wilsonbekassine",
-    "Wilsonwassertreter",
-    "Winterammer",
-    "Witwenpfeifgans",
-    "Wüstenbussard",
-    "Wüstenregenpfeifer",
-    "Zedernseidenschwanz",
-    "Zilpzalp",
-    "Zimtente",
-    "Zitronenstelze",
-    "Zwergammer",
-    "Zwergdommel",
-    "Zwerggans",
-    "Zwergkanadagans",
-    "Zwergmusendrossel",
-    "Zwergmöwe",
-    "Zwergschneegans",
-    "Zwergschnepfe",
-    "Zwergseeschwalbe",
-    "Zwergstrandläufer",
-    "Zwergsultanshuhn",
-    "Zwergsäger",
-    "Zügelseeschwalbe"
-  ],
+  "primary_banding_codes": [],
   "ambiguous_primary_codes": {
     "abdsto1": {
-      "code": "ABST",
-      "species": 2
+      "code": "CIAB",
+      "species": 3
     },
     "lolbuz1": {
-      "code": "LLBU",
-      "species": 2
+      "code": "BURU",
+      "species": 3
     },
     "macduc1": {
-      "code": "MADU",
-      "species": 6
+      "code": "OXMA",
+      "species": 2
+    },
+    "alepar2": {
+      "code": "PSEU",
+      "species": 3
     },
     "alpacc1": {
-      "code": "ALAC",
+      "code": "PRCO",
+      "species": 4
+    },
+    "yebcho1": {
+      "code": "PYGR",
       "species": 2
     },
     "rebcho1": {
-      "code": "RBCH",
-      "species": 7
-    },
-    "manshe": {
-      "code": "MASH",
-      "species": 6
-    },
-    "wescap1": {
-      "code": "WECA",
+      "code": "PYPY",
       "species": 4
     },
-    "laugul": {
-      "code": "LAGU",
+    "rocpta1": {
+      "code": "LAMU",
       "species": 2
+    },
+    "alpswi1": {
+      "code": "TAME",
+      "species": 5
+    },
+    "dunlin": {
+      "code": "CAAL",
+      "species": 6
+    },
+    "amepip": {
+      "code": "ANRU",
+      "species": 11
+    },
+    "eurbla": {
+      "code": "TUME",
+      "species": 4
+    },
+    "grekno": {
+      "code": "CATE",
+      "species": 7
+    },
+    "andgoo1": {
+      "code": "ORME",
+      "species": 6
+    },
+    "leater1": {
+      "code": "STAN",
+      "species": 10
+    },
+    "wescap1": {
+      "code": "TEUR",
+      "species": 2
+    },
+    "pabduc1": {
+      "code": "ANSU",
+      "species": 3
+    },
+    "laugul": {
+      "code": "LEAT",
+      "species": 3
+    },
+    "chpher1": {
+      "code": "ARBA",
+      "species": 3
     },
     "whiwag": {
-      "code": "PWWA",
+      "code": "MOAL",
       "species": 2
+    },
+    "whcpin": {
+      "code": "ANBA",
+      "species": 5
+    },
+    "baisan": {
+      "code": "CABA",
+      "species": 6
     },
     "balshe1": {
-      "code": "BASH",
+      "code": "PUMA",
       "species": 3
     },
-    "balori": {
-      "code": "BAOR",
+    "easwar1": {
+      "code": "CUCA",
       "species": 3
     },
-    "chebun2": {
-      "code": "CEBU",
+    "eabwar1": {
+      "code": "PHOR",
       "species": 2
     },
+    "bkewhe2": {
+      "code": "OEME",
+      "species": 2
+    },
+    "chebun2": {
+      "code": "EMFU",
+      "species": 2
+    },
+    "redjun": {
+      "code": "GAGA",
+      "species": 4
+    },
     "litshe1": {
-      "code": "BASH",
+      "code": "PUBA",
       "species": 3
     },
     "radwar1": {
-      "code": "RAWA",
-      "species": 3
+      "code": "PHSC",
+      "species": 8
     },
     "rebpar4": {
-      "code": "RBPA",
-      "species": 6
-    },
-    "chibab2": {
-      "code": "CHBA",
-      "species": 5
-    },
-    "eurhob": {
-      "code": "EUHO",
+      "code": "PSAL",
       "species": 3
     },
+    "chibab2": {
+      "code": "PTLA",
+      "species": 2
+    },
+    "norgan": {
+      "code": "MOBA",
+      "species": 6
+    },
+    "eurhob": {
+      "code": "FASU",
+      "species": 2
+    },
     "trepip": {
-      "code": "TRPI",
+      "code": "ANTR",
       "species": 2
     },
-    "hilmyn": {
-      "code": "CHMY",
-      "species": 2
+    "comsni": {
+      "code": "GAGA",
+      "species": 4
     },
-    "gresca": {
-      "code": "GRSC",
+    "sibacc": {
+      "code": "PRMO",
+      "species": 5
+    },
+    "brambl": {
+      "code": "FRMO",
+      "species": 3
+    },
+    "twite1": {
+      "code": "LIFL",
       "species": 4
     },
     "bimlar1": {
-      "code": "BILA",
-      "species": 2
-    },
-    "webwar1": {
-      "code": "WBWA",
+      "code": "MEBI",
       "species": 4
     },
+    "webwar1": {
+      "code": "PHBO",
+      "species": 7
+    },
     "watpip1": {
-      "code": "WAPI",
+      "code": "ANSP",
+      "species": 3
+    },
+    "wessan": {
+      "code": "CAMA",
+      "species": 14
+    },
+    "glwgul": {
+      "code": "LAGL",
       "species": 2
     },
-    "lakduc1": {
-      "code": "LADU",
+    "bertea1": {
+      "code": "ANBE",
       "species": 3
     },
-    "stisan": {
-      "code": "STSA",
-      "species": 3
+    "whwcro": {
+      "code": "LOLE",
+      "species": 4
+    },
+    "pibgre": {
+      "code": "POPO",
+      "species": 7
     },
     "yebfly": {
-      "code": "YBFL",
+      "code": "EMFL",
+      "species": 2
+    },
+    "redpol1": {
+      "code": "ACFL",
       "species": 4
     },
     "blagro1": {
-      "code": "BLGR",
-      "species": 3
-    },
-    "eaowar1": {
-      "code": "EOWA",
+      "code": "LYTE",
       "species": 2
+    },
+    "buwgoo1": {
+      "code": "CYCY",
+      "species": 11
     },
     "blujay": {
-      "code": "BLJA",
-      "species": 2
-    },
-    "blueth": {
-      "code": "BLUE",
+      "code": "CYCR",
       "species": 3
     },
-    "sibrob": {
-      "code": "SBRO",
-      "species": 3
+    "blutit": {
+      "code": "CYCA",
+      "species": 7
     },
-    "eurrol1": {
-      "code": "EURO",
+    "burthr": {
+      "code": "MOSO",
       "species": 4
     },
+    "eurrol1": {
+      "code": "COGA",
+      "species": 2
+    },
     "refblu1": {
-      "code": "RFBL",
+      "code": "TACY",
+      "species": 5
+    },
+    "bufpar": {
+      "code": "AMAE",
       "species": 2
     },
     "bcbeat1": {
-      "code": "BCBE",
+      "code": "MEPE",
       "species": 3
     },
     "rebque1": {
-      "code": "RBQU",
+      "code": "QUQU",
       "species": 2
     },
+    "gwfgoo": {
+      "code": "ANAL",
+      "species": 8
+    },
+    "bongul": {
+      "code": "CHPH",
+      "species": 4
+    },
+    "souboo8": {
+      "code": "NIBO",
+      "species": 2
+    },
+    "tawpip1": {
+      "code": "ANCA",
+      "species": 11
+    },
+    "comshe": {
+      "code": "TATA",
+      "species": 4
+    },
     "santer1": {
-      "code": "SATE",
+      "code": "THSA",
+      "species": 4
+    },
+    "tenwar": {
+      "code": "LEPE",
+      "species": 2
+    },
+    "chbmun1": {
+      "code": "LOCA",
+      "species": 8
+    },
+    "brephe1": {
+      "code": "CRMA",
       "species": 4
     },
     "babwar": {
-      "code": "BBWA",
-      "species": 9
+      "code": "SECA",
+      "species": 6
     },
-    "bnhcow": {
-      "code": "BHCO",
-      "species": 4
-    },
-    "rehbun1": {
-      "code": "RHBU",
-      "species": 2
-    },
-    "yebtea1": {
-      "code": "YBTE",
-      "species": 2
-    },
-    "asbfly": {
-      "code": "ABFL",
-      "species": 5
-    },
-    "sursco": {
-      "code": "SUSC",
-      "species": 2
-    },
-    "spewar2": {
-      "code": "SPWA",
+    "whinch1": {
+      "code": "SARU",
       "species": 3
     },
-    "yehbla": {
-      "code": "YHBL",
+    "bnhcow": {
+      "code": "MOAT",
       "species": 2
     },
-    "acafly": {
-      "code": "ACFL",
+    "vitpar1": {
+      "code": "SUWE",
+      "species": 2
+    },
+    "rehbun1": {
+      "code": "MEBR",
+      "species": 4
+    },
+    "yebtea1": {
+      "code": "ANFL",
+      "species": 7
+    },
+    "brnshr": {
+      "code": "LACR",
+      "species": 2
+    },
+    "wooduc": {
+      "code": "AISP",
+      "species": 2
+    },
+    "sursco": {
+      "code": "MEPE",
+      "species": 3
+    },
+    "spewar2": {
+      "code": "CUCO",
+      "species": 3
+    },
+    "comcha": {
+      "code": "FRCO",
       "species": 3
     },
     "rinphe2": {
-      "code": "GRPH",
-      "species": 2
+      "code": "PHVE",
+      "species": 3
     },
     "grswoo": {
-      "code": "GSWO",
-      "species": 2
+      "code": "DEMA",
+      "species": 3
     },
-    "boowar1": {
-      "code": "BOWA",
+    "blrwar1": {
+      "code": "ACDU",
       "species": 2
     },
     "buffle": {
-      "code": "BUFF",
-      "species": 2
+      "code": "BUAL",
+      "species": 5
+    },
+    "sora": {
+      "code": "POCA",
+      "species": 11
     },
     "chifla1": {
-      "code": "CHFL",
-      "species": 7
+      "code": "PHCH",
+      "species": 5
     },
-    "cosswa1": {
-      "code": "COSW",
+    "derpar1": {
+      "code": "PSDE",
+      "species": 2
+    },
+    "chukar": {
+      "code": "ALCH",
       "species": 4
     },
-    "whcspa": {
-      "code": "WCSP",
+    "corshe1": {
+      "code": "CABO",
       "species": 2
+    },
+    "cosswa1": {
+      "code": "COCO",
+      "species": 19
+    },
+    "whcspa": {
+      "code": "ZOLE",
+      "species": 2
+    },
+    "orhthr1": {
+      "code": "GECI",
+      "species": 4
+    },
+    "feapet2": {
+      "code": "PTDE",
+      "species": 4
     },
     "moured1": {
-      "code": "MORE",
-      "species": 2
+      "code": "PHMO",
+      "species": 4
+    },
+    "laaphe1": {
+      "code": "CHAM",
+      "species": 5
     },
     "diadov1": {
-      "code": "DIDO",
+      "code": "GECU",
       "species": 2
     },
-    "thbwar1": {
-      "code": "TBWA",
-      "species": 7
-    },
     "eurjac": {
-      "code": "EUJA",
+      "code": "COMO",
+      "species": 3
+    },
+    "kelgul": {
+      "code": "LADO",
+      "species": 3
+    },
+    "pitwhy": {
+      "code": "VIMA",
+      "species": 5
+    },
+    "gresni1": {
+      "code": "GAME",
+      "species": 4
+    },
+    "vilwea1": {
+      "code": "PLCU",
       "species": 2
     },
     "grewhi1": {
-      "code": "COWH",
-      "species": 2
-    },
-    "bklkit": {
-      "code": "BLKI",
+      "code": "CUCO",
       "species": 3
     },
+    "upcwar1": {
+      "code": "HILA",
+      "species": 2
+    },
+    "ettwoo1": {
+      "code": "PITR",
+      "species": 2
+    },
+    "grrwar1": {
+      "code": "ACAR",
+      "species": 2
+    },
     "sposan": {
-      "code": "SPSA",
+      "code": "ACMA",
+      "species": 3
+    },
+    "norwat": {
+      "code": "PANO",
       "species": 2
     },
     "ambduc": {
-      "code": "ABDU",
-      "species": 2
+      "code": "ANRU",
+      "species": 11
+    },
+    "duswar": {
+      "code": "PHFU",
+      "species": 10
     },
     "sooshe": {
-      "code": "SOSH",
+      "code": "ARGR",
       "species": 4
     },
     "spored": {
-      "code": "SPRE",
-      "species": 2
+      "code": "TRER",
+      "species": 3
     },
-    "slbgul1": {
-      "code": "SBGU",
+    "comeid": {
+      "code": "SOMO",
       "species": 3
     },
     "solsan": {
-      "code": "SOSA",
+      "code": "TRSO",
+      "species": 3
+    },
+    "herthr": {
+      "code": "CAGU",
+      "species": 7
+    },
+    "glagul": {
+      "code": "LAHY",
       "species": 2
     },
-    "comkin1": {
-      "code": "COKI",
-      "species": 8
+    "norful": {
+      "code": "FUGL",
+      "species": 2
+    },
+    "comloo": {
+      "code": "GAIM",
+      "species": 2
     },
     "elllau1": {
-      "code": "ELLA",
+      "code": "TREL",
       "species": 2
     },
     "eurmag1": {
-      "code": "COMA",
-      "species": 2
+      "code": "PIPI",
+      "species": 12
     },
-    "emu1": {
-      "code": "COEM",
-      "species": 3
+    "aspsta2": {
+      "code": "GRCO",
+      "species": 7
     },
     "scathr2": {
-      "code": "WHTH",
-      "species": 5
-    },
-    "eskcur": {
-      "code": "ESCU",
+      "code": "ZOAU",
       "species": 2
+    },
+    "aldfly": {
+      "code": "EMAL",
+      "species": 2
+    },
+    "eursis": {
+      "code": "SPSP",
+      "species": 7
     },
     "semplo": {
-      "code": "SEPL",
-      "species": 2
+      "code": "CHSE",
+      "species": 5
     },
     "palthr1": {
-      "code": "PATH",
-      "species": 3
+      "code": "TUPA",
+      "species": 4
     },
     "captea1": {
-      "code": "CATE",
-      "species": 3
+      "code": "ANCA",
+      "species": 11
     },
     "palswi3": {
-      "code": "PASW",
-      "species": 8
+      "code": "APPA",
+      "species": 4
+    },
+    "cliswa": {
+      "code": "PEPY",
+      "species": 2
     },
     "comnig": {
-      "code": "CONI",
-      "species": 3
+      "code": "CHMI",
+      "species": 5
     },
-    "padwar1": {
-      "code": "PAWA",
-      "species": 3
+    "lotjae": {
+      "code": "STLO",
+      "species": 6
     },
     "cogwar1": {
-      "code": "COGW",
+      "code": "LONA",
       "species": 2
     },
     "eutspa": {
-      "code": "ETSP",
-      "species": 2
+      "code": "PAMO",
+      "species": 11
     },
     "barpar2": {
-      "code": "BAPA",
+      "code": "ALBA",
+      "species": 2
+    },
+    "eurcrm1": {
+      "code": "PTRU",
+      "species": 7
+    },
+    "burpar": {
+      "code": "CYPA",
       "species": 4
     },
+    "rocpig": {
+      "code": "COLI",
+      "species": 5
+    },
     "pinbun": {
-      "code": "PIBU",
-      "species": 3
+      "code": "EMLE",
+      "species": 2
     },
     "redcro": {
-      "code": "RECR",
-      "species": 2
+      "code": "LOCU",
+      "species": 3
+    },
+    "osprey": {
+      "code": "PAHA",
+      "species": 4
+    },
+    "fistur1": {
+      "code": "TAFI",
+      "species": 3
     },
     "gbhgul2": {
-      "code": "PAGU",
-      "species": 2
+      "code": "ICIC",
+      "species": 3
+    },
+    "wlwwar": {
+      "code": "PHTR",
+      "species": 6
+    },
+    "blwbis1": {
+      "code": "EUHO",
+      "species": 6
+    },
+    "spotow": {
+      "code": "PIMA",
+      "species": 5
     },
     "spoeao2": {
-      "code": "SPEO",
+      "code": "BUAF",
       "species": 2
     },
-    "comsan": {
-      "code": "COSA",
+    "comter": {
+      "code": "STHI",
       "species": 2
     },
     "redsho1": {
-      "code": "RESH",
+      "code": "SPPL",
+      "species": 2
+    },
+    "librol2": {
+      "code": "COCA",
+      "species": 13
+    },
+    "indwhe1": {
+      "code": "ZOPA",
       "species": 3
     },
     "shttre1": {
-      "code": "STTR",
+      "code": "CEBR",
       "species": 3
     },
-    "normoc": {
-      "code": "NOMO",
+    "garwar1": {
+      "code": "SYBO",
       "species": 2
     },
-    "yebsap": {
-      "code": "YBSA",
-      "species": 3
+    "comred2": {
+      "code": "PHPH",
+      "species": 2
+    },
+    "grywag": {
+      "code": "MOCI",
+      "species": 6
     },
     "yebwar3": {
-      "code": "YBWA",
+      "code": "PHIN",
+      "species": 7
+    },
+    "yebbun1": {
+      "code": "SCCH",
       "species": 5
     },
     "baymac": {
-      "code": "BAYM",
-      "species": 3
+      "code": "ARAR",
+      "species": 4
     },
     "succoc": {
-      "code": "SCCO",
-      "species": 5
+      "code": "CAGA",
+      "species": 4
     },
-    "lesyel": {
-      "code": "LEYE",
+    "yetvir": {
+      "code": "VIFL",
       "species": 2
     },
+    "lesyel": {
+      "code": "TRFL",
+      "species": 4
+    },
+    "yebcuc": {
+      "code": "COAM",
+      "species": 2
+    },
+    "tufpuf": {
+      "code": "FRCI",
+      "species": 2
+    },
+    "gyrfal": {
+      "code": "FARU",
+      "species": 4
+    },
     "eurbul": {
-      "code": "EUBU",
+      "code": "PYPY",
+      "species": 4
+    },
+    "eurser1": {
+      "code": "SESE",
       "species": 2
     },
     "houcro1": {
-      "code": "HOCR",
-      "species": 3
+      "code": "COSP",
+      "species": 6
     },
     "bkskit1": {
-      "code": "ABSK",
-      "species": 2
+      "code": "ELCA",
+      "species": 3
     },
     "baitea": {
-      "code": "BATE",
+      "code": "SIFO",
       "species": 2
     },
     "tancoc1": {
-      "code": "TACO",
-      "species": 2
+      "code": "CAGO",
+      "species": 3
     },
     "yellow2": {
-      "code": "YELL",
-      "species": 3
-    },
-    "yefpar5": {
-      "code": "YFPA",
-      "species": 4
-    },
-    "meypar1": {
-      "code": "MEPA",
-      "species": 2
-    },
-    "gowwar": {
-      "code": "GWWA",
-      "species": 2
-    },
-    "bubsan": {
-      "code": "BBSA",
-      "species": 4
-    },
-    "corbun1": {
-      "code": "COBU",
-      "species": 4
-    },
-    "gragoo": {
-      "code": "GRGO",
-      "species": 2
-    },
-    "gyhlap1": {
-      "code": "GHLA",
-      "species": 2
-    },
-    "silver3": {
-      "code": "SILV",
-      "species": 2
-    },
-    "crebun2": {
-      "code": "CRBU",
-      "species": 3
-    },
-    "grepar": {
-      "code": "GRPA",
-      "species": 8
-    },
-    "spofly1": {
-      "code": "SPFL",
+      "code": "EMCI",
       "species": 5
     },
+    "meypar1": {
+      "code": "POME",
+      "species": 7
+    },
+    "golphe": {
+      "code": "CHPI",
+      "species": 6
+    },
+    "gowwar": {
+      "code": "VECH",
+      "species": 2
+    },
+    "palwar5": {
+      "code": "PHPR",
+      "species": 3
+    },
+    "eugplo": {
+      "code": "PLAP",
+      "species": 2
+    },
+    "amegfi": {
+      "code": "SPTR",
+      "species": 2
+    },
+    "savspa": {
+      "code": "PASA",
+      "species": 9
+    },
+    "bubsan": {
+      "code": "CASU",
+      "species": 10
+    },
+    "corbun1": {
+      "code": "EMCA",
+      "species": 2
+    },
+    "pecsan": {
+      "code": "CAME",
+      "species": 11
+    },
+    "gragoo": {
+      "code": "ANAN",
+      "species": 8
+    },
+    "grccra1": {
+      "code": "BARE",
+      "species": 2
+    },
+    "purswa3": {
+      "code": "POPO",
+      "species": 7
+    },
+    "ashgoo1": {
+      "code": "CHPO",
+      "species": 5
+    },
+    "grhgul": {
+      "code": "CHCI",
+      "species": 6
+    },
+    "silver3": {
+      "code": "ZOLA",
+      "species": 3
+    },
+    "grygul": {
+      "code": "LEMO",
+      "species": 3
+    },
+    "crebun2": {
+      "code": "EMCA",
+      "species": 2
+    },
+    "grepar": {
+      "code": "PSER",
+      "species": 2
+    },
+    "graher1": {
+      "code": "ARCI",
+      "species": 3
+    },
+    "spofly1": {
+      "code": "MUST",
+      "species": 2
+    },
     "gyttat1": {
-      "code": "GTTA",
+      "code": "TRBR",
+      "species": 3
+    },
+    "gyfwoo1": {
+      "code": "PICA",
+      "species": 5
+    },
+    "graeao1": {
+      "code": "BUCI",
       "species": 2
     },
     "gycthr": {
-      "code": "GCTH",
-      "species": 2
-    },
-    "grtgra": {
-      "code": "GTGR",
-      "species": 2
+      "code": "CAMI",
+      "species": 4
     },
     "grebus1": {
-      "code": "GRBU",
-      "species": 5
+      "code": "OTTA",
+      "species": 2
     },
     "blkgui": {
-      "code": "BLGU",
+      "code": "CEGR",
       "species": 3
     },
     "eurgre1": {
-      "code": "EUGR",
-      "species": 2
-    },
-    "grewar3": {
-      "code": "GRWA",
-      "species": 10
-    },
-    "eugwoo2": {
-      "code": "EGWO",
-      "species": 2
-    },
-    "blhpar4": {
-      "code": "BHPA",
+      "code": "CHCH",
       "species": 7
     },
-    "belkin1": {
-      "code": "BEKI",
-      "species": 3
-    },
-    "boneag2": {
-      "code": "BOEA",
-      "species": 3
-    },
-    "pingro": {
-      "code": "PIGR",
-      "species": 2
-    },
-    "aussho1": {
-      "code": "AUSH",
+    "ragmac1": {
+      "code": "ARCH",
       "species": 6
     },
-    "varthr": {
-      "code": "VATH",
+    "grewar3": {
+      "code": "PHTR",
+      "species": 6
+    },
+    "grnher": {
+      "code": "BUVI",
       "species": 2
     },
-    "blkfra": {
-      "code": "BLFR",
-      "species": 2
+    "gbesta1": {
+      "code": "LACH",
+      "species": 3
+    },
+    "eugwoo2": {
+      "code": "PIVI",
+      "species": 4
+    },
+    "recpar": {
+      "code": "AMVI",
+      "species": 4
+    },
+    "blhpar4": {
+      "code": "PIME",
+      "species": 6
+    },
+    "commer": {
+      "code": "MEME",
+      "species": 10
+    },
+    "belkin1": {
+      "code": "MEAL",
+      "species": 10
     },
     "ausshe1": {
-      "code": "CBSH",
-      "species": 2
+      "code": "TATA",
+      "species": 4
     },
     "colfly1": {
-      "code": "COFL",
-      "species": 3
+      "code": "FIAL",
+      "species": 2
+    },
+    "hazgro1": {
+      "code": "TEBO",
+      "species": 2
     },
     "crelar1": {
-      "code": "CRLA",
-      "species": 2
+      "code": "GACR",
+      "species": 3
     },
-    "cremyn": {
-      "code": "CRMY",
-      "species": 2
+    "cretit2": {
+      "code": "LOCR",
+      "species": 4
     },
-    "pacpar2": {
-      "code": "PAPA",
+    "grcgre1": {
+      "code": "POCR",
+      "species": 3
+    },
+    "houfin": {
+      "code": "HAME",
       "species": 5
     },
-    "commyn": {
-      "code": "COMY",
+    "blared1": {
+      "code": "PHOC",
       "species": 2
     },
-    "stodov1": {
-      "code": "STDO",
+    "houspa": {
+      "code": "PADO",
+      "species": 4
+    },
+    "hawgoo": {
+      "code": "BRSA",
+      "species": 4
+    },
+    "dunnoc1": {
+      "code": "PRMO",
+      "species": 5
+    },
+    "rutscr1": {
+      "code": "CEGA",
       "species": 2
     },
-    "whimbr3": {
-      "code": "HUWH",
-      "species": 2
+    "wilpta1": {
+      "code": "LASC",
+      "species": 4
     },
-    "grscuc1": {
-      "code": "GSCU",
-      "species": 2
+    "lbbgul": {
+      "code": "LAFU",
+      "species": 4
     },
-    "cabgoo1": {
-      "code": "CBGO",
-      "species": 2
-    },
-    "subwar6": {
-      "code": "SUWA",
+    "pacpar2": {
+      "code": "FOCO",
       "species": 3
     },
-    "indbun": {
-      "code": "INBU",
-      "species": 3
-    },
-    "incter1": {
-      "code": "INTE",
+    "hudgod": {
+      "code": "LIHA",
       "species": 2
     },
-    "weowar1": {
-      "code": "WOWA",
+    "norhar2": {
+      "code": "CIHU",
+      "species": 4
+    },
+    "whwsco2": {
+      "code": "MEDE",
+      "species": 2
+    },
+    "mutswa": {
+      "code": "CYOL",
       "species": 3
     },
-    "isawhe1": {
-      "code": "ISWH",
+    "isbduc1": {
+      "code": "ANPO",
+      "species": 3
+    },
+    "insowl1": {
+      "code": "OTBA",
       "species": 2
     },
     "itaspa1": {
-      "code": "ITSP",
+      "code": "PAIT",
       "species": 2
+    },
+    "rinphe1": {
+      "code": "PHCO",
+      "species": 10
+    },
+    "japqua": {
+      "code": "COJA",
+      "species": 4
+    },
+    "demcra1": {
+      "code": "GRVI",
+      "species": 5
+    },
+    "laukoo1": {
+      "code": "DANO",
+      "species": 2
+    },
+    "empgoo": {
+      "code": "ANCA",
+      "species": 11
     },
     "callar1": {
-      "code": "CALA",
-      "species": 2
+      "code": "MECA",
+      "species": 13
     },
-    "lessca": {
-      "code": "LESC",
-      "species": 2
+    "kalphe": {
+      "code": "LOLE",
+      "species": 4
+    },
+    "ruff": {
+      "code": "CAPU",
+      "species": 11
+    },
+    "slbgul": {
+      "code": "LASC",
+      "species": 4
+    },
+    "whwsco1": {
+      "code": "MEST",
+      "species": 8
+    },
+    "cangoo": {
+      "code": "BRCA",
+      "species": 4
     },
     "sancra": {
-      "code": "SACR",
-      "species": 3
-    },
-    "amhgul1": {
-      "code": "AHGU",
-      "species": 3
+      "code": "ANCA",
+      "species": 11
     },
     "amewig": {
-      "code": "AMWI",
-      "species": 2
-    },
-    "grbher3": {
-      "code": "GBWH",
-      "species": 3
+      "code": "MAAM",
+      "species": 5
     },
     "canwar": {
-      "code": "CAWA",
-      "species": 2
+      "code": "CACA",
+      "species": 22
+    },
+    "comcan": {
+      "code": "SECA",
+      "species": 6
     },
     "soashe1": {
-      "code": "SASH",
-      "species": 4
+      "code": "TACA",
+      "species": 3
     },
     "blhbun1": {
-      "code": "BHBU",
-      "species": 4
+      "code": "MEME",
+      "species": 10
     },
     "greshe": {
-      "code": "GRSH",
+      "code": "ARGR",
+      "species": 4
+    },
+    "hoomer": {
+      "code": "LOCU",
+      "species": 3
+    },
+    "comros": {
+      "code": "CAER",
       "species": 3
     },
     "chetea1": {
-      "code": "CHTE",
-      "species": 2
-    },
-    "barpar1": {
-      "code": "BAPA",
-      "species": 4
+      "code": "ANCA",
+      "species": 11
     },
     "grycat": {
-      "code": "GRCA",
-      "species": 2
-    },
-    "parcro2": {
-      "code": "PACR",
+      "code": "DUCA",
       "species": 4
     },
-    "litcra1": {
-      "code": "LICR",
+    "hawfin": {
+      "code": "COCO",
+      "species": 19
+    },
+    "parcro2": {
+      "code": "LOPY",
       "species": 2
     },
-    "bawwar": {
-      "code": "BAWW",
-      "species": 2
+    "leswhi4": {
+      "code": "CUCU",
+      "species": 3
+    },
+    "litcra1": {
+      "code": "ZAPA",
+      "species": 3
+    },
+    "redkno": {
+      "code": "CACA",
+      "species": 22
     },
     "gretit1": {
-      "code": "EGTI",
-      "species": 2
+      "code": "PAMA",
+      "species": 11
+    },
+    "recpoc": {
+      "code": "NERU",
+      "species": 5
+    },
+    "comrav": {
+      "code": "COCO",
+      "species": 19
+    },
+    "lessap2": {
+      "code": "ANMO",
+      "species": 6
     },
     "refpar5": {
-      "code": "RFPA",
-      "species": 12
+      "code": "POGU",
+      "species": 3
+    },
+    "audgul1": {
+      "code": "ICAU",
+      "species": 3
     },
     "grecor": {
-      "code": "BLSH",
+      "code": "PHCA",
+      "species": 12
+    },
+    "norhar1": {
+      "code": "CICY",
+      "species": 2
+    },
+    "categr2": {
+      "code": "ARCO",
+      "species": 5
+    },
+    "doveki": {
+      "code": "ALAL",
       "species": 2
     },
     "harduc": {
-      "code": "HADU",
+      "code": "HIHI",
+      "species": 2
+    },
+    "comcra": {
+      "code": "GRGR",
+      "species": 8
+    },
+    "gnwtea": {
+      "code": "ANCR",
       "species": 3
     },
-    "dalpel1": {
-      "code": "DAPE",
-      "species": 2
+    "eacwar1": {
+      "code": "PHCO",
+      "species": 10
+    },
+    "yerwar": {
+      "code": "SECO",
+      "species": 3
+    },
+    "grefla2": {
+      "code": "PHRU",
+      "species": 11
     },
     "comcuc": {
-      "code": "COCU",
+      "code": "CUCA",
       "species": 3
     },
-    "reephe1": {
-      "code": "REPH",
+    "blhduc1": {
+      "code": "HEAT",
       "species": 2
+    },
+    "pifgoo": {
+      "code": "ANBR",
+      "species": 4
+    },
+    "gstlar1": {
+      "code": "CABR",
+      "species": 7
+    },
+    "ferhaw": {
+      "code": "BURE",
+      "species": 2
+    },
+    "royter1": {
+      "code": "THMA",
+      "species": 2
+    },
+    "arcter": {
+      "code": "STPA",
+      "species": 8
     },
     "bkhgul": {
-      "code": "BHGU",
+      "code": "CHRI",
       "species": 3
+    },
+    "gubter2": {
+      "code": "GENI",
+      "species": 2
+    },
+    "afcdov1": {
+      "code": "STRO",
+      "species": 4
+    },
+    "lobmur": {
+      "code": "BRPE",
+      "species": 2
     },
     "lotsti": {
-      "code": "LTST",
+      "code": "CASU",
+      "species": 10
+    },
+    "azutit2": {
+      "code": "CYCY",
+      "species": 11
+    },
+    "layduc": {
+      "code": "ANLA",
+      "species": 7
+    },
+    "lazbun": {
+      "code": "PAAM",
       "species": 2
-    },
-    "lanfal1": {
-      "code": "LAFA",
-      "species": 3
-    },
-    "verfly4": {
-      "code": "VEFL",
-      "species": 5
     },
     "subwar8": {
-      "code": "MOWA",
-      "species": 6
-    },
-    "melduc1": {
-      "code": "MEDU",
+      "code": "CUSU",
       "species": 2
     },
+    "norsho": {
+      "code": "SPCL",
+      "species": 2
+    },
+    "eurspo1": {
+      "code": "PLLE",
+      "species": 3
+    },
+    "melduc1": {
+      "code": "ANME",
+      "species": 6
+    },
+    "madpet": {
+      "code": "PTMA",
+      "species": 6
+    },
+    "barpet": {
+      "code": "HYCA",
+      "species": 7
+    },
+    "uplgoo1": {
+      "code": "CHPI",
+      "species": 6
+    },
     "afrcha1": {
-      "code": "AFCH",
+      "code": "FRSP",
       "species": 2
     },
     "magwar": {
-      "code": "MAWA",
-      "species": 8
-    },
-    "manduc": {
-      "code": "MADU",
-      "species": 6
+      "code": "SEMA",
+      "species": 5
     },
     "reccra1": {
-      "code": "RCCR",
-      "species": 3
+      "code": "GRJA",
+      "species": 4
+    },
+    "gbbgul": {
+      "code": "LAMA",
+      "species": 4
     },
     "marsto1": {
-      "code": "MAST",
-      "species": 8
+      "code": "LECR",
+      "species": 2
     },
     "mouwar1": {
-      "code": "MOWA",
-      "species": 6
+      "code": "ACME",
+      "species": 3
     },
     "martea1": {
-      "code": "MADU",
-      "species": 6
+      "code": "MAAN",
+      "species": 8
     },
     "bkfbun1": {
-      "code": "BFBU",
-      "species": 4
+      "code": "SCSP",
+      "species": 8
     },
-    "masshr1": {
-      "code": "MASH",
-      "species": 6
+    "ruewar1": {
+      "code": "CURU",
+      "species": 2
+    },
+    "afmwea": {
+      "code": "PLVE",
+      "species": 2
     },
     "comswi": {
-      "code": "COSW",
-      "species": 4
+      "code": "APAP",
+      "species": 2
     },
     "schpar1": {
-      "code": "SHPA",
+      "code": "PIMA",
+      "species": 5
+    },
+    "pursan": {
+      "code": "CAMA",
+      "species": 14
+    },
+    "lotros1": {
+      "code": "CASI",
       "species": 6
     },
-    "norpar": {
-      "code": "NOPA",
+    "merlin": {
+      "code": "FACO",
       "species": 2
+    },
+    "lbesta1": {
+      "code": "LACH",
+      "species": 3
     },
     "grewar2": {
-      "code": "TBWA",
-      "species": 7
+      "code": "PHPL",
+      "species": 3
     },
-    "misthr1": {
-      "code": "MITH",
-      "species": 4
-    },
-    "rebmer": {
-      "code": "RBME",
+    "yelgul1": {
+      "code": "LAMI",
       "species": 2
     },
-    "gncpar": {
-      "code": "GCPA",
+    "miswoo1": {
+      "code": "DEME",
+      "species": 2
+    },
+    "rebmer": {
+      "code": "MESE",
+      "species": 2
+    },
+    "dausta1": {
+      "code": "AGST",
+      "species": 2
+    },
+    "shbdow": {
+      "code": "LIGR",
+      "species": 4
+    },
+    "eurdot": {
+      "code": "EUMO",
       "species": 3
     },
     "musduc": {
-      "code": "MUDU",
-      "species": 2
+      "code": "CAMO",
+      "species": 5
     },
-    "mugfly": {
-      "code": "MUFL",
-      "species": 2
+    "nutman": {
+      "code": "LOPU",
+      "species": 3
     },
     "manduc1": {
-      "code": "AWDU",
+      "code": "CHJU",
       "species": 2
     },
     "combuz1": {
-      "code": "EUBU",
+      "code": "BUBU",
+      "species": 4
+    },
+    "cinvul1": {
+      "code": "AEMO",
+      "species": 2
+    },
+    "blackc1": {
+      "code": "SYAT",
       "species": 2
     },
     "monpar": {
-      "code": "MOPA",
+      "code": "MYMO",
       "species": 2
     },
     "wlswar": {
-      "code": "WIWA",
-      "species": 4
+      "code": "CAPU",
+      "species": 11
     },
-    "comnig1": {
-      "code": "CONI",
+    "meapar": {
+      "code": "AMFA",
       "species": 3
     },
     "eaowar2": {
-      "code": "EOWA",
-      "species": 2
+      "code": "CUCR",
+      "species": 3
     },
     "bkhpar": {
-      "code": "NAPA",
-      "species": 2
+      "code": "ARNE",
+      "species": 4
     },
-    "grerhe1": {
-      "code": "GRRH",
-      "species": 2
+    "hoocro1": {
+      "code": "COCO",
+      "species": 19
     },
     "rebshr1": {
-      "code": "RBSH",
-      "species": 2
+      "code": "LACO",
+      "species": 4
     },
     "renpha": {
-      "code": "RNPH",
+      "code": "PHLO",
+      "species": 4
+    },
+    "horlar": {
+      "code": "ERAL",
       "species": 2
     },
-    "horgre": {
-      "code": "SLGR",
+    "oripra": {
+      "code": "GLMA",
       "species": 2
     },
     "oripip1": {
-      "code": "PAPI",
+      "code": "ANRU",
+      "species": 11
+    },
+    "ortdov": {
+      "code": "STOR",
+      "species": 2
+    },
+    "redbis": {
+      "code": "EUOR",
+      "species": 3
+    },
+    "palbun": {
+      "code": "SCPA",
       "species": 6
     },
-    "weowar2": {
-      "code": "WOWA",
-      "species": 3
-    },
-    "melwar1": {
-      "code": "MEWA",
-      "species": 3
-    },
-    "ortbun1": {
-      "code": "ORBU",
-      "species": 3
-    },
     "sibsto1": {
-      "code": "SIST",
+      "code": "SAMA",
+      "species": 5
+    },
+    "laudov1": {
+      "code": "SPSE",
       "species": 3
     },
     "subwar2": {
-      "code": "SBWA",
-      "species": 8
+      "code": "PHGR",
+      "species": 5
+    },
+    "atlpuf": {
+      "code": "FRAR",
+      "species": 2
     },
     "paibun": {
-      "code": "PABU",
-      "species": 4
+      "code": "PACI",
+      "species": 9
+    },
+    "parshe1": {
+      "code": "TAVA",
+      "species": 2
     },
     "whepar2": {
-      "code": "WEPA",
+      "code": "PSLE",
       "species": 3
     },
     "fotswi": {
-      "code": "FTSW",
+      "code": "APPA",
       "species": 4
+    },
+    "pacloo": {
+      "code": "GAPA",
+      "species": 6
     },
     "blksco2": {
-      "code": "BLSC",
-      "species": 2
+      "code": "MEAM",
+      "species": 3
     },
     "madpar2": {
-      "code": "MAPA",
-      "species": 8
+      "code": "MAMA",
+      "species": 16
     },
     "pecpip": {
-      "code": "PEPI",
+      "code": "ANGU",
       "species": 4
+    },
+    "compea": {
+      "code": "PACR",
+      "species": 6
+    },
+    "eurwig": {
+      "code": "MAPE",
+      "species": 8
     },
     "plhpar1": {
-      "code": "PHPA",
-      "species": 7
+      "code": "PSCY",
+      "species": 3
     },
     "batgod": {
-      "code": "BTGO",
+      "code": "LILA",
       "species": 3
+    },
+    "sacibi2": {
+      "code": "THAE",
+      "species": 2
+    },
+    "egynig1": {
+      "code": "CAAE",
+      "species": 2
+    },
+    "phivir": {
+      "code": "VIPH",
+      "species": 2
     },
     "phiduc1": {
-      "code": "PHDU",
+      "code": "ANLU",
       "species": 2
     },
-    "comgra": {
-      "code": "COGR",
-      "species": 5
-    },
-    "purswa1": {
-      "code": "WESW",
+    "ovenbi1": {
+      "code": "SEAU",
       "species": 2
     },
-    "carcro1": {
-      "code": "CACR",
-      "species": 4
-    },
-    "radshe1": {
-      "code": "RASH",
-      "species": 2
-    },
-    "caster1": {
-      "code": "CATE",
+    "eugori2": {
+      "code": "OROR",
       "species": 3
     },
-    "norshr1": {
-      "code": "GGSH",
+    "speeid": {
+      "code": "SOFI",
+      "species": 3
+    },
+    "y00478": {
+      "code": "LAGL",
       "species": 2
+    },
+    "kineid": {
+      "code": "SOSP",
+      "species": 4
+    },
+    "amgplo": {
+      "code": "PLDO",
+      "species": 3
+    },
+    "fragul": {
+      "code": "LEPI",
+      "species": 2
+    },
+    "puntea1": {
+      "code": "SPPU",
+      "species": 3
+    },
+    "pugsta1": {
+      "code": "LAPU",
+      "species": 4
+    },
+    "comgra": {
+      "code": "QUQU",
+      "species": 2
+    },
+    "purswa1": {
+      "code": "POPO",
+      "species": 7
+    },
+    "purmar": {
+      "code": "PRSU",
+      "species": 6
+    },
+    "hottea1": {
+      "code": "SPHO",
+      "species": 5
+    },
+    "blkvul": {
+      "code": "COAT",
+      "species": 4
+    },
+    "carcro1": {
+      "code": "COCO",
+      "species": 19
+    },
+    "larspa": {
+      "code": "CHGR",
+      "species": 6
+    },
+    "caster1": {
+      "code": "HYCA",
+      "species": 7
+    },
+    "norshr1": {
+      "code": "LAEX",
+      "species": 3
     },
     "barswa": {
-      "code": "BARS",
-      "species": 2
+      "code": "HIRU",
+      "species": 3
+    },
+    "rolhaw": {
+      "code": "BULA",
+      "species": 3
+    },
+    "borowl": {
+      "code": "AEFU",
+      "species": 3
     },
     "grypar": {
-      "code": "GRAP",
-      "species": 2
+      "code": "PEPE",
+      "species": 5
+    },
+    "railor5": {
+      "code": "TRMO",
+      "species": 7
     },
     "javspa": {
-      "code": "JASP",
+      "code": "PAOR",
       "species": 4
     },
     "crccou1": {
-      "code": "CCCO",
+      "code": "CUCU",
       "species": 3
     },
     "stseag": {
-      "code": "SSEA",
-      "species": 3
+      "code": "HAPE",
+      "species": 2
+    },
+    "cowpig1": {
+      "code": "COPA",
+      "species": 15
     },
     "reebun": {
-      "code": "REBU",
+      "code": "SCSC",
       "species": 3
     },
+    "grebit1": {
+      "code": "BOST",
+      "species": 4
+    },
     "savwar1": {
-      "code": "SAWA",
-      "species": 2
+      "code": "LOLU",
+      "species": 3
     },
     "grefla3": {
-      "code": "GRFL",
-      "species": 7
-    },
-    "grwpel1": {
-      "code": "GWPE",
-      "species": 2
-    },
-    "robgro": {
-      "code": "RBGR",
-      "species": 2
+      "code": "PHRO",
+      "species": 4
     },
     "palros2": {
-      "code": "PARO",
-      "species": 5
-    },
-    "blhpar3": {
-      "code": "BHPA",
+      "code": "CARO",
       "species": 7
     },
+    "blhpar3": {
+      "code": "PSRO",
+      "species": 3
+    },
     "peflov": {
-      "code": "RFLO",
+      "code": "AGRO",
+      "species": 2
+    },
+    "rosgul": {
+      "code": "RHRO",
+      "species": 3
+    },
+    "pieduc1": {
+      "code": "MAME",
+      "species": 5
+    },
+    "robpoc1": {
+      "code": "NEPE",
       "species": 3
     },
     "roster": {
-      "code": "ROST",
+      "code": "STDO",
       "species": 3
     },
+    "rossta2": {
+      "code": "PARO",
+      "species": 7
+    },
+    "rudshe": {
+      "code": "TAFE",
+      "species": 2
+    },
+    "dusthr1": {
+      "code": "TUNA",
+      "species": 2
+    },
     "rebnut": {
-      "code": "RBNU",
+      "code": "SICA",
+      "species": 5
+    },
+    "rewbla": {
+      "code": "AGPH",
+      "species": 2
+    },
+    "refboo": {
+      "code": "SUSU",
+      "species": 3
+    },
+    "afrspo1": {
+      "code": "PLAL",
+      "species": 5
+    },
+    "rebgoo1": {
+      "code": "BRRU",
       "species": 2
     },
     "rengre": {
-      "code": "RNGR",
-      "species": 2
+      "code": "POGR",
+      "species": 4
+    },
+    "relpar1": {
+      "code": "ALRU",
+      "species": 4
     },
     "norcar": {
-      "code": "NOCA",
-      "species": 2
+      "code": "CACA",
+      "species": 22
+    },
+    "rensti": {
+      "code": "CARU",
+      "species": 12
     },
     "eurrob1": {
-      "code": "EURO",
-      "species": 4
+      "code": "ERRU",
+      "species": 3
     },
     "retthr1": {
-      "code": "RTTH",
-      "species": 3
+      "code": "TURU",
+      "species": 8
     },
     "retpip": {
-      "code": "RTPI",
+      "code": "ANCE",
       "species": 2
     },
-    "retpar3": {
-      "code": "RTPA",
+    "ruhgoo1": {
+      "code": "CHRU",
+      "species": 10
+    },
+    "schbla1": {
+      "code": "AMHO",
       "species": 3
     },
-    "rewlap1": {
-      "code": "RWLA",
-      "species": 4
-    },
-    "rewbul": {
-      "code": "RWBU",
+    "wooshr1": {
+      "code": "LASE",
       "species": 2
     },
+    "rewlap1": {
+      "code": "VAIN",
+      "species": 2
+    },
+    "redkit1": {
+      "code": "MIMI",
+      "species": 6
+    },
     "bbwduc": {
-      "code": "BBWD",
+      "code": "DEAU",
       "species": 2
     },
     "reblei": {
-      "code": "RBLE",
+      "code": "LELU",
       "species": 2
     },
     "rebtro": {
-      "code": "RBTR",
-      "species": 4
-    },
-    "reccar": {
-      "code": "RCCA",
-      "species": 3
-    },
-    "rintea1": {
-      "code": "RITE",
+      "code": "PHAE",
       "species": 2
     },
+    "rebduc1": {
+      "code": "ANER",
+      "species": 2
+    },
+    "reccar": {
+      "code": "PACO",
+      "species": 6
+    },
+    "rintea1": {
+      "code": "CALE",
+      "species": 9
+    },
+    "amered": {
+      "code": "SERU",
+      "species": 3
+    },
     "rethaw": {
-      "code": "RTHA",
+      "code": "BUJA",
+      "species": 2
+    },
+    "rutshr2": {
+      "code": "LAPH",
       "species": 2
     },
     "relpar10": {
-      "code": "RLAM",
-      "species": 2
-    },
-    "blclov1": {
-      "code": "BCLO",
+      "code": "AMAU",
       "species": 4
     },
+    "fifser1": {
+      "code": "SEPU",
+      "species": 2
+    },
+    "sibrub": {
+      "code": "CACA",
+      "species": 22
+    },
+    "blclov1": {
+      "code": "AGNI",
+      "species": 2
+    },
+    "sooter1": {
+      "code": "ONFU",
+      "species": 2
+    },
     "chebun1": {
-      "code": "CHBU",
-      "species": 5
+      "code": "SCRU",
+      "species": 9
+    },
+    "pibpel1": {
+      "code": "PERU",
+      "species": 9
     },
     "rerswa8": {
-      "code": "ERRS",
+      "code": "CERU",
+      "species": 4
+    },
+    "ruepar1": {
+      "code": "PORU",
+      "species": 11
+    },
+    "lecter2": {
+      "code": "THBE",
+      "species": 6
+    },
+    "rook1": {
+      "code": "COFR",
       "species": 2
     },
     "afdwar1": {
-      "code": "ADWA",
-      "species": 3
+      "code": "CUDE",
+      "species": 2
+    },
+    "whtwhe1": {
+      "code": "OELE",
+      "species": 2
     },
     "duccoc1": {
-      "code": "SOCO",
+      "code": "CADU",
       "species": 4
     },
+    "whwsco3": {
+      "code": "MEFU",
+      "species": 5
+    },
     "sarwar1": {
-      "code": "SAWA",
+      "code": "CUME",
       "species": 2
+    },
+    "sander": {
+      "code": "CAAL",
+      "species": 6
+    },
+    "semsan": {
+      "code": "CAPU",
+      "species": 11
     },
     "marwar1": {
-      "code": "MAWA",
-      "species": 8
-    },
-    "sattra1": {
-      "code": "SATR",
-      "species": 2
-    },
-    "scamac1": {
-      "code": "SCMA",
+      "code": "CUSA",
       "species": 3
     },
+    "sattra1": {
+      "code": "TRSA",
+      "species": 2
+    },
+    "lotshr1": {
+      "code": "LASC",
+      "species": 4
+    },
+    "eaywag1": {
+      "code": "MOFL",
+      "species": 6
+    },
+    "scamac1": {
+      "code": "ARMA",
+      "species": 10
+    },
     "scatan": {
-      "code": "SCTA",
+      "code": "PIOL",
+      "species": 2
+    },
+    "scaibi": {
+      "code": "EURU",
+      "species": 5
+    },
+    "ncbeat1": {
+      "code": "MENU",
+      "species": 2
+    },
+    "steeid": {
+      "code": "POST",
       "species": 6
     },
     "sibthr1": {
-      "code": "SITH",
-      "species": 5
+      "code": "GESI",
+      "species": 2
     },
     "piecro1": {
-      "code": "PICR",
-      "species": 2
+      "code": "COAL",
+      "species": 14
     },
     "suppar1": {
-      "code": "SUPA",
-      "species": 4
-    },
-    "sedwar1": {
-      "code": "SEWA",
-      "species": 3
-    },
-    "eurwar2": {
-      "code": "RIWA",
+      "code": "POSW",
       "species": 2
     },
+    "sedwar1": {
+      "code": "ACSC",
+      "species": 2
+    },
+    "eurwar2": {
+      "code": "LOFL",
+      "species": 5
+    },
     "shteag1": {
-      "code": "STEA",
-      "species": 4
+      "code": "CIGA",
+      "species": 2
     },
     "webowl1": {
-      "code": "EBOW",
+      "code": "TYAL",
+      "species": 2
+    },
+    "parjae": {
+      "code": "STPA",
+      "species": 8
+    },
+    "reccor": {
+      "code": "URBE",
       "species": 2
     },
     "egyvul1": {
-      "code": "EGVU",
-      "species": 2
-    },
-    "snobun": {
-      "code": "SNBU",
-      "species": 2
-    },
-    "snoowl1": {
-      "code": "SNOW",
+      "code": "NEPE",
       "species": 3
     },
+    "gadwal": {
+      "code": "MAST",
+      "species": 13
+    },
+    "snobun": {
+      "code": "PLNI",
+      "species": 6
+    },
+    "snoowl1": {
+      "code": "BUSC",
+      "species": 3
+    },
+    "snogoo": {
+      "code": "ANCA",
+      "species": 11
+    },
     "whiibi": {
-      "code": "WHIB",
+      "code": "EUAL",
+      "species": 3
+    },
+    "whwsno1": {
+      "code": "MONI",
+      "species": 6
+    },
+    "y00678": {
+      "code": "CAPL",
       "species": 2
     },
     "calqua": {
-      "code": "CAQU",
-      "species": 2
+      "code": "CACA",
+      "species": 22
     },
     "chiswi": {
-      "code": "CHSW",
-      "species": 4
-    },
-    "strowl1": {
-      "code": "STRO",
-      "species": 2
-    },
-    "sabgul": {
-      "code": "SAGU",
-      "species": 2
-    },
-    "swipar1": {
-      "code": "SWPA",
+      "code": "CHPE",
       "species": 3
     },
-    "swagoo1": {
-      "code": "SWGO",
+    "scocro1": {
+      "code": "LOSC",
+      "species": 3
+    },
+    "lottit1": {
+      "code": "AECA",
       "species": 2
     },
-    "blbthr2": {
-      "code": "BBTH",
-      "species": 6
+    "amebit": {
+      "code": "BOLE",
+      "species": 2
+    },
+    "bkbalb": {
+      "code": "THME",
+      "species": 7
     },
     "afbduc1": {
-      "code": "ABDU",
-      "species": 2
+      "code": "ANSP",
+      "species": 3
     },
     "blwpra1": {
-      "code": "BWPR",
+      "code": "GLNO",
       "species": 2
     },
     "blnswa2": {
-      "code": "BNSW",
-      "species": 2
+      "code": "CYME",
+      "species": 3
+    },
+    "eargre": {
+      "code": "PONI",
+      "species": 4
     },
     "blcpar1": {
-      "code": "BCPA",
+      "code": "PYRU",
       "species": 3
     },
     "stonec4": {
-      "code": "EUST",
-      "species": 2
+      "code": "SARU",
+      "species": 3
     },
     "datthr1": {
-      "code": "BTTH",
-      "species": 4
+      "code": "TUAT",
+      "species": 3
     },
     "blacra1": {
-      "code": "BLCR",
-      "species": 2
-    },
-    "rudduc": {
-      "code": "RUDU",
+      "code": "ZAFL",
       "species": 2
     },
     "medgul1": {
-      "code": "MEGU",
+      "code": "ICME",
       "species": 3
     },
-    "bkbcuc": {
-      "code": "BBCU",
-      "species": 10
+    "blakit1": {
+      "code": "MIMI",
+      "species": 6
     },
-    "blkswa": {
-      "code": "BLSW",
+    "bknsti": {
+      "code": "HIME",
+      "species": 2
+    },
+    "blhpar1": {
+      "code": "PIME",
       "species": 6
     },
     "blawoo1": {
-      "code": "BLWO",
+      "code": "DRMA",
       "species": 2
     },
-    "blalar1": {
-      "code": "BLLA",
-      "species": 4
+    "legshr2": {
+      "code": "LAMI",
+      "species": 2
     },
     "blasto1": {
-      "code": "BLST",
-      "species": 2
+      "code": "CINI",
+      "species": 3
     },
     "bkfibi1": {
-      "code": "BFIB",
-      "species": 2
-    },
-    "rutrob1": {
-      "code": "RTRO",
-      "species": 2
+      "code": "THME",
+      "species": 7
     },
     "turpar1": {
-      "code": "TUPA",
-      "species": 2
+      "code": "NEPU",
+      "species": 6
     },
     "whteag": {
-      "code": "WTSE",
+      "code": "HAAL",
       "species": 2
     },
-    "bohwax": {
-      "code": "BOWA",
+    "kenplo1": {
+      "code": "ANAL",
+      "species": 8
+    },
+    "aquwar1": {
+      "code": "ACPA",
       "species": 2
     },
     "cetwar1": {
-      "code": "CEWA",
-      "species": 3
+      "code": "CECE",
+      "species": 2
     },
     "senpar": {
-      "code": "SEPA",
-      "species": 3
-    },
-    "scoshe1": {
-      "code": "SCSH",
-      "species": 5
-    },
-    "sibpip1": {
-      "code": "BBPI",
-      "species": 6
-    },
-    "sonspa": {
-      "code": "SOSP",
-      "species": 3
-    },
-    "sonthr1": {
-      "code": "SOTH",
-      "species": 3
-    },
-    "rerpar1": {
-      "code": "RRPA",
-      "species": 2
-    },
-    "firecr1": {
-      "code": "COFI",
-      "species": 6
-    },
-    "sunpar1": {
-      "code": "SUPA",
+      "code": "POSE",
       "species": 4
     },
-    "grejun2": {
-      "code": "GRJU",
-      "species": 2
-    },
-    "bargol": {
-      "code": "BAGO",
-      "species": 2
-    },
-    "barwar1": {
-      "code": "BAWA",
-      "species": 10
-    },
-    "norpin": {
-      "code": "NOPI",
-      "species": 2
-    },
-    "yebpin1": {
-      "code": "YBPI",
-      "species": 2
-    },
-    "bucpar": {
-      "code": "BCPA",
+    "scoshe1": {
+      "code": "CADI",
       "species": 3
     },
-    "spwgoo1": {
-      "code": "SWGO",
+    "sibpip1": {
+      "code": "ANJA",
+      "species": 3
+    },
+    "falduc": {
+      "code": "MAFA",
+      "species": 5
+    },
+    "cursan": {
+      "code": "CAFE",
       "species": 2
+    },
+    "euhgul1": {
+      "code": "LAAR",
+      "species": 2
+    },
+    "greegr": {
+      "code": "ARAL",
+      "species": 4
+    },
+    "sonspa": {
+      "code": "MEME",
+      "species": 10
+    },
+    "sonthr1": {
+      "code": "TUPH",
+      "species": 2
+    },
+    "whoswa": {
+      "code": "CYCY",
+      "species": 11
+    },
+    "rerpar1": {
+      "code": "PSHA",
+      "species": 2
+    },
+    "milmac": {
+      "code": "ARMI",
+      "species": 3
+    },
+    "sunpar1": {
+      "code": "ARSO",
+      "species": 2
+    },
+    "grejun2": {
+      "code": "GASO",
+      "species": 2
+    },
+    "pomjae": {
+      "code": "STPO",
+      "species": 2
+    },
+    "eurspa1": {
+      "code": "ACNI",
+      "species": 4
+    },
+    "ruegri1": {
+      "code": "GYRU",
+      "species": 3
+    },
+    "barwar1": {
+      "code": "CUNI",
+      "species": 3
+    },
+    "eupowl1": {
+      "code": "GLPA",
+      "species": 4
+    },
+    "whrmun": {
+      "code": "LOST",
+      "species": 4
+    },
+    "shtsan": {
+      "code": "CAAC",
+      "species": 2
+    },
+    "laplon": {
+      "code": "CALA",
+      "species": 7
+    },
+    "spwgoo1": {
+      "code": "PLGA",
+      "species": 3
     },
     "ricpip1": {
-      "code": "RIPI",
-      "species": 2
-    },
-    "eursta": {
-      "code": "EUST",
+      "code": "ANRI",
       "species": 2
     },
     "rocpar2": {
-      "code": "ROPA",
-      "species": 6
+      "code": "ALGR",
+      "species": 4
     },
-    "norwhe": {
-      "code": "NOWH",
-      "species": 2
+    "rtrthr1": {
+      "code": "MOSA",
+      "species": 4
     },
     "rocpet1": {
-      "code": "ROSP",
-      "species": 4
+      "code": "PEPE",
+      "species": 5
     },
     "rudtur": {
-      "code": "RUTU",
+      "code": "ARIN",
+      "species": 5
+    },
+    "stonec7": {
+      "code": "SAST",
+      "species": 5
+    },
+    "bkwsti": {
+      "code": "HIHI",
       "species": 2
-    },
-    "steeag1": {
-      "code": "STEA",
-      "species": 4
-    },
-    "palsan1": {
-      "code": "PASA",
-      "species": 2
-    },
-    "soclap1": {
-      "code": "SOLA",
-      "species": 3
     },
     "casgul2": {
-      "code": "CAGU",
-      "species": 3
+      "code": "LACA",
+      "species": 7
     },
     "blypip1": {
-      "code": "BLPI",
+      "code": "ANGO",
       "species": 3
     },
-    "palhar1": {
-      "code": "PAHA",
+    "oriplo1": {
+      "code": "ANVE",
       "species": 2
+    },
+    "palhar1": {
+      "code": "CIMA",
+      "species": 13
     },
     "retloo": {
-      "code": "RTDI",
-      "species": 2
+      "code": "GAST",
+      "species": 4
     },
-    "mallar3": {
-      "code": "MALL",
-      "species": 2
+    "eurgol": {
+      "code": "CACA",
+      "species": 22
+    },
+    "rocpip1": {
+      "code": "ANPE",
+      "species": 5
     },
     "crepar1": {
-      "code": "CRPA",
-      "species": 2
+      "code": "RORO",
+      "species": 4
     },
-    "bahgoo": {
-      "code": "BHGO",
-      "species": 2
-    },
-    "y00621": {
-      "code": "ERRS",
+    "lanwar": {
+      "code": "LOLA",
       "species": 2
     },
     "mewgul": {
-      "code": "COGU",
-      "species": 2
-    },
-    "bripet": {
-      "code": "ESPE",
-      "species": 2
-    },
-    "martit2": {
-      "code": "MATI",
-      "species": 2
-    },
-    "sheowl": {
-      "code": "SEOW",
-      "species": 3
-    },
-    "marwar3": {
-      "code": "MAWA",
-      "species": 8
-    },
-    "taifly1": {
-      "code": "TAFL",
-      "species": 3
-    },
-    "marsan": {
-      "code": "MASA",
-      "species": 3
-    },
-    "redpha1": {
-      "code": "REPH",
-      "species": 2
-    },
-    "grypar10": {
-      "code": "TIPA",
-      "species": 2
-    },
-    "blksco1": {
-      "code": "COSC",
-      "species": 3
-    },
-    "cargra1": {
-      "code": "CAGR",
+      "code": "LACA",
       "species": 7
     },
+    "bripet": {
+      "code": "HYPE",
+      "species": 6
+    },
+    "brbsan": {
+      "code": "CAFA",
+      "species": 6
+    },
+    "martit2": {
+      "code": "POPA",
+      "species": 7
+    },
+    "sheowl": {
+      "code": "ASFL",
+      "species": 8
+    },
+    "marwar3": {
+      "code": "ACPA",
+      "species": 2
+    },
+    "swspet": {
+      "code": "HYMO",
+      "species": 5
+    },
+    "pieavo1": {
+      "code": "REAV",
+      "species": 2
+    },
+    "sthsee2": {
+      "code": "CRGU",
+      "species": 2
+    },
+    "swfowl1": {
+      "code": "PTGR",
+      "species": 5
+    },
+    "sopsku1": {
+      "code": "STMA",
+      "species": 9
+    },
+    "yecbis": {
+      "code": "EUAF",
+      "species": 2
+    },
+    "taifly1": {
+      "code": "FIAL",
+      "species": 2
+    },
+    "commoo3": {
+      "code": "GACH",
+      "species": 2
+    },
+    "eurwar1": {
+      "code": "ACSC",
+      "species": 2
+    },
+    "marsan": {
+      "code": "TRST",
+      "species": 2
+    },
+    "temsti": {
+      "code": "CATE",
+      "species": 7
+    },
+    "temtra1": {
+      "code": "TRTE",
+      "species": 4
+    },
+    "redpha1": {
+      "code": "PHFU",
+      "species": 10
+    },
+    "blksco1": {
+      "code": "MENI",
+      "species": 9
+    },
     "eupfly1": {
-      "code": "EPFL",
+      "code": "FIHY",
+      "species": 2
+    },
+    "blkter": {
+      "code": "CHNI",
+      "species": 4
+    },
+    "turvul": {
+      "code": "CAAU",
+      "species": 5
+    },
+    "tunbeg1": {
+      "code": "ANSE",
+      "species": 6
+    },
+    "eutdov": {
+      "code": "STTU",
       "species": 2
     },
     "greyel": {
-      "code": "GRYE",
-      "species": 3
+      "code": "TRME",
+      "species": 11
     },
     "spocra1": {
-      "code": "SPCR",
+      "code": "POPO",
+      "species": 7
+    },
+    "eucdov": {
+      "code": "STDE",
+      "species": 3
+    },
+    "banswa": {
+      "code": "RIRI",
+      "species": 2
+    },
+    "eueowl1": {
+      "code": "BUBU",
       "species": 4
     },
     "pllwar1": {
-      "code": "PLLW",
-      "species": 2
+      "code": "PHTE",
+      "species": 3
+    },
+    "orwpar": {
+      "code": "AMAM",
+      "species": 3
     },
     "grhowl": {
-      "code": "GHOW",
-      "species": 3
+      "code": "BUVI",
+      "species": 2
     },
     "norbob": {
-      "code": "NOBO",
-      "species": 2
+      "code": "COVI",
+      "species": 9
     },
     "grnwar1": {
-      "code": "GRWA",
+      "code": "PHNI",
       "species": 10
     },
-    "rusbun": {
-      "code": "RUBU",
+    "comqua1": {
+      "code": "COCO",
+      "species": 19
+    },
+    "corcra": {
+      "code": "CRCR",
       "species": 2
+    },
+    "rusbun": {
+      "code": "SCRU",
+      "species": 9
+    },
+    "eurtre1": {
+      "code": "CEFA",
+      "species": 2
+    },
+    "tawowl1": {
+      "code": "STAL",
+      "species": 7
     },
     "woowar": {
-      "code": "WOWA",
-      "species": 3
+      "code": "PHSI",
+      "species": 4
     },
-    "olbpip": {
-      "code": "OBPI",
+    "loeowl": {
+      "code": "ASOT",
       "species": 2
     },
+    "olbpip": {
+      "code": "ANHO",
+      "species": 2
+    },
+    "waldra1": {
+      "code": "GEER",
+      "species": 2
+    },
+    "taibeg1": {
+      "code": "ANFA",
+      "species": 2
+    },
+    "eurwoo": {
+      "code": "SCRU",
+      "species": 9
+    },
     "grnsan": {
-      "code": "GRSA",
+      "code": "TROC",
       "species": 3
     },
-    "perfal": {
-      "code": "PEFA",
+    "amerob": {
+      "code": "TUMI",
       "species": 2
     },
     "arcwar1": {
-      "code": "ARWA",
-      "species": 6
-    },
-    "soppet1": {
-      "code": "SPPE",
-      "species": 2
-    },
-    "spaspa1": {
-      "code": "SPSP",
-      "species": 4
-    },
-    "brnboo": {
-      "code": "BRBO",
-      "species": 3
-    },
-    "whhpig1": {
-      "code": "WHPI",
-      "species": 4
-    },
-    "whrsha": {
-      "code": "WRSH",
+      "code": "PHBO",
       "species": 7
     },
-    "whrswi1": {
-      "code": "WRSW",
+    "wawduc1": {
+      "code": "DEAR",
       "species": 3
     },
-    "yebgro1": {
-      "code": "CHGR",
+    "whtdip1": {
+      "code": "CICI",
+      "species": 8
+    },
+    "soppet1": {
+      "code": "PTMO",
+      "species": 3
+    },
+    "wiltit1": {
+      "code": "POMO",
+      "species": 2
+    },
+    "veery": {
+      "code": "CAFU",
+      "species": 7
+    },
+    "whiter2": {
+      "code": "CHHY",
+      "species": 3
+    },
+    "easpho": {
+      "code": "SAPH",
+      "species": 3
+    },
+    "brnboo": {
+      "code": "SULE",
+      "species": 2
+    },
+    "eyethr": {
+      "code": "TUOB",
+      "species": 2
+    },
+    "whhpig1": {
+      "code": "COLE",
+      "species": 12
+    },
+    "whrsan": {
+      "code": "CAFU",
+      "species": 7
+    },
+    "whrsha": {
+      "code": "COMA",
+      "species": 12
+    },
+    "whrswi1": {
+      "code": "APCA",
+      "species": 4
+    },
+    "whwter": {
+      "code": "CHLE",
       "species": 3
     },
     "whtspa": {
-      "code": "WTSP",
-      "species": 2
-    },
-    "whncra1": {
-      "code": "WNCR",
-      "species": 2
-    },
-    "whebul1": {
-      "code": "WEBU",
-      "species": 2
-    },
-    "whctur1": {
-      "code": "WCTU",
-      "species": 2
-    },
-    "whbwoo1": {
-      "code": "WBWO",
-      "species": 9
-    },
-    "whtlap1": {
-      "code": "WTLA",
+      "code": "ZOAL",
       "species": 3
     },
+    "baleag": {
+      "code": "HALE",
+      "species": 4
+    },
+    "whhmun1": {
+      "code": "LOMA",
+      "species": 7
+    },
+    "whncra1": {
+      "code": "ANVI",
+      "species": 5
+    },
+    "whebul1": {
+      "code": "PYLE",
+      "species": 8
+    },
+    "whctur1": {
+      "code": "MELE",
+      "species": 9
+    },
+    "whbwoo1": {
+      "code": "DELE",
+      "species": 4
+    },
+    "whcred1": {
+      "code": "PHLE",
+      "species": 4
+    },
     "whcpar": {
-      "code": "WCPA",
+      "code": "PISE",
       "species": 2
     },
     "whisto1": {
-      "code": "WHST",
+      "code": "CICI",
+      "species": 8
+    },
+    "bargoo": {
+      "code": "BRLE",
       "species": 3
     },
     "lcspet": {
-      "code": "LSPE",
+      "code": "HYLE",
       "species": 2
     },
-    "eurwry": {
-      "code": "EUWR",
+    "budger": {
+      "code": "MEUN",
       "species": 2
+    },
+    "meabun1": {
+      "code": "EMCI",
+      "species": 5
     },
     "meapip1": {
-      "code": "MEPI",
-      "species": 2
+      "code": "ANPR",
+      "species": 4
     },
     "leasan": {
-      "code": "LESA",
+      "code": "CAMI",
+      "species": 4
+    },
+    "wilsni1": {
+      "code": "GADE",
       "species": 3
     },
+    "wilpha": {
+      "code": "PHTR",
+      "species": 6
+    },
     "goldcr1": {
-      "code": "GOLD",
+      "code": "RERE",
       "species": 2
     },
     "sakfal1": {
-      "code": "SAFA",
-      "species": 2
+      "code": "FACH",
+      "species": 3
     },
     "hrshaw": {
-      "code": "HAHA",
-      "species": 2
+      "code": "PAUN",
+      "species": 3
     },
-    "asdwar1": {
-      "code": "ADWA",
+    "grsplo": {
+      "code": "ANLE",
       "species": 3
     },
     "cirbun1": {
-      "code": "CIBU",
-      "species": 3
+      "code": "EMCI",
+      "species": 5
+    },
+    "winwre4": {
+      "code": "NATR",
+      "species": 2
+    },
+    "zebfin2": {
+      "code": "TAGU",
+      "species": 2
+    },
+    "comchi1": {
+      "code": "PHCO",
+      "species": 10
     },
     "cintea": {
-      "code": "CITE",
+      "code": "SPCY",
       "species": 2
     },
     "rocbun1": {
-      "code": "ROBU",
+      "code": "EMCI",
+      "species": 5
+    },
+    "zitcis1": {
+      "code": "CIJU",
       "species": 2
     },
     "citwag": {
-      "code": "CIWA",
-      "species": 4
+      "code": "MOCI",
+      "species": 6
     },
     "citfin1": {
-      "code": "CIFI",
-      "species": 2
+      "code": "CACI",
+      "species": 5
     },
     "booeag1": {
-      "code": "BOEA",
+      "code": "HIPE",
       "species": 3
     },
     "litbun": {
-      "code": "LIBU",
-      "species": 4
+      "code": "SCPU",
+      "species": 2
+    },
+    "litbit1": {
+      "code": "BOMI",
+      "species": 2
     },
     "lesfla1": {
-      "code": "LEFL",
-      "species": 5
-    },
-    "swathr": {
-      "code": "SWTH",
+      "code": "PHMI",
       "species": 4
     },
-    "jacsni": {
-      "code": "JASN",
+    "lwfgoo": {
+      "code": "ANER",
+      "species": 2
+    },
+    "litgul": {
+      "code": "HYMI",
       "species": 3
+    },
+    "rosgoo": {
+      "code": "ANRO",
+      "species": 2
     },
     "rebfly": {
-      "code": "RBFL",
+      "code": "FIPA",
+      "species": 3
+    },
+    "tunswa": {
+      "code": "CYCO",
       "species": 6
     },
+    "litter1": {
+      "code": "STAL",
+      "species": 7
+    },
     "litsti": {
-      "code": "LIST",
-      "species": 2
-    },
-    "baicra1": {
-      "code": "BACR",
-      "species": 2
-    },
-    "litgre1": {
-      "code": "LIGR",
-      "species": 3
-    },
-    "litbus1": {
-      "code": "LIBU",
+      "code": "CAMI",
       "species": 4
     },
-    "briter1": {
-      "code": "BRTE",
-      "species": 3
+    "purgal2": {
+      "code": "POMA",
+      "species": 7
+    },
+    "smew": {
+      "code": "MEAL",
+      "species": 10
+    },
+    "litgre1": {
+      "code": "TARU",
+      "species": 7
+    },
+    "litbus1": {
+      "code": "TETE",
+      "species": 2
     },
     "grepea1": {
-      "code": "GRPE",
-      "species": 3
+      "code": "PAMU",
+      "species": 2
     }
   },
-  "data_sha256": "52ae825a55d7d094a062eedf010abc38658951f8b1631150e41fb69dc16bfffa",
+  "data_sha256": "9c5f76e5ec1ce4e2d5c14188b803012428c29212ff33213d58491eeda3237595",
   "verification_limits": [
     "No live HTTP test of every eBird species page; IDs validated against official taxonomy.",
     "Occurrence selection and learning levels are editorial; no independent ornithological peer review.",

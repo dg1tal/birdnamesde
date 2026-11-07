@@ -10,7 +10,7 @@ import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} fr
 import {lessonProgressText,completionMessage,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261105-quality2';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
-import {renderInformation} from './info-page.js?v=20261105-quality2';
+import {renderInformation} from './info-page.js?v=20261107-scicodes1';
 import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261105-quality2';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261105-catalog1';
@@ -216,12 +216,22 @@ const opt=(v,l=v,selected=false)=>`<option value="${esc(v)}"${selected?' selecte
 const groups=()=>[...new Set(birds.map(s=>s.group))].sort((a,b)=>a.localeCompare(b,'de'));
 function nameMarkup(s,code){return `<span data-name-content${code==='sci'?' lang="la" class="scientific-name"':` lang="${esc(code)}"`}>${esc(primaryName(s,code))}</span>`;}
 function nameAnswerMarkup(s,target){
- const codes=s.codes.map(code=>`<span class="code answer-code"><span class="sr">${english?'eBird entry code':'eBird-Kurzcode'}: </span><span data-name-content>${esc(code)}</span></span>`).join('');
- if(target==='code')return `<p class="answer-main answer-codes" role="group" aria-label="${english?'Accepted eBird entry codes':'Akzeptierte eBird-Kurzcodes'}">${codes}</p>`;
+ const codes=s.codes.map(code=>codeMarkup(s,code,true)).join('');
+ if(target==='code')return `<p class="answer-main answer-codes" role="group" aria-label="${english?'Accepted eBird entry codes':'Akzeptierte eBird-Kurzcodes'}">${codes}</p>${scientificCodeNote(s)}`;
  const aliases=acceptedNames(s,target).filter(n=>n!==primaryName(s,target));
- return `<p class="answer-main answer-name-with-code">${nameMarkup(s,target)}${codes}</p>${aliases.length?`<p class="answer-aliases"><span class="muted">${english?'Also accepted:':'Ebenfalls akzeptiert:'}</span> <span data-name-content lang="${esc(contentLanguage(target))}">${aliases.map(esc).join(' · ')}</span></p>`:''}`;
+ return `<p class="answer-main answer-name-with-code">${nameMarkup(s,target)}${codes}</p>${scientificCodeNote(s)}${aliases.length?`<p class="answer-aliases"><span class="muted">${english?'Also accepted:':'Ebenfalls akzeptiert:'}</span> <span data-name-content lang="${esc(contentLanguage(target))}">${aliases.map(esc).join(' · ')}</span></p>`:''}`;
 }
 function englishNames(s){return s.enGB?`<div class="english-variants" data-name-content lang="en"><span><span class="variant-label">US</span> ${esc(s.en)}</span><span><span class="variant-label">GB</span> ${esc(s.enGB)}</span></div>`:`<p class="english" data-name-content lang="en">${esc(s.en)}</p>`;}
+
+function codeMarkup(s,code,answer=false){
+ const scientific=s.scientificCodes?.includes(code),label=scientific?(english?'Scientific code':'Wissenschaftlicher Kurzcode'):(english?'eBird entry code':'eBird-Kurzcode');
+ const title=scientific?label+': '+s.scientificCodeName:label;
+ return `<span class="code${answer?' answer-code':''}${scientific?' code-scientific':''}" title="${esc(title)}"><span class="sr">${esc(title)}: </span>${scientific?`<span class="code-kind" aria-hidden="true">${english?'sci.':'wiss.'}</span> `:''}<span data-name-content>${esc(code)}</span></span>`;
+}
+function scientificCodeNote(s){
+ return s.scientificCodes?.length&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
+}
+
 function lookupAliases(s,language){
  const nameKey=name=>name.toLocaleLowerCase(language).replace(/[\s‐‑–—-]/g,'');
  const shown=new Set([s[language],...(language==='en'?[s.enGB]:((s.germanNames||[]).map(n=>n.name)))].filter(Boolean).map(nameKey));
@@ -251,7 +261,7 @@ function lookupNameList(s){
 }
 function card(s){
  const language=ui.lookup.mainLanguage,title=lookupTitle(s,language),hasName=!!primaryName(s,language),germanStatus=showGermanStatus(s,ui.lookup.region);
- return `<article class="card"><h2><span class="card-language-label">${esc(languageLabel(hasName?language:'sci',english?'en':'de'))}</span>${nameMarkup(s,hasName?language:'sci')}</h2>${!hasName?`<p class="muted lookup-aliases">${english?'Name unavailable in':'Name nicht verfügbar auf'} ${esc(languageLabel(language,english?'en':'de'))}</p>`:''}${language==='de'?lookupAliasMarkup(s,'de')+germanNames(s):language==='en'?`${s.enGB?`<p class="lookup-aliases"><span class="variant-label">GB</span> <span data-name-content lang="en">${esc(s.enGB)}</span></p>`:''}${lookupAliasMarkup(s,'en')}`:''}${lookupNameList(s)}<div class="lookup-code-row"><div class="lookup-codes" role="group" aria-label="${english?'eBird entry codes':'eBird-Kurzcodes'}">${s.codes.map(code=>`<span class="code" data-name-content>${esc(code)}</span>`).join('')}</div><a href="https://ebird.org/species/${s.id}" target="_blank" rel="noopener">eBird ↗<span class="sr">: ${esc(title)}</span></a></div><div class="tags lookup-status"><span>${esc(t(s.group))}</span>${germanStatus&&s.status.length?`<span>${english?'In Germany:':'In Deutschland:'} ${s.status.map(v=>esc(t(v))).join(' · ')}</span>`:''}</div>${germanStatus&&s.note?`<p class="lookup-note">${esc(t(s.note))}</p>`:''}${lookupPhotos?photoMarkup(s):''}</article>`;
+ return `<article class="card"><h2><span class="card-language-label">${esc(languageLabel(hasName?language:'sci',english?'en':'de'))}</span>${nameMarkup(s,hasName?language:'sci')}</h2>${!hasName?`<p class="muted lookup-aliases">${english?'Name unavailable in':'Name nicht verfügbar auf'} ${esc(languageLabel(language,english?'en':'de'))}</p>`:''}${language==='de'?lookupAliasMarkup(s,'de')+germanNames(s):language==='en'?`${s.enGB?`<p class="lookup-aliases"><span class="variant-label">GB</span> <span data-name-content lang="en">${esc(s.enGB)}</span></p>`:''}${lookupAliasMarkup(s,'en')}`:''}${lookupNameList(s)}<div class="lookup-code-row"><div class="lookup-codes" role="group" aria-label="${english?'eBird entry codes':'eBird-Kurzcodes'}">${s.codes.map(code=>codeMarkup(s,code)).join('')}</div><a href="https://ebird.org/species/${s.id}" target="_blank" rel="noopener">eBird ↗<span class="sr">: ${esc(title)}</span></a></div>${scientificCodeNote(s)}<div class="tags lookup-status"><span>${esc(t(s.group))}</span>${germanStatus&&s.status.length?`<span>${english?'In Germany:':'In Deutschland:'} ${s.status.map(v=>esc(t(v))).join(' · ')}</span>`:''}</div>${germanStatus&&s.note?`<p class="lookup-note">${esc(t(s.note))}</p>`:''}${lookupPhotos?photoMarkup(s):''}</article>`;
 }
 function lookupCountryControl(state){
  const countries=regionalData?.countries||LEARNING_COUNTRIES;
@@ -774,7 +784,7 @@ function route(){
  if(page==='lernmethode'&&anchor?.match(/^method-source-[1-7]$/)){const target=document.getElementById(anchor);focusElement(target);target?.scrollIntoView();return;}
  if(!initial&&(page!=='lernen'||!session||session.paused)){if(page==='nachschlagen')queueFocus($('#search'),{preventScroll:false});else focusHeading();}
 }
-try{let data=await(await fetch('species.json?v=20261105-codes1')).json();birds=data.species.sort((a,b)=>(a.de||a.sci).localeCompare(b.de||b.sci,'de'));meta=data.meta;
+try{let data=await(await fetch('species.json?v=20261107-scicodes1')).json();birds=data.species.sort((a,b)=>(a.de||a.sci).localeCompare(b.de||b.sci,'de'));meta=data.meta;
 try{const names=await(await fetch('german-names.json')).json();germanNamesMeta=names.meta;for(const s of birds)s.germanNames=names.species[s.id]?.names||[];}catch(err){console.warn('Deutsche Alternativnamen nicht geladen',err)}
 availableNameLanguages=await loadNameData(birds);
 ui.learn.nameLanguage=isNameLanguage(ui.learn.nameLanguage)?ui.learn.nameLanguage:isNameLanguage(ui.learn.target)?ui.learn.target:defaultNameTarget;
@@ -791,6 +801,6 @@ ui.learn.hybridVersion=1;ui.learn.regionMode=['all','recent','seasonal'].include
 delete ui.learn.levels;
 for(const [field,options]of Object.entries({target:[nameTarget,'code','mixed'],method:['text','flash','mc','think'],scope:['all','unmastered','due','wrong'],count:['10','15','25','all']}))if(!options.includes(ui.learn[field]))ui.learn[field]=defaults.learn[field];
 try{const response=await fetch('regions.json?format=hierarchy',{cache:'no-cache'});if(response.ok)regionalData=validateRegions(await response.json(),ids,meta.catalog?.fingerprint);}catch{console.warn('Regional lists unavailable');}
-try{seasonalData=validateSeasonal(await(await fetch('seasonal-species.json?v=20261105-codes1')).json(),ids);if(meta.catalog&&seasonalData.dataset?.catalogFingerprint!==meta.catalog.fingerprint)throw Error('Seasonal catalogue mismatch');}catch{console.warn('Seasonal data unavailable');}
+try{seasonalData=validateSeasonal(await(await fetch('seasonal-species.json?v=20261107-scicodes1')).json(),ids);if(meta.catalog&&seasonalData.dataset?.catalogFingerprint!==meta.catalog.fingerprint)throw Error('Seasonal catalogue mismatch');}catch{console.warn('Seasonal data unavailable');}
 try{const data=await(await fetch('current-notable.json',{cache:'no-cache'})).json();if(data?.version===1&&Array.isArray(data.regions)&&(!meta.catalog||data.catalogFingerprint===meta.catalog.fingerprint))currentNotable=data;}catch{console.warn('Current reports unavailable');}
 try{photos=(await(await fetch('photos.json?v=20261105-images3')).json()).photos}catch(err){console.warn('Artenbilder nicht geladen',err)}saveUI();await initDB();if(storageState==='ready')await save();window.addEventListener('hashchange',route);route();}catch(err){app.innerHTML='<h1>Daten konnten nicht geladen werden.</h1><p>Bitte Seite erneut laden.</p>';console.error(err)}
