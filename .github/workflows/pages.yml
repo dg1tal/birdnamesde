@@ -74,3 +74,6 @@ jobs:
           path: dist
       - id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+        with:
+          # File sync can finish just after the action's default ten-minute limit.
+          timeout: 900000
