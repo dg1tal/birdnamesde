@@ -63,6 +63,7 @@ npm test
 for test in scripts/test-*.mjs; do node "$test" || exit 1; done
 python3 -m unittest discover -s scripts -p 'test_*.py'
 python3 scripts/validate-data.py
+python3 scripts/build-scientific-names.py --check
 python3 scripts/build-ebd-seasonal.py --check
 python3 scripts/check-private-ebd.py
 node scripts/validate-photos.mjs
@@ -104,6 +105,34 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` from `main` withou
 Learning progress is stored per browser origin. Before switching domains, open **Statistics → Back up and restore progress** on the existing site and export the JSON backup. On GitHub Pages, open the same section and import that file. Import replaces the current progress on the Pages origin after confirmation, so export any progress made there first. Browser settings and a paused lesson are not part of the progress export.
 
 ## Data provenance and reproduction
+
+Scientific-name meanings: `dist/scientific-names.json` supplies separate, concise
+editorial glosses of the genus and epithet for all 940 catalogue species, in German,
+English and Dutch. Explicit entries in `data/scientific-name-*.txt` are compiled by
+`python3 scripts/build-scientific-names.py`; `--check` verifies the tracked output.
+The reviewed source matches are recorded in
+`docs/scientific-name-feasibility-20261107.json`. Jobling (2010) is the main
+etymological reference; individual pages and supplementary publications are linked
+with the explanations. No source dictionary text is bundled. Glosses are short
+editorial renderings, not translations of entire entries or new accepted answers.
+Uncertain derivations are marked. `data/scientific-name-overrides.json` resolves
+taxon-specific homonyms: the two Fischers, the two Naumanns, and the different
+Sandwich localities. Generic and specific names have separate case-sensitive
+entries; meanings are never inferred by stripping suffixes at runtime.
+
+The closed disclosure appears below lookup names, in introductions, and after
+grading/revealing an answer. It never appears alongside an unanswered question or
+answer choices. Study uses the session's question language; lookup uses its title
+language. Scientific-name questions/titles fall back to the interface language.
+All three prose languages are independent of the German/English interface.
+Source titles retain their original language. Loading failures omit this optional
+content without affecting lessons. A changed scientific combination cannot reuse
+an explanation merely because the species ID stayed the same.
+
+Validation checks complete three-language coverage, exact current scientific
+names, source links, ambiguous dedications/localities, safe rendering, language
+selection and graceful failure. The initial feasibility categories are preliminary
+and are not runtime translation rules. The data remain outside the code's MIT grant.
 
 Official taxonomy CSV: https://www.birds.cornell.edu/clementschecklist/wp-content/uploads/2026/04/eBird_taxonomy_v2025-4.csv
 

@@ -26,7 +26,7 @@ const context={birds,answerSpecies,esc:escape,english:false,Date,
  lessonProgress:()=>({completed:1}),lessonProgressMarkup:()=>'',lessonProgressText:()=>({}),
  contentLanguage:code=>code==='sci'?'la':code,
  nameMarkup:(bird,code)=>`<span data-name-content lang="${code==='sci'?'la':code}">${escape(primaryName(bird,code))}</span>`,
- nameAnswerMarkup:()=>'<b>Correct answer</b>',germanNames:()=>'',ebirdLink:()=>'',
+ nameAnswerMarkup:()=>'<b>Correct answer</b>',scientificNameMarkup:()=>'',germanNames:()=>'',ebirdLink:()=>'',
  questionReasonText:()=>'',regionalQuestionNote:()=>'',progress:()=>({}),evidenceText:()=>'',scheduleText:()=>'',
  observeStudyActions(){},focusHeading(){}
 };

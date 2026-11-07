@@ -1,3 +1,4 @@
+import {validateScientificNames,renderScientificName} from './scientific-names.js?v=20261107-origin1';
 import {LOOKUP_PAGE_SIZE,lookupSettings,lookupTitle,sortLookup,lookupLanguages,showGermanStatus} from './lookup-settings.js?v=20261105-catalog1';
 import {continuationSettings,practiceQueue,dailyLearningPlan} from './practice-queue.js?v=20261105-quality2';
 import {dailyNewNamesText,selectionExplanation} from './learning-selection-copy.js?v=20261102-selection1';
@@ -10,7 +11,7 @@ import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} fr
 import {lessonProgressText,completionMessage,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261105-quality2';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
-import {renderInformation} from './info-page.js?v=20261107-code-colour2';
+import {renderInformation} from './info-page.js?v=20261107-origin1';
 import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261105-quality2';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261105-catalog1';
@@ -32,6 +33,7 @@ let birds=[],meta={},records={},db,storageOK=true,session=null,pendingLessons=[]
 // Loaded separately from the taxonomy so media updates cannot overwrite species data.
 let photos={};
 let germanNamesMeta={};
+let nameOrigins=null;
 let regionalData=null,seasonalData=null,currentNotable=null;
 const defaults={lookup:{query:'',group:'',region:'',regionMode:'all',photos:false,scroll:0},learn:{target:nameTarget,nameLanguage:nameTarget,sourceLanguage:english?'en':'de',method:'think',scope:'all',count:'10',groups:null,ids:[],photos:true,...structuredClone(LEARNING_REGION_DEFAULTS)}};
 let hasRouted=false;
@@ -214,6 +216,7 @@ function recoveryView(page){
 function storageNotice(){return storageOK?'':`<p class="notice" role="alert">${english?'Your browser cannot save progress right now. Before closing, download a backup under Statistics → Back up or restore progress.':'Der Browser kann den Lernstand gerade nicht speichern. Lade vor dem Schließen eine Sicherung unter Statistik → Lernstand sichern oder wiederherstellen herunter.'}</p>`;}
 const opt=(v,l=v,selected=false)=>`<option value="${esc(v)}"${selected?' selected':''}>${esc(l)}</option>`;
 const groups=()=>[...new Set(birds.map(s=>s.group))].sort((a,b)=>a.localeCompare(b,'de'));
+function scientificNameMarkup(s,questionLanguage){return renderScientificName(nameOrigins,s,questionLanguage,english?'en':'de');}
 function nameMarkup(s,code){return `<span data-name-content${code==='sci'?' lang="la" class="scientific-name"':` lang="${esc(code)}"`}>${esc(primaryName(s,code))}</span>`;}
 function nameAnswerMarkup(s,target){
  const codes=s.codes.map(code=>codeMarkup(s,code,true)).join('');
@@ -261,7 +264,7 @@ function lookupNameList(s){
   const value=!name?`<span class="muted">${english?'Name unavailable':'Name nicht verfügbar'}</span>`:language.code==='en'?englishNames(s)+lookupAliasMarkup(s,'en'):nameMarkup(s,language.code);
   return `<div><dt>${esc(languageLabel(language.code,english?'en':'de'))}</dt><dd>${value}${language.code==='de'?lookupAliasMarkup(s,'de')+germanNames(s):''}</dd></div>`;
  }).join('');
- return `<dl class="lookup-name-list">${rows}</dl>`;
+ return `<dl class="lookup-name-list">${rows}</dl>${scientificNameMarkup(s,ui.lookup.mainLanguage)}`;
 }
 function card(s){
  const language=ui.lookup.mainLanguage,title=lookupTitle(s,language),hasName=!!primaryName(s,language),germanStatus=showGermanStatus(s,ui.lookup.region);
@@ -601,7 +604,7 @@ function renderIntroduction(x){
  if(!item.introduced){daily=introduce(daily,unit);records[key(s,item.t)]=beginIntroduction(records[key(s,item.t)],x.sourceLanguage,x.method);item.introduced=true;save();}
  studyMode(true);document.body.classList.add('introducing');
  const instruction=item.t==='code'?(s.codes.length>1?(english?'Remember one of these codes. Any of them is accepted.':'Merke dir einen dieser Codes. Jede Variante wird akzeptiert.'):(english?'Remember the code. You will be asked for it shortly.':'Merke dir den Code. Er wird gleich abgefragt.')):(english?'Remember the translation. You will be asked for it shortly.':'Merke dir die Übersetzung. Sie wird gleich abgefragt.');
- app.innerHTML=`<div class="panel introduction"><p id="intro-instruction" class="intro-instruction">${instruction}</p><p class="eyebrow">${english?'New learning target':'Neues Lernziel'} · ${x.introIndex+1}/${x.introductions.length}</p><h1 aria-describedby="intro-instruction">${nameMarkup(s,x.sourceLanguage)}</h1><p class="intro-answer-language">${esc(item.t==='code'?(s.codes.length>1?'Quick Find Codes':'Quick Find Code'):languageLabel(item.t,english?'en':'de'))}</p>${nameAnswerMarkup(s,item.t)}${x.photos?photoMarkup(s):''}${storageNotice()}<div class="actions study-actions"><button id="intro-next" class="primary">${english?'Continue →':'Weiter →'}</button><button id="intro-pause">${english?'Pause':'Pausieren'}</button></div></div>`;
+ app.innerHTML=`<div class="panel introduction"><p id="intro-instruction" class="intro-instruction">${instruction}</p><p class="eyebrow">${english?'New learning target':'Neues Lernziel'} · ${x.introIndex+1}/${x.introductions.length}</p><h1 aria-describedby="intro-instruction">${nameMarkup(s,x.sourceLanguage)}</h1><p class="intro-answer-language">${esc(item.t==='code'?(s.codes.length>1?'Quick Find Codes':'Quick Find Code'):languageLabel(item.t,english?'en':'de'))}</p>${nameAnswerMarkup(s,item.t)}${scientificNameMarkup(s,x.sourceLanguage)}${x.photos?photoMarkup(s):''}${storageNotice()}<div class="actions study-actions"><button id="intro-next" class="primary">${english?'Continue →':'Weiter →'}</button><button id="intro-pause">${english?'Pause':'Pausieren'}</button></div></div>`;
  $('#intro-next').onclick=()=>{x.introIndex++;save();renderQuestion();};$('#intro-pause').onclick=()=>{x.paused=true;save();learn();focusHeading();};focusElement($('.introduction h1'),{preventScroll:true});window.scrollTo(0,0);observeStudyActions();observeStudyPhotoLayout();
 }
 function lessonProgressMarkup(x){
@@ -698,7 +701,7 @@ function renderFeedback(s,item) {
   const answerMeaning=explainAnswer?`<p class="your-answer" id="feedback-answer-meaning"><span class="muted">${english?'Your answer would be:':'Deine Antwort wäre:'}</span> ${answerNames.length?answerNames.join(' / '):english?'No matching species found.':'Keine passende Art gefunden.'}</p>`:'';
   $('#lesson-progress').innerHTML=lessonProgressMarkup(x);
   const bar=$('progress');bar.value=p.completed;bar.setAttribute('aria-valuetext',lessonProgressText(p,english).primary+'. '+lessonProgressText(p,english).pending);
-  $('#feedback').innerHTML=`<div class="feedback"><div class="feedback-result"><h2 class="${correct?'good':'bad'}" tabindex="-1" aria-describedby="${x.method!=='flash'?'feedback-your-answer ':''}${explainAnswer?'feedback-answer-meaning ':''}feedback-accepted">${correct?'✓ Richtig.':'Noch nicht richtig.'}</h2>${x.method!=='flash'?`<p class="your-answer" id="feedback-your-answer"><span class="muted">Deine Antwort:</span> <span data-name-content lang="${esc(contentLanguage(item.t))}">${esc(answer)}</span></p>`:''}${answerMeaning}</div><div class="feedback-answer" id="feedback-accepted"><p class="answer-label">${item.t==='code'?(english?(s.codes.length>1?'Accepted eBird entry codes':'Accepted eBird entry code'):(s.codes.length>1?'Akzeptierte eBird-Kurzcodes':'Akzeptierter eBird-Kurzcode')):item.t==='sci'?(english?'Scientific name':'Wissenschaftlicher Name'):'Akzeptierte Namen'}</p> ${nameAnswerMarkup(s,item.t)}</div><div class="feedback-details"><div class="answer-reference">${item.t==='code'?`<p class="latin">${esc(s.sci)}</p>`:''}</div>${germanNames(s)}<p class="answer-species-link">${ebirdLink(s)}</p></div>${x.photos?photoMarkup(s,true):''}<details class="question-explanation" id="feedback-learning"><summary>${english?'Why am I seeing this bird?':'Warum sehe ich diesen Vogel?'}</summary><div class="learning-feedback"><p>${esc(questionReasonText(item,english))}</p>${regionalQuestionNote(x,s.id,true)}${item.retry?`<p class="muted">${esc(attemptText(item.retry,english))}</p>`:''}<p>${esc(evidenceText(progress(s,item.t,x),x.method,english))}</p><p class="muted review-schedule">${esc(scheduleText(progress(s,item.t,x),Date.now(),english)+(x.hint?(english?' Answered with support.':' Mit Unterstützung beantwortet.'):''))}</p><p><a href="#lernmethode">${english?'How learning works':'So funktioniert das Lernen'}</a></p></div></details><div class="study-actions"><button id="next" class="primary">Weiter →</button></div></div>`;
+  $('#feedback').innerHTML=`<div class="feedback"><div class="feedback-result"><h2 class="${correct?'good':'bad'}" tabindex="-1" aria-describedby="${x.method!=='flash'?'feedback-your-answer ':''}${explainAnswer?'feedback-answer-meaning ':''}feedback-accepted">${correct?'✓ Richtig.':'Noch nicht richtig.'}</h2>${x.method!=='flash'?`<p class="your-answer" id="feedback-your-answer"><span class="muted">Deine Antwort:</span> <span data-name-content lang="${esc(contentLanguage(item.t))}">${esc(answer)}</span></p>`:''}${answerMeaning}</div><div class="feedback-answer" id="feedback-accepted"><p class="answer-label">${item.t==='code'?(english?(s.codes.length>1?'Accepted eBird entry codes':'Accepted eBird entry code'):(s.codes.length>1?'Akzeptierte eBird-Kurzcodes':'Akzeptierter eBird-Kurzcode')):item.t==='sci'?(english?'Scientific name':'Wissenschaftlicher Name'):'Akzeptierte Namen'}</p> ${nameAnswerMarkup(s,item.t)}</div><div class="feedback-details"><div class="answer-reference">${item.t==='code'?`<p class="latin">${esc(s.sci)}</p>`:''}</div>${scientificNameMarkup(s,x.sourceLanguage)}${germanNames(s)}<p class="answer-species-link">${ebirdLink(s)}</p></div>${x.photos?photoMarkup(s,true):''}<details class="question-explanation" id="feedback-learning"><summary>${english?'Why am I seeing this bird?':'Warum sehe ich diesen Vogel?'}</summary><div class="learning-feedback"><p>${esc(questionReasonText(item,english))}</p>${regionalQuestionNote(x,s.id,true)}${item.retry?`<p class="muted">${esc(attemptText(item.retry,english))}</p>`:''}<p>${esc(evidenceText(progress(s,item.t,x),x.method,english))}</p><p class="muted review-schedule">${esc(scheduleText(progress(s,item.t,x),Date.now(),english)+(x.hint?(english?' Answered with support.':' Mit Unterstützung beantwortet.'):''))}</p><p><a href="#lernmethode">${english?'How learning works':'So funktioniert das Lernen'}</a></p></div></details><div class="study-actions"><button id="next" class="primary">Weiter →</button></div></div>`;
   if(x.photos){mountStudyPhoto(s);observeStudyPhotoLayout();}
   $('#next').onclick=()=>{if(!x.done||session!==x)return;x.index++;x.done=false;x.hint=false;x.result=null;x.draft='';x.revealed=false;if(x.index>=x.queue.length)endLesson();else{save();renderQuestion();}};
   observeStudyActions();focusHeading('#feedback h2');
@@ -794,6 +797,7 @@ function route(){
 try{let data=await(await fetch('species.json?v=20261107-scicodes1')).json();birds=data.species.sort((a,b)=>(a.de||a.sci).localeCompare(b.de||b.sci,'de'));meta=data.meta;
 try{const names=await(await fetch('german-names.json')).json();germanNamesMeta=names.meta;for(const s of birds)s.germanNames=names.species[s.id]?.names||[];}catch(err){console.warn('Deutsche Alternativnamen nicht geladen',err)}
 availableNameLanguages=await loadNameData(birds);
+try{const response=await fetch('scientific-names.json?v=20261107-origin1');if(response.ok)nameOrigins=validateScientificNames(await response.json(),birds);}catch{console.warn('Scientific-name explanations unavailable');}
 ui.learn.nameLanguage=isNameLanguage(ui.learn.nameLanguage)?ui.learn.nameLanguage:isNameLanguage(ui.learn.target)?ui.learn.target:defaultNameTarget;
 nameTarget=ui.learn.nameLanguage;
 ui.learn.sourceLanguage=isNameLanguage(ui.learn.sourceLanguage)?ui.learn.sourceLanguage:english?'en':'de';
