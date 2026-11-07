@@ -526,6 +526,5 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
 @media(max-width:580px){.lookup-primary-controls{gap:4px}.lookup-country,.lookup-name-options{flex-basis:100%;max-width:none}.lookup-name-options{padding-top:8px}}
 
 .code-scientific{background:var(--sci-bg);color:var(--sci-ink);box-shadow:inset 0 0 0 1px currentColor}
-.code-kind{font:600 11px system-ui,sans-serif;letter-spacing:0;vertical-align:middle}
 .code-name-note{font-size:13px;margin:6px 0 12px}
 @media(forced-colors:active){.code-scientific{outline:1px solid CanvasText}}

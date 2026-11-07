@@ -10,7 +10,7 @@ import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} fr
 import {lessonProgressText,completionMessage,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261105-quality2';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
-import {renderInformation} from './info-page.js?v=20261107-scicodes1';
+import {renderInformation} from './info-page.js?v=20261107-code-colour2';
 import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261105-quality2';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261105-catalog1';
@@ -226,7 +226,7 @@ function englishNames(s){return s.enGB?`<div class="english-variants" data-name-
 function codeMarkup(s,code,answer=false){
  const scientific=s.scientificCodes?.includes(code),label=scientific?(english?'Scientific code':'Wissenschaftlicher Kurzcode'):(english?'eBird entry code':'eBird-Kurzcode');
  const title=scientific?label+': '+s.scientificCodeName:label;
- return `<span class="code${answer?' answer-code':''}${scientific?' code-scientific':''}" title="${esc(title)}"><span class="sr">${esc(title)}: </span>${scientific?`<span class="code-kind" aria-hidden="true">${english?'sci.':'wiss.'}</span> `:''}<span data-name-content>${esc(code)}</span></span>`;
+ return `<span class="code${answer?' answer-code':''}${scientific?' code-scientific':''}" title="${esc(title)}"><span class="sr">${esc(title)}: </span><span data-name-content>${esc(code)}</span></span>`;
 }
 function scientificCodeNote(s){
  return s.scientificCodes?.length&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
