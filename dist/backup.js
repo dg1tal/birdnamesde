@@ -1,7 +1,7 @@
 import {validateDaily} from './progress-validation.js?v=20261105-recovery1';
 export {validateDaily} from './progress-validation.js?v=20261105-recovery1';
 import {migrateRecords} from './learning-model.js?v=20261105-recovery1';
-import {validProgress} from './logic.js?v=20261105-recovery1';
+import {validProgress} from './logic.js?v=20261107-answer1';
 
 export function inspectBackup(value,ids){
  const records=validProgress(value,ids);
