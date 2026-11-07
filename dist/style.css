@@ -31,7 +31,7 @@ button{cursor:pointer;font-weight:600}button.primary{background:var(--ink);color
 .english-variants>span{min-width:0}
 body.studying .english-variants{justify-content:center;text-align:center}
 .variant-label{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--muted);margin-right:5px}
-.code{font:700 19px ui-monospace,monospace;letter-spacing:1.3px;background:var(--soft);padding:5px 9px;border-radius:6px;display:inline-block}
+.code{font:700 19px/1.3 ui-monospace,monospace;letter-spacing:1.3px;color:var(--ink);background:var(--soft);padding:5px 9px;border-radius:6px;display:inline-block;flex:none;white-space:nowrap}
 .tags{font-size:12px;color:var(--muted);margin-top:10px}
 .settings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
 .field{display:flex;flex-direction:column;gap:6px}.field label,legend{font-size:14px;font-weight:650}
@@ -310,7 +310,6 @@ body.studying .feedback .your-answer{padding:0;border:0}
 body.studying .feedback-answer{display:grid;gap:4px}
 body.studying .feedback-details{display:grid;gap:6px}
 body.studying .answer-reference{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:4px 12px}
-body.studying .answer-reference .code{font-size:17px;padding:3px 8px}
 body.studying .answer-reference .other-codes{flex-basis:100%;font-size:14px}
 body.studying .feedback .german-names{margin:0}
 body.studying .feedback .german-names p{margin:0}
@@ -479,11 +478,11 @@ body.studying .introduction #intro-pause{flex:0 0 auto}
 @media(max-width:580px){body.studying .introduction{padding:16px;gap:7px}}
 @media(max-height:600px){body.studying .introduction{gap:6px;padding:14px}}
 
-.answer-codes{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.answer-codes{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
 body.studying .feedback .answer-codes,body.studying #revealed-answer .answer-codes{justify-content:center}
 .answer-name-with-code{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.answer-code-reference{font-size:14px;color:var(--muted)}
 .answer-name-with-code>span[data-name-content]{min-width:0;max-width:100%;overflow-wrap:anywhere}
-.answer-name-with-code>.answer-code{flex:none;white-space:nowrap;font-size:17px;line-height:1.3;padding:3px 8px}
 body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .answer-name-with-code{justify-content:center}
 
 /* Wide study layouts keep actions with the card; sticky positioning keeps them

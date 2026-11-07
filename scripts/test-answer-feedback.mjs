@@ -48,3 +48,26 @@ assert(!feedback('<script>').includes('<script>'));
 for(const options of [{correct:true},{method:'flash'}])assert(!feedback('Common Blackbird',options).includes('id="feedback-answer-meaning"'));
 for(const answer of ['Weiß ich nicht','I don’t know'])assert(!feedback(answer).includes('id="feedback-answer-meaning"'));
 console.log('PASS: wrong-answer species, aliases, codes, Dutch/scientific source names, collisions, safe rendering and feedback visibility.');
+
+// Name answers separate scientific codes; code-only answers remain one group.
+const markupContext={english:false,esc:escape,primaryName,
+ acceptedNames:(bird,target)=>[primaryName(bird,target)],contentLanguage:context.contentLanguage};
+vm.createContext(markupContext);
+vm.runInContext(source.slice(source.indexOf('function nameMarkup('),source.indexOf('\nfunction lookupAliases(')),markupContext);
+for(const bird of birds){
+ for(const target of ['en','sci','de']){
+  const result=markupContext.nameAnswerMarkup(bird,target);
+  const main=result.match(/<p class="answer-main answer-name-with-code">(.*?)<\/p>/s)[1];
+  const reference=result.match(/<p class="answer-name-with-code answer-code-reference">(.*?)<\/p>/s)?.[1]||'';
+  for(const code of bird.codes){
+   const scientific=bird.scientificCodes?.includes(code);
+   assert.equal(main.includes(`>${code}</span>`),target==='sci'?!!scientific:!scientific);
+   assert.equal(reference.includes(`>${code}</span>`),target==='sci'?!scientific:!!scientific);
+  }
+ }
+ const codeAnswer=markupContext.nameAnswerMarkup(bird,'code');
+ assert(!codeAnswer.includes('answer-code-reference'));
+ const group=codeAnswer.match(/<p class="answer-main answer-codes".*?<\/p>/s)[0];
+ for(const code of bird.codes)assert(group.includes(`>${code}</span>`));
+}
+console.log('PASS: name answers pair scientific codes with Latin names; code-only answers retain every accepted alternative together across the catalogue.');
