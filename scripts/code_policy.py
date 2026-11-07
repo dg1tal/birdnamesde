@@ -10,20 +10,27 @@ from catalog_workbook import workbook_rows
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'data/code-records.json'
-CODE_FIELDS = {'codes', 'bandingCode', 'codeSource'}
+CODE_FIELDS = {'codes', 'bandingCode', 'codeSource', 'scientificCodes', 'scientificCodeName'}
 WORKBOOK_SHA256 = '989a1c4e9524c6b0fb3b8a69f99bad98f80706cd183e934bc620c6dd24e70e62'
 
 
 def candidates(row):
     return list(dict.fromkeys(re.findall(r'\b[A-Z]{4}\b',
-        (row.get('com_quick_codes') or '') + ' ' + (row.get('banding_code') or ''))))
+        (row.get('com_quick_codes') or '') + ' ' + (row.get('banding_code') or '') +
+        ' ' + (row.get('sci_quick_codes') or ''))))
 
 
 def ranked_codes(row, counts):
-    # Count all official common-name variants and banding codes worldwide.
-    # Subspecies do not count as additional species; scientific codes are excluded.
+    # Scientific codes lead; retain specificity ordering for other accepted codes.
+    scientific = (row.get('sci_quick_codes') or '').split()
     return sorted(candidates(row), key=lambda c: (
-        counts[c], c != row.get('banding_code'), c))
+        c not in scientific, counts[c], c != row.get('banding_code'), c))
+
+
+def primary_source(row, codes):
+    if codes and codes[0] in (row.get('sci_quick_codes') or '').split():
+        return 'sci_quick_codes'
+    return 'banding_code' if codes and codes[0] == row['banding_code'] else 'com_quick_codes'
 
 
 def apply_codes(data, source):
@@ -31,8 +38,9 @@ def apply_codes(data, source):
         row = source['records'][bird['id']]
         bird['codes'] = ranked_codes(row, source['speciesCounts'])
         bird['bandingCode'] = row['banding_code']
-        bird['codeSource'] = ('banding_code' if bird['codes'] and
-            bird['codes'][0] == row['banding_code'] else 'com_quick_codes')
+        bird['scientificCodes'] = row['sci_quick_codes'].split()
+        bird['scientificCodeName'] = row['sci_name']
+        bird['codeSource'] = primary_source(row, bird['codes'])
     data['meta']['codes'] = source['meta']
     data['meta']['validation'] = 'Arten-IDs, englische und wissenschaftliche Namen gegen die offizielle v2025-4 CSV geprüft; deutsche Namen gegen die Namensmatrix von 2025. Eingabecodes gegen die offizielle Codetabelle vom 27. Oktober 2026 mit dokumentierter Taxonomie-Ausnahme geprüft.'
     return data
@@ -55,7 +63,7 @@ def import_source(workbook, data):
             species[code] = row
         else:
             raise ValueError('Review changed taxonomic concept before importing codes: '+code)
-        records[code] = {k: row[k] for k in ('com_quick_codes', 'banding_code')}
+        records[code] = {k: row[k] for k in ('com_quick_codes', 'banding_code', 'sci_quick_codes', 'sci_name')}
     hits = collections.defaultdict(set)
     for code, row in species.items():
         for value in candidates(row):
@@ -65,7 +73,7 @@ def import_source(workbook, data):
         'sourceUrl': 'https://support.ebird.org/en/support/solutions/articles/48000804865',
         'workbookUrl': 'https://cornell.box.com/s/fjp112mh25nlvbyr1p28r9ya7nriblls',
         'workbookSha256': WORKBOOK_SHA256,
-        'policy': 'Fewest matching species worldwide across official common-name and banding codes; prefer banding on ties, then alphabetical order. All candidates are accepted. Scientific codes excluded.',
+        'policy': 'Official scientific codes first. Within scientific and other codes separately, prefer fewest matching species worldwide, then banding codes, then alphabetical order. All candidates are accepted. Scientific code names follow their source workbook; catalogue names remain pinned to v2025.',
         'specificitySpecies': len(species), 'exceptions': exceptions},
         'speciesCounts': {c: len(hits[c]) for c in sorted(used)},
         'records': dict(sorted(records.items()))}

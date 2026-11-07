@@ -4,13 +4,17 @@ import {accepts,matches} from '../dist/logic.js';
 
 const birds=JSON.parse(readFileSync('dist/species.json')).species;
 const find=id=>birds.find(b=>b.id===id);
-for(const [id,primary] of [['taibeg1','TABG'],['tunbeg1','TUBG'],['cangoo','CANG'],['cacgoo1','CACG'],['eurbla','EUBB']]){
+for(const [id,primary] of [['taibeg1','ANFA'],['tunbeg1','ANSE'],['cangoo','BRCA'],['cacgoo1','BRHU'],['eurbla','TUME'],['eurjay1','GAGL']]){
  const bird=find(id);
  assert.equal(bird.codes[0],primary);
  assert(accepts(bird,'code',primary.toLowerCase()));
  assert(matches(bird,primary));
 }
 assert(accepts(find('tunbeg1'),'code','BEGO'));
+assert(accepts(find('tunbeg1'),'code','TUBG'));
+assert(accepts(find('taibeg1'),'code','TABG'));
+assert(accepts(find('eurjay1'),'code','EUJA'));
+assert(accepts(find('eurjay1'),'code','ECFJ'));
 assert(accepts(find('taibeg1'),'code','TBGO'));
 assert(!accepts(find('tunbeg1'),'code','TABG'));
 assert(!accepts(find('taibeg1'),'code','TUBG'));
