@@ -479,6 +479,8 @@ body.studying .introduction #intro-pause{flex:0 0 auto}
 @media(max-width:580px){body.studying .introduction{padding:16px;gap:7px}}
 @media(max-height:600px){body.studying .introduction{gap:6px;padding:14px}}
 
+.answer-codes{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+body.studying .feedback .answer-codes,body.studying #revealed-answer .answer-codes{justify-content:center}
 .answer-name-with-code{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
 .answer-name-with-code>span[data-name-content]{min-width:0;max-width:100%;overflow-wrap:anywhere}
 .answer-name-with-code>.answer-code{flex:none;white-space:nowrap;font-size:17px;line-height:1.3;padding:3px 8px}
