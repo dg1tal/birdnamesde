@@ -665,3 +665,9 @@ body.studying .species-codes-compact{display:flex;flex-direction:column;flex-wra
 
 /* Keep each German-name source inline with its own explanation. */
 .card .name-sources a{float:none;margin:0;font-size:inherit}
+
+/* Compact preparation and saved-species practice. */
+.saved-link{margin:.25rem 0 1rem}.saved-species-list{list-style:none;padding:0}.saved-species-list li{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.65rem 0;border-bottom:1px solid var(--line)}
+.saved-species-list .save-species{flex-shrink:0}.card>.save-species{margin-bottom:.75rem}.study-additional{text-align:left;margin-top:1rem}.study-additional summary{font-weight:600}.progress-phase{font-size:.85rem;font-weight:600;margin:.35rem 0}.stats-overview{margin:1rem 0}.stats-definition-details{margin:1rem 0}.stats-overview+.practice-panel{margin-bottom:1rem}
+#species-settings-content>.region-settings{margin:1rem 0}#species-settings-content .learning-selection{margin-top:1rem}#shared-settings .learning-settings-group{margin-top:.75rem}#shared-settings .name-language-settings .settings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}#shared-settings .name-language-settings select{min-width:0;width:100%}#saved-practice select{max-width:100%}#saved-practice button{margin:.4rem .25rem .4rem 0}
+@media(max-width:480px){.saved-species-list li{align-items:flex-start;flex-direction:column;gap:.35rem}.lesson-controls{flex-wrap:wrap}.lesson-controls button{white-space:normal}#shared-settings .learning-settings-group{padding:.65rem}.stats-definition-details summary{font-weight:600}}

@@ -23,7 +23,7 @@ const cases=new Map([
  ['Diese 2 Arten üben','Practise these 2 species'],
  ['Beherrschte Arten / Arten der Gruppe','Mastered species / species in group'],
  ['Lernstand sichern und verwalten','Back up and manage progress'],
- ['Entfernt alle Lernwerte und die laufende Einheit aus diesem Browser.','Removes all progress and the current session from this browser.']
+ ['Entfernt alle Lernwerte und die laufende Runde aus diesem Browser.','Removes all progress and the current round from this browser.']
 ]);
 for(const [de,en] of cases)assert.equal(t(de),en);
 for(const days of [1,3,7,14,30,60])assert.equal(reviewMessage({correct:true,hint:false,days,retry:0}),`Next scheduled review in ${days} ${days===1?'day':'days'}.`);

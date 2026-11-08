@@ -1,6 +1,7 @@
+import {validateSavedSpecies} from './usability-state.js?v=20261108-usability1';
 import {validateRecords,validateDaily} from './progress-validation.js?v=20261108-names2026';
 import {migrateRecords} from './learning-model.js?v=20261105-recovery1';
-import {restoreLessonState} from './learning-settings.js?v=20261108-names2026';
+import {restoreLessonState} from './learning-settings.js?v=20261108-usability1';
 
 // The records and saved lessons form one atomic snapshot. Callers may publish
 // imported state in memory only after this transaction has committed.
@@ -15,6 +16,7 @@ export function persistLearningState(db,state){
    const store=tx.objectStore('state');
    store.put(state.records,'records');
    store.put(2,'progress-version');
+   store.put(state.savedSpecies||[],'saved-species-v1');
    store.put(state.daily||null,'daily-v2');
    store.put({version:1,session:state.session,pending:state.pending},'lesson-state-v2');
   }catch{
@@ -24,7 +26,7 @@ export function persistLearningState(db,state){
  });
 }
 
-export const LEARNING_STATE_KEYS=['records','progress-version','daily-v2','lesson-state-v2','lesson','lesson-en'];
+export const LEARNING_STATE_KEYS=['saved-species-v1','records','progress-version','daily-v2','lesson-state-v2','lesson','lesson-en'];
 
 // All validation happens before publishing state or permitting any normal write.
 export function validateLearningSnapshot(raw,ids,english=false){
@@ -32,7 +34,8 @@ export function validateLearningSnapshot(raw,ids,english=false){
  const records=validateRecords(raw.records===undefined?{}:raw.records,ids,{strictKeys:true});
  const daily=validateDaily(raw['daily-v2']);
  const restored=restoreLessonState(raw['lesson-state-v2'],raw.lesson,raw['lesson-en'],english,ids,{strict:true});
- return {records:migrateRecords(records),daily,session:restored.session,pending:restored.pending};
+ const savedSpecies=validateSavedSpecies(raw['saved-species-v1']===undefined?[]:raw['saved-species-v1'],ids).ids;
+ return {savedSpecies,records:migrateRecords(records),daily,session:restored.session,pending:restored.pending};
 }
 export function loadLearningState({indexedDB,ids,english=false,timeoutMs=10000,setTimer=setTimeout,clearTimer=clearTimeout}){
  return new Promise(resolve=>{

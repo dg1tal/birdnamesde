@@ -35,6 +35,10 @@ Look up bird names and learn them with short, spaced-repetition practice rounds.
 
 German interface, captured on 8 November 2026 at 430 × 932 CSS pixels (iPhone-sized viewport). Statistics show a three-question example round. Click an image to view it at full size.
 
+## Save birds for later practice
+
+Use **Save species** in bird details, then open **Saved species** from Lookup or Learn. A saved-species round uses only that list, independently of regional, seasonal and progress filters. It never replaces an existing paused round.
+
 ## How learning works
 
 Choose the names or codes you want to practise, your question and answer languages, and a region. Seasonal frequency groups help select new species; current notable reports can add species to that selection. These are occurrence-based learning filters, not sighting predictions.
@@ -49,7 +53,7 @@ The app explains its scheduling rules and research references under **Learning m
 
 Learning progress is stored in your browser on your device. There is no authentication, analytics, server-side progress database or automatic account/device sync. Browser privacy settings or storage cleanup can remove local progress.
 
-Use **Statistics → Back up and restore progress** to export a portable backup. Importing a backup replaces the destination browser’s progress after confirmation. Preferences and paused lessons are not included. Before changing browsers or site domains, export from the old location first.
+Use **Statistics → Back up and restore progress** to export a portable backup. Importing a backup replaces the destination browser’s progress after confirmation. Saved species are included in version-3 backups; older backups retain the destination browser’s saved-species list. Other preferences and paused rounds are not included. Before changing browsers or site domains, export from the old location first.
 
 There is no promised offline mode. The app loads its data and photos from static hosting; regional eBird updates run through GitHub Actions, and the browser does not contact the eBird API. Country-list membership records occurrence, including historical rarities and some introduced or escaped birds; it does not establish breeding status. See the in-app **Data & privacy** page for coverage, source periods and limitations.
 

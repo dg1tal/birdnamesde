@@ -106,7 +106,7 @@ for(const mode of ['blocked','read-hang']){
 }
 // An explicit replacement can commit; a failed transaction keeps the source intact.
 const success=await persistLearningState(loaded.db,{records:state.records,session:null,pending:[],daily:null});assert(success);
-assert.equal(loaded.writes.length,4);assert.deepEqual(raw.records,file.records);
+assert.equal(loaded.writes.length,5);assert.deepEqual(raw.records,file.records);
 for(const english of [false,true]){
  const html=backupPanel(english,false,{recovery:true,readable:true});assert(!html.includes('id="reset"'));assert(html.includes(english?'rescue file':'Rettungsdatei'));
  assert(backupPanel(english,false,{recovery:true}).includes('id="export" type="button" disabled'));
