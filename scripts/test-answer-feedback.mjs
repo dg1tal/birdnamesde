@@ -96,7 +96,7 @@ assert.match(dualCodes,/Auch Beringungscode/);assert.match(dualCodes,/&lt;script
 for(const english of [false,true]){
  markupContext.english=english;
  const codes=markupContext.codeGroups(blackbird);
- for(const text of english?['Scientific quick codes','Banding codes','eBird codes','Also for other species']:['Wissenschaftliche Kurzcodes','Beringungscodes','eBird-Codes','Auch für andere Arten'])assert(codes.includes(text));
+ for(const text of english?['Scientific codes','Banding codes','eBird codes','Also for other species']:['Wissenschaftliche Codes','Beringungscodes','eBird-Codes','Auch für andere Arten'])assert(codes.includes(text));
  const other=birds.find(b=>b.id!==blackbird.id&&b.codes.includes('EUBL'));
  assert(codes.includes(escape(english?other.en:other.de)));
 }
