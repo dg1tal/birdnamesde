@@ -542,7 +542,8 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
 .code-banding{background:#d8f3f1;color:#075a59;box-shadow:inset 0 0 0 1px currentColor}
 body.dark .code-banding{background:#174746;color:#b2eee7}
 .code-scientific,body.dark .code-scientific{background:var(--sci-bg);color:var(--sci-ink);box-shadow:inset 0 0 0 1px currentColor}
-.code-type{font:700 10px/1.3 system-ui,sans-serif;letter-spacing:0;margin-left:6px;border:1px solid currentColor;border-radius:3px;padding:0 2px;vertical-align:middle}
-.code-legend{font-size:12px;line-height:1.5;margin:6px 0 12px}
+.code-legend{display:flex;flex-wrap:wrap;gap:5px;font-size:12px;line-height:1.5;margin:6px 0 12px}
+.code-legend .code{font:500 12px/1.5 system-ui,sans-serif;letter-spacing:0;padding:2px 6px;border-radius:4px;white-space:normal}
+.code-legend-note{flex-basis:100%}
 .code-name-note{font-size:13px;margin:6px 0 12px}
 @media(forced-colors:active){.code-scientific,.code-banding{outline:1px solid CanvasText}}

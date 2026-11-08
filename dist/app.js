@@ -237,11 +237,11 @@ function codeMarkup(s,code,answer=false){
  if(banding)labels.push('Banding-Code');
  if(!scientific&&!banding)labels.push(english?'English quick code':'Englischer Quick-Code');
  const title=labels.join(' · ');
- return `<span class="code${answer?' answer-code':''}${banding?' code-banding':''}${scientific?' code-scientific':''}" title="${esc(title)}"><span class="sr">${esc(title)}: </span><span data-name-content>${esc(code)}</span>${banding?'<small class="code-type" aria-hidden="true">B</small>':''}</span>`;
+ return `<span class="code${answer?' answer-code':''}${banding?' code-banding':''}${scientific?' code-scientific':''}" title="${esc(title)}"><span class="sr">${esc(title)}: </span><span data-name-content>${esc(code)}</span></span>`;
 }
 function scientificCodeNote(s){
  const note=s.scientificCodes?.length&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
- return note+`<p class="muted code-legend">${english?'Purple: scientific · Teal / B: banding · Unmarked: English quick code. Codes may refer to more than one species.':'Violett: wissenschaftlich · Türkis / B: Banding · Ohne Markierung: englischer Quick-Code. Codes können mehrere Arten bezeichnen.'}</p>`;
+ return note+`<p class="muted code-legend"><span class="code code-scientific">${english?'Scientific code':'Wissenschaftlicher Code'}</span> <span class="code code-banding">${english?'Banding code':'Banding-Code'}</span> <span class="code">${english?'English quick code':'Englischer Quick-Code'}</span><span class="code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</span></p>`;
 }
 
 function lookupAliases(s,language){
