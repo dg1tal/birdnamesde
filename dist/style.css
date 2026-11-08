@@ -270,7 +270,8 @@ main h1[tabindex="-1"]:focus{outline:none}
 #lookup-filter-options{flex:1;min-width:180px}
 #lookup-filter-options>summary{min-height:44px;padding:10px 0;font-weight:650}
 .lookup-filters{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:6px}
-#lookup-filter-options[open]{flex-basis:100%;order:2}
+/* Keep the disclosure at its original position when it expands. */
+#lookup-filter-options[open]{flex-basis:100%}
 .lookup-options .photo-option{margin:0}
 #results-meta{align-items:center;gap:4px 12px}
 #results-meta #clear-lookup{font-size:13px;min-height:44px;padding:6px 10px;margin-left:auto}
