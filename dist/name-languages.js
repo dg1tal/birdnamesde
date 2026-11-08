@@ -1,3 +1,4 @@
+import {scientificNameAliases} from './scientific-name-aliases.js?v=20261108-quality1';
 // Add a registry entry and a sourced names JSON to support another language.
 // UI locale never determines which bird name is shown or accepted.
 export const NAME_LANGUAGES=Object.freeze([
@@ -9,12 +10,13 @@ export const NAME_LANGUAGES=Object.freeze([
 export const isNameLanguage=code=>NAME_LANGUAGES.some(l=>l.code===code);
 export const languageLabel=(code,locale='de')=>NAME_LANGUAGES.find(l=>l.code===code)?.labels[locale]||code;
 export function primaryName(species,code){
+ if(code==='sci')return scientificNameAliases(species)[0]?.name||species.sci||'';
  const language=NAME_LANGUAGES.find(l=>l.code===code);
  return language?.field?species[language.field]||'':species.names?.[code]?.name||'';
 }
 export function acceptedNames(species,code){
  const primary=primaryName(species,code);if(!primary)return [];
- const extra=code==='en'?[species.enGB,...(species.aliases?.en||[])]:code==='de'?[...(species.aliases?.de||[]),...(species.germanNames||[]).filter(n=>n.status==='alternative'&&!n.ambiguous).map(n=>n.name)]:species.names?.[code]?.aliases||[];
+ const extra=code==='sci'?[species.sci]:code==='en'?[species.enGB,...(species.aliases?.en||[])]:code==='de'?[...(species.aliases?.de||[]),...(species.germanNames||[]).filter(n=>n.status==='alternative'&&!n.ambiguous).map(n=>n.name)]:species.names?.[code]?.aliases||[];
  return [...new Set([primary,...extra].filter(x=>typeof x==='string'&&x.trim()))];
 }
 export function normalizeAnswer(value,code){

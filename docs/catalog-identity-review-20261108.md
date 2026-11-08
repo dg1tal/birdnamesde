@@ -8,6 +8,16 @@ verifizierten gleichbedeutenden Namen als Suchinformation ergänzt und erklärt.
 Der Katalogstand und die Lernantworten bleiben 2025. Die drei Änderungen der
 Artabgrenzung bleiben Entscheidungen für ein getrenntes Taxonomieupdate.
 
+Nachtrag zur Namensanzeige `20261108-names2026`: Die elf geprüften
+Namenskombinationen von 2026 sind jetzt Hauptnamen in Anzeige, Sortierung und
+Lernen. Die Namen von 2025 werden mit Versionsangabe angezeigt und ebenfalls
+als wissenschaftliche Antwort akzeptiert. `sci` bleibt der unveränderte
+2025-Quellschlüssel für Medien und Herkunftserklärungen; diese Erklärungen
+sind bei den elf Änderungen ausdrücklich als 2025 gekennzeichnet.
+Artabgrenzungen und die drei unten dokumentierten Konzeptfälle bleiben
+unverändert. Die folgenden Untersuchungsergebnisse beschreiben den Zustand
+vor diesen Ergänzungen.
+
 ## Ergebnis und Ursprung der Verwirrung
 
 Alle 940 Katalogarten wurden gegen die gespeicherte Taxonomie 2025 und die vollständige offizielle eBird-Arbeitsmappe 2026 abgeglichen. Die Prüfung berücksichtigt Artkategorie und Avibase-Taxonkonzept, nicht nur Namen und eBird-ID.

@@ -1,4 +1,4 @@
-import {isNameLanguage} from './name-languages.js?v=20261101-scientific1';
+import {isNameLanguage} from './name-languages.js?v=20261108-names2026';
 
 const object=value=>!!value&&typeof value==='object'&&!Array.isArray(value);
 const invalid=()=>{throw Error('Ungültige Lernwerte.');};

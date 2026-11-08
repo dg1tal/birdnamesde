@@ -1,6 +1,6 @@
-import {normalize} from './logic.js?v=20261108-quality1';
-import {NAME_LANGUAGES,acceptedNames} from './name-languages.js?v=20261101-scientific1';
-import {sortLookup} from './lookup-settings.js?v=20261105-catalog1';
+import {normalize} from './logic.js?v=20261108-names2026';
+import {NAME_LANGUAGES,acceptedNames} from './name-languages.js?v=20261108-names2026';
+import {sortLookup} from './lookup-settings.js?v=20261108-names2026';
 import {scientificNameAliases} from './scientific-name-aliases.js?v=20261108-quality1';
 
 const variants=value=>[...new Set([normalize(value),normalize(value.toLowerCase().replace(/ae/g,'ä').replace(/oe/g,'ö').replace(/ue/g,'ü'))])].filter(Boolean);
@@ -9,8 +9,9 @@ const begins=(field,token)=>token.some(value=>field.words.some(word=>word.starts
 const cache=new WeakMap();
 function fields(species){
  if(cache.has(species))return cache.get(species);
- const entries=NAME_LANGUAGES.flatMap(({code})=>[...new Set([...acceptedNames(species,code),...(code==='de'?(species.germanNames||[]).map(n=>n.name):[])])].map(value=>({language:code,value})));
- entries.push(...scientificNameAliases(species).map(({name,source})=>({language:'sci',value:name,source})));
+ const aliases=scientificNameAliases(species);
+ const entries=NAME_LANGUAGES.flatMap(({code})=>[...new Set([...acceptedNames(species,code).filter(name=>code!=='sci'||!aliases.some(a=>a.name===name)),...(code==='de'?(species.germanNames||[]).map(n=>n.name):[])])].map(value=>({language:code,value})));
+ entries.push(...aliases.map(({name,source})=>({language:'sci',value:name,source})));
  entries.push(...species.codes.map(value=>({language:'code',value})));
  const result=entries.map(field=>({...field,normalized:normalize(field.value),words:field.value.split(/[^\p{L}\p{N}]+/u).filter(Boolean).map(normalize)}));
  cache.set(species,result);return result;

@@ -1,29 +1,29 @@
-import {validateScientificNames,renderScientificName} from './scientific-names.js?v=20261108-origin-review2';
-import {searchLookup} from './lookup-search.js?v=20261108-quality1';
-import {LOOKUP_PAGE_SIZE,lookupSettings,lookupTitle,sortLookup,lookupLanguages,showGermanStatus} from './lookup-settings.js?v=20261105-catalog1';
-import {continuationSettings,practiceQueue,dailyLearningPlan} from './practice-queue.js?v=20261105-quality2';
+import {validateScientificNames,renderScientificName} from './scientific-names.js?v=20261108-names2026';
+import {searchLookup} from './lookup-search.js?v=20261108-names2026';
+import {LOOKUP_PAGE_SIZE,lookupSettings,lookupTitle,sortLookup,lookupLanguages,showGermanStatus} from './lookup-settings.js?v=20261108-names2026';
+import {continuationSettings,practiceQueue,dailyLearningPlan} from './practice-queue.js?v=20261108-names2026';
 import {dailyNewNamesText,selectionExplanation} from './learning-selection-copy.js?v=20261102-selection1';
 import {RULES,lessonBaseLimit,evidence,secure,introduce,pairKnown,beginIntroduction,gradeRecord,statusLabel,evidenceText,scheduleText,family} from './learning-model.js?v=20261105-recovery1';
 import {renderLearningMethod} from './learning-method.js?v=20261105-quality2';
 import {loadSeasonal,hybridSelection,seasonLabel,regionalSnapshot,seasonalDatasetText,FREQUENCY_GROUPS,frequencyGroups,frequencyLabel} from './hybrid-learning.js?v=20261108-quality1';
 import {createAnnouncer,setTextIfChanged,focusElement,contentLanguage,queueFocus,activateView} from './accessibility.js?v=20261101-wave2';
-import {persistLearningState,loadLearningState} from './learning-storage.js?v=20261108-quality1';
-import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from './backup.js?v=20261108-quality1';
+import {persistLearningState,loadLearningState} from './learning-storage.js?v=20261108-names2026';
+import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from './backup.js?v=20261108-names2026';
 import {encodeBackupFile,decodeBackupFile} from './backup-file.js?v=20261108-quality1';
 import {scientificNameAliases} from './scientific-name-aliases.js?v=20261108-quality1';
 import {lessonProgressText,completionMessage,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261105-quality2';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
-import {renderInformation} from './info-page.js?v=20261108-quality1';
-import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261108-quality1';
-import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
+import {renderInformation} from './info-page.js?v=20261108-names2026';
+import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261108-names2026';
+import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261108-names2026';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261105-catalog1';
 import {english,localize,t,importErrorMessage} from './i18n.js?v=20261108-quality1';
 const defaultNameTarget=english?'de':'en';
 let nameTarget=defaultNameTarget,availableNameLanguages=['de','en'];
-import {lessonProgress,recordLessonAnswer} from './study-state.js?v=20261108-quality1';
+import {lessonProgress,recordLessonAnswer} from './study-state.js?v=20261108-names2026';
 import {createPhotoCache} from './photo-cache.js';
-import {normalize,matches,accepts,answerSpecies,due} from './logic.js?v=20261108-quality1';
+import {normalize,matches,accepts,answerSpecies,due} from './logic.js?v=20261108-names2026';
 const mastered=secure;
 const $=s=>document.querySelector(s),main=$('#app');
 let app=$('#nachschlagen');
@@ -228,6 +228,7 @@ function nameVariants(s,language,learning=false,variantClass=learning?'answer-ma
  const groups=[];
  if(gb)groups.push(`<p class="${variantClass}"><span class="variant-label">GB</span> ${nameMarkup({en:s.enGB},'en')}</p>`);
  const remaining=variants.filter(n=>!gb||n!==s.enGB);
+ if(language==='sci'&&scientificNameAliases(s).length)return `<p class="name-variant"><span class="muted">eBird/Clements 2025:</span> <span class="scientific-name" data-name-content lang="la">${esc(s.sci)}</span></p>`;
  if(language==='de'&&learning){
   const editorial=s.germanNames||[];
   const alternatives=remaining.filter(n=>editorial.some(entry=>entry.name===n&&entry.status==='alternative'&&!entry.ambiguous));
@@ -285,7 +286,7 @@ function codeGroups(s,answer=false,compact=false){
   }).join('')}</div></div>`;
  }).join('');
  const alias=scientificNameAliases(s)[0];
- const note=alias?`<p class="muted code-name-note">${english?'Also named':'Auch bezeichnet als'} <span class="scientific-name" data-name-content lang="la">${esc(alias.name)}</span> (${esc(alias.source)}). ${english?'Same species; catalogue and study answers use':'Dieselbe Art; Katalog und Lernantworten verwenden'} <span class="scientific-name" data-name-content lang="la">${esc(s.sci)}</span> (2025).</p>`:s.codes.some(code=>s.scientificCodes?.includes(code))&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
+ const note=alias?`<p class="muted code-name-note">eBird/Clements 2026: <span class="scientific-name" data-name-content lang="la">${esc(alias.name)}</span><br>eBird/Clements 2025: <span class="scientific-name" data-name-content lang="la">${esc(s.sci)}</span><br>${english?'Same species; both names are accepted as scientific answers.':'Dieselbe Art; beide Namen werden als wissenschaftliche Antwort akzeptiert.'}</p>`:s.codes.some(code=>s.scientificCodes?.includes(code))&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
  return `<div class="species-codes${compact?' species-codes-compact':''}${answer?' answer-main answer-codes':''}" role="group" aria-label="${answer?(english?'Accepted eBird entry codes':'Akzeptierte eBird-Kurzcodes'):(english?'eBird entry codes':'eBird-Kurzcodes')}">${groups}${collisions(s.codes)}${note}<p class="muted code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</p></div>`;
 }
 

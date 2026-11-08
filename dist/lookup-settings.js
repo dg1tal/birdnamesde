@@ -1,4 +1,4 @@
-import {NAME_LANGUAGES,isNameLanguage,primaryName} from './name-languages.js?v=20261101-scientific1';
+import {NAME_LANGUAGES,isNameLanguage,primaryName} from './name-languages.js?v=20261108-names2026';
 
 export const LOOKUP_PAGE_SIZE=60;
 export function lookupSettings(saved,learningRegion='DE',english=false,countries=['DE','NL','GB']){
