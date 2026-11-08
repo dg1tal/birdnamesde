@@ -574,3 +574,13 @@ body.dark .code-banding{background:#174746;color:#b2eee7}
 .lookup-options .lookup-name-options[open]{padding:0;border:0;border-radius:0}
 .lookup-options .lookup-name-options fieldset{min-inline-size:0;padding:10px 0;border:0}
 .lookup-filters .lookup-country{max-width:none}
+
+/* One disclosure owns search scope and display settings in document order. */
+.lookup-options{display:block}
+#lookup-filter-options{min-width:0}
+.lookup-settings-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:24px;margin:12px 0}
+.lookup-settings-grid>section{min-width:0}
+.lookup-settings-grid h2{font-size:16px;margin:0 0 14px}
+.lookup-settings-grid .lookup-name-options{padding:0;max-width:none}
+.lookup-settings-grid .photo-option{margin-top:16px}
+@media(max-width:720px){.lookup-settings-grid{grid-template-columns:1fr;gap:24px}}
