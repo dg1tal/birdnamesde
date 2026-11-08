@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 import {searchLookup} from '../dist/lookup-search.js';
-import {matches} from '../dist/logic.js';
+import {matches,accepts} from '../dist/logic.js';
 import {lookupTitle} from '../dist/lookup-settings.js';
 import {primaryName,languageLabel} from '../dist/name-languages.js';
 import {contentLanguage} from '../dist/accessibility.js';
@@ -67,6 +67,13 @@ assert.equal(SCIENTIFIC_NAME_ALIASES.length,11);
 for(const [id,oldName,newName] of SCIENTIFIC_NAME_ALIASES){
  const bird=birds.find(b=>b.id===id);
  assert.equal(bird.sci,oldName);assert.equal(bird.scientificCodeName,newName);
+ assert.equal(primaryName(bird,'sci'),newName);
+ for(const name of [oldName,newName]){
+  assert(accepts(bird,'sci',name.toLowerCase()),name+' accepted as scientific answer');
+  assert.equal(searchLookup([bird],name)[0]?.rank,0,name+' remains searchable');
+ }
+ assert(!accepts(bird,'sci','Nannus hiemalis'));
+
  for(const query of [newName,newName.toUpperCase(),newName.toLowerCase()]){
   const hit=searchLookup(birds,query).find(h=>h.species.id===id);
   assert.equal(hit?.rank,0,query+' exact synonym');

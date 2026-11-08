@@ -1,4 +1,4 @@
-import {hasLanguagePair} from './name-languages.js?v=20261101-scientific1';
+import {hasLanguagePair} from './name-languages.js?v=20261108-names2026';
 import {RULES,dailyQueue,evidence,isDue,pairKnown} from './learning-model.js?v=20261105-recovery1';
 
 // One-click continuation uses shared selection settings, not hidden custom filters.

@@ -1,3 +1,4 @@
+import {SCIENTIFIC_NAME_ALIASES} from '../dist/scientific-name-aliases.js';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -100,3 +101,11 @@ for(const fn of ['renderIntroduction','renderFeedback','lookupNameList','studyDe
  assert(app.slice(start,end).includes(fn==='renderIntroduction'||fn==='renderFeedback'?'studyDetailsMarkup(':'scientificNameMarkup('),fn);
 }
 console.log('PASS: all 940 name explanations in de/en/nl; exact taxonomy, homonyms, sources, uncertainty, language independence, safe HTML and answer-only placement.');
+
+for(const [id,oldName,newName] of SCIENTIFIC_NAME_ALIASES){
+ for(const language of ['de','en','nl']){
+  const html=renderScientificName(data,birds.find(b=>b.id===id),language);
+  assert(html.includes('eBird/Clements 2025'));assert(html.includes(oldName));
+  assert(!html.includes(newName),'Old etymology is never presented as the new name');
+ }
+}
