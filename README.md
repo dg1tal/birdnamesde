@@ -43,6 +43,7 @@ the code's MIT licence. Attribution does not imply endorsement by Cornell or eBi
 
 - `dist/species.json`: independently replaceable species data and provenance metadata.
 - `dist/logic.js`: search normalization, answer acceptance, progress helpers and import validation.
+- `dist/lookup-search.js`: ranked multilingual lookup with visible match provenance; see [search design and research](docs/search-design-20261108.md).
 - `dist/learning-model.js`: daily introduction budget, learning contexts, evidence and review scheduling.
 - `dist/practice-queue.js`: custom and direct-continuation practice queues.
 - `dist/learning-method.js`: bilingual learning-method explanations and research references.

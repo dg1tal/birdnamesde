@@ -547,3 +547,28 @@ body.dark .code-banding{background:#174746;color:#b2eee7}
 .code-legend-note{flex-basis:100%}
 .code-name-note{font-size:13px;margin:6px 0 12px}
 @media(forced-colors:active){.code-scientific,.code-banding{outline:1px solid CanvasText}}
+
+/* Search results explain the match before revealing the full species card. */
+.search-help{font-size:14px;color:var(--muted);margin:8px 0 16px;max-width:75ch}
+#results.lookup-hit-list{display:block}
+.lookup-hit-heading{font-size:14px;font-weight:650;color:var(--muted);margin:24px 0 8px}
+.lookup-hit-heading:first-child{margin-top:4px}
+.lookup-hit{border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:8px 0;overflow:hidden}
+.lookup-hit>summary{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 20px;padding:14px 18px;cursor:pointer;list-style:none;min-height:72px}
+.lookup-hit>summary::-webkit-details-marker{display:none}
+.lookup-hit>summary:hover,.lookup-hit[open]>summary{background:var(--soft)}
+.lookup-hit-title{font-weight:700;font-size:18px;overflow-wrap:anywhere}
+.lookup-hit-reasons{grid-column:1;display:flex;flex-wrap:wrap;gap:4px 16px;font-size:14px;overflow-wrap:anywhere;min-width:0}
+.lookup-hit-reason>span{color:var(--muted)}
+.lookup-hit-reason strong{font-weight:550}
+.lookup-hit-action{grid-column:2;grid-row:1/3;align-self:center;font-size:13px;color:var(--accent);white-space:nowrap}
+.lookup-hit-action::after{content:' ＋';font-size:18px}
+.lookup-hit[open] .lookup-hit-action::after{content:' −'}
+.lookup-hit>.card{border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;margin:0}
+@media(max-width:580px){.lookup-hit>summary{padding:12px;grid-template-columns:minmax(0,1fr) auto;gap:4px 8px}.lookup-hit-action{font-size:0}.lookup-hit-action::after{font-size:22px}.lookup-hit-reasons{display:grid;gap:2px}.lookup-hit-title{font-size:17px}}
+
+.lookup-options .lookup-name-options{flex:1;min-width:150px;max-width:none;padding:0}
+.lookup-options .lookup-name-options>summary{padding:10px 0;min-height:44px}
+.lookup-options .lookup-name-options[open]{flex-basis:100%;order:2;padding:12px}
+.lookup-options .lookup-name-options[open]>summary{padding-top:0}
+.lookup-filters .lookup-country{max-width:none}
