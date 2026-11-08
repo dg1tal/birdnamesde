@@ -241,7 +241,7 @@ function codeMarkup(s,code,answer=false){
 }
 function scientificCodeNote(s){
  const note=s.scientificCodes?.length&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
- return note+`<p class="muted code-legend"><span class="code code-scientific">${english?'Scientific code':'Wissenschaftlicher Code'}</span> <span class="code code-banding">${english?'Banding code':'Banding-Code'}</span> <span class="code">${english?'English quick code':'Englischer Quick-Code'}</span><span class="code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</span></p>`;
+ return note+`<p class="muted code-legend"><span class="code code-scientific">${english?'scientific':'wissenschaftlich'}</span> <span class="code code-banding">${english?'banding':'Beringung'}</span> <span class="code">eBird</span><span class="code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</span></p>`;
 }
 
 function lookupAliases(s,language){
