@@ -1,0 +1,5336 @@
+{
+  "scope": "All species in dist/species.json; collisions count distinct species, not repeated code types on the same species.",
+  "source": {
+    "version": "eBird v2026 codes / 27 October 2026",
+    "sourceUrl": "https://support.ebird.org/en/support/solutions/articles/48000804865",
+    "workbookUrl": "https://cornell.box.com/s/fjp112mh25nlvbyr1p28r9ya7nriblls",
+    "workbookSha256": "989a1c4e9524c6b0fb3b8a69f99bad98f80706cd183e934bc620c6dd24e70e62",
+    "policy": "Official scientific codes first. Within scientific and other codes separately, prefer fewest matching species worldwide, then banding codes, then alphabetical order. All candidates are accepted. Scientific code names follow their source workbook; catalogue names remain pinned to v2025.",
+    "specificitySpecies": 11202,
+    "exceptions": {
+      "spofly1": "Retained v2025 species concept; v2026 reclassifies this ID as a slash (Muscicapa striata/tyrrhenica). Codes remain from the official 2025 workbook pending a taxonomy migration."
+    }
+  },
+  "summary": {
+    "species": 940,
+    "distinctCodes": 1966,
+    "ambiguousCodes": 197,
+    "commonBandingCollisions": 42,
+    "collisionsIntroducedByBanding": 46,
+    "typePairs": {
+      "banding+banding": 2,
+      "banding+common": 42,
+      "banding+scientific": 12,
+      "common+common": 62,
+      "common+scientific": 28,
+      "scientific+scientific": 63
+    }
+  },
+  "collisions": [
+    {
+      "code": "ABDU",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "ambduc",
+          "de": "Dunkelente",
+          "sci": "Anas rubripes",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "afbduc1",
+          "de": "Schwarzente",
+          "sci": "Anas sparsa",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ACDU",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "blrwar1",
+          "de": "Buschrohrsänger",
+          "sci": "Acrocephalus dumetorum",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "comduc3",
+          "de": "Höckerschnabelente",
+          "sci": "Sarkidiornis sylvicola",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ACFL",
+      "typePairs": [
+        "banding+scientific"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "redpol1",
+          "de": "Birkenzeisig",
+          "sci": "Acanthis flammea",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "acafly",
+          "de": "Buchenschnäppertyrann",
+          "sci": "Empidonax virescens",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ACPA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "aquwar1",
+          "de": "Seggenrohrsänger",
+          "sci": "Acrocephalus paludicola",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "marwar3",
+          "de": "Sumpfrohrsänger",
+          "sci": "Acrocephalus palustris",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ACSC",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "sedwar1",
+          "de": "Schilfrohrsänger",
+          "sci": "Acrocephalus schoenobaenus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "eurwar1",
+          "de": "Teichrohrsänger",
+          "sci": "Acrocephalus scirpaceus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ADWA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "afdwar1",
+          "de": "Saharagrasmücke",
+          "sci": "Curruca deserti",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "asdwar1",
+          "de": "Wüstengrasmücke",
+          "sci": "Curruca nana",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ALCH",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "yebcho1",
+          "de": "Alpendohle",
+          "sci": "Pyrrhocorax graculus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "chukar",
+          "de": "Chukarhuhn",
+          "sci": "Alectoris chukar",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "AMFA",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "amufal1",
+          "de": "Amurfalke",
+          "sci": "Falco amurensis",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "meapar",
+          "de": "Mülleramazone",
+          "sci": "Amazona farinosa",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ANAL",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "gwfgoo",
+          "de": "Blässgans",
+          "sci": "Anser albifrons",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "kenplo1",
+          "de": "Seeregenpfeifer",
+          "sci": "Anarhynchus alexandrinus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ANCA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "tawpip1",
+          "de": "Brachpieper",
+          "sci": "Anthus campestris",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "captea1",
+          "de": "Fahlente",
+          "sci": "Anas capensis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "empgoo",
+          "de": "Kaisergans",
+          "sci": "Anser canagicus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "sancra",
+          "de": "Kanadakranich",
+          "sci": "Antigone canadensis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "chetea1",
+          "de": "Kastanienente",
+          "sci": "Anas castanea",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "snogoo",
+          "de": "Schneegans",
+          "sci": "Anser caerulescens",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ANER",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "rebduc1",
+          "de": "Rotschnabelente",
+          "sci": "Anas erythrorhyncha",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "lwfgoo",
+          "de": "Zwerggans",
+          "sci": "Anser erythropus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ANGO",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "andgoo1",
+          "de": "Andengans",
+          "sci": "Oressochen melanopterus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "blypip1",
+          "de": "Steppenpieper",
+          "sci": "Anthus godlewskii",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ANRU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "amepip",
+          "de": "Amerikapieper",
+          "sci": "Anthus rubescens",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "ambduc",
+          "de": "Dunkelente",
+          "sci": "Anas rubripes",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "oripip1",
+          "de": "Orientspornpieper",
+          "sci": "Anthus rufulus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ANSP",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "watpip1",
+          "de": "Bergpieper",
+          "sci": "Anthus spinoletta",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "afbduc1",
+          "de": "Schwarzente",
+          "sci": "Anas sparsa",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "APPA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "palswi3",
+          "de": "Fahlsegler",
+          "sci": "Apus pallidus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "fotswi",
+          "de": "Pazifiksegler",
+          "sci": "Apus pacificus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ARGR",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "sooshe",
+          "de": "Dunkelsturmtaucher",
+          "sci": "Ardenna grisea",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "greshe",
+          "de": "Kappensturmtaucher",
+          "sci": "Ardenna gravis",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ASST",
+      "typePairs": [
+        "banding+banding"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "sibsto1",
+          "de": "Pallasschwarzkehlchen",
+          "sci": "Saxicola maurus",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "stonec7",
+          "de": "Stejnegerschwarzkehlchen",
+          "sci": "Saxicola stejnegeri",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "AUSH",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "litshe1",
+          "de": "Barolosturmtaucher",
+          "sci": "Puffinus baroli",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "aussho1",
+          "de": "Halbmond-Löffelente",
+          "sci": "Spatula rhynchotis",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "ausshe1",
+          "de": "Halsbandgans",
+          "sci": "Tadorna tadornoides",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "AWDU",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "wooduc",
+          "de": "Brautente",
+          "sci": "Aix sponsa",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "manduc1",
+          "de": "Mähnenente",
+          "sci": "Chenonetta jubata",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BAGO",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "bargol",
+          "de": "Spatelente",
+          "sci": "Bucephala islandica",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "bargoo",
+          "de": "Weißwangengans",
+          "sci": "Branta leucopsis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BAPA",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "barpar2",
+          "de": "Felsenhuhn",
+          "sci": "Alectoris barbara",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "barpar1",
+          "de": "Katharinasittich",
+          "sci": "Bolborhynchus lineola",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BASH",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "balshe1",
+          "de": "Balearensturmtaucher",
+          "sci": "Puffinus mauretanicus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "litshe1",
+          "de": "Barolosturmtaucher",
+          "sci": "Puffinus baroli",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BASW",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "barswa",
+          "de": "Rauchschwalbe",
+          "sci": "Hirundo rustica",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "banswa",
+          "de": "Uferschwalbe",
+          "sci": "Riparia riparia",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BBPI",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "amepip",
+          "de": "Amerikapieper",
+          "sci": "Anthus rubescens",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "sibpip1",
+          "de": "Sibirienpieper",
+          "sci": "Anthus japonicus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BBSA",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "bubsan",
+          "de": "Grasläufer",
+          "sci": "Calidris subruficollis",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "brbsan",
+          "de": "Sumpfläufer",
+          "sci": "Calidris falcinellus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BCPA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "blcpar1",
+          "de": "Schwarzkappensittich",
+          "sci": "Pyrrhura rupicola",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "bucpar",
+          "de": "Spitzschwanzsittich",
+          "sci": "Thectocercus acuticaudatus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BEGO",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "tunbeg1",
+          "de": "Tundrasaatgans",
+          "sci": "Anser serrirostris",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "taibeg1",
+          "de": "Waldsaatgans",
+          "sci": "Anser fabalis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BEWH",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "bkewhe2",
+          "de": "Balkansteinschmätzer",
+          "sci": "Oenanthe melanoleuca",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "bkewhe1",
+          "de": "Maurensteinschmätzer",
+          "sci": "Oenanthe hispanica",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BHPA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "blhpar4",
+          "de": "Grünzügelpapagei",
+          "sci": "Pionites melanocephalus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "blhpar3",
+          "de": "Rosenkopfsittich",
+          "sci": "Psittacula roseata",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "blhpar1",
+          "de": "Schwarzohrpapagei",
+          "sci": "Pionus menstruus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BLKI",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "bklkit",
+          "de": "Dreizehenmöwe",
+          "sci": "Rissa tridactyla",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "blakit1",
+          "de": "Schwarzmilan",
+          "sci": "Milvus migrans",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BLVU",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "cinvul1",
+          "de": "Mönchsgeier",
+          "sci": "Aegypius monachus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "blkvul",
+          "de": "Rabengeier",
+          "sci": "Coragyps atratus",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BLWA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "bkbwar",
+          "de": "Fichtenwaldsänger",
+          "sci": "Setophaga fusca",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "bkpwar",
+          "de": "Streifenwaldsänger",
+          "sci": "Setophaga striata",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BOEA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "boneag2",
+          "de": "Habichtsadler",
+          "sci": "Aquila fasciata",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "booeag1",
+          "de": "Zwergadler",
+          "sci": "Hieraaetus pennatus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BOWA",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "boowar1",
+          "de": "Buschspötter",
+          "sci": "Iduna caligata",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "bohwax",
+          "de": "Seidenschwanz",
+          "sci": "Bombycilla garrulus",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BTGO",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "batgod",
+          "de": "Pfuhlschnepfe",
+          "sci": "Limosa lapponica",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "bktgod",
+          "de": "Uferschnepfe",
+          "sci": "Limosa limosa",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BUBU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "combuz1",
+          "de": "Mäusebussard",
+          "sci": "Buteo buteo",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "eueowl1",
+          "de": "Uhu",
+          "sci": "Bubo bubo",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BUVI",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "grnher",
+          "de": "Grünreiher",
+          "sci": "Butorides virescens",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "grhowl",
+          "de": "Virginiauhu",
+          "sci": "Bubo virginianus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BWST",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "bknsti",
+          "de": "Schwarznacken-Stelzenläufer",
+          "sci": "Himantopus mexicanus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "bkwsti",
+          "de": "Stelzenläufer",
+          "sci": "Himantopus himantopus",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CAAL",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "dunlin",
+          "de": "Alpenstrandläufer",
+          "sci": "Calidris alpina",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "sander",
+          "de": "Sanderling",
+          "sci": "Calidris alba",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CACA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "canwar",
+          "de": "Kanadawaldsänger",
+          "sci": "Cardellina canadensis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "redkno",
+          "de": "Knutt",
+          "sci": "Calidris canutus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "norcar",
+          "de": "Rotkardinal",
+          "sci": "Cardinalis cardinalis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "sibrub",
+          "de": "Rubinkehlchen",
+          "sci": "Calliope calliope",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "calqua",
+          "de": "Schopfwachtel",
+          "sci": "Callipepla californica",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "eurgol",
+          "de": "Stieglitz",
+          "sci": "Carduelis carduelis",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CACR",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "hoocro1",
+          "de": "Nebelkrähe",
+          "sci": "Corvus cornix",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "carcro1",
+          "de": "Rabenkrähe",
+          "sci": "Corvus corone",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CAEG",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "categr2",
+          "de": "Koromandelkuhreiher",
+          "sci": "Ardea coromanda",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "categr1",
+          "de": "Kuhreiher",
+          "sci": "Ardea ibis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CAFU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "veery",
+          "de": "Weidenmusendrossel",
+          "sci": "Catharus fuscescens",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "whrsan",
+          "de": "Weißbürzel-Strandläufer",
+          "sci": "Calidris fuscicollis",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CAGO",
+      "typePairs": [
+        "common+common",
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "tancoc1",
+          "de": "Goffinkakadu",
+          "sci": "Cacatua goffiniana",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "cangoo",
+          "de": "Kanadagans",
+          "sci": "Branta canadensis",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "cacgoo1",
+          "de": "Zwergkanadagans",
+          "sci": "Branta hutchinsii",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CAGU",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "herthr",
+          "de": "Einsiedler-Musendrossel",
+          "sci": "Catharus guttatus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "casgul2",
+          "de": "Steppenmöwe",
+          "sci": "Larus cachinnans",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CALA",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "callar1",
+          "de": "Kalanderlerche",
+          "sci": "Melanocorypha calandra",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "laplon",
+          "de": "Spornammer",
+          "sci": "Calcarius lapponicus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CAMA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "wessan",
+          "de": "Bergstrandläufer",
+          "sci": "Calidris mauri",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "pursan",
+          "de": "Meerstrandläufer",
+          "sci": "Calidris maritima",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CAMI",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "gycthr",
+          "de": "Grauwangen-Musendrossel",
+          "sci": "Catharus minimus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "leasan",
+          "de": "Wiesenstrandläufer",
+          "sci": "Calidris minutilla",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "litsti",
+          "de": "Zwergstrandläufer",
+          "sci": "Calidris minuta",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CAPL",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "y00678",
+          "de": "Schopfkarakara",
+          "sci": "Caracara plancus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "casplo1",
+          "de": "Wermutregenpfeifer",
+          "sci": "Anarhynchus asiaticus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CAPU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "ruff",
+          "de": "Kampfläufer",
+          "sci": "Calidris pugnax",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "wlswar",
+          "de": "Mönchswaldsänger",
+          "sci": "Cardellina pusilla",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "semsan",
+          "de": "Sandstrandläufer",
+          "sci": "Calidris pusilla",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CASU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "bubsan",
+          "de": "Grasläufer",
+          "sci": "Calidris subruficollis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "lotsti",
+          "de": "Langzehen-Strandläufer",
+          "sci": "Calidris subminuta",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CATE",
+      "typePairs": [
+        "banding+common",
+        "banding+scientific",
+        "common+scientific",
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "grekno",
+          "de": "Anadyrknutt",
+          "sci": "Calidris tenuirostris",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "captea1",
+          "de": "Fahlente",
+          "sci": "Anas capensis",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "caster1",
+          "de": "Raubseeschwalbe",
+          "sci": "Hydroprogne caspia",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "temsti",
+          "de": "Temminckstrandläufer",
+          "sci": "Calidris temminckii",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CEWA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "cetwar1",
+          "de": "Seidensänger",
+          "sci": "Cettia cetti",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "cedwax",
+          "de": "Zedernseidenschwanz",
+          "sci": "Bombycilla cedrorum",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CHGR",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "larspa",
+          "de": "Rainammer",
+          "sci": "Chondestes grammacus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "yebgro1",
+          "de": "Weißhand-Kernbeißer",
+          "sci": "Eophona migratoria",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CHPH",
+      "typePairs": [
+        "banding+scientific"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "chpher1",
+          "de": "Bacchusreiher",
+          "sci": "Ardeola bacchus",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "bongul",
+          "de": "Bonapartemöwe",
+          "sci": "Chroicocephalus philadelphia",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CHPI",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "golphe",
+          "de": "Goldfasan",
+          "sci": "Chrysolophus pictus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "uplgoo1",
+          "de": "Magellangans",
+          "sci": "Chloephaga picta",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CICI",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "whtdip1",
+          "de": "Wasseramsel",
+          "sci": "Cinclus cinclus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "whisto1",
+          "de": "Weißstorch",
+          "sci": "Ciconia ciconia",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COBU",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "corbun1",
+          "de": "Grauammer",
+          "sci": "Emberiza calandra",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "combuz1",
+          "de": "Mäusebussard",
+          "sci": "Buteo buteo",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COCH",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "comcha",
+          "de": "Buchfink",
+          "sci": "Fringilla coelebs",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "afrcha1",
+          "de": "Maghrebbuchfink",
+          "sci": "Fringilla spodiogenys",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "comchi1",
+          "de": "Zilpzalp",
+          "sci": "Phylloscopus collybita",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COCO",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "cosswa1",
+          "de": "Coscorobaschwan",
+          "sci": "Coscoroba coscoroba",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "hawfin",
+          "de": "Kernbeißer",
+          "sci": "Coccothraustes coccothraustes",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "comrav",
+          "de": "Kolkrabe",
+          "sci": "Corvus corax",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "hoocro1",
+          "de": "Nebelkrähe",
+          "sci": "Corvus cornix",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "carcro1",
+          "de": "Rabenkrähe",
+          "sci": "Corvus corone",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "comqua1",
+          "de": "Wachtel",
+          "sci": "Coturnix coturnix",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COCR",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "redcro",
+          "de": "Fichtenkreuzschnabel",
+          "sci": "Loxia curvirostra",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "comcra",
+          "de": "Kranich",
+          "sci": "Grus grus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "corcra",
+          "de": "Wachtelkönig",
+          "sci": "Crex crex",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COGR",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "comgre",
+          "de": "Grünschenkel",
+          "sci": "Tringa nebularia",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "comgra",
+          "de": "Purpurgrackel",
+          "sci": "Quiscalus quiscula",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COGU",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "mewgul",
+          "de": "Sturmmöwe",
+          "sci": "Larus canus",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "commur",
+          "de": "Trottellumme",
+          "sci": "Uria aalge",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COLI",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eurlin1",
+          "de": "Bluthänfling",
+          "sci": "Linaria cannabina",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "rocpig",
+          "de": "Felsentaube",
+          "sci": "Columba livia",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COMA",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eurmag1",
+          "de": "Elster",
+          "sci": "Pica pica",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "whrsha",
+          "de": "Weißbürzelschama",
+          "sci": "Copsychus malabaricus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COMO",
+      "typePairs": [
+        "banding+scientific"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "eurjac",
+          "de": "Dohle",
+          "sci": "Coloeus monedula",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "commoo3",
+          "de": "Teichhuhn",
+          "sci": "Gallinula chloropus",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CONI",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "comnig",
+          "de": "Falkennachtschwalbe",
+          "sci": "Chordeiles minor",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "comnig1",
+          "de": "Nachtigall",
+          "sci": "Luscinia megarhynchos",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CORE",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "comred2",
+          "de": "Gartenrotschwanz",
+          "sci": "Phoenicurus phoenicurus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "comred1",
+          "de": "Rotschenkel",
+          "sci": "Tringa totanus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COSH",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "comshe",
+          "de": "Brandgans",
+          "sci": "Tadorna tadorna",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "corshe1",
+          "de": "Corysturmtaucher",
+          "sci": "Calonectris borealis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COST",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "sibsto1",
+          "de": "Pallasschwarzkehlchen",
+          "sci": "Saxicola maurus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "stonec4",
+          "de": "Schwarzkehlchen",
+          "sci": "Saxicola rubicola",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "eursta",
+          "de": "Star",
+          "sci": "Sturnus vulgaris",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "stonec7",
+          "de": "Stejnegerschwarzkehlchen",
+          "sci": "Saxicola stejnegeri",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COSW",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "cosswa1",
+          "de": "Coscorobaschwan",
+          "sci": "Coscoroba coscoroba",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "comswi",
+          "de": "Mauersegler",
+          "sci": "Apus apus",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CRBU",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "crebun2",
+          "de": "Grauortolan",
+          "sci": "Emberiza caesia",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "reebun",
+          "de": "Rohrammer",
+          "sci": "Emberiza schoeniclus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CUCA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "easwar1",
+          "de": "Balkan-Bartgrasmücke",
+          "sci": "Curruca cantillans",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "comcuc",
+          "de": "Kuckuck",
+          "sci": "Cuculus canorus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CUCO",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "spewar2",
+          "de": "Brillengrasmücke",
+          "sci": "Curruca conspicillata",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "grewhi1",
+          "de": "Dorngrasmücke",
+          "sci": "Curruca communis",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CUCU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "leswhi4",
+          "de": "Klappergrasmücke",
+          "sci": "Curruca curruca",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "crccou1",
+          "de": "Rennvogel",
+          "sci": "Cursorius cursor",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CUSA",
+      "typePairs": [
+        "banding+scientific"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "marwar1",
+          "de": "Sardengrasmücke",
+          "sci": "Curruca sarda",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "cursan",
+          "de": "Sichelstrandläufer",
+          "sci": "Calidris ferruginea",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CYCY",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "buwgoo1",
+          "de": "Blauflügelgans",
+          "sci": "Cyanochen cyanoptera",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "azutit2",
+          "de": "Lasurmeise",
+          "sci": "Cyanistes cyanus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "whoswa",
+          "de": "Singschwan",
+          "sci": "Cygnus cygnus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EGVU",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eurgri1",
+          "de": "Gänsegeier",
+          "sci": "Gyps fulvus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "egyvul1",
+          "de": "Schmutzgeier",
+          "sci": "Neophron percnopterus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EMCA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "corbun1",
+          "de": "Grauammer",
+          "sci": "Emberiza calandra",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "crebun2",
+          "de": "Grauortolan",
+          "sci": "Emberiza caesia",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EMCI",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "yellow2",
+          "de": "Goldammer",
+          "sci": "Emberiza citrinella",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "meabun1",
+          "de": "Wiesenammer",
+          "sci": "Emberiza cioides",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "cirbun1",
+          "de": "Zaunammer",
+          "sci": "Emberiza cirlus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "rocbun1",
+          "de": "Zippammer",
+          "sci": "Emberiza cia",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EOWA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eaowar1",
+          "de": "Blassspötter",
+          "sci": "Iduna pallida",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "eaowar2",
+          "de": "Nachtigallengrasmücke",
+          "sci": "Curruca crassirostris",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ERRS",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "rerswa8",
+          "de": "Rötelschwalbe",
+          "sci": "Cecropis rufula",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "y00621",
+          "de": "Strichelrötelschwalbe",
+          "sci": "Cecropis daurica",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ESCU",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "eskcur",
+          "de": "Eskimobrachvogel",
+          "sci": "Numenius borealis",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "eutkne1",
+          "de": "Triel",
+          "sci": "Burhinus oedicnemus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EUBL",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eurbla",
+          "de": "Amsel",
+          "sci": "Turdus merula",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "blackc1",
+          "de": "Mönchsgrasmücke",
+          "sci": "Sylvia atricapilla",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EUBU",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "eurbul",
+          "de": "Gimpel",
+          "sci": "Pyrrhula pyrrhula",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "combuz1",
+          "de": "Mäusebussard",
+          "sci": "Buteo buteo",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EUGO",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "norgos1",
+          "de": "Habicht",
+          "sci": "Astur gentilis",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "eurgol",
+          "de": "Stieglitz",
+          "sci": "Carduelis carduelis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EUGR",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eurgre1",
+          "de": "Grünfink",
+          "sci": "Chloris chloris",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "eurgri1",
+          "de": "Gänsegeier",
+          "sci": "Gyps fulvus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EUHO",
+      "typePairs": [
+        "banding+common",
+        "banding+scientific",
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eurhob",
+          "de": "Baumfalke",
+          "sci": "Falco subbuteo",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "blwbis1",
+          "de": "Flammenweber",
+          "sci": "Euplectes hordeaceus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "hoopoe",
+          "de": "Wiedehopf",
+          "sci": "Upupa epops",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EUJA",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "eurjac",
+          "de": "Dohle",
+          "sci": "Coloeus monedula",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "eurjay1",
+          "de": "Eichelhäher",
+          "sci": "Garrulus glandarius",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EUMO",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eurdot",
+          "de": "Mornellregenpfeifer",
+          "sci": "Eudromias morinellus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "commoo3",
+          "de": "Teichhuhn",
+          "sci": "Gallinula chloropus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EURO",
+      "typePairs": [
+        "banding+common",
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eurrol1",
+          "de": "Blauracke",
+          "sci": "Coracias garrulus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "eurrob1",
+          "de": "Rotkehlchen",
+          "sci": "Erithacus rubecula",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "eursta",
+          "de": "Star",
+          "sci": "Sturnus vulgaris",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EUSP",
+      "typePairs": [
+        "banding+common",
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eurspo1",
+          "de": "Löffler",
+          "sci": "Platalea leucorodia",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "eurspa1",
+          "de": "Sperber",
+          "sci": "Accipiter nisus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "bripet",
+          "de": "Sturmwellenläufer",
+          "sci": "Hydrobates pelagicus",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EUST",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "stonec4",
+          "de": "Schwarzkehlchen",
+          "sci": "Saxicola rubicola",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "eursta",
+          "de": "Star",
+          "sci": "Sturnus vulgaris",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EUWR",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "eurwry",
+          "de": "Wendehals",
+          "sci": "Jynx torquilla",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "winwre4",
+          "de": "Zaunkönig",
+          "sci": "Troglodytes troglodytes",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "FIAL",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "colfly1",
+          "de": "Halsbandschnäpper",
+          "sci": "Ficedula albicollis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "taifly1",
+          "de": "Taigaschnäpper",
+          "sci": "Ficedula albicilla",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GAGA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "redjun",
+          "de": "Bankivahuhn",
+          "sci": "Gallus gallus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "comsni",
+          "de": "Bekassine",
+          "sci": "Gallinago gallinago",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GBHE",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "grnher",
+          "de": "Grünreiher",
+          "sci": "Butorides virescens",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "grbher3",
+          "de": "Kanadareiher",
+          "sci": "Ardea herodias",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GRCO",
+      "typePairs": [
+        "banding+scientific"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "aspsta2",
+          "de": "Elsterstar",
+          "sci": "Gracupica contra",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "grecor",
+          "de": "Kormoran",
+          "sci": "Phalacrocorax carbo",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GRHE",
+      "typePairs": [
+        "banding+common",
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "purswa3",
+          "de": "Graukopf-Purpurhuhn",
+          "sci": "Porphyrio poliocephalus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "graher1",
+          "de": "Graureiher",
+          "sci": "Ardea cinerea",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "grnher",
+          "de": "Grünreiher",
+          "sci": "Butorides virescens",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GRPA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "grepar",
+          "de": "Graupapagei",
+          "sci": "Psittacus erithacus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "grnpar",
+          "de": "Grünsittich",
+          "sci": "Psittacara holochlorus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "grypar",
+          "de": "Rebhuhn",
+          "sci": "Perdix perdix",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GRPH",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "rinphe2",
+          "de": "Buntfasan",
+          "sci": "Phasianus versicolor",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "redpha1",
+          "de": "Thorshühnchen",
+          "sci": "Phalaropus fulicarius",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GRSA",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "grnsan",
+          "de": "Waldwasserläufer",
+          "sci": "Tringa ochropus",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "grsplo",
+          "de": "Wüstenregenpfeifer",
+          "sci": "Anarhynchus leschenaultii",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GRWA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "grrwar1",
+          "de": "Drosselrohrsänger",
+          "sci": "Acrocephalus arundinaceus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "grywag",
+          "de": "Gebirgsstelze",
+          "sci": "Motacilla cinerea",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "grewar3",
+          "de": "Grünlaubsänger",
+          "sci": "Phylloscopus trochiloides",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "grnwar1",
+          "de": "Wacholderlaubsänger",
+          "sci": "Phylloscopus nitidus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "HIHI",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "harduc",
+          "de": "Kragenente",
+          "sci": "Histrionicus histrionicus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "bkwsti",
+          "de": "Stelzenläufer",
+          "sci": "Himantopus himantopus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "HOCR",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "houcro1",
+          "de": "Glanzkrähe",
+          "sci": "Corvus splendens",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "hoocro1",
+          "de": "Nebelkrähe",
+          "sci": "Corvus cornix",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "HYCA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "barpet",
+          "de": "Madeirawellenläufer",
+          "sci": "Hydrobates castro",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "caster1",
+          "de": "Raubseeschwalbe",
+          "sci": "Hydroprogne caspia",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LABU",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "lazbun",
+          "de": "Lazulifink",
+          "sci": "Passerina amoena",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "laplon",
+          "de": "Spornammer",
+          "sci": "Calcarius lapponicus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LACA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "casgul2",
+          "de": "Steppenmöwe",
+          "sci": "Larus cachinnans",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "mewgul",
+          "de": "Sturmmöwe",
+          "sci": "Larus canus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LACH",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "gbesta1",
+          "de": "Grünschwanz-Glanzstar",
+          "sci": "Lamprotornis chalybaeus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "lbesta1",
+          "de": "Messingglanzstar",
+          "sci": "Lamprotornis chloropterus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LADO",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "kelgul",
+          "de": "Dominikanermöwe",
+          "sci": "Larus dominicanus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "laudov1",
+          "de": "Palmtaube",
+          "sci": "Spilopelia senegalensis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LADU",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "lakduc1",
+          "de": "Bindenruderente",
+          "sci": "Oxyura vittata",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "layduc",
+          "de": "Laysanente",
+          "sci": "Anas laysanensis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LAGL",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "glwgul",
+          "de": "Beringmöwe",
+          "sci": "Larus glaucescens",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "y00478",
+          "de": "Polarmöwe",
+          "sci": "Larus glaucoides",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LAMI",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "yelgul1",
+          "de": "Mittelmeermöwe",
+          "sci": "Larus michahellis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "legshr2",
+          "de": "Schwarzstirnwürger",
+          "sci": "Lanius minor",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LAPH",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "laaphe1",
+          "de": "Diamantfasan",
+          "sci": "Chrysolophus amherstiae",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "rutshr2",
+          "de": "Rotschwanzwürger",
+          "sci": "Lanius phoenicuroides",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LASC",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "wilpta1",
+          "de": "Heideschneehuhn",
+          "sci": "Lagopus scotica",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "slbgul",
+          "de": "Kamtschatkamöwe",
+          "sci": "Larus schistisagus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "lotshr1",
+          "de": "Schachwürger",
+          "sci": "Lanius schach",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LESA",
+      "typePairs": [
+        "banding+common",
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "lessap2",
+          "de": "Kolymaregenpfeifer",
+          "sci": "Anarhynchus mongolus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "lessap1",
+          "de": "Tibetregenpfeifer",
+          "sci": "Anarhynchus atrifrons",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "leasan",
+          "de": "Wiesenstrandläufer",
+          "sci": "Calidris minutilla",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LIBU",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "litbun",
+          "de": "Zwergammer",
+          "sci": "Emberiza pusilla",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "litbus1",
+          "de": "Zwergtrappe",
+          "sci": "Tetrax tetrax",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LIGR",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "shbdow",
+          "de": "Moorschlammläufer",
+          "sci": "Limnodromus griseus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "litgre1",
+          "de": "Zwergtaucher",
+          "sci": "Tachybaptus ruficollis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LOCU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "redcro",
+          "de": "Fichtenkreuzschnabel",
+          "sci": "Loxia curvirostra",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "hoomer",
+          "de": "Kappensäger",
+          "sci": "Lophodytes cucullatus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LOLE",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "whwcro",
+          "de": "Bindenkreuzschnabel",
+          "sci": "Loxia leucoptera",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "kalphe",
+          "de": "Kalifasan",
+          "sci": "Lophura leucomelanos",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MADU",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "macduc1",
+          "de": "Afrikaruderente",
+          "sci": "Oxyura maccoa",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "manduc",
+          "de": "Mandarinente",
+          "sci": "Aix galericulata",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "martea1",
+          "de": "Marmelente",
+          "sci": "Marmaronetta angustirostris",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "manduc1",
+          "de": "Mähnenente",
+          "sci": "Chenonetta jubata",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MASH",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "manshe",
+          "de": "Atlantiksturmtaucher",
+          "sci": "Puffinus puffinus",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "masshr1",
+          "de": "Maskenwürger",
+          "sci": "Lanius nubicus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MAST",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "marsto1",
+          "de": "Marabu",
+          "sci": "Leptoptilos crumenifer",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "gadwal",
+          "de": "Schnatterente",
+          "sci": "Mareca strepera",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MAWA",
+      "typePairs": [
+        "banding+common",
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "magwar",
+          "de": "Magnolienwaldsänger",
+          "sci": "Setophaga magnolia",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "marwar1",
+          "de": "Sardengrasmücke",
+          "sci": "Curruca sarda",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "marwar3",
+          "de": "Sumpfrohrsänger",
+          "sci": "Acrocephalus palustris",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MEAL",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "belkin1",
+          "de": "Gürtelfischer",
+          "sci": "Megaceryle alcyon",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "smew",
+          "de": "Zwergsäger",
+          "sci": "Mergellus albellus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MEAM",
+      "typePairs": [
+        "banding+scientific"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "meapar",
+          "de": "Mülleramazone",
+          "sci": "Amazona farinosa",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "blksco2",
+          "de": "Pazifiktrauerente",
+          "sci": "Melanitta americana",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MEGU",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "medgul1",
+          "de": "Schwarzkopfmöwe",
+          "sci": "Ichthyaetus melanocephalus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "mewgul",
+          "de": "Sturmmöwe",
+          "sci": "Larus canus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MEME",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "commer",
+          "de": "Gänsesäger",
+          "sci": "Mergus merganser",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "blhbun1",
+          "de": "Kappenammer",
+          "sci": "Emberiza melanocephala",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "sonspa",
+          "de": "Singammer",
+          "sci": "Melospiza melodia",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MEPE",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "bcbeat1",
+          "de": "Blauwangenspint",
+          "sci": "Merops persicus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "sursco",
+          "de": "Brillenente",
+          "sci": "Melanitta perspicillata",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MESH",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "balshe1",
+          "de": "Balearensturmtaucher",
+          "sci": "Puffinus mauretanicus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "levshe1",
+          "de": "Mittelmeer-Sturmtaucher",
+          "sci": "Puffinus yelkouan",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MIMI",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "redkit1",
+          "de": "Rotmilan",
+          "sci": "Milvus milvus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "blakit1",
+          "de": "Schwarzmilan",
+          "sci": "Milvus migrans",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MOCI",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "grywag",
+          "de": "Gebirgsstelze",
+          "sci": "Motacilla cinerea",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "citwag",
+          "de": "Zitronenstelze",
+          "sci": "Motacilla citreola",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MOWA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "subwar8",
+          "de": "Ligurien-Bartgrasmücke",
+          "sci": "Curruca subalpina",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "mouwar1",
+          "de": "Mariskenrohrsänger",
+          "sci": "Acrocephalus melanopogon",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NEPE",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "robpoc1",
+          "de": "Rosenschnabelente",
+          "sci": "Netta peposaca",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "egyvul1",
+          "de": "Schmutzgeier",
+          "sci": "Neophron percnopterus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PABU",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "palbun",
+          "de": "Pallasammer",
+          "sci": "Emberiza pallasi",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "paibun",
+          "de": "Papstfink",
+          "sci": "Passerina ciris",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PACR",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "parcro2",
+          "de": "Kiefernkreuzschnabel",
+          "sci": "Loxia pytyopsittacus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "compea",
+          "de": "Pfau",
+          "sci": "Pavo cristatus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PAHA",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "osprey",
+          "de": "Fischadler",
+          "sci": "Pandion haliaetus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "palhar1",
+          "de": "Steppenweihe",
+          "sci": "Circus macrourus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PARO",
+      "typePairs": [
+        "banding+scientific"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "palros2",
+          "de": "Rosengimpel",
+          "sci": "Carpodacus roseus",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "rossta2",
+          "de": "Rosenstar",
+          "sci": "Pastor roseus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PASA",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "savspa",
+          "de": "Grasammer",
+          "sci": "Passerculus sandwichensis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "palsan1",
+          "de": "Steppenflughuhn",
+          "sci": "Syrrhaptes paradoxus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PASW",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "palswi3",
+          "de": "Fahlsegler",
+          "sci": "Apus pallidus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "fotswi",
+          "de": "Pazifiksegler",
+          "sci": "Apus pacificus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PAWA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "padwar1",
+          "de": "Feldrohrsänger",
+          "sci": "Acrocephalus agricola",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "palwar5",
+          "de": "Goldhähnchen-Laubsänger",
+          "sci": "Phylloscopus proregulus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PEPE",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "grypar",
+          "de": "Rebhuhn",
+          "sci": "Perdix perdix",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "rocpet1",
+          "de": "Steinsperling",
+          "sci": "Petronia petronia",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PHBO",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "webwar1",
+          "de": "Berglaubsänger",
+          "sci": "Phylloscopus bonelli",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "arcwar1",
+          "de": "Wanderlaubsänger",
+          "sci": "Phylloscopus borealis",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PHCO",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "rinphe1",
+          "de": "Jagdfasan",
+          "sci": "Phasianus colchicus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "eacwar1",
+          "de": "Kronenlaubsänger",
+          "sci": "Phylloscopus coronatus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "comchi1",
+          "de": "Zilpzalp",
+          "sci": "Phylloscopus collybita",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PHFU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "duswar",
+          "de": "Dunkellaubsänger",
+          "sci": "Phylloscopus fuscatus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "redpha1",
+          "de": "Thorshühnchen",
+          "sci": "Phalaropus fulicarius",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PHRO",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "pahros1",
+          "de": "Blasskopfsittich",
+          "sci": "Platycercus adscitus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "grefla3",
+          "de": "Rosaflamingo",
+          "sci": "Phoenicopterus roseus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PHTR",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "wlwwar",
+          "de": "Fitis",
+          "sci": "Phylloscopus trochilus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "grewar3",
+          "de": "Grünlaubsänger",
+          "sci": "Phylloscopus trochiloides",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "wilpha",
+          "de": "Wilsonwassertreter",
+          "sci": "Phalaropus tricolor",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PIMA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "spotow",
+          "de": "Fleckengrundammer",
+          "sci": "Pipilo maculatus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "schpar1",
+          "de": "Maximilianpapagei",
+          "sci": "Pionus maximiliani",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PIME",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "blhpar4",
+          "de": "Grünzügelpapagei",
+          "sci": "Pionites melanocephalus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "blhpar1",
+          "de": "Schwarzohrpapagei",
+          "sci": "Pionus menstruus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "POPO",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "pibgre",
+          "de": "Bindentaucher",
+          "sci": "Podilymbus podiceps",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "purswa3",
+          "de": "Graukopf-Purpurhuhn",
+          "sci": "Porphyrio poliocephalus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "purswa1",
+          "de": "Purpurhuhn",
+          "sci": "Porphyrio porphyrio",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "spocra1",
+          "de": "Tüpfelsumpfhuhn",
+          "sci": "Porzana porzana",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PRMO",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "sibacc",
+          "de": "Bergbraunelle",
+          "sci": "Prunella montanella",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "dunnoc1",
+          "de": "Heckenbraunelle",
+          "sci": "Prunella modularis",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PUMA",
+      "typePairs": [
+        "banding+scientific"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "balshe1",
+          "de": "Balearensturmtaucher",
+          "sci": "Puffinus mauretanicus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "purmar",
+          "de": "Purpurschwalbe",
+          "sci": "Progne subis",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PUSW",
+      "typePairs": [
+        "banding+banding"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "purswa3",
+          "de": "Graukopf-Purpurhuhn",
+          "sci": "Porphyrio poliocephalus",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "purswa1",
+          "de": "Purpurhuhn",
+          "sci": "Porphyrio porphyrio",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PYPY",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "rebcho1",
+          "de": "Alpenkrähe",
+          "sci": "Pyrrhocorax pyrrhocorax",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "eurbul",
+          "de": "Gimpel",
+          "sci": "Pyrrhula pyrrhula",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "QUQU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "rebque1",
+          "de": "Blutschnabelweber",
+          "sci": "Quelea quelea",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "comgra",
+          "de": "Purpurgrackel",
+          "sci": "Quiscalus quiscula",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "RBCH",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "rebcho1",
+          "de": "Alpenkrähe",
+          "sci": "Pyrrhocorax pyrrhocorax",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "rutscr1",
+          "de": "Heckensänger",
+          "sci": "Cercotrichas galactotes",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "REPH",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "reephe1",
+          "de": "Königsfasan",
+          "sci": "Syrmaticus reevesii",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "redpha1",
+          "de": "Thorshühnchen",
+          "sci": "Phalaropus fulicarius",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "RFPA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "refpar5",
+          "de": "Kongopapagei",
+          "sci": "Poicephalus gulielmi",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "refpar4",
+          "de": "Ziegensittich",
+          "sci": "Cyanoramphus novaezelandiae",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "RNPH",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "rinphe1",
+          "de": "Jagdfasan",
+          "sci": "Phasianus colchicus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "renpha",
+          "de": "Odinshühnchen",
+          "sci": "Phalaropus lobatus",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ROPI",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "rocpig",
+          "de": "Felsentaube",
+          "sci": "Columba livia",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "rocpip1",
+          "de": "Strandpieper",
+          "sci": "Anthus petrosus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ROST",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "roster",
+          "de": "Rosenseeschwalbe",
+          "sci": "Sterna dougallii",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "rossta2",
+          "de": "Rosenstar",
+          "sci": "Pastor roseus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ROTE",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "royter1",
+          "de": "Königsseeschwalbe",
+          "sci": "Thalasseus maximus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "roster",
+          "de": "Rosenseeschwalbe",
+          "sci": "Sterna dougallii",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "RRPA",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "rorpar",
+          "de": "Halsbandsittich",
+          "sci": "Psittacula krameri",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "rerpar1",
+          "de": "Singsittich",
+          "sci": "Psephotus haematonotus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "RRSW",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "rerswa8",
+          "de": "Rötelschwalbe",
+          "sci": "Cecropis rufula",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "y00621",
+          "de": "Strichelrötelschwalbe",
+          "sci": "Cecropis daurica",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SAMA",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "sibsto1",
+          "de": "Pallasschwarzkehlchen",
+          "sci": "Saxicola maurus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "banswa",
+          "de": "Uferschwalbe",
+          "sci": "Riparia riparia",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SARU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "whinch1",
+          "de": "Braunkehlchen",
+          "sci": "Saxicola rubetra",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "stonec4",
+          "de": "Schwarzkehlchen",
+          "sci": "Saxicola rubicola",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SAWA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "savwar1",
+          "de": "Rohrschwirl",
+          "sci": "Locustella luscinioides",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "sarwar1",
+          "de": "Samtkopf-Grasmücke",
+          "sci": "Curruca melanocephala",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SBGU",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "slbgul1",
+          "de": "Dünnschnabelmöwe",
+          "sci": "Chroicocephalus genei",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "slbgul",
+          "de": "Kamtschatkamöwe",
+          "sci": "Larus schistisagus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SCRU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "chebun1",
+          "de": "Rötelammer",
+          "sci": "Emberiza rutila",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "rusbun",
+          "de": "Waldammer",
+          "sci": "Emberiza rustica",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "eurwoo",
+          "de": "Waldschnepfe",
+          "sci": "Scolopax rusticola",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SECA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "babwar",
+          "de": "Braunkehl-Waldsänger",
+          "sci": "Setophaga castanea",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "comcan",
+          "de": "Kanarengirlitz",
+          "sci": "Serinus canaria",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SEOW",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "spoeao2",
+          "de": "Fleckenuhu",
+          "sci": "Bubo africanus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "sheowl",
+          "de": "Sumpfohreule",
+          "sci": "Asio flammeus",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SIST",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "sibsto1",
+          "de": "Pallasschwarzkehlchen",
+          "sci": "Saxicola maurus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "stonec7",
+          "de": "Stejnegerschwarzkehlchen",
+          "sci": "Saxicola stejnegeri",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SOSP",
+      "typePairs": [
+        "banding+scientific"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "kineid",
+          "de": "Prachteiderente",
+          "sci": "Somateria spectabilis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "sonspa",
+          "de": "Singammer",
+          "sci": "Melospiza melodia",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SPSP",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eursis",
+          "de": "Erlenzeisig",
+          "sci": "Spinus spinus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "spaspa1",
+          "de": "Weidensperling",
+          "sci": "Passer hispaniolensis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "STAL",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "tawowl1",
+          "de": "Waldkauz",
+          "sci": "Strix aluco",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "litter1",
+          "de": "Zwergseeschwalbe",
+          "sci": "Sternula albifrons",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "STDO",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "stodov1",
+          "de": "Hohltaube",
+          "sci": "Columba oenas",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "roster",
+          "de": "Rosenseeschwalbe",
+          "sci": "Sterna dougallii",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "STEA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "shteag1",
+          "de": "Schlangenadler",
+          "sci": "Circaetus gallicus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "steeag1",
+          "de": "Steppenadler",
+          "sci": "Aquila nipalensis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "STPA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "arcter",
+          "de": "Küstenseeschwalbe",
+          "sci": "Sterna paradisaea",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "parjae",
+          "de": "Schmarotzerraubmöwe",
+          "sci": "Stercorarius parasiticus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "STRO",
+      "typePairs": [
+        "banding+scientific"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "afcdov1",
+          "de": "Lachtaube",
+          "sci": "Streptopelia roseogrisea",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "strowl1",
+          "de": "Schreieule",
+          "sci": "Asio clamator",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "STSA",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "stisan",
+          "de": "Bindenstrandläufer",
+          "sci": "Calidris himantopus",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "shtsan",
+          "de": "Spitzschwanz-Strandläufer",
+          "sci": "Calidris acuminata",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "STSE",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "stseag",
+          "de": "Riesenseeadler",
+          "sci": "Haliaeetus pelagicus",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "shteag1",
+          "de": "Schlangenadler",
+          "sci": "Circaetus gallicus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SUPA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "suppar1",
+          "de": "Schildsittich",
+          "sci": "Polytelis swainsonii",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "sunpar1",
+          "de": "Sonnensittich",
+          "sci": "Aratinga solstitialis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SUWA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "easwar1",
+          "de": "Balkan-Bartgrasmücke",
+          "sci": "Curruca cantillans",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "subwar6",
+          "de": "Iberien-Bartgrasmücke",
+          "sci": "Curruca iberiae",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SWGO",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "swagoo1",
+          "de": "Schwanengans",
+          "sci": "Anser cygnoides",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "spwgoo1",
+          "de": "Sporngans",
+          "sci": "Plectropterus gambensis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SWPL",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "maslap1",
+          "de": "Maskenkiebitz",
+          "sci": "Vanellus miles",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "spwlap1",
+          "de": "Spornkiebitz",
+          "sci": "Vanellus spinosus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "TATA",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "comshe",
+          "de": "Brandgans",
+          "sci": "Tadorna tadorna",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "ausshe1",
+          "de": "Halsbandgans",
+          "sci": "Tadorna tadornoides",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "TBGO",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "tunbeg1",
+          "de": "Tundrasaatgans",
+          "sci": "Anser serrirostris",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "taibeg1",
+          "de": "Waldsaatgans",
+          "sci": "Anser fabalis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "TBWA",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "thbwar1",
+          "de": "Dickschnabelspötter",
+          "sci": "Arundinax aedon",
+          "types": [
+            "banding"
+          ]
+        },
+        {
+          "id": "grewar2",
+          "de": "Middendorff-Laubsänger",
+          "sci": "Phylloscopus plumbeitarsus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "THME",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "bkbalb",
+          "de": "Schwarzbrauenalbatros",
+          "sci": "Thalassarche melanophris",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "bkfibi1",
+          "de": "Schwarzzügelibis",
+          "sci": "Theristicus melanopis",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "TRST",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "marsan",
+          "de": "Teichwasserläufer",
+          "sci": "Tringa stagnatilis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "trista1",
+          "de": "Tristramstar",
+          "sci": "Onychognathus tristramii",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "TRSW",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "treswa",
+          "de": "Sumpfschwalbe",
+          "sci": "Tachycineta bicolor",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "truswa",
+          "de": "Trompeterschwan",
+          "sci": "Cygnus buccinator",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "TUPA",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "palthr1",
+          "de": "Fahldrossel",
+          "sci": "Turdus pallidus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "turpar1",
+          "de": "Schönsittich",
+          "sci": "Neophema pulchella",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "VIPH",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "edwphe1",
+          "de": "Edwardsfasan",
+          "sci": "Lophura edwardsi",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "phivir",
+          "de": "Philadelphiavireo",
+          "sci": "Vireo philadelphicus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "WHIM",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "whimbr3",
+          "de": "Hudsonbrachvogel",
+          "sci": "Numenius hudsonicus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "whimbr5",
+          "de": "Regenbrachvogel",
+          "sci": "Numenius phaeopus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "WIWA",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "wlwwar",
+          "de": "Fitis",
+          "sci": "Phylloscopus trochilus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "wlswar",
+          "de": "Mönchswaldsänger",
+          "sci": "Cardellina pusilla",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "WOWA",
+      "typePairs": [
+        "banding+common",
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "weowar1",
+          "de": "Isabellspötter",
+          "sci": "Iduna opaca",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "weowar2",
+          "de": "Orpheusgrasmücke",
+          "sci": "Curruca hortensis",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "woowar",
+          "de": "Waldlaubsänger",
+          "sci": "Phylloscopus sibilatrix",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "YBBU",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "yebbun1",
+          "de": "Gelbbrauenammer",
+          "sci": "Emberiza chrysophrys",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "yebbun",
+          "de": "Weidenammer",
+          "sci": "Emberiza aureola",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    }
+  ]
+}
