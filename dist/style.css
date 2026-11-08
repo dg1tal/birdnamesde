@@ -650,3 +650,7 @@ body.studying .species-codes-compact{display:flex;flex-direction:column;flex-wra
 .code-collision-species>span[data-name-content]{min-width:0;overflow-wrap:anywhere}
 .lookup-hit-reason{display:inline-flex;align-items:center;gap:5px}
 .choices button .code{pointer-events:none}
+
+/* Code overlaps use the full card width rather than a single origin column. */
+.card .code-collisions,.code-collisions,.species-codes-compact .code-collisions{grid-column:1/-1;width:100%;max-width:none;min-width:0}
+.code-collision-species{display:grid;grid-template-columns:max-content minmax(0,1fr);align-items:baseline}

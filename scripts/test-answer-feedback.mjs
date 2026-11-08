@@ -71,9 +71,9 @@ for(const bird of birds){
   for(const code of bird.codes){
    assert.equal(codes.replace(/<details class="code-collisions">[\s\S]*?<\/details>/g,'').split(`<span data-name-content>${code}</span>`).length-1,1,'Each code appears once');
    const others=birds.filter(b=>b.id!==bird.id&&b.codes.includes(code));
-   const item=codes.split('class="species-code-item"').find(item=>item.includes(`<span data-name-content>${code}</span>`));
-   assert.equal(item.includes('class="code-collisions"'),others.length>0);
-   for(const other of others)assert(item.includes(escape(other.de)));
+   const collision=codes.split('class="code-collision-origin"').slice(1).find(item=>item.includes(`<span data-name-content>${code}</span>`));
+   assert.equal(!!collision,others.length>0);
+   for(const other of others)assert(collision.includes(escape(other.de)));
   }
  }
  const codeAnswer=markupContext.nameAnswerMarkup(bird,'code');
