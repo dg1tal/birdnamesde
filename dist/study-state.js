@@ -1,6 +1,6 @@
 import {RULES,lessonQueueLimit,lessonBaseLimit} from './learning-model.js?v=20261105-recovery1';
 import {isNameLanguage} from './name-languages.js?v=20261101-scientific1';
-import {validSeasonalDataset} from './hybrid-learning.js?v=20261105-quality2';
+import {validSeasonalDataset} from './hybrid-learning.js?v=20261108-quality1';
 // Serializable lesson state. Grading and navigation are separate so restored
 // feedback cannot grade an answer twice.
 export function validateLesson(value, ids) {

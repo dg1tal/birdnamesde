@@ -31,6 +31,7 @@ for(const hint of [false,true])for(const retry of [0,1,2]){
 assert.equal(reviewMessage({correct:true,hint:true,days:0,retry:0}),'Next scheduled review in ten minutes. Answered with a hint.');
 for(const error of ['Keine gültige BirdNames-DE-Sicherung.','Ungültiger Lerneintrag.','Ungültige Lernwerte.','Ungültige getrennte Antwortzähler.','Widersprüchliche Antwortzähler.','Widersprüchliche Lernwerte.','Datei ist zu groß (maximal 5 MB).'])assert.equal(importErrorMessage(Error(error)),'Import failed: '+t(error));
 assert.equal(importErrorMessage(new SyntaxError('engine-specific message')),'Import failed: The file does not contain valid JSON.');
+for(const message of ['Die Sicherung ist zu groß (entpackt maximal 128 MiB).','Die Gzip-Sicherung ist beschädigt oder kein gültiges Gzip.','Dieser Browser kann Gzip nicht öffnen. Bitte die Datei zuerst entpacken und die JSON-Datei wählen.'])assert.equal(importErrorMessage(Error(message)),'Import failed: '+t(message));
 assert.equal(importErrorMessage(Error('unbekannter Fehler')),'Import failed: The backup could not be read. Please check the file and try again.');
 globalThis.localStorage={getItem:()=>null};
 const de=await import('../dist/i18n.js?study-test-de');

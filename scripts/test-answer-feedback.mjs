@@ -1,3 +1,4 @@
+import {scientificNameAliases} from '../dist/scientific-name-aliases.js';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
@@ -52,7 +53,7 @@ console.log('PASS: wrong-answer species, aliases, codes, Dutch/scientific source
 // Exercise the shared production card helpers with real accepted names and editorial metadata.
 const german=JSON.parse(readFileSync('dist/german-names.json')).species;
 for(const bird of birds)bird.germanNames=german[bird.id]?.names||[];
-const markupContext={birds,normalize,english:false,esc:escape,primaryName,acceptedNames,languageLabel,
+const markupContext={scientificNameAliases,birds,normalize,english:false,esc:escape,primaryName,acceptedNames,languageLabel,
  contentLanguage:context.contentLanguage,t:s=>s,ebirdLink:()=>'',nameOrigins:null,renderScientificName:()=>''};
 vm.createContext(markupContext);
 vm.runInContext(source.slice(source.indexOf('function scientificNameMarkup('),source.indexOf('function lookupNameList(')),markupContext);

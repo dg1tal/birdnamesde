@@ -33,6 +33,14 @@ export function validateSeasonal(data,ids){
  }
  return data;
 }
+// Do not publish a candidate until both its structure and catalogue match.
+export async function loadSeasonal(fetchData,ids,fingerprint){
+ const response=await fetchData();
+ if(!response.ok)throw Error('Seasonal request failed');
+ const candidate=validateSeasonal(await response.json(),ids);
+ if(fingerprint&&candidate.dataset?.catalogFingerprint!==fingerprint)throw Error('Seasonal catalogue mismatch');
+ return candidate;
+}
 export function validCurrentRecords(region,ids,now=Date.now()){
  if(!region||!Array.isArray(region.records))return [];
  const stamp=Date.parse(region.updatedAt);if(!Number.isFinite(stamp)||stamp>now+300000||now-stamp>3*DAY)return [];

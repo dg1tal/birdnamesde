@@ -3,7 +3,7 @@ import {gradeRecord,beginIntroduction,introduce} from '../dist/learning-model.js
 import {validateLesson} from '../dist/study-state.js';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {seasonAt,validateSeasonal,validCurrentRecords,hybridSelection,frequencyGroups,regionalSnapshot,seasonalDatasetText} from '../dist/hybrid-learning.js';
+import {loadSeasonal,seasonAt,validateSeasonal,validCurrentRecords,hybridSelection,frequencyGroups,regionalSnapshot,seasonalDatasetText} from '../dist/hybrid-learning.js';
 const ids=new Set(['base','extra','old']);const now=new Date('2026-11-02T12:00:00Z');
 const regions={regions:[{code:'DE-SH',all:{ids:['base','old']},recent:{ids:['extra']}}]};
 const seasonal=validateSeasonal({version:1,regions:[{code:'DE-SH',seasons:{autumn:{ids:['base'],sample:1000,years:5},winter:{ids:[],sample:20,years:0}}}]},ids);
@@ -88,6 +88,33 @@ for(const region of ['', 'UNKNOWN', 'DE-MISSING']){
  const selection=hybridSelection(null,null,null,{region,regionMode:'all'},ids,now);
  assert.deepEqual(selection.ids,[]);assert.equal(selection.available,false);
 }
+
+// Run the production initialization assignment, not only the validator. A
+// rejected source must not affect selection or a newly saved round snapshot.
+const app=readFileSync('dist/app.js','utf8');
+const initialization=app.match(/try\{seasonalData=await loadSeasonal[^\n]+/)[0];
+const {default:vm}=await import('node:vm');
+const catalogueData=JSON.parse(readFileSync('dist/species.json'));
+for(const mode of ['valid','mismatch','missing','metadata-missing','http','json','network']){
+ const candidate=structuredClone(published);
+ if(mode==='mismatch')candidate.dataset.catalogFingerprint='obsolete-catalogue';
+ if(mode==='missing')delete candidate.dataset.catalogFingerprint;
+ if(mode==='metadata-missing')delete candidate.dataset;
+ const fetch=async()=>{
+  if(mode==='network')throw Error('offline');
+  return {ok:mode!=='http',json:async()=>{if(mode==='json')throw SyntaxError('bad JSON');return candidate;}};
+ };
+ const context=vm.createContext({seasonalData:null,loadSeasonal,fetch,ids:realIds,meta:catalogueData.meta,console:{warn(){}}});
+ await vm.runInContext('(async()=>{'+initialization+'})()',context);
+ const loaded=context.seasonalData;
+ assert.equal(loaded!==null,mode==='valid',mode);
+ const selection=hybridSelection(realRegions,loaded,{regions:[]},{region:'DE',regionMode:'seasonal'},realIds,new Date('2026-11-08T12:00:00Z'));
+ assert.equal(selection.seasonalReady,mode==='valid',mode+' selection');
+ const snapshot=regionalSnapshot(selection);
+ assert.equal(!!snapshot.seasonalDataset,mode==='valid',mode+' round provenance');
+ if(mode!=='valid')assert.deepEqual(selection.ids,realRegions.regions.find(r=>r.code==='DE').all.ids,mode+' regional fallback');
+}
+console.log('PASS: actual seasonal initialization rejects wrong/missing fingerprints, missing metadata, HTTP/JSON/network failures; selection and saved provenance use the regional fallback.');
 // A missing API snapshot can still use a validated seasonal dataset; it never expands to the catalogue.
 const seasonalOnly=hybridSelection(null,seasonal,null,cfg,ids,now);
 assert.deepEqual(seasonalOnly.ids,['base']);assert.equal(seasonalOnly.available,true);

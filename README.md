@@ -243,6 +243,21 @@ The completion summary places direct continuation before supplementary details, 
 
 ### Backup and restore flow
 
+Large backups (compact JSON at least 1 MiB) are automatically saved as `.json.gz`
+when the browser supports both Compression Streams APIs. Small backups remain
+readable `.json`; missing or failed compression falls back to compact JSON.
+Both formats retain the existing v1/v2 schema and the same preview and explicit,
+atomic replacement flow. Older JSON exports above the former 5 MB limit remain
+importable. Gzip is detected by its header; damaged archives are rejected.
+The common input/expanded-output/export budget is 128 MiB. Expanded bytes are
+counted while streaming and decompression is cancelled on overflow; compression
+does not bypass this limit. Export refuses an oversized regular backup instead
+of producing a file the importer would reject. Rescue files remain distinct,
+uncompressed diagnostic JSON and are never accepted as progress backups.
+Tests: `node scripts/test-backup-file.mjs` covers 939 targets with 75,120 answers,
+legacy JSON, gzip round trips, further grading, unavailable compression,
+truncation/checksum errors and bounded expansion.
+
 Statistics visibly identifies browser/device-local storage and links directly to backup controls. The dated JSON download includes all answer-language/code records, method/direction evidence and the daily introduction ledger independently of current filters; preferences, paused sessions, drafts and cached media are excluded. Selecting a file only validates and previews it, showing its date, supported learning-target/species counts and the current browser counts. Explicit replacement overwrites all progress without merging and ends paused sessions. Users can download their current records before replacement or cancel without changing them. Empty backups have a distinct removal warning; files containing only unsupported records are rejected, while partially supported files report skipped records.
 
 `dist/learning-storage.js` writes records, the daily ledger and saved lessons in one transaction. Restore publishes the new in-memory state only after the transaction commits; quota, closed-database or synchronous write failures preserve the prior state. Export format v2 includes method/direction evidence and the daily introduction ledger. Imports accept v1/v2; old counters/dates are retained as historical data, with no invented source-language or method evidence. The first graded legacy review claims its old date once for the selected context. Paused v1 sessions remain resumable. Browser downloads are announced as started, rather than claiming the file has been saved to disk.
@@ -401,6 +416,17 @@ the HTML entry point use a single URL version for each local JavaScript module.
 This check runs in the existing Pages test loop.
 
 ### Code collision audit
+
+The catalogue stays on eBird/Clements 2025. Eleven scientific name combinations
+from the 2026 code source have been verified as the same taxon concepts and are
+searchable through the reviewed registry in `dist/scientific-name-aliases.js`.
+Search results identify their source; cards explain the equivalence and the
+2025 name still required for study answers. They are search information, not
+automatic answer aliases. No equivalence is inferred from a shared species ID,
+code or similar spelling. The separate concept changes for Spotted Flycatcher,
+European Robin and Great Horned Owl remain migration decisions for a future
+taxonomy update. See [the identity review](docs/catalog-identity-review-20261108.md)
+and [the quality review and fixes](docs/quality-review-20261108.md).
 
 Run `python3 scripts/audit-codes.py` to validate all catalogue code fields against the saved literal source records and regenerate `docs/quick-code-audit.json`. The report lists every ambiguous code, its species and source types. In the current 940-species catalogue, 197 of 1,966 distinct accepted codes match multiple species. There are 42 common-name/banding collisions and 12 scientific/banding collisions (categories can overlap). Adding banding codes to scientific and common-name codes creates 46 additional ambiguous codes; some ambiguities already exist within a single source type. These are catalogue counts, not worldwide counts. Three-letter source entries are outside the app's four-letter code policy.
 

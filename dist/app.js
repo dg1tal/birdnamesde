@@ -1,27 +1,29 @@
 import {validateScientificNames,renderScientificName} from './scientific-names.js?v=20261107-origin1';
-import {searchLookup} from './lookup-search.js?v=20261108-search1';
+import {searchLookup} from './lookup-search.js?v=20261108-quality1';
 import {LOOKUP_PAGE_SIZE,lookupSettings,lookupTitle,sortLookup,lookupLanguages,showGermanStatus} from './lookup-settings.js?v=20261105-catalog1';
 import {continuationSettings,practiceQueue,dailyLearningPlan} from './practice-queue.js?v=20261105-quality2';
 import {dailyNewNamesText,selectionExplanation} from './learning-selection-copy.js?v=20261102-selection1';
 import {RULES,lessonBaseLimit,evidence,secure,introduce,pairKnown,beginIntroduction,gradeRecord,statusLabel,evidenceText,scheduleText,family} from './learning-model.js?v=20261105-recovery1';
 import {renderLearningMethod} from './learning-method.js?v=20261105-quality2';
-import {validateSeasonal,hybridSelection,seasonLabel,regionalSnapshot,seasonalDatasetText,FREQUENCY_GROUPS,frequencyGroups,frequencyLabel} from './hybrid-learning.js?v=20261105-quality2';
+import {loadSeasonal,hybridSelection,seasonLabel,regionalSnapshot,seasonalDatasetText,FREQUENCY_GROUPS,frequencyGroups,frequencyLabel} from './hybrid-learning.js?v=20261108-quality1';
 import {createAnnouncer,setTextIfChanged,focusElement,contentLanguage,queueFocus,activateView} from './accessibility.js?v=20261101-wave2';
-import {persistLearningState,loadLearningState} from './learning-storage.js?v=20261105-quality2';
-import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from './backup.js?v=20261105-recovery1';
+import {persistLearningState,loadLearningState} from './learning-storage.js?v=20261108-quality1';
+import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from './backup.js?v=20261108-quality1';
+import {encodeBackupFile,decodeBackupFile} from './backup-file.js?v=20261108-quality1';
+import {scientificNameAliases} from './scientific-name-aliases.js?v=20261108-quality1';
 import {lessonProgressText,completionMessage,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261105-quality2';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
-import {renderInformation} from './info-page.js?v=20261107-origin1';
-import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261105-quality2';
+import {renderInformation} from './info-page.js?v=20261108-quality1';
+import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261108-quality1';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261101-scientific1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261105-catalog1';
-import {english,localize,t,importErrorMessage} from './i18n.js?v=20261105-images1';
+import {english,localize,t,importErrorMessage} from './i18n.js?v=20261108-quality1';
 const defaultNameTarget=english?'de':'en';
 let nameTarget=defaultNameTarget,availableNameLanguages=['de','en'];
-import {lessonProgress,recordLessonAnswer} from './study-state.js?v=20261105-quality2';
+import {lessonProgress,recordLessonAnswer} from './study-state.js?v=20261108-quality1';
 import {createPhotoCache} from './photo-cache.js';
-import {normalize,matches,accepts,answerSpecies,due} from './logic.js?v=20261107-answer1';
+import {normalize,matches,accepts,answerSpecies,due} from './logic.js?v=20261108-quality1';
 const mastered=secure;
 const $=s=>document.querySelector(s),main=$('#app');
 let app=$('#nachschlagen');
@@ -282,7 +284,8 @@ function codeGroups(s,answer=false,compact=false){
    return `<div class="species-code-item">${codeMarkup(s,code,answer)}${dual?`<span class="code-extra-type">${english?'Also a banding code':'Auch Beringungscode'}</span>`:''}</div>`;
   }).join('')}</div></div>`;
  }).join('');
- const note=s.codes.some(code=>s.scientificCodes?.includes(code))&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
+ const alias=scientificNameAliases(s)[0];
+ const note=alias?`<p class="muted code-name-note">${english?'Also named':'Auch bezeichnet als'} <span class="scientific-name" data-name-content lang="la">${esc(alias.name)}</span> (${esc(alias.source)}). ${english?'Same species; catalogue and study answers use':'Dieselbe Art; Katalog und Lernantworten verwenden'} <span class="scientific-name" data-name-content lang="la">${esc(s.sci)}</span> (2025).</p>`:s.codes.some(code=>s.scientificCodes?.includes(code))&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
  return `<div class="species-codes${compact?' species-codes-compact':''}${answer?' answer-main answer-codes':''}" role="group" aria-label="${answer?(english?'Accepted eBird entry codes':'Akzeptierte eBird-Kurzcodes'):(english?'eBird entry codes':'eBird-Kurzcodes')}">${groups}${collisions(s.codes)}${note}<p class="muted code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</p></div>`;
 }
 
@@ -359,7 +362,7 @@ function lookupHitList(hits){
   const heading=hit.rank!==previous?`<h2 class="lookup-hit-heading">${headings[hit.rank]}</h2>`:'';previous=hit.rank;
   const seenLanguages=new Set();
   const reasons=hit.matches.filter(match=>{if(match.value===title)return false;if(hit.rank===3)return true;if(seenLanguages.has(match.language))return false;seenLanguages.add(match.language);return true;}).map(match=>{
-   const label=match.language==='code'?(s.scientificCodes?.includes(match.value)?(english?'Scientific':'Wissenschaftlich'):s.bandingCode===match.value?(english?'Banding':'Beringung'):'eBird'):languageLabel(match.language,english?'en':'de');
+   const label=match.language==='code'?(s.scientificCodes?.includes(match.value)?(english?'Scientific':'Wissenschaftlich'):s.bandingCode===match.value?(english?'Banding':'Beringung'):'eBird'):languageLabel(match.language,english?'en':'de')+(match.source?' · '+match.source:'');
    return `<span class="lookup-hit-reason"><span>${esc(label)}:</span> ${match.language==='code'?codeMarkup(s,match.value):`<strong data-name-content lang="${match.language==='sci'?'la':match.language}">${esc(match.value)}</strong>`}</span>`;
   }).join('');
   return heading+`<details class="lookup-hit" data-hit-id="${esc(s.id)}" data-hit-index="${index}"><summary><span class="lookup-hit-heading-name"><span class="card-language-label">${esc(languageLabel(primaryName(s,ui.lookup.mainLanguage)?ui.lookup.mainLanguage:'sci',english?'en':'de'))}${ui.lookup.mainLanguage==='en'&&s.enGB?' · US':''}</span><span class="lookup-hit-title" role="heading" aria-level="3" data-name-content lang="${primaryName(s,ui.lookup.mainLanguage)?contentLanguage(ui.lookup.mainLanguage):'la'}">${esc(title)}</span></span>${reasons?`<span class="lookup-hit-reasons">${reasons}</span>`:''}<span class="lookup-hit-action">${english?'Species details':'Artendetails'}</span></summary>${card(s,true)}</details>`;
@@ -799,16 +802,22 @@ function bindBackupActions(){
   const recovering=storageState!=='ready';
   const openBackup=()=>{const panel=$('#backup-panel');panel.open=true;panel.querySelector('summary').focus({preventScroll:true});panel.scrollIntoView({block:'start'});};
   if($('#open-backup'))$('#open-backup').onclick=openBackup;
-  const downloadBackup=()=>{
+  const downloadBackup=async()=>{
     const stamp=new Date().toISOString();
+    const status=$('#export-status'),button=$('#export');button.disabled=true;
+    status.textContent=english?'Preparing backup…':'Sicherung wird vorbereitet …';
     try{
       const value=recovering?{app:'BirdNames DE rescue',version:1,exported:stamp,state:storageRecovery.raw}:{app:'BirdNames DE',version:2,taxonomy:meta.taxonomy,exported:stamp,records,daily};
-      const blob=new Blob([JSON.stringify(value,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');
-      link.href=url;link.download=recovering?backupFilename(stamp).replace('lernstand','rettungsdatei'):backupFilename(stamp);link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
-      $('#export-status').textContent=english?'Download started. Keep the JSON file somewhere you can find it; your browser controls where it is saved.':'Download gestartet. Bewahre die JSON-Datei gut auffindbar auf; den Speicherort bestimmt dein Browser.';
-    }catch{
-      $('#export-status').textContent=english?'This stored state could not be downloaded. It has not been changed.':'Dieser gespeicherte Zustand konnte nicht heruntergeladen werden. Er wurde nicht verändert.';
-    }
+      const output=recovering?{blob:new Blob([JSON.stringify(value,null,2)],{type:'application/json'}),filename:backupFilename(stamp).replace('lernstand','rettungsdatei')}:await encodeBackupFile(value,backupFilename(stamp));
+      const url=URL.createObjectURL(output.blob),link=document.createElement('a');
+      link.href=url;link.download=output.filename;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+      status.textContent=(english?'Download started. Keep the backup somewhere you can find it; your browser controls where it is saved.':'Download gestartet. Bewahre die Sicherung gut auffindbar auf; den Speicherort bestimmt dein Browser.')+(output.compressed?(english?' Large backup saved as compressed JSON (.json.gz); you can select it directly when restoring.':' Große Sicherung als komprimiertes JSON (.json.gz) gespeichert; du kannst sie beim Wiederherstellen direkt auswählen.'):'');
+      return true;
+    }catch(error){
+      status.textContent=english?'The backup could not be downloaded. Your progress is unchanged.':'Die Sicherung konnte nicht heruntergeladen werden. Dein Lernstand bleibt unverändert.';
+      if(error?.message==='Die Sicherung ist zu groß (entpackt maximal 128 MiB).')status.textContent+=' '+t(error.message);
+      return false;
+    }finally{button.disabled=recovering&&!storageRecovery?.raw;}
   };
   $('#export').onclick=downloadBackup;
   const input=$('#import');let request=0;
@@ -816,14 +825,13 @@ function bindBackupActions(){
     const token=++request,file=input.files[0],preview=$('#import-preview'),status=$('#import-status');
     preview.replaceChildren();preview.hidden=true;status.textContent='';if(!file)return;
     try{
-      if(file.size>5000000)throw Error('Datei ist zu groß (maximal 5 MB).');
-      const value=JSON.parse(await file.text());
+      const value=await decodeBackupFile(file);
       if(token!==request||!input.isConnected)return;
       const candidate=inspectBackup(value,new Set(birds.map(s=>s.id)));
       preview.innerHTML=backupPreview({candidate,current:records,filename:file.name,hasSession:recovering||!!session||!!pendingLessons.length,english,recovery:recovering,readable:!!storageRecovery?.raw});preview.hidden=false;
       status.textContent=english?'Backup checked. Your current progress has not been changed.':'Sicherung geprüft. Dein bisheriger Lernstand wurde noch nicht geändert.';
       $('#import-preview-title').focus({preventScroll:true});preview.scrollIntoView({block:'start'});
-      $('#export-before-import').onclick=()=>{downloadBackup();status.textContent=recovering?(english?'Rescue file download requested. The selected backup has not been imported.':'Download der Rettungsdatei angefordert. Die ausgewählte Sicherung wurde noch nicht importiert.'):(english?'Download of your current progress started. The selected backup has not been imported.':'Download deines bisherigen Lernstands gestartet. Die ausgewählte Sicherung wurde noch nicht importiert.');};
+      $('#export-before-import').onclick=async()=>{if(await downloadBackup())status.textContent=recovering?(english?'Rescue file download requested. The selected backup has not been imported.':'Download der Rettungsdatei angefordert. Die ausgewählte Sicherung wurde noch nicht importiert.'):(english?'Download of your current progress started. The selected backup has not been imported.':'Download deines bisherigen Lernstands gestartet. Die ausgewählte Sicherung wurde noch nicht importiert.');};
       $('#cancel-import').onclick=()=>{request++;input.value='';preview.replaceChildren();preview.hidden=true;status.textContent=english?'Restore cancelled. Your progress is unchanged.':'Wiederherstellen abgebrochen. Dein Lernstand bleibt unverändert.';input.focus();};
       $('#confirm-import').onclick=async()=>{
         input.disabled=true;preview.querySelectorAll('button').forEach(button=>button.disabled=true);
@@ -882,6 +890,6 @@ ui.learn.hybridVersion=1;ui.learn.regionMode=['all','recent','seasonal'].include
 delete ui.learn.levels;
 for(const [field,options]of Object.entries({target:[nameTarget,'code','mixed'],method:['text','flash','mc','think'],scope:['all','unmastered','due','wrong'],count:['10','15','25','all']}))if(!options.includes(ui.learn[field]))ui.learn[field]=defaults.learn[field];
 try{const response=await fetch('regions.json?format=hierarchy',{cache:'no-cache'});if(response.ok)regionalData=validateRegions(await response.json(),ids,meta.catalog?.fingerprint);}catch{console.warn('Regional lists unavailable');}
-try{seasonalData=validateSeasonal(await(await fetch('seasonal-species.json?v=20261107-scicodes1')).json(),ids);if(meta.catalog&&seasonalData.dataset?.catalogFingerprint!==meta.catalog.fingerprint)throw Error('Seasonal catalogue mismatch');}catch{console.warn('Seasonal data unavailable');}
+try{seasonalData=await loadSeasonal(()=>fetch('seasonal-species.json?v=20261107-scicodes1'),ids,meta.catalog?.fingerprint);}catch{seasonalData=null;console.warn('Seasonal data unavailable');}
 try{const data=await(await fetch('current-notable.json',{cache:'no-cache'})).json();if(data?.version===1&&Array.isArray(data.regions)&&(!meta.catalog||data.catalogFingerprint===meta.catalog.fingerprint))currentNotable=data;}catch{console.warn('Current reports unavailable');}
 try{photos=(await(await fetch('photos.json?v=20261105-images3')).json()).photos}catch(err){console.warn('Artenbilder nicht geladen',err)}saveUI();await initDB();if(storageState==='ready')await save();window.addEventListener('hashchange',route);route();}catch(err){app.innerHTML='<h1>Daten konnten nicht geladen werden.</h1><p>Bitte Seite erneut laden.</p>';console.error(err)}
