@@ -119,7 +119,7 @@ See [quality-review-20261105.md](quality-review-20261105.md) for the original fi
 
 ## Usability changes on 8 November 2026
 
-Basic learning settings group target, languages, method and pictures before the daily action. Regional and species controls are independently expandable below it. Scientific reference names remain visible on study cards; other codes, origins and external details follow pictures inside More information. Hinted success and any added retry are explained in immediate feedback. The visible phase distinguishes main questions from extra attempts.
+Basic learning settings group target, languages, method and pictures before the daily action. Regional and species controls are independently expandable below it. Scientific reference names remain visible on study cards. Answer feedback and revealed flashcards also show the codes directly, at a smaller font size; code answers are not duplicated. Introductions keep supplementary codes inside More information. Origins and external details remain folded. Hinted success and any added retry are explained in immediate feedback. The visible phase distinguishes main questions from extra attempts.
 
 Statistics has its own persisted question/answer/method viewing context. Changing its selectors does not write learning settings. Only explicit practice actions apply that context. Recognition retains the current recognition format where possible, otherwise Think first.
 

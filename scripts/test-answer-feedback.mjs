@@ -67,6 +67,10 @@ for(const bird of birds){
   const details=markupContext.studyMoreMarkup(bird,target,'de');
   assert(details.includes('species-codes'));assert(!reference.includes('species-codes'));
   assert(details.startsWith('<details'));if(target!=='sci')assert(reference.includes('reference-name'));
+  const visible=markupContext.studyDetailsMarkup(bird,target,'de',true);
+  const folded=markupContext.studyMoreMarkup(bird,target,'de',false);
+  assert(visible.includes('study-reference-codes'));assert(!folded.includes('species-codes'));
+  for(const code of bird.codes)assert.equal(visible.replace(/<details class="code-collisions">[\s\S]*?<\/details>/g,'').split(`<span data-name-content>${code}</span>`).length-1,1);
  }
  for(const answer of [false,true]){
   const codes=markupContext.codeGroups(bird,answer);
@@ -81,6 +85,7 @@ for(const bird of birds){
  const codeAnswer=markupContext.nameAnswerMarkup(bird,'code');
  assert(codeAnswer.includes('aria-label="Akzeptierte eBird-Kurzcodes"'));
  assert(!markupContext.studyDetailsMarkup(bird,'code','de').includes('species-codes'),'No duplicate code section');
+ assert(!markupContext.studyDetailsMarkup(bird,'code','de',true).includes('species-codes'),'Code learning already shows the answer codes');
 }
 const blackbirdAnswer=markupContext.nameAnswerMarkup(blackbird,'en');
 assert.match(blackbirdAnswer,/variant-label">US/);assert.match(blackbirdAnswer,/variant-label">GB/);
