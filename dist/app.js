@@ -219,17 +219,31 @@ const opt=(v,l=v,selected=false)=>`<option value="${esc(v)}"${selected?' selecte
 const groups=()=>[...new Set(birds.map(s=>s.group))].sort((a,b)=>a.localeCompare(b,'de'));
 function scientificNameMarkup(s,questionLanguage){return renderScientificName(nameOrigins,s,questionLanguage,english?'en':'de');}
 function nameMarkup(s,code){return `<span data-name-content${code==='sci'?' lang="la" class="scientific-name"':` lang="${esc(code)}"`}>${esc(primaryName(s,code))}</span>`;}
-function nameAnswerMarkup(s,target){
- const codes=s.codes.map(code=>codeMarkup(s,code,true)).join('');
- // Code-only learning keeps every accepted alternative together as the answer.
- if(target==='code')return `<p class="answer-main answer-codes" role="group" aria-label="${english?'Accepted eBird entry codes':'Akzeptierte eBird-Kurzcodes'}">${codes}</p>${scientificCodeNote(s)}`;
- const scientificCodes=s.codes.filter(code=>s.scientificCodes?.includes(code)).map(code=>codeMarkup(s,code,true)).join('');
- const englishCodes=s.codes.filter(code=>!s.scientificCodes?.includes(code)).map(code=>codeMarkup(s,code,true)).join('');
- const aliases=acceptedNames(s,target).filter(n=>n!==primaryName(s,target));
- const reference=target==='sci'?(englishCodes?`<p class="answer-name-with-code answer-code-reference">${nameMarkup(s,'en')}${englishCodes}</p>`:''):`<p class="answer-name-with-code answer-code-reference">${nameMarkup(s,'sci')}${scientificCodes}</p>`;
- return `<p class="answer-main answer-name-with-code">${nameMarkup(s,target)}${target==='sci'?scientificCodes:englishCodes}</p>${reference}${scientificCodeNote(s)}${aliases.length?`<p class="answer-aliases"><span class="muted">${english?'Also accepted:':'Ebenfalls akzeptiert:'}</span> <span data-name-content lang="${esc(contentLanguage(target))}">${aliases.map(esc).join(' · ')}</span></p>`:''}`;
+function nameVariants(s,language,learning=false){
+ const accepted=acceptedNames(s,language),label=english?'Other names:':'Weitere Namen:';
+ const variants=learning?accepted.filter(n=>n!==primaryName(s,language)):lookupAliases(s,language);
+ const gb=language==='en'&&s.enGB&&s.enGB!==s.en;
+ const groups=[];
+ if(gb)groups.push(`<p class="name-variant"><span class="variant-label">GB</span>${nameMarkup({en:s.enGB},'en')}</p>`);
+ const remaining=variants.filter(n=>!gb||n!==s.enGB);
+ if(language==='de'&&learning){
+  const editorial=s.germanNames||[];
+  const alternatives=remaining.filter(n=>editorial.some(entry=>entry.name===n&&entry.status==='alternative'&&!entry.ambiguous));
+  if(alternatives.length)groups.push(`<p class="name-variant"><span class="muted">${english?'Alternative German names:':'Alternative deutsche Namen:'}</span> <span data-name-content lang="de">${alternatives.map(name=>{const entry=editorial.find(n=>n.name===name);return esc(name)+(entry.region?' ('+esc(t(entry.region))+')':'');}).join(' · ')}</span></p>`);
+  const other=remaining.filter(n=>!alternatives.includes(n));
+  if(other.length)groups.push(`<p class="name-variant"><span class="muted">${label}</span> <span data-name-content lang="de">${other.map(esc).join(' · ')}</span></p>`);
+ }else if(remaining.length)groups.push(`<p class="name-variant"><span class="muted">${label}</span> <span data-name-content lang="${esc(contentLanguage(language))}">${remaining.map(esc).join(' · ')}</span></p>`);
+ return groups.join('');
 }
-function englishNames(s){return s.enGB?`<div class="english-variants" data-name-content lang="en"><span><span class="variant-label">US</span> ${esc(s.en)}</span><span><span class="variant-label">GB</span> ${esc(s.enGB)}</span></div>`:`<p class="english" data-name-content lang="en">${esc(s.en)}</p>`;}
+function nameAnswerMarkup(s,target){
+ if(target==='code')return codeGroups(s,true,true);
+ return `<p class="answer-main">${target==='en'&&s.enGB?'<span class="variant-label">US</span> ':''}${nameMarkup(s,target)}</p>${nameVariants(s,target,true)}`;
+}
+function studyDetailsMarkup(s,target,sourceLanguage){
+ const reference=target==='sci'?'en':'sci';
+ return `<div class="species-reference"><p class="reference-name"><span class="card-language-label">${esc(languageLabel(reference,english?'en':'de'))}</span>${reference==='en'&&s.enGB?'<span class="variant-label">US</span> ':''}${nameMarkup(s,reference)}</p>${target==='sci'?nameVariants(s,'en'):''}${target!=='code'?codeGroups(s,false,true):''}${scientificNameMarkup(s,sourceLanguage)}${germanNames(s,target==='de')}<p class="answer-species-link">${ebirdLink(s)}</p></div>`;
+}
+function englishNames(s){return `<p class="english">${s.enGB?'<span class="variant-label">US</span> ':''}${nameMarkup(s,'en')}</p>${nameVariants(s,'en')}`;}
 
 function codeMarkup(s,code,answer=false){
  const scientific=s.scientificCodes?.includes(code),banding=s.bandingCode===code;
@@ -240,14 +254,25 @@ function codeMarkup(s,code,answer=false){
  const others=birds.filter(b=>b.id!==s.id&&b.codes.includes(code));
  if(others.length)labels.push((english?'Also refers to other species in the catalogue: ':'Bezeichnet auch andere Arten im Katalog: ')+others.map(b=>english?b.en:b.de).join(', '));
  const title=labels.join(' · ');
- return `<span class="code${answer?' answer-code':''}${banding?' code-banding':''}${scientific?' code-scientific':''}" title="${esc(title)}"><span class="sr">${esc(title)}: </span><span data-name-content>${esc(code)}</span></span>`;
+ return `<span class="code${answer?' answer-code':''}${banding?' code-banding':''}${scientific?' code-scientific':''}${!scientific&&!banding?' code-common':''}" title="${esc(title)}"><span class="sr">${esc(title)}: </span><span data-name-content>${esc(code)}</span></span>`;
 }
-function scientificCodeNote(s){
- const note=s.scientificCodes?.length&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
- const scientific=s.codes.some(code=>s.scientificCodes?.includes(code));
- const banding=s.codes.includes(s.bandingCode);
- const common=s.codes.some(code=>!s.scientificCodes?.includes(code)&&code!==s.bandingCode);
- return note+`<p class="muted code-legend">${scientific?`<span class="code code-scientific">${english?'scientific':'wissenschaftlich'}</span>`:''}${banding?`<span class="code code-banding">${english?'banding':'Beringung'}</span>`:''}${common?`<span class="code">eBird</span>`:''}<span class="code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</span></p>`;
+function codeGroups(s,answer=false,compact=false){
+ const definitions=[['scientific',english?'Scientific quick codes':'Wissenschaftliche Kurzcodes'],['banding',english?'Banding codes':'Beringungscodes'],['common',english?'eBird codes from English names':'eBird-Codes aus englischen Namen']];
+ const collisionList=codes=>codes.map(code=>{
+  const others=birds.filter(b=>b.id!==s.id&&b.codes.includes(code));
+  return others.length?`<li><span class="collision-code" data-name-content>${esc(code)}</span>: ${others.map(b=>nameMarkup(b,english?'en':'de')).join(' · ')}</li>`:'';
+ }).join('');
+ const collisions=codes=>{const list=collisionList(codes);return list?`<details class="code-collisions"><summary>${english?'Also for other species':'Auch für andere Arten'}</summary><ul>${list}</ul></details>`:'';};
+ const groups=compact?`<div class="species-code-items">${s.codes.map(code=>codeMarkup(s,code,answer)).join('')}</div>${collisions(s.codes)}`:definitions.map(([type,label])=>{
+  const codes=s.codes.filter(code=>type==='scientific'?s.scientificCodes?.includes(code):type==='banding'?code===s.bandingCode&&!s.scientificCodes?.includes(code):!s.scientificCodes?.includes(code)&&code!==s.bandingCode);
+  if(!codes.length)return '';
+  return `<div class="species-code-group"><p class="code-group-label">${label}</p><div class="species-code-items">${codes.map(code=>{
+   const dual=type==='scientific'&&code===s.bandingCode;
+   return `<div class="species-code-item">${codeMarkup(s,code,answer)}${dual?`<span class="code-extra-type">${english?'Also a banding code':'Auch Beringungscode'}</span>`:''}${collisions([code])}</div>`;
+  }).join('')}</div></div>`;
+ }).join('');
+ const note=s.codes.some(code=>s.scientificCodes?.includes(code))&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
+ return `<div class="species-codes${compact?' species-codes-compact':''}${answer?' answer-main answer-codes':''}" role="group" aria-label="${answer?(english?'Accepted eBird entry codes':'Akzeptierte eBird-Kurzcodes'):(english?'eBird entry codes':'eBird-Kurzcodes')}">${groups}${note}<p class="muted code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</p></div>`;
 }
 
 function lookupAliases(s,language){
@@ -263,23 +288,23 @@ function lookupAliasMarkup(s,language){
  const names=lookupAliases(s,language);if(!names.length)return '';
  return `<p class="lookup-aliases"><span class="muted">${english?'Other names:':'Weitere Namen:'}</span> <span data-name-content lang="${language}">${names.map(esc).join(' · ')}</span></p>`;
 }
-function germanNames(s){
+function germanNames(s,acceptedShown=false){
  const names=s.germanNames||[];if(!names.length)return '';
  const groups=[['alternative','Alternative deutsche Namen'],['historical','Historische deutsche Namen']];
- return `<div class="german-names">${groups.map(([status,label])=>{const a=names.filter(n=>n.status===status);return a.length?`<p><span class="muted">${label}:</span> ${a.map(n=>`${nameMarkup({de:n.name},'de')}${n.region?' ('+esc(t(n.region))+')':''}${n.ambiguous?' <span class="muted">(mehrdeutig)</span>':''}`).join(' · ')}</p>`:'';}).join('')}<details class="name-sources"><summary>Quellen zu deutschen Namen</summary><ul>${names.map(n=>`<li><strong data-name-content lang="de">${esc(n.name)}:</strong> ${esc(t(n.note))} <a href="${esc(n.source)}" target="_blank" rel="noopener noreferrer">${esc(n.sourceTitle)} ↗</a></li>`).join('')}</ul></details></div>`;
+ return `<div class="german-names">${groups.map(([status,label])=>{const a=names.filter(n=>n.status===status&&!(acceptedShown&&status==='alternative'&&!n.ambiguous));return a.length?`<p><span class="muted">${esc(t(label))}:</span> ${a.map(n=>`${nameMarkup({de:n.name},'de')}${n.region?' ('+esc(t(n.region))+')':''}${n.ambiguous?' <span class="muted">(mehrdeutig)</span>':''}`).join(' · ')}</p>`:'';}).join('')}<details class="name-sources"><summary>Quellen zu deutschen Namen</summary><ul>${names.map(n=>`<li><strong data-name-content lang="de">${esc(n.name)}:</strong> ${esc(t(n.note))} <a href="${esc(n.source)}" target="_blank" rel="noopener noreferrer">${esc(n.sourceTitle)} ↗</a></li>`).join('')}</ul></details></div>`;
 }
 
 function lookupNameList(s){
  const rows=lookupLanguages(ui.lookup).filter(language=>language.code!=='sci'||primaryName(s,ui.lookup.mainLanguage)).map(language=>{
   const name=primaryName(s,language.code);
-  const value=!name?`<span class="muted">${english?'Name unavailable':'Name nicht verfügbar'}</span>`:language.code==='en'?englishNames(s)+lookupAliasMarkup(s,'en'):nameMarkup(s,language.code);
+  const value=!name?`<span class="muted">${english?'Name unavailable':'Name nicht verfügbar'}</span>`:language.code==='en'?englishNames(s):nameMarkup(s,language.code);
   return `<div><dt>${esc(languageLabel(language.code,english?'en':'de'))}</dt><dd>${value}${language.code==='de'?lookupAliasMarkup(s,'de')+germanNames(s):''}</dd></div>`;
  }).join('');
  return `<dl class="lookup-name-list">${rows}</dl>${scientificNameMarkup(s,ui.lookup.mainLanguage)}`;
 }
-function card(s){
- const language=ui.lookup.mainLanguage,title=lookupTitle(s,language),hasName=!!primaryName(s,language),germanStatus=showGermanStatus(s,ui.lookup.region);
- return `<article class="card"><h2><span class="card-language-label">${esc(languageLabel(hasName?language:'sci',english?'en':'de'))}</span>${nameMarkup(s,hasName?language:'sci')}</h2>${!hasName?`<p class="muted lookup-aliases">${english?'Name unavailable in':'Name nicht verfügbar auf'} ${esc(languageLabel(language,english?'en':'de'))}</p>`:''}${language==='de'?lookupAliasMarkup(s,'de')+germanNames(s):language==='en'?`${s.enGB?`<p class="lookup-aliases"><span class="variant-label">GB</span> <span data-name-content lang="en">${esc(s.enGB)}</span></p>`:''}${lookupAliasMarkup(s,'en')}`:''}${lookupNameList(s)}<div class="lookup-code-row"><div class="lookup-codes" role="group" aria-label="${english?'eBird entry codes':'eBird-Kurzcodes'}">${s.codes.map(code=>codeMarkup(s,code)).join('')}</div><a href="https://ebird.org/species/${s.id}" target="_blank" rel="noopener">eBird ↗<span class="sr">: ${esc(title)}</span></a></div>${scientificCodeNote(s)}<div class="tags lookup-status"><span>${esc(t(s.group))}</span>${germanStatus&&s.status.length?`<span>${english?'In Germany:':'In Deutschland:'} ${s.status.map(v=>esc(t(v))).join(' · ')}</span>`:''}</div>${germanStatus&&s.note?`<p class="lookup-note">${esc(t(s.note))}</p>`:''}${lookupPhotos?photoMarkup(s):''}</article>`;
+function card(s,inHit=false){
+ const language=ui.lookup.mainLanguage,hasName=!!primaryName(s,language),germanStatus=showGermanStatus(s,ui.lookup.region);
+ return `<article class="card">${inHit?'':`<h2><span class="card-language-label">${esc(languageLabel(hasName?language:'sci',english?'en':'de'))}</span>${language==='en'&&s.enGB?'<span class="variant-label">US</span> ':''}${nameMarkup(s,hasName?language:'sci')}</h2>`}${!hasName?`<p class="muted lookup-aliases">${english?'Name unavailable in':'Name nicht verfügbar auf'} ${esc(languageLabel(language,english?'en':'de'))}</p>`:''}${language==='de'?lookupAliasMarkup(s,'de')+germanNames(s):language==='en'?nameVariants(s,'en'):''}${lookupNameList(s)}${codeGroups(s)}<p class="answer-species-link">${ebirdLink(s)}</p><div class="tags lookup-status"><span>${esc(t(s.group))}</span>${germanStatus&&s.status.length?`<span>${english?'In Germany:':'In Deutschland:'} ${s.status.map(v=>esc(t(v))).join(' · ')}</span>`:''}</div>${germanStatus&&s.note?`<p class="lookup-note">${esc(t(s.note))}</p>`:''}${lookupPhotos?photoMarkup(s):''}</article>`;
 }
 function lookupCountryControl(state){
  const countries=regionalData?.countries||LEARNING_COUNTRIES;
@@ -322,11 +347,11 @@ function lookupHitList(hits){
   const s=hit.species,title=lookupTitle(s,ui.lookup.mainLanguage);
   const heading=hit.rank!==previous?`<h2 class="lookup-hit-heading">${headings[hit.rank]}</h2>`:'';previous=hit.rank;
   const seenLanguages=new Set();
-  const reasons=hit.matches.filter(match=>{if(hit.rank===3)return true;if(seenLanguages.has(match.language))return false;seenLanguages.add(match.language);return true;}).map(match=>{
+  const reasons=hit.matches.filter(match=>{if(match.value===title)return false;if(hit.rank===3)return true;if(seenLanguages.has(match.language))return false;seenLanguages.add(match.language);return true;}).map(match=>{
    const label=match.language==='code'?(s.scientificCodes?.includes(match.value)?(english?'Scientific code':'Wissenschaftlicher Code'):s.bandingCode===match.value?(english?'Banding code':'Beringungscode'):(english?'eBird code':'eBird-Code')):languageLabel(match.language,english?'en':'de');
    return `<span class="lookup-hit-reason"><span>${esc(label)}:</span> <strong data-name-content lang="${match.language==='sci'?'la':match.language==='code'?'en':match.language}">${esc(match.value)}</strong></span>`;
   }).join('');
-  return heading+`<details class="lookup-hit" data-hit-id="${esc(s.id)}" data-hit-index="${index}"><summary><span class="lookup-hit-title" data-name-content lang="${primaryName(s,ui.lookup.mainLanguage)?contentLanguage(ui.lookup.mainLanguage):'la'}">${esc(title)}</span><span class="lookup-hit-reasons">${reasons}</span><span class="lookup-hit-action">${english?'Species details':'Artendetails'}</span></summary>${card(s)}</details>`;
+  return heading+`<details class="lookup-hit" data-hit-id="${esc(s.id)}" data-hit-index="${index}"><summary><span class="lookup-hit-heading-name"><span class="card-language-label">${esc(languageLabel(primaryName(s,ui.lookup.mainLanguage)?ui.lookup.mainLanguage:'sci',english?'en':'de'))}${ui.lookup.mainLanguage==='en'&&s.enGB?' · US':''}</span><span class="lookup-hit-title" role="heading" aria-level="3" data-name-content lang="${primaryName(s,ui.lookup.mainLanguage)?contentLanguage(ui.lookup.mainLanguage):'la'}">${esc(title)}</span></span>${reasons?`<span class="lookup-hit-reasons">${reasons}</span>`:''}<span class="lookup-hit-action">${english?'Species details':'Artendetails'}</span></summary>${card(s,true)}</details>`;
  }).join('');
 }
 
@@ -351,7 +376,7 @@ function lookup() {
     $('#active-filters').innerHTML=(state.group?`<button class="filter-chip" data-clear="group">${esc(state.group)} <span aria-hidden="true">×</span><span class="sr">: Filter entfernen</span></button>`:'')+(state.region?`<span class="filter-chip">${esc(regionalData?.regions.find(r=>r.code===state.region)?.[english?'nameEn':'nameDe']||state.region)} · ${english?(state.regionMode==='all'?'All records':'Last 30 days'):(state.regionMode==='all'?'Alle Nachweise':'Letzte 30 Tage')}</span>`:'');
     const lookupFixes=[['group',state.group,english?'Remove species group':'Artengruppe entfernen'],['region',state.region,english?'Search all supported countries':'In allen unterstützten Ländern suchen']].filter(([key,active])=>active&&birds.some(s=>(key==='group'||!state.group||s.group===state.group)&&(key==='region'||regionAllows(regionalData,state.region,state.regionMode,s.id))&&matches(s,state.query)));
     $('#results').classList.toggle('lookup-hit-list',searching);
-    $('#results').innerHTML=result.length?(searching?lookupHitList(hits.slice(0,state.visible)):shown.map(card).join(''))+`<div class="lookup-pagination"><p>${english?`${shown.length} of ${result.length} matches shown`:`${shown.length} von ${result.length} Treffern angezeigt`}</p>${shown.length<result.length?`<button type="button" id="lookup-more">${english?'Show more species':'Weitere Arten anzeigen'}</button>`:''}</div>`:`<div class="panel empty-state"><h2>Keine passende Art</h2><p>${state.group||state.region?'Aktive Filter schränken die Suche ein. Entferne einen Filter oder setze die Suche zurück.':'Versuche einen kürzeren Namen oder einen anderen Code.'}</p><div class="toolbar">${lookupFixes.map(([key,,label])=>`<button type="button" data-clear="${key}">${esc(label)}</button>`).join('')}<button id="empty-reset">Suche und Filter zurücksetzen</button></div></div>`;
+    $('#results').innerHTML=result.length?(searching?lookupHitList(hits.slice(0,state.visible)):shown.map(s=>card(s)).join(''))+`<div class="lookup-pagination"><p>${english?`${shown.length} of ${result.length} matches shown`:`${shown.length} von ${result.length} Treffern angezeigt`}</p>${shown.length<result.length?`<button type="button" id="lookup-more">${english?'Show more species':'Weitere Arten anzeigen'}</button>`:''}</div>`:`<div class="panel empty-state"><h2>Keine passende Art</h2><p>${state.group||state.region?'Aktive Filter schränken die Suche ein. Entferne einen Filter oder setze die Suche zurück.':'Versuche einen kürzeren Namen oder einen anderen Code.'}</p><div class="toolbar">${lookupFixes.map(([key,,label])=>`<button type="button" data-clear="${key}">${esc(label)}</button>`).join('')}<button id="empty-reset">Suche und Filter zurücksetzen</button></div></div>`;
     document.querySelectorAll('[data-hit-id]').forEach(detail=>{detail.open=openedHits.has(detail.dataset.hitId);detail.ontoggle=()=>{if(detail.open)openedHits.add(detail.dataset.hitId);else openedHits.delete(detail.dataset.hitId);};});
     const clearRegion=()=>{const country=$('#region-country').value;$('#region').innerHTML=regionOptions(country,country);$('#region').disabled=!country;configureLocalRegions(country);};
     const clear=()=>{state.scroll=0;state.visible=LOOKUP_PAGE_SIZE;$('#search').value='';$('#group').value='';clearRegion();$('#region-mode').value='all';update();$('#search').focus();};
@@ -638,7 +663,7 @@ function renderIntroduction(x){
  if(!item.introduced){daily=introduce(daily,unit);records[key(s,item.t)]=beginIntroduction(records[key(s,item.t)],x.sourceLanguage,x.method);item.introduced=true;save();}
  studyMode(true);document.body.classList.add('introducing');
  const instruction=item.t==='code'?(s.codes.length>1?(english?'Remember one of these codes. Any of them is accepted.':'Merke dir einen dieser Codes. Jede Variante wird akzeptiert.'):(english?'Remember the code. You will be asked for it shortly.':'Merke dir den Code. Er wird gleich abgefragt.')):(english?'Remember the translation. You will be asked for it shortly.':'Merke dir die Übersetzung. Sie wird gleich abgefragt.');
- app.innerHTML=`<div class="panel introduction"><p id="intro-instruction" class="intro-instruction">${instruction}</p><p class="eyebrow">${english?'New learning target':'Neues Lernziel'} · ${x.introIndex+1}/${x.introductions.length}</p><h1 aria-describedby="intro-instruction">${nameMarkup(s,x.sourceLanguage)}</h1><p class="intro-answer-language">${esc(item.t==='code'?(s.codes.length>1?'Quick Find Codes':'Quick Find Code'):languageLabel(item.t,english?'en':'de'))}</p>${nameAnswerMarkup(s,item.t)}${scientificNameMarkup(s,x.sourceLanguage)}${x.photos?photoMarkup(s):''}${storageNotice()}<div class="actions study-actions"><button id="intro-next" class="primary">${english?'Continue →':'Weiter →'}</button><button id="intro-pause">${english?'Pause':'Pausieren'}</button></div></div>`;
+ app.innerHTML=`<div class="panel introduction"><p id="intro-instruction" class="intro-instruction">${instruction}</p><p class="eyebrow">${english?'New learning target':'Neues Lernziel'} · ${x.introIndex+1}/${x.introductions.length}</p><h1 aria-describedby="intro-instruction">${nameMarkup(s,x.sourceLanguage)}</h1><p class="intro-answer-language">${esc(item.t==='code'?(s.codes.length>1?'Quick Find Codes':'Quick Find Code'):languageLabel(item.t,english?'en':'de'))}</p>${nameAnswerMarkup(s,item.t)}${studyDetailsMarkup(s,item.t,x.sourceLanguage)}${x.photos?photoMarkup(s):''}${storageNotice()}<div class="actions study-actions"><button id="intro-next" class="primary">${english?'Continue →':'Weiter →'}</button><button id="intro-pause">${english?'Pause':'Pausieren'}</button></div></div>`;
  $('#intro-next').onclick=()=>{x.introIndex++;save();renderQuestion();};$('#intro-pause').onclick=()=>{x.paused=true;save();learn();focusHeading();};focusElement($('.introduction h1'),{preventScroll:true});window.scrollTo(0,0);observeStudyActions();observeStudyPhotoLayout();
 }
 function lessonProgressMarkup(x){
@@ -695,7 +720,7 @@ function renderQuestion() {
     queueFocus($('#answer'));
   }
   if(x.method==='flash') {
-    const reveal=()=>{x.revealed=true;save();area.innerHTML=`<div id="revealed-answer" tabindex="-1" role="group" aria-describedby="revealed-answer-content" aria-label="${english?'Revealed answer':'Aufgedeckte Antwort'}"><div id="revealed-answer-content">${nameAnswerMarkup(s,item.t)}</div></div><div class="actions study-actions"><button id="no">Nicht gewusst</button><button id="yes" class="primary">Gewusst</button></div>${germanNames(s)}`;$('#no').onclick=()=>finish(false,s,item,'Nicht gewusst');$('#yes').onclick=()=>finish(true,s,item,'Gewusst');focusElement($('#revealed-answer'),{preventScroll:true});observeStudyActions();};
+    const reveal=()=>{x.revealed=true;save();area.innerHTML=`<div id="revealed-answer" tabindex="-1" role="group" aria-describedby="revealed-answer-content" aria-label="${english?'Revealed answer':'Aufgedeckte Antwort'}"><div id="revealed-answer-content">${nameAnswerMarkup(s,item.t)}${studyDetailsMarkup(s,item.t,x.sourceLanguage)}${x.photos?photoMarkup(s):''}</div></div><div class="actions study-actions"><button id="no">Nicht gewusst</button><button id="yes" class="primary">Gewusst</button></div>`;$('#no').onclick=()=>finish(false,s,item,'Nicht gewusst');$('#yes').onclick=()=>finish(true,s,item,'Gewusst');focusElement($('#revealed-answer'),{preventScroll:true});observeStudyActions();};
     if(x.revealed)reveal();else{area.innerHTML='<div class="study-actions"><button id="reveal" class="primary">Antwort aufdecken</button></div>';$('#reveal').onclick=reveal;queueFocus($('#reveal'));}
   }
   if(x.method==='mc'||x.method==='think') {
@@ -735,7 +760,7 @@ function renderFeedback(s,item) {
   const answerMeaning=explainAnswer?`<p class="your-answer" id="feedback-answer-meaning"><span class="muted">${english?'Your answer would be:':'Deine Antwort wäre:'}</span> ${answerNames.length?answerNames.join(' / '):english?'No matching species found.':'Keine passende Art gefunden.'}</p>`:'';
   $('#lesson-progress').innerHTML=lessonProgressMarkup(x);
   const bar=$('progress');bar.value=p.completed;bar.setAttribute('aria-valuetext',lessonProgressText(p,english).primary+'. '+lessonProgressText(p,english).pending);
-  $('#feedback').innerHTML=`<div class="feedback"><div class="feedback-result"><h2 class="${correct?'good':'bad'}" tabindex="-1" aria-describedby="${x.method!=='flash'?'feedback-your-answer ':''}${explainAnswer?'feedback-answer-meaning ':''}feedback-accepted">${correct?'✓ Richtig.':'Noch nicht richtig.'}</h2>${x.method!=='flash'?`<p class="your-answer" id="feedback-your-answer"><span class="muted">Deine Antwort:</span> <span data-name-content lang="${esc(contentLanguage(item.t))}">${esc(answer)}</span></p>`:''}${answerMeaning}</div><div class="feedback-answer" id="feedback-accepted"><p class="answer-label">${item.t==='code'?(english?(s.codes.length>1?'Accepted eBird entry codes':'Accepted eBird entry code'):(s.codes.length>1?'Akzeptierte eBird-Kurzcodes':'Akzeptierter eBird-Kurzcode')):item.t==='sci'?(english?'Scientific name':'Wissenschaftlicher Name'):'Akzeptierte Namen'}</p> ${nameAnswerMarkup(s,item.t)}</div><div class="feedback-details"><div class="answer-reference">${item.t==='code'?`<p class="latin">${esc(s.sci)}</p>`:''}</div>${scientificNameMarkup(s,x.sourceLanguage)}${germanNames(s)}<p class="answer-species-link">${ebirdLink(s)}</p></div>${x.photos?photoMarkup(s,true):''}<details class="question-explanation" id="feedback-learning"><summary>${english?'Why am I seeing this bird?':'Warum sehe ich diesen Vogel?'}</summary><div class="learning-feedback"><p>${esc(questionReasonText(item,english))}</p>${regionalQuestionNote(x,s.id,true)}${item.retry?`<p class="muted">${esc(attemptText(item.retry,english))}</p>`:''}<p>${esc(evidenceText(progress(s,item.t,x),x.method,english))}</p><p class="muted review-schedule">${esc(scheduleText(progress(s,item.t,x),Date.now(),english)+(x.hint?(english?' Answered with support.':' Mit Unterstützung beantwortet.'):''))}</p><p><a href="#lernmethode">${english?'How learning works':'So funktioniert das Lernen'}</a></p></div></details><div class="study-actions"><button id="next" class="primary">Weiter →</button></div></div>`;
+  $('#feedback').innerHTML=`<div class="feedback"><div class="feedback-result"><h2 class="${correct?'good':'bad'}" tabindex="-1" aria-describedby="${x.method!=='flash'?'feedback-your-answer ':''}${explainAnswer?'feedback-answer-meaning ':''}feedback-accepted">${correct?'✓ Richtig.':'Noch nicht richtig.'}</h2>${x.method!=='flash'?`<p class="your-answer" id="feedback-your-answer"><span class="muted">Deine Antwort:</span> <span data-name-content lang="${esc(contentLanguage(item.t))}">${esc(answer)}</span></p>`:''}${answerMeaning}</div><div class="feedback-answer" id="feedback-accepted"><p class="answer-label">${item.t==='code'?(english?(s.codes.length>1?'Accepted eBird entry codes':'Accepted eBird entry code'):(s.codes.length>1?'Akzeptierte eBird-Kurzcodes':'Akzeptierter eBird-Kurzcode')):item.t==='sci'?(english?'Scientific name':'Wissenschaftlicher Name'):'Akzeptierte Namen'}</p> ${nameAnswerMarkup(s,item.t)}</div><div class="feedback-details">${studyDetailsMarkup(s,item.t,x.sourceLanguage)}</div>${x.photos?photoMarkup(s,true):''}<details class="question-explanation" id="feedback-learning"><summary>${english?'Why am I seeing this bird?':'Warum sehe ich diesen Vogel?'}</summary><div class="learning-feedback"><p>${esc(questionReasonText(item,english))}</p>${regionalQuestionNote(x,s.id,true)}${item.retry?`<p class="muted">${esc(attemptText(item.retry,english))}</p>`:''}<p>${esc(evidenceText(progress(s,item.t,x),x.method,english))}</p><p class="muted review-schedule">${esc(scheduleText(progress(s,item.t,x),Date.now(),english)+(x.hint?(english?' Answered with support.':' Mit Unterstützung beantwortet.'):''))}</p><p><a href="#lernmethode">${english?'How learning works':'So funktioniert das Lernen'}</a></p></div></details><div class="study-actions"><button id="next" class="primary">Weiter →</button></div></div>`;
   if(x.photos){mountStudyPhoto(s);observeStudyPhotoLayout();}
   $('#next').onclick=()=>{if(!x.done||session!==x)return;x.index++;x.done=false;x.hint=false;x.result=null;x.draft='';x.revealed=false;if(x.index>=x.queue.length)endLesson();else{save();renderQuestion();}};
   observeStudyActions();focusHeading('#feedback h2');

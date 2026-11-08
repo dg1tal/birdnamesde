@@ -575,6 +575,33 @@ body.dark .code-banding{background:#174746;color:#b2eee7}
 .lookup-options .lookup-name-options fieldset{min-inline-size:0;padding:10px 0;border:0}
 .lookup-filters .lookup-country{max-width:none}
 
+/* Shared species references: names first, explicitly labelled codes below. */
+.name-variant{font-size:14px;line-height:1.5;margin:6px 0;overflow-wrap:anywhere}
+.species-reference{display:grid;gap:10px;min-width:0;font-size:14px}
+.reference-name{font-size:16px;line-height:1.5;margin:0}
+.species-codes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,145px),1fr));gap:12px;margin:14px 0;padding-top:12px;border-top:1px solid var(--line);min-width:0;text-align:left}
+.code-group-label{font-size:12px;font-weight:600;color:var(--muted);margin:0 0 6px;line-height:1.5}
+.species-code-items{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:flex-start}
+.species-code-item{display:grid;justify-items:start;gap:4px;min-width:0;max-width:100%}
+.code-extra-type{font-size:12px;color:var(--muted)}
+.card .code-collisions,.code-collisions{font-size:12px;padding:0;max-width:32ch;clear:none}
+.code-collisions summary{cursor:pointer;min-height:44px;padding:10px 0;line-height:1.5;color:var(--accent)}
+.code-collisions ul{padding-left:18px;margin:0 0 8px;overflow-wrap:anywhere}
+.code-collisions li{margin:4px 0}
+.species-codes .code-legend-note,.species-codes .code-name-note{grid-column:1/-1;font-size:12px;line-height:1.5;margin:0}
+.card .answer-species-link a{float:none;margin:0;font-size:14px}
+.lookup-hit-heading-name{grid-column:1;min-width:0}
+.lookup-hit-heading-name .card-language-label{margin:0 0 3px}
+body.studying .answer-main{font-size:clamp(23px,4vw,30px);line-height:1.3;margin:8px 0}
+body.studying .species-codes.answer-main{font-size:inherit}
+body.studying .species-codes.answer-main .code{font-size:24px}
+body.studying .species-reference .german-names{text-align:left}
+body.studying .species-reference .name-sources ul{text-align:left}
+body.studying .species-codes{width:100%;justify-self:stretch;justify-content:stretch}
+body.studying #revealed-answer .photo-set{margin-top:14px}
+body.studying #revealed-answer .photo-set .bird-photo img{height:280px;object-fit:contain}
+@media(max-width:580px){.species-code-items{gap:8px 12px}body.studying #revealed-answer .photo-set-multiple{grid-template-columns:1fr}}
+
 /* One disclosure owns search scope and display settings in document order. */
 .lookup-options{display:block}
 #lookup-filter-options{min-width:0}
@@ -584,3 +611,14 @@ body.dark .code-banding{background:#174746;color:#b2eee7}
 .lookup-settings-grid .lookup-name-options{padding:0;max-width:none}
 .lookup-settings-grid .photo-option{margin-top:16px}
 @media(max-width:720px){.lookup-settings-grid{grid-template-columns:1fr;gap:24px}}
+
+/* The same badges retain visible backgrounds on lookup and feedback surfaces. */
+.code-common{background:#f6edcf;color:#645220;box-shadow:inset 0 0 0 1px currentColor}
+body.dark .code-common{background:#4a4226;color:#f4e7b9}
+body.studying .species-codes-compact{display:flex;flex-direction:column;flex-wrap:nowrap;gap:8px;text-align:center;align-items:center}
+.species-codes-compact .species-code-items{justify-content:center;gap:8px}
+.species-codes-compact .code-collisions{max-width:100%;text-align:left}
+.species-codes-compact .collision-code{font:700 13px ui-monospace,monospace}
+@media(forced-colors:active){.code-common{outline:1px solid CanvasText}}
+
+.species-codes-compact .code-legend-note{flex-basis:auto;max-width:100%}

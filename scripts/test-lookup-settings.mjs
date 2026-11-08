@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 import {lookupSettings,lookupTitle,sortLookup,lookupLanguages,showGermanStatus,LOOKUP_PAGE_SIZE} from '../dist/lookup-settings.js';
-import {NAME_LANGUAGES,primaryName,languageLabel,loadNameData} from '../dist/name-languages.js';
+import {NAME_LANGUAGES,primaryName,acceptedNames,languageLabel,loadNameData} from '../dist/name-languages.js';
 import {validateRegions} from '../dist/regions.js';
 
 assert.equal(lookupSettings({},'GB-SCT',false).region,'GB');
@@ -26,10 +26,10 @@ await loadNameData(birds,async path=>({ok:true,json:async()=>JSON.parse(readFile
 const german=JSON.parse(readFileSync('dist/german-names.json')).species;
 for(const s of birds)s.germanNames=german[s.id]?.names||[];
 const source=readFileSync('dist/app.js','utf8');
-const render=source.slice(source.indexOf('function englishNames('),source.indexOf('\nfunction lookupCountryControl('));
+const render=source.slice(source.indexOf('function nameMarkup('),source.indexOf('\nfunction lookupCountryControl('));
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const ui={lookup:{mainLanguage:'de',nameLanguages:['de','en','nl','sci'],region:'DE'}};
-const context=vm.createContext({birds,ui,NAME_LANGUAGES,lookupTitle,lookupLanguages,showGermanStatus,primaryName,languageLabel,esc,
+const context=vm.createContext({birds,ui,NAME_LANGUAGES,lookupTitle,lookupLanguages,showGermanStatus,primaryName,acceptedNames,languageLabel,esc,contentLanguage:l=>l==='sci'?'la':l,ebirdLink:()=>'',
  english:false,lookupPhotos:false,scientificNameMarkup:()=>'',t:s=>s,nameMarkup:(s,l)=>`<span data-name-content lang="${l==='sci'?'la':l}">${esc(primaryName(s,l))}</span>`});
 vm.runInContext(render,context);
 const jay=context.card(birds.find(s=>s.id==='eurjay1'));
@@ -53,3 +53,6 @@ const snapshot={version:1,recentDays:30,catalogFingerprint:meta.catalog.fingerpr
 assert(validateRegions(snapshot,new Set(birds.map(s=>s.id)),meta.catalog.fingerprint));
 assert.throws(()=>validateRegions({...snapshot,catalogFingerprint:'old'},new Set(birds.map(s=>s.id)),meta.catalog.fingerprint));
 console.log('PASS: lookup migration, independent geography/languages, sorting/fallback, national context, all catalogue cards and cache-version rejection.');
+
+assert(!context.card(birds.find(s=>s.id==='eurbla'),true).includes('<h2>'),'Expanded hit uses its summary heading');
+assert.equal((birds.slice(0,5).map(s=>context.card(s)).join('').match(/<h2>/g)||[]).length,5,'Every unsearched card retains its heading');

@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 import {answerSpecies} from '../dist/logic.js';
-import {primaryName} from '../dist/name-languages.js';
+import {primaryName,acceptedNames,languageLabel} from '../dist/name-languages.js';
 const birds=JSON.parse(readFileSync('dist/species.json')).species;
 const dutch=JSON.parse(readFileSync('dist/languages/nl.json')).species;
 for(const bird of birds)bird.names={nl:dutch[bird.id]};
@@ -26,7 +26,7 @@ const context={birds,answerSpecies,esc:escape,english:false,Date,
  lessonProgress:()=>({completed:1}),lessonProgressMarkup:()=>'',lessonProgressText:()=>({}),
  contentLanguage:code=>code==='sci'?'la':code,
  nameMarkup:(bird,code)=>`<span data-name-content lang="${code==='sci'?'la':code}">${escape(primaryName(bird,code))}</span>`,
- nameAnswerMarkup:()=>'<b>Correct answer</b>',scientificNameMarkup:()=>'',germanNames:()=>'',ebirdLink:()=>'',
+ nameAnswerMarkup:()=>'<b>Correct answer</b>',studyDetailsMarkup:()=>'<p>Species reference</p>',scientificNameMarkup:()=>'',germanNames:()=>'',ebirdLink:()=>'',
  questionReasonText:()=>'',regionalQuestionNote:()=>'',progress:()=>({}),evidenceText:()=>'',scheduleText:()=>'',
  observeStudyActions(){},focusHeading(){}
 };
@@ -49,75 +49,72 @@ for(const options of [{correct:true},{method:'flash'}])assert(!feedback('Common 
 for(const answer of ['Weiß ich nicht','I don’t know'])assert(!feedback(answer).includes('id="feedback-answer-meaning"'));
 console.log('PASS: wrong-answer species, aliases, codes, Dutch/scientific source names, collisions, safe rendering and feedback visibility.');
 
-// Name answers separate scientific codes; code-only answers remain one group.
-const markupContext={birds,english:false,esc:escape,primaryName,
- acceptedNames:(bird,target)=>[primaryName(bird,target)],contentLanguage:context.contentLanguage};
+// Exercise the shared production card helpers with real accepted names and editorial metadata.
+const german=JSON.parse(readFileSync('dist/german-names.json')).species;
+for(const bird of birds)bird.germanNames=german[bird.id]?.names||[];
+const markupContext={birds,english:false,esc:escape,primaryName,acceptedNames,languageLabel,
+ contentLanguage:context.contentLanguage,t:s=>s,ebirdLink:()=>'',nameOrigins:null,renderScientificName:()=>''};
 vm.createContext(markupContext);
-vm.runInContext(source.slice(source.indexOf('function nameMarkup('),source.indexOf('\nfunction lookupAliases(')),markupContext);
+vm.runInContext(source.slice(source.indexOf('function scientificNameMarkup('),source.indexOf('function lookupNameList(')),markupContext);
 for(const bird of birds){
- for(const target of ['en','sci','de']){
-  const result=markupContext.nameAnswerMarkup(bird,target);
-  const main=result.match(/<p class="answer-main answer-name-with-code">(.*?)<\/p>/s)[1];
-  const reference=result.match(/<p class="answer-name-with-code answer-code-reference">(.*?)<\/p>/s)?.[1]||'';
+ for(const target of ['en','sci','de','nl']){
+  if(!primaryName(bird,target))continue;
+  const answer=markupContext.nameAnswerMarkup(bird,target);
+  assert(!answer.includes('class="code'),'Name answers do not attach code badges');
+  for(const name of acceptedNames(bird,target))assert(answer.includes(escape(name)),'Every accepted name remains visible');
+  const details=markupContext.studyDetailsMarkup(bird,target,'de');
+  assert(details.includes('species-codes'));
+  assert(details.indexOf('reference-name')<details.indexOf('species-codes'));
+ }
+ for(const answer of [false,true]){
+  const codes=markupContext.codeGroups(bird,answer);
   for(const code of bird.codes){
-   const scientific=bird.scientificCodes?.includes(code);
-   assert.equal(main.includes(`>${code}</span>`),target==='sci'?!!scientific:!scientific);
-   assert.equal(reference.includes(`>${code}</span>`),target==='sci'?!scientific:!!scientific);
+   assert.equal(codes.split(`<span data-name-content>${code}</span>`).length-1,1,'Each code appears once');
+   const others=birds.filter(b=>b.id!==bird.id&&b.codes.includes(code));
+   const item=codes.split('class="species-code-item"').find(item=>item.includes(`<span data-name-content>${code}</span>`));
+   assert.equal(item.includes('class="code-collisions"'),others.length>0);
+   for(const other of others)assert(item.includes(escape(other.de)));
   }
  }
  const codeAnswer=markupContext.nameAnswerMarkup(bird,'code');
- assert(!codeAnswer.includes('answer-code-reference'));
- const group=codeAnswer.match(/<p class="answer-main answer-codes".*?<\/p>/s)[0];
- for(const code of bird.codes)assert(group.includes(`>${code}</span>`));
+ assert(codeAnswer.includes('aria-label="Akzeptierte eBird-Kurzcodes"'));
+ assert(!markupContext.studyDetailsMarkup(bird,'code','de').includes('species-codes'),'No duplicate code section');
 }
-console.log('PASS: name answers pair scientific codes with Latin names; code-only answers retain every accepted alternative together across the catalogue.');
-
-// Banding provenance remains visible in both lookup and study badges, including overlaps.
-for(const bird of birds){
- for(const code of bird.codes){
-  for(const answer of [false,true]){
-   const html=markupContext.codeMarkup(bird,code,answer);
-   assert.equal(html.includes('code-banding'),bird.bandingCode===code);
-   assert.equal(html.includes('code-scientific'),!!bird.scientificCodes?.includes(code));
-   assert(!html.includes('class="code-type"'));
-  }
- }
-}
-const dual=markupContext.codeMarkup({bandingCode:'TEST',scientificCodes:['TEST'],scientificCodeName:'<script>'},'TEST');
-assert.match(dual,/code-banding code-scientific/);
-assert.match(dual,/Wissenschaftlicher Kurzcode: &lt;script&gt; · Beringungscode/);
+const blackbirdAnswer=markupContext.nameAnswerMarkup(blackbird,'en');
+assert.match(blackbirdAnswer,/variant-label">US/);assert.match(blackbirdAnswer,/variant-label">GB/);
+assert(blackbirdAnswer.includes('Common Blackbird'));assert(!blackbirdAnswer.includes('Ebenfalls akzeptiert'));assert(!blackbirdAnswer.includes('Also accepted'));
+assert.match(markupContext.nameAnswerMarkup(blackbird,'de'),/Alternative deutsche Namen:.*Schwarzdrossel/s);
+const editorial={...blackbird,germanNames:[{name:'Old name',status:'historical'},{name:'Ambiguous',status:'alternative',ambiguous:true}]};
+const accepted=markupContext.nameAnswerMarkup(editorial,'de');
+assert(!accepted.includes('Old name'));assert(!accepted.includes('Ambiguous'));
+const details=markupContext.studyDetailsMarkup(editorial,'de','de');
+assert.match(details,/Historische deutsche Namen.*Old name/s);assert.match(details,/Ambiguous.*mehrdeutig/s);
+const dual={...blackbird,id:'dual',codes:['TEST'],scientificCodes:['TEST'],scientificCodeName:'<script>',bandingCode:'TEST'};
+const dualCodes=markupContext.codeGroups(dual);
+assert.equal(dualCodes.split('<span data-name-content>TEST</span>').length-1,1);
+assert.match(dualCodes,/Auch Beringungscode/);assert.match(dualCodes,/&lt;script&gt;/);assert(!dualCodes.includes('<script>'));
 for(const english of [false,true]){
  markupContext.english=english;
- const legend=markupContext.scientificCodeNote(blackbird);
- assert.match(legend,/<span class="code code-scientific">/);
- assert.match(legend,/<span class="code code-banding">/);
- assert(legend.includes(english?'>scientific</span>':'>wissenschaftlich</span>'));
- assert(legend.includes(english?'>banding</span>':'>Beringung</span>'));
- assert(legend.includes('>eBird</span>'));
- assert(!/Purple:|Teal|Violett:|Türkis/.test(legend));
- assert(legend.includes(english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'));
+ const codes=markupContext.codeGroups(blackbird);
+ for(const text of english?['Scientific quick codes','Banding codes','eBird codes from English names','Also for other species']:['Wissenschaftliche Kurzcodes','Beringungscodes','eBird-Codes aus englischen Namen','Auch für andere Arten'])assert(codes.includes(text));
+ const other=birds.find(b=>b.id!==blackbird.id&&b.codes.includes('EUBL'));
+ assert(codes.includes(escape(english?other.en:other.de)));
 }
-console.log('PASS: banding provenance, dual scientific/banding badges, escaped titles and bilingual collision legend.');
+markupContext.birds=[{id:'other',de:'<script>',codes:['TEST']}];markupContext.english=false;
+assert(markupContext.codeGroups(dual).includes('lang="de">&lt;script&gt;</span>'));
+console.log('PASS: shared name variants, separate labelled codes, unique dual-source badges, accessible bilingual collisions, safe rendering and unchanged accepted answers across the catalogue.');
 
-// Every legend reflects the source types actually displayed on its own card.
-for(const bird of birds){
- const legend=markupContext.scientificCodeNote(bird);
- assert.equal(legend.includes('class="code code-banding"'),bird.codes.includes(bird.bandingCode));
- assert.equal(legend.includes('class="code code-scientific"'),bird.codes.some(c=>bird.scientificCodes.includes(c)));
- assert.equal(legend.includes('<span class="code">'),bird.codes.some(c=>!bird.scientificCodes.includes(c)&&c!==bird.bandingCode));
- for(const code of bird.codes){
-  const others=birds.filter(b=>b.id!==bird.id&&b.codes.includes(code));
-  const badge=markupContext.codeMarkup(bird,code);
-  assert.equal(badge.includes('Also refers to other species in the catalogue:'),others.length>0);
-  for(const other of others)assert(badge.includes(escape(other.en)));
- }
+markupContext.birds=birds;
+for(const target of ['en','de','sci','nl','code']){
+ const answer=markupContext.nameAnswerMarkup(blackbird,target);
+ const details=markupContext.studyDetailsMarkup(blackbird,target,'de');
+ const compact=target==='code'?answer:details;
+ assert(compact.includes('species-codes-compact'));
+ assert(!compact.includes('code-group-label'),'Study codes have no provenance headings');
+ assert(!answer.includes('Also accepted:')&&!answer.includes('Ebenfalls akzeptiert:'));
+ for(const code of blackbird.codes)assert.equal(compact.split(`<span data-name-content>${code}</span>`).length-1,1);
 }
-markupContext.english=false;
-const star=birds.find(b=>b.id==='eursta');
-const euro=markupContext.codeMarkup(star,'EURO');
-assert.match(euro,/Bezeichnet auch andere Arten im Katalog: Blauracke, Rotkehlchen/);
-assert(!euro.includes('code-banding'));
-assert(!markupContext.codeMarkup(star,'STVU').includes('Bezeichnet auch andere Arten'));
-markupContext.birds=[{id:'other',de:'<script>',codes:['TEST']}];
-assert(markupContext.codeMarkup({id:'current',codes:['TEST']},'TEST').includes('&lt;script&gt;'));
-console.log('PASS: source-specific legends and escaped bilingual collision tooltips across the entire catalogue.');
+const common=markupContext.codeMarkup(blackbird,'COBL');assert(common.includes('code-common'));
+const styles=readFileSync('dist/style.css','utf8');
+assert.match(styles,/\.code-common\{background:#[a-f0-9]+;color:/);
+assert.match(styles,/body\.dark \.code-common\{background:#[a-f0-9]+;color:/);

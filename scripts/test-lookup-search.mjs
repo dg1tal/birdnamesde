@@ -45,3 +45,8 @@ assert(markup.includes('Niederländisch:'));assert(markup.includes('lang="nl">Me
 context.english=true;assert(context.lookupHitList(eubl).includes('Exact matches'));
 assert(context.lookupHitList([{species:fixtures[0],rank:0,matches:[{language:'de',value:'<img src=x onerror=alert(1)>'}]}]).includes('&lt;img'));
 console.log('PASS: ranked multilingual lookup, real code collisions, aliases, umlauts, cross-field queries, unique species, visible match provenance, bilingual disclosures and escaping.');
+
+const exact=context.lookupHitList(searchLookup(birds,'Amsel'));
+assert(!exact.includes('lang="de">Amsel</strong>'),'Identical title does not repeat as a reason');
+assert(exact.includes('Goldamsel'),'Different alias remains visible');
+assert(exact.includes('role="heading" aria-level="3"'),'Species title remains a heading');
