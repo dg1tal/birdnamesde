@@ -14,7 +14,7 @@ Dutch names for the expanded catalogue come from the `Dutch` column of the retai
 
 Progress records retain the outer `species-id:target` keys: `:en`, `:de`, `:code`, `:nl` and `:sci`. Within each record, `contexts` separates question language and method family: text uses recall, flashcards use self-assessment, and direct choice/“Think first” share recognition. Changing direction or method family does not transfer secure status. See [Backup and restore flow](learning-and-storage.md#backup-and-restore-flow) for export contents and legacy compatibility.
 
-New lessons save the selected names explicitly, so changing setup does not alter an existing queue. Legacy lessons recover their original question language on migration. Statistics use an answer-name selector and the current question language and method family for secure/due counts; aggregate answer totals retain historical answers across methods.
+New lessons save the selected names explicitly, so changing setup does not alter an existing queue. Legacy lessons recover their original question language on migration. Statistics use independent question-name, answer-name and method-family selectors for secure/due counts; aggregate answer totals retain historical answers across methods.
 
 Checks: `node scripts/test-multilingual.mjs`, alongside the existing answer, alias and lesson-state tests. See [dutch-learning-20261029.md](dutch-learning-20261029.md).
 
@@ -24,7 +24,7 @@ The interface switch translates the current learning context. Settings use `bird
 
 Learning setup leads with the daily round and a shared settings disclosure. Species selection determines new introductions; already started targets remain eligible for due review independently of those species filters. Shared settings include question/answer names, method, region, species groups, pictures and regional selection. Regional previews compare all records, seasonal selection and recent records, with counts, species lists and automatic current additions. Their counts apply shared species/name filters and exclude the custom progress filter. Seasonal frequency choices show counts and expandable lists.
 
-Learning settings remain collapsible, with four equally framed groups for learning target/languages, region, species selection and answer method/pictures. Species-group filters and selections from statistics belong inside the species-selection frame. The collapsed summary includes matching species and picture state; selection errors remain visible above the settings disclosure. All learning selections use regional data and additional species-group filters.
+Basic learning settings keep target/languages, method and pictures together. Region and species selection are separately collapsible after the daily action. Species groups and selections from statistics remain part of species selection. The collapsed summary includes matching species and picture state; selection errors stay visible. All ordinary learning selections use regional data and additional species-group filters; saved-species rounds explicitly use their own list.
 
 “Build another round yourself” adds custom question-count and progress controls. Code-only learning hides unused answer-language/swap controls. `node scripts/test-learning-settings.mjs` checks migration and selection messages; `node scripts/test-practice-queue.mjs` checks direct continuation.
 
@@ -79,9 +79,9 @@ Tests: `node scripts/test-backup-file.mjs` covers 939 targets with 75,120 answer
 legacy JSON, gzip round trips, further grading, unavailable compression,
 truncation/checksum errors and bounded expansion.
 
-Statistics visibly identifies browser/device-local storage and links directly to backup controls. The dated JSON download includes all answer-language/code records, method/direction evidence and the daily introduction ledger independently of current filters; preferences, paused sessions, drafts and cached media are excluded. Selecting a file only validates and previews it, showing its date, supported learning-target/species counts and the current browser counts. Explicit replacement overwrites all progress without merging and ends paused sessions. Users can download their current records before replacement or cancel without changing them. Empty backups have a distinct removal warning; files containing only unsupported records are rejected, while partially supported files report skipped records.
+Statistics visibly identifies browser/device-local storage and links directly to backup controls. The dated JSON download includes all answer-language/code records, method/direction evidence and the daily introduction ledger plus saved species independently of current filters; preferences, paused sessions, drafts and cached media are excluded. Selecting a file only validates and previews it, showing its date, supported learning-target/species counts and the current browser counts. Explicit replacement overwrites all progress without merging and ends paused sessions. Users can download their current records before replacement or cancel without changing them. Empty backups have a distinct removal warning; files containing only unsupported records are rejected, while partially supported files report skipped records.
 
-`dist/learning-storage.js` writes records, the daily ledger and saved lessons in one transaction. Restore publishes the new in-memory state only after the transaction commits; quota, closed-database or synchronous write failures preserve the prior state. Export format v2 includes method/direction evidence and the daily introduction ledger. Imports accept v1/v2; old counters/dates are retained as historical data, with no invented source-language or method evidence. The first graded legacy review claims its old date once for the selected context. Paused v1 sessions remain resumable. Browser downloads are announced as started, rather than claiming the file has been saved to disk.
+`dist/learning-storage.js` writes records, the daily ledger and saved lessons in one transaction. Restore publishes the new in-memory state only after the transaction commits; quota, closed-database or synchronous write failures preserve the prior state. Export format v3 includes method/direction evidence, the daily introduction ledger and saved species. Imports accept v1/v2/v3; old counters/dates are retained as historical data, with no invented source-language or method evidence. The first graded legacy review claims its old date once for the selected context. Paused v1 sessions remain resumable. Browser downloads are announced as started, rather than claiming the file has been saved to disk.
 
 ## Protected progress recovery
 
@@ -94,13 +94,12 @@ startup never silently removes unsupported or damaged records.
 If records, the daily ledger or a saved lesson cannot be restored safely, Learn
 and Statistics show a recovery view in the selected interface language. Lookup
 remains available. Normal learning writes are blocked, and the original stored
-state is kept until the user explicitly replaces it with a checked v1/v2 backup.
+state is kept until the user explicitly replaces it with a checked v1/v2/v3 backup.
 Readable original state can be downloaded as a separately marked rescue JSON
 file; this is diagnostic material, not an importable progress backup. A failed
 replacement keeps both the original data and the recovery lock. A reload retries
 storage initialization. Opening/reading storage is bounded to ten seconds; late
-callbacks cannot publish state or start normal writes after a timeout. Backup
-format version 2 and IndexedDB database version 1 remain unchanged.
+callbacks cannot publish state or start normal writes after a timeout. Backups use version 3; versions 1 and 2 remain importable. IndexedDB database version 1 remains unchanged.
 
 Round recovery uses the catalogue size and `RULES.maxRetries`: at most two initial
 targets per species, each with its permitted extra attempts (5,640 entries for
@@ -117,3 +116,17 @@ See [quality-review-20261105.md](quality-review-20261105.md) for the original fi
 ## Data and privacy information
 
 `dist/info-page.js` renders matching German and English information sections. Species/media totals and regional coverage/timestamps derive from loaded data; the review date is separate from taxonomy and dataset dates. English source links have English descriptions and retain original titles in a disclosure. The page documents the Actions-only eBird fetch, hosting requests, shared learning context, local storage/cache, backup scope and domain migration. Tests: `node scripts/test-information.mjs`.
+
+## Usability changes on 8 November 2026
+
+Basic learning settings group target, languages, method and pictures before the daily action. Regional and species controls are independently expandable below it. Scientific reference names remain visible on study cards; other codes, origins and external details follow pictures inside More information. Hinted success and any added retry are explained in immediate feedback. The visible phase distinguishes main questions from extra attempts.
+
+Statistics has its own persisted question/answer/method viewing context. Changing its selectors does not write learning settings. Only explicit practice actions apply that context. Recognition retains the current recognition format where possible, otherwise Think first.
+
+`#lernen/merkliste` manages saved species. IDs are stored in `saved-species-v1` in the existing IndexedDB state store and committed together with progress, the daily ledger and rounds. Saved-species setup starts from current learning settings but does not change them. Its queue ignores region, season, group and progress filters; incompatible name pairs are excluded. The current round must be resumed or explicitly ended before another can start.
+
+Backup version 3 adds `savedSpecies`. List-only backups are valid. Version 3 replaces the list; versions 1 and 2 preserve it and explain this in preview. Unknown imported IDs are reported and skipped. Local unknown IDs are preserved and marked unavailable in the list. Reset progress retains the list. Settings, paused rounds and answer drafts remain excluded from backups.
+
+Ending early offers Undo on the current summary, without a timer. Only round state and the pending-round order are restored; graded records and the daily ledger are never rolled back or graded twice. Leaving the summary, starting another round, restoring a backup, resetting or reloading invalidates Undo.
+
+Regression coverage: `node scripts/test-usability.mjs`, including atomic list replacement and failed transactions, old and list-only backups, independent statistics, and the production end-round handler.

@@ -96,7 +96,7 @@ assert(safe.includes('&lt;img'));assert(!safe.includes('<img'));
 const app=readFileSync('dist/app.js','utf8');
 const question=app.slice(app.indexOf('function renderQuestion('),app.indexOf('\nasync function finish('));
 assert(!question.includes('scientificNameMarkup('),'No etymology hints on unanswered questions');
-for(const fn of ['renderIntroduction','renderFeedback','lookupNameList','studyDetailsMarkup']){
+for(const fn of ['renderIntroduction','renderFeedback','lookupNameList','studyMoreMarkup']){
  const start=app.indexOf(`function ${fn}(`),end=app.indexOf('\nfunction ',start+1);
  assert(app.slice(start,end).includes(fn==='renderIntroduction'||fn==='renderFeedback'?'studyDetailsMarkup(':'scientificNameMarkup('),fn);
 }

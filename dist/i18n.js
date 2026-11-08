@@ -52,12 +52,12 @@ Alternative deutsche Namen|Alternative German names
 Historische deutsche Namen|Historical German names
 Quellen zu deutschen Namen|Sources for German names
 mehrdeutig|ambiguous
-Lerneinheit|Study session
-Pausierte Einheit|Paused session
-Einheit fortsetzen →|Resume session →
-Einheit abschließen|Finish session
-Deine bisherigen Antworten sind gespeichert. Schließe diese Einheit ab, bevor du eine neue beginnst.|Your answers have been saved. Finish this session before starting a new one.
-Neue Einheit zusammenstellen|Set up a new session
+Lerneinheit|Study round
+Pausierte Runde|Paused round
+Runde fortsetzen →|Resume round →
+Runde abschließen|Finish round
+Deine bisherigen Antworten sind gespeichert. Schließe diese Runde ab, bevor du eine neue beginnst.|Your answers have been saved. Finish this round before starting a new one.
+Neue Runde zusammenstellen|Set up a new round
 Lernziel|Learning target
 Englische Namen|German names
 Englischer Name|German name
@@ -74,7 +74,7 @@ Noch nicht sicher|Not yet secure
 Gerade ist keine Wiederholung fällig. Du kannst neue oder noch unsichere Ziele üben.|No reviews are due. You can practise new or uncertain targets.
 Nur fällige Wiederholungen|Due reviews only
 Zuletzt falsch beantwortet|Last answered incorrectly
-Fragen pro Einheit|Questions per session
+Fragen pro Runde|Questions per round
 Alle passenden Arten|All matching species
 Artengruppen|Species groups
 Gruppen suchen|Search groups
@@ -86,12 +86,12 @@ Gruppe entfernen|Remove group
 Keine passende Gruppe.|No matching group.
 Artenauswahl aufheben|Clear species selection
 Artenbilder nach der Antwort anzeigen|Show species pictures after answering
-Lerneinheit starten →|Start study session →
+Lerneinheit starten →|Start study round →
 US- und GB-Namen sowie hinterlegte Alternativnamen werden akzeptiert. Namen und Codes haben getrennte Lernstände. Fehler werden zusätzlich wiederholt.|German main names and documented, unambiguous current alternatives are accepted. Names and codes have separate progress. Incorrect answers are repeated.
 Keine passenden Arten. Erweitere Wortschatz, Gruppen oder Lernstand.|No matching species. Expand the vocabulary, groups or progress selection.
-Einheit abgeschlossen|Session finished
-Die Einheit wurde vorzeitig abgeschlossen. Bewertete Antworten bleiben im Lernstand gespeichert.|The session was finished early. Graded answers remain saved in your progress.
-Neue Einheit|New session
+Runde abgeschlossen|Session finished
+Die Runde wurde vorzeitig abgeschlossen. Bewertete Antworten bleiben im Lernstand gespeichert.|The round was finished early. Graded answers remain saved in your progress.
+Neue Runde|New round
 Fortschritt ansehen|View progress
 Pausieren|Pause
 Abschließen|Finish
@@ -115,7 +115,7 @@ Weitere akzeptierte englische Namen:|Other English names:
 Weitere englische Namen:|Other English names:
 Weitere akzeptierte Codes:|Other accepted codes:
 Planmäßig wieder fällig in zehn Minuten.|Next scheduled review in ten minutes.
-Zusätzlich in dieser Einheit.|Also repeated in this session.
+Zusätzlich in dieser Runde.|Also repeated in this round.
 Mit Hinweis beantwortet.|Answered with a hint.
 Weiter →|Next →
 Arten begonnen|Species started
@@ -126,9 +126,9 @@ Lernziele jetzt fällig|Learning targets due now
 Jetzt weiterlernen|Continue learning
 Fällige wiederholen|Review due items
 Noch nicht beherrschte üben|Practise unmastered items
-Pausierte Einheit fortsetzen|Resume paused session
+Pausierte Runde fortsetzen|Resume paused round
 Gerade ist keine Wiederholung fällig. Du kannst neue oder noch nicht beherrschte Arten üben.|No reviews are due. You can practise new or unmastered species.
-Noch keine Antworten. Starte eine erste Lerneinheit.|No answers yet. Start your first study session.
+Noch keine Antworten. Starte eine erste Lerneinheit.|No answers yet. Start your first study round.
 Fortschritt nach Artengruppe|Progress by species group
 Beherrschte Arten / Arten der Gruppe|Mastered species / species in group
 Gruppe|Group
@@ -142,9 +142,9 @@ Lernstand als JSON sichern|Export progress as JSON
 Sicherung importieren|Import backup
 Keine unterstützten Lernwerte in dieser Sicherung.|No supported progress records in this backup.
 Lernstand zurücksetzen|Reset learning progress
-Entfernt alle Lernwerte und die laufende Einheit aus diesem Browser.|Removes all progress and the current session from this browser.
+Entfernt alle Lernwerte und die laufende Runde aus diesem Browser.|Removes all progress and the current round from this browser.
 Fortschritt zurücksetzen|Reset progress
-Alle Lernwerte und die laufende Einheit in diesem Browser löschen?|Delete all progress and the current session in this browser?
+Alle Lernwerte und die laufende Runde in diesem Browser löschen?|Delete all progress and the current round in this browser?
 Lernstand importiert.|Progress imported.
 Import in dieser Ansicht geladen, aber nicht dauerhaft gespeichert. Bitte Sicherung behalten.|Import loaded, but could not be saved. Please keep your backup.
 Import fehlgeschlagen:|Import failed:

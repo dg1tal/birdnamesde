@@ -10,6 +10,6 @@ export function review(old,correct,now=Date.now(),hint=false){return reviewEvide
 export const mastered=secure;
 export const due=(p,now=Date.now())=>!!p&&p.due<=now;
 export function validProgress(x,ids){
- if(!x||x.app!=='BirdNames DE'||![1,2].includes(x.version))throw Error('Keine gültige BirdNames-DE-Sicherung.');
+ if(!x||x.app!=='BirdNames DE'||![1,2,3].includes(x.version))throw Error('Keine gültige BirdNames-DE-Sicherung.');
  return validateRecords(x.records,ids);
 }

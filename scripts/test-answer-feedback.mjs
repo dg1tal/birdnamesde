@@ -24,7 +24,7 @@ const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;'
 const elements=new Map();
 const context={birds,answerSpecies,esc:escape,english:false,Date,
  $:selector=>{if(!elements.has(selector))elements.set(selector,{setAttribute(){}});return elements.get(selector);},
- lessonProgress:()=>({completed:1}),lessonProgressMarkup:()=>'',lessonProgressText:()=>({}),
+ progressPhase:()=>'',feedbackSupport:()=>'<p id="feedback-support"></p>',studyMoreMarkup:()=>'',lessonProgress:()=>({completed:1}),lessonProgressMarkup:()=>'',lessonProgressText:()=>({}),
  contentLanguage:code=>code==='sci'?'la':code,
  nameMarkup:(bird,code)=>`<span data-name-content lang="${code==='sci'?'la':code}">${escape(primaryName(bird,code))}</span>`,
  knownCodeMarkup:value=>escape(value),nameAnswerMarkup:()=>'<b>Correct answer</b>',studyDetailsMarkup:()=>'<p>Species reference</p>',scientificNameMarkup:()=>'',germanNames:()=>'',ebirdLink:()=>'',
@@ -40,7 +40,7 @@ const html=feedback('Common Blackbird');
 assert.match(html,/Deine Antwort wäre:<\/span> <span data-name-content lang="de">Amsel<\/span>/);
 assert(html.indexOf('id="feedback-your-answer"')<html.indexOf('id="feedback-answer-meaning"'));
 assert(html.indexOf('id="feedback-answer-meaning"')<html.indexOf('id="feedback-accepted"'));
-assert.match(html,/aria-describedby="feedback-your-answer feedback-answer-meaning feedback-accepted"/);
+assert.match(html,/aria-describedby="feedback-your-answer feedback-answer-meaning feedback-accepted feedback-support"/);
 for(const method of ['text','think','mc'])assert.match(feedback('TUME',{method,target:'code'}),/Deine Antwort wäre:.*Amsel/);
 assert.match(feedback('Common Blackbird',{sourceLanguage:'nl',english:true}),/Your answer would be:.*lang="nl">Merel/);
 assert.match(feedback('Common Blackbird',{sourceLanguage:'sci'}),/lang="la">Turdus merula/);
@@ -63,9 +63,10 @@ for(const bird of birds){
   const answer=markupContext.nameAnswerMarkup(bird,target);
   assert(!answer.includes('class="code'),'Name answers do not attach code badges');
   for(const name of acceptedNames(bird,target))assert(answer.includes(escape(name)),'Every accepted name remains visible');
-  const details=markupContext.studyDetailsMarkup(bird,target,'de');
-  assert(details.includes('species-codes'));
-  assert(details.indexOf('reference-name')<details.indexOf('species-codes'));
+  const reference=markupContext.studyDetailsMarkup(bird,target,'de');
+  const details=markupContext.studyMoreMarkup(bird,target,'de');
+  assert(details.includes('species-codes'));assert(!reference.includes('species-codes'));
+  assert(details.startsWith('<details'));if(target!=='sci')assert(reference.includes('reference-name'));
  }
  for(const answer of [false,true]){
   const codes=markupContext.codeGroups(bird,answer);
@@ -88,7 +89,7 @@ assert.match(markupContext.nameAnswerMarkup(blackbird,'de'),/Alternative deutsch
 const editorial={...blackbird,germanNames:[{name:'Old name',status:'historical'},{name:'Ambiguous',status:'alternative',ambiguous:true}]};
 const accepted=markupContext.nameAnswerMarkup(editorial,'de');
 assert(!accepted.includes('Old name'));assert(!accepted.includes('Ambiguous'));
-const details=markupContext.studyDetailsMarkup(editorial,'de','de');
+const details=markupContext.studyMoreMarkup(editorial,'de','de');
 assert.match(details,/Historische deutsche Namen.*Old name/s);assert.match(details,/Ambiguous.*mehrdeutig/s);
 const dual={...blackbird,id:'dual',codes:['TEST'],scientificCodes:['TEST'],scientificCodeName:'<script>',bandingCode:'TEST'};
 const dualCodes=markupContext.codeGroups(dual);
@@ -109,7 +110,7 @@ markupContext.birds=birds;
 for(const target of ['en','de','sci','nl','code']){
  const answer=markupContext.nameAnswerMarkup(blackbird,target);
  const details=markupContext.studyDetailsMarkup(blackbird,target,'de');
- const compact=target==='code'?answer:details;
+ const compact=target==='code'?answer:markupContext.studyMoreMarkup(blackbird,target,'de');
  assert(compact.includes('species-codes-compact'));
  assert(!compact.includes('code-group-label'),'Study codes have no provenance headings');
  assert(!answer.includes('Also accepted:')&&!answer.includes('Ebenfalls akzeptiert:'));

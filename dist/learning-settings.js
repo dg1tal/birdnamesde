@@ -27,7 +27,7 @@ export function loadSharedUI(defaults,storage,english){
   try{
    const value=JSON.parse(storage.getItem(key)||'null');
    if(!value||typeof value!=='object'||Array.isArray(value))continue;
-   for(const field of ['lookup','learn'])if(value[field]&&typeof value[field]==='object'&&!Array.isArray(value[field]))ui[field]={...ui[field],...value[field]};
+   for(const field of ['lookup','learn','stats'])if(value[field]&&typeof value[field]==='object'&&!Array.isArray(value[field]))ui[field]={...ui[field],...value[field]};
    ui.learn=migrateLearningRegion(ui.learn,value.learn);
    return ui;
   }catch{}
