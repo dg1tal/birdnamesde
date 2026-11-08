@@ -398,3 +398,9 @@ completion conditions in German and English.
 Run `node scripts/test-module-versions.mjs` to check that production imports and
 the HTML entry point use a single URL version for each local JavaScript module.
 This check runs in the existing Pages test loop.
+
+### Code collision audit
+
+Run `python3 scripts/audit-codes.py` to validate all catalogue code fields against the saved literal source records and regenerate `docs/quick-code-audit.json`. The report lists every ambiguous code, its species and source types. In the current 940-species catalogue, 197 of 1,966 distinct accepted codes match multiple species. There are 42 common-name/banding collisions and 12 scientific/banding collisions (categories can overlap). Adding banding codes to scientific and common-name codes creates 46 additional ambiguous codes; some ambiguities already exist within a single source type. These are catalogue counts, not worldwide counts. Three-letter source entries are outside the app's four-letter code policy.
+
+Banding codes use teal badges with a visible B in lookup and learning answers. Scientific codes retain purple badges; a code with both roles keeps purple and gains the B marker. Other badges represent English quick codes. A bilingual legend explains the markers and warns that codes can match multiple species. Accepted answers and code ordering are unchanged.

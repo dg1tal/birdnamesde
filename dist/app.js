@@ -231,12 +231,17 @@ function nameAnswerMarkup(s,target){
 function englishNames(s){return s.enGB?`<div class="english-variants" data-name-content lang="en"><span><span class="variant-label">US</span> ${esc(s.en)}</span><span><span class="variant-label">GB</span> ${esc(s.enGB)}</span></div>`:`<p class="english" data-name-content lang="en">${esc(s.en)}</p>`;}
 
 function codeMarkup(s,code,answer=false){
- const scientific=s.scientificCodes?.includes(code),label=scientific?(english?'Scientific code':'Wissenschaftlicher Kurzcode'):(english?'eBird entry code':'eBird-Kurzcode');
- const title=scientific?label+': '+s.scientificCodeName:label;
- return `<span class="code${answer?' answer-code':''}${scientific?' code-scientific':''}" title="${esc(title)}"><span class="sr">${esc(title)}: </span><span data-name-content>${esc(code)}</span></span>`;
+ const scientific=s.scientificCodes?.includes(code),banding=s.bandingCode===code;
+ const labels=[];
+ if(scientific)labels.push((english?'Scientific code':'Wissenschaftlicher Kurzcode')+': '+s.scientificCodeName);
+ if(banding)labels.push('Banding-Code');
+ if(!scientific&&!banding)labels.push(english?'English quick code':'Englischer Quick-Code');
+ const title=labels.join(' · ');
+ return `<span class="code${answer?' answer-code':''}${banding?' code-banding':''}${scientific?' code-scientific':''}" title="${esc(title)}"><span class="sr">${esc(title)}: </span><span data-name-content>${esc(code)}</span>${banding?'<small class="code-type" aria-hidden="true">B</small>':''}</span>`;
 }
 function scientificCodeNote(s){
- return s.scientificCodes?.length&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
+ const note=s.scientificCodes?.length&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
+ return note+`<p class="muted code-legend">${english?'Purple: scientific · Teal / B: banding · Unmarked: English quick code. Codes may refer to more than one species.':'Violett: wissenschaftlich · Türkis / B: Banding · Ohne Markierung: englischer Quick-Code. Codes können mehrere Arten bezeichnen.'}</p>`;
 }
 
 function lookupAliases(s,language){

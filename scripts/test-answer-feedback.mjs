@@ -71,3 +71,24 @@ for(const bird of birds){
  for(const code of bird.codes)assert(group.includes(`>${code}</span>`));
 }
 console.log('PASS: name answers pair scientific codes with Latin names; code-only answers retain every accepted alternative together across the catalogue.');
+
+// Banding provenance remains visible in both lookup and study badges, including overlaps.
+for(const bird of birds){
+ for(const code of bird.codes){
+  for(const answer of [false,true]){
+   const html=markupContext.codeMarkup(bird,code,answer);
+   assert.equal(html.includes('code-banding'),bird.bandingCode===code);
+   assert.equal(html.includes('code-scientific'),!!bird.scientificCodes?.includes(code));
+   assert.equal(html.includes('class="code-type"'),bird.bandingCode===code);
+  }
+ }
+}
+const dual=markupContext.codeMarkup({bandingCode:'TEST',scientificCodes:['TEST'],scientificCodeName:'<script>'},'TEST');
+assert.match(dual,/code-banding code-scientific/);
+assert.match(dual,/Wissenschaftlicher Kurzcode: &lt;script&gt; · Banding-Code/);
+for(const english of [false,true]){
+ markupContext.english=english;
+ const legend=markupContext.scientificCodeNote(blackbird);
+ assert(legend.includes(english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'));
+}
+console.log('PASS: banding provenance, dual scientific/banding badges, escaped titles and bilingual collision legend.');
