@@ -3,6 +3,9 @@ import {editorialEnglish} from './editorial-en.js?v=20261105-images1';
 // Species names, source titles and attribution metadata retain their originals.
 export const english=(()=>{try{return localStorage.getItem('birdnames-language')==='en';}catch{return false;}})();
 const pairs=`Zum Inhalt springen|Skip to content
+So funktioniert das Lernen|How learning works
+Namen kennenlernen, selbst erinnern, Rückmeldung bekommen und mit Abstand wiederholen. Die Erläuterung und wissenschaftlichen Quellen erscheinen nach dem Laden der App.|Get to know names, recall them yourself, get feedback and review them at spaced intervals. The explanation and scientific sources appear once the app has loaded.
+Deutsche, englische und wissenschaftliche Vogelnamen und offizielle eBird Quick Find Codes nachschlagen und lernen.|Look up and learn German, English and scientific bird names and official eBird Quick Find Codes.
 Nachschlagen|Lookup
 Lernen|Learn
 Statistik|Statistics
@@ -210,8 +213,10 @@ export function localize(){
  const languagePicker=document.querySelector('#language-picker');languagePicker.setAttribute('aria-label',english?'Interface language':'Oberflächensprache');
  document.querySelectorAll('[data-ui-language]').forEach(button=>{const selected=button.dataset.uiLanguage===(english?'en':'de');button.setAttribute('aria-pressed',String(selected));button.setAttribute('aria-label',english?'Interface language: '+(button.dataset.uiLanguage==='en'?'English':'German'):'Oberflächensprache: '+(button.dataset.uiLanguage==='en'?'Englisch':'Deutsch'));});
  document.documentElement.lang=english?'en':'de';
+ const description=document.querySelector('meta[name="description"]');
+ if(description)description.setAttribute('content',t(description.getAttribute('content')));
  if(!english)return;
  const originals=new WeakMap();
- function scan(root){if(root.nodeType===3){if(root.parentElement?.closest('[data-name-content]'))return;const previous=originals.get(root);if(previous===root.textContent)return;const value=t(root.textContent);if(value!==root.textContent)root.textContent=value;originals.set(root,value);return;}if(root.nodeType===1&&root.closest('[data-name-content]'))return;if(root.nodeType!==1||['SCRIPT','STYLE','TEXTAREA'].includes(root.tagName))return;for(const a of ['aria-label','placeholder','title'])if(root.hasAttribute(a)){const v=t(root.getAttribute(a));if(v!==root.getAttribute(a))root.setAttribute(a,v);}for(const child of root.childNodes)scan(child);}
- scan(document.body);new MutationObserver(ms=>{for(const m of ms){if(m.type==='childList')for(const n of m.addedNodes)scan(n);else scan(m.target);}}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['aria-label','placeholder','title']});
+ function scan(root){if(root.nodeType===3){if(root.parentElement?.closest('[data-name-content]'))return;const previous=originals.get(root);if(previous===root.textContent)return;const value=t(root.textContent);if(value!==root.textContent)root.textContent=value;originals.set(root,value);return;}if(root.nodeType===1&&root.closest('[data-name-content]'))return;if(root.nodeType!==1||['SCRIPT','STYLE','TEXTAREA'].includes(root.tagName))return;for(const a of ['aria-label','placeholder','title','alt'])if(root.hasAttribute(a)){const v=t(root.getAttribute(a));if(v!==root.getAttribute(a))root.setAttribute(a,v);}for(const child of root.childNodes)scan(child);}
+ scan(document.body);new MutationObserver(ms=>{for(const m of ms){if(m.type==='childList')for(const n of m.addedNodes)scan(n);else scan(m.target);}}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['aria-label','placeholder','title','alt']});
 }

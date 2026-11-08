@@ -2,6 +2,9 @@ import assert from 'node:assert/strict';
 globalThis.localStorage={getItem:()=> 'en'};
 const {t,reviewMessage,importErrorMessage}=await import('../dist/i18n.js');
 const cases=new Map([
+ ['So funktioniert das Lernen','How learning works'],
+ ['Namen kennenlernen, selbst erinnern, Rückmeldung bekommen und mit Abstand wiederholen. Die Erläuterung und wissenschaftlichen Quellen erscheinen nach dem Laden der App.','Get to know names, recall them yourself, get feedback and review them at spaced intervals. The explanation and scientific sources appear once the app has loaded.'],
+ ['Deutsche, englische und wissenschaftliche Vogelnamen und offizielle eBird Quick Find Codes nachschlagen und lernen.','Look up and learn German, English and scientific bird names and official eBird Quick Find Codes.'],
  ['· 1 ausgewählt','· 1 selected'],
  ['1 von 1 Frage beantwortet','1 of 1 question answered'],
  ['1 von 1 Fragen beantwortet','1 of 1 question answered'],
