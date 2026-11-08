@@ -219,12 +219,12 @@ const opt=(v,l=v,selected=false)=>`<option value="${esc(v)}"${selected?' selecte
 const groups=()=>[...new Set(birds.map(s=>s.group))].sort((a,b)=>a.localeCompare(b,'de'));
 function scientificNameMarkup(s,questionLanguage){return renderScientificName(nameOrigins,s,questionLanguage,english?'en':'de');}
 function nameMarkup(s,code){return `<span data-name-content${code==='sci'?' lang="la" class="scientific-name"':` lang="${esc(code)}"`}>${esc(primaryName(s,code))}</span>`;}
-function nameVariants(s,language,learning=false){
+function nameVariants(s,language,learning=false,variantClass=learning?'answer-main':'name-variant'){
  const accepted=acceptedNames(s,language),label=english?'Other names:':'Weitere Namen:';
  const variants=learning?accepted.filter(n=>n!==primaryName(s,language)):lookupAliases(s,language);
  const gb=language==='en'&&s.enGB&&s.enGB!==s.en;
  const groups=[];
- if(gb)groups.push(`<p class="name-variant"><span class="variant-label">GB</span>${nameMarkup({en:s.enGB},'en')}</p>`);
+ if(gb)groups.push(`<p class="${variantClass}"><span class="variant-label">GB</span> ${nameMarkup({en:s.enGB},'en')}</p>`);
  const remaining=variants.filter(n=>!gb||n!==s.enGB);
  if(language==='de'&&learning){
   const editorial=s.germanNames||[];
@@ -241,7 +241,7 @@ function nameAnswerMarkup(s,target){
 }
 function studyDetailsMarkup(s,target,sourceLanguage){
  const reference=target==='sci'?'en':'sci';
- return `<div class="species-reference"><p class="reference-name"><span class="card-language-label">${esc(languageLabel(reference,english?'en':'de'))}</span>${reference==='en'&&s.enGB?'<span class="variant-label">US</span> ':''}${nameMarkup(s,reference)}</p>${target==='sci'?nameVariants(s,'en'):''}${target!=='code'?codeGroups(s,false,true):''}${scientificNameMarkup(s,sourceLanguage)}${germanNames(s,target==='de')}<p class="answer-species-link">${ebirdLink(s)}</p></div>`;
+ return `<div class="species-reference"><p class="reference-name"><span class="card-language-label">${esc(languageLabel(reference,english?'en':'de'))}</span>${reference==='en'&&s.enGB?'<span class="variant-label">US</span> ':''}${nameMarkup(s,reference)}</p>${target==='sci'?nameVariants(s,'en',false,'reference-name'):''}${target!=='code'?codeGroups(s,false,true):''}${scientificNameMarkup(s,sourceLanguage)}${germanNames(s,target==='de')}<p class="answer-species-link">${ebirdLink(s)}</p></div>`;
 }
 function englishNames(s){return `<p class="english">${s.enGB?'<span class="variant-label">US</span> ':''}${nameMarkup(s,'en')}</p>${nameVariants(s,'en')}`;}
 
