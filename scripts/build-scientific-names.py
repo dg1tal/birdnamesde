@@ -35,6 +35,7 @@ def build():
     genera = read_glosses(['genera'])
     epithets = read_glosses(['epithets', 'histories', 'people'])
     overrides = json.loads((ROOT / 'data/scientific-name-overrides.json').read_text())
+    reviewed_evidence = json.loads((ROOT / 'data/scientific-name-evidence.json').read_text())
     assert set(genera) == {b['sci'].split()[0] for b in birds}
     assert set(epithets) == {b['sci'].split()[1] for b in birds}
     assert set(overrides) <= {b['sci'] for b in birds}
@@ -52,6 +53,8 @@ def build():
     }
     supplements = {'Alipiopsitta': 'alipiopsitta2006', 'Helopsaltes': 'helopsaltes2018',
                    'goffiniana': 'goffiniana2004', 'Sibirionetta': 'sibirionetta'}
+    assert not (sources.keys() & reviewed_evidence['sources'].keys()), 'Duplicate reviewed source'
+    sources.update(reviewed_evidence['sources'])
     terms, species = {}, {}
     for bird in birds:
         assert provenance[bird['id']]['scientificName'] == bird['sci'], bird['id']
@@ -69,13 +72,20 @@ def build():
             else:
                 entry['source'] = 'jobling2010'
                 entry['page'] = evidence['printedPage']
+            if key in reviewed_evidence['terms']:
+                reviewed = reviewed_evidence['terms'][key]
+                assert set(reviewed) <= {'source', 'page'}, key
+                assert reviewed['source'] in sources, key
+                entry.pop('page', None)
+                entry.update(reviewed)
             if key in terms:
                 assert terms[key] == entry, key
             terms[key] = entry
             parts.append(key)
         species[bird['id']] = {'scientificName': bird['sci'], 'parts': parts}
+    assert reviewed_evidence['terms'].keys() <= terms.keys(), 'Unknown reviewed term'
     return {'version': 1, 'languages': list(LANGUAGES),
-            'meta': {'date': '2026-11-07', 'catalogueSha256': hashlib.sha256(raw).hexdigest(),
+            'meta': {'date': '2026-11-08', 'catalogueSha256': hashlib.sha256(raw).hexdigest(),
                      'editorial': 'Independent concise glosses in German, English and Dutch. Sources document name histories, not translations of entire dictionary entries. Uncertain origins are explicitly marked. Personal and geographical homonyms use taxon-specific overrides.'},
             'sources': sources, 'terms': dict(sorted(terms.items())), 'species': dict(sorted(species.items()))}
 

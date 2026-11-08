@@ -10,7 +10,7 @@ aethereus|zum Himmel gehörig|of the sky|van de hemel
 aethiopicus|äthiopisch; historischer Afrikabezug|Ethiopian; a historical African reference|Ethiopisch; een historische verwijzing naar Afrika
 afer africanus|afrikanisch|African|Afrikaans
 affinis|verwandt, ähnlich|related, similar|verwant, gelijkend
-agricola|Feldbewohner|field dweller|veldbewoner
+agricola|Bauer, Landwirt|farmer|landbouwer
 alba albus|weiß|white|wit
 albellus albeola|weißlich, kleiner weißer Vogel|whitish, small white bird|witachtig, kleine witte vogel
 albicilla|Weißschwanz|white tail|witte staart
@@ -100,7 +100,7 @@ cinerea cinereus|aschgrau|ash-grey|asgrijs
 cioides|dem Vogel mit dem Namen cia ähnlich|resembling the bird named cia|lijkend op de vogel met de naam cia
 ciris|Kiris, Vogel aus einer griechischen Verwandlungssage|Ciris, a bird in a Greek transformation myth|Ciris, een vogel uit een Griekse veranderingsmythe
 cirrhata|gelockt, mit Kopfschmuck|curled, crested|gekruld, met kopversiering
-cirrocephalus|grauköpfig; historisch als grau verstandener Wortstamm|grey-headed; the stem was historically understood as grey|grijskoppig; de woordstam werd historisch als grijs opgevat
+cirrocephalus|als grauköpfig gemeint; Wortbildung unklar, da der griechische Farbstamm gelblich bedeutet|intended as grey-headed; formation unclear because the Greek colour stem means yellowish|bedoeld als grijskoppig; woordvorming onduidelijk omdat de Griekse kleurstam geelachtig betekent|?
 citreola citrina|zitronengelb|lemon-yellow|citroengeel
 clamator|Schreier; alter Eulenname|shouter; an ancient owl name|schreeuwer; een oude uilennaam
 clanga|schreiender Adler|screaming eagle|schreeuwende arend
@@ -111,7 +111,7 @@ coelebs|unverheiratet; Bezug auf historische Beobachtungen getrennt überwintern
 coelestis|himmlisch|heavenly|hemels
 colchicus|aus Kolchis, einer historischen Region am Schwarzen Meer|of Colchis, a historical Black Sea region|uit Colchis, een historische streek aan de Zwarte Zee
 collaris|mit Halsband|collared|met halsband
-collurio|alter Name eines Würgers|ancient shrike name|oude klauwierennaam
+collurio|antiker Vogelname; Zuordnung zu Würgern oder Drosseln unsicher|ancient bird name; identification as a shrike or thrush uncertain|antieke vogelnaam; identificatie als klauwier of lijster onzeker|?
 collybita|Geldwechsler; der Gesang wurde mit Münzklang verglichen|money changer; the song was compared with clinking coins|geldwisselaar; de zang werd met klinkende munten vergeleken
 columbarius|taubenartig, zu Tauben gehörig|pigeon-like, of pigeons|duifachtig, van duiven
 communis|gewöhnlich, verbreitet|common, widespread|gewoon, algemeen
@@ -135,7 +135,7 @@ curvirostra|krummschnäblig|curved-billed|kromsnavelig
 cyane cyanea cyaneus cyanus|blau, dunkelblau|blue, dark blue|blauw, donkerblauw
 cyanocephala|blauköpfig|blue-headed|blauwkoppig
 cyanoptera|blauflügelig|blue-winged|blauwvleugelig
-cyanotis|blauohrig|blue-eared|blauworige
+cyanotis|blauohrig|blue-eared|met blauwe oren
 cyanurus|blauschwänzig|blue-tailed|blauwstaartig
 cygnoides|schwanenähnlich|swan-like|zwaanachtig
 cygnus|Schwan|swan|zwaan
@@ -188,7 +188,8 @@ fuligula|Rußkehle|sooty throat|roetkeel
 fulva fulvus|gelbbraun|tawny|geelbruin
 funereus|düster, zum Begräbnis gehörig|gloomy, funereal|somber, rouwachtig
 fusca fuscus|dunkelbraun, dunkel|dark brown, dusky|donkerbruin, donker
-fuscatus fuscescens|bräunlich, dunkel werdend|brownish, becoming dusky|bruinachtig, donker wordend
+fuscescens|bräunlich, dunkel werdend|brownish, becoming dusky|bruinachtig, donker wordend
+fuscatus|verdunkelt, dunkel gefärbt|darkened, dusky|donker gekleurd
 fuscicollis|braunhalsig|brown-necked|bruinhalzig
 galactotes|milchfarben|milk-coloured|melkkleurig
 galbula|alter Name des Pirols|ancient oriole name|oude wielewaalnaam
@@ -221,7 +222,7 @@ haematonotus|blutroter Rücken|blood-red back|bloedrode rug
 haliaetus|Seeadler|sea eagle|zeearend
 heliaca|zur Sonne gehörig|of the sun|van de zon
 herodias|Reiher|heron|reiger
-hiaticula|kleiner Spaltenbewohner|small cleft dweller|kleine spleetbewoner
+hiaticula|Spaltenbewohner; Deutung als kleiner Spaltenbewohner umstritten|cleft dweller; interpretation as small cleft dweller disputed|spleetbewoner; uitleg als kleine spleetbewoner omstreden|?
 himantopus|Riemenfuß|strap foot|riemvoet
 hirundo|Schwalbe|swallow|zwaluw
 hispanica|spanisch|Spanish|Spaans
@@ -237,7 +238,7 @@ hyperboreus|weit im Norden lebend|living in the far north|in het verre noorden l
 hypoleuca hypoleucos|unten weiß|white below|van onderen wit
 iberiae ibericus|von der Iberischen Halbinsel|of the Iberian Peninsula|van het Iberisch Schiereiland
 ibis|Ibis; alter Vogelname|ibis; an ancient bird name|ibis; een oude vogelnaam
-ichthyaetus|Fischadler|fish eagle|visarend
+ichthyaetus|Fischadler, als wörtliche Namensbedeutung|fish eagle, as the literal name meaning|arend die vis eet, als letterlijke naambetekenis
 icterina|gelblich; mit einem alten gelben Vogelnamen verbunden|yellowish; linked to an ancient yellow-bird name|geelachtig; verbonden met een oude naam voor een gele vogel
 ignicapilla|Feuerkopf|fire cap|vuurkop
 iliacus|zur Flanke gehörig|of the flank|van de flank
@@ -300,7 +301,7 @@ meleagris|Perlhuhn|guineafowl|parelhoen
 melodia|Gesang|song|zang
 melpoda|singend, Sänger|singing, singer|zingend, zanger
 membranaceus|häutig, membranartig|membranous|vliezig
-menstruus|monatlich; historischer Name|monthly; a historical name|maandelijks; een historische naam
+menstruus|historischer Name mit Menstruationsbezug; genaue Benennungsabsicht unklar|historical name referring to menstruation; precise naming motive unclear|historische naam met een verwijzing naar menstruatie; precieze naamgevingsreden onduidelijk|?
 merganser|Tauchgans|diving goose|duikgans
 merula|Amsel|blackbird|merel
 migrans migratoria migratorius|wandernd, ziehend|migrating|trekkend
@@ -392,7 +393,7 @@ phoenicurus|Rotschwanz|red tail|rode staart
 pica|Elster|magpie|ekster
 picta pictus|bemalt|painted|beschilderd
 pilaris|historisch gebildeter Drosselname; beruht auf einer Verwechslung von griechischen Wörtern für Drossel und Haar|historical thrush name formed through confusion between Greek words for thrush and hair|historisch gevormde lijsternaam door verwarring van Griekse woorden voor lijster en haar
-plancus|plattfüßig|flat-footed|platvoetig
+plancus|als plattfüßig oder als antiker Adlername gedeutet; Benennungsabsicht umstritten|interpreted as flat-footed or as an ancient eagle name; naming intention disputed|uitgelegd als platvoetig of als antieke arendsnaam; naamgevingsbedoeling omstreden|?
 platalea|Löffler|spoonbill|lepelaar
 platyrhynchos|breitschnäblig|broad-billed|breedsnavelig
 plumbeitarsus|bleifarbener Lauf|lead-coloured tarsus|loodkleurige loop
@@ -405,7 +406,7 @@ pomarinus|Deckelnase; Bezug auf die Schnabelbedeckung, kein Bezug zu Pommern|cov
 porphyrio|Purpurhuhn|purple gallinule|purperkoet
 pratensis|zur Wiese gehörig|of meadows|van weiden
 pratincola|Wiesenbewohner|meadow dweller|weidebewoner
-proregulus|dem Goldhähnchen nahe|close to the goldcrest|nabij het goudhaantje
+proregulus|möglicherweise dem Goldhähnchen nahe; auch als kleiner Herrscher gedeutet|possibly close to the goldcrest; also interpreted as petty monarch|mogelijk nabij het goudhaantje; ook uitgelegd als kleine heerser|?
 psittacea|papageienartig|parrot-like|papegaaiachtig
 puffinus|übernommener Sturmtauchername|borrowed shearwater name|overgenomen pijlstormvogelnaam
 pugnax|kämpferisch|pugnacious|strijdlustig
@@ -508,7 +509,7 @@ trichas|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam 
 tricolor|dreifarbig|three-coloured|driekleurig
 tridactyla tridactylus|dreizehig|three-toed|drietenig
 tristis|traurig, düster|sad, gloomy|treurig, somber
-trivialis|an Wegen vorkommend|of roadsides|van wegkanten
+trivialis|gewöhnlich oder an Wegen vorkommend; konkrete Benennungsabsicht unklar|common or of roadsides; specific naming intention unclear|gewoon of van wegkanten; concrete naamgevingsbedoeling onduidelijk|?
 trochiloides|dem Vogel namens trochilus ähnlich|resembling the bird named trochilus|lijkend op de vogel met de naam trochilus
 trochilus|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
 troglodytes|Höhlenbewohner|cave dweller|holbewoner

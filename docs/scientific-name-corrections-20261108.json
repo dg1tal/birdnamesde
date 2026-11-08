@@ -1,0 +1,1037 @@
+{
+  "date": "2026-11-08",
+  "scope": "Verified corrections and cautious wording after complete scientific-name audit; no blanket change for missing independent corroboration.",
+  "changedTermRecords": 34,
+  "changedSpecies": 45,
+  "languages": [
+    "de",
+    "en",
+    "nl"
+  ],
+  "uncertaintyPolicy": "Disputed derivations retain uncertainty rather than replacing one disputed interpretation with a certain alternative. Missing independent corroboration alone is not a finding of incorrect etymology.",
+  "changes": [
+    {
+      "termKey": "e:agricola",
+      "auditFinding": "QC-12",
+      "reason": "Agricola bedeutet konventionell Bauer/Landwirt. Feldbewohner ist eine nachvollziehbare wörtliche Zerlegung und wird auch von WNVE so diskutiert; deshalb Präzisierungsvorschlag, kein sicherer Bedeutungsfehler.",
+      "before": {
+        "term": "agricola",
+        "text": {
+          "de": "Feldbewohner",
+          "en": "field dweller",
+          "nl": "veldbewoner"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 36
+      },
+      "after": {
+        "term": "agricola",
+        "text": {
+          "de": "Bauer, Landwirt",
+          "en": "farmer",
+          "nl": "landbouwer"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 36
+      },
+      "affectedSpecies": [
+        "Acrocephalus agricola"
+      ]
+    },
+    {
+      "termKey": "e:atthis",
+      "auditFinding": "QC-13",
+      "reason": "Atthis kann verschiedene Frauen/Region Attika bezeichnen; Linnaeus’ konkrete Absicht ist unklar. Mythologische Widmung nicht als sicher darstellen.",
+      "before": {
+        "term": "atthis",
+        "text": {
+          "de": "Atthis aus der griechischen Mythologie",
+          "en": "Atthis of Greek mythology",
+          "nl": "Atthis uit de Griekse mythologie"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 60
+      },
+      "after": {
+        "term": "atthis",
+        "text": {
+          "de": "Atthis, ein Name aus der griechischen Überlieferung; konkrete Bezugsperson unklar",
+          "en": "Atthis, a name from Greek tradition; intended person unclear",
+          "nl": "Atthis, een naam uit de Griekse overlevering; bedoelde persoon onduidelijk"
+        },
+        "uncertain": true,
+        "source": "wnve_atthis"
+      },
+      "affectedSpecies": [
+        "Alcedo atthis"
+      ]
+    },
+    {
+      "termKey": "e:aura",
+      "auditFinding": "QC-14",
+      "reason": "RAE-DHLE ordnet das Geierwort als indigenes Wort aus Kuba ein und dokumentiert frühe Verwendung auch in Mexiko. Mexikanischer Gebrauch ist nicht gleich mexikanischer Ursprung. Regionale Herkunft im App-Text zu bestimmt; sicher wäre ein übernommener indigener Geiername ohne enge Herkunftsbehauptung.",
+      "before": {
+        "term": "aura",
+        "text": {
+          "de": "übernommener indigener mexikanischer Geiername",
+          "en": "borrowed Indigenous Mexican vulture name",
+          "nl": "overgenomen inheemse Mexicaanse gierennaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 61
+      },
+      "after": {
+        "term": "aura",
+        "text": {
+          "de": "übernommener indigener Geiername",
+          "en": "borrowed Indigenous vulture name",
+          "nl": "overgenomen inheemse gierennaam"
+        },
+        "uncertain": false,
+        "source": "raeAura"
+      },
+      "affectedSpecies": [
+        "Cathartes aura"
+      ]
+    },
+    {
+      "termKey": "e:cirrocephalus",
+      "auditFinding": "QC-08",
+      "reason": "Benennungsabsicht grauer Kopf historisch gestützt, aber griechisch kirros/kirrhos bedeutet orangegelb, nicht grau; LSJ bestätigt die Gegenprüfung. Als unklare Wortbildung markieren, nicht gelbköpfig ersetzen.",
+      "before": {
+        "term": "cirrocephalus",
+        "text": {
+          "de": "grauköpfig; historisch als grau verstandener Wortstamm",
+          "en": "grey-headed; the stem was historically understood as grey",
+          "nl": "grijskoppig; de woordstam werd historisch als grijs opgevat"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 109
+      },
+      "after": {
+        "term": "cirrocephalus",
+        "text": {
+          "de": "als grauköpfig gemeint; Wortbildung unklar, da der griechische Farbstamm gelblich bedeutet",
+          "en": "intended as grey-headed; formation unclear because the Greek colour stem means yellowish",
+          "nl": "bedoeld als grijskoppig; woordvorming onduidelijk omdat de Griekse kleurstam geelachtig betekent"
+        },
+        "uncertain": true,
+        "source": "mouchard2019",
+        "page": 152
+      },
+      "affectedSpecies": [
+        "Chroicocephalus cirrocephalus"
+      ]
+    },
+    {
+      "termKey": "e:collurio",
+      "auditFinding": "QC-15",
+      "reason": "Eigenständige historische Analyse bei Wilms lässt Würger oder Drossel offen; antike Vogelidentität ist nicht sicher. Nicht pauschal durch Drossel ersetzen.",
+      "before": {
+        "term": "collurio",
+        "text": {
+          "de": "alter Name eines Würgers",
+          "en": "ancient shrike name",
+          "nl": "oude klauwierennaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 114
+      },
+      "after": {
+        "term": "collurio",
+        "text": {
+          "de": "antiker Vogelname; Zuordnung zu Würgern oder Drosseln unsicher",
+          "en": "ancient bird name; identification as a shrike or thrush uncertain",
+          "nl": "antieke vogelnaam; identificatie als klauwier of lijster onzeker"
+        },
+        "uncertain": true,
+        "source": "wnve_collurio"
+      },
+      "affectedSpecies": [
+        "Lanius collurio"
+      ]
+    },
+    {
+      "termKey": "e:cyanotis",
+      "auditFinding": "QC-16",
+      "reason": "Niederländisch blauworige ist eine flektierte Form ohne Bezugswort; als Einzelglosse blauworig oder met blauwe oren prüfen. o#tis/Trappe ist ein falscher Lexikon-Treffer, Ohrwurzel ous/otos separat belegen.",
+      "before": {
+        "term": "cyanotis",
+        "text": {
+          "de": "blauohrig",
+          "en": "blue-eared",
+          "nl": "blauworige"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 128
+      },
+      "after": {
+        "term": "cyanotis",
+        "text": {
+          "de": "blauohrig",
+          "en": "blue-eared",
+          "nl": "met blauwe oren"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 128
+      },
+      "affectedSpecies": [
+        "Entomyzon cyanotis"
+      ]
+    },
+    {
+      "termKey": "e:elliotii",
+      "auditFinding": "QC-17",
+      "reason": "Gould 1873, Birds of Asia III, Tafel 42/Begleittext, zitiert Verreaux’ ausdrückliche Widmung an D. G. Elliot. Walter Elliot ist für diese Art eine falsche Zuordnung. Original-Volltext gelesen, OCR Zeilen 3735–3739.",
+      "before": {
+        "term": "elliotii",
+        "text": {
+          "de": "zu Ehren des Naturkundlers und Kolonialbeamten Walter Elliot",
+          "en": "honours naturalist and colonial official Walter Elliot",
+          "nl": "vernoemd naar natuuronderzoeker en koloniaal ambtenaar Walter Elliot"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 145
+      },
+      "after": {
+        "term": "elliotii",
+        "text": {
+          "de": "zu Ehren des Ornithologen Daniel Giraud Elliot",
+          "en": "honours ornithologist Daniel Giraud Elliot",
+          "nl": "vernoemd naar ornitholoog Daniel Giraud Elliot"
+        },
+        "uncertain": false,
+        "source": "gould1873"
+      },
+      "affectedSpecies": [
+        "Trochalopteron elliotii"
+      ]
+    },
+    {
+      "termKey": "e:fuscatus",
+      "auditFinding": "QC-18",
+      "reason": "fuscatus ist passiv: verdunkelt/dunkel gefärbt, nicht dunkel werdend. Verwechslung mit fuscescens durch gemeinsame Glossen-Gruppe; in allen drei Sprachen auseinanderziehen.",
+      "before": {
+        "term": "fuscatus",
+        "text": {
+          "de": "bräunlich, dunkel werdend",
+          "en": "brownish, becoming dusky",
+          "nl": "bruinachtig, donker wordend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 167
+      },
+      "after": {
+        "term": "fuscatus",
+        "text": {
+          "de": "verdunkelt, dunkel gefärbt",
+          "en": "darkened, dusky",
+          "nl": "donker gekleurd"
+        },
+        "uncertain": false,
+        "source": "mouchard2019",
+        "page": 302
+      },
+      "affectedSpecies": [
+        "Phylloscopus fuscatus",
+        "Onychoprion fuscatus"
+      ]
+    },
+    {
+      "termKey": "e:githagineus",
+      "auditFinding": "QC-19",
+      "reason": "Pflanzenvergleich bei Lesson als Vermutung formuliert. In App ebenfalls als wahrscheinliche Deutung kennzeichnen.",
+      "before": {
+        "term": "githagineus",
+        "text": {
+          "de": "mit der Kornrade, früher Githago, verglichen",
+          "en": "compared with corn cockle, formerly Githago",
+          "nl": "vergeleken met bolderik, vroeger Githago"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 173
+      },
+      "after": {
+        "term": "githagineus",
+        "text": {
+          "de": "wahrscheinlich mit der Kornrade, früher Githago, verglichen",
+          "en": "probably compared with corn cockle, formerly Githago",
+          "nl": "waarschijnlijk vergeleken met bolderik, vroeger Githago"
+        },
+        "uncertain": true,
+        "source": "wnve_githagineus"
+      },
+      "affectedSpecies": [
+        "Bucanetes githagineus"
+      ]
+    },
+    {
+      "termKey": "e:hiaticula",
+      "auditFinding": "QC-20",
+      "reason": "Historische Vorform hiaticola bedeutet Spaltenbewohner; nachträgliches Diminutivverständnis hiaticula umstritten. Kleiner nicht als sicherer Bestandteil behaupten.",
+      "before": {
+        "term": "hiaticula",
+        "text": {
+          "de": "kleiner Spaltenbewohner",
+          "en": "small cleft dweller",
+          "nl": "kleine spleetbewoner"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 192
+      },
+      "after": {
+        "term": "hiaticula",
+        "text": {
+          "de": "Spaltenbewohner; Deutung als kleiner Spaltenbewohner umstritten",
+          "en": "cleft dweller; interpretation as small cleft dweller disputed",
+          "nl": "spleetbewoner; uitleg als kleine spleetbewoner omstreden"
+        },
+        "uncertain": true,
+        "source": "wnve_hiaticula"
+      },
+      "affectedSpecies": [
+        "Charadrius hiaticula"
+      ]
+    },
+    {
+      "termKey": "e:ichthyaetus",
+      "auditFinding": "QC-21",
+      "reason": "Niederländisch visarend ist zugleich der feste Artname für Pandion haliaetus. Wörtliche Fisch-Adler-Bedeutung ohne Verwechslung formulieren (arend die vis eet / vis-arend, als woordbetekenis).",
+      "before": {
+        "term": "ichthyaetus",
+        "text": {
+          "de": "Fischadler",
+          "en": "fish eagle",
+          "nl": "visarend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 201
+      },
+      "after": {
+        "term": "ichthyaetus",
+        "text": {
+          "de": "Fischadler, als wörtliche Namensbedeutung",
+          "en": "fish eagle, as the literal name meaning",
+          "nl": "arend die vis eet, als letterlijke naambetekenis"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 201
+      },
+      "affectedSpecies": [
+        "Ichthyaetus ichthyaetus"
+      ]
+    },
+    {
+      "termKey": "e:menstruus",
+      "auditFinding": "QC-03",
+      "reason": "Vorprüfung QC-03: Lexikon kennt monatlich und menstrual; bisher zitierte Vogelquelle wählt menstrual. Monatsglosse ist für diesen Namen irreführend; Gefiederbezug noch gesondert belegen.",
+      "before": {
+        "term": "menstruus",
+        "text": {
+          "de": "monatlich; historischer Name",
+          "en": "monthly; a historical name",
+          "nl": "maandelijks; een historische naam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 250
+      },
+      "after": {
+        "term": "menstruus",
+        "text": {
+          "de": "historischer Name mit Menstruationsbezug; genaue Benennungsabsicht unklar",
+          "en": "historical name referring to menstruation; precise naming motive unclear",
+          "nl": "historische naam met een verwijzing naar menstruatie; precieze naamgevingsreden onduidelijk"
+        },
+        "uncertain": true,
+        "source": "jobling2010",
+        "page": 250
+      },
+      "affectedSpecies": [
+        "Pionus menstruus"
+      ]
+    },
+    {
+      "termKey": "e:plancus",
+      "auditFinding": "QC-23",
+      "reason": "Mouchard führt plancus auf antiken Adlernamen zurück; heutige Glosse auf plattfüßig. Lexikalische Homonyme/Deutungsalternativen müssen anhand Erstbeschreibung getrennt werden.",
+      "before": {
+        "term": "plancus",
+        "text": {
+          "de": "plattfüßig",
+          "en": "flat-footed",
+          "nl": "platvoetig"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 309
+      },
+      "after": {
+        "term": "plancus",
+        "text": {
+          "de": "als plattfüßig oder als antiker Adlername gedeutet; Benennungsabsicht umstritten",
+          "en": "interpreted as flat-footed or as an ancient eagle name; naming intention disputed",
+          "nl": "uitgelegd als platvoetig of als antieke arendsnaam; naamgevingsbedoeling omstreden"
+        },
+        "uncertain": true,
+        "source": "mouchard2019",
+        "page": 226
+      },
+      "affectedSpecies": [
+        "Caracara plancus"
+      ]
+    },
+    {
+      "termKey": "e:porzana",
+      "auditFinding": "QC-07",
+      "reason": "Vorprüfung QC-07: italienischer Rallenname gestützt, venezianische Regionalzuordnung wird von Mouchard ausdrücklich bestritten.",
+      "before": {
+        "term": "porzana",
+        "text": {
+          "de": "übernommener venezianischer Rallenname",
+          "en": "borrowed Venetian rail name",
+          "nl": "overgenomen Venetiaanse rallennaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 315
+      },
+      "after": {
+        "term": "porzana",
+        "text": {
+          "de": "übernommener italienischer Rallenname; genaue regionale Herkunft umstritten",
+          "en": "borrowed Italian rail name; precise regional origin disputed",
+          "nl": "overgenomen Italiaanse rallennaam; precieze regionale herkomst omstreden"
+        },
+        "uncertain": true,
+        "source": "mouchard2019",
+        "page": 120
+      },
+      "affectedSpecies": [
+        "Porzana porzana"
+      ]
+    },
+    {
+      "termKey": "e:proregulus",
+      "auditFinding": "QC-24",
+      "reason": "BOU 1915 erklärt kleiner Herrscher, Jobling dagegen Nähe zu Motacilla regulus/Goldhähnchen. Nur ein Quellenwiderspruch; aus der älteren BOU-Glosse folgt kein gesicherter App-Fehler. Ursprüngliche Bildung bei Pallas weiterhin offen.",
+      "before": {
+        "term": "proregulus",
+        "text": {
+          "de": "dem Goldhähnchen nahe",
+          "en": "close to the goldcrest",
+          "nl": "nabij het goudhaantje"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 318
+      },
+      "after": {
+        "term": "proregulus",
+        "text": {
+          "de": "möglicherweise dem Goldhähnchen nahe; auch als kleiner Herrscher gedeutet",
+          "en": "possibly close to the goldcrest; also interpreted as petty monarch",
+          "nl": "mogelijk nabij het goudhaantje; ook uitgelegd als kleine heerser"
+        },
+        "uncertain": true,
+        "source": "jobling2010",
+        "page": 318
+      },
+      "affectedSpecies": [
+        "Phylloscopus proregulus"
+      ]
+    },
+    {
+      "termKey": "e:richardi",
+      "auditFinding": "QC-04",
+      "reason": "Vorprüfung QC-04: Mearns/Gouraud/Chevrier 2015 identifizieren Charles Richard (1745–1835), Postdirektor Lunéville. Autorenbeteiligte Zusammenfassung als unabhängige neue Forschung dokumentiert.",
+      "before": {
+        "term": "richardi",
+        "text": {
+          "de": "zu Ehren eines französischen Sammlers namens Richard; weitere Identität nicht sicher belegt",
+          "en": "honours a French collector named Richard; further identity not securely established",
+          "nl": "vernoemd naar een Franse verzamelaar Richard; verdere identiteit niet zeker vastgesteld"
+        },
+        "uncertain": true,
+        "source": "jobling2010",
+        "page": 336
+      },
+      "after": {
+        "term": "richardi",
+        "text": {
+          "de": "zu Ehren von Charles Richard (1745–1835), Postdirektor in Lunéville; 2015 identifiziert",
+          "en": "honours Charles Richard (1745–1835), postal director in Lunéville; identified in 2015",
+          "nl": "vernoemd naar Charles Richard (1745–1835), postdirecteur in Lunéville; in 2015 geïdentificeerd"
+        },
+        "uncertain": false,
+        "source": "mearns2015"
+      },
+      "affectedSpecies": [
+        "Anthus richardi"
+      ]
+    },
+    {
+      "termKey": "e:smithsonianus",
+      "auditFinding": "QC-25",
+      "reason": "Coues 1862 S. 300 widmet die Art ausdrücklich der Smithsonian Institution. Original-Volltext gelesen; Olson & Banks 2007 S. 383 bestätigen dies anhand der Sammlungsgeschichte. James Smithson erklärt erst den Namen der Institution.",
+      "before": {
+        "term": "smithsonianus",
+        "text": {
+          "de": "zu Ehren von James Smithson, dessen Vermächtnis die Smithsonian Institution begründete",
+          "en": "honours James Smithson, whose bequest founded the Smithsonian Institution",
+          "nl": "vernoemd naar James Smithson, wiens nalatenschap de Smithsonian Institution stichtte"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 358
+      },
+      "after": {
+        "term": "smithsonianus",
+        "text": {
+          "de": "Widmung an die Smithsonian Institution, die nach James Smithson benannt ist",
+          "en": "honours the Smithsonian Institution, named after James Smithson",
+          "nl": "vernoemd naar het Smithsonian Institution, dat de naam van James Smithson draagt"
+        },
+        "uncertain": false,
+        "source": "coues1862",
+        "page": 300
+      },
+      "affectedSpecies": [
+        "Larus smithsonianus"
+      ]
+    },
+    {
+      "termKey": "e:trivialis",
+      "auditFinding": "QC-26",
+      "reason": "Trivialis kann allgemein/gewöhnlich bedeuten. Historische Analyse stützt keine sichere Wegesrand-Absicht; aktueller Wortlaut ist zu eng.",
+      "before": {
+        "term": "trivialis",
+        "text": {
+          "de": "an Wegen vorkommend",
+          "en": "of roadsides",
+          "nl": "van wegkanten"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 391
+      },
+      "after": {
+        "term": "trivialis",
+        "text": {
+          "de": "gewöhnlich oder an Wegen vorkommend; konkrete Benennungsabsicht unklar",
+          "en": "common or of roadsides; specific naming intention unclear",
+          "nl": "gewoon of van wegkanten; concrete naamgevingsbedoeling onduidelijk"
+        },
+        "uncertain": true,
+        "source": "wnve_trivialis"
+      },
+      "affectedSpecies": [
+        "Anthus trivialis"
+      ]
+    },
+    {
+      "termKey": "g:Aratinga",
+      "auditFinding": "QC-09",
+      "reason": "Vorprüfung QC-09: heller Papagei steht neben Herleitung aus Tupí weißschnäbliger Papagei. Spix erklärt Namen nicht; keine gesicherte automatische Ersatzdeutung.",
+      "before": {
+        "term": "Aratinga",
+        "text": {
+          "de": "heller Papagei, aus dem Tupí",
+          "en": "bright parrot, from Tupí",
+          "nl": "heldere papegaai, uit het Tupí"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 53
+      },
+      "after": {
+        "term": "Aratinga",
+        "text": {
+          "de": "Tupí-Papageienname; unter anderem als heller oder weißschnäbliger Papagei gedeutet",
+          "en": "Tupí parrot name; interpretations include bright or white-billed parrot",
+          "nl": "Tupí-papegaaiennaam; onder meer uitgelegd als heldere papegaai of papegaai met witte snavel"
+        },
+        "uncertain": true,
+        "source": "mouchard2019",
+        "page": 236
+      },
+      "affectedSpecies": [
+        "Aratinga nenday",
+        "Aratinga solstitialis"
+      ]
+    },
+    {
+      "termKey": "g:Chordeiles",
+      "auditFinding": "QC-27",
+      "reason": "Chordeiles: historische Erläuterung von Swainson lautet Abendsaite/Saite der Dämmerung (chorde + deile). Abendsänger ist eine freie Deutung und verdeckt den ersten Wortteil. Originalautor über Mouchard zitiert; direkte Originalstelle nachprüfen.",
+      "before": {
+        "term": "Chordeiles",
+        "text": {
+          "de": "Abendsänger",
+          "en": "evening singer",
+          "nl": "avondzanger"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 104
+      },
+      "after": {
+        "term": "Chordeiles",
+        "text": {
+          "de": "vom Namensautor als Saite der Dämmerung erklärt; später auch anders gedeutet",
+          "en": "explained by the naming author as a string of twilight; later interpretations differ",
+          "nl": "door de naamgever uitgelegd als snaar van de schemering; latere verklaringen verschillen"
+        },
+        "uncertain": true,
+        "source": "mouchard2019",
+        "page": 187
+      },
+      "affectedSpecies": [
+        "Chordeiles minor"
+      ]
+    },
+    {
+      "termKey": "g:Cisticola",
+      "auditFinding": "QC-06",
+      "reason": "Vorprüfung QC-06: Zistrosen- und Korb-/Nest-Deutung in eigenständigem philologischem Aufsatz 2019 diskutiert; Gewissheit reduzieren.",
+      "before": {
+        "term": "Cisticola",
+        "text": {
+          "de": "Zistrosenbewohner",
+          "en": "rockrose dweller",
+          "nl": "rotsroosbewoner"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 109
+      },
+      "after": {
+        "term": "Cisticola",
+        "text": {
+          "de": "möglicherweise Zistrosenbewohner; auch als Bezug auf Korb oder Nest gedeutet",
+          "en": "possibly rockrose dweller; also interpreted as referring to a basket or nest",
+          "nl": "mogelijk rotsroosbewoner; ook uitgelegd als verwijzing naar een mand of nest"
+        },
+        "uncertain": true,
+        "source": "cisticola2019",
+        "page": 358
+      },
+      "affectedSpecies": [
+        "Cisticola juncidis"
+      ]
+    },
+    {
+      "termKey": "g:Cyanoliseus",
+      "auditFinding": "QC-28",
+      "reason": "Mouchard deutet Cyanoliseus als verwaschenes Blau, App als blaue Kette/Schmuck. Vollständige historische Herleitung vor Ersatz prüfen.",
+      "before": {
+        "term": "Cyanoliseus",
+        "text": {
+          "de": "blaue Kette, blauer Schmuck",
+          "en": "blue chain, blue ornament",
+          "nl": "blauwe keten, blauw sieraad"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 127
+      },
+      "after": {
+        "term": "Cyanoliseus",
+        "text": {
+          "de": "mit Blau verbundener Name; genaue Herleitung des zweiten Bestandteils umstritten",
+          "en": "a name referring to blue; exact derivation of the second component disputed",
+          "nl": "naam die naar blauw verwijst; precieze afleiding van het tweede deel omstreden"
+        },
+        "uncertain": true,
+        "source": "mouchard2019",
+        "page": 236
+      },
+      "affectedSpecies": [
+        "Cyanoliseus patagonus"
+      ]
+    },
+    {
+      "termKey": "g:Diopsittaca",
+      "auditFinding": "QC-02",
+      "reason": "Vorprüfung QC-02: Originalautor Ridgway 1916 S. 109 erklärt dios als noble. Volltext nun heruntergeladen und Fußnote gelesen; edler Papagei statt göttlicher Papagei.",
+      "before": {
+        "term": "Diopsittaca",
+        "text": {
+          "de": "göttlicher Papagei",
+          "en": "divine parrot",
+          "nl": "goddelijke papegaai"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 136
+      },
+      "after": {
+        "term": "Diopsittaca",
+        "text": {
+          "de": "edler Papagei",
+          "en": "noble parrot",
+          "nl": "edele papegaai"
+        },
+        "uncertain": false,
+        "source": "ridgway1916",
+        "page": 109
+      },
+      "affectedSpecies": [
+        "Diopsittaca nobilis"
+      ]
+    },
+    {
+      "termKey": "g:Garrulus",
+      "auditFinding": "QC-29",
+      "reason": "Geschwätzig ist lexikalisch richtig. Niederländisch babbelaard ließ sich nicht als Standardform sichern; babbelaar oder babbelend wären transparentere Fassungen. Redaktioneller Vorschlag, kein gesicherter Sachfehler.",
+      "before": {
+        "term": "Garrulus",
+        "text": {
+          "de": "geschwätzig",
+          "en": "chattering",
+          "nl": "babbelaard"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 171
+      },
+      "after": {
+        "term": "Garrulus",
+        "text": {
+          "de": "geschwätzig",
+          "en": "chattering",
+          "nl": "babbelend"
+        },
+        "uncertain": false,
+        "source": "wnve_Garrulus"
+      },
+      "affectedSpecies": [
+        "Garrulus glandarius"
+      ]
+    },
+    {
+      "termKey": "g:Ichthyaetus",
+      "auditFinding": "QC-21",
+      "reason": "Niederländisch visarend ist zugleich der feste Artname für Pandion haliaetus. Wörtliche Fisch-Adler-Bedeutung ohne Verwechslung formulieren (arend die vis eet / vis-arend, als woordbetekenis).",
+      "before": {
+        "term": "Ichthyaetus",
+        "text": {
+          "de": "Fischadler",
+          "en": "fish eagle",
+          "nl": "visarend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 201
+      },
+      "after": {
+        "term": "Ichthyaetus",
+        "text": {
+          "de": "Fischadler, als wörtliche Namensbedeutung",
+          "en": "fish eagle, as the literal name meaning",
+          "nl": "arend die vis eet, als letterlijke naambetekenis"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 201
+      },
+      "affectedSpecies": [
+        "Ichthyaetus audouinii",
+        "Ichthyaetus ichthyaetus",
+        "Ichthyaetus melanocephalus"
+      ]
+    },
+    {
+      "termKey": "g:Lophodytes",
+      "auditFinding": "QC-30",
+      "reason": "Haubentaucher und kuifduiker sind feste Namen anderer Vogelarten. Zusätzlich erklärt BOU den zweiten Bestandteil als tragen statt tauchen. Wortbildung klären und wörtliche Erklärung ohne Artverwechslung formulieren.",
+      "before": {
+        "term": "Lophodytes",
+        "text": {
+          "de": "Haubentaucher",
+          "en": "crested diver",
+          "nl": "kuifduiker"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 230
+      },
+      "after": {
+        "term": "Lophodytes",
+        "text": {
+          "de": "mit Haube; zweiter Bestandteil meist als Taucher gedeutet, Herleitung umstritten",
+          "en": "with a crest; second component usually interpreted as diver, derivation disputed",
+          "nl": "met een kuif; tweede deel meestal uitgelegd als duiker, afleiding omstreden"
+        },
+        "uncertain": true,
+        "source": "bou1915"
+      },
+      "affectedSpecies": [
+        "Lophodytes cucullatus"
+      ]
+    },
+    {
+      "termKey": "g:Molothrus",
+      "auditFinding": "QC-05",
+      "reason": "Vorprüfung QC-05: abstrakte griechische Wortzerlegung ist möglich, aber historische Absicht ungebetener Gast/Brutparasit und Streit um genaue Bildung fehlen. Coues 1882 und LSJ geprüft.",
+      "before": {
+        "term": "Molothrus",
+        "text": {
+          "de": "Kampf und Zeugen; künstlich gebildeter griechischer Name",
+          "en": "battle and begetting; an artificially formed Greek name",
+          "nl": "strijd en verwekken; een kunstmatig gevormde Griekse naam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 258
+      },
+      "after": {
+        "term": "Molothrus",
+        "text": {
+          "de": "historisch als ungebetener Gast gedeutet; genaue griechische Wortbildung umstritten",
+          "en": "historically interpreted as an uninvited guest; exact Greek word formation disputed",
+          "nl": "historisch uitgelegd als ongenode gast; precieze Griekse woordvorming omstreden"
+        },
+        "uncertain": true,
+        "source": "coues1882",
+        "page": 62
+      },
+      "affectedSpecies": [
+        "Molothrus ater"
+      ]
+    },
+    {
+      "termKey": "g:Myiopsitta",
+      "auditFinding": "QC-01",
+      "reason": "Vorprüfung QC-01: mus/Maus, nicht Fliege; Vergleich mit Fliegenfängern unbelegt. Mouchards historische Argumentation und LSJ mus bestätigen Mauswurzel.",
+      "before": {
+        "term": "Myiopsitta",
+        "text": {
+          "de": "Fliegenpapagei; Vergleich mit kleinen Fliegenfängern",
+          "en": "fly parrot; compared with small flycatchers",
+          "nl": "vliegenpapegaai; vergeleken met kleine vliegenvangers"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 263
+      },
+      "after": {
+        "term": "Myiopsitta",
+        "text": {
+          "de": "Mauspapagei; Bezug auf das mausgraue Gefieder trotz irreführender Schreibweise",
+          "en": "mouse parrot; refers to mouse-grey plumage despite the misleading spelling",
+          "nl": "muispapegaai; verwijst naar het muisgrijze verenkleed ondanks de misleidende spelling"
+        },
+        "uncertain": false,
+        "source": "mouchard2019",
+        "page": 230
+      },
+      "affectedSpecies": [
+        "Myiopsitta monachus"
+      ]
+    },
+    {
+      "termKey": "g:Plectrophenax",
+      "auditFinding": "QC-10",
+      "reason": "Vorprüfung QC-10: Sporn-Bestandteil fehlt; BOU 1915 nennt plektron + phenax. Historischen Ersatznamen-Kontext erhalten.",
+      "before": {
+        "term": "Plectrophenax",
+        "text": {
+          "de": "Ersatzname für Plectrophanes, einen Ammernamen; mit dem Wort für Betrüger gebildet",
+          "en": "replacement for Plectrophanes, a bunting name; formed with the word for impostor",
+          "nl": "vervangende naam voor Plectrophanes, een gorzennaam; gevormd met het woord voor bedrieger"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 310
+      },
+      "after": {
+        "term": "Plectrophenax",
+        "text": {
+          "de": "mit Sporn und Betrüger gebildet; Ersatzname für den Ammernamen Plectrophanes",
+          "en": "formed with spur and impostor; replacement for the bunting name Plectrophanes",
+          "nl": "gevormd met spoor en bedrieger; vervangende naam voor de gorzennaam Plectrophanes"
+        },
+        "uncertain": false,
+        "source": "bou1915",
+        "page": 34
+      },
+      "affectedSpecies": [
+        "Plectrophenax nivalis"
+      ]
+    },
+    {
+      "termKey": "g:Poicephalus",
+      "auditFinding": "QC-32",
+      "reason": "Aktuelle Erklärung bunter Kopf passt weder zu Joblings phaios (grau/dunkel) noch zu SANBIs eigener Artbearbeitung (unterschiedlicher Kopf). LSJ belegt phaios und kephale. Der Korrekturbedarf ist plausibel, die genaue ursprüngliche Herleitung bleibt angesichts unterschiedlicher externer Erklärungen zu klären.",
+      "before": {
+        "term": "Poicephalus",
+        "text": {
+          "de": "bunter Kopf",
+          "en": "variegated head",
+          "nl": "bonte kop"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 312
+      },
+      "after": {
+        "term": "Poicephalus",
+        "text": {
+          "de": "Kopf-Bezug; unter anderem als grau- oder dunkelköpfig gedeutet, genaue Herleitung umstritten",
+          "en": "refers to the head; interpretations include grey- or dark-headed, exact derivation disputed",
+          "nl": "verwijst naar de kop; onder meer uitgelegd als grijs- of donkerkoppig, precieze afleiding omstreden"
+        },
+        "uncertain": true,
+        "source": "jobling2010",
+        "page": 312
+      },
+      "affectedSpecies": [
+        "Poicephalus meyeri",
+        "Poicephalus gulielmi",
+        "Poicephalus rueppellii",
+        "Poicephalus senegalus"
+      ]
+    },
+    {
+      "termKey": "g:Porzana",
+      "auditFinding": "QC-07",
+      "reason": "Vorprüfung QC-07: italienischer Rallenname gestützt, venezianische Regionalzuordnung wird von Mouchard ausdrücklich bestritten.",
+      "before": {
+        "term": "Porzana",
+        "text": {
+          "de": "alter venezianischer Name einer kleinen Ralle",
+          "en": "old Venetian name for a small rail",
+          "nl": "oude Venetiaanse naam voor een kleine ral"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 315
+      },
+      "after": {
+        "term": "Porzana",
+        "text": {
+          "de": "übernommener italienischer Rallenname; genaue regionale Herkunft umstritten",
+          "en": "borrowed Italian rail name; precise regional origin disputed",
+          "nl": "overgenomen Italiaanse rallennaam; precieze regionale herkomst omstreden"
+        },
+        "uncertain": true,
+        "source": "mouchard2019",
+        "page": 120
+      },
+      "affectedSpecies": [
+        "Porzana carolina",
+        "Porzana porzana"
+      ]
+    },
+    {
+      "termKey": "g:Thalasseus",
+      "auditFinding": "QC-33",
+      "reason": "Thalasseus heißt Fischer (griechisch thalasseus), nicht nur zum Meer gehörig. LSJ n47739 und bisherige Quelle stimmen überein. Berufsbezeichnung, keine Personenwidmung.",
+      "before": {
+        "term": "Thalasseus",
+        "text": {
+          "de": "zum Meer gehörig",
+          "en": "of the sea",
+          "nl": "van de zee"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 383
+      },
+      "after": {
+        "term": "Thalasseus",
+        "text": {
+          "de": "Fischer; griechische Berufsbezeichnung, keine Personenwidmung",
+          "en": "fisherman; a Greek occupational term, not a dedication to a person",
+          "nl": "visser; een Griekse beroepsaanduiding, geen persoonsnaam"
+        },
+        "uncertain": false,
+        "source": "mouchard2019",
+        "page": 160
+      },
+      "affectedSpecies": [
+        "Thalasseus elegans",
+        "Thalasseus bengalensis",
+        "Thalasseus maximus",
+        "Thalasseus sandvicensis"
+      ]
+    },
+    {
+      "termKey": "g:Uraeginthus",
+      "auditFinding": "QC-34",
+      "reason": "Ein Bestandteil oder historischer Bezug extern gestützt; fehlende Wurzel, Verweiskette oder genaue Bedeutung gesondert absichern. Keine Bestätigung durch unpassende Homonyme.",
+      "before": {
+        "term": "Uraeginthus",
+        "text": {
+          "de": "Schwanzfink",
+          "en": "tail finch",
+          "nl": "staartvink"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 396
+      },
+      "after": {
+        "term": "Uraeginthus",
+        "text": {
+          "de": "Schwanz; mit einem nicht sicher identifizierten antiken Vogelnamen gebildet",
+          "en": "tail; combined with an ancient bird name of uncertain identification",
+          "nl": "staart; gecombineerd met een antieke vogelnaam waarvan de identificatie onzeker is"
+        },
+        "uncertain": true,
+        "source": "jobling2010",
+        "page": 396
+      },
+      "affectedSpecies": [
+        "Uraeginthus bengalus"
+      ]
+    },
+    {
+      "termKey": "g:Zapornia",
+      "auditFinding": "QC-35",
+      "reason": "Porzana hat 7 Buchstaben, Zapornia 8; zusätzliches i. Daher kein reines Anagramm. Überarbeiteter Name nach Porzana ist als vorsichtige Formulierung möglich; ursprüngliche Bildungsabsicht bleibt ohne direkte Erläuterung Leachs offen.",
+      "before": {
+        "term": "Zapornia",
+        "text": {
+          "de": "Buchstabenumstellung von Porzana, einem Rallennamen",
+          "en": "anagram of Porzana, a rail name",
+          "nl": "anagram van Porzana, een rallennaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 413
+      },
+      "after": {
+        "term": "Zapornia",
+        "text": {
+          "de": "nach Porzana, einem Rallennamen, umgebildet; kein reines Anagramm",
+          "en": "a reshaping of Porzana, a rail name; not an exact anagram",
+          "nl": "omvorming van Porzana, een rallennaam; geen zuiver anagram"
+        },
+        "uncertain": true,
+        "source": "jobling2010",
+        "page": 413
+      },
+      "affectedSpecies": [
+        "Zapornia pusilla",
+        "Zapornia flavirostra",
+        "Zapornia parva"
+      ]
+    }
+  ]
+}

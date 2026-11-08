@@ -1,0 +1,156 @@
+{
+  "sources": {
+    "mouchard2019": {
+      "title": "Alejandro Mouchard (2019): Etimología de los nombres científicos de las aves de Argentina",
+      "url": "https://fundacionazara.org.ar/img/libros/etimologia-de-aves.pdf"
+    },
+    "ridgway1916": {
+      "title": "Robert Ridgway (1916): The Birds of North and Middle America, Part VII, S. 109, Gattungsfußnote",
+      "url": "https://archive.org/details/bulletinunitedst5071916unit"
+    },
+    "mearns2015": {
+      "title": "Richard Mearns, Christophe Gouraud & Laurent Chevrier (2015): The identity of Richard of Richard’s pipit",
+      "url": "https://doi.org/10.3366/anh.2015.0281"
+    },
+    "gould1873": {
+      "title": "John Gould (1873): Birds of Asia, III, Tafel 42, Trochalopteron elliotii",
+      "url": "https://archive.org/details/BirdsAsiaJohnGoIIIGoul"
+    },
+    "coues1862": {
+      "title": "Elliott Coues (1862): Revision of the Gulls of North America, S. 300",
+      "url": "https://archive.org/details/proceedingsofaca14acad"
+    },
+    "coues1882": {
+      "title": "Elliott Coues (1882): The Coues Check List of North American Birds, 2. Auflage",
+      "url": "https://doi.org/10.5962/bhl.title.13938"
+    },
+    "cisticola2019": {
+      "title": "Joan Morales Dumanjó & José Enrique Gargallo Gil (2019): Designacions catalanes del trist, tit, Cisticola juncidis, Estudis Romànics 41, S. 357–362",
+      "url": "https://diposit.ub.edu/bitstreams/9f5871e6-9593-4748-b171-a66ee8a047fa/download"
+    },
+    "raeAura": {
+      "title": "Real Academia Española: DHLE, aura, Version 25.06.2025",
+      "url": "https://temporalraeweb.rae.es/dhle/aura"
+    },
+    "bou1915": {
+      "title": "British Ornithologists’ Union (1915): A List of British Birds, 2. Auflage",
+      "url": "https://archive.org/details/listofbritishbir00britiala"
+    },
+    "wnve_atthis": {
+      "title": "Herman Wilms, WNVE: atthis",
+      "url": "https://www.wnve.nl/nl/soort/492-s-alcedo-atthis"
+    },
+    "wnve_collurio": {
+      "title": "Herman Wilms, WNVE: collurio",
+      "url": "https://www.wnve.nl/nl/soort/676-s-lanius-collurio"
+    },
+    "wnve_hiaticula": {
+      "title": "Herman Wilms, WNVE: hiaticula",
+      "url": "https://www.wnve.nl/nl/soort/347-s-charadrius-hiaticula"
+    },
+    "wnve_trivialis": {
+      "title": "Herman Wilms, WNVE: trivialis",
+      "url": "https://www.wnve.nl/nl/soort/548-s-anthus-trivialis"
+    },
+    "wnve_githagineus": {
+      "title": "Herman Wilms, WNVE: githagineus",
+      "url": "https://www.wnve.nl/nl/soort/745-s-bucanetes-githagineus"
+    },
+    "wnve_Garrulus": {
+      "title": "Herman Wilms, WNVE: Garrulus",
+      "url": "https://www.wnve.nl/nl/genus/690-g-garrulus"
+    }
+  },
+  "terms": {
+    "g:Myiopsitta": {
+      "source": "mouchard2019",
+      "page": 230
+    },
+    "e:porzana": {
+      "source": "mouchard2019",
+      "page": 120
+    },
+    "g:Porzana": {
+      "source": "mouchard2019",
+      "page": 120
+    },
+    "e:cirrocephalus": {
+      "source": "mouchard2019",
+      "page": 152
+    },
+    "g:Aratinga": {
+      "source": "mouchard2019",
+      "page": 236
+    },
+    "e:fuscatus": {
+      "source": "mouchard2019",
+      "page": 302
+    },
+    "e:plancus": {
+      "source": "mouchard2019",
+      "page": 226
+    },
+    "g:Chordeiles": {
+      "source": "mouchard2019",
+      "page": 187
+    },
+    "g:Cyanoliseus": {
+      "source": "mouchard2019",
+      "page": 236
+    },
+    "g:Thalasseus": {
+      "source": "mouchard2019",
+      "page": 160
+    },
+    "g:Diopsittaca": {
+      "source": "ridgway1916",
+      "page": 109
+    },
+    "e:richardi": {
+      "source": "mearns2015"
+    },
+    "e:elliotii": {
+      "source": "gould1873"
+    },
+    "e:smithsonianus": {
+      "source": "coues1862",
+      "page": 300
+    },
+    "g:Molothrus": {
+      "source": "coues1882",
+      "page": 62
+    },
+    "g:Cisticola": {
+      "source": "cisticola2019",
+      "page": 358
+    },
+    "e:aura": {
+      "source": "raeAura"
+    },
+    "g:Plectrophenax": {
+      "source": "bou1915",
+      "page": 34
+    },
+    "g:Lophodytes": {
+      "source": "bou1915"
+    },
+    "e:atthis": {
+      "source": "wnve_atthis"
+    },
+    "e:collurio": {
+      "source": "wnve_collurio"
+    },
+    "e:hiaticula": {
+      "source": "wnve_hiaticula"
+    },
+    "e:trivialis": {
+      "source": "wnve_trivialis"
+    },
+    "e:githagineus": {
+      "source": "wnve_githagineus"
+    },
+    "g:Garrulus": {
+      "source": "wnve_Garrulus"
+    }
+  }
+}

@@ -8,8 +8,8 @@ amurensis|aus dem Amurgebiet|of the Amur region|uit het Amoergebied
 antillarum|von den Antillen|of the Antilles|van de Antillen
 ararauna|übernommener Tupí-Papageienname; dunkler großer Papagei|borrowed Tupí parrot name; large dark parrot|overgenomen Tupí-papegaaiennaam; grote donkere papegaai
 astrild|Herkunft des übernommenen Vogelnamens umstritten|origin of the borrowed bird name disputed|oorsprong van de overgenomen vogelnaam omstreden|?
-atthis|Atthis aus der griechischen Mythologie|Atthis of Greek mythology|Atthis uit de Griekse mythologie
-aura|übernommener indigener mexikanischer Geiername|borrowed Indigenous Mexican vulture name|overgenomen inheemse Mexicaanse gierennaam
+atthis|Atthis, ein Name aus der griechischen Überlieferung; konkrete Bezugsperson unklar|Atthis, a name from Greek tradition; intended person unclear|Atthis, een naam uit de Griekse overlevering; bedoelde persoon onduidelijk|?
+aura|übernommener indigener Geiername|borrowed Indigenous vulture name|overgenomen inheemse gierennaam
 avosetta|übernommener venezianischer Säbelschnäblername|borrowed Venetian avocet name|overgenomen Venetiaanse klutennaam
 bahamensis|von den Bahamas|of the Bahamas|van de Bahama's
 bakkamoena|übernommener singhalesischer Eulenname|borrowed Sinhala owl name|overgenomen Singalese uilennaam
@@ -49,7 +49,7 @@ francolinus|übernommener Frankolinname|borrowed francolin name|overgenomen fran
 gambensis|aus Gambia|of Gambia|uit Gambia
 garzetta|übernommener italienischer Reihername|borrowed Italian egret name|overgenomen Italiaanse zilverreigernaam
 georgica|von Südgeorgien|of South Georgia|van Zuid-Georgië
-githagineus|mit der Kornrade, früher Githago, verglichen|compared with corn cockle, formerly Githago|vergeleken met bolderik, vroeger Githago
+githagineus|wahrscheinlich mit der Kornrade, früher Githago, verglichen|probably compared with corn cockle, formerly Githago|waarschijnlijk vergeleken met bolderik, vroeger Githago|?
 grylle|übernommener gotländischer Alkenname|borrowed Gotland auk name|overgenomen Gotlandse alkennaam
 hollandicus|aus Neuholland, dem historischen Namen Australiens|of New Holland, the historical name for Australia|uit Nieuw-Holland, de historische naam van Australië
 hortulana|Gartenvogel; aus dem italienischen Ortolannamen|garden bird; from the Italian ortolan name|tuinvogel; uit de Italiaanse ortolanennaam
@@ -100,7 +100,7 @@ phoebe|vom englischen Lautnamen Phoebe; hier keine sichere Widmung an eine Gött
 pipixcan|übernommener indigener mexikanischer Möwenname|borrowed Indigenous Mexican gull name|overgenomen inheemse Mexicaanse meeuwennaam
 pleschanka|übernommener russischer Steinschmätzername, mit kahler Stelle verbunden|borrowed Russian wheatear name, associated with a bald patch|overgenomen Russische tapuitennaam, verbonden met een kale plek
 pomarina|aus Pommern|of Pomerania|uit Pommeren
-porzana|übernommener venezianischer Rallenname|borrowed Venetian rail name|overgenomen Venetiaanse rallennaam
+porzana|übernommener italienischer Rallenname; genaue regionale Herkunft umstritten|borrowed Italian rail name; precise regional origin disputed|overgenomen Italiaanse rallennaam; precieze regionale herkomst omstreden|?
 puna|Puna, das Andenhochland|puna, the Andean high plateau|puna, het Andeshoogland
 quiscula|Herleitung unsicher; ein indigener Name Hispaniolas wurde vorgeschlagen|derivation uncertain; an Indigenous name for Hispaniola has been proposed|afleiding onzeker; een inheemse naam voor Hispaniola is voorgesteld|?
 radjah|übernommener molukkischer Entenname|borrowed Moluccan duck name|overgenomen Molukse eendennaam
