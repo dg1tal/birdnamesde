@@ -43,7 +43,7 @@ input[type=checkbox]{accent-color:var(--accent);width:18px;height:18px;min-heigh
 .question input{width:100%;max-width:450px;font-size:20px}.actions{display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;margin-top:14px}
 .feedback{margin-top:14px;padding:18px;border:1px solid var(--line);border-radius:10px;background:var(--soft)}.good{color:var(--good)}.bad{color:var(--bad)}
 .choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:0 0 14px}.number{font:36px Georgia;margin:0 0 6px}.stats .muted{font-size:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:12px 0 14px}.number{font:36px Georgia;margin:0 0 6px}.stats .muted{font-size:14px}
 .muted{color:var(--muted)}progress{width:100%;height:8px;accent-color:var(--accent)}
 table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:10px 7px;border-bottom:1px solid var(--line)}
 .group-details{margin:14px 0}.group-details summary{font-size:17px;font-weight:650}.group-details[open] summary{margin-bottom:12px}
@@ -113,6 +113,8 @@ body.studying .photo-set-multiple .bird-photo{margin:14px 0 4px}
 .filter-chip{font-size:13px;min-height:40px;padding:7px 12px;background:var(--soft);border-color:var(--line);text-align:left}
 .empty-state{grid-column:1/-1}
 .back-top{position:fixed;right:16px;bottom:18px;z-index:5;background:var(--panel);box-shadow:0 3px 12px #0002}
+/* On phones, keep the return control below results so it cannot cover photo actions. */
+@media(max-width:580px){.back-top{position:static;display:block;margin:12px 0 0 auto}}
 .resume-panel,.practice-panel{margin-bottom:14px}
 .resume-panel p{margin:10px 0}
 #setup>h2{margin-bottom:18px}
