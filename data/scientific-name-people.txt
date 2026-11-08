@@ -18,7 +18,7 @@ dougallii|Widmung an einen schottischen Arzt McDougall oder MacDougall; genaue I
 ducorpsii|zu Ehren des französischen Marineangehörigen und Reisenden L. J. Ducorps|honours French naval administrator and traveller L. J. Ducorps|vernoemd naar de Franse marinefunctionaris en reiziger L. J. Ducorps
 edwardsi|zu Ehren des Zoologen Alphonse Milne-Edwards|honours zoologist Alphonse Milne-Edwards|vernoemd naar zoöloog Alphonse Milne-Edwards
 eleonorae|zu Ehren von Eleonora d'Arborea, sardischer Herrscherin mit frühem Greifvogelschutzgesetz|honours Eleonora of Arborea, Sardinian ruler associated with an early raptor-protection law|vernoemd naar Eleonora van Arborea, Sardijnse heerseres verbonden met vroege roofvogelbescherming
-elliotii|zu Ehren des Naturkundlers und Kolonialbeamten Walter Elliot|honours naturalist and colonial official Walter Elliot|vernoemd naar natuuronderzoeker en koloniaal ambtenaar Walter Elliot
+elliotii|zu Ehren des Ornithologen Daniel Giraud Elliot|honours ornithologist Daniel Giraud Elliot|vernoemd naar ornitholoog Daniel Giraud Elliot
 emma|zu Ehren von Emma Salvadori, geborene Jourdan|honours Emma Salvadori, née Jourdan|vernoemd naar Emma Salvadori, geboren Jourdan
 fischeri|zu Ehren des Arztes und Naturkundlers Gustav Adolf Fischer|honours surgeon and naturalist Gustav Adolf Fischer|vernoemd naar arts en natuuronderzoeker Gustav Adolf Fischer
 forsteri|zu Ehren des Naturkundlers Johann Reinhold Forster|honours naturalist Johann Reinhold Forster|vernoemd naar natuuronderzoeker Johann Reinhold Forster
@@ -45,13 +45,13 @@ naumanni|zu Ehren des Naturkundlers Johann Andreas Naumann|honours naturalist Jo
 nordmanni|zu Ehren des Zoologen Alexander von Nordmann|honours zoologist Alexander von Nordmann|vernoemd naar zoöloog Alexander von Nordmann
 pallasi|zu Ehren des Naturkundlers Peter Simon Pallas|honours naturalist Peter Simon Pallas|vernoemd naar natuuronderzoeker Peter Simon Pallas
 reevesii|zu Ehren des Naturkundlers und Teehändlers John Reeves|honours naturalist and tea inspector John Reeves|vernoemd naar natuuronderzoeker en thee-inspecteur John Reeves
-richardi|zu Ehren eines französischen Sammlers namens Richard; weitere Identität nicht sicher belegt|honours a French collector named Richard; further identity not securely established|vernoemd naar een Franse verzamelaar Richard; verdere identiteit niet zeker vastgesteld|?
+richardi|zu Ehren von Charles Richard (1745–1835), Postdirektor in Lunéville; 2015 identifiziert|honours Charles Richard (1745–1835), postal director in Lunéville; identified in 2015|vernoemd naar Charles Richard (1745–1835), postdirecteur in Lunéville; in 2015 geïdentificeerd
 rossii|zu Ehren des Naturkundlers und Handelsbeamten Bernard Rogan Ross|honours naturalist and trading-company official Bernard Rogan Ross|vernoemd naar natuuronderzoeker en handelsfunctionaris Bernard Rogan Ross
 rueppelli rueppellii ruppeli|zu Ehren des Zoologen und Forschungsreisenden Eduard Rüppell|honours zoologist and explorer Eduard Rüppell|vernoemd naar zoöloog en ontdekkingsreiziger Eduard Rüppell
 sabini|zu Ehren des Naturkundlers und Polarforschers Edward Sabine|honours naturalist and Arctic explorer Edward Sabine|vernoemd naar natuuronderzoeker en poolreiziger Edward Sabine
 schwarzi|zu Ehren des Astronomen Ludwig Schwarz|honours astronomer Ludwig Schwarz|vernoemd naar astronoom Ludwig Schwarz
 seebohmi|zu Ehren des Ornithologen Henry Seebohm|honours ornithologist Henry Seebohm|vernoemd naar ornitholoog Henry Seebohm
-smithsonianus|zu Ehren von James Smithson, dessen Vermächtnis die Smithsonian Institution begründete|honours James Smithson, whose bequest founded the Smithsonian Institution|vernoemd naar James Smithson, wiens nalatenschap de Smithsonian Institution stichtte
+smithsonianus|Widmung an die Smithsonian Institution, die nach James Smithson benannt ist|honours the Smithsonian Institution, named after James Smithson|vernoemd naar het Smithsonian Institution, dat de naam van James Smithson draagt
 sonneratii|zu Ehren des Naturkundlers Pierre Sonnerat|honours naturalist Pierre Sonnerat|vernoemd naar natuuronderzoeker Pierre Sonnerat
 stejnegeri|zu Ehren des Zoologen Leonhard Hess Stejneger|honours zoologist Leonhard Hess Stejneger|vernoemd naar zoöloog Leonhard Hess Stejneger
 stelleri|zu Ehren des Naturkundlers Georg Wilhelm Steller|honours naturalist Georg Wilhelm Steller|vernoemd naar natuuronderzoeker Georg Wilhelm Steller

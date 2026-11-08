@@ -6,7 +6,7 @@
     "nl"
   ],
   "meta": {
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "catalogueSha256": "9c5f76e5ec1ce4e2d5c14188b803012428c29212ff33213d58491eeda3237595",
     "editorial": "Independent concise glosses in German, English and Dutch. Sources document name histories, not translations of entire dictionary entries. Uncertain origins are explicitly marked. Personal and geographical homonyms use taxon-specific overrides."
   },
@@ -30,6 +30,66 @@
     "sibirionetta": {
       "title": "The Key to Scientific Names: Sibirionetta (reference transcription)",
       "url": "https://www.worldbirdnames.com/bird/baikal-teal/422.html"
+    },
+    "mouchard2019": {
+      "title": "Alejandro Mouchard (2019): Etimología de los nombres científicos de las aves de Argentina",
+      "url": "https://fundacionazara.org.ar/img/libros/etimologia-de-aves.pdf"
+    },
+    "ridgway1916": {
+      "title": "Robert Ridgway (1916): The Birds of North and Middle America, Part VII, S. 109, Gattungsfußnote",
+      "url": "https://archive.org/details/bulletinunitedst5071916unit"
+    },
+    "mearns2015": {
+      "title": "Richard Mearns, Christophe Gouraud & Laurent Chevrier (2015): The identity of Richard of Richard’s pipit",
+      "url": "https://doi.org/10.3366/anh.2015.0281"
+    },
+    "gould1873": {
+      "title": "John Gould (1873): Birds of Asia, III, Tafel 42, Trochalopteron elliotii",
+      "url": "https://archive.org/details/BirdsAsiaJohnGoIIIGoul"
+    },
+    "coues1862": {
+      "title": "Elliott Coues (1862): Revision of the Gulls of North America, S. 300",
+      "url": "https://archive.org/details/proceedingsofaca14acad"
+    },
+    "coues1882": {
+      "title": "Elliott Coues (1882): The Coues Check List of North American Birds, 2. Auflage",
+      "url": "https://doi.org/10.5962/bhl.title.13938"
+    },
+    "cisticola2019": {
+      "title": "Joan Morales Dumanjó & José Enrique Gargallo Gil (2019): Designacions catalanes del trist, tit, Cisticola juncidis, Estudis Romànics 41, S. 357–362",
+      "url": "https://diposit.ub.edu/bitstreams/9f5871e6-9593-4748-b171-a66ee8a047fa/download"
+    },
+    "raeAura": {
+      "title": "Real Academia Española: DHLE, aura, Version 25.06.2025",
+      "url": "https://temporalraeweb.rae.es/dhle/aura"
+    },
+    "bou1915": {
+      "title": "British Ornithologists’ Union (1915): A List of British Birds, 2. Auflage",
+      "url": "https://archive.org/details/listofbritishbir00britiala"
+    },
+    "wnve_atthis": {
+      "title": "Herman Wilms, WNVE: atthis",
+      "url": "https://www.wnve.nl/nl/soort/492-s-alcedo-atthis"
+    },
+    "wnve_collurio": {
+      "title": "Herman Wilms, WNVE: collurio",
+      "url": "https://www.wnve.nl/nl/soort/676-s-lanius-collurio"
+    },
+    "wnve_hiaticula": {
+      "title": "Herman Wilms, WNVE: hiaticula",
+      "url": "https://www.wnve.nl/nl/soort/347-s-charadrius-hiaticula"
+    },
+    "wnve_trivialis": {
+      "title": "Herman Wilms, WNVE: trivialis",
+      "url": "https://www.wnve.nl/nl/soort/548-s-anthus-trivialis"
+    },
+    "wnve_githagineus": {
+      "title": "Herman Wilms, WNVE: githagineus",
+      "url": "https://www.wnve.nl/nl/soort/745-s-bucanetes-githagineus"
+    },
+    "wnve_Garrulus": {
+      "title": "Herman Wilms, WNVE: Garrulus",
+      "url": "https://www.wnve.nl/nl/genus/690-g-garrulus"
     }
   },
   "terms": {
@@ -223,9 +283,9 @@
     "e:agricola": {
       "term": "agricola",
       "text": {
-        "de": "Feldbewohner",
-        "en": "field dweller",
-        "nl": "veldbewoner"
+        "de": "Bauer, Landwirt",
+        "en": "farmer",
+        "nl": "landbouwer"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -773,13 +833,12 @@
     "e:atthis": {
       "term": "atthis",
       "text": {
-        "de": "Atthis aus der griechischen Mythologie",
-        "en": "Atthis of Greek mythology",
-        "nl": "Atthis uit de Griekse mythologie"
+        "de": "Atthis, ein Name aus der griechischen Überlieferung; konkrete Bezugsperson unklar",
+        "en": "Atthis, a name from Greek tradition; intended person unclear",
+        "nl": "Atthis, een naam uit de Griekse overlevering; bedoelde persoon onduidelijk"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 60
+      "uncertain": true,
+      "source": "wnve_atthis"
     },
     "e:audouinii": {
       "term": "audouinii",
@@ -795,13 +854,12 @@
     "e:aura": {
       "term": "aura",
       "text": {
-        "de": "übernommener indigener mexikanischer Geiername",
-        "en": "borrowed Indigenous Mexican vulture name",
-        "nl": "overgenomen inheemse Mexicaanse gierennaam"
+        "de": "übernommener indigener Geiername",
+        "en": "borrowed Indigenous vulture name",
+        "nl": "overgenomen inheemse gierennaam"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 61
+      "source": "raeAura"
     },
     "e:aurea": {
       "term": "aurea",
@@ -1829,13 +1887,13 @@
     "e:cirrocephalus": {
       "term": "cirrocephalus",
       "text": {
-        "de": "grauköpfig; historisch als grau verstandener Wortstamm",
-        "en": "grey-headed; the stem was historically understood as grey",
-        "nl": "grijskoppig; de woordstam werd historisch als grijs opgevat"
+        "de": "als grauköpfig gemeint; Wortbildung unklar, da der griechische Farbstamm gelblich bedeutet",
+        "en": "intended as grey-headed; formation unclear because the Greek colour stem means yellowish",
+        "nl": "bedoeld als grijskoppig; woordvorming onduidelijk omdat de Griekse kleurstam geelachtig betekent"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 109
+      "uncertain": true,
+      "source": "mouchard2019",
+      "page": 152
     },
     "e:citreola": {
       "term": "citreola",
@@ -1972,13 +2030,12 @@
     "e:collurio": {
       "term": "collurio",
       "text": {
-        "de": "alter Name eines Würgers",
-        "en": "ancient shrike name",
-        "nl": "oude klauwierennaam"
+        "de": "antiker Vogelname; Zuordnung zu Würgern oder Drosseln unsicher",
+        "en": "ancient bird name; identification as a shrike or thrush uncertain",
+        "nl": "antieke vogelnaam; identificatie als klauwier of lijster onzeker"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 114
+      "uncertain": true,
+      "source": "wnve_collurio"
     },
     "e:collybita": {
       "term": "collybita",
@@ -2348,7 +2405,7 @@
       "text": {
         "de": "blauohrig",
         "en": "blue-eared",
-        "nl": "blauworige"
+        "nl": "met blauwe oren"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -2676,13 +2733,12 @@
     "e:elliotii": {
       "term": "elliotii",
       "text": {
-        "de": "zu Ehren des Naturkundlers und Kolonialbeamten Walter Elliot",
-        "en": "honours naturalist and colonial official Walter Elliot",
-        "nl": "vernoemd naar natuuronderzoeker en koloniaal ambtenaar Walter Elliot"
+        "de": "zu Ehren des Ornithologen Daniel Giraud Elliot",
+        "en": "honours ornithologist Daniel Giraud Elliot",
+        "nl": "vernoemd naar ornitholoog Daniel Giraud Elliot"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 145
+      "source": "gould1873"
     },
     "e:emma": {
       "term": "emma",
@@ -3215,13 +3271,13 @@
     "e:fuscatus": {
       "term": "fuscatus",
       "text": {
-        "de": "bräunlich, dunkel werdend",
-        "en": "brownish, becoming dusky",
-        "nl": "bruinachtig, donker wordend"
+        "de": "verdunkelt, dunkel gefärbt",
+        "en": "darkened, dusky",
+        "nl": "donker gekleurd"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 167
+      "source": "mouchard2019",
+      "page": 302
     },
     "e:fuscescens": {
       "term": "fuscescens",
@@ -3413,13 +3469,12 @@
     "e:githagineus": {
       "term": "githagineus",
       "text": {
-        "de": "mit der Kornrade, früher Githago, verglichen",
-        "en": "compared with corn cockle, formerly Githago",
-        "nl": "vergeleken met bolderik, vroeger Githago"
+        "de": "wahrscheinlich mit der Kornrade, früher Githago, verglichen",
+        "en": "probably compared with corn cockle, formerly Githago",
+        "nl": "waarschijnlijk vergeleken met bolderik, vroeger Githago"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 173
+      "uncertain": true,
+      "source": "wnve_githagineus"
     },
     "e:glacialis": {
       "term": "glacialis",
@@ -3753,13 +3808,12 @@
     "e:hiaticula": {
       "term": "hiaticula",
       "text": {
-        "de": "kleiner Spaltenbewohner",
-        "en": "small cleft dweller",
-        "nl": "kleine spleetbewoner"
+        "de": "Spaltenbewohner; Deutung als kleiner Spaltenbewohner umstritten",
+        "en": "cleft dweller; interpretation as small cleft dweller disputed",
+        "nl": "spleetbewoner; uitleg als kleine spleetbewoner omstreden"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 192
+      "uncertain": true,
+      "source": "wnve_hiaticula"
     },
     "e:himantopus": {
       "term": "himantopus",
@@ -4050,9 +4104,9 @@
     "e:ichthyaetus": {
       "term": "ichthyaetus",
       "text": {
-        "de": "Fischadler",
-        "en": "fish eagle",
-        "nl": "visarend"
+        "de": "Fischadler, als wörtliche Namensbedeutung",
+        "en": "fish eagle, as the literal name meaning",
+        "nl": "arend die vis eet, als letterlijke naambetekenis"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -5238,11 +5292,11 @@
     "e:menstruus": {
       "term": "menstruus",
       "text": {
-        "de": "monatlich; historischer Name",
-        "en": "monthly; a historical name",
-        "nl": "maandelijks; een historische naam"
+        "de": "historischer Name mit Menstruationsbezug; genaue Benennungsabsicht unklar",
+        "en": "historical name referring to menstruation; precise naming motive unclear",
+        "nl": "historische naam met een verwijzing naar menstruatie; precieze naamgevingsreden onduidelijk"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 250
     },
@@ -6712,13 +6766,13 @@
     "e:plancus": {
       "term": "plancus",
       "text": {
-        "de": "plattfüßig",
-        "en": "flat-footed",
-        "nl": "platvoetig"
+        "de": "als plattfüßig oder als antiker Adlername gedeutet; Benennungsabsicht umstritten",
+        "en": "interpreted as flat-footed or as an ancient eagle name; naming intention disputed",
+        "nl": "uitgelegd als platvoetig of als antieke arendsnaam; naamgevingsbedoeling omstreden"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 309
+      "uncertain": true,
+      "source": "mouchard2019",
+      "page": 226
     },
     "e:platalea": {
       "term": "platalea",
@@ -6877,13 +6931,13 @@
     "e:porzana": {
       "term": "porzana",
       "text": {
-        "de": "übernommener venezianischer Rallenname",
-        "en": "borrowed Venetian rail name",
-        "nl": "overgenomen Venetiaanse rallennaam"
+        "de": "übernommener italienischer Rallenname; genaue regionale Herkunft umstritten",
+        "en": "borrowed Italian rail name; precise regional origin disputed",
+        "nl": "overgenomen Italiaanse rallennaam; precieze regionale herkomst omstreden"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 315
+      "uncertain": true,
+      "source": "mouchard2019",
+      "page": 120
     },
     "e:pratensis": {
       "term": "pratensis",
@@ -6910,11 +6964,11 @@
     "e:proregulus": {
       "term": "proregulus",
       "text": {
-        "de": "dem Goldhähnchen nahe",
-        "en": "close to the goldcrest",
-        "nl": "nabij het goudhaantje"
+        "de": "möglicherweise dem Goldhähnchen nahe; auch als kleiner Herrscher gedeutet",
+        "en": "possibly close to the goldcrest; also interpreted as petty monarch",
+        "nl": "mogelijk nabij het goudhaantje; ook uitgelegd als kleine heerser"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 318
     },
@@ -7229,13 +7283,12 @@
     "e:richardi": {
       "term": "richardi",
       "text": {
-        "de": "zu Ehren eines französischen Sammlers namens Richard; weitere Identität nicht sicher belegt",
-        "en": "honours a French collector named Richard; further identity not securely established",
-        "nl": "vernoemd naar een Franse verzamelaar Richard; verdere identiteit niet zeker vastgesteld"
+        "de": "zu Ehren von Charles Richard (1745–1835), Postdirektor in Lunéville; 2015 identifiziert",
+        "en": "honours Charles Richard (1745–1835), postal director in Lunéville; identified in 2015",
+        "nl": "vernoemd naar Charles Richard (1745–1835), postdirecteur in Lunéville; in 2015 geïdentificeerd"
       },
-      "uncertain": true,
-      "source": "jobling2010",
-      "page": 336
+      "uncertain": false,
+      "source": "mearns2015"
     },
     "e:ridibundus": {
       "term": "ridibundus",
@@ -7966,13 +8019,13 @@
     "e:smithsonianus": {
       "term": "smithsonianus",
       "text": {
-        "de": "zu Ehren von James Smithson, dessen Vermächtnis die Smithsonian Institution begründete",
-        "en": "honours James Smithson, whose bequest founded the Smithsonian Institution",
-        "nl": "vernoemd naar James Smithson, wiens nalatenschap de Smithsonian Institution stichtte"
+        "de": "Widmung an die Smithsonian Institution, die nach James Smithson benannt ist",
+        "en": "honours the Smithsonian Institution, named after James Smithson",
+        "nl": "vernoemd naar het Smithsonian Institution, dat de naam van James Smithson draagt"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 358
+      "source": "coues1862",
+      "page": 300
     },
     "e:solitaria": {
       "term": "solitaria",
@@ -8626,13 +8679,12 @@
     "e:trivialis": {
       "term": "trivialis",
       "text": {
-        "de": "an Wegen vorkommend",
-        "en": "of roadsides",
-        "nl": "van wegkanten"
+        "de": "gewöhnlich oder an Wegen vorkommend; konkrete Benennungsabsicht unklar",
+        "en": "common or of roadsides; specific naming intention unclear",
+        "nl": "gewoon of van wegkanten; concrete naamgevingsbedoeling onduidelijk"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 391
+      "uncertain": true,
+      "source": "wnve_trivialis"
     },
     "e:trochiloides": {
       "term": "trochiloides",
@@ -9428,13 +9480,13 @@
     "g:Aratinga": {
       "term": "Aratinga",
       "text": {
-        "de": "heller Papagei, aus dem Tupí",
-        "en": "bright parrot, from Tupí",
-        "nl": "heldere papegaai, uit het Tupí"
+        "de": "Tupí-Papageienname; unter anderem als heller oder weißschnäbliger Papagei gedeutet",
+        "en": "Tupí parrot name; interpretations include bright or white-billed parrot",
+        "nl": "Tupí-papegaaiennaam; onder meer uitgelegd als heldere papegaai of papegaai met witte snavel"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 53
+      "uncertain": true,
+      "source": "mouchard2019",
+      "page": 236
     },
     "g:Ardea": {
       "term": "Ardea",
@@ -10022,13 +10074,13 @@
     "g:Chordeiles": {
       "term": "Chordeiles",
       "text": {
-        "de": "Abendsänger",
-        "en": "evening singer",
-        "nl": "avondzanger"
+        "de": "vom Namensautor als Saite der Dämmerung erklärt; später auch anders gedeutet",
+        "en": "explained by the naming author as a string of twilight; later interpretations differ",
+        "nl": "door de naamgever uitgelegd als snaar van de schemering; latere verklaringen verschillen"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 104
+      "uncertain": true,
+      "source": "mouchard2019",
+      "page": 187
     },
     "g:Chroicocephalus": {
       "term": "Chroicocephalus",
@@ -10099,13 +10151,13 @@
     "g:Cisticola": {
       "term": "Cisticola",
       "text": {
-        "de": "Zistrosenbewohner",
-        "en": "rockrose dweller",
-        "nl": "rotsroosbewoner"
+        "de": "möglicherweise Zistrosenbewohner; auch als Bezug auf Korb oder Nest gedeutet",
+        "en": "possibly rockrose dweller; also interpreted as referring to a basket or nest",
+        "nl": "mogelijk rotsroosbewoner; ook uitgelegd als verwijzing naar een mand of nest"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 109
+      "uncertain": true,
+      "source": "cisticola2019",
+      "page": 358
     },
     "g:Clamator": {
       "term": "Clamator",
@@ -10363,13 +10415,13 @@
     "g:Cyanoliseus": {
       "term": "Cyanoliseus",
       "text": {
-        "de": "blaue Kette, blauer Schmuck",
-        "en": "blue chain, blue ornament",
-        "nl": "blauwe keten, blauw sieraad"
+        "de": "mit Blau verbundener Name; genaue Herleitung des zweiten Bestandteils umstritten",
+        "en": "a name referring to blue; exact derivation of the second component disputed",
+        "nl": "naam die naar blauw verwijst; precieze afleiding van het tweede deel omstreden"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 127
+      "uncertain": true,
+      "source": "mouchard2019",
+      "page": 236
     },
     "g:Cyanoramphus": {
       "term": "Cyanoramphus",
@@ -10451,13 +10503,13 @@
     "g:Diopsittaca": {
       "term": "Diopsittaca",
       "text": {
-        "de": "göttlicher Papagei",
-        "en": "divine parrot",
-        "nl": "goddelijke papegaai"
+        "de": "edler Papagei",
+        "en": "noble parrot",
+        "nl": "edele papegaai"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 136
+      "source": "ridgway1916",
+      "page": 109
     },
     "g:Dolichonyx": {
       "term": "Dolichonyx",
@@ -10827,11 +10879,10 @@
       "text": {
         "de": "geschwätzig",
         "en": "chattering",
-        "nl": "babbelaard"
+        "nl": "babbelend"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 171
+      "source": "wnve_Garrulus"
     },
     "g:Gavia": {
       "term": "Gavia",
@@ -11154,9 +11205,9 @@
     "g:Ichthyaetus": {
       "term": "Ichthyaetus",
       "text": {
-        "de": "Fischadler",
-        "en": "fish eagle",
-        "nl": "visarend"
+        "de": "Fischadler, als wörtliche Namensbedeutung",
+        "en": "fish eagle, as the literal name meaning",
+        "nl": "arend die vis eet, als letterlijke naambetekenis"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -11407,13 +11458,12 @@
     "g:Lophodytes": {
       "term": "Lophodytes",
       "text": {
-        "de": "Haubentaucher",
-        "en": "crested diver",
-        "nl": "kuifduiker"
+        "de": "mit Haube; zweiter Bestandteil meist als Taucher gedeutet, Herleitung umstritten",
+        "en": "with a crest; second component usually interpreted as diver, derivation disputed",
+        "nl": "met een kuif; tweede deel meestal uitgelegd als duiker, afleiding omstreden"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 230
+      "uncertain": true,
+      "source": "bou1915"
     },
     "g:Lophophanes": {
       "term": "Lophophanes",
@@ -11693,13 +11743,13 @@
     "g:Molothrus": {
       "term": "Molothrus",
       "text": {
-        "de": "Kampf und Zeugen; künstlich gebildeter griechischer Name",
-        "en": "battle and begetting; an artificially formed Greek name",
-        "nl": "strijd en verwekken; een kunstmatig gevormde Griekse naam"
+        "de": "historisch als ungebetener Gast gedeutet; genaue griechische Wortbildung umstritten",
+        "en": "historically interpreted as an uninvited guest; exact Greek word formation disputed",
+        "nl": "historisch uitgelegd als ongenode gast; precieze Griekse woordvorming omstreden"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 258
+      "uncertain": true,
+      "source": "coues1882",
+      "page": 62
     },
     "g:Monticola": {
       "term": "Monticola",
@@ -11759,13 +11809,13 @@
     "g:Myiopsitta": {
       "term": "Myiopsitta",
       "text": {
-        "de": "Fliegenpapagei; Vergleich mit kleinen Fliegenfängern",
-        "en": "fly parrot; compared with small flycatchers",
-        "nl": "vliegenpapegaai; vergeleken met kleine vliegenvangers"
+        "de": "Mauspapagei; Bezug auf das mausgraue Gefieder trotz irreführender Schreibweise",
+        "en": "mouse parrot; refers to mouse-grey plumage despite the misleading spelling",
+        "nl": "muispapegaai; verwijst naar het muisgrijze verenkleed ondanks de misleidende spelling"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 263
+      "source": "mouchard2019",
+      "page": 230
     },
     "g:Nannopterum": {
       "term": "Nannopterum",
@@ -12397,13 +12447,13 @@
     "g:Plectrophenax": {
       "term": "Plectrophenax",
       "text": {
-        "de": "Ersatzname für Plectrophanes, einen Ammernamen; mit dem Wort für Betrüger gebildet",
-        "en": "replacement for Plectrophanes, a bunting name; formed with the word for impostor",
-        "nl": "vervangende naam voor Plectrophanes, een gorzennaam; gevormd met het woord voor bedrieger"
+        "de": "mit Sporn und Betrüger gebildet; Ersatzname für den Ammernamen Plectrophanes",
+        "en": "formed with spur and impostor; replacement for the bunting name Plectrophanes",
+        "nl": "gevormd met spoor en bedrieger; vervangende naam voor de gorzennaam Plectrophanes"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 310
+      "source": "bou1915",
+      "page": 34
     },
     "g:Plectropterus": {
       "term": "Plectropterus",
@@ -12485,11 +12535,11 @@
     "g:Poicephalus": {
       "term": "Poicephalus",
       "text": {
-        "de": "bunter Kopf",
-        "en": "variegated head",
-        "nl": "bonte kop"
+        "de": "Kopf-Bezug; unter anderem als grau- oder dunkelköpfig gedeutet, genaue Herleitung umstritten",
+        "en": "refers to the head; interpretations include grey- or dark-headed, exact derivation disputed",
+        "nl": "verwijst naar de kop; onder meer uitgelegd als grijs- of donkerkoppig, precieze afleiding omstreden"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 312
     },
@@ -12529,13 +12579,13 @@
     "g:Porzana": {
       "term": "Porzana",
       "text": {
-        "de": "alter venezianischer Name einer kleinen Ralle",
-        "en": "old Venetian name for a small rail",
-        "nl": "oude Venetiaanse naam voor een kleine ral"
+        "de": "übernommener italienischer Rallenname; genaue regionale Herkunft umstritten",
+        "en": "borrowed Italian rail name; precise regional origin disputed",
+        "nl": "overgenomen Italiaanse rallennaam; precieze regionale herkomst omstreden"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 315
+      "uncertain": true,
+      "source": "mouchard2019",
+      "page": 120
     },
     "g:Progne": {
       "term": "Progne",
@@ -13287,13 +13337,13 @@
     "g:Thalasseus": {
       "term": "Thalasseus",
       "text": {
-        "de": "zum Meer gehörig",
-        "en": "of the sea",
-        "nl": "van de zee"
+        "de": "Fischer; griechische Berufsbezeichnung, keine Personenwidmung",
+        "en": "fisherman; a Greek occupational term, not a dedication to a person",
+        "nl": "visser; een Griekse beroepsaanduiding, geen persoonsnaam"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 383
+      "source": "mouchard2019",
+      "page": 160
     },
     "g:Thectocercus": {
       "term": "Thectocercus",
@@ -13452,11 +13502,11 @@
     "g:Uraeginthus": {
       "term": "Uraeginthus",
       "text": {
-        "de": "Schwanzfink",
-        "en": "tail finch",
-        "nl": "staartvink"
+        "de": "Schwanz; mit einem nicht sicher identifizierten antiken Vogelnamen gebildet",
+        "en": "tail; combined with an ancient bird name of uncertain identification",
+        "nl": "staart; gecombineerd met een antieke vogelnaam waarvan de identificatie onzeker is"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 396
     },
@@ -13551,11 +13601,11 @@
     "g:Zapornia": {
       "term": "Zapornia",
       "text": {
-        "de": "Buchstabenumstellung von Porzana, einem Rallennamen",
-        "en": "anagram of Porzana, a rail name",
-        "nl": "anagram van Porzana, een rallennaam"
+        "de": "nach Porzana, einem Rallennamen, umgebildet; kein reines Anagramm",
+        "en": "a reshaping of Porzana, a rail name; not an exact anagram",
+        "nl": "omvorming van Porzana, een rallennaam; geen zuiver anagram"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 413
     },

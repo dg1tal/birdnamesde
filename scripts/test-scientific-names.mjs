@@ -30,13 +30,31 @@ assert(text('Branta sandvicensis').includes('Hawaii'));
 assert(text('Passerculus sandwichensis').includes('Alaska'));
 assert(text('Poicephalus meyeri').includes('Bernhard Meyer'));
 assert(!text('Poicephalus meyeri').includes('Adolf'));
-assert(text('Trochalopteron elliotii').includes('Walter Elliot'));
+assert(text('Trochalopteron elliotii').includes('Daniel Giraud Elliot'));
+assert(!text('Trochalopteron elliotii').includes('Walter Elliot'));
 assert(text('Lophura edwardsi').includes('Alphonse Milne-Edwards'));
 assert(text('Cygnus columbianus').includes('Columbia River'));
 assert(text('Sibirionetta formosa').startsWith('beautiful'));
 assert(text('Euplectes orix').startsWith('rice'));
 assert(text('Stercorarius pomarinus').includes('covered nose'));
 assert(text('Clanga pomarina').includes('Pomerania'));
+// The review separates taxon-specific dedications, disputed histories and grouped variants.
+assert.equal(data.terms['e:elliotii'].source,'gould1873');
+assert.equal(data.terms['e:elliotii'].page,undefined,'Do not retain a Jobling page for a different source');
+assert.equal(data.terms['e:smithsonianus'].source,'coues1862');
+assert.equal(data.terms['e:smithsonianus'].page,300);
+assert.equal(data.terms['e:richardi'].uncertain,false,'New research resolves the former unidentified Richard');
+assert.equal(data.terms['g:Myiopsitta'].source,'mouchard2019');
+assert.equal(data.terms['g:Myiopsitta'].page,230);
+assert.notDeepEqual(data.terms['e:fuscatus'].text,data.terms['e:fuscescens'].text);
+assert.equal(data.terms['e:fuscescens'].text.en,'brownish, becoming dusky');
+for(const key of ['g:Cisticola','g:Aratinga','g:Poicephalus','g:Cyanoliseus','e:plancus','e:atthis','e:cirrocephalus']){
+ assert.equal(data.terms[key].uncertain,true,key);
+ const row=Object.entries(data.species).find(([,s])=>s.parts.includes(key));
+ const target=birds.find(b=>b.id===row[0]);
+ for(const [lang,label] of [['de','Herleitung unsicher'],['en','Derivation uncertain'],['nl','Afleiding onzeker']])
+  assert(renderScientificName(data,target,lang).includes(label),`${key}: ${lang}`);
+}
 assert(renderScientificName(data,bird('Surnia ulula'),'en').includes('Derivation uncertain'));
 for(const lang of ['de','en','nl']){
  assert.equal(explanationLanguage(lang,'en'),lang);
