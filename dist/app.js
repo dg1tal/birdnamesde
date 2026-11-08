@@ -246,7 +246,7 @@ function scientificCodeNote(s){
  const scientific=s.codes.some(code=>s.scientificCodes?.includes(code));
  const banding=s.codes.includes(s.bandingCode);
  const common=s.codes.some(code=>!s.scientificCodes?.includes(code)&&code!==s.bandingCode);
- return note+`<p class="muted code-legend">${scientific?`<span class="code code-scientific">${english?'scientific':'wissenschaftlich'}</span>`:''}${banding?`<span class="code code-banding">${english?'banding':'Beringung'}</span>`:''}${common?`<span class="code">${english?'eBird (English)':'eBird (engl.)'}</span>`:''}<span class="code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</span></p>`;
+ return note+`<p class="muted code-legend">${scientific?`<span class="code code-scientific">${english?'scientific':'wissenschaftlich'}</span>`:''}${banding?`<span class="code code-banding">${english?'banding':'Beringung'}</span>`:''}${common?`<span class="code">eBird</span>`:''}<span class="code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</span></p>`;
 }
 
 function lookupAliases(s,language){

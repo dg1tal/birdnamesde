@@ -93,7 +93,7 @@ for(const english of [false,true]){
  assert.match(legend,/<span class="code code-banding">/);
  assert(legend.includes(english?'>scientific</span>':'>wissenschaftlich</span>'));
  assert(legend.includes(english?'>banding</span>':'>Beringung</span>'));
- assert(legend.includes(english?'>eBird (English)</span>':'>eBird (engl.)</span>'));
+ assert(legend.includes('>eBird</span>'));
  assert(!/Purple:|Teal|Violett:|Türkis/.test(legend));
  assert(legend.includes(english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'));
 }
