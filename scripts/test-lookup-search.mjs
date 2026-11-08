@@ -38,7 +38,8 @@ assert.deepEqual(searchLookup(fixtures,'merel').map(hit=>[hit.species.id,hit.ran
 const app=readFileSync('dist/app.js','utf8');
 const render=app.slice(app.indexOf('function lookupHitList('),app.indexOf('\nfunction lookup()'));
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const context=vm.createContext({english:false,ui:{lookup:{mainLanguage:'de'}},lookupTitle,languageLabel,primaryName,contentLanguage,esc,card:s=>`<article>${esc(s.id)}</article>`});
+const context=vm.createContext({english:false,ui:{lookup:{mainLanguage:'de'}},lookupTitle,languageLabel,primaryName,contentLanguage,esc,birds,card:s=>`<article>${esc(s.id)}</article>`});
+vm.runInContext(app.slice(app.indexOf('function codeBadge('),app.indexOf('function lookupAliases(')),context);
 vm.runInContext(render,context);
 const markup=context.lookupHitList(searchLookup(birds,'merel'));
 assert(markup.includes('Niederländisch:'));assert(markup.includes('lang="nl">Merel</strong>'));assert(markup.includes('<details class="lookup-hit"'));assert(markup.includes('Exakte Treffer'));
@@ -50,3 +51,9 @@ const exact=context.lookupHitList(searchLookup(birds,'Amsel'));
 assert(!exact.includes('lang="de">Amsel</strong>'),'Identical title does not repeat as a reason');
 assert(exact.includes('Goldamsel'),'Different alias remains visible');
 assert(exact.includes('role="heading" aria-level="3"'),'Species title remains a heading');
+
+for(const [species,type] of [['Anadyrknutt','code-scientific'],['Raubseeschwalbe','code-banding'],['Fahlente','code-common']]){
+ const hit=searchLookup(birds,'CATE').find(hit=>hit.species.de===species);
+ const result=context.lookupHitList([hit]);
+ assert(result.includes(type),species+' search match has its own code colour');
+}
