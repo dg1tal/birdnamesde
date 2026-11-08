@@ -52,8 +52,12 @@ assert(!exact.includes('lang="de">Amsel</strong>'),'Identical title does not rep
 assert(exact.includes('Goldamsel'),'Different alias remains visible');
 assert(exact.includes('role="heading" aria-level="3"'),'Species title remains a heading');
 
-for(const [species,type] of [['Anadyrknutt','code-scientific'],['Raubseeschwalbe','code-banding'],['Fahlente','code-common']]){
- const hit=searchLookup(birds,'CATE').find(hit=>hit.species.de===species);
- const result=context.lookupHitList([hit]);
- assert(result.includes(type),species+' search match has its own code colour');
+for(const english of [false,true]){
+ context.english=english;
+ for(const [species,type,label] of [['Anadyrknutt','code-scientific',english?'Scientific':'Wissenschaftlich'],['Raubseeschwalbe','code-banding',english?'Banding':'Beringung'],['Fahlente','code-common','eBird']]){
+  const hit=searchLookup(birds,'CATE').find(hit=>hit.species.de===species);
+  const result=context.lookupHitList([hit]);
+  assert(result.includes(type),species+' search match has its own code colour');
+  assert(result.includes(`<span>${label}:</span>`),species+' search match uses the short bilingual origin label');
+ }
 }
