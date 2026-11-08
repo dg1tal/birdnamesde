@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
-import {answerSpecies} from '../dist/logic.js';
+import {normalize,answerSpecies} from '../dist/logic.js';
 import {primaryName,acceptedNames,languageLabel} from '../dist/name-languages.js';
 const birds=JSON.parse(readFileSync('dist/species.json')).species;
 const dutch=JSON.parse(readFileSync('dist/languages/nl.json')).species;
@@ -26,7 +26,7 @@ const context={birds,answerSpecies,esc:escape,english:false,Date,
  lessonProgress:()=>({completed:1}),lessonProgressMarkup:()=>'',lessonProgressText:()=>({}),
  contentLanguage:code=>code==='sci'?'la':code,
  nameMarkup:(bird,code)=>`<span data-name-content lang="${code==='sci'?'la':code}">${escape(primaryName(bird,code))}</span>`,
- nameAnswerMarkup:()=>'<b>Correct answer</b>',studyDetailsMarkup:()=>'<p>Species reference</p>',scientificNameMarkup:()=>'',germanNames:()=>'',ebirdLink:()=>'',
+ knownCodeMarkup:value=>escape(value),nameAnswerMarkup:()=>'<b>Correct answer</b>',studyDetailsMarkup:()=>'<p>Species reference</p>',scientificNameMarkup:()=>'',germanNames:()=>'',ebirdLink:()=>'',
  questionReasonText:()=>'',regionalQuestionNote:()=>'',progress:()=>({}),evidenceText:()=>'',scheduleText:()=>'',
  observeStudyActions(){},focusHeading(){}
 };
@@ -52,7 +52,7 @@ console.log('PASS: wrong-answer species, aliases, codes, Dutch/scientific source
 // Exercise the shared production card helpers with real accepted names and editorial metadata.
 const german=JSON.parse(readFileSync('dist/german-names.json')).species;
 for(const bird of birds)bird.germanNames=german[bird.id]?.names||[];
-const markupContext={birds,english:false,esc:escape,primaryName,acceptedNames,languageLabel,
+const markupContext={birds,normalize,english:false,esc:escape,primaryName,acceptedNames,languageLabel,
  contentLanguage:context.contentLanguage,t:s=>s,ebirdLink:()=>'',nameOrigins:null,renderScientificName:()=>''};
 vm.createContext(markupContext);
 vm.runInContext(source.slice(source.indexOf('function scientificNameMarkup('),source.indexOf('function lookupNameList(')),markupContext);
@@ -69,7 +69,7 @@ for(const bird of birds){
  for(const answer of [false,true]){
   const codes=markupContext.codeGroups(bird,answer);
   for(const code of bird.codes){
-   assert.equal(codes.split(`<span data-name-content>${code}</span>`).length-1,1,'Each code appears once');
+   assert.equal(codes.replace(/<details class="code-collisions">[\s\S]*?<\/details>/g,'').split(`<span data-name-content>${code}</span>`).length-1,1,'Each code appears once');
    const others=birds.filter(b=>b.id!==bird.id&&b.codes.includes(code));
    const item=codes.split('class="species-code-item"').find(item=>item.includes(`<span data-name-content>${code}</span>`));
    assert.equal(item.includes('class="code-collisions"'),others.length>0);
@@ -91,7 +91,7 @@ const details=markupContext.studyDetailsMarkup(editorial,'de','de');
 assert.match(details,/Historische deutsche Namen.*Old name/s);assert.match(details,/Ambiguous.*mehrdeutig/s);
 const dual={...blackbird,id:'dual',codes:['TEST'],scientificCodes:['TEST'],scientificCodeName:'<script>',bandingCode:'TEST'};
 const dualCodes=markupContext.codeGroups(dual);
-assert.equal(dualCodes.split('<span data-name-content>TEST</span>').length-1,1);
+assert.equal(dualCodes.replace(/<details class="code-collisions">[\s\S]*?<\/details>/g,'').split('<span data-name-content>TEST</span>').length-1,1);
 assert.match(dualCodes,/Auch Beringungscode/);assert.match(dualCodes,/&lt;script&gt;/);assert(!dualCodes.includes('<script>'));
 for(const english of [false,true]){
  markupContext.english=english;
@@ -112,9 +112,29 @@ for(const target of ['en','de','sci','nl','code']){
  assert(compact.includes('species-codes-compact'));
  assert(!compact.includes('code-group-label'),'Study codes have no provenance headings');
  assert(!answer.includes('Also accepted:')&&!answer.includes('Ebenfalls akzeptiert:'));
- for(const code of blackbird.codes)assert.equal(compact.split(`<span data-name-content>${code}</span>`).length-1,1);
+ for(const code of blackbird.codes)assert.equal(compact.replace(/<details class="code-collisions">[\s\S]*?<\/details>/g,'').split(`<span data-name-content>${code}</span>`).length-1,1);
 }
 const common=markupContext.codeMarkup(blackbird,'COBL');assert(common.includes('code-common'));
 const styles=readFileSync('dist/style.css','utf8');
-assert.match(styles,/\.code-common\{background:#[a-f0-9]+;color:/);
-assert.match(styles,/body\.dark \.code-common\{background:#[a-f0-9]+;color:/);
+assert(styles.includes('.code-common{background:var(--common-bg);color:var(--common-ink)'));
+assert(styles.includes('--common-bg:#4a4226;--common-ink:#f4e7b9;'));
+
+// The same letters can have a different origin for each species.
+const knot=birds.find(b=>b.de==='Anadyrknutt');
+const cate=markupContext.codeGroups(knot,false,true);
+assert.match(cate,/code-collision-origin.*code-scientific/s);
+for(const [name,type] of [['Raubseeschwalbe','code-banding'],['Fahlente','code-common']]){
+ const row=cate.split('class="code-collision-species"').find(part=>part.includes(`>${name}</span>`));
+ assert(row.includes(type),`${name}: collision uses that species' own code origin`);
+}
+for(const value of ['CATE','cate','CaTe']){
+ const html=markupContext.knownCodeMarkup(value);
+ for(const type of ['code-scientific','code-banding','code-common'])assert(html.includes(type));
+ assert(html.includes(`>${value}</span>`),'Preserve the submitted spelling');
+ assert(!html.includes('Anadyrknutt'),'Choices do not disclose species names');
+}
+assert.equal(markupContext.knownCodeMarkup('<script>'),'&lt;script&gt;');
+assert(markupContext.knownCodeMarkup('TUME').includes('code-scientific'));
+assert(markupContext.knownCodeMarkup('EUBB').includes('code-banding'));
+assert(markupContext.knownCodeMarkup('COBL').includes('code-common'));
+console.log('PASS: per-species collision origins, all three colours for ambiguous context-free codes, safe unknown answers and no species hints in code choices.');

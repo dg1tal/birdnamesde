@@ -245,6 +245,17 @@ function studyDetailsMarkup(s,target,sourceLanguage){
 }
 function englishNames(s){return `<p class="english">${s.enGB?'<span class="variant-label">US</span> ':''}${nameMarkup(s,'en')}</p>${nameVariants(s,'en')}`;}
 
+function codeBadge(code,{scientific=false,banding=false,common=false},title,answer=false){
+ return `<span class="code${answer?' answer-code':''}${banding?' code-banding':''}${scientific?' code-scientific':''}${common?' code-common':''}" title="${esc(title)}"><span class="sr">${esc(title)}: </span><span data-name-content>${esc(code)}</span></span>`;
+}
+// A code without a species context can have several origins; do not guess one.
+function knownCodeMarkup(value){
+ const code=normalize(value).toUpperCase(),matching=birds.filter(b=>b.codes.includes(code));
+ if(!matching.length)return esc(value);
+ const scientific=matching.some(b=>b.scientificCodes?.includes(code)),banding=matching.some(b=>b.bandingCode===code),common=matching.some(b=>!b.scientificCodes?.includes(code)&&b.bandingCode!==code);
+ const label=[scientific?(english?'Scientific code':'Wissenschaftlicher Kurzcode'):'',banding?(english?'Banding code':'Beringungscode'):'',common?(english?'eBird code from English name':'eBird-Code aus englischem Namen'):''].filter(Boolean).join(' · ');
+ return codeBadge(value,{scientific,banding,common},label);
+}
 function codeMarkup(s,code,answer=false){
  const scientific=s.scientificCodes?.includes(code),banding=s.bandingCode===code;
  const labels=[];
@@ -254,13 +265,13 @@ function codeMarkup(s,code,answer=false){
  const others=birds.filter(b=>b.id!==s.id&&b.codes.includes(code));
  if(others.length)labels.push((english?'Also refers to other species in the catalogue: ':'Bezeichnet auch andere Arten im Katalog: ')+others.map(b=>english?b.en:b.de).join(', '));
  const title=labels.join(' · ');
- return `<span class="code${answer?' answer-code':''}${banding?' code-banding':''}${scientific?' code-scientific':''}${!scientific&&!banding?' code-common':''}" title="${esc(title)}"><span class="sr">${esc(title)}: </span><span data-name-content>${esc(code)}</span></span>`;
+ return codeBadge(code,{scientific,banding,common:!scientific&&!banding},title,answer);
 }
 function codeGroups(s,answer=false,compact=false){
  const definitions=[['scientific',english?'Scientific quick codes':'Wissenschaftliche Kurzcodes'],['banding',english?'Banding codes':'Beringungscodes'],['common',english?'eBird codes from English names':'eBird-Codes aus englischen Namen']];
  const collisionList=codes=>codes.map(code=>{
   const others=birds.filter(b=>b.id!==s.id&&b.codes.includes(code));
-  return others.length?`<li><span class="collision-code" data-name-content>${esc(code)}</span>: ${others.map(b=>nameMarkup(b,english?'en':'de')).join(' · ')}</li>`:'';
+  return others.length?`<li class="code-collision-origin">${codeMarkup(s,code)}<ul>${others.map(b=>`<li class="code-collision-species">${codeMarkup(b,code)} ${nameMarkup(b,english?'en':'de')}</li>`).join('')}</ul></li>`:'';
  }).join('');
  const collisions=codes=>{const list=collisionList(codes);return list?`<details class="code-collisions"><summary>${english?'Also for other species':'Auch für andere Arten'}</summary><ul>${list}</ul></details>`:'';};
  const groups=compact?`<div class="species-code-items">${s.codes.map(code=>codeMarkup(s,code,answer)).join('')}</div>${collisions(s.codes)}`:definitions.map(([type,label])=>{
@@ -349,7 +360,7 @@ function lookupHitList(hits){
   const seenLanguages=new Set();
   const reasons=hit.matches.filter(match=>{if(match.value===title)return false;if(hit.rank===3)return true;if(seenLanguages.has(match.language))return false;seenLanguages.add(match.language);return true;}).map(match=>{
    const label=match.language==='code'?(s.scientificCodes?.includes(match.value)?(english?'Scientific code':'Wissenschaftlicher Code'):s.bandingCode===match.value?(english?'Banding code':'Beringungscode'):(english?'eBird code':'eBird-Code')):languageLabel(match.language,english?'en':'de');
-   return `<span class="lookup-hit-reason"><span>${esc(label)}:</span> <strong data-name-content lang="${match.language==='sci'?'la':match.language==='code'?'en':match.language}">${esc(match.value)}</strong></span>`;
+   return `<span class="lookup-hit-reason"><span>${esc(label)}:</span> ${match.language==='code'?codeMarkup(s,match.value):`<strong data-name-content lang="${match.language==='sci'?'la':match.language}">${esc(match.value)}</strong>`}</span>`;
   }).join('');
   return heading+`<details class="lookup-hit" data-hit-id="${esc(s.id)}" data-hit-index="${index}"><summary><span class="lookup-hit-heading-name"><span class="card-language-label">${esc(languageLabel(primaryName(s,ui.lookup.mainLanguage)?ui.lookup.mainLanguage:'sci',english?'en':'de'))}${ui.lookup.mainLanguage==='en'&&s.enGB?' · US':''}</span><span class="lookup-hit-title" role="heading" aria-level="3" data-name-content lang="${primaryName(s,ui.lookup.mainLanguage)?contentLanguage(ui.lookup.mainLanguage):'la'}">${esc(title)}</span></span>${reasons?`<span class="lookup-hit-reasons">${reasons}</span>`:''}<span class="lookup-hit-action">${english?'Species details':'Artendetails'}</span></summary>${card(s,true)}</details>`;
  }).join('');
@@ -733,7 +744,7 @@ function renderQuestion() {
     const showChoices=async()=>{
       item.optionsVisible=true;await save();
       if(session!==x||x.done||x.queue[x.index]!==item||!area.isConnected)return;
-      area.innerHTML='<div class="choices" role="group" aria-label="'+(english?'Choose an answer':'Antwort auswählen')+'" aria-describedby="question-name question-context question-attempt">'+item.choices.map((v,i)=>`<button data-choice="${i}" data-name-content lang="${esc(contentLanguage(item.t))}">${esc(v)}</button>`).join('')+'</div><div class="study-actions"><button id="unknown">'+(english?'I don’t know':'Weiß ich nicht')+'</button></div>';
+      area.innerHTML='<div class="choices" role="group" aria-label="'+(english?'Choose an answer':'Antwort auswählen')+'" aria-describedby="question-name question-context question-attempt">'+item.choices.map((v,i)=>`<button data-choice="${i}" data-name-content lang="${esc(contentLanguage(item.t))}">${item.t==='code'?knownCodeMarkup(v):esc(v)}</button>`).join('')+'</div><div class="study-actions"><button id="unknown">'+(english?'I don’t know':'Weiß ich nicht')+'</button></div>';
       document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>finish(accepts(s,item.t,item.choices[+b.dataset.choice]),s,item,item.choices[+b.dataset.choice]));
       $('#unknown').onclick=()=>finish(false,s,item,english?'I don’t know':'Weiß ich nicht');
       focusElement(area.querySelector('[data-choice]'));observeStudyActions();
@@ -760,7 +771,7 @@ function renderFeedback(s,item) {
   const answerMeaning=explainAnswer?`<p class="your-answer" id="feedback-answer-meaning"><span class="muted">${english?'Your answer would be:':'Deine Antwort wäre:'}</span> ${answerNames.length?answerNames.join(' / '):english?'No matching species found.':'Keine passende Art gefunden.'}</p>`:'';
   $('#lesson-progress').innerHTML=lessonProgressMarkup(x);
   const bar=$('progress');bar.value=p.completed;bar.setAttribute('aria-valuetext',lessonProgressText(p,english).primary+'. '+lessonProgressText(p,english).pending);
-  $('#feedback').innerHTML=`<div class="feedback"><div class="feedback-result"><h2 class="${correct?'good':'bad'}" tabindex="-1" aria-describedby="${x.method!=='flash'?'feedback-your-answer ':''}${explainAnswer?'feedback-answer-meaning ':''}feedback-accepted">${correct?'✓ Richtig.':'Noch nicht richtig.'}</h2>${x.method!=='flash'?`<p class="your-answer" id="feedback-your-answer"><span class="muted">Deine Antwort:</span> <span data-name-content lang="${esc(contentLanguage(item.t))}">${esc(answer)}</span></p>`:''}${answerMeaning}</div><div class="feedback-answer" id="feedback-accepted"><p class="answer-label">${item.t==='code'?(english?(s.codes.length>1?'Accepted eBird entry codes':'Accepted eBird entry code'):(s.codes.length>1?'Akzeptierte eBird-Kurzcodes':'Akzeptierter eBird-Kurzcode')):item.t==='sci'?(english?'Scientific name':'Wissenschaftlicher Name'):'Akzeptierte Namen'}</p> ${nameAnswerMarkup(s,item.t)}</div><div class="feedback-details">${studyDetailsMarkup(s,item.t,x.sourceLanguage)}</div>${x.photos?photoMarkup(s,true):''}<details class="question-explanation" id="feedback-learning"><summary>${english?'Why am I seeing this bird?':'Warum sehe ich diesen Vogel?'}</summary><div class="learning-feedback"><p>${esc(questionReasonText(item,english))}</p>${regionalQuestionNote(x,s.id,true)}${item.retry?`<p class="muted">${esc(attemptText(item.retry,english))}</p>`:''}<p>${esc(evidenceText(progress(s,item.t,x),x.method,english))}</p><p class="muted review-schedule">${esc(scheduleText(progress(s,item.t,x),Date.now(),english)+(x.hint?(english?' Answered with support.':' Mit Unterstützung beantwortet.'):''))}</p><p><a href="#lernmethode">${english?'How learning works':'So funktioniert das Lernen'}</a></p></div></details><div class="study-actions"><button id="next" class="primary">Weiter →</button></div></div>`;
+  $('#feedback').innerHTML=`<div class="feedback"><div class="feedback-result"><h2 class="${correct?'good':'bad'}" tabindex="-1" aria-describedby="${x.method!=='flash'?'feedback-your-answer ':''}${explainAnswer?'feedback-answer-meaning ':''}feedback-accepted">${correct?'✓ Richtig.':'Noch nicht richtig.'}</h2>${x.method!=='flash'?`<p class="your-answer" id="feedback-your-answer"><span class="muted">Deine Antwort:</span> <span data-name-content lang="${esc(contentLanguage(item.t))}">${item.t==='code'?knownCodeMarkup(answer):esc(answer)}</span></p>`:''}${answerMeaning}</div><div class="feedback-answer" id="feedback-accepted"><p class="answer-label">${item.t==='code'?(english?(s.codes.length>1?'Accepted eBird entry codes':'Accepted eBird entry code'):(s.codes.length>1?'Akzeptierte eBird-Kurzcodes':'Akzeptierter eBird-Kurzcode')):item.t==='sci'?(english?'Scientific name':'Wissenschaftlicher Name'):'Akzeptierte Namen'}</p> ${nameAnswerMarkup(s,item.t)}</div><div class="feedback-details">${studyDetailsMarkup(s,item.t,x.sourceLanguage)}</div>${x.photos?photoMarkup(s,true):''}<details class="question-explanation" id="feedback-learning"><summary>${english?'Why am I seeing this bird?':'Warum sehe ich diesen Vogel?'}</summary><div class="learning-feedback"><p>${esc(questionReasonText(item,english))}</p>${regionalQuestionNote(x,s.id,true)}${item.retry?`<p class="muted">${esc(attemptText(item.retry,english))}</p>`:''}<p>${esc(evidenceText(progress(s,item.t,x),x.method,english))}</p><p class="muted review-schedule">${esc(scheduleText(progress(s,item.t,x),Date.now(),english)+(x.hint?(english?' Answered with support.':' Mit Unterstützung beantwortet.'):''))}</p><p><a href="#lernmethode">${english?'How learning works':'So funktioniert das Lernen'}</a></p></div></details><div class="study-actions"><button id="next" class="primary">Weiter →</button></div></div>`;
   if(x.photos){mountStudyPhoto(s);observeStudyPhotoLayout();}
   $('#next').onclick=()=>{if(!x.done||session!==x)return;x.index++;x.done=false;x.hint=false;x.result=null;x.draft='';x.revealed=false;if(x.index>=x.queue.length)endLesson();else{save();renderQuestion();}};
   observeStudyActions();focusHeading('#feedback h2');

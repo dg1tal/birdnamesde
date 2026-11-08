@@ -1,7 +1,7 @@
-:root{--bg:#f4f5ef;--panel:#fff;--ink:#213c36;--muted:#52685f;--line:#d9e1d8;--accent:#2c6551;--soft:#e6eee4;--sci-bg:#ede6fa;--sci-ink:#513080;--bad:#a33232;--good:#21613f;color-scheme:light}
+:root{--bg:#f4f5ef;--panel:#fff;--ink:#213c36;--muted:#52685f;--line:#d9e1d8;--accent:#2c6551;--soft:#e6eee4;--sci-bg:#ede6fa;--sci-ink:#513080;--band-bg:#d8f3f1;--band-ink:#075a59;--common-bg:#f6edcf;--common-ink:#645220;--bad:#a33232;--good:#21613f;color-scheme:light}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,sans-serif}
-body.dark{--bg:#14221f;--panel:#1e302a;--ink:#eff4ed;--muted:#bed0c5;--line:#40574d;--accent:#b2d6b5;--soft:#2b4337;--sci-bg:#403153;--sci-ink:#ecdafe;--bad:#ffb5ae;--good:#9ed5ac;color-scheme:dark}
+body.dark{--bg:#14221f;--panel:#1e302a;--ink:#eff4ed;--muted:#bed0c5;--line:#40574d;--accent:#b2d6b5;--soft:#2b4337;--sci-bg:#403153;--sci-ink:#ecdafe;--band-bg:#174746;--band-ink:#b2eee7;--common-bg:#4a4226;--common-ink:#f4e7b9;--bad:#ffb5ae;--good:#9ed5ac;color-scheme:dark}
 header,nav,main,footer{max-width:1120px;margin:auto;padding-left:24px;padding-right:24px}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:16px;padding-bottom:10px}
 .brand{display:inline-flex;align-items:center;color:var(--ink);font-size:22px;font-weight:750;letter-spacing:-.7px;text-decoration:none;white-space:nowrap}
@@ -540,8 +540,7 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
 .lookup-pagination{grid-column:1/-1;text-align:center;margin:12px 0}
 @media(max-width:580px){.lookup-primary-controls{gap:4px}.lookup-country,.lookup-name-options{flex-basis:100%;max-width:none}.lookup-name-options{padding-top:8px}}
 
-.code-banding{background:#d8f3f1;color:#075a59;box-shadow:inset 0 0 0 1px currentColor}
-body.dark .code-banding{background:#174746;color:#b2eee7}
+.code-banding{background:var(--band-bg);color:var(--band-ink);box-shadow:inset 0 0 0 1px currentColor}
 .code-scientific,body.dark .code-scientific{background:var(--sci-bg);color:var(--sci-ink);box-shadow:inset 0 0 0 1px currentColor}
 .code-legend{display:flex;flex-wrap:wrap;gap:5px;font-size:12px;line-height:1.5;margin:6px 0 12px}
 .code-legend .code{font:500 12px/1.5 system-ui,sans-serif;letter-spacing:0;padding:2px 6px;border-radius:4px;white-space:normal}
@@ -630,12 +629,24 @@ body.studying #revealed-answer .photo-set .bird-photo img{height:280px;object-fi
 @media(max-width:359px){#lookup-filter-options .lookup-filters,#lookup-filter-options .region-settings .settings{grid-template-columns:1fr}}
 
 /* The same badges retain visible backgrounds on lookup and feedback surfaces. */
-.code-common{background:#f6edcf;color:#645220;box-shadow:inset 0 0 0 1px currentColor}
-body.dark .code-common{background:#4a4226;color:#f4e7b9}
+.code-common{background:var(--common-bg);color:var(--common-ink);box-shadow:inset 0 0 0 1px currentColor}
 body.studying .species-codes-compact{display:flex;flex-direction:column;flex-wrap:nowrap;gap:8px;text-align:center;align-items:center}
 .species-codes-compact .species-code-items{justify-content:center;gap:8px}
 .species-codes-compact .code-collisions{max-width:100%;text-align:left}
-.species-codes-compact .collision-code{font:700 13px ui-monospace,monospace}
 @media(forced-colors:active){.code-common{outline:1px solid CanvasText}}
 
 .species-codes-compact .code-legend-note{flex-basis:auto;max-width:100%}
+
+/* Context-free answers may refer to more than one code origin. */
+.code.code-scientific.code-banding{background:linear-gradient(90deg,var(--sci-bg) 50%,var(--band-bg) 50%);color:var(--ink)}
+.code.code-scientific.code-common{background:linear-gradient(90deg,var(--sci-bg) 50%,var(--common-bg) 50%);color:var(--ink)}
+.code.code-banding.code-common{background:linear-gradient(90deg,var(--band-bg) 50%,var(--common-bg) 50%);color:var(--ink)}
+.code.code-scientific.code-banding.code-common{background:linear-gradient(90deg,var(--sci-bg) 33.33%,var(--band-bg) 33.33%,var(--band-bg) 66.67%,var(--common-bg) 66.67%);color:var(--ink)}
+.code-collisions .code,body.studying .species-codes.answer-main .code-collisions .code,.lookup-hit-reason .code{font-size:14px;letter-spacing:.7px;padding:3px 6px}
+.code-collisions>ul{list-style:none;padding-left:0}
+.code-collision-origin>ul{list-style:none;padding-left:12px;border-left:2px solid var(--line);margin:8px 0 12px}
+.code-collision-species{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 8px}
+.code-collision-species>.code{flex-shrink:0}
+.code-collision-species>span[data-name-content]{min-width:0;overflow-wrap:anywhere}
+.lookup-hit-reason{display:inline-flex;align-items:center;gap:5px}
+.choices button .code{pointer-events:none}
