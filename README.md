@@ -2,7 +2,40 @@
 
 Public, buildless, browser-local bird-name dictionary and spaced-repetition trainer. No runtime dependencies, analytics, server database, or authentication. The GitHub Pages workflow publishes `dist/`; `.openai/hosting.json` retains the separate Sites hosting identity.
 
-Documentation reviewed against the repository on 5 November 2026. UI labels below use the English interface. Dated reports in `docs/` retain their release-specific verification results; later changes are noted where they supersede earlier behavior.
+Documentation reviewed against the repository on 5 November 2026. Documentation uses English UI labels; the mobile gallery shows the German interface. Dated reports in `docs/` retain their release-specific verification results; later changes are noted where they supersede earlier behavior.
+
+## Features on mobile
+
+[Open BirdNames DE](https://dg1tal.github.io/birdnamesde/) to look up bird names or start a learning round in your browser.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Find names across languages</h3>
+      <p>Search names and codes, then open a species to compare German, English, Dutch and scientific names.</p>
+      <a href="docs/screenshots/mobile-lookup.jpg"><img src="docs/screenshots/mobile-lookup.jpg" width="280" alt="Mobile lookup for Blaumeise, showing Eurasian Blue Tit, Pimpelmees and Cyanistes caeruleus"></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Build a daily learning habit</h3>
+      <p>Choose your region, season and languages. Daily rounds introduce a few new targets and bring back scheduled reviews.</p>
+      <a href="docs/screenshots/mobile-daily-learning.jpg"><img src="docs/screenshots/mobile-daily-learning.jpg" width="280" alt="Mobile daily learning setup for German to English, with autumn species from Germany and three new names today"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Practise active recall</h3>
+      <p>Think first, then reveal the choices. Text input, flashcards and direct multiple choice are also available.</p>
+      <a href="docs/screenshots/mobile-practice.jpg"><img src="docs/screenshots/mobile-practice.jpg" width="280" alt="Mobile German-to-English practice question for Stockente with four answer choices and round progress"></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Keep track of your progress</h3>
+      <p>See started species, secure learning targets and due reviews by language and method. Back up or restore your browser-local progress.</p>
+      <a href="docs/screenshots/mobile-progress.jpg"><img src="docs/screenshots/mobile-progress.jpg" width="280" alt="Mobile learning statistics after a three-species example round, with language and method selectors and a backup action"></a>
+    </td>
+  </tr>
+</table>
+
+Screenshots captured from the running app on 8 November 2026 in the German interface, using a 430 × 932 CSS-pixel iPhone-sized viewport. The statistics show a completed three-question example round. Tap or click an image to view it at full size.
 
 ## License and third-party material
 
