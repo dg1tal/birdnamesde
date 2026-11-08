@@ -1,3 +1,4 @@
+import {scientificNameAliases} from '../dist/scientific-name-aliases.js';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
@@ -29,7 +30,7 @@ const source=readFileSync('dist/app.js','utf8');
 const render=source.slice(source.indexOf('function nameMarkup('),source.indexOf('\nfunction lookupCountryControl('));
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const ui={lookup:{mainLanguage:'de',nameLanguages:['de','en','nl','sci'],region:'DE'}};
-const context=vm.createContext({birds,ui,NAME_LANGUAGES,lookupTitle,lookupLanguages,showGermanStatus,primaryName,acceptedNames,languageLabel,esc,contentLanguage:l=>l==='sci'?'la':l,ebirdLink:()=>'',
+const context=vm.createContext({scientificNameAliases,birds,ui,NAME_LANGUAGES,lookupTitle,lookupLanguages,showGermanStatus,primaryName,acceptedNames,languageLabel,esc,contentLanguage:l=>l==='sci'?'la':l,ebirdLink:()=>'',
  english:false,lookupPhotos:false,scientificNameMarkup:()=>'',t:s=>s,nameMarkup:(s,l)=>`<span data-name-content lang="${l==='sci'?'la':l}">${esc(primaryName(s,l))}</span>`});
 vm.runInContext(render,context);
 const jay=context.card(birds.find(s=>s.id==='eurjay1'));

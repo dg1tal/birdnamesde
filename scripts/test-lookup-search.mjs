@@ -6,6 +6,7 @@ import {matches} from '../dist/logic.js';
 import {lookupTitle} from '../dist/lookup-settings.js';
 import {primaryName,languageLabel} from '../dist/name-languages.js';
 import {contentLanguage} from '../dist/accessibility.js';
+import {SCIENTIFIC_NAME_ALIASES,scientificNameAliases} from '../dist/scientific-name-aliases.js';
 const birds=JSON.parse(readFileSync('dist/species.json')).species;
 const nl=JSON.parse(readFileSync('dist/languages/nl.json')).species;
 const german=JSON.parse(readFileSync('dist/german-names.json')).species;
@@ -38,7 +39,7 @@ assert.deepEqual(searchLookup(fixtures,'merel').map(hit=>[hit.species.id,hit.ran
 const app=readFileSync('dist/app.js','utf8');
 const render=app.slice(app.indexOf('function lookupHitList('),app.indexOf('\nfunction lookup()'));
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const context=vm.createContext({english:false,ui:{lookup:{mainLanguage:'de'}},lookupTitle,languageLabel,primaryName,contentLanguage,esc,birds,card:s=>`<article>${esc(s.id)}</article>`});
+const context=vm.createContext({english:false,ui:{lookup:{mainLanguage:'de'}},lookupTitle,languageLabel,primaryName,contentLanguage,scientificNameAliases,esc,birds,nameMarkup:s=>esc(s.de),card:s=>`<article>${esc(s.id)}</article>`});
 vm.runInContext(app.slice(app.indexOf('function codeBadge('),app.indexOf('function lookupAliases(')),context);
 vm.runInContext(render,context);
 const markup=context.lookupHitList(searchLookup(birds,'merel'));
@@ -61,3 +62,30 @@ for(const english of [false,true]){
   assert(result.includes(`<span>${label}:</span>`),species+' search match uses the short bilingual origin label');
  }
 }
+
+assert.equal(SCIENTIFIC_NAME_ALIASES.length,11);
+for(const [id,oldName,newName] of SCIENTIFIC_NAME_ALIASES){
+ const bird=birds.find(b=>b.id===id);
+ assert.equal(bird.sci,oldName);assert.equal(bird.scientificCodeName,newName);
+ for(const query of [newName,newName.toUpperCase(),newName.toLowerCase()]){
+  const hit=searchLookup(birds,query).find(h=>h.species.id===id);
+  assert.equal(hit?.rank,0,query+' exact synonym');
+  assert(hit.matches.some(m=>m.language==='sci'&&m.value===newName&&m.source==='eBird/Clements 2026'));
+  assert(matches(bird,query),'Filter help finds the same synonym');
+ }
+ for(const english of [false,true]){
+  context.english=english;
+  const markup=context.lookupHitList(searchLookup([bird],newName));
+  assert(markup.includes('eBird/Clements 2026'));assert(markup.includes('lang="la"'));
+  const details=context.codeGroups(bird);
+  assert(details.includes(english?'Same species':'Dieselbe Art'));assert(details.includes(oldName));assert(details.includes(newName));
+ }
+}
+const wren=birds.find(b=>b.id==='winwre4');
+assert.equal(searchLookup(birds,'Nannus hiemalis').length,0,'Do not conflate Winter Wren');
+assert.equal(searchLookup([wren],'Nannus troglodytes').length,1);
+assert.equal(searchLookup(birds.filter(b=>b.id!==wren.id),'Nannus troglodytes').length,0,'Search preserves the filtered pool');
+assert.deepEqual(scientificNameAliases({...wren,sci:'unexpected'}),[]);
+assert.deepEqual(scientificNameAliases({...wren,scientificCodeName:'Nannus hiemalis'}),[]);
+for(const id of ['spofly1','eurrob1','grhowl'])assert.deepEqual(scientificNameAliases(birds.find(b=>b.id===id)),[],'No inferred synonyms across concept changes');
+console.log('PASS: all eleven reviewed scientific synonyms, exact provenance, filter parity, bilingual notes and no inferred species equivalence.');

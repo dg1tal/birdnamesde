@@ -146,6 +146,9 @@ Lernstand importiert.|Progress imported.
 Import in dieser Ansicht geladen, aber nicht dauerhaft gespeichert. Bitte Sicherung behalten.|Import loaded, but could not be saved. Please keep your backup.
 Import fehlgeschlagen:|Import failed:
 Datei ist zu groß (maximal 5 MB).|File is too large (maximum 5 MB).
+Die Sicherung ist zu groß (entpackt maximal 128 MiB).|The backup is too large (maximum 128 MiB after decompression).
+Die Gzip-Sicherung ist beschädigt oder kein gültiges Gzip.|The gzip backup is damaged or is not valid gzip.
+Dieser Browser kann Gzip nicht öffnen. Bitte die Datei zuerst entpacken und die JSON-Datei wählen.|This browser cannot open gzip. Please decompress the file first and select the JSON file.
 Der Browser kann den Lernstand gerade nicht dauerhaft speichern. Bitte exportiere ihn vor dem Schließen.|Your browser cannot save progress right now. Export it before closing.
 Artenbild wird geladen|Loading species picture
 Art auf eBird ↗|Species on eBird ↗
