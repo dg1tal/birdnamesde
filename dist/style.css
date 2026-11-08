@@ -660,3 +660,6 @@ body.studying .species-codes-compact{display:flex;flex-direction:column;flex-wra
 .lookup-name-list .name-variant:has(>.variant-label){font-size:17px;font-weight:400}
 .lookup-hit>.card>.name-variant:has(>.variant-label){font-size:18px}
 @media(max-width:580px){.lookup-hit>.card>.name-variant:has(>.variant-label){font-size:17px}}
+
+/* Keep each German-name source inline with its own explanation. */
+.card .name-sources a{float:none;margin:0;font-size:inherit}
