@@ -570,6 +570,7 @@ body.dark .code-banding{background:#174746;color:#b2eee7}
 
 .lookup-options .lookup-name-options{flex:1;min-width:150px;max-width:none;padding:0}
 .lookup-options .lookup-name-options>summary{padding:10px 0;min-height:44px}
-.lookup-options .lookup-name-options[open]{flex-basis:100%;order:2;padding:12px}
-.lookup-options .lookup-name-options[open]>summary{padding-top:0}
+/* Expanding name settings must not move or resize its disclosure control. */
+.lookup-options .lookup-name-options[open]{padding:0;border:0;border-radius:0}
+.lookup-options .lookup-name-options fieldset{min-inline-size:0;padding:10px 0;border:0}
 .lookup-filters .lookup-country{max-width:none}
