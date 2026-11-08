@@ -268,7 +268,7 @@ function codeMarkup(s,code,answer=false){
  return codeBadge(code,{scientific,banding,common:!scientific&&!banding},title,answer);
 }
 function codeGroups(s,answer=false,compact=false){
- const definitions=[['scientific',english?'Scientific quick codes':'Wissenschaftliche Kurzcodes'],['banding',english?'Banding codes':'Beringungscodes'],['common',english?'eBird codes':'eBird-Codes']];
+ const definitions=[['scientific',english?'Scientific codes':'Wissenschaftliche Codes'],['banding',english?'Banding codes':'Beringungscodes'],['common',english?'eBird codes':'eBird-Codes']];
  const collisionList=codes=>codes.map(code=>{
   const others=birds.filter(b=>b.id!==s.id&&b.codes.includes(code));
   return others.length?`<li class="code-collision-origin">${codeMarkup(s,code)}<ul>${others.map(b=>`<li class="code-collision-species">${codeMarkup(b,code)} ${nameMarkup(b,english?'en':'de')}</li>`).join('')}</ul></li>`:'';
