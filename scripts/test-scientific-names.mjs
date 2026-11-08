@@ -17,6 +17,8 @@ for(const bird of birds)for(const language of ['de','en','nl']){
  for(const part of data.species[bird.id].parts){
   assert(data.terms[part].text[language].trim());
   assert(html.includes(data.sources[data.terms[part].source].url));
+  for(const reference of data.terms[part].additionalSources||[])
+   assert(html.includes(data.sources[reference.source].url),`${bird.sci}: supplementary reference in ${language}`);
  }
 }
 const bird=name=>birds.find(b=>b.sci===name);
@@ -38,6 +40,23 @@ assert(text('Sibirionetta formosa').startsWith('beautiful'));
 assert(text('Euplectes orix').startsWith('rice'));
 assert(text('Stercorarius pomarinus').includes('covered nose'));
 assert(text('Clanga pomarina').includes('Pomerania'));
+assert(text('Suthora webbiana').includes('Edward Webb'));
+assert(!text('Suthora webbiana').includes('Philip Barker'));
+assert(text('Ichthyaetus audouinii').includes('Jean-Victor Audouin'));
+assert(text('Turdus iliacus').includes('Gaza'));
+assert(!text('Turdus iliacus').includes('flank'));
+assert.equal(data.terms['e:granti'].uncertain,true);
+for(const [language,wordLabel,partLabel] of [['de','Wortbedeutung','Wortbestandteil'],['en','Word meaning','Word component'],['nl','Woordbetekenis','Woordbestanddeel']]){
+ assert(renderScientificName(data,bird('Platycercus adscitus'),language).includes(wordLabel));
+ assert(renderScientificName(data,bird('Leptoptilos crumenifer'),language).includes(partLabel));
+ assert(renderScientificName(data,bird('Suthora webbiana'),language).includes('Edward Webb'));
+}
+assert.equal(data.terms['e:crumenifer'].source,'jobling2010','A component reference must supplement, not replace, the full explanation source');
+assert(data.terms['e:iliacus'].source!=='jobling2010','A corrected derivation must cite the supporting source');
+for(const badReference of [null,{source:'missing',scope:'wordMeaning'},{source:'jobling2010',scope:'dedication<script>'},{source:'jobling2010',scope:'wordMeaning',page:0}]){
+ const bad=structuredClone(input);bad.terms['e:merula'].additionalSources=[badReference];
+ assert.throws(()=>validateScientificNames(bad,birds));
+}
 // The review separates taxon-specific dedications, disputed histories and grouped variants.
 assert.equal(data.terms['e:elliotii'].source,'gould1873');
 assert.equal(data.terms['e:elliotii'].page,undefined,'Do not retain a Jobling page for a different source');

@@ -121,6 +121,13 @@ taxon-specific homonyms: the two Fischers, the two Naumanns, and the different
 Sandwich localities. Generic and specific names have separate case-sensitive
 entries; meanings are never inferred by stripping suffixes at runtime.
 
+The follow-up review is recorded in `docs/scientific-name-followup-20261108.json`.
+`data/scientific-name-evidence.json` adds references with explicit scopes: word
+meaning, word component, naming history, dedication, person identity or naming
+context. These labels appear in the explanation language. A partial reference
+supplements the main source; it does not certify the entire explanation or turn
+a description without a dedication into evidence for one.
+
 The closed disclosure appears below lookup names, in introductions, and after
 grading/revealing an answer. It never appears alongside an unanswered question or
 answer choices. Study uses the session's question language; lookup uses its title

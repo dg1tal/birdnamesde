@@ -74,7 +74,7 @@ cana canus|grau, grauweiß|grey, grey-white|grijs, grijswit
 canaria|von den Kanarischen Inseln|of the Canary Islands|van de Canarische Eilanden
 cannabina|mit Hanf verbunden|associated with hemp|verbonden met hennep
 canorus|wohlklingend|melodious|welluidend
-cantillans|trällernd|warbling|kwelend
+cantillans|leise singend, zwitschernd|singing softly, chirping|zacht zingend, tjilpend
 carbo|Kohle; Bezug auf die dunkle Farbe|coal; refers to the dark colour|kool; verwijst naar de donkere kleur
 cardinalis|Kardinal; Bezug auf die rote Kleidung|cardinal; refers to the red robes|kardinaal; verwijst naar de rode kleding
 carduelis|Stieglitz; mit der Distel verbunden|goldfinch; associated with thistles|putter; verbonden met distels
@@ -241,7 +241,7 @@ ibis|Ibis; alter Vogelname|ibis; an ancient bird name|ibis; een oude vogelnaam
 ichthyaetus|Fischadler, als wörtliche Namensbedeutung|fish eagle, as the literal name meaning|arend die vis eet, als letterlijke naambetekenis
 icterina|gelblich; mit einem alten gelben Vogelnamen verbunden|yellowish; linked to an ancient yellow-bird name|geelachtig; verbonden met een oude naam voor een gele vogel
 ignicapilla|Feuerkopf|fire cap|vuurkop
-iliacus|zur Flanke gehörig|of the flank|van de flank
+iliacus|alter Drosselname; über Gazas lateinische Übersetzung einer antiken Bezeichnung übernommen|old thrush name adopted through Gaza’s Latin translation of an ancient name|oude lijsternaam, overgenomen via Gaza’s Latijnse vertaling van een antieke benaming
 indicus|indisch|Indian|Indiaas
 inornatus|ungeschmückt|unadorned|onversierd
 interpres|Vermittler, Übersetzer; historischer Name|interpreter, intermediary; a historical name|tolk, bemiddelaar; een historische naam
@@ -420,7 +420,7 @@ pyrrhocorax|Feuerrabe|flame raven|vuurraaf
 pyrrhonota|feuerfarbener Rücken|flame-coloured back|vlamkleurige rug
 pyrrhula|kleiner flammenfarbiger Vogel|small flame-coloured bird|kleine vlamkleurige vogel
 pytyopsittacus|Kiefernpapagei|pine parrot|dennenpapegaai
-quelea|aus einem alten Wachtelnamen; Übertragung ungeklärt|from an old quail name; reason for transfer unclear|uit een oude kwartelnaam; reden voor overdracht onduidelijk|?
+quelea|möglicherweise aus einem alten Wachtelnamen; Übertragung ungeklärt|possibly from an old quail name; reason for transfer unclear|mogelijk uit een oude kwartelnaam; reden voor overdracht onduidelijk|?
 querquedula|alter Knäkentenname|ancient garganey name|oude zomertalingnaam
 ralloides|rallenähnlich|rail-like|ralachtig
 regalis|königlich|royal|koninklijk
@@ -504,7 +504,7 @@ thalassinus|meergrün|sea-green|zeegroen
 tigrina|tigerartig, gestreift|tiger-like, striped|tijgerachtig, gestreept
 tinnunculus|kleiner Klingler; alter Falkenname|little ringer; an old falcon name|kleine klingelaar; een oude valkennaam
 torquatus|mit Halsring|collared|met halsring
-torquilla|kleiner Dreher; Bezug auf die Kopfbewegungen|little twister; refers to the head movements|kleine draaier; verwijst naar de kopbewegingen
+torquilla|von drehen; Bezug auf die Kopfbewegungen|from twisting; refers to the head movements|van draaien; verwijst naar de kopbewegingen
 trichas|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
 tricolor|dreifarbig|three-coloured|driekleurig
 tridactyla tridactylus|dreizehig|three-toed|drietenig

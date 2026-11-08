@@ -327,7 +327,7 @@ Pycnonotus|dichter Rücken, dichtes Gefieder|dense back, dense plumage|dichte ru
 Pyrrhocorax|Feuerrabe|flame raven|vuurraaf
 Pyrrhula|kleiner flammenfarbiger Vogel|small flame-coloured bird|kleine vlamkleurige vogel
 Pyrrhura|Feuerschwanz|flame tail|vuurstaart
-Quelea|aus einem alten Wachtelnamen; Übertragung ungeklärt|from an old quail name; reason for transfer unclear|uit een oude kwartelnaam; reden voor overdracht onduidelijk|?
+Quelea|möglicherweise aus einem alten Wachtelnamen; Übertragung ungeklärt|possibly from an old quail name; reason for transfer unclear|mogelijk uit een oude kwartelnaam; reden voor overdracht onduidelijk|?
 Quiscalus|vom Artnamen quiscula; Herleitung unsicher|from the species name quiscula; derivation uncertain|van de soortnaam quiscula; afleiding onzeker|?
 Radjah|übernommener molukkischer Entenname|borrowed Moluccan duck name|overgenomen Molukse eendennaam
 Rallus|Ralle|rail|ral

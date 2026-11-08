@@ -1,0 +1,4409 @@
+{
+  "date": "2026-11-08",
+  "scope": "Apply substantiated corrections, wording improvements and scoped supporting evidence from the follow-up audit of 242 previously unresolved records.",
+  "policy": "A missing independent reference alone does not make an explanation false. Partial lexical evidence is labeled as a word component; historical naming context does not certify a person. Original descriptions silent on a dedication and bibliographic locators do not become confirming app sources.",
+  "textChanges": [
+    "e:audouinii",
+    "e:webbiana",
+    "e:iliacus",
+    "e:aristotelis",
+    "e:cantillans",
+    "e:torquilla",
+    "e:granti",
+    "e:quelea",
+    "g:Quelea"
+  ],
+  "records": [
+    {
+      "termKey": "e:adscitus",
+      "auditStatus": "lexical",
+      "reason": "Die lateinischen Bedeutungen aufgenommen/angenommen stimmen mit der kurzen App-Erklärung überein.",
+      "before": {
+        "term": "adscitus",
+        "text": {
+          "de": "hinzugefügt, aufgenommen",
+          "en": "added, admitted",
+          "nl": "toegevoegd, opgenomen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 32
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: adscitus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=53912089",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Platycercus adscitus"
+      ],
+      "after": {
+        "term": "adscitus",
+        "text": {
+          "de": "hinzugefügt, aufgenommen",
+          "en": "added, admitted",
+          "nl": "toegevoegd, opgenomen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 32,
+        "additionalSources": [
+          {
+            "source": "review20261108_09abc429db29",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:aethiopicus",
+      "auditStatus": "partial",
+      "reason": "Äthiopisch ist belegt. Die historische Ausweitung auf Afrika ist damit noch nicht für diesen Vogelnamen belegt.",
+      "before": {
+        "term": "aethiopicus",
+        "text": {
+          "de": "äthiopisch; historischer Afrikabezug",
+          "en": "Ethiopian; a historical African reference",
+          "nl": "Ethiopisch; een historische verwijzing naar Afrika"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 34
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: aethiopicus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93039824",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Threskiornis aethiopicus"
+      ],
+      "after": {
+        "term": "aethiopicus",
+        "text": {
+          "de": "äthiopisch; historischer Afrikabezug",
+          "en": "Ethiopian; a historical African reference",
+          "nl": "Ethiopisch; een historische verwijzing naar Afrika"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 34,
+        "additionalSources": [
+          {
+            "source": "review20261108_f966bbd74979",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:alexandri",
+      "auditStatus": "partial",
+      "reason": "Linnés Beschreibung enthält einen ausdrücklichen Verweis auf den Feldzug Alexanders des Großen. Damit ist der Alexander-Bezug direkt gestützt; die historische Richtigkeit einer Einführung der Vögel wird dadurch nicht bewiesen.",
+      "before": {
+        "term": "alexandri",
+        "text": {
+          "de": "zu Ehren Alexanders des Großen, König von Makedonien",
+          "en": "honours Alexander the Great, king of Macedon",
+          "nl": "vernoemd naar Alexander de Grote, koning van Macedonië"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 41
+      },
+      "additionalEvidence": [
+        {
+          "title": "Linnaeus (1758): Systema Naturae, 10. Aufl., I",
+          "url": "https://archive.org/details/mobot31753000798865",
+          "pages": "97–98",
+          "kind": "original",
+          "scope": "Psittacus alexandri; Alexander-Verweis über Seitenwechsel",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Personenbezug beibehalten; falls künftig ausführlicher erklärt, antike Überlieferung als solche benennen.",
+      "affectedSpecies": [
+        "Psittacula alexandri"
+      ],
+      "after": {
+        "term": "alexandri",
+        "text": {
+          "de": "zu Ehren Alexanders des Großen, König von Makedonien",
+          "en": "honours Alexander the Great, king of Macedon",
+          "nl": "vernoemd naar Alexander de Grote, koning van Macedonië"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 41,
+        "additionalSources": [
+          {
+            "source": "review20261108_96fe247c5768",
+            "scope": "nameContext"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:amherstiae",
+      "auditStatus": "partial",
+      "reason": "Leadbeater widmet die Art ausdrücklich der Countess Amherst und beschreibt die Herkunft ihres Vogelpaares. Der Vorname Sarah wird an dieser Stelle nicht ausgeschrieben.",
+      "before": {
+        "term": "amherstiae",
+        "text": {
+          "de": "zu Ehren von Sarah, Gräfin Amherst",
+          "en": "honours Sarah, Countess Amherst",
+          "nl": "vernoemd naar Sarah, gravin Amherst"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 45
+      },
+      "additionalEvidence": [
+        {
+          "title": "Leadbeater (1829): Description of a New Species of Pheasant, Transactions Linnean Society XVI",
+          "url": "https://archive.org/details/transactionsofli02linn",
+          "pages": "129–131",
+          "kind": "original",
+          "scope": "Ausdrückliche Widmung an Countess Amherst",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Widmung beibehalten; den ausgeschriebenen Vornamen bei Bedarf durch eine biografische Primärquelle absichern.",
+      "affectedSpecies": [
+        "Chrysolophus amherstiae"
+      ],
+      "after": {
+        "term": "amherstiae",
+        "text": {
+          "de": "zu Ehren von Sarah, Gräfin Amherst",
+          "en": "honours Sarah, Countess Amherst",
+          "nl": "vernoemd naar Sarah, gravin Amherst"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 45,
+        "additionalSources": [
+          {
+            "source": "review20261108_676b9fbb090d",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:amurensis",
+      "auditStatus": "lexical",
+      "reason": "Neulateinisches Adjektiv mit Bezug auf den Amur.",
+      "before": {
+        "term": "amurensis",
+        "text": {
+          "de": "aus dem Amurgebiet",
+          "en": "of the Amur region",
+          "nl": "uit het Amoergebied"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 46
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: amurensis (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=70177565",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Falco amurensis"
+      ],
+      "after": {
+        "term": "amurensis",
+        "text": {
+          "de": "aus dem Amurgebiet",
+          "en": "of the Amur region",
+          "nl": "uit het Amoergebied"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 46,
+        "additionalSources": [
+          {
+            "source": "review20261108_9b494f3460b0",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:aristotelis",
+      "auditStatus": "partial",
+      "reason": "In der Fauna Svecica 1761 steht der Name im Artenindex; der Arttext verweist auf Aldrovandis älteres Graculus palmipes aristotelis. Der Aristoteles-Bezug ist gestützt, eine neue ausdrückliche Ehrenwidmung Linnés steht dort nicht.",
+      "before": {
+        "term": "aristotelis",
+        "text": {
+          "de": "zu Ehren des griechischen Philosophen und Naturkundlers Aristoteles",
+          "en": "honours Greek philosopher and naturalist Aristotle",
+          "nl": "vernoemd naar de Griekse filosoof en natuuronderzoeker Aristoteles"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 55
+      },
+      "additionalEvidence": [
+        {
+          "title": "Linnaeus (1761): Fauna Svecica, 2. Aufl.",
+          "url": "https://archive.org/details/carolilinnaeiequ00linnca",
+          "pages": "Artenindex Nr. 146; Arttext Nr. 146",
+          "kind": "original",
+          "scope": "Älterer Name nach Aldrovandi; keine ausdrückliche Dedikation",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Für eine präzisere spätere Fassung: „Bezug auf Aristoteles; aus einem älteren Vogelnamen übernommen“. Keine gesicherte neue Ehrenwidmung behaupten.",
+      "affectedSpecies": [
+        "Gulosus aristotelis"
+      ],
+      "after": {
+        "term": "aristotelis",
+        "text": {
+          "de": "Bezug auf Aristoteles; aus einem älteren Vogelnamen übernommen",
+          "en": "refers to Aristotle; adopted from an older bird name",
+          "nl": "verwijst naar Aristoteles; overgenomen uit een oudere vogelnaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 55,
+        "additionalSources": [
+          {
+            "source": "review20261108_8ae7d7d80e7f",
+            "scope": "nameContext"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:audouinii",
+      "auditStatus": "correction",
+      "reason": "Payraudeau widmet die Art ausdrücklich seinem Freund Audouin. Die BnF-Normdatei und die dort verzeichnete Biografie führen Jean-Victor, während die App Jean Victoire schreibt.",
+      "before": {
+        "term": "audouinii",
+        "text": {
+          "de": "zu Ehren des Naturkundlers Jean Victoire Audouin",
+          "en": "honours naturalist Jean Victoire Audouin",
+          "nl": "vernoemd naar natuuronderzoeker Jean Victoire Audouin"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 60
+      },
+      "additionalEvidence": [
+        {
+          "title": "Payraudeau (1826): Annales des Sciences naturelles VIII",
+          "url": "https://archive.org/details/annalesdesscienc08natr",
+          "pages": "462–464",
+          "kind": "original",
+          "scope": "Widmung am Ende der Beschreibung",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "BnF: Audouin, Jean-Victor (1797–1841)",
+          "url": "https://catalogue.bnf.fr/ark:/12148/cb134744761",
+          "pages": null,
+          "kind": "authority_record",
+          "scope": "Autorisierte Namensform und Biografie",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Personenname in DE/EN/NL auf Jean-Victor Audouin vereinheitlichen; Widmung bleibt erhalten.",
+      "affectedSpecies": [
+        "Ichthyaetus audouinii"
+      ],
+      "after": {
+        "term": "audouinii",
+        "text": {
+          "de": "zu Ehren des Naturkundlers Jean-Victor Audouin",
+          "en": "honours naturalist Jean-Victor Audouin",
+          "nl": "vernoemd naar natuuronderzoeker Jean-Victor Audouin"
+        },
+        "uncertain": false,
+        "source": "review20261108_5b51bea962ec",
+        "additionalSources": [
+          {
+            "source": "review20261108_fb72b3252776",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:bengalensis",
+      "auditStatus": "lexical",
+      "reason": "Neulateinisch bengalisch; Bengalen ist lexikalisch bestätigt.",
+      "before": {
+        "term": "bengalensis",
+        "text": {
+          "de": "aus Bengalen",
+          "en": "of Bengal",
+          "nl": "uit Bengalen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 69
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: bengalensis (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=53913200",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Thalasseus bengalensis",
+        "Bubo bengalensis"
+      ],
+      "after": {
+        "term": "bengalensis",
+        "text": {
+          "de": "aus Bengalen",
+          "en": "of Bengal",
+          "nl": "uit Bengalen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 69,
+        "additionalSources": [
+          {
+            "source": "review20261108_add5f43ae4fb",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:bengalus",
+      "auditStatus": "partial",
+      "reason": "Der Ortsbezug Bengalen ist über die verwandte Form bengalensis gestützt; die konkrete Bildung bengalus bleibt gesondert offen.",
+      "before": {
+        "term": "bengalus",
+        "text": {
+          "de": "aus Bengalen",
+          "en": "of Bengal",
+          "nl": "uit Bengalen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 69
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: bengalensis (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=53913200",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Uraeginthus bengalus"
+      ],
+      "after": {
+        "term": "bengalus",
+        "text": {
+          "de": "aus Bengalen",
+          "en": "of Bengal",
+          "nl": "uit Bengalen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 69,
+        "additionalSources": [
+          {
+            "source": "review20261108_add5f43ae4fb",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:bimaculata",
+      "auditStatus": "lexical",
+      "reason": "Weibliche Form von bimaculatus: zweifleckig.",
+      "before": {
+        "term": "bimaculata",
+        "text": {
+          "de": "zweifleckig",
+          "en": "two-spotted",
+          "nl": "tweevlekkig"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 72
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: bimaculatus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90548195",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Melanocorypha bimaculata"
+      ],
+      "after": {
+        "term": "bimaculata",
+        "text": {
+          "de": "zweifleckig",
+          "en": "two-spotted",
+          "nl": "tweevlekkig"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 72,
+        "additionalSources": [
+          {
+            "source": "review20261108_a34255ffae4e",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:bonelli",
+      "auditStatus": "partial",
+      "reason": "Vieillot erklärt ausdrücklich, dass er den Vogel dem Naturkundler Bonelli widmet, dem die Kenntnis des Exemplars zu verdanken sei. Die Vornamen stehen nicht in der kurzen Widmung.",
+      "before": {
+        "term": "bonelli",
+        "text": {
+          "de": "zu Ehren des Naturkundlers Franco Andrea Bonelli",
+          "en": "honours naturalist Franco Andrea Bonelli",
+          "nl": "vernoemd naar natuuronderzoeker Franco Andrea Bonelli"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 74
+      },
+      "additionalEvidence": [
+        {
+          "title": "Vieillot (1819): Nouveau Dictionnaire d’Histoire Naturelle XXVIII",
+          "url": "https://archive.org/details/b33488022_0028",
+          "pages": "91–92",
+          "kind": "original",
+          "scope": "Le Pouillot Bonelli, Sylvia Bonelli",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Widmung bestätigt; ausgeschriebene Vornamen separat biografisch absichern.",
+      "affectedSpecies": [
+        "Phylloscopus bonelli"
+      ],
+      "after": {
+        "term": "bonelli",
+        "text": {
+          "de": "zu Ehren des Naturkundlers Franco Andrea Bonelli",
+          "en": "honours naturalist Franco Andrea Bonelli",
+          "nl": "vernoemd naar natuuronderzoeker Franco Andrea Bonelli"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 74,
+        "additionalSources": [
+          {
+            "source": "review20261108_6ff1af55cb2c",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:bruniceps",
+      "auditStatus": "partial",
+      "reason": "Die Komponenten braun und Kopf passen; die konkrete Mischbildung bruniceps ist damit nur mittelbar gestützt.",
+      "before": {
+        "term": "bruniceps",
+        "text": {
+          "de": "braunköpfig",
+          "en": "brown-headed",
+          "nl": "bruinkoppig"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 78
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: brunneus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=88491452",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Wiktionary: caput (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93508448",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Emberiza bruniceps"
+      ],
+      "after": {
+        "term": "bruniceps",
+        "text": {
+          "de": "braunköpfig",
+          "en": "brown-headed",
+          "nl": "bruinkoppig"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 78,
+        "additionalSources": [
+          {
+            "source": "review20261108_84a7c5a113aa",
+            "scope": "wordComponent"
+          },
+          {
+            "source": "review20261108_337bbd942004",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:cantillans",
+      "auditStatus": "partial",
+      "reason": "Cantillo bezeichnet leises Singen, Summen oder Zwitschern. Trällernd ist eine freie Wiedergabe, keine genaue Benennungsbegründung.",
+      "before": {
+        "term": "cantillans",
+        "text": {
+          "de": "trällernd",
+          "en": "warbling",
+          "nl": "kwelend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 89
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: cantillo (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93683189",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Curruca cantillans"
+      ],
+      "after": {
+        "term": "cantillans",
+        "text": {
+          "de": "leise singend, zwitschernd",
+          "en": "singing softly, chirping",
+          "nl": "zacht zingend, tjilpend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 89,
+        "additionalSources": [
+          {
+            "source": "review20261108_8c1ef2224a1d",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:cedrorum",
+      "auditStatus": "partial",
+      "reason": "Die Genitivform der Zedern und der historische Bedeutungsbereich einschließlich Wacholder sind lexikalisch gestützt. Der Zusatz hier auch Wacholder verlangt noch einen taxonspezifischen Beleg.",
+      "before": {
+        "term": "cedrorum",
+        "text": {
+          "de": "der Zedern, hier auch Wacholder gemeint",
+          "en": "of cedars, also referring here to junipers",
+          "nl": "van ceders, hier ook verwijzend naar jeneverbessen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 96
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: cedrorum (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=73922998",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Wiktionary: cedrus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=88834262",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Bombycilla cedrorum"
+      ],
+      "after": {
+        "term": "cedrorum",
+        "text": {
+          "de": "der Zedern, hier auch Wacholder gemeint",
+          "en": "of cedars, also referring here to junipers",
+          "nl": "van ceders, hier ook verwijzend naar jeneverbessen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 96,
+        "additionalSources": [
+          {
+            "source": "review20261108_9664bb89a2f5",
+            "scope": "wordComponent"
+          },
+          {
+            "source": "review20261108_f304f7c75797",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:coelestis",
+      "auditStatus": "lexical",
+      "reason": "Coelestis ist eine Schreibvariante von caelestis: himmlisch.",
+      "before": {
+        "term": "coelestis",
+        "text": {
+          "de": "himmlisch",
+          "en": "heavenly",
+          "nl": "hemels"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 112
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: caelestis (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90487132",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Forpus coelestis"
+      ],
+      "after": {
+        "term": "coelestis",
+        "text": {
+          "de": "himmlisch",
+          "en": "heavenly",
+          "nl": "hemels"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 112,
+        "additionalSources": [
+          {
+            "source": "review20261108_02c266a6312d",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:crumenifer",
+      "auditStatus": "partial",
+      "reason": "Beutel und tragen sind lexikalisch belegt; der Bezug auf den Kehlsack ist damit allein nicht bewiesen.",
+      "before": {
+        "term": "crumenifer",
+        "text": {
+          "de": "Beutelträger; Bezug auf den Kehlsack",
+          "en": "pouch bearer; refers to the throat pouch",
+          "nl": "buideldrager; verwijst naar de keelzak"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 123
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: crumena (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92257340",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Wiktionary: fero (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93015271",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Leptoptilos crumenifer"
+      ],
+      "after": {
+        "term": "crumenifer",
+        "text": {
+          "de": "Beutelträger; Bezug auf den Kehlsack",
+          "en": "pouch bearer; refers to the throat pouch",
+          "nl": "buideldrager; verwijst naar de keelzak"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 123,
+        "additionalSources": [
+          {
+            "source": "review20261108_1e860ffda30b",
+            "scope": "wordComponent"
+          },
+          {
+            "source": "review20261108_df73eae99f3c",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:cygnoides",
+      "auditStatus": "lexical",
+      "reason": "Neulateinisch schwanenähnlich.",
+      "before": {
+        "term": "cygnoides",
+        "text": {
+          "de": "schwanenähnlich",
+          "en": "swan-like",
+          "nl": "zwaanachtig"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 128
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: cygnoides (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=94634238",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Anser cygnoides"
+      ],
+      "after": {
+        "term": "cygnoides",
+        "text": {
+          "de": "schwanenähnlich",
+          "en": "swan-like",
+          "nl": "zwaanachtig"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 128,
+        "additionalSources": [
+          {
+            "source": "review20261108_a4803ead3a36",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:dauurica",
+      "auditStatus": "partial",
+      "reason": "Daurischer Ortsbezug über die Schreibvariante dahuricus bestätigt. Die zusätzliche geografische Einordnung wird dadurch nicht eigenständig geprüft.",
+      "before": {
+        "term": "dauurica",
+        "text": {
+          "de": "aus Daurien in Südostsibirien",
+          "en": "of Dauria, south-eastern Siberia",
+          "nl": "uit Daurië in Zuidoost-Siberië"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 131
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: dahuricus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90549236",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Muscicapa dauurica"
+      ],
+      "after": {
+        "term": "dauurica",
+        "text": {
+          "de": "aus Daurien in Südostsibirien",
+          "en": "of Dauria, south-eastern Siberia",
+          "nl": "uit Daurië in Zuidoost-Siberië"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 131,
+        "additionalSources": [
+          {
+            "source": "review20261108_03ff8bf7c787",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:dauuricus",
+      "auditStatus": "partial",
+      "reason": "Daurischer Ortsbezug über die Schreibvariante dahuricus bestätigt; genaue historische Gebietsgrenzen offen.",
+      "before": {
+        "term": "dauuricus",
+        "text": {
+          "de": "aus Daurien in Südostsibirien",
+          "en": "of Dauria, south-eastern Siberia",
+          "nl": "uit Daurië in Zuidoost-Siberië"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 131
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: dahuricus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90549236",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Coloeus dauuricus"
+      ],
+      "after": {
+        "term": "dauuricus",
+        "text": {
+          "de": "aus Daurien in Südostsibirien",
+          "en": "of Dauria, south-eastern Siberia",
+          "nl": "uit Daurië in Zuidoost-Siberië"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 131,
+        "additionalSources": [
+          {
+            "source": "review20261108_03ff8bf7c787",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:deglandi",
+      "auditStatus": "historical",
+      "reason": "Palmer identifiziert den Namensgeber als Côme Damien Degland und bezieht die Benennung auf Bonapartes Ente.",
+      "before": {
+        "term": "deglandi",
+        "text": {
+          "de": "zu Ehren des Ornithologen Côme Damien Degland",
+          "en": "honours ornithologist Côme Damien Degland",
+          "nl": "vernoemd naar ornitholoog Côme Damien Degland"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 132
+      },
+      "additionalEvidence": [
+        {
+          "title": "Palmer (1928): Notes on Persons Whose Names Appear in the Nomenclature of California Birds",
+          "url": "https://archive.org/details/sim_condor_september-october-1928_30_5",
+          "pages": "Eintrag Degland",
+          "kind": "historical_secondary",
+          "scope": "Unabhängige historische Personen- und Taxonzuordnung",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Beibehalten; historischen Beleg ergänzen.",
+      "affectedSpecies": [
+        "Melanitta deglandi"
+      ],
+      "after": {
+        "term": "deglandi",
+        "text": {
+          "de": "zu Ehren des Ornithologen Côme Damien Degland",
+          "en": "honours ornithologist Côme Damien Degland",
+          "nl": "vernoemd naar ornitholoog Côme Damien Degland"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 132,
+        "additionalSources": [
+          {
+            "source": "review20261108_2c097d39a126",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:deserta",
+      "auditStatus": "partial",
+      "reason": "Desertus bedeutet verlassen/öde. Die ökologische Auslegung zur Wüste gehörig braucht eine zusätzliche Erklärung zum Vogelnamen.",
+      "before": {
+        "term": "deserta",
+        "text": {
+          "de": "zur Wüste gehörig",
+          "en": "of the desert",
+          "nl": "van de woestijn"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 133
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: desertus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=88832381",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Pterodroma deserta"
+      ],
+      "after": {
+        "term": "deserta",
+        "text": {
+          "de": "zur Wüste gehörig",
+          "en": "of the desert",
+          "nl": "van de woestijn"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 133,
+        "additionalSources": [
+          {
+            "source": "review20261108_034d70a5f356",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:deserti",
+      "auditStatus": "partial",
+      "reason": "Desertum bedeutet Wüste/Einöde; der Wortkern ist gestützt. Die konkrete Namensverwendung bleibt nicht vollständig belegt.",
+      "before": {
+        "term": "deserti",
+        "text": {
+          "de": "zur Wüste gehörig",
+          "en": "of the desert",
+          "nl": "van de woestijn"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 133
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: desertum (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=88810354",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Curruca deserti",
+        "Oenanthe deserti"
+      ],
+      "after": {
+        "term": "deserti",
+        "text": {
+          "de": "zur Wüste gehörig",
+          "en": "of the desert",
+          "nl": "van de woestijn"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 133,
+        "additionalSources": [
+          {
+            "source": "review20261108_c5346211d148",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:europaea",
+      "auditStatus": "lexical",
+      "reason": "Weibliche Form von Europaeus: europäisch.",
+      "before": {
+        "term": "europaea",
+        "text": {
+          "de": "europäisch",
+          "en": "European",
+          "nl": "Europees"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 153
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: Europaeus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=91120219",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Sitta europaea"
+      ],
+      "after": {
+        "term": "europaea",
+        "text": {
+          "de": "europäisch",
+          "en": "European",
+          "nl": "Europees"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 153,
+        "additionalSources": [
+          {
+            "source": "review20261108_bb5a85de1f02",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:fischeri",
+      "auditStatus": "partial",
+      "reason": "Beide Arten getrennt geprüft: Reichenow beschreibt Agapornis fischeri in der Arbeit über Dr. Fischers Sammlungen; der Erstbericht zu Corythaix fischeri nennt dessen Afrika-Sammlung. Der Sammlerbezug ist stark gestützt. Die Vornamen Gustav Adolf stehen nicht in beiden kurzen Artabschnitten.",
+      "before": {
+        "term": "fischeri",
+        "text": {
+          "de": "zu Ehren des Arztes und Naturkundlers Gustav Adolf Fischer",
+          "en": "honours surgeon and naturalist Gustav Adolf Fischer",
+          "nl": "vernoemd naar arts en natuuronderzoeker Gustav Adolf Fischer"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 159
+      },
+      "additionalEvidence": [
+        {
+          "title": "Reichenow (1887): Dr. Fischer’s Ornithologische Sammlungen",
+          "url": "https://archive.org/details/journalfrornit351887deut",
+          "pages": "54–55",
+          "kind": "original",
+          "scope": "Agapornis fischeri im Sammlungskontext",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Reichenow (1878): Corythaix fischeri, Ornithologisches Centralblatt III",
+          "url": "https://www.zobodat.at/pdf/Ornith-Centralblatt_3_I-LXXVI.pdf",
+          "pages": "87–88",
+          "kind": "original",
+          "scope": "Dr. Fischer als Sammler; Artbeschreibung",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Keine Übertragung allein wegen gleicher Schreibweise: beide Vogelarten haben eigene Belegstellen. Vollnamen noch biografisch absichern.",
+      "affectedSpecies": [
+        "Agapornis fischeri",
+        "Tauraco fischeri"
+      ],
+      "after": {
+        "term": "fischeri",
+        "text": {
+          "de": "zu Ehren des Arztes und Naturkundlers Gustav Adolf Fischer",
+          "en": "honours surgeon and naturalist Gustav Adolf Fischer",
+          "nl": "vernoemd naar arts en natuuronderzoeker Gustav Adolf Fischer"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 159,
+        "additionalSources": [
+          {
+            "source": "review20261108_bfb35acc82e2",
+            "scope": "nameContext"
+          },
+          {
+            "source": "review20261108_a4016df4bddb",
+            "scope": "nameContext"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:fischeri:speeid",
+      "auditStatus": "partial",
+      "reason": "Brandts Originalschrift ist Gotthelf Fischer de Waldheim gewidmet und erklärt im Arttext ausdrücklich die Widmung der neuen Ente an Fischer. Die Identität ist damit deutlich besser gestützt; der zusätzliche Vorname Johann ist separat biografisch zu prüfen.",
+      "before": {
+        "term": "fischeri",
+        "text": {
+          "de": "zu Ehren des Zoologen Johann Gotthelf Fischer von Waldheim",
+          "en": "honours zoologist Johann Gotthelf Fischer von Waldheim",
+          "nl": "vernoemd naar zoöloog Johann Gotthelf Fischer von Waldheim"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 159
+      },
+      "additionalEvidence": [
+        {
+          "title": "Brandt (1847): Fuligulam (Lampronettam) Fischeri",
+          "url": "https://archive.org/details/fuligulamlampron00bran",
+          "pages": "Widmungsblatt (PDF-Seite 7) und Kapitel I",
+          "kind": "original",
+          "scope": "Widmungsblatt visuell geprüft: Gotthelf Fischer de Waldheim; ausdrückliche Artwidmung im Text",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": "Originalschrift gelesen: Gotthelf Fischer de Waldheim und ausdrückliche Artwidmung belegt. Johann ist in der geprüften Widmung noch nicht gesondert abgesichert. Nicht mit Gustav Adolf Fischer vermischen.",
+      "nextActionFromAudit": "Den Namensgeber von Gustav Adolf Fischer bei den zwei anderen Arten getrennt halten; Johann gegebenenfalls biografisch ergänzen.",
+      "affectedSpecies": [
+        "Somateria fischeri"
+      ],
+      "after": {
+        "term": "fischeri",
+        "text": {
+          "de": "zu Ehren des Zoologen Johann Gotthelf Fischer von Waldheim",
+          "en": "honours zoologist Johann Gotthelf Fischer von Waldheim",
+          "nl": "vernoemd naar zoöloog Johann Gotthelf Fischer von Waldheim"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 159,
+        "additionalSources": [
+          {
+            "source": "review20261108_c9b59f17a848",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:goffiniana",
+      "auditStatus": "primary",
+      "reason": "Die Originalbeschreibung 2004 erklärt ausdrücklich den Namen Andreas Leopold Goffin und den Bezug auf Finschs frühere Benennungsabsicht.",
+      "before": {
+        "term": "goffiniana",
+        "text": {
+          "de": "zu Ehren des niederländischen Marineoffiziers Andreas Leopold Goffin",
+          "en": "honours Dutch naval officer Andreas Leopold Goffin",
+          "nl": "vernoemd naar de Nederlandse marineofficier Andreas Leopold Goffin"
+        },
+        "uncertain": false,
+        "source": "goffiniana2004"
+      },
+      "additionalEvidence": [
+        {
+          "title": "Roselaar & Michels (2004): Systematic notes on Asian birds. 48",
+          "url": "https://repository.naturalis.nl/document/43942",
+          "pages": "187",
+          "kind": "original",
+          "scope": "Ausdrücklicher Etymologieabschnitt mit vollem Namen",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": "Biografisches Detail Marineoffizier separat belegen.",
+      "nextActionFromAudit": "Widmung und voller Personenname beibehalten. Der Marineberuf ist durch diesen Etymologieabschnitt nicht separat belegt.",
+      "affectedSpecies": [
+        "Cacatua goffiniana"
+      ],
+      "after": {
+        "term": "goffiniana",
+        "text": {
+          "de": "zu Ehren des niederländischen Marineoffiziers Andreas Leopold Goffin",
+          "en": "honours Dutch naval officer Andreas Leopold Goffin",
+          "nl": "vernoemd naar de Nederlandse marineofficier Andreas Leopold Goffin"
+        },
+        "uncertain": false,
+        "source": "goffiniana2004",
+        "additionalSources": [
+          {
+            "source": "review20261108_e73f3c07b93c",
+            "scope": "dedication",
+            "page": 187
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:granti",
+      "auditStatus": "partial",
+      "reason": "Kollibay erklärt die Ersatzbenennung und diskutiert unmittelbar Ogilvie-Grants vorherige Benennung. Eine ausdrückliche Widmung mit vollem Namen steht in diesem kurzen Text nicht.",
+      "before": {
+        "term": "granti",
+        "text": {
+          "de": "zu Ehren des Ornithologen William Robert Ogilvie-Grant",
+          "en": "honours ornithologist William Robert Ogilvie-Grant",
+          "nl": "vernoemd naar ornitholoog William Robert Ogilvie-Grant"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 177
+      },
+      "additionalEvidence": [
+        {
+          "title": "Kollibay (1910): Pisorhina leucotis granti nom. nov., Ornithologische Monatsberichte XVIII",
+          "url": "https://archive.org/details/cbarchive_135538_pisorhinaleucotisgranti1893",
+          "pages": "148–149",
+          "kind": "original",
+          "scope": "Gelesener Originalaufsatz; Archiv-ID-Jahreszahl 1893 ist nicht das Publikationsjahr",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Ogilvie-Grant-Bezug als Schlussfolgerung kennzeichnen; Vollnamen bzw. explizite Dedikation im angekündigten Kongressbericht suchen.",
+      "affectedSpecies": [
+        "Ptilopsis granti"
+      ],
+      "after": {
+        "term": "granti",
+        "text": {
+          "de": "vermutlich zu Ehren des Ornithologen William Robert Ogilvie-Grant; die Originalbeschreibung erklärt die Widmung nicht ausdrücklich",
+          "en": "probably honours ornithologist William Robert Ogilvie-Grant; the original description does not explicitly explain the dedication",
+          "nl": "waarschijnlijk vernoemd naar ornitholoog William Robert Ogilvie-Grant; de oorspronkelijke beschrijving verklaart de opdracht niet uitdrukkelijk"
+        },
+        "uncertain": true,
+        "source": "jobling2010",
+        "page": 177,
+        "additionalSources": [
+          {
+            "source": "review20261108_3dabb8d30ef9",
+            "scope": "nameContext"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:griseolus",
+      "auditStatus": "lexical",
+      "reason": "Verkleinernde Bildung zu griseus: graulich.",
+      "before": {
+        "term": "griseolus",
+        "text": {
+          "de": "graulich",
+          "en": "greyish",
+          "nl": "grijzig"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 179
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: griseolus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90548496",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Phylloscopus griseolus"
+      ],
+      "after": {
+        "term": "griseolus",
+        "text": {
+          "de": "graulich",
+          "en": "greyish",
+          "nl": "grijzig"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 179,
+        "additionalSources": [
+          {
+            "source": "review20261108_2d63ddf7d6ba",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:hispanica",
+      "auditStatus": "lexical",
+      "reason": "Weibliche Form des lateinischen Adjektivs für spanisch.",
+      "before": {
+        "term": "hispanica",
+        "text": {
+          "de": "spanisch",
+          "en": "Spanish",
+          "nl": "Spaans"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 193
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: Hispanicus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92969582",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Oenanthe hispanica"
+      ],
+      "after": {
+        "term": "hispanica",
+        "text": {
+          "de": "spanisch",
+          "en": "Spanish",
+          "nl": "Spaans"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 193,
+        "additionalSources": [
+          {
+            "source": "review20261108_64b92d7dcdc7",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:humei",
+      "auditStatus": "partial",
+      "reason": "Brooks schlägt den Namen mit der ausdrücklichen Zustimmung von Mr. A. O. Hume vor. Der konkrete Hume-Bezug ist direkt gesichert; der ausgeschriebene Name und die Berufsbiografie sind weitere Angaben.",
+      "before": {
+        "term": "humei",
+        "text": {
+          "de": "zu Ehren des Ornithologen und Kolonialbeamten Allan Octavian Hume",
+          "en": "honours ornithologist and colonial official Allan Octavian Hume",
+          "nl": "vernoemd naar ornitholoog en koloniaal ambtenaar Allan Octavian Hume"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 196
+      },
+      "additionalEvidence": [
+        {
+          "title": "Brooks (1878): Stray Feathers VII",
+          "url": "https://archive.org/details/strayfeathersjou71878hume",
+          "pages": "128–134, Namensvorschlag 131",
+          "kind": "original",
+          "scope": "Reguloides humei; A. O. Hume",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Widmung beibehalten; voller Name und Berufsbezeichnung bei Bedarf biografisch ergänzen.",
+      "affectedSpecies": [
+        "Phylloscopus humei"
+      ],
+      "after": {
+        "term": "humei",
+        "text": {
+          "de": "zu Ehren des Ornithologen und Kolonialbeamten Allan Octavian Hume",
+          "en": "honours ornithologist and colonial official Allan Octavian Hume",
+          "nl": "vernoemd naar ornitholoog en koloniaal ambtenaar Allan Octavian Hume"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 196,
+        "additionalSources": [
+          {
+            "source": "review20261108_3b55085ff6d0",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:hutchinsii",
+      "auditStatus": "primary",
+      "reason": "Die Originalbeschreibung nennt die Widmung an den Hudson-Bay-Gewährsmann; Palmer identifiziert diesen ausdrücklich als Thomas Hutchins.",
+      "before": {
+        "term": "hutchinsii",
+        "text": {
+          "de": "zu Ehren des Arztes Thomas Hutchins, tätig bei der Hudson's Bay Company",
+          "en": "honours surgeon Thomas Hutchins of the Hudson's Bay Company",
+          "nl": "vernoemd naar arts Thomas Hutchins van de Hudson's Bay Company"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 196
+      },
+      "additionalEvidence": [
+        {
+          "title": "Swainson & Richardson (1831/1832): Fauna Boreali-Americana II",
+          "url": "https://archive.org/details/faunaborealiamer02rich",
+          "pages": "470–471",
+          "kind": "original",
+          "scope": "Originalwidmung",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Palmer (1928): Notes on Persons…",
+          "url": "https://archive.org/details/sim_condor_september-october-1928_30_5",
+          "pages": "Eintrag Hutchins",
+          "kind": "historical_secondary",
+          "scope": "Identität Thomas Hutchins und Hudson’s Bay Company",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Beibehalten; beide Quellen zusammen dokumentieren.",
+      "affectedSpecies": [
+        "Branta hutchinsii"
+      ],
+      "after": {
+        "term": "hutchinsii",
+        "text": {
+          "de": "zu Ehren des Arztes Thomas Hutchins, tätig bei der Hudson's Bay Company",
+          "en": "honours surgeon Thomas Hutchins of the Hudson's Bay Company",
+          "nl": "vernoemd naar arts Thomas Hutchins van de Hudson's Bay Company"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 196,
+        "additionalSources": [
+          {
+            "source": "review20261108_e3191b15b3bf",
+            "scope": "dedication"
+          },
+          {
+            "source": "review20261108_2c097d39a126",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:hyperboreus",
+      "auditStatus": "partial",
+      "reason": "Die lateinische Form hyperboreus ist belegt. Die App-Paraphrase weit im Norden lebend ist dadurch nur im Grundsinn gestützt.",
+      "before": {
+        "term": "hyperboreus",
+        "text": {
+          "de": "weit im Norden lebend",
+          "en": "living in the far north",
+          "nl": "in het verre noorden levend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 198
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: hyperboreus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90490660",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Larus hyperboreus"
+      ],
+      "after": {
+        "term": "hyperboreus",
+        "text": {
+          "de": "weit im Norden lebend",
+          "en": "living in the far north",
+          "nl": "in het verre noorden levend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 198,
+        "additionalSources": [
+          {
+            "source": "review20261108_92c597e09531",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:ibericus",
+      "auditStatus": "partial",
+      "reason": "Die sprachliche Verbindung zu Iberien ist gestützt. Welche historische Iberia gemeint ist, lässt sich nicht allein aus dem Adjektiv entscheiden.",
+      "before": {
+        "term": "ibericus",
+        "text": {
+          "de": "von der Iberischen Halbinsel",
+          "en": "of the Iberian Peninsula",
+          "nl": "van het Iberisch Schiereiland"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 201
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: Hibericus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=88859051",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Phylloscopus ibericus"
+      ],
+      "after": {
+        "term": "ibericus",
+        "text": {
+          "de": "von der Iberischen Halbinsel",
+          "en": "of the Iberian Peninsula",
+          "nl": "van het Iberisch Schiereiland"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 201,
+        "additionalSources": [
+          {
+            "source": "review20261108_9fa06508626f",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:iliacus",
+      "auditStatus": "correction",
+      "reason": "Für Turdus iliacus erläutert BOU 1915 den Namen als Gazas Latinisierung eines antiken Drosselnamens. Die App-Erklärung zur Flanke gehörig passt zu einer anderen taxonomischen Verwendung desselben Wortes. Ein gleich geschriebenes lateinisches Wörterbuchwort ist hier kein Gegenbeweis gegen die historische Vogelherleitung.",
+      "before": {
+        "term": "iliacus",
+        "text": {
+          "de": "zur Flanke gehörig",
+          "en": "of the flank",
+          "nl": "van de flank"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 202
+      },
+      "additionalEvidence": [
+        {
+          "title": "BOU (1915): A List of British Birds",
+          "url": "https://archive.org/details/listofbritishbir00britiala",
+          "pages": "87",
+          "kind": "historical_secondary",
+          "scope": "Explizite Erklärung zum passenden Turdus-Namen",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Wiktionary: iliacus",
+          "url": "https://en.wiktionary.org/wiki/iliacus",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Gegenprobe: anderer lexikalischer Sinn; keine Ersatzherleitung",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Vorschlag: „alter Drosselname; über Gazas lateinische Übersetzung einer antiken Bezeichnung übernommen“. In DE/EN/NL gemeinsam berichtigen; keine Flanken- oder Kolik-Deutung als Ersatz verwenden.",
+      "affectedSpecies": [
+        "Turdus iliacus"
+      ],
+      "after": {
+        "term": "iliacus",
+        "text": {
+          "de": "alter Drosselname; über Gazas lateinische Übersetzung einer antiken Bezeichnung übernommen",
+          "en": "old thrush name adopted through Gaza’s Latin translation of an ancient name",
+          "nl": "oude lijsternaam, overgenomen via Gaza’s Latijnse vertaling van een antieke benaming"
+        },
+        "uncertain": false,
+        "source": "bou1915",
+        "page": 87
+      }
+    },
+    {
+      "termKey": "e:japonensis",
+      "auditStatus": "lexical",
+      "reason": "J-/I-Schreibvariante des neulateinischen Adjektivs japanisch.",
+      "before": {
+        "term": "japonensis",
+        "text": {
+          "de": "japanisch",
+          "en": "Japanese",
+          "nl": "Japans"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 211
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: iaponensis (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90548510",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Grus japonensis"
+      ],
+      "after": {
+        "term": "japonensis",
+        "text": {
+          "de": "japanisch",
+          "en": "Japanese",
+          "nl": "Japans"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 211,
+        "additionalSources": [
+          {
+            "source": "review20261108_328354e5215f",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:japonica",
+      "auditStatus": "lexical",
+      "reason": "Weibliche Form von iaponicus: japanisch; Schreibung mit j statt i.",
+      "before": {
+        "term": "japonica",
+        "text": {
+          "de": "japanisch",
+          "en": "Japanese",
+          "nl": "Japans"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 211
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: iaponicus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90536945",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Coturnix japonica"
+      ],
+      "after": {
+        "term": "japonica",
+        "text": {
+          "de": "japanisch",
+          "en": "Japanese",
+          "nl": "Japans"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 211,
+        "additionalSources": [
+          {
+            "source": "review20261108_cacad4f7ccbb",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:japonicus",
+      "auditStatus": "lexical",
+      "reason": "J-/I-Schreibvariante: japanisch.",
+      "before": {
+        "term": "japonicus",
+        "text": {
+          "de": "japanisch",
+          "en": "Japanese",
+          "nl": "Japans"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 211
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: iaponicus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90536945",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Anthus japonicus"
+      ],
+      "after": {
+        "term": "japonicus",
+        "text": {
+          "de": "japanisch",
+          "en": "Japanese",
+          "nl": "Japans"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 211,
+        "additionalSources": [
+          {
+            "source": "review20261108_cacad4f7ccbb",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:javanica",
+      "auditStatus": "lexical",
+      "reason": "Weibliche Form des Adjektivs: von Java.",
+      "before": {
+        "term": "javanica",
+        "text": {
+          "de": "von Java",
+          "en": "of Java",
+          "nl": "van Java"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 211
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: javanicus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=88508208",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Dendrocygna javanica"
+      ],
+      "after": {
+        "term": "javanica",
+        "text": {
+          "de": "von Java",
+          "en": "of Java",
+          "nl": "van Java"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 211,
+        "additionalSources": [
+          {
+            "source": "review20261108_8f3902b43a29",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:lapponica",
+      "auditStatus": "lexical",
+      "reason": "Weibliche Form von lapponicus: auf Lappland bezogen.",
+      "before": {
+        "term": "lapponica",
+        "text": {
+          "de": "aus Lappland",
+          "en": "of Lapland",
+          "nl": "uit Lapland"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 219
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: lapponicus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=53726991",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Limosa lapponica"
+      ],
+      "after": {
+        "term": "lapponica",
+        "text": {
+          "de": "aus Lappland",
+          "en": "of Lapland",
+          "nl": "uit Lapland"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 219,
+        "additionalSources": [
+          {
+            "source": "review20261108_de8227ffe2f5",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:luzonica",
+      "auditStatus": "lexical",
+      "reason": "Weibliche Form von luzonicus: auf Luzon bezogen.",
+      "before": {
+        "term": "luzonica",
+        "text": {
+          "de": "von Luzon, Philippinen",
+          "en": "of Luzon, Philippines",
+          "nl": "van Luzon, Filipijnen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 233
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: luzonicus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92640070",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Anas luzonica"
+      ],
+      "after": {
+        "term": "luzonica",
+        "text": {
+          "de": "von Luzon, Philippinen",
+          "en": "of Luzon, Philippines",
+          "nl": "van Luzon, Filipijnen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 233,
+        "additionalSources": [
+          {
+            "source": "review20261108_a27847f95b17",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:maurus",
+      "auditStatus": "partial",
+      "reason": "Moorisch/nordafrikanisch ist belegt; die zusätzliche Deutung dunkel als historischer Farbvergleich bleibt taxonspezifisch offen.",
+      "before": {
+        "term": "maurus",
+        "text": {
+          "de": "maurisch, dunkel; historischer Farbvergleich",
+          "en": "Moorish, dark; a historical colour comparison",
+          "nl": "Moors, donker; een historische kleurvergelijking"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 243
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: maurus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=88990120",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Saxicola maurus"
+      ],
+      "after": {
+        "term": "maurus",
+        "text": {
+          "de": "maurisch, dunkel; historischer Farbvergleich",
+          "en": "Moorish, dark; a historical colour comparison",
+          "nl": "Moors, donker; een historische kleurvergelijking"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 243,
+        "additionalSources": [
+          {
+            "source": "review20261108_b75a65042f39",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:melleri",
+      "auditStatus": "partial",
+      "reason": "Sclater benennt die neue Ente ausdrücklich nach ihrem Entdecker Dr. C. Meller. Die Art und die Person sind direkt verbunden; Charles James wird dort nicht ausgeschrieben.",
+      "before": {
+        "term": "melleri",
+        "text": {
+          "de": "zu Ehren des Arztes und Botanikers Charles James Meller",
+          "en": "honours surgeon and botanist Charles James Meller",
+          "nl": "vernoemd naar arts en botanicus Charles James Meller"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 249
+      },
+      "additionalEvidence": [
+        {
+          "title": "Sclater (1864/1865): Description of a New Species of Duck from Madagascar",
+          "url": "https://archive.org/details/per_proceedings-of-the-general-meetings-for-scient_1864_4",
+          "pages": "487",
+          "kind": "original",
+          "scope": "Anas melleri; ausdrückliche Benennung nach dem Entdecker",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Widmung beibehalten; die vollständigen Vornamen separat biografisch belegen.",
+      "affectedSpecies": [
+        "Anas melleri"
+      ],
+      "after": {
+        "term": "melleri",
+        "text": {
+          "de": "zu Ehren des Arztes und Botanikers Charles James Meller",
+          "en": "honours surgeon and botanist Charles James Meller",
+          "nl": "vernoemd naar arts en botanicus Charles James Meller"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 249,
+        "additionalSources": [
+          {
+            "source": "review20261108_0b4f51afff2b",
+            "scope": "dedication",
+            "page": 487
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:moluccanus",
+      "auditStatus": "lexical",
+      "reason": "Lateinisches Adjektiv: von den Molukken.",
+      "before": {
+        "term": "moluccanus",
+        "text": {
+          "de": "von den Molukken",
+          "en": "of the Moluccas",
+          "nl": "van de Molukken"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 258
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: moluccanus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=53727624",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Trichoglossus moluccanus"
+      ],
+      "after": {
+        "term": "moluccanus",
+        "text": {
+          "de": "von den Molukken",
+          "en": "of the Moluccas",
+          "nl": "van de Molukken"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 258,
+        "additionalSources": [
+          {
+            "source": "review20261108_401971df26d4",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:noveboracensis",
+      "auditStatus": "lexical",
+      "reason": "Neulateinisch auf New York bezogen.",
+      "before": {
+        "term": "noveboracensis",
+        "text": {
+          "de": "aus New York",
+          "en": "of New York",
+          "nl": "uit New York"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 276
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: noveboracensis (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90481897",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Parkesia noveboracensis"
+      ],
+      "after": {
+        "term": "noveboracensis",
+        "text": {
+          "de": "aus New York",
+          "en": "of New York",
+          "nl": "uit New York"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 276,
+        "additionalSources": [
+          {
+            "source": "review20261108_805ff3418e1d",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:olivetorum",
+      "auditStatus": "lexical",
+      "reason": "Genitiv Plural von olivetum: der Olivenhaine.",
+      "before": {
+        "term": "olivetorum",
+        "text": {
+          "de": "der Olivenhaine",
+          "en": "of olive groves",
+          "nl": "van olijfgaarden"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 281
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: olivetorum (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=74021628",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Wiktionary: olivetum (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90545758",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Hippolais olivetorum"
+      ],
+      "after": {
+        "term": "olivetorum",
+        "text": {
+          "de": "der Olivenhaine",
+          "en": "of olive groves",
+          "nl": "van olijfgaarden"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 281,
+        "additionalSources": [
+          {
+            "source": "review20261108_576c32b01d03",
+            "scope": "wordMeaning"
+          },
+          {
+            "source": "review20261108_3a859ea7efdc",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:pallasi",
+      "auditStatus": "partial",
+      "reason": "Cabanis trennt die Art in einer Fußnote anhand von Pallas’ Emberiza schoeniclus var. beta ab und nennt sie C. Pallasi. Damit ist der Pallas-Bezug gestützt. Eine ausgeschriebene Dedikation steht dort nicht.",
+      "before": {
+        "term": "pallasi",
+        "text": {
+          "de": "zu Ehren des Naturkundlers Peter Simon Pallas",
+          "en": "honours naturalist Peter Simon Pallas",
+          "nl": "vernoemd naar natuuronderzoeker Peter Simon Pallas"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 289
+      },
+      "additionalEvidence": [
+        {
+          "title": "Cabanis (1850/1851): Museum Heineanum I",
+          "url": "https://archive.org/details/museumheineanumv1185caba",
+          "pages": "130, Fußnote",
+          "kind": "original",
+          "scope": "Cynchramus Pallasi; nicht der andere Eintrag Turdus Pallasi",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Bezug beibehalten; volle Identität und ausdrückliche Widmungsabsicht nicht allein aus dieser Fußnote ableiten.",
+      "affectedSpecies": [
+        "Emberiza pallasi"
+      ],
+      "after": {
+        "term": "pallasi",
+        "text": {
+          "de": "zu Ehren des Naturkundlers Peter Simon Pallas",
+          "en": "honours naturalist Peter Simon Pallas",
+          "nl": "vernoemd naar natuuronderzoeker Peter Simon Pallas"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 289,
+        "additionalSources": [
+          {
+            "source": "review20261108_67d10329a293",
+            "scope": "nameContext"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:palpebrosus",
+      "auditStatus": "partial",
+      "reason": "Palpebra bedeutet Augenlid. Das Suffix und der behauptete Bezug auf auffällige Lider sind nicht allein dadurch gesichert.",
+      "before": {
+        "term": "palpebrosus",
+        "text": {
+          "de": "mit auffälligen Augenlidern",
+          "en": "with conspicuous eyelids",
+          "nl": "met opvallende oogleden"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 290
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: palpebra (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=91220134",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Zosterops palpebrosus"
+      ],
+      "after": {
+        "term": "palpebrosus",
+        "text": {
+          "de": "mit auffälligen Augenlidern",
+          "en": "with conspicuous eyelids",
+          "nl": "met opvallende oogleden"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 290,
+        "additionalSources": [
+          {
+            "source": "review20261108_d3dc897c82a2",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:pilaris",
+      "auditStatus": "historical",
+      "reason": "BOU 1915 bestätigt Gazas Übersetzung eines antiken Drosselnamens und die Verwechslung mit dem Haar-Wort.",
+      "before": {
+        "term": "pilaris",
+        "text": {
+          "de": "historisch gebildeter Drosselname; beruht auf einer Verwechslung von griechischen Wörtern für Drossel und Haar",
+          "en": "historical thrush name formed through confusion between Greek words for thrush and hair",
+          "nl": "historisch gevormde lijsternaam door verwarring van Griekse woorden voor lijster en haar"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 306
+      },
+      "additionalEvidence": [
+        {
+          "title": "BOU (1915): A List of British Birds",
+          "url": "https://archive.org/details/listofbritishbir00britiala",
+          "pages": "88",
+          "kind": "historical_secondary",
+          "scope": "Explizite historische Herleitung",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Bestehende Erklärung beibehalten; unabhängigen historischen Beleg ergänzen.",
+      "affectedSpecies": [
+        "Turdus pilaris"
+      ],
+      "after": {
+        "term": "pilaris",
+        "text": {
+          "de": "historisch gebildeter Drosselname; beruht auf einer Verwechslung von griechischen Wörtern für Drossel und Haar",
+          "en": "historical thrush name formed through confusion between Greek words for thrush and hair",
+          "nl": "historisch gevormde lijsternaam door verwarring van Griekse woorden voor lijster en haar"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 306,
+        "additionalSources": [
+          {
+            "source": "bou1915",
+            "scope": "nameHistory",
+            "page": 88
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:quelea",
+      "auditStatus": "open",
+      "reason": "Gezielte neue Recherche durchgeführt; keine unabhängig tragfähige Erklärung gesichert. Ein Fund in einer Taxonliste belegt keine Namensherleitung.",
+      "before": {
+        "term": "quelea",
+        "text": {
+          "de": "aus einem alten Wachtelnamen; Übertragung ungeklärt",
+          "en": "from an old quail name; reason for transfer unclear",
+          "nl": "uit een oude kwartelnaam; reden voor overdracht onduidelijk"
+        },
+        "uncertain": true,
+        "source": "jobling2010",
+        "page": 328
+      },
+      "additionalEvidence": [],
+      "remainingQuestion": "Wachtelherleitung und Übertragung auf den Webervogel weiterhin nicht unabhängig gesichert.",
+      "nextActionFromAudit": "Original-Fundweg vorhanden: passende Beschreibung lesen und Namensmotiv gegenprüfen. Die Typuslokalität allein ist kein etymologischer Beleg.",
+      "affectedSpecies": [
+        "Quelea quelea"
+      ],
+      "after": {
+        "term": "quelea",
+        "text": {
+          "de": "möglicherweise aus einem alten Wachtelnamen; Übertragung ungeklärt",
+          "en": "possibly from an old quail name; reason for transfer unclear",
+          "nl": "mogelijk uit een oude kwartelnaam; reden voor overdracht onduidelijk"
+        },
+        "uncertain": true,
+        "source": "jobling2010",
+        "page": 328
+      }
+    },
+    {
+      "termKey": "e:rossii",
+      "auditStatus": "primary",
+      "reason": "Cassin benennt Anser Rossii ausdrücklich nach Bernard R. Ross; Palmer ergänzt unabhängig den ausgeschriebenen Namen Bernard Rogan Ross und die Hudson’s-Bay-Tätigkeit.",
+      "before": {
+        "term": "rossii",
+        "text": {
+          "de": "zu Ehren des Naturkundlers und Handelsbeamten Bernard Rogan Ross",
+          "en": "honours naturalist and trading-company official Bernard Rogan Ross",
+          "nl": "vernoemd naar natuuronderzoeker en handelsfunctionaris Bernard Rogan Ross"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 338
+      },
+      "additionalEvidence": [
+        {
+          "title": "Cassin (1861): Proceedings of the Academy of Natural Sciences of Philadelphia XIII",
+          "url": "https://archive.org/details/proceedingsofaca13acad",
+          "pages": "72–73",
+          "kind": "original",
+          "scope": "Ausdrückliche Benennung nach Bernard R. Ross",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Palmer (1928): Notes on Persons…",
+          "url": "https://archive.org/details/sim_condor_september-october-1928_30_5",
+          "pages": "Eintrag Ross",
+          "kind": "historical_secondary",
+          "scope": "Vollständiger Name und Biografie",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Beibehalten; Original plus historische Identifizierung verknüpfen.",
+      "affectedSpecies": [
+        "Anser rossii"
+      ],
+      "after": {
+        "term": "rossii",
+        "text": {
+          "de": "zu Ehren des Naturkundlers und Handelsbeamten Bernard Rogan Ross",
+          "en": "honours naturalist and trading-company official Bernard Rogan Ross",
+          "nl": "vernoemd naar natuuronderzoeker en handelsfunctionaris Bernard Rogan Ross"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 338,
+        "additionalSources": [
+          {
+            "source": "review20261108_f7ed6b1d7c61",
+            "scope": "dedication"
+          },
+          {
+            "source": "review20261108_2c097d39a126",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:rueppellii",
+      "auditStatus": "partial",
+      "reason": "Gray erklärt ausdrücklich, den Papagei nach seinem Freund wegen dessen Beiträgen zur afrikanischen Zoologie zu benennen. Die Namens- und Rüppell-Verbindung ist direkt gestützt; ausgeschriebene Vornamen nicht in der Widmung.",
+      "before": {
+        "term": "rueppellii",
+        "text": {
+          "de": "zu Ehren des Zoologen und Forschungsreisenden Eduard Rüppell",
+          "en": "honours zoologist and explorer Eduard Rüppell",
+          "nl": "vernoemd naar zoöloog en ontdekkingsreiziger Eduard Rüppell"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 341
+      },
+      "additionalEvidence": [
+        {
+          "title": "Gray (1848/1849): Psittacus Rüppellii, Proceedings Zoological Society",
+          "url": "https://archive.org/details/per_proceedings-of-the-zoological-society-of-londo_proceedings-of-the-zoological-society-o_1848",
+          "pages": "125–126",
+          "kind": "original",
+          "scope": "Originalwidmung; nur Poicephalus rueppellii",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Beibehalten; diesen Beleg nicht ungeprüft auf Gyps oder Curruca übertragen.",
+      "affectedSpecies": [
+        "Poicephalus rueppellii"
+      ],
+      "after": {
+        "term": "rueppellii",
+        "text": {
+          "de": "zu Ehren des Zoologen und Forschungsreisenden Eduard Rüppell",
+          "en": "honours zoologist and explorer Eduard Rüppell",
+          "nl": "vernoemd naar zoöloog en ontdekkingsreiziger Eduard Rüppell"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 341,
+        "additionalSources": [
+          {
+            "source": "review20261108_e8aade2011dd",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:sabini",
+      "auditStatus": "primary",
+      "reason": "Joseph Sabine nennt seinen Bruder Captain Edward Sabine als Entdecker und erklärt ausdrücklich, der Vogel trage den Namen seines Entdeckers. Damit ist Edward und nicht der beschreibende Joseph gemeint.",
+      "before": {
+        "term": "sabini",
+        "text": {
+          "de": "zu Ehren des Naturkundlers und Polarforschers Edward Sabine",
+          "en": "honours naturalist and Arctic explorer Edward Sabine",
+          "nl": "vernoemd naar natuuronderzoeker en poolreiziger Edward Sabine"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 345
+      },
+      "additionalEvidence": [
+        {
+          "title": "Joseph Sabine (1819): An Account of a new Species of Gull, Transactions Linnean Society XII",
+          "url": "https://archive.org/details/mobot31753002433586",
+          "pages": "520–523; Namensbegründung 522",
+          "kind": "original",
+          "scope": "Ausdrückliche Zuordnung an Edward Sabine",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Beibehalten; historische Verwandtschaft korrekt Bruder, nicht Cousin. Kein solcher Zusatz nötig, solange er nicht angezeigt wird.",
+      "affectedSpecies": [
+        "Xema sabini"
+      ],
+      "after": {
+        "term": "sabini",
+        "text": {
+          "de": "zu Ehren des Naturkundlers und Polarforschers Edward Sabine",
+          "en": "honours naturalist and Arctic explorer Edward Sabine",
+          "nl": "vernoemd naar natuuronderzoeker en poolreiziger Edward Sabine"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 345,
+        "additionalSources": [
+          {
+            "source": "review20261108_c818c59eb47f",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:sandvicensis:hawgoo",
+      "auditStatus": "partial",
+      "reason": "Neulateinischer Hawaii-/Sandwichinseln-Bezug ist gestützt. Die Abgrenzung vom englischen Ort ist am konkreten Taxon zu prüfen.",
+      "before": {
+        "term": "sandvicensis",
+        "text": {
+          "de": "von den Sandwichinseln, heute Hawaii; hier kein Bezug zum englischen Ort Sandwich",
+          "en": "of the Sandwich Islands, now Hawaii; not the English town of Sandwich here",
+          "nl": "van de Sandwicheilanden, nu Hawaï; hier niet de Engelse plaats Sandwich"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 347
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: sandvicensis (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=77901048",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Branta sandvicensis"
+      ],
+      "after": {
+        "term": "sandvicensis",
+        "text": {
+          "de": "von den Sandwichinseln, heute Hawaii; hier kein Bezug zum englischen Ort Sandwich",
+          "en": "of the Sandwich Islands, now Hawaii; not the English town of Sandwich here",
+          "nl": "van de Sandwicheilanden, nu Hawaï; hier niet de Engelse plaats Sandwich"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 347,
+        "additionalSources": [
+          {
+            "source": "review20261108_3f7d1fdf66e8",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:schwarzi",
+      "auditStatus": "partial",
+      "reason": "Radde widmet die Art ausdrücklich seinem Freund, dem Astronomen Schwarz, Leiter der Sibirischen Expedition. Der Vorname Ludwig wird im Widmungssatz nicht genannt.",
+      "before": {
+        "term": "schwarzi",
+        "text": {
+          "de": "zu Ehren des Astronomen Ludwig Schwarz",
+          "en": "honours astronomer Ludwig Schwarz",
+          "nl": "vernoemd naar astronoom Ludwig Schwarz"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 351
+      },
+      "additionalEvidence": [
+        {
+          "title": "Radde (1863): Sylvia (Phyllopneuste) Schwarzi",
+          "url": "https://archive.org/details/10366740bsb/page/n271/mode/1up",
+          "pages": "260",
+          "kind": "original",
+          "scope": "Scan visuell gelesen; ausdrückliche Widmung an Astronom Schwarz",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Widmung und Astronomenberuf beibehalten; Ludwig durch biografische Quelle vervollständigen.",
+      "affectedSpecies": [
+        "Phylloscopus schwarzi"
+      ],
+      "after": {
+        "term": "schwarzi",
+        "text": {
+          "de": "zu Ehren des Astronomen Ludwig Schwarz",
+          "en": "honours astronomer Ludwig Schwarz",
+          "nl": "vernoemd naar astronoom Ludwig Schwarz"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 351,
+        "additionalSources": [
+          {
+            "source": "review20261108_30059a61bb75",
+            "scope": "dedication",
+            "page": 260
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:senegalensis",
+      "auditStatus": "lexical",
+      "reason": "Neulateinisch senegalesisch.",
+      "before": {
+        "term": "senegalensis",
+        "text": {
+          "de": "aus Senegal",
+          "en": "of Senegal",
+          "nl": "uit Senegal"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 353
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: senegalensis (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=53729585",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Spilopelia senegalensis"
+      ],
+      "after": {
+        "term": "senegalensis",
+        "text": {
+          "de": "aus Senegal",
+          "en": "of Senegal",
+          "nl": "uit Senegal"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 353,
+        "additionalSources": [
+          {
+            "source": "review20261108_5979bdfe62c9",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:serinus",
+      "auditStatus": "historical",
+      "reason": "BOU behandelt serinus als Girlitznamen im selben Zusammenhang wie die Latinisierung von serin.",
+      "before": {
+        "term": "serinus",
+        "text": {
+          "de": "übernommener Girlitzname",
+          "en": "borrowed serin name",
+          "nl": "overgenomen naam voor de Europese kanarie"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 354
+      },
+      "additionalEvidence": [
+        {
+          "title": "BOU (1915): A List of British Birds",
+          "url": "https://archive.org/details/listofbritishbir00britiala",
+          "pages": "14",
+          "kind": "historical_secondary",
+          "scope": "Artnamenkontext und französisches Vogelwort",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Wiktionary: serin",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93805297",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Französischer Vogelname",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Beibehalten.",
+      "affectedSpecies": [
+        "Serinus serinus"
+      ],
+      "after": {
+        "term": "serinus",
+        "text": {
+          "de": "übernommener Girlitzname",
+          "en": "borrowed serin name",
+          "nl": "overgenomen naam voor de Europese kanarie"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 354,
+        "additionalSources": [
+          {
+            "source": "bou1915",
+            "scope": "nameHistory",
+            "page": 14
+          },
+          {
+            "source": "review20261108_bb32677571f7",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:sibilans",
+      "auditStatus": "lexical",
+      "reason": "Partizip mit den Bedeutungen zischend oder pfeifend; pfeifend passt.",
+      "before": {
+        "term": "sibilans",
+        "text": {
+          "de": "pfeifend, Pfeifer",
+          "en": "whistling, whistler",
+          "nl": "fluitend, fluiter"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 355
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: sibilans (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=53896771",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Larvivora sibilans"
+      ],
+      "after": {
+        "term": "sibilans",
+        "text": {
+          "de": "pfeifend, Pfeifer",
+          "en": "whistling, whistler",
+          "nl": "fluitend, fluiter"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 355,
+        "additionalSources": [
+          {
+            "source": "review20261108_c9ee4bb20679",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:sibiricus",
+      "auditStatus": "lexical",
+      "reason": "Neulateinisch sibirisch.",
+      "before": {
+        "term": "sibiricus",
+        "text": {
+          "de": "sibirisch",
+          "en": "Siberian",
+          "nl": "Siberisch"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 355
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: sibiricus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=53729680",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Carpodacus sibiricus"
+      ],
+      "after": {
+        "term": "sibiricus",
+        "text": {
+          "de": "sibirisch",
+          "en": "Siberian",
+          "nl": "Siberisch"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 355,
+        "additionalSources": [
+          {
+            "source": "review20261108_9ea53f136998",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:skua",
+      "auditStatus": "partial",
+      "reason": "Färöisch skúgvur bezeichnet die Große Raubmöwe. Entlehnungsweg und historische Schreibform skua noch nicht im Original geprüft.",
+      "before": {
+        "term": "skua",
+        "text": {
+          "de": "übernommener färöischer Raubmöwenname",
+          "en": "borrowed Faroese skua name",
+          "nl": "overgenomen Faeröerse jagersnaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 358
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: skúgvur (Faroese)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=83443704",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Stercorarius skua"
+      ],
+      "after": {
+        "term": "skua",
+        "text": {
+          "de": "übernommener färöischer Raubmöwenname",
+          "en": "borrowed Faroese skua name",
+          "nl": "overgenomen Faeröerse jagersnaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 358,
+        "additionalSources": [
+          {
+            "source": "review20261108_e59129c25448",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:splendens",
+      "auditStatus": "lexical",
+      "reason": "Glänzend/leuchtend ist direkt lexikalisch belegt.",
+      "before": {
+        "term": "splendens",
+        "text": {
+          "de": "glänzend",
+          "en": "shining",
+          "nl": "glanzend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 363
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: splendens (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=58293391",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Corvus splendens"
+      ],
+      "after": {
+        "term": "splendens",
+        "text": {
+          "de": "glänzend",
+          "en": "shining",
+          "nl": "glanzend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 363,
+        "additionalSources": [
+          {
+            "source": "review20261108_4dd8a66172be",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:svecica",
+      "auditStatus": "lexical",
+      "reason": "Weibliche Form von svecicus: schwedisch.",
+      "before": {
+        "term": "svecica",
+        "text": {
+          "de": "schwedisch",
+          "en": "Swedish",
+          "nl": "Zweeds"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 375
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: svecicus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=83965297",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Luscinia svecica"
+      ],
+      "after": {
+        "term": "svecica",
+        "text": {
+          "de": "schwedisch",
+          "en": "Swedish",
+          "nl": "Zweeds"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 375,
+        "additionalSources": [
+          {
+            "source": "review20261108_07f95651fe7f",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:swinhoii",
+      "auditStatus": "primary",
+      "reason": "Gould widmet den Fasan ausdrücklich Mr. Swinhoe. Der Aufsatztitel nennt Robert Swinhoe als britischen Vizekonsul auf Formosa.",
+      "before": {
+        "term": "swinhoii",
+        "text": {
+          "de": "zu Ehren des Diplomaten und Naturkundlers Robert Swinhoe",
+          "en": "honours diplomat and naturalist Robert Swinhoe",
+          "nl": "vernoemd naar diplomaat en natuuronderzoeker Robert Swinhoe"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 375
+      },
+      "additionalEvidence": [
+        {
+          "title": "Gould (1862): Descriptions of Sixteen New Species of Birds from Formosa",
+          "url": "https://archive.org/details/per_proceedings-of-the-scientific-meetings-of-the_1862_2",
+          "pages": "280–286; Widmung 285",
+          "kind": "original",
+          "scope": "Name, Diplomatenrolle und ausdrückliche Widmung im selben Aufsatz",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Beibehalten; Originalbeleg ergänzen.",
+      "affectedSpecies": [
+        "Lophura swinhoii"
+      ],
+      "after": {
+        "term": "swinhoii",
+        "text": {
+          "de": "zu Ehren des Diplomaten und Naturkundlers Robert Swinhoe",
+          "en": "honours diplomat and naturalist Robert Swinhoe",
+          "nl": "vernoemd naar diplomaat en natuuronderzoeker Robert Swinhoe"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 375,
+        "additionalSources": [
+          {
+            "source": "review20261108_d1f067fae513",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:torquilla",
+      "auditStatus": "historical",
+      "reason": "BOU erklärt den Vogelnamen aus torqueo und der Drehbewegung des Kopfes. Der Bewegungsbezug ist unabhängig gestützt.",
+      "before": {
+        "term": "torquilla",
+        "text": {
+          "de": "kleiner Dreher; Bezug auf die Kopfbewegungen",
+          "en": "little twister; refers to the head movements",
+          "nl": "kleine draaier; verwijst naar de kopbewegingen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 388
+      },
+      "additionalEvidence": [
+        {
+          "title": "BOU (1915): A List of British Birds",
+          "url": "https://archive.org/details/listofbritishbir00britiala",
+          "pages": "116",
+          "kind": "historical_secondary",
+          "scope": "Taxonspezifische Erklärung",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Beibehalten; „kleiner“ ist durch diesen kurzen Beleg nicht eigens gesichert.",
+      "affectedSpecies": [
+        "Jynx torquilla"
+      ],
+      "after": {
+        "term": "torquilla",
+        "text": {
+          "de": "von drehen; Bezug auf die Kopfbewegungen",
+          "en": "from twisting; refers to the head movements",
+          "nl": "van draaien; verwijst naar de kopbewegingen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 388,
+        "additionalSources": [
+          {
+            "source": "bou1915",
+            "scope": "nameHistory",
+            "page": 116
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:totanus",
+      "auditStatus": "partial",
+      "reason": "Mittelalterliches totanus bezeichnet einen Rotschenkel oder ähnlichen Watvogel. Die weitere italienische Entlehnung ist damit noch nicht historisch bewiesen.",
+      "before": {
+        "term": "totanus",
+        "text": {
+          "de": "übernommener italienischer Watvogelname",
+          "en": "borrowed Italian wader name",
+          "nl": "overgenomen Italiaanse steltlopernaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 388
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: totanus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=88821119",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Tringa totanus"
+      ],
+      "after": {
+        "term": "totanus",
+        "text": {
+          "de": "übernommener italienischer Watvogelname",
+          "en": "borrowed Italian wader name",
+          "nl": "overgenomen Italiaanse steltlopernaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 388,
+        "additionalSources": [
+          {
+            "source": "review20261108_e224127872cf",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:uralensis",
+      "auditStatus": "lexical",
+      "reason": "Neulateinisch aus dem Ural.",
+      "before": {
+        "term": "uralensis",
+        "text": {
+          "de": "aus dem Ural",
+          "en": "of the Ural Mountains",
+          "nl": "uit de Oeral"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 396
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: uralensis (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=59129335",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Strix uralensis"
+      ],
+      "after": {
+        "term": "uralensis",
+        "text": {
+          "de": "aus dem Ural",
+          "en": "of the Ural Mountains",
+          "nl": "uit de Oeral"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 396,
+        "additionalSources": [
+          {
+            "source": "review20261108_e3bf6145abcc",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:variegata",
+      "auditStatus": "lexical",
+      "reason": "Weibliche Form des Partizips/Adjektivs: bunt oder verschiedenfarbig gezeichnet.",
+      "before": {
+        "term": "variegata",
+        "text": {
+          "de": "bunt gezeichnet",
+          "en": "variegated",
+          "nl": "bont getekend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 398
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: variegatus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=85198496",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Tadorna variegata"
+      ],
+      "after": {
+        "term": "variegata",
+        "text": {
+          "de": "bunt gezeichnet",
+          "en": "variegated",
+          "nl": "bont getekend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 398,
+        "additionalSources": [
+          {
+            "source": "review20261108_686a34e7cbce",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:velatus",
+      "auditStatus": "lexical",
+      "reason": "Lateinisch bedeckt/verhüllt/verschleiert; die kurze App-Erklärung passt.",
+      "before": {
+        "term": "velatus",
+        "text": {
+          "de": "verschleiert",
+          "en": "veiled",
+          "nl": "gesluierd"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 399
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: velatus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=53898486",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Ploceus velatus"
+      ],
+      "after": {
+        "term": "velatus",
+        "text": {
+          "de": "verschleiert",
+          "en": "veiled",
+          "nl": "gesluierd"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 399,
+        "additionalSources": [
+          {
+            "source": "review20261108_465516469489",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:vociferus",
+      "auditStatus": "partial",
+      "reason": "Vocifer ist im Mittellatein als lautstark/rufend belegt. Die zusätzliche neulateinische Endung -us ist damit nicht unmittelbar geprüft.",
+      "before": {
+        "term": "vociferus",
+        "text": {
+          "de": "laut rufend",
+          "en": "calling loudly",
+          "nl": "luid roepend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 404
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: vocifer (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=90552170",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Charadrius vociferus"
+      ],
+      "after": {
+        "term": "vociferus",
+        "text": {
+          "de": "laut rufend",
+          "en": "calling loudly",
+          "nl": "luid roepend"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 404,
+        "additionalSources": [
+          {
+            "source": "review20261108_924480b22646",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "e:webbiana",
+      "auditStatus": "correction",
+      "reason": "Die historische Beschreibung verbindet den Namen mit dem Spender Webb aus Shanghai. Mearns korrigiert die verbreitete Zuschreibung ausdrücklich zu Edward Webb (1825–1906), einem britischen Teehändler, und grenzt ihn vom Botaniker Philip Barker-Webb ab.",
+      "before": {
+        "term": "webbiana",
+        "text": {
+          "de": "zu Ehren des Botanikers Philip Barker Webb",
+          "en": "honours botanist Philip Barker Webb",
+          "nl": "vernoemd naar botanicus Philip Barker Webb"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 406
+      },
+      "additionalEvidence": [
+        {
+          "title": "G. R. Gray (1852): Suthora Webbiana, Proceedings Zoological Society",
+          "url": "https://archive.org/details/per_proceedings-of-the-zoological-society-of-londo_proceedings-of-the-zoological-society-o_1852",
+          "pages": "70",
+          "kind": "original",
+          "scope": "Mr. Webb aus Shanghai; Sammler und Spender",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Gould (1850–1883): Birds of Asia III, Paradoxornis Webbiana",
+          "url": "https://archive.org/details/BirdsAsiaJohnGoIIIGoul",
+          "pages": "Tafel 72, Begleittext",
+          "kind": "historical_primary",
+          "scope": "Historischer Bericht über Sammler/Spender Webb in Shanghai; Vorname nicht genannt",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Richard Mearns (2024/2025): Fachbesprechung The Vanishing Mew Gull",
+          "url": "https://doi.org/10.1093/ornithapp/duae059",
+          "pages": null,
+          "kind": "independent_critical_research",
+          "scope": "Explizite Unterscheidung Edward Webb / Philip Barker-Webb",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Vorschlag: „zu Ehren des britischen Teehändlers und Sammlers Edward Webb“. Personenidentität und Beruf in DE/EN/NL berichtigen; Original allein sichert nur Webb aus Shanghai.",
+      "affectedSpecies": [
+        "Suthora webbiana"
+      ],
+      "after": {
+        "term": "webbiana",
+        "text": {
+          "de": "zu Ehren des britischen Teehändlers und Sammlers Edward Webb",
+          "en": "honours British tea trader and collector Edward Webb",
+          "nl": "vernoemd naar de Britse theehandelaar en verzamelaar Edward Webb"
+        },
+        "uncertain": false,
+        "source": "review20261108_735a96d2b0f9",
+        "additionalSources": [
+          {
+            "source": "review20261108_1bca7ac0ae32",
+            "scope": "dedication",
+            "page": 70
+          },
+          {
+            "source": "gould1873",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Aix",
+      "auditStatus": "partial",
+      "reason": "Das griechische Wort hat neben Ziege auch einen Wasservogel-Sinn. Dieser passt zur vorsichtigen App-Erklärung; die genaue antike Art ist nicht gesichert.",
+      "before": {
+        "term": "Aix",
+        "text": {
+          "de": "alter Name eines Wasservogels",
+          "en": "ancient name for a waterbird",
+          "nl": "oude naam voor een watervogel"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 37
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: αἴξ (Ancient Greek)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92194701",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Aix galericulata",
+        "Aix sponsa"
+      ],
+      "after": {
+        "term": "Aix",
+        "text": {
+          "de": "alter Name eines Wasservogels",
+          "en": "ancient name for a waterbird",
+          "nl": "oude naam voor een watervogel"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 37,
+        "additionalSources": [
+          {
+            "source": "review20261108_a12dc0e89e11",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Alca",
+      "auditStatus": "partial",
+      "reason": "Altnordisch alka bezeichnet einen Alk. Das ist breiter als die genaue Festlegung auf den Tordalk.",
+      "before": {
+        "term": "Alca",
+        "text": {
+          "de": "aus einem nordischen Namen für den Tordalk",
+          "en": "from a Nordic name for the Razorbill",
+          "nl": "uit een Noordse naam voor de alk"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 40
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: alka (Old Norse)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93848521",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Alca torda"
+      ],
+      "after": {
+        "term": "Alca",
+        "text": {
+          "de": "aus einem nordischen Namen für den Tordalk",
+          "en": "from a Nordic name for the Razorbill",
+          "nl": "uit een Noordse naam voor de alk"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 40,
+        "additionalSources": [
+          {
+            "source": "review20261108_df3a423a789e",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Alisterus",
+      "auditStatus": "partial",
+      "reason": "Richmond nennt ausdrücklich Alister William Mathews und beruft sich auf eine Mitteilung Mathews’. Die formale Erstbeschreibung 1911 enthält dagegen nur die nomenklatorische Begründung.",
+      "before": {
+        "term": "Alisterus",
+        "text": {
+          "de": "Widmung an Alister William Mathews, den Sohn des Ornithologen Gregory Mathews",
+          "en": "honours Alister William Mathews, son of ornithologist Gregory Mathews",
+          "nl": "genoemd naar Alister William Mathews, zoon van ornitholoog Gregory Mathews"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 41
+      },
+      "additionalEvidence": [
+        {
+          "title": "Richmond (1917): Generic names applied to birds during 1906 to 1915",
+          "url": "https://archive.org/details/biostor-79498",
+          "pages": "576",
+          "kind": "contemporary_author_testimony",
+          "scope": "Vom Autor mitgeteilte Namensherkunft; nicht nur eine spätere Vermutung",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Mathews (1911): Novitates Zoologicae XVIII",
+          "url": "https://archive.org/details/novitateszoologi18lond",
+          "pages": "13",
+          "kind": "original",
+          "scope": "Formaler Namensvorschlag ohne eigene Dedikation",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Vollständigen Namen beibehalten; Sohn-Beziehung durch biografischen Beleg ergänzen.",
+      "affectedSpecies": [
+        "Alisterus scapularis"
+      ],
+      "after": {
+        "term": "Alisterus",
+        "text": {
+          "de": "Widmung an Alister William Mathews, den Sohn des Ornithologen Gregory Mathews",
+          "en": "honours Alister William Mathews, son of ornithologist Gregory Mathews",
+          "nl": "genoemd naar Alister William Mathews, zoon van ornitholoog Gregory Mathews"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 41,
+        "additionalSources": [
+          {
+            "source": "review20261108_e567d9c67b1b",
+            "scope": "dedication",
+            "page": 576
+          },
+          {
+            "source": "review20261108_7ba53b880c41",
+            "scope": "nameContext",
+            "page": 13
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Barnardius",
+      "auditStatus": "partial",
+      "reason": "Vigors und Horsfield widmen Platycercus barnardi ausdrücklich Edward Barnard. Das stützt die Person hinter dem später übernommenen Gattungsnamen; Bonapartes Gattungsbeschreibung ist hier nicht separat gelesen.",
+      "before": {
+        "term": "Barnardius",
+        "text": {
+          "de": "Widmung an den Naturkundler Edward Barnard",
+          "en": "honours naturalist Edward Barnard",
+          "nl": "genoemd naar natuuronderzoeker Edward Barnard"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 67
+      },
+      "additionalEvidence": [
+        {
+          "title": "Vigors & Horsfield (1827): Australian Birds, Transactions Linnean Society XV",
+          "url": "https://archive.org/details/mobot31753002433610",
+          "pages": "283",
+          "kind": "original",
+          "scope": "Lateinische Widmung an Edward Barnard im ursprünglichen Artnamen",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Personenidentität beibehalten; Kette Artepitheton → Gattungsname durch den Gattungsoriginalbeleg vervollständigen.",
+      "affectedSpecies": [
+        "Barnardius zonarius"
+      ],
+      "after": {
+        "term": "Barnardius",
+        "text": {
+          "de": "Widmung an den Naturkundler Edward Barnard",
+          "en": "honours naturalist Edward Barnard",
+          "nl": "genoemd naar natuuronderzoeker Edward Barnard"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 67,
+        "additionalSources": [
+          {
+            "source": "review20261108_1add8b0ad013",
+            "scope": "nameContext",
+            "page": 283
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Calcarius",
+      "auditStatus": "historical",
+      "reason": "BOU erklärt die Vogelgattung ausdrücklich aus calcar, Sporn. Das ähnlich geschriebene Wörterbuchwort calcarius mit Kalk-Bezug ist hier nicht einschlägig.",
+      "before": {
+        "term": "Calcarius",
+        "text": {
+          "de": "mit Sporen versehen",
+          "en": "having spurs",
+          "nl": "met sporen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 84
+      },
+      "additionalEvidence": [
+        {
+          "title": "BOU (1915): A List of British Birds",
+          "url": "https://archive.org/details/listofbritishbir00britiala",
+          "pages": "33",
+          "kind": "historical_secondary",
+          "scope": "Taxonspezifische Herleitung",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Wiktionary: calcar",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93063301",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Sporn",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Beibehalten; Homonym mit Kalk-Bezug nicht übernehmen.",
+      "affectedSpecies": [
+        "Calcarius lapponicus"
+      ],
+      "after": {
+        "term": "Calcarius",
+        "text": {
+          "de": "mit Sporen versehen",
+          "en": "having spurs",
+          "nl": "met sporen"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 84,
+        "additionalSources": [
+          {
+            "source": "bou1915",
+            "scope": "nameHistory",
+            "page": 33
+          },
+          {
+            "source": "review20261108_abfc9e5ba941",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Cettia",
+      "auditStatus": "partial",
+      "reason": "Agassiz kennzeichnet Cettia ausdrücklich als Widmungsnamen für Cetti. Der ausgeschriebene Vorname Francesco steht in dieser knappen Tabelle nicht.",
+      "before": {
+        "term": "Cettia",
+        "text": {
+          "de": "Widmung an den Zoologen Francesco Cetti",
+          "en": "honours zoologist Francesco Cetti",
+          "nl": "genoemd naar zoöloog Francesco Cetti"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 97
+      },
+      "additionalEvidence": [
+        {
+          "title": "Agassiz (1842–1846): Nomenclator Zoologicus, Aves",
+          "url": "https://archive.org/details/nomenclatorzoolo14agas",
+          "pages": "Tabelle, Cettia",
+          "kind": "contemporary_secondary",
+          "scope": "Zeitgenössische ausdrückliche Kennzeichnung als Cetti-Widmung",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Widmungscharakter beibehalten; Vorname und Gattungsoriginal ergänzen.",
+      "affectedSpecies": [
+        "Cettia cetti"
+      ],
+      "after": {
+        "term": "Cettia",
+        "text": {
+          "de": "Widmung an den Zoologen Francesco Cetti",
+          "en": "honours zoologist Francesco Cetti",
+          "nl": "genoemd naar zoöloog Francesco Cetti"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 97,
+        "additionalSources": [
+          {
+            "source": "review20261108_44944c648fa6",
+            "scope": "dedication"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Chloris",
+      "auditStatus": "lexical",
+      "reason": "Das griechische Vogelwort bezeichnet den Grünfink und passt zur App-Erklärung.",
+      "before": {
+        "term": "Chloris",
+        "text": {
+          "de": "Grünfink",
+          "en": "greenfinch",
+          "nl": "groenling"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 102
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: χλωρίς (Ancient Greek)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92459788",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Chloris chloris"
+      ],
+      "after": {
+        "term": "Chloris",
+        "text": {
+          "de": "Grünfink",
+          "en": "greenfinch",
+          "nl": "groenling"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 102,
+        "additionalSources": [
+          {
+            "source": "review20261108_73f37a6bae4e",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Chondestes",
+      "auditStatus": "partial",
+      "reason": "Chondros kann Korn/Getreide bedeuten; die zweite Worthälfte und die Benennungsabsicht bleiben offen.",
+      "before": {
+        "term": "Chondestes",
+        "text": {
+          "de": "Körnerfresser",
+          "en": "grain eater",
+          "nl": "graaneter"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 104
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: χόνδρος (Ancient Greek)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92297270",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Chondestes grammacus"
+      ],
+      "after": {
+        "term": "Chondestes",
+        "text": {
+          "de": "Körnerfresser",
+          "en": "grain eater",
+          "nl": "graaneter"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 104,
+        "additionalSources": [
+          {
+            "source": "review20261108_e64a9aa982c4",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Hydrobates",
+      "auditStatus": "partial",
+      "reason": "Der Bestandteil hydro- bedeutet Wasser; die zweite Hälfte und die konkrete Bildung sind hier nicht vollständig extern abgesichert.",
+      "before": {
+        "term": "Hydrobates",
+        "text": {
+          "de": "Wasserläufer",
+          "en": "water walker",
+          "nl": "waterloper"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 196
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: ὕδωρ (Ancient Greek)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93012625",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Hydrobates castro",
+        "Hydrobates pelagicus",
+        "Hydrobates leucorhous",
+        "Hydrobates monorhis"
+      ],
+      "after": {
+        "term": "Hydrobates",
+        "text": {
+          "de": "Wasserläufer",
+          "en": "water walker",
+          "nl": "waterloper"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 196,
+        "additionalSources": [
+          {
+            "source": "review20261108_42eeb63a0f35",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Junco",
+      "auditStatus": "lexical",
+      "reason": "Lateinisch iuncus/juncus bedeutet Binse; damit ist der Wortkern belegt.",
+      "before": {
+        "term": "Junco",
+        "text": {
+          "de": "Binse",
+          "en": "rush",
+          "nl": "rus"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 212
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: iuncus (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92142966",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Junco hyemalis"
+      ],
+      "after": {
+        "term": "Junco",
+        "text": {
+          "de": "Binse",
+          "en": "rush",
+          "nl": "rus"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 212,
+        "additionalSources": [
+          {
+            "source": "review20261108_fb6e9dd3b72d",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Jynx",
+      "auditStatus": "lexical",
+      "reason": "Lateinisch iynx bezeichnet den Wendehals.",
+      "before": {
+        "term": "Jynx",
+        "text": {
+          "de": "Wendehals",
+          "en": "wryneck",
+          "nl": "draaihals"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 212
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: iynx (Latin)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=91126598",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Jynx torquilla"
+      ],
+      "after": {
+        "term": "Jynx",
+        "text": {
+          "de": "Wendehals",
+          "en": "wryneck",
+          "nl": "draaihals"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 212,
+        "additionalSources": [
+          {
+            "source": "review20261108_21ed6aa08340",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Mareca",
+      "auditStatus": "partial",
+      "reason": "BOU bestätigt einen brasilianischen Entennamen bei Marcgrave. Der ausdrücklich behauptete portugiesische Übermittlungsschritt ist damit nicht einzeln bewiesen.",
+      "before": {
+        "term": "Mareca",
+        "text": {
+          "de": "aus einem brasilianisch-portugiesischen Entennamen",
+          "en": "from a Brazilian Portuguese duck name",
+          "nl": "uit een Braziliaans-Portugese eendennaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 241
+      },
+      "additionalEvidence": [
+        {
+          "title": "BOU (1915): A List of British Birds",
+          "url": "https://archive.org/details/listofbritishbir00britiala",
+          "pages": "171",
+          "kind": "historical_secondary",
+          "scope": "Brasilianischer Entenname",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Beibehalten; Entlehnungsweg über brasilianisches Portugiesisch gegebenenfalls nachbelegen.",
+      "affectedSpecies": [
+        "Mareca americana",
+        "Mareca sibilatrix",
+        "Mareca penelope",
+        "Mareca falcata",
+        "Mareca strepera"
+      ],
+      "after": {
+        "term": "Mareca",
+        "text": {
+          "de": "aus einem brasilianisch-portugiesischen Entennamen",
+          "en": "from a Brazilian Portuguese duck name",
+          "nl": "uit een Braziliaans-Portugese eendennaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 241,
+        "additionalSources": [
+          {
+            "source": "bou1915",
+            "scope": "nameHistory",
+            "page": 171
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Padda",
+      "auditStatus": "partial",
+      "reason": "Das malaiische Wort padi bezeichnet Reispflanze bzw. ungeschälten Reis. Die konkrete Latinisierung Padda wird damit nur teilweise gestützt.",
+      "before": {
+        "term": "Padda",
+        "text": {
+          "de": "Reisvogel, aus dem malaiischen Wort für Reis",
+          "en": "rice bird, from the Malay word for rice",
+          "nl": "rijstvogel, van het Maleise woord voor rijst"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 288
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: padi (Malay)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93486797",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Padda oryzivora"
+      ],
+      "after": {
+        "term": "Padda",
+        "text": {
+          "de": "Reisvogel, aus dem malaiischen Wort für Reis",
+          "en": "rice bird, from the Malay word for rice",
+          "nl": "rijstvogel, van het Maleise woord voor rijst"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 288,
+        "additionalSources": [
+          {
+            "source": "review20261108_28eaded69280",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Piranga",
+      "auditStatus": "partial",
+      "reason": "Tupí piranga bedeutet rot/Röte. Das bestätigt nicht die konkrete App-Behauptung einer unmittelbaren Übernahme eines Vogelnamens.",
+      "before": {
+        "term": "Piranga",
+        "text": {
+          "de": "aus einem Tupí-Vogelnamen",
+          "en": "from a Tupí bird name",
+          "nl": "uit een Tupí-vogelnaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 308
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: piranga (Old Tupi)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93755005",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Piranga olivacea"
+      ],
+      "after": {
+        "term": "Piranga",
+        "text": {
+          "de": "aus einem Tupí-Vogelnamen",
+          "en": "from a Tupí bird name",
+          "nl": "uit een Tupí-vogelnaam"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 308,
+        "additionalSources": [
+          {
+            "source": "review20261108_e01328097a16",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Quelea",
+      "auditStatus": "open",
+      "reason": "Gezielte neue Recherche durchgeführt; keine unabhängig tragfähige Erklärung gesichert. Ein Fund in einer Taxonliste belegt keine Namensherleitung.",
+      "before": {
+        "term": "Quelea",
+        "text": {
+          "de": "aus einem alten Wachtelnamen; Übertragung ungeklärt",
+          "en": "from an old quail name; reason for transfer unclear",
+          "nl": "uit een oude kwartelnaam; reden voor overdracht onduidelijk"
+        },
+        "uncertain": true,
+        "source": "jobling2010",
+        "page": 328
+      },
+      "additionalEvidence": [],
+      "remainingQuestion": "Mögliche Herleitung aus altem Wachtelnamen bleibt unsicher; ein taxonomischer Wiktionary-Eintrag mit möglicherweise bestätigt keine sichere Übertragung.",
+      "nextActionFromAudit": "Bisherigen Text vorerst beibehalten; Herkunft durch eine ausdrücklich erklärende Originalstelle oder unabhängige sprachhistorische Quelle absichern.",
+      "affectedSpecies": [
+        "Quelea quelea"
+      ],
+      "after": {
+        "term": "Quelea",
+        "text": {
+          "de": "möglicherweise aus einem alten Wachtelnamen; Übertragung ungeklärt",
+          "en": "possibly from an old quail name; reason for transfer unclear",
+          "nl": "mogelijk uit een oude kwartelnaam; reden voor overdracht onduidelijk"
+        },
+        "uncertain": true,
+        "source": "jobling2010",
+        "page": 328
+      }
+    },
+    {
+      "termKey": "g:Remiz",
+      "auditStatus": "partial",
+      "reason": "Das polnische Wort bezeichnet die Beutelmeise. Die Wortbedeutung passt; die historische Übernahme durch den Gattungsautor ist ein eigener Schritt.",
+      "before": {
+        "term": "Remiz",
+        "text": {
+          "de": "aus dem polnischen Namen der Beutelmeise",
+          "en": "from the Polish name for the Penduline Tit",
+          "nl": "uit de Poolse naam voor de buidelmees"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 333
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: remiz (Polish)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93914341",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Remiz pendulinus"
+      ],
+      "after": {
+        "term": "Remiz",
+        "text": {
+          "de": "aus dem polnischen Namen der Beutelmeise",
+          "en": "from the Polish name for the Penduline Tit",
+          "nl": "uit de Poolse naam voor de buidelmees"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 333,
+        "additionalSources": [
+          {
+            "source": "review20261108_fe4232d57a9d",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Seiurus",
+      "auditStatus": "partial",
+      "reason": "Seio bedeutet schütteln; der Schwanz-Bestandteil und die tatsächliche Bildung sind noch gesondert zu belegen.",
+      "before": {
+        "term": "Seiurus",
+        "text": {
+          "de": "Schwanzschüttler",
+          "en": "tail shaker",
+          "nl": "staartschudder"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 352
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: σείω (Ancient Greek)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92048934",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. Zusatzangaben zum konkreten Vogel noch unabhängig belegen.",
+      "affectedSpecies": [
+        "Seiurus aurocapilla"
+      ],
+      "after": {
+        "term": "Seiurus",
+        "text": {
+          "de": "Schwanzschüttler",
+          "en": "tail shaker",
+          "nl": "staartschudder"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 352,
+        "additionalSources": [
+          {
+            "source": "review20261108_bcfb3b13f75e",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Serinus",
+      "auditStatus": "historical",
+      "reason": "BOU nennt ausdrücklich die Latinisierung des französischen serin.",
+      "before": {
+        "term": "Serinus",
+        "text": {
+          "de": "aus dem französischen Girlitznamen",
+          "en": "from the French serin name",
+          "nl": "uit de Franse naam voor de Europese kanarie"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 354
+      },
+      "additionalEvidence": [
+        {
+          "title": "BOU (1915): A List of British Birds",
+          "url": "https://archive.org/details/listofbritishbir00britiala",
+          "pages": "14",
+          "kind": "historical_secondary",
+          "scope": "Historischer Entlehnungsweg",
+          "accessed": "2026-11-08"
+        },
+        {
+          "title": "Wiktionary: serin (French)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93805297",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Beibehalten; die darüber hinausgehende ältere Herkunft von serin ist nicht Teil der App-Erklärung.",
+      "affectedSpecies": [
+        "Serinus canaria",
+        "Serinus serinus",
+        "Serinus pusillus"
+      ],
+      "after": {
+        "term": "Serinus",
+        "text": {
+          "de": "aus dem französischen Girlitznamen",
+          "en": "from the French serin name",
+          "nl": "uit de Franse naam voor de Europese kanarie"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 354,
+        "additionalSources": [
+          {
+            "source": "bou1915",
+            "scope": "nameHistory",
+            "page": 14
+          },
+          {
+            "source": "review20261108_bb32677571f7",
+            "scope": "wordComponent"
+          }
+        ]
+      }
+    },
+    {
+      "termKey": "g:Xenus",
+      "auditStatus": "lexical",
+      "reason": "Griechisch xenos: Fremder/Gast; der Wortkern Fremder passt.",
+      "before": {
+        "term": "Xenus",
+        "text": {
+          "de": "Fremder",
+          "en": "stranger",
+          "nl": "vreemdeling"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 411
+      },
+      "additionalEvidence": [
+        {
+          "title": "Wiktionary: ξένος (Ancient Greek)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92375823",
+          "pages": null,
+          "kind": "dictionary",
+          "scope": "Wortbedeutung; keine historische Benennungsabsicht",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "remainingQuestion": null,
+      "nextActionFromAudit": "Wortbedeutung kann beibehalten werden. ",
+      "affectedSpecies": [
+        "Xenus cinereus"
+      ],
+      "after": {
+        "term": "Xenus",
+        "text": {
+          "de": "Fremder",
+          "en": "stranger",
+          "nl": "vreemdeling"
+        },
+        "uncertain": false,
+        "source": "jobling2010",
+        "page": 411,
+        "additionalSources": [
+          {
+            "source": "review20261108_fbdcc3c4f8c4",
+            "scope": "wordMeaning"
+          }
+        ]
+      }
+    }
+  ],
+  "deferred": {
+    "open": 148,
+    "originalSilent": 5,
+    "additionalCases": [
+      "g:Psephotellus",
+      "g:Clangula",
+      "e:stejnegeri",
+      "g:Ixoreus"
+    ]
+  },
+  "sourceAudit": "scientific-names-primary-review-20261108/audit.json",
+  "changedTermRecords": 88,
+  "changedSpecies": 98
+}
