@@ -3,27 +3,27 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,sans-serif}
 body.dark{--bg:#14221f;--panel:#1e302a;--ink:#eff4ed;--muted:#bed0c5;--line:#40574d;--accent:#b2d6b5;--soft:#2b4337;--sci-bg:#403153;--sci-ink:#ecdafe;--band-bg:#174746;--band-ink:#b2eee7;--common-bg:#4a4226;--common-ink:#f4e7b9;--bad:#ffb5ae;--good:#9ed5ac;color-scheme:dark}
 header,nav,main,footer{max-width:1120px;margin:auto;padding-left:24px;padding-right:24px}
-header{display:flex;justify-content:space-between;align-items:center;padding-top:16px;padding-bottom:10px}
+header{display:flex;justify-content:space-between;align-items:center;padding-top:10px;padding-bottom:6px}
 .brand{display:inline-flex;align-items:center;color:var(--ink);font-size:22px;font-weight:750;letter-spacing:-.7px;text-decoration:none;white-space:nowrap}
 .brand small{margin-left:4px;font-size:12px;letter-spacing:.8px;color:var(--muted)}
 .mark{display:inline-grid;place-items:center;background:var(--ink);color:var(--bg);width:34px;height:34px;border-radius:50%;margin-right:9px;font:italic 26px Georgia}
 nav{display:flex;gap:26px;border-bottom:1px solid var(--line)}
-nav a{padding:10px 0;color:var(--muted);text-decoration:none;border-bottom:3px solid transparent}
+nav a{min-height:44px;padding:8px 0;color:var(--muted);text-decoration:none;border-bottom:3px solid transparent}
 nav a.active{color:var(--ink);border-color:var(--accent);font-weight:650}
-main{min-height:calc(100svh - 170px);padding-top:22px;padding-bottom:64px}
-footer{display:flex;flex-wrap:wrap;gap:8px 20px;padding-top:18px;padding-bottom:26px;font-size:13px;border-top:1px solid var(--line)}
+main{min-height:calc(100svh - 150px);padding-top:16px;padding-bottom:36px}
+footer{display:flex;flex-wrap:wrap;gap:8px 20px;padding-top:14px;padding-bottom:18px;font-size:13px;border-top:1px solid var(--line)}
 a{color:var(--accent)}
-h1{font:400 clamp(28px,4vw,36px)/1.2 Georgia,serif;letter-spacing:-.5px;margin:0 0 22px}
-h2{font-size:20px;margin:0 0 12px}
+h1{font:400 clamp(28px,4vw,36px)/1.2 Georgia,serif;letter-spacing:-.5px;margin:0 0 16px}
+h2{font-size:20px;margin:0 0 10px}
 h3{font-size:20px;margin:0}
-p{margin:12px 0}
-input,select,button{font:inherit;border:1px solid var(--line);border-radius:9px;padding:11px 14px;background:var(--panel);color:var(--ink);min-height:44px}
+p{margin:10px 0}
+input,select,button{font:inherit;border:1px solid var(--line);border-radius:9px;padding:9px 14px;background:var(--panel);color:var(--ink);min-height:44px}
 input:focus,select:focus,button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 button{cursor:pointer;font-weight:600}button.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}button.quiet{background:transparent}button:disabled{opacity:.55;cursor:default}
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 14px}.search{flex:1;min-width:270px;font-size:17px}
 .meta{display:flex;justify-content:space-between;gap:12px;font-size:13px;color:var(--muted);margin:12px 0}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.card,.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card,.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 20px}
 .card p{margin:6px 0}.card a{float:right;font-size:14px;margin-top:7px}.card details{clear:both;padding-top:12px}
 .english{font-size:17px}.latin{font-style:italic;color:var(--muted);font-size:14px}
 .scientific-name{font-style:italic}
@@ -33,17 +33,17 @@ body.studying .english-variants{justify-content:center;text-align:center}
 .variant-label{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--muted);margin-right:5px}
 .code{font:700 19px/1.3 ui-monospace,monospace;letter-spacing:1.3px;color:var(--ink);background:var(--soft);padding:5px 9px;border-radius:6px;display:inline-block;flex:none;white-space:nowrap}
 .tags{font-size:12px;color:var(--muted);margin-top:10px}
-.settings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.settings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 18px}
 .field{display:flex;flex-direction:column;gap:6px}.field label,legend{font-size:14px;font-weight:650}
-fieldset{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:18px 0}
+fieldset{border:1px solid var(--line);border-radius:10px;padding:10px 16px;margin:14px 0}
 fieldset label{display:inline-flex;align-items:center;margin:4px 14px 4px 0;gap:7px}
 input[type=checkbox]{accent-color:var(--accent);width:18px;height:18px;min-height:18px}
-.form-note{font-size:13px;color:var(--muted);margin:16px 0 0}
-.session{max-width:730px;margin:auto}.question{text-align:center;padding:28px 22px}.question h1{font-size:clamp(34px,6vw,48px);margin:20px 0}
-.question input{width:100%;max-width:450px;font-size:20px}.actions{display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;margin-top:20px}
+.form-note{font-size:13px;color:var(--muted);margin:10px 0 0}
+.session{max-width:730px;margin:auto}.question{text-align:center;padding:20px 22px}.question h1{font-size:clamp(34px,6vw,48px);margin:14px 0}
+.question input{width:100%;max-width:450px;font-size:20px}.actions{display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;margin-top:14px}
 .feedback{margin-top:14px;padding:18px;border:1px solid var(--line);border-radius:10px;background:var(--soft)}.good{color:var(--good)}.bad{color:var(--bad)}
 .choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:0 0 18px}.number{font:36px Georgia;margin:0 0 6px}.stats .muted{font-size:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:0 0 14px}.number{font:36px Georgia;margin:0 0 6px}.stats .muted{font-size:14px}
 .muted{color:var(--muted)}progress{width:100%;height:8px;accent-color:var(--accent)}
 table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:10px 7px;border-bottom:1px solid var(--line)}
 .group-details{margin:14px 0}.group-details summary{font-size:17px;font-weight:650}.group-details[open] summary{margin-bottom:12px}
@@ -69,19 +69,19 @@ details summary{cursor:pointer}ul{padding-left:22px}
 body.studying .bird-photo{max-width:520px;margin:18px auto}
 body.studying .bird-photo img{height:280px}
 @media(max-width:720px){.grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:580px){header,nav,main,footer{padding-left:16px;padding-right:16px}nav{justify-content:space-between;gap:12px}nav a{font-size:14px}main{padding-top:18px}.toolbar .search{flex-basis:100%;min-width:0}.toolbar select{flex:1;width:calc(50% - 5px);min-width:0;font-size:14px;padding-left:10px;padding-right:25px}.settings{grid-template-columns:1fr;gap:14px}.card,.panel{padding:16px}.choices{grid-template-columns:1fr}.question{padding:24px 16px}.meta{flex-wrap:wrap}.brand{font-size:20px}td,th{font-size:13px;padding:9px 4px}}
+@media(max-width:580px){header,nav,main,footer{padding-left:16px;padding-right:16px}nav{justify-content:space-between;gap:12px}nav a{font-size:14px}main{padding-top:14px}.toolbar .search{flex-basis:100%;min-width:0}.toolbar select{flex:1;width:calc(50% - 5px);min-width:0;font-size:14px;padding-left:10px;padding-right:25px}.settings{grid-template-columns:1fr;gap:12px}.card,.panel{padding:14px 16px}.choices{grid-template-columns:1fr}.question{padding:24px 16px}.meta{flex-wrap:wrap}.brand{font-size:20px}td,th{font-size:13px;padding:9px 4px}}
 
 body.studying>header,body.studying>nav,body.studying>footer{display:none}
 body.studying main{min-height:100svh;padding-top:max(12px,env(safe-area-inset-top));padding-bottom:var(--study-bottom-space,calc(100px + env(safe-area-inset-bottom)));max-width:800px}
 body.studying .session>.meta{align-items:center;margin:0 0 10px;flex-wrap:nowrap}
 body.studying .session>.meta button{padding:8px 11px;white-space:nowrap;font-size:14px}
-body.studying .session>progress{display:block;height:6px;margin-bottom:14px}
-body.studying .question{padding:24px;overflow-wrap:anywhere}
-body.studying .question h1{margin:18px 0 24px;font-size:clamp(32px,6vw,44px)}
+body.studying .session>progress{display:block;height:6px;margin-bottom:10px}
+body.studying .question{padding:18px 24px;overflow-wrap:anywhere}
+body.studying .question h1{margin:12px 0 16px;font-size:clamp(32px,6vw,44px)}
 body.studying .question .eyebrow{font-size:12px;letter-spacing:1px;font-weight:700;text-transform:uppercase;color:var(--muted)}
 body.studying .study-actions{position:fixed;z-index:10;left:0;right:0;bottom:var(--study-keyboard-inset,0px);display:flex;justify-content:center;gap:12px;flex-wrap:nowrap;margin:0;padding:12px max(16px,env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));background:var(--bg);border-top:1px solid var(--line)}
 body.studying .study-actions button{flex:1;max-width:340px;min-height:48px;margin:0}
-body.studying .feedback{margin-top:12px;padding:18px}body.studying .feedback p{margin:12px 0}body.studying .feedback .muted{font-size:14px;line-height:1.45}
+body.studying .feedback{margin-top:12px;padding:18px}body.studying .feedback p{margin:10px 0}body.studying .feedback .muted{font-size:14px;line-height:1.45}
 body.studying #answer-area>.english{font-size:22px;margin:22px 0 12px}body.studying #answer-area>.code{margin:8px 0 16px}
 @media(max-width:580px){body.studying main{padding-left:16px;padding-right:16px}body.studying .question{padding:22px 16px}body.studying .session>.meta{font-size:12px}body.studying .study-actions{gap:10px}body.studying .study-actions button{font-size:15px;padding:12px}}
 @media(max-height:600px){body.studying .question{padding-top:16px;padding-bottom:16px}body.studying .question h1{margin-top:12px;font-size:30px}}
@@ -113,7 +113,7 @@ body.studying .photo-set-multiple .bird-photo{margin:14px 0 4px}
 .filter-chip{font-size:13px;min-height:40px;padding:7px 12px;background:var(--soft);border-color:var(--line);text-align:left}
 .empty-state{grid-column:1/-1}
 .back-top{position:fixed;right:16px;bottom:18px;z-index:5;background:var(--panel);box-shadow:0 3px 12px #0002}
-.resume-panel,.practice-panel{margin-bottom:18px}
+.resume-panel,.practice-panel{margin-bottom:14px}
 .resume-panel p{margin:10px 0}
 #setup>h2{margin-bottom:18px}
 .check-row{min-height:44px;cursor:pointer;padding:5px 0;gap:9px}
@@ -127,7 +127,7 @@ body.studying .photo-set-multiple .bird-photo{margin:14px 0 4px}
 .group-list .muted{font-size:12px}
 fieldset label{min-height:44px}
 .photo-option{white-space:normal}
-.selection-count{margin-top:20px;font-weight:600}
+.selection-count{margin-top:14px;font-weight:600}
 .lesson-controls{display:flex;gap:7px;flex-shrink:0}
 .repeat-count{display:block;font-size:12px;color:var(--muted)}
 body.studying .session>.meta{gap:12px}
@@ -146,10 +146,10 @@ body.studying #answer-area>.english-variants{margin:22px 0;font-size:21px}
 #practice-hard{margin-top:16px}
 .table-scroll{overflow-x:auto}
 th[scope=row]{font-weight:400}
-.backup-actions{display:flex;flex-wrap:wrap;align-items:start;gap:18px}
+.backup-actions{display:flex;flex-wrap:wrap;align-items:start;gap:12px 18px}
 .backup-actions label{display:flex;flex-direction:column;gap:6px;min-width:0;max-width:100%}
 .backup-actions input{width:100%;min-width:0;max-width:100%}
-.reset-area{margin-top:24px;padding-top:16px;border-top:1px solid var(--line)}
+.reset-area{margin-top:18px;padding-top:12px;border-top:1px solid var(--line)}
 .danger{color:var(--bad)}
 summary{min-height:44px;padding-top:9px;padding-bottom:9px}
 .photo-credit summary{min-height:36px;padding:6px 0}
@@ -168,7 +168,7 @@ summary{min-height:44px;padding-top:9px;padding-bottom:9px}
 body.studying .bird-photo{margin-top:14px}
 body.studying .photo-set-multiple .bird-photo img,body.studying .photo-set-multiple .study-photo-slot{height:210px}
 @media(max-width:720px){.lookup-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.lookup-filters .photo-option{grid-column:1/-1}.group-list{grid-template-columns:1fr}.meta{font-size:12px}.card .bird-photo img{height:220px}}
-@media(max-width:580px){.lookup-filters{gap:10px}.lookup-filters select{font-size:14px;padding-left:10px;padding-right:22px}.group-list{max-height:310px}body.studying .session>.meta{align-items:flex-start;flex-wrap:wrap}.lesson-controls{margin-left:auto}body.studying .session>.meta button{font-size:12px}body.studying .question{padding:20px 14px}body.studying .feedback{padding:14px}.difficult-species{align-items:start}.difficult-species>span{min-width:0}.difficult-species .muted{display:block}.stats .panel{padding:14px}.stats .muted{font-size:13px}.backup-actions{flex-direction:column}#photo-dialog{padding:14px}.dialog-header{top:-14px}#photo-dialog .photo-set-multiple{grid-template-columns:1fr}#photo-dialog .bird-photo img{height:42svh}.photo-set-multiple .bird-photo img,.photo-set-multiple .study-photo-slot,body.studying .photo-set-multiple .bird-photo img,body.studying .photo-set-multiple .study-photo-slot{height:180px}}
+@media(max-width:580px){.lookup-filters{gap:10px}.lookup-filters select{font-size:14px;padding-left:10px;padding-right:22px}.group-list{max-height:310px}body.studying .session>.meta{align-items:flex-start;flex-wrap:wrap}.lesson-controls{margin-left:auto}body.studying .session>.meta button{font-size:12px}body.studying .question{padding:16px 14px}body.studying .feedback{padding:14px}.difficult-species{align-items:start}.difficult-species>span{min-width:0}.difficult-species .muted{display:block}.stats .panel{padding:14px}.stats .muted{font-size:13px}.backup-actions{flex-direction:column}#photo-dialog{padding:14px}.dialog-header{top:-14px}#photo-dialog .photo-set-multiple{grid-template-columns:1fr}#photo-dialog .bird-photo img{height:42svh}.photo-set-multiple .bird-photo img,.photo-set-multiple .study-photo-slot,body.studying .photo-set-multiple .bird-photo img,body.studying .photo-set-multiple .study-photo-slot{height:180px}}
 @media(min-width:360px) and (max-width:580px){.photo-set-multiple{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.photo-set-multiple .bird-photo img,.photo-set-multiple .study-photo-slot,body.studying .photo-set-multiple .bird-photo img,body.studying .photo-set-multiple .study-photo-slot{height:155px}.photo-set-multiple figcaption{font-size:11px}.photo-set-multiple .zoom-hint{font-size:10px;padding:2px 4px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 .field{min-width:0}
@@ -186,7 +186,7 @@ body.studying .photo-set-multiple .bird-photo img,body.studying .photo-set-multi
 
 @media(min-width:581px){#photo-dialog .photo-set-illustrated{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
-.german-names{margin:8px 0 14px;font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+.german-names{margin:6px 0 10px;font-size:14px;line-height:1.5;overflow-wrap:anywhere}
 .german-names p{margin:5px 0}
 .name-sources{margin-top:6px;font-size:12px;color:var(--muted)}
 .name-sources summary{cursor:pointer;min-height:26px;padding:3px 0}
@@ -223,12 +223,12 @@ header{flex-wrap:wrap;gap:8px}
 #theme-picker .theme-option:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 #theme-picker svg{pointer-events:none}
 
-.name-language-settings .settings{margin-bottom:8px}.stats-language{max-width:320px;margin-bottom:20px}.translated-name{margin:8px 0}
+.name-language-settings .settings{margin-bottom:8px}.stats-language{max-width:320px;margin-bottom:12px}.translated-name{margin:8px 0}
 
 .card-language-label,.lookup-name-list dt{display:block;font:600 12px/1.4 system-ui,-apple-system,sans-serif;color:var(--muted);letter-spacing:.02em}
 .card-language-label{margin-bottom:4px}
-.lookup-name-list{margin:12px 0 16px}
-.lookup-name-list>div{margin:10px 0}
+.lookup-name-list{margin:10px 0 12px}
+.lookup-name-list>div{margin:8px 0}
 .lookup-name-list dd{margin:3px 0 0}
 .lookup-name-list dd p,.lookup-name-list dd .english-variants{margin:0}
 .lookup-name-list .latin{font-size:15px}
@@ -260,7 +260,7 @@ header{flex-wrap:wrap;gap:8px}
 /* Route headings retain screen-reader focus without a visual selection frame. */
 main h1[tabindex="-1"]:focus{outline:none}
 
-.information-page section+section{margin-top:28px}
+.information-page section+section{margin-top:20px}
 .storage-example{padding:16px;background:var(--soft);border-radius:8px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:14px;line-height:1.5}
 
 @media(max-width:440px){.lookup-filters{grid-template-columns:1fr}}
@@ -319,7 +319,7 @@ main h1[tabindex="-1"]:focus{outline:none}
 
 /* Feedback is grouped by meaning, with compact text spacing inside each block. */
 body.studying .question:has(.feedback) h1{margin:12px 0 16px}
-body.studying .feedback{display:grid;gap:12px;margin-top:8px;padding:16px}
+body.studying .feedback{display:grid;gap:10px;margin-top:8px;padding:14px}
 body.studying .feedback p,body.studying .feedback h2{margin:0;line-height:1.45}
 body.studying .feedback-result{display:grid;gap:4px;padding-bottom:10px;border-bottom:1px solid var(--line)}
 body.studying .feedback .your-answer{padding:0;border:0}
@@ -350,7 +350,7 @@ body.studying #answer,body.studying .feedback-result{scroll-margin-block:12px}
 body.studying #answer-form .clearable-field{min-width:0}
 
 /* Explain progress in context while keeping the active round compact. */
-.progress-help{margin:14px 0;font-size:14px}
+.progress-help{margin:10px 0;font-size:14px}
 .progress-help>summary{font-weight:650}
 .progress-definitions{font-size:14px;margin:12px 0}
 .progress-definitions dt{font-weight:700;margin-top:12px}
@@ -362,7 +362,7 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 
 .local-storage-note{margin:14px 0;padding:12px;border:1px solid var(--line);border-radius:10px;font-size:14px}
 .local-storage-note p{margin:0 0 8px}
-.backup-step{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
+.backup-step{margin-top:16px;padding-top:12px;border-top:1px solid var(--line)}
 .backup-step h3{font-size:17px}
 .backup-step label{display:flex;flex-direction:column;gap:8px;font-weight:600}
 .backup-step input[type=file]{width:100%;min-width:0;max-width:100%;font-size:14px}
@@ -421,7 +421,7 @@ body.studying .learning-feedback{display:grid;gap:5px;font-size:14px;border-top:
 .filter-preview thead th:last-child,.filter-preview td{width:90px;min-width:90px}.filter-preview thead th:last-child{overflow-wrap:normal;word-break:normal;text-align:right}
 .preview-species p:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 
-.learning-selection{border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px;background:var(--panel)}
+.learning-selection{border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:12px;background:var(--panel)}
 .learning-selection .regional-preview{border:0;padding:0;margin:0}
 .learning-selection .regional-preview h3{font-size:15px;font-weight:600;margin:0 0 8px}
 .learning-selection #hybrid-settings{border-bottom:0;margin:12px 0 0;padding-bottom:0}
@@ -458,16 +458,16 @@ body.studying .question > .regional-question-note{display:inline-block;border:1p
 body.studying .question-selection-context{display:grid;gap:4px;font-size:13px;color:var(--muted)}
 
 /* Daily learning and method references remain readable on small screens. */
-.daily-panel{margin-bottom:20px}.daily-count{font-size:1.2rem;font-weight:650}
+.daily-panel{margin-bottom:14px}.daily-count{font-size:1.2rem;font-weight:650}
 #free-setup>summary{font-weight:650;padding:12px 0;cursor:pointer}
-.information-page li{margin-bottom:1rem}.information-page li p{margin-top:.4rem}
+.information-page li{margin-bottom:.75rem}.information-page li p{margin-top:.4rem}
 .information-page :target{scroll-margin-top:20px}
 .introduction{max-width:760px;margin:0 auto}.introduction .answer-main{font-size:1.8rem}
 @media(max-width:600px){.daily-panel .actions,.introduction .actions{display:flex;flex-direction:column;align-items:stretch}.daily-panel button{white-space:normal}.studying .study-actions{gap:8px}.studying .study-actions button{min-width:0;white-space:normal}}
 
-.shared-learning{margin-bottom:16px}.shared-learning>p{margin:6px 0}.shared-learning>h2{margin-bottom:12px}
+.shared-learning{margin-bottom:12px}.shared-learning>p{margin:6px 0}.shared-learning>h2{margin-bottom:12px}
 #shared-settings>summary{color:var(--accent);font-weight:650;min-height:44px;padding:10px 0}
-#shared-settings[open]>summary{margin-bottom:12px}
+#shared-settings[open]>summary{margin-bottom:8px}
 #free-setup{margin-top:16px}#free-setup>summary{padding:0;min-height:44px;display:list-item;align-content:center}
 #free-setup[open]>summary{margin-bottom:12px}
 #free-setup #lesson-options{margin:16px 0}.migration-explanation{font-size:14px;margin-top:14px}
@@ -479,7 +479,7 @@ body.studying .question-selection-context{display:grid;gap:4px;font-size:13px;co
 .summary #continue-practice{min-width:200px}
 
 /* Introductions use the same always-visible controls as the question flow. */
-body.studying .introduction{display:grid;gap:8px;padding:20px;overflow-wrap:anywhere}
+body.studying .introduction{display:grid;gap:8px;padding:16px 20px;overflow-wrap:anywhere}
 body.studying .introduction>p,body.studying .introduction>h1{margin:0}
 body.studying .introduction>.intro-instruction{font-size:16px;line-height:1.4}
 body.studying .introduction>.eyebrow,body.studying .introduction>.intro-answer-language{font-size:13px;color:var(--muted)}
@@ -505,13 +505,13 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
    reachable when a long answer or photo extends beyond the viewport. */
 @media(min-width:900px) and (min-height:650px){
  body.studying main{padding-bottom:24px}
- body.studying .study-actions{position:sticky;left:auto;right:auto;bottom:16px;margin-top:20px;padding:12px;border:1px solid var(--line);border-radius:10px}
+ body.studying .study-actions{position:sticky;left:auto;right:auto;bottom:16px;margin-top:14px;padding:10px 12px;border:1px solid var(--line);border-radius:10px}
  body.studying .introduction .photo-set .bird-photo .photo-visual img{height:300px}
  body.studying #feedback .photo-set .bird-photo .photo-visual img{height:300px}
 }
 
 /* Equal visual and semantic weight for the four learning settings groups. */
-#shared-settings > fieldset{border:1px solid var(--line);border-radius:12px;padding:16px;margin:18px 0;min-width:0;background:var(--panel)}
+#shared-settings > fieldset{border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:12px 0;min-width:0;background:var(--panel)}
 #shared-settings > fieldset > legend{font-size:19px;font-weight:650;padding:0 6px;max-width:100%;overflow-wrap:anywhere}
 #shared-settings .learning-settings-group .field{min-width:0}
 #shared-settings .learning-settings-group > .form-note{margin:12px 0}
@@ -551,10 +551,10 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
 /* Search results explain the match before revealing the full species card. */
 .search-help{font-size:14px;color:var(--muted);margin:8px 0 16px;max-width:75ch}
 #results.lookup-hit-list{display:block}
-.lookup-hit-heading{font-size:14px;font-weight:650;color:var(--muted);margin:24px 0 8px}
+.lookup-hit-heading{font-size:14px;font-weight:650;color:var(--muted);margin:18px 0 6px}
 .lookup-hit-heading:first-child{margin-top:4px}
 .lookup-hit{border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:8px 0;overflow:hidden}
-.lookup-hit>summary{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 20px;padding:14px 18px;cursor:pointer;list-style:none;min-height:72px}
+.lookup-hit>summary{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 20px;padding:10px 18px;cursor:pointer;list-style:none;min-height:64px}
 .lookup-hit>summary::-webkit-details-marker{display:none}
 .lookup-hit>summary:hover,.lookup-hit[open]>summary{background:var(--soft)}
 .lookup-hit-title{font-weight:700;font-size:18px;overflow-wrap:anywhere}
@@ -565,7 +565,7 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
 .lookup-hit-action::after{content:' ＋';font-size:18px}
 .lookup-hit[open] .lookup-hit-action::after{content:' −'}
 .lookup-hit>.card{border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;margin:0}
-@media(max-width:580px){.lookup-hit>summary{padding:12px;grid-template-columns:minmax(0,1fr) auto;gap:4px 8px}.lookup-hit-action{font-size:0}.lookup-hit-action::after{font-size:22px}.lookup-hit-reasons{display:grid;gap:2px}.lookup-hit-title{font-size:17px}}
+@media(max-width:580px){.lookup-hit>summary{padding:10px 12px;grid-template-columns:minmax(0,1fr) auto;gap:4px 8px}.lookup-hit-action{font-size:0}.lookup-hit-action::after{font-size:22px}.lookup-hit-reasons{display:grid;gap:2px}.lookup-hit-title{font-size:17px}}
 
 .lookup-options .lookup-name-options{flex:1;min-width:150px;max-width:none;padding:0}
 .lookup-options .lookup-name-options>summary{padding:10px 0;min-height:44px}
@@ -576,9 +576,9 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
 
 /* Shared species references: names first, explicitly labelled codes below. */
 .name-variant{font-size:14px;line-height:1.5;margin:6px 0;overflow-wrap:anywhere}
-.species-reference{display:grid;gap:10px;min-width:0;font-size:14px}
+.species-reference{display:grid;gap:8px;min-width:0;font-size:14px}
 .reference-name{font-size:16px;line-height:1.5;margin:0}
-.species-codes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,145px),1fr));gap:12px;margin:14px 0;padding-top:12px;border-top:1px solid var(--line);min-width:0;text-align:left}
+.species-codes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,145px),1fr));gap:12px;margin:10px 0;padding-top:8px;border-top:1px solid var(--line);min-width:0;text-align:left}
 .code-group-label{font-size:12px;font-weight:600;color:var(--muted);margin:0 0 6px;line-height:1.5}
 .species-code-items{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:flex-start}
 .species-code-item{display:grid;justify-items:start;gap:4px;min-width:0;max-width:100%}
