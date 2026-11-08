@@ -1,6 +1,6 @@
 # UI/UX follow-up checklist · 2026-10-30
 
-This is a dated change log; later entries supersede earlier setup layouts, labels, scheduling and backup rules. The current-status follow-up below was reviewed on 4 November 2026. See [README](../README.md) for current behavior. UI labels are quoted from the English interface.
+This is a dated change log; later entries supersede earlier setup layouts, labels, scheduling and backup rules. The current-status follow-up below was reviewed on 4 November 2026. See [learning and storage guide](learning-and-storage.md) for current behavior. UI labels are quoted from the English interface.
 
 Scope: German and English Lookup and Learn views, including 360/390 px mobile layouts. No species, taxonomy, attribution or learning-data format changes.
 
@@ -144,7 +144,7 @@ WAVE scope clarification: inspection of the final report frame showed zero scrip
 - A live preview offers all records, seasonal selection and recent records, with selectable modes, counts, explanations and expandable species lists. Counts reflect the other active filters.
 - Seasonal selection defaults to “Frequent” (at least 10%) and “Medium” (1% to less than 10%); “Rare” (above 0% but less than 1%) is independently selectable. Compact checkbox rows retain counts, explanations and expandable species lists.
 - Current notable reports are automatically included, with no opt-out control. The preview separates base species and current additions and explains validity or missing fresh data. Insufficient seasonal samples visibly fall back to all regional records.
-- See [README](../README.md#hybrid-regional-learning) for source coverage, thresholds, expiry and reproduction. These behavior notes were checked against the current source; earlier browser-verification results above remain tied to their dated changes.
+- See [regional data guide](deployment-and-regions.md#hybrid-regional-learning) for source coverage, thresholds, expiry and reproduction. These behavior notes were checked against the current source; earlier browser-verification results above remain tied to their dated changes.
 
 ## Current-status follow-up · reviewed 2026-11-04
 
