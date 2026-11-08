@@ -3,8 +3,8 @@ abdimii|zu Ehren von Bey El-Arnaut Abdim, einem osmanischen Gouverneur im Sudan|
 adamsii|zu Ehren des Arktisreisenden und Arztes Edward Adams|honours Arctic explorer and surgeon Edward Adams|vernoemd naar poolreiziger en arts Edward Adams
 alexandri|zu Ehren Alexanders des Großen, König von Makedonien|honours Alexander the Great, king of Macedon|vernoemd naar Alexander de Grote, koning van Macedonië
 amherstiae|zu Ehren von Sarah, Gräfin Amherst|honours Sarah, Countess Amherst|vernoemd naar Sarah, gravin Amherst
-aristotelis|zu Ehren des griechischen Philosophen und Naturkundlers Aristoteles|honours Greek philosopher and naturalist Aristotle|vernoemd naar de Griekse filosoof en natuuronderzoeker Aristoteles
-audouinii|zu Ehren des Naturkundlers Jean Victoire Audouin|honours naturalist Jean Victoire Audouin|vernoemd naar natuuronderzoeker Jean Victoire Audouin
+aristotelis|Bezug auf Aristoteles; aus einem älteren Vogelnamen übernommen|refers to Aristotle; adopted from an older bird name|verwijst naar Aristoteles; overgenomen uit een oudere vogelnaam
+audouinii|zu Ehren des Naturkundlers Jean-Victor Audouin|honours naturalist Jean-Victor Audouin|vernoemd naar natuuronderzoeker Jean-Victor Audouin
 baeri|zu Ehren des Naturkundlers Karl Ernst von Baer|honours naturalist Karl Ernst von Baer|vernoemd naar natuuronderzoeker Karl Ernst von Baer
 bairdii|zu Ehren des Ornithologen Spencer Fullerton Baird|honours ornithologist Spencer Fullerton Baird|vernoemd naar ornitholoog Spencer Fullerton Baird
 baroli|zu Ehren des Sammlers und Philanthropen Carlo Tancredi Falletti di Barolo|honours collector and philanthropist Carlo Tancredi Falletti di Barolo|vernoemd naar verzamelaar en filantroop Carlo Tancredi Falletti di Barolo
@@ -25,7 +25,7 @@ forsteri|zu Ehren des Naturkundlers Johann Reinhold Forster|honours naturalist J
 genei|zu Ehren des Naturkundlers Giuseppe Gené|honours naturalist Giuseppe Gené|vernoemd naar natuuronderzoeker Giuseppe Gené
 godlewskii|zu Ehren des Naturkundlers Wiktor Witold Godlewski|honours naturalist Wiktor Witold Godlewski|vernoemd naar natuuronderzoeker Wiktor Witold Godlewski
 goffiniana|zu Ehren des niederländischen Marineoffiziers Andreas Leopold Goffin|honours Dutch naval officer Andreas Leopold Goffin|vernoemd naar de Nederlandse marineofficier Andreas Leopold Goffin
-granti|zu Ehren des Ornithologen William Robert Ogilvie-Grant|honours ornithologist William Robert Ogilvie-Grant|vernoemd naar ornitholoog William Robert Ogilvie-Grant
+granti|vermutlich zu Ehren des Ornithologen William Robert Ogilvie-Grant; die Originalbeschreibung erklärt die Widmung nicht ausdrücklich|probably honours ornithologist William Robert Ogilvie-Grant; the original description does not explicitly explain the dedication|waarschijnlijk vernoemd naar ornitholoog William Robert Ogilvie-Grant; de oorspronkelijke beschrijving verklaart de opdracht niet uitdrukkelijk|?
 gulielmi|zu Ehren von William Jardine, Sohn des gleichnamigen Ornithologen|honours William Jardine, son of the ornithologist of the same name|vernoemd naar William Jardine, zoon van de gelijknamige ornitholoog
 gustavi|zu Ehren des Ornithologen und Sinologen Gustaaf Schlegel|honours ornithologist and sinologist Gustaaf Schlegel|vernoemd naar ornitholoog en sinoloog Gustaaf Schlegel
 hodgsoni|zu Ehren des Naturkundlers und Diplomaten Brian Houghton Hodgson|honours naturalist and diplomat Brian Houghton Hodgson|vernoemd naar natuuronderzoeker en diplomaat Brian Houghton Hodgson
@@ -59,4 +59,4 @@ swainsonii|zu Ehren des Naturkundlers und Illustrators William Swainson|honours 
 swinhoii|zu Ehren des Diplomaten und Naturkundlers Robert Swinhoe|honours diplomat and naturalist Robert Swinhoe|vernoemd naar diplomaat en natuuronderzoeker Robert Swinhoe
 temminckii|zu Ehren des Ornithologen Coenraad Jacob Temminck|honours ornithologist Coenraad Jacob Temminck|vernoemd naar ornitholoog Coenraad Jacob Temminck
 tristramii|zu Ehren des Geistlichen und Naturkundlers Henry Baker Tristram|honours clergyman and naturalist Henry Baker Tristram|vernoemd naar geestelijke en natuuronderzoeker Henry Baker Tristram
-webbiana|zu Ehren des Botanikers Philip Barker Webb|honours botanist Philip Barker Webb|vernoemd naar botanicus Philip Barker Webb
+webbiana|zu Ehren des britischen Teehändlers und Sammlers Edward Webb|honours British tea trader and collector Edward Webb|vernoemd naar de Britse theehandelaar en verzamelaar Edward Webb

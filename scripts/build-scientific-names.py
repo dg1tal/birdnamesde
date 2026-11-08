@@ -7,6 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGES = ('de', 'en', 'nl')
+EVIDENCE_SCOPES = {'wordMeaning', 'wordComponent', 'nameHistory', 'dedication', 'identity', 'nameContext'}
 
 
 def read_glosses(names):
@@ -74,10 +75,23 @@ def build():
                 entry['page'] = evidence['printedPage']
             if key in reviewed_evidence['terms']:
                 reviewed = reviewed_evidence['terms'][key]
-                assert set(reviewed) <= {'source', 'page'}, key
-                assert reviewed['source'] in sources, key
-                entry.pop('page', None)
-                entry.update(reviewed)
+                assert set(reviewed) <= {'source', 'page', 'additionalSources'}, key
+                if 'source' in reviewed:
+                    assert reviewed['source'] in sources, key
+                    entry.pop('page', None)
+                    entry['source'] = reviewed['source']
+                    if 'page' in reviewed:
+                        entry['page'] = reviewed['page']
+                else:
+                    assert 'page' not in reviewed, key
+                if 'additionalSources' in reviewed:
+                    references = reviewed['additionalSources']
+                    assert isinstance(references, list) and 0 < len(references) <= 12, key
+                    for reference in references:
+                        assert set(reference) <= {'source', 'page', 'scope'}, key
+                        assert reference['source'] in sources and reference['scope'] in EVIDENCE_SCOPES, key
+                        assert 'page' not in reference or (type(reference['page']) is int and reference['page'] > 0), key
+                    entry['additionalSources'] = references
             if key in terms:
                 assert terms[key] == entry, key
             terms[key] = entry
