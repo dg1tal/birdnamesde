@@ -1,3 +1,4 @@
+import {primaryName} from '../dist/name-languages.js';
 import {SCIENTIFIC_NAME_ALIASES} from '../dist/scientific-name-aliases.js';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -8,13 +9,14 @@ const input=JSON.parse(readFileSync('dist/scientific-names.json'));
 const data=validateScientificNames(input,birds);
 assert.equal(data.meta.catalogueSha256,createHash('sha256').update(raw).digest('hex'));
 assert.equal(Object.keys(data.species).length,birds.length);
-assert.equal(Object.keys(data.terms).length,1234);
+assert.equal(Object.keys(data.terms).length,new Set(Object.values(data.species).flatMap(row=>row.parts)).size);
 for(const bird of birds)for(const language of ['de','en','nl']){
  const html=renderScientificName(data,bird,language,language==='de'?'en':'de');
  assert(html.startsWith(`<details class="scientific-origin" lang="${language}" data-name-content>`));
  assert(!/^<details[^>]*\sopen(?:\s|>)/.test(html));
  assert.equal((html.match(/<dt>/g)||[]).length,2);
- assert(html.includes(`lang="la">${bird.sci}</p>`));
+ assert(html.includes(`lang="la">${primaryName(bird,'sci')}</p>`));
+ assert.equal(data.species[bird.id].scientificName,primaryName(bird,'sci'));
  for(const part of data.species[bird.id].parts){
   assert(data.terms[part].text[language].trim());
   assert(html.includes(data.sources[data.terms[part].source].url));
@@ -105,7 +107,20 @@ console.log('PASS: all 940 name explanations in de/en/nl; exact taxonomy, homony
 for(const [id,oldName,newName] of SCIENTIFIC_NAME_ALIASES){
  for(const language of ['de','en','nl']){
   const html=renderScientificName(data,birds.find(b=>b.id===id),language);
-  assert(html.includes('eBird/Clements 2025'));assert(html.includes(oldName));
-  assert(!html.includes(newName),'Old etymology is never presented as the new name');
+  assert(!html.includes('eBird/Clements 2025'));assert(!html.includes(oldName));
+  assert(html.includes(newName),'Explain the current displayed scientific name');
+  assert.deepEqual(data.species[id].parts.map(key=>data.terms[key].term),newName.split(' '));
  }
+}
+
+assert.equal(data.terms['g:Nannus'].text.de,'Zwerg; aus griechisch nannos');
+assert.equal(data.terms['g:Melophus'].page,250);
+assert.equal(data.terms['g:Schoeniclus'].page,350);
+// Cached pre-migration data must never explain an old combination under a current name.
+const stale=structuredClone(input);
+for(const [id,oldName] of SCIENTIFIC_NAME_ALIASES)stale.species[id].scientificName=oldName;
+const filtered=validateScientificNames(stale,birds);
+for(const [id] of SCIENTIFIC_NAME_ALIASES){
+ assert(!filtered.species[id]);
+ assert.equal(renderScientificName(stale,birds.find(b=>b.id===id),'de'),'');
 }

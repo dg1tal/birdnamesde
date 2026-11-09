@@ -1,5 +1,5 @@
 import {statsContext,statsPracticeSettings,validateSavedSpecies,restoreEndedRound} from './usability-state.js?v=20261108-usability1';
-import {validateScientificNames,renderScientificName} from './scientific-names.js?v=20261108-names2026';
+import {validateScientificNames,renderScientificName} from './scientific-names.js?v=20261109-origins2026';
 import {searchLookup} from './lookup-search.js?v=20261108-names2026';
 import {LOOKUP_PAGE_SIZE,lookupSettings,lookupTitle,sortLookup,lookupLanguages,showGermanStatus} from './lookup-settings.js?v=20261108-names2026';
 import {continuationSettings,practiceQueue,dailyLearningPlan} from './practice-queue.js?v=20261108-names2026';
@@ -961,7 +961,7 @@ function route(){
 try{let data=await(await fetch('species.json?v=20261107-scicodes1')).json();birds=data.species.sort((a,b)=>(a.de||a.sci).localeCompare(b.de||b.sci,'de'));meta=data.meta;
 try{const names=await(await fetch('german-names.json')).json();germanNamesMeta=names.meta;for(const s of birds)s.germanNames=names.species[s.id]?.names||[];}catch(err){console.warn('Deutsche Alternativnamen nicht geladen',err)}
 availableNameLanguages=await loadNameData(birds);
-try{const response=await fetch('scientific-names.json?v=20261108-origin-review2');if(response.ok)nameOrigins=validateScientificNames(await response.json(),birds);}catch{console.warn('Scientific-name explanations unavailable');}
+try{const response=await fetch('scientific-names.json?v=20261109-origins2026');if(response.ok)nameOrigins=validateScientificNames(await response.json(),birds);}catch{console.warn('Scientific-name explanations unavailable');}
 ui.learn.nameLanguage=isNameLanguage(ui.learn.nameLanguage)?ui.learn.nameLanguage:isNameLanguage(ui.learn.target)?ui.learn.target:defaultNameTarget;
 nameTarget=ui.learn.nameLanguage;
 ui.learn.sourceLanguage=isNameLanguage(ui.learn.sourceLanguage)?ui.learn.sourceLanguage:english?'en':'de';

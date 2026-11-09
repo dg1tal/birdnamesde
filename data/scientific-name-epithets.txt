@@ -44,7 +44,7 @@ atricapilla|schwarzköpfig|black-capped|zwartkoppig
 atricilla|Schwarzschwanz; historisch unpassende Benennung|black tail; a historically inappropriate name|zwarte staart; een historisch onjuiste benaming
 atrifrons|schwarzstirnig|black-fronted|zwartvoorhoofdig
 atrogularis|schwarzkehlig|black-throated|zwartkeelig
-aurea aureola|golden, goldfarben|golden|goudkleurig
+aurea aureola aureolus|golden, goldfarben|golden|goudkleurig
 auritum auritus|mit Ohren versehen|eared|met oren
 aurocapilla|goldköpfig|gold-capped|goudkoppig
 australis|südlich|southern|zuidelijk
@@ -446,11 +446,11 @@ rufina rufinus|goldrot, rötlich|golden-red, reddish|goudrood, roodachtig
 rufula rufulus|rötlich|reddish|roodachtig
 rupestris|zum Fels gehörig|of rocks|van rotsen
 rupicola|Felsbewohner|rock dweller|rotsbewoner
-rustica|ländlich|rural|landelijk
+rustica rusticus|ländlich|rural|landelijk
 rusticola|Landbewohner; historischer Waldschnepfenname|country dweller; an old woodcock name|landbewoner; een oude houtsnipnaam
 rusticolus|Landbewohner|country dweller|landbewoner
 ruticilla|Rotschwanz|red tail|rode staart
-rutila|rötlich, goldrot|reddish, golden-red|roodachtig, goudrood
+rutila rutilus|rötlich, goldrot|reddish, golden-red|roodachtig, goudrood
 sarda|von Sardinien|of Sardinia|van Sardinië
 satyra|Satyr, mythisches Waldwesen|satyr, a mythical woodland being|sater, een mythisch boswezen
 saxatilis|zwischen Felsen lebend|living among rocks|tussen rotsen levend
@@ -479,7 +479,7 @@ spinosus|dornig|thorny|doornig
 spinus|Zeisig|siskin|sijs
 splendens|glänzend|shining|glanzend
 spodiogenys|aschgraue Wange|ash-grey cheek|asgrijze wang
-spodocephala|aschgrauköpfig|ash-grey-headed|asgrijskoppig
+spodocephala spodocephalus|aschgrauköpfig|ash-grey-headed|asgrijskoppig
 sponsa|Braut|bride|bruid
 stagnatilis|zu Teichen gehörig|of pools|van poelen
 stellaris stellata|sternartig, mit Sternflecken|star-like, star-spotted|sterachtig, met stervlekken

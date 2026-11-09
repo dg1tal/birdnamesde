@@ -1,4 +1,4 @@
-import {scientificNameAliases} from './scientific-name-aliases.js?v=20261108-quality1';
+import {primaryName} from './name-languages.js?v=20261108-names2026';
 const LANGUAGES=['de','en','nl'];
 const object=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
 const own=(value,key)=>Object.prototype.hasOwnProperty.call(value,key);
@@ -22,9 +22,9 @@ export function validateScientificNames(data,birds){
   if(!own(data.species,bird.id))continue;
   const row=data.species[bird.id];
   if(!object(row))throw Error('Invalid name explanation');
-  if(row.scientificName!==bird.sci)continue;
+  if(row.scientificName!==primaryName(bird,'sci'))continue;
   if(!Array.isArray(row.parts)||row.parts.length!==2)throw Error('Invalid name parts');
-  const words=bird.sci.split(' ');
+  const words=primaryName(bird,'sci').split(' ');
   for(const [i,key] of row.parts.entries()){
    if(typeof key!=='string'||!own(data.terms,key))throw Error('Missing name part');
    const term=data.terms[key];
@@ -53,14 +53,13 @@ const COPY={
 export function renderScientificName(data,bird,questionLanguage,interfaceLanguage='de'){
  if(!data||!own(data.species,bird.id))return '';
  const row=data.species[bird.id];
- if(row.scientificName!==bird.sci)return '';
+ if(row.scientificName!==primaryName(bird,'sci'))return '';
  const language=explanationLanguage(questionLanguage,interfaceLanguage),copy=COPY[language];
- const previous=scientificNameAliases(bird).length?{de:'Erklärung des Namens nach eBird/Clements 2025.',en:'Explanation of the name used in eBird/Clements 2025.',nl:'Verklaring van de naam volgens eBird/Clements 2025.'}[language]:'';
  const parts=row.parts.map(key=>data.terms[key]);
  const sources=[...new Set(parts.map(part=>part.source))];
  const supplementary=parts.flatMap(part=>(part.additionalSources||[]).map(reference=>{
   const source=data.sources[reference.source];
   return `<li><span class="scientific-name" lang="la">${escape(part.term)}</span> — ${EVIDENCE_SCOPES[language][reference.scope]}: <a href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)}${reference.page?', '+copy.page+' '+reference.page:''} ↗</a></li>`;
  })).join('');
- return `<details class="scientific-origin" lang="${language}" data-name-content><summary>${copy.title}<span class="sr">: ${escape(bird.sci)}</span></summary><div class="scientific-origin-content">${previous?`<p class="muted">${previous}</p>`:''}<p class="scientific-origin-name scientific-name" lang="la">${escape(bird.sci)}</p><dl>${parts.map((part,i)=>`<div><dt><span class="origin-part-label">${i?copy.epithet:copy.genus}</span> <span class="scientific-name" lang="la">${escape(part.term)}</span></dt><dd>${escape(part.text[language])}${part.uncertain?` <span class="origin-uncertain">(${copy.uncertain})</span>`:''}</dd></div>`).join('')}</dl><p class="muted origin-note">${copy.note}</p><p class="origin-sources"><span>${copy.sources}:</span> ${sources.map(id=>{const source=data.sources[id],pages=[...new Set(parts.filter(part=>part.source===id&&part.page).map(part=>part.page))];return `<a href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)}${pages.length?', '+copy.page+' '+pages.join(', '):''} ↗</a>`;}).join(' · ')}</p>${supplementary?`<ul class="origin-supplementary-sources">${supplementary}</ul>`:''}</div></details>`;
+ return `<details class="scientific-origin" lang="${language}" data-name-content><summary>${copy.title}<span class="sr">: ${escape(row.scientificName)}</span></summary><div class="scientific-origin-content"><p class="scientific-origin-name scientific-name" lang="la">${escape(row.scientificName)}</p><dl>${parts.map((part,i)=>`<div><dt><span class="origin-part-label">${i?copy.epithet:copy.genus}</span> <span class="scientific-name" lang="la">${escape(part.term)}</span></dt><dd>${escape(part.text[language])}${part.uncertain?` <span class="origin-uncertain">(${copy.uncertain})</span>`:''}</dd></div>`).join('')}</dl><p class="muted origin-note">${copy.note}</p><p class="origin-sources"><span>${copy.sources}:</span> ${sources.map(id=>{const source=data.sources[id],pages=[...new Set(parts.filter(part=>part.source===id&&part.page).map(part=>part.page))];return `<a href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)}${pages.length?', '+copy.page+' '+pages.join(', '):''} ↗</a>`;}).join(' · ')}</p>${supplementary?`<ul class="origin-supplementary-sources">${supplementary}</ul>`:''}</div></details>`;
 }
