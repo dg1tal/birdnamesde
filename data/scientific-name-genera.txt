@@ -408,3 +408,6 @@ Zenaida|Widmung an Zénaïde Bonaparte, die Frau des Ornithologen Charles Lucien
 Zonotrichia|Bänderhaar|banded hair|gebandeerd haar
 Zoothera|Tierjäger|animal hunter|dierenjager
 Zosterops|Gürtelauge; Bezug auf den Augenring|girdled eye; refers to the eye-ring|gordeloog; verwijst naar de oogring
+Melophus|schwarze Haube; aus griechisch melas (schwarz) und lophos (Haube)|black crest; from Greek melas (black) and lophos (crest)|zwarte kuif; uit Grieks melas (zwart) en lophos (kuif)
+Nannus|Zwerg; aus griechisch nannos|dwarf; from Greek nannos|dwerg; uit Grieks nannos
+Schoeniclus|vom früheren Artnamen der Rohrammer, Fringilla schoeniclus; griechischer Name eines nicht sicher bestimmten kleinen Wasservogels|from the Reed Bunting’s former name, Fringilla schoeniclus; a Greek name for an unidentified small waterside bird|van de vroegere naam van de rietgors, Fringilla schoeniclus; een Griekse naam voor een niet zeker geïdentificeerd klein vogeltje bij het water

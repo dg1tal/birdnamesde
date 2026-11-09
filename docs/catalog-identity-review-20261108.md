@@ -14,6 +14,16 @@ Lernen. Die Namen von 2025 werden mit Versionsangabe angezeigt und ebenfalls
 als wissenschaftliche Antwort akzeptiert. `sci` bleibt der unveränderte
 2025-Quellschlüssel für Medien und Herkunftserklärungen; diese Erklärungen
 sind bei den elf Änderungen ausdrücklich als 2025 gekennzeichnet.
+Nachtrag zu `20261109-origins2026`: Auch die Herkunftserklärungen verwenden
+nun für alle 940 Arten denselben Hauptnamen wie Anzeige und Lernen. Die elf
+geänderten Kombinationen werden in Deutsch, Englisch und Niederländisch
+erklärt. Neue Gattungsbelege: Jobling (2010), Melophus S. 250 (schwarze
+Haube, ausdrücklich nicht das gleichnamige Sylvia-Synonym), Nannus S. 266
+(Zwerg), Schoeniclus S. 350 (vom alten Artnamen der Rohrammer abgeleitet).
+Die geänderten Endungen der Artzusätze verwenden die bereits geprüften
+Wortbedeutungen und Wörterbuchseiten. Generator, Validierung und Darstellung
+verwenden gemeinsam `primaryName`; veraltete Erklärungsdaten werden verworfen.
+
 Artabgrenzungen und die drei unten dokumentierten Konzeptfälle bleiben
 unverändert. Die folgenden Untersuchungsergebnisse beschreiben den Zustand
 vor diesen Ergänzungen.

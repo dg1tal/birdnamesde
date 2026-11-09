@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,15 +32,23 @@ def read_glosses(names):
 def build():
     raw = (ROOT / 'dist/species.json').read_bytes()
     birds = json.loads(raw)['species']
+    # Use the same reviewed name selection as the UI; never guess from code names.
+    current_names = json.loads(subprocess.check_output(
+        ['node', '--input-type=module', '-e',
+         "import {readFileSync} from 'node:fs';"
+         "import {primaryName} from './dist/name-languages.js';"
+         "const birds=JSON.parse(readFileSync('dist/species.json')).species;"
+         "console.log(JSON.stringify(Object.fromEntries(birds.map(b=>[b.id,primaryName(b,'sci')]))));"],
+        cwd=ROOT, text=True))
     audit = json.loads((ROOT / 'docs/scientific-name-feasibility-20261107.json').read_text())
     provenance = {b['id']: b for b in audit['species']}
     genera = read_glosses(['genera'])
     epithets = read_glosses(['epithets', 'histories', 'people'])
     overrides = json.loads((ROOT / 'data/scientific-name-overrides.json').read_text())
     reviewed_evidence = json.loads((ROOT / 'data/scientific-name-evidence.json').read_text())
-    assert set(genera) == {b['sci'].split()[0] for b in birds}
-    assert set(epithets) == {b['sci'].split()[1] for b in birds}
-    assert set(overrides) <= {b['sci'] for b in birds}
+    assert set(genera) == {name.split()[0] for name in [b['sci'] for b in birds] + list(current_names.values())}
+    assert set(epithets) == {name.split()[1] for name in [b['sci'] for b in birds] + list(current_names.values())}
+    assert set(overrides) <= set(current_names.values())
     sources = {
         'jobling2010': {'title': 'James A. Jobling (2010), The Helm Dictionary of Scientific Bird Names',
                        'url': 'https://www.bloomsbury.com/uk/helm-dictionary-of-scientific-bird-names-9781408133262/'},
@@ -59,14 +68,18 @@ def build():
     terms, species = {}, {}
     for bird in birds:
         assert provenance[bird['id']]['scientificName'] == bird['sci'], bird['id']
+        name = current_names[bird['id']]
         parts = []
-        for i, term in enumerate(bird['sci'].split()):
+        for i, term in enumerate(name.split()):
             role = 'genus' if i == 0 else 'epithet'
             key = ('g:' if i == 0 else 'e:') + term
             entry = dict((genera if i == 0 else epithets)[term])
-            if role in overrides.get(bird['sci'], {}):
+            if role in overrides.get(name, {}):
                 key += ':' + bird['id']
-                entry['text'] = dict(zip(LANGUAGES, overrides[bird['sci']][role]))
+                entry['text'] = dict(zip(LANGUAGES, overrides[name][role]))
+            # Changed genera require a reviewed reference, not the old genus page.
+            if i == 0 and term != bird['sci'].split()[0]:
+                assert key in reviewed_evidence['terms'] and 'source' in reviewed_evidence['terms'][key], key
             evidence = provenance[bird['id']][role + 'Source']
             if term in supplements:
                 entry['source'] = supplements[term]
@@ -96,10 +109,10 @@ def build():
                 assert terms[key] == entry, key
             terms[key] = entry
             parts.append(key)
-        species[bird['id']] = {'scientificName': bird['sci'], 'parts': parts}
+        species[bird['id']] = {'scientificName': name, 'parts': parts}
     assert reviewed_evidence['terms'].keys() <= terms.keys(), 'Unknown reviewed term'
     return {'version': 1, 'languages': list(LANGUAGES),
-            'meta': {'date': '2026-11-08', 'catalogueSha256': hashlib.sha256(raw).hexdigest(),
+            'meta': {'date': '2026-11-09', 'catalogueSha256': hashlib.sha256(raw).hexdigest(),
                      'editorial': 'Independent concise glosses in German, English and Dutch. Sources document name histories, not translations of entire dictionary entries. Uncertain origins are explicitly marked. Personal and geographical homonyms use taxon-specific overrides.'},
             'sources': sources, 'terms': dict(sorted(terms.items())), 'species': dict(sorted(species.items()))}
 
@@ -114,4 +127,4 @@ if __name__ == '__main__':
         assert output.read_text() == text, 'Scientific-name explanations need rebuilding'
     else:
         output.write_text(text)
-    print(f'{"Checked" if args.check else "Built"} scientific-name explanations for 940 species in de/en/nl')
+    print(f'{"Checked" if args.check else "Built"} scientific-name explanations for all catalogue species in de/en/nl')

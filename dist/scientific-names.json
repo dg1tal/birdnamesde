@@ -6,7 +6,7 @@
     "nl"
   ],
   "meta": {
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "catalogueSha256": "9c5f76e5ec1ce4e2d5c14188b803012428c29212ff33213d58491eeda3237595",
     "editorial": "Independent concise glosses in German, English and Dutch. Sources document name histories, not translations of entire dictionary entries. Uncertain origins are explicitly marked. Personal and geographical homonyms use taxon-specific overrides."
   },
@@ -1257,8 +1257,8 @@
       "source": "jobling2010",
       "page": 61
     },
-    "e:aureola": {
-      "term": "aureola",
+    "e:aureolus": {
+      "term": "aureolus",
       "text": {
         "de": "golden, goldfarben",
         "en": "golden",
@@ -8310,6 +8310,17 @@
       "source": "jobling2010",
       "page": 344
     },
+    "e:rusticus": {
+      "term": "rusticus",
+      "text": {
+        "de": "ländlich",
+        "en": "rural",
+        "nl": "landelijk"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 344
+    },
     "e:ruticilla": {
       "term": "ruticilla",
       "text": {
@@ -8321,8 +8332,8 @@
       "source": "jobling2010",
       "page": 344
     },
-    "e:rutila": {
-      "term": "rutila",
+    "e:rutilus": {
+      "term": "rutilus",
       "text": {
         "de": "rötlich, goldrot",
         "en": "reddish, golden-red",
@@ -8898,8 +8909,8 @@
       "source": "jobling2010",
       "page": 363
     },
-    "e:spodocephala": {
-      "term": "spodocephala",
+    "e:spodocephalus": {
+      "term": "spodocephalus",
       "text": {
         "de": "aschgrauköpfig",
         "en": "ash-grey-headed",
@@ -12502,6 +12513,17 @@
       "source": "jobling2010",
       "page": 249
     },
+    "g:Melophus": {
+      "term": "Melophus",
+      "text": {
+        "de": "schwarze Haube; aus griechisch melas (schwarz) und lophos (Haube)",
+        "en": "black crest; from Greek melas (black) and lophos (crest)",
+        "nl": "zwarte kuif; uit Grieks melas (zwart) en lophos (kuif)"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 250
+    },
     "g:Melopsittacus": {
       "term": "Melopsittacus",
       "text": {
@@ -12699,6 +12721,17 @@
       "uncertain": false,
       "source": "jobling2010",
       "page": 265
+    },
+    "g:Nannus": {
+      "term": "Nannus",
+      "text": {
+        "de": "Zwerg; aus griechisch nannos",
+        "en": "dwarf; from Greek nannos",
+        "nl": "dwerg; uit Grieks nannos"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 266
     },
     "g:Neophema": {
       "term": "Neophema",
@@ -13829,6 +13862,17 @@
       "source": "jobling2010",
       "page": 349
     },
+    "g:Schoeniclus": {
+      "term": "Schoeniclus",
+      "text": {
+        "de": "vom früheren Artnamen der Rohrammer, Fringilla schoeniclus; griechischer Name eines nicht sicher bestimmten kleinen Wasservogels",
+        "en": "from the Reed Bunting’s former name, Fringilla schoeniclus; a Greek name for an unidentified small waterside bird",
+        "nl": "van de vroegere naam van de rietgors, Fringilla schoeniclus; een Griekse naam voor een niet zeker geïdentificeerd klein vogeltje bij het water"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 350
+    },
     "g:Scolopax": {
       "term": "Scolopax",
       "text": {
@@ -14346,17 +14390,6 @@
         "de": "runder Flügel",
         "en": "rounded wing",
         "nl": "ronde vleugel"
-      },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 391
-    },
-    "g:Troglodytes": {
-      "term": "Troglodytes",
-      "text": {
-        "de": "Höhlenbewohner",
-        "en": "cave dweller",
-        "nl": "holbewoner"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -15080,10 +15113,10 @@
       ]
     },
     "bkfbun1": {
-      "scientificName": "Emberiza spodocephala",
+      "scientificName": "Schoeniclus spodocephalus",
       "parts": [
-        "g:Emberiza",
-        "e:spodocephala"
+        "g:Schoeniclus",
+        "e:spodocephalus"
       ]
     },
     "bkfibi1": {
@@ -15234,10 +15267,10 @@
       ]
     },
     "blhbun1": {
-      "scientificName": "Emberiza melanocephala",
+      "scientificName": "Melophus melanocephalus",
       "parts": [
-        "g:Emberiza",
-        "e:melanocephala"
+        "g:Melophus",
+        "e:melanocephalus"
       ]
     },
     "blhduc1": {
@@ -15696,10 +15729,10 @@
       ]
     },
     "chebun1": {
-      "scientificName": "Emberiza rutila",
+      "scientificName": "Schoeniclus rutilus",
       "parts": [
-        "g:Emberiza",
-        "e:rutila"
+        "g:Schoeniclus",
+        "e:rutilus"
       ]
     },
     "chebun2": {
@@ -17936,10 +17969,10 @@
       ]
     },
     "litbun": {
-      "scientificName": "Emberiza pusilla",
+      "scientificName": "Schoeniclus pusillus",
       "parts": [
-        "g:Emberiza",
-        "e:pusilla"
+        "g:Schoeniclus",
+        "e:pusillus"
       ]
     },
     "litbus1": {
@@ -18650,9 +18683,9 @@
       ]
     },
     "palbun": {
-      "scientificName": "Emberiza pallasi",
+      "scientificName": "Schoeniclus pallasi",
       "parts": [
-        "g:Emberiza",
+        "g:Schoeniclus",
         "e:pallasi"
       ]
     },
@@ -19140,9 +19173,9 @@
       ]
     },
     "reebun": {
-      "scientificName": "Emberiza schoeniclus",
+      "scientificName": "Schoeniclus schoeniclus",
       "parts": [
-        "g:Emberiza",
+        "g:Schoeniclus",
         "e:schoeniclus"
       ]
     },
@@ -19196,9 +19229,9 @@
       ]
     },
     "rehbun1": {
-      "scientificName": "Emberiza bruniceps",
+      "scientificName": "Melophus bruniceps",
       "parts": [
-        "g:Emberiza",
+        "g:Melophus",
         "e:bruniceps"
       ]
     },
@@ -19553,10 +19586,10 @@
       ]
     },
     "rusbun": {
-      "scientificName": "Emberiza rustica",
+      "scientificName": "Schoeniclus rusticus",
       "parts": [
-        "g:Emberiza",
-        "e:rustica"
+        "g:Schoeniclus",
+        "e:rusticus"
       ]
     },
     "rutrob1": {
@@ -20876,9 +20909,9 @@
       ]
     },
     "winwre4": {
-      "scientificName": "Troglodytes troglodytes",
+      "scientificName": "Nannus troglodytes",
       "parts": [
-        "g:Troglodytes",
+        "g:Nannus",
         "e:troglodytes"
       ]
     },
@@ -20974,16 +21007,16 @@
       ]
     },
     "yebbun": {
-      "scientificName": "Emberiza aureola",
+      "scientificName": "Schoeniclus aureolus",
       "parts": [
-        "g:Emberiza",
-        "e:aureola"
+        "g:Schoeniclus",
+        "e:aureolus"
       ]
     },
     "yebbun1": {
-      "scientificName": "Emberiza chrysophrys",
+      "scientificName": "Schoeniclus chrysophrys",
       "parts": [
-        "g:Emberiza",
+        "g:Schoeniclus",
         "e:chrysophrys"
       ]
     },

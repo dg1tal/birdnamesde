@@ -1242,6 +1242,18 @@
           "scope": "wordMeaning"
         }
       ]
+    },
+    "g:Melophus": {
+      "source": "jobling2010",
+      "page": 250
+    },
+    "g:Nannus": {
+      "source": "jobling2010",
+      "page": 266
+    },
+    "g:Schoeniclus": {
+      "source": "jobling2010",
+      "page": 350
     }
   }
 }
