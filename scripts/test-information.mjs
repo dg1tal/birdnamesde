@@ -26,7 +26,7 @@ for(const html of [en,de]){
 }
 assert(en.includes('does not cover species and taxonomy data'));
 assert(de.includes('Diese Lizenz gilt nicht für die Arten- und Taxonomiedaten'));
-for(const html of [en,de])for(const url of ['languages/nl.json','german-names.json','regions.json','photos.json','species.json','validation.json'])assert(html.includes('href="'+url+'"'));
+for(const html of [en,de])for(const url of ['languages/nl.json','languages/fi.json','german-names.json','regions.json','photos.json','species.json','validation.json'])assert(html.includes('href="'+url+'"'));
 const translated=en.replace(/<ul data-name-content>[\s\S]*?<\/ul>/,'');
 assert(!/Namensmatrix|Taxonomie-Downloads|Brutvögel|Lernstand|Datenschutz|Oberflächensprache|Wiederholung|Bildnachweise/.test(translated));
 assert(en.includes('Original source titles'));assert(en.includes('GitHub Actions secret'));assert(en.includes('not by your browser'));assert(en.includes('all supported answer languages'));assert(!en.includes('both learning directions'));assert(!en.includes('saves and pauses'));

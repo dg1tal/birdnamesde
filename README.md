@@ -1,6 +1,6 @@
 # BirdNames DE
 
-Look up bird names and learn them with short, spaced-repetition practice rounds. The catalogue covers 940 species recorded in Germany, the Netherlands and the United Kingdom, with German, English, Dutch and scientific names. The interface is available in German and English.
+Look up bird names and learn them with short, spaced-repetition practice rounds. The catalogue covers 940 species recorded in Germany, the Netherlands and the United Kingdom, with German, English, Dutch, Finnish and scientific names. The interface is available in German and English.
 
 **[Open BirdNames DE](https://dg1tal.github.io/birdnamesde/)** — use it in your desktop or mobile browser, without an account.
 
@@ -10,7 +10,7 @@ Look up bird names and learn them with short, spaced-repetition practice rounds.
   <tr>
     <td width="50%" valign="top">
       <h3>Find names across languages</h3>
-      <p>Search names and codes, then open a species to compare German, English, Dutch and scientific names.</p>
+      <p>Search names and codes, then open a species to compare German, English, Dutch, Finnish and scientific names.</p>
       <a href="docs/screenshots/mobile-lookup.jpg"><img src="docs/screenshots/mobile-lookup.jpg" width="280" alt="Mobile lookup for Blaumeise, showing Eurasian Blue Tit, Pimpelmees and Cyanistes caeruleus"></a>
     </td>
     <td width="50%" valign="top">

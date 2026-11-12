@@ -5,6 +5,7 @@ export const NAME_LANGUAGES=Object.freeze([
  {code:'de',labels:{de:'Deutsch',en:'German'},field:'de'},
  {code:'en',labels:{de:'Englisch',en:'English'},field:'en'},
  {code:'nl',labels:{de:'Niederländisch',en:'Dutch'},data:'languages/nl.json'},
+ {code:'fi',labels:{de:'Finnisch',en:'Finnish'},data:'languages/fi.json'},
  {code:'sci',labels:{de:'Wissenschaftlicher Name',en:'Scientific name'},field:'sci'}
 ]);
 export const isNameLanguage=code=>NAME_LANGUAGES.some(l=>l.code===code);

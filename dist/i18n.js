@@ -16,7 +16,7 @@ Lizenz|Licence
 Artenbestand wird geladen …|Loading species …
 Die interaktiven Funktionen starten mit JavaScript.|The interactive features start with JavaScript.
 Vogelnamen nachschlagen und lernen|Look up and learn bird names
-Suche nach deutschen, englischen, niederländischen und wissenschaftlichen Vogelnamen oder eBird Quick Find Codes.|Search German, English, Dutch and scientific bird names or eBird Quick Find Codes.
+Suche nach deutschen, englischen, niederländischen, finnischen und wissenschaftlichen Vogelnamen oder eBird Quick Find Codes.|Search German, English, Dutch, Finnish and scientific bird names or eBird Quick Find Codes.
 Vogelnamen lernen|Learn bird names
 Übe Namen und Codes mit Texteingabe, Karteikarten oder Multiple Choice. Die Lerneinstellungen werden nach dem Laden der App verfügbar.|Practise names and codes with text input, flashcards or multiple choice. Study settings become available once the app has loaded.
 Lernstand und Sicherung|Progress and backups

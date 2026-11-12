@@ -1,0 +1,3745 @@
+{
+  "version": 1,
+  "language": "fi",
+  "meta": {
+    "source": "eBird_Taxonomy_v2025_5-tab_30Oct2025.xlsx",
+    "sourceUrl": "https://support.ebird.org/en/support/solutions/articles/48000804865-bird-names-in-ebird",
+    "column": "Finnish",
+    "taxonomy": "eBird/Clements v2025",
+    "speciesCount": 933
+  },
+  "species": {
+    "abdsto1": {
+      "name": "savannihaikara",
+      "aliases": []
+    },
+    "lolbuz1": {
+      "name": "arohiirihaukka",
+      "aliases": []
+    },
+    "macduc1": {
+      "name": "afrikankuparisorsa",
+      "aliases": []
+    },
+    "afrhae1": {
+      "name": "afrikanvuorikotka",
+      "aliases": []
+    },
+    "alepar2": {
+      "name": "isokauluskaija",
+      "aliases": []
+    },
+    "alpacc1": {
+      "name": "alppirautiainen",
+      "aliases": []
+    },
+    "yebcho1": {
+      "name": "alppinaakka",
+      "aliases": []
+    },
+    "rebcho1": {
+      "name": "alppivaris",
+      "aliases": []
+    },
+    "rocpta1": {
+      "name": "kiiruna",
+      "aliases": []
+    },
+    "alpswi1": {
+      "name": "alppikiitäjä",
+      "aliases": []
+    },
+    "dunlin": {
+      "name": "suosirri",
+      "aliases": []
+    },
+    "eurbla": {
+      "name": "mustarastas",
+      "aliases": []
+    },
+    "amufal1": {
+      "name": "amurinhaukka",
+      "aliases": []
+    },
+    "grekno": {
+      "name": "vuorisirri",
+      "aliases": []
+    },
+    "andgoo1": {
+      "name": "andienhansu",
+      "aliases": []
+    },
+    "leater1": {
+      "name": "amerikanpikkutiira",
+      "aliases": []
+    },
+    "manshe": {
+      "name": "pikkuliitäjä",
+      "aliases": []
+    },
+    "norwhe3": {
+      "name": "atlaksenkivitasku",
+      "aliases": []
+    },
+    "wescap1": {
+      "name": "metso",
+      "aliases": []
+    },
+    "pabduc1": {
+      "name": "juovanaamasorsa",
+      "aliases": []
+    },
+    "euroys1": {
+      "name": "meriharakka",
+      "aliases": []
+    },
+    "laugul": {
+      "name": "nokisiipilokki",
+      "aliases": []
+    },
+    "chpher1": {
+      "name": "kiinanriisihaikara",
+      "aliases": []
+    },
+    "whiwag": {
+      "name": "västäräkki",
+      "aliases": []
+    },
+    "baepoc1": {
+      "name": "kiinansotka",
+      "aliases": []
+    },
+    "whcpin": {
+      "name": "valkoposkisorsa",
+      "aliases": []
+    },
+    "baisan": {
+      "name": "eskimosirri",
+      "aliases": []
+    },
+    "balshe1": {
+      "name": "baleaarienliitäjä",
+      "aliases": []
+    },
+    "easwar1": {
+      "name": "idänrusokerttu",
+      "aliases": []
+    },
+    "eabwar1": {
+      "name": "balkaninuunilintu",
+      "aliases": []
+    },
+    "bkewhe2": {
+      "name": "kirjotasku",
+      "aliases": []
+    },
+    "balori": {
+      "name": "idänlehtoturpiaali",
+      "aliases": []
+    },
+    "chebun2": {
+      "name": "vyösirkku",
+      "aliases": []
+    },
+    "redjun": {
+      "name": "punaviidakkokana",
+      "aliases": []
+    },
+    "litshe1": {
+      "name": "makaronesiankääpiöliitäjä",
+      "aliases": []
+    },
+    "lammer1": {
+      "name": "partakorppikotka",
+      "aliases": []
+    },
+    "radwar1": {
+      "name": "siperianuunilintu",
+      "aliases": []
+    },
+    "bearee1": {
+      "name": "viiksitimali",
+      "aliases": []
+    },
+    "rebpar4": {
+      "name": "punarintakaija",
+      "aliases": []
+    },
+    "chibab2": {
+      "name": "viirunauruli",
+      "aliases": []
+    },
+    "norgan": {
+      "name": "suula",
+      "aliases": []
+    },
+    "eurhob": {
+      "name": "nuolihaukka",
+      "aliases": []
+    },
+    "trepip": {
+      "name": "metsäkirvinen",
+      "aliases": []
+    },
+    "comsni": {
+      "name": "taivaanvuohi",
+      "aliases": []
+    },
+    "roeowl1": {
+      "name": "kalliohuuhkaja",
+      "aliases": []
+    },
+    "hilmyn": {
+      "name": "pyhämaina",
+      "aliases": []
+    },
+    "sibacc": {
+      "name": "taigarautiainen",
+      "aliases": []
+    },
+    "gresca": {
+      "name": "lapasotka",
+      "aliases": []
+    },
+    "brambl": {
+      "name": "järripeippo",
+      "aliases": []
+    },
+    "twite1": {
+      "name": "vuorihemppo",
+      "aliases": []
+    },
+    "bimlar1": {
+      "name": "ylänkökiuru",
+      "aliases": []
+    },
+    "webwar1": {
+      "name": "vuoriuunilintu",
+      "aliases": []
+    },
+    "watpip1": {
+      "name": "vuorikirvinen",
+      "aliases": []
+    },
+    "wessan": {
+      "name": "tundrasirri",
+      "aliases": []
+    },
+    "glwgul": {
+      "name": "amerikanisolokki",
+      "aliases": []
+    },
+    "bertea1": {
+      "name": "madagaskarintavi",
+      "aliases": []
+    },
+    "euptit1": {
+      "name": "pussitiainen",
+      "aliases": []
+    },
+    "eubeat1": {
+      "name": "mehiläissyöjä",
+      "aliases": []
+    },
+    "whwcro": {
+      "name": "kirjosiipikäpylintu",
+      "aliases": []
+    },
+    "lakduc1": {
+      "name": "argentiinankuparisorsa",
+      "aliases": []
+    },
+    "stisan": {
+      "name": "pitkäkoipisirri",
+      "aliases": []
+    },
+    "pibgre": {
+      "name": "paksunokkauikku",
+      "aliases": []
+    },
+    "yebfly": {
+      "name": "kuusisieppari",
+      "aliases": []
+    },
+    "redpol1": {
+      "name": "urpiainen",
+      "aliases": []
+    },
+    "blagro1": {
+      "name": "teeri",
+      "aliases": []
+    },
+    "pahros1": {
+      "name": "vaalearosella",
+      "aliases": []
+    },
+    "eaowar1": {
+      "name": "vaaleakultarinta",
+      "aliases": []
+    },
+    "buwtea": {
+      "name": "sinisiipitavi",
+      "aliases": []
+    },
+    "buwgoo1": {
+      "name": "etiopianhansu",
+      "aliases": []
+    },
+    "blujay": {
+      "name": "sinitöyhtönärhi",
+      "aliases": []
+    },
+    "blueth": {
+      "name": "sinirinta",
+      "aliases": []
+    },
+    "blutit": {
+      "name": "sinitiainen",
+      "aliases": []
+    },
+    "burthr": {
+      "name": "sinirastas",
+      "aliases": []
+    },
+    "sibrob": {
+      "name": "sinisatakieli",
+      "aliases": []
+    },
+    "blfhon1": {
+      "name": "sininaamamesikko",
+      "aliases": []
+    },
+    "eurrol1": {
+      "name": "sininärhi",
+      "aliases": []
+    },
+    "refblu1": {
+      "name": "sinipyrstö",
+      "aliases": []
+    },
+    "bufpar": {
+      "name": "siniotsa-amatsoni",
+      "aliases": []
+    },
+    "bcbeat1": {
+      "name": "vihermehiläissyöjä",
+      "aliases": []
+    },
+    "eurlin1": {
+      "name": "hemppo",
+      "aliases": []
+    },
+    "rebque1": {
+      "name": "miljoonakutoja",
+      "aliases": []
+    },
+    "syrwoo1": {
+      "name": "syyriantikka",
+      "aliases": []
+    },
+    "gwfgoo": {
+      "name": "tundrahanhi",
+      "aliases": []
+    },
+    "eurcoo": {
+      "name": "nokikana",
+      "aliases": []
+    },
+    "bongul": {
+      "name": "kuusilokki",
+      "aliases": []
+    },
+    "souboo8": {
+      "name": "australianhaukkapöllö",
+      "aliases": []
+    },
+    "tawpip1": {
+      "name": "nummikirvinen",
+      "aliases": []
+    },
+    "eurcur": {
+      "name": "kuovi",
+      "aliases": []
+    },
+    "comshe": {
+      "name": "ristisorsa",
+      "aliases": []
+    },
+    "santer1": {
+      "name": "riuttatiira",
+      "aliases": []
+    },
+    "tenwar": {
+      "name": "kanadankerttuli",
+      "aliases": []
+    },
+    "chbmun1": {
+      "name": "ruskorintamanikki",
+      "aliases": []
+    },
+    "brephe1": {
+      "name": "ruskokorvafasaani",
+      "aliases": []
+    },
+    "babwar": {
+      "name": "rusorintakerttuli",
+      "aliases": []
+    },
+    "whinch1": {
+      "name": "pensastasku",
+      "aliases": []
+    },
+    "bnhcow": {
+      "name": "lehmäturpiaali",
+      "aliases": []
+    },
+    "vitpar1": {
+      "name": "ruusukekonokka",
+      "aliases": []
+    },
+    "rehbun1": {
+      "name": "ruskopääsirkku",
+      "aliases": []
+    },
+    "yebtea1": {
+      "name": "harmaatavi",
+      "aliases": []
+    },
+    "sugspa1": {
+      "name": "sahelinkultavarpunen",
+      "aliases": []
+    },
+    "asbfly": {
+      "name": "ruskosieppo",
+      "aliases": []
+    },
+    "brnshr": {
+      "name": "siperianlepinkäinen",
+      "aliases": []
+    },
+    "wooduc": {
+      "name": "morsiosorsa",
+      "aliases": []
+    },
+    "sursco": {
+      "name": "pilkkaniska",
+      "aliases": []
+    },
+    "spewar2": {
+      "name": "pikkupensaskerttu",
+      "aliases": []
+    },
+    "yehbla": {
+      "name": "keltahupputurpiaali",
+      "aliases": []
+    },
+    "woosan": {
+      "name": "liro",
+      "aliases": []
+    },
+    "acafly": {
+      "name": "korpisieppari",
+      "aliases": []
+    },
+    "comcha": {
+      "name": "peippo",
+      "aliases": []
+    },
+    "amekes": {
+      "name": "amerikantuulihaukka",
+      "aliases": []
+    },
+    "rinphe2": {
+      "name": "viherfasaani",
+      "aliases": []
+    },
+    "wispet": {
+      "name": "etelänkeiju",
+      "aliases": []
+    },
+    "grswoo": {
+      "name": "käpytikka",
+      "aliases": []
+    },
+    "blrwar1": {
+      "name": "viitakerttunen",
+      "aliases": []
+    },
+    "boowar1": {
+      "name": "pikkukultarinta",
+      "aliases": []
+    },
+    "buffle": {
+      "name": "pikkutelkkä",
+      "aliases": []
+    },
+    "sora": {
+      "name": "amerikanhuitti",
+      "aliases": []
+    },
+    "moudov": {
+      "name": "vaikertajakyyhky",
+      "aliases": []
+    },
+    "chifla1": {
+      "name": "chilenflamingo",
+      "aliases": []
+    },
+    "chiwig1": {
+      "name": "patagonianhaapana",
+      "aliases": []
+    },
+    "spbduc": {
+      "name": "hymysorsa",
+      "aliases": []
+    },
+    "derpar1": {
+      "name": "tiibetinkaija",
+      "aliases": []
+    },
+    "chukar": {
+      "name": "vuoripyy",
+      "aliases": []
+    },
+    "corshe1": {
+      "name": "makaronesianliitäjä",
+      "aliases": []
+    },
+    "cosswa1": {
+      "name": "ankkajoutsen",
+      "aliases": []
+    },
+    "whcspa": {
+      "name": "juovapääsirkku",
+      "aliases": []
+    },
+    "orhthr1": {
+      "name": "oranssirastas",
+      "aliases": []
+    },
+    "feapet2": {
+      "name": "desertasinviistäjä",
+      "aliases": []
+    },
+    "moured1": {
+      "name": "sepelleppälintu",
+      "aliases": []
+    },
+    "laaphe1": {
+      "name": "platinafasaani",
+      "aliases": []
+    },
+    "diadov1": {
+      "name": "timanttikyyhky",
+      "aliases": []
+    },
+    "thbmur": {
+      "name": "pohjankiisla",
+      "aliases": []
+    },
+    "thbwar1": {
+      "name": "paksunokkakerttunen",
+      "aliases": []
+    },
+    "eurjac": {
+      "name": "naakka",
+      "aliases": []
+    },
+    "kelgul": {
+      "name": "etelänselkälokki",
+      "aliases": []
+    },
+    "pitwhy": {
+      "name": "dominikaanileski",
+      "aliases": []
+    },
+    "gresni1": {
+      "name": "heinäkurppa",
+      "aliases": []
+    },
+    "vilwea1": {
+      "name": "kyläkutoja",
+      "aliases": []
+    },
+    "grewhi1": {
+      "name": "pensaskerttu",
+      "aliases": []
+    },
+    "upcwar1": {
+      "name": "harmaakultarinta",
+      "aliases": []
+    },
+    "bklkit": {
+      "name": "pikkukajava",
+      "aliases": []
+    },
+    "ettwoo1": {
+      "name": "pohjantikka",
+      "aliases": []
+    },
+    "grrwar1": {
+      "name": "rastaskerttunen",
+      "aliases": []
+    },
+    "sposan": {
+      "name": "amerikansipi",
+      "aliases": []
+    },
+    "norwat": {
+      "name": "rantakerttuli",
+      "aliases": []
+    },
+    "ambduc": {
+      "name": "nokisorsa",
+      "aliases": []
+    },
+    "duswar": {
+      "name": "ruskouunilintu",
+      "aliases": []
+    },
+    "sooshe": {
+      "name": "nokiliitäjä",
+      "aliases": []
+    },
+    "spored": {
+      "name": "mustaviklo",
+      "aliases": []
+    },
+    "slbgul1": {
+      "name": "kaitanokkalokki",
+      "aliases": []
+    },
+    "edwphe1": {
+      "name": "annaminfasaani",
+      "aliases": []
+    },
+    "eurjay1": {
+      "name": "närhi",
+      "aliases": []
+    },
+    "comeid": {
+      "name": "haahka",
+      "aliases": []
+    },
+    "solsan": {
+      "name": "amerikanmetsäviklo",
+      "aliases": []
+    },
+    "herthr": {
+      "name": "erakkorastas",
+      "aliases": []
+    },
+    "lotduc": {
+      "name": "alli",
+      "aliases": []
+    },
+    "glagul": {
+      "name": "isolokki",
+      "aliases": []
+    },
+    "norful": {
+      "name": "myrskylintu",
+      "aliases": []
+    },
+    "comloo": {
+      "name": "amerikanjääkuikka",
+      "aliases": []
+    },
+    "comkin1": {
+      "name": "kuningaskalastaja",
+      "aliases": []
+    },
+    "elefal1": {
+      "name": "välimerenhaukka",
+      "aliases": []
+    },
+    "ivogul": {
+      "name": "jäälokki",
+      "aliases": []
+    },
+    "elllau1": {
+      "name": "keltasiipinauruli",
+      "aliases": []
+    },
+    "eurmag1": {
+      "name": "harakka",
+      "aliases": []
+    },
+    "daujac1": {
+      "name": "idännaakka",
+      "aliases": []
+    },
+    "aspsta2": {
+      "name": "kyläkottarainen",
+      "aliases": []
+    },
+    "emu1": {
+      "name": "emu",
+      "aliases": []
+    },
+    "scathr2": {
+      "name": "kirjorastas",
+      "aliases": []
+    },
+    "aldfly": {
+      "name": "leppäsieppari",
+      "aliases": []
+    },
+    "eursis": {
+      "name": "vihervarpunen",
+      "aliases": []
+    },
+    "eskcur": {
+      "name": "eskimokuovi",
+      "aliases": []
+    },
+    "semplo": {
+      "name": "kanadantylli",
+      "aliases": []
+    },
+    "palthr1": {
+      "name": "amurinrastas",
+      "aliases": []
+    },
+    "captea1": {
+      "name": "punanokkatavi",
+      "aliases": []
+    },
+    "palswi3": {
+      "name": "vaaleakiitäjä",
+      "aliases": []
+    },
+    "cliswa": {
+      "name": "amerikanpääsky",
+      "aliases": []
+    },
+    "comnig": {
+      "name": "isohaukkakehrääjä",
+      "aliases": []
+    },
+    "lotjae": {
+      "name": "tunturikihu",
+      "aliases": []
+    },
+    "skylar": {
+      "name": "kiuru",
+      "aliases": []
+    },
+    "padwar1": {
+      "name": "kenttäkerttunen",
+      "aliases": []
+    },
+    "cogwar1": {
+      "name": "pensassirkkalintu",
+      "aliases": []
+    },
+    "eutspa": {
+      "name": "pikkuvarpunen",
+      "aliases": []
+    },
+    "barpar2": {
+      "name": "kalliopyy",
+      "aliases": []
+    },
+    "eurcrm1": {
+      "name": "kalliopääsky",
+      "aliases": []
+    },
+    "burpar": {
+      "name": "patagonianaratti",
+      "aliases": []
+    },
+    "rocpig": {
+      "name": "kalliokyyhky",
+      "aliases": []
+    },
+    "orabis1": {
+      "name": "punaperäpiispa",
+      "aliases": []
+    },
+    "pinbun": {
+      "name": "mäntysirkku",
+      "aliases": []
+    },
+    "redcro": {
+      "name": "pikkukäpylintu",
+      "aliases": []
+    },
+    "bkbwar": {
+      "name": "tulikurkkukerttuli",
+      "aliases": []
+    },
+    "osprey": {
+      "name": "sääksi",
+      "aliases": []
+    },
+    "fistur1": {
+      "name": "punatöyhtöturako",
+      "aliases": []
+    },
+    "gbhgul2": {
+      "name": "mustapäälokki",
+      "aliases": []
+    },
+    "wlwwar": {
+      "name": "pajulintu",
+      "aliases": []
+    },
+    "blwbis1": {
+      "name": "tulikauluspiispa",
+      "aliases": []
+    },
+    "spotow": {
+      "name": "lännenloistopipilo",
+      "aliases": []
+    },
+    "spoeao2": {
+      "name": "täplähuuhkaja",
+      "aliases": []
+    },
+    "lirplo": {
+      "name": "pikkutylli",
+      "aliases": []
+    },
+    "comter": {
+      "name": "kalatiira",
+      "aliases": []
+    },
+    "comsan": {
+      "name": "rantasipi",
+      "aliases": []
+    },
+    "forter": {
+      "name": "hopeatiira",
+      "aliases": []
+    },
+    "redsho1": {
+      "name": "argentiinanlapasorsa",
+      "aliases": []
+    },
+    "librol2": {
+      "name": "savannisininärhi",
+      "aliases": []
+    },
+    "indwhe1": {
+      "name": "aasianrilli",
+      "aliases": []
+    },
+    "shttre1": {
+      "name": "etelänpuukiipijä",
+      "aliases": []
+    },
+    "garwar1": {
+      "name": "lehtokerttu",
+      "aliases": []
+    },
+    "comred2": {
+      "name": "leppälintu",
+      "aliases": []
+    },
+    "normoc": {
+      "name": "taiturimatkija",
+      "aliases": []
+    },
+    "grywag": {
+      "name": "virtavästäräkki",
+      "aliases": []
+    },
+    "yebsap": {
+      "name": "mahlatikka",
+      "aliases": []
+    },
+    "yebwar3": {
+      "name": "taigauunilintu",
+      "aliases": []
+    },
+    "yebbun1": {
+      "name": "kultakulmasirkku",
+      "aliases": []
+    },
+    "fuwduc": {
+      "name": "ruskoviheltäjäsorsa",
+      "aliases": []
+    },
+    "baymac": {
+      "name": "sinikelta-ara",
+      "aliases": []
+    },
+    "succoc": {
+      "name": "kultatöyhtökakadu",
+      "aliases": []
+    },
+    "yetvir": {
+      "name": "keltarintavireo",
+      "aliases": []
+    },
+    "yehpar": {
+      "name": "keltapääamatsoni",
+      "aliases": []
+    },
+    "ywcpar": {
+      "name": "amazonianamatsoni",
+      "aliases": []
+    },
+    "lesyel": {
+      "name": "keltajalkaviklo",
+      "aliases": []
+    },
+    "yebduc1": {
+      "name": "keltanokkasorsa",
+      "aliases": []
+    },
+    "yebcuc": {
+      "name": "amerikankäki",
+      "aliases": []
+    },
+    "yebloo": {
+      "name": "jääkuikka",
+      "aliases": []
+    },
+    "tufpuf": {
+      "name": "töyhtölunni",
+      "aliases": []
+    },
+    "ictwar1": {
+      "name": "kultarinta",
+      "aliases": []
+    },
+    "gyrfal": {
+      "name": "tunturihaukka",
+      "aliases": []
+    },
+    "eurbul": {
+      "name": "punatulkku",
+      "aliases": []
+    },
+    "eurser1": {
+      "name": "keltahemppo",
+      "aliases": []
+    },
+    "comduc2": {
+      "name": "kyhmysorsa",
+      "aliases": []
+    },
+    "houcro1": {
+      "name": "intianvaris",
+      "aliases": []
+    },
+    "bkskit1": {
+      "name": "liitohaukka",
+      "aliases": []
+    },
+    "baitea": {
+      "name": "siperiantavi",
+      "aliases": []
+    },
+    "tancoc1": {
+      "name": "tanimbarinkakadu",
+      "aliases": []
+    },
+    "yellow2": {
+      "name": "keltasirkku",
+      "aliases": []
+    },
+    "yefpar5": {
+      "name": "kaunoamatsoni",
+      "aliases": []
+    },
+    "meypar1": {
+      "name": "afrikankaija",
+      "aliases": []
+    },
+    "golphe": {
+      "name": "kultafasaani",
+      "aliases": []
+    },
+    "gowwar": {
+      "name": "kultasiipikerttuli",
+      "aliases": []
+    },
+    "palwar5": {
+      "name": "hippiäisuunilintu",
+      "aliases": []
+    },
+    "eugplo": {
+      "name": "kapustarinta",
+      "aliases": []
+    },
+    "yelwar1": {
+      "name": "keltakerttuli",
+      "aliases": []
+    },
+    "amegfi": {
+      "name": "amerikantikli",
+      "aliases": []
+    },
+    "savspa": {
+      "name": "kenttäsirkkunen",
+      "aliases": []
+    },
+    "bubsan": {
+      "name": "tundravikla",
+      "aliases": []
+    },
+    "corbun1": {
+      "name": "harmaasirkku",
+      "aliases": []
+    },
+    "pecsan": {
+      "name": "palsasirri",
+      "aliases": []
+    },
+    "gragoo": {
+      "name": "merihanhi",
+      "aliases": []
+    },
+    "grccra1": {
+      "name": "etelänkruunukurki",
+      "aliases": []
+    },
+    "purswa3": {
+      "name": "aasiansulttaanikana",
+      "aliases": []
+    },
+    "ashgoo1": {
+      "name": "harmaapäähansu",
+      "aliases": []
+    },
+    "gyhlap1": {
+      "name": "huppuhyyppä",
+      "aliases": []
+    },
+    "grhgul": {
+      "name": "harmaapäälokki",
+      "aliases": []
+    },
+    "silver3": {
+      "name": "hopearilli",
+      "aliases": []
+    },
+    "grygul": {
+      "name": "aavikkolokki",
+      "aliases": []
+    },
+    "crebun2": {
+      "name": "ruostekurkkusirkku",
+      "aliases": []
+    },
+    "grepar": {
+      "name": "harmaapapukaija",
+      "aliases": []
+    },
+    "graher1": {
+      "name": "harmaahaikara",
+      "aliases": []
+    },
+    "spofly1": {
+      "name": "harmaasieppo",
+      "aliases": []
+    },
+    "gyttat1": {
+      "name": "taigaviklo",
+      "aliases": []
+    },
+    "gyfwoo1": {
+      "name": "harmaapäätikka",
+      "aliases": []
+    },
+    "graeao1": {
+      "name": "tuhkahuuhkaja",
+      "aliases": []
+    },
+    "gycthr": {
+      "name": "tundrarastas",
+      "aliases": []
+    },
+    "grtgra": {
+      "name": "pitkäpyrstöturpiaali",
+      "aliases": []
+    },
+    "grebus1": {
+      "name": "isotrappi",
+      "aliases": []
+    },
+    "blkgui": {
+      "name": "riskilä",
+      "aliases": []
+    },
+    "eurgre1": {
+      "name": "viherpeippo",
+      "aliases": []
+    },
+    "ragmac1": {
+      "name": "vihersiipiara",
+      "aliases": []
+    },
+    "grewar3": {
+      "name": "idänuunilintu",
+      "aliases": []
+    },
+    "grnher": {
+      "name": "amerikankyyryhaikara",
+      "aliases": []
+    },
+    "comgre": {
+      "name": "valkoviklo",
+      "aliases": []
+    },
+    "gbesta1": {
+      "name": "kyläloistokottarainen",
+      "aliases": []
+    },
+    "grnpar": {
+      "name": "viheraratti",
+      "aliases": []
+    },
+    "eugwoo2": {
+      "name": "vihertikka",
+      "aliases": []
+    },
+    "recpar": {
+      "name": "meksikonamatsoni",
+      "aliases": []
+    },
+    "blhpar4": {
+      "name": "mustalakkiaratti",
+      "aliases": []
+    },
+    "eurgri1": {
+      "name": "hanhikorppikotka",
+      "aliases": []
+    },
+    "commer": {
+      "name": "isokoskelo",
+      "aliases": []
+    },
+    "belkin1": {
+      "name": "sepelkalastaja",
+      "aliases": []
+    },
+    "norgos1": {
+      "name": "kanahaukka",
+      "aliases": []
+    },
+    "boneag2": {
+      "name": "vuorikotka",
+      "aliases": []
+    },
+    "uraowl1": {
+      "name": "viirupöllö",
+      "aliases": []
+    },
+    "pingro": {
+      "name": "taviokuurna",
+      "aliases": []
+    },
+    "aussho1": {
+      "name": "australianlapasorsa",
+      "aliases": []
+    },
+    "varthr": {
+      "name": "amerikankirjorastas",
+      "aliases": []
+    },
+    "blkfra": {
+      "name": "mustafrankoliini",
+      "aliases": []
+    },
+    "ausshe1": {
+      "name": "australiansorsa",
+      "aliases": []
+    },
+    "colfly1": {
+      "name": "sepelsieppo",
+      "aliases": []
+    },
+    "rorpar": {
+      "name": "kauluskaija",
+      "aliases": []
+    },
+    "hazgro1": {
+      "name": "pyy",
+      "aliases": []
+    },
+    "crelar1": {
+      "name": "töyhtökiuru",
+      "aliases": []
+    },
+    "cremyn": {
+      "name": "riisimaina",
+      "aliases": []
+    },
+    "cretit2": {
+      "name": "töyhtötiainen",
+      "aliases": []
+    },
+    "grcgre1": {
+      "name": "silkkiuikku",
+      "aliases": []
+    },
+    "houfin": {
+      "name": "pihapunavarpunen",
+      "aliases": []
+    },
+    "blared1": {
+      "name": "mustaleppälintu",
+      "aliases": []
+    },
+    "houspa": {
+      "name": "varpunen",
+      "aliases": []
+    },
+    "hawgoo": {
+      "name": "havaijinhanhi",
+      "aliases": []
+    },
+    "dunnoc1": {
+      "name": "rautiainen",
+      "aliases": []
+    },
+    "rutscr1": {
+      "name": "ruostepyrstö",
+      "aliases": []
+    },
+    "woolar1": {
+      "name": "kangaskiuru",
+      "aliases": []
+    },
+    "wilpta1": {
+      "name": "nummiriekko",
+      "aliases": []
+    },
+    "helgui": {
+      "name": "helmikana",
+      "aliases": []
+    },
+    "lbbgul": {
+      "name": "selkälokki",
+      "aliases": []
+    },
+    "pacpar2": {
+      "name": "ecuadorinaranen",
+      "aliases": []
+    },
+    "commyn": {
+      "name": "pihamaina",
+      "aliases": []
+    },
+    "stodov1": {
+      "name": "uuttukyyhky",
+      "aliases": []
+    },
+    "whimbr3": {
+      "name": "amerikanpikkukuovi",
+      "aliases": []
+    },
+    "hudgod": {
+      "name": "eskimokuiri",
+      "aliases": []
+    },
+    "norhar2": {
+      "name": "amerikansinisuohaukka",
+      "aliases": []
+    },
+    "grscuc1": {
+      "name": "harakkakäki",
+      "aliases": []
+    },
+    "whwsco2": {
+      "name": "amerikanpilkkasiipi",
+      "aliases": []
+    },
+    "mutswa": {
+      "name": "kyhmyjoutsen",
+      "aliases": []
+    },
+    "cabgoo1": {
+      "name": "tuhkahanhi",
+      "aliases": []
+    },
+    "subwar6": {
+      "name": "lännenrusokerttu",
+      "aliases": []
+    },
+    "ibechi2": {
+      "name": "iberiantiltaltti",
+      "aliases": []
+    },
+    "y00475": {
+      "name": "amerikannokikana",
+      "aliases": []
+    },
+    "leabit": {
+      "name": "amerikanpikkuhaikara",
+      "aliases": []
+    },
+    "isbduc1": {
+      "name": "täplänokkasorsa",
+      "aliases": []
+    },
+    "insowl1": {
+      "name": "sepelpöllönen",
+      "aliases": []
+    },
+    "ingori1": {
+      "name": "intiankuhankeittäjä",
+      "aliases": []
+    },
+    "indbun": {
+      "name": "indigokardinaali",
+      "aliases": []
+    },
+    "incter1": {
+      "name": "inkatiira",
+      "aliases": []
+    },
+    "weowar1": {
+      "name": "iberiankultarinta",
+      "aliases": []
+    },
+    "isawhe1": {
+      "name": "arotasku",
+      "aliases": []
+    },
+    "isashr1": {
+      "name": "punapyrstölepinkäinen",
+      "aliases": []
+    },
+    "itaspa1": {
+      "name": "italianvarpunen",
+      "aliases": []
+    },
+    "rinphe1": {
+      "name": "fasaani",
+      "aliases": []
+    },
+    "japqua": {
+      "name": "japaninviiriäinen",
+      "aliases": []
+    },
+    "lewduc1": {
+      "name": "intianviheltäjäsorsa",
+      "aliases": []
+    },
+    "demcra1": {
+      "name": "neitokurki",
+      "aliases": []
+    },
+    "laukoo1": {
+      "name": "kookaburra",
+      "aliases": []
+    },
+    "impeag1": {
+      "name": "keisarikotka",
+      "aliases": []
+    },
+    "empgoo": {
+      "name": "beringinhanhi",
+      "aliases": []
+    },
+    "callar1": {
+      "name": "arokiuru",
+      "aliases": []
+    },
+    "kalphe": {
+      "name": "teräsfasaani",
+      "aliases": []
+    },
+    "ruff": {
+      "name": "suokukko",
+      "aliases": []
+    },
+    "slbgul": {
+      "name": "ohotanlokki",
+      "aliases": []
+    },
+    "whwsco1": {
+      "name": "siperianpilkkasiipi",
+      "aliases": []
+    },
+    "lessca": {
+      "name": "pikkulapasotka",
+      "aliases": []
+    },
+    "cangoo": {
+      "name": "kanadanhanhi",
+      "aliases": []
+    },
+    "sancra": {
+      "name": "hietakurki",
+      "aliases": []
+    },
+    "amhgul1": {
+      "name": "amerikanharmaalokki",
+      "aliases": []
+    },
+    "amewig": {
+      "name": "amerikanhaapana",
+      "aliases": []
+    },
+    "grbher3": {
+      "name": "amerikanharmaahaikara",
+      "aliases": []
+    },
+    "canwar": {
+      "name": "viirurintakerttuli",
+      "aliases": []
+    },
+    "comcan": {
+      "name": "kanarianhemppo",
+      "aliases": []
+    },
+    "burowl": {
+      "name": "preeriapöllö",
+      "aliases": []
+    },
+    "soashe1": {
+      "name": "kapinsorsa",
+      "aliases": []
+    },
+    "blhbun1": {
+      "name": "mustapääsirkku",
+      "aliases": []
+    },
+    "greshe": {
+      "name": "isoliitäjä",
+      "aliases": []
+    },
+    "hoomer": {
+      "name": "harjakoskelo",
+      "aliases": []
+    },
+    "cavspa1": {
+      "name": "kapverdenvarpunen",
+      "aliases": []
+    },
+    "comros": {
+      "name": "punavarpunen",
+      "aliases": []
+    },
+    "chetea1": {
+      "name": "australiantavi",
+      "aliases": []
+    },
+    "barpar1": {
+      "name": "raita-aratti",
+      "aliases": []
+    },
+    "grycat": {
+      "name": "naukumatkija",
+      "aliases": []
+    },
+    "killde": {
+      "name": "amerikantylli",
+      "aliases": []
+    },
+    "hawfin": {
+      "name": "nokkavarpunen",
+      "aliases": []
+    },
+    "norlap": {
+      "name": "töyhtöhyyppä",
+      "aliases": []
+    },
+    "bkbplo": {
+      "name": "tundrakurmitsa",
+      "aliases": []
+    },
+    "parcro2": {
+      "name": "isokäpylintu",
+      "aliases": []
+    },
+    "leswhi4": {
+      "name": "hernekerttu",
+      "aliases": []
+    },
+    "eurnut2": {
+      "name": "pähkinänakkeli",
+      "aliases": []
+    },
+    "leswoo1": {
+      "name": "pikkutikka",
+      "aliases": []
+    },
+    "litcra1": {
+      "name": "pikkuhuitti",
+      "aliases": []
+    },
+    "bawwar": {
+      "name": "kiipijäkerttuli",
+      "aliases": []
+    },
+    "redkno": {
+      "name": "isosirri",
+      "aliases": []
+    },
+    "gargan": {
+      "name": "heinätavi",
+      "aliases": []
+    },
+    "gretit1": {
+      "name": "talitiainen",
+      "aliases": []
+    },
+    "recpoc": {
+      "name": "punapäänarsku",
+      "aliases": []
+    },
+    "comrav": {
+      "name": "korppi",
+      "aliases": []
+    },
+    "lessap2": {
+      "name": "idänylänkötylli",
+      "aliases": []
+    },
+    "refpar5": {
+      "name": "kongonkaija",
+      "aliases": []
+    },
+    "audgul1": {
+      "name": "välimerenlokki",
+      "aliases": []
+    },
+    "grecor": {
+      "name": "merimetso",
+      "aliases": []
+    },
+    "norhar1": {
+      "name": "sinisuohaukka",
+      "aliases": []
+    },
+    "categr2": {
+      "name": "idänlehmähaikara",
+      "aliases": []
+    },
+    "doveki": {
+      "name": "pikkuruokki",
+      "aliases": []
+    },
+    "harduc": {
+      "name": "virta-alli",
+      "aliases": []
+    },
+    "comcra": {
+      "name": "kurki",
+      "aliases": []
+    },
+    "dalpel1": {
+      "name": "kiharapelikaani",
+      "aliases": []
+    },
+    "gnwtea": {
+      "name": "tavi",
+      "aliases": []
+    },
+    "eacwar1": {
+      "name": "amurinuunilintu",
+      "aliases": []
+    },
+    "yerwar": {
+      "name": "keltaperäkerttuli",
+      "aliases": []
+    },
+    "eursha1": {
+      "name": "karimetso",
+      "aliases": []
+    },
+    "grefla2": {
+      "name": "karibianflamingo",
+      "aliases": []
+    },
+    "comcuc": {
+      "name": "käki",
+      "aliases": []
+    },
+    "blhduc1": {
+      "name": "loissorsa",
+      "aliases": []
+    },
+    "categr1": {
+      "name": "lehmähaikara",
+      "aliases": []
+    },
+    "pifgoo": {
+      "name": "lyhytnokkahanhi",
+      "aliases": []
+    },
+    "gstlar1": {
+      "name": "lyhytvarvaskiuru",
+      "aliases": []
+    },
+    "ferhaw": {
+      "name": "kuningashiirihaukka",
+      "aliases": []
+    },
+    "reephe1": {
+      "name": "kuningasfasaani",
+      "aliases": []
+    },
+    "royter1": {
+      "name": "kuningastiira",
+      "aliases": []
+    },
+    "aukpar1": {
+      "name": "australiankuningaskaija",
+      "aliases": []
+    },
+    "werher": {
+      "name": "riuttahaikara",
+      "aliases": []
+    },
+    "arcter": {
+      "name": "lapintiira",
+      "aliases": []
+    },
+    "bkhgul": {
+      "name": "naurulokki",
+      "aliases": []
+    },
+    "gubter2": {
+      "name": "hietatiira",
+      "aliases": []
+    },
+    "afcdov1": {
+      "name": "saharanturturikyyhky",
+      "aliases": []
+    },
+    "lobmur": {
+      "name": "aasianmarmorimurri",
+      "aliases": []
+    },
+    "lotsti": {
+      "name": "siperiansirri",
+      "aliases": []
+    },
+    "lanfal1": {
+      "name": "keltapäähaukka",
+      "aliases": []
+    },
+    "azutit2": {
+      "name": "valkopäätiainen",
+      "aliases": []
+    },
+    "layduc": {
+      "name": "laysaninsorsa",
+      "aliases": []
+    },
+    "lazbun": {
+      "name": "turkoosikardinaali",
+      "aliases": []
+    },
+    "verfly4": {
+      "name": "turkoosisieppo",
+      "aliases": []
+    },
+    "subwar8": {
+      "name": "rätinärusokerttu",
+      "aliases": []
+    },
+    "norsho": {
+      "name": "lapasorsa",
+      "aliases": []
+    },
+    "eurspo1": {
+      "name": "kapustahaikara",
+      "aliases": []
+    },
+    "melduc1": {
+      "name": "madagaskarinsorsa",
+      "aliases": []
+    },
+    "madpet": {
+      "name": "madeiranviistäjä",
+      "aliases": []
+    },
+    "barpet": {
+      "name": "madeirankeiju",
+      "aliases": []
+    },
+    "uplgoo1": {
+      "name": "valkopäähansu",
+      "aliases": []
+    },
+    "afrcha1": {
+      "name": "afrikanpeippo",
+      "aliases": []
+    },
+    "magwar": {
+      "name": "magnoliakerttuli",
+      "aliases": []
+    },
+    "manduc": {
+      "name": "mandariinisorsa",
+      "aliases": []
+    },
+    "reccra1": {
+      "name": "mantsuriankurki",
+      "aliases": []
+    },
+    "gbbgul": {
+      "name": "merilokki",
+      "aliases": []
+    },
+    "nezsca1": {
+      "name": "uudenseelanninsotka",
+      "aliases": []
+    },
+    "marsto1": {
+      "name": "afrikanmarabu",
+      "aliases": []
+    },
+    "mouwar1": {
+      "name": "osmankäämikerttunen",
+      "aliases": []
+    },
+    "martea1": {
+      "name": "marmorisorsa",
+      "aliases": []
+    },
+    "bkfbun1": {
+      "name": "harmaapääsirkku",
+      "aliases": []
+    },
+    "ruewar1": {
+      "name": "mustakurkkukerttu",
+      "aliases": []
+    },
+    "japgro1": {
+      "name": "japaninnokkavarpunen",
+      "aliases": []
+    },
+    "maslap1": {
+      "name": "naamiohyyppä",
+      "aliases": []
+    },
+    "afmwea": {
+      "name": "mustaposkikutoja",
+      "aliases": []
+    },
+    "masshr1": {
+      "name": "valko-otsalepinkäinen",
+      "aliases": []
+    },
+    "wallcr1": {
+      "name": "kalliokiipijä",
+      "aliases": []
+    },
+    "comswi": {
+      "name": "tervapääsky",
+      "aliases": []
+    },
+    "bkewhe1": {
+      "name": "rusotasku",
+      "aliases": []
+    },
+    "schpar1": {
+      "name": "paranánaratti",
+      "aliases": []
+    },
+    "pursan": {
+      "name": "merisirri",
+      "aliases": []
+    },
+    "comhom1": {
+      "name": "räystäspääsky",
+      "aliases": []
+    },
+    "lotros1": {
+      "name": "pyrstötulkku",
+      "aliases": []
+    },
+    "norpar": {
+      "name": "tiaiskerttuli",
+      "aliases": []
+    },
+    "merlin": {
+      "name": "ampuhaukka",
+      "aliases": []
+    },
+    "lbesta1": {
+      "name": "purppuraperäkottarainen",
+      "aliases": []
+    },
+    "grewar2": {
+      "name": "burjatianuunilintu",
+      "aliases": []
+    },
+    "misthr1": {
+      "name": "kulorastas",
+      "aliases": []
+    },
+    "levshe1": {
+      "name": "idänpikkuliitäjä",
+      "aliases": []
+    },
+    "yelgul1": {
+      "name": "etelänharmaalokki",
+      "aliases": []
+    },
+    "miswoo1": {
+      "name": "tammitikka",
+      "aliases": []
+    },
+    "rebmer": {
+      "name": "tukkakoskelo",
+      "aliases": []
+    },
+    "gncpar": {
+      "name": "viherposkiaratti",
+      "aliases": []
+    },
+    "dausta1": {
+      "name": "mantšuriankottarainen",
+      "aliases": []
+    },
+    "ferduc": {
+      "name": "ruskosotka",
+      "aliases": []
+    },
+    "shbdow": {
+      "name": "rämekurppelo",
+      "aliases": []
+    },
+    "rucspa1": {
+      "name": "eteläamerikansirkku",
+      "aliases": []
+    },
+    "eurdot": {
+      "name": "keräkurmitsa",
+      "aliases": []
+    },
+    "yefcan": {
+      "name": "viiksihemppo",
+      "aliases": []
+    },
+    "musduc": {
+      "name": "myskisorsa",
+      "aliases": []
+    },
+    "mugfly": {
+      "name": "mantšuriansieppo",
+      "aliases": []
+    },
+    "nutman": {
+      "name": "suomumanikki",
+      "aliases": []
+    },
+    "manduc1": {
+      "name": "lyijysorsa",
+      "aliases": []
+    },
+    "combuz1": {
+      "name": "hiirihaukka",
+      "aliases": []
+    },
+    "cinvul1": {
+      "name": "munkkikorppikotka",
+      "aliases": []
+    },
+    "blackc1": {
+      "name": "mustapääkerttu",
+      "aliases": []
+    },
+    "monpar": {
+      "name": "munkkiaratti",
+      "aliases": []
+    },
+    "wlswar": {
+      "name": "sitruunakerttuli",
+      "aliases": []
+    },
+    "meapar": {
+      "name": "jauhoamatsoni",
+      "aliases": []
+    },
+    "comnig1": {
+      "name": "etelänsatakieli",
+      "aliases": []
+    },
+    "eaowar2": {
+      "name": "idänorfeuskerttu",
+      "aliases": []
+    },
+    "bcnher": {
+      "name": "yöhaikara",
+      "aliases": []
+    },
+    "eurnig1": {
+      "name": "kehrääjä",
+      "aliases": []
+    },
+    "bkhpar": {
+      "name": "huppuaratti",
+      "aliases": []
+    },
+    "grerhe1": {
+      "name": "nandu",
+      "aliases": []
+    },
+    "hoocro1": {
+      "name": "varis",
+      "aliases": []
+    },
+    "rebshr1": {
+      "name": "pikkulepinkäinen",
+      "aliases": []
+    },
+    "egygoo": {
+      "name": "afrikanhanhi",
+      "aliases": []
+    },
+    "piewhe1": {
+      "name": "nunnatasku",
+      "aliases": []
+    },
+    "cockat": {
+      "name": "neitokakadu",
+      "aliases": []
+    },
+    "renpha": {
+      "name": "vesipääsky",
+      "aliases": []
+    },
+    "horlar": {
+      "name": "tunturikiuru",
+      "aliases": []
+    },
+    "doccor": {
+      "name": "amerikanmerimetso",
+      "aliases": []
+    },
+    "horgre": {
+      "name": "mustakurkku-uikku",
+      "aliases": []
+    },
+    "oltwar1": {
+      "name": "oliivikultarinta",
+      "aliases": []
+    },
+    "orcwax": {
+      "name": "savannivahanokka",
+      "aliases": []
+    },
+    "oripra": {
+      "name": "aasianpääskykahlaaja",
+      "aliases": []
+    },
+    "oripip1": {
+      "name": "riisikirvinen",
+      "aliases": []
+    },
+    "ortdov": {
+      "name": "idänturturikyyhky",
+      "aliases": []
+    },
+    "origoo1": {
+      "name": "amazonianhanhi",
+      "aliases": []
+    },
+    "weowar2": {
+      "name": "lännenorfeuskerttu",
+      "aliases": []
+    },
+    "melwar1": {
+      "name": "taiturikultarinta",
+      "aliases": []
+    },
+    "ortbun1": {
+      "name": "peltosirkku",
+      "aliases": []
+    },
+    "redbis": {
+      "name": "punapiispa",
+      "aliases": []
+    },
+    "palbun": {
+      "name": "pikkupajusirkku",
+      "aliases": []
+    },
+    "sibsto1": {
+      "name": "sepeltasku",
+      "aliases": []
+    },
+    "laudov1": {
+      "name": "palmukyyhky",
+      "aliases": []
+    },
+    "subwar2": {
+      "name": "kivikkouunilintu",
+      "aliases": []
+    },
+    "atlpuf": {
+      "name": "lunni",
+      "aliases": []
+    },
+    "paibun": {
+      "name": "sateenkaarikardinaali",
+      "aliases": []
+    },
+    "parshe1": {
+      "name": "paratiisisorsa",
+      "aliases": []
+    },
+    "whepar2": {
+      "name": "brasilianaratti",
+      "aliases": []
+    },
+    "fotswi": {
+      "name": "aasiankiitäjä",
+      "aliases": []
+    },
+    "pacloo": {
+      "name": "tundrakuikka",
+      "aliases": []
+    },
+    "blksco2": {
+      "name": "amerikanmustalintu",
+      "aliases": []
+    },
+    "criros2": {
+      "name": "punarosella",
+      "aliases": []
+    },
+    "madpar2": {
+      "name": "madagaskarinpyy",
+      "aliases": []
+    },
+    "pecpip": {
+      "name": "tundrakirvinen",
+      "aliases": []
+    },
+    "compea": {
+      "name": "riikinkukko",
+      "aliases": []
+    },
+    "eurwig": {
+      "name": "haapana",
+      "aliases": []
+    },
+    "fislov1": {
+      "name": "viktoriankaijanen",
+      "aliases": []
+    },
+    "plhpar1": {
+      "name": "luumupääkaija",
+      "aliases": []
+    },
+    "batgod": {
+      "name": "punakuiri",
+      "aliases": []
+    },
+    "sacibi2": {
+      "name": "pyhäiibis",
+      "aliases": []
+    },
+    "egynig1": {
+      "name": "aavikkokehrääjä",
+      "aliases": []
+    },
+    "phivir": {
+      "name": "kanadanvireo",
+      "aliases": []
+    },
+    "phiduc1": {
+      "name": "filippiiniensorsa",
+      "aliases": []
+    },
+    "ovenbi1": {
+      "name": "tulipääkerttuli",
+      "aliases": []
+    },
+    "eugori2": {
+      "name": "kuhankeittäjä",
+      "aliases": []
+    },
+    "speeid": {
+      "name": "silmälasihaahka",
+      "aliases": []
+    },
+    "y00478": {
+      "name": "grönlanninlokki",
+      "aliases": []
+    },
+    "kineid": {
+      "name": "kyhmyhaahka",
+      "aliases": []
+    },
+    "arcloo": {
+      "name": "kuikka",
+      "aliases": []
+    },
+    "darwar1": {
+      "name": "ruskokerttu",
+      "aliases": []
+    },
+    "amgplo": {
+      "name": "amerikankurmitsa",
+      "aliases": []
+    },
+    "uplsan": {
+      "name": "preeriakahlaaja",
+      "aliases": []
+    },
+    "fragul": {
+      "name": "preerianaurulokki",
+      "aliases": []
+    },
+    "puntea1": {
+      "name": "ylänkötavi",
+      "aliases": []
+    },
+    "pugsta1": {
+      "name": "viikunakottarainen",
+      "aliases": []
+    },
+    "comgra": {
+      "name": "purppuraturpiaali",
+      "aliases": []
+    },
+    "purswa1": {
+      "name": "sulttaanikana",
+      "aliases": []
+    },
+    "purher1": {
+      "name": "ruskohaikara",
+      "aliases": []
+    },
+    "purmar": {
+      "name": "sinipääsky",
+      "aliases": []
+    },
+    "hottea1": {
+      "name": "pikkutavi",
+      "aliases": []
+    },
+    "blkvul": {
+      "name": "mustakondori",
+      "aliases": []
+    },
+    "carcro1": {
+      "name": "nokivaris",
+      "aliases": []
+    },
+    "radshe1": {
+      "name": "pulmussorsa",
+      "aliases": []
+    },
+    "larspa": {
+      "name": "kirjopääsirkku",
+      "aliases": []
+    },
+    "squher1": {
+      "name": "rääkkähaikara",
+      "aliases": []
+    },
+    "caster1": {
+      "name": "räyskä",
+      "aliases": []
+    },
+    "norshr1": {
+      "name": "isolepinkäinen",
+      "aliases": []
+    },
+    "barswa": {
+      "name": "haarapääsky",
+      "aliases": []
+    },
+    "rolhaw": {
+      "name": "piekana",
+      "aliases": []
+    },
+    "borowl": {
+      "name": "helmipöllö",
+      "aliases": []
+    },
+    "grypar": {
+      "name": "peltopyy",
+      "aliases": []
+    },
+    "railor5": {
+      "name": "sateenkaariluri",
+      "aliases": []
+    },
+    "whimbr5": {
+      "name": "pikkukuovi",
+      "aliases": []
+    },
+    "tufduc": {
+      "name": "tukkasotka",
+      "aliases": []
+    },
+    "javspa": {
+      "name": "riisipeippo",
+      "aliases": []
+    },
+    "boboli": {
+      "name": "heinäturpiaali",
+      "aliases": []
+    },
+    "crccou1": {
+      "name": "aavikkojuoksija",
+      "aliases": []
+    },
+    "stseag": {
+      "name": "kuningasmerikotka",
+      "aliases": []
+    },
+    "canvas": {
+      "name": "isopunasotka",
+      "aliases": []
+    },
+    "rinouz1": {
+      "name": "sepelrastas",
+      "aliases": []
+    },
+    "brant": {
+      "name": "sepelhanhi",
+      "aliases": []
+    },
+    "cowpig1": {
+      "name": "sepelkyyhky",
+      "aliases": []
+    },
+    "rinduc": {
+      "name": "amerikantukkasotka",
+      "aliases": []
+    },
+    "ribgul": {
+      "name": "rengasnokkalokki",
+      "aliases": []
+    },
+    "polpar1": {
+      "name": "isosepelkaija",
+      "aliases": []
+    },
+    "reebun": {
+      "name": "pajusirkku",
+      "aliases": []
+    },
+    "grebit1": {
+      "name": "kaulushaikara",
+      "aliases": []
+    },
+    "savwar1": {
+      "name": "ruokosirkkalintu",
+      "aliases": []
+    },
+    "wemhar1": {
+      "name": "ruskosuohaukka",
+      "aliases": []
+    },
+    "grefla3": {
+      "name": "flamingo",
+      "aliases": []
+    },
+    "galah": {
+      "name": "ruusukakadu",
+      "aliases": []
+    },
+    "grwpel1": {
+      "name": "pelikaani",
+      "aliases": []
+    },
+    "easros1": {
+      "name": "valkokurkkurosella",
+      "aliases": []
+    },
+    "robgro": {
+      "name": "punarintakardinaali",
+      "aliases": []
+    },
+    "palros2": {
+      "name": "taigapunavarpunen",
+      "aliases": []
+    },
+    "blhpar3": {
+      "name": "indokiinankaija",
+      "aliases": []
+    },
+    "peflov": {
+      "name": "ruusukaijanen",
+      "aliases": []
+    },
+    "rosgul": {
+      "name": "ruusulokki",
+      "aliases": []
+    },
+    "pieduc1": {
+      "name": "liuskanokkasorsa",
+      "aliases": []
+    },
+    "robpoc1": {
+      "name": "kyhmynarsku",
+      "aliases": []
+    },
+    "roster": {
+      "name": "ruusutiira",
+      "aliases": []
+    },
+    "rossta2": {
+      "name": "punakottarainen",
+      "aliases": []
+    },
+    "dusthr2": {
+      "name": "ruostesiipirastas",
+      "aliases": []
+    },
+    "rudshe": {
+      "name": "ruostesorsa",
+      "aliases": []
+    },
+    "dusthr1": {
+      "name": "ruosterastas",
+      "aliases": []
+    },
+    "reevir1": {
+      "name": "punasilmävireo",
+      "aliases": []
+    },
+    "rebnut": {
+      "name": "valkokulmanakkeli",
+      "aliases": []
+    },
+    "redwin": {
+      "name": "punakylkirastas",
+      "aliases": []
+    },
+    "colpra": {
+      "name": "pääskykahlaaja",
+      "aliases": []
+    },
+    "rewbla": {
+      "name": "punaolkaturpiaali",
+      "aliases": []
+    },
+    "reffal1": {
+      "name": "punajalkahaukka",
+      "aliases": []
+    },
+    "refboo": {
+      "name": "punajalkasuula",
+      "aliases": []
+    },
+    "afrspo1": {
+      "name": "afrikankapustahaikara",
+      "aliases": []
+    },
+    "rebgoo1": {
+      "name": "punakaulahanhi",
+      "aliases": []
+    },
+    "rengre": {
+      "name": "härkälintu",
+      "aliases": []
+    },
+    "relpar1": {
+      "name": "punapyy",
+      "aliases": []
+    },
+    "norcar": {
+      "name": "punakardinaali",
+      "aliases": []
+    },
+    "rensti": {
+      "name": "rusokaulasirri",
+      "aliases": []
+    },
+    "eurrob1": {
+      "name": "punarinta",
+      "aliases": []
+    },
+    "retthr1": {
+      "name": "punakaularastas",
+      "aliases": []
+    },
+    "retpip": {
+      "name": "lapinkirvinen",
+      "aliases": []
+    },
+    "retpar3": {
+      "name": "uudenkaledonianparatiisipeippo",
+      "aliases": []
+    },
+    "redhea": {
+      "name": "amerikanpunasotka",
+      "aliases": []
+    },
+    "ruhgoo1": {
+      "name": "punapäähansu",
+      "aliases": []
+    },
+    "schbla1": {
+      "name": "punahupputurpiaali",
+      "aliases": []
+    },
+    "wooshr1": {
+      "name": "punapäälepinkäinen",
+      "aliases": []
+    },
+    "rewlap1": {
+      "name": "kenttähyyppä",
+      "aliases": []
+    },
+    "redkit1": {
+      "name": "isohaarahaukka",
+      "aliases": []
+    },
+    "rewbul": {
+      "name": "punaposkibulbuli",
+      "aliases": []
+    },
+    "comred1": {
+      "name": "punajalkaviklo",
+      "aliases": []
+    },
+    "bbwduc": {
+      "name": "punaviheltäjäsorsa",
+      "aliases": []
+    },
+    "reblei": {
+      "name": "tulirintatimali",
+      "aliases": []
+    },
+    "rebtro": {
+      "name": "suomutropiikkilintu",
+      "aliases": []
+    },
+    "rebduc1": {
+      "name": "punanokkasorsa",
+      "aliases": []
+    },
+    "reccar": {
+      "name": "liekkipääkardinaali",
+      "aliases": []
+    },
+    "rintea1": {
+      "name": "pisamatavi",
+      "aliases": []
+    },
+    "amered": {
+      "name": "loistokerttuli",
+      "aliases": []
+    },
+    "rethaw": {
+      "name": "amerikanhiirihaukka",
+      "aliases": []
+    },
+    "rutshr2": {
+      "name": "ruostepäälepinkäinen",
+      "aliases": []
+    },
+    "fifser1": {
+      "name": "kultahemppo",
+      "aliases": []
+    },
+    "sibrub": {
+      "name": "rubiinisatakieli",
+      "aliases": []
+    },
+    "blclov1": {
+      "name": "jokikaijanen",
+      "aliases": []
+    },
+    "dasfly": {
+      "name": "siperiansieppo",
+      "aliases": []
+    },
+    "sooter1": {
+      "name": "nokitiira",
+      "aliases": []
+    },
+    "chebun1": {
+      "name": "kastanjasirkku",
+      "aliases": []
+    },
+    "leskes1": {
+      "name": "pikkutuulihaukka",
+      "aliases": []
+    },
+    "pibpel1": {
+      "name": "afrikanpelikaani",
+      "aliases": []
+    },
+    "rerswa8": {
+      "name": "ruostepääsky",
+      "aliases": []
+    },
+    "ruepar1": {
+      "name": "angolankaija",
+      "aliases": []
+    },
+    "lecter2": {
+      "name": "pikkutöyhtötiira",
+      "aliases": []
+    },
+    "rook1": {
+      "name": "mustavaris",
+      "aliases": []
+    },
+    "saffin": {
+      "name": "sahramisirkkunen",
+      "aliases": []
+    },
+    "afdwar1": {
+      "name": "saharankääpiökerttu",
+      "aliases": []
+    },
+    "whtwhe1": {
+      "name": "kalottitasku",
+      "aliases": []
+    },
+    "duccoc1": {
+      "name": "salomoninkakadu",
+      "aliases": []
+    },
+    "whwsco3": {
+      "name": "pilkkasiipi",
+      "aliases": []
+    },
+    "sarwar1": {
+      "name": "samettipääkerttu",
+      "aliases": []
+    },
+    "sander": {
+      "name": "pulmussirri",
+      "aliases": []
+    },
+    "corplo": {
+      "name": "tylli",
+      "aliases": []
+    },
+    "semsan": {
+      "name": "kanadansirri",
+      "aliases": []
+    },
+    "marwar1": {
+      "name": "sardiniankerttu",
+      "aliases": []
+    },
+    "sattra1": {
+      "name": "satyyritragopaani",
+      "aliases": []
+    },
+    "lotshr1": {
+      "name": "ruskoperälepinkäinen",
+      "aliases": []
+    },
+    "eaywag1": {
+      "name": "keltavästäräkki",
+      "aliases": []
+    },
+    "scamac1": {
+      "name": "puna-ara",
+      "aliases": []
+    },
+    "scatan": {
+      "name": "tulitangara",
+      "aliases": []
+    },
+    "scaibi": {
+      "name": "rubiini-iibis",
+      "aliases": []
+    },
+    "ncbeat1": {
+      "name": "punamehiläissyöjä",
+      "aliases": []
+    },
+    "steeid": {
+      "name": "allihaahka",
+      "aliases": []
+    },
+    "grseag1": {
+      "name": "kiljukotka",
+      "aliases": []
+    },
+    "comgol": {
+      "name": "telkkä",
+      "aliases": []
+    },
+    "sibthr1": {
+      "name": "siperianrastas",
+      "aliases": []
+    },
+    "easkin": {
+      "name": "pihatyranni",
+      "aliases": []
+    },
+    "piecro1": {
+      "name": "afrikanvaris",
+      "aliases": []
+    },
+    "suppar1": {
+      "name": "loistokaija",
+      "aliases": []
+    },
+    "sedwar1": {
+      "name": "ruokokerttunen",
+      "aliases": []
+    },
+    "eurwar2": {
+      "name": "viitasirkkalintu",
+      "aliases": []
+    },
+    "shteag1": {
+      "name": "käärmekotka",
+      "aliases": []
+    },
+    "webowl1": {
+      "name": "tornipöllö",
+      "aliases": []
+    },
+    "parjae": {
+      "name": "merikihu",
+      "aliases": []
+    },
+    "reccor": {
+      "name": "punaposkipeippo",
+      "aliases": []
+    },
+    "snoegr": {
+      "name": "lumihaikara",
+      "aliases": []
+    },
+    "eleter1": {
+      "name": "kaunotiira",
+      "aliases": []
+    },
+    "elepar1": {
+      "name": "isoruohokaija",
+      "aliases": []
+    },
+    "egyvul1": {
+      "name": "pikkukorppikotka",
+      "aliases": []
+    },
+    "gadwal": {
+      "name": "harmaasorsa",
+      "aliases": []
+    },
+    "snobun": {
+      "name": "pulmunen",
+      "aliases": []
+    },
+    "snoowl1": {
+      "name": "tunturipöllö",
+      "aliases": []
+    },
+    "snogoo": {
+      "name": "lumihanhi",
+      "aliases": []
+    },
+    "whiibi": {
+      "name": "valkoiibis",
+      "aliases": []
+    },
+    "whwsno1": {
+      "name": "lumivarpunen",
+      "aliases": []
+    },
+    "y00678": {
+      "name": "eteläntöyhtökarakara",
+      "aliases": []
+    },
+    "calqua": {
+      "name": "kaliforniantupsuviiriäinen",
+      "aliases": []
+    },
+    "chiswi": {
+      "name": "piippukiitäjä",
+      "aliases": []
+    },
+    "scocro1": {
+      "name": "skotlanninkäpylintu",
+      "aliases": []
+    },
+    "leseag1": {
+      "name": "pikkukiljukotka",
+      "aliases": []
+    },
+    "strowl1": {
+      "name": "amerikansarvipöllö",
+      "aliases": []
+    },
+    "sabgul": {
+      "name": "tiiralokki",
+      "aliases": []
+    },
+    "swipar1": {
+      "name": "tasmaniankaija",
+      "aliases": []
+    },
+    "swagoo1": {
+      "name": "joutsenhanhi",
+      "aliases": []
+    },
+    "lottit1": {
+      "name": "pyrstötiainen",
+      "aliases": []
+    },
+    "amebit": {
+      "name": "amerikankaulushaikara",
+      "aliases": []
+    },
+    "bkbalb": {
+      "name": "mustakulma-albatrossi",
+      "aliases": []
+    },
+    "blbthr2": {
+      "name": "huppurastas",
+      "aliases": []
+    },
+    "afbduc1": {
+      "name": "afrikannokisorsa",
+      "aliases": []
+    },
+    "blwpra1": {
+      "name": "aropääskykahlaaja",
+      "aliases": []
+    },
+    "blnswa2": {
+      "name": "mustakaulajoutsen",
+      "aliases": []
+    },
+    "eargre": {
+      "name": "mustakaulauikku",
+      "aliases": []
+    },
+    "chemun": {
+      "name": "kastanjamanikki",
+      "aliases": []
+    },
+    "blcpar1": {
+      "name": "inka-aratti",
+      "aliases": []
+    },
+    "stonec4": {
+      "name": "mustapäätasku",
+      "aliases": []
+    },
+    "datthr1": {
+      "name": "mustakaularastas",
+      "aliases": []
+    },
+    "blacra1": {
+      "name": "mustahuitti",
+      "aliases": []
+    },
+    "rudduc": {
+      "name": "kuparisorsa",
+      "aliases": []
+    },
+    "medgul1": {
+      "name": "mustanmerenlokki",
+      "aliases": []
+    },
+    "blakit1": {
+      "name": "haarahaukka",
+      "aliases": []
+    },
+    "blhpar1": {
+      "name": "siniaratti",
+      "aliases": []
+    },
+    "bkbcuc": {
+      "name": "mississipinkäki",
+      "aliases": []
+    },
+    "blkswa": {
+      "name": "mustajoutsen",
+      "aliases": []
+    },
+    "blawoo1": {
+      "name": "palokärki",
+      "aliases": []
+    },
+    "blalar1": {
+      "name": "mustakiuru",
+      "aliases": []
+    },
+    "legshr2": {
+      "name": "mustaotsalepinkäinen",
+      "aliases": []
+    },
+    "blasto1": {
+      "name": "mustahaikara",
+      "aliases": []
+    },
+    "bkfibi1": {
+      "name": "andieniibis",
+      "aliases": []
+    },
+    "rutrob1": {
+      "name": "sirittäjäsatakieli",
+      "aliases": []
+    },
+    "turpar1": {
+      "name": "kaunoruohokaija",
+      "aliases": []
+    },
+    "whteag": {
+      "name": "merikotka",
+      "aliases": []
+    },
+    "kenplo1": {
+      "name": "mustajalkatylli",
+      "aliases": []
+    },
+    "aquwar1": {
+      "name": "sarakerttunen",
+      "aliases": []
+    },
+    "litegr": {
+      "name": "silkkihaikara",
+      "aliases": []
+    },
+    "bohwax": {
+      "name": "tilhi",
+      "aliases": []
+    },
+    "cetwar1": {
+      "name": "silkkikerttunen",
+      "aliases": []
+    },
+    "senpar": {
+      "name": "senegalinkaija",
+      "aliases": []
+    },
+    "scoshe1": {
+      "name": "välimerenliitäjä",
+      "aliases": []
+    },
+    "sibpip1": {
+      "name": "tuhkakirvinen",
+      "aliases": []
+    },
+    "falduc": {
+      "name": "sirppisorsa",
+      "aliases": []
+    },
+    "cursan": {
+      "name": "kuovisirri",
+      "aliases": []
+    },
+    "gloibi": {
+      "name": "pronssi-iibis",
+      "aliases": []
+    },
+    "ancmur": {
+      "name": "mustakurkkumurri",
+      "aliases": []
+    },
+    "siltea1": {
+      "name": "kalottitavi",
+      "aliases": []
+    },
+    "silphe": {
+      "name": "hopeafasaani",
+      "aliases": []
+    },
+    "euhgul1": {
+      "name": "harmaalokki",
+      "aliases": []
+    },
+    "greegr": {
+      "name": "jalohaikara",
+      "aliases": []
+    },
+    "sonspa": {
+      "name": "laulusirkku",
+      "aliases": []
+    },
+    "sonthr1": {
+      "name": "laulurastas",
+      "aliases": []
+    },
+    "whoswa": {
+      "name": "laulujoutsen",
+      "aliases": []
+    },
+    "rerpar1": {
+      "name": "savanniparatiisikaija",
+      "aliases": []
+    },
+    "gresku1": {
+      "name": "isokihu",
+      "aliases": []
+    },
+    "milmac": {
+      "name": "smaragdiara",
+      "aliases": []
+    },
+    "firecr1": {
+      "name": "tulipäähippiäinen",
+      "aliases": []
+    },
+    "sunpar1": {
+      "name": "aurinkoaratti",
+      "aliases": []
+    },
+    "grejun2": {
+      "name": "harmaaviidakkokana",
+      "aliases": []
+    },
+    "bargol": {
+      "name": "amerikantelkkä",
+      "aliases": []
+    },
+    "pomjae": {
+      "name": "leveäpyrstökihu",
+      "aliases": []
+    },
+    "eurspa1": {
+      "name": "varpushaukka",
+      "aliases": []
+    },
+    "nohowl": {
+      "name": "hiiripöllö",
+      "aliases": []
+    },
+    "ruegri1": {
+      "name": "suomukorppikotka",
+      "aliases": []
+    },
+    "barwar1": {
+      "name": "kirjokerttu",
+      "aliases": []
+    },
+    "eupowl1": {
+      "name": "varpuspöllö",
+      "aliases": []
+    },
+    "norpin": {
+      "name": "jouhisorsa",
+      "aliases": []
+    },
+    "whrmun": {
+      "name": "valkoperämanikki",
+      "aliases": []
+    },
+    "shtsan": {
+      "name": "suippopyrstösirri",
+      "aliases": []
+    },
+    "yebpin1": {
+      "name": "suippopyrstösorsa",
+      "aliases": []
+    },
+    "bucpar": {
+      "name": "sinipääaratti",
+      "aliases": []
+    },
+    "laplon": {
+      "name": "lapinsirkku",
+      "aliases": []
+    },
+    "spwgoo1": {
+      "name": "kynsihanhi",
+      "aliases": []
+    },
+    "spwlap1": {
+      "name": "kynsihyyppä",
+      "aliases": []
+    },
+    "ricpip1": {
+      "name": "isokirvinen",
+      "aliases": []
+    },
+    "thrnig1": {
+      "name": "satakieli",
+      "aliases": []
+    },
+    "whtnee": {
+      "name": "piikkipyrstökiitäjä",
+      "aliases": []
+    },
+    "eursta": {
+      "name": "kottarainen",
+      "aliases": []
+    },
+    "goleag": {
+      "name": "maakotka",
+      "aliases": []
+    },
+    "rocpar2": {
+      "name": "kivikkopyy",
+      "aliases": []
+    },
+    "litowl1": {
+      "name": "minervanpöllö",
+      "aliases": []
+    },
+    "gyhbun1": {
+      "name": "kivikkosirkku",
+      "aliases": []
+    },
+    "rtrthr1": {
+      "name": "kivikkorastas",
+      "aliases": []
+    },
+    "norwhe": {
+      "name": "kivitasku",
+      "aliases": []
+    },
+    "rocpet1": {
+      "name": "kalliovarpunen",
+      "aliases": []
+    },
+    "rudtur": {
+      "name": "karikukko",
+      "aliases": []
+    },
+    "stonec7": {
+      "name": "idänsepeltasku",
+      "aliases": []
+    },
+    "bkwsti": {
+      "name": "pitkäjalka",
+      "aliases": []
+    },
+    "steeag1": {
+      "name": "arokotka",
+      "aliases": []
+    },
+    "palsan1": {
+      "name": "arokyyhky",
+      "aliases": []
+    },
+    "soclap1": {
+      "name": "arohyyppä",
+      "aliases": []
+    },
+    "casgul2": {
+      "name": "aroharmaalokki",
+      "aliases": []
+    },
+    "blypip1": {
+      "name": "mongoliankirvinen",
+      "aliases": []
+    },
+    "oriplo1": {
+      "name": "gobintylli",
+      "aliases": []
+    },
+    "sykwar2": {
+      "name": "aavikkokultarinta",
+      "aliases": []
+    },
+    "palhar1": {
+      "name": "arosuohaukka",
+      "aliases": []
+    },
+    "retloo": {
+      "name": "kaakkuri",
+      "aliases": []
+    },
+    "eurgol": {
+      "name": "tikli",
+      "aliases": []
+    },
+    "mallar3": {
+      "name": "sinisorsa",
+      "aliases": []
+    },
+    "rocpip1": {
+      "name": "luotokirvinen",
+      "aliases": []
+    },
+    "crepar1": {
+      "name": "harjapyy",
+      "aliases": []
+    },
+    "bahgoo": {
+      "name": "tiibetinhanhi",
+      "aliases": []
+    },
+    "pagwar1": {
+      "name": "sarasirkkalintu",
+      "aliases": []
+    },
+    "bkpwar": {
+      "name": "viirukerttuli",
+      "aliases": []
+    },
+    "y00621": {
+      "name": "idänruostepääsky",
+      "aliases": []
+    },
+    "lanwar": {
+      "name": "viirusirkkalintu",
+      "aliases": []
+    },
+    "mewgul": {
+      "name": "kalalokki",
+      "aliases": []
+    },
+    "bripet": {
+      "name": "merikeiju",
+      "aliases": []
+    },
+    "brbsan": {
+      "name": "jänkäsirriäinen",
+      "aliases": []
+    },
+    "martit2": {
+      "name": "viitatiainen",
+      "aliases": []
+    },
+    "sheowl": {
+      "name": "suopöllö",
+      "aliases": []
+    },
+    "marwar3": {
+      "name": "luhtakerttunen",
+      "aliases": []
+    },
+    "treswa": {
+      "name": "kelopääsky",
+      "aliases": []
+    },
+    "swiphe1": {
+      "name": "taiwaninfasaani",
+      "aliases": []
+    },
+    "swspet": {
+      "name": "pikkukeiju",
+      "aliases": []
+    },
+    "pieavo1": {
+      "name": "avosetti",
+      "aliases": []
+    },
+    "sthsee2": {
+      "name": "kalottihemppo",
+      "aliases": []
+    },
+    "swfowl1": {
+      "name": "kirjonaamapöllönen",
+      "aliases": []
+    },
+    "sopsku1": {
+      "name": "etelämantereenkihu",
+      "aliases": []
+    },
+    "compoc": {
+      "name": "punasotka",
+      "aliases": []
+    },
+    "yecbis": {
+      "name": "kultapiispa",
+      "aliases": []
+    },
+    "taifly1": {
+      "name": "idänpikkusieppo",
+      "aliases": []
+    },
+    "eurnut3": {
+      "name": "pähkinähakki",
+      "aliases": []
+    },
+    "coatit2": {
+      "name": "kuusitiainen",
+      "aliases": []
+    },
+    "wheduc1": {
+      "name": "australiansotka",
+      "aliases": []
+    },
+    "commoo3": {
+      "name": "liejukana",
+      "aliases": []
+    },
+    "eurwar1": {
+      "name": "rytikerttunen",
+      "aliases": []
+    },
+    "marsan": {
+      "name": "lampiviklo",
+      "aliases": []
+    },
+    "temsti": {
+      "name": "lapinsirri",
+      "aliases": []
+    },
+    "temtra1": {
+      "name": "himalajantragopaani",
+      "aliases": []
+    },
+    "tersan": {
+      "name": "rantakurvi",
+      "aliases": []
+    },
+    "redpha1": {
+      "name": "isovesipääsky",
+      "aliases": []
+    },
+    "lessap1": {
+      "name": "ylänkötylli",
+      "aliases": []
+    },
+    "humwar1": {
+      "name": "kashmirinuunilintu",
+      "aliases": []
+    },
+    "camwar": {
+      "name": "rusoposkikerttuli",
+      "aliases": []
+    },
+    "razorb": {
+      "name": "ruokki",
+      "aliases": []
+    },
+    "blksco1": {
+      "name": "mustalintu",
+      "aliases": []
+    },
+    "cargra1": {
+      "name": "pihaturpiaali",
+      "aliases": []
+    },
+    "eupfly1": {
+      "name": "kirjosieppo",
+      "aliases": []
+    },
+    "blkter": {
+      "name": "mustatiira",
+      "aliases": []
+    },
+    "eutkne1": {
+      "name": "paksujalka",
+      "aliases": []
+    },
+    "trista1": {
+      "name": "rotkorakkeli",
+      "aliases": []
+    },
+    "truswa": {
+      "name": "trumpettijoutsen",
+      "aliases": []
+    },
+    "commur": {
+      "name": "etelänkiisla",
+      "aliases": []
+    },
+    "turvul": {
+      "name": "kalkkunakondori",
+      "aliases": []
+    },
+    "wiltur": {
+      "name": "kalkkuna",
+      "aliases": []
+    },
+    "eaywag": {
+      "name": "aasiankeltavästäräkki",
+      "aliases": []
+    },
+    "pagplo": {
+      "name": "siperiankurmitsa",
+      "aliases": []
+    },
+    "tunbeg1": {
+      "name": "tundrametsähanhi",
+      "aliases": []
+    },
+    "lobdow": {
+      "name": "tundrakurppelo",
+      "aliases": []
+    },
+    "eurkes": {
+      "name": "tuulihaukka",
+      "aliases": []
+    },
+    "eutdov": {
+      "name": "turturikyyhky",
+      "aliases": []
+    },
+    "greyel": {
+      "name": "amerikanviklo",
+      "aliases": []
+    },
+    "spocra1": {
+      "name": "luhtahuitti",
+      "aliases": []
+    },
+    "eucdov": {
+      "name": "turkinkyyhky",
+      "aliases": []
+    },
+    "bktgod": {
+      "name": "mustapyrstökuiri",
+      "aliases": []
+    },
+    "banswa": {
+      "name": "törmäpääsky",
+      "aliases": []
+    },
+    "eueowl1": {
+      "name": "huuhkaja",
+      "aliases": []
+    },
+    "pllwar1": {
+      "name": "ussurinuunilintu",
+      "aliases": []
+    },
+    "orwpar": {
+      "name": "kultaposkiamatsoni",
+      "aliases": []
+    },
+    "mulpar1": {
+      "name": "mulgaparatiisikaija",
+      "aliases": []
+    },
+    "grhowl": {
+      "name": "amerikanhuuhkaja",
+      "aliases": []
+    },
+    "norbob": {
+      "name": "peltoviiriäinen",
+      "aliases": []
+    },
+    "fieldf": {
+      "name": "räkättirastas",
+      "aliases": []
+    },
+    "grnwar1": {
+      "name": "kaukasianuunilintu",
+      "aliases": []
+    },
+    "comqua1": {
+      "name": "viiriäinen",
+      "aliases": []
+    },
+    "corcra": {
+      "name": "ruisrääkkä",
+      "aliases": []
+    },
+    "rusbun": {
+      "name": "pohjansirkku",
+      "aliases": []
+    },
+    "eurtre1": {
+      "name": "puukiipijä",
+      "aliases": []
+    },
+    "woothr": {
+      "name": "täplärastas",
+      "aliases": []
+    },
+    "tawowl1": {
+      "name": "lehtopöllö",
+      "aliases": []
+    },
+    "woowar": {
+      "name": "sirittäjä",
+      "aliases": []
+    },
+    "loeowl": {
+      "name": "sarvipöllö",
+      "aliases": []
+    },
+    "olbpip": {
+      "name": "taigakirvinen",
+      "aliases": []
+    },
+    "waldra1": {
+      "name": "töyhtöiibis",
+      "aliases": []
+    },
+    "taibeg1": {
+      "name": "taigametsähanhi",
+      "aliases": []
+    },
+    "eurwoo": {
+      "name": "lehtokurppa",
+      "aliases": []
+    },
+    "grnsan": {
+      "name": "metsäviklo",
+      "aliases": []
+    },
+    "amerob": {
+      "name": "punarintarastas",
+      "aliases": []
+    },
+    "perfal": {
+      "name": "muuttohaukka",
+      "aliases": []
+    },
+    "arcwar1": {
+      "name": "lapinuunilintu",
+      "aliases": []
+    },
+    "wawduc1": {
+      "name": "suomuviheltäjäsorsa",
+      "aliases": []
+    },
+    "whtdip1": {
+      "name": "koskikara",
+      "aliases": []
+    },
+    "watrai1": {
+      "name": "luhtakana",
+      "aliases": []
+    },
+    "soppet1": {
+      "name": "vyöviistäjä",
+      "aliases": []
+    },
+    "yebbun": {
+      "name": "kultasirkku",
+      "aliases": []
+    },
+    "comyel": {
+      "name": "naamiokerttuli",
+      "aliases": []
+    },
+    "wiltit1": {
+      "name": "hömötiainen",
+      "aliases": []
+    },
+    "veery": {
+      "name": "viitarastas",
+      "aliases": []
+    },
+    "spaspa1": {
+      "name": "pensasvarpunen",
+      "aliases": []
+    },
+    "whiter2": {
+      "name": "valkoposkitiira",
+      "aliases": []
+    },
+    "easpho": {
+      "name": "harmaafiivi",
+      "aliases": []
+    },
+    "brnboo": {
+      "name": "ruskosuula",
+      "aliases": []
+    },
+    "eyethr": {
+      "name": "harmaakurkkurastas",
+      "aliases": []
+    },
+    "whhpig1": {
+      "name": "pulmuskyyhky",
+      "aliases": []
+    },
+    "whrsan": {
+      "name": "valkoperäsirri",
+      "aliases": []
+    },
+    "whrsha": {
+      "name": "huiluharakkatasku",
+      "aliases": []
+    },
+    "whrswi1": {
+      "name": "häätökiitäjä",
+      "aliases": []
+    },
+    "whwter": {
+      "name": "valkosiipitiira",
+      "aliases": []
+    },
+    "desfin2": {
+      "name": "peltotulkku",
+      "aliases": []
+    },
+    "yebgro1": {
+      "name": "kiinannokkavarpunen",
+      "aliases": []
+    },
+    "whtspa": {
+      "name": "valkokurkkusirkku",
+      "aliases": []
+    },
+    "whtrob3": {
+      "name": "kivikkosatakieli",
+      "aliases": []
+    },
+    "whhduc1": {
+      "name": "valkopääsorsa",
+      "aliases": []
+    },
+    "baleag": {
+      "name": "valkopäämerikotka",
+      "aliases": []
+    },
+    "whhmun1": {
+      "name": "valkohuppumanikki",
+      "aliases": []
+    },
+    "whncra1": {
+      "name": "silmälasikurki",
+      "aliases": []
+    },
+    "whebul1": {
+      "name": "valkoposkibulbuli",
+      "aliases": []
+    },
+    "whctur1": {
+      "name": "valkoposkiturako",
+      "aliases": []
+    },
+    "whbvul1": {
+      "name": "savannikorppikotka",
+      "aliases": []
+    },
+    "whbwoo1": {
+      "name": "valkoselkätikka",
+      "aliases": []
+    },
+    "whcred1": {
+      "name": "virtaleppälintu",
+      "aliases": []
+    },
+    "whtlap1": {
+      "name": "suohyyppä",
+      "aliases": []
+    },
+    "whcpar": {
+      "name": "meksikonaratti",
+      "aliases": []
+    },
+    "whisto1": {
+      "name": "kattohaikara",
+      "aliases": []
+    },
+    "bargoo": {
+      "name": "valkoposkihanhi",
+      "aliases": []
+    },
+    "comwax": {
+      "name": "vahanokka",
+      "aliases": []
+    },
+    "lcspet": {
+      "name": "myrskykeiju",
+      "aliases": []
+    },
+    "budger": {
+      "name": "undulaatti",
+      "aliases": []
+    },
+    "eurwry": {
+      "name": "käenpiika",
+      "aliases": []
+    },
+    "casplo1": {
+      "name": "kaspiantylli",
+      "aliases": []
+    },
+    "euhbuz1": {
+      "name": "mehiläishaukka",
+      "aliases": []
+    },
+    "hoopoe": {
+      "name": "harjalintu",
+      "aliases": []
+    },
+    "meabun1": {
+      "name": "niittysirkku",
+      "aliases": []
+    },
+    "meapip1": {
+      "name": "niittykirvinen",
+      "aliases": []
+    },
+    "leasan": {
+      "name": "amerikansirri",
+      "aliases": []
+    },
+    "monhar1": {
+      "name": "niittysuohaukka",
+      "aliases": []
+    },
+    "wilsni1": {
+      "name": "amerikantaivaanvuohi",
+      "aliases": []
+    },
+    "wilpha": {
+      "name": "amerikanvesipääsky",
+      "aliases": []
+    },
+    "daejun": {
+      "name": "tummajunkko",
+      "aliases": []
+    },
+    "goldcr1": {
+      "name": "hippiäinen",
+      "aliases": []
+    },
+    "wfwduc1": {
+      "name": "naamioviheltäjäsorsa",
+      "aliases": []
+    },
+    "sakfal1": {
+      "name": "aavikkohaukka",
+      "aliases": []
+    },
+    "hrshaw": {
+      "name": "ritarihaukka",
+      "aliases": []
+    },
+    "trufin2": {
+      "name": "aavikkotulkku",
+      "aliases": []
+    },
+    "asdwar1": {
+      "name": "kääpiökerttu",
+      "aliases": []
+    },
+    "grsplo": {
+      "name": "aavikkotylli",
+      "aliases": []
+    },
+    "deswhe1": {
+      "name": "aavikkotasku",
+      "aliases": []
+    },
+    "cirbun1": {
+      "name": "pensassirkku",
+      "aliases": []
+    },
+    "winwre4": {
+      "name": "peukaloinen",
+      "aliases": []
+    },
+    "zebfin2": {
+      "name": "seeprapeippo",
+      "aliases": []
+    },
+    "cedwax": {
+      "name": "amerikantilhi",
+      "aliases": []
+    },
+    "refpar4": {
+      "name": "uudenseelanninviherkaija",
+      "aliases": []
+    },
+    "comchi1": {
+      "name": "tiltaltti",
+      "aliases": []
+    },
+    "cintea": {
+      "name": "punatavi",
+      "aliases": []
+    },
+    "rocbun1": {
+      "name": "vuorisirkku",
+      "aliases": []
+    },
+    "zitcis1": {
+      "name": "heinäkerttu",
+      "aliases": []
+    },
+    "citwag": {
+      "name": "sitruunavästäräkki",
+      "aliases": []
+    },
+    "citfin1": {
+      "name": "sitruunahemppo",
+      "aliases": []
+    },
+    "booeag1": {
+      "name": "pikkukotka",
+      "aliases": []
+    },
+    "litbun": {
+      "name": "pikkusirkku",
+      "aliases": []
+    },
+    "resmac2": {
+      "name": "pikkuara",
+      "aliases": []
+    },
+    "litcur": {
+      "name": "taigakuovi",
+      "aliases": []
+    },
+    "litbit1": {
+      "name": "pikkuhaikara",
+      "aliases": []
+    },
+    "lesfla1": {
+      "name": "pikkuflamingo",
+      "aliases": []
+    },
+    "lwfgoo": {
+      "name": "kiljuhanhi",
+      "aliases": []
+    },
+    "cacgoo1": {
+      "name": "pikkukanadanhanhi",
+      "aliases": []
+    },
+    "swathr": {
+      "name": "korpirastas",
+      "aliases": []
+    },
+    "litgul": {
+      "name": "pikkulokki",
+      "aliases": []
+    },
+    "eursco1": {
+      "name": "kyläpöllönen",
+      "aliases": []
+    },
+    "pygcor2": {
+      "name": "pikkumerimetso",
+      "aliases": []
+    },
+    "rosgoo": {
+      "name": "eskimohanhi",
+      "aliases": []
+    },
+    "jacsni": {
+      "name": "jänkäkurppa",
+      "aliases": []
+    },
+    "rebfly": {
+      "name": "pikkusieppo",
+      "aliases": []
+    },
+    "tunswa": {
+      "name": "pikkujoutsen",
+      "aliases": []
+    },
+    "litter1": {
+      "name": "pikkutiira",
+      "aliases": []
+    },
+    "litsti": {
+      "name": "pikkusirri",
+      "aliases": []
+    },
+    "purgal2": {
+      "name": "siniliejukana",
+      "aliases": []
+    },
+    "baicra1": {
+      "name": "kääpiöhuitti",
+      "aliases": []
+    },
+    "smew": {
+      "name": "uivelo",
+      "aliases": []
+    },
+    "litgre1": {
+      "name": "pikku-uikku",
+      "aliases": []
+    },
+    "litbus1": {
+      "name": "pikkutrappi",
+      "aliases": []
+    },
+    "briter1": {
+      "name": "ohjasnokitiira",
+      "aliases": []
+    },
+    "grepea1": {
+      "name": "viherriikinkukko",
+      "aliases": []
+    }
+  }
+}
