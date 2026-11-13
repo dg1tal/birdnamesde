@@ -38,3 +38,30 @@ actions and adaptive picture sizing remain in use.
 
 These checks use browser viewport overrides, not physical iOS/Android devices;
 actual software keyboards and screenreader speech were not verified anew.
+
+
+## Answer-card follow-up
+
+The answer area now separates the accepted answer from a consistent reference
+block for German alternatives, the scientific name and entry codes. When German
+is either the question or answer language, accepted German alternatives are
+visible without opening a disclosure, including introductions and revealed
+flashcards. For example, Ringeltaube also shows Waldtaube in both directions.
+Historical and ambiguous names retain their qualifications in the source notes.
+
+The lower reference area no longer has an outer More information disclosure.
+Name meaning, German names with sources, and the learning context are sibling
+sections with consistent left alignment and disclosure controls. Genus and epithet
+use compact rows on desktop and stack on phones. Source explanations and their
+links are grouped under the name they document. The eBird link has a separate
+footer row. Picture attribution and licensing remain attached to the picture.
+
+Verification exercised Ringeltaube in DE → EN text practice and EN → DE
+think-first practice, including the introductions, completed feedback, visible
+Waldtaube alias and opened origin/source sections. The updated answer renderer
+checks also cover Kleiber/Spechtmeise, code learning, historical-name separation,
+accepted alternative answers, flat disclosure structure and DE/EN labels.
+Browser checks covered 320px and 390px phone layouts and desktop, light and dark
+themes, with no horizontal document overflow in the reviewed states. Physical
+mobile keyboards and screenreader speech were not retested. All Node suites,
+47 Python tests, syntax, data reproducibility and image checks passed.

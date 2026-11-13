@@ -1,3 +1,4 @@
+import {validateScientificNames,renderScientificName} from '../dist/scientific-names.js';
 import {scientificNameAliases} from '../dist/scientific-name-aliases.js';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -66,7 +67,7 @@ for(const bird of birds){
   const reference=markupContext.studyDetailsMarkup(bird,target,'de');
   const details=markupContext.studyMoreMarkup(bird,target,'de');
   assert(details.includes('species-codes'));assert(!reference.includes('species-codes'));
-  assert(details.startsWith('<details'));if(target!=='sci')assert(reference.includes('reference-name'));
+  assert(details.startsWith('<div class="study-notes"'));if(target!=='sci')assert(reference.includes('reference-name'));
   const visible=markupContext.studyDetailsMarkup(bird,target,'de',true);
   const folded=markupContext.studyMoreMarkup(bird,target,'de',false);
   assert(visible.includes('study-reference-codes'));assert(!folded.includes('species-codes'));
@@ -95,7 +96,7 @@ const editorial={...blackbird,germanNames:[{name:'Old name',status:'historical'}
 const accepted=markupContext.nameAnswerMarkup(editorial,'de');
 assert(!accepted.includes('Old name'));assert(!accepted.includes('Ambiguous'));
 const details=markupContext.studyMoreMarkup(editorial,'de','de');
-assert.match(details,/Historische deutsche Namen.*Old name/s);assert.match(details,/Ambiguous.*mehrdeutig/s);
+assert.match(details,/Old name.*Historischer deutscher Name/s);assert.match(details,/Ambiguous.*mehrdeutig/s);
 const dual={...blackbird,id:'dual',codes:['TEST'],scientificCodes:['TEST'],scientificCodeName:'<script>',bandingCode:'TEST'};
 const dualCodes=markupContext.codeGroups(dual);
 assert.equal(dualCodes.replace(/<details class="code-collisions">[\s\S]*?<\/details>/g,'').split('<span data-name-content>TEST</span>').length-1,1);
@@ -145,3 +146,38 @@ assert(markupContext.knownCodeMarkup('TUME').includes('code-scientific'));
 assert(markupContext.knownCodeMarkup('EUBB').includes('code-banding'));
 assert(markupContext.knownCodeMarkup('COBL').includes('code-common'));
 console.log('PASS: per-species collision origins, all three colours for ambiguous context-free codes, safe unknown answers and no species hints in code choices.');
+
+// German alternatives belong in the visible learning area in either direction.
+markupContext.renderScientificName=renderScientificName;
+markupContext.nameOrigins=validateScientificNames(JSON.parse(readFileSync('dist/scientific-names.json')),birds);
+const woodpigeon=birds.find(b=>b.de==='Ringeltaube');
+const nuthatch=birds.find(b=>b.de==='Kleiber');
+for(const english of [false,true]){
+ markupContext.english=english;
+ for(const [bird,alias]of [[woodpigeon,'Waldtaube'],[nuthatch,'Spechtmeise']]){
+  const source=markupContext.studyDetailsMarkup(bird,'en','de',true);
+  const target=markupContext.nameAnswerMarkup(bird,'de');
+  assert(source.includes(alias));assert(target.includes(alias));
+  assert(answerSpecies(birds,'de',alias,'en').includes(bird));
+  assert(markupContext.studyDetailsMarkup(bird,'code','de',true).includes(alias));
+  assert(!source.slice(0,source.indexOf('reference-name')).includes('<details'));
+  assert(!target.includes('<details'));
+  assert(!markupContext.studyDetailsMarkup(bird,'en','nl',true).includes(alias));
+ }
+ const owl=birds.find(b=>b.de==='Uhu');
+ assert(!markupContext.studyDetailsMarkup(owl,'en','de',true).includes('Schuhu'));
+ assert(!markupContext.nameAnswerMarkup(owl,'de').includes('Schuhu'));
+ const notes=markupContext.studyMoreMarkup(owl,'de','en',false);
+ assert(notes.includes('Schuhu'));assert(notes.includes(english?'Historical German name':'Historischer deutscher Name'));
+ const notesWithContext=markupContext.studyMoreMarkup(woodpigeon,'en','de',false,'<details class="question-explanation"><summary>Learning context</summary></details>');
+ assert(!notesWithContext.includes('study-additional'));
+ assert(notesWithContext.includes('study-name-notes'));
+ assert(notesWithContext.includes('question-explanation'));
+ // No disclosure may contain another disclosure in the species notes.
+ let depth=0;
+ for(const tag of notesWithContext.matchAll(/<\/?details\b[^>]*>/g)){
+  depth+=tag[0].startsWith('</')?-1:1;assert(depth>=0&&depth<=1);
+ }
+ assert.equal(depth,0);
+}
+console.log('PASS: German alternatives visible in both learning directions, historical names labelled separately, and flat species/context disclosures.');
