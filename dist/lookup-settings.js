@@ -1,4 +1,4 @@
-import {NAME_LANGUAGES,isNameLanguage,primaryName} from './name-languages.js?v=20261112-finnish1';
+import {NAME_LANGUAGES,isNameLanguage,primaryName} from './name-languages.js?v=20261113-french1';
 
 export const LOOKUP_PAGE_SIZE=60;
 export function lookupSettings(saved,learningRegion='DE',english=false,countries=['DE','NL','GB']){
