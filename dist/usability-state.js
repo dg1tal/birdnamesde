@@ -1,4 +1,4 @@
-import {isNameLanguage} from './name-languages.js?v=20261112-finnish1';
+import {isNameLanguage} from './name-languages.js?v=20261113-french1';
 import {family} from './learning-model.js?v=20261105-recovery1';
 
 export function statsContext(value,learn){

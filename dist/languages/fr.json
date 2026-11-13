@@ -1,0 +1,3773 @@
+{
+  "version": 1,
+  "language": "fr",
+  "meta": {
+    "source": "eBird_Taxonomy_v2025_5-tab_30Oct2025.xlsx",
+    "sourceUrl": "https://support.ebird.org/en/support/solutions/articles/48000804865-bird-names-in-ebird",
+    "column": "French",
+    "taxonomy": "eBird/Clements v2025",
+    "speciesCount": 940
+  },
+  "species": {
+    "abdsto1": {
+      "name": "Cigogne d'Abdim",
+      "aliases": []
+    },
+    "lolbuz1": {
+      "name": "Buse féroce",
+      "aliases": []
+    },
+    "macduc1": {
+      "name": "Érismature maccoa",
+      "aliases": []
+    },
+    "afrhae1": {
+      "name": "Aigle fascié",
+      "aliases": []
+    },
+    "alepar2": {
+      "name": "Perruche alexandre",
+      "aliases": []
+    },
+    "alpacc1": {
+      "name": "Accenteur alpin",
+      "aliases": []
+    },
+    "yebcho1": {
+      "name": "Chocard à bec jaune",
+      "aliases": []
+    },
+    "rebcho1": {
+      "name": "Crave à bec rouge",
+      "aliases": []
+    },
+    "rocpta1": {
+      "name": "Lagopède alpin",
+      "aliases": []
+    },
+    "alpswi1": {
+      "name": "Martinet à ventre blanc",
+      "aliases": []
+    },
+    "dunlin": {
+      "name": "Bécasseau variable",
+      "aliases": []
+    },
+    "amepip": {
+      "name": "Pipit d'Amérique",
+      "aliases": []
+    },
+    "eurbla": {
+      "name": "Merle noir",
+      "aliases": []
+    },
+    "amufal1": {
+      "name": "Faucon de l'Amour",
+      "aliases": []
+    },
+    "grekno": {
+      "name": "Bécasseau de l'Anadyr",
+      "aliases": []
+    },
+    "andgoo1": {
+      "name": "Ouette des Andes",
+      "aliases": []
+    },
+    "leater1": {
+      "name": "Petite Sterne",
+      "aliases": []
+    },
+    "manshe": {
+      "name": "Puffin des Anglais",
+      "aliases": []
+    },
+    "norwhe3": {
+      "name": "Traquet de Seebohm",
+      "aliases": []
+    },
+    "wescap1": {
+      "name": "Grand Tétras",
+      "aliases": []
+    },
+    "pabduc1": {
+      "name": "Canard à sourcils",
+      "aliases": []
+    },
+    "euroys1": {
+      "name": "Huîtrier pie",
+      "aliases": []
+    },
+    "laugul": {
+      "name": "Mouette atricille",
+      "aliases": []
+    },
+    "chpher1": {
+      "name": "Crabier de Chine",
+      "aliases": []
+    },
+    "whiwag": {
+      "name": "Bergeronnette grise",
+      "aliases": []
+    },
+    "baepoc1": {
+      "name": "Fuligule de Baer",
+      "aliases": []
+    },
+    "whcpin": {
+      "name": "Canard des Bahamas",
+      "aliases": []
+    },
+    "baisan": {
+      "name": "Bécasseau de Baird",
+      "aliases": []
+    },
+    "balshe1": {
+      "name": "Puffin des Baléares",
+      "aliases": []
+    },
+    "easwar1": {
+      "name": "Fauvette des Balkans",
+      "aliases": []
+    },
+    "eabwar1": {
+      "name": "Pouillot oriental",
+      "aliases": []
+    },
+    "bkewhe2": {
+      "name": "Traquet noir et blanc",
+      "aliases": []
+    },
+    "balori": {
+      "name": "Oriole de Baltimore",
+      "aliases": []
+    },
+    "chebun2": {
+      "name": "Bruant à oreillons",
+      "aliases": []
+    },
+    "redjun": {
+      "name": "Coq bankiva",
+      "aliases": []
+    },
+    "litshe1": {
+      "name": "Puffin de Macaronésie",
+      "aliases": []
+    },
+    "lammer1": {
+      "name": "Gypaète barbu",
+      "aliases": []
+    },
+    "radwar1": {
+      "name": "Pouillot de Schwarz",
+      "aliases": []
+    },
+    "bearee1": {
+      "name": "Panure à moustaches",
+      "aliases": []
+    },
+    "rebpar4": {
+      "name": "Perruche à moustaches",
+      "aliases": []
+    },
+    "chibab2": {
+      "name": "Babaxe lancéolé",
+      "aliases": []
+    },
+    "norgan": {
+      "name": "Fou de Bassan",
+      "aliases": []
+    },
+    "eurhob": {
+      "name": "Faucon hobereau",
+      "aliases": []
+    },
+    "trepip": {
+      "name": "Pipit des arbres",
+      "aliases": []
+    },
+    "comsni": {
+      "name": "Bécassine des marais",
+      "aliases": []
+    },
+    "roeowl1": {
+      "name": "Grand-duc indien",
+      "aliases": []
+    },
+    "hilmyn": {
+      "name": "Mainate religieux",
+      "aliases": []
+    },
+    "sibacc": {
+      "name": "Accenteur montanelle",
+      "aliases": []
+    },
+    "gresca": {
+      "name": "Fuligule milouinan",
+      "aliases": []
+    },
+    "brambl": {
+      "name": "Pinson du Nord",
+      "aliases": []
+    },
+    "twite1": {
+      "name": "Linotte à bec jaune",
+      "aliases": []
+    },
+    "bimlar1": {
+      "name": "Alouette monticole",
+      "aliases": []
+    },
+    "webwar1": {
+      "name": "Pouillot de Bonelli",
+      "aliases": []
+    },
+    "watpip1": {
+      "name": "Pipit spioncelle",
+      "aliases": []
+    },
+    "wessan": {
+      "name": "Bécasseau d'Alaska",
+      "aliases": []
+    },
+    "glwgul": {
+      "name": "Goéland à ailes grises",
+      "aliases": []
+    },
+    "bertea1": {
+      "name": "Sarcelle de Bernier",
+      "aliases": []
+    },
+    "euptit1": {
+      "name": "Rémiz penduline",
+      "aliases": []
+    },
+    "eubeat1": {
+      "name": "Guêpier d'Europe",
+      "aliases": []
+    },
+    "whwcro": {
+      "name": "Bec-croisé bifascié",
+      "aliases": []
+    },
+    "lakduc1": {
+      "name": "Érismature ornée",
+      "aliases": []
+    },
+    "stisan": {
+      "name": "Bécasseau à échasses",
+      "aliases": []
+    },
+    "pibgre": {
+      "name": "Grèbe à bec bigarré",
+      "aliases": []
+    },
+    "yebfly": {
+      "name": "Moucherolle à ventre jaune",
+      "aliases": []
+    },
+    "redpol1": {
+      "name": "Sizerin flammé",
+      "aliases": []
+    },
+    "blagro1": {
+      "name": "Tétras lyre",
+      "aliases": []
+    },
+    "pahros1": {
+      "name": "Perruche à tête pâle",
+      "aliases": []
+    },
+    "eaowar1": {
+      "name": "Hypolaïs pâle",
+      "aliases": []
+    },
+    "buwtea": {
+      "name": "Sarcelle à ailes bleues",
+      "aliases": []
+    },
+    "buwgoo1": {
+      "name": "Cyanoie à ailes bleues",
+      "aliases": []
+    },
+    "blujay": {
+      "name": "Geai bleu",
+      "aliases": []
+    },
+    "blueth": {
+      "name": "Gorgebleue à miroir",
+      "aliases": []
+    },
+    "blutit": {
+      "name": "Mésange bleue",
+      "aliases": []
+    },
+    "burthr": {
+      "name": "Monticole bleu",
+      "aliases": []
+    },
+    "sibrob": {
+      "name": "Rossignol bleu",
+      "aliases": []
+    },
+    "blfhon1": {
+      "name": "Méliphage à oreillons bleus",
+      "aliases": []
+    },
+    "eurrol1": {
+      "name": "Rollier d'Europe",
+      "aliases": []
+    },
+    "paipar6": {
+      "name": "Conure d'Emma",
+      "aliases": []
+    },
+    "refblu1": {
+      "name": "Robin à flancs roux",
+      "aliases": []
+    },
+    "bufpar": {
+      "name": "Amazone à front bleu",
+      "aliases": []
+    },
+    "bcbeat1": {
+      "name": "Guêpier de Perse",
+      "aliases": []
+    },
+    "eurlin1": {
+      "name": "Linotte mélodieuse",
+      "aliases": []
+    },
+    "rebque1": {
+      "name": "Travailleur à bec rouge",
+      "aliases": []
+    },
+    "syrwoo1": {
+      "name": "Pic syriaque",
+      "aliases": []
+    },
+    "gwfgoo": {
+      "name": "Oie rieuse",
+      "aliases": []
+    },
+    "eurcoo": {
+      "name": "Foulque macroule",
+      "aliases": []
+    },
+    "bongul": {
+      "name": "Mouette de Bonaparte",
+      "aliases": []
+    },
+    "souboo8": {
+      "name": "Ninoxe d'Australie",
+      "aliases": []
+    },
+    "tawpip1": {
+      "name": "Pipit rousseline",
+      "aliases": []
+    },
+    "eurcur": {
+      "name": "Courlis cendré",
+      "aliases": []
+    },
+    "comshe": {
+      "name": "Tadorne de Belon",
+      "aliases": []
+    },
+    "santer1": {
+      "name": "Sterne caugek",
+      "aliases": []
+    },
+    "tenwar": {
+      "name": "Paruline obscure",
+      "aliases": []
+    },
+    "chbmun1": {
+      "name": "Capucin donacole",
+      "aliases": []
+    },
+    "brephe1": {
+      "name": "Hokki brun",
+      "aliases": []
+    },
+    "babwar": {
+      "name": "Paruline à poitrine baie",
+      "aliases": []
+    },
+    "whinch1": {
+      "name": "Tarier des prés",
+      "aliases": []
+    },
+    "bnhcow": {
+      "name": "Vacher à tête brune",
+      "aliases": []
+    },
+    "vitpar1": {
+      "name": "Paradoxornis de Webb",
+      "aliases": []
+    },
+    "rehbun1": {
+      "name": "Bruant à tête rousse",
+      "aliases": []
+    },
+    "yebtea1": {
+      "name": "Sarcelle tachetée",
+      "aliases": []
+    },
+    "sugspa1": {
+      "name": "Moineau doré",
+      "aliases": []
+    },
+    "asbfly": {
+      "name": "Gobemouche brun",
+      "aliases": []
+    },
+    "brnshr": {
+      "name": "Pie-grièche brune",
+      "aliases": []
+    },
+    "wooduc": {
+      "name": "Canard branchu",
+      "aliases": []
+    },
+    "sursco": {
+      "name": "Macreuse à front blanc",
+      "aliases": []
+    },
+    "spewar2": {
+      "name": "Fauvette à lunettes",
+      "aliases": []
+    },
+    "yehbla": {
+      "name": "Carouge à tête jaune",
+      "aliases": []
+    },
+    "woosan": {
+      "name": "Chevalier sylvain",
+      "aliases": []
+    },
+    "acafly": {
+      "name": "Moucherolle vert",
+      "aliases": []
+    },
+    "comcha": {
+      "name": "Pinson des arbres",
+      "aliases": []
+    },
+    "amekes": {
+      "name": "Crécerelle d'Amérique",
+      "aliases": []
+    },
+    "rinphe2": {
+      "name": "Faisan versicolore",
+      "aliases": []
+    },
+    "wispet": {
+      "name": "Océanite de Wilson",
+      "aliases": []
+    },
+    "grswoo": {
+      "name": "Pic épeiche",
+      "aliases": []
+    },
+    "blrwar1": {
+      "name": "Rousserolle des buissons",
+      "aliases": []
+    },
+    "boowar1": {
+      "name": "Hypolaïs bottée",
+      "aliases": []
+    },
+    "buffle": {
+      "name": "Petit Garrot",
+      "aliases": []
+    },
+    "sora": {
+      "name": "Marouette de Caroline",
+      "aliases": []
+    },
+    "moudov": {
+      "name": "Tourterelle triste",
+      "aliases": []
+    },
+    "chifla1": {
+      "name": "Flamant du Chili",
+      "aliases": []
+    },
+    "chiwig1": {
+      "name": "Canard de Chiloé",
+      "aliases": []
+    },
+    "spbduc": {
+      "name": "Canard de Chine",
+      "aliases": []
+    },
+    "derpar1": {
+      "name": "Perruche de Derby",
+      "aliases": []
+    },
+    "chukar": {
+      "name": "Perdrix choukar",
+      "aliases": []
+    },
+    "corshe1": {
+      "name": "Puffin cendré",
+      "aliases": []
+    },
+    "cosswa1": {
+      "name": "Coscoroba blanc",
+      "aliases": []
+    },
+    "whcspa": {
+      "name": "Bruant à couronne blanche",
+      "aliases": []
+    },
+    "orhthr1": {
+      "name": "Grive à tête orange",
+      "aliases": []
+    },
+    "feapet2": {
+      "name": "Pétrel des Desertas",
+      "aliases": []
+    },
+    "moured1": {
+      "name": "Rougequeue de Moussier",
+      "aliases": []
+    },
+    "laaphe1": {
+      "name": "Faisan de Lady Amherst",
+      "aliases": []
+    },
+    "diadov1": {
+      "name": "Géopélie diamant",
+      "aliases": []
+    },
+    "thbmur": {
+      "name": "Guillemot de Brünnich",
+      "aliases": []
+    },
+    "thbwar1": {
+      "name": "Rousserolle à gros bec",
+      "aliases": []
+    },
+    "eurjac": {
+      "name": "Choucas des tours",
+      "aliases": []
+    },
+    "kelgul": {
+      "name": "Goéland dominicain",
+      "aliases": []
+    },
+    "pitwhy": {
+      "name": "Veuve dominicaine",
+      "aliases": []
+    },
+    "gresni1": {
+      "name": "Bécassine double",
+      "aliases": []
+    },
+    "vilwea1": {
+      "name": "Tisserin gendarme",
+      "aliases": []
+    },
+    "grewhi1": {
+      "name": "Fauvette grisette",
+      "aliases": []
+    },
+    "upcwar1": {
+      "name": "Hypolaïs d'Upcher",
+      "aliases": []
+    },
+    "bklkit": {
+      "name": "Mouette tridactyle",
+      "aliases": []
+    },
+    "ettwoo1": {
+      "name": "Pic tridactyle",
+      "aliases": []
+    },
+    "grrwar1": {
+      "name": "Rousserolle turdoïde",
+      "aliases": []
+    },
+    "sposan": {
+      "name": "Chevalier grivelé",
+      "aliases": []
+    },
+    "norwat": {
+      "name": "Paruline des ruisseaux",
+      "aliases": []
+    },
+    "ambduc": {
+      "name": "Canard noir",
+      "aliases": []
+    },
+    "duswar": {
+      "name": "Pouillot brun",
+      "aliases": []
+    },
+    "sooshe": {
+      "name": "Puffin fuligineux",
+      "aliases": []
+    },
+    "spored": {
+      "name": "Chevalier arlequin",
+      "aliases": []
+    },
+    "slbgul1": {
+      "name": "Goéland railleur",
+      "aliases": []
+    },
+    "eclpar4": {
+      "name": "Éclectus papou",
+      "aliases": []
+    },
+    "edwphe1": {
+      "name": "Faisan d'Edwards",
+      "aliases": []
+    },
+    "eurjay1": {
+      "name": "Geai des chênes",
+      "aliases": []
+    },
+    "comeid": {
+      "name": "Eider à duvet",
+      "aliases": []
+    },
+    "solsan": {
+      "name": "Chevalier solitaire",
+      "aliases": []
+    },
+    "herthr": {
+      "name": "Grive solitaire",
+      "aliases": []
+    },
+    "lotduc": {
+      "name": "Harelde kakawi",
+      "aliases": []
+    },
+    "glagul": {
+      "name": "Goéland bourgmestre",
+      "aliases": []
+    },
+    "norful": {
+      "name": "Fulmar boréal",
+      "aliases": []
+    },
+    "comloo": {
+      "name": "Plongeon huard",
+      "aliases": []
+    },
+    "comkin1": {
+      "name": "Martin-pêcheur d'Europe",
+      "aliases": []
+    },
+    "elefal1": {
+      "name": "Faucon d'Éléonore",
+      "aliases": []
+    },
+    "ivogul": {
+      "name": "Mouette blanche",
+      "aliases": []
+    },
+    "elllau1": {
+      "name": "Garrulaxe d'Elliot",
+      "aliases": []
+    },
+    "eurmag1": {
+      "name": "Pie bavarde",
+      "aliases": []
+    },
+    "daujac1": {
+      "name": "Choucas de Daourie",
+      "aliases": []
+    },
+    "aspsta2": {
+      "name": "Étourneau pie",
+      "aliases": []
+    },
+    "emu1": {
+      "name": "Émeu d'Australie",
+      "aliases": []
+    },
+    "scathr2": {
+      "name": "Grive dorée",
+      "aliases": []
+    },
+    "aldfly": {
+      "name": "Moucherolle des aulnes",
+      "aliases": []
+    },
+    "eursis": {
+      "name": "Tarin des aulnes",
+      "aliases": []
+    },
+    "eskcur": {
+      "name": "Courlis esquimau",
+      "aliases": []
+    },
+    "semplo": {
+      "name": "Pluvier semipalmé",
+      "aliases": []
+    },
+    "palthr1": {
+      "name": "Merle pâle",
+      "aliases": []
+    },
+    "captea1": {
+      "name": "Canard du Cap",
+      "aliases": []
+    },
+    "palswi3": {
+      "name": "Martinet pâle",
+      "aliases": []
+    },
+    "cliswa": {
+      "name": "Hirondelle à front blanc",
+      "aliases": []
+    },
+    "comnig": {
+      "name": "Engoulevent d'Amérique",
+      "aliases": []
+    },
+    "lotjae": {
+      "name": "Labbe à longue queue",
+      "aliases": []
+    },
+    "skylar": {
+      "name": "Alouette des champs",
+      "aliases": []
+    },
+    "padwar1": {
+      "name": "Rousserolle isabelle",
+      "aliases": []
+    },
+    "cogwar1": {
+      "name": "Locustelle tachetée",
+      "aliases": []
+    },
+    "eutspa": {
+      "name": "Moineau friquet",
+      "aliases": []
+    },
+    "barpar2": {
+      "name": "Perdrix gambra",
+      "aliases": []
+    },
+    "eurcrm1": {
+      "name": "Hirondelle de rochers",
+      "aliases": []
+    },
+    "burpar": {
+      "name": "Conure de Patagonie",
+      "aliases": []
+    },
+    "rocpig": {
+      "name": "Pigeon biset",
+      "aliases": []
+    },
+    "orabis1": {
+      "name": "Euplecte franciscain",
+      "aliases": []
+    },
+    "pinbun": {
+      "name": "Bruant à calotte blanche",
+      "aliases": []
+    },
+    "redcro": {
+      "name": "Bec-croisé des sapins",
+      "aliases": []
+    },
+    "bkbwar": {
+      "name": "Paruline à gorge orangée",
+      "aliases": []
+    },
+    "osprey": {
+      "name": "Balbuzard pêcheur",
+      "aliases": []
+    },
+    "fistur1": {
+      "name": "Touraco de Fischer",
+      "aliases": []
+    },
+    "gbhgul2": {
+      "name": "Goéland ichthyaète",
+      "aliases": []
+    },
+    "wlwwar": {
+      "name": "Pouillot fitis",
+      "aliases": []
+    },
+    "blwbis1": {
+      "name": "Euplecte monseigneur",
+      "aliases": []
+    },
+    "spotow": {
+      "name": "Tohi tacheté",
+      "aliases": []
+    },
+    "spoeao2": {
+      "name": "Grand-duc africain",
+      "aliases": []
+    },
+    "lirplo": {
+      "name": "Pluvier petit-gravelot",
+      "aliases": []
+    },
+    "comter": {
+      "name": "Sterne pierregarin",
+      "aliases": []
+    },
+    "comsan": {
+      "name": "Chevalier guignette",
+      "aliases": []
+    },
+    "forter": {
+      "name": "Sterne de Forster",
+      "aliases": []
+    },
+    "redsho1": {
+      "name": "Canard spatule",
+      "aliases": []
+    },
+    "librol2": {
+      "name": "Rollier à longs brins",
+      "aliases": []
+    },
+    "indwhe1": {
+      "name": "Zostérops oriental",
+      "aliases": []
+    },
+    "shttre1": {
+      "name": "Grimpereau des jardins",
+      "aliases": []
+    },
+    "garwar1": {
+      "name": "Fauvette des jardins",
+      "aliases": []
+    },
+    "comred2": {
+      "name": "Rougequeue à front blanc",
+      "aliases": []
+    },
+    "normoc": {
+      "name": "Moqueur polyglotte",
+      "aliases": []
+    },
+    "grywag": {
+      "name": "Bergeronnette des ruisseaux",
+      "aliases": []
+    },
+    "yebsap": {
+      "name": "Pic maculé",
+      "aliases": []
+    },
+    "yebwar3": {
+      "name": "Pouillot à grands sourcils",
+      "aliases": []
+    },
+    "yebbun1": {
+      "name": "Bruant à sourcils jaunes",
+      "aliases": []
+    },
+    "fuwduc": {
+      "name": "Dendrocygne fauve",
+      "aliases": []
+    },
+    "baymac": {
+      "name": "Ara bleu",
+      "aliases": []
+    },
+    "succoc": {
+      "name": "Cacatoès à huppe jaune",
+      "aliases": []
+    },
+    "yetvir": {
+      "name": "Viréo à gorge jaune",
+      "aliases": []
+    },
+    "yehpar": {
+      "name": "Amazone à tête jaune",
+      "aliases": []
+    },
+    "ywcpar": {
+      "name": "Amazone à front jaune",
+      "aliases": []
+    },
+    "lesyel": {
+      "name": "Petit Chevalier",
+      "aliases": []
+    },
+    "yebduc1": {
+      "name": "Canard à bec jaune",
+      "aliases": []
+    },
+    "yebcuc": {
+      "name": "Coulicou à bec jaune",
+      "aliases": []
+    },
+    "yebloo": {
+      "name": "Plongeon à bec blanc",
+      "aliases": []
+    },
+    "tufpuf": {
+      "name": "Macareux huppé",
+      "aliases": []
+    },
+    "ictwar1": {
+      "name": "Hypolaïs ictérine",
+      "aliases": []
+    },
+    "gyrfal": {
+      "name": "Faucon gerfaut",
+      "aliases": []
+    },
+    "eurbul": {
+      "name": "Bouvreuil pivoine",
+      "aliases": []
+    },
+    "eurser1": {
+      "name": "Serin cini",
+      "aliases": []
+    },
+    "comduc2": {
+      "name": "Canard à bosse",
+      "aliases": []
+    },
+    "houcro1": {
+      "name": "Corbeau familier",
+      "aliases": []
+    },
+    "bkskit1": {
+      "name": "Élanion blanc",
+      "aliases": []
+    },
+    "baitea": {
+      "name": "Sarcelle élégante",
+      "aliases": []
+    },
+    "tancoc1": {
+      "name": "Cacatoès de Goffin",
+      "aliases": []
+    },
+    "yellow2": {
+      "name": "Bruant jaune",
+      "aliases": []
+    },
+    "yefpar5": {
+      "name": "Amazone à face jaune",
+      "aliases": []
+    },
+    "meypar1": {
+      "name": "Perroquet de Meyer",
+      "aliases": []
+    },
+    "golphe": {
+      "name": "Faisan doré",
+      "aliases": []
+    },
+    "gowwar": {
+      "name": "Paruline à ailes dorées",
+      "aliases": []
+    },
+    "palwar5": {
+      "name": "Pouillot de Pallas",
+      "aliases": []
+    },
+    "eugplo": {
+      "name": "Pluvier doré",
+      "aliases": []
+    },
+    "yelwar1": {
+      "name": "Paruline jaune",
+      "aliases": []
+    },
+    "amegfi": {
+      "name": "Chardonneret jaune",
+      "aliases": []
+    },
+    "savspa": {
+      "name": "Bruant des prés",
+      "aliases": []
+    },
+    "bubsan": {
+      "name": "Bécasseau roussâtre",
+      "aliases": []
+    },
+    "corbun1": {
+      "name": "Bruant proyer",
+      "aliases": []
+    },
+    "pecsan": {
+      "name": "Bécasseau à poitrine cendrée",
+      "aliases": []
+    },
+    "gragoo": {
+      "name": "Oie cendrée",
+      "aliases": []
+    },
+    "grccra1": {
+      "name": "Grue royale",
+      "aliases": []
+    },
+    "purswa3": {
+      "name": "Talève à tête grise",
+      "aliases": []
+    },
+    "ashgoo1": {
+      "name": "Ouette à tête grise",
+      "aliases": []
+    },
+    "gyhlap1": {
+      "name": "Vanneau à tête grise",
+      "aliases": []
+    },
+    "grhgul": {
+      "name": "Mouette à tête grise",
+      "aliases": []
+    },
+    "silver3": {
+      "name": "Zostérops à dos gris",
+      "aliases": []
+    },
+    "grygul": {
+      "name": "Goéland gris",
+      "aliases": []
+    },
+    "crebun2": {
+      "name": "Bruant cendrillard",
+      "aliases": []
+    },
+    "grepar": {
+      "name": "Perroquet jaco",
+      "aliases": []
+    },
+    "graher1": {
+      "name": "Héron cendré",
+      "aliases": []
+    },
+    "spofly1": {
+      "name": "Gobemouche gris",
+      "aliases": []
+    },
+    "gyttat1": {
+      "name": "Chevalier de Sibérie",
+      "aliases": []
+    },
+    "gyfwoo1": {
+      "name": "Pic cendré",
+      "aliases": []
+    },
+    "graeao1": {
+      "name": "Grand-duc du Sahel",
+      "aliases": []
+    },
+    "gycthr": {
+      "name": "Grive à joues grises",
+      "aliases": []
+    },
+    "grtgra": {
+      "name": "Quiscale à longue queue",
+      "aliases": []
+    },
+    "grebus1": {
+      "name": "Grande Outarde",
+      "aliases": []
+    },
+    "blkgui": {
+      "name": "Guillemot à miroir",
+      "aliases": []
+    },
+    "eurgre1": {
+      "name": "Verdier d'Europe",
+      "aliases": []
+    },
+    "ragmac1": {
+      "name": "Ara chloroptère",
+      "aliases": []
+    },
+    "grewar3": {
+      "name": "Pouillot verdâtre",
+      "aliases": []
+    },
+    "grnher": {
+      "name": "Héron vert",
+      "aliases": []
+    },
+    "comgre": {
+      "name": "Chevalier aboyeur",
+      "aliases": []
+    },
+    "gbesta1": {
+      "name": "Choucador à oreillons bleus",
+      "aliases": []
+    },
+    "grnpar": {
+      "name": "Conure verte",
+      "aliases": []
+    },
+    "eugwoo2": {
+      "name": "Pic vert",
+      "aliases": []
+    },
+    "recpar": {
+      "name": "Amazone à joues vertes",
+      "aliases": []
+    },
+    "blhpar4": {
+      "name": "Maïpouri à tête noire",
+      "aliases": []
+    },
+    "eurgri1": {
+      "name": "Vautour fauve",
+      "aliases": []
+    },
+    "commer": {
+      "name": "Grand Harle",
+      "aliases": []
+    },
+    "belkin1": {
+      "name": "Martin-pêcheur d'Amérique",
+      "aliases": []
+    },
+    "norgos1": {
+      "name": "Autour des palombes",
+      "aliases": []
+    },
+    "boneag2": {
+      "name": "Aigle de Bonelli",
+      "aliases": []
+    },
+    "uraowl1": {
+      "name": "Chouette de l'Oural",
+      "aliases": []
+    },
+    "pingro": {
+      "name": "Durbec des sapins",
+      "aliases": []
+    },
+    "aussho1": {
+      "name": "Canard bridé",
+      "aliases": []
+    },
+    "varthr": {
+      "name": "Grive à collier",
+      "aliases": []
+    },
+    "blkfra": {
+      "name": "Francolin noir",
+      "aliases": []
+    },
+    "ausshe1": {
+      "name": "Tadorne d'Australie",
+      "aliases": []
+    },
+    "colfly1": {
+      "name": "Gobemouche à collier",
+      "aliases": []
+    },
+    "rorpar": {
+      "name": "Perruche à collier",
+      "aliases": []
+    },
+    "hazgro1": {
+      "name": "Gélinotte des bois",
+      "aliases": []
+    },
+    "crelar1": {
+      "name": "Cochevis huppé",
+      "aliases": []
+    },
+    "cremyn": {
+      "name": "Martin huppé",
+      "aliases": []
+    },
+    "cretit2": {
+      "name": "Mésange huppée",
+      "aliases": []
+    },
+    "grcgre1": {
+      "name": "Grèbe huppé",
+      "aliases": []
+    },
+    "houfin": {
+      "name": "Roselin familier",
+      "aliases": []
+    },
+    "blared1": {
+      "name": "Rougequeue noir",
+      "aliases": []
+    },
+    "houspa": {
+      "name": "Moineau domestique",
+      "aliases": []
+    },
+    "hawgoo": {
+      "name": "Bernache néné",
+      "aliases": []
+    },
+    "dunnoc1": {
+      "name": "Accenteur mouchet",
+      "aliases": []
+    },
+    "rutscr1": {
+      "name": "Agrobate roux",
+      "aliases": []
+    },
+    "woolar1": {
+      "name": "Alouette lulu",
+      "aliases": []
+    },
+    "wilpta1": {
+      "name": "Lagopède d'Écosse",
+      "aliases": []
+    },
+    "helgui": {
+      "name": "Pintade de Numidie",
+      "aliases": []
+    },
+    "lbbgul": {
+      "name": "Goéland brun",
+      "aliases": []
+    },
+    "pacpar2": {
+      "name": "Toui céleste",
+      "aliases": []
+    },
+    "commyn": {
+      "name": "Martin triste",
+      "aliases": []
+    },
+    "stodov1": {
+      "name": "Pigeon colombin",
+      "aliases": []
+    },
+    "whimbr3": {
+      "name": "Courlis hudsonien",
+      "aliases": []
+    },
+    "hudgod": {
+      "name": "Barge hudsonienne",
+      "aliases": []
+    },
+    "norhar2": {
+      "name": "Busard des marais",
+      "aliases": []
+    },
+    "grscuc1": {
+      "name": "Coucou geai",
+      "aliases": []
+    },
+    "whwsco2": {
+      "name": "Macreuse à ailes blanches",
+      "aliases": []
+    },
+    "comduc3": {
+      "name": "Canard sylvicole",
+      "aliases": []
+    },
+    "mutswa": {
+      "name": "Cygne tuberculé",
+      "aliases": []
+    },
+    "cabgoo1": {
+      "name": "Céréopse cendré",
+      "aliases": []
+    },
+    "subwar6": {
+      "name": "Fauvette passerinette",
+      "aliases": []
+    },
+    "ibechi2": {
+      "name": "Pouillot ibérique",
+      "aliases": []
+    },
+    "y00475": {
+      "name": "Foulque d'Amérique",
+      "aliases": []
+    },
+    "leabit": {
+      "name": "Petit Blongios",
+      "aliases": []
+    },
+    "isbduc1": {
+      "name": "Canard à bec tacheté",
+      "aliases": []
+    },
+    "insowl1": {
+      "name": "Petit-duc indien",
+      "aliases": []
+    },
+    "ingori1": {
+      "name": "Loriot indien",
+      "aliases": []
+    },
+    "indbun": {
+      "name": "Passerin indigo",
+      "aliases": []
+    },
+    "incter1": {
+      "name": "Sterne inca",
+      "aliases": []
+    },
+    "weowar1": {
+      "name": "Hypolaïs obscure",
+      "aliases": []
+    },
+    "isawhe1": {
+      "name": "Traquet isabelle",
+      "aliases": []
+    },
+    "isashr1": {
+      "name": "Pie-grièche isabelle",
+      "aliases": []
+    },
+    "itaspa1": {
+      "name": "Moineau cisalpin",
+      "aliases": []
+    },
+    "rinphe1": {
+      "name": "Faisan de Colchide",
+      "aliases": []
+    },
+    "japqua": {
+      "name": "Caille du Japon",
+      "aliases": []
+    },
+    "lewduc1": {
+      "name": "Dendrocygne siffleur",
+      "aliases": []
+    },
+    "demcra1": {
+      "name": "Grue demoiselle",
+      "aliases": []
+    },
+    "laukoo1": {
+      "name": "Martin-chasseur géant",
+      "aliases": []
+    },
+    "impeag1": {
+      "name": "Aigle impérial",
+      "aliases": []
+    },
+    "empgoo": {
+      "name": "Oie empereur",
+      "aliases": []
+    },
+    "callar1": {
+      "name": "Alouette calandre",
+      "aliases": []
+    },
+    "kalphe": {
+      "name": "Faisan leucomèle",
+      "aliases": []
+    },
+    "ruff": {
+      "name": "Combattant varié",
+      "aliases": []
+    },
+    "slbgul": {
+      "name": "Goéland à manteau ardoisé",
+      "aliases": []
+    },
+    "whwsco1": {
+      "name": "Macreuse de Sibérie",
+      "aliases": []
+    },
+    "lessca": {
+      "name": "Petit Fuligule",
+      "aliases": []
+    },
+    "cangoo": {
+      "name": "Bernache du Canada",
+      "aliases": []
+    },
+    "sancra": {
+      "name": "Grue du Canada",
+      "aliases": []
+    },
+    "amhgul1": {
+      "name": "Goéland hudsonien",
+      "aliases": []
+    },
+    "amewig": {
+      "name": "Canard d'Amérique",
+      "aliases": []
+    },
+    "grbher3": {
+      "name": "Grand Héron",
+      "aliases": []
+    },
+    "canwar": {
+      "name": "Paruline du Canada",
+      "aliases": []
+    },
+    "comcan": {
+      "name": "Serin des Canaries",
+      "aliases": []
+    },
+    "burowl": {
+      "name": "Chevêche des terriers",
+      "aliases": []
+    },
+    "soashe1": {
+      "name": "Tadorne à tête grise",
+      "aliases": []
+    },
+    "blhbun1": {
+      "name": "Bruant mélanocéphale",
+      "aliases": []
+    },
+    "greshe": {
+      "name": "Puffin majeur",
+      "aliases": []
+    },
+    "hoomer": {
+      "name": "Harle couronné",
+      "aliases": []
+    },
+    "cavspa1": {
+      "name": "Moineau du Cap-Vert",
+      "aliases": []
+    },
+    "comros": {
+      "name": "Roselin cramoisi",
+      "aliases": []
+    },
+    "chetea1": {
+      "name": "Sarcelle rousse",
+      "aliases": []
+    },
+    "barpar1": {
+      "name": "Toui catherine",
+      "aliases": []
+    },
+    "grycat": {
+      "name": "Moqueur chat",
+      "aliases": []
+    },
+    "killde": {
+      "name": "Pluvier kildir",
+      "aliases": []
+    },
+    "hawfin": {
+      "name": "Gros-bec casse-noyaux",
+      "aliases": []
+    },
+    "norlap": {
+      "name": "Vanneau huppé",
+      "aliases": []
+    },
+    "bkbplo": {
+      "name": "Pluvier argenté",
+      "aliases": []
+    },
+    "parcro2": {
+      "name": "Bec-croisé perroquet",
+      "aliases": []
+    },
+    "leswhi4": {
+      "name": "Fauvette babillarde",
+      "aliases": []
+    },
+    "eurnut2": {
+      "name": "Sittelle torchepot",
+      "aliases": []
+    },
+    "leswoo1": {
+      "name": "Pic épeichette",
+      "aliases": []
+    },
+    "litcra1": {
+      "name": "Marouette poussin",
+      "aliases": []
+    },
+    "bawwar": {
+      "name": "Paruline noir et blanc",
+      "aliases": []
+    },
+    "redkno": {
+      "name": "Bécasseau maubèche",
+      "aliases": []
+    },
+    "gargan": {
+      "name": "Sarcelle d'été",
+      "aliases": []
+    },
+    "gretit1": {
+      "name": "Mésange charbonnière",
+      "aliases": []
+    },
+    "recpoc": {
+      "name": "Nette rousse",
+      "aliases": []
+    },
+    "comrav": {
+      "name": "Grand Corbeau",
+      "aliases": []
+    },
+    "lessap2": {
+      "name": "Pluvier de Mongolie",
+      "aliases": []
+    },
+    "refpar5": {
+      "name": "Perroquet à calotte rouge",
+      "aliases": []
+    },
+    "audgul1": {
+      "name": "Goéland d'Audouin",
+      "aliases": []
+    },
+    "grecor": {
+      "name": "Grand Cormoran",
+      "aliases": []
+    },
+    "norhar1": {
+      "name": "Busard Saint-Martin",
+      "aliases": []
+    },
+    "categr2": {
+      "name": "Héron de Coromandel",
+      "aliases": []
+    },
+    "doveki": {
+      "name": "Mergule nain",
+      "aliases": []
+    },
+    "harduc": {
+      "name": "Arlequin plongeur",
+      "aliases": []
+    },
+    "comcra": {
+      "name": "Grue cendrée",
+      "aliases": []
+    },
+    "dalpel1": {
+      "name": "Pélican frisé",
+      "aliases": []
+    },
+    "gnwtea": {
+      "name": "Sarcelle d'hiver",
+      "aliases": []
+    },
+    "eacwar1": {
+      "name": "Pouillot de Temminck",
+      "aliases": []
+    },
+    "yerwar": {
+      "name": "Paruline à croupion jaune",
+      "aliases": []
+    },
+    "eursha1": {
+      "name": "Cormoran huppé",
+      "aliases": []
+    },
+    "grefla2": {
+      "name": "Flamant des Caraïbes",
+      "aliases": []
+    },
+    "comcuc": {
+      "name": "Coucou gris",
+      "aliases": []
+    },
+    "blhduc1": {
+      "name": "Hétéronette à tête noire",
+      "aliases": []
+    },
+    "categr1": {
+      "name": "Héron garde-boeufs",
+      "aliases": []
+    },
+    "pifgoo": {
+      "name": "Oie à bec court",
+      "aliases": []
+    },
+    "gstlar1": {
+      "name": "Alouette calandrelle",
+      "aliases": []
+    },
+    "ferhaw": {
+      "name": "Buse rouilleuse",
+      "aliases": []
+    },
+    "reephe1": {
+      "name": "Faisan vénéré",
+      "aliases": []
+    },
+    "royter1": {
+      "name": "Sterne royale",
+      "aliases": []
+    },
+    "aukpar1": {
+      "name": "Perruche royale",
+      "aliases": []
+    },
+    "werher": {
+      "name": "Aigrette à gorge blanche",
+      "aliases": []
+    },
+    "arcter": {
+      "name": "Sterne arctique",
+      "aliases": []
+    },
+    "bkhgul": {
+      "name": "Mouette rieuse",
+      "aliases": []
+    },
+    "gubter2": {
+      "name": "Sterne hansel",
+      "aliases": []
+    },
+    "afcdov1": {
+      "name": "Tourterelle rieuse",
+      "aliases": []
+    },
+    "lobmur": {
+      "name": "Guillemot à long bec",
+      "aliases": []
+    },
+    "lotsti": {
+      "name": "Bécasseau à longs doigts",
+      "aliases": []
+    },
+    "lanfal1": {
+      "name": "Faucon lanier",
+      "aliases": []
+    },
+    "azutit2": {
+      "name": "Mésange azurée",
+      "aliases": []
+    },
+    "layduc": {
+      "name": "Canard de Laysan",
+      "aliases": []
+    },
+    "lazbun": {
+      "name": "Passerin azuré",
+      "aliases": []
+    },
+    "verfly4": {
+      "name": "Gobemouche vert-de-gris",
+      "aliases": []
+    },
+    "subwar8": {
+      "name": "Fauvette de Moltoni",
+      "aliases": []
+    },
+    "norsho": {
+      "name": "Canard souchet",
+      "aliases": []
+    },
+    "eurspo1": {
+      "name": "Spatule blanche",
+      "aliases": []
+    },
+    "melduc1": {
+      "name": "Canard de Meller",
+      "aliases": []
+    },
+    "madpet": {
+      "name": "Pétrel de Madère",
+      "aliases": []
+    },
+    "barpet": {
+      "name": "Océanite de Castro",
+      "aliases": []
+    },
+    "uplgoo1": {
+      "name": "Ouette de Magellan",
+      "aliases": []
+    },
+    "afrcha1": {
+      "name": "Pinson d'Afrique",
+      "aliases": []
+    },
+    "magwar": {
+      "name": "Paruline à tête cendrée",
+      "aliases": []
+    },
+    "manduc": {
+      "name": "Canard mandarin",
+      "aliases": []
+    },
+    "reccra1": {
+      "name": "Grue du Japon",
+      "aliases": []
+    },
+    "gbbgul": {
+      "name": "Goéland marin",
+      "aliases": []
+    },
+    "nezsca1": {
+      "name": "Fuligule de Nouvelle-Zélande",
+      "aliases": []
+    },
+    "marsto1": {
+      "name": "Marabout d'Afrique",
+      "aliases": []
+    },
+    "mouwar1": {
+      "name": "Lusciniole à moustaches",
+      "aliases": []
+    },
+    "martea1": {
+      "name": "Marmaronette marbrée",
+      "aliases": []
+    },
+    "bkfbun1": {
+      "name": "Bruant masqué",
+      "aliases": []
+    },
+    "ruewar1": {
+      "name": "Fauvette de Rüppell",
+      "aliases": []
+    },
+    "japgro1": {
+      "name": "Gros-bec masqué",
+      "aliases": []
+    },
+    "maslap1": {
+      "name": "Vanneau soldat",
+      "aliases": []
+    },
+    "afmwea": {
+      "name": "Tisserin à tête rousse",
+      "aliases": []
+    },
+    "masshr1": {
+      "name": "Pie-grièche masquée",
+      "aliases": []
+    },
+    "wallcr1": {
+      "name": "Tichodrome échelette",
+      "aliases": []
+    },
+    "comswi": {
+      "name": "Martinet noir",
+      "aliases": []
+    },
+    "bkewhe1": {
+      "name": "Traquet oreillard",
+      "aliases": []
+    },
+    "schpar1": {
+      "name": "Pione de Maximilien",
+      "aliases": []
+    },
+    "pursan": {
+      "name": "Bécasseau violet",
+      "aliases": []
+    },
+    "comhom1": {
+      "name": "Hirondelle de fenêtre",
+      "aliases": []
+    },
+    "lotros1": {
+      "name": "Roselin à longue queue",
+      "aliases": []
+    },
+    "norpar": {
+      "name": "Paruline à collier",
+      "aliases": []
+    },
+    "merlin": {
+      "name": "Faucon émerillon",
+      "aliases": []
+    },
+    "lbesta1": {
+      "name": "Choucador de Swainson",
+      "aliases": []
+    },
+    "grewar2": {
+      "name": "Pouillot à deux barres",
+      "aliases": []
+    },
+    "misthr1": {
+      "name": "Grive draine",
+      "aliases": []
+    },
+    "levshe1": {
+      "name": "Puffin yelkouan",
+      "aliases": []
+    },
+    "yelgul1": {
+      "name": "Goéland leucophée",
+      "aliases": []
+    },
+    "miswoo1": {
+      "name": "Pic mar",
+      "aliases": []
+    },
+    "rebmer": {
+      "name": "Harle huppé",
+      "aliases": []
+    },
+    "gncpar": {
+      "name": "Conure de Molina",
+      "aliases": []
+    },
+    "dausta1": {
+      "name": "Étourneau de Daourie",
+      "aliases": []
+    },
+    "ferduc": {
+      "name": "Fuligule nyroca",
+      "aliases": []
+    },
+    "shbdow": {
+      "name": "Bécassin roux",
+      "aliases": []
+    },
+    "rucspa1": {
+      "name": "Bruant chingolo",
+      "aliases": []
+    },
+    "eurdot": {
+      "name": "Pluvier guignard",
+      "aliases": []
+    },
+    "yefcan": {
+      "name": "Serin du Mozambique",
+      "aliases": []
+    },
+    "musduc": {
+      "name": "Canard musqué",
+      "aliases": []
+    },
+    "mugfly": {
+      "name": "Gobemouche mugimaki",
+      "aliases": []
+    },
+    "nutman": {
+      "name": "Capucin damier",
+      "aliases": []
+    },
+    "manduc1": {
+      "name": "Canard à crinière",
+      "aliases": []
+    },
+    "combuz1": {
+      "name": "Buse variable",
+      "aliases": []
+    },
+    "cinvul1": {
+      "name": "Vautour moine",
+      "aliases": []
+    },
+    "blackc1": {
+      "name": "Fauvette à tête noire",
+      "aliases": []
+    },
+    "monpar": {
+      "name": "Perriche veuve",
+      "aliases": []
+    },
+    "wlswar": {
+      "name": "Paruline à calotte noire",
+      "aliases": []
+    },
+    "meapar": {
+      "name": "Amazone poudrée",
+      "aliases": []
+    },
+    "comnig1": {
+      "name": "Rossignol philomèle",
+      "aliases": []
+    },
+    "eaowar2": {
+      "name": "Fauvette orphéane",
+      "aliases": []
+    },
+    "bcnher": {
+      "name": "Bihoreau gris",
+      "aliases": []
+    },
+    "eurnig1": {
+      "name": "Engoulevent d'Europe",
+      "aliases": []
+    },
+    "bkhpar": {
+      "name": "Conure nanday",
+      "aliases": []
+    },
+    "grerhe1": {
+      "name": "Nandou d'Amérique",
+      "aliases": []
+    },
+    "hoocro1": {
+      "name": "Corneille mantelée",
+      "aliases": []
+    },
+    "rebshr1": {
+      "name": "Pie-grièche écorcheur",
+      "aliases": []
+    },
+    "egygoo": {
+      "name": "Ouette d'Égypte",
+      "aliases": []
+    },
+    "piewhe1": {
+      "name": "Traquet pie",
+      "aliases": []
+    },
+    "cockat": {
+      "name": "Calopsitte élégante",
+      "aliases": []
+    },
+    "renpha": {
+      "name": "Phalarope à bec étroit",
+      "aliases": []
+    },
+    "horlar": {
+      "name": "Alouette hausse-col",
+      "aliases": []
+    },
+    "doccor": {
+      "name": "Cormoran à aigrettes",
+      "aliases": []
+    },
+    "horgre": {
+      "name": "Grèbe esclavon",
+      "aliases": []
+    },
+    "oltwar1": {
+      "name": "Hypolaïs des oliviers",
+      "aliases": []
+    },
+    "orcwax": {
+      "name": "Astrild à joues orange",
+      "aliases": []
+    },
+    "oripra": {
+      "name": "Glaréole orientale",
+      "aliases": []
+    },
+    "oripip1": {
+      "name": "Pipit rousset",
+      "aliases": []
+    },
+    "ortdov": {
+      "name": "Tourterelle orientale",
+      "aliases": []
+    },
+    "origoo1": {
+      "name": "Ouette de l'Orénoque",
+      "aliases": []
+    },
+    "weowar2": {
+      "name": "Fauvette orphée",
+      "aliases": []
+    },
+    "melwar1": {
+      "name": "Hypolaïs polyglotte",
+      "aliases": []
+    },
+    "ortbun1": {
+      "name": "Bruant ortolan",
+      "aliases": []
+    },
+    "redbis": {
+      "name": "Euplecte ignicolore",
+      "aliases": []
+    },
+    "palbun": {
+      "name": "Bruant de Pallas",
+      "aliases": []
+    },
+    "sibsto1": {
+      "name": "Tarier de Sibérie",
+      "aliases": []
+    },
+    "laudov1": {
+      "name": "Tourterelle maillée",
+      "aliases": []
+    },
+    "subwar2": {
+      "name": "Pouillot griséole",
+      "aliases": []
+    },
+    "atlpuf": {
+      "name": "Macareux moine",
+      "aliases": []
+    },
+    "paibun": {
+      "name": "Passerin nonpareil",
+      "aliases": []
+    },
+    "parshe1": {
+      "name": "Tadorne de paradis",
+      "aliases": []
+    },
+    "whepar2": {
+      "name": "Conure pavouane",
+      "aliases": []
+    },
+    "fotswi": {
+      "name": "Martinet de Sibérie",
+      "aliases": []
+    },
+    "pacloo": {
+      "name": "Plongeon du Pacifique",
+      "aliases": []
+    },
+    "blksco2": {
+      "name": "Macreuse à bec jaune",
+      "aliases": []
+    },
+    "criros2": {
+      "name": "Perruche de Pennant",
+      "aliases": []
+    },
+    "madpar2": {
+      "name": "Caille de Madagascar",
+      "aliases": []
+    },
+    "pecpip": {
+      "name": "Pipit de la Petchora",
+      "aliases": []
+    },
+    "compea": {
+      "name": "Paon bleu",
+      "aliases": []
+    },
+    "eurwig": {
+      "name": "Canard siffleur",
+      "aliases": []
+    },
+    "fislov1": {
+      "name": "Inséparable de Fischer",
+      "aliases": []
+    },
+    "plhpar1": {
+      "name": "Perruche à tête prune",
+      "aliases": []
+    },
+    "batgod": {
+      "name": "Barge rousse",
+      "aliases": []
+    },
+    "sacibi2": {
+      "name": "Ibis sacré",
+      "aliases": []
+    },
+    "egynig1": {
+      "name": "Engoulevent du désert",
+      "aliases": []
+    },
+    "phivir": {
+      "name": "Viréo de Philadelphie",
+      "aliases": []
+    },
+    "phiduc1": {
+      "name": "Canard des Philippines",
+      "aliases": []
+    },
+    "ovenbi1": {
+      "name": "Paruline couronnée",
+      "aliases": []
+    },
+    "eugori2": {
+      "name": "Loriot d'Europe",
+      "aliases": []
+    },
+    "speeid": {
+      "name": "Eider à lunettes",
+      "aliases": []
+    },
+    "y00478": {
+      "name": "Goéland arctique",
+      "aliases": []
+    },
+    "kineid": {
+      "name": "Eider à tête grise",
+      "aliases": []
+    },
+    "arcloo": {
+      "name": "Plongeon arctique",
+      "aliases": []
+    },
+    "darwar1": {
+      "name": "Fauvette pitchou",
+      "aliases": []
+    },
+    "amgplo": {
+      "name": "Pluvier bronzé",
+      "aliases": []
+    },
+    "uplsan": {
+      "name": "Maubèche des champs",
+      "aliases": []
+    },
+    "fragul": {
+      "name": "Mouette de Franklin",
+      "aliases": []
+    },
+    "puntea1": {
+      "name": "Sarcelle de la puna",
+      "aliases": []
+    },
+    "pugsta1": {
+      "name": "Choucador pourpré",
+      "aliases": []
+    },
+    "comgra": {
+      "name": "Quiscale bronzé",
+      "aliases": []
+    },
+    "purswa1": {
+      "name": "Talève sultane",
+      "aliases": []
+    },
+    "purher1": {
+      "name": "Héron pourpré",
+      "aliases": []
+    },
+    "purmar": {
+      "name": "Hirondelle noire",
+      "aliases": []
+    },
+    "hottea1": {
+      "name": "Sarcelle à bec bleu",
+      "aliases": []
+    },
+    "blkvul": {
+      "name": "Urubu noir",
+      "aliases": []
+    },
+    "carcro1": {
+      "name": "Corneille noire",
+      "aliases": []
+    },
+    "radshe1": {
+      "name": "Tadorne radjah",
+      "aliases": []
+    },
+    "larspa": {
+      "name": "Bruant à joues marron",
+      "aliases": []
+    },
+    "squher1": {
+      "name": "Crabier chevelu",
+      "aliases": []
+    },
+    "caster1": {
+      "name": "Sterne caspienne",
+      "aliases": []
+    },
+    "norshr1": {
+      "name": "Pie-grièche grise",
+      "aliases": []
+    },
+    "barswa": {
+      "name": "Hirondelle rustique",
+      "aliases": []
+    },
+    "rolhaw": {
+      "name": "Buse pattue",
+      "aliases": []
+    },
+    "borowl": {
+      "name": "Nyctale de Tengmalm",
+      "aliases": []
+    },
+    "grypar": {
+      "name": "Perdrix grise",
+      "aliases": []
+    },
+    "railor5": {
+      "name": "Loriquet arc-en-ciel",
+      "aliases": []
+    },
+    "whimbr5": {
+      "name": "Courlis corlieu",
+      "aliases": []
+    },
+    "tufduc": {
+      "name": "Fuligule morillon",
+      "aliases": []
+    },
+    "javspa": {
+      "name": "Padda de Java",
+      "aliases": []
+    },
+    "boboli": {
+      "name": "Goglu des prés",
+      "aliases": []
+    },
+    "crccou1": {
+      "name": "Courvite isabelle",
+      "aliases": []
+    },
+    "stseag": {
+      "name": "Pygargue empereur",
+      "aliases": []
+    },
+    "canvas": {
+      "name": "Fuligule à dos blanc",
+      "aliases": []
+    },
+    "rinouz1": {
+      "name": "Merle à plastron",
+      "aliases": []
+    },
+    "brant": {
+      "name": "Bernache cravant",
+      "aliases": []
+    },
+    "cowpig1": {
+      "name": "Pigeon ramier",
+      "aliases": []
+    },
+    "rinduc": {
+      "name": "Fuligule à collier",
+      "aliases": []
+    },
+    "ribgul": {
+      "name": "Goéland à bec cerclé",
+      "aliases": []
+    },
+    "polpar1": {
+      "name": "Perruche à col jaune",
+      "aliases": []
+    },
+    "reebun": {
+      "name": "Bruant des roseaux",
+      "aliases": []
+    },
+    "grebit1": {
+      "name": "Butor étoilé",
+      "aliases": []
+    },
+    "savwar1": {
+      "name": "Locustelle luscinioïde",
+      "aliases": []
+    },
+    "wemhar1": {
+      "name": "Busard des roseaux",
+      "aliases": []
+    },
+    "grefla3": {
+      "name": "Flamant rose",
+      "aliases": []
+    },
+    "galah": {
+      "name": "Cacatoès rosalbin",
+      "aliases": []
+    },
+    "grwpel1": {
+      "name": "Pélican blanc",
+      "aliases": []
+    },
+    "easros1": {
+      "name": "Perruche omnicolore",
+      "aliases": []
+    },
+    "robgro": {
+      "name": "Cardinal à poitrine rose",
+      "aliases": []
+    },
+    "palros2": {
+      "name": "Roselin rose",
+      "aliases": []
+    },
+    "blhpar3": {
+      "name": "Perruche à tête rose",
+      "aliases": []
+    },
+    "peflov": {
+      "name": "Inséparable rosegorge",
+      "aliases": []
+    },
+    "rosgul": {
+      "name": "Mouette rosée",
+      "aliases": []
+    },
+    "pieduc1": {
+      "name": "Malacorhynque à oreilles roses",
+      "aliases": []
+    },
+    "robpoc1": {
+      "name": "Nette demi-deuil",
+      "aliases": []
+    },
+    "roster": {
+      "name": "Sterne de Dougall",
+      "aliases": []
+    },
+    "rossta2": {
+      "name": "Étourneau roselin",
+      "aliases": []
+    },
+    "dusthr2": {
+      "name": "Grive à ailes rousses",
+      "aliases": []
+    },
+    "rudshe": {
+      "name": "Tadorne casarca",
+      "aliases": []
+    },
+    "dusthr1": {
+      "name": "Grive de Naumann",
+      "aliases": []
+    },
+    "reevir1": {
+      "name": "Viréo aux yeux rouges",
+      "aliases": []
+    },
+    "rebnut": {
+      "name": "Sittelle à poitrine rousse",
+      "aliases": []
+    },
+    "redwin": {
+      "name": "Grive mauvis",
+      "aliases": []
+    },
+    "colpra": {
+      "name": "Glaréole à collier",
+      "aliases": []
+    },
+    "rewbla": {
+      "name": "Carouge à épaulettes",
+      "aliases": []
+    },
+    "reffal1": {
+      "name": "Faucon kobez",
+      "aliases": []
+    },
+    "refboo": {
+      "name": "Fou à pieds rouges",
+      "aliases": []
+    },
+    "afrspo1": {
+      "name": "Spatule d'Afrique",
+      "aliases": []
+    },
+    "rebgoo1": {
+      "name": "Bernache à cou roux",
+      "aliases": []
+    },
+    "rengre": {
+      "name": "Grèbe jougris",
+      "aliases": []
+    },
+    "relpar1": {
+      "name": "Perdrix rouge",
+      "aliases": []
+    },
+    "norcar": {
+      "name": "Cardinal rouge",
+      "aliases": []
+    },
+    "rensti": {
+      "name": "Bécasseau à col roux",
+      "aliases": []
+    },
+    "eurrob1": {
+      "name": "Rougegorge familier",
+      "aliases": []
+    },
+    "retthr1": {
+      "name": "Grive à gorge rousse",
+      "aliases": []
+    },
+    "retpip": {
+      "name": "Pipit à gorge rousse",
+      "aliases": []
+    },
+    "retpar3": {
+      "name": "Diamant psittaculaire",
+      "aliases": []
+    },
+    "redhea": {
+      "name": "Fuligule à tête rouge",
+      "aliases": []
+    },
+    "ruhgoo1": {
+      "name": "Ouette à tête rousse",
+      "aliases": []
+    },
+    "schbla1": {
+      "name": "Carouge à tête rouge",
+      "aliases": []
+    },
+    "wooshr1": {
+      "name": "Pie-grièche à tête rousse",
+      "aliases": []
+    },
+    "rewlap1": {
+      "name": "Vanneau indien",
+      "aliases": []
+    },
+    "redkit1": {
+      "name": "Milan royal",
+      "aliases": []
+    },
+    "rewbul": {
+      "name": "Bulbul orphée",
+      "aliases": []
+    },
+    "comred1": {
+      "name": "Chevalier gambette",
+      "aliases": []
+    },
+    "bbwduc": {
+      "name": "Dendrocygne à ventre noir",
+      "aliases": []
+    },
+    "reblei": {
+      "name": "Léiothrix jaune",
+      "aliases": []
+    },
+    "rebtro": {
+      "name": "Phaéton à bec rouge",
+      "aliases": []
+    },
+    "rebduc1": {
+      "name": "Canard à bec rouge",
+      "aliases": []
+    },
+    "reccar": {
+      "name": "Paroare huppé",
+      "aliases": []
+    },
+    "rintea1": {
+      "name": "Canard à collier noir",
+      "aliases": []
+    },
+    "amered": {
+      "name": "Paruline flamboyante",
+      "aliases": []
+    },
+    "rethaw": {
+      "name": "Buse à queue rousse",
+      "aliases": []
+    },
+    "rutshr2": {
+      "name": "Pie-grièche du Turkestan",
+      "aliases": []
+    },
+    "relpar10": {
+      "name": "Amazone à lores rouges",
+      "aliases": []
+    },
+    "fifser1": {
+      "name": "Serin à front d'or",
+      "aliases": []
+    },
+    "sibrub": {
+      "name": "Rossignol calliope",
+      "aliases": []
+    },
+    "blclov1": {
+      "name": "Inséparable à joues noires",
+      "aliases": []
+    },
+    "dasfly": {
+      "name": "Gobemouche de Sibérie",
+      "aliases": []
+    },
+    "sooter1": {
+      "name": "Sterne fuligineuse",
+      "aliases": []
+    },
+    "chebun1": {
+      "name": "Bruant roux",
+      "aliases": []
+    },
+    "leskes1": {
+      "name": "Faucon crécerellette",
+      "aliases": []
+    },
+    "pibpel1": {
+      "name": "Pélican gris",
+      "aliases": []
+    },
+    "rerswa8": {
+      "name": "Hirondelle rousseline",
+      "aliases": []
+    },
+    "ruepar1": {
+      "name": "Perroquet de Rüppell",
+      "aliases": []
+    },
+    "lecter2": {
+      "name": "Sterne voyageuse",
+      "aliases": []
+    },
+    "rook1": {
+      "name": "Corbeau freux",
+      "aliases": []
+    },
+    "saffin": {
+      "name": "Sicale bouton-d'or",
+      "aliases": []
+    },
+    "afdwar1": {
+      "name": "Fauvette du désert",
+      "aliases": []
+    },
+    "whtwhe1": {
+      "name": "Traquet à tête blanche",
+      "aliases": []
+    },
+    "duccoc1": {
+      "name": "Cacatoès des Salomon",
+      "aliases": []
+    },
+    "whwsco3": {
+      "name": "Macreuse brune",
+      "aliases": []
+    },
+    "sarwar1": {
+      "name": "Fauvette mélanocéphale",
+      "aliases": []
+    },
+    "sander": {
+      "name": "Bécasseau sanderling",
+      "aliases": []
+    },
+    "corplo": {
+      "name": "Pluvier grand-gravelot",
+      "aliases": []
+    },
+    "semsan": {
+      "name": "Bécasseau semipalmé",
+      "aliases": []
+    },
+    "marwar1": {
+      "name": "Fauvette sarde",
+      "aliases": []
+    },
+    "sattra1": {
+      "name": "Tragopan satyre",
+      "aliases": []
+    },
+    "lotshr1": {
+      "name": "Pie-grièche schach",
+      "aliases": []
+    },
+    "eaywag1": {
+      "name": "Bergeronnette printanière",
+      "aliases": []
+    },
+    "scamac1": {
+      "name": "Ara rouge",
+      "aliases": []
+    },
+    "scatan": {
+      "name": "Piranga écarlate",
+      "aliases": []
+    },
+    "scaibi": {
+      "name": "Ibis rouge",
+      "aliases": []
+    },
+    "ncbeat1": {
+      "name": "Guêpier écarlate",
+      "aliases": []
+    },
+    "steeid": {
+      "name": "Eider de Steller",
+      "aliases": []
+    },
+    "grseag1": {
+      "name": "Aigle criard",
+      "aliases": []
+    },
+    "comgol": {
+      "name": "Garrot à oeil d'or",
+      "aliases": []
+    },
+    "sibthr1": {
+      "name": "Grive de Sibérie",
+      "aliases": []
+    },
+    "easkin": {
+      "name": "Tyran tritri",
+      "aliases": []
+    },
+    "piecro1": {
+      "name": "Corbeau pie",
+      "aliases": []
+    },
+    "suppar1": {
+      "name": "Perruche de Barraband",
+      "aliases": []
+    },
+    "sedwar1": {
+      "name": "Phragmite des joncs",
+      "aliases": []
+    },
+    "eurwar2": {
+      "name": "Locustelle fluviatile",
+      "aliases": []
+    },
+    "shteag1": {
+      "name": "Circaète Jean-le-Blanc",
+      "aliases": []
+    },
+    "webowl1": {
+      "name": "Effraie des clochers",
+      "aliases": []
+    },
+    "parjae": {
+      "name": "Labbe parasite",
+      "aliases": []
+    },
+    "reccor": {
+      "name": "Cordonbleu à joues rouges",
+      "aliases": []
+    },
+    "snoegr": {
+      "name": "Aigrette neigeuse",
+      "aliases": []
+    },
+    "eleter1": {
+      "name": "Sterne élégante",
+      "aliases": []
+    },
+    "elepar1": {
+      "name": "Perruche élégante",
+      "aliases": []
+    },
+    "egyvul1": {
+      "name": "Percnoptère d'Égypte",
+      "aliases": []
+    },
+    "gadwal": {
+      "name": "Canard chipeau",
+      "aliases": []
+    },
+    "snobun": {
+      "name": "Plectrophane des neiges",
+      "aliases": []
+    },
+    "snoowl1": {
+      "name": "Harfang des neiges",
+      "aliases": []
+    },
+    "snogoo": {
+      "name": "Oie des neiges",
+      "aliases": []
+    },
+    "whiibi": {
+      "name": "Ibis blanc",
+      "aliases": []
+    },
+    "whwsno1": {
+      "name": "Niverolle alpine",
+      "aliases": []
+    },
+    "y00678": {
+      "name": "Caracara huppé",
+      "aliases": []
+    },
+    "calqua": {
+      "name": "Colin de Californie",
+      "aliases": []
+    },
+    "chiswi": {
+      "name": "Martinet ramoneur",
+      "aliases": []
+    },
+    "scocro1": {
+      "name": "Bec-croisé d'Écosse",
+      "aliases": []
+    },
+    "leseag1": {
+      "name": "Aigle pomarin",
+      "aliases": []
+    },
+    "strowl1": {
+      "name": "Hibou strié",
+      "aliases": []
+    },
+    "sabgul": {
+      "name": "Mouette de Sabine",
+      "aliases": []
+    },
+    "swipar1": {
+      "name": "Perruche de Latham",
+      "aliases": []
+    },
+    "swagoo1": {
+      "name": "Oie cygnoïde",
+      "aliases": []
+    },
+    "lottit1": {
+      "name": "Orite à longue queue",
+      "aliases": []
+    },
+    "amebit": {
+      "name": "Butor d'Amérique",
+      "aliases": []
+    },
+    "bkbalb": {
+      "name": "Albatros à sourcils noirs",
+      "aliases": []
+    },
+    "blbthr2": {
+      "name": "Merle à poitrine noire",
+      "aliases": []
+    },
+    "afbduc1": {
+      "name": "Canard noirâtre",
+      "aliases": []
+    },
+    "blwpra1": {
+      "name": "Glaréole à ailes noires",
+      "aliases": []
+    },
+    "blnswa2": {
+      "name": "Cygne à cou noir",
+      "aliases": []
+    },
+    "eargre": {
+      "name": "Grèbe à cou noir",
+      "aliases": []
+    },
+    "chemun": {
+      "name": "Capucin à tête noire",
+      "aliases": []
+    },
+    "blcpar1": {
+      "name": "Conure à cape noire",
+      "aliases": []
+    },
+    "stonec4": {
+      "name": "Tarier pâtre",
+      "aliases": []
+    },
+    "datthr1": {
+      "name": "Grive à gorge noire",
+      "aliases": []
+    },
+    "blacra1": {
+      "name": "Marouette à bec jaune",
+      "aliases": []
+    },
+    "rudduc": {
+      "name": "Érismature rousse",
+      "aliases": []
+    },
+    "medgul1": {
+      "name": "Mouette mélanocéphale",
+      "aliases": []
+    },
+    "blakit1": {
+      "name": "Milan noir",
+      "aliases": []
+    },
+    "bknsti": {
+      "name": "Échasse d'Amérique",
+      "aliases": []
+    },
+    "blhpar1": {
+      "name": "Pione à tête bleue",
+      "aliases": []
+    },
+    "bkbcuc": {
+      "name": "Coulicou à bec noir",
+      "aliases": []
+    },
+    "blkswa": {
+      "name": "Cygne noir",
+      "aliases": []
+    },
+    "blawoo1": {
+      "name": "Pic noir",
+      "aliases": []
+    },
+    "blalar1": {
+      "name": "Alouette noire",
+      "aliases": []
+    },
+    "legshr2": {
+      "name": "Pie-grièche à poitrine rose",
+      "aliases": []
+    },
+    "blasto1": {
+      "name": "Cigogne noire",
+      "aliases": []
+    },
+    "bkfibi1": {
+      "name": "Ibis à face noire",
+      "aliases": []
+    },
+    "rutrob1": {
+      "name": "Rossignol siffleur",
+      "aliases": []
+    },
+    "turpar1": {
+      "name": "Perruche turquoisine",
+      "aliases": []
+    },
+    "whteag": {
+      "name": "Pygargue à queue blanche",
+      "aliases": []
+    },
+    "kenplo1": {
+      "name": "Pluvier à collier interrompu",
+      "aliases": []
+    },
+    "aquwar1": {
+      "name": "Phragmite aquatique",
+      "aliases": []
+    },
+    "litegr": {
+      "name": "Aigrette garzette",
+      "aliases": []
+    },
+    "bohwax": {
+      "name": "Jaseur boréal",
+      "aliases": []
+    },
+    "cetwar1": {
+      "name": "Bouscarle de Cetti",
+      "aliases": []
+    },
+    "senpar": {
+      "name": "Perroquet youyou",
+      "aliases": []
+    },
+    "scoshe1": {
+      "name": "Puffin de Scopoli",
+      "aliases": []
+    },
+    "sibpip1": {
+      "name": "Pipit de Sibérie",
+      "aliases": []
+    },
+    "falduc": {
+      "name": "Canard à faucilles",
+      "aliases": []
+    },
+    "cursan": {
+      "name": "Bécasseau cocorli",
+      "aliases": []
+    },
+    "gloibi": {
+      "name": "Ibis falcinelle",
+      "aliases": []
+    },
+    "ancmur": {
+      "name": "Guillemot à cou blanc",
+      "aliases": []
+    },
+    "siltea1": {
+      "name": "Sarcelle bariolée",
+      "aliases": []
+    },
+    "silphe": {
+      "name": "Faisan argenté",
+      "aliases": []
+    },
+    "euhgul1": {
+      "name": "Goéland argenté",
+      "aliases": []
+    },
+    "greegr": {
+      "name": "Grande Aigrette",
+      "aliases": []
+    },
+    "sonspa": {
+      "name": "Bruant chanteur",
+      "aliases": []
+    },
+    "sonthr1": {
+      "name": "Grive musicienne",
+      "aliases": []
+    },
+    "whoswa": {
+      "name": "Cygne chanteur",
+      "aliases": []
+    },
+    "rerpar1": {
+      "name": "Perruche à croupion rouge",
+      "aliases": []
+    },
+    "gresku1": {
+      "name": "Grand Labbe",
+      "aliases": []
+    },
+    "milmac": {
+      "name": "Ara militaire",
+      "aliases": []
+    },
+    "firecr1": {
+      "name": "Roitelet triple-bandeau",
+      "aliases": []
+    },
+    "sunpar1": {
+      "name": "Conure soleil",
+      "aliases": []
+    },
+    "grejun2": {
+      "name": "Coq de Sonnerat",
+      "aliases": []
+    },
+    "bargol": {
+      "name": "Garrot d'Islande",
+      "aliases": []
+    },
+    "pomjae": {
+      "name": "Labbe pomarin",
+      "aliases": []
+    },
+    "eurspa1": {
+      "name": "Épervier d'Europe",
+      "aliases": []
+    },
+    "nohowl": {
+      "name": "Épervière boréale",
+      "aliases": []
+    },
+    "ruegri1": {
+      "name": "Vautour de Rüppell",
+      "aliases": []
+    },
+    "barwar1": {
+      "name": "Fauvette épervière",
+      "aliases": []
+    },
+    "eupowl1": {
+      "name": "Chevêchette d'Europe",
+      "aliases": []
+    },
+    "norpin": {
+      "name": "Canard pilet",
+      "aliases": []
+    },
+    "whrmun": {
+      "name": "Capucin domino",
+      "aliases": []
+    },
+    "shtsan": {
+      "name": "Bécasseau à queue pointue",
+      "aliases": []
+    },
+    "yebpin1": {
+      "name": "Canard à queue pointue",
+      "aliases": []
+    },
+    "bucpar": {
+      "name": "Conure à tête bleue",
+      "aliases": []
+    },
+    "laplon": {
+      "name": "Plectrophane lapon",
+      "aliases": []
+    },
+    "spwgoo1": {
+      "name": "Oie-armée de Gambie",
+      "aliases": []
+    },
+    "spwlap1": {
+      "name": "Vanneau à éperons",
+      "aliases": []
+    },
+    "ricpip1": {
+      "name": "Pipit de Richard",
+      "aliases": []
+    },
+    "thrnig1": {
+      "name": "Rossignol progné",
+      "aliases": []
+    },
+    "whtnee": {
+      "name": "Martinet épineux",
+      "aliases": []
+    },
+    "eursta": {
+      "name": "Étourneau sansonnet",
+      "aliases": []
+    },
+    "goleag": {
+      "name": "Aigle royal",
+      "aliases": []
+    },
+    "rocpar2": {
+      "name": "Perdrix bartavelle",
+      "aliases": []
+    },
+    "litowl1": {
+      "name": "Chevêche d'Athéna",
+      "aliases": []
+    },
+    "gyhbun1": {
+      "name": "Bruant à cou gris",
+      "aliases": []
+    },
+    "rtrthr1": {
+      "name": "Monticole de roche",
+      "aliases": []
+    },
+    "norwhe": {
+      "name": "Traquet motteux",
+      "aliases": []
+    },
+    "rocpet1": {
+      "name": "Moineau soulcie",
+      "aliases": []
+    },
+    "rudtur": {
+      "name": "Tournepierre à collier",
+      "aliases": []
+    },
+    "stonec7": {
+      "name": "Tarier de Stejneger",
+      "aliases": []
+    },
+    "bkwsti": {
+      "name": "Échasse blanche",
+      "aliases": []
+    },
+    "steeag1": {
+      "name": "Aigle des steppes",
+      "aliases": []
+    },
+    "palsan1": {
+      "name": "Syrrhapte paradoxal",
+      "aliases": []
+    },
+    "soclap1": {
+      "name": "Vanneau sociable",
+      "aliases": []
+    },
+    "casgul2": {
+      "name": "Goéland pontique",
+      "aliases": []
+    },
+    "blypip1": {
+      "name": "Pipit de Godlewski",
+      "aliases": []
+    },
+    "oriplo1": {
+      "name": "Pluvier oriental",
+      "aliases": []
+    },
+    "sykwar2": {
+      "name": "Hypolaïs rama",
+      "aliases": []
+    },
+    "palhar1": {
+      "name": "Busard pâle",
+      "aliases": []
+    },
+    "retloo": {
+      "name": "Plongeon catmarin",
+      "aliases": []
+    },
+    "eurgol": {
+      "name": "Chardonneret élégant",
+      "aliases": []
+    },
+    "mallar3": {
+      "name": "Canard colvert",
+      "aliases": []
+    },
+    "rocpip1": {
+      "name": "Pipit maritime",
+      "aliases": []
+    },
+    "crepar1": {
+      "name": "Rouloul couronné",
+      "aliases": []
+    },
+    "bahgoo": {
+      "name": "Oie à tête barrée",
+      "aliases": []
+    },
+    "pagwar1": {
+      "name": "Locustelle de Pallas",
+      "aliases": []
+    },
+    "bkpwar": {
+      "name": "Paruline rayée",
+      "aliases": []
+    },
+    "y00621": {
+      "name": "Hirondelle striolée",
+      "aliases": []
+    },
+    "lanwar": {
+      "name": "Locustelle lancéolée",
+      "aliases": []
+    },
+    "mewgul": {
+      "name": "Goéland cendré",
+      "aliases": []
+    },
+    "bripet": {
+      "name": "Océanite tempête",
+      "aliases": []
+    },
+    "brbsan": {
+      "name": "Bécasseau falcinelle",
+      "aliases": []
+    },
+    "martit2": {
+      "name": "Mésange nonnette",
+      "aliases": []
+    },
+    "sheowl": {
+      "name": "Hibou des marais",
+      "aliases": []
+    },
+    "marwar3": {
+      "name": "Rousserolle verderolle",
+      "aliases": []
+    },
+    "treswa": {
+      "name": "Hirondelle bicolore",
+      "aliases": []
+    },
+    "swiphe1": {
+      "name": "Faisan de Swinhoe",
+      "aliases": []
+    },
+    "swspet": {
+      "name": "Océanite de Swinhoe",
+      "aliases": []
+    },
+    "pieavo1": {
+      "name": "Avocette élégante",
+      "aliases": []
+    },
+    "sthsee2": {
+      "name": "Serin gris",
+      "aliases": []
+    },
+    "swfowl1": {
+      "name": "Petit-duc de Grant",
+      "aliases": []
+    },
+    "sopsku1": {
+      "name": "Labbe de McCormick",
+      "aliases": []
+    },
+    "compoc": {
+      "name": "Fuligule milouin",
+      "aliases": []
+    },
+    "yecbis": {
+      "name": "Euplecte vorabé",
+      "aliases": []
+    },
+    "taifly1": {
+      "name": "Gobemouche de la taïga",
+      "aliases": []
+    },
+    "eurnut3": {
+      "name": "Cassenoix moucheté",
+      "aliases": []
+    },
+    "coatit2": {
+      "name": "Mésange noire",
+      "aliases": []
+    },
+    "wheduc1": {
+      "name": "Fuligule austral",
+      "aliases": []
+    },
+    "commoo3": {
+      "name": "Gallinule poule-d'eau",
+      "aliases": []
+    },
+    "eurwar1": {
+      "name": "Rousserolle effarvatte",
+      "aliases": []
+    },
+    "marsan": {
+      "name": "Chevalier stagnatile",
+      "aliases": []
+    },
+    "temsti": {
+      "name": "Bécasseau de Temminck",
+      "aliases": []
+    },
+    "temtra1": {
+      "name": "Tragopan de Temminck",
+      "aliases": []
+    },
+    "tersan": {
+      "name": "Chevalier bargette",
+      "aliases": []
+    },
+    "redpha1": {
+      "name": "Phalarope à bec large",
+      "aliases": []
+    },
+    "lessap1": {
+      "name": "Pluvier du Tibet",
+      "aliases": []
+    },
+    "humwar1": {
+      "name": "Pouillot de Hume",
+      "aliases": []
+    },
+    "camwar": {
+      "name": "Paruline tigrée",
+      "aliases": []
+    },
+    "grypar10": {
+      "name": "Perroquet timneh",
+      "aliases": []
+    },
+    "razorb": {
+      "name": "Petit Pingouin",
+      "aliases": []
+    },
+    "blksco1": {
+      "name": "Macreuse noire",
+      "aliases": []
+    },
+    "cargra1": {
+      "name": "Quiscale merle",
+      "aliases": []
+    },
+    "eupfly1": {
+      "name": "Gobemouche noir",
+      "aliases": []
+    },
+    "blkter": {
+      "name": "Guifette noire",
+      "aliases": []
+    },
+    "eutkne1": {
+      "name": "Oedicnème criard",
+      "aliases": []
+    },
+    "trista1": {
+      "name": "Rufipenne de Tristram",
+      "aliases": []
+    },
+    "truswa": {
+      "name": "Cygne trompette",
+      "aliases": []
+    },
+    "commur": {
+      "name": "Guillemot marmette",
+      "aliases": []
+    },
+    "turvul": {
+      "name": "Urubu à tête rouge",
+      "aliases": []
+    },
+    "wiltur": {
+      "name": "Dindon sauvage",
+      "aliases": []
+    },
+    "eaywag": {
+      "name": "Bergeronnette de Béringie",
+      "aliases": []
+    },
+    "pagplo": {
+      "name": "Pluvier fauve",
+      "aliases": []
+    },
+    "tunbeg1": {
+      "name": "Oie de la toundra",
+      "aliases": []
+    },
+    "lobdow": {
+      "name": "Bécassin à long bec",
+      "aliases": []
+    },
+    "eurkes": {
+      "name": "Faucon crécerelle",
+      "aliases": []
+    },
+    "eutdov": {
+      "name": "Tourterelle des bois",
+      "aliases": []
+    },
+    "greyel": {
+      "name": "Grand Chevalier",
+      "aliases": []
+    },
+    "spocra1": {
+      "name": "Marouette ponctuée",
+      "aliases": []
+    },
+    "eucdov": {
+      "name": "Tourterelle turque",
+      "aliases": []
+    },
+    "bktgod": {
+      "name": "Barge à queue noire",
+      "aliases": []
+    },
+    "banswa": {
+      "name": "Hirondelle de rivage",
+      "aliases": []
+    },
+    "eueowl1": {
+      "name": "Grand-duc d'Europe",
+      "aliases": []
+    },
+    "pllwar1": {
+      "name": "Pouillot à pattes claires",
+      "aliases": []
+    },
+    "orwpar": {
+      "name": "Amazone aourou",
+      "aliases": []
+    },
+    "mulpar1": {
+      "name": "Perruche multicolore",
+      "aliases": []
+    },
+    "grhowl": {
+      "name": "Grand-duc d'Amérique",
+      "aliases": []
+    },
+    "norbob": {
+      "name": "Colin de Virginie",
+      "aliases": []
+    },
+    "fieldf": {
+      "name": "Grive litorne",
+      "aliases": []
+    },
+    "grnwar1": {
+      "name": "Pouillot du Caucase",
+      "aliases": []
+    },
+    "comqua1": {
+      "name": "Caille des blés",
+      "aliases": []
+    },
+    "corcra": {
+      "name": "Râle des genêts",
+      "aliases": []
+    },
+    "rusbun": {
+      "name": "Bruant rustique",
+      "aliases": []
+    },
+    "eurtre1": {
+      "name": "Grimpereau des bois",
+      "aliases": []
+    },
+    "woothr": {
+      "name": "Grive des bois",
+      "aliases": []
+    },
+    "tawowl1": {
+      "name": "Chouette hulotte",
+      "aliases": []
+    },
+    "woowar": {
+      "name": "Pouillot siffleur",
+      "aliases": []
+    },
+    "loeowl": {
+      "name": "Hibou moyen-duc",
+      "aliases": []
+    },
+    "olbpip": {
+      "name": "Pipit à dos olive",
+      "aliases": []
+    },
+    "waldra1": {
+      "name": "Ibis chauve",
+      "aliases": []
+    },
+    "taibeg1": {
+      "name": "Oie des moissons",
+      "aliases": []
+    },
+    "eurwoo": {
+      "name": "Bécasse des bois",
+      "aliases": []
+    },
+    "grnsan": {
+      "name": "Chevalier cul-blanc",
+      "aliases": []
+    },
+    "amerob": {
+      "name": "Merle d'Amérique",
+      "aliases": []
+    },
+    "perfal": {
+      "name": "Faucon pèlerin",
+      "aliases": []
+    },
+    "arcwar1": {
+      "name": "Pouillot boréal",
+      "aliases": []
+    },
+    "wawduc1": {
+      "name": "Dendrocygne à lunules",
+      "aliases": []
+    },
+    "whtdip1": {
+      "name": "Cincle plongeur",
+      "aliases": []
+    },
+    "watrai1": {
+      "name": "Râle d'eau",
+      "aliases": []
+    },
+    "soppet1": {
+      "name": "Pétrel soyeux",
+      "aliases": []
+    },
+    "yebbun": {
+      "name": "Bruant auréole",
+      "aliases": []
+    },
+    "comyel": {
+      "name": "Paruline masquée",
+      "aliases": []
+    },
+    "wiltit1": {
+      "name": "Mésange boréale",
+      "aliases": []
+    },
+    "veery": {
+      "name": "Grive fauve",
+      "aliases": []
+    },
+    "spaspa1": {
+      "name": "Moineau espagnol",
+      "aliases": []
+    },
+    "whiter2": {
+      "name": "Guifette moustac",
+      "aliases": []
+    },
+    "easpho": {
+      "name": "Moucherolle phébi",
+      "aliases": []
+    },
+    "brnboo": {
+      "name": "Fou brun",
+      "aliases": []
+    },
+    "eyethr": {
+      "name": "Merle obscur",
+      "aliases": []
+    },
+    "whhpig1": {
+      "name": "Pigeon leucomèle",
+      "aliases": []
+    },
+    "whrsan": {
+      "name": "Bécasseau à croupion blanc",
+      "aliases": []
+    },
+    "whrsha": {
+      "name": "Shama à croupion blanc",
+      "aliases": []
+    },
+    "whrswi1": {
+      "name": "Martinet cafre",
+      "aliases": []
+    },
+    "whwter": {
+      "name": "Guifette leucoptère",
+      "aliases": []
+    },
+    "desfin2": {
+      "name": "Roselin de Lichtenstein",
+      "aliases": []
+    },
+    "yebgro1": {
+      "name": "Gros-bec migrateur",
+      "aliases": []
+    },
+    "whtspa": {
+      "name": "Bruant à gorge blanche",
+      "aliases": []
+    },
+    "whtrob3": {
+      "name": "Iranie à gorge blanche",
+      "aliases": []
+    },
+    "whhduc1": {
+      "name": "Érismature à tête blanche",
+      "aliases": []
+    },
+    "baleag": {
+      "name": "Pygargue à tête blanche",
+      "aliases": []
+    },
+    "whhmun1": {
+      "name": "Capucin à tête blanche",
+      "aliases": []
+    },
+    "whncra1": {
+      "name": "Grue à cou blanc",
+      "aliases": []
+    },
+    "whebul1": {
+      "name": "Bulbul à oreillons blancs",
+      "aliases": []
+    },
+    "whctur1": {
+      "name": "Touraco à joues blanches",
+      "aliases": []
+    },
+    "whbvul1": {
+      "name": "Vautour africain",
+      "aliases": []
+    },
+    "whbwoo1": {
+      "name": "Pic à dos blanc",
+      "aliases": []
+    },
+    "whcred1": {
+      "name": "Rougequeue à calotte blanche",
+      "aliases": []
+    },
+    "whtlap1": {
+      "name": "Vanneau à queue blanche",
+      "aliases": []
+    },
+    "whcpar": {
+      "name": "Pione à couronne blanche",
+      "aliases": []
+    },
+    "whisto1": {
+      "name": "Cigogne blanche",
+      "aliases": []
+    },
+    "bargoo": {
+      "name": "Bernache nonnette",
+      "aliases": []
+    },
+    "comwax": {
+      "name": "Astrild ondulé",
+      "aliases": []
+    },
+    "lcspet": {
+      "name": "Océanite cul-blanc",
+      "aliases": []
+    },
+    "budger": {
+      "name": "Perruche ondulée",
+      "aliases": []
+    },
+    "eurwry": {
+      "name": "Torcol fourmilier",
+      "aliases": []
+    },
+    "casplo1": {
+      "name": "Pluvier asiatique",
+      "aliases": []
+    },
+    "euhbuz1": {
+      "name": "Bondrée apivore",
+      "aliases": []
+    },
+    "hoopoe": {
+      "name": "Huppe fasciée",
+      "aliases": []
+    },
+    "meabun1": {
+      "name": "Bruant à longue queue",
+      "aliases": []
+    },
+    "meapip1": {
+      "name": "Pipit farlouse",
+      "aliases": []
+    },
+    "leasan": {
+      "name": "Bécasseau minuscule",
+      "aliases": []
+    },
+    "monhar1": {
+      "name": "Busard cendré",
+      "aliases": []
+    },
+    "wilsni1": {
+      "name": "Bécassine de Wilson",
+      "aliases": []
+    },
+    "wilpha": {
+      "name": "Phalarope de Wilson",
+      "aliases": []
+    },
+    "daejun": {
+      "name": "Junco ardoisé",
+      "aliases": []
+    },
+    "goldcr1": {
+      "name": "Roitelet huppé",
+      "aliases": []
+    },
+    "wfwduc1": {
+      "name": "Dendrocygne veuf",
+      "aliases": []
+    },
+    "sakfal1": {
+      "name": "Faucon sacre",
+      "aliases": []
+    },
+    "hrshaw": {
+      "name": "Buse de Harris",
+      "aliases": []
+    },
+    "trufin2": {
+      "name": "Roselin githagine",
+      "aliases": []
+    },
+    "asdwar1": {
+      "name": "Fauvette naine",
+      "aliases": []
+    },
+    "grsplo": {
+      "name": "Pluvier de Leschenault",
+      "aliases": []
+    },
+    "deswhe1": {
+      "name": "Traquet du désert",
+      "aliases": []
+    },
+    "cirbun1": {
+      "name": "Bruant zizi",
+      "aliases": []
+    },
+    "winwre4": {
+      "name": "Troglodyte mignon",
+      "aliases": []
+    },
+    "zebfin2": {
+      "name": "Diamant mandarin",
+      "aliases": []
+    },
+    "cedwax": {
+      "name": "Jaseur d'Amérique",
+      "aliases": []
+    },
+    "refpar4": {
+      "name": "Perruche de Sparrman",
+      "aliases": []
+    },
+    "comchi1": {
+      "name": "Pouillot véloce",
+      "aliases": []
+    },
+    "cintea": {
+      "name": "Sarcelle cannelle",
+      "aliases": []
+    },
+    "rocbun1": {
+      "name": "Bruant fou",
+      "aliases": []
+    },
+    "zitcis1": {
+      "name": "Cisticole des joncs",
+      "aliases": []
+    },
+    "citwag": {
+      "name": "Bergeronnette citrine",
+      "aliases": []
+    },
+    "citfin1": {
+      "name": "Venturon montagnard",
+      "aliases": []
+    },
+    "booeag1": {
+      "name": "Aigle botté",
+      "aliases": []
+    },
+    "litbun": {
+      "name": "Bruant nain",
+      "aliases": []
+    },
+    "resmac2": {
+      "name": "Ara noble",
+      "aliases": []
+    },
+    "litcur": {
+      "name": "Courlis nain",
+      "aliases": []
+    },
+    "litbit1": {
+      "name": "Blongios nain",
+      "aliases": []
+    },
+    "lesfla1": {
+      "name": "Flamant nain",
+      "aliases": []
+    },
+    "lwfgoo": {
+      "name": "Oie naine",
+      "aliases": []
+    },
+    "cacgoo1": {
+      "name": "Bernache de Hutchins",
+      "aliases": []
+    },
+    "swathr": {
+      "name": "Grive à dos olive",
+      "aliases": []
+    },
+    "litgul": {
+      "name": "Mouette pygmée",
+      "aliases": []
+    },
+    "eursco1": {
+      "name": "Petit-duc scops",
+      "aliases": []
+    },
+    "pygcor2": {
+      "name": "Cormoran pygmée",
+      "aliases": []
+    },
+    "rosgoo": {
+      "name": "Oie de Ross",
+      "aliases": []
+    },
+    "jacsni": {
+      "name": "Bécassine sourde",
+      "aliases": []
+    },
+    "rebfly": {
+      "name": "Gobemouche nain",
+      "aliases": []
+    },
+    "tunswa": {
+      "name": "Cygne siffleur",
+      "aliases": []
+    },
+    "litter1": {
+      "name": "Sterne naine",
+      "aliases": []
+    },
+    "litsti": {
+      "name": "Bécasseau minute",
+      "aliases": []
+    },
+    "purgal2": {
+      "name": "Talève violacée",
+      "aliases": []
+    },
+    "baicra1": {
+      "name": "Marouette de Baillon",
+      "aliases": []
+    },
+    "smew": {
+      "name": "Harle piette",
+      "aliases": []
+    },
+    "litgre1": {
+      "name": "Grèbe castagneux",
+      "aliases": []
+    },
+    "litbus1": {
+      "name": "Outarde canepetière",
+      "aliases": []
+    },
+    "briter1": {
+      "name": "Sterne bridée",
+      "aliases": []
+    },
+    "grepea1": {
+      "name": "Paon spicifère",
+      "aliases": []
+    }
+  }
+}

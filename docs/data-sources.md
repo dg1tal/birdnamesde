@@ -30,7 +30,7 @@ a description without a dedication into evidence for one.
 The closed disclosure appears below lookup names, in introductions, and after
 grading/revealing an answer. It never appears alongside an unanswered question or
 answer choices. Study uses the session's question language; lookup uses its title
-language. Finnish and scientific-name questions/titles fall back to the interface language.
+language. French, Finnish and scientific-name questions/titles fall back to the interface language.
 All three prose languages are independent of the German/English interface.
 Source titles retain their original language. Loading failures omit this optional
 content without affecting lessons. A changed scientific combination cannot reuse
@@ -80,6 +80,7 @@ daily Pages refresh. To regenerate from the reviewed source workbook:
 python3 scripts/build-catalog.py --workbook /tmp/birdnames-v2025.xlsx --countries data/catalog-country-lists.json
 python3 scripts/build-name-language.py --language nl --column Dutch
 python3 scripts/build-name-language.py --language fi --column Finnish
+python3 scripts/build-name-language.py --language fr --column French
 python3 scripts/validate-data.py
 ```
 

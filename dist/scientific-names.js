@@ -1,4 +1,4 @@
-import {primaryName} from './name-languages.js?v=20261112-finnish1';
+import {primaryName} from './name-languages.js?v=20261113-french1';
 const LANGUAGES=['de','en','nl'];
 const object=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
 const own=(value,key)=>Object.prototype.hasOwnProperty.call(value,key);
