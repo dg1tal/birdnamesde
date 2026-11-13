@@ -918,3 +918,10 @@ body.studying .study-notes a{float:none;font-size:inherit;margin:0}
  body.studying .study-notes .scientific-origin dd{padding-top:0}
  body.studying .study-notes .study-note-links{padding:10px 14px}
 }
+
+
+/* Displaying a vernacular name does not make it an unambiguous quiz answer. */
+body.studying .study-ambiguous-names strong{font-size:18px;font-weight:600}
+body.studying .study-ambiguous-names .name-ambiguity{font-size:12px;color:var(--muted);font-weight:500}
+body.studying .study-ambiguous-names .form-note{font-size:12px;line-height:1.6;margin:0;font-weight:400;color:var(--muted)}
+body.studying .study-source-aliases>.study-german-alternatives+.study-german-alternatives{padding-top:12px;margin-top:12px;border-top:1px solid var(--line)}

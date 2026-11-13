@@ -65,3 +65,29 @@ Browser checks covered 320px and 390px phone layouts and desktop, light and dark
 themes, with no horizontal document overflow in the reviewed states. Physical
 mobile keyboards and screenreader speech were not retested. All Node suites,
 47 Python tests, syntax, data reproducibility and image checks passed.
+
+## Complete German-alternative display audit
+
+The Haussperling/Spatz discrepancy came from reusing the accepted-answer list for
+visible German alternatives. Spatz is documented as a current but ambiguous
+vernacular name; Mauersegler/Turmschwalbe is an unambiguous alternative. Two other
+current alternatives have the same ambiguity flag: Grünfink/Grünling and
+Turmfalke/Rüttelfalke.
+
+All three now appear without opening a disclosure when German is a question or
+answer language. They sit outside the accepted-answer block, visibly labelled
+ambiguous, with a short explanation that they are not unambiguous quiz answers.
+The answer-acceptance policy and historical-name qualifications are preserved.
+
+An exhaustive renderer audit covers all 47 current German alternatives across
+34 species, both learning directions, both interface languages and every other
+registered target language plus codes. It asserts that the names occur outside
+any disclosure, ambiguity is labelled, unrelated language pairs do not acquire
+German names, and showing an ambiguous name does not change accepted answers.
+
+Browser verification at 390px additionally checked Haussperling/Spatz and
+Mauersegler/Turmschwalbe through introductions, revealed flashcards and graded
+feedback. Spatz was outside every disclosure for both DE → EN and EN → DE,
+visibly marked ambiguous, while the accepted German answer remained Haussperling.
+The reviewed phone states had no document-width overflow. All Node/Python suites,
+syntax, data reproducibility, image and whitespace checks passed.

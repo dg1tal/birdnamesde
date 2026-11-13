@@ -181,3 +181,44 @@ for(const english of [false,true]){
  assert.equal(depth,0);
 }
 console.log('PASS: German alternatives visible in both learning directions, historical names labelled separately, and flat species/context disclosures.');
+
+// Audit every documented current German alternative, independently of answer acceptance.
+let alternativeCount=0,speciesWithAlternatives=0;
+for(const bird of birds){
+ const alternatives=(bird.germanNames||[]).filter(n=>n.status==='alternative');
+ if(!alternatives.length)continue;
+ speciesWithAlternatives++;alternativeCount+=alternatives.length;
+ for(const english of [false,true]){
+  markupContext.english=english;
+  for(const otherLanguage of ['en','nl','fr','fi','sci','code']){
+   const sourceVisible=markupContext.studyDetailsMarkup(bird,otherLanguage,'de');
+   const targetVisible=markupContext.nameAnswerMarkup(bird,'de')+markupContext.studyDetailsMarkup(bird,'de',otherLanguage);
+   for(const visible of [sourceVisible,targetVisible]){
+    assert(!visible.includes('<details'),'German names must not depend on a disclosure');
+    for(const name of alternatives){
+     assert(visible.includes(escape(name.name)),`${bird.de}: ${name.name} missing from visible ${otherLanguage}/de reference`);
+     if(name.ambiguous)assert(visible.includes(english?'ambiguous':'mehrdeutig'));
+    }
+   }
+  }
+  // An unrelated language pair must not gain German alternatives merely from the UI locale.
+  assert(!markupContext.studyDetailsMarkup(bird,'en','nl').includes('study-source-aliases'));
+ }
+ for(const name of alternatives.filter(n=>n.ambiguous)){
+  assert(!acceptedNames(bird,'de').includes(name.name));
+  assert(!answerSpecies(birds,'de',name.name,'en').includes(bird),'Display must not broaden accepted German answers');
+ }
+}
+assert.equal(alternativeCount,47);assert(speciesWithAlternatives>25);
+for(const [birdName,alias]of [['Haussperling','Spatz'],['Grünfink','Grünling'],['Turmfalke','Rüttelfalke'],['Mauersegler','Turmschwalbe']]){
+ const bird=birds.find(b=>b.de===birdName);
+ for(const [target,source]of [['en','de'],['de','en']]){
+  const visible=markupContext.nameAnswerMarkup(bird,target)+markupContext.studyDetailsMarkup(bird,target,source);
+  assert(visible.includes(alias));assert(!visible.includes('<details'));
+ }
+}
+const unsafeVariant={...blackbird,germanNames:[...blackbird.germanNames,{name:'<script>ambiguous</script>',status:'alternative',ambiguous:true,region:'<img>'}]};
+const safeVariant=markupContext.studyDetailsMarkup(unsafeVariant,'en','de');
+assert(safeVariant.includes('Schwarzdrossel'));assert(safeVariant.includes('&lt;script&gt;'));
+assert(!safeVariant.includes('<script>'));assert(!safeVariant.includes('<img>'));
+console.log(`PASS: all ${alternativeCount} documented German alternatives across ${speciesWithAlternatives} species are visible in both learning directions and both interface languages; ambiguity labels, unrelated pairs and answer acceptance stay correct.`);

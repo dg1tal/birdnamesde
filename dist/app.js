@@ -317,9 +317,13 @@ function nameAnswerMarkup(s,target){
  if(target==='code')return codeGroups(s,true,true);
  return `<p class="answer-main">${target==='en'&&s.enGB?'<span class="variant-label">US</span> ':''}${nameMarkup(s,target)}</p>${nameVariants(s,target,true)}`;
 }
+function ambiguousGermanStudyNames(s){
+ const names=(s.germanNames||[]).filter(n=>n.status==='alternative'&&n.ambiguous);if(!names.length)return '';
+ return `<div class="study-german-alternatives study-ambiguous-names"><span class="muted">${english?'Alternative German names:':'Alternative deutsche Namen:'}</span>${names.map(n=>`<span><strong data-name-content lang="de">${esc(n.name)}</strong>${n.region?' <span class="muted">('+esc(t(n.region))+')</span>':''} <span class="name-ambiguity">(${english?'ambiguous':'mehrdeutig'})</span></span>`).join('')}<p class="form-note">${english?'These names can also refer to other species and are not accepted as unambiguous answers.':'Diese Namen können auch andere Arten bezeichnen und gelten nicht als eindeutige Antwort.'}</p></div>`;
+}
 function studyDetailsMarkup(s,target,sourceLanguage,showCodes=false){
  const reference=target==='sci'?'':`<p class="reference-name"><span class="card-language-label">${esc(languageLabel('sci',english?'en':'de'))}</span>${nameMarkup(s,'sci')}</p>`;
- const alternatives=sourceLanguage==='de'&&target!=='de'?nameVariants(s,'de',true):'';
+ const alternatives=(sourceLanguage==='de'&&target!=='de'?nameVariants(s,'de',true):'')+((sourceLanguage==='de'||target==='de')?ambiguousGermanStudyNames(s):'');
  const german=alternatives?`<div class="study-source-aliases">${alternatives}</div>`:'';
  return `<div class="study-reference">${german}${reference}${showCodes&&target!=='code'?`<div class="study-reference-codes"><p class="card-language-label">${english?'eBird entry codes':'eBird-Kurzcodes'}</p>${codeGroups(s,false,true)}</div>`:''}</div>`;
 }
