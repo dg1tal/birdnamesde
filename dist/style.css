@@ -847,3 +847,74 @@ footer a:hover{text-decoration:underline}
 }
 @media(max-width:580px){#setup select{font-size:16px}}
 @media(max-width:480px){#shared-settings .name-language-settings .settings{grid-template-columns:1fr}}
+
+/* Answer cards: one name block, then flat, equally weighted reference topics. */
+body.studying .feedback{gap:18px;padding:0;border:0;background:transparent;text-align:left}
+body.studying .feedback-result{gap:6px;padding:0 0 14px}
+body.studying .feedback-answer{padding:16px;background:var(--soft);border-radius:12px;gap:8px}
+body.studying .feedback .answer-main{margin:0;font-size:clamp(24px,4vw,30px);text-align:left}
+body.studying .feedback .name-variant{text-align:left;margin:0}
+body.studying .feedback .answer-label{font-size:12px;letter-spacing:.02em}
+body.studying .feedback-details{gap:0}
+body.studying .study-reference{display:grid;gap:14px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--panel);text-align:left;font-size:14px;min-width:0}
+body.studying .study-reference:empty{display:none}
+body.studying .study-reference .reference-name{margin:0;font-size:16px;text-align:left}
+body.studying .study-reference .card-language-label{margin-bottom:5px}
+body.studying .study-source-aliases+.reference-name{padding-top:12px;border-top:1px solid var(--line)}
+body.studying .study-reference-codes{padding-top:12px;border-top:1px solid var(--line)}
+body.studying .study-source-aliases:empty{display:none}
+body.studying .study-german-alternatives{display:grid;gap:5px;text-align:left;line-height:1.5}
+body.studying .study-german-alternatives>.muted{font-size:12px;font-weight:600}
+body.studying .study-german-alternatives>[data-name-content]{font-size:18px;font-weight:600}
+body.studying .feedback-answer .study-german-alternatives{padding-top:10px;border-top:1px solid var(--line)}
+body.studying .study-reference-codes .species-codes-compact{align-items:flex-start;text-align:left;margin:0;padding:0;border:0}
+body.studying .study-reference-codes .species-code-items{justify-content:flex-start}
+body.studying .study-reference-codes .code-collisions{width:100%;padding-top:0}
+body.studying #revealed-answer .study-reference{margin:16px 0}
+body.studying .introduction>.study-reference{margin:8px 0}
+body.studying .study-notes{min-width:0;width:100%;text-align:left;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--panel);margin:4px 0 0}
+body.studying .study-notes>details{margin:0;padding:0;border:0;border-bottom:1px solid var(--line);font-size:14px;color:var(--ink)}
+body.studying .study-notes>details>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;list-style:none;min-height:52px;padding:14px 16px;color:var(--ink);font-size:14px;font-weight:600;line-height:1.45;cursor:pointer}
+body.studying .study-notes>details>summary::-webkit-details-marker{display:none}
+body.studying .study-notes>details>summary::after{content:'';width:8px;height:8px;flex:none;margin-right:3px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:rotate(45deg)}
+body.studying .study-notes>details[open]>summary::after{transform:rotate(225deg)}
+body.studying .study-notes>details[open]>summary{background:var(--soft)}
+body.studying .study-notes>details>summary:focus-visible{outline-offset:-4px;border-radius:8px}
+body.studying .study-notes .scientific-origin-content,body.studying .study-note-content,body.studying .study-notes .question-explanation .learning-feedback{padding:16px;border:0;display:grid;gap:14px;text-align:left}
+body.studying .study-notes .scientific-origin-name{font-size:18px;margin:0;padding-bottom:10px;border-bottom:1px solid var(--line);text-align:left}
+body.studying .study-notes .scientific-origin dl{display:grid;gap:0;margin:0}
+body.studying .study-notes .scientific-origin dl>div{display:grid;grid-template-columns:minmax(100px,.8fr) minmax(0,2fr);gap:16px;padding:12px 0;align-items:start}
+body.studying .study-notes .scientific-origin dl>div+div{border-top:1px solid var(--line)}
+body.studying .study-notes .scientific-origin dt{font-size:16px;line-height:1.5}
+body.studying .study-notes .origin-part-label{font-size:11px;line-height:1.5;margin-bottom:3px;font-weight:500}
+body.studying .study-notes .scientific-origin dd{font-size:14px;line-height:1.6;margin:0;padding-top:19px}
+body.studying .study-notes .origin-note{font-size:12px;line-height:1.6;margin:0;padding-top:8px;border-top:1px solid var(--line)}
+body.studying .study-notes .origin-sources{font-size:12px;line-height:1.6;display:grid;gap:4px;margin:0;overflow-wrap:anywhere}
+body.studying .study-notes .origin-sources>span{font-weight:600;color:var(--muted)}
+body.studying .study-notes .origin-supplementary-sources{font-size:12px;margin:0;line-height:1.6;padding-left:18px}
+body.studying .study-notes .origin-supplementary-sources li+li{margin-top:8px}
+body.studying .study-name-entries{list-style:none;margin:0;padding:0;display:grid;gap:16px}
+body.studying .study-name-entries>li{display:grid;gap:8px;min-width:0}
+body.studying .study-name-entries>li+li{padding-top:16px;border-top:1px solid var(--line)}
+body.studying .study-name-entry-title{display:grid;gap:3px}
+body.studying .study-name-entry-title strong{font-size:17px;font-weight:600}
+body.studying .study-name-entry-title>.muted{font-size:12px}
+body.studying .study-name-entries p{font-size:14px;line-height:1.6;margin:0;text-align:left}
+body.studying .study-name-entries .study-name-entry-sources{font-size:12px;overflow-wrap:anywhere}
+body.studying .study-notes .question-explanation .learning-feedback{font-size:14px;line-height:1.6}
+body.studying .study-notes .learning-feedback p{margin:0;text-align:left}
+body.studying .study-notes .study-note-links{margin:0;padding:12px 16px;font-size:13px;text-align:left;line-height:1.5}
+body.studying .study-note-links a{display:inline-flex;align-items:center;min-height:32px}
+body.studying .study-note-codes{padding:16px;border-bottom:1px solid var(--line)}
+body.studying .study-note-codes .species-codes-compact{align-items:flex-start;text-align:left}
+body.studying .study-note-codes .species-code-items{justify-content:flex-start}
+body.studying .study-notes a{float:none;font-size:inherit;margin:0}
+@media(max-width:580px){
+ body.studying .feedback{gap:16px;padding:0}
+ body.studying .feedback-answer{padding:14px}
+ body.studying .study-notes>details>summary{padding:13px 14px;min-height:52px}
+ body.studying .study-notes .scientific-origin-content,body.studying .study-note-content,body.studying .study-notes .question-explanation .learning-feedback{padding:14px}
+ body.studying .study-notes .scientific-origin dl>div{grid-template-columns:1fr;gap:6px}
+ body.studying .study-notes .scientific-origin dd{padding-top:0}
+ body.studying .study-notes .study-note-links{padding:10px 14px}
+}
