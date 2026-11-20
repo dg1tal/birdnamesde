@@ -14,3 +14,11 @@ for(const en of [false,true]){
 }
 assert.equal(METHOD_SOURCES.length,7);
 console.log('PASS: independent bilingual learning-method route, all primary references, qualified research claims and product-rule distinction.');
+
+for(const english of [false,true]){
+ const html=renderLearningMethod(english);
+ assert(html.includes('class="page-navigation"'));
+ const links=[...html.matchAll(/href="#lernmethode\/(method-[a-z]+)"/g)];
+ assert.equal(links.length,7);
+ for(const [,id]of links)assert(html.includes(`id="${id}"`));
+}
