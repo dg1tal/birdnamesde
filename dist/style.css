@@ -925,3 +925,52 @@ body.studying .study-ambiguous-names strong{font-size:18px;font-weight:600}
 body.studying .study-ambiguous-names .name-ambiguity{font-size:12px;color:var(--muted);font-weight:500}
 body.studying .study-ambiguous-names .form-note{font-size:12px;line-height:1.6;margin:0;font-weight:400;color:var(--muted)}
 body.studying .study-source-aliases>.study-german-alternatives+.study-german-alternatives{padding-top:12px;margin-top:12px;border-top:1px solid var(--line)}
+
+/* Shared mobile controls and readable information pages across every route. */
+:root{--select-chevron:url("select-chevron.svg")}
+body.dark{--select-chevron:url("select-chevron-dark.svg")}
+select{appearance:none;background-image:var(--select-chevron);background-repeat:no-repeat;background-position:right 12px center;background-size:16px;padding-right:36px}
+.app-view:has(>.information-page){max-width:820px;margin-inline:auto}
+.information-page{overflow-wrap:anywhere}
+.information-page>.intro{font-size:1rem;line-height:1.6}
+.information-page>section{margin-top:20px}
+.page-navigation{padding:8px 16px;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);margin:20px 0}
+.page-navigation>summary{font-size:14px;font-weight:650;color:var(--accent)}
+.page-navigation ul{list-style:none;padding:0;margin:8px 0}
+.page-navigation li{margin:0;border-top:1px solid var(--line)}
+.page-navigation a{display:flex;align-items:center;min-height:44px;padding:10px 0;font-size:14px;line-height:1.5;text-decoration:none}
+.page-navigation a:hover{text-decoration:underline}
+.information-page h2{scroll-margin-top:20px}
+.saved-list-navigation{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.saved-list-navigation .button-link{padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);font-size:14px;text-decoration:none}
+.round-help{margin-top:18px;border-top:1px solid var(--line);padding-top:4px;font-size:14px;color:var(--muted)}
+.round-help>summary{font-weight:600}
+.round-help>p{line-height:1.6}
+#back-from-settings{margin-top:8px}
+.standalone-information{max-width:820px;overflow-wrap:anywhere}
+.standalone-navigation{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;margin:0 0 18px}
+.standalone-navigation a{display:inline-flex;align-items:center;min-height:44px}
+.standalone-information>h2{margin-top:28px}
+.standalone-information .seasonal-coverage{border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+@media(max-width:580px){
+ #setup .primary-settings select,#setup .name-language-settings .field select,#saved-practice select,.backup-step input[type=file]{font-size:1rem}
+ #setup select,#lookup-filter-options select,.stats-settings select,#saved-practice select{padding-right:36px}
+ .card .name-sources>summary,.photo-credit>summary{min-height:44px;padding-top:10px;padding-bottom:10px}
+ .saved-list-navigation{flex-direction:column;align-items:stretch}
+ .saved-list-navigation a{justify-content:flex-start}
+ .information-page>section{padding:18px 16px}
+ .page-navigation{padding-inline:14px}
+}
+@media(max-width:480px){
+ #lookup-filter-options .lookup-filters,#lookup-filter-options .region-settings .settings{grid-template-columns:1fr}
+ .lookup-options .lookup-name-options fieldset{grid-template-columns:1fr}
+}
+@media(forced-colors:active){select{appearance:auto;background-image:none}}
+/* A long species name must leave the photo dialog's close control reachable. */
+.dialog-header{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start}
+.dialog-header h2{min-width:0;overflow-wrap:anywhere;line-height:1.35}
+@media(max-width:359px){
+ .dialog-header{grid-template-columns:1fr;gap:8px}
+ .dialog-header button{grid-row:1;justify-self:end}
+ .dialog-header h2{grid-row:2}
+}

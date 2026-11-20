@@ -59,3 +59,11 @@ console.log('PASS: EBD release, data-derived seasonal coverage, downloadable sou
 
 for(const html of [en,de])assert(!/Species packages|Artenpakete|without a regional filter|Ohne Regionsfilter/.test(html));
 assert(en.includes('source taxa that cannot be mapped to v2025 species'));assert(de.includes('nicht auf v2025-Arten abbildbare Quelltaxa'));
+
+// Every overview link addresses an existing heading through the app router.
+for(const html of [en,de]){
+ assert(html.includes('class="page-navigation"'));
+ for(const [,id]of html.matchAll(/href="#info\/(info-[a-z]+)"/g))assert(html.includes(`id="${id}"`));
+ assert.equal([...html.matchAll(/href="#info\/info-/g)].length,8);
+ assert(!html.includes('class="panel information-page"'));
+}

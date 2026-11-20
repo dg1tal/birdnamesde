@@ -118,6 +118,8 @@ Planmäßig wieder fällig in zehn Minuten.|Next scheduled review in ten minutes
 Zusätzlich in dieser Runde.|Also repeated in this round.
 Mit Hinweis beantwortet.|Answered with a hint.
 Weiter →|Next →
+Weiter|Next
+Runde fortsetzen|Resume round
 Arten begonnen|Species started
 Englische Namen beherrscht|German names mastered
 Codes beherrscht|Codes mastered
