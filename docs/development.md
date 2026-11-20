@@ -2,6 +2,8 @@
 
 [Back to the README](../README.md)
 
+Reviewed against commit `62f79cb` on 20 November 2026.
+
 Paths in code examples are relative to the repository root. UI labels use the English interface. Dated review reports retain their release-specific results; the thematic guides describe the documented current behavior.
 
 ## Application modules
@@ -15,7 +17,13 @@ Paths in code examples are relative to the repository root. UI labels use the En
 - `dist/learning-selection-copy.js`: shared species-selection and daily introduction wording.
 - `dist/app.js`: lookup, daily/custom learning, text/flashcard/direct-choice/think-first answers, IndexedDB persistence, statistics, JSON export/import and theme.
 - `dist/study-state.js`: serializable lesson recovery, single grading and separate first-question/retry progress.
-- `dist/style.css`: responsive layout and dark mode.
+- `dist/style.css`: shared responsive layout, light/dark themes and mobile controls.
+- `dist/lookup-settings.js`: persisted geography, title/sort language and additional-name selection.
+- `dist/backup-file.js`: bounded JSON/gzip backup encoding and decoding.
+- `dist/progress-validation.js`: shared record, method-context and daily-ledger validation.
+- `dist/usability-state.js`: saved-species validation and reversible round-ending state.
+- `dist/scientific-names.js` and `dist/scientific-name-aliases.js`: exact-name explanations and reviewed 2026 display/answer aliases.
+- `dist/standalone-page.js`: theme handling on the generated seasonal-method page.
 - `dist/validation.json`: complete machine validation result, code collisions and limitations.
 
 ## Checks
@@ -89,6 +97,12 @@ The initial HTML has a meaningful heading, four original hash-route containers a
 The [public WAVE report](https://wave.webaim.org/report#/https://dg1tal.github.io/birdnamesde/) originally found 0 errors, 0 contrast errors and 6 alerts (one heading-structure alert and five broken same-page targets). After deployment, a rerun found 0 errors, 0 contrast errors and 1 alert: the intentional `noscript` element explaining the JavaScript requirement in both languages. All six original alerts were resolved.
 
 The report frame contained no scripts and an unloaded stylesheet (`link.sheet` was null). Its heading/fragment findings concern the initial document; its contrast result does not assess the application palette. The live quiz, feedback, backup interactions and styled contrast require separate checks. WebAIM recommends its browser extension for dynamic content. Initial descriptions and noscript guidance do not make the app work without JavaScript.
+
+## Current UI and screenshot verification
+
+The current layout uses a shared bird mark, navigation icons, view headings, surfaces and controls in both themes. Phones group language/theme controls under **Display**, stack narrow filters and use 16px form text. Image credits/name-source disclosures have touch-sized targets. Information pages have collapsible contents lists; native dialogs keep Close reachable even with long species names. The generated seasonal page shares theme handling and keeps wide tables internally scrollable.
+
+See [the app-wide 20 November review](ui-review-20261120.md) and [the README capture/review record](documentation-review-20261120.md). The latter records fresh viewport screenshots, not a repeat of every earlier device-size or accessibility check.
 
 ## Earlier UI reviews
 
