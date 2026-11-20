@@ -2,6 +2,8 @@
 
 [Back to the README](../README.md)
 
+Reviewed against commit `62f79cb` on 20 November 2026.
+
 Paths in code examples are relative to the repository root. UI labels use the English interface. Dated review reports retain their release-specific results; the thematic guides describe the documented current behavior.
 
 ## GitHub Pages
@@ -18,7 +20,7 @@ Learning progress is stored per browser origin. Before switching domains, open *
 
 The generated `dist/regions.json` contains public region labels, matched species IDs, total returned taxon counts and per-list fetch timestamps. It is generated during deployment, not committed. The browser never sends a request to eBird. The updater loads the previous public Pages snapshot without credentials and retains successful lists independently if a refresh fails; a failed region discovery or completely unusable first snapshot stops deployment. Credentials are sent only to the fixed HTTPS eBird API origin, and redirects are rejected. Response bodies and credential-bearing exceptions are not logged. Only allowlisted fields can be copied from the previous snapshot. A list older than three days is visibly marked in the UI.
 
-Lookup has an independently remembered optional region filter with all-time or recent-30-day records; its former vocabulary-level filter has been removed. Learning region and list mode persist with the shared study settings. Regional discovery intersects species-group and name-availability filters; custom practice also applies its progress filter. Every new learning selection requires a country or region; missing geography never enables unrestricted learning. Missing or empty regional lists prevent introductions/custom questions from that selection; daily due reviews of started targets remain available. Regional custom-practice distractors use the saved regional membership, while daily-round distractors can come from the whole eligible catalogue. Paused lessons preserve their original queue. Daily regional data does not automatically change the reviewed catalogue; progress/export compatibility follows the [version-2 learning model](learning-and-storage.md#learning-progress-terminology).
+Lookup has an independently remembered optional region filter with all-time or recent-30-day records; its former vocabulary-level filter has been removed. Learning region and list mode persist with the shared study settings. Regional discovery intersects species-group and name-availability filters; custom practice also applies its progress filter. Every new learning selection requires a country or region; missing geography never enables unrestricted learning. Missing or empty regional lists prevent introductions/custom questions from that selection; daily due reviews of started targets remain available. Regional custom-practice distractors use the saved regional membership, while daily-round distractors can come from the whole eligible catalogue. Paused lessons preserve their original queue. Daily regional data does not automatically change the reviewed catalogue. Version-2 lesson/evidence handling is separate from the current version-3 backup format; see [learning and storage](learning-and-storage.md#backup-and-restore-flow).
 
 Checks: `python3 -m unittest discover -s scripts -p 'test_regions.py'` and `node scripts/test-regions.mjs`. API reference: https://documenter.getpostman.com/view/664302/S1ENwy59?version=latest .
 

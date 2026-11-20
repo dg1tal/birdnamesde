@@ -2,6 +2,8 @@
 
 [Back to the README](../README.md)
 
+Reviewed against commit `62f79cb` on 20 November 2026.
+
 Paths in code examples are relative to the repository root. UI labels use the English interface. Dated review reports retain their release-specific results; the thematic guides describe the documented current behavior.
 
 ## Scientific-name meanings
@@ -97,8 +99,9 @@ refresh. Older paused lessons and progress remain keyed by the same IDs.
 
 Lookup first adopts the learning country (not its subregion), then independently
 remembers its own geography. Existing saved lookup regions are retained. Country
-selection is always visible; the shared catalogue is available under **All
-supported countries**. Optional subregion and 30-day controls apply within one
+selection is available in **Search area and display**; the shared catalogue is
+available under **All supported countries**. Active geography remains visible
+when the controls are collapsed. Optional subregion and 30-day controls apply within one
 country. Reset preserves country and name languages, clearing search, species
 group, subregion and period. Title/sort language and additional name languages are
 independent of geography and study settings. Scientific names and codes remain
@@ -118,11 +121,11 @@ Node/Python suite, data validation, EBD reproducibility and media validation.
 
 ## German alternative and historical names
 
-`dist/german-names.json` adds a sourced editorial overlay without changing the eBird species dataset. Names are separated into current alternatives (including regional and traditional names) and historical attestations, with per-name source and usage notes. `dist/logic.js` includes these names in search; English and code answers retain their existing acceptance rules. Lookup and all answer reveals/feedback share the same centered-in-study display. See [german-names-update-20261022.md](german-names-update-20261022.md) and run `node scripts/test-german-names.mjs`.
+`dist/german-names.json` adds a sourced editorial overlay without changing the eBird species dataset. Names are separated into current alternatives (including regional and traditional names) and historical attestations, with per-name source and usage notes. `dist/logic.js` includes these names in search; English and code answers retain their existing acceptance rules. When German participates in a learning pair, current alternatives appear in the answer/reference area in both directions; ambiguous alternatives are labelled separately from accepted answers. Historical names and their qualifications remain in source disclosures. See [german-names-update-20261022.md](german-names-update-20261022.md) and run `node scripts/test-german-names.mjs`.
 
 ## Code collision audit
 
-The [quick-code policy](#official-quick-code-policy) describes the mixed source versions and accepted scientific-name updates. The stored `sci` field remains the 2025 source key for provenance and media; etymologies explicitly refer to that name. No equivalence is inferred from a shared species ID, code or similar spelling. Concept changes for Spotted Flycatcher, European Robin and Great Horned Owl remain migration decisions for a future taxonomy update. See [the identity review](catalog-identity-review-20261108.md) and [the quality review and fixes](quality-review-20261108.md).
+The [quick-code policy](#official-quick-code-policy) describes the mixed source versions and accepted scientific-name updates. The stored `sci` field remains the 2025 source key for provenance and media; explanations instead match the displayed name from `primaryName(species, 'sci')`, including the eleven reviewed 2026 combinations. The validator and renderer reject stale explanations whose exact name does not match; the original `sci` field is not reused by species ID alone. No concept equivalence is inferred from a shared species ID, code or similar spelling. Concept changes for Spotted Flycatcher, European Robin and Great Horned Owl remain migration decisions for a future taxonomy update. See [the identity review](catalog-identity-review-20261108.md) and [the quality review and fixes](quality-review-20261108.md).
 
 Run `python3 scripts/audit-codes.py` to validate all catalogue code fields against the saved literal source records and regenerate [quick-code-audit.json](quick-code-audit.json). The report lists every ambiguous code, its species and source types. In the current 940-species catalogue, 197 of 1,966 distinct accepted codes match multiple species. There are 42 common-name/banding collisions and 12 scientific/banding collisions (categories can overlap). Adding banding codes to scientific and common-name codes creates 46 additional ambiguous codes; some ambiguities already exist within a single source type. These are catalogue counts, not worldwide counts. Three-letter source entries are outside the app's four-letter code policy.
 

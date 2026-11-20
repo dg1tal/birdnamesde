@@ -6,38 +6,54 @@ Look up bird names and learn them with short, spaced-repetition practice rounds.
 
 ## Features on mobile
 
+Current interface, reviewed on 20 November 2026. The screenshots below use the German interface in a mobile browser viewport.
+
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>Find names across languages</h3>
       <p>Search names and codes, then open a species to compare German, English, Dutch, French, Finnish and scientific names.</p>
-      <a href="docs/screenshots/mobile-lookup.jpg"><img src="docs/screenshots/mobile-lookup.jpg" width="280" alt="Mobile lookup for Blaumeise, showing Eurasian Blue Tit, Pimpelmees and Cyanistes caeruleus"></a>
+      <a href="docs/screenshots/mobile-lookup.jpg"><img src="docs/screenshots/mobile-lookup.jpg" width="280" alt="Expanded mobile lookup card for Blaumeise with English, Dutch, French, Finnish and scientific names plus official codes"></a>
     </td>
     <td width="50%" valign="top">
       <h3>Build a daily learning habit</h3>
       <p>Choose your region, season and languages. Daily rounds introduce a few new targets and bring back scheduled reviews.</p>
-      <a href="docs/screenshots/mobile-daily-learning.jpg"><img src="docs/screenshots/mobile-daily-learning.jpg" width="280" alt="Mobile daily learning setup for German to English, with autumn species from Germany and three new names today"></a>
+      <a href="docs/screenshots/mobile-daily-learning.jpg"><img src="docs/screenshots/mobile-daily-learning.jpg" width="280" alt="Mobile daily round with three new English bird names, collapsed settings and the current German autumn selection"></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>Practise bird names</h3>
       <p>Think first, then reveal the choices. Text input, flashcards and direct multiple choice are also available.</p>
-      <a href="docs/screenshots/mobile-practice.jpg"><img src="docs/screenshots/mobile-practice.jpg" width="280" alt="Mobile German-to-English practice question for Stockente with four answer choices and round progress"></a>
+      <a href="docs/screenshots/mobile-practice.jpg"><img src="docs/screenshots/mobile-practice.jpg" width="280" alt="Mobile German-to-English think-first question for Buntspecht after revealing four answer choices"></a>
     </td>
     <td width="50%" valign="top">
       <h3>Keep track of your progress</h3>
-      <p>See started species, secure learning targets and due reviews by language and method. Back up or restore your browser-local progress.</p>
-      <a href="docs/screenshots/mobile-progress.jpg"><img src="docs/screenshots/mobile-progress.jpg" width="280" alt="Mobile learning statistics after a three-species example round, with language and method selectors and a backup action"></a>
+      <p>View started species, secure learning targets and scheduled reviews using independent language and method selectors.</p>
+      <a href="docs/screenshots/mobile-progress.jpg"><img src="docs/screenshots/mobile-progress.jpg" width="280" alt="Mobile learning statistics after a three-question example round, showing the language and method selectors and next scheduled review"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Understand each answer</h3>
+      <p>Feedback separates the accepted name, scientific reference and official codes. Pictures and their credits follow, with further explanations below.</p>
+      <a href="docs/screenshots/mobile-feedback.jpg"><img src="docs/screenshots/mobile-feedback.jpg" width="280" alt="Correct Buntspecht answer with Great Spotted Woodpecker, Dendrocopos major, official codes and a credited comparison photo"></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Save birds for later</h3>
+      <p>Keep a personal species list and practise it with your choice of languages and answer method.</p>
+      <a href="docs/screenshots/mobile-saved-species.jpg"><img src="docs/screenshots/mobile-saved-species.jpg" width="280" alt="Mobile saved-species list containing Blaumeise and the language and answer-method controls for practising it"></a>
     </td>
   </tr>
 </table>
 
-German interface, captured on 8 November 2026 at 430 × 932 CSS pixels (iPhone-sized viewport). Statistics show a three-question example round. Click an image to view it at full size.
+Captured on 20 November 2026 at 430 × 932 CSS pixels using a separate local preview. Lookup and feedback are scrolled to show their details. Statistics show a completed three-question example round; the next-review date belongs to that example. These are browser viewport captures, not physical-device tests. Click an image to view it at full size.
+
+Photos visible in the feedback screenshot: Charles J. Sharp, [male](https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_male_Drenthe.jpg) and [female](https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_female_Drenthe.jpg) Great Spotted Woodpecker, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
 
 ## Save birds for later practice
 
-Use **Save species** in bird details, then open **Saved species** from Lookup or Learn. A saved-species round uses only that list, independently of regional, seasonal and progress filters. It never replaces an existing paused round.
+Use **Save species** on a species card or in search-result details, then open **Saved species** from Lookup or Learn. A saved-species round uses only that list, independently of regional, seasonal and progress filters. It never replaces an existing paused round.
 
 ## How learning works
 
@@ -47,13 +63,15 @@ Your daily round prioritises due reviews and introduces at most three new names 
 
 Choose text input, flashcards, multiple choice or “Think first”, which initially hides the choices. Photos appear during introductions and after answers when pictures are enabled. Statistics distinguish recognition, free recall and self-assessment; progress in one method or language direction does not automatically count as secure knowledge in another.
 
-The app explains its scheduling rules and research references under **Learning method**. See [learning, languages and storage](docs/learning-and-storage.md) for implementation details.
+German alternatives are visible during introductions, answer reveals and feedback whenever German is the question or answer language. Ambiguous alternatives such as Spatz are labelled and shown separately from accepted answers; historical names and source notes remain available in disclosures.
+
+On phones, **Display** groups interface-language and theme controls. **Learning method** and **Data & privacy** include collapsible contents lists. The app explains its scheduling rules and research references under **Learning method**. See [learning, languages and storage](docs/learning-and-storage.md) for implementation details.
 
 ## Privacy and limits
 
 Learning progress is stored in your browser on your device. There is no authentication, analytics, server-side progress database or automatic account/device sync. Browser privacy settings or storage cleanup can remove local progress.
 
-Use **Statistics → Back up and restore progress** to export a portable backup. Importing a backup replaces the destination browser’s progress after confirmation. Saved species are included in version-3 backups; older backups retain the destination browser’s saved-species list. Other preferences and paused rounds are not included. Before changing browsers or site domains, export from the old location first.
+Use **Statistics → Back up and restore progress** to export a portable backup. Backups use `.json`, or `.json.gz` for large exports when browser compression is available. Importing a checked backup replaces the destination browser’s progress after confirmation. Saved species are included in version-3 backups; older backups retain the destination browser’s saved-species list. Other preferences and paused rounds are not included. Before changing browsers or site domains, export from the old location first.
 
 There is no promised offline mode. The app loads its data and photos from static hosting; regional eBird updates run through GitHub Actions, and the browser does not contact the eBird API. Country-list membership records occurrence, including historical rarities and some introduced or escaped birds; it does not establish breeding status. See the in-app **Data & privacy** page for coverage, source periods and limitations.
 
@@ -75,7 +93,7 @@ CI also runs the complete Node/Python suites, data reproducibility checks and ph
 
 ## Data sources and acknowledgement
 
-Taxonomy and common names use the reviewed eBird/Clements 2025 catalogue. Official quick codes come from the 2026 workbook, with documented exceptions and concept-verified scientific-name updates. National lists cover DE, NL and GB; regional occurrence lists and current notable reports use the eBird API. Scientific-name meanings are short editorial explanations with linked references, principally Jobling (2010). Photos and illustrations have individual source credits and licences.
+Taxonomy and common names use the reviewed eBird/Clements 2025 catalogue. Official quick codes come from the 2026 workbook, with documented exceptions and concept-verified scientific-name updates. National lists cover DE, NL and GB; regional occurrence lists and current notable reports use the eBird API. Scientific-name meanings explain the displayed scientific name, including the reviewed 2026 combinations, with linked references principally from Jobling (2010). Dutch and French cover all 940 species; Finnish covers 933. Missing names exclude a species from the affected learning pair rather than falling back to another language. Photos and illustrations have individual source credits and licences.
 
 **The eBird Basic Dataset (EBD) itself is not included in this repository.**
 Neither the country download archives nor raw observation or sampling-event
@@ -120,5 +138,7 @@ The photos and illustrations in `dist/images/` retain their individual licenses 
 | [Deployment and regional data](docs/deployment-and-regions.md) | GitHub Pages, regional API refresh, seasonal selection and current reports |
 | [Private EBD import](docs/ebd-import.md) | Aggregate calculation, review and activation; raw records remain outside Git |
 | [Search design](docs/search-design-20261108.md) | Multilingual lookup ranking and match provenance |
+| [Current UI review](docs/ui-review-20261120.md) | Mobile navigation, controls, answer cards, contents lists and verification limits |
+| [Documentation and screenshot review](docs/documentation-review-20261120.md) | Current documentation corrections and README capture provenance |
 
 Dated reviews in `docs/` record the scope and results of individual releases. Start with the thematic guides above for current behavior.
