@@ -37,6 +37,7 @@ npm test
 for test in scripts/test-*.mjs; do node "$test" || exit 1; done
 python3 -m unittest discover -s scripts -p 'test_*.py'
 python3 scripts/validate-data.py
+python3 scripts/update-dda.py --check
 python3 scripts/build-scientific-names.py --check
 python3 scripts/build-ebd-seasonal.py --check
 python3 scripts/check-private-ebd.py
@@ -107,3 +108,14 @@ See [the app-wide 20 November review](ui-review-20261120.md) and [the README cap
 ## Earlier UI reviews
 
 See [ui-ux-density-20261030.md](ui-ux-density-20261030.md) for follow-ups reviewed on 4 November, including lookup regions, species packages, regional previews and the current daily-learning flow. See [ui-ux-update-20261021.md](ui-ux-update-20261021.md) for the approved UX scope, storage compatibility and browser verification. Historical learning records are preserved. Current evidence, daily introduction budgets and saved lessons use the [version-2 learning model](learning-and-storage.md#learning-progress-terminology).
+
+## DDA verification (22 November 2026)
+
+The release checks cover all 261 active mappings, exclusion of the deprecated
+source row, case/umlaut answers, separate code-system progress, update fallback,
+changed-definition reviews and frozen paused answers. Isolated Chrome checks
+covered all four answer methods at 1440×1000/light and 390×844/dark in German and
+English, plus mixed lessons, scoped feral/domestic questions, saved-species
+practice, statistics, system switching and unavailable DDA data. Screenshots were
+visually reviewed. The live public DDA updater also passed against the current
+262-row response; no browser-to-DDA API request is needed.

@@ -11,7 +11,7 @@ const learn={sourceLanguage:'de',nameLanguage:'en',target:'en',method:'mc',regio
 const original=structuredClone(learn);
 const stats=statsContext(null,learn);stats.nameLanguage='nl';stats.method='text';
 assert.deepEqual(learn,original);
-assert.deepEqual(statsPracticeSettings(learn,stats),{...learn,sourceLanguage:'de',nameLanguage:'nl',target:'nl',method:'text'});
+assert.deepEqual(statsPracticeSettings(learn,stats),{...learn,sourceLanguage:'de',nameLanguage:'nl',target:'nl',method:'text',codeSystem:'ebird'});
 assert.equal(statsPracticeSettings(learn,{...stats,method:'think'}).method,'mc');
 assert.equal(statsPracticeSettings({...learn,method:'flash'},{...stats,method:'think'}).method,'think');
 const preferences=loadSharedUI({learn,lookup:{}},{getItem:()=>JSON.stringify({learn,stats})},false);

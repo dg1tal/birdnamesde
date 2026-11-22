@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       force_refresh:
-        description: Refresh regional data even if it is less than 24 hours old
+        description: Refresh regional and DDA data even if less than 24 hours old
         type: boolean
         default: false
   schedule:
@@ -50,6 +50,7 @@ jobs:
           for test in scripts/test-*.mjs; do node "$test" || exit 1; done
           python3 -m unittest discover -s scripts -p 'test_*.py'
           python3 scripts/validate-data.py
+          python3 scripts/update-dda.py --check
           python3 scripts/build-scientific-names.py --check
           python3 scripts/build-ebd-seasonal.py --check
           python3 scripts/check-private-ebd.py
@@ -64,6 +65,13 @@ jobs:
             python3 scripts/update-regions.py
           else
             python3 scripts/update-regions.py --if-due
+          fi
+      - name: Refresh DDA abbreviations
+        run: |
+          if [ "${{ inputs.force_refresh }}" = "true" ]; then
+            python3 scripts/update-dda.py
+          else
+            python3 scripts/update-dda.py --if-due
           fi
       - name: Refresh current notable records
         env:

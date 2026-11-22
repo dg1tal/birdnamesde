@@ -1,6 +1,6 @@
-import {normalize} from './logic.js?v=20261113-french1';
-import {NAME_LANGUAGES,acceptedNames} from './name-languages.js?v=20261113-french1';
-import {sortLookup} from './lookup-settings.js?v=20261113-french1';
+import {normalize} from './logic.js?v=20261122-dda1';
+import {NAME_LANGUAGES,acceptedNames} from './name-languages.js?v=20261122-dda1';
+import {sortLookup} from './lookup-settings.js?v=20261122-dda1';
 import {scientificNameAliases} from './scientific-name-aliases.js?v=20261108-quality1';
 
 const variants=value=>[...new Set([normalize(value),normalize(value.toLowerCase().replace(/ae/g,'ä').replace(/oe/g,'ö').replace(/ue/g,'ü'))])].filter(Boolean);
@@ -13,6 +13,7 @@ function fields(species){
  const entries=NAME_LANGUAGES.flatMap(({code})=>[...new Set([...acceptedNames(species,code).filter(name=>code!=='sci'||!aliases.some(a=>a.name===name)),...(code==='de'?(species.germanNames||[]).map(n=>n.name):[])])].map(value=>({language:code,value})));
  entries.push(...aliases.map(({name,source})=>({language:'sci',value:name,source})));
  entries.push(...species.codes.map(value=>({language:'code',value})));
+ if(species.dda){entries.push({language:'dda',value:species.dda.code,source:'DDA'},{language:'de',value:species.dda.name,source:'DDA'});}
  const result=entries.map(field=>({...field,normalized:normalize(field.value),words:field.value.split(/[^\p{L}\p{N}]+/u).filter(Boolean).map(normalize)}));
  cache.set(species,result);return result;
 }

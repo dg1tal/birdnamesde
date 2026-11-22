@@ -156,3 +156,28 @@ licence. See [ebd-import.md](ebd-import.md) for reproduction, filters and source
 Run `python3 -m unittest discover -s scripts -p 'test_ebd*.py'`,
 `python3 scripts/build-ebd-seasonal.py --check` and
 `python3 scripts/check-private-ebd.py` before committing an update.
+
+## DDA breeding-survey abbreviations
+
+The [interactive DDA list](https://www.dda-web.de/monitoring/mhb/artkuerzel) is the
+source for DDA abbreviations. Retrieved 22 November 2026 through the same public
+`/api/species/abbreviations` endpoint used by that page. The page still states
+28 February 2020. Its 262 records contain 261 active mapped entries and one
+explicitly deprecated Swan Goose record repeating `Hög`; that record is excluded.
+Compared with the supplied PDF, no abbreviation changed. Five display names
+changed: Brachvogel (Großer), Höckergans (Schwanengans), Kleinsumpfhuhn,
+Nachtschwalbe (Ziegenmelker), and Zitronenzeisig.
+
+`data/dda-code-records.json` retains allowlisted source rows, the response hash,
+fetch time and reviewed mappings from DDA IDs to catalogue IDs. The scientific
+name is checked against each reviewed mapping. Lesser Redpoll, feral Rock Pigeon
+and domestic Swan Goose have explicit narrower-scope notes. The source name is
+shown in their DDA questions; no new catalogue taxa are created.
+
+`python3 scripts/update-dda.py --from-records` regenerates the committed
+`dist/dda-codes.json` bootstrap without network access. `--check` verifies it.
+The deployed snapshot is updated separately by the daily Pages workflow; see
+[deployment and regional data](deployment-and-regions.md#dda-abbreviation-refresh).
+New IDs or changed scientific concepts appear in its `meta.review` list until
+reviewed; deprecated entries appear in `meta.deprecated` and are not searchable
+or learnable. Original mixed case and umlauts are preserved.

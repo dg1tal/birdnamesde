@@ -1,3 +1,4 @@
+import {isCodeTarget,codeLabel} from '../dist/code-targets.js';
 import {validateScientificNames,renderScientificName} from '../dist/scientific-names.js';
 import {scientificNameAliases} from '../dist/scientific-name-aliases.js';
 import assert from 'node:assert/strict';
@@ -23,7 +24,7 @@ const source=readFileSync('dist/app.js','utf8');
 const render=source.slice(source.indexOf('function renderFeedback('),source.indexOf('\nfunction stats()'));
 const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const elements=new Map();
-const context={birds,answerSpecies,esc:escape,english:false,Date,
+const context={isCodeTarget,codeLabel,birds,answerSpecies,esc:escape,english:false,Date,
  $:selector=>{if(!elements.has(selector))elements.set(selector,{setAttribute(){}});return elements.get(selector);},
  progressPhase:()=>'',feedbackSupport:()=>'<p id="feedback-support"></p>',studyMoreMarkup:()=>'',lessonProgress:()=>({completed:1}),lessonProgressMarkup:()=>'',lessonProgressText:()=>({}),
  contentLanguage:code=>code==='sci'?'la':code,
@@ -54,7 +55,7 @@ console.log('PASS: wrong-answer species, aliases, codes, Dutch/scientific source
 // Exercise the shared production card helpers with real accepted names and editorial metadata.
 const german=JSON.parse(readFileSync('dist/german-names.json')).species;
 for(const bird of birds)bird.germanNames=german[bird.id]?.names||[];
-const markupContext={scientificNameAliases,birds,normalize,english:false,esc:escape,primaryName,acceptedNames,languageLabel,
+const markupContext={isCodeTarget,codeLabel,scientificNameAliases,birds,normalize,english:false,esc:escape,primaryName,acceptedNames,languageLabel,
  contentLanguage:context.contentLanguage,t:s=>s,ebirdLink:()=>'',nameOrigins:null,renderScientificName:()=>''};
 vm.createContext(markupContext);
 vm.runInContext(source.slice(source.indexOf('function scientificNameMarkup('),source.indexOf('function lookupNameList(')),markupContext);

@@ -1,3 +1,4 @@
+import {isCodeTarget} from './code-targets.js?v=20261122-dda1';
 import {RULES} from './learning-model.js?v=20261105-recovery1';
 // A round's first attempts are distinct from never-before-practised learning
 // targets and from scheduled reviews. Keep these labels consistent everywhere.
@@ -36,7 +37,7 @@ export function questionReason({retry=0,progress,now=Date.now()}){
 export function questionReasonText(item,english=false){
  if(item.retry||item.reason==='retry')return english?'This question returns after an error or a hinted answer earlier in this round. This extra attempt does not count as a new round question.':'Diese Frage kommt nach einem Fehler oder einer Antwort mit Hinweis in dieser Runde erneut dran. Dieser Zusatzversuch zählt nicht als neue Rundenfrage.';
  if(item.reason==='legacy')return english?'This target is due to confirm earlier progress under the new rules.':'Dieses Lernziel ist fällig, um früheren Lernstand mit den neuen Regeln zu bestätigen.';
- const code=item.t==='code';
+ const code=isCodeTarget(item.t);
  if(item.reason==='new')return english?`You had not practised this ${code?'code':'name'} in this learning direction and method before this question.`:`Diesen ${code?'Code':'Namen'} hattest du in dieser Lernrichtung und Methode vor dieser Frage noch nicht geübt.`;
  if(item.reason==='due')return english?`The scheduled review of this ${code?'code':'name'} was due in this learning direction and method before this question.`:`Die geplante Wiederholung für diesen ${code?'Code':'Namen'} war vor dieser Frage fällig.`;
  if(item.reason==='practice')return english?`You are practising this ${code?'code':'name'} again as part of your chosen round. Its scheduled review was not yet due.`:`Du übst diesen ${code?'Code':'Namen'} im Rahmen deiner gewählten Runde erneut. Eine planmäßige Wiederholung war noch nicht fällig.`;

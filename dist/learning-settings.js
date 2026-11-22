@@ -1,4 +1,5 @@
-import {validateLesson} from './study-state.js?v=20261113-french1';
+import {isCodeTarget} from './code-targets.js?v=20261122-dda1';
+import {validateLesson} from './study-state.js?v=20261122-dda1';
 
 // Countries remain selectable if a regional snapshot is temporarily unavailable.
 export const LEARNING_COUNTRIES=[
@@ -39,7 +40,7 @@ export function loadSharedUI(defaults,storage,english){
 export function restoreLessonState(shared,de,en,english,ids,{strict=false}={}){
  const restore=(value,source)=>{
   const lesson=validateLesson(value,ids);if(!lesson){if(strict&&value!=null)throw Error('Ungültige gespeicherte Einheit.');return null;}
-  lesson.sourceLanguage??=source;lesson.nameLanguage??=lesson.queue.find(i=>i.t!=='code')?.t||(source==='en'?'de':'en');lesson.paused=true;
+  lesson.sourceLanguage??=source;lesson.nameLanguage??=lesson.queue.find(i=>!isCodeTarget(i.t))?.t||(source==='en'?'de':'en');lesson.paused=true;
   return lesson;
  };
  // A deliberately cleared shared session must never resurrect an old lesson.

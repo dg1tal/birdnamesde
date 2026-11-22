@@ -1,4 +1,5 @@
-import {isNameLanguage} from './name-languages.js?v=20261113-french1';
+import {isCodeTarget} from './code-targets.js?v=20261122-dda1';
+import {isNameLanguage} from './name-languages.js?v=20261122-dda1';
 
 const object=value=>!!value&&typeof value==='object'&&!Array.isArray(value);
 const invalid=()=>{throw Error('Ungültige Lernwerte.');};
@@ -19,6 +20,7 @@ function dates(p,required=[]){
 }
 export function validateRecord(p){
  if(!object(p))invalid();
+ if(p.ddaDefinition!==undefined&&(typeof p.ddaDefinition!=='string'||p.ddaDefinition.length>3000))invalid();
  counters(p,['attempts','correct','streak','lapses']);dates(p,['due','last']);
  if(typeof p.interval!=='number'||typeof p.lastWrong!=='boolean')invalid();
  if(p.contexts!==undefined){
@@ -42,7 +44,7 @@ export function validateRecords(value,ids,{strictKeys=false}={}){
  const result={};
  for(const [key,p]of Object.entries(value)){
   const [id,target,...extra]=key.split(':');
-  if(extra.length||!ids.has(id)||!(isNameLanguage(target)||target==='code')){if(strictKeys)invalid();continue;}
+  if(extra.length||!ids.has(id)||!(isNameLanguage(target)||isCodeTarget(target))){if(strictKeys)invalid();continue;}
   result[key]=validateRecord(p);
  }
  return result;

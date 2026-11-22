@@ -1,3 +1,4 @@
+import {isCodeTarget,codeAnswers} from './code-targets.js?v=20261122-dda1';
 import {scientificNameAliases} from './scientific-name-aliases.js?v=20261108-quality1';
 // Add a registry entry and a sourced names JSON to support another language.
 // UI locale never determines which bird name is shown or accepted.
@@ -10,7 +11,7 @@ export const NAME_LANGUAGES=Object.freeze([
  {code:'sci',labels:{de:'Wissenschaftlicher Name',en:'Scientific name'},field:'sci'}
 ]);
 export const isNameLanguage=code=>NAME_LANGUAGES.some(l=>l.code===code);
-export const languageLabel=(code,locale='de')=>NAME_LANGUAGES.find(l=>l.code===code)?.labels[locale]||code;
+export const languageLabel=(code,locale='de')=>NAME_LANGUAGES.find(l=>l.code===code)?.labels[locale]||({dda:{de:'DDA-Artkürzel',en:'DDA abbreviations'},code:{de:'eBird-Kurzcodes',en:'eBird entry codes'}}[code]?.[locale])||code;
 export function primaryName(species,code){
  if(code==='sci')return scientificNameAliases(species)[0]?.name||species.sci||'';
  const language=NAME_LANGUAGES.find(l=>l.code===code);
@@ -52,5 +53,5 @@ export async function loadNameData(birds,fetchData=globalThis.fetch){
  }
  return available;
 }
-export function hasLanguagePair(s,source,target){return !!primaryName(s,source)&&(target==='code'?!!s.codes?.length:!!primaryName(s,target));}
-export function targetName(s,target){return target==='code'?s.codes?.[0]||'':primaryName(s,target);}
+export function hasLanguagePair(s,source,target){return !!primaryName(s,source)&&(isCodeTarget(target)?!!codeAnswers(s,target).length:!!primaryName(s,target));}
+export function targetName(s,target){return isCodeTarget(target)?codeAnswers(s,target)[0]||'':primaryName(s,target);}

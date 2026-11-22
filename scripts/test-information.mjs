@@ -18,7 +18,7 @@ assert.equal(f.regionCount,7);assert.equal(f.listCount,14);assert.equal(f.oldest
 for(const source of meta.sources)assert(SOURCE_TITLES_EN[source.url],'Source needs an English label: '+source.title);
 const en=renderInformation({...args,english:true}),de=renderInformation({...args,english:false});
 const sectionIds=html=>[...html.matchAll(/<h2 id="(info-[a-z]+)"/g)].map(x=>x[1]);
-assert.deepEqual(sectionIds(en),sectionIds(de));assert.equal(sectionIds(en).length,8);
+assert.deepEqual(sectionIds(en),sectionIds(de));assert.equal(sectionIds(en).length,9);
 assert(en.includes('id="info-project"')&&de.includes('id="info-project"'));
 for(const html of [en,de]){
  assert(html.includes('href="https://github.com/dg1tal/birdnamesde"'));
@@ -64,6 +64,6 @@ assert(en.includes('source taxa that cannot be mapped to v2025 species'));assert
 for(const html of [en,de]){
  assert(html.includes('class="page-navigation"'));
  for(const [,id]of html.matchAll(/href="#info\/(info-[a-z]+)"/g))assert(html.includes(`id="${id}"`));
- assert.equal([...html.matchAll(/href="#info\/info-/g)].length,8);
+ assert.equal([...html.matchAll(/href="#info\/info-/g)].length,9);
  assert(!html.includes('class="panel information-page"'));
 }

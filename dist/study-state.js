@@ -1,5 +1,6 @@
+import {isCodeTarget,validDdaEntry} from './code-targets.js?v=20261122-dda1';
 import {RULES,lessonQueueLimit,lessonBaseLimit} from './learning-model.js?v=20261105-recovery1';
-import {isNameLanguage} from './name-languages.js?v=20261113-french1';
+import {isNameLanguage} from './name-languages.js?v=20261122-dda1';
 import {validSeasonalDataset} from './hybrid-learning.js?v=20261108-quality1';
 // Serializable lesson state. Grading and navigation are separate so restored
 // feedback cannot grade an answer twice.
@@ -8,7 +9,7 @@ export function validateLesson(value, ids) {
   if(value.queue.filter(i=>i?.retry===0).length>lessonBaseLimit(ids.size))return null;
   if (!Number.isInteger(value.index) || value.index < 0 || value.index >= value.queue.length) return null;
   if (!['text','flash','mc','think'].includes(value.method)) return null;
-  if (!value.queue.every(i => i && ids.has(i.id) && (isNameLanguage(i.t)||i.t==='code') && Number.isInteger(i.retry) && i.retry >= 0 && i.retry <= RULES.maxRetries)) return null;
+  if (!value.queue.every(i => i && ids.has(i.id) && (isNameLanguage(i.t)||isCodeTarget(i.t)) && Number.isInteger(i.retry) && i.retry >= 0 && i.retry <= RULES.maxRetries)) return null;
   if(!value.queue.every(i=>i.reason===undefined||['new','due','practice','retry','legacy'].includes(i.reason)))return null;
   for (const field of ['answered','correct','firstAnswered','firstCorrect']) if (!Number.isInteger(value[field]) || value[field] < 0) return null;
   if (value.correct > value.answered || value.firstCorrect > value.firstAnswered || value.firstAnswered > value.answered) return null;
@@ -27,6 +28,8 @@ export function validateLesson(value, ids) {
     if(!['winter','spring','summer','autumn'].includes(h.season)||typeof h.seasonalReady!=='boolean'||typeof h.seasonalRequested!=='boolean'||!Array.isArray(h.additions)||h.additions.length>ids.size||!h.additions.every(r=>r&&ids.has(r.id)&&/^\d{4}-\d{2}-\d{2}$/.test(r.observedOn)&&/^\d{4}-\d{2}-\d{2}$/.test(r.expiresOn)&&Date.parse(r.expiresOn)-Date.parse(r.observedOn)===14*86400000))return null;
   }
   for(const i of value.queue){
+    if(i.t==='dda'&&!validDdaEntry(i.dda))return null;
+    if(i.t!=='dda'&&i.dda!==undefined)return null;
     if(i.choices!==undefined&&(!Array.isArray(i.choices)||!i.choices.length||i.choices.length>4||!i.choices.every(v=>typeof v==='string'&&v.length<=300)))return null;
     if(i.optionsVisible!==undefined&&typeof i.optionsVisible!=='boolean')return null;
     if(i.introduce!==undefined&&typeof i.introduce!=='boolean')return null;

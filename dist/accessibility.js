@@ -17,7 +17,7 @@ export function focusElement(element,{preventScroll=false}={}){
  element.focus({preventScroll});return true;
 }
 
-export function contentLanguage(code){return code==='sci'?'la':code==='code'?'en':code;}
+export function contentLanguage(code){return code==='sci'?'la':code==='code'?'en':code==='dda'?'de':code;}
 
 // A queued render focus must not override a user's intervening Tab/click.
 export function queueFocus(element,{document:doc=document,frame=requestAnimationFrame,preventScroll=true}={}){

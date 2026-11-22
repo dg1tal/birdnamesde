@@ -1,3 +1,4 @@
+import {isCodeTarget} from './code-targets.js?v=20261122-dda1';
 // Describe what will be learned, rather than exposing abstract learning targets.
 export function newNamesText(count,language='en',english=false){
  const de={de:['deutscher Vogelname','deutsche Vogelnamen'],en:['englischer Vogelname','englische Vogelnamen'],nl:['niederländischer Vogelname','niederländische Vogelnamen'],fr:['französischer Vogelname','französische Vogelnamen'],fi:['finnischer Vogelname','finnische Vogelnamen'],sci:['wissenschaftlicher Vogelname','wissenschaftliche Vogelnamen']};
@@ -5,7 +6,7 @@ export function newNamesText(count,language='en',english=false){
  return english?`${count} new ${en[language]||'bird'} ${count===1?'name':'names'}`:`${count} ${count===1?'neuer':'neue'} ${(de[language]||['Vogelname','Vogelnamen'])[+(count!==1)]}`;
 }
 export function dailyNewNamesText(items,language='en',english=false){
- const codes=items.filter(i=>i.t==='code').length,names=items.length-codes,parts=[];
+ const codes=items.filter(i=>isCodeTarget(i.t)).length,names=items.length-codes,parts=[];
  if(names)parts.push(newNamesText(names,language,english));
  if(codes)parts.push(english?`${codes} new ${codes===1?'code':'codes'}`:`${codes} ${codes===1?'neuer Code':'neue Codes'}`);
  if(!parts.length)return '';

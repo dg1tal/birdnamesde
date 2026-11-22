@@ -1,0 +1,2642 @@
+{
+  "version": 1,
+  "meta": {
+    "sourceUrl": "https://www.dda-web.de/monitoring/mhb/artkuerzel",
+    "apiUrl": "https://www.dda-web.de/api/species/abbreviations",
+    "sourceStand": "28.02.2020",
+    "fetchedAt": "2026-11-22T11:47:18Z",
+    "sha256": "c3e5b4e81f066b643387d772daca77060d3b1a00d031ee2a667c33debf52b9b7"
+  },
+  "records": [
+    {
+      "speciesPKID": 7121,
+      "germanName": "Alexandersittich",
+      "scientificName": "Psittacula eupatria",
+      "abbrev": "Asi"
+    },
+    {
+      "speciesPKID": 16634,
+      "germanName": "Alpenbirkenzeisig",
+      "scientificName": "Acanthis cabaret",
+      "abbrev": "Bz"
+    },
+    {
+      "speciesPKID": 10940,
+      "germanName": "Alpenbraunelle",
+      "scientificName": "Prunella collaris",
+      "abbrev": "Ab"
+    },
+    {
+      "speciesPKID": 15580,
+      "germanName": "Alpendohle",
+      "scientificName": "Pyrrhocorax graculus",
+      "abbrev": "Ad"
+    },
+    {
+      "speciesPKID": 3300,
+      "germanName": "Alpenschneehuhn",
+      "scientificName": "Lagopus muta",
+      "abbrev": "Ash"
+    },
+    {
+      "speciesPKID": 7980,
+      "germanName": "Alpensegler",
+      "scientificName": "Tachymarptis melba",
+      "abbrev": "As"
+    },
+    {
+      "speciesPKID": 5120,
+      "germanName": "Alpenstrandläufer",
+      "scientificName": "Calidris alpina",
+      "abbrev": "Asl"
+    },
+    {
+      "speciesPKID": 11870,
+      "germanName": "Amsel",
+      "scientificName": "Turdus merula",
+      "abbrev": "A"
+    },
+    {
+      "speciesPKID": 3350,
+      "germanName": "Auerhuhn",
+      "scientificName": "Tetrao urogallus",
+      "abbrev": "Ah"
+    },
+    {
+      "speciesPKID": 4500,
+      "germanName": "Austernfischer",
+      "scientificName": "Haematopus ostralegus",
+      "abbrev": "Au"
+    },
+    {
+      "speciesPKID": 10200,
+      "germanName": "Bachstelze",
+      "scientificName": "Motacilla alba",
+      "abbrev": "Ba"
+    },
+    {
+      "speciesPKID": 13640,
+      "germanName": "Bartmeise",
+      "scientificName": "Panurus biarmicus",
+      "abbrev": "Bam"
+    },
+    {
+      "speciesPKID": 710,
+      "germanName": "Basstölpel",
+      "scientificName": "Morus bassanus",
+      "abbrev": "Btö"
+    },
+    {
+      "speciesPKID": 3100,
+      "germanName": "Baumfalke",
+      "scientificName": "Falco subbuteo",
+      "abbrev": "Bf"
+    },
+    {
+      "speciesPKID": 10090,
+      "germanName": "Baumpieper",
+      "scientificName": "Anthus trivialis",
+      "abbrev": "Bp"
+    },
+    {
+      "speciesPKID": 5190,
+      "germanName": "Bekassine",
+      "scientificName": "Gallinago gallinago",
+      "abbrev": "Be"
+    },
+    {
+      "speciesPKID": 2040,
+      "germanName": "Bergente",
+      "scientificName": "Aythya marila",
+      "abbrev": "Bg"
+    },
+    {
+      "speciesPKID": 13070,
+      "germanName": "Berglaubsänger",
+      "scientificName": "Phylloscopus bonelli",
+      "abbrev": "Bls"
+    },
+    {
+      "speciesPKID": 10140,
+      "germanName": "Bergpieper",
+      "scientificName": "Anthus spinoletta",
+      "abbrev": "Bep"
+    },
+    {
+      "speciesPKID": 14900,
+      "germanName": "Beutelmeise",
+      "scientificName": "Remiz pendulinus",
+      "abbrev": "Bem"
+    },
+    {
+      "speciesPKID": 8400,
+      "germanName": "Bienenfresser",
+      "scientificName": "Merops apiaster",
+      "abbrev": "Bie"
+    },
+    {
+      "speciesPKID": 3320,
+      "germanName": "Birkhuhn",
+      "scientificName": "Lyrurus tetrix",
+      "abbrev": "Bih"
+    },
+    {
+      "speciesPKID": 11060,
+      "germanName": "Blaukehlchen",
+      "scientificName": "Luscinia svecica",
+      "abbrev": "Blk"
+    },
+    {
+      "speciesPKID": 14620,
+      "germanName": "Blaumeise",
+      "scientificName": "Cyanistes caeruleus",
+      "abbrev": "Bm"
+    },
+    {
+      "speciesPKID": 16600,
+      "germanName": "Bluthänfling",
+      "scientificName": "Linaria cannabina",
+      "abbrev": "Hä"
+    },
+    {
+      "speciesPKID": 1590,
+      "germanName": "Blässgans",
+      "scientificName": "Anser albifrons",
+      "abbrev": "Blg"
+    },
+    {
+      "speciesPKID": 4290,
+      "germanName": "Blässhuhn",
+      "scientificName": "Fulica atra",
+      "abbrev": "Br"
+    },
+    {
+      "speciesPKID": 10050,
+      "germanName": "Brachpieper",
+      "scientificName": "Anthus campestris",
+      "abbrev": "Brp"
+    },
+    {
+      "speciesPKID": 5410,
+      "germanName": "Brachvogel (Großer)",
+      "scientificName": "Numenius arquata",
+      "abbrev": "Gbv"
+    },
+    {
+      "speciesPKID": 1730,
+      "germanName": "Brandgans",
+      "scientificName": "Tadorna tadorna",
+      "abbrev": "Brg"
+    },
+    {
+      "speciesPKID": 6110,
+      "germanName": "Brandseeschwalbe",
+      "scientificName": "Thalasseus sandvicensis",
+      "abbrev": "Bss"
+    },
+    {
+      "speciesPKID": 11370,
+      "germanName": "Braunkehlchen",
+      "scientificName": "Saxicola rubetra",
+      "abbrev": "Bk"
+    },
+    {
+      "speciesPKID": 1770,
+      "germanName": "Brautente",
+      "scientificName": "Aix sponsa",
+      "abbrev": "Bre"
+    },
+    {
+      "speciesPKID": 5540,
+      "germanName": "Bruchwasserläufer",
+      "scientificName": "Tringa glareola",
+      "abbrev": "Bwl"
+    },
+    {
+      "speciesPKID": 16360,
+      "germanName": "Buchfink",
+      "scientificName": "Fringilla coelebs",
+      "abbrev": "B"
+    },
+    {
+      "speciesPKID": 8760,
+      "germanName": "Buntspecht",
+      "scientificName": "Dendrocopos major",
+      "abbrev": "Bs"
+    },
+    {
+      "speciesPKID": 1475,
+      "germanName": "Chileflamingo",
+      "scientificName": "Phoenicopterus chilensis",
+      "abbrev": "Cf"
+    },
+    {
+      "speciesPKID": 15600,
+      "germanName": "Dohle",
+      "scientificName": "Coloeus monedula",
+      "abbrev": "D"
+    },
+    {
+      "speciesPKID": 12750,
+      "germanName": "Dorngrasmücke",
+      "scientificName": "Sylvia communis",
+      "abbrev": "Dg"
+    },
+    {
+      "speciesPKID": 6020,
+      "germanName": "Dreizehenmöwe",
+      "scientificName": "Rissa tridactyla",
+      "abbrev": "Dzm"
+    },
+    {
+      "speciesPKID": 8980,
+      "germanName": "Dreizehenspecht",
+      "scientificName": "Picoides tridactylus",
+      "abbrev": "Dzs"
+    },
+    {
+      "speciesPKID": 12530,
+      "germanName": "Drosselrohrsänger",
+      "scientificName": "Acrocephalus arundinaceus",
+      "abbrev": "Drs"
+    },
+    {
+      "speciesPKID": 15390,
+      "germanName": "Eichelhäher",
+      "scientificName": "Garrulus glandarius",
+      "abbrev": "Ei"
+    },
+    {
+      "speciesPKID": 2060,
+      "germanName": "Eiderente",
+      "scientificName": "Somateria mollissima",
+      "abbrev": "Ed"
+    },
+    {
+      "speciesPKID": 220,
+      "germanName": "Eissturmvogel",
+      "scientificName": "Fulmarus glacialis",
+      "abbrev": "Esv"
+    },
+    {
+      "speciesPKID": 8310,
+      "germanName": "Eisvogel",
+      "scientificName": "Alcedo atthis",
+      "abbrev": "Ev"
+    },
+    {
+      "speciesPKID": 15490,
+      "germanName": "Elster",
+      "scientificName": "Pica pica",
+      "abbrev": "E"
+    },
+    {
+      "speciesPKID": 16540,
+      "germanName": "Erlenzeisig",
+      "scientificName": "Spinus spinus",
+      "abbrev": "Ez"
+    },
+    {
+      "speciesPKID": 9760,
+      "germanName": "Feldlerche",
+      "scientificName": "Alauda arvensis",
+      "abbrev": "Fl"
+    },
+    {
+      "speciesPKID": 12360,
+      "germanName": "Feldschwirl",
+      "scientificName": "Locustella naevia",
+      "abbrev": "Fs"
+    },
+    {
+      "speciesPKID": 15980,
+      "germanName": "Feldsperling",
+      "scientificName": "Passer montanus",
+      "abbrev": "Fe"
+    },
+    {
+      "speciesPKID": 9910,
+      "germanName": "Felsenschwalbe",
+      "scientificName": "Ptyonoprogne rupestris",
+      "abbrev": "Fel"
+    },
+    {
+      "speciesPKID": 16660,
+      "germanName": "Fichtenkreuzschnabel",
+      "scientificName": "Loxia curvirostra",
+      "abbrev": "Fk"
+    },
+    {
+      "speciesPKID": 3010,
+      "germanName": "Fischadler",
+      "scientificName": "Pandion haliaetus",
+      "abbrev": "Fia"
+    },
+    {
+      "speciesPKID": 13120,
+      "germanName": "Fitis",
+      "scientificName": "Phylloscopus trochilus",
+      "abbrev": "F"
+    },
+    {
+      "speciesPKID": 4690,
+      "germanName": "Flussregenpfeifer",
+      "scientificName": "Charadrius dubius",
+      "abbrev": "Frp"
+    },
+    {
+      "speciesPKID": 6150,
+      "germanName": "Flussseeschwalbe",
+      "scientificName": "Sterna hirundo",
+      "abbrev": "Fss"
+    },
+    {
+      "speciesPKID": 5560,
+      "germanName": "Flussuferläufer",
+      "scientificName": "Actitis hypoleucos",
+      "abbrev": "Ful"
+    },
+    {
+      "speciesPKID": 14870,
+      "germanName": "Gartenbaumläufer",
+      "scientificName": "Certhia brachydactyla",
+      "abbrev": "Gb"
+    },
+    {
+      "speciesPKID": 12760,
+      "germanName": "Gartengrasmücke",
+      "scientificName": "Sylvia borin",
+      "abbrev": "Gg"
+    },
+    {
+      "speciesPKID": 11220,
+      "germanName": "Gartenrotschwanz",
+      "scientificName": "Phoenicurus phoenicurus",
+      "abbrev": "Gr"
+    },
+    {
+      "speciesPKID": 10190,
+      "germanName": "Gebirgsstelze",
+      "scientificName": "Motacilla cinerea",
+      "abbrev": "Ge"
+    },
+    {
+      "speciesPKID": 7111,
+      "germanName": "Gelbkopfamazone",
+      "scientificName": "Amazona oratrix",
+      "abbrev": "Gea"
+    },
+    {
+      "speciesPKID": 12590,
+      "germanName": "Gelbspötter",
+      "scientificName": "Hippolais icterina",
+      "abbrev": "Gp"
+    },
+    {
+      "speciesPKID": 17100,
+      "germanName": "Gimpel",
+      "scientificName": "Pyrrhula pyrrhula",
+      "abbrev": "Gim"
+    },
+    {
+      "speciesPKID": 16400,
+      "germanName": "Girlitz",
+      "scientificName": "Serinus serinus",
+      "abbrev": "Gi"
+    },
+    {
+      "speciesPKID": 18570,
+      "germanName": "Goldammer",
+      "scientificName": "Emberiza citrinella",
+      "abbrev": "G"
+    },
+    {
+      "speciesPKID": 4850,
+      "germanName": "Goldregenpfeifer",
+      "scientificName": "Pluvialis apricaria",
+      "abbrev": "Grp"
+    },
+    {
+      "speciesPKID": 18820,
+      "germanName": "Grauammer",
+      "scientificName": "Emberiza calandra",
+      "abbrev": "Ga"
+    },
+    {
+      "speciesPKID": 1610,
+      "germanName": "Graugans",
+      "scientificName": "Anser anser",
+      "abbrev": "Gra"
+    },
+    {
+      "speciesPKID": 1220,
+      "germanName": "Graureiher",
+      "scientificName": "Ardea cinerea",
+      "abbrev": "Grr"
+    },
+    {
+      "speciesPKID": 13350,
+      "germanName": "Grauschnäpper",
+      "scientificName": "Muscicapa striata",
+      "abbrev": "Gs"
+    },
+    {
+      "speciesPKID": 8550,
+      "germanName": "Grauspecht",
+      "scientificName": "Picus canus",
+      "abbrev": "Gsp"
+    },
+    {
+      "speciesPKID": 4460,
+      "germanName": "Großtrappe",
+      "scientificName": "Otis tarda",
+      "abbrev": "Gt"
+    },
+    {
+      "speciesPKID": 16490,
+      "germanName": "Grünfink",
+      "scientificName": "Chloris chloris",
+      "abbrev": "Gf"
+    },
+    {
+      "speciesPKID": 12930,
+      "germanName": "Grünlaubsänger",
+      "scientificName": "Phylloscopus trochiloides",
+      "abbrev": "Grl"
+    },
+    {
+      "speciesPKID": 8560,
+      "germanName": "Grünspecht",
+      "scientificName": "Picus viridis",
+      "abbrev": "Gü"
+    },
+    {
+      "speciesPKID": 2230,
+      "germanName": "Gänsesäger",
+      "scientificName": "Mergus merganser",
+      "abbrev": "Gäs"
+    },
+    {
+      "speciesPKID": 2670,
+      "germanName": "Habicht",
+      "scientificName": "Accipiter gentilis",
+      "abbrev": "Ha"
+    },
+    {
+      "speciesPKID": 7650,
+      "germanName": "Habichtskauz",
+      "scientificName": "Strix uralensis",
+      "abbrev": "Hz"
+    },
+    {
+      "speciesPKID": 13480,
+      "germanName": "Halsbandschnäpper",
+      "scientificName": "Ficedula albicollis",
+      "abbrev": "Hb"
+    },
+    {
+      "speciesPKID": 7120,
+      "germanName": "Halsbandsittich",
+      "scientificName": "Psittacula krameri",
+      "abbrev": "Hbs"
+    },
+    {
+      "speciesPKID": 3260,
+      "germanName": "Haselhuhn",
+      "scientificName": "Tetrastes bonasia",
+      "abbrev": "Has"
+    },
+    {
+      "speciesPKID": 9720,
+      "germanName": "Haubenlerche",
+      "scientificName": "Galerida cristata",
+      "abbrev": "Hl"
+    },
+    {
+      "speciesPKID": 14540,
+      "germanName": "Haubenmeise",
+      "scientificName": "Lophophanes cristatus",
+      "abbrev": "Hm"
+    },
+    {
+      "speciesPKID": 90,
+      "germanName": "Haubentaucher",
+      "scientificName": "Podiceps cristatus",
+      "abbrev": "Ht"
+    },
+    {
+      "speciesPKID": 11210,
+      "germanName": "Hausrotschwanz",
+      "scientificName": "Phoenicurus ochruros",
+      "abbrev": "Hr"
+    },
+    {
+      "speciesPKID": 15910,
+      "germanName": "Haussperling",
+      "scientificName": "Passer domesticus",
+      "abbrev": "H"
+    },
+    {
+      "speciesPKID": 10840,
+      "germanName": "Heckenbraunelle",
+      "scientificName": "Prunella modularis",
+      "abbrev": "He"
+    },
+    {
+      "speciesPKID": 9740,
+      "germanName": "Heidelerche",
+      "scientificName": "Lullula arborea",
+      "abbrev": "Hei"
+    },
+    {
+      "speciesPKID": 5910,
+      "germanName": "Heringsmöwe",
+      "scientificName": "Larus fuscus",
+      "abbrev": "Her"
+    },
+    {
+      "speciesPKID": 6680,
+      "germanName": "Hohltaube",
+      "scientificName": "Columba oenas",
+      "abbrev": "Hot"
+    },
+    {
+      "speciesPKID": 1561,
+      "germanName": "Höckergans (Schwanengans)",
+      "scientificName": "Anser cygnoid f. domestica",
+      "abbrev": "Hög"
+    },
+    {
+      "speciesPKID": 1520,
+      "germanName": "Höckerschwan",
+      "scientificName": "Cygnus olor",
+      "abbrev": "Hö"
+    },
+    {
+      "speciesPKID": 3940,
+      "germanName": "Jagdfasan",
+      "scientificName": "Phasianus colchicus",
+      "abbrev": "Fa"
+    },
+    {
+      "speciesPKID": 5170,
+      "germanName": "Kampfläufer",
+      "scientificName": "Calidris pugnax",
+      "abbrev": "Ka"
+    },
+    {
+      "speciesPKID": 1660,
+      "germanName": "Kanadagans",
+      "scientificName": "Branta canadensis",
+      "abbrev": "Kag"
+    },
+    {
+      "speciesPKID": 16790,
+      "germanName": "Karmingimpel",
+      "scientificName": "Carpodacus erythrinus",
+      "abbrev": "Kar"
+    },
+    {
+      "speciesPKID": 17170,
+      "germanName": "Kernbeißer",
+      "scientificName": "Coccothraustes coccothraustes",
+      "abbrev": "Kb"
+    },
+    {
+      "speciesPKID": 4930,
+      "germanName": "Kiebitz",
+      "scientificName": "Vanellus vanellus",
+      "abbrev": "Ki"
+    },
+    {
+      "speciesPKID": 12740,
+      "germanName": "Klappergrasmücke",
+      "scientificName": "Sylvia curruca",
+      "abbrev": "Kg"
+    },
+    {
+      "speciesPKID": 14790,
+      "germanName": "Kleiber",
+      "scientificName": "Sitta europaea",
+      "abbrev": "Kl"
+    },
+    {
+      "speciesPKID": 8870,
+      "germanName": "Kleinspecht",
+      "scientificName": "Dryobates minor",
+      "abbrev": "Ks"
+    },
+    {
+      "speciesPKID": 4100,
+      "germanName": "Kleinsumpfhuhn",
+      "scientificName": "Porzana parva",
+      "abbrev": "Ksh"
+    },
+    {
+      "speciesPKID": 1910,
+      "germanName": "Knäkente",
+      "scientificName": "Spatula querquedula",
+      "abbrev": "Kn"
+    },
+    {
+      "speciesPKID": 14640,
+      "germanName": "Kohlmeise",
+      "scientificName": "Parus major",
+      "abbrev": "K"
+    },
+    {
+      "speciesPKID": 1960,
+      "germanName": "Kolbenente",
+      "scientificName": "Netta rufina",
+      "abbrev": "Koe"
+    },
+    {
+      "speciesPKID": 15720,
+      "germanName": "Kolkrabe",
+      "scientificName": "Corvus corax",
+      "abbrev": "Kra"
+    },
+    {
+      "speciesPKID": 720,
+      "germanName": "Kormoran",
+      "scientificName": "Phalacrocorax carbo",
+      "abbrev": "Ko"
+    },
+    {
+      "speciesPKID": 2610,
+      "germanName": "Kornweihe",
+      "scientificName": "Circus cyaneus",
+      "abbrev": "Kw"
+    },
+    {
+      "speciesPKID": 4330,
+      "germanName": "Kranich",
+      "scientificName": "Grus grus",
+      "abbrev": "Kch"
+    },
+    {
+      "speciesPKID": 1840,
+      "germanName": "Krickente",
+      "scientificName": "Anas crecca",
+      "abbrev": "Kr"
+    },
+    {
+      "speciesPKID": 7240,
+      "germanName": "Kuckuck",
+      "scientificName": "Cuculus canorus",
+      "abbrev": "Ku"
+    },
+    {
+      "speciesPKID": 6160,
+      "germanName": "Küstenseeschwalbe",
+      "scientificName": "Sterna paradisaea",
+      "abbrev": "Kss"
+    },
+    {
+      "speciesPKID": 5820,
+      "germanName": "Lachmöwe",
+      "scientificName": "Chroicocephalus ridibundus",
+      "abbrev": "Lm"
+    },
+    {
+      "speciesPKID": 6050,
+      "germanName": "Lachseeschwalbe",
+      "scientificName": "Gelochelidon nilotica",
+      "abbrev": "Lss"
+    },
+    {
+      "speciesPKID": 1940,
+      "germanName": "Löffelente",
+      "scientificName": "Spatula clypeata",
+      "abbrev": "Lö"
+    },
+    {
+      "speciesPKID": 1440,
+      "germanName": "Löffler",
+      "scientificName": "Platalea leucorodia",
+      "abbrev": "Lf"
+    },
+    {
+      "speciesPKID": 1780,
+      "germanName": "Mandarinente",
+      "scientificName": "Aix galericulata",
+      "abbrev": "Mae"
+    },
+    {
+      "speciesPKID": 6000,
+      "germanName": "Mantelmöwe",
+      "scientificName": "Larus marinus",
+      "abbrev": "Mm"
+    },
+    {
+      "speciesPKID": 14820,
+      "germanName": "Mauerläufer",
+      "scientificName": "Tichodroma muraria",
+      "abbrev": "Ml"
+    },
+    {
+      "speciesPKID": 7950,
+      "germanName": "Mauersegler",
+      "scientificName": "Apus apus",
+      "abbrev": "Ms"
+    },
+    {
+      "speciesPKID": 10010,
+      "germanName": "Mehlschwalbe",
+      "scientificName": "Delichon urbicum",
+      "abbrev": "M"
+    },
+    {
+      "speciesPKID": 12020,
+      "germanName": "Misteldrossel",
+      "scientificName": "Turdus viscivorus",
+      "abbrev": "Md"
+    },
+    {
+      "speciesPKID": 5926,
+      "germanName": "Mittelmeermöwe",
+      "scientificName": "Larus michahellis",
+      "abbrev": "Mmm"
+    },
+    {
+      "speciesPKID": 8830,
+      "germanName": "Mittelspecht",
+      "scientificName": "Dendrocoptes medius",
+      "abbrev": "Msp"
+    },
+    {
+      "speciesPKID": 2210,
+      "germanName": "Mittelsäger",
+      "scientificName": "Mergus serrator",
+      "abbrev": "Mis"
+    },
+    {
+      "speciesPKID": 2020,
+      "germanName": "Moorente",
+      "scientificName": "Aythya nyroca",
+      "abbrev": "Moe"
+    },
+    {
+      "speciesPKID": 2870,
+      "germanName": "Mäusebussard",
+      "scientificName": "Buteo buteo",
+      "abbrev": "Mb"
+    },
+    {
+      "speciesPKID": 12770,
+      "germanName": "Mönchsgrasmücke",
+      "scientificName": "Sylvia atricapilla",
+      "abbrev": "Mg"
+    },
+    {
+      "speciesPKID": 11040,
+      "germanName": "Nachtigall",
+      "scientificName": "Luscinia megarhynchos",
+      "abbrev": "N"
+    },
+    {
+      "speciesPKID": 1040,
+      "germanName": "Nachtreiher",
+      "scientificName": "Nycticorax nycticorax",
+      "abbrev": "Nr"
+    },
+    {
+      "speciesPKID": 7780,
+      "germanName": "Nachtschwalbe (Ziegenmelker)",
+      "scientificName": "Caprimulgus europaeus",
+      "abbrev": "Zm"
+    },
+    {
+      "speciesPKID": 5,
+      "germanName": "Nandu",
+      "scientificName": "Rhea americana",
+      "abbrev": "Nan"
+    },
+    {
+      "speciesPKID": 15673,
+      "germanName": "Nebelkrähe",
+      "scientificName": "Corvus cornix",
+      "abbrev": "Nk"
+    },
+    {
+      "speciesPKID": 15150,
+      "germanName": "Neuntöter",
+      "scientificName": "Lanius collurio",
+      "abbrev": "Nt"
+    },
+    {
+      "speciesPKID": 1700,
+      "germanName": "Nilgans",
+      "scientificName": "Alopochen aegyptiaca",
+      "abbrev": "Nig"
+    },
+    {
+      "speciesPKID": 12600,
+      "germanName": "Orpheusspötter",
+      "scientificName": "Hippolais polyglotta",
+      "abbrev": "Os"
+    },
+    {
+      "speciesPKID": 18660,
+      "germanName": "Ortolan",
+      "scientificName": "Emberiza hortulana",
+      "abbrev": "O"
+    },
+    {
+      "speciesPKID": 1790,
+      "germanName": "Pfeifente",
+      "scientificName": "Mareca penelope",
+      "abbrev": "Pfe"
+    },
+    {
+      "speciesPKID": 15080,
+      "germanName": "Pirol",
+      "scientificName": "Oriolus oriolus",
+      "abbrev": "P"
+    },
+    {
+      "speciesPKID": 1240,
+      "germanName": "Purpurreiher",
+      "scientificName": "Ardea purpurea",
+      "abbrev": "Pr"
+    },
+    {
+      "speciesPKID": 15671,
+      "germanName": "Rabenkrähe",
+      "scientificName": "Corvus corone",
+      "abbrev": "Rk"
+    },
+    {
+      "speciesPKID": 6060,
+      "germanName": "Raubseeschwalbe",
+      "scientificName": "Hydroprogne caspia",
+      "abbrev": "Rss"
+    },
+    {
+      "speciesPKID": 15200,
+      "germanName": "Raubwürger",
+      "scientificName": "Lanius excubitor",
+      "abbrev": "Rw"
+    },
+    {
+      "speciesPKID": 9920,
+      "germanName": "Rauchschwalbe",
+      "scientificName": "Hirundo rustica",
+      "abbrev": "Rs"
+    },
+    {
+      "speciesPKID": 7700,
+      "germanName": "Raufußkauz",
+      "scientificName": "Aegolius funereus",
+      "abbrev": "Rfk"
+    },
+    {
+      "speciesPKID": 3670,
+      "germanName": "Rebhuhn",
+      "scientificName": "Perdix perdix",
+      "abbrev": "Re"
+    },
+    {
+      "speciesPKID": 2030,
+      "germanName": "Reiherente",
+      "scientificName": "Aythya fuligula",
+      "abbrev": "Rei"
+    },
+    {
+      "speciesPKID": 11860,
+      "germanName": "Ringdrossel",
+      "scientificName": "Turdus torquatus",
+      "abbrev": "Rdr"
+    },
+    {
+      "speciesPKID": 6700,
+      "germanName": "Ringeltaube",
+      "scientificName": "Columba palumbus",
+      "abbrev": "Rt"
+    },
+    {
+      "speciesPKID": 18770,
+      "germanName": "Rohrammer",
+      "scientificName": "Emberiza schoeniclus",
+      "abbrev": "Ro"
+    },
+    {
+      "speciesPKID": 950,
+      "germanName": "Rohrdommel",
+      "scientificName": "Botaurus stellaris",
+      "abbrev": "Rod"
+    },
+    {
+      "speciesPKID": 12380,
+      "germanName": "Rohrschwirl",
+      "scientificName": "Locustella luscinioides",
+      "abbrev": "Rsc"
+    },
+    {
+      "speciesPKID": 2600,
+      "germanName": "Rohrweihe",
+      "scientificName": "Circus aeruginosus",
+      "abbrev": "Row"
+    },
+    {
+      "speciesPKID": 1472,
+      "germanName": "Rosaflamingo",
+      "scientificName": "Phoenicopterus roseus",
+      "abbrev": "Rfl"
+    },
+    {
+      "speciesPKID": 1710,
+      "germanName": "Rostgans",
+      "scientificName": "Tadorna ferruginea",
+      "abbrev": "Rg"
+    },
+    {
+      "speciesPKID": 100,
+      "germanName": "Rothalstaucher",
+      "scientificName": "Podiceps grisegena",
+      "abbrev": "Rht"
+    },
+    {
+      "speciesPKID": 10990,
+      "germanName": "Rotkehlchen",
+      "scientificName": "Erithacus rubecula",
+      "abbrev": "R"
+    },
+    {
+      "speciesPKID": 2390,
+      "germanName": "Rotmilan",
+      "scientificName": "Milvus milvus",
+      "abbrev": "Rm"
+    },
+    {
+      "speciesPKID": 5460,
+      "germanName": "Rotschenkel",
+      "scientificName": "Tringa totanus",
+      "abbrev": "Ros"
+    },
+    {
+      "speciesPKID": 15630,
+      "germanName": "Saatkrähe",
+      "scientificName": "Corvus frugilegus",
+      "abbrev": "Sa"
+    },
+    {
+      "speciesPKID": 4700,
+      "germanName": "Sandregenpfeifer",
+      "scientificName": "Charadrius hiaticula",
+      "abbrev": "Srp"
+    },
+    {
+      "speciesPKID": 10170,
+      "germanName": "Schafstelze",
+      "scientificName": "Motacilla flava",
+      "abbrev": "St"
+    },
+    {
+      "speciesPKID": 2180,
+      "germanName": "Schellente",
+      "scientificName": "Bucephala clangula",
+      "abbrev": "Sl"
+    },
+    {
+      "speciesPKID": 12430,
+      "germanName": "Schilfrohrsänger",
+      "scientificName": "Acrocephalus schoenobaenus",
+      "abbrev": "Sr"
+    },
+    {
+      "speciesPKID": 12370,
+      "germanName": "Schlagschwirl",
+      "scientificName": "Locustella fluviatilis",
+      "abbrev": "Ssc"
+    },
+    {
+      "speciesPKID": 7350,
+      "germanName": "Schleiereule",
+      "scientificName": "Tyto alba",
+      "abbrev": "Se"
+    },
+    {
+      "speciesPKID": 1820,
+      "germanName": "Schnatterente",
+      "scientificName": "Mareca strepera",
+      "abbrev": "Sn"
+    },
+    {
+      "speciesPKID": 1630,
+      "germanName": "Schneegans",
+      "scientificName": "Anser caerulescens",
+      "abbrev": "Sga"
+    },
+    {
+      "speciesPKID": 16110,
+      "germanName": "Schneesperling",
+      "scientificName": "Montifringilla nivalis",
+      "abbrev": "Sns"
+    },
+    {
+      "speciesPKID": 2920,
+      "germanName": "Schreiadler",
+      "scientificName": "Clanga pomarina",
+      "abbrev": "Sra"
+    },
+    {
+      "speciesPKID": 14370,
+      "germanName": "Schwanzmeise",
+      "scientificName": "Aegithalos caudatus",
+      "abbrev": "Sm"
+    },
+    {
+      "speciesPKID": 120,
+      "germanName": "Schwarzhalstaucher",
+      "scientificName": "Podiceps nigricollis",
+      "abbrev": "Sht"
+    },
+    {
+      "speciesPKID": 11390,
+      "germanName": "Schwarzkehlchen",
+      "scientificName": "Saxicola rubicola",
+      "abbrev": "Swk"
+    },
+    {
+      "speciesPKID": 5750,
+      "germanName": "Schwarzkopfmöwe",
+      "scientificName": "Ichthyaetus melanocephalus",
+      "abbrev": "Skm"
+    },
+    {
+      "speciesPKID": 2380,
+      "germanName": "Schwarzmilan",
+      "scientificName": "Milvus migrans",
+      "abbrev": "Swm"
+    },
+    {
+      "speciesPKID": 1535,
+      "germanName": "Schwarzschwan",
+      "scientificName": "Cygnus atratus",
+      "abbrev": "Ssw"
+    },
+    {
+      "speciesPKID": 8630,
+      "germanName": "Schwarzspecht",
+      "scientificName": "Dryocopus martius",
+      "abbrev": "Ssp"
+    },
+    {
+      "speciesPKID": 1310,
+      "germanName": "Schwarzstorch",
+      "scientificName": "Ciconia nigra",
+      "abbrev": "Sst"
+    },
+    {
+      "speciesPKID": 2430,
+      "germanName": "Seeadler",
+      "scientificName": "Haliaeetus albicilla",
+      "abbrev": "Sea"
+    },
+    {
+      "speciesPKID": 4770,
+      "germanName": "Seeregenpfeifer",
+      "scientificName": "Charadrius alexandrinus",
+      "abbrev": "Ser"
+    },
+    {
+      "speciesPKID": 12420,
+      "germanName": "Seggenrohrsänger",
+      "scientificName": "Acrocephalus paludicola",
+      "abbrev": "Seg"
+    },
+    {
+      "speciesPKID": 5920,
+      "germanName": "Silbermöwe",
+      "scientificName": "Larus argentatus",
+      "abbrev": "Sim"
+    },
+    {
+      "speciesPKID": 1210,
+      "germanName": "Silberreiher",
+      "scientificName": "Ardea alba",
+      "abbrev": "Sir"
+    },
+    {
+      "speciesPKID": 12000,
+      "germanName": "Singdrossel",
+      "scientificName": "Turdus philomelos",
+      "abbrev": "Sd"
+    },
+    {
+      "speciesPKID": 1540,
+      "germanName": "Singschwan",
+      "scientificName": "Cygnus cygnus",
+      "abbrev": "Sis"
+    },
+    {
+      "speciesPKID": 13150,
+      "germanName": "Sommergoldhähnchen",
+      "scientificName": "Regulus ignicapilla",
+      "abbrev": "Sg"
+    },
+    {
+      "speciesPKID": 2690,
+      "germanName": "Sperber",
+      "scientificName": "Accipiter nisus",
+      "abbrev": "Sp"
+    },
+    {
+      "speciesPKID": 12730,
+      "germanName": "Sperbergrasmücke",
+      "scientificName": "Sylvia nisoria",
+      "abbrev": "Sgm"
+    },
+    {
+      "speciesPKID": 7510,
+      "germanName": "Sperlingskauz",
+      "scientificName": "Glaucidium passerinum",
+      "abbrev": "Spk"
+    },
+    {
+      "speciesPKID": 1890,
+      "germanName": "Spießente",
+      "scientificName": "Anas acuta",
+      "abbrev": "Spe"
+    },
+    {
+      "speciesPKID": 11030,
+      "germanName": "Sprosser",
+      "scientificName": "Luscinia luscinia",
+      "abbrev": "Spr"
+    },
+    {
+      "speciesPKID": 15820,
+      "germanName": "Star",
+      "scientificName": "Sturnus vulgaris",
+      "abbrev": "S"
+    },
+    {
+      "speciesPKID": 2960,
+      "germanName": "Steinadler",
+      "scientificName": "Aquila chrysaetos",
+      "abbrev": "Sta"
+    },
+    {
+      "speciesPKID": 3570,
+      "germanName": "Steinhuhn",
+      "scientificName": "Alectoris graeca",
+      "abbrev": "Sth"
+    },
+    {
+      "speciesPKID": 7570,
+      "germanName": "Steinkauz",
+      "scientificName": "Athene noctua",
+      "abbrev": "Stk"
+    },
+    {
+      "speciesPKID": 11620,
+      "germanName": "Steinrötel",
+      "scientificName": "Monticola saxatilis",
+      "abbrev": "Str"
+    },
+    {
+      "speciesPKID": 11460,
+      "germanName": "Steinschmätzer",
+      "scientificName": "Oenanthe oenanthe",
+      "abbrev": "Sts"
+    },
+    {
+      "speciesPKID": 4550,
+      "germanName": "Stelzenläufer",
+      "scientificName": "Himantopus himantopus",
+      "abbrev": "Stl"
+    },
+    {
+      "speciesPKID": 5927,
+      "germanName": "Steppenmöwe",
+      "scientificName": "Larus cachinnans",
+      "abbrev": "Spm"
+    },
+    {
+      "speciesPKID": 16530,
+      "germanName": "Stieglitz",
+      "scientificName": "Carduelis carduelis",
+      "abbrev": "Sti"
+    },
+    {
+      "speciesPKID": 1860,
+      "germanName": "Stockente",
+      "scientificName": "Anas platyrhynchos",
+      "abbrev": "Sto"
+    },
+    {
+      "speciesPKID": 6651,
+      "germanName": "Straßentaube",
+      "scientificName": "Columba livia f. domestica",
+      "abbrev": "Stt"
+    },
+    {
+      "speciesPKID": 1620,
+      "germanName": "Streifengans",
+      "scientificName": "Anser indicus",
+      "abbrev": "Srg"
+    },
+    {
+      "speciesPKID": 5900,
+      "germanName": "Sturmmöwe",
+      "scientificName": "Larus canus",
+      "abbrev": "Stm"
+    },
+    {
+      "speciesPKID": 14400,
+      "germanName": "Sumpfmeise",
+      "scientificName": "Poecile palustris",
+      "abbrev": "Sum"
+    },
+    {
+      "speciesPKID": 7680,
+      "germanName": "Sumpfohreule",
+      "scientificName": "Asio flammeus",
+      "abbrev": "So"
+    },
+    {
+      "speciesPKID": 12500,
+      "germanName": "Sumpfrohrsänger",
+      "scientificName": "Acrocephalus palustris",
+      "abbrev": "Su"
+    },
+    {
+      "speciesPKID": 4560,
+      "germanName": "Säbelschnäbler",
+      "scientificName": "Recurvirostra avosetta",
+      "abbrev": "Sb"
+    },
+    {
+      "speciesPKID": 1980,
+      "germanName": "Tafelente",
+      "scientificName": "Aythya ferina",
+      "abbrev": "Ta"
+    },
+    {
+      "speciesPKID": 15570,
+      "germanName": "Tannenhäher",
+      "scientificName": "Nucifraga caryocatactes",
+      "abbrev": "Th"
+    },
+    {
+      "speciesPKID": 14610,
+      "germanName": "Tannenmeise",
+      "scientificName": "Periparus ater",
+      "abbrev": "Tm"
+    },
+    {
+      "speciesPKID": 4240,
+      "germanName": "Teichhuhn",
+      "scientificName": "Gallinula chloropus",
+      "abbrev": "Tr"
+    },
+    {
+      "speciesPKID": 12510,
+      "germanName": "Teichrohrsänger",
+      "scientificName": "Acrocephalus scirpaceus",
+      "abbrev": "T"
+    },
+    {
+      "speciesPKID": 6360,
+      "germanName": "Tordalk",
+      "scientificName": "Alca torda",
+      "abbrev": "To"
+    },
+    {
+      "speciesPKID": 13490,
+      "germanName": "Trauerschnäpper",
+      "scientificName": "Ficedula hypoleuca",
+      "abbrev": "Ts"
+    },
+    {
+      "speciesPKID": 6270,
+      "germanName": "Trauerseeschwalbe",
+      "scientificName": "Chlidonias niger",
+      "abbrev": "Tss"
+    },
+    {
+      "speciesPKID": 6340,
+      "germanName": "Trottellumme",
+      "scientificName": "Uria aalge",
+      "abbrev": "Tl"
+    },
+    {
+      "speciesPKID": 3990,
+      "germanName": "Truthuhn",
+      "scientificName": "Meleagris gallopavo",
+      "abbrev": "Thu"
+    },
+    {
+      "speciesPKID": 3040,
+      "germanName": "Turmfalke",
+      "scientificName": "Falco tinnunculus",
+      "abbrev": "Tf"
+    },
+    {
+      "speciesPKID": 6870,
+      "germanName": "Turteltaube",
+      "scientificName": "Streptopelia turtur",
+      "abbrev": "Tut"
+    },
+    {
+      "speciesPKID": 4080,
+      "germanName": "Tüpfelsumpfhuhn",
+      "scientificName": "Porzana porzana",
+      "abbrev": "Tsh"
+    },
+    {
+      "speciesPKID": 6840,
+      "germanName": "Türkentaube",
+      "scientificName": "Streptopelia decaocto",
+      "abbrev": "Tt"
+    },
+    {
+      "speciesPKID": 5320,
+      "germanName": "Uferschnepfe",
+      "scientificName": "Limosa limosa",
+      "abbrev": "Us"
+    },
+    {
+      "speciesPKID": 9810,
+      "germanName": "Uferschwalbe",
+      "scientificName": "Riparia riparia",
+      "abbrev": "U"
+    },
+    {
+      "speciesPKID": 7440,
+      "germanName": "Uhu",
+      "scientificName": "Bubo bubo",
+      "abbrev": "Uh"
+    },
+    {
+      "speciesPKID": 1560,
+      "germanName": "VERALTET: Schwanengans",
+      "scientificName": "OLD: Anser cygnoides",
+      "abbrev": "Hög"
+    },
+    {
+      "speciesPKID": 11980,
+      "germanName": "Wacholderdrossel",
+      "scientificName": "Turdus pilaris",
+      "abbrev": "Wd"
+    },
+    {
+      "speciesPKID": 3700,
+      "germanName": "Wachtel",
+      "scientificName": "Coturnix coturnix",
+      "abbrev": "Wa"
+    },
+    {
+      "speciesPKID": 4210,
+      "germanName": "Wachtelkönig",
+      "scientificName": "Crex crex",
+      "abbrev": "Wk"
+    },
+    {
+      "speciesPKID": 14860,
+      "germanName": "Waldbaumläufer",
+      "scientificName": "Certhia familiaris",
+      "abbrev": "Wb"
+    },
+    {
+      "speciesPKID": 7610,
+      "germanName": "Waldkauz",
+      "scientificName": "Strix aluco",
+      "abbrev": "Wz"
+    },
+    {
+      "speciesPKID": 13080,
+      "germanName": "Waldlaubsänger",
+      "scientificName": "Phylloscopus sibilatrix",
+      "abbrev": "Wls"
+    },
+    {
+      "speciesPKID": 7670,
+      "germanName": "Waldohreule",
+      "scientificName": "Asio otus",
+      "abbrev": "Wo"
+    },
+    {
+      "speciesPKID": 5290,
+      "germanName": "Waldschnepfe",
+      "scientificName": "Scolopax rusticola",
+      "abbrev": "Was"
+    },
+    {
+      "speciesPKID": 5530,
+      "germanName": "Waldwasserläufer",
+      "scientificName": "Tringa ochropus",
+      "abbrev": "Waw"
+    },
+    {
+      "speciesPKID": 3200,
+      "germanName": "Wanderfalke",
+      "scientificName": "Falco peregrinus",
+      "abbrev": "Wf"
+    },
+    {
+      "speciesPKID": 10500,
+      "germanName": "Wasseramsel",
+      "scientificName": "Cinclus cinclus",
+      "abbrev": "Waa"
+    },
+    {
+      "speciesPKID": 4070,
+      "germanName": "Wasserralle",
+      "scientificName": "Rallus aquaticus",
+      "abbrev": "Wr"
+    },
+    {
+      "speciesPKID": 14420,
+      "germanName": "Weidenmeise",
+      "scientificName": "Poecile montanus",
+      "abbrev": "Wm"
+    },
+    {
+      "speciesPKID": 6260,
+      "germanName": "Weißbart-Seeschwalbe",
+      "scientificName": "Chlidonias hybrida",
+      "abbrev": "Wbs"
+    },
+    {
+      "speciesPKID": 6280,
+      "germanName": "Weißflügel-Seeschwalbe",
+      "scientificName": "Chlidonias leucopterus",
+      "abbrev": "Wfs"
+    },
+    {
+      "speciesPKID": 8840,
+      "germanName": "Weißrückenspecht",
+      "scientificName": "Dendrocopos leucotos",
+      "abbrev": "Wrs"
+    },
+    {
+      "speciesPKID": 1340,
+      "germanName": "Weißstorch",
+      "scientificName": "Ciconia ciconia",
+      "abbrev": "Ws"
+    },
+    {
+      "speciesPKID": 1670,
+      "germanName": "Weißwangengans",
+      "scientificName": "Branta leucopsis",
+      "abbrev": "Wwg"
+    },
+    {
+      "speciesPKID": 8480,
+      "germanName": "Wendehals",
+      "scientificName": "Jynx torquilla",
+      "abbrev": "Wh"
+    },
+    {
+      "speciesPKID": 2310,
+      "germanName": "Wespenbussard",
+      "scientificName": "Pernis apivorus",
+      "abbrev": "Wsb"
+    },
+    {
+      "speciesPKID": 8460,
+      "germanName": "Wiedehopf",
+      "scientificName": "Upupa epops",
+      "abbrev": "Wi"
+    },
+    {
+      "speciesPKID": 10110,
+      "germanName": "Wiesenpieper",
+      "scientificName": "Anthus pratensis",
+      "abbrev": "W"
+    },
+    {
+      "speciesPKID": 2630,
+      "germanName": "Wiesenweihe",
+      "scientificName": "Circus pygargus",
+      "abbrev": "Ww"
+    },
+    {
+      "speciesPKID": 13140,
+      "germanName": "Wintergoldhähnchen",
+      "scientificName": "Regulus regulus",
+      "abbrev": "Wg"
+    },
+    {
+      "speciesPKID": 18580,
+      "germanName": "Zaunammer",
+      "scientificName": "Emberiza cirlus",
+      "abbrev": "Za"
+    },
+    {
+      "speciesPKID": 10660,
+      "germanName": "Zaunkönig",
+      "scientificName": "Troglodytes troglodytes",
+      "abbrev": "Z"
+    },
+    {
+      "speciesPKID": 13110,
+      "germanName": "Zilpzalp",
+      "scientificName": "Phylloscopus collybita",
+      "abbrev": "Zi"
+    },
+    {
+      "speciesPKID": 18600,
+      "germanName": "Zippammer",
+      "scientificName": "Emberiza cia",
+      "abbrev": "Zip"
+    },
+    {
+      "speciesPKID": 16440,
+      "germanName": "Zitronenzeisig",
+      "scientificName": "Carduelis citrinella",
+      "abbrev": "Zig"
+    },
+    {
+      "speciesPKID": 980,
+      "germanName": "Zwergdommel",
+      "scientificName": "Ixobrychus minutus",
+      "abbrev": "Zd"
+    },
+    {
+      "speciesPKID": 5780,
+      "germanName": "Zwergmöwe",
+      "scientificName": "Hydrocoloeus minutus",
+      "abbrev": "Zwm"
+    },
+    {
+      "speciesPKID": 13430,
+      "germanName": "Zwergschnäpper",
+      "scientificName": "Ficedula parva",
+      "abbrev": "Zs"
+    },
+    {
+      "speciesPKID": 6240,
+      "germanName": "Zwergseeschwalbe",
+      "scientificName": "Sternula albifrons",
+      "abbrev": "Zss"
+    },
+    {
+      "speciesPKID": 70,
+      "germanName": "Zwergtaucher",
+      "scientificName": "Tachybaptus ruficollis",
+      "abbrev": "Zt"
+    }
+  ],
+  "mapping": {
+    "7121": {
+      "id": "alepar2",
+      "scientificName": "Psittacula eupatria"
+    },
+    "16634": {
+      "id": "redpol1",
+      "scientificName": "Acanthis cabaret",
+      "scope": {
+        "de": "Das DDA-Kürzel bezieht sich auf den Alpenbirkenzeisig; der Katalog führt ihn zusammen mit weiteren Formen als Birkenzeisig.",
+        "en": "The DDA abbreviation refers to Lesser Redpoll; the catalogue includes it within Redpoll."
+      }
+    },
+    "10940": {
+      "id": "alpacc1",
+      "scientificName": "Prunella collaris"
+    },
+    "15580": {
+      "id": "yebcho1",
+      "scientificName": "Pyrrhocorax graculus"
+    },
+    "3300": {
+      "id": "rocpta1",
+      "scientificName": "Lagopus muta"
+    },
+    "7980": {
+      "id": "alpswi1",
+      "scientificName": "Tachymarptis melba"
+    },
+    "5120": {
+      "id": "dunlin",
+      "scientificName": "Calidris alpina"
+    },
+    "11870": {
+      "id": "eurbla",
+      "scientificName": "Turdus merula"
+    },
+    "3350": {
+      "id": "wescap1",
+      "scientificName": "Tetrao urogallus"
+    },
+    "4500": {
+      "id": "euroys1",
+      "scientificName": "Haematopus ostralegus"
+    },
+    "10200": {
+      "id": "whiwag",
+      "scientificName": "Motacilla alba"
+    },
+    "13640": {
+      "id": "bearee1",
+      "scientificName": "Panurus biarmicus"
+    },
+    "710": {
+      "id": "norgan",
+      "scientificName": "Morus bassanus"
+    },
+    "3100": {
+      "id": "eurhob",
+      "scientificName": "Falco subbuteo"
+    },
+    "10090": {
+      "id": "trepip",
+      "scientificName": "Anthus trivialis"
+    },
+    "5190": {
+      "id": "comsni",
+      "scientificName": "Gallinago gallinago"
+    },
+    "2040": {
+      "id": "gresca",
+      "scientificName": "Aythya marila"
+    },
+    "13070": {
+      "id": "webwar1",
+      "scientificName": "Phylloscopus bonelli"
+    },
+    "10140": {
+      "id": "watpip1",
+      "scientificName": "Anthus spinoletta"
+    },
+    "14900": {
+      "id": "euptit1",
+      "scientificName": "Remiz pendulinus"
+    },
+    "8400": {
+      "id": "eubeat1",
+      "scientificName": "Merops apiaster"
+    },
+    "3320": {
+      "id": "blagro1",
+      "scientificName": "Lyrurus tetrix"
+    },
+    "11060": {
+      "id": "blueth",
+      "scientificName": "Luscinia svecica"
+    },
+    "14620": {
+      "id": "blutit",
+      "scientificName": "Cyanistes caeruleus"
+    },
+    "16600": {
+      "id": "eurlin1",
+      "scientificName": "Linaria cannabina"
+    },
+    "1590": {
+      "id": "gwfgoo",
+      "scientificName": "Anser albifrons"
+    },
+    "4290": {
+      "id": "eurcoo",
+      "scientificName": "Fulica atra"
+    },
+    "10050": {
+      "id": "tawpip1",
+      "scientificName": "Anthus campestris"
+    },
+    "5410": {
+      "id": "eurcur",
+      "scientificName": "Numenius arquata"
+    },
+    "1730": {
+      "id": "comshe",
+      "scientificName": "Tadorna tadorna"
+    },
+    "6110": {
+      "id": "santer1",
+      "scientificName": "Thalasseus sandvicensis"
+    },
+    "11370": {
+      "id": "whinch1",
+      "scientificName": "Saxicola rubetra"
+    },
+    "1770": {
+      "id": "wooduc",
+      "scientificName": "Aix sponsa"
+    },
+    "5540": {
+      "id": "woosan",
+      "scientificName": "Tringa glareola"
+    },
+    "16360": {
+      "id": "comcha",
+      "scientificName": "Fringilla coelebs"
+    },
+    "8760": {
+      "id": "grswoo",
+      "scientificName": "Dendrocopos major"
+    },
+    "1475": {
+      "id": "chifla1",
+      "scientificName": "Phoenicopterus chilensis"
+    },
+    "15600": {
+      "id": "eurjac",
+      "scientificName": "Coloeus monedula"
+    },
+    "12750": {
+      "id": "grewhi1",
+      "scientificName": "Sylvia communis"
+    },
+    "6020": {
+      "id": "bklkit",
+      "scientificName": "Rissa tridactyla"
+    },
+    "8980": {
+      "id": "ettwoo1",
+      "scientificName": "Picoides tridactylus"
+    },
+    "12530": {
+      "id": "grrwar1",
+      "scientificName": "Acrocephalus arundinaceus"
+    },
+    "15390": {
+      "id": "eurjay1",
+      "scientificName": "Garrulus glandarius"
+    },
+    "2060": {
+      "id": "comeid",
+      "scientificName": "Somateria mollissima"
+    },
+    "220": {
+      "id": "norful",
+      "scientificName": "Fulmarus glacialis"
+    },
+    "8310": {
+      "id": "comkin1",
+      "scientificName": "Alcedo atthis"
+    },
+    "15490": {
+      "id": "eurmag1",
+      "scientificName": "Pica pica"
+    },
+    "16540": {
+      "id": "eursis",
+      "scientificName": "Spinus spinus"
+    },
+    "9760": {
+      "id": "skylar",
+      "scientificName": "Alauda arvensis"
+    },
+    "12360": {
+      "id": "cogwar1",
+      "scientificName": "Locustella naevia"
+    },
+    "15980": {
+      "id": "eutspa",
+      "scientificName": "Passer montanus"
+    },
+    "9910": {
+      "id": "eurcrm1",
+      "scientificName": "Ptyonoprogne rupestris"
+    },
+    "16660": {
+      "id": "redcro",
+      "scientificName": "Loxia curvirostra"
+    },
+    "3010": {
+      "id": "osprey",
+      "scientificName": "Pandion haliaetus"
+    },
+    "13120": {
+      "id": "wlwwar",
+      "scientificName": "Phylloscopus trochilus"
+    },
+    "4690": {
+      "id": "lirplo",
+      "scientificName": "Charadrius dubius"
+    },
+    "6150": {
+      "id": "comter",
+      "scientificName": "Sterna hirundo"
+    },
+    "5560": {
+      "id": "comsan",
+      "scientificName": "Actitis hypoleucos"
+    },
+    "14870": {
+      "id": "shttre1",
+      "scientificName": "Certhia brachydactyla"
+    },
+    "12760": {
+      "id": "garwar1",
+      "scientificName": "Sylvia borin"
+    },
+    "11220": {
+      "id": "comred2",
+      "scientificName": "Phoenicurus phoenicurus"
+    },
+    "10190": {
+      "id": "grywag",
+      "scientificName": "Motacilla cinerea"
+    },
+    "7111": {
+      "id": "yehpar",
+      "scientificName": "Amazona oratrix"
+    },
+    "12590": {
+      "id": "ictwar1",
+      "scientificName": "Hippolais icterina"
+    },
+    "17100": {
+      "id": "eurbul",
+      "scientificName": "Pyrrhula pyrrhula"
+    },
+    "16400": {
+      "id": "eurser1",
+      "scientificName": "Serinus serinus"
+    },
+    "18570": {
+      "id": "yellow2",
+      "scientificName": "Emberiza citrinella"
+    },
+    "4850": {
+      "id": "eugplo",
+      "scientificName": "Pluvialis apricaria"
+    },
+    "18820": {
+      "id": "corbun1",
+      "scientificName": "Emberiza calandra"
+    },
+    "1610": {
+      "id": "gragoo",
+      "scientificName": "Anser anser"
+    },
+    "1220": {
+      "id": "graher1",
+      "scientificName": "Ardea cinerea"
+    },
+    "13350": {
+      "id": "spofly1",
+      "scientificName": "Muscicapa striata"
+    },
+    "8550": {
+      "id": "gyfwoo1",
+      "scientificName": "Picus canus"
+    },
+    "4460": {
+      "id": "grebus1",
+      "scientificName": "Otis tarda"
+    },
+    "16490": {
+      "id": "eurgre1",
+      "scientificName": "Chloris chloris"
+    },
+    "12930": {
+      "id": "grewar3",
+      "scientificName": "Phylloscopus trochiloides"
+    },
+    "8560": {
+      "id": "eugwoo2",
+      "scientificName": "Picus viridis"
+    },
+    "2230": {
+      "id": "commer",
+      "scientificName": "Mergus merganser"
+    },
+    "2670": {
+      "id": "norgos1",
+      "scientificName": "Accipiter gentilis"
+    },
+    "7650": {
+      "id": "uraowl1",
+      "scientificName": "Strix uralensis"
+    },
+    "13480": {
+      "id": "colfly1",
+      "scientificName": "Ficedula albicollis"
+    },
+    "7120": {
+      "id": "rorpar",
+      "scientificName": "Psittacula krameri"
+    },
+    "3260": {
+      "id": "hazgro1",
+      "scientificName": "Tetrastes bonasia"
+    },
+    "9720": {
+      "id": "crelar1",
+      "scientificName": "Galerida cristata"
+    },
+    "14540": {
+      "id": "cretit2",
+      "scientificName": "Lophophanes cristatus"
+    },
+    "90": {
+      "id": "grcgre1",
+      "scientificName": "Podiceps cristatus"
+    },
+    "11210": {
+      "id": "blared1",
+      "scientificName": "Phoenicurus ochruros"
+    },
+    "15910": {
+      "id": "houspa",
+      "scientificName": "Passer domesticus"
+    },
+    "10840": {
+      "id": "dunnoc1",
+      "scientificName": "Prunella modularis"
+    },
+    "9740": {
+      "id": "woolar1",
+      "scientificName": "Lullula arborea"
+    },
+    "5910": {
+      "id": "lbbgul",
+      "scientificName": "Larus fuscus"
+    },
+    "6680": {
+      "id": "stodov1",
+      "scientificName": "Columba oenas"
+    },
+    "1561": {
+      "id": "swagoo1",
+      "scientificName": "Anser cygnoid f. domestica",
+      "scope": {
+        "de": "Das DDA-Kürzel gilt für die Höckergans, die domestizierte Form der Schwanengans.",
+        "en": "The DDA abbreviation applies to the domestic form of Swan Goose."
+      }
+    },
+    "1520": {
+      "id": "mutswa",
+      "scientificName": "Cygnus olor"
+    },
+    "3940": {
+      "id": "rinphe1",
+      "scientificName": "Phasianus colchicus"
+    },
+    "5170": {
+      "id": "ruff",
+      "scientificName": "Calidris pugnax"
+    },
+    "1660": {
+      "id": "cangoo",
+      "scientificName": "Branta canadensis"
+    },
+    "16790": {
+      "id": "comros",
+      "scientificName": "Carpodacus erythrinus"
+    },
+    "17170": {
+      "id": "hawfin",
+      "scientificName": "Coccothraustes coccothraustes"
+    },
+    "4930": {
+      "id": "norlap",
+      "scientificName": "Vanellus vanellus"
+    },
+    "12740": {
+      "id": "leswhi4",
+      "scientificName": "Sylvia curruca"
+    },
+    "14790": {
+      "id": "eurnut2",
+      "scientificName": "Sitta europaea"
+    },
+    "8870": {
+      "id": "leswoo1",
+      "scientificName": "Dryobates minor"
+    },
+    "4100": {
+      "id": "litcra1",
+      "scientificName": "Porzana parva"
+    },
+    "1910": {
+      "id": "gargan",
+      "scientificName": "Spatula querquedula"
+    },
+    "14640": {
+      "id": "gretit1",
+      "scientificName": "Parus major"
+    },
+    "1960": {
+      "id": "recpoc",
+      "scientificName": "Netta rufina"
+    },
+    "15720": {
+      "id": "comrav",
+      "scientificName": "Corvus corax"
+    },
+    "720": {
+      "id": "grecor",
+      "scientificName": "Phalacrocorax carbo"
+    },
+    "2610": {
+      "id": "norhar1",
+      "scientificName": "Circus cyaneus"
+    },
+    "4330": {
+      "id": "comcra",
+      "scientificName": "Grus grus"
+    },
+    "1840": {
+      "id": "gnwtea",
+      "scientificName": "Anas crecca"
+    },
+    "7240": {
+      "id": "comcuc",
+      "scientificName": "Cuculus canorus"
+    },
+    "6160": {
+      "id": "arcter",
+      "scientificName": "Sterna paradisaea"
+    },
+    "5820": {
+      "id": "bkhgul",
+      "scientificName": "Chroicocephalus ridibundus"
+    },
+    "6050": {
+      "id": "gubter2",
+      "scientificName": "Gelochelidon nilotica"
+    },
+    "1940": {
+      "id": "norsho",
+      "scientificName": "Spatula clypeata"
+    },
+    "1440": {
+      "id": "eurspo1",
+      "scientificName": "Platalea leucorodia"
+    },
+    "1780": {
+      "id": "manduc",
+      "scientificName": "Aix galericulata"
+    },
+    "6000": {
+      "id": "gbbgul",
+      "scientificName": "Larus marinus"
+    },
+    "14820": {
+      "id": "wallcr1",
+      "scientificName": "Tichodroma muraria"
+    },
+    "7950": {
+      "id": "comswi",
+      "scientificName": "Apus apus"
+    },
+    "10010": {
+      "id": "comhom1",
+      "scientificName": "Delichon urbicum"
+    },
+    "12020": {
+      "id": "misthr1",
+      "scientificName": "Turdus viscivorus"
+    },
+    "5926": {
+      "id": "yelgul1",
+      "scientificName": "Larus michahellis"
+    },
+    "8830": {
+      "id": "miswoo1",
+      "scientificName": "Dendrocoptes medius"
+    },
+    "2210": {
+      "id": "rebmer",
+      "scientificName": "Mergus serrator"
+    },
+    "2020": {
+      "id": "ferduc",
+      "scientificName": "Aythya nyroca"
+    },
+    "2870": {
+      "id": "combuz1",
+      "scientificName": "Buteo buteo"
+    },
+    "12770": {
+      "id": "blackc1",
+      "scientificName": "Sylvia atricapilla"
+    },
+    "11040": {
+      "id": "comnig1",
+      "scientificName": "Luscinia megarhynchos"
+    },
+    "1040": {
+      "id": "bcnher",
+      "scientificName": "Nycticorax nycticorax"
+    },
+    "7780": {
+      "id": "eurnig1",
+      "scientificName": "Caprimulgus europaeus"
+    },
+    "5": {
+      "id": "grerhe1",
+      "scientificName": "Rhea americana"
+    },
+    "15673": {
+      "id": "hoocro1",
+      "scientificName": "Corvus cornix"
+    },
+    "15150": {
+      "id": "rebshr1",
+      "scientificName": "Lanius collurio"
+    },
+    "1700": {
+      "id": "egygoo",
+      "scientificName": "Alopochen aegyptiaca"
+    },
+    "12600": {
+      "id": "melwar1",
+      "scientificName": "Hippolais polyglotta"
+    },
+    "18660": {
+      "id": "ortbun1",
+      "scientificName": "Emberiza hortulana"
+    },
+    "1790": {
+      "id": "eurwig",
+      "scientificName": "Mareca penelope"
+    },
+    "15080": {
+      "id": "eugori2",
+      "scientificName": "Oriolus oriolus"
+    },
+    "1240": {
+      "id": "purher1",
+      "scientificName": "Ardea purpurea"
+    },
+    "15671": {
+      "id": "carcro1",
+      "scientificName": "Corvus corone"
+    },
+    "6060": {
+      "id": "caster1",
+      "scientificName": "Hydroprogne caspia"
+    },
+    "15200": {
+      "id": "norshr1",
+      "scientificName": "Lanius excubitor"
+    },
+    "9920": {
+      "id": "barswa",
+      "scientificName": "Hirundo rustica"
+    },
+    "7700": {
+      "id": "borowl",
+      "scientificName": "Aegolius funereus"
+    },
+    "3670": {
+      "id": "grypar",
+      "scientificName": "Perdix perdix"
+    },
+    "2030": {
+      "id": "tufduc",
+      "scientificName": "Aythya fuligula"
+    },
+    "11860": {
+      "id": "rinouz1",
+      "scientificName": "Turdus torquatus"
+    },
+    "6700": {
+      "id": "cowpig1",
+      "scientificName": "Columba palumbus"
+    },
+    "18770": {
+      "id": "reebun",
+      "scientificName": "Emberiza schoeniclus"
+    },
+    "950": {
+      "id": "grebit1",
+      "scientificName": "Botaurus stellaris"
+    },
+    "12380": {
+      "id": "savwar1",
+      "scientificName": "Locustella luscinioides"
+    },
+    "2600": {
+      "id": "wemhar1",
+      "scientificName": "Circus aeruginosus"
+    },
+    "1472": {
+      "id": "grefla3",
+      "scientificName": "Phoenicopterus roseus"
+    },
+    "1710": {
+      "id": "rudshe",
+      "scientificName": "Tadorna ferruginea"
+    },
+    "100": {
+      "id": "rengre",
+      "scientificName": "Podiceps grisegena"
+    },
+    "10990": {
+      "id": "eurrob1",
+      "scientificName": "Erithacus rubecula"
+    },
+    "2390": {
+      "id": "redkit1",
+      "scientificName": "Milvus milvus"
+    },
+    "5460": {
+      "id": "comred1",
+      "scientificName": "Tringa totanus"
+    },
+    "15630": {
+      "id": "rook1",
+      "scientificName": "Corvus frugilegus"
+    },
+    "4700": {
+      "id": "corplo",
+      "scientificName": "Charadrius hiaticula"
+    },
+    "10170": {
+      "id": "eaywag1",
+      "scientificName": "Motacilla flava"
+    },
+    "2180": {
+      "id": "comgol",
+      "scientificName": "Bucephala clangula"
+    },
+    "12430": {
+      "id": "sedwar1",
+      "scientificName": "Acrocephalus schoenobaenus"
+    },
+    "12370": {
+      "id": "eurwar2",
+      "scientificName": "Locustella fluviatilis"
+    },
+    "7350": {
+      "id": "webowl1",
+      "scientificName": "Tyto alba"
+    },
+    "1820": {
+      "id": "gadwal",
+      "scientificName": "Mareca strepera"
+    },
+    "1630": {
+      "id": "snogoo",
+      "scientificName": "Anser caerulescens"
+    },
+    "16110": {
+      "id": "whwsno1",
+      "scientificName": "Montifringilla nivalis"
+    },
+    "2920": {
+      "id": "leseag1",
+      "scientificName": "Clanga pomarina"
+    },
+    "14370": {
+      "id": "lottit1",
+      "scientificName": "Aegithalos caudatus"
+    },
+    "120": {
+      "id": "eargre",
+      "scientificName": "Podiceps nigricollis"
+    },
+    "11390": {
+      "id": "stonec4",
+      "scientificName": "Saxicola rubicola"
+    },
+    "5750": {
+      "id": "medgul1",
+      "scientificName": "Ichthyaetus melanocephalus"
+    },
+    "2380": {
+      "id": "blakit1",
+      "scientificName": "Milvus migrans"
+    },
+    "1535": {
+      "id": "blkswa",
+      "scientificName": "Cygnus atratus"
+    },
+    "8630": {
+      "id": "blawoo1",
+      "scientificName": "Dryocopus martius"
+    },
+    "1310": {
+      "id": "blasto1",
+      "scientificName": "Ciconia nigra"
+    },
+    "2430": {
+      "id": "whteag",
+      "scientificName": "Haliaeetus albicilla"
+    },
+    "4770": {
+      "id": "kenplo1",
+      "scientificName": "Charadrius alexandrinus"
+    },
+    "12420": {
+      "id": "aquwar1",
+      "scientificName": "Acrocephalus paludicola"
+    },
+    "5920": {
+      "id": "euhgul1",
+      "scientificName": "Larus argentatus"
+    },
+    "1210": {
+      "id": "greegr",
+      "scientificName": "Ardea alba"
+    },
+    "12000": {
+      "id": "sonthr1",
+      "scientificName": "Turdus philomelos"
+    },
+    "1540": {
+      "id": "whoswa",
+      "scientificName": "Cygnus cygnus"
+    },
+    "13150": {
+      "id": "firecr1",
+      "scientificName": "Regulus ignicapilla"
+    },
+    "2690": {
+      "id": "eurspa1",
+      "scientificName": "Accipiter nisus"
+    },
+    "12730": {
+      "id": "barwar1",
+      "scientificName": "Sylvia nisoria"
+    },
+    "7510": {
+      "id": "eupowl1",
+      "scientificName": "Glaucidium passerinum"
+    },
+    "1890": {
+      "id": "norpin",
+      "scientificName": "Anas acuta"
+    },
+    "11030": {
+      "id": "thrnig1",
+      "scientificName": "Luscinia luscinia"
+    },
+    "15820": {
+      "id": "eursta",
+      "scientificName": "Sturnus vulgaris"
+    },
+    "2960": {
+      "id": "goleag",
+      "scientificName": "Aquila chrysaetos"
+    },
+    "3570": {
+      "id": "rocpar2",
+      "scientificName": "Alectoris graeca"
+    },
+    "7570": {
+      "id": "litowl1",
+      "scientificName": "Athene noctua"
+    },
+    "11620": {
+      "id": "rtrthr1",
+      "scientificName": "Monticola saxatilis"
+    },
+    "11460": {
+      "id": "norwhe",
+      "scientificName": "Oenanthe oenanthe"
+    },
+    "4550": {
+      "id": "bkwsti",
+      "scientificName": "Himantopus himantopus"
+    },
+    "5927": {
+      "id": "casgul2",
+      "scientificName": "Larus cachinnans"
+    },
+    "16530": {
+      "id": "eurgol",
+      "scientificName": "Carduelis carduelis"
+    },
+    "1860": {
+      "id": "mallar3",
+      "scientificName": "Anas platyrhynchos"
+    },
+    "6651": {
+      "id": "rocpig",
+      "scientificName": "Columba livia f. domestica",
+      "scope": {
+        "de": "Das DDA-Kürzel gilt für die Straßentaube, die domestizierte Form der Felsentaube.",
+        "en": "The DDA abbreviation applies to feral/domestic Rock Pigeon."
+      }
+    },
+    "1620": {
+      "id": "bahgoo",
+      "scientificName": "Anser indicus"
+    },
+    "5900": {
+      "id": "mewgul",
+      "scientificName": "Larus canus"
+    },
+    "14400": {
+      "id": "martit2",
+      "scientificName": "Poecile palustris"
+    },
+    "7680": {
+      "id": "sheowl",
+      "scientificName": "Asio flammeus"
+    },
+    "12500": {
+      "id": "marwar3",
+      "scientificName": "Acrocephalus palustris"
+    },
+    "4560": {
+      "id": "pieavo1",
+      "scientificName": "Recurvirostra avosetta"
+    },
+    "1980": {
+      "id": "compoc",
+      "scientificName": "Aythya ferina"
+    },
+    "15570": {
+      "id": "eurnut3",
+      "scientificName": "Nucifraga caryocatactes"
+    },
+    "14610": {
+      "id": "coatit2",
+      "scientificName": "Periparus ater"
+    },
+    "4240": {
+      "id": "commoo3",
+      "scientificName": "Gallinula chloropus"
+    },
+    "12510": {
+      "id": "eurwar1",
+      "scientificName": "Acrocephalus scirpaceus"
+    },
+    "6360": {
+      "id": "razorb",
+      "scientificName": "Alca torda"
+    },
+    "13490": {
+      "id": "eupfly1",
+      "scientificName": "Ficedula hypoleuca"
+    },
+    "6270": {
+      "id": "blkter",
+      "scientificName": "Chlidonias niger"
+    },
+    "6340": {
+      "id": "commur",
+      "scientificName": "Uria aalge"
+    },
+    "3990": {
+      "id": "wiltur",
+      "scientificName": "Meleagris gallopavo"
+    },
+    "3040": {
+      "id": "eurkes",
+      "scientificName": "Falco tinnunculus"
+    },
+    "6870": {
+      "id": "eutdov",
+      "scientificName": "Streptopelia turtur"
+    },
+    "4080": {
+      "id": "spocra1",
+      "scientificName": "Porzana porzana"
+    },
+    "6840": {
+      "id": "eucdov",
+      "scientificName": "Streptopelia decaocto"
+    },
+    "5320": {
+      "id": "bktgod",
+      "scientificName": "Limosa limosa"
+    },
+    "9810": {
+      "id": "banswa",
+      "scientificName": "Riparia riparia"
+    },
+    "7440": {
+      "id": "eueowl1",
+      "scientificName": "Bubo bubo"
+    },
+    "11980": {
+      "id": "fieldf",
+      "scientificName": "Turdus pilaris"
+    },
+    "3700": {
+      "id": "comqua1",
+      "scientificName": "Coturnix coturnix"
+    },
+    "4210": {
+      "id": "corcra",
+      "scientificName": "Crex crex"
+    },
+    "14860": {
+      "id": "eurtre1",
+      "scientificName": "Certhia familiaris"
+    },
+    "7610": {
+      "id": "tawowl1",
+      "scientificName": "Strix aluco"
+    },
+    "13080": {
+      "id": "woowar",
+      "scientificName": "Phylloscopus sibilatrix"
+    },
+    "7670": {
+      "id": "loeowl",
+      "scientificName": "Asio otus"
+    },
+    "5290": {
+      "id": "eurwoo",
+      "scientificName": "Scolopax rusticola"
+    },
+    "5530": {
+      "id": "grnsan",
+      "scientificName": "Tringa ochropus"
+    },
+    "3200": {
+      "id": "perfal",
+      "scientificName": "Falco peregrinus"
+    },
+    "10500": {
+      "id": "whtdip1",
+      "scientificName": "Cinclus cinclus"
+    },
+    "4070": {
+      "id": "watrai1",
+      "scientificName": "Rallus aquaticus"
+    },
+    "14420": {
+      "id": "wiltit1",
+      "scientificName": "Poecile montanus"
+    },
+    "6260": {
+      "id": "whiter2",
+      "scientificName": "Chlidonias hybrida"
+    },
+    "6280": {
+      "id": "whwter",
+      "scientificName": "Chlidonias leucopterus"
+    },
+    "8840": {
+      "id": "whbwoo1",
+      "scientificName": "Dendrocopos leucotos"
+    },
+    "1340": {
+      "id": "whisto1",
+      "scientificName": "Ciconia ciconia"
+    },
+    "1670": {
+      "id": "bargoo",
+      "scientificName": "Branta leucopsis"
+    },
+    "8480": {
+      "id": "eurwry",
+      "scientificName": "Jynx torquilla"
+    },
+    "2310": {
+      "id": "euhbuz1",
+      "scientificName": "Pernis apivorus"
+    },
+    "8460": {
+      "id": "hoopoe",
+      "scientificName": "Upupa epops"
+    },
+    "10110": {
+      "id": "meapip1",
+      "scientificName": "Anthus pratensis"
+    },
+    "2630": {
+      "id": "monhar1",
+      "scientificName": "Circus pygargus"
+    },
+    "13140": {
+      "id": "goldcr1",
+      "scientificName": "Regulus regulus"
+    },
+    "18580": {
+      "id": "cirbun1",
+      "scientificName": "Emberiza cirlus"
+    },
+    "10660": {
+      "id": "winwre4",
+      "scientificName": "Troglodytes troglodytes"
+    },
+    "13110": {
+      "id": "comchi1",
+      "scientificName": "Phylloscopus collybita"
+    },
+    "18600": {
+      "id": "rocbun1",
+      "scientificName": "Emberiza cia"
+    },
+    "16440": {
+      "id": "citfin1",
+      "scientificName": "Carduelis citrinella"
+    },
+    "980": {
+      "id": "litbit1",
+      "scientificName": "Ixobrychus minutus"
+    },
+    "5780": {
+      "id": "litgul",
+      "scientificName": "Hydrocoloeus minutus"
+    },
+    "13430": {
+      "id": "rebfly",
+      "scientificName": "Ficedula parva"
+    },
+    "6240": {
+      "id": "litter1",
+      "scientificName": "Sternula albifrons"
+    },
+    "70": {
+      "id": "litgre1",
+      "scientificName": "Tachybaptus ruficollis"
+    }
+  }
+}

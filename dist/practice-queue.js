@@ -1,4 +1,5 @@
-import {hasLanguagePair} from './name-languages.js?v=20261113-french1';
+import {learningTargets} from './code-targets.js?v=20261122-dda1';
+import {hasLanguagePair} from './name-languages.js?v=20261122-dda1';
 import {RULES,dailyQueue,evidence,isDue,pairKnown} from './learning-model.js?v=20261105-recovery1';
 
 // One-click continuation uses shared selection settings, not hidden custom filters.
@@ -12,7 +13,7 @@ export function practiceQueue({units,records,source,method,count=RULES.round,now
 // Daily setup and the completion summary use the same candidate ordering.
 export function dailyLearningPlan({birds,settings,selection,records,ledger,order=new Map(),now=Date.now(),random=Math.random}){
  const newIds=new Set(selection.pool.map(s=>s.id));
- const targets=settings.target==='mixed'?[settings.nameLanguage,'code']:[settings.target];
+ const targets=learningTargets(settings);
  let units=birds.flatMap(s=>targets.filter(t=>hasLanguagePair(s,settings.sourceLanguage,t)&&t!==settings.sourceLanguage).map(t=>({id:s.id,t,allowNew:newIds.has(s.id)})));
  const additions=new Set(selection.hybrid.additions.map(r=>r.id));
  units=units.map(u=>{const key=u.id+':'+u.t;if(!order.has(key))order.set(key,random());return {...u,random:order.get(key)};}).sort((a,b)=>+additions.has(b.id)-+additions.has(a.id)||a.random-b.random);

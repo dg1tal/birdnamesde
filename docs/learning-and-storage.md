@@ -138,3 +138,30 @@ Backup version 3 adds `savedSpecies`. List-only backups are valid. Version 3 rep
 Ending early offers Undo on the current summary, without a timer. Only round state and the pending-round order are restored; graded records and the daily ledger are never rolled back or graded twice. Leaving the summary, starting another round, restoring a backup, resetting or reloading invalidates Undo.
 
 Regression coverage: `node scripts/test-usability.mjs`, including atomic list replacement and failed transactions, old and list-only backups, independent statistics, and the production end-round handler.
+
+## DDA and eBird code systems
+
+Abbreviation and mixed lessons select eBird or DDA, including saved-species
+practice. Existing settings default to eBird. Mixed lessons pair the selected
+name target with one selected code system. The four answer methods, daily
+introductions, custom rounds and continuation share this selection. Only species
+with a mapped DDA entry are eligible for DDA questions. Reference cards show
+separately labelled source systems after revealing the answer.
+
+The existing `species-id:code` records remain eBird; `species-id:dda` records keep
+independent DDA evidence, reviews, methods and question languages. Statistics
+select their code system independently and carry it into follow-up practice.
+Progress backups include both systems without changing export version 3.
+
+DDA answers ignore case and accept German umlaut transliterations (`Hö` / `Hoe`)
+but preserve umlauts as distinct letters (`Ho` is not `Hö`). The original one- to
+three-letter source spelling is always displayed. Narrower source concepts
+(Lesser Redpoll, feral Rock Pigeon, domestic Swan Goose) are explained in both
+questions and answers using the German DDA name, independently of question language.
+
+Each DDA queue item snapshots its original answer, source name and scope, so
+reloads and later data updates cannot rewrite paused questions or grade them
+twice. A definition signature on DDA records detects changes to the abbreviation,
+scientific concept or scope: confirmations/stage are reset and review becomes
+due, while historical answer totals are retained. This reconciliation also runs
+when restoring backups. Cosmetic source-name changes do not reset evidence.

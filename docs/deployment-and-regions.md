@@ -47,3 +47,27 @@ Current species outside the selected base are automatically included in regional
 Checks: `node scripts/test-hybrid-learning.mjs` and `python3 -m unittest discover -s scripts -p 'test_current.py'`, alongside the existing app/regional tests.
 
 Reproduce the active EBD release with `python3 scripts/build-ebd-seasonal.py`; verify tracked outputs with `--check`. The generator takes the reviewed `data/ebd-seasonal-preview.json` and `data/ebd-region-match.json`, checks the unchanged period/thresholds and exact region IDs, and generates the compact seasonal data, provenance, full terms and bilingual method/coverage page together. The coverage tables derive from the data, including absent historical samples. New regional rounds snapshot the dataset source/version; legacy and paused rounds retain their existing queue, metadata and progress without retrospective source assignment. See [ebd-import.md](ebd-import.md) for rebuilding the private import. The former histogram importer `scripts/build-seasonal.py` and `data/seasonal-histogram-provenance.json` remain as historical reproduction tools/audit and are not used for the active release.
+
+## DDA abbreviation refresh
+
+The existing daily Pages workflow also runs `scripts/update-dda.py --if-due`.
+It revalidates the previous public `dda-codes.json` snapshot and reuses it while
+its successful fetch is less than 24 hours old. The existing manual
+`force_refresh` option forces both regional and DDA requests. DDA needs no secret.
+The browser fetches only the published static JSON, never the DDA API.
+
+New source rows and rows whose scientific concept differs from their reviewed
+mapping are reported in `meta.review`, without automatic catalogue additions.
+Known mappings accept updated abbreviations and display names. Source rows
+marked `VERALTET:` or `OLD:` are excluded. Malformed responses, duplicate source
+IDs and conflicting catalogue mappings reject the candidate. On request or
+validation failures the updater retains the last valid published snapshot,
+including its original timestamp, or the committed bootstrap if unavailable.
+The app's Data & privacy page shows the DDA source date and successful fetch time
+separately and links the downloadable snapshot/update report.
+
+The committed bootstrap is reproducibility-checked before network refreshes.
+Deployment updates are included in the Pages artifact rather than committed by
+the workflow. After changing mappings, regenerate the bootstrap and run
+`node scripts/test-dda.mjs`, `python3 -m unittest discover -s scripts -p test_dda.py`
+and `python3 scripts/update-dda.py --check` alongside the normal checks.
