@@ -146,7 +146,8 @@ practice. Existing settings default to eBird. Mixed lessons pair the selected
 name target with one selected code system. The four answer methods, daily
 introductions, custom rounds and continuation share this selection. Only species
 with a mapped DDA entry are eligible for DDA questions. Reference cards show
-separately labelled source systems after revealing the answer.
+separately labelled source systems after revealing the answer. The DDA source
+link appears centrally under Data & privacy rather than on each card.
 
 The existing `species-id:code` records remain eBird; `species-id:dda` records keep
 independent DDA evidence, reviews, methods and question languages. Statistics

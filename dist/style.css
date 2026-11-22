@@ -980,7 +980,6 @@ select{appearance:none;background-image:var(--select-chevron);background-repeat:
 .code-dda{background:var(--soft);color:var(--ink);border:1px solid currentColor;text-transform:none}
 .dda-scope{font-size:.9rem;line-height:1.45;margin:.5rem 0}
 .dda-scope p{margin:.25rem 0}
-.dda-source{margin:.4rem 0 0}
 .species-codes>.dda-codes{margin-top:0;padding-top:0;border-top:0}
 .dda-codes.answer-main{flex-direction:column;align-items:center;border:0;padding:0;gap:8px}
 body.studying .dda-codes.answer-main .code-dda{font-size:24px;padding:8px 12px}

@@ -1,4 +1,4 @@
-import {DDA_SOURCE,isCodeTarget,codeTarget,learningTargets,codeLabel,validateDdaData,ddaDefinition,reconcileDdaRecords,studySpecies} from './code-targets.js?v=20261122-dda1';
+import {isCodeTarget,codeTarget,learningTargets,codeLabel,validateDdaData,ddaDefinition,reconcileDdaRecords,studySpecies} from './code-targets.js?v=20261122-dda1';
 import {statsContext,statsPracticeSettings,validateSavedSpecies,restoreEndedRound} from './usability-state.js?v=20261122-dda1';
 import {validateScientificNames,renderScientificName} from './scientific-names.js?v=20261122-dda1';
 import {searchLookup} from './lookup-search.js?v=20261122-dda1';
@@ -323,7 +323,7 @@ function ddaQuestionScope(s,id=''){
 }
 function ddaMarkup(s,answer=false){
  if(!s.dda)return '';
- return `<div class="species-code-group dda-codes${answer?' answer-main answer-codes':''}" role="group" aria-label="${english?'DDA abbreviation':'DDA-Artkürzel'}"><p class="code-group-label">DDA</p><div class="species-code-items"><span class="code code-dda${answer?' answer-code':''}" title="${esc('DDA: '+s.dda.name)}"><span class="sr">DDA: </span><span data-name-content lang="de">${esc(s.dda.code)}</span></span></div>${Object.keys(s.dda.scope).length?ddaQuestionScope(s):''}<p class="form-note dda-source"><a href="${DDA_SOURCE}" target="_blank" rel="noopener noreferrer">${english?'DDA source list':'DDA-Quellliste'} ↗</a></p></div>`;
+ return `<div class="species-code-group dda-codes${answer?' answer-main answer-codes':''}" role="group" aria-label="${english?'DDA abbreviation':'DDA-Artkürzel'}"><p class="code-group-label">DDA</p><div class="species-code-items"><span class="code code-dda${answer?' answer-code':''}" title="${esc('DDA: '+s.dda.name)}"><span class="sr">DDA: </span><span data-name-content lang="de">${esc(s.dda.code)}</span></span></div>${Object.keys(s.dda.scope).length?ddaQuestionScope(s):''}</div>`;
 }
 function codeSystemControl(cfg,prefix=''){
  const id=prefix+'code-system',show=prefix==='stats-'||['code','mixed'].includes(cfg.target);

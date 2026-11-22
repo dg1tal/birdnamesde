@@ -63,7 +63,7 @@ for(const english of [false,true]){
  ctx.english=english;
  for(const bird of [blackbird,swan,birds.find(b=>b.de==='Felsentaube')]){
   const dda=ctx.nameAnswerMarkup(bird,'dda'),ebird=ctx.nameAnswerMarkup(bird,'code'),reference=ctx.codeGroups(bird);
-  assert(dda.includes(esc(bird.dda.code)));assert(dda.includes(DDA_SOURCE));assert(!dda.includes(bird.codes[0]));assert(!ebird.includes('code-dda'));assert(reference.includes('code-dda'));
+  assert(dda.includes(esc(bird.dda.code)));assert(!dda.includes(DDA_SOURCE));assert(!reference.includes(DDA_SOURCE));assert(!dda.includes(bird.codes[0]));assert(!ebird.includes('code-dda'));assert(reference.includes('code-dda'));
  }
  const scoped=birds.find(b=>b.de==='Felsentaube');assert(ctx.ddaQuestionScope(scoped).includes('Straßentaube'));
 }
