@@ -13,6 +13,7 @@ on:
     - cron: "23 4 * * *"
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -28,6 +29,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-26.04
     timeout-minutes: 20
+    env:
+      PAGES_ARTIFACT: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
@@ -81,8 +84,22 @@ jobs:
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: dist
+          name: ${{ env.PAGES_ARTIFACT }}
+      - name: Wait for Pages artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in {1..24}; do
+            if count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?per_page=100" --jq "[.artifacts[] | select(.name == \"$PAGES_ARTIFACT\" and .expired == false)] | length") && [ "$count" -eq 1 ]; then
+              echo "Pages artifact is available."
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Pages artifact metadata did not become available." >&2
+          exit 1
       - id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
         with:
-          # File sync can finish just after the action's default ten-minute limit.
-          timeout: 900000
+          artifact_name: ${{ env.PAGES_ARTIFACT }}
+          timeout: 600000

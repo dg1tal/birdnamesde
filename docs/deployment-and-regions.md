@@ -71,3 +71,9 @@ Deployment updates are included in the Pages artifact rather than committed by
 the workflow. After changing mappings, regenerate the bootstrap and run
 `node scripts/test-dda.mjs`, `python3 -m unittest discover -s scripts -p test_dda.py`
 and `python3 scripts/update-dda.py --check` alongside the normal checks.
+
+Pages artifacts use a unique name per workflow run and attempt. Before deployment,
+the workflow polls artifact metadata for up to two minutes. This handles delayed
+artifact visibility and prevents same-name collisions when rerunning a failed
+publication job. `actions: read` permits this metadata check; application data
+and DDA source processing do not need additional credentials.
