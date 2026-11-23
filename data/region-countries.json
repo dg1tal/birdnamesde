@@ -32,5 +32,17 @@
       "GB-WLS": "Wales"
     },
     "includeLocalRegions": true
+  },
+  {
+    "code": "FI",
+    "nameDe": "Finnland",
+    "nameEn": "Finland",
+    "expectedSubregions": 19
+  },
+  {
+    "code": "FR",
+    "nameDe": "Frankreich",
+    "nameEn": "France",
+    "expectedSubregions": 13
   }
 ]

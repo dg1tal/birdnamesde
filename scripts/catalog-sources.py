@@ -27,7 +27,14 @@ def main():
         if not isinstance(payload, list) or not payload or not all(
                 isinstance(x, str) and regions.re.fullmatch('[a-z0-9]+', x) for x in payload):
             raise ValueError('Invalid country species list: '+code)
-        countries.append({'code':code, 'taxa':sorted(set(payload))})
+        subregions = regions.request_json(regions.API+f'ref/region/list/subnational1/{code}?fmt=json', token)
+        if not isinstance(subregions, list) or not all(
+                isinstance(r, dict) and isinstance(r.get('code'), str) and
+                r['code'].startswith(code+'-') and r['code'].count('-') == 1 and
+                isinstance(r.get('name'), str) and 0 < len(r['name']) <= 150 for r in subregions):
+            raise ValueError('Invalid country region list: '+code)
+        countries.append({'code':code, 'taxa':sorted(set(payload)),
+                          'subregions': sorted([{'code':r['code'], 'name':r['name']} for r in subregions], key=lambda r:r['code'])})
         print(f'{code}: {len(set(payload))} source taxa')
     data = {'version':1, 'source':'eBird API v2 country species lists',
             'targetTaxonomy':'v2025', 'retrievedAt':dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds'),
