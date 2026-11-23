@@ -2,6 +2,7 @@ import {isCodeTarget,validDdaEntry} from './code-targets.js?v=20261122-dda1';
 import {RULES,lessonQueueLimit,lessonBaseLimit} from './learning-model.js?v=20261105-recovery1';
 import {isNameLanguage} from './name-languages.js?v=20261122-dda1';
 import {validSeasonalDataset} from './hybrid-learning.js?v=20261108-quality1';
+import {SELECTION_REASONS} from './introduction-reason.js?v=20261123-introreason1';
 // Serializable lesson state. Grading and navigation are separate so restored
 // feedback cannot grade an answer twice.
 export function validateLesson(value, ids) {
@@ -28,6 +29,7 @@ export function validateLesson(value, ids) {
     if(!['winter','spring','summer','autumn'].includes(h.season)||typeof h.seasonalReady!=='boolean'||typeof h.seasonalRequested!=='boolean'||!Array.isArray(h.additions)||h.additions.length>ids.size||!h.additions.every(r=>r&&ids.has(r.id)&&/^\d{4}-\d{2}-\d{2}$/.test(r.observedOn)&&/^\d{4}-\d{2}-\d{2}$/.test(r.expiresOn)&&Date.parse(r.expiresOn)-Date.parse(r.observedOn)===14*86400000))return null;
   }
   for(const i of value.queue){
+    if(i.selectionReason!==undefined&&!SELECTION_REASONS.includes(i.selectionReason))return null;
     if(i.t==='dda'&&!validDdaEntry(i.dda))return null;
     if(i.t!=='dda'&&i.dda!==undefined)return null;
     if(i.choices!==undefined&&(!Array.isArray(i.choices)||!i.choices.length||i.choices.length>4||!i.choices.every(v=>typeof v==='string'&&v.length<=300)))return null;

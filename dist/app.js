@@ -5,11 +5,12 @@ import {searchLookup} from './lookup-search.js?v=20261122-dda1';
 import {LOOKUP_PAGE_SIZE,lookupSettings,lookupTitle,sortLookup,lookupLanguages,showGermanStatus} from './lookup-settings.js?v=20261122-dda1';
 import {continuationSettings,practiceQueue,dailyLearningPlan} from './practice-queue.js?v=20261122-dda1';
 import {dailyNewNamesText,selectionExplanation} from './learning-selection-copy.js?v=20261122-dda1';
+import {introductionSelectionReason,introductionReasonText} from './introduction-reason.js?v=20261123-introreason1';
 import {RULES,lessonBaseLimit,evidence,secure,introduce,pairKnown,beginIntroduction,gradeRecord,statusLabel,evidenceText,scheduleText,family} from './learning-model.js?v=20261105-recovery1';
 import {renderLearningMethod} from './learning-method.js?v=20261120-mobileui1';
 import {loadSeasonal,hybridSelection,seasonLabel,regionalSnapshot,seasonalDatasetText,FREQUENCY_GROUPS,frequencyGroups,frequencyLabel} from './hybrid-learning.js?v=20261108-quality1';
 import {createAnnouncer,setTextIfChanged,focusElement,contentLanguage,queueFocus,activateView} from './accessibility.js?v=20261122-dda1';
-import {persistLearningState,loadLearningState} from './learning-storage.js?v=20261122-dda1';
+import {persistLearningState,loadLearningState} from './learning-storage.js?v=20261123-introreason1';
 import {inspectBackup,backupSummary,backupFilename,backupPanel,backupPreview} from './backup.js?v=20261122-dda1';
 import {encodeBackupFile,decodeBackupFile} from './backup-file.js?v=20261108-quality1';
 import {scientificNameAliases} from './scientific-name-aliases.js?v=20261108-quality1';
@@ -17,13 +18,13 @@ import {lessonProgressText,completionMessage,attemptText,progressDefinitions,que
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
 import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
 import {renderInformation} from './info-page.js?v=20261122-dda1';
-import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261122-dda1';
+import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261123-introreason1';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261122-dda1';
 import {validateRegions,regionalSelection,regionAllows,regionalDataStale,regionChildren,topRegion} from './regions.js?v=20261105-catalog1';
 import {english,localize,t,importErrorMessage} from './i18n.js?v=20261120-mobileui1';
 const defaultNameTarget=english?'de':'en';
 let nameTarget=defaultNameTarget,availableNameLanguages=['de','en'];
-import {lessonProgress,recordLessonAnswer} from './study-state.js?v=20261122-dda1';
+import {lessonProgress,recordLessonAnswer} from './study-state.js?v=20261123-introreason1';
 import {createPhotoCache} from './photo-cache.js';
 import {normalize,matches,accepts,answerSpecies,due} from './logic.js?v=20261122-dda1';
 const mastered=secure;
@@ -784,7 +785,7 @@ function startRound(queue,cfg,isDaily,hybrid){
  if(!queue.length||queue.length>lessonBaseLimit(birds.length))throw Error('Invalid round size');
  const region=regionMetadata(cfg.region);
  const id=crypto.randomUUID();
- session={version:2,id,savedRound:!!cfg.savedRound,daily:isDaily,sourceLanguage:cfg.sourceLanguage,nameLanguage:cfg.nameLanguage,regionCode:cfg.region,regionIds:isDaily?null:(cfg.region?[...hybrid.ids]:null),regionalContext:cfg.region?regionalSnapshot(hybrid):null,regionLabel:region?(english?region.nameEn:region.nameDe):'',queue:queue.map((u,i)=>({...u,...(u.t==='dda'?{dda:structuredClone(birds.find(s=>s.id===u.id).dda)}:{}),retry:0,uid:id+':'+i})),index:0,correct:0,answered:0,firstAnswered:0,firstCorrect:0,supported:0,method:cfg.method,photos:cfg.photos,paused:false,done:false,hint:false,result:null,draft:'',introductions:queue.map((u,i)=>u.introduce?i:-1).filter(i=>i>=0),introIndex:0};
+ session={version:2,id,savedRound:!!cfg.savedRound,daily:isDaily,sourceLanguage:cfg.sourceLanguage,nameLanguage:cfg.nameLanguage,regionCode:cfg.region,regionIds:isDaily?null:(cfg.region?[...hybrid.ids]:null),regionalContext:cfg.region?regionalSnapshot(hybrid):null,regionLabel:region?(english?region.nameEn:region.nameDe):'',queue:queue.map((u,i)=>({...u,selectionReason:introductionSelectionReason(u.id,cfg,hybrid),...(u.t==='dda'?{dda:structuredClone(birds.find(s=>s.id===u.id).dda)}:{}),retry:0,uid:id+':'+i})),index:0,correct:0,answered:0,firstAnswered:0,firstCorrect:0,supported:0,method:cfg.method,photos:cfg.photos,paused:false,done:false,hint:false,result:null,draft:'',introductions:queue.map((u,i)=>u.introduce?i:-1).filter(i=>i>=0),introIndex:0};
  save();renderQuestion();
 }
 function renderIntroduction(x){
@@ -792,7 +793,7 @@ function renderIntroduction(x){
  if(!item.introduced){daily=introduce(daily,unit);records[key(s,item.t)]=beginIntroduction(records[key(s,item.t)],x.sourceLanguage,x.method);if(item.t==='dda'){records[key(s,item.t)].ddaDefinition=ddaDefinition(s.dda);reconcileDdaRecords(records,birds);}item.introduced=true;save();}
  studyMode(true);document.body.classList.add('introducing');
  const instruction=isCodeTarget(item.t)?(item.t==='code'&&s.codes.length>1?(english?'Remember one of these codes. Any of them is accepted.':'Merke dir einen dieser Codes. Jede Variante wird akzeptiert.'):(english?'Remember the code. You will be asked for it shortly.':'Merke dir den Code. Er wird gleich abgefragt.')):(english?'Remember the translation. You will be asked for it shortly.':'Merke dir die Übersetzung. Sie wird gleich abgefragt.');
- app.innerHTML=`<div class="panel introduction"><p id="intro-instruction" class="intro-instruction">${instruction}</p><p class="eyebrow">${english?'New learning target':'Neues Lernziel'} · ${x.introIndex+1}/${x.introductions.length}</p><h1 aria-describedby="intro-instruction">${nameMarkup(s,x.sourceLanguage)}</h1>${item.t==='dda'?ddaQuestionScope(s,'question-dda-scope'):''}<p class="intro-answer-language">${esc(isCodeTarget(item.t)?codeLabel(item.t,english):languageLabel(item.t,english?'en':'de'))}</p>${nameAnswerMarkup(s,item.t)}${studyDetailsMarkup(s,item.t,x.sourceLanguage)}${x.photos?photoMarkup(s):''}${studyMoreMarkup(s,item.t,x.sourceLanguage)}${storageNotice()}<div class="actions study-actions"><button id="intro-next" class="primary">${english?'Continue':'Weiter'}</button><button id="intro-pause">${english?'Pause':'Pausieren'}</button></div></div>`;
+ app.innerHTML=`<div class="panel introduction"><p id="intro-instruction" class="intro-instruction">${instruction}</p><p class="eyebrow">${english?'New learning target':'Neues Lernziel'} · ${x.introIndex+1}/${x.introductions.length}</p><h1 aria-describedby="intro-instruction intro-reason">${nameMarkup(s,x.sourceLanguage)}</h1>${item.t==='dda'?ddaQuestionScope(s,'question-dda-scope'):''}<p class="intro-answer-language">${esc(isCodeTarget(item.t)?codeLabel(item.t,english):languageLabel(item.t,english?'en':'de'))}</p>${nameAnswerMarkup(s,item.t)}<p id="intro-reason" class="intro-reason">${esc(introductionReasonText(item,x,lessonRegionLabel(x),english))}</p>${studyDetailsMarkup(s,item.t,x.sourceLanguage)}${x.photos?photoMarkup(s):''}${studyMoreMarkup(s,item.t,x.sourceLanguage)}${storageNotice()}<div class="actions study-actions"><button id="intro-next" class="primary">${english?'Continue':'Weiter'}</button><button id="intro-pause">${english?'Pause':'Pausieren'}</button></div></div>`;
  $('#intro-next').onclick=()=>{x.introIndex++;save();renderQuestion();};$('#intro-pause').onclick=()=>{x.paused=true;save();learn();focusHeading();};focusElement($('.introduction h1'),{preventScroll:true});window.scrollTo(0,0);observeStudyActions();observeStudyPhotoLayout();
 }
 function lessonProgressMarkup(x){

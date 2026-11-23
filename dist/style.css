@@ -484,6 +484,7 @@ body.studying .question-selection-context{display:grid;gap:4px;font-size:13px;co
 body.studying .introduction{display:grid;gap:8px;padding:16px 20px;overflow-wrap:anywhere}
 body.studying .introduction>p,body.studying .introduction>h1{margin:0}
 body.studying .introduction>.intro-instruction{font-size:16px;line-height:1.4}
+body.studying .introduction>.intro-reason{font-size:14px;line-height:1.45;color:var(--muted)}
 body.studying .introduction>.eyebrow,body.studying .introduction>.intro-answer-language{font-size:13px;color:var(--muted)}
 body.studying .introduction>h1{font-size:clamp(28px,5vw,40px);line-height:1.2}
 body.studying .introduction>.answer-main{font-size:clamp(23px,4vw,30px);line-height:1.3}
