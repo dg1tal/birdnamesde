@@ -1,6 +1,6 @@
 import {isCodeTarget,codeTarget,learningTargets,codeLabel,validateDdaData,ddaDefinition,reconcileDdaRecords,studySpecies} from './code-targets.js?v=20261122-dda1';
 import {statsContext,statsPracticeSettings,validateSavedSpecies,restoreEndedRound} from './usability-state.js?v=20261122-dda1';
-import {validateScientificNames,renderScientificName} from './scientific-names.js?v=20261122-dda1';
+import {validateScientificNames,renderScientificName} from './scientific-names.js?v=20261123-study-origins';
 import {searchLookup} from './lookup-search.js?v=20261122-dda1';
 import {LOOKUP_PAGE_SIZE,lookupSettings,lookupTitle,sortLookup,lookupLanguages,showGermanStatus} from './lookup-settings.js?v=20261122-dda1';
 import {continuationSettings,practiceQueue,dailyLearningPlan} from './practice-queue.js?v=20261122-dda1';
