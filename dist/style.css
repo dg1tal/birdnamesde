@@ -985,3 +985,9 @@ body.dark{--dda-bg:#253b57;--dda-ink:#c8dfff}
 .dda-codes.answer-main{border:0;padding:0}
 body.studying .dda-codes.answer-main .code-dda{font-size:24px}
 @media(forced-colors:active){.code-swatch,.code-dda{outline:1px solid CanvasText}}
+
+/* Fit reference codes together on phones; keep answer codes prominent. */
+@media(max-width:580px){
+ .species-code-items{gap:4px}
+ body :is(.card,.study-reference-codes,.study-note-codes) .species-code-items>.code{font-size:clamp(1rem,4.6vw,1.125rem);padding:4px 3px;letter-spacing:.25px}
+}
