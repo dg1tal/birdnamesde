@@ -1038,8 +1038,9 @@ body.studying .dda-codes.answer-main .code-dda{font-size:24px}
  body.studying .session>progress{margin:0 0 10px}
 }
 
-/* Trim the flashcard rating bar while retaining comfortable tap targets. */
+/* Use the same compact spacing for every mobile learning action bar. */
 @media(max-width:580px){
- body.studying .study-actions:has(>#no){gap:8px;padding-top:6px;padding-bottom:calc(6px + env(safe-area-inset-bottom))}
- body.studying .study-actions:has(>#no)>button{min-height:44px;padding:8px 10px}
+ body.studying .study-actions{gap:8px;padding-top:6px;padding-bottom:calc(6px + env(safe-area-inset-bottom))}
+ body.studying .study-actions>button{min-height:44px;padding:8px}
+ body.studying .study-actions:has(>#check-answer)>#unknown{flex-grow:1.75}
 }
