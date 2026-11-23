@@ -1,7 +1,7 @@
 import {validateSavedSpecies} from './usability-state.js?v=20261122-dda1';
 import {validateRecords,validateDaily} from './progress-validation.js?v=20261122-dda1';
 import {migrateRecords} from './learning-model.js?v=20261105-recovery1';
-import {restoreLessonState} from './learning-settings.js?v=20261123-introreason1';
+import {restoreLessonState} from './learning-settings.js?v=20261123-introreason2';
 
 // The records and saved lessons form one atomic snapshot. Callers may publish
 // imported state in memory only after this transaction has committed.
