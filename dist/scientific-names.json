@@ -446,6 +446,14 @@
     "birdlifeCalonectris": {
       "title": "BirdLife International (2021): Scopoli’s Shearwater, name origin",
       "url": "https://www.birdlife.org/news/2021/07/28/seabird-month-scopolis-shearwater-calonectris-diomedea/"
+    },
+    "vorobyev2020": {
+      "title": "Grigory Vorobyev (2020): Theodore Gaza’s neologisms in -cilla/-cula and the role of sixteenth-century reference books in the formation of ornithological nomenclature, S. 794–818",
+      "url": "https://doi.org/10.30842/ielcp230690152452"
+    },
+    "vigors1825Psittacara": {
+      "title": "Nicholas Aylward Vigors (1825): On a new genus of Psittacidae, Zoological Journal 2, S. 388–389",
+      "url": "https://archive.org/details/zoologicaljourna02lond/page/388/mode/2up"
     }
   },
   "terms": {
@@ -2340,9 +2348,9 @@
     "e:cirrocephalus": {
       "term": "cirrocephalus",
       "text": {
-        "de": "als grauköpfig gemeint; Wortbildung unklar, da der griechische Farbstamm gelblich bedeutet; griechisch kirrhos = gelblich, orangebraun und kephale = Kopf; die beabsichtigte graue Farbe stimmt nicht mit der griechischen Grundbedeutung überein",
-        "en": "intended as grey-headed; formation unclear because the Greek colour stem means yellowish; Greek kirrhos = yellowish, orange-brown and kephale = head; the intended grey colour differs from the Greek root meaning",
-        "nl": "bedoeld als grijskoppig; woordvorming onduidelijk omdat de Griekse kleurstam geelachtig betekent; Grieks kirrhos = geelachtig, oranjebruin en kephale = kop; de bedoelde grijze kleur wijkt af van de Griekse grondbetekenis"
+        "de": "als grauköpfig gemeint; der Bestandteil -cephalus gehört zu griechisch kephale = Kopf. Die Herkunft von cirro- ist unklar: die vorgeschlagene Verbindung mit griechisch kirrhos = gelblich passt nicht zur beabsichtigten grauen Farbe",
+        "en": "intended as grey-headed; -cephalus belongs with Greek kephale = head. The origin of cirro- is unclear: the proposed link to Greek kirrhos = yellowish does not fit the intended grey colour",
+        "nl": "bedoeld als grijskoppig; -cephalus hoort bij Grieks kephale = kop. De oorsprong van cirro- is onduidelijk: het voorgestelde verband met Grieks kirrhos = geelachtig past niet bij de bedoelde grijze kleur"
       },
       "uncertain": true,
       "source": "mouchard2019",
@@ -4354,12 +4362,25 @@
     "e:hiaticula": {
       "term": "hiaticula",
       "text": {
-        "de": "Spaltenbewohner; Deutung als kleiner Spaltenbewohner umstritten; lateinisch hiatus = Öffnung, Spalte; der zweite Bestandteil wird mit -cola = Bewohner verbunden, die genaue Bildung ist umstritten",
-        "en": "cleft dweller; interpretation as small cleft dweller disputed; Latin hiatus = opening, cleft; the second part is linked to -cola = dweller, but the exact formation is disputed",
-        "nl": "spleetbewoner; uitleg als kleine spleetbewoner omstreden; Latijn hiatus = opening, spleet; het tweede deel wordt verbonden met -cola = bewoner, maar de precieze vorming is omstreden"
+        "de": "Spaltenbewohner; lateinisch hiatus = Spalte und colere = bewohnen. Gaza verwendete hiaticola; Vorobyev (2020) erklärt hiaticula als spätere Angleichung an Verkleinerungsformen, nicht als ursprüngliches „kleiner Spaltenbewohner“",
+        "en": "cleft dweller; Latin hiatus = cleft and colere = to inhabit. Gaza used hiaticola; Vorobyev (2020) explains hiaticula as a later remodelling after diminutives, rather than an original “little cleft dweller”",
+        "nl": "spleetbewoner; Latijn hiatus = spleet en colere = bewonen. Gaza gebruikte hiaticola; Vorobyev (2020) verklaart hiaticula als latere aanpassing aan verkleinwoorden, niet als oorspronkelijk „kleine spleetbewoner”"
       },
       "uncertain": true,
-      "source": "wnve_hiaticula"
+      "source": "jobling2010",
+      "page": 192,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 244,
+          "scope": "nameHistory"
+        },
+        {
+          "source": "vorobyev2020",
+          "page": 803,
+          "scope": "nameHistory"
+        }
+      ]
     },
     "e:himantopus": {
       "term": "himantopus",
@@ -7634,9 +7655,9 @@
     "e:proregulus": {
       "term": "proregulus",
       "text": {
-        "de": "möglicherweise dem Goldhähnchen nahe; auch als kleiner Herrscher gedeutet; griechisch pro = nahe und der ältere Artname regulus des Goldhähnchens sind eine vorgeschlagene Herleitung",
-        "en": "possibly close to the goldcrest; also interpreted as petty monarch; Greek pro = near and the Goldcrest’s earlier epithet regulus form one proposed derivation",
-        "nl": "mogelijk nabij het goudhaantje; ook uitgelegd als kleine heerser; Grieks pro = nabij en de vroegere goudhanensoortnaam regulus vormen een voorgestelde afleiding"
+        "de": "nach Jobling dem Goldhähnchen nahe: griechisch pro = nahe und der ältere Goldhähnchen-Artname regulus, lateinisch „kleiner König“, zu rex = König. Das genaue Benennungsmotiv bleibt unsicher",
+        "en": "according to Jobling, close to the goldcrest: Greek pro = close to and the Goldcrest’s earlier epithet regulus, Latin “little king”, from rex = king. The precise naming motive remains uncertain",
+        "nl": "volgens Jobling dicht bij het goudhaantje: Grieks pro = nabij en de vroegere soortnaam regulus van het goudhaantje, Latijn „kleine koning”, bij rex = koning. Het precieze naamgevingsmotief blijft onzeker"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -8083,13 +8104,20 @@
     "e:rubecula": {
       "term": "rubecula",
       "text": {
-        "de": "mittellateinisch rubecula = Rotkehlchen; Verkleinerungsform zu lateinisch ruber = rot, sinngemäß „kleines Rotes“. Bezieht sich auf die rötliche Brust und Kehle",
-        "en": "Medieval Latin rubecula = robin; a diminutive of Latin ruber = red, roughly “little red one”. Refers to the reddish breast and throat",
-        "nl": "middeleeuws Latijn rubecula = roodborst; verkleinwoord bij Latijn ruber = rood, ongeveer „klein rood vogeltje”. Verwijst naar de roodachtige borst en keel"
+        "de": "historischer lateinischer Rotkehlchenname; oft als Verkleinerung zu ruber = rot erklärt. Vorobyev (2020) deutet Gazas Wort dagegen aus rubeus = rot und culus = Hinterteil, Bürzel. Die Wortbildung ist umstritten",
+        "en": "historical Latin name for the robin; often explained as a diminutive of ruber = red. Vorobyev (2020) instead interprets Gaza’s word from rubeus = red and culus = rump. The formation is disputed",
+        "nl": "historische Latijnse roodborstnaam; vaak verklaard als verkleinwoord bij ruber = rood. Vorobyev (2020) duidt Gaza’s woord daarentegen uit rubeus = rood en culus = achterste, stuit. De woordvorming is omstreden"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
-      "page": 339
+      "page": 339,
+      "additionalSources": [
+        {
+          "source": "vorobyev2020",
+          "page": 802,
+          "scope": "wordComponent"
+        }
+      ]
     },
     "e:ruber": {
       "term": "ruber",
@@ -11045,9 +11073,9 @@
     "g:Cisticola": {
       "term": "Cisticola",
       "text": {
-        "de": "möglicherweise Zistrosenbewohner; auch als Bezug auf Korb oder Nest gedeutet; vorgeschlagen sind lateinisch cistus = Zistrose oder cista = Korb und -cola = Bewohner; die Benennungsabsicht ist nicht gesichert",
-        "en": "possibly rockrose dweller; also interpreted as referring to a basket or nest; proposals include Latin cistus = rockrose or cista = basket and -cola = dweller; the intended derivation is unconfirmed",
-        "nl": "mogelijk rotsroosbewoner; ook uitgelegd als verwijzing naar een mand of nest; voorgesteld zijn Latijn cistus = rotsroos of cista = mand en -cola = bewoner; de bedoelde afleiding is onbevestigd"
+        "de": "Benennungsabsicht unsicher: vorgeschlagen sind lateinisch cista = Korb, mit Bezug auf das Nest, oder griechisch kistos (kisthos) = Zistrose; verbunden mit lateinisch -cola = Bewohner, zu colere = bewohnen",
+        "en": "intended derivation uncertain: proposals include Latin cista = basket, referring to the nest, or Greek kistos (kisthos) = rockrose; combined with Latin -cola = dweller, from colere = to inhabit",
+        "nl": "bedoelde afleiding onzeker: voorgesteld zijn Latijn cista = mand, verwijzend naar het nest, of Grieks kistos (kisthos) = rotsroos; verbonden met Latijn -cola = bewoner, bij colere = bewonen"
       },
       "uncertain": true,
       "source": "cisticola2019",
@@ -12370,12 +12398,20 @@
     "g:Lophodytes": {
       "term": "Lophodytes",
       "text": {
-        "de": "mit Haube; zweiter Bestandteil meist als Taucher gedeutet, Herleitung umstritten; griechisch lophos = Haube; -dytes wird mit dytes = Taucher verbunden, die genaue Bildung ist umstritten",
-        "en": "with a crest; second component usually interpreted as diver, derivation disputed; Greek lophos = crest; -dytes is linked to dytes = diver, but the exact formation is disputed",
-        "nl": "met een kuif; tweede deel meestal uitgelegd als duiker, afleiding omstreden; Grieks lophos = kuif; -dytes wordt verbonden met dytes = duiker, maar de precieze vorming is omstreden"
+        "de": "griechisch lophos = Haube; Jobling deutet den zweiten Bestandteil als dytes = Taucher, zu dyo = eintauchen. Die BOU (1915) erklärt den Namen dagegen als Haubenträger; die Analyse des zweiten Bestandteils ist nicht einheitlich",
+        "en": "Greek lophos = crest; Jobling interprets the second part as dytes = diver, from dyo = to plunge. The BOU (1915) instead explains the name as crest-bearer; analyses of the second component differ",
+        "nl": "Grieks lophos = kuif; Jobling verklaart het tweede deel als dytes = duiker, bij dyo = onderduiken. De BOU (1915) geeft daarentegen kuifdrager; de ontleding van het tweede deel verschilt"
       },
       "uncertain": true,
-      "source": "bou1915"
+      "source": "jobling2010",
+      "page": 230,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 188,
+          "scope": "wordComponent"
+        }
+      ]
     },
     "g:Lophophanes": {
       "term": "Lophophanes",
@@ -13488,9 +13524,9 @@
     "g:Poicephalus": {
       "term": "Poicephalus",
       "text": {
-        "de": "Kopf-Bezug; unter anderem als grau- oder dunkelköpfig gedeutet, genaue Herleitung umstritten; meist mit griechisch phaios = grau, dunkel und kephale = Kopf verbunden; die ungewöhnliche Schreibweise lässt die genaue Bildung offen",
-        "en": "refers to the head; interpretations include grey- or dark-headed, exact derivation disputed; usually linked to Greek phaios = grey, dusky and kephale = head; the unusual spelling leaves the exact formation unresolved",
-        "nl": "verwijst naar de kop; onder meer uitgelegd als grijs- of donkerkoppig, precieze afleiding omstreden; meestal verbonden met Grieks phaios = grijs, donker en kephale = kop; de ongewone spelling laat de precieze vorming open"
+        "de": "nach Jobling aus griechisch phaios = grau, dunkel und -kephalos = -köpfig, zu kephale = Kopf. Die ungewöhnliche Schreibweise und die genaue Benennungsabsicht bleiben erklärungsbedürftig",
+        "en": "according to Jobling, from Greek phaios = grey, dusky and -kephalos = -headed, from kephale = head. The unusual spelling and precise naming intention remain unexplained",
+        "nl": "volgens Jobling uit Grieks phaios = grijs, donker en -kephalos = -koppig, bij kephale = kop. De ongewone spelling en precieze bedoeling van de naam blijven onverklaard"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -13587,13 +13623,20 @@
     "g:Psittacara": {
       "term": "Psittacara",
       "text": {
-        "de": "Papageienname; als Verbindung von Psittacus und Ara gedeutet. Jobling erklärt ihn aus griechisch psittake = Papagei und kara = Kopf; die Herleitungen sind nicht einheitlich",
-        "en": "parrot name; interpreted as combining Psittacus and Ara. Jobling instead gives Greek psittake = parrot and kara = head; derivations differ",
-        "nl": "papegaaiennaam; uitgelegd als verbinding van Psittacus en Ara. Jobling geeft Grieks psittake = papegaai en kara = kop; de afleidingen verschillen"
+        "de": "Verbindung der Papageiennamen Psittacus und Ara. Vigors begründete den Namen 1825 mit der Zwischenstellung seiner „Sittich-Aras“ zwischen Sittichen und Aras; die spätere Zerlegung in griechisch psittake = Papagei und kara = Kopf berücksichtigt diese Erklärung nicht",
+        "en": "blend of the parrot names Psittacus and Ara. In 1825 Vigors explained the name by his “Parrakeet-Maccaws” bridging parakeets and macaws; the later analysis as Greek psittake = parrot and kara = head overlooks this explanation",
+        "nl": "samentrekking van de papegaaiennamen Psittacus en Ara. Vigors verklaarde de naam in 1825 met de tussenpositie van zijn parkiet-ara’s tussen parkieten en ara’s; de latere ontleding als Grieks psittake = papegaai en kara = kop houdt daarmee geen rekening"
       },
-      "uncertain": true,
-      "source": "jobling2010",
-      "page": 321
+      "uncertain": false,
+      "source": "mouchard2019",
+      "page": 238,
+      "additionalSources": [
+        {
+          "source": "vigors1825Psittacara",
+          "page": 388,
+          "scope": "nameHistory"
+        }
+      ]
     },
     "g:Psittacula": {
       "term": "Psittacula",
@@ -13802,9 +13845,9 @@
     "g:Rhea": {
       "term": "Rhea",
       "text": {
-        "de": "übernommener Name für den Nandu; weitere Herleitung unsicher",
-        "en": "borrowed name for the rhea; deeper derivation uncertain",
-        "nl": "overgenomen naam voor de nandoe; verdere afleiding onzeker"
+        "de": "Name der griechischen Göttin Rhea, Mutter des Zeus; weshalb er auf den Nandu übertragen wurde, ist nicht geklärt",
+        "en": "name of the Greek goddess Rhea, mother of Zeus; why it was applied to the rhea is unresolved",
+        "nl": "naam van de Griekse godin Rhea, moeder van Zeus; waarom deze op de nandoe werd toegepast, is onopgehelderd"
       },
       "uncertain": true,
       "source": "jobling2010",

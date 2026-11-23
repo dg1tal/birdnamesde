@@ -415,6 +415,14 @@
     "birdlifeCalonectris": {
       "title": "BirdLife International (2021): Scopoli’s Shearwater, name origin",
       "url": "https://www.birdlife.org/news/2021/07/28/seabird-month-scopolis-shearwater-calonectris-diomedea/"
+    },
+    "vorobyev2020": {
+      "title": "Grigory Vorobyev (2020): Theodore Gaza’s neologisms in -cilla/-cula and the role of sixteenth-century reference books in the formation of ornithological nomenclature, S. 794–818",
+      "url": "https://doi.org/10.30842/ielcp230690152452"
+    },
+    "vigors1825Psittacara": {
+      "title": "Nicholas Aylward Vigors (1825): On a new genus of Psittacidae, Zoological Journal 2, S. 388–389",
+      "url": "https://archive.org/details/zoologicaljourna02lond/page/388/mode/2up"
     }
   },
   "terms": {
@@ -488,7 +496,15 @@
       "page": 34
     },
     "g:Lophodytes": {
-      "source": "bou1915"
+      "source": "jobling2010",
+      "page": 230,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 188,
+          "scope": "wordComponent"
+        }
+      ]
     },
     "e:atthis": {
       "source": "wnve_atthis"
@@ -497,7 +513,20 @@
       "source": "wnve_collurio"
     },
     "e:hiaticula": {
-      "source": "wnve_hiaticula"
+      "source": "jobling2010",
+      "page": 192,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 244,
+          "scope": "nameHistory"
+        },
+        {
+          "source": "vorobyev2020",
+          "page": 803,
+          "scope": "nameHistory"
+        }
+      ]
     },
     "e:trivialis": {
       "source": "wnve_trivialis"
@@ -1315,6 +1344,32 @@
       "additionalSources": [
         {
           "source": "birdlifeCalonectris",
+          "scope": "wordComponent"
+        }
+      ]
+    },
+    "g:Rhea": {
+      "source": "jobling2010",
+      "page": 334
+    },
+    "g:Psittacara": {
+      "source": "mouchard2019",
+      "page": 238,
+      "additionalSources": [
+        {
+          "source": "vigors1825Psittacara",
+          "page": 388,
+          "scope": "nameHistory"
+        }
+      ]
+    },
+    "e:rubecula": {
+      "source": "jobling2010",
+      "page": 339,
+      "additionalSources": [
+        {
+          "source": "vorobyev2020",
+          "page": 802,
           "scope": "wordComponent"
         }
       ]

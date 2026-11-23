@@ -29,6 +29,11 @@ and language where known. Historical genus combinations are distinguished from
 direct lexical compounds. Ambiguous ancient bird names and disputed derivations
 are not assigned speculative roots. The review record and coverage are in
 [scientific-name-depth-review-20261123.json](scientific-name-depth-review-20261123.json).
+A subsequent [targeted content review](scientific-name-content-review-20261123.json)
+checked 20 terms, including 16 previously marked uncertain, and corrected or
+qualified nine explanations in all three languages. In particular, the robin’s
+`rubecula` now distinguishes the diminutive analysis from a competing historical
+hypothesis rather than presenting one word formation as settled.
 
 Further literature suggested by the user: Viktor Wember (2005), *Die Namen der
 Vögel Europas. Bedeutung der deutschen und wissenschaftlichen Namen*,

@@ -68,6 +68,16 @@ assert.equal(data.terms['e:smithsonianus'].page,300);
 assert.equal(data.terms['e:richardi'].uncertain,false,'New research resolves the former unidentified Richard');
 assert.equal(data.terms['g:Myiopsitta'].source,'mouchard2019');
 assert.equal(data.terms['g:Myiopsitta'].page,230);
+// Source disagreements must survive compilation, with the correct scope and
+// the naming author's explanation taking precedence over a later word split.
+assert.equal(data.terms['g:Psittacara'].uncertain,false);
+assert(data.terms['g:Psittacara'].additionalSources.some(r=>r.source==='vigors1825Psittacara'&&r.scope==='nameHistory'&&r.page===388));
+assert.equal(data.terms['g:Lophodytes'].source,'jobling2010');
+assert.equal(data.terms['g:Lophodytes'].page,230);
+assert(data.terms['g:Lophodytes'].additionalSources.some(r=>r.source==='bou1915'&&r.page===188));
+assert.equal(data.terms['e:rubecula'].uncertain,true,'The diminutive reading is not the only researched explanation');
+for(const key of ['e:rubecula','e:hiaticula'])
+ assert(data.terms[key].additionalSources.some(r=>r.source==='vorobyev2020'));
 assert.notDeepEqual(data.terms['e:fuscatus'].text,data.terms['e:fuscescens'].text);
 assert.equal(data.terms['e:fuscescens'].text.en.split(';')[0],'brownish, becoming dusky');
 // Explanations must expose the roots, including mixed-language compounds and

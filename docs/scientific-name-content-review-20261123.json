@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-23",
+  "method": "Targeted content sample, not a random or statistically representative audit. Compare the actual reference entries and, for Psittacara, the naming author’s explanation. Read German, English and Dutch editorial versions together; distinguish word origin, bird identification, historical spelling and naming intention.",
+  "scope": {
+    "termsReviewed": 20,
+    "previouslyUncertain": 16,
+    "otherControls": 4,
+    "termsChanged": 9,
+    "speciesWithChangedPart": 13,
+    "languages": [
+      "de",
+      "en",
+      "nl"
+    ]
+  },
+  "cases": [
+    {
+      "term": "g:Psittacara",
+      "previouslyUncertain": true,
+      "outcome": "corrected",
+      "consultedPassages": "Mouchard 2019:238; Vigors 1825:388",
+      "finding": "Vigors explicitly names his bridging group after parakeet-macaws. Prioritise that documented intention over Jobling’s later Greek-head analysis; remove the blanket uncertainty flag.",
+      "uncertainAfterReview": false
+    },
+    {
+      "term": "g:Rhea",
+      "previouslyUncertain": true,
+      "outcome": "corrected",
+      "consultedPassages": "Jobling 2010:334",
+      "finding": "The Greek mythological name is documented; uncertainty concerns its application to the bird, not the identity of the source name.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Cisticola",
+      "previouslyUncertain": true,
+      "outcome": "corrected",
+      "consultedPassages": "Morales Dumanjó & Gargallo Gil 2019:358",
+      "finding": "Distinguish Latin cista (basket) from Greek kistos/kisthos (rockrose); Latin -cola/colere is shared. Retain uncertainty about the intended first component.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Lophodytes",
+      "previouslyUncertain": true,
+      "outcome": "corrected",
+      "consultedPassages": "Jobling 2010:230; BOU 1915:188",
+      "finding": "The previous main citation to BOU did not support the diver analysis. Cite Jobling for diver and BOU for its alternative crest-bearer interpretation; retain uncertainty.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Poicephalus",
+      "previouslyUncertain": true,
+      "outcome": "clarified",
+      "consultedPassages": "Jobling 2010:312",
+      "finding": "Replace an unsupported claim about the usual interpretation with explicit attribution to Jobling; distinguish -kephalos from kephale. Original naming intention was not independently established.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "e:cirrocephalus",
+      "previouslyUncertain": true,
+      "outcome": "clarified",
+      "consultedPassages": "Mouchard 2019:152",
+      "finding": "Grey-headed is the documented intended sense. Greek kirrhos is only a proposed derivation and denotes yellowish colour; do not assert that root as established.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "e:proregulus",
+      "previouslyUncertain": true,
+      "outcome": "clarified",
+      "consultedPassages": "Jobling 2010:318",
+      "finding": "Regulus refers to the Goldcrest’s epithet; little king is its literal meaning, not an independently supported alternative etymology for proregulus. Pallas’s original naming motive was not checked; retain uncertainty.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "e:hiaticula",
+      "previouslyUncertain": true,
+      "outcome": "clarified",
+      "consultedPassages": "Jobling 2010:192; BOU 1915:244; Vorobyev 2020:803, n.15",
+      "finding": "Separate the historical hiaticola form from later diminutive-like remodelling. Replace the unavailable WNVE main reference with consulted sources; retain uncertainty about the competing analyses.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "e:rubecula",
+      "previouslyUncertain": false,
+      "outcome": "corrected",
+      "consultedPassages": "Jobling 2010:339 (rubecula and rubeculus); Vorobyev 2020:802–804",
+      "finding": "Qualify the diminutive reading; add the competing historical hypothesis and uncertainty flag.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Forpus",
+      "previouslyUncertain": true,
+      "outcome": "confirmed",
+      "consultedPassages": "Jobling 2010:163",
+      "finding": "No explained derivation at introduction; proposed Greek roots and anagrams must remain conjectural.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Melanocorypha",
+      "previouslyUncertain": true,
+      "outcome": "confirmed",
+      "consultedPassages": "Jobling 2010:247",
+      "finding": "Melas is black, but koruphos is an obscure ancient bird name, with possible confusion with lark/crested-bird words; black crown is too categorical.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Uraeginthus",
+      "previouslyUncertain": true,
+      "outcome": "confirmed",
+      "consultedPassages": "Jobling 2010:396",
+      "finding": "Oura means tail; aiginthos is an ancient bird name of uncertain identification. Uncertainty does not invalidate the tail component.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Erithacus",
+      "previouslyUncertain": true,
+      "outcome": "confirmed",
+      "consultedPassages": "Jobling 2010:148; Vorobyev 2020:802–806",
+      "finding": "Ancient erithakos/Latin erithacus is established; a deeper decomposition must not be presented as settled.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Hippolais",
+      "previouslyUncertain": true,
+      "outcome": "confirmed",
+      "consultedPassages": "Jobling 2010:192",
+      "finding": "Hupolais names an unidentified ancient ground-nesting bird; further analyses are proposals.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Chordeiles",
+      "previouslyUncertain": true,
+      "outcome": "confirmed",
+      "consultedPassages": "Mouchard 2019:187",
+      "finding": "Swainson’s string-of-twilight explanation is reported with attribution; later competing accounts justify retaining the uncertainty flag.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Cyanoliseus",
+      "previouslyUncertain": true,
+      "outcome": "confirmed",
+      "consultedPassages": "Mouchard 2019:236",
+      "finding": "Blue is identifiable; the second component has competing accounts. The current cautious formulation is justified.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Aratinga",
+      "previouslyUncertain": true,
+      "outcome": "confirmed",
+      "consultedPassages": "Mouchard 2019:236",
+      "finding": "The Tupí proposals and lack of an explanation by Spix justify retaining cautious language.",
+      "uncertainAfterReview": true
+    },
+    {
+      "term": "g:Myiopsitta",
+      "previouslyUncertain": false,
+      "outcome": "confirmed",
+      "consultedPassages": "Mouchard 2019:230",
+      "finding": "Mouse-parrot and the spelling problem are documented; do not reinterpret myio- as fly.",
+      "uncertainAfterReview": false
+    },
+    {
+      "term": "g:Dendrocopos",
+      "previouslyUncertain": false,
+      "outcome": "confirmed",
+      "consultedPassages": "Jobling 2010:133",
+      "finding": "Dendron (tree) and kopos (striking), with kopto as the verb, support the current explanation.",
+      "uncertainAfterReview": false
+    },
+    {
+      "term": "g:Motacilla",
+      "previouslyUncertain": false,
+      "outcome": "confirmed",
+      "consultedPassages": "Jobling 2010:261; Vorobyev 2020:796–798",
+      "finding": "The current text marks the tail analysis as historical and the autonomous cilla meaning as spurious; it does not assert a resolved ultimate etymology.",
+      "uncertainAfterReview": false
+    }
+  ],
+  "consultedSources": [
+    {
+      "source": "jobling2010",
+      "access": "Full 2010 dictionary PDF, checked against printed page numbers",
+      "copy": "https://chipes.org/wp-content/uploads/2023/08/Helm-Dictionary-of-Scientific-Bird-Names-James-A.-Jobling.pdf"
+    },
+    {
+      "source": "mouchard2019",
+      "access": "Full author publication PDF; printed page numbers, not PDF indexes"
+    },
+    {
+      "source": "bou1915",
+      "access": "Digitised original book, searchable OCR at archive.org/details/listofbritishbir00britiala"
+    },
+    {
+      "source": "cisticola2019",
+      "access": "Full article in University of Barcelona repository"
+    },
+    {
+      "source": "vigors1825Psittacara",
+      "access": "Digitised original Zoological Journal volume 2, page 388, archive.org/details/zoologicaljourna02lond"
+    },
+    {
+      "source": "vorobyev2020",
+      "access": "Author’s full article at Academia.edu, then checked against the original journal PDF (printed pages 802–804) reached via the DOI",
+      "copy": "https://www.academia.edu/104130315/Theodore_Gaza_s_neologisms_in_cilla_cula_and_the_role_of_sixteenth_century_reference_books_in_the_formation_of_ornithological_nomenclature",
+      "publisherCopy": "https://tronsky.iling.spb.ru/static/tronsky2020/794-818.pdf"
+    }
+  ],
+  "limitations": [
+    "This review covers 20 selected terms, not all 1,237 terms. Source agreement within this sample does not independently establish every historical naming intention.",
+    "Uncertainty flags distinguish several kinds of uncertainty; explanatory prose identifies what is unknown. Retained flags do not imply all components are unknown.",
+    "Wember (2005) remains further reading only: its full text was unavailable and no finding is attributed to it.",
+    "WNVE’s hiaticula page could not be retrieved during this review; it was not counted as a consulted source.",
+    "This is a content review. The separate earlier visual review records its own version and scope."
+  ],
+  "validation": {
+    "compiler": "passed: regenerated catalogue, then --check",
+    "scientificNamesTests": "passed: 940 species in three languages; source assignments and uncertainty regressions",
+    "applicationTests": "passed: npm test, all scripts/test-*.mjs, and 57 Python unit tests",
+    "diffCheck": "passed"
+  }
+}
