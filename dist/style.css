@@ -1035,3 +1035,9 @@ body.studying .dda-codes.answer-main .code-dda{font-size:24px}
  .study-header-long,.study-control-long,body.studying .session>.progress-phase{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);margin:0}
  body.studying .session>progress{margin:0 0 10px}
 }
+
+/* Trim the flashcard rating bar while retaining comfortable tap targets. */
+@media(max-width:580px){
+ body.studying .study-actions:has(>#no){gap:8px;padding-top:6px;padding-bottom:calc(6px + env(safe-area-inset-bottom))}
+ body.studying .study-actions:has(>#no)>button{min-height:44px;padding:8px 10px}
+}
