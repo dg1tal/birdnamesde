@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {introductionSelectionReason,introductionReasonText} from '../dist/introduction-reason.js';
 import {validateLesson} from '../dist/study-state.js';
-import {regionalSnapshot} from '../dist/hybrid-learning.js';
+import {regionalSnapshot,seasonLabel} from '../dist/hybrid-learning.js';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 
@@ -43,7 +43,7 @@ for(const english of [false,true]){
  const context=vm.createContext({
   english,app,session:null,endedRound:null,storageState:'ready',birds:[{id:'extra'}],
   crypto:{randomUUID:()=> 'test'},lessonBaseLimit:()=>10,regionMetadata:()=>({nameDe:'<Berlin>',nameEn:'<Berlin>'}),
-  introductionSelectionReason,introductionReasonText,regionalSnapshot,
+  introductionSelectionReason,introductionReasonText,regionalSnapshot,seasonLabel,
   save(){},renderQuestion(){},studySpecies:()=>({id:'extra'}),studyMode(){},
   document:{body:{classList:{add(){}}}},isCodeTarget:()=>false,
   nameMarkup:()=> 'Vogel',languageLabel:()=> 'English',nameAnswerMarkup:()=> '<p>Bird</p>',
