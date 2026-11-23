@@ -998,3 +998,26 @@ body.studying .dda-codes.answer-main .code-dda{font-size:24px}
  .code-legend-long{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
  .code-legend-short{display:inline}
 }
+
+/* Keep mobile questions, answers and references close without shrinking text. */
+@media(max-width:580px){
+ body.studying .question{padding-block:12px}
+ body.studying .question h1,body.studying .question:has(.feedback) h1{margin:6px 0}
+ body.studying #revealed-answer-content>.answer-main{margin:4px 0}
+ body.studying .feedback{gap:7px;margin-top:6px}
+ body.studying .feedback-result{padding-bottom:6px}
+ body.studying #feedback-support:empty{display:none}
+ body.studying .feedback-answer{padding:8px 10px;gap:4px}
+ body.studying .study-reference{padding:8px 10px;gap:6px}
+ body.studying #revealed-answer .study-reference{margin:6px 0}
+ body.studying .study-source-aliases+.reference-name,body.studying .study-reference-codes{padding-top:6px}
+ body.studying .study-german-alternatives{gap:3px}
+ body.studying .study-reference-codes>.card-language-label,body.studying .study-note-codes>.card-language-label{margin-bottom:3px}
+ body.studying .species-codes{gap:4px}
+ body.studying .study-notes{margin-top:0}
+ body.studying .study-note-codes{padding:8px 10px}
+ body.studying .study-notes .study-note-links{padding:8px 10px}
+ body.studying .study-notes .scientific-origin-content,body.studying .study-note-content,body.studying .study-notes .question-explanation .learning-feedback{padding:12px;gap:10px}
+ body.studying .introduction{padding-block:12px;gap:4px}
+ body.studying .introduction>.study-reference{margin:0}
+}
