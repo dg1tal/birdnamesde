@@ -3,6 +3,7 @@ import {gradeRecord,beginIntroduction,introduce} from '../dist/learning-model.js
 import {validateLesson} from '../dist/study-state.js';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {loadNameData} from '../dist/name-languages.js';
 import {loadSeasonal,seasonAt,validateSeasonal,validCurrentRecords,hybridSelection,frequencyGroups,regionalSnapshot,seasonalDatasetText} from '../dist/hybrid-learning.js';
 const ids=new Set(['base','extra','old']);const now=new Date('2026-11-02T12:00:00Z');
 const regions={regions:[{code:'DE-SH',all:{ids:['base','old']},recent:{ids:['extra']}}]};
@@ -53,7 +54,27 @@ console.log('PASS: frequency boundaries, defaults, empty selection, automatic cu
 
 // Real EBD country/state/local selection must keep its sample gate and API layer.
 const realIds=new Set(catalogue.map(s=>s.id));
+await loadNameData(catalogue,async path=>({ok:true,json:async()=>JSON.parse(readFileSync('dist/'+path))}));
 const realRegions={regions:['DE','NL','GB','DE-SL','NL-DR','GB-ENG-HAL'].map(code=>({code,all:{ids:[catalogue[0].id]},recent:{ids:[catalogue[1].id]}}))};
+// New countries have no reviewed seasonal source yet. Keep their own lists,
+// current additions and language pairs without using another country's sample.
+for(const [country,region,baseId,extraId,language] of [
+ ['FI','FI-18','sibjay1','gyhchi','fi'],['FR','FR-COR','cornut1','corfin1','fr']]){
+ for(const code of [country,region]){
+  const geography={regions:[{code,all:{ids:[baseId]},recent:{ids:[extraId]}}]};
+  const records={regions:[{code,updatedAt:now.toISOString(),records:[{...record,id:extraId}]}]};
+  const chosen=hybridSelection(geography,published,records,{region:code,regionMode:'seasonal'},realIds,now);
+  assert(chosen.available);assert(!chosen.seasonalReady);assert.deepEqual(chosen.baseIds,[baseId]);
+  assert.deepEqual(chosen.ids,[baseId,extraId]);
+  assert.deepEqual(hybridSelection(geography,published,null,{region:code,regionMode:'recent'},realIds,now).baseIds,[extraId]);
+  assert(!hybridSelection(null,published,null,{region:code,regionMode:'seasonal'},realIds,now).available);
+  const selectedBirds=catalogue.filter(s=>chosen.ids.includes(s.id));
+  for(const [sourceLanguage,nameLanguage] of [['de',language],[language,'en']]){
+   const round=dailyLearningPlan({birds:catalogue,settings:{region:code,sourceLanguage,nameLanguage,target:nameLanguage,method:'text'},selection:{pool:selectedBirds,hybrid:chosen},records:{},ledger:null,now:+now,random:()=>.5});
+   assert(round.queue.length>0);assert(round.queue.every(item=>chosen.ids.includes(item.id)&&item.t===nameLanguage));
+  }
+ }
+}
 for(const region of ['DE','NL','GB']){
  const selected=hybridSelection(realRegions,published,{regions:[]},{region,regionMode:'seasonal'},realIds,now);
  assert(selected.seasonalReady);

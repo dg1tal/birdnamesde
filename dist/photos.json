@@ -2,11 +2,11 @@
   "meta": {
     "source": "Wikimedia Commons; iNaturalist",
     "method": "Species articles and Wikidata taxon names; individual Commons file licenses and author metadata; locally served unmodified photos and explicitly labeled historical scientific illustrations; additional species matched to verified scientific names; iNaturalist research-grade observations with individual compatible photo licenses and explicit sex annotations where assigned",
-    "updated": "2026-11-05",
-    "imageCount": 1360,
-    "sexReviewedSpecies": 356,
+    "updated": "2026-11-23",
+    "imageCount": 1428,
+    "sexReviewedSpecies": 370,
     "illustrationCount": 8,
-    "speciesCount": 940
+    "speciesCount": 994
   },
   "photos": {
     "alepar2": {
@@ -32635,6 +32635,1597 @@
         "Puffinus baroli"
       ],
       "localSha256": "43972a55b1a719e7495a2034617519f1e95bc5603bda56c987d8ea58453b382c"
+    },
+    "arcwar2": {
+      "sci": "Phylloscopus examinandus",
+      "local": "images/arcwar2.jpg",
+      "title": "Kamchatka Leaf Warbler imported from iNaturalist photo 313019515 on 20 June 2024.jpg",
+      "credit": "(c) Валерия Ковалева, some rights reserved (CC BY)",
+      "attribution": "",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kamchatka_Leaf_Warbler_imported_from_iNaturalist_photo_313019515_on_20_June_2024.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Kamchatka_Leaf_Warbler_imported_from_iNaturalist_photo_313019515_on_20_June_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Kamchatka_Leaf_Warbler_imported_from_iNaturalist_photo_313019515_on_20_June_2024.jpg/960px-Kamchatka_Leaf_Warbler_imported_from_iNaturalist_photo_313019515_on_20_June_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 640,
+      "wikiTitle": "Kamchatka leaf warbler",
+      "wikidata": "Q12265905",
+      "taxonNames": [
+        "Phylloscopus examinandus"
+      ],
+      "sha1": "b13efec87b079ce45250d9f4d8dfd270127f33cf",
+      "localSha256": "4db17c51ae51fe75aea9edbc6738ad59a56c6894f23c4da276bdfe76ec6529e7"
+    },
+    "batlar1": {
+      "sci": "Ammomanes cinctura",
+      "local": "images/batlar1.jpg",
+      "title": "Ammomane élégante Jbil.jpg",
+      "credit": "El Golli Mohamed",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ammomane_%C3%A9l%C3%A9gante_Jbil.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ammomane_%C3%A9l%C3%A9gante_Jbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Ammomane_%C3%A9l%C3%A9gante_Jbil.jpg/960px-Ammomane_%C3%A9l%C3%A9gante_Jbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 638,
+      "wikiTitle": "Bar-tailed lark",
+      "wikidata": "Q1584207",
+      "taxonNames": [
+        "Ammomanes cinctura"
+      ],
+      "sha1": "072346cbad33547bc23a45d755bc324025252267",
+      "localSha256": "d83c74ecd0d3cadb0032a9c26f95625a63766010803078ec2be02a24063f6f52"
+    },
+    "blawhe1": {
+      "sci": "Oenanthe leucura",
+      "local": "images/blawhe1.jpg",
+      "title": "Traquet rieur Gabes.jpg",
+      "credit": "El Golli Mohamed",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Traquet_rieur_Gabes.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Traquet_rieur_Gabes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Traquet_rieur_Gabes.jpg/960px-Traquet_rieur_Gabes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 640,
+      "wikiTitle": "Black wheatear",
+      "wikidata": "Q856062",
+      "taxonNames": [
+        "Oenanthe leucura"
+      ],
+      "sha1": "3cb31a211c6f9fda592f1c017bec45286f5d2738",
+      "localSha256": "ab5a5c2960ec3109fc6153e083819d026a80f5eba1f54c722e9dc07b8371532e"
+    },
+    "blhwea1": {
+      "sci": "Ploceus melanocephalus",
+      "local": "images/blhwea1.jpg",
+      "title": "Yellow backed weaver.jpg",
+      "credit": "Tom Tarrant",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Yellow_backed_weaver.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Yellow_backed_weaver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Yellow_backed_weaver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 600,
+      "height": 400,
+      "wikiTitle": "Black-headed weaver",
+      "wikidata": "Q998572",
+      "taxonNames": [
+        "Ploceus melanocephalus"
+      ],
+      "sha1": "d995d7954a4a5182c1ced265d9b6e82ba9c9bb33",
+      "localSha256": "9dbc4a8fa6f9491a6d80396e90662b50a351621ae4403e210b269ba01d2f209d",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen"
+    },
+    "bltacc1": {
+      "sci": "Prunella atrogularis",
+      "local": "images/bltacc1.jpg",
+      "title": "Black-throated Accentor (Prunella atrogularis) (15275386173).jpg",
+      "credit": "Imran Shah from Islamabad, Pakistan",
+      "attribution": "",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Black-throated_Accentor_(Prunella_atrogularis)_(15275386173).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Black-throated_Accentor_%28Prunella_atrogularis%29_%2815275386173%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Black-throated_Accentor_%28Prunella_atrogularis%29_%2815275386173%29.jpg/960px-Black-throated_Accentor_%28Prunella_atrogularis%29_%2815275386173%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 680,
+      "wikiTitle": "Black-throated accentor",
+      "wikidata": "Q387783",
+      "taxonNames": [
+        "Prunella atrogularis"
+      ],
+      "sha1": "52431acd88815a4c837730d8db4685505d29f347",
+      "localSha256": "40e5e1523d71324b41f0a5403f2f775f4e53f19e2ee71c6d2e38ed6c86adebdc"
+    },
+    "brakit1": {
+      "sci": "Haliastur indus",
+      "local": "images/brakit1.jpg",
+      "title": "Haliastur indus 136698204.jpg",
+      "credit": "Afsar Nayakkan",
+      "attribution": "",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Haliastur_indus_136698204.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Haliastur_indus_136698204.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Haliastur_indus_136698204.jpg/960px-Haliastur_indus_136698204.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 1111,
+      "wikiTitle": "Brahminy kite",
+      "wikidata": "Q645755",
+      "taxonNames": [
+        "Haliastur indus"
+      ],
+      "sha1": "63814ec44888089a1dd19e889b414e3e57e74f89",
+      "localSha256": "7e3edb2b8c22bec0e387fd35d6409a4c22ef408fbd4fac94739ff40990def626"
+    },
+    "bratea1": {
+      "sci": "Amazonetta brasiliensis",
+      "local": "images/bratea1.jpg",
+      "title": "Amazonetta brasiliensis.jpg",
+      "credit": "Dario Sanches from SÃO PAULO, BRASIL",
+      "attribution": "",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Amazonetta_brasiliensis.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Amazonetta_brasiliensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Amazonetta_brasiliensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 800,
+      "height": 735,
+      "wikiTitle": "Brazilian teal",
+      "wikidata": "Q456423",
+      "taxonNames": [
+        "Amazonetta brasiliensis"
+      ],
+      "sha1": "482779fad519cbe222c47a0c52ee663a88cbf7c8",
+      "localSha256": "8ec3c384baecd59389499bd82d487c0c0e317e087924dda94ffec2788c486fee",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Amazonetta brasiliensis",
+          "local": "images/bratea1-female.jpg",
+          "title": "Amazonetta brasiliensis-female.jpg",
+          "credit": "Peterwchen",
+          "attribution": "",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Amazonetta_brasiliensis-female.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Amazonetta_brasiliensis-female.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Amazonetta_brasiliensis-female.jpg/960px-Amazonetta_brasiliensis-female.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 720,
+          "wikiTitle": "Brazilian teal",
+          "wikidata": "Q456423",
+          "taxonNames": [
+            "Amazonetta brasiliensis"
+          ],
+          "sha1": "e34ec3f90b9d632d257a60ca01a5a22d8393816b",
+          "localSha256": "7603188dd8a76474db2aab22bdebb7d7d9e65a15e8e86018b232336881392b1c",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "chswar": {
+      "sci": "Setophaga pensylvanica",
+      "local": "images/chswar.jpg",
+      "title": "Chestnut-sided Warbler-male.jpg",
+      "credit": "D. Gordon E. Robertson",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chestnut-sided_Warbler-male.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Chestnut-sided_Warbler-male.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Chestnut-sided_Warbler-male.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 800,
+      "height": 600,
+      "wikiTitle": "Chestnut-sided warbler",
+      "wikidata": "Q27075922",
+      "taxonNames": [
+        "Setophaga pensylvanica"
+      ],
+      "sha1": "aecbd710f320b4def994b77f66222757e97fa407",
+      "localSha256": "70cc5fdabc0ac0a4fb1d346d46dd04172cd753eeb2635cdae9702bf7d90b23ad",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Setophaga pensylvanica",
+          "local": "images/chswar-female.jpg",
+          "title": "Dendroica pensylvanica MN4.jpg",
+          "credit": "Cephas",
+          "attribution": "",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Dendroica_pensylvanica_MN4.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Dendroica_pensylvanica_MN4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Dendroica_pensylvanica_MN4.jpg/960px-Dendroica_pensylvanica_MN4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 640,
+          "wikiTitle": "Chestnut-sided warbler",
+          "wikidata": "Q27075922",
+          "taxonNames": [
+            "Setophaga pensylvanica"
+          ],
+          "sha1": "3874feb40ab5a3853458f141ed6c00d8b3802c32",
+          "localSha256": "a1029eea841eba85c1e1373186eb51b548b659c4435286f726fb3903b781850a",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "corfin1": {
+      "sci": "Carduelis corsicana",
+      "local": "images/corfin1.jpg",
+      "title": "Corsican finch inaturalist.jpg",
+      "credit": "Christoph Moning",
+      "attribution": "",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Corsican_finch_inaturalist.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Corsican_finch_inaturalist.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Corsican_finch_inaturalist.jpg/960px-Corsican_finch_inaturalist.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 601,
+      "wikiTitle": "Corsican finch",
+      "wikidata": "Q1299974",
+      "taxonNames": [
+        "Carduelis corsicana"
+      ],
+      "sha1": "d77bba3f398afcff3642aa0c9a7009872865c5c0",
+      "localSha256": "98e67858c4996f88727b34f03819e08a272e298f8ebb6276e5f77f545c23f3b8",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen"
+    },
+    "cornut1": {
+      "sci": "Sitta whiteheadi",
+      "local": "images/cornut1.jpg",
+      "title": "Sitta whiteheadi - Christoph Moning - 4 (cropped).jpeg",
+      "credit": "Christoph Moning (iNaturalist user christoph_moning)",
+      "attribution": "",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sitta_whiteheadi_-_Christoph_Moning_-_4_(cropped).jpeg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Sitta_whiteheadi_-_Christoph_Moning_-_4_%28cropped%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Sitta_whiteheadi_-_Christoph_Moning_-_4_%28cropped%29.jpeg/960px-Sitta_whiteheadi_-_Christoph_Moning_-_4_%28cropped%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 1088,
+      "wikiTitle": "Corsican nuthatch",
+      "wikidata": "Q180051",
+      "taxonNames": [
+        "Sitta whiteheadi"
+      ],
+      "sha1": "a9081887f2a91bdb1efcc69211f325efce138996",
+      "localSha256": "6d109535358452454f261e5909d9c434336f0454e3ba29444a7c0ad3c3d50014",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Sitta whiteheadi",
+          "local": "images/cornut1-female.jpg",
+          "title": "Pica-soques cors (Sitta whiteheadi) (cropped).jpg",
+          "credit": "Àlex Milian",
+          "attribution": "",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Pica-soques_cors_(Sitta_whiteheadi)_(cropped).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Pica-soques_cors_%28Sitta_whiteheadi%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Pica-soques_cors_%28Sitta_whiteheadi%29_%28cropped%29.jpg/960px-Pica-soques_cors_%28Sitta_whiteheadi%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 778,
+          "wikiTitle": "Corsican nuthatch",
+          "wikidata": "Q180051",
+          "taxonNames": [
+            "Sitta whiteheadi"
+          ],
+          "sha1": "c0282e59e48a2300ccf850333c4499f9e87781c5",
+          "localSha256": "9e23d3c2d5a63593124f5c5beec648687b39d7a34708725f9e0b2c2812c6af9e",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "egyplo1": {
+      "sci": "Pluvianus aegyptius",
+      "local": "images/egyplo1.jpg",
+      "title": "Flickr - Rainbirder - Egyptian Plover (Pluvianus aegyptius).jpg",
+      "credit": "Steve Garvie from Dunfermline, Fife, Scotland",
+      "attribution": "",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Egyptian_Plover_(Pluvianus_aegyptius).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flickr_-_Rainbirder_-_Egyptian_Plover_%28Pluvianus_aegyptius%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flickr_-_Rainbirder_-_Egyptian_Plover_%28Pluvianus_aegyptius%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 800,
+      "height": 510,
+      "wikiTitle": "Egyptian plover",
+      "wikidata": "Q835119",
+      "taxonNames": [
+        "Pluvianus aegyptius"
+      ],
+      "sha1": "b34743b1d74aa2173e3f4254f0296b60640ddddb",
+      "localSha256": "dacc36261dbae9f61f32813c3ee79a84138e1522cd25890b374040d176c55cc4"
+    },
+    "foxspa": {
+      "sci": "Passerella iliaca",
+      "local": "images/foxspa.jpg",
+      "title": "Passerella iliaca UL 05.jpg",
+      "credit": "Cephas",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Passerella_iliaca_UL_05.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Passerella_iliaca_UL_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Passerella_iliaca_UL_05.jpg/960px-Passerella_iliaca_UL_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 768,
+      "wikiTitle": "Fox sparrow",
+      "wikidata": "Q422873",
+      "taxonNames": [
+        "Passerella iliaca"
+      ],
+      "sha1": "cfc4b9da174ebdf70db6e9f9a8a18c4133e36b9e",
+      "localSha256": "d0f7f4ff07cca3bc663aa09c32e436105ac6824971931fa0038b1a51488700b7"
+    },
+    "grgowl": {
+      "sci": "Strix nebulosa",
+      "local": "images/grgowl.jpg",
+      "title": "Adult male Great Grey Owl (Canada).jpg",
+      "credit": "Peter K Burian",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Adult_male_Great_Grey_Owl_(Canada).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Adult_male_Great_Grey_Owl_%28Canada%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Adult_male_Great_Grey_Owl_%28Canada%29.jpg/960px-Adult_male_Great_Grey_Owl_%28Canada%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 1384,
+      "wikiTitle": "Great grey owl",
+      "wikidata": "Q200724",
+      "taxonNames": [
+        "Strix nebulosa"
+      ],
+      "sha1": "649b23685af39cea251c4d312cc2e4e5bdd15efa",
+      "localSha256": "a1bca5d19b8eec611910d2cae6d92e3eee368dda06545466d79ffd57e717571a",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Strix nebulosa",
+          "local": "images/grgowl-female.jpg",
+          "title": "Nash1b.jpg",
+          "credit": "Curtisbouvier",
+          "attribution": "",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Nash1b.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Nash1b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Nash1b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 400,
+          "height": 600,
+          "wikiTitle": "Great grey owl",
+          "wikidata": "Q200724",
+          "taxonNames": [
+            "Strix nebulosa"
+          ],
+          "sha1": "3fb6a78e1a9720438566efcb1b3714051d3b3062",
+          "localSha256": "f8f7aec61563df1971ece5996db4efb4baeadadb80582c7cd057d300a5952449",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "grnwoo3": {
+      "sci": "Picus sharpei",
+      "local": "images/grnwoo3.jpg",
+      "title": "Picus viridis sharpei 033.jpg",
+      "credit": "Luis García ( Zaqarbal )",
+      "attribution": "Luis García",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Picus_viridis_sharpei_033.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Picus_viridis_sharpei_033.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Picus_viridis_sharpei_033.jpg/960px-Picus_viridis_sharpei_033.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 848,
+      "wikiTitle": "Iberian green woodpecker",
+      "wikidata": "Q5983847",
+      "taxonNames": [
+        "Picus sharpei"
+      ],
+      "sha1": "1f99b21afa2de2ee93c88d683811aa47ca61a4c6",
+      "localSha256": "d1fe6076709c7e8a95806f6c2da6b03fc0cc55165c757c9cb39000ad08d4c611",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Picus sharpei",
+          "local": "images/grnwoo3-female.jpg",
+          "title": "Picus viridis sharpei 080.jpg",
+          "credit": "Luis García ( Zaqarbal )",
+          "attribution": "Luis García",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Picus_viridis_sharpei_080.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Picus_viridis_sharpei_080.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Picus_viridis_sharpei_080.jpg/960px-Picus_viridis_sharpei_080.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 1434,
+          "wikiTitle": "Iberian green woodpecker",
+          "wikidata": "Q5983847",
+          "taxonNames": [
+            "Picus sharpei"
+          ],
+          "sha1": "92452f6793f039119399e56bfa934cfb50b2710d",
+          "localSha256": "f872de69a5418e639772d36c4380438f89a3b9612895316739e465f99241e541",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "gyhchi": {
+      "sci": "Poecile cinctus",
+      "local": "images/gyhchi.jpg",
+      "title": "Siberian Tit (Poecile cinctus) in Sodankylä, Finland.jpg",
+      "credit": "Lucwrte",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Siberian_Tit_(Poecile_cinctus)_in_Sodankyl%C3%A4,_Finland.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Siberian_Tit_%28Poecile_cinctus%29_in_Sodankyl%C3%A4%2C_Finland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Siberian_Tit_%28Poecile_cinctus%29_in_Sodankyl%C3%A4%2C_Finland.jpg/960px-Siberian_Tit_%28Poecile_cinctus%29_in_Sodankyl%C3%A4%2C_Finland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 640,
+      "wikiTitle": "Grey-headed chickadee",
+      "wikidata": "Q574447",
+      "taxonNames": [
+        "Poecile cinctus"
+      ],
+      "sha1": "8a371ff311ed0993b966200a72420721f4826818",
+      "localSha256": "2f4171ce1ddb331895e12634ee32767492690fc2016829cb5fe317d0c23fb69c"
+    },
+    "houbun3": {
+      "sci": "Emberiza sahari",
+      "local": "images/houbun3.jpg",
+      "title": "Bruant du sahara Gabes.jpg",
+      "credit": "El Golli Mohamed",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bruant_du_sahara_Gabes.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Bruant_du_sahara_Gabes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Bruant_du_sahara_Gabes.jpg/960px-Bruant_du_sahara_Gabes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 640,
+      "wikiTitle": "House bunting",
+      "wikidata": "Q2742585",
+      "taxonNames": [
+        "Emberiza sahari",
+        "Fringillaria sahari"
+      ],
+      "sha1": "c78220ff5129d43c7125b7821213a7c321a0da96",
+      "localSha256": "640ba876ba0ca2e08d70e3bea6f68f86416f3adf720c58fbacf807f80e4d4209"
+    },
+    "ibgshr1": {
+      "sci": "Lanius meridionalis",
+      "local": "images/ibgshr1.jpg",
+      "title": "Picanço-real, Southern Grey Shrike (53118436233) (cropped).jpg",
+      "credit": "Luiz Lapa from Oeiras, Portugal",
+      "attribution": "",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pican%C3%A7o-real,_Southern_Grey_Shrike_(53118436233)_(cropped).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Pican%C3%A7o-real%2C_Southern_Grey_Shrike_%2853118436233%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Pican%C3%A7o-real%2C_Southern_Grey_Shrike_%2853118436233%29_%28cropped%29.jpg/960px-Pican%C3%A7o-real%2C_Southern_Grey_Shrike_%2853118436233%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 975,
+      "wikiTitle": "Iberian grey shrike",
+      "wikidata": "Q705505",
+      "taxonNames": [
+        "Lanius meridionalis"
+      ],
+      "sha1": "6133f8c3bd89610247fdebaec6798cfe1710aebc",
+      "localSha256": "cf4c376497452129c6fc0112077a66ca1da97ccfe88edd66e377701c68e09ece"
+    },
+    "indsil": {
+      "sci": "Euodice malabarica",
+      "local": "images/indsil.jpg",
+      "title": "Indian Silverbill3.jpg",
+      "credit": "Swamy HKM",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_Silverbill3.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Indian_Silverbill3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Indian_Silverbill3.jpg/960px-Indian_Silverbill3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 720,
+      "wikiTitle": "Indian silverbill",
+      "wikidata": "Q27075729",
+      "taxonNames": [
+        "Euodice malabarica"
+      ],
+      "sha1": "357fb97b0e74780b54004e15e109a4c44d33abf2",
+      "localSha256": "99c0ef1e013a2ac7f3eed632102eb3696bce02435b4f5d88b687d426c87ca58c"
+    },
+    "inpher1": {
+      "sci": "Ardeola grayii",
+      "local": "images/inpher1.jpg",
+      "title": "Indian pond heron (Ardeola grayii) non breeding.jpg",
+      "credit": "Charles J. Sharp",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_pond_heron_(Ardeola_grayii)_non_breeding.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Indian_pond_heron_%28Ardeola_grayii%29_non_breeding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Indian_pond_heron_%28Ardeola_grayii%29_non_breeding.jpg/960px-Indian_pond_heron_%28Ardeola_grayii%29_non_breeding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 960,
+      "wikiTitle": "Indian pond heron",
+      "wikidata": "Q498428",
+      "taxonNames": [
+        "Ardeola grayii"
+      ],
+      "sha1": "9ddf0b7438149a16df6cce0408108bd6e94feaff",
+      "localSha256": "8698f907054006a57433f95ba46183c576a42f32aef5b8a88ddb52f7c57c3dd5"
+    },
+    "kitplo1": {
+      "sci": "Anarhynchus pecuarius",
+      "local": "images/kitplo1.jpg",
+      "title": "Kittlitz's plover (Charadrius pecuarius).jpg",
+      "credit": "Charles J. Sharp",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kittlitz%27s_plover_(Charadrius_pecuarius).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Kittlitz%27s_plover_%28Charadrius_pecuarius%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Kittlitz%27s_plover_%28Charadrius_pecuarius%29.jpg/960px-Kittlitz%27s_plover_%28Charadrius_pecuarius%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 640,
+      "wikiTitle": "Kittlitz's plover",
+      "wikidata": "Q774208",
+      "taxonNames": [
+        "Charadrius pecuarius",
+        "Anarhynchus pecuarius"
+      ],
+      "sha1": "2064e2656774ce1aae6f3a85801fb7eac17a5725",
+      "localSha256": "82bc457729f43019d73bfb21b43a330ea91a6c1ca6dc2b69763efe1f40bf5b2f"
+    },
+    "lagfal1": {
+      "sci": "Falco jugger",
+      "local": "images/lagfal1.jpg",
+      "title": "Laggar Falcon adult male.jpg",
+      "credit": "Dhairya1308",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Laggar_Falcon_adult_male.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Laggar_Falcon_adult_male.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Laggar_Falcon_adult_male.jpg/960px-Laggar_Falcon_adult_male.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 960,
+      "wikiTitle": "Laggar falcon",
+      "wikidata": "Q845955",
+      "taxonNames": [
+        "Falco jugger"
+      ],
+      "sha1": "a3f1dd9d44d91aa7259a229ee1d7524cfb964fec",
+      "localSha256": "987e4bc8b91fdce7da2b5c5bc19855400c98d680d1cba43f98dbc46dade6db5d",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Falco jugger",
+          "local": "images/lagfal1-pair.jpg",
+          "title": "Laggar Falcon pair.jpg",
+          "credit": "Dhairya1308",
+          "attribution": "",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Laggar_Falcon_pair.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Laggar_Falcon_pair.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Laggar_Falcon_pair.jpg/960px-Laggar_Falcon_pair.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 745,
+          "wikiTitle": "Laggar falcon",
+          "wikidata": "Q845955",
+          "taxonNames": [
+            "Falco jugger"
+          ],
+          "sha1": "218570d380ab714bc230f299a0182c856b9b9a88",
+          "localSha256": "ec35403846bb43fd714b1a2d96ca49507ac9218991a8584c2bbeccf8f0f43473",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "label": "Männchen und Weibchen"
+        }
+      ]
+    },
+    "lesmoo1": {
+      "sci": "Paragallinula angulata",
+      "local": "images/lesmoo1.jpg",
+      "title": "Lesser moorhen (Paragallinula angulata).jpg",
+      "credit": "Charles J. Sharp",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lesser_moorhen_(Paragallinula_angulata).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Lesser_moorhen_%28Paragallinula_angulata%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Lesser_moorhen_%28Paragallinula_angulata%29.jpg/960px-Lesser_moorhen_%28Paragallinula_angulata%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 640,
+      "wikiTitle": "Lesser moorhen",
+      "wikidata": "Q27074647",
+      "taxonNames": [
+        "Paragallinula angulata"
+      ],
+      "sha1": "45c9099172fab414cda7f341bd48cf8e1b29b8af",
+      "localSha256": "a2f5988c9face7657d10ace7d7fa9be6ee91941203c21822816be8ca64ab4bd1"
+    },
+    "mitpar": {
+      "sci": "Psittacara mitratus",
+      "local": "images/mitpar.jpg",
+      "title": "Mitred Parakeet Florida.jpg",
+      "credit": "http://www.birdphotos.com",
+      "attribution": "",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mitred_Parakeet_Florida.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Mitred_Parakeet_Florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Mitred_Parakeet_Florida.jpg/960px-Mitred_Parakeet_Florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 700,
+      "wikiTitle": "Mitred parakeet",
+      "wikidata": "Q27074997",
+      "taxonNames": [
+        "Psittacara mitratus"
+      ],
+      "sha1": "ab473c27971a6fa4ec6e890f14e4fbaccf501558",
+      "localSha256": "71499fff3e81d5259fd5b9568b1a13696285d3bdf7bc9167d24c8bf72f95c749"
+    },
+    "mstlar1": {
+      "sci": "Alaudala rufescens",
+      "local": "images/mstlar1.jpg",
+      "title": "Calandrella rufescens -Canary Islands -Spain-8.jpg",
+      "credit": "Tony Hisgett",
+      "attribution": "",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Calandrella_rufescens_-Canary_Islands_-Spain-8.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Calandrella_rufescens_-Canary_Islands_-Spain-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Calandrella_rufescens_-Canary_Islands_-Spain-8.jpg/960px-Calandrella_rufescens_-Canary_Islands_-Spain-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 684,
+      "wikiTitle": "Mediterranean short-toed lark",
+      "wikidata": "Q27075424",
+      "taxonNames": [
+        "Alaudala rufescens"
+      ],
+      "sha1": "651584c6e14a73603e208264ddbfcbb022e559d4",
+      "localSha256": "8f886651fec752a69dd69d4cdd6e700b194acbf6b23cab8590a95a1112d2ed56"
+    },
+    "norshr4": {
+      "sci": "Lanius borealis",
+      "local": "images/norshr4.jpg",
+      "title": "Northern Shrike, Arvada, Jefferson, Colorado.jpg",
+      "credit": "Paul Hurtado",
+      "attribution": "",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Northern_Shrike,_Arvada,_Jefferson,_Colorado.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Northern_Shrike%2C_Arvada%2C_Jefferson%2C_Colorado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Northern_Shrike%2C_Arvada%2C_Jefferson%2C_Colorado.jpg/960px-Northern_Shrike%2C_Arvada%2C_Jefferson%2C_Colorado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 639,
+      "wikiTitle": "Northern shrike",
+      "wikidata": "Q31874734",
+      "taxonNames": [
+        "Lanius borealis"
+      ],
+      "sha1": "84108498d92e427efe485ec2ff295ac1cd938f87",
+      "localSha256": "17998be26a3c8e8286e062c4fb3fe744f26dea84e35374467f95fb4809dd3d2e"
+    },
+    "oricuc2": {
+      "sci": "Cuculus optatus",
+      "local": "images/oricuc2.jpg",
+      "title": "Oriental Cuckoo Maiala.JPG",
+      "credit": "Aviceda",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Oriental_Cuckoo_Maiala.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Oriental_Cuckoo_Maiala.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Oriental_Cuckoo_Maiala.JPG/960px-Oriental_Cuckoo_Maiala.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 1005,
+      "wikiTitle": "Oriental cuckoo",
+      "wikidata": "Q1266506",
+      "taxonNames": [
+        "Cuculus optatus"
+      ],
+      "sha1": "7d9ca840b1a7c37a997934360152a2bec20b9ae9",
+      "localSha256": "f76055f19883f8d7c8c26bef20f91ba780e4973233f58146f4ceaae752716ef6"
+    },
+    "orihob2": {
+      "sci": "Pernis ptilorhynchus",
+      "local": "images/orihob2.jpg",
+      "title": "Oriental honey buzzard Mudumalai Mar21 DSC01405.jpg",
+      "credit": "Timothy A. Gonsalves",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Oriental_honey_buzzard_Mudumalai_Mar21_DSC01405.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Oriental_honey_buzzard_Mudumalai_Mar21_DSC01405.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Oriental_honey_buzzard_Mudumalai_Mar21_DSC01405.jpg/960px-Oriental_honey_buzzard_Mudumalai_Mar21_DSC01405.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 1280,
+      "wikiTitle": "Crested honey buzzard",
+      "wikidata": "Q605431",
+      "taxonNames": [
+        "Pernis ptilorhynchus"
+      ],
+      "sha1": "641a9affed1865df8ba64df7aa0de42fec878508",
+      "localSha256": "c6aa4b6017da94d8b56bb9c894557e455a8da0b957a40524e8a7fcd0bb9260b6",
+      "sexes": [
+        "female"
+      ],
+      "label": "Weibchen",
+      "additional": [
+        {
+          "sci": "Pernis ptilorhynchus",
+          "local": "images/orihob2-male.jpg",
+          "title": "Crested Honey Buzzard (Oriental Honey-buzzard) IMG 3364.jpg",
+          "credit": "Selvaganesh17",
+          "attribution": "",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Crested_Honey_Buzzard_(Oriental_Honey-buzzard)_IMG_3364.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Crested_Honey_Buzzard_%28Oriental_Honey-buzzard%29_IMG_3364.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Crested_Honey_Buzzard_%28Oriental_Honey-buzzard%29_IMG_3364.jpg/960px-Crested_Honey_Buzzard_%28Oriental_Honey-buzzard%29_IMG_3364.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 720,
+          "wikiTitle": "Crested honey buzzard",
+          "wikidata": "Q605431",
+          "taxonNames": [
+            "Pernis ptilorhynchus"
+          ],
+          "sha1": "8f0728098c023fc367fda4a7aebc6f604e8c933c",
+          "localSha256": "db5c13fa34f76e52c3f5e209d3839de19a03d6f0ed90f97a8fcd601b3353cf6d",
+          "sexes": [
+            "male"
+          ],
+          "label": "Männchen"
+        }
+      ]
+    },
+    "piebus1": {
+      "sci": "Saxicola caprata",
+      "local": "images/piebus1.jpg",
+      "title": "Pied Bushchat in Bhigwan August 2025 by Tisha Mukherjee 01 (cropped).jpg",
+      "credit": "Tisha Mukherjee",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_(cropped).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_%28cropped%29.jpg/960px-Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 1172,
+      "wikiTitle": "Pied bush chat",
+      "wikidata": "Q864893",
+      "taxonNames": [
+        "Saxicola caprata"
+      ],
+      "sha1": "0823631d54bba7904046aabc5b3106767038e976",
+      "localSha256": "cbef4ea922f11570bdfbc4ee6873dff5c43c4bb22382e755f4bdfd9b11c4166c",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Saxicola caprata",
+          "local": "images/piebus1-female.jpg",
+          "title": "Pied bushchat (female) in Malino, South Sulawesi, Indonesia.jpg",
+          "credit": "Rainaldus",
+          "attribution": "",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Pied_bushchat_(female)_in_Malino,_South_Sulawesi,_Indonesia.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Pied_bushchat_%28female%29_in_Malino%2C_South_Sulawesi%2C_Indonesia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Pied_bushchat_%28female%29_in_Malino%2C_South_Sulawesi%2C_Indonesia.jpg/960px-Pied_bushchat_%28female%29_in_Malino%2C_South_Sulawesi%2C_Indonesia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 677,
+          "wikiTitle": "Pied bush chat",
+          "wikidata": "Q864893",
+          "taxonNames": [
+            "Saxicola caprata"
+          ],
+          "sha1": "61f29c7dabeb6754c8d5ca97d8eb5b763f2eb29e",
+          "localSha256": "78f656f5cd097fe66119f489911a6d88e16364be091352b63caf1881efb3f7cd",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "pitsan1": {
+      "sci": "Pterocles alchata",
+      "local": "images/pitsan1.jpg",
+      "title": "Pin-tailed sandgrouse (Pterocles alchata).jpg",
+      "credit": "https://www.flickr.com/photos/francesco_veronesi/",
+      "attribution": "",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pin-tailed_sandgrouse_(Pterocles_alchata).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pin-tailed_sandgrouse_%28Pterocles_alchata%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Pin-tailed_sandgrouse_%28Pterocles_alchata%29.jpg/960px-Pin-tailed_sandgrouse_%28Pterocles_alchata%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 640,
+      "wikiTitle": "Pin-tailed sandgrouse",
+      "wikidata": "Q753741",
+      "taxonNames": [
+        "Pterocles alchata"
+      ],
+      "sha1": "1f2975ff25fb418d0d39d840475faf0828d3b74d",
+      "localSha256": "d156b8dad5c30f3d29b152face828697c15423b6a6835526f54ace130c66007d"
+    },
+    "railor4": {
+      "sci": "Trichoglossus haematodus",
+      "local": "images/railor4.jpg",
+      "title": "Coconut Lorikeets Trichoglossus haematodus, Variata National Park, Port Moresby, PNG (48743693166).jpg",
+      "credit": "gailhampshire from Cradley, Malvern, U.K",
+      "attribution": "",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Coconut_Lorikeets_Trichoglossus_haematodus,_Variata_National_Park,_Port_Moresby,_PNG_(48743693166).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Coconut_Lorikeets_Trichoglossus_haematodus%2C_Variata_National_Park%2C_Port_Moresby%2C_PNG_%2848743693166%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Coconut_Lorikeets_Trichoglossus_haematodus%2C_Variata_National_Park%2C_Port_Moresby%2C_PNG_%2848743693166%29.jpg/960px-Coconut_Lorikeets_Trichoglossus_haematodus%2C_Variata_National_Park%2C_Port_Moresby%2C_PNG_%2848743693166%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 756,
+      "wikiTitle": "Coconut lorikeet",
+      "wikidata": "Q319545",
+      "taxonNames": [
+        "Trichoglossus haematodus"
+      ],
+      "sha1": "b69247b190ecb9f0353ffc51f1236f75234f49a0",
+      "localSha256": "47acae3c3240765c9e0b1df4fcc19c3ca9a3e58a96009e22c352e5b460b6d5b8"
+    },
+    "rempar": {
+      "sci": "Psittacara erythrogenys",
+      "local": "images/rempar.jpg",
+      "title": "Red-masked Parakeet-Aratinga erythrogenys in a tree.jpg",
+      "credit": "Jef Poskanzer",
+      "attribution": "",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Red-masked_Parakeet-Aratinga_erythrogenys_in_a_tree.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Red-masked_Parakeet-Aratinga_erythrogenys_in_a_tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Red-masked_Parakeet-Aratinga_erythrogenys_in_a_tree.jpg/960px-Red-masked_Parakeet-Aratinga_erythrogenys_in_a_tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 720,
+      "wikiTitle": "Red-masked parakeet",
+      "wikidata": "Q27074999",
+      "taxonNames": [
+        "Psittacara erythrogenys"
+      ],
+      "sha1": "c37fc40c7f47b896bd156544b47ad8f7aa6adf14",
+      "localSha256": "0602eec2232111b385932a114e4e155d753ce5be201a8df98ce787a72d5d1436"
+    },
+    "rennig1": {
+      "sci": "Caprimulgus ruficollis",
+      "local": "images/rennig1.jpg",
+      "title": "Caprimulgus ruficollis -Portugal-8.jpg",
+      "credit": "Olivença",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Caprimulgus_ruficollis_-Portugal-8.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Caprimulgus_ruficollis_-Portugal-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Caprimulgus_ruficollis_-Portugal-8.jpg/960px-Caprimulgus_ruficollis_-Portugal-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 624,
+      "wikiTitle": "Red-necked nightjar",
+      "wikidata": "Q1137192",
+      "taxonNames": [
+        "Caprimulgus ruficollis"
+      ],
+      "sha1": "630d96b8d7207524349159591d27552fd6bf7116",
+      "localSha256": "1411a1312aad58b69b9e3445e9546d974d0b365bb79849899db03ab3f53c5442"
+    },
+    "retwhe3": {
+      "sci": "Oenanthe xanthoprymna",
+      "local": "images/retwhe3.jpg",
+      "title": "Oenanthe xanthoprymna - Kurdish Wheatear, Osmaniye, Turkey 01.jpg",
+      "credit": "Zeynel Cebeci",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Oenanthe_xanthoprymna_-_Kurdish_Wheatear,_Osmaniye,_Turkey_01.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Oenanthe_xanthoprymna_-_Kurdish_Wheatear%2C_Osmaniye%2C_Turkey_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Oenanthe_xanthoprymna_-_Kurdish_Wheatear%2C_Osmaniye%2C_Turkey_01.jpg/960px-Oenanthe_xanthoprymna_-_Kurdish_Wheatear%2C_Osmaniye%2C_Turkey_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 658,
+      "wikiTitle": "Kurdish wheatear",
+      "wikidata": "Q1303323",
+      "taxonNames": [
+        "Oenanthe xanthoprymna"
+      ],
+      "sha1": "f2dbbac4513fe8154b90c3cd25648c95ce0a6455",
+      "localSha256": "c1a5c41bb4c89aebec0b9583cf0c91b633b77b496bfd8ac395a37e070ea86b53",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen"
+    },
+    "royter2": {
+      "sci": "Thalasseus albididorsalis",
+      "local": "images/royter2.jpg",
+      "title": "Thalasseus albididorsalis, Foundiougne, Fatick, Senegal 1.jpg",
+      "credit": "lucykeith-diagne",
+      "attribution": "",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Thalasseus_albididorsalis,_Foundiougne,_Fatick,_Senegal_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Thalasseus_albididorsalis%2C_Foundiougne%2C_Fatick%2C_Senegal_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Thalasseus_albididorsalis%2C_Foundiougne%2C_Fatick%2C_Senegal_1.jpg/960px-Thalasseus_albididorsalis%2C_Foundiougne%2C_Fatick%2C_Senegal_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 640,
+      "wikiTitle": "West African crested tern",
+      "wikidata": "Q85814978",
+      "taxonNames": [
+        "Thalasseus albididorsalis"
+      ],
+      "sha1": "22f7fc7afa71a440968eee3f5065821bc8314328",
+      "localSha256": "9e040e08b198b149ad15d6bb9c0b1584c4191c20cc86c86aa56733d062c71f20"
+    },
+    "semfly1": {
+      "sci": "Ficedula semitorquata",
+      "local": "images/semfly1.jpg",
+      "title": "Ficedula semitorquata male singing in Azerbaijan.jpg",
+      "credit": "avocat",
+      "attribution": "",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ficedula_semitorquata_male_singing_in_Azerbaijan.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Ficedula_semitorquata_male_singing_in_Azerbaijan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ficedula_semitorquata_male_singing_in_Azerbaijan.jpg/960px-Ficedula_semitorquata_male_singing_in_Azerbaijan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 747,
+      "wikiTitle": "Semicollared flycatcher",
+      "wikidata": "Q1591580",
+      "taxonNames": [
+        "Ficedula semitorquata"
+      ],
+      "sha1": "aebe0dd3acbc5776a6ea66fcad62f8c3fbb8e429",
+      "localSha256": "e8be1f2bc5c9c5838b74e11021f2742b284c1b6d972dc9f46f20fdd0577f3fe2",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Ficedula semitorquata",
+          "local": "images/semfly1-female.jpg",
+          "title": "Semi-collared flycatcher Ficedula semitorquata (3497826766).jpg",
+          "credit": "Paul Asman and Jill Lenoble",
+          "attribution": "",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Semi-collared_flycatcher_Ficedula_semitorquata_(3497826766).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Semi-collared_flycatcher_Ficedula_semitorquata_%283497826766%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Semi-collared_flycatcher_Ficedula_semitorquata_%283497826766%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 848,
+          "height": 1272,
+          "wikiTitle": "Semicollared flycatcher",
+          "wikidata": "Q1591580",
+          "taxonNames": [
+            "Ficedula semitorquata"
+          ],
+          "sha1": "b396d1b4b8530e2676178efe316c4516079da93f",
+          "localSha256": "4749aec4fd0aa81acc1f354a18cc3e92e12744cd302dfdb549a5bdb7d111e9f7",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "shtshe": {
+      "sci": "Ardenna tenuirostris",
+      "local": "images/shtshe.jpg",
+      "title": "Short-tailed shearwater in flight (fe25e458-83e9-4b4a-892d-af2f29e2ed02).jpg",
+      "credit": "NPS",
+      "attribution": "",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Short-tailed_shearwater_in_flight_(fe25e458-83e9-4b4a-892d-af2f29e2ed02).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Short-tailed_shearwater_in_flight_%28fe25e458-83e9-4b4a-892d-af2f29e2ed02%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Short-tailed_shearwater_in_flight_%28fe25e458-83e9-4b4a-892d-af2f29e2ed02%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 485,
+      "height": 273,
+      "wikiTitle": "Short-tailed shearwater",
+      "wikidata": "Q27074605",
+      "taxonNames": [
+        "Ardenna tenuirostris"
+      ],
+      "sha1": "1b4eef624fd051b2d6858b97e2d5a1ed8e936ebf",
+      "localSha256": "819d1248a7bc0186a5adf10b6b4cb3dd5c5832d06530fa159080178e471716e4"
+    },
+    "sibjay1": {
+      "sci": "Perisoreus infaustus",
+      "local": "images/sibjay1.jpg",
+      "title": "Perisoreus infaustus Kittilä 20180418 01.jpg",
+      "credit": "Estormiz",
+      "attribution": "",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Perisoreus_infaustus_Kittil%C3%A4_20180418_01.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Perisoreus_infaustus_Kittil%C3%A4_20180418_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Perisoreus_infaustus_Kittil%C3%A4_20180418_01.jpg/960px-Perisoreus_infaustus_Kittil%C3%A4_20180418_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 1242,
+      "wikiTitle": "Siberian jay",
+      "wikidata": "Q214281",
+      "taxonNames": [
+        "Perisoreus infaustus"
+      ],
+      "sha1": "deb3e558f947b6d4fe7c1fb3501f4998e50b2e45",
+      "localSha256": "c5dfbb4adb8b78f3f43572353487d0d0a59140bdd6e0adcf107459db0ecc1fae"
+    },
+    "soghor1": {
+      "sci": "Bucorvus leadbeateri",
+      "local": "images/soghor1.jpg",
+      "title": "Southern Ground Hornbill (Bucorvus leadbeateri) male (12714625605), crop.jpg",
+      "credit": "Bernard DUPONT from FRANCE",
+      "attribution": "",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Southern_Ground_Hornbill_(Bucorvus_leadbeateri)_male_(12714625605),_crop.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Southern_Ground_Hornbill_%28Bucorvus_leadbeateri%29_male_%2812714625605%29%2C_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Southern_Ground_Hornbill_%28Bucorvus_leadbeateri%29_male_%2812714625605%29%2C_crop.jpg/960px-Southern_Ground_Hornbill_%28Bucorvus_leadbeateri%29_male_%2812714625605%29%2C_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 836,
+      "wikiTitle": "Southern ground hornbill",
+      "wikidata": "Q685074",
+      "taxonNames": [
+        "Bucorvus leadbeateri"
+      ],
+      "sha1": "92a3fe88ac4d15f837d4398b61b76ce7c0e0202d",
+      "localSha256": "cef52863ee4c558a5d1a4d5156bce5ab7b51f12efecc463f1f019207d3156765",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Bucorvus leadbeateri",
+          "local": "images/soghor1-female.jpg",
+          "title": "SouthernGroundHornbillFrog.jpg",
+          "credit": "EGilham",
+          "attribution": "",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:SouthernGroundHornbillFrog.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/SouthernGroundHornbillFrog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/SouthernGroundHornbillFrog.jpg/960px-SouthernGroundHornbillFrog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 640,
+          "wikiTitle": "Southern ground hornbill",
+          "wikidata": "Q685074",
+          "taxonNames": [
+            "Bucorvus leadbeateri"
+          ],
+          "sha1": "6ae38f02a292c1f08bfc98f3b4481a4d486312d4",
+          "localSha256": "c267ec91310c0c284a5da10ecaccdfe4fd347abdf4aa8cbf4f671511887a8c99",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "spaeag1": {
+      "sci": "Aquila adalberti",
+      "local": "images/spaeag1.jpg",
+      "title": "Aguila Imperial Entrando Al Posadero (125891767).jpeg",
+      "credit": "José Antonio Lagier Martin",
+      "attribution": "",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Aguila_Imperial_Entrando_Al_Posadero_(125891767).jpeg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Aguila_Imperial_Entrando_Al_Posadero_%28125891767%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Aguila_Imperial_Entrando_Al_Posadero_%28125891767%29.jpeg/960px-Aguila_Imperial_Entrando_Al_Posadero_%28125891767%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 638,
+      "wikiTitle": "Spanish imperial eagle",
+      "wikidata": "Q499568",
+      "taxonNames": [
+        "Aquila adalberti"
+      ],
+      "sha1": "c91008ac651ce9a9e3941bfb9f995a7b2eddebfc",
+      "localSha256": "4c58d319966484c2c4cfc1771407a3b6649e2634b0c398f194accac4f987b3db"
+    },
+    "spepig1": {
+      "sci": "Columba guinea",
+      "local": "images/spepig1.jpg",
+      "title": "Specked Pigeon ...Gambia (32709456610).jpg",
+      "credit": "peterichman from York, Yorkshire",
+      "attribution": "",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Specked_Pigeon_...Gambia_(32709456610).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Specked_Pigeon_...Gambia_%2832709456610%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Specked_Pigeon_...Gambia_%2832709456610%29.jpg/960px-Specked_Pigeon_...Gambia_%2832709456610%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 638,
+      "wikiTitle": "Speckled pigeon",
+      "wikidata": "Q855618",
+      "taxonNames": [
+        "Columba guinea"
+      ],
+      "sha1": "6462c1ff2d6eb769b3024ed35d120b7d5c1fc16f",
+      "localSha256": "13c71ebcf5c59348b47209bda3e63ea6a7a32ec12f33220601dba8222125a6d9"
+    },
+    "sposta1": {
+      "sci": "Sturnus unicolor",
+      "local": "images/sposta1.jpg",
+      "title": "Spotless starling (Sturnus unicolor) display 1.jpg",
+      "credit": "Charles J. Sharp",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Spotless_starling_(Sturnus_unicolor)_display_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Spotless_starling_%28Sturnus_unicolor%29_display_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Spotless_starling_%28Sturnus_unicolor%29_display_1.jpg/960px-Spotless_starling_%28Sturnus_unicolor%29_display_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 1440,
+      "wikiTitle": "Spotless starling",
+      "wikidata": "Q836833",
+      "taxonNames": [
+        "Sturnus unicolor"
+      ],
+      "sha1": "4c9d113cbbc655c811fd077a2e9ee8644e5c2fc6",
+      "localSha256": "653c2526e93015b32cbd280d2e1138b1f79358807cc66873e2ee1eeefb01bfd9",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen"
+    },
+    "swisni1": {
+      "sci": "Gallinago megala",
+      "local": "images/swisni1.jpg",
+      "title": "Gallinago megala.jpg",
+      "credit": "DmitrySA",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gallinago_megala.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Gallinago_megala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Gallinago_megala.jpg/960px-Gallinago_megala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 688,
+      "wikiTitle": "Swinhoe's snipe",
+      "wikidata": "Q371582",
+      "taxonNames": [
+        "Gallinago megala"
+      ],
+      "sha1": "a7a2df2a55bfc79dccd3cc46cca68b1ac57104b8",
+      "localSha256": "f52c6125ccd71d49910f71c359c4431409950a52bb6d01ad5282295b0df1dfb6"
+    },
+    "thelar1": {
+      "sci": "Galerida theklae",
+      "local": "images/thelar1.jpg",
+      "title": "Cochevis de Thékla Ichkeul.jpg",
+      "credit": "El Golli Mohamed",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cochevis_de_Th%C3%A9kla_Ichkeul.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Cochevis_de_Th%C3%A9kla_Ichkeul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Cochevis_de_Th%C3%A9kla_Ichkeul.jpg/960px-Cochevis_de_Th%C3%A9kla_Ichkeul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 640,
+      "wikiTitle": "Thekla's lark",
+      "wikidata": "Q851570",
+      "taxonNames": [
+        "Galerida theklae"
+      ],
+      "sha1": "acbbade3f1ac5f23aba642810b6d675eb10dfd79",
+      "localSha256": "dea1eb55319fe7ccb8e0677bd4013406fc833a62edf44c58825027cdc5be1503"
+    },
+    "triwar1": {
+      "sci": "Curruca deserticola",
+      "local": "images/triwar1.jpg",
+      "title": "Fauvette de l'Atlas Femelle Jebil NP.jpg",
+      "credit": "El Golli Mohamed",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fauvette_de_l%27Atlas_Femelle_Jebil_NP.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Fauvette_de_l%27Atlas_Femelle_Jebil_NP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Fauvette_de_l%27Atlas_Femelle_Jebil_NP.jpg/960px-Fauvette_de_l%27Atlas_Femelle_Jebil_NP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 640,
+      "wikiTitle": "Tristram's warbler",
+      "wikidata": "Q110257525",
+      "taxonNames": [
+        "Curruca deserticola"
+      ],
+      "sha1": "dd85d284e442ae4ec635bd332f27ef0217adc2bd",
+      "localSha256": "4f9debc760e79910e7f5410378b440fda05c03e9482b2f524a67f96d67341c3d",
+      "sexes": [
+        "female"
+      ],
+      "label": "Weibchen"
+    },
+    "tstlar1": {
+      "sci": "Alaudala heinei",
+      "local": "images/tstlar1.jpg",
+      "title": "Alaudala heinei - Heinestummellerche 202746307.jpg",
+      "credit": "Jan Ebr",
+      "attribution": "",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Alaudala_heinei_-_Heinestummellerche_202746307.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Alaudala_heinei_-_Heinestummellerche_202746307.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Alaudala_heinei_-_Heinestummellerche_202746307.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 797,
+      "height": 742,
+      "wikiTitle": "Turkestan short-toed lark",
+      "wikidata": "Q110812143",
+      "taxonNames": [
+        "Alaudala heinei"
+      ],
+      "sha1": "c475e7a4364e372b79dc92c41548002d90a1352d",
+      "localSha256": "573c95fc0d8fd8080766548061f34a56074ded862c643843cbd4cc435633c445"
+    },
+    "whicoc1": {
+      "sci": "Cacatua alba",
+      "local": "images/whicoc1.jpg",
+      "title": "Cacatua alba -Bali Bird Park -crest-8.jpg",
+      "credit": "www.viajar24h.com",
+      "attribution": "",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cacatua_alba_-Bali_Bird_Park_-crest-8.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Cacatua_alba_-Bali_Bird_Park_-crest-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Cacatua_alba_-Bali_Bird_Park_-crest-8.jpg/960px-Cacatua_alba_-Bali_Bird_Park_-crest-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 720,
+      "wikiTitle": "White cockatoo",
+      "wikidata": "Q463135",
+      "taxonNames": [
+        "Cacatua alba"
+      ],
+      "sha1": "5ff090bcb842bd5eb385b01b5405b133329bfb13",
+      "localSha256": "692e68ad2fd8ddcb4a497dbe67bd77bf6aee70c5ff0cf9e5c5d8a3bba8492199"
+    },
+    "whnrav1": {
+      "sci": "Corvus albicollis",
+      "local": "images/whnrav1.jpg",
+      "title": "2009-white-necked-raven.jpg",
+      "credit": "Yathin S Krishnappa",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2009-white-necked-raven.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/2009-white-necked-raven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/2009-white-necked-raven.jpg/960px-2009-white-necked-raven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 939,
+      "wikiTitle": "White-necked raven",
+      "wikidata": "Q907903",
+      "taxonNames": [
+        "Corvus albicollis"
+      ],
+      "sha1": "79ced1e5d86dfedc87016f62af61343a7cfd5160",
+      "localSha256": "680a7521ba67c36a5d8a978b358c56b685cc96d5ddeefef63e0bb19b9b66ec43"
+    },
+    "whssta2": {
+      "sci": "Sturnia sinensis",
+      "local": "images/whssta2.jpg",
+      "title": "Sturnia sinensis, San Tin, Hong Kong 1.jpg",
+      "credit": "stephenmatthews",
+      "attribution": "",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Sturnia_sinensis,_San_Tin,_Hong_Kong_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Sturnia_sinensis%2C_San_Tin%2C_Hong_Kong_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Sturnia_sinensis%2C_San_Tin%2C_Hong_Kong_1.jpg/960px-Sturnia_sinensis%2C_San_Tin%2C_Hong_Kong_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 720,
+      "wikiTitle": "White-shouldered starling",
+      "wikidata": "Q1588185",
+      "taxonNames": [
+        "Sturnia sinensis"
+      ],
+      "sha1": "995baf4783c0e306db84898e7bfc7ebe38b54cfb",
+      "localSha256": "fb43864e911ef816d6e85b537fd871738b5ab8fd1740aa8c756da0a9477d9dca",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Sturnia sinensis",
+          "local": "images/whssta2-female.jpg",
+          "title": "Sturnia sinensis, Don Yai Nu, Kui Buri District, Prachuap Khiri Khan, Thailand 1.jpg",
+          "credit": "plains-wanderer",
+          "attribution": "",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Sturnia_sinensis,_Don_Yai_Nu,_Kui_Buri_District,_Prachuap_Khiri_Khan,_Thailand_1.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sturnia_sinensis%2C_Don_Yai_Nu%2C_Kui_Buri_District%2C_Prachuap_Khiri_Khan%2C_Thailand_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Sturnia_sinensis%2C_Don_Yai_Nu%2C_Kui_Buri_District%2C_Prachuap_Khiri_Khan%2C_Thailand_1.jpg/960px-Sturnia_sinensis%2C_Don_Yai_Nu%2C_Kui_Buri_District%2C_Prachuap_Khiri_Khan%2C_Thailand_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 640,
+          "wikiTitle": "White-shouldered starling",
+          "wikidata": "Q1588185",
+          "taxonNames": [
+            "Sturnia sinensis"
+          ],
+          "sha1": "b4a3d19d823819548551fb5a34401f44d7157f6f",
+          "localSha256": "f649c0f4e2dcf836ae3a01c96f623799242847b1b757c394253c64da058dcbaa",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "whwlar1": {
+      "sci": "Alauda leucoptera",
+      "local": "images/whwlar1.jpg",
+      "title": "Alauda leucoptera 57392188.jpg",
+      "credit": "Алина Урусова",
+      "attribution": "",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Alauda_leucoptera_57392188.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Alauda_leucoptera_57392188.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Alauda_leucoptera_57392188.jpg/960px-Alauda_leucoptera_57392188.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 646,
+      "wikiTitle": "White-winged lark",
+      "wikidata": "Q1137284",
+      "taxonNames": [
+        "Alauda leucoptera"
+      ],
+      "sha1": "33ae832972d0fcd19f08f3d4528111753b2a9a61",
+      "localSha256": "8ce61da9cc5074b2a8dc168a248027251f68c07bba70f2bfc4d3370752efd15c"
+    },
+    "whwred2": {
+      "sci": "Phoenicurus erythrogastrus",
+      "local": "images/whwred2.jpg",
+      "title": "Guldenstadt's Redstart - Shreeram M V - Ladakh, India.jpg",
+      "credit": "Mvshreeram",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Guldenstadt%27s_Redstart_-_Shreeram_M_V_-_Ladakh,_India.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Guldenstadt%27s_Redstart_-_Shreeram_M_V_-_Ladakh%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Guldenstadt%27s_Redstart_-_Shreeram_M_V_-_Ladakh%2C_India.jpg/960px-Guldenstadt%27s_Redstart_-_Shreeram_M_V_-_Ladakh%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 640,
+      "wikiTitle": "Güldenstädt's redstart",
+      "wikidata": "Q796484",
+      "taxonNames": [
+        "Phoenicurus erythrogastrus"
+      ],
+      "sha1": "fd81e071032bf8860fad9dee90a19cf0b15267d3",
+      "localSha256": "807ad71bfa7a9709f282192c283e1b6f09c60881db9e04065d60ef784aebdd84",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Phoenicurus erythrogastrus",
+          "local": "images/whwred2-female.jpg",
+          "title": "White-winged redstart Female - Gunjan Pandey.jpg",
+          "credit": "Dr.GunjanPandey",
+          "attribution": "",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:White-winged_redstart_Female_-_Gunjan_Pandey.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/White-winged_redstart_Female_-_Gunjan_Pandey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/White-winged_redstart_Female_-_Gunjan_Pandey.jpg/960px-White-winged_redstart_Female_-_Gunjan_Pandey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 641,
+          "wikiTitle": "Güldenstädt's redstart",
+          "wikidata": "Q796484",
+          "taxonNames": [
+            "Phoenicurus erythrogastrus"
+          ],
+          "sha1": "e9696ba84185010e3bff3129217ff25d5e726684",
+          "localSha256": "9bf11f39029e294456107b1bd8ceafe222bf05f7d401a682af3c065f5d2e6074",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "wilplo": {
+      "sci": "Anarhynchus wilsonia",
+      "local": "images/wilplo.jpg",
+      "title": "Wilson's Plover male RWD2.jpg",
+      "credit": "DickDaniels ( http://carolinabirds.org/ )",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wilson%27s_Plover_male_RWD2.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Wilson%27s_Plover_male_RWD2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Wilson%27s_Plover_male_RWD2.jpg/960px-Wilson%27s_Plover_male_RWD2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 720,
+      "wikiTitle": "Wilson's plover",
+      "wikidata": "Q979488",
+      "taxonNames": [
+        "Anarhynchus wilsonia"
+      ],
+      "sha1": "252ee3b3bd1d7dc9a4293695bf0b0b62b0b1f2ba",
+      "localSha256": "22e516206d2e9f514fbafa54dadd78d1737080b1d9b9842b52b7e886c9dc1f79",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Anarhynchus wilsonia",
+          "local": "images/wilplo-female.jpg",
+          "title": "Wilson's Plover female RWD9.jpg",
+          "credit": "DickDaniels ( http://carolinabirds.org/ )",
+          "attribution": "",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Wilson%27s_Plover_female_RWD9.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Wilson%27s_Plover_female_RWD9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Wilson%27s_Plover_female_RWD9.jpg/960px-Wilson%27s_Plover_female_RWD9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 720,
+          "wikiTitle": "Wilson's plover",
+          "wikidata": "Q979488",
+          "taxonNames": [
+            "Anarhynchus wilsonia"
+          ],
+          "sha1": "6d5b94dcbc0318c2d918c81908560f48c85dbcca",
+          "localSha256": "73d3065fde6288ffc4cb9670017eee0c2feae82780b817ce5e9cdba11819f8f7",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "wilpta": {
+      "sci": "Lagopus lagopus",
+      "local": "images/wilpta.jpg",
+      "title": "Male Willow Ptarmigan.jpg",
+      "credit": "John Shadle",
+      "attribution": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Male_Willow_Ptarmigan.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Male_Willow_Ptarmigan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Male_Willow_Ptarmigan.jpg/960px-Male_Willow_Ptarmigan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 639,
+      "wikiTitle": "Willow ptarmigan",
+      "wikidata": "Q178702",
+      "taxonNames": [
+        "Lagopus lagopus"
+      ],
+      "sha1": "6de537d0477d1c1205efecf6a43773e689319132",
+      "localSha256": "2e0eb155ecd09243d9d327cb9c2f08884f5f7bf745a45275a87ef56ba867f755",
+      "sexes": [
+        "male"
+      ],
+      "label": "Männchen",
+      "additional": [
+        {
+          "sci": "Lagopus lagopus",
+          "local": "images/wilpta-female.jpg",
+          "title": "Lagopus in Abisko.jpg",
+          "credit": "David Mintz",
+          "attribution": "",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lagopus_in_Abisko.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lagopus_in_Abisko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Lagopus_in_Abisko.jpg/960px-Lagopus_in_Abisko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 960,
+          "height": 640,
+          "wikiTitle": "Willow ptarmigan",
+          "wikidata": "Q178702",
+          "taxonNames": [
+            "Lagopus lagopus"
+          ],
+          "sha1": "2f5af71167916f71daf3ee4da9201807943c516f",
+          "localSha256": "085282b457f79677c83a91bf2dbb07713a6660c4557ea05b85bc3b3841b1ca38",
+          "sexes": [
+            "female"
+          ],
+          "label": "Weibchen"
+        }
+      ]
+    },
+    "yebgre4": {
+      "sci": "Chloris spinoides",
+      "local": "images/yebgre4.jpg",
+      "title": "Chloris spinoides.jpg",
+      "credit": "Pkspks",
+      "attribution": "",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chloris_spinoides.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Chloris_spinoides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Chloris_spinoides.jpg/960px-Chloris_spinoides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960,
+      "height": 681,
+      "wikiTitle": "Yellow-breasted greenfinch",
+      "wikidata": "Q27075788",
+      "taxonNames": [
+        "Chloris spinoides"
+      ],
+      "sha1": "1e2d2ee3836502d942a2012245082bf4003f7090",
+      "localSha256": "b9c2060305b6efc5da332f539d936318441f355d816453e236969e90e19c187a"
+    },
+    "yeclov": {
+      "sci": "Agapornis personatus",
+      "local": "images/yeclov.jpg",
+      "title": "Agapornis personatus -Serengeti, Tanzania-8.jpg",
+      "credit": "Demetrius John Kessy from Arusha, Tanzania",
+      "attribution": "",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Agapornis_personatus_-Serengeti,_Tanzania-8.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Agapornis_personatus_-Serengeti%2C_Tanzania-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Agapornis_personatus_-Serengeti%2C_Tanzania-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 800,
+      "height": 533,
+      "wikiTitle": "Yellow-collared lovebird",
+      "wikidata": "Q753748",
+      "taxonNames": [
+        "Agapornis personatus"
+      ],
+      "sha1": "8f9628fbde7a2e44e862eafa289e5992bc766c06",
+      "localSha256": "8213268c97299360fd68f2b6a7ad13a5c07ead692e7e8d949d670ceb8754e9f1"
     }
   }
 }

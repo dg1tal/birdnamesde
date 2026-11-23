@@ -42,10 +42,12 @@
     "AGFI": 1,
     "AGNI": 2,
     "AGOL": 1,
+    "AGPE": 1,
     "AGPH": 2,
     "AGPL": 1,
     "AGRO": 2,
     "AGST": 2,
+    "AHBU": 1,
     "AHEA": 2,
     "AHGO": 1,
     "AHGU": 3,
@@ -61,6 +63,8 @@
     "ALCH": 4,
     "ALFL": 2,
     "ALGR": 4,
+    "ALHE": 2,
+    "ALLE": 1,
     "ALPA": 3,
     "ALRO": 1,
     "ALRU": 4,
@@ -72,6 +76,8 @@
     "AMAM": 3,
     "AMAU": 4,
     "AMBI": 2,
+    "AMBR": 2,
+    "AMCI": 1,
     "AMCO": 6,
     "AMFA": 3,
     "AMFL": 2,
@@ -128,10 +134,12 @@
     "ANUN": 1,
     "ANVE": 2,
     "ANVI": 5,
+    "ANWI": 1,
     "ANZO": 1,
     "APAP": 2,
     "APCA": 4,
     "APPA": 4,
+    "AQAD": 1,
     "AQCH": 1,
     "AQFA": 1,
     "AQHE": 1,
@@ -250,6 +258,7 @@
     "BHGO": 2,
     "BHGU": 3,
     "BHPA": 7,
+    "BHWE": 2,
     "BILA": 2,
     "BLAC": 3,
     "BLAK": 1,
@@ -275,6 +284,7 @@
     "BLUE": 3,
     "BLVU": 2,
     "BLWA": 7,
+    "BLWH": 1,
     "BLWO": 2,
     "BNBS": 1,
     "BNGR": 1,
@@ -302,6 +312,7 @@
     "BRGO": 4,
     "BRGU": 1,
     "BRHU": 1,
+    "BRKI": 1,
     "BRLE": 3,
     "BROS": 1,
     "BRPA": 5,
@@ -314,8 +325,10 @@
     "BRTH": 4,
     "BRWA": 6,
     "BSTP": 1,
+    "BTAC": 1,
     "BTDI": 1,
     "BTGO": 3,
+    "BTLA": 2,
     "BTLO": 1,
     "BTTH": 4,
     "BUAF": 2,
@@ -330,6 +343,7 @@
     "BUIS": 1,
     "BUJA": 2,
     "BULA": 3,
+    "BULE": 1,
     "BUOE": 1,
     "BUOW": 1,
     "BUPA": 1,
@@ -354,6 +368,7 @@
     "CACA": 22,
     "CACG": 1,
     "CACI": 5,
+    "CACO": 8,
     "CACR": 6,
     "CADI": 3,
     "CADU": 4,
@@ -432,6 +447,7 @@
     "CHRI": 3,
     "CHRU": 10,
     "CHSE": 5,
+    "CHSP": 9,
     "CHSW": 4,
     "CHTE": 3,
     "CHUK": 1,
@@ -501,6 +517,7 @@
     "COMW": 1,
     "COMY": 2,
     "CONI": 10,
+    "CONU": 1,
     "COOE": 1,
     "COPA": 15,
     "COPH": 4,
@@ -536,6 +553,7 @@
     "CREH": 1,
     "CRET": 1,
     "CRGU": 2,
+    "CRHB": 1,
     "CRLA": 2,
     "CRMA": 4,
     "CRMO": 1,
@@ -548,6 +566,7 @@
     "CRWA": 8,
     "CSBD": 1,
     "CSMA": 2,
+    "CSWA": 1,
     "CUCA": 3,
     "CUCO": 3,
     "CUCR": 3,
@@ -558,6 +577,7 @@
     "CUME": 2,
     "CUNA": 1,
     "CUNI": 3,
+    "CUOP": 1,
     "CURU": 2,
     "CUSA": 3,
     "CUSU": 2,
@@ -746,6 +766,7 @@
     "FACO": 2,
     "FADU": 2,
     "FAEL": 1,
+    "FAJU": 1,
     "FANA": 1,
     "FAPE": 1,
     "FARU": 4,
@@ -762,8 +783,10 @@
     "FILO": 1,
     "FIMU": 1,
     "FIPA": 3,
+    "FISE": 1,
     "FITU": 1,
     "FOCO": 3,
+    "FOSP": 2,
     "FOTE": 1,
     "FRAR": 2,
     "FRCI": 2,
@@ -771,7 +794,9 @@
     "FRFR": 1,
     "FRGU": 1,
     "FRMO": 3,
+    "FRSA": 1,
     "FRSP": 2,
+    "FSSP": 2,
     "FTSW": 4,
     "FUAM": 1,
     "FUAT": 1,
@@ -793,6 +818,7 @@
     "GARG": 1,
     "GASO": 2,
     "GAST": 4,
+    "GATH": 2,
     "GAWA": 3,
     "GBBG": 1,
     "GBES": 1,
@@ -811,7 +837,9 @@
     "GESI": 2,
     "GETR": 1,
     "GFNW": 1,
+    "GGOW": 1,
     "GGSH": 2,
+    "GHCH": 2,
     "GHGU": 1,
     "GHLA": 2,
     "GHOW": 3,
@@ -878,6 +906,7 @@
     "GTPA": 2,
     "GTTA": 2,
     "GUAR": 1,
+    "GURE": 1,
     "GWEG": 1,
     "GWFG": 1,
     "GWGU": 1,
@@ -895,6 +924,7 @@
     "HAGO": 1,
     "HAGR": 1,
     "HAHA": 3,
+    "HAIN": 1,
     "HALE": 4,
     "HAME": 5,
     "HAOS": 1,
@@ -918,6 +948,7 @@
     "HIPO": 1,
     "HIRU": 3,
     "HLWA": 3,
+    "HOBU": 4,
     "HOCR": 3,
     "HOFI": 1,
     "HOGR": 5,
@@ -950,13 +981,18 @@
     "IDRA": 1,
     "IEOW": 1,
     "IGOR": 1,
+    "IGSH": 1,
+    "IGWO": 1,
     "IMEA": 1,
     "INBU": 3,
     "INEO": 1,
     "INPE": 2,
+    "INPH": 1,
+    "INSI": 1,
     "INSO": 1,
     "INTE": 3,
     "INWE": 1,
+    "IPHE": 1,
     "IPMY": 1,
     "IPST": 1,
     "IRAN": 2,
@@ -976,13 +1012,18 @@
     "JASP": 5,
     "JUHY": 1,
     "JYTO": 1,
+    "KALW": 1,
     "KAPH": 1,
     "KBDU": 1,
     "KEGU": 1,
     "KEPL": 1,
     "KIEI": 1,
     "KILL": 1,
+    "KIPL": 1,
+    "KLWA": 3,
+    "KUWH": 1,
     "LAAR": 2,
+    "LABO": 1,
     "LABU": 8,
     "LACA": 7,
     "LACH": 3,
@@ -1002,8 +1043,10 @@
     "LAIN": 1,
     "LAIS": 1,
     "LAKO": 2,
+    "LALA": 4,
     "LALO": 1,
     "LAMA": 4,
+    "LAME": 7,
     "LAMI": 2,
     "LAMM": 1,
     "LAMU": 2,
@@ -1146,6 +1189,7 @@
     "MEYE": 1,
     "MIMA": 4,
     "MIMI": 6,
+    "MIPA": 6,
     "MIPO": 1,
     "MIPY": 1,
     "MITH": 5,
@@ -1165,6 +1209,7 @@
     "MOTS": 1,
     "MOWA": 6,
     "MSLA": 1,
+    "MSTL": 2,
     "MSWO": 1,
     "MUDA": 1,
     "MUDU": 2,
@@ -1187,6 +1232,7 @@
     "NEPE": 3,
     "NEPU": 6,
     "NERU": 5,
+    "NGSH": 1,
     "NHMA": 3,
     "NHOW": 1,
     "NIBO": 2,
@@ -1210,6 +1256,7 @@
     "NRBI": 1,
     "NRSM": 1,
     "NSHO": 1,
+    "NSHR": 1,
     "NUAR": 1,
     "NUBO": 1,
     "NUCA": 1,
@@ -1233,13 +1280,17 @@
     "OEOE": 1,
     "OEPL": 1,
     "OESE": 1,
+    "OEXA": 1,
     "OFBR": 2,
+    "OHBU": 2,
     "OHTH": 1,
     "ONAN": 1,
     "ONFU": 2,
     "ONTR": 1,
     "ORBU": 3,
+    "ORCU": 3,
     "ORGO": 1,
+    "ORHB": 1,
     "ORJU": 1,
     "ORKU": 1,
     "ORME": 6,
@@ -1260,6 +1311,7 @@
     "OXMA": 2,
     "OXVI": 1,
     "PAAM": 2,
+    "PAAN": 5,
     "PABI": 1,
     "PABU": 4,
     "PACI": 9,
@@ -1276,6 +1328,7 @@
     "PAHA": 4,
     "PAHI": 1,
     "PAIA": 1,
+    "PAIL": 1,
     "PAIP": 5,
     "PAIT": 2,
     "PAJA": 4,
@@ -1297,6 +1350,7 @@
     "PATH": 3,
     "PAUN": 3,
     "PAWA": 4,
+    "PBCH": 1,
     "PBDU": 1,
     "PBGR": 1,
     "PBPE": 1,
@@ -1306,9 +1360,11 @@
     "PECR": 1,
     "PEDU": 1,
     "PEFA": 2,
+    "PEIN": 2,
     "PEON": 1,
     "PEPE": 5,
     "PEPI": 5,
+    "PEPT": 2,
     "PEPY": 2,
     "PERU": 9,
     "PESA": 2,
@@ -1321,6 +1377,8 @@
     "PHCH": 5,
     "PHCO": 10,
     "PHDU": 2,
+    "PHER": 4,
+    "PHEX": 1,
     "PHFU": 10,
     "PHGR": 5,
     "PHHU": 1,
@@ -1358,10 +1416,12 @@
     "PIOL": 2,
     "PIPI": 12,
     "PISE": 2,
+    "PISH": 3,
     "PITR": 2,
     "PIVI": 4,
     "PIWH": 2,
     "PLAD": 1,
+    "PLAE": 1,
     "PLAL": 5,
     "PLAP": 2,
     "PLCU": 2,
@@ -1374,12 +1434,14 @@
     "PLGA": 3,
     "PLLE": 3,
     "PLLW": 2,
+    "PLME": 3,
     "PLNI": 6,
     "PLSQ": 1,
     "PLVE": 2,
     "PLWA": 6,
     "POAU": 1,
     "POCA": 11,
+    "POCI": 4,
     "POCR": 3,
     "POGR": 4,
     "POGU": 3,
@@ -1395,6 +1457,7 @@
     "POSK": 1,
     "POST": 6,
     "POSW": 2,
+    "PRAT": 3,
     "PRBU": 3,
     "PRCO": 4,
     "PRMO": 5,
@@ -1408,15 +1471,18 @@
     "PSHO": 1,
     "PSKR": 1,
     "PSLE": 3,
+    "PSMI": 2,
     "PSRO": 3,
     "PSTI": 1,
     "PSVA": 1,
+    "PTAL": 6,
     "PTDE": 4,
     "PTGR": 5,
     "PTLA": 2,
     "PTMA": 6,
     "PTMO": 3,
     "PTRU": 7,
+    "PTSA": 3,
     "PTWH": 1,
     "PUBA": 3,
     "PUGA": 2,
@@ -1513,9 +1579,11 @@
     "RLBU": 1,
     "RLHA": 1,
     "RLPA": 1,
+    "RMPA": 1,
     "RNDU": 1,
     "RNEP": 1,
     "RNGR": 2,
+    "RNNI": 1,
     "RNPA": 1,
     "RNPH": 2,
     "RNST": 1,
@@ -1560,6 +1628,7 @@
     "RWBL": 1,
     "RWBU": 2,
     "RWLA": 4,
+    "SACA": 5,
     "SACR": 4,
     "SAFA": 2,
     "SAFI": 1,
@@ -1590,6 +1659,7 @@
     "SCCH": 5,
     "SCCO": 5,
     "SCCR": 1,
+    "SCFL": 7,
     "SCIB": 1,
     "SCMA": 6,
     "SCPA": 6,
@@ -1604,10 +1674,12 @@
     "SEAU": 2,
     "SECA": 6,
     "SECO": 3,
+    "SEFL": 4,
     "SEFU": 1,
     "SEMA": 5,
     "SEOW": 3,
     "SEPA": 5,
+    "SEPE": 2,
     "SEPL": 4,
     "SEPU": 2,
     "SERU": 3,
@@ -1616,6 +1688,7 @@
     "SEST": 1,
     "SETI": 1,
     "SEWA": 4,
+    "SGHO": 1,
     "SGSP": 1,
     "SHBL": 1,
     "SHLA": 4,
@@ -1623,9 +1696,11 @@
     "SHSE": 1,
     "SIAC": 1,
     "SICA": 5,
+    "SIEA": 1,
     "SIEU": 1,
     "SIFL": 1,
     "SIFO": 2,
+    "SIJA": 2,
     "SILV": 2,
     "SIPH": 1,
     "SIPI": 8,
@@ -1636,6 +1711,8 @@
     "SIST": 4,
     "SITE": 2,
     "SITH": 5,
+    "SITI": 2,
+    "SIWH": 1,
     "SLGR": 2,
     "SLTR": 1,
     "SMAM": 1,
@@ -1648,6 +1725,7 @@
     "SOBO": 3,
     "SOCO": 4,
     "SOFI": 3,
+    "SOGH": 2,
     "SOLA": 3,
     "SOMO": 3,
     "SOMW": 1,
@@ -1661,12 +1739,14 @@
     "SPCR": 6,
     "SPCY": 2,
     "SPDI": 1,
+    "SPEA": 1,
     "SPEI": 1,
     "SPEO": 2,
     "SPFL": 5,
     "SPHO": 5,
     "SPNU": 4,
     "SPPE": 4,
+    "SPPI": 7,
     "SPPL": 2,
     "SPPU": 3,
     "SPQU": 1,
@@ -1676,6 +1756,7 @@
     "SPSE": 3,
     "SPSK": 1,
     "SPSP": 7,
+    "SPST": 4,
     "SPTO": 2,
     "SPTR": 2,
     "SPTS": 1,
@@ -1699,6 +1780,7 @@
     "STHI": 2,
     "STLO": 6,
     "STMA": 9,
+    "STNE": 3,
     "STOR": 2,
     "STOW": 2,
     "STPA": 8,
@@ -1707,9 +1789,13 @@
     "STSA": 5,
     "STSC": 2,
     "STSE": 8,
+    "STSH": 3,
+    "STSI": 1,
     "STSK": 1,
     "STTR": 5,
+    "STTS": 3,
     "STTU": 2,
+    "STUN": 2,
     "STUR": 1,
     "STVU": 1,
     "SULE": 2,
@@ -1726,6 +1812,7 @@
     "SWPA": 3,
     "SWPH": 1,
     "SWPL": 2,
+    "SWSN": 1,
     "SWSP": 6,
     "SWTH": 4,
     "SYAN": 1,
@@ -1766,9 +1853,11 @@
     "TFAM": 1,
     "THAC": 1,
     "THAE": 2,
+    "THAL": 2,
     "THBE": 6,
     "THDU": 1,
     "THEL": 1,
+    "THLA": 1,
     "THMA": 2,
     "THME": 7,
     "THNI": 5,
@@ -1784,6 +1873,7 @@
     "TRFI": 1,
     "TRFL": 4,
     "TRGL": 1,
+    "TRHA": 1,
     "TRME": 11,
     "TRMO": 7,
     "TRNE": 1,
@@ -1796,7 +1886,9 @@
     "TRTE": 4,
     "TRTO": 1,
     "TRUS": 1,
+    "TRWA": 4,
     "TSPL": 1,
+    "TSTL": 1,
     "TTBW": 1,
     "TUAT": 3,
     "TUBG": 1,
@@ -1849,6 +1941,7 @@
     "VIPH": 2,
     "VIWE": 1,
     "VTPA": 1,
+    "WACT": 1,
     "WALL": 1,
     "WAPI": 2,
     "WARA": 2,
@@ -1882,6 +1975,8 @@
     "WESW": 2,
     "WEWR": 1,
     "WFWD": 1,
+    "WHBU": 2,
+    "WHCO": 1,
     "WHDU": 1,
     "WHHE": 2,
     "WHIB": 2,
@@ -1899,6 +1994,8 @@
     "WIGR": 2,
     "WILW": 1,
     "WIPH": 1,
+    "WIPL": 1,
+    "WIPT": 1,
     "WISN": 1,
     "WISP": 1,
     "WITI": 1,
@@ -1906,6 +2003,7 @@
     "WIWA": 4,
     "WMHA": 1,
     "WNCR": 2,
+    "WNRA": 1,
     "WODU": 1,
     "WOLA": 1,
     "WOOD": 1,
@@ -1920,6 +2018,7 @@
     "WRSH": 7,
     "WRSW": 3,
     "WSPE": 1,
+    "WSST": 1,
     "WSWA": 3,
     "WTDI": 1,
     "WTEA": 3,
@@ -1931,7 +2030,9 @@
     "WWBT": 3,
     "WWCR": 1,
     "WWDU": 2,
+    "WWLA": 2,
     "WWRA": 1,
+    "WWRE": 1,
     "WWSC": 1,
     "WWSN": 1,
     "WWTE": 1,
@@ -1952,8 +2053,10 @@
     "YBTE": 2,
     "YBWA": 5,
     "YBWB": 1,
+    "YBWE": 2,
     "YCAM": 1,
     "YCBI": 1,
+    "YCLO": 2,
     "YELL": 3,
     "YESH": 1,
     "YEWA": 3,
@@ -2159,6 +2262,12 @@
       "sci_quick_codes": "PHBO",
       "sci_name": "Phylloscopus borealis"
     },
+    "arcwar2": {
+      "com_quick_codes": "KALW",
+      "banding_code": "KLWA",
+      "sci_quick_codes": "PHEX",
+      "sci_name": "Phylloscopus examinandus"
+    },
     "asbfly": {
       "com_quick_codes": "",
       "banding_code": "ABFL",
@@ -2326,6 +2435,12 @@
       "banding_code": "BTGO",
       "sci_quick_codes": "LILA",
       "sci_name": "Limosa lapponica"
+    },
+    "batlar1": {
+      "com_quick_codes": "BTLA",
+      "banding_code": "",
+      "sci_quick_codes": "AMCI",
+      "sci_name": "Ammomanes cinctura"
     },
     "bawwar": {
       "com_quick_codes": "",
@@ -2519,6 +2634,12 @@
       "sci_quick_codes": "CINI",
       "sci_name": "Ciconia nigra"
     },
+    "blawhe1": {
+      "com_quick_codes": "BLWH",
+      "banding_code": "",
+      "sci_quick_codes": "OELE",
+      "sci_name": "Oenanthe leucura"
+    },
     "blawoo1": {
       "com_quick_codes": "BLWO",
       "banding_code": "",
@@ -2579,6 +2700,12 @@
       "sci_quick_codes": "PIME",
       "sci_name": "Pionites melanocephalus"
     },
+    "blhwea1": {
+      "com_quick_codes": "BHWE YBWE",
+      "banding_code": "",
+      "sci_quick_codes": "PLME",
+      "sci_name": "Ploceus melanocephalus"
+    },
     "blkfra": {
       "com_quick_codes": "",
       "banding_code": "BLFR",
@@ -2632,6 +2759,12 @@
       "banding_code": "BREW",
       "sci_quick_codes": "ACDU",
       "sci_name": "Acrocephalus dumetorum"
+    },
+    "bltacc1": {
+      "com_quick_codes": "BTAC",
+      "banding_code": "",
+      "sci_quick_codes": "PRAT",
+      "sci_name": "Prunella atrogularis"
     },
     "blueth": {
       "com_quick_codes": "",
@@ -2717,6 +2850,12 @@
       "sci_quick_codes": "AEFU",
       "sci_name": "Aegolius funereus"
     },
+    "brakit1": {
+      "com_quick_codes": "BRKI",
+      "banding_code": "",
+      "sci_quick_codes": "HAIN",
+      "sci_name": "Haliastur indus"
+    },
     "brambl": {
       "com_quick_codes": "",
       "banding_code": "BRAM",
@@ -2728,6 +2867,12 @@
       "banding_code": "BRAN",
       "sci_quick_codes": "BRBE",
       "sci_name": "Branta bernicla"
+    },
+    "bratea1": {
+      "com_quick_codes": "BRTE",
+      "banding_code": "",
+      "sci_quick_codes": "AMBR",
+      "sci_name": "Amazonetta brasiliensis"
     },
     "brbsan": {
       "com_quick_codes": "BBSA",
@@ -2998,6 +3143,12 @@
       "banding_code": "CHPH",
       "sci_quick_codes": "ARBA",
       "sci_name": "Ardeola bacchus"
+    },
+    "chswar": {
+      "com_quick_codes": "",
+      "banding_code": "CSWA",
+      "sci_quick_codes": "SEPE",
+      "sci_name": "Setophaga pensylvanica"
     },
     "chukar": {
       "com_quick_codes": "CHPA",
@@ -3293,6 +3444,18 @@
       "sci_quick_codes": "CRCR",
       "sci_name": "Crex crex"
     },
+    "corfin1": {
+      "com_quick_codes": "COFI",
+      "banding_code": "",
+      "sci_quick_codes": "CACO",
+      "sci_name": "Carduelis corsicana"
+    },
+    "cornut1": {
+      "com_quick_codes": "CONU",
+      "banding_code": "",
+      "sci_quick_codes": "SIWH",
+      "sci_name": "Sitta whiteheadi"
+    },
     "corplo": {
       "com_quick_codes": "RIPL",
       "banding_code": "CRPL",
@@ -3574,6 +3737,12 @@
       "banding_code": "",
       "sci_quick_codes": "CAAE",
       "sci_name": "Caprimulgus aegyptius"
+    },
+    "egyplo1": {
+      "com_quick_codes": "EGPL",
+      "banding_code": "",
+      "sci_quick_codes": "PLAE",
+      "sci_name": "Pluvianus aegyptius"
     },
     "egyvul1": {
       "com_quick_codes": "EGVU",
@@ -3989,6 +4158,12 @@
       "sci_quick_codes": "APPA",
       "sci_name": "Apus pacificus"
     },
+    "foxspa": {
+      "com_quick_codes": "FSSP",
+      "banding_code": "FOSP",
+      "sci_quick_codes": "PAIL",
+      "sci_name": "Passerella iliaca"
+    },
     "fragul": {
       "com_quick_codes": "",
       "banding_code": "FRGU",
@@ -4253,6 +4428,12 @@
       "sci_quick_codes": "TRME",
       "sci_name": "Tringa melanoleuca"
     },
+    "grgowl": {
+      "com_quick_codes": "",
+      "banding_code": "GGOW",
+      "sci_quick_codes": "STNE",
+      "sci_name": "Strix nebulosa"
+    },
     "grhgul": {
       "com_quick_codes": "",
       "banding_code": "GHGU",
@@ -4288,6 +4469,12 @@
       "banding_code": "",
       "sci_quick_codes": "PHNI",
       "sci_name": "Phylloscopus nitidus"
+    },
+    "grnwoo3": {
+      "com_quick_codes": "IGWO",
+      "banding_code": "",
+      "sci_quick_codes": "PISH",
+      "sci_name": "Picus sharpei"
     },
     "grrwar1": {
       "com_quick_codes": "GRWA GRRW",
@@ -4397,6 +4584,12 @@
       "sci_quick_codes": "EMBU",
       "sci_name": "Emberiza buchanani"
     },
+    "gyhchi": {
+      "com_quick_codes": "SITI",
+      "banding_code": "GHCH",
+      "sci_quick_codes": "POCI",
+      "sci_name": "Poecile cinctus"
+    },
     "gyhlap1": {
       "com_quick_codes": "GHLA",
       "banding_code": "",
@@ -4493,6 +4686,12 @@
       "sci_quick_codes": "SPHO",
       "sci_name": "Spatula hottentota"
     },
+    "houbun3": {
+      "com_quick_codes": "HOBU WHBU AHBU",
+      "banding_code": "",
+      "sci_quick_codes": "FRSA",
+      "sci_name": "Fringillaria sahari"
+    },
     "houcro1": {
       "com_quick_codes": "HOCR",
       "banding_code": "",
@@ -4535,6 +4734,12 @@
       "sci_quick_codes": "PHIB",
       "sci_name": "Phylloscopus ibericus"
     },
+    "ibgshr1": {
+      "com_quick_codes": "IGSH",
+      "banding_code": "",
+      "sci_quick_codes": "LAME",
+      "sci_name": "Lanius meridionalis"
+    },
     "ictwar1": {
       "com_quick_codes": "",
       "banding_code": "ICWA",
@@ -4559,6 +4764,12 @@
       "sci_quick_codes": "PACY",
       "sci_name": "Passerina cyanea"
     },
+    "indsil": {
+      "com_quick_codes": "",
+      "banding_code": "INSI",
+      "sci_quick_codes": "EUMA",
+      "sci_name": "Euodice malabarica"
+    },
     "indwhe1": {
       "com_quick_codes": "INWE IWEY",
       "banding_code": "",
@@ -4570,6 +4781,12 @@
       "banding_code": "",
       "sci_quick_codes": "ORKU",
       "sci_name": "Oriolus kundoo"
+    },
+    "inpher1": {
+      "com_quick_codes": "INPH IPHE",
+      "banding_code": "",
+      "sci_quick_codes": "ARGR",
+      "sci_name": "Ardeola grayii"
     },
     "insowl1": {
       "com_quick_codes": "ISOW INSO",
@@ -4661,11 +4878,23 @@
       "sci_quick_codes": "SOSP",
       "sci_name": "Somateria spectabilis"
     },
+    "kitplo1": {
+      "com_quick_codes": "KIPL",
+      "banding_code": "",
+      "sci_quick_codes": "ANPE",
+      "sci_name": "Anarhynchus pecuarius"
+    },
     "laaphe1": {
       "com_quick_codes": "LAPH",
       "banding_code": "",
       "sci_quick_codes": "CHAM",
       "sci_name": "Chrysolophus amherstiae"
+    },
+    "lagfal1": {
+      "com_quick_codes": "LAFA",
+      "banding_code": "",
+      "sci_quick_codes": "FAJU",
+      "sci_name": "Falco jugger"
     },
     "lakduc1": {
       "com_quick_codes": "LADU",
@@ -4798,6 +5027,12 @@
       "banding_code": "",
       "sci_quick_codes": "FANA",
       "sci_name": "Falco naumanni"
+    },
+    "lesmoo1": {
+      "com_quick_codes": "LEMO",
+      "banding_code": "",
+      "sci_quick_codes": "PAAN",
+      "sci_name": "Paragallinula angulata"
     },
     "lessap1": {
       "com_quick_codes": "TSPL TISA TISP LESA",
@@ -5165,6 +5400,12 @@
       "sci_quick_codes": "DEME",
       "sci_name": "Dendrocoptes medius"
     },
+    "mitpar": {
+      "com_quick_codes": "",
+      "banding_code": "MIPA",
+      "sci_quick_codes": "PSMI",
+      "sci_name": "Psittacara mitratus"
+    },
     "monhar1": {
       "com_quick_codes": "MOHA",
       "banding_code": "",
@@ -5194,6 +5435,12 @@
       "banding_code": "",
       "sci_quick_codes": "ACME",
       "sci_name": "Acrocephalus melanopogon"
+    },
+    "mstlar1": {
+      "com_quick_codes": "MSTL",
+      "banding_code": "",
+      "sci_quick_codes": "ALRU",
+      "sci_name": "Alaudala rufescens"
     },
     "mugfly": {
       "com_quick_codes": "",
@@ -5315,6 +5562,12 @@
       "sci_quick_codes": "LAEX",
       "sci_name": "Lanius excubitor"
     },
+    "norshr4": {
+      "com_quick_codes": "NOSH NGSH",
+      "banding_code": "NSHR",
+      "sci_quick_codes": "LABO",
+      "sci_name": "Lanius borealis"
+    },
     "norwat": {
       "com_quick_codes": "",
       "banding_code": "NOWA",
@@ -5369,11 +5622,23 @@
       "sci_quick_codes": "GECI",
       "sci_name": "Geokichla citrina"
     },
+    "oricuc2": {
+      "com_quick_codes": "",
+      "banding_code": "ORCU",
+      "sci_quick_codes": "CUOP",
+      "sci_name": "Cuculus optatus"
+    },
     "origoo1": {
       "com_quick_codes": "",
       "banding_code": "ORGO",
       "sci_quick_codes": "ORJU",
       "sci_name": "Oressochen jubatus"
+    },
+    "orihob2": {
+      "com_quick_codes": "CHBU OHBU CRHB",
+      "banding_code": "ORHB",
+      "sci_quick_codes": "PEPT",
+      "sci_name": "Pernis ptilorhynchus"
     },
     "oripip1": {
       "com_quick_codes": "PAPI",
@@ -5591,6 +5856,12 @@
       "sci_quick_codes": "REAV",
       "sci_name": "Recurvirostra avosetta"
     },
+    "piebus1": {
+      "com_quick_codes": "PBCH PIBU",
+      "banding_code": "",
+      "sci_quick_codes": "SACA",
+      "sci_name": "Saxicola caprata"
+    },
     "piecro1": {
       "com_quick_codes": "PICR",
       "banding_code": "",
@@ -5626,6 +5897,12 @@
       "banding_code": "PIGR",
       "sci_quick_codes": "PIEN",
       "sci_name": "Pinicola enucleator"
+    },
+    "pitsan1": {
+      "com_quick_codes": "PTSA",
+      "banding_code": "",
+      "sci_quick_codes": "PTAL",
+      "sci_name": "Pterocles alchata"
     },
     "pitwhy": {
       "com_quick_codes": "",
@@ -5728,6 +6005,12 @@
       "banding_code": "RAGM",
       "sci_quick_codes": "ARCH",
       "sci_name": "Ara chloropterus"
+    },
+    "railor4": {
+      "com_quick_codes": "COLO",
+      "banding_code": "",
+      "sci_quick_codes": "TRHA",
+      "sci_name": "Trichoglossus haematodus"
     },
     "railor5": {
       "com_quick_codes": "RALO",
@@ -5963,11 +6246,23 @@
       "sci_quick_codes": "AMAU",
       "sci_name": "Amazona autumnalis"
     },
+    "rempar": {
+      "com_quick_codes": "",
+      "banding_code": "RMPA",
+      "sci_quick_codes": "PSER",
+      "sci_name": "Psittacara erythrogenys"
+    },
     "rengre": {
       "com_quick_codes": "",
       "banding_code": "RNGR",
       "sci_quick_codes": "POGR",
       "sci_name": "Podiceps grisegena"
+    },
+    "rennig1": {
+      "com_quick_codes": "RNNI",
+      "banding_code": "",
+      "sci_quick_codes": "CARU",
+      "sci_name": "Caprimulgus ruficollis"
     },
     "renpha": {
       "com_quick_codes": "",
@@ -6028,6 +6323,12 @@
       "banding_code": "",
       "sci_quick_codes": "TURU",
       "sci_name": "Turdus ruficollis"
+    },
+    "retwhe3": {
+      "com_quick_codes": "KUWH",
+      "banding_code": "",
+      "sci_quick_codes": "OEXA",
+      "sci_name": "Oenanthe xanthoprymna"
     },
     "rewbla": {
       "com_quick_codes": "",
@@ -6190,6 +6491,12 @@
       "banding_code": "ROYT",
       "sci_quick_codes": "THMA",
       "sci_name": "Thalasseus maximus"
+    },
+    "royter2": {
+      "com_quick_codes": "ROTE WACT",
+      "banding_code": "",
+      "sci_quick_codes": "THAL",
+      "sci_name": "Thalasseus albididorsalis"
     },
     "rtrthr1": {
       "com_quick_codes": "CRTH",
@@ -6395,6 +6702,12 @@
       "sci_quick_codes": "ACSC",
       "sci_name": "Acrocephalus schoenobaenus"
     },
+    "semfly1": {
+      "com_quick_codes": "SEFL SCFL",
+      "banding_code": "",
+      "sci_quick_codes": "FISE",
+      "sci_name": "Ficedula semitorquata"
+    },
     "semplo": {
       "com_quick_codes": "",
       "banding_code": "SEPL",
@@ -6437,6 +6750,12 @@
       "sci_quick_codes": "CAAC",
       "sci_name": "Calidris acuminata"
     },
+    "shtshe": {
+      "com_quick_codes": "STSH",
+      "banding_code": "STTS",
+      "sci_quick_codes": "ARTE",
+      "sci_name": "Ardenna tenuirostris"
+    },
     "shttre1": {
       "com_quick_codes": "STTR",
       "banding_code": "",
@@ -6448,6 +6767,12 @@
       "banding_code": "SIAC",
       "sci_quick_codes": "PRMO",
       "sci_name": "Prunella montanella"
+    },
+    "sibjay1": {
+      "com_quick_codes": "SIJA",
+      "banding_code": "",
+      "sci_quick_codes": "PEIN",
+      "sci_name": "Perisoreus infaustus"
     },
     "sibpip1": {
       "com_quick_codes": "BBPI",
@@ -6557,6 +6882,12 @@
       "sci_quick_codes": "VAGR",
       "sci_name": "Vanellus gregarius"
     },
+    "soghor1": {
+      "com_quick_codes": "SGHO SOGH",
+      "banding_code": "",
+      "sci_quick_codes": "BULE",
+      "sci_name": "Bucorvus leadbeateri"
+    },
     "solsan": {
       "com_quick_codes": "",
       "banding_code": "SOSA",
@@ -6611,6 +6942,12 @@
       "sci_quick_codes": "NIBO",
       "sci_name": "Ninox boobook"
     },
+    "spaeag1": {
+      "com_quick_codes": "SPEA SIEA",
+      "banding_code": "",
+      "sci_quick_codes": "AQAD",
+      "sci_name": "Aquila adalberti"
+    },
     "spaspa1": {
       "com_quick_codes": "SPSP",
       "banding_code": "",
@@ -6628,6 +6965,12 @@
       "banding_code": "SPEI",
       "sci_quick_codes": "SOFI",
       "sci_name": "Somateria fischeri"
+    },
+    "spepig1": {
+      "com_quick_codes": "SPPI",
+      "banding_code": "",
+      "sci_quick_codes": "COGU",
+      "sci_name": "Columba guinea"
     },
     "spewar2": {
       "com_quick_codes": "SPWA",
@@ -6664,6 +7007,12 @@
       "banding_code": "SPSA",
       "sci_quick_codes": "ACMA",
       "sci_name": "Actitis macularius"
+    },
+    "sposta1": {
+      "com_quick_codes": "SPST",
+      "banding_code": "",
+      "sci_quick_codes": "STUN",
+      "sci_name": "Sturnus unicolor"
     },
     "spotow": {
       "com_quick_codes": "",
@@ -6821,6 +7170,12 @@
       "sci_quick_codes": "LOSW",
       "sci_name": "Lophura swinhoii"
     },
+    "swisni1": {
+      "com_quick_codes": "SWSN",
+      "banding_code": "",
+      "sci_quick_codes": "GAME",
+      "sci_name": "Gallinago megala"
+    },
     "swspet": {
       "com_quick_codes": "SWSP SSPE",
       "banding_code": "SSTP",
@@ -6905,6 +7260,12 @@
       "sci_quick_codes": "ARAE",
       "sci_name": "Arundinax aedon"
     },
+    "thelar1": {
+      "com_quick_codes": "THLA",
+      "banding_code": "",
+      "sci_quick_codes": "GATH",
+      "sci_name": "Galerida theklae"
+    },
     "thrnig1": {
       "com_quick_codes": "THNI",
       "banding_code": "",
@@ -6929,6 +7290,12 @@
       "sci_quick_codes": "ONTR",
       "sci_name": "Onychognathus tristramii"
     },
+    "triwar1": {
+      "com_quick_codes": "TRWA",
+      "banding_code": "",
+      "sci_quick_codes": "CUDE",
+      "sci_name": "Curruca deserticola"
+    },
     "trufin2": {
       "com_quick_codes": "TRFI",
       "banding_code": "",
@@ -6940,6 +7307,12 @@
       "banding_code": "TRUS",
       "sci_quick_codes": "CYBU",
       "sci_name": "Cygnus buccinator"
+    },
+    "tstlar1": {
+      "com_quick_codes": "TSTL",
+      "banding_code": "",
+      "sci_quick_codes": "ALHE",
+      "sci_name": "Alaudala heinei"
     },
     "tufduc": {
       "com_quick_codes": "",
@@ -7199,6 +7572,12 @@
       "sci_quick_codes": "COLE",
       "sci_name": "Columba leucomela"
     },
+    "whicoc1": {
+      "com_quick_codes": "WHCO",
+      "banding_code": "",
+      "sci_quick_codes": "CAAL",
+      "sci_name": "Cacatua alba"
+    },
     "whiibi": {
       "com_quick_codes": "AWIB",
       "banding_code": "WHIB",
@@ -7247,6 +7626,12 @@
       "sci_quick_codes": "ANVI",
       "sci_name": "Antigone vipio"
     },
+    "whnrav1": {
+      "com_quick_codes": "WNRA",
+      "banding_code": "",
+      "sci_quick_codes": "COAL",
+      "sci_name": "Corvus albicollis"
+    },
     "whoswa": {
       "com_quick_codes": "WHSW",
       "banding_code": "WHOS",
@@ -7276,6 +7661,12 @@
       "banding_code": "",
       "sci_quick_codes": "APCA",
       "sci_name": "Apus caffer"
+    },
+    "whssta2": {
+      "com_quick_codes": "WSST",
+      "banding_code": "",
+      "sci_quick_codes": "STSI",
+      "sci_name": "Sturnia sinensis"
     },
     "whtdip1": {
       "com_quick_codes": "WTDI",
@@ -7325,6 +7716,18 @@
       "sci_quick_codes": "LOLE",
       "sci_name": "Loxia leucoptera"
     },
+    "whwlar1": {
+      "com_quick_codes": "WWLA",
+      "banding_code": "",
+      "sci_quick_codes": "ALLE",
+      "sci_name": "Alauda leucoptera"
+    },
+    "whwred2": {
+      "com_quick_codes": "WWRE GÜRE GURE",
+      "banding_code": "",
+      "sci_quick_codes": "PHER",
+      "sci_name": "Phoenicurus erythrogastrus"
+    },
     "whwsco1": {
       "com_quick_codes": "SISC",
       "banding_code": "STSC",
@@ -7360,6 +7763,18 @@
       "banding_code": "WIPH",
       "sci_quick_codes": "PHTR",
       "sci_name": "Phalaropus tricolor"
+    },
+    "wilplo": {
+      "com_quick_codes": "",
+      "banding_code": "WIPL",
+      "sci_quick_codes": "ANWI",
+      "sci_name": "Anarhynchus wilsonia"
+    },
+    "wilpta": {
+      "com_quick_codes": "WIGR",
+      "banding_code": "WIPT",
+      "sci_quick_codes": "LALA",
+      "sci_name": "Lagopus lagopus"
     },
     "wilpta1": {
       "com_quick_codes": "REGR WIGR",
@@ -7505,6 +7920,12 @@
       "sci_quick_codes": "EMFL",
       "sci_name": "Empidonax flaviventris"
     },
+    "yebgre4": {
+      "com_quick_codes": "YBGR",
+      "banding_code": "",
+      "sci_quick_codes": "CHSP",
+      "sci_name": "Chloris spinoides"
+    },
     "yebgro1": {
       "com_quick_codes": "YBGR CHGR",
       "banding_code": "",
@@ -7546,6 +7967,12 @@
       "banding_code": "YCBI",
       "sci_quick_codes": "EUAF",
       "sci_name": "Euplectes afer"
+    },
+    "yeclov": {
+      "com_quick_codes": "YCLO",
+      "banding_code": "",
+      "sci_quick_codes": "AGPE",
+      "sci_name": "Agapornis personatus"
     },
     "yefcan": {
       "com_quick_codes": "",

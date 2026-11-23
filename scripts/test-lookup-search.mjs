@@ -63,7 +63,7 @@ for(const english of [false,true]){
  }
 }
 
-assert.equal(SCIENTIFIC_NAME_ALIASES.length,11);
+assert.equal(SCIENTIFIC_NAME_ALIASES.length,12);
 for(const [id,oldName,newName] of SCIENTIFIC_NAME_ALIASES){
  const bird=birds.find(b=>b.id===id);
  assert.equal(bird.sci,oldName);assert.equal(bird.scientificCodeName,newName);
@@ -95,4 +95,4 @@ assert.equal(searchLookup(birds.filter(b=>b.id!==wren.id),'Nannus troglodytes').
 assert.deepEqual(scientificNameAliases({...wren,sci:'unexpected'}),[]);
 assert.deepEqual(scientificNameAliases({...wren,scientificCodeName:'Nannus hiemalis'}),[]);
 for(const id of ['spofly1','eurrob1','grhowl'])assert.deepEqual(scientificNameAliases(birds.find(b=>b.id===id)),[],'No inferred synonyms across concept changes');
-console.log('PASS: all eleven reviewed scientific synonyms, exact provenance, filter parity, bilingual notes and no inferred species equivalence.');
+console.log('PASS: all twelve reviewed scientific synonyms, exact provenance, filter parity, bilingual notes and no inferred species equivalence.');

@@ -7,7 +7,7 @@
   ],
   "meta": {
     "date": "2026-11-23",
-    "catalogueSha256": "9c5f76e5ec1ce4e2d5c14188b803012428c29212ff33213d58491eeda3237595",
+    "catalogueSha256": "ab89626ac87634601095b28ccec612b21c3a8db5d8006c2b2d2b26a47aff7dfc",
     "editorial": "Independent explanations in German, English and Dutch: source languages, attested word forms, constituents and historical naming contexts. Sources document derivations, not translations of entire dictionary entries. Uncertain origins are explicitly marked; no roots are inferred from spelling alone. Personal and geographical homonyms use taxon-specific overrides."
   },
   "sources": {
@@ -30,6 +30,14 @@
     "sibirionetta": {
       "title": "Hans von Boetticher (1929): Kritische Betrachtungen über Anatiden",
       "url": "https://www.zobodat.at/pdf/Anzeiger-Ornith-Ges-Bayerns_2_1_0010-0015.pdf"
+    },
+    "paragallinula2015": {
+      "title": "Sangster, García-R. & Trewick (2015), A new genus for the Lesser Moorhen Gallinula angulata",
+      "url": "https://doi.org/10.5852/ejt.2015.153"
+    },
+    "heineanumHeinei": {
+      "title": "Museum Heineanum: Ferdinand Heine sen. (1809–1894), Begründer der Vogelsammlung",
+      "url": "https://www.zobodat.at/pdf/Abh-Ber-Mus-Heineanum_SH_8_0010-0029.pdf"
     },
     "mouchard2019": {
       "title": "Alejandro Mouchard (2019): Etimología de los nombres científicos de las aves de Argentina",
@@ -524,6 +532,17 @@
       "source": "jobling2010",
       "page": 31
     },
+    "e:adalberti": {
+      "term": "adalberti",
+      "text": {
+        "de": "zu Ehren des preußischen Admirals Prinz Heinrich Wilhelm Adalbert von Preußen (1811–1873)",
+        "en": "honours the Prussian admiral Prince Heinrich Wilhelm Adalbert of Prussia (1811–1873)",
+        "nl": "vernoemd naar de Pruisische admiraal prins Heinrich Wilhelm Adalbert van Pruisen (1811–1873)"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 31
+    },
     "e:adamsii": {
       "term": "adamsii",
       "text": {
@@ -734,6 +753,17 @@
       "source": "jobling2010",
       "page": 38
     },
+    "e:albididorsalis": {
+      "term": "albididorsalis",
+      "text": {
+        "de": "weißlicher Rücken; aus lateinisch albidus = weißlich und dorsalis = zum Rücken gehörig, zu dorsum = Rücken",
+        "en": "whitish-backed; from Latin albidus = whitish and dorsalis = of the back, related to dorsum = back",
+        "nl": "witachtige rug; uit Latijn albidus = witachtig en dorsalis = van de rug, bij dorsum = rug"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 38
+    },
     "e:albifrons": {
       "term": "albifrons",
       "text": {
@@ -751,6 +781,17 @@
         "de": "weiß; aus lateinisch albus",
         "en": "white; from Latin albus",
         "nl": "wit; uit Latijn albus"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 40
+    },
+    "e:alchata": {
+      "term": "alchata",
+      "text": {
+        "de": "aus einem arabischen Lautnamen für Flughühner; Jobling nennt al Kattar, ältere Quellen Kata",
+        "en": "from an Arabic imitative name for sandgrouse; Jobling gives al Kattar, older sources Kata",
+        "nl": "uit een Arabische klanknaam voor zandhoenders; Jobling noemt al Kattar, oudere bronnen Kata"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -938,6 +979,17 @@
       "uncertain": false,
       "source": "jobling2010",
       "page": 46
+    },
+    "e:angulata": {
+      "term": "angulata",
+      "text": {
+        "de": "kantig, mit Ecken; aus lateinisch angulatus, zu angulus = Ecke, Winkel",
+        "en": "angular, cornered; from Latin angulatus, related to angulus = corner, angle",
+        "nl": "hoekig; uit Latijn angulatus, bij angulus = hoek"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 47
     },
     "e:angustirostris": {
       "term": "angustirostris",
@@ -1670,6 +1722,17 @@
       "source": "jobling2010",
       "page": 76
     },
+    "e:brasiliensis": {
+      "term": "brasiliensis",
+      "text": {
+        "de": "aus Brasilien; geografischer Name nach dem Land Brasilien",
+        "en": "of Brazil; a geographical name referring to Brazil",
+        "nl": "uit Brazilië; geografische naam naar het land Brazilië"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 77
+    },
     "e:brevipes": {
       "term": "brevipes",
       "text": {
@@ -1971,6 +2034,17 @@
       "uncertain": false,
       "source": "jobling2010",
       "page": 89
+    },
+    "e:caprata": {
+      "term": "caprata",
+      "text": {
+        "de": "über den von Brisson überlieferten Namen Maria-capra für den Elsterschmätzer auf Luzon; keine wörtliche lateinische Beschreibung des Vogels",
+        "en": "from Maria-capra, a name for the Pied Bushchat on Luzon recorded by Brisson; not a literal Latin description of the bird",
+        "nl": "via Maria-capra, een door Brisson overgeleverde naam voor de zwarte roodborsttapuit op Luzon; geen letterlijke Latijnse beschrijving van de vogel"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 90
     },
     "e:carbo": {
       "term": "carbo",
@@ -2298,6 +2372,28 @@
         "de": "alter Name eines kleinen Wasservogels; aus griechisch kinklos",
         "en": "ancient name for a small waterside bird; from Greek kinklos",
         "nl": "oude naam voor een kleine watervogel; uit Grieks kinklos"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 107
+    },
+    "e:cinctura": {
+      "term": "cinctura",
+      "text": {
+        "de": "Bandschwanz; Jobling verbindet lateinisch cinctus = Band mit griechisch -ouros = -schwänzig, zu oura = Schwanz; daneben steht lateinisch cinctura = Gürtel",
+        "en": "band-tail; Jobling combines Latin cinctus = band with Greek -ouros = -tailed, related to oura = tail; Latin cinctura also means girdle",
+        "nl": "bandstaart; Jobling verbindt Latijn cinctus = band met Grieks -ouros = -staartig, bij oura = staart; daarnaast betekent Latijn cinctura gordel"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 107
+    },
+    "e:cinctus": {
+      "term": "cinctus",
+      "text": {
+        "de": "gebändert, umgürtet; aus lateinisch cinctus, zu cingere = umgeben, umgürten",
+        "en": "banded, girdled; from Latin cinctus, related to cingere = encircle, gird",
+        "nl": "gebandeerd, omgord; uit Latijn cinctus, bij cingere = omringen, omgorden"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -2673,6 +2769,17 @@
         "de": "Krähe; aus griechisch korone",
         "en": "crow; from Greek korone",
         "nl": "kraai; uit Grieks korone"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 119
+    },
+    "e:corsicana": {
+      "term": "corsicana",
+      "text": {
+        "de": "korsisch, von Korsika; aus lateinisch Corsicanus",
+        "en": "Corsican, of Corsica; from Latin Corsicanus",
+        "nl": "Corsicaans, van Corsica; uit Latijn Corsicanus"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -3120,6 +3227,17 @@
         }
       ]
     },
+    "e:deserticola": {
+      "term": "deserticola",
+      "text": {
+        "de": "Wüstenbewohner; aus lateinisch desertum = Wüste und -cola = Bewohner, zu colere = bewohnen",
+        "en": "desert dweller; from Latin desertum = desert and -cola = dweller, related to colere = inhabit",
+        "nl": "woestijnbewoner; uit Latijn desertum = woestijn en -cola = bewoner, bij colere = bewonen"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 133
+    },
     "e:diomedea": {
       "term": "diomedea",
       "text": {
@@ -3368,6 +3486,28 @@
       "source": "jobling2010",
       "page": 149
     },
+    "e:erythrogastrus": {
+      "term": "erythrogastrus",
+      "text": {
+        "de": "rotbäuchig; aus griechisch erythros = rot und gaster = Bauch",
+        "en": "red-bellied; from Greek erythros = red and gaster = belly",
+        "nl": "roodbuikig; uit Grieks erythros = rood en gaster = buik"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 149
+    },
+    "e:erythrogenys": {
+      "term": "erythrogenys",
+      "text": {
+        "de": "rotwangig; aus griechisch erythros = rot und genys = Wange",
+        "en": "red-cheeked; from Greek erythros = red and genys = cheek",
+        "nl": "roodwangig; uit Grieks erythros = rood en genys = wang"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 150
+    },
     "e:erythropthalmus": {
       "term": "erythropthalmus",
       "text": {
@@ -3450,6 +3590,17 @@
       "uncertain": false,
       "source": "jobling2010",
       "page": 153
+    },
+    "e:examinandus": {
+      "term": "examinandus",
+      "text": {
+        "de": "von Jobling mit lateinisch examinatus = sorgfältig, nachdenklich und examinare = prüfen, erwägen verbunden. Die abweichende Schreibform examinandus wird dort nicht gesondert erklärt; die genaue Benennungsabsicht bleibt offen",
+        "en": "linked by Jobling to Latin examinatus = careful, thoughtful and examinare = examine, consider. That source does not separately explain the different form examinandus; the precise naming intention remains unresolved",
+        "nl": "door Jobling verbonden met Latijn examinatus = zorgvuldig, bedachtzaam en examinare = onderzoeken, overwegen. De afwijkende vorm examinandus wordt daar niet afzonderlijk verklaard; de precieze bedoeling van de naam blijft open"
+      },
+      "uncertain": true,
+      "source": "jobling2010",
+      "page": 154
     },
     "e:excubitor": {
       "term": "excubitor",
@@ -4200,6 +4351,17 @@
       "source": "jobling2010",
       "page": 178
     },
+    "e:grayii": {
+      "term": "grayii",
+      "text": {
+        "de": "zu Ehren des englischen Zoologen John Edward Gray (1800–1875); nicht seines Bruders George Robert Gray, dem andere Vogelnamen gewidmet sind",
+        "en": "honours English zoologist John Edward Gray (1800–1875), rather than his brother George Robert Gray, who is honoured in other bird names",
+        "nl": "vernoemd naar de Engelse zoöloog John Edward Gray (1800–1875), niet naar zijn broer George Robert Gray, aan wie andere vogelnamen zijn gewijd"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 178
+    },
     "e:gregarius": {
       "term": "gregarius",
       "text": {
@@ -4283,6 +4445,17 @@
       "source": "jobling2010",
       "page": 180
     },
+    "e:guinea": {
+      "term": "guinea",
+      "text": {
+        "de": "Guinea in Westafrika; geografischer Name, bei der Guineataube auf das afrikanische Guinea bezogen",
+        "en": "Guinea in West Africa; a geographical name referring to African Guinea in this pigeon",
+        "nl": "Guinea in West-Afrika; geografische naam die bij deze duif op het Afrikaanse Guinea slaat"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 181
+    },
     "e:gularis": {
       "term": "gularis",
       "text": {
@@ -4360,6 +4533,17 @@
       "source": "jobling2010",
       "page": 184
     },
+    "e:haematodus": {
+      "term": "haematodus",
+      "text": {
+        "de": "blutrot; aus griechisch haimatodes, zu haima = Blut",
+        "en": "blood-red; from Greek haimatodes, related to haima = blood",
+        "nl": "bloedrood; uit Grieks haimatodes, bij haima = bloed"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 184
+    },
     "e:haematonotus": {
       "term": "haematonotus",
       "text": {
@@ -4381,6 +4565,23 @@
       "uncertain": false,
       "source": "jobling2010",
       "page": 185
+    },
+    "e:heinei": {
+      "term": "heinei",
+      "text": {
+        "de": "zu Ehren des deutschen Ornithologen Ferdinand Heine (1809–1894), des Gründers des Museums Heineanum in Halberstadt",
+        "en": "honours German ornithologist Ferdinand Heine (1809–1894), founder of the Museum Heineanum in Halberstadt",
+        "nl": "vernoemd naar de Duitse ornitholoog Ferdinand Heine (1809–1894), oprichter van het Museum Heineanum in Halberstadt"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 187,
+      "additionalSources": [
+        {
+          "source": "heineanumHeinei",
+          "scope": "dedication"
+        }
+      ]
     },
     "e:heliaca": {
       "term": "heliaca",
@@ -4780,6 +4981,17 @@
       "source": "jobling2010",
       "page": 202
     },
+    "e:iliaca": {
+      "term": "iliaca",
+      "text": {
+        "de": "zu den Flanken gehörig; aus lateinisch iliacus, zu ile = Flanken",
+        "en": "of the flanks; from Latin iliacus, related to ile = flanks",
+        "nl": "van de flanken; uit Latijn iliacus, bij ile = flanken"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 202
+    },
     "e:iliacus": {
       "term": "iliacus",
       "text": {
@@ -4823,6 +5035,28 @@
       "uncertain": false,
       "source": "jobling2010",
       "page": 204
+    },
+    "e:indus": {
+      "term": "indus",
+      "text": {
+        "de": "indisch; aus lateinisch Indus; der Brahmanenmilan wurde nach einem Vogel aus Pondichéry in Indien benannt",
+        "en": "Indian; from Latin Indus; the Brahminy Kite was named from a bird from Pondicherry in India",
+        "nl": "Indisch; uit Latijn Indus; de Brahmaanse wouw werd benoemd naar een vogel uit Pondicherry in India"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 204
+    },
+    "e:infaustus": {
+      "term": "infaustus",
+      "text": {
+        "de": "unglücklich, unheilvoll; aus lateinisch infaustus. Der Unglückshäher galt früher in Teilen Skandinaviens als Unglücksbote; das ist die historische Deutung des Namens",
+        "en": "unlucky, ill-omened; from Latin infaustus. The Siberian Jay was formerly treated as a bird of ill omen in parts of Scandinavia; this explains the historical name",
+        "nl": "ongelukkig, onheilspellend; uit Latijn infaustus. De taigagaai gold vroeger in delen van Scandinavië als onheilsbode; dit verklaart de historische naam"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 205
     },
     "e:inornatus": {
       "term": "inornatus",
@@ -5002,6 +5236,17 @@
       "source": "jobling2010",
       "page": 212
     },
+    "e:jugger": {
+      "term": "jugger",
+      "text": {
+        "de": "über den Hindi-Namen Jaggar für das Männchen des Luggers",
+        "en": "from the Hindi name Jaggar for the male Laggar Falcon",
+        "nl": "via de Hindi-naam Jaggar voor het mannetje van de Indische lannervalk"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 212
+    },
     "e:juncidis": {
       "term": "juncidis",
       "text": {
@@ -5124,6 +5369,17 @@
         "de": "von der Insel Laysan, Hawaii",
         "en": "of Laysan Island, Hawaii",
         "nl": "van het eiland Laysan, Hawaï"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 220
+    },
+    "e:leadbeateri": {
+      "term": "leadbeateri",
+      "text": {
+        "de": "zu Ehren des Londoner Naturalienhändlers Benjamin Leadbeater (1760–1837); bei diesem Hornraben ist nicht einer der gleichnamigen späteren Händler gemeint",
+        "en": "honours London natural-history dealer Benjamin Leadbeater (1760–1837); this hornbill does not commemorate one of the later dealers of the same surname",
+        "nl": "vernoemd naar de Londense naturaliahandelaar Benjamin Leadbeater (1760–1837); bij deze hoornraaf wordt niet een van de latere handelaren met dezelfde achternaam bedoeld"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -5322,6 +5578,17 @@
         "de": "weißrückig; aus griechisch leukos = weiß und noton = Rücken",
         "en": "white-backed; from Greek leukos = white + noton = back",
         "nl": "witruggig; uit Grieks leukos = wit en noton = rug"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 225
+    },
+    "e:leucura": {
+      "term": "leucura",
+      "text": {
+        "de": "weißschwänzig; aus griechisch leukouros, zu leukos = weiß und oura = Schwanz",
+        "en": "white-tailed; from Greek leukouros, related to leukos = white and oura = tail",
+        "nl": "witstaartig; uit Grieks leukouros, bij leukos = wit en oura = staart"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -5630,6 +5897,17 @@
       "source": "jobling2010",
       "page": 238
     },
+    "e:malabarica": {
+      "term": "malabarica",
+      "text": {
+        "de": "von Malabar, einer Küstenregion im Südwesten Indiens",
+        "en": "of Malabar, a coastal region in southwestern India",
+        "nl": "van Malabar, een kuststreek in het zuidwesten van India"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 238
+    },
     "e:malabaricus": {
       "term": "malabaricus",
       "text": {
@@ -5796,6 +6074,17 @@
         "de": "mittlere Größe, in der Mitte; aus lateinisch medius",
         "en": "middle, intermediate; from Latin medius",
         "nl": "middelgroot, in het midden; uit Latijn medius"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 245
+    },
+    "e:megala": {
+      "term": "megala",
+      "text": {
+        "de": "groß; aus griechisch megas, megalos",
+        "en": "great, large; from Greek megas, megalos",
+        "nl": "groot; uit Grieks megas, megalos"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -6012,6 +6301,17 @@
       "source": "jobling2010",
       "page": 250
     },
+    "e:meridionalis": {
+      "term": "meridionalis",
+      "text": {
+        "de": "südlich; aus lateinisch meridionalis",
+        "en": "southern; from Latin meridionalis",
+        "nl": "zuidelijk; uit Latijn meridionalis"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 251
+    },
     "e:merula": {
       "term": "merula",
       "text": {
@@ -6176,6 +6476,17 @@
       "uncertain": false,
       "source": "jobling2010",
       "page": 256
+    },
+    "e:mitratus": {
+      "term": "mitratus",
+      "text": {
+        "de": "mit einer Mitra oder Kopfbinde versehen; aus lateinisch mitratus, zu mitra = Kopfbinde",
+        "en": "wearing a mitre or headband; from Latin mitratus, related to mitra = headband",
+        "nl": "voorzien van een mijter of hoofdband; uit Latijn mitratus, bij mitra = hoofdband"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 257
     },
     "e:modestus": {
       "term": "modestus",
@@ -6486,6 +6797,17 @@
         "de": "zum Nebel gehörig; aus lateinisch nebula; zu lateinisch nebula = Nebel",
         "en": "of mist; from Latin nebula; based on Latin nebula = mist",
         "nl": "van de nevel; uit Latijn nebula; bij Latijn nebula = nevel"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 266
+    },
+    "e:nebulosa": {
+      "term": "nebulosa",
+      "text": {
+        "de": "neblig, wolkig; aus lateinisch nebulosus",
+        "en": "misty, cloudy; from Latin nebulosus",
+        "nl": "nevelig, bewolkt; uit Latijn nebulosus"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -6925,6 +7247,17 @@
       "source": "jobling2010",
       "page": 282
     },
+    "e:optatus": {
+      "term": "optatus",
+      "text": {
+        "de": "erwünscht, willkommen; aus lateinisch optatus, zu optare = wünschen, wählen",
+        "en": "desired, welcome; from Latin optatus, related to optare = wish, choose",
+        "nl": "gewenst, welkom; uit Latijn optatus, bij optare = wensen, kiezen"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 282
+    },
     "e:oratrix": {
       "term": "oratrix",
       "text": {
@@ -7190,6 +7523,17 @@
       "source": "jobling2010",
       "page": 294
     },
+    "e:pecuarius": {
+      "term": "pecuarius",
+      "text": {
+        "de": "zum Vieh gehörig, Viehhirte; aus lateinisch pecuarius, zu pecu = Vieh, Herden",
+        "en": "of cattle, grazier; from Latin pecuarius, related to pecu = cattle, flocks",
+        "nl": "van het vee, veehoeder; uit Latijn pecuarius, bij pecu = vee, kudden"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 295
+    },
     "e:pelagica": {
       "term": "pelagica",
       "text": {
@@ -7244,6 +7588,17 @@
       "uncertain": false,
       "source": "jobling2010",
       "page": 296
+    },
+    "e:pensylvanica": {
+      "term": "pensylvanica",
+      "text": {
+        "de": "von Pennsylvania in den Vereinigten Staaten; geografischer Name",
+        "en": "of Pennsylvania in the United States; a geographical name",
+        "nl": "van Pennsylvania in de Verenigde Staten; geografische naam"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 297
     },
     "e:peposaca": {
       "term": "peposaca",
@@ -7317,6 +7672,17 @@
         "de": "maskiert; aus lateinisch personatus",
         "en": "masked; from Latin personatus",
         "nl": "gemaskerd; uit Latijn personatus"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 299
+    },
+    "e:personatus": {
+      "term": "personatus",
+      "text": {
+        "de": "maskiert; aus lateinisch personatus, zu persona = Maske",
+        "en": "masked; from Latin personatus, related to persona = mask",
+        "nl": "gemaskerd; uit Latijn personatus, bij persona = masker"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -7750,6 +8116,17 @@
       "uncertain": false,
       "source": "jobling2010",
       "page": 321
+    },
+    "e:ptilorhynchus": {
+      "term": "ptilorhynchus",
+      "text": {
+        "de": "Federnschnabel; aus griechisch ptilon = Feder und rhynkhos = Schnabel",
+        "en": "feather-bill; from Greek ptilon = feather and rhynkhos = bill",
+        "nl": "vedersnavel; uit Grieks ptilon = veer en rhynkhos = snavel"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 323
     },
     "e:puffinus": {
       "term": "puffinus",
@@ -8497,6 +8874,17 @@
         }
       ]
     },
+    "e:sahari": {
+      "term": "sahari",
+      "text": {
+        "de": "von der Sahara; aus dem Wüstennamen Sahara, zu arabisch sahra = Wüste",
+        "en": "of the Sahara; from the name Sahara, related to Arabic sahra = desert",
+        "nl": "van de Sahara; van de woestijnnaam Sahara, bij Arabisch sahra = woestijn"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 345
+    },
     "e:sandvicensis": {
       "term": "sandvicensis",
       "text": {
@@ -8719,6 +9107,17 @@
       "source": "jobling2010",
       "page": 353
     },
+    "e:semitorquata": {
+      "term": "semitorquata",
+      "text": {
+        "de": "halb mit einem Halsband versehen; aus lateinisch semi- = halb und torquatus = mit Halsband, zu torques = Halsring",
+        "en": "half-collared; from Latin semi- = half and torquatus = collared, related to torques = neck-ring",
+        "nl": "half van een halsband voorzien; uit Latijn semi- = half en torquatus = met halsband, bij torques = halsring"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 353
+    },
     "e:senator": {
       "term": "senator",
       "text": {
@@ -8813,6 +9212,17 @@
       "source": "jobling2010",
       "page": 355
     },
+    "e:sharpei": {
+      "term": "sharpei",
+      "text": {
+        "de": "zu Ehren des britischen Ornithologen Richard Bowdler Sharpe (1847–1909)",
+        "en": "honours British ornithologist Richard Bowdler Sharpe (1847–1909)",
+        "nl": "vernoemd naar de Britse ornitholoog Richard Bowdler Sharpe (1847–1909)"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 355
+    },
     "e:sibilans": {
       "term": "sibilans",
       "text": {
@@ -8868,6 +9278,17 @@
           "scope": "wordMeaning"
         }
       ]
+    },
+    "e:sinensis": {
+      "term": "sinensis",
+      "text": {
+        "de": "chinesisch; aus neulateinisch Sinensis",
+        "en": "Chinese; from Modern Latin Sinensis",
+        "nl": "Chinees; uit Neolatijn Sinensis"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 357
     },
     "e:skua": {
       "term": "skua",
@@ -8980,6 +9401,17 @@
         "de": "Fleckenbauch; aus griechisch spilos = Fleck und gaster = Bauch",
         "en": "spotted belly; from Greek spilos = spot + gaster = belly",
         "nl": "gevlekte buik; uit Grieks spilos = vlek en gaster = buik"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 362
+    },
+    "e:spinoides": {
+      "term": "spinoides",
+      "text": {
+        "de": "dem Erlenzeisig ähnlich; gebildet nach dessen Artnamen spinus und griechisch -oides = ähnlich",
+        "en": "resembling the Eurasian Siskin; formed from its species name spinus and Greek -oides = resembling",
+        "nl": "lijkend op de sijs; gevormd naar diens soortnaam spinus en Grieks -oides = gelijkend"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -9410,6 +9842,17 @@
       "source": "jobling2010",
       "page": 383
     },
+    "e:theklae": {
+      "term": "theklae",
+      "text": {
+        "de": "zu Ehren von Thekla Brehm (1832–1858), Tochter des Ornithologen Christian Ludwig Brehm",
+        "en": "honours Thekla Brehm (1832–1858), daughter of ornithologist Christian Ludwig Brehm",
+        "nl": "vernoemd naar Thekla Brehm (1832–1858), dochter van ornitholoog Christian Ludwig Brehm"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 384
+    },
     "e:thula": {
       "term": "thula",
       "text": {
@@ -9711,6 +10154,17 @@
         "de": "mit einem Band; aus lateinisch uni- = einzeln und cinctus = gegürtet",
         "en": "single-banded; from Latin uni- = single + cinctus = girdled",
         "nl": "met één band; uit Latijn uni- = enkel en cinctus = omgord"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 396
+    },
+    "e:unicolor": {
+      "term": "unicolor",
+      "text": {
+        "de": "einfarbig; aus lateinisch unicolor, zu uni- = ein- und color = Farbe",
+        "en": "of one colour; from Latin unicolor, related to uni- = one and color = colour",
+        "nl": "eenkleurig; uit Latijn unicolor, bij uni- = één en color = kleur"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -10025,12 +10479,45 @@
         }
       ]
     },
+    "e:whiteheadi": {
+      "term": "whiteheadi",
+      "text": {
+        "de": "zu Ehren des britischen Forschungsreisenden und Sammlers John Whitehead (1860–1899)",
+        "en": "honours British explorer and collector John Whitehead (1860–1899)",
+        "nl": "vernoemd naar de Britse ontdekkingsreiziger en verzamelaar John Whitehead (1860–1899)"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 407
+    },
+    "e:wilsonia": {
+      "term": "wilsonia",
+      "text": {
+        "de": "zu Ehren des schottisch-amerikanischen Naturkundlers Alexander Wilson (1766–1813), eines Wegbereiters der amerikanischen Ornithologie; nicht des ebenfalls in Vogelnamen geehrten Thomas B. Wilson",
+        "en": "honours Scottish-American naturalist Alexander Wilson (1766–1813), a pioneer of American ornithology, rather than Thomas B. Wilson, who is also commemorated in bird names",
+        "nl": "vernoemd naar de Schots-Amerikaanse natuuronderzoeker Alexander Wilson (1766–1813), een grondlegger van de Amerikaanse ornithologie, niet naar Thomas B. Wilson, die eveneens in vogelnamen is vereerd"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 408
+    },
     "e:xanthocephalus": {
       "term": "xanthocephalus",
       "text": {
         "de": "gelbköpfig; aus griechisch xanthos = gelb und -kephalos = köpfig",
         "en": "yellow-headed; from Greek xanthos = yellow + -kephalos = headed",
         "nl": "geelkoppig; uit Grieks xanthos = geel en -kephalos = met een kop"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 409
+    },
+    "e:xanthoprymna": {
+      "term": "xanthoprymna",
+      "text": {
+        "de": "gelber Bürzel; aus griechisch xanthos = gelb und prymna = Hinterteil",
+        "en": "yellow rump; from Greek xanthos = yellow and prymna = hind part",
+        "nl": "gele stuit; uit Grieks xanthos = geel en prymna = achterdeel"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -10246,6 +10733,17 @@
       "source": "jobling2010",
       "page": 37
     },
+    "g:Alaudala": {
+      "term": "Alaudala",
+      "text": {
+        "de": "an den Lerchennamen Alauda angelehnte Bildung; Jobling behandelt Alaudala als abgewandelte Form von Alaudula, einer Verkleinerung von Alauda",
+        "en": "a formation based on the lark name Alauda; Jobling treats Alaudala as an amended form of Alaudula, a diminutive of Alauda",
+        "nl": "vorming bij de leeuweriknaam Alauda; Jobling behandelt Alaudala als gewijzigde vorm van Alaudula, een verkleinwoord van Alauda"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 37
+    },
     "g:Alca": {
       "term": "Alca",
       "text": {
@@ -10352,6 +10850,17 @@
       "source": "jobling2010",
       "page": 44
     },
+    "g:Amazonetta": {
+      "term": "Amazonetta",
+      "text": {
+        "de": "Amazonasente; aus dem Flussnamen Amazonas und griechisch netta = Ente",
+        "en": "Amazon duck; from the River Amazon and Greek netta = duck",
+        "nl": "Amazone-eend; van de riviernaam Amazone en Grieks netta = eend"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 44
+    },
     "g:Amblyramphus": {
       "term": "Amblyramphus",
       "text": {
@@ -10362,6 +10871,17 @@
       "uncertain": false,
       "source": "jobling2010",
       "page": 44
+    },
+    "g:Ammomanes": {
+      "term": "Ammomanes",
+      "text": {
+        "de": "sandliebend; aus griechisch ammos = Sand und -manes = leidenschaftlich liebend, zu mania = Leidenschaft",
+        "en": "sand-loving; from Greek ammos = sand and -manes = passionately fond of, related to mania = passion",
+        "nl": "zandminnend; uit Grieks ammos = zand en -manes = hartstochtelijk liefhebbend, bij mania = hartstocht"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 45
     },
     "g:Anarhynchus": {
       "term": "Anarhynchus",
@@ -10695,6 +11215,17 @@
       "uncertain": false,
       "source": "jobling2010",
       "page": 79
+    },
+    "g:Bucorvus": {
+      "term": "Bucorvus",
+      "text": {
+        "de": "aus dem Hornvogelnamen Buceros und lateinisch corvus = Rabe zusammengesetzt",
+        "en": "combines the hornbill name Buceros with Latin corvus = raven",
+        "nl": "samengesteld uit de neushoornvogelnaam Buceros en Latijn corvus = raaf"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 80
     },
     "g:Burhinus": {
       "term": "Burhinus",
@@ -11760,6 +12291,17 @@
       "source": "jobling2010",
       "page": 152
     },
+    "g:Euodice": {
+      "term": "Euodice",
+      "text": {
+        "de": "gut singend; aus griechisch eu = gut und odikos = singend, musikalisch",
+        "en": "singing well; from Greek eu = good and odikos = singing, musical",
+        "nl": "goed zingend; uit Grieks eu = goed en odikos = zingend, muzikaal"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 152
+    },
     "g:Euplectes": {
       "term": "Euplectes",
       "text": {
@@ -11832,6 +12374,17 @@
         "de": "Fink; aus lateinisch fringilla",
         "en": "finch; from Latin fringilla",
         "nl": "vink; uit Latijn fringilla"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 164
+    },
+    "g:Fringillaria": {
+      "term": "Fringillaria",
+      "text": {
+        "de": "vom Finkennamen Fringilla abgeleitet; Fringilla ist der lateinische Name eines Finken",
+        "en": "derived from the finch name Fringilla, the Latin name for a finch",
+        "nl": "afgeleid van de vinkennaam Fringilla, de Latijnse naam voor een vink"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -12095,6 +12648,17 @@
         "de": "Seeadler; aus griechisch hali- = Meer und aetos = Adler",
         "en": "sea eagle; from Greek hali- = sea + aetos = eagle",
         "nl": "zeearend; uit Grieks hali- = zee en aetos = arend"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 185
+    },
+    "g:Haliastur": {
+      "term": "Haliastur",
+      "text": {
+        "de": "Meereshabicht; aus griechisch hali- = Meeres-, zu hals = Meer, und lateinisch astur = Habicht",
+        "en": "sea hawk; from Greek hali- = of the sea, related to hals = sea, and Latin astur = hawk",
+        "nl": "zeehavik; uit Grieks hali- = van de zee, bij hals = zee, en Latijn astur = havik"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -13197,6 +13761,17 @@
       "source": "jobling2010",
       "page": 291
     },
+    "g:Paragallinula": {
+      "term": "Paragallinula",
+      "text": {
+        "de": "neben Gallinula stehend; aus griechisch para = neben und lateinisch gallinula = Hühnchen. Die Autoren betonen 2015 die Ähnlichkeit mit Gallinula bei eigenständiger Abstammungslinie",
+        "en": "beside Gallinula; from Greek para = beside and Latin gallinula = little hen. In 2015 the authors stressed the resemblance to Gallinula while recognising a separate evolutionary lineage",
+        "nl": "naast Gallinula; uit Grieks para = naast en Latijn gallinula = hennetje. De auteurs benadrukten in 2015 de gelijkenis met Gallinula, maar ook de afzonderlijke afstammingslijn"
+      },
+      "uncertain": false,
+      "source": "paragallinula2015",
+      "page": 6
+    },
     "g:Parkesia": {
       "term": "Parkesia",
       "text": {
@@ -13247,6 +13822,17 @@
         "de": "kleiner Sperling; aus lateinisch passerculus; zu lateinisch passer = Sperling",
         "en": "little sparrow; from Latin passerculus; based on Latin passer = sparrow",
         "nl": "kleine mus; uit Latijn passerculus; bij Latijn passer = mus"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 294
+    },
+    "g:Passerella": {
+      "term": "Passerella",
+      "text": {
+        "de": "kleiner Sperling; Verkleinerung von lateinisch passer = Sperling",
+        "en": "little sparrow; a diminutive of Latin passer = sparrow",
+        "nl": "kleine mus; verkleinwoord van Latijn passer = mus"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -13315,6 +13901,17 @@
         "nl": "gevormd uit Grieks peri = rondom, zeer en de mezengeslachtsnaam Parus, bij Latijn parus = mees"
       },
       "uncertain": false,
+      "source": "jobling2010",
+      "page": 298
+    },
+    "g:Perisoreus": {
+      "term": "Perisoreus",
+      "text": {
+        "de": "Herleitung ungeklärt; Jobling nennt griechisch perisoreuo = aufhäufen, im Zusammenhang mit Nahrungsvorräten, sowie Coues’ ältere Deutung aus einer verstärkenden Vorsilbe und dem lateinischen Vogelnamen sorix, einem Saturn geweihten Orakelvogel. Keine dieser Erklärungen ist gesichert",
+        "en": "origin unresolved; Jobling mentions Greek perisoreuo = heap up, linked to food storage, and Coues’s older suggestion combining an intensifying prefix with the Latin bird name sorix, a bird of augury sacred to Saturn. Neither explanation is established",
+        "nl": "herkomst onopgehelderd; Jobling noemt Grieks perisoreuo = ophopen, in verband met voedselvoorraden, en Coues’ oudere uitleg met een versterkend voorvoegsel en de Latijnse vogelnaam sorix, een aan Saturnus gewijde orakelvogel. Geen van beide verklaringen staat vast"
+      },
+      "uncertain": true,
       "source": "jobling2010",
       "page": 298
     },
@@ -13621,6 +14218,17 @@
       "source": "jobling2010",
       "page": 311
     },
+    "g:Pluvianus": {
+      "term": "Pluvianus",
+      "text": {
+        "de": "über den französischen Namen Pluvian du Sénégal für den Krokodilwächter; pluvier bedeutet Regenpfeifer und verweist auf die angenommene Ähnlichkeit und Verwandtschaft",
+        "en": "from the French name Pluvian du Sénégal for the Egyptian Plover; pluvier means plover and reflects the presumed resemblance and relationship",
+        "nl": "via de Franse naam Pluvian du Sénégal voor de krokodilwachter; pluvier betekent plevier en verwijst naar de veronderstelde gelijkenis en verwantschap"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 311
+    },
     "g:Podiceps": {
       "term": "Podiceps",
       "text": {
@@ -13800,6 +14408,17 @@
         "de": "Papagei; aus lateinisch psittacus",
         "en": "parrot; from Latin psittacus",
         "nl": "papegaai; uit Latijn psittacus"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 322
+    },
+    "g:Pterocles": {
+      "term": "Pterocles",
+      "text": {
+        "de": "durch die Flügel ausgezeichnet; aus griechisch pteron = Flügel und -kles = berühmt, prächtig",
+        "en": "noted for the wings; from Greek pteron = wing and -kles = notable, splendid",
+        "nl": "door de vleugels onderscheiden; uit Grieks pteron = vleugel en -kles = beroemd, prachtig"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -14310,6 +14929,17 @@
         "de": "alter Name einer Eule; aus lateinisch strix",
         "en": "ancient owl name; from Latin strix",
         "nl": "oude uilennaam; uit Latijn strix"
+      },
+      "uncertain": false,
+      "source": "jobling2010",
+      "page": 368
+    },
+    "g:Sturnia": {
+      "term": "Sturnia",
+      "text": {
+        "de": "Star; aus lateinisch sturnus",
+        "en": "starling; from Latin sturnus",
+        "nl": "spreeuw; uit Latijn sturnus"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -15071,6 +15701,13 @@
         "e:borealis"
       ]
     },
+    "arcwar2": {
+      "scientificName": "Phylloscopus examinandus",
+      "parts": [
+        "g:Phylloscopus",
+        "e:examinandus"
+      ]
+    },
     "asbfly": {
       "scientificName": "Muscicapa dauurica",
       "parts": [
@@ -15265,6 +15902,13 @@
       "parts": [
         "g:Limosa",
         "e:lapponica"
+      ]
+    },
+    "batlar1": {
+      "scientificName": "Ammomanes cinctura",
+      "parts": [
+        "g:Ammomanes",
+        "e:cinctura"
       ]
     },
     "bawwar": {
@@ -15491,6 +16135,13 @@
         "e:nigra"
       ]
     },
+    "blawhe1": {
+      "scientificName": "Oenanthe leucura",
+      "parts": [
+        "g:Oenanthe",
+        "e:leucura"
+      ]
+    },
     "blawoo1": {
       "scientificName": "Dryocopus martius",
       "parts": [
@@ -15561,6 +16212,13 @@
         "e:melanocephalus"
       ]
     },
+    "blhwea1": {
+      "scientificName": "Ploceus melanocephalus",
+      "parts": [
+        "g:Ploceus",
+        "e:melanocephalus"
+      ]
+    },
     "blkfra": {
       "scientificName": "Francolinus francolinus",
       "parts": [
@@ -15622,6 +16280,13 @@
       "parts": [
         "g:Acrocephalus",
         "e:dumetorum"
+      ]
+    },
+    "bltacc1": {
+      "scientificName": "Prunella atrogularis",
+      "parts": [
+        "g:Prunella",
+        "e:atrogularis"
       ]
     },
     "blueth": {
@@ -15722,6 +16387,13 @@
         "e:funereus"
       ]
     },
+    "brakit1": {
+      "scientificName": "Haliastur indus",
+      "parts": [
+        "g:Haliastur",
+        "e:indus"
+      ]
+    },
     "brambl": {
       "scientificName": "Fringilla montifringilla",
       "parts": [
@@ -15734,6 +16406,13 @@
       "parts": [
         "g:Branta",
         "e:bernicla"
+      ]
+    },
+    "bratea1": {
+      "scientificName": "Amazonetta brasiliensis",
+      "parts": [
+        "g:Amazonetta",
+        "e:brasiliensis"
       ]
     },
     "brbsan": {
@@ -16049,6 +16728,13 @@
       "parts": [
         "g:Ardeola",
         "e:bacchus"
+      ]
+    },
+    "chswar": {
+      "scientificName": "Setophaga pensylvanica",
+      "parts": [
+        "g:Setophaga",
+        "e:pensylvanica"
       ]
     },
     "chukar": {
@@ -16394,6 +17080,20 @@
         "e:crex"
       ]
     },
+    "corfin1": {
+      "scientificName": "Carduelis corsicana",
+      "parts": [
+        "g:Carduelis",
+        "e:corsicana"
+      ]
+    },
+    "cornut1": {
+      "scientificName": "Sitta whiteheadi",
+      "parts": [
+        "g:Sitta",
+        "e:whiteheadi"
+      ]
+    },
     "corplo": {
       "scientificName": "Charadrius hiaticula",
       "parts": [
@@ -16720,6 +17420,13 @@
       "scientificName": "Caprimulgus aegyptius",
       "parts": [
         "g:Caprimulgus",
+        "e:aegyptius"
+      ]
+    },
+    "egyplo1": {
+      "scientificName": "Pluvianus aegyptius",
+      "parts": [
+        "g:Pluvianus",
         "e:aegyptius"
       ]
     },
@@ -17206,6 +17913,13 @@
         "e:pacificus"
       ]
     },
+    "foxspa": {
+      "scientificName": "Passerella iliaca",
+      "parts": [
+        "g:Passerella",
+        "e:iliaca"
+      ]
+    },
     "fragul": {
       "scientificName": "Leucophaeus pipixcan",
       "parts": [
@@ -17514,6 +18228,13 @@
         "e:melanoleuca"
       ]
     },
+    "grgowl": {
+      "scientificName": "Strix nebulosa",
+      "parts": [
+        "g:Strix",
+        "e:nebulosa"
+      ]
+    },
     "grhgul": {
       "scientificName": "Chroicocephalus cirrocephalus",
       "parts": [
@@ -17554,6 +18275,13 @@
       "parts": [
         "g:Phylloscopus",
         "e:nitidus"
+      ]
+    },
+    "grnwoo3": {
+      "scientificName": "Picus sharpei",
+      "parts": [
+        "g:Picus",
+        "e:sharpei"
       ]
     },
     "grrwar1": {
@@ -17682,6 +18410,13 @@
         "e:buchanani"
       ]
     },
+    "gyhchi": {
+      "scientificName": "Poecile cinctus",
+      "parts": [
+        "g:Poecile",
+        "e:cinctus"
+      ]
+    },
     "gyhlap1": {
       "scientificName": "Vanellus cinereus",
       "parts": [
@@ -17794,6 +18529,13 @@
         "e:hottentota"
       ]
     },
+    "houbun3": {
+      "scientificName": "Fringillaria sahari",
+      "parts": [
+        "g:Fringillaria",
+        "e:sahari"
+      ]
+    },
     "houcro1": {
       "scientificName": "Corvus splendens",
       "parts": [
@@ -17843,6 +18585,13 @@
         "e:ibericus"
       ]
     },
+    "ibgshr1": {
+      "scientificName": "Lanius meridionalis",
+      "parts": [
+        "g:Lanius",
+        "e:meridionalis"
+      ]
+    },
     "ictwar1": {
       "scientificName": "Hippolais icterina",
       "parts": [
@@ -17871,6 +18620,13 @@
         "e:cyanea"
       ]
     },
+    "indsil": {
+      "scientificName": "Euodice malabarica",
+      "parts": [
+        "g:Euodice",
+        "e:malabarica"
+      ]
+    },
     "indwhe1": {
       "scientificName": "Zosterops palpebrosus",
       "parts": [
@@ -17883,6 +18639,13 @@
       "parts": [
         "g:Oriolus",
         "e:kundoo"
+      ]
+    },
+    "inpher1": {
+      "scientificName": "Ardeola grayii",
+      "parts": [
+        "g:Ardeola",
+        "e:grayii"
       ]
     },
     "insowl1": {
@@ -17990,11 +18753,25 @@
         "e:spectabilis"
       ]
     },
+    "kitplo1": {
+      "scientificName": "Anarhynchus pecuarius",
+      "parts": [
+        "g:Anarhynchus",
+        "e:pecuarius"
+      ]
+    },
     "laaphe1": {
       "scientificName": "Chrysolophus amherstiae",
       "parts": [
         "g:Chrysolophus",
         "e:amherstiae"
+      ]
+    },
+    "lagfal1": {
+      "scientificName": "Falco jugger",
+      "parts": [
+        "g:Falco",
+        "e:jugger"
       ]
     },
     "lakduc1": {
@@ -18149,6 +18926,13 @@
       "parts": [
         "g:Falco",
         "e:naumanni:leskes1"
+      ]
+    },
+    "lesmoo1": {
+      "scientificName": "Paragallinula angulata",
+      "parts": [
+        "g:Paragallinula",
+        "e:angulata"
       ]
     },
     "lessap1": {
@@ -18578,6 +19362,13 @@
         "e:medius"
       ]
     },
+    "mitpar": {
+      "scientificName": "Psittacara mitratus",
+      "parts": [
+        "g:Psittacara",
+        "e:mitratus"
+      ]
+    },
     "monhar1": {
       "scientificName": "Circus pygargus",
       "parts": [
@@ -18611,6 +19402,13 @@
       "parts": [
         "g:Acrocephalus",
         "e:melanopogon"
+      ]
+    },
+    "mstlar1": {
+      "scientificName": "Alaudala rufescens",
+      "parts": [
+        "g:Alaudala",
+        "e:rufescens"
       ]
     },
     "mugfly": {
@@ -18753,6 +19551,13 @@
         "e:excubitor"
       ]
     },
+    "norshr4": {
+      "scientificName": "Lanius borealis",
+      "parts": [
+        "g:Lanius",
+        "e:borealis"
+      ]
+    },
     "norwat": {
       "scientificName": "Parkesia noveboracensis",
       "parts": [
@@ -18816,11 +19621,25 @@
         "e:citrina"
       ]
     },
+    "oricuc2": {
+      "scientificName": "Cuculus optatus",
+      "parts": [
+        "g:Cuculus",
+        "e:optatus"
+      ]
+    },
     "origoo1": {
       "scientificName": "Oressochen jubatus",
       "parts": [
         "g:Oressochen",
         "e:jubatus"
+      ]
+    },
+    "orihob2": {
+      "scientificName": "Pernis ptilorhynchus",
+      "parts": [
+        "g:Pernis",
+        "e:ptilorhynchus"
       ]
     },
     "oripip1": {
@@ -19075,6 +19894,13 @@
         "e:avosetta"
       ]
     },
+    "piebus1": {
+      "scientificName": "Saxicola caprata",
+      "parts": [
+        "g:Saxicola",
+        "e:caprata"
+      ]
+    },
     "piecro1": {
       "scientificName": "Corvus albus",
       "parts": [
@@ -19115,6 +19941,13 @@
       "parts": [
         "g:Pinicola",
         "e:enucleator"
+      ]
+    },
+    "pitsan1": {
+      "scientificName": "Pterocles alchata",
+      "parts": [
+        "g:Pterocles",
+        "e:alchata"
       ]
     },
     "pitwhy": {
@@ -19234,6 +20067,13 @@
       "parts": [
         "g:Ara",
         "e:chloropterus"
+      ]
+    },
+    "railor4": {
+      "scientificName": "Trichoglossus haematodus",
+      "parts": [
+        "g:Trichoglossus",
+        "e:haematodus"
       ]
     },
     "railor5": {
@@ -19509,11 +20349,25 @@
         "e:autumnalis"
       ]
     },
+    "rempar": {
+      "scientificName": "Psittacara erythrogenys",
+      "parts": [
+        "g:Psittacara",
+        "e:erythrogenys"
+      ]
+    },
     "rengre": {
       "scientificName": "Podiceps grisegena",
       "parts": [
         "g:Podiceps",
         "e:grisegena"
+      ]
+    },
+    "rennig1": {
+      "scientificName": "Caprimulgus ruficollis",
+      "parts": [
+        "g:Caprimulgus",
+        "e:ruficollis"
       ]
     },
     "renpha": {
@@ -19584,6 +20438,13 @@
       "parts": [
         "g:Turdus",
         "e:ruficollis"
+      ]
+    },
+    "retwhe3": {
+      "scientificName": "Oenanthe xanthoprymna",
+      "parts": [
+        "g:Oenanthe",
+        "e:xanthoprymna"
       ]
     },
     "rewbla": {
@@ -19773,6 +20634,13 @@
       "parts": [
         "g:Thalasseus",
         "e:maximus"
+      ]
+    },
+    "royter2": {
+      "scientificName": "Thalasseus albididorsalis",
+      "parts": [
+        "g:Thalasseus",
+        "e:albididorsalis"
       ]
     },
     "rtrthr1": {
@@ -20013,6 +20881,13 @@
         "e:schoenobaenus"
       ]
     },
+    "semfly1": {
+      "scientificName": "Ficedula semitorquata",
+      "parts": [
+        "g:Ficedula",
+        "e:semitorquata"
+      ]
+    },
     "semplo": {
       "scientificName": "Charadrius semipalmatus",
       "parts": [
@@ -20062,6 +20937,13 @@
         "e:acuminata"
       ]
     },
+    "shtshe": {
+      "scientificName": "Ardenna tenuirostris",
+      "parts": [
+        "g:Ardenna",
+        "e:tenuirostris"
+      ]
+    },
     "shttre1": {
       "scientificName": "Certhia brachydactyla",
       "parts": [
@@ -20074,6 +20956,13 @@
       "parts": [
         "g:Prunella",
         "e:montanella"
+      ]
+    },
+    "sibjay1": {
+      "scientificName": "Perisoreus infaustus",
+      "parts": [
+        "g:Perisoreus",
+        "e:infaustus"
       ]
     },
     "sibpip1": {
@@ -20202,6 +21091,13 @@
         "e:gregarius"
       ]
     },
+    "soghor1": {
+      "scientificName": "Bucorvus leadbeateri",
+      "parts": [
+        "g:Bucorvus",
+        "e:leadbeateri"
+      ]
+    },
     "solsan": {
       "scientificName": "Tringa solitaria",
       "parts": [
@@ -20265,6 +21161,13 @@
         "e:boobook"
       ]
     },
+    "spaeag1": {
+      "scientificName": "Aquila adalberti",
+      "parts": [
+        "g:Aquila",
+        "e:adalberti"
+      ]
+    },
     "spaspa1": {
       "scientificName": "Passer hispaniolensis",
       "parts": [
@@ -20284,6 +21187,13 @@
       "parts": [
         "g:Somateria",
         "e:fischeri:speeid"
+      ]
+    },
+    "spepig1": {
+      "scientificName": "Columba guinea",
+      "parts": [
+        "g:Columba",
+        "e:guinea"
       ]
     },
     "spewar2": {
@@ -20326,6 +21236,13 @@
       "parts": [
         "g:Actitis",
         "e:macularius"
+      ]
+    },
+    "sposta1": {
+      "scientificName": "Sturnus unicolor",
+      "parts": [
+        "g:Sturnus",
+        "e:unicolor"
       ]
     },
     "spotow": {
@@ -20510,6 +21427,13 @@
         "e:swinhoii"
       ]
     },
+    "swisni1": {
+      "scientificName": "Gallinago megala",
+      "parts": [
+        "g:Gallinago",
+        "e:megala"
+      ]
+    },
     "swspet": {
       "scientificName": "Hydrobates monorhis",
       "parts": [
@@ -20608,6 +21532,13 @@
         "e:aedon"
       ]
     },
+    "thelar1": {
+      "scientificName": "Galerida theklae",
+      "parts": [
+        "g:Galerida",
+        "e:theklae"
+      ]
+    },
     "thrnig1": {
       "scientificName": "Luscinia luscinia",
       "parts": [
@@ -20636,6 +21567,13 @@
         "e:tristramii"
       ]
     },
+    "triwar1": {
+      "scientificName": "Curruca deserticola",
+      "parts": [
+        "g:Curruca",
+        "e:deserticola"
+      ]
+    },
     "trufin2": {
       "scientificName": "Bucanetes githagineus",
       "parts": [
@@ -20648,6 +21586,13 @@
       "parts": [
         "g:Cygnus",
         "e:buccinator"
+      ]
+    },
+    "tstlar1": {
+      "scientificName": "Alaudala heinei",
+      "parts": [
+        "g:Alaudala",
+        "e:heinei"
       ]
     },
     "tufduc": {
@@ -20951,6 +21896,13 @@
         "e:leucomela"
       ]
     },
+    "whicoc1": {
+      "scientificName": "Cacatua alba",
+      "parts": [
+        "g:Cacatua",
+        "e:alba"
+      ]
+    },
     "whiibi": {
       "scientificName": "Eudocimus albus",
       "parts": [
@@ -21007,6 +21959,13 @@
         "e:vipio"
       ]
     },
+    "whnrav1": {
+      "scientificName": "Corvus albicollis",
+      "parts": [
+        "g:Corvus",
+        "e:albicollis"
+      ]
+    },
     "whoswa": {
       "scientificName": "Cygnus cygnus",
       "parts": [
@@ -21040,6 +21999,13 @@
       "parts": [
         "g:Apus",
         "e:caffer"
+      ]
+    },
+    "whssta2": {
+      "scientificName": "Sturnia sinensis",
+      "parts": [
+        "g:Sturnia",
+        "e:sinensis"
       ]
     },
     "whtdip1": {
@@ -21098,6 +22064,20 @@
         "e:leucoptera"
       ]
     },
+    "whwlar1": {
+      "scientificName": "Alauda leucoptera",
+      "parts": [
+        "g:Alauda",
+        "e:leucoptera"
+      ]
+    },
+    "whwred2": {
+      "scientificName": "Phoenicurus erythrogastrus",
+      "parts": [
+        "g:Phoenicurus",
+        "e:erythrogastrus"
+      ]
+    },
     "whwsco1": {
       "scientificName": "Melanitta stejnegeri",
       "parts": [
@@ -21138,6 +22118,20 @@
       "parts": [
         "g:Phalaropus",
         "e:tricolor"
+      ]
+    },
+    "wilplo": {
+      "scientificName": "Anarhynchus wilsonia",
+      "parts": [
+        "g:Anarhynchus",
+        "e:wilsonia"
+      ]
+    },
+    "wilpta": {
+      "scientificName": "Lagopus lagopus",
+      "parts": [
+        "g:Lagopus",
+        "e:lagopus"
       ]
     },
     "wilpta1": {
@@ -21308,6 +22302,13 @@
         "e:flaviventris"
       ]
     },
+    "yebgre4": {
+      "scientificName": "Chloris spinoides",
+      "parts": [
+        "g:Chloris",
+        "e:spinoides"
+      ]
+    },
     "yebgro1": {
       "scientificName": "Eophona migratoria",
       "parts": [
@@ -21355,6 +22356,13 @@
       "parts": [
         "g:Euplectes",
         "e:afer"
+      ]
+    },
+    "yeclov": {
+      "scientificName": "Agapornis personatus",
+      "parts": [
+        "g:Agapornis",
+        "e:personatus"
       ]
     },
     "yefcan": {

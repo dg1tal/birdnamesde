@@ -130,7 +130,21 @@ for(const row of unmarkedAudit.terms){
  assert(row.consultedPassages.length>0,`${row.termKey}: source check must be recorded`);
  for(const ref of row.consultedPassages)assert(data.sources[ref.source],`${row.termKey}: registered source`);
 }
-const previouslyUncertain=Object.keys(data.terms).filter(key=>!auditedKeys.has(key));
+const countryExtension=JSON.parse(readFileSync('data/scientific-name-country-extension.json'));
+const extensionKeys=new Set(countryExtension.newTermKeys);
+assert.equal(extensionKeys.size,56,'Every new country-expansion term is explicitly reviewed');
+assert.equal(countryExtension.species.length,54);
+assert([...extensionKeys].every(key=>data.terms[key]&&!auditedKeys.has(key)));
+for(const row of countryExtension.species){
+ assert.equal(data.species[row.id].scientificName,row.currentScientificName||row.scientificName);
+ for(const part of ['genus','epithet'])assert(row[part+'Source'].printedPage>0);
+}
+assert.equal(data.terms['g:Perisoreus'].uncertain,true,'Competing suggestions are not a settled derivation');
+assert.equal(data.terms['e:examinandus'].uncertain,true,'Do not conceal the dictionary’s different spelling examinatus');
+assert.equal(data.terms['g:Fringillaria'].page,164,'The current combination needs its own genus source');
+assert.equal(data.species.houbun3.scientificName,'Fringillaria sahari');
+assert(data.terms['e:heinei'].additionalSources.some(r=>r.source==='heineanumHeinei'&&r.scope==='dedication'));
+const previouslyUncertain=Object.keys(data.terms).filter(key=>!auditedKeys.has(key)&&!extensionKeys.has(key));
 assert.equal(previouslyUncertain.length,47);
 assert(previouslyUncertain.every(key=>data.terms[key].uncertain));
 // Explanations must expose the roots, including mixed-language compounds and
@@ -185,7 +199,7 @@ for(const fn of ['renderIntroduction','renderFeedback','lookupNameList','studyMo
  const start=app.indexOf(`function ${fn}(`),end=app.indexOf('\nfunction ',start+1);
  assert(app.slice(start,end).includes(fn==='renderIntroduction'||fn==='renderFeedback'?'studyDetailsMarkup(':'scientificNameMarkup('),fn);
 }
-console.log('PASS: all 940 name explanations in de/en/nl; exact taxonomy, homonyms, sources, uncertainty, language independence, safe HTML and answer-only placement.');
+console.log(`PASS: all ${birds.length} name explanations in de/en/nl; exact taxonomy, homonyms, sources, uncertainty, language independence, safe HTML and answer-only placement.`);
 
 for(const [id,oldName,newName] of SCIENTIFIC_NAME_ALIASES){
  for(const language of ['de','en','nl']){

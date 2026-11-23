@@ -42,6 +42,12 @@ def build():
         cwd=ROOT, text=True))
     audit = json.loads((ROOT / 'docs/scientific-name-feasibility-20261107.json').read_text())
     provenance = {b['id']: b for b in audit['species']}
+    extension = json.loads((ROOT / 'data/scientific-name-country-extension.json').read_text())
+    added_provenance = {b['id']: b for b in extension['species']}
+    assert len(added_provenance) == len(extension['species']), 'Duplicate added species provenance'
+    assert not provenance.keys() & added_provenance.keys(), 'Do not replace historical provenance'
+    provenance.update(added_provenance)
+    assert provenance.keys() == {b['id'] for b in birds}, 'Every species needs reviewed provenance'
     genera = read_glosses(['genera'])
     epithets = read_glosses(['epithets', 'histories', 'people'])
     overrides = json.loads((ROOT / 'data/scientific-name-overrides.json').read_text())
@@ -63,6 +69,10 @@ def build():
     }
     supplements = {'Alipiopsitta': 'alipiopsitta2006', 'Helopsaltes': 'helopsaltes2018',
                    'goffiniana': 'goffiniana2004', 'Sibirionetta': 'sibirionetta'}
+    for key, source in extension['sources'].items():
+        if key != 'jobling2010':
+            assert key not in sources, 'Duplicate extension source'
+            sources[key] = {k: source[k] for k in ('title', 'url')}
     assert not (sources.keys() & reviewed_evidence['sources'].keys()), 'Duplicate reviewed source'
     sources.update(reviewed_evidence['sources'])
     terms, species = {}, {}
@@ -81,10 +91,13 @@ def build():
             if i == 0 and term != bird['sci'].split()[0]:
                 assert key in reviewed_evidence['terms'] and 'source' in reviewed_evidence['terms'][key], key
             evidence = provenance[bird['id']][role + 'Source']
+            if i == 0 and term != bird['sci'].split()[0]:
+                evidence = provenance[bird['id']].get('currentGenusSource', evidence)
             if term in supplements:
                 entry['source'] = supplements[term]
             else:
-                entry['source'] = 'jobling2010'
+                entry['source'] = evidence.get('source', 'jobling2010')
+                assert entry['source'] in sources, 'Unknown provenance source'
                 entry['page'] = evidence['printedPage']
             if key in reviewed_evidence['terms']:
                 reviewed = reviewed_evidence['terms'][key]

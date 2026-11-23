@@ -14,6 +14,10 @@ assert.equal(lookupSettings(explicitAll,'DE',false).region,'');
 assert.equal(lookupSettings({geographyVersion:1,region:'GB',mainLanguage:'nl'},'DE',false).mainLanguage,'nl');
 assert.equal(lookupSettings({region:'<script>',mainLanguage:'xx',nameLanguages:['nl','nl','xx']},'NL',false).region,'NL');
 assert.equal(lookupSettings({region:'DE',visible:Infinity},'DE').visible,LOOKUP_PAGE_SIZE);
+for(const region of ['FI','FI-18','FR','FR-COR']){
+ assert.equal(lookupSettings({geographyVersion:1,region},'DE').region,region);
+ assert.equal(lookupSettings({},region).region,region.split('-')[0]);
+}
 assert.equal(lookupSettings({geographyVersion:1,region:'',regionMode:'recent'},'DE').regionMode,'all');
 assert.deepEqual(lookupLanguages({mainLanguage:'nl',nameLanguages:['de']}).map(l=>l.code),['de','sci']);
 const fake=[{id:'a',de:'Zebra',en:'Alpha',sci:'A a'},{id:'b',de:'Amsel',en:'Zebra',sci:'B b'}];

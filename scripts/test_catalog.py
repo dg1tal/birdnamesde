@@ -19,6 +19,8 @@ class CatalogueTests(unittest.TestCase):
         country_ids=set().union(*map(set,data['meta']['catalog']['countrySpecies'].values()))
         self.assertEqual(set(birds),country_ids|{s['id'] for s in baseline})
         self.assertEqual(data['meta']['catalog']['fingerprint'],hashlib.sha256('\n'.join(sorted(birds)).encode()).hexdigest())
+        self.assertEqual(set(data['meta']['catalog']['countries']),regions.COUNTRY_CODES)
+        self.assertEqual(set(data['meta']['catalog']['countrySpecies']),regions.COUNTRY_CODES)
         for original in baseline:
             for key,value in original.items():
                 if key not in CODE_FIELDS:self.assertEqual(birds[original['id']][key],value)
@@ -28,6 +30,22 @@ class CatalogueTests(unittest.TestCase):
         with (ROOT/'data/taxonomy.csv').open(encoding='utf-8-sig') as stream:
             taxonomy={r['SPECIES_CODE']:r for r in csv.DictReader(stream)}
         self.assertTrue(all(taxonomy[code]['CATEGORY']=='species' for code in birds))
+
+    def test_finnish_and_french_species_have_official_names_and_codes(self):
+        data=json.loads((ROOT/'dist/species.json').read_text())
+        birds={s['id']:s for s in data['species']}
+        for country in ('FI','FR'):
+            names=json.loads((ROOT/f'dist/languages/{country.lower()}.json').read_text())['species']
+            self.assertTrue(set(data['meta']['catalog']['countrySpecies'][country]) <= names.keys())
+        for country,ids in {'FI':['sibjay1','gyhchi','grgowl'],
+                            'FR':['cornut1','corfin1','pitsan1']}.items():
+            names=json.loads((ROOT/f'dist/languages/{country.lower()}.json').read_text())['species']
+            for code in ids:
+                self.assertIn(code,data['meta']['catalog']['countrySpecies'][country])
+                self.assertTrue(birds[code]['de'])
+                self.assertTrue(birds[code]['en'])
+                self.assertTrue(birds[code]['codes'])
+                self.assertTrue(names[code]['name'])
 
     def test_official_mapping_and_candidate_report(self):
         result=regions.make_list(['species','subspecies','hybrid','new','unknown'],'all',{'species'},'now',

@@ -1600,6 +1600,18 @@
           "scope": "nameHistory"
         }
       ]
+    },
+    "g:Fringillaria": {
+      "source": "jobling2010",
+      "page": 164
+    },
+    "e:heinei": {
+      "additionalSources": [
+        {
+          "source": "heineanumHeinei",
+          "scope": "dedication"
+        }
+      ]
     }
   }
 }

@@ -7,7 +7,7 @@ assert set(code_data['records'])=={b['id'] for b in birds}
 baseline=json.loads((p/'data/catalog-baseline.json').read_text())['species']
 assert len(birds)>=len(baseline)
 assert data['meta']['catalog']['taxonomy']=='v2025'
-assert set(data['meta']['catalog']['countries'])=={'DE','NL','GB'}
+assert set(data['meta']['catalog']['countries'])=={c['code'] for c in json.loads((p/'data/region-countries.json').read_text())}
 by_id={s['id']:s for s in birds}
 for original in baseline:
  assert all(by_id[original['id']].get(k)==v for k,v in original.items() if k not in CODE_FIELDS),original['id']

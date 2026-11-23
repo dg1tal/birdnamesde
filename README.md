@@ -1,6 +1,6 @@
 # BirdNames DE
 
-Look up bird names and learn them with short, spaced-repetition practice rounds. The catalogue covers 940 species recorded in Germany, the Netherlands and the United Kingdom, with German, English, Dutch, French, Finnish and scientific names. The interface is available in German and English.
+Look up bird names and learn them with short, spaced-repetition practice rounds. The catalogue covers 994 species recorded in Germany, the Netherlands, the United Kingdom, Finland and France, with German, English, Dutch, French, Finnish and scientific names. The interface is available in German and English.
 
 **[Open BirdNames DE](https://dg1tal.github.io/birdnamesde/)** — use it in your desktop or mobile browser, without an account.
 
@@ -93,7 +93,7 @@ CI also runs the complete Node/Python suites, data reproducibility checks and ph
 
 ## Data sources and acknowledgement
 
-Taxonomy and common names use the reviewed eBird/Clements 2025 catalogue. Official quick codes come from the 2026 workbook, with documented exceptions and concept-verified scientific-name updates. DDA breeding-survey abbreviations use the interactive DDA web list, are checked in the daily publication workflow, and have separate learning progress from eBird codes. National lists cover DE, NL and GB; regional occurrence lists and current notable reports use the eBird API. Scientific-name explanations give source languages, word roots and naming histories for the displayed scientific name, including the reviewed 2026 combinations, with linked references principally from Jobling (2010). Dutch and French cover all 940 species; Finnish covers 933. Missing names exclude a species from the affected learning pair rather than falling back to another language. Photos and illustrations have individual source credits and licences.
+Taxonomy and common names use the reviewed eBird/Clements 2025 catalogue. Official quick codes come from the 2026 workbook, with documented exceptions and concept-verified scientific-name updates. DDA breeding-survey abbreviations use the interactive DDA web list, are checked in the daily publication workflow, and have separate learning progress from eBird codes. National lists cover DE, NL, GB, FI and FR; regional occurrence lists and current notable reports use the eBird API. Scientific-name explanations give source languages, word roots and naming histories for the displayed scientific name, including the reviewed 2026 combinations, with linked references principally from Jobling (2010). Dutch and French cover all 994 species; Finnish covers 986. Missing names exclude a species from the affected learning pair rather than falling back to another language. Photos and illustrations have individual source credits and licences.
 
 **The eBird Basic Dataset (EBD) itself is not included in this repository.**
 Neither the country download archives nor raw observation or sampling-event

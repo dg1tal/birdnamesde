@@ -1,5 +1,5 @@
-import {isCodeTarget,codeAnswers} from './code-targets.js?v=20261122-dda1';
-import {scientificNameAliases} from './scientific-name-aliases.js?v=20261108-quality1';
+import {isCodeTarget,codeAnswers} from './code-targets.js?v=20261123-countries1';
+import {scientificNameAliases} from './scientific-name-aliases.js?v=20261123-countries1';
 // Add a registry entry and a sourced names JSON to support another language.
 // UI locale never determines which bird name is shown or accepted.
 export const NAME_LANGUAGES=Object.freeze([

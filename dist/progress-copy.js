@@ -1,5 +1,5 @@
-import {isCodeTarget} from './code-targets.js?v=20261122-dda1';
-import {RULES} from './learning-model.js?v=20261105-recovery1';
+import {isCodeTarget} from './code-targets.js?v=20261123-countries1';
+import {RULES} from './learning-model.js?v=20261123-countries1';
 // A round's first attempts are distinct from never-before-practised learning
 // targets and from scheduled reviews. Keep these labels consistent everywhere.
 export function lessonProgressText({total,completed,repeats},english=false){

@@ -66,7 +66,7 @@ for(const key of ['birdnames-ui-shared-v1','birdnames-ui','birdnames-ui-en']){
  const dismissed={...loaded.learn,regionMigrationNotice:false};
  assert.equal(migrateLearningRegion(dismissed,dismissed).regionMigrationNotice,false);
 }
-for(const region of ['DE','NL','GB','GB-ENG-CON','DE-BY-GAP','FR']){
+for(const region of ['DE','NL','GB','GB-ENG-CON','DE-BY-GAP','FI','FI-18','FR','FR-COR']){
  const saved={region,regionMode:'recent',frequencyGroups:['rare'],levels:[]};
  const loaded=migrateLearningRegion(saved,saved);
  assert.equal(loaded.region,region);assert.equal(loaded.regionMode,'recent');assert.deepEqual(loaded.frequencyGroups,['rare']);assert(!loaded.regionMigrationNotice);assert(!('levels' in loaded));

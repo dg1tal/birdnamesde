@@ -29,7 +29,9 @@ class RegionTests(unittest.TestCase):
         self.assertFalse(m.supported_region('GB-ENG-LND-EXTRA'))
         self.assertTrue(m.supported_region('NL'))
         self.assertTrue(m.supported_region('NL-NH'))
-        self.assertFalse(m.supported_region('FR'))
+        for code in ('FI', 'FI-18', 'FR', 'FR-IDF'):
+            self.assertTrue(m.supported_region(code))
+        self.assertFalse(m.supported_region('ES'))
         self.assertFalse(m.supported_region('NL/../../secret'))
 
     def test_local_region_discovery_and_parent_validation(self):
@@ -49,6 +51,30 @@ class RegionTests(unittest.TestCase):
     def test_local_region_last_good_snapshot(self):
         data={'version':1,'regions':[{'code':'GB-ENG-LND','recent':{'ids':['eurbla'],'reportedTaxa':1,'updatedAt':'2026-01-01T00:00:00Z'}}]}
         self.assertEqual(m.safe_previous(data,{'eurbla'})['GB-ENG-LND']['recent']['ids'],['eurbla'])
+
+    def test_finnish_and_french_official_hierarchy_and_cache(self):
+        source=json.loads((m.ROOT/'data/catalog-country-lists.json').read_text())
+        references={c['code']:c['subregions'] for c in source['countries']}
+        countries=[c for c in m.COUNTRIES if c['code'] in {'FI','FR'}]
+        now=dt.datetime.now(dt.timezone.utc)
+        stamp=now.isoformat(timespec='seconds').replace('+00:00','Z')
+        entry={'ids':['eurbla'],'reportedTaxa':1,'updatedAt':stamp}
+        with patch.object(m,'COUNTRIES',countries), patch.object(m,'COUNTRY_CODES',{'FI','FR'}):
+            regions=m.discover_regions(lambda path:references[path.split('/')[-1].split('?')[0]])
+            self.assertEqual(len(regions),34)
+            self.assertEqual(sum(r['parentCode']=='FI' for r in regions),19)
+            self.assertEqual(sum(r['parentCode']=='FR' for r in regions),13)
+            self.assertEqual(next(r for r in regions if r['code']=='FI-18')['parentCode'],'FI')
+            self.assertEqual(next(r for r in regions if r['code']=='FR-COR')['parentCode'],'FR')
+            snapshot={'version':1,'recentDays':30,'generatedAt':stamp,
+                      'regions':[{**r,'all':entry,'recent':entry} for r in regions]}
+            self.assertIsNotNone(m.reusable_snapshot(snapshot,{'eurbla'},now))
+            self.assertIsNone(m.reusable_snapshot({**snapshot,'regions':snapshot['regions'][:-1]},{'eurbla'},now))
+            for code in ('FI-18','FR-COR'):
+                previous=m.safe_previous(snapshot,{'eurbla'})
+                self.assertEqual(previous[code]['all'],entry)
+            with self.assertRaises(AssertionError):
+                m.discover_regions(lambda path:references['FR'])
 
     def test_no_cross_host_credential(self):
         with self.assertRaises(ValueError):m.request_json('https://example.com','fake-test-token')

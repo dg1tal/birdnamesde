@@ -50,6 +50,8 @@ for(const html of [en,de]){
  assert(!html.includes('histogram downloads')&&!html.includes('eBird-Histogrammdaten'));
 }
 assert(en.includes('18 areas with historical samples'));
+assert(en.includes('Finland and France'));
+assert(de.includes('Finnland und Frankreich'));
 assert(en.includes('13 areas with historical samples'));
 assert(en.includes('113 areas with historical samples'));
 assert(renderInformation({...args,english:true,seasonal:null}).includes('Seasonal data is currently unavailable'));

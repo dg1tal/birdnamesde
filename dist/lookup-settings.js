@@ -1,7 +1,8 @@
-import {NAME_LANGUAGES,isNameLanguage,primaryName} from './name-languages.js?v=20261122-dda1';
+import {NAME_LANGUAGES,isNameLanguage,primaryName} from './name-languages.js?v=20261123-countries1';
+import {LEARNING_COUNTRIES} from './learning-settings.js?v=20261123-countries1';
 
 export const LOOKUP_PAGE_SIZE=60;
-export function lookupSettings(saved,learningRegion='DE',english=false,countries=['DE','NL','GB']){
+export function lookupSettings(saved,learningRegion='DE',english=false,countries=LEARNING_COUNTRIES.map(c=>c.code)){
  const state={...saved};
  const validRegion=region=>typeof region==='string'&&countries.includes(region.split('-')[0])&&/^[A-Z]{2}(?:-[A-Z0-9]{1,4}){0,2}$/.test(region);
  if(!state.geographyVersion){

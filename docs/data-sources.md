@@ -96,7 +96,7 @@ DDA report: https://www.dda-web.de/downloads/publications/statusreports/vid_best
 
 ## Official quick-code policy
 
-Entry codes are literal `sci_quick_codes`, `com_quick_codes` and `banding_code` entries from the official `eBird_Taxonomy_v2026_5-tab_27Oct2026.xlsx` workbook, available through the same eBird Bird Names download page (Box link and SHA-256 in `data/code-records.json`). Species limits and common names remain pinned to v2025; eleven concept-verified scientific name changes use the 2026 name for display and learning, with the 2025 name also shown and accepted. `spofly1` (Spotted Flycatcher) retains its official 2025 codes because that ID is a slash in v2026; the exception is recorded explicitly. Scientific quick codes are primary and visibly labelled in both lookup and study cards. No code is generated from a name.
+Entry codes are literal `sci_quick_codes`, `com_quick_codes` and `banding_code` entries from the official `eBird_Taxonomy_v2026_5-tab_27Oct2026.xlsx` workbook, available through the same eBird Bird Names download page (Box link and SHA-256 in `data/code-records.json`). Species limits and common names remain pinned to v2025; twelve concept-verified scientific name changes use the 2026 name for display and learning, with the 2025 name also shown and accepted. `spofly1` (Spotted Flycatcher) retains its official 2025 codes because that ID is a slash in v2026; the exception is recorded explicitly. Scientific quick codes are primary and visibly labelled in both lookup and study cards. No code is generated from a name.
 
 `scripts/code_policy.py --workbook /path/to/eBird_Taxonomy_v2026_5-tab_27Oct2026.xlsx` imports the checksum-verified source and updates the catalogue. Without `--workbook`, it regenerates code fields from the saved records. The full source species table supplies worldwide collision counts across scientific codes, common-name variants and banding codes, counting each species once per code. The retained 2025 Spotted Flycatcher concept is included. Scientific codes lead the list. Within scientific and other candidates separately, prefer the fewest matching species worldwide; ties prefer the banding code, then alphabetical order. All other current candidates remain accepted and searchable. This selects ANFA/ANSE for the two bean geese, TUME for Blackbird and GAGL for Eurasian Jay. `scientificCodes` identifies the highlighted badges; `scientificCodeName` preserves the exact source name. Where the v2026 scientific name differs from the retained v2025 catalogue name, both views display both dated names and explain that both are accepted. Some species have no unique official code. The saved source includes the relevant literal records, global counts, source provenance and exception, and routine catalogue rebuilding applies this policy to retained and added species alike.
 
@@ -104,8 +104,8 @@ Historical numeric `level` metadata remains in the catalogue for compatibility; 
 
 ## Catalogue and lookup
 
-The catalogue now contains 940 species: the union of public all-time eBird country
-lists for DE (596 mapped species), NL (587) and GB/UK (875), retaining all 313
+The catalogue now contains 994 species: the union of public all-time eBird country
+lists for DE (597 mapped species), NL (587), GB/UK (875), FI (483) and FR (659), retaining all 313
 original German entries. Historical rarities and recorded introduced/escaped birds
 may occur in these lists. Membership is an occurrence record, not a breeding or
 establishment classification. Source taxa that cannot be mapped to one v2025
@@ -117,7 +117,7 @@ and REPORT_AS links. The original catalogue is retained in
 metadata. The old Germany-only `finalize-data.py` refuses to overwrite this union.
 
 Run the manual **Review catalogue sources** Actions workflow to obtain fresh
-unfiltered national lists using the existing eBird secret. Its artifact contains
+unfiltered national lists and official first-level region references using the existing eBird secret. Its artifact contains
 public taxon IDs only. Catalogue updates require review; they are not part of the
 daily Pages refresh. To regenerate from the reviewed source workbook:
 
@@ -168,9 +168,9 @@ Node/Python suite, data validation, EBD reproducibility and media validation.
 
 ## Code collision audit
 
-The [quick-code policy](#official-quick-code-policy) describes the mixed source versions and accepted scientific-name updates. The stored `sci` field remains the 2025 source key for provenance and media; explanations instead match the displayed name from `primaryName(species, 'sci')`, including the eleven reviewed 2026 combinations. The validator and renderer reject stale explanations whose exact name does not match; the original `sci` field is not reused by species ID alone. No concept equivalence is inferred from a shared species ID, code or similar spelling. Concept changes for Spotted Flycatcher, European Robin and Great Horned Owl remain migration decisions for a future taxonomy update. See [the identity review](catalog-identity-review-20261108.md) and [the quality review and fixes](quality-review-20261108.md).
+The [quick-code policy](#official-quick-code-policy) describes the mixed source versions and accepted scientific-name updates. The stored `sci` field remains the 2025 source key for provenance and media; explanations instead match the displayed name from `primaryName(species, 'sci')`, including the twelve reviewed 2026 combinations. The validator and renderer reject stale explanations whose exact name does not match; the original `sci` field is not reused by species ID alone. No concept equivalence is inferred from a shared species ID, code or similar spelling. Concept changes for Spotted Flycatcher, European Robin and Great Horned Owl remain migration decisions for a future taxonomy update. See [the identity review](catalog-identity-review-20261108.md) and [the quality review and fixes](quality-review-20261108.md).
 
-Run `python3 scripts/audit-codes.py` to validate all catalogue code fields against the saved literal source records and regenerate [quick-code-audit.json](quick-code-audit.json). The report lists every ambiguous code, its species and source types. In the current 940-species catalogue, 197 of 1,966 distinct accepted codes match multiple species. There are 42 common-name/banding collisions and 12 scientific/banding collisions (categories can overlap). Adding banding codes to scientific and common-name codes creates 46 additional ambiguous codes; some ambiguities already exist within a single source type. These are catalogue counts, not worldwide counts. Three-letter source entries are outside the app's four-letter code policy.
+Run `python3 scripts/audit-codes.py` to validate all catalogue code fields against the saved literal source records and regenerate [quick-code-audit.json](quick-code-audit.json). The report lists every ambiguous code, its species and source types. In the current 994-species catalogue, 218 of 2,069 distinct accepted codes match multiple species. There are 45 common-name/banding collisions and 14 scientific/banding collisions (categories can overlap). Adding banding codes to scientific and common-name codes creates 49 additional ambiguous codes; some ambiguities already exist within a single source type. These are catalogue counts, not worldwide counts. Three-letter source entries are outside the app's four-letter code policy.
 
 Banding codes use teal badges in lookup and learning answers. Scientific codes retain purple badges; a code with both roles keeps purple and lists both roles in its accessible description and tooltip. Other badges represent English quick codes. A bilingual legend shows only the source types present on that card, labelled scientific, eBird and banding, in the matching badge style using smaller proportional text. It warns that codes can match multiple species. Each ambiguous code lists the other species from the complete app catalogue in its tooltip and accessible description; badge colours describe the source type for the current species, regardless of roles at other species. Accepted answers and code ordering are unchanged.
 
@@ -182,7 +182,9 @@ Images were selected from the corresponding English Wikipedia species articles, 
 
 Run `node scripts/validate-photos.mjs` to verify coverage, taxon mappings, attribution, licenses and local file hashes. `python scripts/fetch-commons-photos.py` restores missing image files from their recorded source URLs and verifies their hashes. It uses only the Python standard library and does not overwrite an existing file with different bytes. Derived illustration assets must be restored from Git; their source file is not byte-identical to the displayed conversion/crop/PDF render. See [illustrations-update-20261021.md](illustrations-update-20261021.md).
 
-The 5 November 2026 expansion adds images for all 627 newly catalogued species: the 940-species catalogue now includes 1,352 photographs and eight labelled historical illustrations. Both sexes have explicit source evidence for 356 species. Eleven recognised comparison gaps remain flagged; “single-image” and “not-established” review states do not establish that a species is monomorphic. The original 313 species’ records and assets are preserved and checked against `data/photo-baseline-20261105.json`.
+The 23 November 2026 Finland/France extension adds 68 licensed photos for its 54 new species. All 994 species have media, with 1,420 photographs and eight illustrations; 370 species have explicit both-sex source evidence. See [the extension photo review](photos-finland-france-20261123.md).
+
+The 5 November 2026 expansion added images for all 627 newly catalogued species: the 940-species catalogue now includes 1,352 photographs and eight labelled historical illustrations. Both sexes have explicit source evidence for 356 species. Eleven recognised comparison gaps remain flagged; “single-image” and “not-established” review states do not establish that a species is monomorphic. The original 313 species’ records and assets are preserved and checked against `data/photo-baseline-20261105.json`.
 
 Redundant unlabelled lead images have been removed where two labelled comparison images exist. A validator enforces at most two images per species in the manifest, which is shared by lookup, image dialogs and learning.
 

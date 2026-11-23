@@ -88,7 +88,7 @@ def build(workbook, country_source, root=ROOT):
                'countrySourceSha256':digest(country_source.read_bytes())}
     meta = copy.deepcopy(baseline['meta'])
     meta.update({'built':source['retrievedAt'][:10], 'catalog':catalog,
-                 'selection':'Union of eBird species records in DE, NL and GB, including historical rarities, plus the retained original German catalogue. Occurrence records are not breeding or establishment status. Taxonomy is pinned to v2025; excluded source taxa are documented in catalog-review.json.'})
+                 'selection':'Union of eBird species records in '+', '.join(sorted(expected))+', including historical rarities, plus the retained original German catalogue. Occurrence records are not breeding or establishment status. Taxonomy is pinned to v2025; excluded source taxa are documented in catalog-review.json.'})
     report = {'catalog':catalog, 'speciesCount':len(birds), 'retainedSpecies':len(legacy),
               'addedSpecies':sorted(selected-legacy.keys()), 'excludedSourceTaxa':exclusions, 'missing':missing}
     records = {'names':{k:names[k] for k in sorted(selected)}, 'codes':{k:codes[k] for k in sorted(selected)}, 'groups':groups}

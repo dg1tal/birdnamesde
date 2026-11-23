@@ -1,8 +1,8 @@
 {
   "meta": {
     "taxonomy": "v2025",
-    "built": "2026-11-05",
-    "selection": "Union of eBird species records in DE, NL and GB, including historical rarities, plus the retained original German catalogue. Occurrence records are not breeding or establishment status. Taxonomy is pinned to v2025; excluded source taxa are documented in catalog-review.json.",
+    "built": "2026-11-23",
+    "selection": "Union of eBird species records in DE, FI, FR, GB, NL, including historical rarities, plus the retained original German catalogue. Occurrence records are not breeding or establishment status. Taxonomy is pinned to v2025; excluded source taxa are documented in catalog-review.json.",
     "validation": "Arten-IDs, englische und wissenschaftliche Namen gegen die offizielle v2025-4 CSV geprüft; deutsche Namen gegen die Namensmatrix von 2025. Eingabecodes gegen die offizielle Codetabelle vom 27. Oktober 2026 mit dokumentierter Taxonomie-Ausnahme geprüft.",
     "sources": [
       {
@@ -24,15 +24,17 @@
     ],
     "catalog": {
       "version": 1,
-      "id": "countries-v2025-c89c2434c779",
-      "fingerprint": "c89c2434c7790ae7524ee3926d25502865c9d2176e12c97487546f337e86c1d0",
+      "id": "countries-v2025-db71ac7826ad",
+      "fingerprint": "db71ac7826adc0ac39b342e8699951e219026c1449fe8a7fdcc3e62e47701c8f",
       "taxonomy": "v2025",
       "countries": [
         "DE",
+        "FI",
+        "FR",
         "GB",
         "NL"
       ],
-      "sourceRetrievedAt": "2026-11-05T13:27:48+00:00",
+      "sourceRetrievedAt": "2026-11-23T21:33:08+00:00",
       "countrySpecies": {
         "DE": [
           "abdsto1",
@@ -608,6 +610,7 @@
           "whwsno1",
           "whwter",
           "wilpha",
+          "wilplo",
           "wiltit1",
           "wiltur",
           "winwre4",
@@ -2097,11 +2100,1157 @@
           "ywcpar",
           "zebfin2",
           "zitcis1"
+        ],
+        "FI": [
+          "abdsto1",
+          "alpacc1",
+          "ambduc",
+          "amewig",
+          "amgplo",
+          "ancmur",
+          "arcloo",
+          "arcter",
+          "arcwar1",
+          "arcwar2",
+          "asdwar1",
+          "atlpuf",
+          "azutit2",
+          "bahgoo",
+          "baicra1",
+          "baisan",
+          "baitea",
+          "banswa",
+          "bargoo",
+          "barswa",
+          "barwar1",
+          "batgod",
+          "bcbeat1",
+          "bcnher",
+          "bearee1",
+          "bimlar1",
+          "bkbplo",
+          "bkewhe2",
+          "bkhgul",
+          "bklkit",
+          "bktgod",
+          "bkwsti",
+          "blackc1",
+          "blagro1",
+          "blakit1",
+          "blared1",
+          "blasto1",
+          "blawoo1",
+          "blhbun1",
+          "blkgui",
+          "blksco1",
+          "blksco2",
+          "blkswa",
+          "blkter",
+          "blrwar1",
+          "bltacc1",
+          "blueth",
+          "blutit",
+          "blwpra1",
+          "blypip1",
+          "bohwax",
+          "booeag1",
+          "boowar1",
+          "borowl",
+          "brambl",
+          "brant",
+          "brbsan",
+          "brnshr",
+          "bubsan",
+          "buffle",
+          "burthr",
+          "buwtea",
+          "cacgoo1",
+          "callar1",
+          "cangoo",
+          "carcro1",
+          "casgul2",
+          "casplo1",
+          "caster1",
+          "categr1",
+          "categr2",
+          "chebun1",
+          "chpher1",
+          "chukar",
+          "cintea",
+          "cinvul1",
+          "citfin1",
+          "citwag",
+          "coatit2",
+          "cockat",
+          "cogwar1",
+          "colfly1",
+          "colpra",
+          "combuz1",
+          "comcha",
+          "comchi1",
+          "comcra",
+          "comcuc",
+          "comeid",
+          "comgol",
+          "comgre",
+          "comhom1",
+          "comkin1",
+          "comloo",
+          "commer",
+          "commoo3",
+          "commur",
+          "comnig1",
+          "compoc",
+          "comqua1",
+          "comrav",
+          "comred1",
+          "comred2",
+          "comros",
+          "comsan",
+          "comshe",
+          "comsni",
+          "comswi",
+          "comter",
+          "corbun1",
+          "corcra",
+          "corplo",
+          "cowpig1",
+          "crccou1",
+          "crebun2",
+          "crelar1",
+          "cretit2",
+          "cursan",
+          "daejun",
+          "dalpel1",
+          "datthr1",
+          "demcra1",
+          "deswhe1",
+          "doveki",
+          "dunlin",
+          "dunnoc1",
+          "dusthr1",
+          "dusthr2",
+          "duswar",
+          "eabwar1",
+          "eacwar1",
+          "eaowar1",
+          "eargre",
+          "easwar1",
+          "eaywag1",
+          "elefal1",
+          "ettwoo1",
+          "eubeat1",
+          "eucdov",
+          "eueowl1",
+          "eugori2",
+          "eugplo",
+          "euhbuz1",
+          "euhgul1",
+          "eupfly1",
+          "eupowl1",
+          "euptit1",
+          "eurbla",
+          "eurbul",
+          "eurcoo",
+          "eurcrm1",
+          "eurcur",
+          "eurdot",
+          "eurgol",
+          "eurgre1",
+          "eurgri1",
+          "eurhob",
+          "eurjac",
+          "eurjay1",
+          "eurkes",
+          "eurlin1",
+          "eurmag1",
+          "eurnig1",
+          "eurnut2",
+          "eurnut3",
+          "euroys1",
+          "eurrob1",
+          "eurrol1",
+          "eursco1",
+          "eurser1",
+          "eursis",
+          "eurspa1",
+          "eurspo1",
+          "eursta",
+          "eurtre1",
+          "eurwar1",
+          "eurwar2",
+          "eurwig",
+          "eurwoo",
+          "eurwry",
+          "eutdov",
+          "eutkne1",
+          "eutspa",
+          "eyethr",
+          "falduc",
+          "ferduc",
+          "fieldf",
+          "firecr1",
+          "foxspa",
+          "fragul",
+          "gadwal",
+          "gargan",
+          "garwar1",
+          "gbbgul",
+          "glagul",
+          "gloibi",
+          "gnwtea",
+          "goldcr1",
+          "goleag",
+          "gragoo",
+          "graher1",
+          "grcgre1",
+          "grebit1",
+          "grecor",
+          "greegr",
+          "grefla3",
+          "gresca",
+          "greshe",
+          "gresku1",
+          "gresni1",
+          "gretit1",
+          "grewar2",
+          "grewar3",
+          "grewhi1",
+          "grgowl",
+          "grnsan",
+          "grnwar1",
+          "grrwar1",
+          "grseag1",
+          "grsplo",
+          "grswoo",
+          "grypar",
+          "grywag",
+          "gstlar1",
+          "gubter2",
+          "gwfgoo",
+          "gyfwoo1",
+          "gyhbun1",
+          "gyhchi",
+          "gyrfal",
+          "harduc",
+          "hawfin",
+          "hazgro1",
+          "hoocro1",
+          "hoomer",
+          "hoopoe",
+          "horgre",
+          "horlar",
+          "houspa",
+          "humwar1",
+          "ibechi2",
+          "ictwar1",
+          "impeag1",
+          "indbun",
+          "inpher1",
+          "isashr1",
+          "isawhe1",
+          "jacsni",
+          "kenplo1",
+          "kineid",
+          "lanwar",
+          "laplon",
+          "laudov1",
+          "laugul",
+          "lbbgul",
+          "lcspet",
+          "legshr2",
+          "leseag1",
+          "leskes1",
+          "lessap1",
+          "lessca",
+          "leswhi4",
+          "leswoo1",
+          "lesyel",
+          "lirplo",
+          "litbun",
+          "litbus1",
+          "litcra1",
+          "litcur",
+          "litegr",
+          "litgre1",
+          "litgul",
+          "litsti",
+          "litter1",
+          "lobdow",
+          "loeowl",
+          "lolbuz1",
+          "lotduc",
+          "lotjae",
+          "lotros1",
+          "lotsti",
+          "lottit1",
+          "lwfgoo",
+          "mallar3",
+          "manduc",
+          "manshe",
+          "marsan",
+          "martit2",
+          "marwar3",
+          "masshr1",
+          "meapip1",
+          "medgul1",
+          "merlin",
+          "mewgul",
+          "misthr1",
+          "miswoo1",
+          "monhar1",
+          "mutswa",
+          "nohowl",
+          "norful",
+          "norgan",
+          "norgos1",
+          "norhar1",
+          "norlap",
+          "norpin",
+          "norsho",
+          "norshr1",
+          "norshr4",
+          "norwhe",
+          "olbpip",
+          "oricuc2",
+          "orihob2",
+          "oripra",
+          "ortbun1",
+          "ortdov",
+          "osprey",
+          "pacloo",
+          "padwar1",
+          "pagplo",
+          "palbun",
+          "palhar1",
+          "palsan1",
+          "palswi3",
+          "palwar5",
+          "parcro2",
+          "parjae",
+          "pecsan",
+          "perfal",
+          "pieavo1",
+          "piebus1",
+          "piewhe1",
+          "pifgoo",
+          "pinbun",
+          "pingro",
+          "pomjae",
+          "purher1",
+          "pursan",
+          "pygcor2",
+          "radwar1",
+          "razorb",
+          "rebfly",
+          "rebgoo1",
+          "rebmer",
+          "rebshr1",
+          "recpoc",
+          "redcro",
+          "redkit1",
+          "redkno",
+          "redpha1",
+          "redpol1",
+          "redwin",
+          "reebun",
+          "refblu1",
+          "reffal1",
+          "rehbun1",
+          "rengre",
+          "renpha",
+          "rensti",
+          "rerswa8",
+          "retloo",
+          "retpip",
+          "ricpip1",
+          "rinduc",
+          "rinouz1",
+          "rinphe1",
+          "rocpig",
+          "rocpip1",
+          "rocpta1",
+          "rolhaw",
+          "rook1",
+          "rorpar",
+          "rosgoo",
+          "rosgul",
+          "rossta2",
+          "rtrthr1",
+          "rudduc",
+          "rudshe",
+          "rudtur",
+          "ruff",
+          "rusbun",
+          "rutscr1",
+          "rutshr2",
+          "sabgul",
+          "sakfal1",
+          "sancra",
+          "sander",
+          "santer1",
+          "sarwar1",
+          "savwar1",
+          "scathr2",
+          "sedwar1",
+          "sheowl",
+          "shteag1",
+          "shtsan",
+          "sibacc",
+          "sibjay1",
+          "sibrub",
+          "sibsto1",
+          "skylar",
+          "slbgul",
+          "slbgul1",
+          "smew",
+          "snobun",
+          "snogoo",
+          "snoowl1",
+          "soclap1",
+          "sonthr1",
+          "spocra1",
+          "spofly1",
+          "spored",
+          "sposan",
+          "squher1",
+          "steeag1",
+          "steeid",
+          "stisan",
+          "stodov1",
+          "stonec4",
+          "stonec7",
+          "stseag",
+          "subwar6",
+          "sursco",
+          "swisni1",
+          "sykwar2",
+          "taibeg1",
+          "taifly1",
+          "tawowl1",
+          "tawpip1",
+          "temsti",
+          "tersan",
+          "thrnig1",
+          "trepip",
+          "trufin2",
+          "tstlar1",
+          "tufduc",
+          "tunbeg1",
+          "tunswa",
+          "twite1",
+          "uplsan",
+          "uraowl1",
+          "watrai1",
+          "webowl1",
+          "webwar1",
+          "wemhar1",
+          "wescap1",
+          "whbwoo1",
+          "whimbr5",
+          "whinch1",
+          "whisto1",
+          "whiter2",
+          "whiwag",
+          "whoswa",
+          "whrsan",
+          "whssta2",
+          "whtdip1",
+          "whteag",
+          "whtlap1",
+          "whtnee",
+          "whtspa",
+          "whwcro",
+          "whwlar1",
+          "whwred2",
+          "whwsco1",
+          "whwsco3",
+          "whwter",
+          "wilpha",
+          "wilpta",
+          "wilsni1",
+          "wiltit1",
+          "winwre4",
+          "wlwwar",
+          "wooduc",
+          "woolar1",
+          "woosan",
+          "wooshr1",
+          "woowar",
+          "y00478",
+          "y00621",
+          "yebbun",
+          "yebloo",
+          "yebtea1",
+          "yebwar3",
+          "yelgul1",
+          "yellow2"
+        ],
+        "FR": [
+          "afcdov1",
+          "afrspo1",
+          "alepar2",
+          "alpacc1",
+          "alpswi1",
+          "ambduc",
+          "amepip",
+          "amerob",
+          "amewig",
+          "amgplo",
+          "amhgul1",
+          "andgoo1",
+          "aquwar1",
+          "arcloo",
+          "arcter",
+          "arcwar1",
+          "asdwar1",
+          "atlpuf",
+          "audgul1",
+          "aukpar1",
+          "ausshe1",
+          "azutit2",
+          "bahgoo",
+          "baicra1",
+          "baisan",
+          "baitea",
+          "baleag",
+          "balori",
+          "balshe1",
+          "banswa",
+          "bargoo",
+          "barpet",
+          "barswa",
+          "barwar1",
+          "batgod",
+          "batlar1",
+          "bawwar",
+          "baymac",
+          "bbwduc",
+          "bcbeat1",
+          "bcnher",
+          "bearee1",
+          "belkin1",
+          "bkbalb",
+          "bkbplo",
+          "bkewhe1",
+          "bkewhe2",
+          "bkfbun1",
+          "bkhgul",
+          "bklkit",
+          "bkpwar",
+          "bkskit1",
+          "bktgod",
+          "bkwsti",
+          "blackc1",
+          "blagro1",
+          "blakit1",
+          "blared1",
+          "blasto1",
+          "blawhe1",
+          "blawoo1",
+          "blclov1",
+          "blhbun1",
+          "blhwea1",
+          "blkgui",
+          "blksco1",
+          "blksco2",
+          "blkswa",
+          "blkter",
+          "blnswa2",
+          "blrwar1",
+          "blueth",
+          "blutit",
+          "blwpra1",
+          "blypip1",
+          "bohwax",
+          "boneag2",
+          "bongul",
+          "booeag1",
+          "boowar1",
+          "borowl",
+          "brakit1",
+          "brambl",
+          "brant",
+          "bratea1",
+          "brbsan",
+          "bripet",
+          "briter1",
+          "brnboo",
+          "brnshr",
+          "bubsan",
+          "bucpar",
+          "budger",
+          "buffle",
+          "burthr",
+          "buwtea",
+          "cabgoo1",
+          "cacgoo1",
+          "callar1",
+          "calqua",
+          "cangoo",
+          "canvas",
+          "captea1",
+          "carcro1",
+          "casgul2",
+          "casplo1",
+          "caster1",
+          "categr1",
+          "cetwar1",
+          "chebun1",
+          "chifla1",
+          "chiwig1",
+          "chswar",
+          "cintea",
+          "cinvul1",
+          "cirbun1",
+          "citfin1",
+          "citwag",
+          "cliswa",
+          "coatit2",
+          "cockat",
+          "cogwar1",
+          "colfly1",
+          "colpra",
+          "combuz1",
+          "comcan",
+          "comcha",
+          "comchi1",
+          "comcra",
+          "comcuc",
+          "comduc2",
+          "comeid",
+          "comgol",
+          "comgra",
+          "comgre",
+          "comhom1",
+          "comkin1",
+          "comloo",
+          "commer",
+          "commoo3",
+          "commur",
+          "commyn",
+          "comnig",
+          "comnig1",
+          "compea",
+          "compoc",
+          "comqua1",
+          "comrav",
+          "comred1",
+          "comred2",
+          "comros",
+          "comsan",
+          "comshe",
+          "comsni",
+          "comswi",
+          "comter",
+          "comwax",
+          "corbun1",
+          "corcra",
+          "corfin1",
+          "cornut1",
+          "corplo",
+          "corshe1",
+          "cowpig1",
+          "crccou1",
+          "crelar1",
+          "cretit2",
+          "criros2",
+          "cursan",
+          "dalpel1",
+          "darwar1",
+          "demcra1",
+          "deswhe1",
+          "diadov1",
+          "doveki",
+          "dunlin",
+          "dunnoc1",
+          "duswar",
+          "eabwar1",
+          "eaowar1",
+          "eargre",
+          "easros1",
+          "easwar1",
+          "eaywag",
+          "eaywag1",
+          "egygoo",
+          "egyplo1",
+          "egyvul1",
+          "elefal1",
+          "eleter1",
+          "empgoo",
+          "ettwoo1",
+          "eubeat1",
+          "eucdov",
+          "eueowl1",
+          "eugori2",
+          "eugplo",
+          "eugwoo2",
+          "euhbuz1",
+          "euhgul1",
+          "eupfly1",
+          "eupowl1",
+          "euptit1",
+          "eurbla",
+          "eurbul",
+          "eurcoo",
+          "eurcrm1",
+          "eurcur",
+          "eurdot",
+          "eurgol",
+          "eurgre1",
+          "eurgri1",
+          "eurhob",
+          "eurjac",
+          "eurjay1",
+          "eurkes",
+          "eurlin1",
+          "eurmag1",
+          "eurnig1",
+          "eurnut2",
+          "eurnut3",
+          "euroys1",
+          "eurrob1",
+          "eurrol1",
+          "eursco1",
+          "eurser1",
+          "eursha1",
+          "eursis",
+          "eurspa1",
+          "eurspo1",
+          "eursta",
+          "eurtre1",
+          "eurwar1",
+          "eurwar2",
+          "eurwig",
+          "eurwoo",
+          "eurwry",
+          "eutdov",
+          "eutkne1",
+          "eutspa",
+          "eyethr",
+          "ferduc",
+          "fieldf",
+          "firecr1",
+          "fislov1",
+          "forter",
+          "fragul",
+          "fuwduc",
+          "gadwal",
+          "galah",
+          "gargan",
+          "garwar1",
+          "gbbgul",
+          "glagul",
+          "gloibi",
+          "gnwtea",
+          "goldcr1",
+          "goleag",
+          "golphe",
+          "gragoo",
+          "graher1",
+          "grccra1",
+          "grcgre1",
+          "grebit1",
+          "grebus1",
+          "grecor",
+          "greegr",
+          "grefla2",
+          "grefla3",
+          "grepar",
+          "gresca",
+          "greshe",
+          "gresku1",
+          "gresni1",
+          "gretit1",
+          "grewar2",
+          "grewar3",
+          "grewhi1",
+          "grnher",
+          "grnpar",
+          "grnsan",
+          "grnwoo3",
+          "grrwar1",
+          "grscuc1",
+          "grseag1",
+          "grsplo",
+          "grswoo",
+          "grwpel1",
+          "grypar",
+          "grywag",
+          "gstlar1",
+          "gubter2",
+          "gwfgoo",
+          "gycthr",
+          "gyfwoo1",
+          "gyrfal",
+          "gyttat1",
+          "hawfin",
+          "hawgoo",
+          "hazgro1",
+          "helgui",
+          "hoocro1",
+          "hoomer",
+          "hoopoe",
+          "horgre",
+          "horlar",
+          "hottea1",
+          "houbun3",
+          "houspa",
+          "hrshaw",
+          "humwar1",
+          "ibechi2",
+          "ibgshr1",
+          "ictwar1",
+          "impeag1",
+          "incter1",
+          "indsil",
+          "isashr1",
+          "isawhe1",
+          "isbduc1",
+          "itaspa1",
+          "ivogul",
+          "jacsni",
+          "japqua",
+          "kelgul",
+          "kenplo1",
+          "killde",
+          "kineid",
+          "kitplo1",
+          "lagfal1",
+          "lammer1",
+          "lanfal1",
+          "laplon",
+          "laugul",
+          "lbbgul",
+          "lcspet",
+          "leasan",
+          "lecter2",
+          "legshr2",
+          "leseag1",
+          "lesfla1",
+          "leskes1",
+          "lesmoo1",
+          "lessap2",
+          "lessca",
+          "leswhi4",
+          "leswoo1",
+          "lesyel",
+          "levshe1",
+          "lirplo",
+          "litbit1",
+          "litbun",
+          "litbus1",
+          "litcra1",
+          "litegr",
+          "litgre1",
+          "litgul",
+          "litowl1",
+          "litshe1",
+          "litsti",
+          "litter1",
+          "lobdow",
+          "loeowl",
+          "lolbuz1",
+          "lotduc",
+          "lotjae",
+          "lotsti",
+          "lottit1",
+          "lwfgoo",
+          "mallar3",
+          "manduc",
+          "manduc1",
+          "manshe",
+          "marsan",
+          "martea1",
+          "martit2",
+          "marwar1",
+          "marwar3",
+          "masshr1",
+          "meapip1",
+          "medgul1",
+          "melwar1",
+          "merlin",
+          "mewgul",
+          "milmac",
+          "misthr1",
+          "miswoo1",
+          "mitpar",
+          "monhar1",
+          "monpar",
+          "moured1",
+          "mouwar1",
+          "mstlar1",
+          "musduc",
+          "mutswa",
+          "norbob",
+          "norful",
+          "norgan",
+          "norgos1",
+          "norhar1",
+          "norhar2",
+          "norlap",
+          "norpar",
+          "norpin",
+          "norsho",
+          "norshr1",
+          "norwhe",
+          "olbpip",
+          "orcwax",
+          "oripra",
+          "ortbun1",
+          "ortdov",
+          "osprey",
+          "ovenbi1",
+          "pacloo",
+          "padwar1",
+          "pagplo",
+          "pagwar1",
+          "palhar1",
+          "palswi3",
+          "palwar5",
+          "parcro2",
+          "parjae",
+          "pecpip",
+          "pecsan",
+          "peflov",
+          "perfal",
+          "pibgre",
+          "pibpel1",
+          "pieavo1",
+          "piewhe1",
+          "pifgoo",
+          "pinbun",
+          "pitsan1",
+          "pitwhy",
+          "plhpar1",
+          "pomjae",
+          "purher1",
+          "pursan",
+          "purswa1",
+          "pygcor2",
+          "radshe1",
+          "radwar1",
+          "railor4",
+          "railor5",
+          "razorb",
+          "rebcho1",
+          "rebfly",
+          "rebgoo1",
+          "reblei",
+          "rebmer",
+          "rebshr1",
+          "reccra1",
+          "recpoc",
+          "redcro",
+          "redjun",
+          "redkit1",
+          "redkno",
+          "redpha1",
+          "redpol1",
+          "redwin",
+          "reebun",
+          "reephe1",
+          "reevir1",
+          "refblu1",
+          "refboo",
+          "reffal1",
+          "relpar1",
+          "rempar",
+          "rengre",
+          "rennig1",
+          "renpha",
+          "rensti",
+          "rerswa8",
+          "retloo",
+          "retpip",
+          "retwhe3",
+          "rewbul",
+          "ribgul",
+          "ricpip1",
+          "rinduc",
+          "rinouz1",
+          "rinphe1",
+          "rinphe2",
+          "rintea1",
+          "robgro",
+          "robpoc1",
+          "rocbun1",
+          "rocpar2",
+          "rocpet1",
+          "rocpig",
+          "rocpip1",
+          "rocpta1",
+          "rolhaw",
+          "rook1",
+          "rorpar",
+          "rosgoo",
+          "rosgul",
+          "rossta2",
+          "roster",
+          "royter1",
+          "royter2",
+          "rtrthr1",
+          "rudduc",
+          "rudshe",
+          "rudtur",
+          "ruegri1",
+          "ruewar1",
+          "ruff",
+          "rusbun",
+          "rutscr1",
+          "rutshr2",
+          "sabgul",
+          "sacibi2",
+          "sakfal1",
+          "sander",
+          "santer1",
+          "sarwar1",
+          "savwar1",
+          "scaibi",
+          "scathr2",
+          "scocro1",
+          "scoshe1",
+          "sedwar1",
+          "semfly1",
+          "semplo",
+          "semsan",
+          "senpar",
+          "shbdow",
+          "sheowl",
+          "shteag1",
+          "shtsan",
+          "shtshe",
+          "shttre1",
+          "sibpip1",
+          "sibsto1",
+          "siltea1",
+          "skylar",
+          "slbgul1",
+          "smew",
+          "snobun",
+          "snogoo",
+          "snoowl1",
+          "soashe1",
+          "soclap1",
+          "soghor1",
+          "solsan",
+          "sonthr1",
+          "sooshe",
+          "sooter1",
+          "sopsku1",
+          "sora",
+          "spaeag1",
+          "spaspa1",
+          "spbduc",
+          "spepig1",
+          "spewar2",
+          "spocra1",
+          "spofly1",
+          "spored",
+          "sposan",
+          "sposta1",
+          "spwlap1",
+          "squher1",
+          "steeag1",
+          "stisan",
+          "stodov1",
+          "stonec4",
+          "subwar6",
+          "subwar8",
+          "succoc",
+          "sugspa1",
+          "sunpar1",
+          "suppar1",
+          "sursco",
+          "swagoo1",
+          "swathr",
+          "taibeg1",
+          "tawowl1",
+          "tawpip1",
+          "temsti",
+          "tenwar",
+          "tersan",
+          "thelar1",
+          "trepip",
+          "triwar1",
+          "trufin2",
+          "tufduc",
+          "tunbeg1",
+          "tunswa",
+          "turvul",
+          "twite1",
+          "uplgoo1",
+          "uplsan",
+          "waldra1",
+          "wallcr1",
+          "watpip1",
+          "watrai1",
+          "webowl1",
+          "webwar1",
+          "wemhar1",
+          "weowar1",
+          "weowar2",
+          "werher",
+          "wescap1",
+          "wessan",
+          "wfwduc1",
+          "whbwoo1",
+          "whcpin",
+          "whhduc1",
+          "whhmun1",
+          "whicoc1",
+          "whiibi",
+          "whimbr3",
+          "whimbr5",
+          "whinch1",
+          "whisto1",
+          "whiter2",
+          "whiwag",
+          "whnrav1",
+          "whoswa",
+          "whrsan",
+          "whrswi1",
+          "whtdip1",
+          "whteag",
+          "whtlap1",
+          "whtspa",
+          "whtwhe1",
+          "whwcro",
+          "whwlar1",
+          "whwsco3",
+          "whwsno1",
+          "whwter",
+          "wilpha",
+          "wiltit1",
+          "winwre4",
+          "wispet",
+          "wlwwar",
+          "wooduc",
+          "woolar1",
+          "woosan",
+          "wooshr1",
+          "woowar",
+          "y00478",
+          "yebbun",
+          "yebcho1",
+          "yebduc1",
+          "yebgre4",
+          "yebloo",
+          "yebtea1",
+          "yebwar3",
+          "yecbis",
+          "yeclov",
+          "yefcan",
+          "yelgul1",
+          "yellow2",
+          "yelwar1",
+          "zebfin2",
+          "zitcis1"
         ]
       },
       "workbookUrl": "https://cornell.box.com/s/zjci66divvqnz00k98r7pmmb6kpc69zs",
       "workbookSha256": "5a6c29b6a48db107b20f8bd1bc6f468ef652a51ccae299b1102350459d73b909",
-      "countrySourceSha256": "3e68fc3f424f1f77795c2cf397981545521296b7fa5488c013e38314120d7624"
+      "countrySourceSha256": "f05dfb8c41a1df6cde9f91c8c8d5c83b657a9ddf3563e64fcd9c51087d9bebb9"
     },
     "codes": {
       "version": "eBird v2026 codes / 27 October 2026",
@@ -2245,6 +3394,30 @@
         "PSEU"
       ],
       "scientificCodeName": "Psittacula eupatria"
+    },
+    {
+      "id": "railor4",
+      "de": "Allfarblori",
+      "en": "Coconut Lorikeet",
+      "enGB": "",
+      "sci": "Trichoglossus haematodus",
+      "codes": [
+        "TRHA",
+        "COLO"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Papageien",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "TRHA"
+      ],
+      "scientificCodeName": "Trichoglossus haematodus"
     },
     {
       "id": "alpacc1",
@@ -2418,6 +3591,30 @@
         "CAAL"
       ],
       "scientificCodeName": "Calidris alpina"
+    },
+    {
+      "id": "bratea1",
+      "de": "Amazonasente",
+      "en": "Brazilian Teal",
+      "enGB": "",
+      "sci": "Amazonetta brasiliensis",
+      "codes": [
+        "AMBR",
+        "BRTE"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Entenvögel",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "AMBR"
+      ],
+      "scientificCodeName": "Amazonetta brasiliensis"
     },
     {
       "id": "amepip",
@@ -2601,6 +3798,30 @@
         "PUPU"
       ],
       "scientificCodeName": "Puffinus puffinus"
+    },
+    {
+      "id": "triwar1",
+      "de": "Atlasgrasmücke",
+      "en": "Tristram's Warbler",
+      "enGB": "",
+      "sci": "Curruca deserticola",
+      "codes": [
+        "CUDE",
+        "TRWA"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Grasmückenverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "CUDE"
+      ],
+      "scientificCodeName": "Curruca deserticola"
     },
     {
       "id": "norwhe3",
@@ -3086,6 +4307,30 @@
         "GYBA"
       ],
       "scientificCodeName": "Gypaetus barbatus"
+    },
+    {
+      "id": "grgowl",
+      "de": "Bartkauz",
+      "en": "Great Gray Owl",
+      "enGB": "Great Grey Owl",
+      "sci": "Strix nebulosa",
+      "codes": [
+        "STNE",
+        "GGOW"
+      ],
+      "bandingCode": "GGOW",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Eulen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "STNE"
+      ],
+      "scientificCodeName": "Strix nebulosa"
     },
     {
       "id": "radwar1",
@@ -4502,6 +5747,30 @@
         "NUAR"
       ],
       "scientificCodeName": "Numenius arquata"
+    },
+    {
+      "id": "brakit1",
+      "de": "Brahmanenmilan",
+      "en": "Brahminy Kite",
+      "enGB": "",
+      "sci": "Haliastur indus",
+      "codes": [
+        "HAIN",
+        "BRKI"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Greifvögel",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "HAIN"
+      ],
+      "scientificCodeName": "Haliastur indus"
     },
     {
       "id": "comshe",
@@ -6225,6 +7494,30 @@
       "scientificCodeName": "Somateria mollissima"
     },
     {
+      "id": "sposta1",
+      "de": "Einfarbstar",
+      "en": "Spotless Starling",
+      "enGB": "",
+      "sci": "Sturnus unicolor",
+      "codes": [
+        "STUN",
+        "SPST"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Starenverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "STUN"
+      ],
+      "scientificCodeName": "Sturnus unicolor"
+    },
+    {
       "id": "solsan",
       "de": "Einsiedelwasserläufer",
       "en": "Solitary Sandpiper",
@@ -6544,6 +7837,31 @@
         "CODA"
       ],
       "scientificCodeName": "Coloeus dauuricus"
+    },
+    {
+      "id": "piebus1",
+      "de": "Elsterschmätzer",
+      "en": "Pied Bushchat",
+      "enGB": "Pied Bush Chat",
+      "sci": "Saxicola caprata",
+      "codes": [
+        "SACA",
+        "PBCH",
+        "PIBU"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Schnäpperverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "SACA"
+      ],
+      "scientificCodeName": "Saxicola caprata"
     },
     {
       "id": "aspsta2",
@@ -7508,6 +8826,34 @@
       "scientificCodeName": "Sterna forsteri"
     },
     {
+      "id": "foxspa",
+      "de": "Fuchsammer",
+      "en": "Fox Sparrow",
+      "enGB": "",
+      "sci": "Passerella iliaca",
+      "codes": [
+        "PAIL",
+        "FOSP",
+        "FSSP"
+      ],
+      "bandingCode": "FOSP",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": [
+          "fox-sparrow sp.",
+          "fox sparrow sp."
+        ]
+      },
+      "group": "Neuweltammern",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PAIL"
+      ],
+      "scientificCodeName": "Passerella iliaca"
+    },
+    {
       "id": "redsho1",
       "de": "Fuchslöffelente",
       "en": "Red Shoveler",
@@ -7725,6 +9071,30 @@
       "scientificCodeName": "Motacilla cinerea"
     },
     {
+      "id": "whnrav1",
+      "de": "Geierrabe",
+      "en": "White-necked Raven",
+      "enGB": "",
+      "sci": "Corvus albicollis",
+      "codes": [
+        "COAL",
+        "WNRA"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Krähenverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "COAL"
+      ],
+      "scientificCodeName": "Corvus albicollis"
+    },
+    {
       "id": "yebsap",
       "de": "Gelbbauch-Saftlecker",
       "en": "Yellow-bellied Sapsucker",
@@ -7930,6 +9300,30 @@
         "AMOR"
       ],
       "scientificCodeName": "Amazona oratrix"
+    },
+    {
+      "id": "chswar",
+      "de": "Gelbscheitel-Waldsänger",
+      "en": "Chestnut-sided Warbler",
+      "enGB": "",
+      "sci": "Setophaga pensylvanica",
+      "codes": [
+        "SEPE",
+        "CSWA"
+      ],
+      "bandingCode": "CSWA",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Waldsänger",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "SEPE"
+      ],
+      "scientificCodeName": "Setophaga pensylvanica"
     },
     {
       "id": "ywcpar",
@@ -9430,6 +10824,79 @@
       "scientificCodeName": "Pionites melanocephalus"
     },
     {
+      "id": "rempar",
+      "de": "Guayaquilsittich",
+      "en": "Red-masked Parakeet",
+      "enGB": "",
+      "sci": "Psittacara erythrogenys",
+      "codes": [
+        "PSER",
+        "RMPA"
+      ],
+      "bandingCode": "RMPA",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Papageien",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PSER"
+      ],
+      "scientificCodeName": "Psittacara erythrogenys"
+    },
+    {
+      "id": "royter2",
+      "de": "Guineaseeschwalbe",
+      "en": "West African Crested Tern",
+      "enGB": "",
+      "sci": "Thalasseus albididorsalis",
+      "codes": [
+        "THAL",
+        "WACT",
+        "ROTE"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Möwenverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "THAL"
+      ],
+      "scientificCodeName": "Thalasseus albididorsalis"
+    },
+    {
+      "id": "spepig1",
+      "de": "Guineataube",
+      "en": "Speckled Pigeon",
+      "enGB": "",
+      "sci": "Columba guinea",
+      "codes": [
+        "COGU",
+        "SPPI"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Tauben",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "COGU"
+      ],
+      "scientificCodeName": "Columba guinea"
+    },
+    {
       "id": "eurgri1",
       "de": "Gänsegeier",
       "en": "Eurasian Griffon",
@@ -9648,6 +11115,33 @@
         "SPRH"
       ],
       "scientificCodeName": "Spatula rhynchotis"
+    },
+    {
+      "id": "semfly1",
+      "de": "Halbringschnäpper",
+      "en": "Semicollared Flycatcher",
+      "enGB": "",
+      "sci": "Ficedula semitorquata",
+      "codes": [
+        "FISE",
+        "SEFL",
+        "SCFL"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": [
+          "Semi-collared Flycatcher"
+        ]
+      },
+      "group": "Schnäpperverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "FISE"
+      ],
+      "scientificCodeName": "Ficedula semitorquata"
     },
     {
       "id": "varthr",
@@ -9931,6 +11425,35 @@
       "scientificCodeName": "Podiceps cristatus"
     },
     {
+      "id": "houbun3",
+      "de": "Hausammer",
+      "en": "House Bunting",
+      "enGB": "",
+      "sci": "Emberiza sahari",
+      "codes": [
+        "FRSA",
+        "AHBU",
+        "WHBU",
+        "HOBU"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": [
+          "African House Bunting",
+          "Western House Bunting"
+        ]
+      },
+      "group": "Ammern",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "FRSA"
+      ],
+      "scientificCodeName": "Fringillaria sahari"
+    },
+    {
       "id": "houfin",
       "de": "Hausgimpel",
       "en": "House Finch",
@@ -10211,6 +11734,30 @@
       "scientificCodeName": "Larus fuscus"
     },
     {
+      "id": "yebgre4",
+      "de": "Himalajagrünfink",
+      "en": "Yellow-breasted Greenfinch",
+      "enGB": "",
+      "sci": "Chloris spinoides",
+      "codes": [
+        "CHSP",
+        "YBGR"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Finkenverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "CHSP"
+      ],
+      "scientificCodeName": "Chloris spinoides"
+    },
+    {
       "id": "pacpar2",
       "de": "Himmelsperlingspapagei",
       "en": "Pacific Parrotlet",
@@ -10261,6 +11808,30 @@
       "scientificCodeName": "Acridotheres tristis"
     },
     {
+      "id": "kitplo1",
+      "de": "Hirtenregenpfeifer",
+      "en": "Kittlitz's Plover",
+      "enGB": "",
+      "sci": "Anarhynchus pecuarius",
+      "codes": [
+        "ANPE",
+        "KIPL"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Limikolen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "ANPE"
+      ],
+      "scientificCodeName": "Anarhynchus pecuarius"
+    },
+    {
       "id": "stodov1",
       "de": "Hohltaube",
       "en": "Stock Dove",
@@ -10288,6 +11859,30 @@
         "COOE"
       ],
       "scientificCodeName": "Columba oenas"
+    },
+    {
+      "id": "oricuc2",
+      "de": "Hopfkuckuck",
+      "en": "Oriental Cuckoo",
+      "enGB": "",
+      "sci": "Cuculus optatus",
+      "codes": [
+        "CUOP",
+        "ORCU"
+      ],
+      "bandingCode": "ORCU",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Kuckucke",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "CUOP"
+      ],
+      "scientificCodeName": "Cuculus optatus"
     },
     {
       "id": "whimbr3",
@@ -10517,6 +12112,79 @@
       "scientificCodeName": "Curruca iberiae"
     },
     {
+      "id": "spaeag1",
+      "de": "Iberienadler",
+      "en": "Spanish Eagle",
+      "enGB": "Spanish Imperial Eagle",
+      "sci": "Aquila adalberti",
+      "codes": [
+        "AQAD",
+        "SIEA",
+        "SPEA"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Greifvögel",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "AQAD"
+      ],
+      "scientificCodeName": "Aquila adalberti"
+    },
+    {
+      "id": "grnwoo3",
+      "de": "Iberiengrünspecht",
+      "en": "Iberian Green Woodpecker",
+      "enGB": "",
+      "sci": "Picus sharpei",
+      "codes": [
+        "PISH",
+        "IGWO"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Spechte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PISH"
+      ],
+      "scientificCodeName": "Picus sharpei"
+    },
+    {
+      "id": "ibgshr1",
+      "de": "Iberienraubwürger",
+      "en": "Iberian Gray Shrike",
+      "enGB": "Iberian Grey Shrike",
+      "sci": "Lanius meridionalis",
+      "codes": [
+        "LAME",
+        "IGSH"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Würger",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "LAME"
+      ],
+      "scientificCodeName": "Lanius meridionalis"
+    },
+    {
       "id": "ibechi2",
       "de": "Iberienzilpzalp",
       "en": "Iberian Chiffchaff",
@@ -10662,6 +12330,30 @@
         "ORKU"
       ],
       "scientificCodeName": "Oriolus kundoo"
+    },
+    {
+      "id": "indsil",
+      "de": "Indiensilberschnabel",
+      "en": "Indian Silverbill",
+      "enGB": "",
+      "sci": "Euodice malabarica",
+      "codes": [
+        "EUMA",
+        "INSI"
+      ],
+      "bandingCode": "INSI",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Prachtfinken",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "EUMA"
+      ],
+      "scientificCodeName": "Euodice malabarica"
     },
     {
       "id": "indbun",
@@ -11068,6 +12760,33 @@
         "CAPU"
       ],
       "scientificCodeName": "Calidris pugnax"
+    },
+    {
+      "id": "arcwar2",
+      "de": "Kamtschatkalaubsänger",
+      "en": "Kamchatka Leaf Warbler",
+      "enGB": "",
+      "sci": "Phylloscopus examinandus",
+      "codes": [
+        "PHEX",
+        "KALW",
+        "KLWA"
+      ],
+      "bandingCode": "KLWA",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": [
+          "Kamchatka Leaf-warbler"
+        ]
+      },
+      "group": "Laubsänger",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PHEX"
+      ],
+      "scientificCodeName": "Phylloscopus examinandus"
     },
     {
       "id": "slbgul",
@@ -12168,6 +13887,54 @@
       "scientificCodeName": "Ardea coromanda"
     },
     {
+      "id": "cornut1",
+      "de": "Korsenkleiber",
+      "en": "Corsican Nuthatch",
+      "enGB": "",
+      "sci": "Sitta whiteheadi",
+      "codes": [
+        "SIWH",
+        "CONU"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Kleiber",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "SIWH"
+      ],
+      "scientificCodeName": "Sitta whiteheadi"
+    },
+    {
+      "id": "corfin1",
+      "de": "Korsenzeisig",
+      "en": "Corsican Finch",
+      "enGB": "",
+      "sci": "Carduelis corsicana",
+      "codes": [
+        "CACO",
+        "COFI"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Finkenverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "CACO"
+      ],
+      "scientificCodeName": "Carduelis corsicana"
+    },
+    {
       "id": "doveki",
       "de": "Krabbentaucher",
       "en": "Dovekie",
@@ -12306,6 +14073,30 @@
         "ANCR"
       ],
       "scientificCodeName": "Anas crecca"
+    },
+    {
+      "id": "egyplo1",
+      "de": "Krokodilwächter",
+      "en": "Egyptian Plover",
+      "enGB": "",
+      "sci": "Pluvianus aegyptius",
+      "codes": [
+        "PLAE",
+        "EGPL"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Watvögel",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PLAE"
+      ],
+      "scientificCodeName": "Pluvianus aegyptius"
     },
     {
       "id": "eacwar1",
@@ -12511,6 +14302,31 @@
         "ANBR"
       ],
       "scientificCodeName": "Anser brachyrhynchus"
+    },
+    {
+      "id": "shtshe",
+      "de": "Kurzschwanz-Sturmtaucher",
+      "en": "Short-tailed Shearwater",
+      "enGB": "",
+      "sci": "Ardenna tenuirostris",
+      "codes": [
+        "ARTE",
+        "STTS",
+        "STSH"
+      ],
+      "bandingCode": "STTS",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Sturmvögel",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "ARTE"
+      ],
+      "scientificCodeName": "Ardenna tenuirostris"
     },
     {
       "id": "gstlar1",
@@ -12787,6 +14603,30 @@
       "scientificCodeName": "Streptopelia roseogrisea"
     },
     {
+      "id": "lagfal1",
+      "de": "Laggarfalke",
+      "en": "Laggar Falcon",
+      "enGB": "",
+      "sci": "Falco jugger",
+      "codes": [
+        "FAJU",
+        "LAFA"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Greifvögel",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "FAJU"
+      ],
+      "scientificCodeName": "Falco jugger"
+    },
+    {
       "id": "lobmur",
       "de": "Langschnabelalk",
       "en": "Long-billed Murrelet",
@@ -12857,6 +14697,33 @@
         "FABI"
       ],
       "scientificCodeName": "Falco biarmicus"
+    },
+    {
+      "id": "gyhchi",
+      "de": "Lapplandmeise",
+      "en": "Gray-headed Chickadee",
+      "enGB": "Siberian Tit",
+      "sci": "Poecile cinctus",
+      "codes": [
+        "POCI",
+        "GHCH",
+        "SITI"
+      ],
+      "bandingCode": "GHCH",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": [
+          "Grey-headed Chickadee"
+        ]
+      },
+      "group": "Meisen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "POCI"
+      ],
+      "scientificCodeName": "Poecile cinctus"
     },
     {
       "id": "azutit2",
@@ -13223,6 +15090,30 @@
         "AIGA"
       ],
       "scientificCodeName": "Aix galericulata"
+    },
+    {
+      "id": "whssta2",
+      "de": "Mandarinstar",
+      "en": "White-shouldered Starling",
+      "enGB": "",
+      "sci": "Sturnia sinensis",
+      "codes": [
+        "STSI",
+        "WSST"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Starenverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "STSI"
+      ],
+      "scientificCodeName": "Sturnia sinensis"
     },
     {
       "id": "reccra1",
@@ -14067,6 +15958,31 @@
         "LIGR"
       ],
       "scientificCodeName": "Limnodromus griseus"
+    },
+    {
+      "id": "wilpta",
+      "de": "Moorschneehuhn",
+      "en": "Willow Ptarmigan",
+      "enGB": "Red Grouse/Willow Grouse",
+      "sci": "Lagopus lagopus",
+      "codes": [
+        "LALA",
+        "WIPT",
+        "WIGR"
+      ],
+      "bandingCode": "WIPT",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Hühnervögel",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "LALA"
+      ],
+      "scientificCodeName": "Lagopus lagopus"
     },
     {
       "id": "rucspa1",
@@ -15087,6 +17003,31 @@
         "EUOR"
       ],
       "scientificCodeName": "Euplectes orix"
+    },
+    {
+      "id": "inpher1",
+      "de": "Paddyreiher",
+      "en": "Indian Pond-Heron",
+      "enGB": "Indian Pond Heron",
+      "sci": "Ardeola grayii",
+      "codes": [
+        "ARGR",
+        "INPH",
+        "IPHE"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Reiher und Ibisse",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "ARGR"
+      ],
+      "scientificCodeName": "Ardeola grayii"
     },
     {
       "id": "palbun",
@@ -16572,6 +18513,31 @@
       "scientificCodeName": "Cursorius cursor"
     },
     {
+      "id": "whwred2",
+      "de": "Riesenrotschwanz",
+      "en": "White-winged Redstart",
+      "enGB": "Güldenstädt's Redstart",
+      "sci": "Phoenicurus erythrogastrus",
+      "codes": [
+        "PHER",
+        "GURE",
+        "WWRE"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Schnäpperverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PHER"
+      ],
+      "scientificCodeName": "Phoenicurus erythrogastrus"
+    },
+    {
       "id": "stseag",
       "de": "Riesenseeadler",
       "en": "Steller's Sea-Eagle",
@@ -17234,6 +19200,30 @@
       "scientificCodeName": "Pastor roseus"
     },
     {
+      "id": "retwhe3",
+      "de": "Rostbürzel-Steinschmätzer",
+      "en": "Kurdish Wheatear",
+      "enGB": "",
+      "sci": "Oenanthe xanthoprymna",
+      "codes": [
+        "OEXA",
+        "KUWH"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Schnäpperverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "OEXA"
+      ],
+      "scientificCodeName": "Oenanthe xanthoprymna"
+    },
+    {
       "id": "dusthr2",
       "de": "Rostflügeldrossel",
       "en": "Dusky Thrush",
@@ -17489,6 +19479,33 @@
       "scientificCodeName": "Sula sula"
     },
     {
+      "id": "soghor1",
+      "de": "Rotgesicht-Hornrabe",
+      "en": "Southern Ground-Hornbill",
+      "enGB": "Southern Ground Hornbill",
+      "sci": "Bucorvus leadbeateri",
+      "codes": [
+        "BULE",
+        "SGHO",
+        "SOGH"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": [
+          "Southern Ground-hornbill"
+        ]
+      },
+      "group": "Hornraben und Hornvögel",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "BULE"
+      ],
+      "scientificCodeName": "Bucorvus leadbeateri"
+    },
+    {
       "id": "afrspo1",
       "de": "Rotgesichtlöffler",
       "en": "African Spoonbill",
@@ -17511,6 +19528,30 @@
         "PLAL"
       ],
       "scientificCodeName": "Platalea alba"
+    },
+    {
+      "id": "rennig1",
+      "de": "Rothals-Nachtschwalbe",
+      "en": "Red-necked Nightjar",
+      "enGB": "",
+      "sci": "Caprimulgus ruficollis",
+      "codes": [
+        "CARU",
+        "RNNI"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Nachtschwalben",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "CARU"
+      ],
+      "scientificCodeName": "Caprimulgus ruficollis"
     },
     {
       "id": "rebgoo1",
@@ -17865,6 +19906,30 @@
         "VAIN"
       ],
       "scientificCodeName": "Vanellus indicus"
+    },
+    {
+      "id": "mitpar",
+      "de": "Rotmaskensittich",
+      "en": "Mitred Parakeet",
+      "enGB": "",
+      "sci": "Psittacara mitratus",
+      "codes": [
+        "PSMI",
+        "MIPA"
+      ],
+      "bandingCode": "MIPA",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Papageien",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PSMI"
+      ],
+      "scientificCodeName": "Psittacara mitratus"
     },
     {
       "id": "redkit1",
@@ -18676,6 +20741,30 @@
         "CAAL"
       ],
       "scientificCodeName": "Calidris alba"
+    },
+    {
+      "id": "batlar1",
+      "de": "Sandlerche",
+      "en": "Bar-tailed Lark",
+      "enGB": "",
+      "sci": "Ammomanes cinctura",
+      "codes": [
+        "AMCI",
+        "BTLA"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Lerchen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "AMCI"
+      ],
+      "scientificCodeName": "Ammomanes cinctura"
     },
     {
       "id": "corplo",
@@ -19600,6 +21689,36 @@
       "scientificCodeName": "Callipepla californica"
     },
     {
+      "id": "orihob2",
+      "de": "Schopfwespenbussard",
+      "en": "Oriental Honey-buzzard",
+      "enGB": "Crested Honey-buzzard",
+      "sci": "Pernis ptilorhynchus",
+      "codes": [
+        "PEPT",
+        "ORHB",
+        "CRHB",
+        "OHBU",
+        "CHBU"
+      ],
+      "bandingCode": "ORHB",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": [
+          "Crested Honey Buzzard",
+          "Oriental Honey Buzzard"
+        ]
+      },
+      "group": "Greifvögel",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PEPT"
+      ],
+      "scientificCodeName": "Pernis ptilorhynchus"
+    },
+    {
       "id": "chiswi",
       "de": "Schornsteinsegler",
       "en": "Chimney Swift",
@@ -20029,6 +22148,30 @@
       "scientificCodeName": "Pyrrhura rupicola"
     },
     {
+      "id": "bltacc1",
+      "de": "Schwarzkehlbraunelle",
+      "en": "Black-throated Accentor",
+      "enGB": "",
+      "sci": "Prunella atrogularis",
+      "codes": [
+        "PRAT",
+        "BTAC"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Braunellen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PRAT"
+      ],
+      "scientificCodeName": "Prunella atrogularis"
+    },
+    {
       "id": "stonec4",
       "de": "Schwarzkehlchen",
       "en": "European Stonechat",
@@ -20159,6 +22302,57 @@
         "ICME"
       ],
       "scientificCodeName": "Ichthyaetus melanocephalus"
+    },
+    {
+      "id": "blhwea1",
+      "de": "Schwarzkopfweber",
+      "en": "Black-headed Weaver",
+      "enGB": "",
+      "sci": "Ploceus melanocephalus",
+      "codes": [
+        "PLME",
+        "BHWE",
+        "YBWE"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": [
+          "Yellow-backed Weaver"
+        ]
+      },
+      "group": "Weber",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PLME"
+      ],
+      "scientificCodeName": "Ploceus melanocephalus"
+    },
+    {
+      "id": "yeclov",
+      "de": "Schwarzköpfchen",
+      "en": "Yellow-collared Lovebird",
+      "enGB": "",
+      "sci": "Agapornis personatus",
+      "codes": [
+        "AGPE",
+        "YCLO"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Papageien",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "AGPE"
+      ],
+      "scientificCodeName": "Agapornis personatus"
     },
     {
       "id": "blakit1",
@@ -21413,6 +23607,30 @@
       "scientificCodeName": "Anas acuta"
     },
     {
+      "id": "pitsan1",
+      "de": "Spießflughuhn",
+      "en": "Pin-tailed Sandgrouse",
+      "enGB": "",
+      "sci": "Pterocles alchata",
+      "codes": [
+        "PTAL",
+        "PTSA"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Flughühner",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PTAL"
+      ],
+      "scientificCodeName": "Pterocles alchata"
+    },
+    {
       "id": "whrmun",
       "de": "Spitzschwanz-Bronzemännchen",
       "en": "White-rumped Munia",
@@ -22479,6 +24697,30 @@
       "scientificCodeName": "Locustella lanceolata"
     },
     {
+      "id": "mstlar1",
+      "de": "Stummellerche",
+      "en": "Mediterranean Short-toed Lark",
+      "enGB": "",
+      "sci": "Alaudala rufescens",
+      "codes": [
+        "ALRU",
+        "MSTL"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Lerchen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "ALRU"
+      ],
+      "scientificCodeName": "Alaudala rufescens"
+    },
+    {
       "id": "mewgul",
       "de": "Sturmmöwe",
       "en": "Common Gull",
@@ -22899,6 +25141,34 @@
       "scientificCodeName": "Euplectes afer"
     },
     {
+      "id": "norshr4",
+      "de": "Taigaraubwürger",
+      "en": "Northern Shrike",
+      "enGB": "",
+      "sci": "Lanius borealis",
+      "codes": [
+        "LABO",
+        "NSHR",
+        "NGSH",
+        "NOSH"
+      ],
+      "bandingCode": "NSHR",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": [
+          "Northern Grey Shrike"
+        ]
+      },
+      "group": "Würger",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "LABO"
+      ],
+      "scientificCodeName": "Lanius borealis"
+    },
+    {
       "id": "taifly1",
       "de": "Taigaschnäpper",
       "en": "Taiga Flycatcher",
@@ -23180,6 +25450,32 @@
       "scientificCodeName": "Xenus cinereus"
     },
     {
+      "id": "thelar1",
+      "de": "Theklalerche",
+      "en": "Thekla's Lark",
+      "enGB": "",
+      "sci": "Galerida theklae",
+      "codes": [
+        "GATH",
+        "THLA"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": [
+          "Thekla Lark"
+        ]
+      },
+      "group": "Lerchen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "GATH"
+      ],
+      "scientificCodeName": "Galerida theklae"
+    },
+    {
       "id": "redpha1",
       "de": "Thorshühnchen",
       "en": "Red Phalarope",
@@ -23451,6 +25747,30 @@
         "CHNI"
       ],
       "scientificCodeName": "Chlidonias niger"
+    },
+    {
+      "id": "blawhe1",
+      "de": "Trauersteinschmätzer",
+      "en": "Black Wheatear",
+      "enGB": "",
+      "sci": "Oenanthe leucura",
+      "codes": [
+        "OELE",
+        "BLWH"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Schnäpperverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "OELE"
+      ],
+      "scientificCodeName": "Oenanthe leucura"
     },
     {
       "id": "eutkne1",
@@ -23733,6 +26053,30 @@
       "scientificCodeName": "Limnodromus scolopaceus"
     },
     {
+      "id": "tstlar1",
+      "de": "Turkestanlerche",
+      "en": "Turkestan Short-toed Lark",
+      "enGB": "",
+      "sci": "Alaudala heinei",
+      "codes": [
+        "ALHE",
+        "TSTL"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Lerchen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "ALHE"
+      ],
+      "scientificCodeName": "Alaudala heinei"
+    },
+    {
       "id": "eurkes",
       "de": "Turmfalke",
       "en": "Eurasian Kestrel",
@@ -23984,6 +26328,30 @@
         "BUBU"
       ],
       "scientificCodeName": "Bubo bubo"
+    },
+    {
+      "id": "sibjay1",
+      "de": "Unglückshäher",
+      "en": "Siberian Jay",
+      "enGB": "",
+      "sci": "Perisoreus infaustus",
+      "codes": [
+        "PEIN",
+        "SIJA"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Krähenverwandte",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PEIN"
+      ],
+      "scientificCodeName": "Perisoreus infaustus"
     },
     {
       "id": "pllwar1",
@@ -24277,6 +26645,30 @@
         "CEFA"
       ],
       "scientificCodeName": "Certhia familiaris"
+    },
+    {
+      "id": "swisni1",
+      "de": "Waldbekassine",
+      "en": "Swinhoe's Snipe",
+      "enGB": "",
+      "sci": "Gallinago megala",
+      "codes": [
+        "GAME",
+        "SWSN"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Limikolen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "GAME"
+      ],
+      "scientificCodeName": "Gallinago megala"
     },
     {
       "id": "woothr",
@@ -25101,6 +27493,30 @@
       "scientificCodeName": "Rhodospiza obsoleta"
     },
     {
+      "id": "whwlar1",
+      "de": "Weißflügellerche",
+      "en": "White-winged Lark",
+      "enGB": "",
+      "sci": "Alauda leucoptera",
+      "codes": [
+        "ALLE",
+        "WWLA"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Lerchen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "ALLE"
+      ],
+      "scientificCodeName": "Alauda leucoptera"
+    },
+    {
       "id": "yebgro1",
       "de": "Weißhand-Kernbeißer",
       "en": "Yellow-billed Grosbeak",
@@ -25124,6 +27540,30 @@
         "EOMI"
       ],
       "scientificCodeName": "Eophona migratoria"
+    },
+    {
+      "id": "whicoc1",
+      "de": "Weißhaubenkakadu",
+      "en": "White Cockatoo",
+      "enGB": "",
+      "sci": "Cacatua alba",
+      "codes": [
+        "CAAL",
+        "WHCO"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Kakadus",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "CAAL"
+      ],
+      "scientificCodeName": "Cacatua alba"
     },
     {
       "id": "whtspa",
@@ -25839,6 +28279,30 @@
         "GADE"
       ],
       "scientificCodeName": "Gallinago delicata"
+    },
+    {
+      "id": "wilplo",
+      "de": "Wilsonregenpfeifer",
+      "en": "Wilson's Plover",
+      "enGB": "",
+      "sci": "Anarhynchus wilsonia",
+      "codes": [
+        "ANWI",
+        "WIPL"
+      ],
+      "bandingCode": "WIPL",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Limikolen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "ANWI"
+      ],
+      "scientificCodeName": "Anarhynchus wilsonia"
     },
     {
       "id": "wilpha",
@@ -26994,6 +29458,30 @@
         "TARU"
       ],
       "scientificCodeName": "Tachybaptus ruficollis"
+    },
+    {
+      "id": "lesmoo1",
+      "de": "Zwergteichhuhn",
+      "en": "Lesser Moorhen",
+      "enGB": "",
+      "sci": "Paragallinula angulata",
+      "codes": [
+        "PAAN",
+        "LEMO"
+      ],
+      "bandingCode": "",
+      "codeSource": "sci_quick_codes",
+      "aliases": {
+        "de": [],
+        "en": []
+      },
+      "group": "Rallen",
+      "status": [],
+      "note": "",
+      "scientificCodes": [
+        "PAAN"
+      ],
+      "scientificCodeName": "Paragallinula angulata"
     },
     {
       "id": "litbus1",

@@ -1,8 +1,8 @@
-import {isCodeTarget,validDdaEntry} from './code-targets.js?v=20261122-dda1';
-import {RULES,lessonQueueLimit,lessonBaseLimit} from './learning-model.js?v=20261105-recovery1';
-import {isNameLanguage} from './name-languages.js?v=20261122-dda1';
-import {validSeasonalDataset} from './hybrid-learning.js?v=20261108-quality1';
-import {SELECTION_REASONS} from './introduction-reason.js?v=20261123-introreason3';
+import {isCodeTarget,validDdaEntry} from './code-targets.js?v=20261123-countries1';
+import {RULES,lessonQueueLimit,lessonBaseLimit} from './learning-model.js?v=20261123-countries1';
+import {isNameLanguage} from './name-languages.js?v=20261123-countries1';
+import {validSeasonalDataset} from './hybrid-learning.js?v=20261123-countries1';
+import {SELECTION_REASONS} from './introduction-reason.js?v=20261123-countries1';
 // Serializable lesson state. Grading and navigation are separate so restored
 // feedback cannot grade an answer twice.
 export function validateLesson(value, ids) {

@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-11-05",
+  "reviewed": "2026-11-23",
   "scope": "Photographically distinguishable adult sexes or explicitly identified adult sexes in historical scientific illustrations. Sex and age assignments require an explicit source description, original caption or plate legend. Illustrations are labeled separately from photos. Images are not to scale; age, season and subspecies can affect appearance. New iNaturalist sex assignments require explicit community sex annotations on research-grade observations; unlabelled plumage is not used to infer sex.",
   "species": {
     "alepar2": {
@@ -14052,6 +14052,883 @@
       "evidence": [],
       "assessment": {
         "assessment": "unknown"
+      }
+    },
+    "arcwar2": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Kamchatka_leaf_warbler",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "batlar1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Bar-tailed_lark",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "blawhe1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Black_wheatear",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "blhwea1": {
+      "status": "single-image",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Yellow_backed_weaver.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Yellow backed weaver.jpg Uganda: Yellow-backed Weaver ( Ploceus melanocephalus ) Mbweya QE NP Dec 2005 Ploceus (male) breeding male",
+          "captionSource": "https://en.wikipedia.org/wiki/Black-headed_weaver"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Black-headed_weaver",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "File:Black-headed Weaver - Uganda MG 1449 (22432106578).jpg|Male displaying in papyrus marsh",
+          "File:Yellow backed weaver1.jpg|Male bird in Queen Elizabeth N.P., Uganda"
+        ]
+      }
+    },
+    "bltacc1": {
+      "status": "similar",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Black-throated_accentor",
+      "assessment": {
+        "assessment": "similar",
+        "articleEvidence": [
+          "Sexes are similar, but winter birds and juveniles are less contrasted. In particular, the dark throat may be almost absent in young birds."
+        ]
+      }
+    },
+    "brakit1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Brahminy_kite",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "The breeding season in South Asia is from December to April. The nests are constructed of small branches and sticks with a bowl inside and lined with leaves, and are located in various trees, often mangroves. A clutch of two dull-white or bluish-white oval eggs measuring 52 x 41&nbsp;mm is laid. Both parents take part in nest building and feeding, but likely only the female incubates. The incubation period is about 26 to 27 days."
+        ]
+      },
+      "selectionNote": "Retained the clear single-species main photograph; omitted redundant, mounted-specimen or mixed-species supplemental candidate."
+    },
+    "bratea1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Amazonetta_brasiliensis.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Amazonetta brasiliensis.jpg Amazonetta brasiliensis location: Jardim Botânico de São Paulo (from flickr gallery title)  Male",
+          "captionSource": "https://en.wikipedia.org/wiki/Brazilian_teal"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Amazonetta_brasiliensis-female.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Amazonetta brasiliensis-female.jpg Female Brazilian teal at Costanera Sur Ecological Reserve , Argentina  |Female at [[Costanera Sur Ecological Reserve|Costanera Sur]], [[Argentina]]",
+          "captionSource": "https://en.wikipedia.org/wiki/Brazilian_teal"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Brazilian_teal",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "File:Amazonetta brasiliensis-female.jpg|Female at Costanera Sur, Argentina",
+          "File:Amazonetta brasiliensis-male.jpg|Male at Costanera Sur, Argentina"
+        ]
+      }
+    },
+    "chswar": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Chestnut-sided_Warbler-male.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Chestnut-sided Warbler-male.jpg Chestnut-sided Warbler (Dendroica pensylvanica) male, Ottawa, Ontario  |thumb|right|Male, [[Ottawa]], [[Ontario]]]]",
+          "captionSource": "https://en.wikipedia.org/wiki/Chestnut-sided_warbler"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Dendroica_pensylvanica_MN4.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Dendroica pensylvanica MN4.jpg Chestnut-sided Warbler , female, Réserve naturelle des Marais-du-Nord , Quebec, Canada.  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Dendroica_pensylvanica_MN4.jpg"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Chestnut-sided_warbler",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "thumb|right|Male, Ottawa, Ontario",
+          "In the summer, male chestnut-sided warblers are unmistakable in appearance. They display dark-streaked gray backs, white faces, black eyestripes and yellow crowns. Their underparts are white, with chestnut flanks, and they also have two white wing bars. The adult females resemble washed-out versions of the summer male, and in particular, the females lack the strong head pattern, and also have little to no chestnut coloring on their flanks.",
+          "Non-breeding birds of both sexes have bright yellow-green crowns, white eye-rings on a grey face, and unstreaked underparts. They also have unstreaked pale grey breasts. Their wing bars are always present in their plumages.",
+          "In the tropics where they winter, the species occurs mostly in mature tropical rainforests where they tend to stick to the mid- to upper- canopy. They are known to use coffee plantations and riparian zones in Costa Rica. Some males sing only unaccented songs, and they are less successful at securing mates than males that sing both songs. Their calls are harsh chips. Despite the fact that songs for courtship do not vary across small distances, songs for aggression are highly localized, a possible explanation being that female Chestnut-Sided Warblers disperse over long distances.",
+          "Billy Weber uploaded his observation of a chestnut-sided warbler and black-throated blue warbler (Setophaga caerulescens) hybrid to ebird in 2019. The hybrid, located in Pennsylvania, visually looked like a male black-throated blue warbler with brown sides."
+        ]
+      }
+    },
+    "corfin1": {
+      "status": "single-image",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Corsican_finch_inaturalist.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Corsican finch inaturalist.jpg Corsican finch Carduelis corsicana  male",
+          "captionSource": "https://en.wikipedia.org/wiki/Corsican_finch"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Corsican_finch",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "cornut1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Sitta_whiteheadi_-_Christoph_Moning_-_4_(cropped).jpeg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Sitta whiteheadi - Christoph Moning - 4 (cropped).jpeg Sitta whitheadi , in Corsica  Male",
+          "captionSource": "https://en.wikipedia.org/wiki/Corsican_nuthatch"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Pica-soques_cors_(Sitta_whiteheadi)_(cropped).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Pica-soques cors (Sitta whiteheadi) (cropped).jpg Una espècie endèmica de Còrsega, el Pica-soques cors. A la Vall de Restonica, aprop de Corte (Còrsega). En cors l'anomenen Furmicula, Pichja sorda, pichjarina i capinera. Female individual.  |right|thumb|alt=A grey bird with black crown at the branch of tree|A female in the gorges of [[Restonica]] near [[Corte, Haute-Corse|Corte]], with a dark grey crown towards the front blending rapidly into the grey-blue of the back.]]",
+          "captionSource": "https://en.wikipedia.org/wiki/Corsican_nuthatch"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Corsican_nuthatch",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "In the summer of 2006, a Dutch group participating in an entomological expedition incidentally observed a pair of nuthatches in the Altai, near the meeting point of China, Kazakhstan, Mongolia and Russia, in a pure Siberian larch (Larix sibirica) forest. The male had a black crown, and the female did not, and both had a dark {{birdgloss|eyestripe}} topped by a white supercilium. The closest species geographically that might fit this description is the Chinese nuthatch (S. villosa), which would then be far from its known distribution, and which has more buffy underparts than the observed individuals but they were also close to Corsican nuthatch in appearance. This record could be indicative of a much wider distribution of the Chinese species, or the bird could be an as yet undescribed species related to S. whiteheadi and S. villosa.",
+          "The Corsican nuthatch was described by Sharpe in March 1884, based on the first male specimen collected by Whitehead, after who it was given the specific name. Whitehead sent a second male to Sharpe, who presented it in May to the Zoological Society of London. In June, Sharpe completed the description of the species after Whitehead sent him a female. and has no subspecies.",
+          "In 1998, Eric Pasquet studied the cytochrome b of the mitochondrial DNA of a dozen nuthatch species, including the various species of the Sitta canadensis group, which he defined as comprising six species, which are also those of what is sometimes treated as the subgenus Sitta subgenus Micrositta: The study findings align with the morphology of the species, the red-breasted nuthatch, Corsican nuthatch and Chinese nuthatch sharing as a derived character the entirely black crown only present in males, a unique trait in the Sittidae and related families. The second clade, which includes Krüper's and Algerian nuthatches, has a black front crown only in males, this sexual dimorphism being absent in young individuals. with a wingspan of {{convert|21|-|22|cm|in|abbr=on}} and a weight of {{convert|11|-|12.6|g|oz}}. The folded wing measures {{convert|7|cm|in|abbr=on}}, the relatively short tail measures {{convert|3.5|cm|in|abbr=on}}, and the tarsus and beak measure {{convert|1.6|cm|in|abbr=on}}. The head is small and the {{birdgloss|bill}} is short for a nuthatch. It is thin and blackish grey, black on its tip. The eyes are black, the legs and toes are light brown. In females, the crown and eyebrow line are the same grey as the back. When agitated, this nuthatch emits a \"rough and stretched, slowly repeated\" pchèèhr, as might a common starling (Sturnus vulgaris), The Corsican nuthatch is also similar to the red-breasted nuthatch, which is found only in North America, but has yellowish underparts. Finally, the Corsican species most closely resembles the Algerian nuthatch, from Babor Mountains, which can be distinguished by its paler underparts, whitish sides of the head, and by the male's crown, which has only the black front. Its range covers the majority of the island, which is very mountainous. This bird is found from the Tartagine-Melaja forest in the north to the Ospedale forest in the south, but it is particularly abundant in the Monte Cinto, Monte Rotondo, Monte Renoso and Monte Incudine Massifs. There are also two isolated populations, one in Castagniccia in the northeast of the island, and another in the Cagna forest in the south.",
+          "Male Corsican nuthatches begin singing in late December, but the breeding season occurs in April–May. In years of high cone production, breeding occurs early; in years of low production, nuthatches must wait until insects are present in large quantities. The species depends for its nesting on conifers that are two to three hundred years old with sufficiently soft trunks, dead, worm-eaten or partially struck by lightning. The Corsican nuthatch favours dead trees that still have some branches, which can be used as a singing post, as a stalking post or to monitor the surroundings, but the height of the trunk, the surrounding pine cover or the diameter of the trunk are not significant. The nest is placed between {{convert|2|-|30|m|ft|abbr=on}} above the ground. It is made of various plant materials (pine needles, bark, and shavings) and lined with softer materials such as feathers, moss, horsehair, or lichen. according to Jourdain, who compares 42 eggs (14 collected by Whitehead, the other 28 by himself), they measure on average {{convert|17.18 |×|12.96|mm|in|abbr=on|sigfig=2}}. The average weight, calculated for 17 of these eggs, is 82.2 milligrams. Brooding lasts from 14 to 17 days; it is carried out by the female alone, which the male feeds on average 3.2 times per hour. The beak and wing of the chicks grow steadily, while the tarsus stabilises by the twelfth day; the crown darkens by the eleventh day, and the young are fully plumaged after an average of twenty days. life expectancy is poorly known, but colour ringing has shown that a small number of individuals can reach six years old. The Corsican nuthatch was considered by the International Union for Conservation of Nature as \"near threatened\" in 1988, and \"least concern\" in 2004, 2008 and 2009. Since 2010, it has been considered \"vulnerable\", For the same period in the Restonica gorges, 6 out of 12 territories were lost. The major impacts of the forest fires of August 2003 also led to a decline in the population, which was reduced by 37.5% the following spring."
+        ]
+      }
+    },
+    "egyplo1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Egyptian_plover",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "foxspa": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Fox_sparrow",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "* {{cite journal | last1 = Martin | first1 = DJ | year = 1980 | title = Response by Male Fox Sparrows Passerella-Iliaca to Broadcast of Particular Con Specific Songs | journal = Wilson Bulletin | volume = 92 | issue = 1| pages = 21–32 }}"
+        ]
+      }
+    },
+    "grgowl": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Adult_male_Great_Grey_Owl_(Canada).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Adult male Great Grey Owl (Canada).jpg Adult male Great Grey Owl (Canada)  |thumb|Adult male great grey owl (Canada)]]",
+          "captionSource": "https://en.wikipedia.org/wiki/Great_grey_owl"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Nash1b.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Nash1b.jpg Great Grey Owl, Manitoba, Canada  |thumb|left|Adult female]]",
+          "captionSource": "https://en.wikipedia.org/wiki/Great_grey_owl"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Great_grey_owl",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "thumb|Adult male great grey owl (Canada)",
+          "Great grey owls do not build nests, so they typically use nests previously used by a large bird, such as a raptor. They also nest in broken-topped trees and cavities in large trees. In southwestern and northeastern Oregon, the great grey owl has been using man-made platforms for nest sites since the 1980s. The erection of nest platforms for them was pioneered by Robert Nero in central Canada in the 1970s. Nesting may occur from March to May. Unlike, for example, osprey or white storks, the great grey owl does not predictably reuse nest sites over consecutive years. Clutches contain between  2-5 eggs. Eggs average {{convert|42.7|mm|in|abbr=on}} wide and {{convert|53.5|mm|in|abbr=on}} long. The incubation period is about 30&nbsp;days, ranging from 28 to 36&nbsp;days. Brooding lasts 2 to 3&nbsp;weeks, after which the female starts roosting on a tree near nests. The young jump or fall from the nest at 3 to 4&nbsp;weeks, and start to fly 1 to 2&nbsp;weeks after this. Immediately after fledging, the white, fuzzy young must use beak and feet to climb back into trees. The female is on guard at this time and may be aggressive toward potential predators. Most offspring remain near their natal sites for many months after fledging. Normally, the male hunts for his mate and the young throughout the nesting period. Once the young begin to fly, the female typically withdraws and the male continues to feed the young until they can hunt on their own in the autumn. The young owls go off on their own by winter.",
+          "The abundance of food in the area usually affects the number of eggs a female lays, a feature quite common in northern owl species. In years when small mammal populations are very low, the great grey owl may not attempt nesting; thus, their reproduction is connected to the sometimes-extreme fluctuations of small mammal populations. Also, great grey owls may not nest in years of drought. If food is scarce, they may travel a fair distance to find more prey, with considerable movements by large numbers in some years of particularly scarce prey. Though they do not migrate, many are at least somewhat nomadic.",
+          "Unlike the more versatile eagle and horned owls, great grey owls rely almost fully upon small rodents. What species they eat depends on which small mammals are most abundant and available. In northern Canada and other parts of Scandinavia, they eat lemmings primarily. In dry parts of California's Sierra Nevada, they eat mostly pocket gophers. In some areas, voles are the predominant prey. Locally, alternative prey animals (usually comprising less than 20% of prey intake) include squirrels, hares, moles, shrews, weasels, thrushes, grouse, Canada jays, mountain quail, small hawks, ducks, frogs, and large beetles. This species is not known to scavenge or steal from other predators. In mated pairs, the male is the primary hunter that provides food for the entire family while the female guards and broods the eggs, nestlings, and flightless fledglings."
+        ]
+      }
+    },
+    "grnwoo3": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Picus_viridis_sharpei_033.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Picus viridis sharpei 033.jpg A male Iberian Woodpecker ( Picus sharpei ) in Madrid ( Spain ). Picus sharpei (male) ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Picus_viridis_sharpei_033.jpg"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Picus_viridis_sharpei_080.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Picus viridis sharpei 080.jpg A female Iberian Woodpecker ( Picus sharpei ) in Madrid ( Spain ). Picus sharpei (female) Female",
+          "captionSource": "https://en.wikipedia.org/wiki/Iberian_green_woodpecker"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Iberian_green_woodpecker",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "gyhchi": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Grey-headed_chickadee",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "houbun3": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/House_bunting",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "It is 14&nbsp;cm long, similar in size to the striolated bunting and smaller than the rock bunting. The breeding male has a sandy orange-brown body and a grey head slightly dark-streaked but without the white supercilium that the striolated bunting has. The female's head has a brown tint to the grey, and more diffused streaking."
+        ]
+      },
+      "selectionNote": "Retained the clear single-species main photograph; omitted redundant, mounted-specimen or mixed-species supplemental candidate."
+    },
+    "ibgshr1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Iberian_grey_shrike",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "indsil": {
+      "status": "similar",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Indian_silverbill",
+      "assessment": {
+        "assessment": "similar",
+        "articleEvidence": [
+          "The adult Indian silverbill is 11–11.5&nbsp;cm long and has a conical silver-grey bill, buff-brown upperparts, white underparts, buffy flanks and dark wings. The tail is black and the wings are dark contrasting with a white rump. The sexes are similar, but immatures have buff underparts and a shorter tail. The tail appears pointed as the length of the feathers reduces from the centre outwards. It feeds mainly on seeds, but also takes insects and has been known to visit nectar bearing flowers, such as those of Erythrina trees."
+        ]
+      }
+    },
+    "inpher1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Indian_pond_heron",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "The breeding season begins with the onset of the monsoons. They nest in small colonies, often with other wading birds, usually on platforms of sticks in trees or shrubs. Most nests are built at a height of about 9 to 10&nbsp;m in large leafy trees. The nest material is collected by the male while the female builds the nest. Three to five eggs are laid. The eggs hatch asynchronously, taking 18 to 24 days to hatch. Both parents feed the young. Fish are the main diet fed to young. Nest sites that are not disturbed may be reused year after year."
+        ]
+      }
+    },
+    "kitplo1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Kittlitz%27s_plover",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "Kittlitz's plover is a small shorebird weighing between 35 and 40 grams. Both males and females share similar physical characteristics, with a black bill, dark brown eyes framed by black eyelids, and black legs, although at times, the legs can appear greenish or grey. During the breeding season, the male displays distinct features, including a white forehead, a blackish bar followed by a narrow white bar on the forecrown, while the remainder of the crown appears brown with sandy tips on the feathers. A black stripe, separated from the crown by a white superciliary stripe, runs from the bill through the eye and extends to the side of the neck, forming a collar across the upper mantle. The mantle is dark grey-brown, and the other upperparts are sooty brown with feathers featuring sandy rufous margins. The face, chin and upper throat are white, while the rest of the underparts take on a yellowish hue, with a pale belly. Kittlitz's plover possesses blackish central tail feathers that progressively become lighter towards the tail's sides, and the outer one or two pairs are completely white. Notably, Kittlitz's plover is not sexually size dimorphic, meaning that males and females share similar size characteristics. The female plumage closely resembles that of the male, although the black band across the forecrown is narrower. The non-breeding plumage does not differ significantly from the breeding plumage. In this stage, the eye stripe takes on a browner shade, and the frontal bar is absent, while the underparts become considerably paler. Generally, adult Kittlitz's plovers exhibit a wing length ranging from 100 to 110&nbsp;mm, an adult bill length between 15 and 23&nbsp;mm, and an adult tarsus length between 26 and 33&nbsp;mm. Juvenile Kittlitz's plovers closely resemble adults; however, they lack the black face marks, their upperparts appear brown, the hindneck collar is buff in color, and their underparts are white.",
+          "In Madagascar, Kittlitz's plover is both a breeding resident and intra-island migrant although it has been recorded at up to 1,400 m too. There is limited evidence for comparable variation in Madagascar. In the lower Mangoky basin for instance, they are thought to be resident, whereas at the Lake Tsimanampetsotsa, ringed adults have been recorded to have moved 113&nbsp;km to Ifaty. During fights, the males give a buzzy call in aggressive or courtship chases. When male or female are feigning injury, they give a 'cheep-cheep' and when a parent is inviting the young to brood, it gives a 'chip-chip' and the young are being warned with a 'trr-trr'. Copulation and feeding both take place in the territories, which can occupy 3600–4200m². The parents are highly defensive of their territories until the chicks hatch. When intruders invade their territory representing a threat, the parents run after them, stopping shortly in front of them, taking on an upright posture with their legs almost straight and their head up. and consists of a scrape-ceremony, where one bird is placing its breast on the sand, then rotating around on the breast, whilst having its tail raised and kicking out sand with back- and forward movements of its legs. Usually, the male takes the initiative of making several scrapes (although sometimes both parents take turns in making them) Both parents pick up pebbles or break off bits of dead vegetation as nest material to line the nest with. Sometimes the old scrape may be reused, probably by the same pair."
+        ]
+      }
+    },
+    "lagfal1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Laggar_Falcon_adult_male.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Laggar Falcon adult male.jpg Classic plumage of adult Laggar Falcon, very plain whitish underparts, thin dark contrasting moustachial stripe, slight reddish head and bluish/grey Upperparts. Bare parts darker yellow.  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Laggar_Falcon_adult_male.jpg"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Laggar_Falcon_pair.jpg",
+          "sexes": [
+            "male",
+            "female"
+          ],
+          "basis": "Laggar Falcon pair.jpg In this pair of Laggar Falcons, left one is an adult male with darker head and the other one is an adult female. Her head is pale compared to that male. Such variations are seen usually.  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Laggar_Falcon_pair.jpg"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Laggar_falcon",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "lesmoo1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Lesser_moorhen",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "mitpar": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Mitred_parakeet",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "mstlar1": {
+      "status": "similar",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Mediterranean_short-toed_lark",
+      "assessment": {
+        "assessment": "similar",
+        "articleEvidence": [
+          "The Mediterranean short-toed lark is similar in size and appearance to the greater short-toed lark but is generally a duller-looking bird with a more streaked breast. It grows to a length of from {{cvt|13|to|14|cm|in|1}} and the sexes are similar. As with the greater short-toed lark, the colour varies across the broad range and is not a good distinguishing feature. It is dark-streaked greyish-brown above, and white below. It has a pale supercilium, and a short stubby bill."
+        ]
+      }
+    },
+    "norshr4": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Northern_shrike",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "oricuc2": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Oriental_cuckoo",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "It is 30–32 centimetres long with a wingspan of 51–57 centimetres and a weight of 73–156 grams. The adult male has a grey head, breast and upperparts. The belly is creamy-white with dark bars. The vent is frequently buff with few markings. The legs and feet are orange-yellow and there is a bare yellow ring around the eye. Adult females and juveniles occur in two morphs. The grey morph is similar to the male but has a brownish wash on the breast. The rufous morph is reddish-brown above, paler on the underparts and with strong dark bands all over including the rump.",
+          "The common cuckoo (C. canorus) is very similar in appearance but is slightly bulkier with longer wings and tail and a slightly smaller head and bill. It is slightly paler grey and the barring on the underparts is a little narrower. The vent is usually white with dark bars but is more similar to Oriental cuckoo in a few individuals. Birds of the rufous morph have a plain rump with no dark bars unlike the Oriental cuckoo. Rufous morphs may have evolved to deter male harassment or host species mobbing, and may be ancestral to both common cuckoos and Oriental cuckoos.",
+          "The call of the male Oriental cuckoo is a series of low paired notes, poo-poo, with both notes stressed equally. It is somewhat similar to the call of the hoopoe. It may be introduced with a four to eight note phrase or sometimes with grating notes. The female's call is a deep bubbling trill. Outside the breeding season, the birds are usually silent. The call of the male Himalayan cuckoo is a series of three or four note phrases with a short, high-pitched introductory note."
+        ]
+      }
+    },
+    "orihob2": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Oriental_honey_buzzard_Mudumalai_Mar21_DSC01405.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Oriental honey buzzard Mudumalai Mar21 DSC01405.jpg Oriental honey buzzard (Pernis ptilorhynchus) (f) perched on a tree, Mudumalai National Park, Tamilnadu, India. Yellow iris indicates a female. The crested honey buzzard is a specialist feeder . Unlike other raptors, it mainly eats the grubs of bees and wasps, with bits of comb and honey. It takes other small insects such as cicadas. Occasionally, it eats small birds, reptiles and frogs like other raptors. While perched, it observes the flight lines of bees and wasps to locate their honeycombs.  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Oriental_honey_buzzard_Mudumalai_Mar21_DSC01405.jpg"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Crested_Honey_Buzzard_(Oriental_Honey-buzzard)_IMG_3364.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Crested Honey Buzzard (Oriental Honey-buzzard) IMG 3364.jpg Crested Honey Buzzard (m) (Oriental Honey-buzzard) IMG 3364 VAlparai Aves (male) |thumb|Front view of male, [[Valparai]], [[Tamil Nadu]], [[India]]]]",
+          "captionSource": "https://en.wikipedia.org/wiki/Crested_honey_buzzard"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Crested_honey_buzzard",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "thumb|Front view of male, Valparai, Tamil Nadu, India",
+          "About {{cvt|57-60|cm}} in size, the crested honey buzzard is a fairly large The head lacks a strong superciliary ridge, giving it a facial appearance very unlike a raptor. It appears long-necked with a small head resembling that of a pigeon. It has a long tail and a short head crest. It is brown above, but not as dark as the European honey buzzard, and paler below. A dark throat stripe is present. Unusually for a large bird of prey, the sexes can be distinguished. The male has a blue-grey head with brown iris, while the female's head is brown and the iris is yellow. She is slightly larger and darker than the male. The male has two black bands in the tail and three black under wing bands, while the female has three black tail bands and four narrower black under wing bands. The juvenile has extensive black primary tips with narrower underwing bands. It has a yellow cere at the base of the bill, and a dark iris. The colouration and the tail pattern of the species are highly variable."
+        ]
+      }
+    },
+    "piebus1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_(cropped).jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Pied Bushchat in Bhigwan August 2025 by Tisha Mukherjee 01 (cropped).jpg Pied Bushchat ( Saxicola caprata , Muscicapidae , Passeriformes ) in Bhigwan , Maharashtra, India.  Male in [[Bhigwan]], Maharashtra, India.",
+          "captionSource": "https://en.wikipedia.org/wiki/Pied_bush_chat"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Pied_bushchat_(female)_in_Malino,_South_Sulawesi,_Indonesia.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Pied bushchat (female) in Malino, South Sulawesi, Indonesia.jpg Female pied bushchat in a tree next to rice paddies in Malino, South Sulawesi  female ''S. c. albononatus'' South [[Sulawesi]]",
+          "captionSource": "https://en.wikipedia.org/wiki/Pied_bush_chat"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Pied_bush_chat",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "Pied bushchat (Saxicola caprata burmanicus) male Pearaing.jpg|male S. c. burmanicus<br>Cambodia",
+          "Pied_bush_chat_(Saxicola_caprata)male_from_nilgiris_DSC_1123.jpg|male S. c. nilgiriensis<br>Nilgiri mountains",
+          "Pied bushchat (female) in Malino, South Sulawesi, Indonesia.jpg|female S. c. albononatus<br>South Sulawesi",
+          "At {{Convert|13|cm|in|abbr=on}}, the pied bush chat is slightly smaller than the Siberian stonechat, Saxicola maurus, although it has a similar dumpy structure and upright stance. The male is black except for a white rump, wing patch and lower belly. The iris is dark brown, the bill and legs black. The female is drab brown and slightly streaked. Juveniles have a scaly appearance on the underside but dark above like the females.",
+          "The female has dark brown upperparts and rufous underparts and rump. She has no white wing patches. Juveniles are similar to females. Males display during the breeding season by splaying the tail, fluttering and puffing up the white scapular feathers."
+        ]
+      }
+    },
+    "pitsan1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Pin-tailed_sandgrouse",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "The pin-tailed sandgrouse (Pterocles alchata) is a medium large bird in the sandgrouse family. It has a small, pigeon-like head and neck and a sturdy, compact body. It has long pointed wings, which are white underneath, a long tail and a fast direct flight. Flocks fly to watering holes at dawn. The call is a loud kattar-kattar. This gregarious species breeds on dry open treeless plains and similar habitats. Its nest is a ground scrape into which two or three cream-coloured eggs with cryptic markings are laid. Both sexes incubate the eggs.",
+          "The pin-tailed sandgrouse is about {{convert|35|cm}} long. Its head and upperparts are yellowish-green. The underparts are white with a chestnut breast band separating the belly from the green neck. Sexes are somewhat similar, but the female is better camouflaged and has a shorter tail than the male. There are two subspecies; P.&nbsp;a. alchata breeds in southern Europe and P.&nbsp;a. caudacutus breeds in northwestern Africa, the Middle East and southeastern Asia. It is a partial migrant, with some Asian birds moving to the Middle East and northern Pakistan in winter. Males of the eastern race have duller underparts than the European birds, and the females have white, rather than yellow, wing coverts.",
+          "The female is generally similar to the male but the colours are duller. The cheeks and neck are golden-buff and lack the greenish tinge of the male. There is a black stripe running through the eye. The chin is white and there is an additional yellow-buff band across the breast with a broad black stripe above, another thinner one about a third of the way down and a further narrow black stripe at the base. The back and wings are grey, barred with black. The rump and the tail (which has shorter central feathers than the male) are similar in colouration to the male but have finer black barrings."
+        ]
+      },
+      "selectionNote": "Retained the clear single-species main photograph; omitted redundant, mounted-specimen or mixed-species supplemental candidate."
+    },
+    "railor4": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Coconut_lorikeet",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "The male's iris is bright red, while in the female it is orange-red, but the difference is slight and somewhat dependent on the bird's general health, and thus unreliable except for sexing mated pairs; otherwise the sexes look all alike. Young birds differ from adults by the lack of bright neck, breast, and belly coloration, and by being duller and smaller overall."
+        ]
+      }
+    },
+    "rempar": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Red-masked_parakeet",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "rennig1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Red-necked_nightjar",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "retwhe3": {
+      "status": "single-image",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Oenanthe_xanthoprymna_-_Kurdish_Wheatear,_Osmaniye,_Turkey_01.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Oenanthe xanthoprymna - Kurdish Wheatear, Osmaniye, Turkey 01.jpg A male Red-tailed Wheatear ( Oenanthe xanthoprymna ) in Yogunoluk - Kadirli, Osmaniye - Turkey.  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Oenanthe_xanthoprymna_-_Kurdish_Wheatear,_Osmaniye,_Turkey_01.jpg"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Kurdish_wheatear",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "The Kurdish wheatear is about {{convert|14|cm}} in length. The top of the head and the nape of the male are pale grey, separated by a white eye stripe from the black face and throat. The back is brownish grey and the underparts white or buff. The wings are charcoal with no white streak, the flight feathers being edged with brown. The flanks and under-tail coverts are orange and the tail white at the base with a dark terminal band. The female has similar markings but the colours are more muted and the dark face and throat replaced by a grey eye patch. The orange rump and tail coverts are particularly noticeable in the winter when the male is in flight."
+        ]
+      }
+    },
+    "royter2": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/West_African_crested_tern",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "semfly1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Ficedula_semitorquata_male_singing_in_Azerbaijan.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Ficedula semitorquata male singing in Azerbaijan.jpg Semicollared Flycatcher ( Ficedula semitorquata ) male singing in Azerbaijan  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Ficedula_semitorquata_male_singing_in_Azerbaijan.jpg"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Semi-collared_flycatcher_Ficedula_semitorquata_(3497826766).jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Semi-collared flycatcher Ficedula semitorquata (3497826766).jpg I (Paul) took this picture to identify the bird from its two cogeners, the collared and pied flycatchers. I base the identification of this female mainly on the white in the median coverts.  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Semi-collared_flycatcher_Ficedula_semitorquata_(3497826766).jpg"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Semicollared_flycatcher",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "The breeding male is mainly black above and white below, with a white half-collar (usually extending further back than in European pied), large white wing patch, a white bar on median coverts (absent in European Pied and collared), extensively white tail sides and a large white forehead patch. It often has a pale grey rump. The bill is black and has the broad but pointed shape typical of aerial insectivores. It mainly takes insects in flight, rarely hunting caterpillars amongst the tree foliage like pied flycatcher.",
+          "Non-breeding male, females and juvenile semi-collared flycatchers have the black replaced by a pale brown, and may be very difficult to distinguish from other Ficedula flycatchers, particularly the collared flycatcher. A distinction is that semicollared in these plumages often show narrower white edges to tertials. A white bar on median coverts is also typical of female-type plumages, though first winters of European pied and collared flycatchers may also show this feature."
+        ]
+      }
+    },
+    "shtshe": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Short-tailed_shearwater",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "sibjay1": {
+      "status": "similar",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Siberian_jay",
+      "assessment": {
+        "assessment": "similar",
+        "articleEvidence": [
+          "The Siberian jay (Perisoreus infaustus) is a small jay with a widespread distribution within the coniferous forests in North Eurasia. It has grey-brown plumage with a darker brown crown and a paler throat. It is rusty-red in a panel near the wing-bend, on the undertail coverts and on the sides of the tail. The sexes are similar. Although its habitat is being fragmented, it is a common bird with a very wide range so the International Union for Conservation of Nature has assessed its conservation status as being of \"least concern\"."
+        ]
+      }
+    },
+    "soghor1": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Southern_Ground_Hornbill_(Bucorvus_leadbeateri)_male_(12714625605),_crop.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Southern Ground Hornbill (Bucorvus leadbeateri) male (12714625605), crop.jpg A male Southern ground hornbill on the S21 Road west of Lower Sabie, Kruger NP, SOUTH AFRICA Bucorvus leadbeateri (male) ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Southern_Ground_Hornbill_(Bucorvus_leadbeateri)_male_(12714625605),_crop.jpg"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:SouthernGroundHornbillFrog.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "SouthernGroundHornbillFrog.jpg Photo taken in Kruger National Park. A Southern Ground Hornbill (Bucorvus leadbeateri) foraging after a controlled burn. It found a petrified frog, and continuously threw it into the air in an attempt to eat it, unsuccessfully for over 30 minutes.  |thumb|263x263px|A adult female Southern Ground Hornbill attempting to eat a petrified frog in [[Kruger National Park]]. {{Cite web |last=Gilham |first=Ethan |date=2025-07-14 |title=Southern Ground Hornbill (Bucorvus leadbeateri) |url=https://www.inaturalist.org/observations/297895442 |access-date=2025-11-23 |website=iNaturalist |language=en}} ]]",
+          "captionSource": "https://en.wikipedia.org/wiki/Southern_ground_hornbill"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Southern_ground_hornbill",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "Southern ground hornbills are carnivorous and hunt mostly on the ground. Their food ranges from insects to small vertebrates. These birds are a long-lived species, having lifespans in the range of 50–60 years, and up to 70 in captivity. Their sex can be identified by the colour of their throats: the male's is pure red and the female's is a deep violet-blue. However, their numbers have been declining, due in part to persecution, habitat destruction, cultural beliefs, and other factors. They are listed globally as 'Vulnerable' by the IUCN as of 2018, and as 'Endangered' in South Africa, Lesotho, Namibia and Eswatini.",
+          "thumb|263x263px|A adult female Southern Ground Hornbill attempting to eat a petrified frog in Kruger National Park.",
+          "Southern Ground Hornbill (Bucorvus leadbeateri) (14013856052).jpg|A foraging male",
+          "Southern Ground Hornbill (Bucorvus leadbeateri) male (11451032976).jpg|Catching beetles in dung"
+        ]
+      }
+    },
+    "spaeag1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Spanish_imperial_eagle",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "This is a large raptor and quite large eagle, broadly similar in size to its cousin, the eastern imperial eagle, which is found in a considerably different distributional range. Compared to sympatric largish booted eagles, it is somewhat smaller than the golden eagle and somewhat larger than Bonelli's eagle. Spanish imperial eagles can weigh from {{convert|2.5|to|4.8|kg|lb|abbr=on}}. The average weight of males in a sample of 10 was {{convert|3.19|kg|lb|abbr=on}} while that of 17 females was found to be {{convert|3.43|kg|lb|abbr=on}}. Meanwhile, another sample of 10 unsexed adults weighed an average of {{convert|3.93|kg|lb|abbr=on}}. Thus, the Spanish imperial eagle weighs about 10% more on average than the eastern imperial eagle and rivals the considerably longer-winged and longer-tailed wedge-tailed eagle as the third heaviest member of the Aquila genus behind the golden and Verreaux's eagles. This species has a total length of {{convert|72|to|85|cm|in|abbr=on}} and a wingspan of {{convert|177|to|220|cm|ftin|0|abbr=on}}. A typical wingspan for a male is reportedly about {{convert|190|cm|ftin|0|abbr=on}} while for a female may be about {{convert|210|cm|ftin|0|abbr=on}}. "
+        ]
+      }
+    },
+    "spepig1": {
+      "status": "similar",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Speckled_pigeon",
+      "assessment": {
+        "assessment": "similar",
+        "articleEvidence": [
+          "It is a medium-sized pigeon, at 32–35&nbsp;cm in length similar in size to rock dove and stock dove. Its back and wings are rufous, the latter heavily speckled with white spots. The rest of the upperparts and underparts are blue-grey, and the head is grey with red patches of bare skin around the eye. The neck is brownish, streaked with white, and the legs are red. The sexes are similar, but immatures are browner than adults and lack the red eye patches. The call is a loud doo-doo-doo."
+        ]
+      }
+    },
+    "sposta1": {
+      "status": "single-image",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Spotless_starling_(Sturnus_unicolor)_display_1.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Spotless starling (Sturnus unicolor) display 1.jpg Spotless starling ( Sturnus unicolor ), near Trujillo, Spain. No 1 of a pair of images showing courting display  Breeding male, [[Trujillo, Spain]]",
+          "captionSource": "https://en.wikipedia.org/wiki/Spotless_starling"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Spotless_starling",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      },
+      "selectionNote": "Retained the clear single-species main photograph; omitted redundant, mounted-specimen or mixed-species supplemental candidate."
+    },
+    "swisni1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Swinhoe%27s_snipe",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "thelar1": {
+      "status": "similar",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Thekla%27s_lark",
+      "assessment": {
+        "assessment": "similar",
+        "articleEvidence": [
+          "This is a smallish lark, slightly smaller than the Eurasian skylark. It has a long, spiky, erectile crest. It is also greyer than the Eurasian skylark, and lacks the white wing and tail edge of that species. The body is mainly dark-streaked grey above and whitish below. The sexes are similar."
+        ]
+      }
+    },
+    "triwar1": {
+      "status": "single-image",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Fauvette_de_l%27Atlas_Femelle_Jebil_NP.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Fauvette de l'Atlas Femelle Jebil NP.jpg Tristram's Warbler (Curruca deserticola) at Jebil NP  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Fauvette_de_l%27Atlas_Femelle_Jebil_NP.jpg"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Tristram%27s_warbler",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "tstlar1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Turkestan_short-toed_lark",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      }
+    },
+    "whicoc1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/White_cockatoo",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "The white cockatoo is around {{convert|46|cm|in|abbr=on}} long, and weighs about {{convert|400|g|oz|abbr=on}} for small females and up to {{convert|800|g|oz|abbr=on}} for big males.  The male white cockatoo usually has a broader head and a bigger beak than the female.  They have brown or black eyes and a dark grey beak.  When mature some female white cockatoos can have reddish/brown irises, while the irises of the adult male are dark brown or black.",
+          "Like all cockatoos, the white cockatoo nests in hollows of large trees. Its eggs are white and there are usually two in a clutch. During the incubation period – about 28 days – both the female and male incubate the eggs. The larger chick becomes dominant over the smaller chick and takes more of the food. The chicks leave the nest about 84 days after hatching and are independent in 15–18 weeks.",
+          "Juveniles reach sexual maturity in 3–4 years. As part of the courtship behavior, the male ruffles his feathers, spreads his tail feathers, extends his wings, and erects his crest. He then bounces about. Initially, the female ignores or avoids him, but – provided he meets her approval – will eventually allow him to approach her. If his efforts are successful and he is accepted, the pair will be seen preening each other's head and scratching each other around the tail. These actions serve to strengthen their pair bond. Eventually, the male mounts the female and performs the actual act of mating by joining of the cloacae. For bonded pairs, this mating ritual is much shorter and the female may even approach the male. Once they are ready for nesting, breeding pairs separate from their groups and search for a suitable nest cavity (usually in trees)."
+        ]
+      }
+    },
+    "whnrav1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/White-necked_raven",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": []
+      },
+      "selectionNote": "Retained the clear single-species main photograph; omitted redundant, mounted-specimen or mixed-species supplemental candidate."
+    },
+    "whssta2": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Sturnia_sinensis,_San_Tin,_Hong_Kong_1.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Sturnia sinensis, San Tin, Hong Kong 1.jpg White-shouldered Starling Sturnia sinensis , male, San Tin, Hong Kong, China.  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Sturnia_sinensis,_San_Tin,_Hong_Kong_1.jpg"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Sturnia_sinensis,_Don_Yai_Nu,_Kui_Buri_District,_Prachuap_Khiri_Khan,_Thailand_1.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Sturnia sinensis, Don Yai Nu, Kui Buri District, Prachuap Khiri Khan, Thailand 1.jpg White-shouldered Starling Sturnia sinensis , female, Don Yai Nu, Kui Buri District, Prachuap Khiri Khan, Thailand.  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Sturnia_sinensis,_Don_Yai_Nu,_Kui_Buri_District,_Prachuap_Khiri_Khan,_Thailand_1.jpg"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/White-shouldered_starling",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "The white-shouldered starling has blue eyes, a grey bill, and a white patch on the shoulder. The adult male has a light brown head and breast and a white belly while an adult female is darker brown on the back and belly. This bird is usually found in large flocks."
+        ]
+      }
+    },
+    "whwlar1": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/White-winged_lark",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "This lark with flashing white wing patches is large and robust, usually 17–19&nbsp;cm in length, with a wingspan of 35&nbsp;cm. Both sexes weigh about 44&nbsp;g. In flight, it is unmistakable due to its striking wing pattern, with black outer flight feathers, white inner flight feathers, and the rest of the wing chestnut. Its body is dark-streaked grey above and whitish below. The adult male has a chestnut crown, but the sexes are otherwise similar."
+        ]
+      }
+    },
+    "whwred2": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Guldenstadt%27s_Redstart_-_Shreeram_M_V_-_Ladakh,_India.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Guldenstadt's Redstart - Shreeram M V - Ladakh, India.jpg Guldenstadt's Redstart (male) from Ladakh, India  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Guldenstadt%27s_Redstart_-_Shreeram_M_V_-_Ladakh,_India.jpg"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:White-winged_redstart_Female_-_Gunjan_Pandey.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "White-winged redstart Female - Gunjan Pandey.jpg White-winged Redstart - Female  |left|thumb|Female at Leh, India]]",
+          "captionSource": "https://en.wikipedia.org/wiki/G%C3%BCldenst%C3%A4dt%27s_redstart"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/G%C3%BCldenst%C3%A4dt%27s_redstart",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "left|thumb|Female at Leh, India",
+          "It is one of the largest redstarts, {{cvt|18|cm}} long and {{cvt|21|–|29|g}} weight. The adult male is black above except for a white crown, a white patch on the wing, and an orange-red tail; below, the throat and upper breast are black, and the rest of the underparts a rich orange-red. The female and immature male are brown above and orange-buff below, with an orange-red tail. Male Güldenstädt's redstarts also show some plumage similarities to the much smaller Moussier's redstart P. moussieri, including the white wing patch, while the females more resemble an outsized common redstart."
+        ]
+      }
+    },
+    "wilplo": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Wilson%27s_Plover_male_RWD2.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Wilson's Plover male RWD2.jpg Male Wilson's Plover ( Charadrius wilsonia ) - Sunset Beach, North Carolina  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Wilson%27s_Plover_male_RWD2.jpg"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Wilson%27s_Plover_female_RWD9.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Wilson's Plover female RWD9.jpg Female Wilson's Plover ( Charadrius wilsonia ) - Sunset Beach, North Carolina  Breeding female (pair of above)",
+          "captionSource": "https://en.wikipedia.org/wiki/Wilson%27s_plover"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Wilson%27s_plover",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "The breeding male has a black breast band, lores and forecrown, and a rufous mask. Females and non-breeding males have a similar plumage, but the black of the breeding male is replaced by brown or rufous. Non-breeders have a greyer tint to the head and breast band.",
+          "Immature birds are similar to the female, but the breast band is often incomplete. The adult's upper parts are mainly dark grey, with a short white wing bar and white tail sides. The underparts are white except for a breast band, and the legs are pink, brighter when breeding. The dark bill is large and heavy for a plover of this size. The call is a high weak whistle."
+        ]
+      }
+    },
+    "wilpta": {
+      "status": "covered",
+      "evidence": [
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Male_Willow_Ptarmigan.jpg",
+          "sexes": [
+            "male"
+          ],
+          "basis": "Male Willow Ptarmigan.jpg Male willow ptarmigan in Denali National Park and Preserve.  ",
+          "captionSource": "https://commons.wikimedia.org/wiki/File:Male_Willow_Ptarmigan.jpg"
+        },
+        {
+          "source": "https://commons.wikimedia.org/wiki/File:Lagopus_in_Abisko.jpg",
+          "sexes": [
+            "female"
+          ],
+          "basis": "Lagopus in Abisko.jpg Lagopus in Abisko national park  |thumb|Female ''L. l. lagopus'' in summer plumage]]",
+          "captionSource": "https://en.wikipedia.org/wiki/Willow_ptarmigan"
+        }
+      ],
+      "articleSource": "https://en.wikipedia.org/wiki/Willow_ptarmigan",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "thumb|Female L.&nbsp;l. lagopus in summer plumage",
+          "The willow ptarmigan is a medium to large, ground-dwelling bird and is the most numerous of the three species of ptarmigan. Males and females are about the same size, with the adult length varying between {{convert|35|and|44|cm|abbr=on}} with a wingspan ranging from {{convert|60|to|65|cm|abbr=on}}. Its weight is {{convert|430|to|810|g|abbr=on}}. It is deep-chested and has a fairly long neck, a broad bill, short, feathered legs, and a moderately short, rounded tail. In the summer, the male's plumage is marbled brown, with a reddish hue to the neck and breast, a black tail, and white wings and underparts. It has red, semicircular combs above the eyes, which become red and prominent in the breeding season. The female is similar in appearance, but with much smaller eye combs and has brown feathers scattered among the white feathers on her belly. During winter, the body plumage and two central tail feathers of both sexes becomes completely white, except for the black outer rectrices. Their wing feathers remain white all year round. Immature birds resemble the adults. The distinctive red grouse of the British Isles was once considered to be a subspecies. This moorland bird is reddish brown all over, except for its white feet. The red grouse is common on heather-clad moorland across the north and west of Great Britain and in localised areas of Ireland. The bird is herbivorous for most of its life and subsists on various plant materials.",
+          "A small minority of male willow ptarmigan is<!-- minority is singular --> polygynous, but most are monogamous. They are assiduous at guarding both nest and mate, particularly early in the incubation period and when the eggs are nearly ready to hatch. During this time, the greatest danger may be from conspecifics. Although adult willow ptarmigan are herbivores, the newly hatched young also feed on insects. Ptarmigan also have thick plumage with feather barbules that contain air-filled cavities, It is also the regional bird of Southern Lapland.",
+          "*[https://web.archive.org/web/20090325112435/http://edu.taivalkoski.fi/tk-koulut/lukio/linnusto/riekko.mpg Video clip of male Willow Ptarmigan in winter]"
+        ]
+      }
+    },
+    "yebgre4": {
+      "status": "similar",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Yellow-breasted_greenfinch",
+      "assessment": {
+        "assessment": "similar",
+        "articleEvidence": [
+          "The yellow-breasted greenfinch is {{cvt|12|-|14|cm}} in length and weighs between {{cvt|15|and|21|g}}. It has a brown conical bill and bright yellow wing bars. The underparts are bright yellow. The sexes have similar plumage but the female is less brightly coloured."
+        ]
+      }
+    },
+    "yeclov": {
+      "status": "single-image",
+      "evidence": [],
+      "articleSource": "https://en.wikipedia.org/wiki/Yellow-collared_lovebird",
+      "assessment": {
+        "assessment": "not-established",
+        "articleEvidence": [
+          "The yellow-collared lovebird is a mainly green small parrot about 14.5&nbsp;cm (5.5&nbsp;in) long. Its upperparts are a darker green than its lower surfaces. Its head is black, and it has a bright red beak with white above it and white eyerings. Yellow on the breast is continuous with a yellow collar and an expansion of yellow over the nape of the neck. Male and female have an identical external appearance.",
+          "During courtship, the male bird moves his head up and down and slides excitedly towards the female. They breed primarily colonially and build  nests with strips of twigs and bark.",
+          "The yellow-collared lovebird brings nesting material in its beak to a tree cavity for their nest. The eggs are white and there are usually four to five in a clutch. The female incubates the eggs for about 23 days and the chicks leave the nest about 42 days after hatching.",
+          "Nesting boxes are usually utilised throughout the year as sleeping quarters. It is advisable to clean them, but keep them up even after breeding season. The risk of losing a bird to egg laying complications (in the unlikely event they do decide to breed in the winter), is out-weighed by the benefit of keeping the birds content, keeping pair-bonds strong, and the reduced risk of losing a bird to the cold. A supply of willow branches and roughly slivered corn or maize husk can be given in the aviary as nesting box lining: it will be ripped up and carried into the nest box by the female."
+        ]
       }
     }
   }

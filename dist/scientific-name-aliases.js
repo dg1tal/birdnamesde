@@ -1,6 +1,7 @@
 // Reviewed against the full official 2025/2026 workbooks, including unchanged
 // Avibase concept IDs. Never infer equivalence from an eBird ID or code alone.
-// See docs/catalog-identity-review-20261108.md for provenance and exclusions.
+// See docs/catalog-identity-review-20261108.md and
+// docs/finland-france-20261123.md for provenance and exclusions.
 export const SCIENTIFIC_NAME_ALIASES=Object.freeze([
  ['rehbun1','Emberiza bruniceps','Melophus bruniceps'],
  ['yebbun1','Emberiza chrysophrys','Schoeniclus chrysophrys'],
@@ -12,7 +13,8 @@ export const SCIENTIFIC_NAME_ALIASES=Object.freeze([
  ['rusbun','Emberiza rustica','Schoeniclus rusticus'],
  ['yebbun','Emberiza aureola','Schoeniclus aureolus'],
  ['winwre4','Troglodytes troglodytes','Nannus troglodytes'],
- ['litbun','Emberiza pusilla','Schoeniclus pusillus']
+ ['litbun','Emberiza pusilla','Schoeniclus pusillus'],
+ ['houbun3','Emberiza sahari','Fringillaria sahari']
 ].map(row=>Object.freeze(row)));
 export function scientificNameAliases(species){
  const row=SCIENTIFIC_NAME_ALIASES.find(([id,name])=>id===species.id&&name===species.sci);

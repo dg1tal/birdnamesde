@@ -15,7 +15,7 @@ const available=await loadNameData(birds,async path=>({ok:true,json:async()=>JSO
 assert.deepEqual(available,['de','en','sci','nl','fr','fi']);assert.equal(Object.keys(data.species).length,birds.filter(s=>original[s.id].Dutch).length);
 const ids=new Set(birds.map(s=>s.id));
 const finnish=JSON.parse(readFileSync('dist/languages/fi.json'));
-assert.equal(Object.keys(finnish.species).length,933);
+assert.equal(Object.keys(finnish.species).length,birds.filter(s=>original[s.id].Finnish?.trim()).length);
 assert.equal(finnish.meta.column,'Finnish');
 for(const s of birds){
  assert.equal(primaryName(s,'nl'),original[s.id].Dutch);
@@ -55,7 +55,7 @@ const result=searchLookup(birds,'punarinta')[0];assert.equal(result.species.id,r
 assert(accepts(robin,'fi',' PUNARINTA '));assert(!accepts(robin,'fi',robin.en));
 const tit=birds.find(s=>s.de==='Kohlmeise');assert(accepts(tit,'fi','talitiainen'));
 const jay=birds.find(s=>s.de==='Eichelhäher');assert(accepts(jay,'fi','NÄRHI'));
-const missing=birds.filter(s=>!primaryName(s,'fi'));assert.equal(missing.length,7);
+const missing=birds.filter(s=>!primaryName(s,'fi'));assert.equal(missing.length,8);
 for(const s of missing){
  assert(!hasLanguagePair(s,'de','fi'));assert(!hasLanguagePair(s,'fi','de'));assert(!hasLanguagePair(s,'fi','code'));
  assert(!accepts(s,'fi',s.en));assert.deepEqual(acceptedNames(s,'fi'),[]);
@@ -96,4 +96,4 @@ const noFrench={...robin,names:{}};assert(!hasLanguagePair(noFrench,'fr','de'));
 assert.equal(newNamesText(1,'fr',false),'1 neuer französischer Vogelname');
 assert.equal(newNamesText(3,'fr',true),'3 new French bird names');
 assert.equal(explanationLanguage('fr','de'),'de');assert.equal(explanationLanguage('fr','en'),'en');
-console.log('PASS: all 940 French source names, accented answers/search, all answer methods in both directions, v3 backup round trip and independent progress contexts.');
+console.log(`PASS: all ${birds.length} French source names, accented answers/search, all answer methods in both directions, v3 backup round trip and independent progress contexts.`);

@@ -12,18 +12,18 @@
     }
   },
   "summary": {
-    "species": 940,
-    "distinctCodes": 1966,
-    "ambiguousCodes": 197,
-    "commonBandingCollisions": 42,
-    "collisionsIntroducedByBanding": 46,
+    "species": 994,
+    "distinctCodes": 2069,
+    "ambiguousCodes": 218,
+    "commonBandingCollisions": 45,
+    "collisionsIntroducedByBanding": 49,
     "typePairs": {
       "banding+banding": 2,
-      "banding+common": 42,
-      "banding+scientific": 12,
-      "common+common": 62,
-      "common+scientific": 28,
-      "scientific+scientific": 63
+      "banding+common": 45,
+      "banding+scientific": 14,
+      "common+common": 69,
+      "common+scientific": 31,
+      "scientific+scientific": 71
     }
   },
   "collisions": [
@@ -203,6 +203,31 @@
       ]
     },
     {
+      "code": "ALRU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "relpar1",
+          "de": "Rothuhn",
+          "sci": "Alectoris rufa",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "mstlar1",
+          "de": "Stummellerche",
+          "sci": "Alaudala rufescens",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
       "code": "AMFA",
       "typePairs": [
         "common+scientific"
@@ -360,6 +385,31 @@
       ]
     },
     {
+      "code": "ANPE",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "kitplo1",
+          "de": "Hirtenregenpfeifer",
+          "sci": "Anarhynchus pecuarius",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "rocpip1",
+          "de": "Strandpieper",
+          "sci": "Anthus petrosus",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
       "code": "ANRU",
       "typePairs": [
         "scientific+scientific"
@@ -463,6 +513,39 @@
           "sci": "Ardenna gravis",
           "types": [
             "scientific"
+          ]
+        },
+        {
+          "id": "inpher1",
+          "de": "Paddyreiher",
+          "sci": "Ardeola grayii",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ARTE",
+      "typePairs": [
+        "banding+scientific"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "shtshe",
+          "de": "Kurzschwanz-Sturmtaucher",
+          "sci": "Ardenna tenuirostris",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "arcter",
+          "de": "Küstenseeschwalbe",
+          "sci": "Sterna paradisaea",
+          "types": [
+            "banding"
           ]
         }
       ]
@@ -934,6 +1017,31 @@
       ]
     },
     {
+      "code": "BRTE",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "bratea1",
+          "de": "Amazonasente",
+          "sci": "Amazonetta brasiliensis",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "briter1",
+          "de": "Zügelseeschwalbe",
+          "sci": "Onychoprion anaethetus",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
       "code": "BTGO",
       "typePairs": [
         "banding+common"
@@ -1052,6 +1160,14 @@
           "id": "sander",
           "de": "Sanderling",
           "sci": "Calidris alba",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "whicoc1",
+          "de": "Weißhaubenkakadu",
+          "sci": "Cacatua alba",
           "types": [
             "scientific"
           ]
@@ -1391,6 +1507,31 @@
       ]
     },
     {
+      "code": "CARU",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "rennig1",
+          "de": "Rothals-Nachtschwalbe",
+          "sci": "Caprimulgus ruficollis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "rensti",
+          "de": "Rotkehl-Strandläufer",
+          "sci": "Calidris ruficollis",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
       "code": "CASU",
       "typePairs": [
         "scientific+scientific"
@@ -1478,6 +1619,31 @@
           "id": "cedwax",
           "de": "Zedernseidenschwanz",
           "sci": "Bombycilla cedrorum",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CHBU",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "chebun1",
+          "de": "Rötelammer",
+          "sci": "Emberiza rutila",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "orihob2",
+          "de": "Schopfwespenbussard",
+          "sci": "Pernis ptilorhynchus",
           "types": [
             "common"
           ]
@@ -1578,6 +1744,31 @@
           "id": "whisto1",
           "de": "Weißstorch",
           "sci": "Ciconia ciconia",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COAL",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "whnrav1",
+          "de": "Geierrabe",
+          "sci": "Corvus albicollis",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "piecro1",
+          "de": "Schildrabe",
+          "sci": "Corvus albus",
           "types": [
             "scientific"
           ]
@@ -1733,6 +1924,31 @@
       ]
     },
     {
+      "code": "COFI",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "corfin1",
+          "de": "Korsenzeisig",
+          "sci": "Carduelis corsicana",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "firecr1",
+          "de": "Sommergoldhähnchen",
+          "sci": "Regulus ignicapilla",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
       "code": "COGR",
       "typePairs": [
         "banding+common"
@@ -1760,10 +1976,20 @@
     {
       "code": "COGU",
       "typePairs": [
-        "banding+common"
+        "banding+common",
+        "banding+scientific",
+        "common+scientific"
       ],
-      "introducedByBanding": true,
+      "introducedByBanding": false,
       "species": [
+        {
+          "id": "spepig1",
+          "de": "Guineataube",
+          "sci": "Columba guinea",
+          "types": [
+            "scientific"
+          ]
+        },
         {
           "id": "mewgul",
           "de": "Sturmmöwe",
@@ -1803,6 +2029,31 @@
           "sci": "Columba livia",
           "types": [
             "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "COLO",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "railor4",
+          "de": "Allfarblori",
+          "sci": "Trichoglossus haematodus",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "comloo",
+          "de": "Eistaucher",
+          "sci": "Gavia immer",
+          "types": [
+            "banding"
           ]
         }
       ]
@@ -2099,6 +2350,31 @@
       ]
     },
     {
+      "code": "CUDE",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "triwar1",
+          "de": "Atlasgrasmücke",
+          "sci": "Curruca deserticola",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "afdwar1",
+          "de": "Saharagrasmücke",
+          "sci": "Curruca deserti",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
       "code": "CUSA",
       "typePairs": [
         "banding+scientific"
@@ -2152,6 +2428,31 @@
           "sci": "Cygnus cygnus",
           "types": [
             "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EGPL",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eugplo",
+          "de": "Goldregenpfeifer",
+          "sci": "Pluvialis apricaria",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "egyplo1",
+          "de": "Krokodilwächter",
+          "sci": "Pluvianus aegyptius",
+          "types": [
+            "common"
           ]
         }
       ]
@@ -2483,6 +2784,31 @@
       ]
     },
     {
+      "code": "EUMA",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "eurmag1",
+          "de": "Elster",
+          "sci": "Pica pica",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "indsil",
+          "de": "Indiensilberschnabel",
+          "sci": "Euodice malabarica",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
       "code": "EUMO",
       "typePairs": [
         "common+scientific"
@@ -2669,6 +2995,31 @@
           "id": "comsni",
           "de": "Bekassine",
           "sci": "Gallinago gallinago",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GAME",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "gresni1",
+          "de": "Doppelschnepfe",
+          "sci": "Gallinago media",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "swisni1",
+          "de": "Waldbekassine",
+          "sci": "Gallinago megala",
           "types": [
             "scientific"
           ]
@@ -3084,6 +3435,31 @@
       ]
     },
     {
+      "code": "LAFA",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "lagfal1",
+          "de": "Laggarfalke",
+          "sci": "Falco jugger",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "lanfal1",
+          "de": "Lannerfalke",
+          "sci": "Falco biarmicus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
       "code": "LAGL",
       "typePairs": [
         "scientific+scientific"
@@ -3187,6 +3563,31 @@
           "sci": "Lanius schach",
           "types": [
             "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LEMO",
+      "typePairs": [
+        "common+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "grygul",
+          "de": "Graumöwe",
+          "sci": "Leucophaeus modestus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "lesmoo1",
+          "de": "Zwergteichhuhn",
+          "sci": "Paragallinula angulata",
+          "types": [
+            "common"
           ]
         }
       ]
@@ -3709,6 +4110,56 @@
       ]
     },
     {
+      "code": "NOSH",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "norsho",
+          "de": "Löffelente",
+          "sci": "Spatula clypeata",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "norshr4",
+          "de": "Taigaraubwürger",
+          "sci": "Lanius borealis",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "OELE",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "whtwhe1",
+          "de": "Saharasteinschmätzer",
+          "sci": "Oenanthe leucopyga",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "blawhe1",
+          "de": "Trauersteinschmätzer",
+          "sci": "Oenanthe leucura",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
       "code": "PABU",
       "typePairs": [
         "banding+common"
@@ -4050,6 +4501,31 @@
       ]
     },
     {
+      "code": "PIBU",
+      "typePairs": [
+        "banding+common"
+      ],
+      "introducedByBanding": true,
+      "species": [
+        {
+          "id": "piebus1",
+          "de": "Elsterschmätzer",
+          "sci": "Saxicola caprata",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "pinbun",
+          "de": "Fichtenammer",
+          "sci": "Emberiza leucocephalos",
+          "types": [
+            "banding"
+          ]
+        }
+      ]
+    },
+    {
       "code": "PIMA",
       "typePairs": [
         "scientific+scientific"
@@ -4159,6 +4635,31 @@
           "id": "dunnoc1",
           "de": "Heckenbraunelle",
           "sci": "Prunella modularis",
+          "types": [
+            "scientific"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PSER",
+      "typePairs": [
+        "scientific+scientific"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "grepar",
+          "de": "Graupapagei",
+          "sci": "Psittacus erithacus",
+          "types": [
+            "scientific"
+          ]
+        },
+        {
+          "id": "rempar",
+          "de": "Guayaquilsittich",
+          "sci": "Psittacara erythrogenys",
           "types": [
             "scientific"
           ]
@@ -4422,6 +4923,14 @@
       ],
       "introducedByBanding": false,
       "species": [
+        {
+          "id": "royter2",
+          "de": "Guineaseeschwalbe",
+          "sci": "Thalasseus albididorsalis",
+          "types": [
+            "common"
+          ]
+        },
         {
           "id": "royter1",
           "de": "Königsseeschwalbe",
@@ -5249,6 +5758,31 @@
       ]
     },
     {
+      "code": "WIGR",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "wilpta1",
+          "de": "Heideschneehuhn",
+          "sci": "Lagopus scotica",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "wilpta",
+          "de": "Moorschneehuhn",
+          "sci": "Lagopus lagopus",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
       "code": "WIWA",
       "typePairs": [
         "banding+common"
@@ -5326,6 +5860,31 @@
           "id": "yebbun",
           "de": "Weidenammer",
           "sci": "Emberiza aureola",
+          "types": [
+            "common"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "YBGR",
+      "typePairs": [
+        "common+common"
+      ],
+      "introducedByBanding": false,
+      "species": [
+        {
+          "id": "yebgre4",
+          "de": "Himalajagrünfink",
+          "sci": "Chloris spinoides",
+          "types": [
+            "common"
+          ]
+        },
+        {
+          "id": "yebgro1",
+          "de": "Weißhand-Kernbeißer",
+          "sci": "Eophona migratoria",
           "types": [
             "common"
           ]

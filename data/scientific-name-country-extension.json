@@ -1,0 +1,976 @@
+{
+  "date": "2026-11-23",
+  "purpose": "Scientific-name provenance for the Finland and France country-union expansion. Supplements the historical 2026-11-07 feasibility audit; never rewrites it.",
+  "sources": {
+    "jobling2010": {
+      "url": "https://chipes.org/wp-content/uploads/2023/08/Helm-Dictionary-of-Scientific-Bird-Names-James-A.-Jobling.pdf",
+      "sha256": "ac851f1d74db5f0286043d52abfff6b89354176d7577b907c48d00a135f3d310"
+    },
+    "paragallinula2015": {
+      "title": "Sangster, García-R. & Trewick (2015), A new genus for the Lesser Moorhen Gallinula angulata",
+      "url": "https://doi.org/10.5852/ejt.2015.153",
+      "pdfUrl": "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/download/275/530",
+      "sha256": "ba76577161cb49cd5ffc44d6b5d17ee33ac27166ba0d6943d400975cf97fef03"
+    },
+    "heineanumHeinei": {
+      "title": "Museum Heineanum: Ferdinand Heine sen. (1809–1894), Begründer der Vogelsammlung",
+      "url": "https://www.zobodat.at/pdf/Abh-Ber-Mus-Heineanum_SH_8_0010-0029.pdf",
+      "sha256": "ab6e712e196c4971cb31fcd5e564e971fa0954e02c9f12c0e34ff592072d65c1"
+    }
+  },
+  "reviewNotes": [
+    "Dictionary headwords and explicit grouped spelling variants were read in the original PDF. Printed page numbers, rather than PDF page indices, are recorded.",
+    "Alaudala is treated under Alaudula as an explicitly amended form. Paragallinula postdates the dictionary and uses the original authors' etymology on printed page 6.",
+    "Person names are species-specific: Ardeola grayii honours John Edward Gray; Bucorvus leadbeateri Benjamin Leadbeater; Anarhynchus wilsonia Alexander Wilson.",
+    "Perisoreus retains the dictionary's unresolved origin and competing suggestions. Examinandus explicitly preserves the dictionary's shift to examinatus rather than silently presenting that different spelling as a certain derivation.",
+    "All existing 940 generated species rows and term explanations must remain unchanged.",
+    "The concept-verified 2026 House Bunting combination Fringillaria sahari uses the separate Fringillaria entry on p.164, never the Emberiza provenance on p.145.",
+    "The Museum Heineanum collection account explicitly identifies the Volga lark type Calandritis Heinei Homeyer, 1873 as named for Ferdinand Heine senior (PDF page 19). This supplies taxon-specific dedication evidence in addition to the dictionary's general heinei entry.",
+    "For Perisoreus, the dictionary labels an alternative intensifier peri as Latin. The gloss does not repeat that doubtful language attribution; it describes the older proposal as an unspecified intensifying prefix with Latin sorix, while preserving the uncertainty of the entire etymology."
+  ],
+  "species": [
+    {
+      "id": "arcwar2",
+      "scientificName": "Phylloscopus examinandus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 305,
+        "match": "headword",
+        "lookup": "Phylloscopus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 154,
+        "match": "headword",
+        "lookup": "examinandus"
+      }
+    },
+    {
+      "id": "batlar1",
+      "scientificName": "Ammomanes cinctura",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 45,
+        "match": "headword",
+        "lookup": "Ammomanes"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 107,
+        "match": "headword",
+        "lookup": "cinctura"
+      }
+    },
+    {
+      "id": "blawhe1",
+      "scientificName": "Oenanthe leucura",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 280,
+        "match": "headword",
+        "lookup": "Oenanthe"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 225,
+        "match": "headword",
+        "lookup": "leucura"
+      }
+    },
+    {
+      "id": "blhwea1",
+      "scientificName": "Ploceus melanocephalus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 310,
+        "match": "headword",
+        "lookup": "Ploceus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 246,
+        "match": "headword",
+        "lookup": "melanocephala"
+      }
+    },
+    {
+      "id": "bltacc1",
+      "scientificName": "Prunella atrogularis",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 318,
+        "match": "headword",
+        "lookup": "Prunella"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 60,
+        "match": "headword",
+        "lookup": "atrogularis"
+      }
+    },
+    {
+      "id": "brakit1",
+      "scientificName": "Haliastur indus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 185,
+        "match": "headword",
+        "lookup": "Haliastur"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 204,
+        "match": "headword",
+        "lookup": "indus"
+      }
+    },
+    {
+      "id": "bratea1",
+      "scientificName": "Amazonetta brasiliensis",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 44,
+        "match": "headword",
+        "lookup": "Amazonetta"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 77,
+        "match": "headword",
+        "lookup": "brasiliana/brasilianum/brasilianus/brasiliense"
+      }
+    },
+    {
+      "id": "chswar",
+      "scientificName": "Setophaga pensylvanica",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 355,
+        "match": "headword",
+        "lookup": "Setophaga"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 297,
+        "match": "headword",
+        "lookup": "pensilvanica/pensylvanica"
+      }
+    },
+    {
+      "id": "corfin1",
+      "scientificName": "Carduelis corsicana",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 91,
+        "match": "headword",
+        "lookup": "Carduelis"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 119,
+        "match": "headword",
+        "lookup": "corsicana/corsicanus"
+      }
+    },
+    {
+      "id": "cornut1",
+      "scientificName": "Sitta whiteheadi",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 357,
+        "match": "headword",
+        "lookup": "Sitta"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 407,
+        "match": "headword",
+        "lookup": "whiteheadi"
+      }
+    },
+    {
+      "id": "egyplo1",
+      "scientificName": "Pluvianus aegyptius",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 311,
+        "match": "headword",
+        "lookup": "Pluvianus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 33,
+        "match": "headword",
+        "lookup": "aegyptius"
+      }
+    },
+    {
+      "id": "foxspa",
+      "scientificName": "Passerella iliaca",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 294,
+        "match": "headword",
+        "lookup": "Passerella"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 202,
+        "match": "headword",
+        "lookup": "iliaca"
+      }
+    },
+    {
+      "id": "grgowl",
+      "scientificName": "Strix nebulosa",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 368,
+        "match": "headword",
+        "lookup": "Strix"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 266,
+        "match": "headword",
+        "lookup": "nebulosa"
+      }
+    },
+    {
+      "id": "grnwoo3",
+      "scientificName": "Picus sharpei",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 306,
+        "match": "headword",
+        "lookup": "Picus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 355,
+        "match": "headword",
+        "lookup": "sharpei"
+      }
+    },
+    {
+      "id": "gyhchi",
+      "scientificName": "Poecile cinctus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 311,
+        "match": "headword",
+        "lookup": "Poecile"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 107,
+        "match": "headword",
+        "lookup": "cinctus"
+      }
+    },
+    {
+      "id": "houbun3",
+      "scientificName": "Emberiza sahari",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 145,
+        "match": "headword",
+        "lookup": "Emberiza"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 345,
+        "match": "headword",
+        "lookup": "sahari"
+      },
+      "currentScientificName": "Fringillaria sahari",
+      "currentGenusSource": {
+        "source": "jobling2010",
+        "printedPage": 164,
+        "match": "headword",
+        "lookup": "Fringillaria"
+      }
+    },
+    {
+      "id": "ibgshr1",
+      "scientificName": "Lanius meridionalis",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 219,
+        "match": "headword",
+        "lookup": "Lanius/lanius"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 251,
+        "match": "headword",
+        "lookup": "meridionale/meridionalis"
+      }
+    },
+    {
+      "id": "indsil",
+      "scientificName": "Euodice malabarica",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 152,
+        "match": "headword",
+        "lookup": "Euodice"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 238,
+        "match": "headword",
+        "lookup": "malabarica/malabaricum/malabaricus"
+      }
+    },
+    {
+      "id": "inpher1",
+      "scientificName": "Ardeola grayii",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 54,
+        "match": "headword",
+        "lookup": "Ardeola"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 178,
+        "match": "headword",
+        "lookup": "grayi"
+      }
+    },
+    {
+      "id": "kitplo1",
+      "scientificName": "Anarhynchus pecuarius",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 46,
+        "match": "headword",
+        "lookup": "Anarhynchus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 295,
+        "match": "headword",
+        "lookup": "Pecuarius"
+      }
+    },
+    {
+      "id": "lagfal1",
+      "scientificName": "Falco jugger",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 157,
+        "match": "headword",
+        "lookup": "Falco"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 212,
+        "match": "headword",
+        "lookup": "jugger"
+      }
+    },
+    {
+      "id": "lesmoo1",
+      "scientificName": "Paragallinula angulata",
+      "genusSource": {
+        "source": "paragallinula2015",
+        "printedPage": 6,
+        "match": "original description",
+        "lookup": "Paragallinula"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 47,
+        "match": "headword",
+        "lookup": "angulata"
+      }
+    },
+    {
+      "id": "mitpar",
+      "scientificName": "Psittacara mitratus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 321,
+        "match": "headword",
+        "lookup": "Psittacara"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 257,
+        "match": "headword",
+        "lookup": "mitrata"
+      }
+    },
+    {
+      "id": "mstlar1",
+      "scientificName": "Alaudala rufescens",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 37,
+        "match": "explicit spelling variant",
+        "lookup": "Alaudula"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 341,
+        "match": "headword",
+        "lookup": "rufescens"
+      }
+    },
+    {
+      "id": "norshr4",
+      "scientificName": "Lanius borealis",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 219,
+        "match": "headword",
+        "lookup": "Lanius/lanius"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 74,
+        "match": "headword",
+        "lookup": "borealis"
+      }
+    },
+    {
+      "id": "oricuc2",
+      "scientificName": "Cuculus optatus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 124,
+        "match": "headword",
+        "lookup": "Cuculus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 282,
+        "match": "headword",
+        "lookup": "optata"
+      }
+    },
+    {
+      "id": "orihob2",
+      "scientificName": "Pernis ptilorhynchus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 298,
+        "match": "headword",
+        "lookup": "Pernis"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 323,
+        "match": "headword",
+        "lookup": "ptilorhyncha"
+      }
+    },
+    {
+      "id": "piebus1",
+      "scientificName": "Saxicola caprata",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 349,
+        "match": "headword",
+        "lookup": "Saxicola"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 90,
+        "match": "headword",
+        "lookup": "caprata"
+      }
+    },
+    {
+      "id": "pitsan1",
+      "scientificName": "Pterocles alchata",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 322,
+        "match": "headword",
+        "lookup": "Pterocles"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 40,
+        "match": "headword",
+        "lookup": "alchata"
+      }
+    },
+    {
+      "id": "railor4",
+      "scientificName": "Trichoglossus haematodus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 389,
+        "match": "headword",
+        "lookup": "Trichoglossus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 184,
+        "match": "headword",
+        "lookup": "haematodus"
+      }
+    },
+    {
+      "id": "rempar",
+      "scientificName": "Psittacara erythrogenys",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 321,
+        "match": "headword",
+        "lookup": "Psittacara"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 150,
+        "match": "headword",
+        "lookup": "erythrogenys"
+      }
+    },
+    {
+      "id": "rennig1",
+      "scientificName": "Caprimulgus ruficollis",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 90,
+        "match": "headword",
+        "lookup": "Caprimulgus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 341,
+        "match": "headword",
+        "lookup": "ruficollis"
+      }
+    },
+    {
+      "id": "retwhe3",
+      "scientificName": "Oenanthe xanthoprymna",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 280,
+        "match": "headword",
+        "lookup": "Oenanthe"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 409,
+        "match": "headword",
+        "lookup": "xanthoprymna"
+      }
+    },
+    {
+      "id": "royter2",
+      "scientificName": "Thalasseus albididorsalis",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 383,
+        "match": "headword",
+        "lookup": "Thalasseus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 38,
+        "match": "headword",
+        "lookup": "albididorsalis"
+      }
+    },
+    {
+      "id": "semfly1",
+      "scientificName": "Ficedula semitorquata",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 159,
+        "match": "headword",
+        "lookup": "Ficedula"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 353,
+        "match": "headword",
+        "lookup": "semitorquata/semitorquatus"
+      }
+    },
+    {
+      "id": "shtshe",
+      "scientificName": "Ardenna tenuirostris",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 54,
+        "match": "headword",
+        "lookup": "Ardenna"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 381,
+        "match": "headword",
+        "lookup": "tenuirostris"
+      }
+    },
+    {
+      "id": "sibjay1",
+      "scientificName": "Perisoreus infaustus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 298,
+        "match": "headword",
+        "lookup": "Perisoreus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 205,
+        "match": "headword",
+        "lookup": "infaustus"
+      }
+    },
+    {
+      "id": "soghor1",
+      "scientificName": "Bucorvus leadbeateri",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 80,
+        "match": "headword",
+        "lookup": "Bucorvus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 220,
+        "match": "headword",
+        "lookup": "leadbeateri"
+      }
+    },
+    {
+      "id": "spaeag1",
+      "scientificName": "Aquila adalberti",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 52,
+        "match": "headword",
+        "lookup": "Aquila"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 31,
+        "match": "headword",
+        "lookup": "adalberti"
+      }
+    },
+    {
+      "id": "spepig1",
+      "scientificName": "Columba guinea",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 114,
+        "match": "headword",
+        "lookup": "Columba"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 181,
+        "match": "headword",
+        "lookup": "guinea/guineae/guineensis"
+      }
+    },
+    {
+      "id": "sposta1",
+      "scientificName": "Sturnus unicolor",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 368,
+        "match": "headword",
+        "lookup": "Sturnus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 396,
+        "match": "headword",
+        "lookup": "unicolor"
+      }
+    },
+    {
+      "id": "swisni1",
+      "scientificName": "Gallinago megala",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 170,
+        "match": "headword",
+        "lookup": "Gallinago"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 245,
+        "match": "headword",
+        "lookup": "megala"
+      }
+    },
+    {
+      "id": "thelar1",
+      "scientificName": "Galerida theklae",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 169,
+        "match": "headword",
+        "lookup": "Galerida"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 384,
+        "match": "headword",
+        "lookup": "theklae"
+      }
+    },
+    {
+      "id": "triwar1",
+      "scientificName": "Curruca deserticola",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 125,
+        "match": "headword",
+        "lookup": "Curruca"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 133,
+        "match": "headword",
+        "lookup": "deserticola"
+      }
+    },
+    {
+      "id": "tstlar1",
+      "scientificName": "Alaudala heinei",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 37,
+        "match": "explicit spelling variant",
+        "lookup": "Alaudula"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 187,
+        "match": "headword",
+        "lookup": "heinei"
+      }
+    },
+    {
+      "id": "whicoc1",
+      "scientificName": "Cacatua alba",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 82,
+        "match": "headword",
+        "lookup": "Cacatoes"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 37,
+        "match": "headword",
+        "lookup": "alba"
+      }
+    },
+    {
+      "id": "whnrav1",
+      "scientificName": "Corvus albicollis",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 119,
+        "match": "headword",
+        "lookup": "Corvus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 38,
+        "match": "headword",
+        "lookup": "albicollis"
+      }
+    },
+    {
+      "id": "whssta2",
+      "scientificName": "Sturnia sinensis",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 368,
+        "match": "headword",
+        "lookup": "Sturnia"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 357,
+        "match": "headword",
+        "lookup": "sinense/sinensis"
+      }
+    },
+    {
+      "id": "whwlar1",
+      "scientificName": "Alauda leucoptera",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 37,
+        "match": "headword",
+        "lookup": "Alauda"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 225,
+        "match": "headword",
+        "lookup": "leucoptera"
+      }
+    },
+    {
+      "id": "whwred2",
+      "scientificName": "Phoenicurus erythrogastrus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 304,
+        "match": "headword",
+        "lookup": "Phoenicurus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 149,
+        "match": "headword",
+        "lookup": "erythrogaster/erythrogastra/erythrogastrus"
+      }
+    },
+    {
+      "id": "wilplo",
+      "scientificName": "Anarhynchus wilsonia",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 46,
+        "match": "headword",
+        "lookup": "Anarhynchus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 408,
+        "match": "headword",
+        "lookup": "wilsonia/wilsonii"
+      }
+    },
+    {
+      "id": "wilpta",
+      "scientificName": "Lagopus lagopus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 217,
+        "match": "headword",
+        "lookup": "Lagopus"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 217,
+        "match": "headword",
+        "lookup": "lagopus"
+      }
+    },
+    {
+      "id": "yebgre4",
+      "scientificName": "Chloris spinoides",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 102,
+        "match": "headword",
+        "lookup": "Chloris"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 362,
+        "match": "headword",
+        "lookup": "spinoides"
+      }
+    },
+    {
+      "id": "yeclov",
+      "scientificName": "Agapornis personatus",
+      "genusSource": {
+        "source": "jobling2010",
+        "printedPage": 36,
+        "match": "headword",
+        "lookup": "Agapornis"
+      },
+      "epithetSource": {
+        "source": "jobling2010",
+        "printedPage": 299,
+        "match": "headword",
+        "lookup": "personata"
+      }
+    }
+  ],
+  "newTermKeys": [
+    "e:adalberti",
+    "e:albididorsalis",
+    "e:alchata",
+    "e:angulata",
+    "e:brasiliensis",
+    "e:caprata",
+    "e:cinctura",
+    "e:cinctus",
+    "e:corsicana",
+    "e:deserticola",
+    "e:erythrogastrus",
+    "e:erythrogenys",
+    "e:examinandus",
+    "e:grayii",
+    "e:guinea",
+    "e:haematodus",
+    "e:heinei",
+    "e:iliaca",
+    "e:indus",
+    "e:infaustus",
+    "e:jugger",
+    "e:leadbeateri",
+    "e:leucura",
+    "e:malabarica",
+    "e:megala",
+    "e:meridionalis",
+    "e:mitratus",
+    "e:nebulosa",
+    "e:optatus",
+    "e:pecuarius",
+    "e:pensylvanica",
+    "e:personatus",
+    "e:ptilorhynchus",
+    "e:sahari",
+    "e:semitorquata",
+    "e:sharpei",
+    "e:sinensis",
+    "e:spinoides",
+    "e:theklae",
+    "e:unicolor",
+    "e:whiteheadi",
+    "e:wilsonia",
+    "e:xanthoprymna",
+    "g:Alaudala",
+    "g:Amazonetta",
+    "g:Ammomanes",
+    "g:Bucorvus",
+    "g:Euodice",
+    "g:Fringillaria",
+    "g:Haliastur",
+    "g:Paragallinula",
+    "g:Passerella",
+    "g:Perisoreus",
+    "g:Pluvianus",
+    "g:Pterocles",
+    "g:Sturnia"
+  ],
+  "retainedContentVerification": {
+    "species": {
+      "entries": 940,
+      "unchanged": true
+    },
+    "terms": {
+      "entries": 1238,
+      "unchanged": true
+    },
+    "sources": {
+      "entries": 114,
+      "unchanged": true
+    }
+  }
+}

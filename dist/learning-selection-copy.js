@@ -1,4 +1,4 @@
-import {isCodeTarget} from './code-targets.js?v=20261122-dda1';
+import {isCodeTarget} from './code-targets.js?v=20261123-countries1';
 // Describe what will be learned, rather than exposing abstract learning targets.
 export function newNamesText(count,language='en',english=false){
  const de={de:['deutscher Vogelname','deutsche Vogelnamen'],en:['englischer Vogelname','englische Vogelnamen'],nl:['niederländischer Vogelname','niederländische Vogelnamen'],fr:['französischer Vogelname','französische Vogelnamen'],fi:['finnischer Vogelname','finnische Vogelnamen'],sci:['wissenschaftlicher Vogelname','wissenschaftliche Vogelnamen']};

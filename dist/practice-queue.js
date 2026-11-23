@@ -1,6 +1,6 @@
-import {learningTargets} from './code-targets.js?v=20261122-dda1';
-import {hasLanguagePair} from './name-languages.js?v=20261122-dda1';
-import {RULES,dailyQueue,evidence,isDue,pairKnown} from './learning-model.js?v=20261105-recovery1';
+import {learningTargets} from './code-targets.js?v=20261123-countries1';
+import {hasLanguagePair} from './name-languages.js?v=20261123-countries1';
+import {RULES,dailyQueue,evidence,isDue,pairKnown} from './learning-model.js?v=20261123-countries1';
 
 // One-click continuation uses shared selection settings, not hidden custom filters.
 export function continuationSettings(settings){return {...settings,scope:'all',count:String(RULES.round)};}

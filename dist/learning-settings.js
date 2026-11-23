@@ -1,11 +1,13 @@
-import {isCodeTarget} from './code-targets.js?v=20261122-dda1';
-import {validateLesson} from './study-state.js?v=20261123-introreason3';
+import {isCodeTarget} from './code-targets.js?v=20261123-countries1';
+import {validateLesson} from './study-state.js?v=20261123-countries1';
 
 // Countries remain selectable if a regional snapshot is temporarily unavailable.
 export const LEARNING_COUNTRIES=[
  {code:'DE',nameDe:'Deutschland',nameEn:'Germany'},
  {code:'NL',nameDe:'Niederlande',nameEn:'Netherlands'},
- {code:'GB',nameDe:'Vereinigtes Königreich (UK)',nameEn:'United Kingdom (UK)'}
+ {code:'GB',nameDe:'Vereinigtes Königreich (UK)',nameEn:'United Kingdom (UK)'},
+ {code:'FI',nameDe:'Finnland',nameEn:'Finland'},
+ {code:'FR',nameDe:'Frankreich',nameEn:'France'}
 ];
 export const LEARNING_REGION_DEFAULTS={region:'DE',regionMode:'seasonal',frequencyGroups:['frequent','medium']};
 export function migrateLearningRegion(settings,previous){

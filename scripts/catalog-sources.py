@@ -28,11 +28,13 @@ def main():
                 isinstance(x, str) and regions.re.fullmatch('[a-z0-9]+', x) for x in payload):
             raise ValueError('Invalid country species list: '+code)
         subregions = regions.request_json(regions.API+f'ref/region/list/subnational1/{code}?fmt=json', token)
-        if not isinstance(subregions, list) or not all(
+        if not isinstance(subregions, list) or len(subregions) != country['expectedSubregions'] or not all(
                 isinstance(r, dict) and isinstance(r.get('code'), str) and
-                r['code'].startswith(code+'-') and r['code'].count('-') == 1 and
+                regions.supported_region(r['code']) and r['code'].startswith(code+'-') and r['code'].count('-') == 1 and
                 isinstance(r.get('name'), str) and 0 < len(r['name']) <= 150 for r in subregions):
             raise ValueError('Invalid country region list: '+code)
+        if len({r['code'] for r in subregions}) != len(subregions):
+            raise ValueError('Duplicate country region: '+code)
         countries.append({'code':code, 'taxa':sorted(set(payload)),
                           'subregions': sorted([{'code':r['code'], 'name':r['name']} for r in subregions], key=lambda r:r['code'])})
         print(f'{code}: {len(set(payload))} source taxa')

@@ -6,7 +6,7 @@
     "sourceUrl": "https://support.ebird.org/en/support/solutions/articles/48000804865-bird-names-in-ebird",
     "column": "Finnish",
     "taxonomy": "eBird/Clements v2025",
-    "speciesCount": 933
+    "speciesCount": 986
   },
   "species": {
     "abdsto1": {
@@ -53,6 +53,10 @@
       "name": "suosirri",
       "aliases": []
     },
+    "bratea1": {
+      "name": "brasiliantavi",
+      "aliases": []
+    },
     "eurbla": {
       "name": "mustarastas",
       "aliases": []
@@ -75,6 +79,10 @@
     },
     "manshe": {
       "name": "pikkuliitäjä",
+      "aliases": []
+    },
+    "triwar1": {
+      "name": "atlaskerttu",
       "aliases": []
     },
     "norwhe3": {
@@ -151,6 +159,10 @@
     },
     "lammer1": {
       "name": "partakorppikotka",
+      "aliases": []
+    },
+    "grgowl": {
+      "name": "lapinpöllö",
       "aliases": []
     },
     "radwar1": {
@@ -359,6 +371,10 @@
     },
     "eurcur": {
       "name": "kuovi",
+      "aliases": []
+    },
+    "brakit1": {
+      "name": "bramiinihaukka",
       "aliases": []
     },
     "comshe": {
@@ -621,6 +637,10 @@
       "name": "haahka",
       "aliases": []
     },
+    "sposta1": {
+      "name": "mustakottarainen",
+      "aliases": []
+    },
     "solsan": {
       "name": "amerikanmetsäviklo",
       "aliases": []
@@ -667,6 +687,10 @@
     },
     "daujac1": {
       "name": "idännaakka",
+      "aliases": []
+    },
+    "piebus1": {
+      "name": "nokitasku",
       "aliases": []
     },
     "aspsta2": {
@@ -813,6 +837,10 @@
       "name": "hopeatiira",
       "aliases": []
     },
+    "foxspa": {
+      "name": "kettusirkku",
+      "aliases": []
+    },
     "redsho1": {
       "name": "argentiinanlapasorsa",
       "aliases": []
@@ -845,6 +873,10 @@
       "name": "virtavästäräkki",
       "aliases": []
     },
+    "whnrav1": {
+      "name": "valkoniskakorppi",
+      "aliases": []
+    },
     "yebsap": {
       "name": "mahlatikka",
       "aliases": []
@@ -875,6 +907,10 @@
     },
     "yehpar": {
       "name": "keltapääamatsoni",
+      "aliases": []
+    },
+    "chswar": {
+      "name": "rusokylkikerttuli",
       "aliases": []
     },
     "ywcpar": {
@@ -1105,6 +1141,18 @@
       "name": "mustalakkiaratti",
       "aliases": []
     },
+    "rempar": {
+      "name": "punapääaratti",
+      "aliases": []
+    },
+    "royter2": {
+      "name": "afrikankuningastiira",
+      "aliases": []
+    },
+    "spepig1": {
+      "name": "afrikantäpläkyyhky",
+      "aliases": []
+    },
     "eurgri1": {
       "name": "hanhikorppikotka",
       "aliases": []
@@ -1135,6 +1183,10 @@
     },
     "aussho1": {
       "name": "australianlapasorsa",
+      "aliases": []
+    },
+    "semfly1": {
+      "name": "balkaninsieppo",
       "aliases": []
     },
     "varthr": {
@@ -1177,6 +1229,10 @@
       "name": "silkkiuikku",
       "aliases": []
     },
+    "houbun3": {
+      "name": "kyläsirkku",
+      "aliases": []
+    },
     "houfin": {
       "name": "pihapunavarpunen",
       "aliases": []
@@ -1217,6 +1273,10 @@
       "name": "selkälokki",
       "aliases": []
     },
+    "yebgre4": {
+      "name": "aasianvihervarpunen",
+      "aliases": []
+    },
     "pacpar2": {
       "name": "ecuadorinaranen",
       "aliases": []
@@ -1225,8 +1285,16 @@
       "name": "pihamaina",
       "aliases": []
     },
+    "kitplo1": {
+      "name": "afrikantylli",
+      "aliases": []
+    },
     "stodov1": {
       "name": "uuttukyyhky",
+      "aliases": []
+    },
+    "oricuc2": {
+      "name": "idänkäki",
       "aliases": []
     },
     "whimbr3": {
@@ -1261,6 +1329,18 @@
       "name": "lännenrusokerttu",
       "aliases": []
     },
+    "spaeag1": {
+      "name": "iberiankeisarikotka",
+      "aliases": []
+    },
+    "grnwoo3": {
+      "name": "iberianvihertikka",
+      "aliases": []
+    },
+    "ibgshr1": {
+      "name": "etelänisolepinkäinen",
+      "aliases": []
+    },
     "ibechi2": {
       "name": "iberiantiltaltti",
       "aliases": []
@@ -1283,6 +1363,10 @@
     },
     "ingori1": {
       "name": "intiankuhankeittäjä",
+      "aliases": []
+    },
+    "indsil": {
+      "name": "idänhopeanokka",
       "aliases": []
     },
     "indbun": {
@@ -1347,6 +1431,10 @@
     },
     "ruff": {
       "name": "suokukko",
+      "aliases": []
+    },
+    "arcwar2": {
+      "name": "kamtsatkanuunilintu",
       "aliases": []
     },
     "slbgul": {
@@ -1513,6 +1601,14 @@
       "name": "idänlehmähaikara",
       "aliases": []
     },
+    "cornut1": {
+      "name": "korsikannakkeli",
+      "aliases": []
+    },
+    "corfin1": {
+      "name": "korsikanhemppo",
+      "aliases": []
+    },
     "doveki": {
       "name": "pikkuruokki",
       "aliases": []
@@ -1531,6 +1627,10 @@
     },
     "gnwtea": {
       "name": "tavi",
+      "aliases": []
+    },
+    "egyplo1": {
+      "name": "krokotiilinvartija",
       "aliases": []
     },
     "eacwar1": {
@@ -1563,6 +1663,10 @@
     },
     "pifgoo": {
       "name": "lyhytnokkahanhi",
+      "aliases": []
+    },
+    "shtshe": {
+      "name": "lyhytpyrstöliitäjä",
       "aliases": []
     },
     "gstlar1": {
@@ -1605,6 +1709,10 @@
       "name": "saharanturturikyyhky",
       "aliases": []
     },
+    "lagfal1": {
+      "name": "intianjalohaukka",
+      "aliases": []
+    },
     "lobmur": {
       "name": "aasianmarmorimurri",
       "aliases": []
@@ -1615,6 +1723,10 @@
     },
     "lanfal1": {
       "name": "keltapäähaukka",
+      "aliases": []
+    },
+    "gyhchi": {
+      "name": "lapintiainen",
       "aliases": []
     },
     "azutit2": {
@@ -1671,6 +1783,10 @@
     },
     "manduc": {
       "name": "mandariinisorsa",
+      "aliases": []
+    },
+    "whssta2": {
+      "name": "kiinankottarainen",
       "aliases": []
     },
     "reccra1": {
@@ -1799,6 +1915,10 @@
     },
     "shbdow": {
       "name": "rämekurppelo",
+      "aliases": []
+    },
+    "wilpta": {
+      "name": "riekko",
       "aliases": []
     },
     "rucspa1": {
@@ -1951,6 +2071,10 @@
     },
     "redbis": {
       "name": "punapiispa",
+      "aliases": []
+    },
+    "inpher1": {
+      "name": "intianriisihaikara",
       "aliases": []
     },
     "palbun": {
@@ -2181,6 +2305,10 @@
       "name": "aavikkojuoksija",
       "aliases": []
     },
+    "whwred2": {
+      "name": "vuorileppälintu",
+      "aliases": []
+    },
     "stseag": {
       "name": "kuningasmerikotka",
       "aliases": []
@@ -2281,6 +2409,10 @@
       "name": "punakottarainen",
       "aliases": []
     },
+    "retwhe3": {
+      "name": "punaperätasku",
+      "aliases": []
+    },
     "dusthr2": {
       "name": "ruostesiipirastas",
       "aliases": []
@@ -2321,8 +2453,16 @@
       "name": "punajalkasuula",
       "aliases": []
     },
+    "soghor1": {
+      "name": "etelänkalkkunasarvekas",
+      "aliases": []
+    },
     "afrspo1": {
       "name": "afrikankapustahaikara",
+      "aliases": []
+    },
+    "rennig1": {
+      "name": "ruosteniskakehrääjä",
       "aliases": []
     },
     "rebgoo1": {
@@ -2379,6 +2519,10 @@
     },
     "rewlap1": {
       "name": "kenttähyyppä",
+      "aliases": []
+    },
+    "mitpar": {
+      "name": "pahta-aratti",
       "aliases": []
     },
     "redkit1": {
@@ -2503,6 +2647,10 @@
     },
     "sander": {
       "name": "pulmussirri",
+      "aliases": []
+    },
+    "batlar1": {
+      "name": "pikkuaavikkokiuru",
       "aliases": []
     },
     "corplo": {
@@ -2645,6 +2793,10 @@
       "name": "kaliforniantupsuviiriäinen",
       "aliases": []
     },
+    "orihob2": {
+      "name": "idänmehiläishaukka",
+      "aliases": []
+    },
     "chiswi": {
       "name": "piippukiitäjä",
       "aliases": []
@@ -2713,6 +2865,10 @@
       "name": "inka-aratti",
       "aliases": []
     },
+    "bltacc1": {
+      "name": "mustakurkkurautiainen",
+      "aliases": []
+    },
     "stonec4": {
       "name": "mustapäätasku",
       "aliases": []
@@ -2731,6 +2887,14 @@
     },
     "medgul1": {
       "name": "mustanmerenlokki",
+      "aliases": []
+    },
+    "blhwea1": {
+      "name": "mustapääkutoja",
+      "aliases": []
+    },
+    "yeclov": {
+      "name": "naamiokaijanen",
       "aliases": []
     },
     "blakit1": {
@@ -2913,6 +3077,10 @@
       "name": "jouhisorsa",
       "aliases": []
     },
+    "pitsan1": {
+      "name": "jouhihietakyyhky",
+      "aliases": []
+    },
     "whrmun": {
       "name": "valkoperämanikki",
       "aliases": []
@@ -3069,6 +3237,10 @@
       "name": "viirusirkkalintu",
       "aliases": []
     },
+    "mstlar1": {
+      "name": "pikkukiuru",
+      "aliases": []
+    },
     "mewgul": {
       "name": "kalalokki",
       "aliases": []
@@ -3129,6 +3301,10 @@
       "name": "kultapiispa",
       "aliases": []
     },
+    "norshr4": {
+      "name": "taigaisolepinkäinen",
+      "aliases": []
+    },
     "taifly1": {
       "name": "idänpikkusieppo",
       "aliases": []
@@ -3169,6 +3345,10 @@
       "name": "rantakurvi",
       "aliases": []
     },
+    "thelar1": {
+      "name": "kivikkotöyhtökiuru",
+      "aliases": []
+    },
     "redpha1": {
       "name": "isovesipääsky",
       "aliases": []
@@ -3203,6 +3383,10 @@
     },
     "blkter": {
       "name": "mustatiira",
+      "aliases": []
+    },
+    "blawhe1": {
+      "name": "mustatasku",
       "aliases": []
     },
     "eutkne1": {
@@ -3245,6 +3429,10 @@
       "name": "tundrakurppelo",
       "aliases": []
     },
+    "tstlar1": {
+      "name": "kaspianpikkukiuru",
+      "aliases": []
+    },
     "eurkes": {
       "name": "tuulihaukka",
       "aliases": []
@@ -3275,6 +3463,10 @@
     },
     "eueowl1": {
       "name": "huuhkaja",
+      "aliases": []
+    },
+    "sibjay1": {
+      "name": "kuukkeli",
       "aliases": []
     },
     "pllwar1": {
@@ -3319,6 +3511,10 @@
     },
     "eurtre1": {
       "name": "puukiipijä",
+      "aliases": []
+    },
+    "swisni1": {
+      "name": "siperiankurppa",
       "aliases": []
     },
     "woothr": {
@@ -3445,8 +3641,16 @@
       "name": "peltotulkku",
       "aliases": []
     },
+    "whwlar1": {
+      "name": "valkosiipikiuru",
+      "aliases": []
+    },
     "yebgro1": {
       "name": "kiinannokkavarpunen",
+      "aliases": []
+    },
+    "whicoc1": {
+      "name": "valkokakadu",
       "aliases": []
     },
     "whtspa": {
@@ -3555,6 +3759,10 @@
     },
     "wilsni1": {
       "name": "amerikantaivaanvuohi",
+      "aliases": []
+    },
+    "wilplo": {
+      "name": "paksunokkatylli",
       "aliases": []
     },
     "wilpha": {
@@ -3727,6 +3935,10 @@
     },
     "litgre1": {
       "name": "pikku-uikku",
+      "aliases": []
+    },
+    "lesmoo1": {
+      "name": "pikkuliejukana",
       "aliases": []
     },
     "litbus1": {
