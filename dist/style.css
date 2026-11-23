@@ -485,7 +485,7 @@ body.studying .introduction{display:grid;gap:6px;padding:14px 20px;overflow-wrap
 body.studying .introduction>p,body.studying .introduction>h1{margin:0}
 body.studying .introduction>.intro-instruction{font-size:16px;line-height:1.4}
 body.studying .introduction>.intro-reason{font-size:14px;line-height:1.45;color:var(--muted)}
-.intro-reason .intro-period{white-space:nowrap}
+.intro-reason .intro-season{white-space:nowrap}
 body.studying .introduction>.eyebrow,body.studying .introduction>.intro-answer-language{font-size:13px;color:var(--muted)}
 body.studying .introduction>h1{font-size:clamp(28px,5vw,36px);line-height:1.2}
 body.studying .introduction>.answer-main{font-size:clamp(23px,4vw,30px);line-height:1.3}
