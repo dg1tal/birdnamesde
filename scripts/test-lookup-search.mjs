@@ -40,7 +40,7 @@ const app=readFileSync('dist/app.js','utf8');
 const render=app.slice(app.indexOf('function lookupHitList('),app.indexOf('\nfunction lookup()'));
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const context=vm.createContext({english:false,ui:{lookup:{mainLanguage:'de'}},lookupTitle,languageLabel,primaryName,contentLanguage,scientificNameAliases,esc,birds,nameMarkup:s=>esc(s.de),card:s=>`<article>${esc(s.id)}</article>`});
-vm.runInContext(app.slice(app.indexOf('function codeBadge('),app.indexOf('function lookupAliases(')),context);
+vm.runInContext(app.slice(app.indexOf('function ddaQuestionScope('),app.indexOf('function lookupAliases(')),context);
 vm.runInContext(render,context);
 const markup=context.lookupHitList(searchLookup(birds,'merel'));
 assert(markup.includes('Niederländisch:'));assert(markup.includes('lang="nl">Merel</strong>'));assert(markup.includes('<details class="lookup-hit"'));assert(markup.includes('Exakte Treffer'));

@@ -324,7 +324,11 @@ function ddaQuestionScope(s,id=''){
 }
 function ddaMarkup(s,answer=false){
  if(!s.dda)return '';
- return `<div class="species-code-group dda-codes${answer?' answer-main answer-codes':''}" role="group" aria-label="${english?'DDA abbreviation':'DDA-Artkürzel'}"><p class="code-group-label">DDA</p><div class="species-code-items"><span class="code code-dda${answer?' answer-code':''}" title="${esc('DDA: '+s.dda.name)}"><span class="sr">DDA: </span><span data-name-content lang="de">${esc(s.dda.code)}</span></span></div>${Object.keys(s.dda.scope).length?ddaQuestionScope(s):''}</div>`;
+ return `<div class="species-codes dda-codes${answer?' answer-main answer-codes':''}" role="group" aria-label="${english?'DDA abbreviation':'DDA-Artkürzel'}"><div class="species-code-items">${ddaCodeMarkup(s,answer)}</div>${codeLegend(s,{ebird:false,dda:true})}${ddaQuestionScope(s)}</div>`;
+}
+function ddaCodeMarkup(s,answer=false){
+ if(!s.dda)return '';
+ return `<span class="code code-dda${answer?' answer-code':''}" title="${esc('DDA: '+s.dda.name)}"><span class="sr">DDA: </span><span data-name-content lang="de">${esc(s.dda.code)}</span></span>`;
 }
 function codeSystemControl(cfg,prefix=''){
  const id=prefix+'code-system',show=prefix==='stats-'||['code','mixed'].includes(cfg.target);
@@ -380,24 +384,30 @@ function codeMarkup(s,code,answer=false){
  const title=labels.join(' · ');
  return codeBadge(code,{scientific,banding,common:!scientific&&!banding},title,answer);
 }
+function codeLegend(s,{ebird=true,dda=false}={}){
+ const codes=ebird?s.codes:[];
+ const origins=[
+  ['scientific',english?'Scientific':'Wissenschaftlich',codes.some(code=>s.scientificCodes?.includes(code))],
+  ['common',english?'eBird (English)':'eBird (Englisch)',codes.some(code=>!s.scientificCodes?.includes(code)&&code!==s.bandingCode)],
+  ['banding',english?'Banding':'Beringung',codes.includes(s.bandingCode)],
+  ['dda','DDA',dda&&s.dda]
+ ];
+ const items=origins.filter(([, ,present])=>present).map(([type,label])=>`<li><span class="code-swatch code-${type}" aria-hidden="true"></span>${label}</li>`).join('');
+ if(!items)return '';
+ const dual=codes.some(code=>s.scientificCodes?.includes(code)&&code===s.bandingCode);
+ return `<ul class="code-legend" aria-label="${english?'Code colour key':'Farblegende der Kürzel'}">${items}</ul>${dual?`<p class="code-origin-note">${english?'Split colour: scientific and banding code.':'Geteilte Farbe: wissenschaftlicher Kurzcode und Beringungscode.'}</p>`:''}`;
+}
 function codeGroups(s,answer=false,compact=false){
- const definitions=[['scientific',english?'Scientific':'Wissenschaftlich'],['banding',english?'Banding':'Beringung'],['common','eBird']];
  const collisionList=codes=>codes.map(code=>{
   const others=birds.filter(b=>b.id!==s.id&&b.codes.includes(code));
   return others.length?`<li class="code-collision-origin">${codeMarkup(s,code)}<ul>${others.map(b=>`<li class="code-collision-species">${codeMarkup(b,code)} ${nameMarkup(b,english?'en':'de')}</li>`).join('')}</ul></li>`:'';
  }).join('');
  const collisions=codes=>{const list=collisionList(codes);return list?`<details class="code-collisions"><summary>${english?'Also for other species':'Auch für andere Arten'}</summary><ul>${list}</ul></details>`:'';};
- const groups=compact?`<div class="species-code-items">${s.codes.map(code=>codeMarkup(s,code,answer)).join('')}</div>`:definitions.map(([type,label])=>{
-  const codes=s.codes.filter(code=>type==='scientific'?s.scientificCodes?.includes(code):type==='banding'?code===s.bandingCode&&!s.scientificCodes?.includes(code):!s.scientificCodes?.includes(code)&&code!==s.bandingCode);
-  if(!codes.length)return '';
-  return `<div class="species-code-group"><p class="code-group-label">${label}</p><div class="species-code-items">${codes.map(code=>{
-   const dual=type==='scientific'&&code===s.bandingCode;
-   return `<div class="species-code-item">${codeMarkup(s,code,answer)}${dual?`<span class="code-extra-type">${english?'Also a banding code':'Auch Beringungscode'}</span>`:''}</div>`;
-  }).join('')}</div></div>`;
- }).join('');
+ // Reference cards combine all origins; an answer shows only its accepted system.
+ const groups=`<div class="species-code-items">${s.codes.map(code=>codeMarkup(s,code,answer)).join('')}${!answer?ddaCodeMarkup(s):''}</div>`;
  const alias=scientificNameAliases(s)[0];
  const note=alias?`<p class="muted code-name-note">eBird/Clements 2026: <span class="scientific-name" data-name-content lang="la">${esc(alias.name)}</span><br>eBird/Clements 2025: <span class="scientific-name" data-name-content lang="la">${esc(s.sci)}</span><br>${english?'Same species; both names are accepted as scientific answers.':'Dieselbe Art; beide Namen werden als wissenschaftliche Antwort akzeptiert.'}</p>`:s.codes.some(code=>s.scientificCodes?.includes(code))&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
- return `<div class="species-codes${compact?' species-codes-compact':''}${answer?' answer-main answer-codes':''}" role="group" aria-label="${answer?(english?'Accepted eBird entry codes':'Akzeptierte eBird-Kurzcodes'):(english?'Bird abbreviations':'Artkürzel')}">${groups}${!answer&&s.dda?ddaMarkup(s):''}${collisions(s.codes)}${note}<p class="muted code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</p></div>`;
+ return `<div class="species-codes${compact?' species-codes-compact':''}${answer?' answer-main answer-codes':''}" role="group" aria-label="${answer?(english?'Accepted eBird entry codes':'Akzeptierte eBird-Kurzcodes'):(english?'Bird abbreviations':'Artkürzel')}">${groups}${codeLegend(s,{dda:!answer})}${!answer?ddaQuestionScope(s):''}${collisions(s.codes)}${note}<p class="muted code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</p></div>`;
 }
 
 function lookupAliases(s,language){

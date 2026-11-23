@@ -61,10 +61,27 @@ const ctx={birds,DDA_SOURCE,isCodeTarget,codeLabel,normalize,primaryName,accepte
 vm.createContext(ctx);vm.runInContext(source.slice(source.indexOf('function scientificNameMarkup('),source.indexOf('function lookupNameList(')),ctx);
 for(const english of [false,true]){
  ctx.english=english;
- for(const bird of [blackbird,swan,birds.find(b=>b.de==='Felsentaube')]){
+ for(const [bird,expectedOrigins] of [[blackbird,['scientific','common','banding','dda']],[swan,['scientific','banding','dda']],[birds.find(b=>b.de==='Felsentaube'),['scientific','common','banding','dda']]]){
   const dda=ctx.nameAnswerMarkup(bird,'dda'),ebird=ctx.nameAnswerMarkup(bird,'code'),reference=ctx.codeGroups(bird);
   assert(dda.includes(esc(bird.dda.code)));assert(!dda.includes(DDA_SOURCE));assert(!reference.includes(DDA_SOURCE));assert(!dda.includes(bird.codes[0]));assert(!ebird.includes('code-dda'));assert(reference.includes('code-dda'));
+  for(const compact of [false,true]){
+   const card=ctx.codeGroups(bird,false,compact);
+   const row=card.match(/<div class="species-code-items">([\s\S]*?)<\/div>/)[1];
+   for(const code of bird.codes)assert(row.includes(`<span data-name-content>${esc(code)}</span>`));
+   assert(row.includes(`<span data-name-content lang="de">${esc(bird.dda.code)}</span>`),'DDA sits in the same row as all other origins');
+   assert.equal((card.match(/class="species-code-items"/g)||[]).length,1);
+   assert.equal((card.match(/class="code-legend"/g)||[]).length,1);
+   assert(!card.includes('code-group-label'));
+   const legend=card.match(/<ul class="code-legend"[^>]*>([\s\S]*?)<\/ul>/)[1];
+   assert(legend.includes('code-dda'));assert(legend.includes('>DDA</li>'));
+   assert.deepEqual([...legend.matchAll(/class="code-swatch code-([^"]+)"/g)].map(match=>match[1]),expectedOrigins,'The legend explains exactly the displayed origins');
+   assert(card.includes(english?'Code colour key':'Farblegende der Kürzel'));
+   assert(legend.includes(english?'Scientific':'Wissenschaftlich'));
+  }
+  const ddaLegend=dda.match(/<ul class="code-legend"[^>]*>([\s\S]*?)<\/ul>/)[1];
+  assert.equal((ddaLegend.match(/<li>/g)||[]).length,1,'DDA answers only describe their own system');
  }
+ assert(!ctx.codeGroups(absent).includes('code-dda'),'Unavailable DDA data has no badge or legend entry');
  const scoped=birds.find(b=>b.de==='Felsentaube');assert(ctx.ddaQuestionScope(scoped).includes('Straßentaube'));
 }
 assert(!ctx.ddaQuestionScope(blackbird));

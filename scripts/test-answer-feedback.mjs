@@ -101,7 +101,7 @@ assert.match(details,/Old name.*Historischer deutscher Name/s);assert.match(deta
 const dual={...blackbird,id:'dual',codes:['TEST'],scientificCodes:['TEST'],scientificCodeName:'<script>',bandingCode:'TEST'};
 const dualCodes=markupContext.codeGroups(dual);
 assert.equal(dualCodes.replace(/<details class="code-collisions">[\s\S]*?<\/details>/g,'').split('<span data-name-content>TEST</span>').length-1,1);
-assert.match(dualCodes,/Auch Beringungscode/);assert.match(dualCodes,/&lt;script&gt;/);assert(!dualCodes.includes('<script>'));
+assert.match(dualCodes,/Geteilte Farbe: wissenschaftlicher Kurzcode und Beringungscode/);assert.match(dualCodes,/&lt;script&gt;/);assert(!dualCodes.includes('<script>'));
 for(const english of [false,true]){
  markupContext.english=english;
  const codes=markupContext.codeGroups(blackbird);

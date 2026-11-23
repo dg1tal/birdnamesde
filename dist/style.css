@@ -76,8 +76,8 @@ body.studying main{min-height:100svh;padding-top:max(12px,env(safe-area-inset-to
 body.studying .session>.meta{align-items:center;margin:0 0 10px;flex-wrap:nowrap}
 body.studying .session>.meta button{padding:8px 11px;white-space:nowrap;font-size:14px}
 body.studying .session>progress{display:block;height:6px;margin-bottom:10px}
-body.studying .question{padding:18px 24px;overflow-wrap:anywhere}
-body.studying .question h1{margin:12px 0 16px;font-size:clamp(32px,6vw,44px)}
+body.studying .question{padding:16px 20px;overflow-wrap:anywhere}
+body.studying .question h1{margin:8px 0 12px;font-size:clamp(28px,5vw,40px)}
 body.studying .question .eyebrow{font-size:12px;letter-spacing:1px;font-weight:700;text-transform:uppercase;color:var(--muted)}
 body.studying .study-actions{position:fixed;z-index:10;left:0;right:0;bottom:var(--study-keyboard-inset,0px);display:flex;justify-content:center;gap:12px;flex-wrap:nowrap;margin:0;padding:12px max(16px,env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));background:var(--bg);border-top:1px solid var(--line)}
 body.studying .study-actions button{flex:1;max-width:340px;min-height:48px;margin:0}
@@ -320,7 +320,7 @@ main h1[tabindex="-1"]:focus{outline:none}
 .question .clearable-field input{max-width:none}
 
 /* Feedback is grouped by meaning, with compact text spacing inside each block. */
-body.studying .question:has(.feedback) h1{margin:12px 0 16px}
+body.studying .question:has(.feedback) h1{margin:8px 0 12px}
 body.studying .feedback{display:grid;gap:10px;margin-top:8px;padding:14px}
 body.studying .feedback p,body.studying .feedback h2{margin:0;line-height:1.45}
 body.studying .feedback-result{display:grid;gap:4px;padding-bottom:10px;border-bottom:1px solid var(--line)}
@@ -481,12 +481,12 @@ body.studying .question-selection-context{display:grid;gap:4px;font-size:13px;co
 .summary #continue-practice{min-width:200px}
 
 /* Introductions use the same always-visible controls as the question flow. */
-body.studying .introduction{display:grid;gap:8px;padding:16px 20px;overflow-wrap:anywhere}
+body.studying .introduction{display:grid;gap:6px;padding:14px 20px;overflow-wrap:anywhere}
 body.studying .introduction>p,body.studying .introduction>h1{margin:0}
 body.studying .introduction>.intro-instruction{font-size:16px;line-height:1.4}
 body.studying .introduction>.intro-reason{font-size:14px;line-height:1.45;color:var(--muted)}
 body.studying .introduction>.eyebrow,body.studying .introduction>.intro-answer-language{font-size:13px;color:var(--muted)}
-body.studying .introduction>h1{font-size:clamp(28px,5vw,40px);line-height:1.2}
+body.studying .introduction>h1{font-size:clamp(28px,5vw,36px);line-height:1.2}
 body.studying .introduction>.answer-main{font-size:clamp(23px,4vw,30px);line-height:1.3}
 body.studying .introduction>.answer-aliases{font-size:14px;line-height:1.4}
 body.studying .introduction .photo-set{min-width:0;margin-top:4px}
@@ -545,9 +545,10 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
 
 .code-banding{background:var(--band-bg);color:var(--band-ink);box-shadow:inset 0 0 0 1px currentColor}
 .code-scientific,body.dark .code-scientific{background:var(--sci-bg);color:var(--sci-ink);box-shadow:inset 0 0 0 1px currentColor}
-.code-legend{display:flex;flex-wrap:wrap;gap:5px;font-size:12px;line-height:1.5;margin:6px 0 12px}
-.code-legend .code{font:500 12px/1.5 system-ui,sans-serif;letter-spacing:0;padding:2px 6px;border-radius:4px;white-space:normal}
-.code-legend-note{flex-basis:100%}
+.code-legend{display:flex;flex-wrap:wrap;gap:3px 12px;list-style:none;padding:0;margin:0;color:var(--muted);font-size:.75rem;line-height:1.5}
+.code-legend li{display:inline-flex;align-items:center;gap:5px}
+.code-swatch{display:inline-block;flex:none;width:.75rem;height:.75rem;border-radius:3px}
+.code-origin-note{color:var(--muted);font-size:.75rem;line-height:1.5;margin:0}
 .code-name-note{font-size:13px;margin:6px 0 12px}
 @media(forced-colors:active){.code-scientific,.code-banding{outline:1px solid CanvasText}}
 
@@ -577,20 +578,17 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
 .lookup-options .lookup-name-options fieldset{min-inline-size:0;padding:10px 0;border:0}
 .lookup-filters .lookup-country{max-width:none}
 
-/* Shared species references: names first, explicitly labelled codes below. */
+/* Shared species references: all code origins share a row and a compact key. */
 .name-variant{font-size:14px;line-height:1.5;margin:6px 0;overflow-wrap:anywhere}
 .species-reference{display:grid;gap:8px;min-width:0;font-size:14px}
 .reference-name{font-size:16px;line-height:1.5;margin:0}
-.species-codes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,145px),1fr));gap:12px;margin:10px 0;padding-top:8px;border-top:1px solid var(--line);min-width:0;text-align:left}
-.code-group-label{font-size:12px;font-weight:600;color:var(--muted);margin:0 0 6px;line-height:1.5}
-.species-code-items{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:flex-start}
-.species-code-item{display:grid;justify-items:start;gap:4px;min-width:0;max-width:100%}
-.code-extra-type{font-size:12px;color:var(--muted)}
+.species-codes{display:flex;flex-direction:column;align-items:flex-start;gap:6px;margin:8px 0;padding-top:8px;border-top:1px solid var(--line);min-width:0;text-align:left}
+.species-code-items{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;max-width:100%}
 .card .code-collisions,.code-collisions{font-size:12px;padding:0;max-width:32ch;clear:none}
 .code-collisions summary{cursor:pointer;min-height:44px;padding:10px 0;line-height:1.5;color:var(--accent)}
 .code-collisions ul{padding-left:18px;margin:0 0 8px;overflow-wrap:anywhere}
 .code-collisions li{margin:4px 0}
-.species-codes .code-legend-note,.species-codes .code-name-note{grid-column:1/-1;font-size:12px;line-height:1.5;margin:0}
+.species-codes .code-legend-note,.species-codes .code-name-note{font-size:.75rem;line-height:1.5;margin:0}
 .card .answer-species-link a{float:none;margin:0;font-size:14px}
 .lookup-hit-heading-name{grid-column:1;min-width:0}
 .lookup-hit-heading-name .card-language-label{margin:0 0 3px}
@@ -602,7 +600,7 @@ body.studying .species-reference .name-sources ul{text-align:left}
 body.studying .species-codes{width:100%;justify-self:stretch;justify-content:stretch}
 body.studying #revealed-answer .photo-set{margin-top:14px}
 body.studying #revealed-answer .photo-set .bird-photo img{height:280px;object-fit:contain}
-@media(max-width:580px){.species-code-items{gap:8px 12px}body.studying #revealed-answer .photo-set-multiple{grid-template-columns:1fr}}
+@media(max-width:580px){body.studying #revealed-answer .photo-set-multiple{grid-template-columns:1fr}}
 
 /* One compact disclosure owns search scope and display settings. */
 .lookup-options{display:block}
@@ -633,12 +631,11 @@ body.studying #revealed-answer .photo-set .bird-photo img{height:280px;object-fi
 
 /* The same badges retain visible backgrounds on lookup and feedback surfaces. */
 .code-common{background:var(--common-bg);color:var(--common-ink);box-shadow:inset 0 0 0 1px currentColor}
-body.studying .species-codes-compact{display:flex;flex-direction:column;flex-wrap:nowrap;gap:8px;text-align:center;align-items:center}
-.species-codes-compact .species-code-items{justify-content:center;gap:8px}
+body.studying .species-codes-compact{gap:6px;text-align:left;align-items:flex-start}
 .species-codes-compact .code-collisions{max-width:100%;text-align:left}
 @media(forced-colors:active){.code-common{outline:1px solid CanvasText}}
 
-.species-codes-compact .code-legend-note{flex-basis:auto;max-width:100%}
+.species-codes-compact .code-legend-note{max-width:100%}
 
 /* Context-free answers may refer to more than one code origin. */
 .code.code-scientific.code-banding{background:linear-gradient(90deg,var(--sci-bg) 50%,var(--band-bg) 50%);color:var(--ink)}
@@ -723,7 +720,7 @@ button.filter-chip{min-height:44px}
 .lookup-name-list>div{min-width:0;margin:0}
 .card .lookup-name-list dd{font-size:16px;line-height:1.4}
 .card .lookup-name-list .english-variants{font-size:16px}
-.card>.species-codes{clear:both;padding-top:16px;margin-top:16px;gap:12px}
+.card>.species-codes{clear:both;padding-top:10px;margin-top:10px;gap:6px}
 .card .lookup-status{padding-top:12px;border-top:1px solid var(--line);font-size:12px}
 .card .scientific-origin{clear:both}
 #setup{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:16px;align-items:start}
@@ -850,19 +847,20 @@ footer a:hover{text-decoration:underline}
 @media(max-width:480px){#shared-settings .name-language-settings .settings{grid-template-columns:1fr}}
 
 /* Answer cards: one name block, then flat, equally weighted reference topics. */
-body.studying .feedback{gap:18px;padding:0;border:0;background:transparent;text-align:left}
-body.studying .feedback-result{gap:6px;padding:0 0 14px}
-body.studying .feedback-answer{padding:16px;background:var(--soft);border-radius:12px;gap:8px}
+body.studying .feedback{gap:12px;padding:0;border:0;background:transparent;text-align:left}
+body.studying .feedback-result{gap:4px;padding:0 0 8px}
+body.studying .feedback-answer{padding:12px 14px;background:var(--soft);border-radius:12px;gap:5px}
 body.studying .feedback .answer-main{margin:0;font-size:clamp(24px,4vw,30px);text-align:left}
 body.studying .feedback .name-variant{text-align:left;margin:0}
 body.studying .feedback .answer-label{font-size:12px;letter-spacing:.02em}
 body.studying .feedback-details{gap:0}
-body.studying .study-reference{display:grid;gap:14px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--panel);text-align:left;font-size:14px;min-width:0}
+body.studying .study-reference{display:grid;gap:8px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:var(--panel);text-align:left;font-size:14px;min-width:0}
 body.studying .study-reference:empty{display:none}
-body.studying .study-reference .reference-name{margin:0;font-size:16px;text-align:left}
-body.studying .study-reference .card-language-label{margin-bottom:5px}
-body.studying .study-source-aliases+.reference-name{padding-top:12px;border-top:1px solid var(--line)}
-body.studying .study-reference-codes{padding-top:12px;border-top:1px solid var(--line)}
+body.studying .study-reference .reference-name{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;margin:0;font-size:16px;text-align:left}
+body.studying .study-reference .card-language-label{margin:0}
+body.studying .study-source-aliases+.reference-name{padding-top:8px;border-top:1px solid var(--line)}
+body.studying .study-reference-codes{padding-top:8px;border-top:1px solid var(--line)}
+body.studying .study-reference-codes>.card-language-label{margin-bottom:4px}
 body.studying .study-source-aliases:empty{display:none}
 body.studying .study-german-alternatives{display:grid;gap:5px;text-align:left;line-height:1.5}
 body.studying .study-german-alternatives>.muted{font-size:12px;font-weight:600}
@@ -871,11 +869,11 @@ body.studying .feedback-answer .study-german-alternatives{padding-top:10px;borde
 body.studying .study-reference-codes .species-codes-compact{align-items:flex-start;text-align:left;margin:0;padding:0;border:0}
 body.studying .study-reference-codes .species-code-items{justify-content:flex-start}
 body.studying .study-reference-codes .code-collisions{width:100%;padding-top:0}
-body.studying #revealed-answer .study-reference{margin:16px 0}
-body.studying .introduction>.study-reference{margin:8px 0}
+body.studying #revealed-answer .study-reference{margin:10px 0}
+body.studying .introduction>.study-reference{margin:4px 0}
 body.studying .study-notes{min-width:0;width:100%;text-align:left;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--panel);margin:4px 0 0}
 body.studying .study-notes>details{margin:0;padding:0;border:0;border-bottom:1px solid var(--line);font-size:14px;color:var(--ink)}
-body.studying .study-notes>details>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;list-style:none;min-height:52px;padding:14px 16px;color:var(--ink);font-size:14px;font-weight:600;line-height:1.45;cursor:pointer}
+body.studying .study-notes>details>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;list-style:none;min-height:44px;padding:10px 14px;color:var(--ink);font-size:14px;font-weight:600;line-height:1.45;cursor:pointer}
 body.studying .study-notes>details>summary::-webkit-details-marker{display:none}
 body.studying .study-notes>details>summary::after{content:'';width:8px;height:8px;flex:none;margin-right:3px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:rotate(45deg)}
 body.studying .study-notes>details[open]>summary::after{transform:rotate(225deg)}
@@ -906,14 +904,16 @@ body.studying .study-notes .question-explanation .learning-feedback{font-size:14
 body.studying .study-notes .learning-feedback p{margin:0;text-align:left}
 body.studying .study-notes .study-note-links{margin:0;padding:12px 16px;font-size:13px;text-align:left;line-height:1.5}
 body.studying .study-note-links a{display:inline-flex;align-items:center;min-height:32px}
-body.studying .study-note-codes{padding:16px;border-bottom:1px solid var(--line)}
+body.studying .study-note-codes{padding:10px 14px;border-bottom:1px solid var(--line)}
+body.studying .study-note-codes>.card-language-label{margin-bottom:4px}
+body.studying .study-note-codes>.species-codes{margin:0;padding:0;border:0}
 body.studying .study-note-codes .species-codes-compact{align-items:flex-start;text-align:left}
 body.studying .study-note-codes .species-code-items{justify-content:flex-start}
 body.studying .study-notes a{float:none;font-size:inherit;margin:0}
 @media(max-width:580px){
- body.studying .feedback{gap:16px;padding:0}
- body.studying .feedback-answer{padding:14px}
- body.studying .study-notes>details>summary{padding:13px 14px;min-height:52px}
+ body.studying .feedback{gap:12px;padding:0}
+ body.studying .feedback-answer{padding:10px 12px}
+ body.studying .study-notes>details>summary{padding:10px 12px;min-height:44px}
  body.studying .study-notes .scientific-origin-content,body.studying .study-note-content,body.studying .study-notes .question-explanation .learning-feedback{padding:14px}
  body.studying .study-notes .scientific-origin dl>div{grid-template-columns:1fr;gap:6px}
  body.studying .study-notes .scientific-origin dd{padding-top:0}
@@ -976,11 +976,12 @@ select{appearance:none;background-image:var(--select-chevron);background-repeat:
  .dialog-header h2{grid-row:2}
 }
 
-/* DDA uses its original mixed case and a text label in both themes. */
-.dda-codes{margin-top:.65rem;padding-top:.65rem;border-top:1px solid var(--line)}
-.code-dda{background:var(--soft);color:var(--ink);border:1px solid currentColor;text-transform:none}
+/* DDA retains mixed case and has its own colour in the shared key. */
+:root{--dda-bg:#e1ebfa;--dda-ink:#294f7a}
+body.dark{--dda-bg:#253b57;--dda-ink:#c8dfff}
+.code-dda{background:var(--dda-bg);color:var(--dda-ink);box-shadow:inset 0 0 0 1px currentColor;text-transform:none}
 .dda-scope{font-size:.9rem;line-height:1.45;margin:.5rem 0}
 .dda-scope p{margin:.25rem 0}
-.species-codes>.dda-codes{margin-top:0;padding-top:0;border-top:0}
-.dda-codes.answer-main{flex-direction:column;align-items:center;border:0;padding:0;gap:8px}
-body.studying .dda-codes.answer-main .code-dda{font-size:24px;padding:8px 12px}
+.dda-codes.answer-main{border:0;padding:0}
+body.studying .dda-codes.answer-main .code-dda{font-size:24px}
+@media(forced-colors:active){.code-swatch,.code-dda{outline:1px solid CanvasText}}
