@@ -1038,11 +1038,11 @@ function route(){
  if((page==='info'&&anchor?.match(/^info-[a-z]+$/))||(page==='lernmethode'&&anchor?.match(/^method-(?:[a-z]+|source-[1-7])$/))){const target=document.getElementById(anchor);if(target&&app.contains(target)){focusElement(target);target.scrollIntoView({block:'start'});return;}}
  if(!initial&&(page!=='lernen'||!session||session.paused)){if(page==='nachschlagen')queueFocus($('#search'),{preventScroll:false});else focusHeading();}
 }
-try{let data=await(await fetch('species.json?v=20261107-scicodes1')).json();birds=data.species.sort((a,b)=>(a.de||a.sci).localeCompare(b.de||b.sci,'de'));meta=data.meta;
+try{let data=await(await fetch('species.json?v=20261123-countries1')).json();birds=data.species.sort((a,b)=>(a.de||a.sci).localeCompare(b.de||b.sci,'de'));meta=data.meta;
 try{const names=await(await fetch('german-names.json')).json();germanNamesMeta=names.meta;for(const s of birds)s.germanNames=names.species[s.id]?.names||[];}catch(err){console.warn('Deutsche Alternativnamen nicht geladen',err)}
 try{const response=await fetch('dda-codes.json',{cache:'no-cache'});if(!response.ok)throw Error('DDA unavailable');const dda=validateDdaData(await response.json(),new Set(birds.map(s=>s.id)));ddaMeta=dda.meta;for(const bird of birds)bird.dda=dda.species[bird.id];}catch{console.warn('DDA abbreviations unavailable');}
 availableNameLanguages=await loadNameData(birds);
-try{const response=await fetch('scientific-names.json?v=20261123-origin-sources');if(response.ok)nameOrigins=validateScientificNames(await response.json(),birds);}catch{console.warn('Scientific-name explanations unavailable');}
+try{const response=await fetch('scientific-names.json?v=20261123-countries1');if(response.ok)nameOrigins=validateScientificNames(await response.json(),birds);}catch{console.warn('Scientific-name explanations unavailable');}
 ui.learn.nameLanguage=isNameLanguage(ui.learn.nameLanguage)?ui.learn.nameLanguage:isNameLanguage(ui.learn.target)?ui.learn.target:defaultNameTarget;
 nameTarget=ui.learn.nameLanguage;
 ui.learn.codeSystem=ui.learn.codeSystem==='dda'?'dda':'ebird';
@@ -1058,6 +1058,6 @@ ui.learn.hybridVersion=1;ui.learn.regionMode=['all','recent','seasonal'].include
 delete ui.learn.levels;
 for(const [field,options]of Object.entries({target:[nameTarget,'code','mixed'],method:['text','flash','mc','think'],scope:['all','unmastered','due','wrong'],count:['10','15','25','all']}))if(!options.includes(ui.learn[field]))ui.learn[field]=defaults.learn[field];
 try{const response=await fetch('regions.json?format=hierarchy',{cache:'no-cache'});if(response.ok)regionalData=validateRegions(await response.json(),ids,meta.catalog?.fingerprint);}catch{console.warn('Regional lists unavailable');}
-try{seasonalData=await loadSeasonal(()=>fetch('seasonal-species.json?v=20261107-scicodes1'),ids,meta.catalog?.fingerprint);}catch{seasonalData=null;console.warn('Seasonal data unavailable');}
+try{seasonalData=await loadSeasonal(()=>fetch('seasonal-species.json?v=20261123-countries1'),ids,meta.catalog?.fingerprint);}catch{seasonalData=null;console.warn('Seasonal data unavailable');}
 try{const data=await(await fetch('current-notable.json',{cache:'no-cache'})).json();if(data?.version===1&&Array.isArray(data.regions)&&(!meta.catalog||data.catalogFingerprint===meta.catalog.fingerprint))currentNotable=data;}catch{console.warn('Current reports unavailable');}
-try{photos=(await(await fetch('photos.json?v=20261105-images3')).json()).photos}catch(err){console.warn('Artenbilder nicht geladen',err)}saveUI();await initDB();if(storageState==='ready'){reconcileDdaRecords(records,birds);await save();}window.addEventListener('hashchange',route);route();}catch(err){app.innerHTML='<h1>Daten konnten nicht geladen werden.</h1><p>Bitte Seite erneut laden.</p>';console.error(err)}
+try{photos=(await(await fetch('photos.json?v=20261123-countries1')).json()).photos}catch(err){console.warn('Artenbilder nicht geladen',err)}saveUI();await initDB();if(storageState==='ready'){reconcileDdaRecords(records,birds);await save();}window.addEventListener('hashchange',route);route();}catch(err){app.innerHTML='<h1>Daten konnten nicht geladen werden.</h1><p>Bitte Seite erneut laden.</p>';console.error(err)}

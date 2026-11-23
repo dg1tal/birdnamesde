@@ -45,7 +45,7 @@ export async function loadNameData(birds,fetchData=globalThis.fetch){
  const ids=new Set(birds.map(s=>s.id));const available=NAME_LANGUAGES.filter(l=>l.field).map(l=>l.code);
  for(const language of NAME_LANGUAGES.filter(l=>l.data)){
   try{
-   const response=await fetchData(language.data);if(!response.ok)throw Error('Language file unavailable');
+   const response=await fetchData(language.data,{cache:'no-cache'});if(!response.ok)throw Error('Language file unavailable');
    const names=validateNameData(await response.json(),language.code,ids);
    for(const s of birds){s.names??={};if(names[s.id])s.names[language.code]=names[s.id];}
    available.push(language.code);
