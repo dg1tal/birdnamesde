@@ -1,0 +1,726 @@
+{
+  "date": "2026-11-23",
+  "request": "Systematically review all remaining uncertainty-marked scientific-name explanations against sources, correcting German, English and Dutch as needed.",
+  "baselineCommit": "6faaacaf747d4e3eb5a0447908f347c04949a48c",
+  "scope": {
+    "uncertainAtStart": 47,
+    "alreadyCoveredByPreviousSample": 16,
+    "remainingReviewed": 31,
+    "remainingUnreviewed": 0,
+    "existingTermsWithRevisedProse": 30,
+    "existingTermsRetainedUnchanged": 1,
+    "additionalTaxonSpecificTerms": 1,
+    "speciesWithRevisedExplanation": 35,
+    "languages": [
+      "de",
+      "en",
+      "nl"
+    ],
+    "wordFormationUncertaintyRemoved": [
+      "e:rubetra"
+    ],
+    "uncertainRuntimeTermsAfterReview": 47
+  },
+  "initialUncertainTermKeys": [
+    "e:astrild",
+    "e:atthis",
+    "e:biarmicus",
+    "e:bonasia",
+    "e:canutus",
+    "e:castro",
+    "e:cirrocephalus",
+    "e:collurio",
+    "e:dougallii",
+    "e:githagineus",
+    "e:granti",
+    "e:hiaticula",
+    "e:kundoo",
+    "e:melba",
+    "e:menstruus",
+    "e:plancus",
+    "e:porzana",
+    "e:proregulus",
+    "e:quelea",
+    "e:quiscula",
+    "e:rouloul",
+    "e:rubecula",
+    "e:rubetra",
+    "e:trivialis",
+    "g:Aratinga",
+    "g:Chordeiles",
+    "g:Cisticola",
+    "g:Cyanoliseus",
+    "g:Erithacus",
+    "g:Estrilda",
+    "g:Forpus",
+    "g:Hippolais",
+    "g:Iduna",
+    "g:Lophodytes",
+    "g:Melanocorypha",
+    "g:Molothrus",
+    "g:Poicephalus",
+    "g:Porzana",
+    "g:Quelea",
+    "g:Quiscalus",
+    "g:Rhea",
+    "g:Rollulus",
+    "g:Surnia",
+    "g:Tauraco",
+    "g:Uraeginthus",
+    "g:Xema",
+    "g:Zapornia"
+  ],
+  "previousReview": "scientific-name-content-review-20261123.json",
+  "method": [
+    "Enumerate every uncertainty-marked runtime term and subtract the cases actually covered by the previous content sample. Do not use the broad depth-rewrite record as proof of an individual content check.",
+    "Read the actual source entry, including page continuations, and compare historical combinations, word components, proposed motives and competing interpretations.",
+    "Prefer an attested historical transmission over an attractive but undocumented decomposition. Retain conjectures as conjectures, and distinguish an unidentified ancient bird from an unknown word origin.",
+    "Check all three language versions together and compile the explicit source/page/scope assignments. Use a species-specific override when the same epithet has different histories."
+  ],
+  "cases": [
+    {
+      "termBeforeReview": "e:astrild",
+      "outcome": "revised",
+      "uncertaintyConcerns": "borrowedName",
+      "consultedPassages": [
+        "jobling2010:57",
+        "jobling2010:151"
+      ],
+      "finding": "The historical species name Loxia astrild is documented; a German/Dutch avicultural origin is proposed, not established. Explain this path without assigning an unverified original language.",
+      "afterTermKeys": [
+        "e:astrild"
+      ],
+      "uncertainAfterReview": {
+        "e:astrild": true
+      },
+      "affectedSpecies": [
+        "Estrilda astrild"
+      ]
+    },
+    {
+      "termBeforeReview": "e:atthis",
+      "outcome": "revised",
+      "uncertaintyConcerns": "dedication",
+      "consultedPassages": [
+        "jobling2010:60",
+        "beolens2014Atthis:39"
+      ],
+      "finding": "Two consulted bird-name dictionaries assign different persons to the kingfisher epithet. Show the disagreement with attribution and retain uncertainty; do not import the hummingbird genus Atthis explanation as settled evidence.",
+      "afterTermKeys": [
+        "e:atthis"
+      ],
+      "uncertainAfterReview": {
+        "e:atthis": true
+      },
+      "affectedSpecies": [
+        "Alcedo atthis"
+      ]
+    },
+    {
+      "termBeforeReview": "e:biarmicus",
+      "outcome": "revised",
+      "uncertaintyConcerns": "namingIntention",
+      "consultedPassages": [
+        "jobling2010:71",
+        "bou1915:54"
+      ],
+      "finding": "Separate two taxon-specific uses. For Panurus, Biarmia/Bjarmaland and a possible reshaping of Beardmanica compete. For Falco, Jobling interprets Temminck’s reuse as referring to the moustachial markings. Neither supplies a secure geographical origin for the falcon.",
+      "afterTermKeys": [
+        "e:biarmicus",
+        "e:biarmicus:lanfal1"
+      ],
+      "uncertainAfterReview": {
+        "e:biarmicus": true,
+        "e:biarmicus:lanfal1": true
+      },
+      "affectedSpecies": [
+        "Panurus biarmicus",
+        "Falco biarmicus"
+      ]
+    },
+    {
+      "termBeforeReview": "e:bonasia",
+      "outcome": "revised",
+      "uncertaintyConcerns": "deeperWordOrigin",
+      "consultedPassages": [
+        "jobling2010:74"
+      ],
+      "finding": "The Italian Hazel Grouse name Bonasia is attested; comparison with Greek bonasos/Latin bonasus (wild ox) is a proposal, not a resolved decomposition. No speculative roast-based folk etymology is asserted.",
+      "afterTermKeys": [
+        "e:bonasia"
+      ],
+      "uncertainAfterReview": {
+        "e:bonasia": true
+      },
+      "affectedSpecies": [
+        "Tetrastes bonasia"
+      ]
+    },
+    {
+      "termBeforeReview": "e:canutus",
+      "outcome": "revised",
+      "uncertaintyConcerns": "historicalExplanation",
+      "consultedPassages": [
+        "jobling2010:89"
+      ],
+      "finding": "Distinguish the documented pre-Linnaean name Canuti avis and Latin Canutus from unverified stories explaining its connection with the king. Jobling also records an onomatopoeic proposal.",
+      "afterTermKeys": [
+        "e:canutus"
+      ],
+      "uncertainAfterReview": {
+        "e:canutus": true
+      },
+      "affectedSpecies": [
+        "Calidris canutus"
+      ]
+    },
+    {
+      "termBeforeReview": "e:castro",
+      "outcome": "revised",
+      "uncertaintyConcerns": "deeperWordOrigin",
+      "consultedPassages": [
+        "jobling2010:93–94"
+      ],
+      "finding": "Harcourt’s adoption of Roque de Castro/Crasto is documented in the reference. Literal and onomatopoeic interpretations are proposals; retain uncertainty about the local name’s deeper origin.",
+      "afterTermKeys": [
+        "e:castro"
+      ],
+      "uncertainAfterReview": {
+        "e:castro": true
+      },
+      "affectedSpecies": [
+        "Hydrobates castro"
+      ]
+    },
+    {
+      "termBeforeReview": "e:collurio",
+      "outcome": "revised",
+      "uncertaintyConcerns": "ancientBirdIdentity",
+      "consultedPassages": [
+        "wnve_collurio",
+        "jobling2010:114"
+      ],
+      "finding": "Greek kollourion is documented; its identification with a particular shrike or thrush is conjectural. Remove repetitive prose while keeping the unresolved identification and deeper origin distinct.",
+      "afterTermKeys": [
+        "e:collurio"
+      ],
+      "uncertainAfterReview": {
+        "e:collurio": true
+      },
+      "affectedSpecies": [
+        "Lanius collurio"
+      ]
+    },
+    {
+      "termBeforeReview": "e:dougallii",
+      "outcome": "revised",
+      "uncertaintyConcerns": "personIdentity",
+      "consultedPassages": [
+        "jobling2010:139",
+        "bou1915:265"
+      ],
+      "finding": "The dedication to the Glasgow physician who supplied a specimen and description is supported. Jobling records competing Peter/Patrick identifications; the BOU does not resolve the first name. Clarify that the dedication itself is not what is uncertain.",
+      "afterTermKeys": [
+        "e:dougallii"
+      ],
+      "uncertainAfterReview": {
+        "e:dougallii": true
+      },
+      "affectedSpecies": [
+        "Sterna dougallii"
+      ]
+    },
+    {
+      "termBeforeReview": "e:githagineus",
+      "outcome": "revised",
+      "uncertaintyConcerns": "namingIntention",
+      "consultedPassages": [
+        "jobling2010:173"
+      ],
+      "finding": "Jobling supports a probable relation to the botanical name Githago. Do not turn a proposed plant comparison or a particular colour motive into an established naming intention. Replace the unavailable WNVE main citation with the consulted reference.",
+      "afterTermKeys": [
+        "e:githagineus"
+      ],
+      "uncertainAfterReview": {
+        "e:githagineus": true
+      },
+      "affectedSpecies": [
+        "Bucanetes githagineus"
+      ]
+    },
+    {
+      "termBeforeReview": "e:granti",
+      "outcome": "revised",
+      "uncertaintyConcerns": "dedication",
+      "consultedPassages": [
+        "jobling2010:177",
+        "review20261108_3dabb8d30ef9:148–149"
+      ],
+      "finding": "Re-read Kollibay’s short original article: it introduces a replacement for a preoccupied name and discusses Ogilvie-Grant’s work, but gives no explicit dedication. Add that context and printed page; retain the qualified inference.",
+      "afterTermKeys": [
+        "e:granti"
+      ],
+      "uncertainAfterReview": {
+        "e:granti": true
+      },
+      "affectedSpecies": [
+        "Ptilopsis granti"
+      ]
+    },
+    {
+      "termBeforeReview": "e:kundoo",
+      "outcome": "retained",
+      "uncertaintyConcerns": "unknownWordOrigin",
+      "consultedPassages": [
+        "jobling2010:216"
+      ],
+      "finding": "Jobling says the etymology is undiscovered and offers only broad Indian-name/mythology guesses without an attested source word. The existing concise statement of uncertainty is appropriate and is retained unchanged.",
+      "afterTermKeys": [
+        "e:kundoo"
+      ],
+      "uncertainAfterReview": {
+        "e:kundoo": true
+      },
+      "affectedSpecies": [
+        "Oriolus kundoo"
+      ]
+    },
+    {
+      "termBeforeReview": "e:melba",
+      "outcome": "revised",
+      "uncertaintyConcerns": "unknownWordOrigin",
+      "consultedPassages": [
+        "jobling2010:248"
+      ],
+      "finding": "Jobling records no explanation by Linnaeus. Present the melas/melanos plus albus contraction explicitly as a proposal; fitting the plumage is not proof of actual formation.",
+      "afterTermKeys": [
+        "e:melba"
+      ],
+      "uncertainAfterReview": {
+        "e:melba": true
+      },
+      "affectedSpecies": [
+        "Tachymarptis melba"
+      ]
+    },
+    {
+      "termBeforeReview": "e:menstruus",
+      "outcome": "revised",
+      "uncertaintyConcerns": "namingIntention",
+      "consultedPassages": [
+        "jobling2010:250",
+        "lewisShortMenstruus"
+      ],
+      "finding": "Separate the menstrual sense selected by Jobling from the lexical base mensis (month), independently checked in Lewis & Short. Neither the month base nor plumage colour establishes the naming motive.",
+      "afterTermKeys": [
+        "e:menstruus"
+      ],
+      "uncertainAfterReview": {
+        "e:menstruus": true
+      },
+      "affectedSpecies": [
+        "Pionus menstruus"
+      ]
+    },
+    {
+      "termBeforeReview": "e:plancus",
+      "outcome": "revised",
+      "uncertaintyConcerns": "namingIntention",
+      "consultedPassages": [
+        "mouchard2019:226",
+        "jobling2010:309"
+      ],
+      "finding": "Jobling and Mouchard support the ancient eagle-name reading from plangos. The separately attested flat-footed sense does not prove Miller’s intention. Make the source-supported analysis explicit while retaining the limit.",
+      "afterTermKeys": [
+        "e:plancus"
+      ],
+      "uncertainAfterReview": {
+        "e:plancus": true
+      },
+      "affectedSpecies": [
+        "Caracara plancus"
+      ]
+    },
+    {
+      "termBeforeReview": "e:porzana",
+      "outcome": "revised",
+      "uncertaintyConcerns": "regionalAndWordOrigin",
+      "consultedPassages": [
+        "mouchard2019:120",
+        "jobling2010:315",
+        "bou1915:301"
+      ],
+      "finding": "Italian rail-name forms are documented. Jobling’s Venetian localisation differs from Mouchard’s Po-valley proposal; BOU calls the derivation unknown. Explain that shared Italian provenance is firmer than the regional or deeper etymology.",
+      "afterTermKeys": [
+        "e:porzana"
+      ],
+      "uncertainAfterReview": {
+        "e:porzana": true
+      },
+      "affectedSpecies": [
+        "Porzana porzana"
+      ]
+    },
+    {
+      "termBeforeReview": "e:quelea",
+      "outcome": "revised",
+      "uncertaintyConcerns": "deeperWordOrigin",
+      "consultedPassages": [
+        "jobling2010:328"
+      ],
+      "finding": "Keep Medieval Latin qualea as a proposal, not a certain source word. The reason for applying a quail name to a weaverbird is unresolved, and Jobling also records an African-name proposal.",
+      "afterTermKeys": [
+        "e:quelea"
+      ],
+      "uncertainAfterReview": {
+        "e:quelea": true
+      },
+      "affectedSpecies": [
+        "Quelea quelea"
+      ]
+    },
+    {
+      "termBeforeReview": "e:quiscula",
+      "outcome": "revised",
+      "uncertaintyConcerns": "deeperWordOrigin",
+      "consultedPassages": [
+        "jobling2010:328–329"
+      ],
+      "finding": "Read the entry across both printed pages. Include the competing Quisqueya and Medieval Latin bird-name hypotheses rather than presenting only the Indigenous-name proposal; neither is settled.",
+      "afterTermKeys": [
+        "e:quiscula"
+      ],
+      "uncertainAfterReview": {
+        "e:quiscula": true
+      },
+      "affectedSpecies": [
+        "Quiscalus quiscula"
+      ]
+    },
+    {
+      "termBeforeReview": "e:rouloul",
+      "outcome": "revised",
+      "uncertaintyConcerns": "sourceLanguage",
+      "consultedPassages": [
+        "jobling2010:338"
+      ],
+      "finding": "Sonnerat’s French Rouloul de Malacca is documented; the proposed Malay Roulroul is not verified in the dictionaries checked by Jobling. Separate that secure transmission from the unconfirmed deeper language claim.",
+      "afterTermKeys": [
+        "e:rouloul"
+      ],
+      "uncertainAfterReview": {
+        "e:rouloul": true
+      },
+      "affectedSpecies": [
+        "Rollulus rouloul"
+      ]
+    },
+    {
+      "termBeforeReview": "e:rubetra",
+      "outcome": "revised",
+      "uncertaintyConcerns": "resolvedWordFormation",
+      "consultedPassages": [
+        "jobling2010:339",
+        "vorobyev2020:803, n.15",
+        "bou1915:99"
+      ],
+      "finding": "Jobling’s rubus/bramble account is corroborated by Vorobyev’s identification of Gaza’s rendering of Greek batis from batos. Remove the generic uncertainty flag for word formation; historical disagreement about whinchat/stonechat identity is stated separately. BOU 1915:99 is older and tentative; it is not used to override the documented translation history.",
+      "afterTermKeys": [
+        "e:rubetra"
+      ],
+      "uncertainAfterReview": {
+        "e:rubetra": false
+      },
+      "affectedSpecies": [
+        "Saxicola rubetra"
+      ]
+    },
+    {
+      "termBeforeReview": "e:trivialis",
+      "outcome": "revised",
+      "uncertaintyConcerns": "namingIntention",
+      "consultedPassages": [
+        "jobling2010:391",
+        "bou1915:45"
+      ],
+      "finding": "The ordinary/common sense and the base trivium (crossroads) are secure. BOU interprets the epithet as common; a deliberate reference to roadside habitat is not documented by these sources. Replace the unavailable WNVE main reference and qualify the habitat inference.",
+      "afterTermKeys": [
+        "e:trivialis"
+      ],
+      "uncertainAfterReview": {
+        "e:trivialis": true
+      },
+      "affectedSpecies": [
+        "Anthus trivialis"
+      ]
+    },
+    {
+      "termBeforeReview": "g:Estrilda",
+      "outcome": "revised",
+      "uncertaintyConcerns": "deeperWordOrigin",
+      "consultedPassages": [
+        "jobling2010:151",
+        "jobling2010:57"
+      ],
+      "finding": "The link to the earlier Loxia astrild is documented; add that historical combination. The German/Dutch avicultural origin of astrild remains proposed.",
+      "afterTermKeys": [
+        "g:Estrilda"
+      ],
+      "uncertainAfterReview": {
+        "g:Estrilda": true
+      },
+      "affectedSpecies": [
+        "Estrilda astrild",
+        "Estrilda melpoda"
+      ]
+    },
+    {
+      "termBeforeReview": "g:Iduna",
+      "outcome": "revised",
+      "uncertaintyConcerns": "unknownWordOrigin",
+      "consultedPassages": [
+        "jobling2010:202"
+      ],
+      "finding": "The naming authors gave no explanation according to Jobling. Attribute the idoneus comparison explicitly as a conjecture rather than asserting a classical or mythological derivation.",
+      "afterTermKeys": [
+        "g:Iduna"
+      ],
+      "uncertainAfterReview": {
+        "g:Iduna": true
+      },
+      "affectedSpecies": [
+        "Iduna caligata",
+        "Iduna pallida",
+        "Iduna rama",
+        "Iduna opaca"
+      ]
+    },
+    {
+      "termBeforeReview": "g:Molothrus",
+      "outcome": "revised",
+      "uncertaintyConcerns": "wordFormation",
+      "consultedPassages": [
+        "coues1882:62",
+        "mouchard2019:375",
+        "jobling2010:258"
+      ],
+      "finding": "Read Coues’s original discussion and Mouchard’s Swainson quotation. The intended uninvited guest is documented; molos/throsko and molobros are competing analyses, not an unqualified literal decomposition.",
+      "afterTermKeys": [
+        "g:Molothrus"
+      ],
+      "uncertainAfterReview": {
+        "g:Molothrus": true
+      },
+      "affectedSpecies": [
+        "Molothrus ater"
+      ]
+    },
+    {
+      "termBeforeReview": "g:Porzana",
+      "outcome": "revised",
+      "uncertaintyConcerns": "deeperWordOrigin",
+      "consultedPassages": [
+        "jobling2010:315",
+        "mouchard2019:120",
+        "bou1915:301"
+      ],
+      "finding": "Add the historical route through Rallus porzana and attested Italian forms. Preserve the unresolved regional/deeper origin rather than making the entire borrowing uncertain.",
+      "afterTermKeys": [
+        "g:Porzana"
+      ],
+      "uncertainAfterReview": {
+        "g:Porzana": true
+      },
+      "affectedSpecies": [
+        "Porzana carolina",
+        "Porzana porzana"
+      ]
+    },
+    {
+      "termBeforeReview": "g:Quelea",
+      "outcome": "revised",
+      "uncertaintyConcerns": "deeperWordOrigin",
+      "consultedPassages": [
+        "jobling2010:328"
+      ],
+      "finding": "The route through Emberiza quelea is documented. Distinguish that certain historical link from the proposed qualea root and unverified transfer motive.",
+      "afterTermKeys": [
+        "g:Quelea"
+      ],
+      "uncertainAfterReview": {
+        "g:Quelea": true
+      },
+      "affectedSpecies": [
+        "Quelea quelea"
+      ]
+    },
+    {
+      "termBeforeReview": "g:Quiscalus",
+      "outcome": "revised",
+      "uncertaintyConcerns": "deeperWordOrigin",
+      "consultedPassages": [
+        "jobling2010:328–329"
+      ],
+      "finding": "The route through Gracula quiscula is documented. Add both main deeper-origin proposals from the entry’s continuation, without choosing between them.",
+      "afterTermKeys": [
+        "g:Quiscalus"
+      ],
+      "uncertainAfterReview": {
+        "g:Quiscalus": true
+      },
+      "affectedSpecies": [
+        "Quiscalus lugubris",
+        "Quiscalus quiscula",
+        "Quiscalus mexicanus"
+      ]
+    },
+    {
+      "termBeforeReview": "g:Rollulus",
+      "outcome": "revised",
+      "uncertaintyConcerns": "sourceLanguage",
+      "consultedPassages": [
+        "jobling2010:337–338"
+      ],
+      "finding": "Add the route through Phasianus rouloul and Sonnerat’s French name. Do not label the ultimate word as securely Malay.",
+      "afterTermKeys": [
+        "g:Rollulus"
+      ],
+      "uncertainAfterReview": {
+        "g:Rollulus": true
+      },
+      "affectedSpecies": [
+        "Rollulus rouloul"
+      ]
+    },
+    {
+      "termBeforeReview": "g:Surnia",
+      "outcome": "revised",
+      "uncertaintyConcerns": "unknownWordOrigin",
+      "consultedPassages": [
+        "jobling2010:374",
+        "bou1915:132"
+      ],
+      "finding": "Duméril’s French Surnie and its use for long-tailed owls are documented. Jobling and BOU do not support a secure Greek root; avoid turning dictionary speculation into a fact. Printed BOU page is 132, not the nearby older-reference page 129.",
+      "afterTermKeys": [
+        "g:Surnia"
+      ],
+      "uncertainAfterReview": {
+        "g:Surnia": true
+      },
+      "affectedSpecies": [
+        "Surnia ulula"
+      ]
+    },
+    {
+      "termBeforeReview": "g:Tauraco",
+      "outcome": "revised",
+      "uncertaintyConcerns": "sourceLanguage",
+      "consultedPassages": [
+        "jobling2010:380"
+      ],
+      "finding": "Edwards’s English Touraco is documented. Its supposed West African origin does not identify a verified source language or word meaning; state that limit.",
+      "afterTermKeys": [
+        "g:Tauraco"
+      ],
+      "uncertainAfterReview": {
+        "g:Tauraco": true
+      },
+      "affectedSpecies": [
+        "Tauraco fischeri"
+      ]
+    },
+    {
+      "termBeforeReview": "g:Xema",
+      "outcome": "revised",
+      "uncertaintyConcerns": "unknownWordOrigin",
+      "consultedPassages": [
+        "jobling2010:410",
+        "bou1915:261"
+      ],
+      "finding": "Leach’s Xeme/Xema is documented. Jobling and BOU treat it as probably invented; proposed Greek associations do not establish a meaning.",
+      "afterTermKeys": [
+        "g:Xema"
+      ],
+      "uncertainAfterReview": {
+        "g:Xema": true
+      },
+      "affectedSpecies": [
+        "Xema sabini"
+      ]
+    },
+    {
+      "termBeforeReview": "g:Zapornia",
+      "outcome": "revised",
+      "uncertaintyConcerns": "wordFormation",
+      "consultedPassages": [
+        "jobling2010:413",
+        "jobling2010:315"
+      ],
+      "finding": "Retain the cautious Porzana reshaping. Jobling calls it an anagram, but direct letter comparison shows an extra i. Make that disagreement explicit without inventing a reason for the added letter.",
+      "afterTermKeys": [
+        "g:Zapornia"
+      ],
+      "uncertainAfterReview": {
+        "g:Zapornia": true
+      },
+      "affectedSpecies": [
+        "Zapornia pusilla",
+        "Zapornia flavirostra",
+        "Zapornia parva"
+      ]
+    }
+  ],
+  "consultedSources": [
+    {
+      "source": "jobling2010",
+      "access": "Complete 2010 dictionary PDF; individual printed-page entries and continuations read",
+      "copy": "https://chipes.org/wp-content/uploads/2023/08/Helm-Dictionary-of-Scientific-Bird-Names-James-A.-Jobling.pdf"
+    },
+    {
+      "source": "mouchard2019",
+      "access": "Full author publication PDF; printed pages 120, 226 and 375 read for this review"
+    },
+    {
+      "source": "bou1915",
+      "access": "Digitised original at archive.org/details/listofbritishbir00britiala; OCR passages checked against printed page headers, including even-page header 132"
+    },
+    {
+      "source": "coues1882",
+      "access": "Original 1882 book OCR, printed page 62, archive.org/details/coueschecklistof00couerich"
+    },
+    {
+      "source": "review20261108_3dabb8d30ef9",
+      "access": "Original Kollibay paper re-read, printed pages 148–149; archive identifier contains 1893, but article is from 1910"
+    },
+    {
+      "source": "beolens2014Atthis",
+      "access": "Publisher preview of the 2014 dictionary, electronic edition 2020; printed page 39 (PDF page 41)"
+    },
+    {
+      "source": "vorobyev2020",
+      "access": "Original journal PDF, printed page 803, note 15; documented Gaza/rubetra translation history"
+    },
+    {
+      "source": "wnve_collurio",
+      "access": "Full article retrieved through web tool; its cautious identification matches the Jobling entry"
+    },
+    {
+      "source": "lewisShortMenstruus",
+      "access": "Full Lewis & Short entry as rendered at Gadsden Classics; used only for word component, not bird naming motive"
+    }
+  ],
+  "limitations": [
+    "All 31 remaining marked terms were reviewed; the total catalogue of unmarked terms was not systematically audited in this pass.",
+    "Not every naming author’s original publication was retrievable. Findings based on dictionaries are identified as such; retained uncertainty is not a claim that every original source has been exhausted.",
+    "WNVE pages for atthis, githagineus and trivialis were unavailable. Their main references were replaced with consulted sources, and contradictory lexicon interpretations of atthis are stated explicitly.",
+    "The Montagu original-description download timed out; dougallii was checked in Jobling and BOU instead. The subsequently announced 1910 congress contribution on granti was sought but not obtained; the short 1910 original paper was re-read.",
+    "Wember (2005) remains bibliographic further reading only; its full text was not consulted.",
+    "This report is a content audit. Tests verify coverage, source assignment, taxon-specific routing and rendering; they do not independently establish linguistic truth."
+  ],
+  "validation": {
+    "compiler": "passed: regenerated all 940 species in three languages, then --check",
+    "coverage": "passed: all 47 initially uncertain terms covered by this report plus the preceding 16 uncertain sample cases; all current uncertain runtime terms accounted for including the new Falcon override",
+    "tests": "passed: npm test, all scripts/test-*.mjs, 57 Python unit tests, and scripts/validate-data.py",
+    "diffCheck": "passed"
+  }
+}

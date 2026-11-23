@@ -34,6 +34,13 @@ checked 20 terms, including 16 previously marked uncertain, and corrected or
 qualified nine explanations in all three languages. In particular, the robin’s
 `rubecula` now distinguishes the diminutive analysis from a competing historical
 hypothesis rather than presenting one word formation as settled.
+The subsequent [systematic uncertainty review](scientific-name-uncertainty-review-20261123.json)
+covers all 31 remaining marked terms: together, these two content reviews cover
+every term marked uncertain at the start of that pass. Thirty existing glosses
+were revised in German, English and Dutch; `kundoo` was retained as unresolved.
+The shared epithet `biarmicus` now has separate reedling/falcon histories, while
+`rubetra` distinguishes its documented word formation from uncertain historical
+bird identifications. The review lists consulted passages and unavailable sources.
 
 Further literature suggested by the user: Viktor Wember (2005), *Die Namen der
 Vögel Europas. Bedeutung der deutschen und wissenschaftlichen Namen*,

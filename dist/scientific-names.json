@@ -53,7 +53,7 @@
     },
     "coues1882": {
       "title": "Elliott Coues (1882): The Coues Check List of North American Birds, 2. Auflage",
-      "url": "https://doi.org/10.5962/bhl.title.13938"
+      "url": "https://archive.org/details/coueschecklistof00couerich/page/62/mode/2up"
     },
     "cisticola2019": {
       "title": "Joan Morales Dumanjó & José Enrique Gargallo Gil (2019): Designacions catalanes del trist, tit, Cisticola juncidis, Estudis Romànics 41, S. 357–362",
@@ -454,6 +454,14 @@
     "vigors1825Psittacara": {
       "title": "Nicholas Aylward Vigors (1825): On a new genus of Psittacidae, Zoological Journal 2, S. 388–389",
       "url": "https://archive.org/details/zoologicaljourna02lond/page/388/mode/2up"
+    },
+    "beolens2014Atthis": {
+      "title": "Bo Beolens, Michael Watkins & Michael Grayson (2014; elektronische Ausgabe 2020): The Eponym Dictionary of Birds, Atthis",
+      "url": "https://api.pageplace.de/preview/DT0400.9781472982698_A39484113/preview-9781472982698_A39484113.pdf"
+    },
+    "lewisShortMenstruus": {
+      "title": "Charlton T. Lewis & Charles Short (1879): A Latin Dictionary, menstruus",
+      "url": "https://classics.andrewgadsden.com/lewisandshort/entry/n28707"
     }
   },
   "terms": {
@@ -1145,9 +1153,9 @@
     "e:astrild": {
       "term": "astrild",
       "text": {
-        "de": "Herkunft des übernommenen Vogelnamens umstritten",
-        "en": "origin of the borrowed bird name disputed",
-        "nl": "oorsprong van de overgenomen vogelnaam omstreden"
+        "de": "historischer Name des Wellenastrilds, von Linné als Loxia astrild übernommen. Eine Herkunft aus deutschen oder niederländischen Vogelhalternamen wird vermutet; ursprüngliche Sprache und Bedeutung sind nicht gesichert",
+        "en": "historical name of the Common Waxbill, adopted by Linnaeus as Loxia astrild. Derivation from German or Dutch avicultural names has been proposed; the original language and meaning are unconfirmed",
+        "nl": "historische naam van het Sint-Helenafazantje, door Linnaeus overgenomen als Loxia astrild. Herkomst uit Duitse of Nederlandse vogelhoudersnamen is voorgesteld; oorspronkelijke taal en betekenis zijn onbevestigd"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -1233,12 +1241,20 @@
     "e:atthis": {
       "term": "atthis",
       "text": {
-        "de": "Atthis, ein Name aus der griechischen Überlieferung; konkrete Bezugsperson unklar",
-        "en": "Atthis, a name from Greek tradition; intended person unclear",
-        "nl": "Atthis, een naam uit de Griekse overlevering; bedoelde persoon onduidelijk"
+        "de": "Eigenname aus der griechischen Überlieferung; Bezugsperson umstritten. Beolens und Mitautoren nennen Atthis aus Sapphos Umfeld, Jobling einen mythologischen indischen Jüngling. Keine dieser Zuordnungen ist als Benennungsabsicht gesichert",
+        "en": "proper name from Greek tradition; intended person disputed. Beolens and coauthors identify Atthis from Sappho’s circle, whereas Jobling names a mythological Indian youth. Neither identification is established as the naming intention",
+        "nl": "eigennaam uit de Griekse overlevering; bedoelde persoon omstreden. Beolens en medeauteurs noemen Atthis uit Sappho’s kring, Jobling een mythologische Indiase jongeling. Geen van beide is als naamgevingsbedoeling bevestigd"
       },
       "uncertain": true,
-      "source": "wnve_atthis"
+      "source": "beolens2014Atthis",
+      "page": 39,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 60,
+          "scope": "dedication"
+        }
+      ]
     },
     "e:audouinii": {
       "term": "audouinii",
@@ -1512,9 +1528,27 @@
     "e:biarmicus": {
       "term": "biarmicus",
       "text": {
-        "de": "Herleitung umstritten; Bezug auf Bjarmaland oder auf einen Bart vorgeschlagen",
-        "en": "derivation disputed; references to Bjarmaland or a beard have been proposed",
-        "nl": "afleiding omstreden; verwijzingen naar Bjarmaland of een baard zijn voorgesteld"
+        "de": "für die Bartmeise von Jobling und der BOU auf Biarmia, die lateinische Form von Bjarmaland in Nordrussland, bezogen. Jobling erwägt auch eine Umformung des älteren Vogelnamens Beardmanica; Linnés genaue Benennungsabsicht ist ungeklärt",
+        "en": "for the Bearded Reedling, Jobling and the BOU refer the name to Biarmia, the Latin form of Bjarmaland in northern Russia. Jobling also considers a reshaping of the older bird name Beardmanica; Linnaeus’s exact naming intention is unresolved",
+        "nl": "bij de baardman betrekken Jobling en de BOU de naam op Biarmia, de Latijnse vorm van Bjarmaland in Noord-Rusland. Jobling overweegt ook een omvorming van de oudere vogelnaam Beardmanica; Linnaeus’ precieze bedoeling is onopgehelderd"
+      },
+      "uncertain": true,
+      "source": "jobling2010",
+      "page": 71,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 54,
+          "scope": "nameHistory"
+        }
+      ]
+    },
+    "e:biarmicus:lanfal1": {
+      "term": "biarmicus",
+      "text": {
+        "de": "beim Lannerfalken nach Jobling auf die Bartstreifen bezogen. Temminck übernahm biarmicus offenbar in dieser Bedeutung vom Bartmeisennamen; dies belegt keine Herkunft des Falken aus Bjarmaland",
+        "en": "for the Lanner Falcon, Jobling interprets the name as referring to the moustachial stripes. Temminck apparently reused biarmicus in this sense from the reedling’s name; it does not establish an origin of the falcon in Bjarmaland",
+        "nl": "bij de lannervalk betrekt Jobling de naam op de baardstrepen. Temminck nam biarmicus kennelijk in die betekenis over van de naam van de baardman; dit bewijst geen herkomst van de valk uit Bjarmaland"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -1551,9 +1585,9 @@
     "e:bonasia": {
       "term": "bonasia",
       "text": {
-        "de": "alter Haselhuhnname; genaue Herleitung unsicher",
-        "en": "old hazel grouse name; precise derivation uncertain",
-        "nl": "oude hazelhoennaam; precieze afleiding onzeker"
+        "de": "übernommener italienischer Name Bonasia für das Haselhuhn. Als tiefere Herkunft wird unter anderem griechisch bonasos, lateinisch bonasus = Wildrind vorgeschlagen; diese Verbindung ist nicht gesichert",
+        "en": "borrowed Italian name Bonasia for the Hazel Grouse. Proposed deeper origins include Greek bonasos, Latin bonasus = wild ox; this connection is unconfirmed",
+        "nl": "overgenomen Italiaanse naam Bonasia voor het hazelhoen. Als verdere herkomst is onder meer Grieks bonasos, Latijn bonasus = wild rund voorgesteld; dit verband is onbevestigd"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -1914,9 +1948,9 @@
     "e:canutus": {
       "term": "canutus",
       "text": {
-        "de": "möglicher Bezug auf König Knut; historische Deutung nicht sicher",
-        "en": "possibly refers to King Canute; historical interpretation uncertain",
-        "nl": "mogelijk een verwijzing naar koning Knoet; historische uitleg onzeker"
+        "de": "Canutus ist die lateinische Form des Königsnamens Knut. Der Knutt hieß schon vor Linné Canuti avis = Knuts Vogel; die historischen Geschichten zum Königsbezug sind nicht gesichert. Auch eine lautmalerische Herkunft wurde vorgeschlagen",
+        "en": "Canutus is the Latin form of King Canute’s name. Before Linnaeus, the knot was already called Canuti avis = Canute’s bird; historical stories explaining the royal connection are unconfirmed. An onomatopoeic origin has also been proposed",
+        "nl": "Canutus is de Latijnse vorm van de koningsnaam Knoet. Al vóór Linnaeus heette de kanoet Canuti avis = Knoets vogel; de historische verhalen over het koningsverband zijn onbevestigd. Ook een klanknabootsende oorsprong is voorgesteld"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -2041,9 +2075,9 @@
     "e:castro": {
       "term": "castro",
       "text": {
-        "de": "übernommener madeirischer Seevogelname; weitere Deutung unsicher",
-        "en": "borrowed Madeiran seabird name; deeper interpretation uncertain",
-        "nl": "overgenomen Madeirese zeevogelnaam; verdere duiding onzeker"
+        "de": "Harcourt übernahm 1851 den auf Madeira gebrauchten Vogelnamen Roque de Castro, auch Roque de Crasto gesprochen. Er wurde als „Fels der Burg“ oder als Rufnachahmung gedeutet; die tiefere Herkunft bleibt ungeklärt",
+        "en": "in 1851 Harcourt adopted the Madeiran bird name Roque de Castro, also pronounced Roque de Crasto. It has been interpreted as “rock of the castle” or as an imitation of the call; its deeper origin remains unresolved",
+        "nl": "Harcourt nam in 1851 de Madeirese vogelnaam Roque de Castro over, ook uitgesproken als Roque de Crasto. De naam is uitgelegd als „rots van het kasteel” of als klanknabootsing; de verdere oorsprong blijft onopgehelderd"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -2497,12 +2531,19 @@
     "e:collurio": {
       "term": "collurio",
       "text": {
-        "de": "antiker Vogelname; Zuordnung zu Würgern oder Drosseln unsicher; aus griechisch kollourion, einem antiken Vogelnamen; die Artzuordnung bleibt unsicher",
-        "en": "ancient bird name; identification as a shrike or thrush uncertain; from Greek kollourion, an ancient bird name; the species identification remains uncertain",
-        "nl": "antieke vogelnaam; identificatie als klauwier of lijster onzeker; uit Grieks kollourion, een antieke vogelnaam; de soortidentificatie blijft onzeker"
+        "de": "aus griechisch kollourion, dem Namen eines antiken Vogels von etwa Amselgröße. Spätere Autoren deuteten ihn als Würger oder Drossel; die ursprüngliche Vogelart und die weitere Wortherkunft sind nicht gesichert",
+        "en": "from Greek kollourion, the name of an ancient bird roughly the size of a blackbird. Later authors identified it as a shrike or thrush; the original bird and deeper word origin remain uncertain",
+        "nl": "uit Grieks kollourion, de naam van een antieke vogel ongeveer zo groot als een merel. Latere auteurs zagen er een klauwier of lijster in; de oorspronkelijke vogel en verdere woordherkomst zijn onzeker"
       },
       "uncertain": true,
-      "source": "wnve_collurio"
+      "source": "wnve_collurio",
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 114,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "e:collybita": {
       "term": "collybita",
@@ -3158,13 +3199,20 @@
     "e:dougallii": {
       "term": "dougallii",
       "text": {
-        "de": "Widmung an einen schottischen Arzt McDougall oder MacDougall; genaue Identität umstritten",
-        "en": "dedicated to a Scottish doctor McDougall or MacDougall; exact identity disputed",
-        "nl": "vernoemd naar een Schotse arts McDougall of MacDougall; precieze identiteit omstreden"
+        "de": "Widmung an Dr. McDougall oder MacDougall aus Glasgow, der Montagu 1812 ein Exemplar und eine Beschreibung sandte. Die Identifizierung als Peter McDougall oder Patrick MacDougall ist in den Quellen nicht einheitlich",
+        "en": "dedicated to Dr McDougall or MacDougall of Glasgow, who sent Montagu a specimen and description in 1812. Sources differ in identifying him as Peter McDougall or Patrick MacDougall",
+        "nl": "vernoemd naar dr. McDougall of MacDougall uit Glasgow, die Montagu in 1812 een exemplaar en beschrijving stuurde. Bronnen verschillen over de identificatie als Peter McDougall of Patrick MacDougall"
       },
       "uncertain": true,
       "source": "jobling2010",
-      "page": 139
+      "page": 139,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 265,
+          "scope": "dedication"
+        }
+      ]
     },
     "e:dubius": {
       "term": "dubius",
@@ -4004,12 +4052,13 @@
     "e:githagineus": {
       "term": "githagineus",
       "text": {
-        "de": "wahrscheinlich mit der Kornrade, früher Githago, verglichen",
-        "en": "probably compared with corn cockle, formerly Githago",
-        "nl": "waarschijnlijk vergeleken met bolderik, vroeger Githago"
+        "de": "wahrscheinlich zum historischen Pflanzennamen Githago = Kornrade gebildet. Jobling führt diesen Pflanzenvergleich an; welches Merkmal des Vogels damit gemeint war, ist nicht gesichert",
+        "en": "probably formed from the historical plant name Githago = corn cockle. Jobling gives this plant comparison; which feature of the bird was intended is unconfirmed",
+        "nl": "waarschijnlijk gevormd bij de historische plantennaam Githago = bolderik. Jobling geeft deze plantenvergelijking; welk vogelkenmerk ermee bedoeld werd, is onbevestigd"
       },
       "uncertain": true,
-      "source": "wnve_githagineus"
+      "source": "jobling2010",
+      "page": 173
     },
     "e:glacialis": {
       "term": "glacialis",
@@ -4130,9 +4179,9 @@
     "e:granti": {
       "term": "granti",
       "text": {
-        "de": "vermutlich zu Ehren des Ornithologen William Robert Ogilvie-Grant; die Originalbeschreibung erklärt die Widmung nicht ausdrücklich",
-        "en": "probably honours ornithologist William Robert Ogilvie-Grant; the original description does not explicitly explain the dedication",
-        "nl": "waarschijnlijk vernoemd naar ornitholoog William Robert Ogilvie-Grant; de oorspronkelijke beschrijving verklaart de opdracht niet uitdrukkelijk"
+        "de": "vermutlich Widmung an den Ornithologen William Robert Ogilvie-Grant. Kollibay führte granti 1910 als Ersatz für einen bereits vergebenen Namen ein und besprach Ogilvie-Grants Vorarbeit; eine ausdrückliche Widmung enthält dieser kurze Originalaufsatz nicht",
+        "en": "probably a dedication to ornithologist William Robert Ogilvie-Grant. Kollibay introduced granti in 1910 to replace a preoccupied name and discussed Ogilvie-Grant’s earlier work; that short original paper contains no explicit dedication",
+        "nl": "waarschijnlijk een opdracht aan ornitholoog William Robert Ogilvie-Grant. Kollibay voerde granti in 1910 in ter vervanging van een al bezette naam en besprak Ogilvie-Grants eerdere werk; dit korte oorspronkelijke artikel bevat geen uitdrukkelijke opdracht"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -4140,7 +4189,8 @@
       "additionalSources": [
         {
           "source": "review20261108_3dabb8d30ef9",
-          "scope": "nameContext"
+          "scope": "nameContext",
+          "page": 148
         }
       ]
     },
@@ -5869,9 +5919,9 @@
     "e:melba": {
       "term": "melba",
       "text": {
-        "de": "Herkunft nicht sicher geklärt",
-        "en": "origin uncertain",
-        "nl": "oorsprong onzeker"
+        "de": "von Linné 1758 ohne Erklärung verwendet. Die vorgeschlagene Zusammenziehung aus griechisch melas (melanos) = schwarz und lateinisch albus = weiß passt zur Färbung, ist aber nicht als tatsächliche Wortbildung belegt",
+        "en": "used by Linnaeus in 1758 without explanation. A proposed contraction of Greek melas (melanos) = black and Latin albus = white fits the plumage, but is not established as the actual word formation",
+        "nl": "door Linnaeus in 1758 zonder uitleg gebruikt. Een voorgestelde samentrekking van Grieks melas (melanos) = zwart en Latijn albus = wit past bij het verenkleed, maar is niet als werkelijke woordvorming bevestigd"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -5942,13 +5992,19 @@
     "e:menstruus": {
       "term": "menstruus",
       "text": {
-        "de": "historischer Name mit Menstruationsbezug; genaue Benennungsabsicht unklar; aus lateinisch menstruus",
-        "en": "historical name referring to menstruation; precise naming motive unclear; from Latin menstruus",
-        "nl": "historische naam met een verwijzing naar menstruatie; precieze naamgevingsreden onduidelijk; uit Latijn menstruus"
+        "de": "lateinisch menstruus = die Menstruation betreffend, zu mensis = Monat. Jobling wählt diese Wortbedeutung; ein bestimmter Anlass für die Benennung, etwa die Gefiederfarbe, ist nicht belegt",
+        "en": "Latin menstruus = menstrual, from mensis = month. Jobling gives the menstrual sense; this does not establish why the bird received the name. A reference to particular plumage colours remains unconfirmed",
+        "nl": "Latijn menstruus = menstrueel, bij mensis = maand. Jobling geeft de menstruatiebetekenis; daarmee staat de reden voor de vogelnaam niet vast. Een verwijzing naar bepaalde verenkleuren blijft onbevestigd"
       },
       "uncertain": true,
       "source": "jobling2010",
-      "page": 250
+      "page": 250,
+      "additionalSources": [
+        {
+          "source": "lewisShortMenstruus",
+          "scope": "wordComponent"
+        }
+      ]
     },
     "e:merganser": {
       "term": "merganser",
@@ -7457,13 +7513,20 @@
     "e:plancus": {
       "term": "plancus",
       "text": {
-        "de": "als plattfüßig oder als antiker Adlername gedeutet; Benennungsabsicht umstritten",
-        "en": "interpreted as flat-footed or as an ancient eagle name; naming intention disputed",
-        "nl": "uitgelegd als platvoetig of als antieke arendsnaam; naamgevingsbedoeling omstreden"
+        "de": "Jobling und Mouchard deuten den Namen über lateinisch plancus als antiken Adlernamen, zu griechisch plangos = Adler. Lateinisch plancus kann auch „plattfüßig“ bedeuten; diese Wortbedeutung belegt Millers Benennungsabsicht nicht",
+        "en": "Jobling and Mouchard interpret the name via Latin plancus as an ancient eagle name, from Greek plangos = eagle. Latin plancus can also mean “flat-footed”; that lexical meaning does not establish Miller’s naming intention",
+        "nl": "Jobling en Mouchard verklaren de naam via Latijn plancus als antieke arendsnaam, bij Grieks plangos = arend. Latijn plancus kan ook „platvoetig” betekenen; die woordbetekenis bewijst Millers naamgevingsbedoeling niet"
       },
       "uncertain": true,
       "source": "mouchard2019",
-      "page": 226
+      "page": 226,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 309,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "e:platalea": {
       "term": "platalea",
@@ -7622,13 +7685,25 @@
     "e:porzana": {
       "term": "porzana",
       "text": {
-        "de": "übernommener italienischer Rallenname; genaue regionale Herkunft umstritten",
-        "en": "borrowed Italian rail name; precise regional origin disputed",
-        "nl": "overgenomen Italiaanse rallennaam; precieze regionale herkomst omstreden"
+        "de": "italienischer Name einer kleinen Ralle, auch als sporzana oder sforzana überliefert. Jobling nennt Venedig, Mouchard erwägt die Po-Ebene; die genauere regionale und sprachliche Herkunft ist ungeklärt",
+        "en": "Italian name for a small rail, also recorded as sporzana or sforzana. Jobling names Venice, while Mouchard considers the Po valley; the precise regional and linguistic origin remains unresolved",
+        "nl": "Italiaanse naam voor een kleine ral, ook overgeleverd als sporzana of sforzana. Jobling noemt Venetië, Mouchard overweegt de Povlakte; de precieze regionale en taalkundige oorsprong blijft onopgehelderd"
       },
       "uncertain": true,
       "source": "mouchard2019",
-      "page": 120
+      "page": 120,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 315,
+          "scope": "wordMeaning"
+        },
+        {
+          "source": "bou1915",
+          "page": 301,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "e:pratensis": {
       "term": "pratensis",
@@ -7842,9 +7917,9 @@
     "e:quelea": {
       "term": "quelea",
       "text": {
-        "de": "möglicherweise aus einem alten Wachtelnamen; Übertragung ungeklärt; aus mittellateinisch qualea",
-        "en": "possibly from an old quail name; reason for transfer unclear; from Medieval Latin qualea",
-        "nl": "mogelijk uit een oude kwartelnaam; reden voor overdracht onduidelijk; uit middeleeuws Latijn qualea"
+        "de": "nach Jobling möglicherweise zu mittellateinisch qualea = Wachtel. Warum Linné diesen Namen für einen Webervogel verwendete, ist ungeklärt; auch ein afrikanischer Vogelname wurde als Ursprung vorgeschlagen",
+        "en": "according to Jobling, possibly from Medieval Latin qualea = quail. Why Linnaeus used it for a weaverbird is unresolved; an African bird name has also been proposed as the origin",
+        "nl": "volgens Jobling mogelijk uit middeleeuws Latijn qualea = kwartel. Waarom Linnaeus de naam voor een wevervogel gebruikte, is onopgehelderd; ook een Afrikaanse vogelnaam is als oorsprong voorgesteld"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -7864,13 +7939,20 @@
     "e:quiscula": {
       "term": "quiscula",
       "text": {
-        "de": "Herleitung unsicher; ein indigener Name Hispaniolas wurde vorgeschlagen",
-        "en": "derivation uncertain; an Indigenous name for Hispaniola has been proposed",
-        "nl": "afleiding onzeker; een inheemse naam voor Hispaniola is voorgesteld"
+        "de": "Herkunft umstritten: vorgeschlagen wurden Quisqueya, ein indigener Name Hispaniolas, und mittellateinische Vogelnamen wie quisquilla, später als Wachtelname gedeutet. Keine dieser Herleitungen ist gesichert",
+        "en": "origin disputed: proposals include Quisqueya, an Indigenous name for Hispaniola, and Medieval Latin bird names such as quisquilla, later interpreted as a quail name. None of these derivations is established",
+        "nl": "oorsprong omstreden: voorgesteld zijn Quisqueya, een inheemse naam voor Hispaniola, en middeleeuws Latijnse vogelnamen zoals quisquilla, later als kwartelnaam geduid. Geen van deze afleidingen staat vast"
       },
       "uncertain": true,
       "source": "jobling2010",
-      "page": 328
+      "page": 328,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 329,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "e:radjah": {
       "term": "radjah",
@@ -8093,9 +8175,9 @@
     "e:rouloul": {
       "term": "rouloul",
       "text": {
-        "de": "übernommener Name für den Straußwachtelvogel; weitere Herkunft unsicher",
-        "en": "borrowed crested partridge name; deeper origin uncertain",
-        "nl": "overgenomen naam voor de roulroul; verdere oorsprong onzeker"
+        "de": "aus Sonnerats französischem Vogelnamen Rouloul de Malacca (1782). Eine Ableitung vom angeblich malaiischen Roulroul wurde vorgeschlagen; Jobling konnte dieses Wort in den herangezogenen malaiischen Wörterbüchern nicht nachweisen",
+        "en": "from Sonnerat’s French bird name Rouloul de Malacca (1782). Derivation from an allegedly Malay Roulroul has been proposed; Jobling could not verify that word in the Malay dictionaries he consulted",
+        "nl": "uit Sonnerats Franse vogelnaam Rouloul de Malacca (1782). Afleiding uit een vermeend Maleis Roulroul is voorgesteld; Jobling kon dat woord niet aantonen in de geraadpleegde Maleise woordenboeken"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -8144,13 +8226,20 @@
     "e:rubetra": {
       "term": "rubetra",
       "text": {
-        "de": "alter Braunkehlchenname; genaue Herleitung unsicher",
-        "en": "old whinchat name; exact derivation uncertain",
-        "nl": "oude paapjesnaam; precieze afleiding onzeker"
+        "de": "historischer lateinischer Vogelname, gebildet zu rubus = Brombeerstrauch. Theodor Gaza verwendete rubetra als Übersetzung von griechisch batis, einem Vogelnamen zu batos = Brombeerstrauch; die damalige Artzuordnung schwankte zwischen Braun- und Schwarzkehlchen",
+        "en": "historical Latin bird name formed from rubus = bramble. Theodore Gaza used rubetra to translate Greek batis, a bird name from batos = bramble; historical identifications varied between whinchat and stonechat",
+        "nl": "historische Latijnse vogelnaam bij rubus = braamstruik. Theodor Gaza gebruikte rubetra als vertaling van Grieks batis, een vogelnaam bij batos = braamstruik; historische identificaties wisselden tussen paapje en roodborsttapuit"
       },
-      "uncertain": true,
+      "uncertain": false,
       "source": "jobling2010",
-      "page": 339
+      "page": 339,
+      "additionalSources": [
+        {
+          "source": "vorobyev2020",
+          "page": 803,
+          "scope": "wordComponent"
+        }
+      ]
     },
     "e:rubicola": {
       "term": "rubicola",
@@ -9489,12 +9578,20 @@
     "e:trivialis": {
       "term": "trivialis",
       "text": {
-        "de": "gewöhnlich oder an Wegen vorkommend; konkrete Benennungsabsicht unklar; lateinisch trivialis = gewöhnlich, zu trivium = öffentlicher Weg oder Kreuzung; der genaue Bezug zum Vogel bleibt offen",
-        "en": "common or of roadsides; specific naming intention unclear; Latin trivialis = common, from trivium = public way or crossroads; the precise reference to the bird remains unresolved",
-        "nl": "gewoon of van wegkanten; concrete naamgevingsbedoeling onduidelijk; Latijn trivialis = gewoon, bij trivium = openbare weg of kruispunt; de precieze verwijzing naar de vogel blijft open"
+        "de": "lateinisch trivialis = gewöhnlich, allgemein; ursprünglich „zur Wegkreuzung gehörig“, zu trivium = Kreuzung dreier Wege. Die BOU deutet den Vogelnamen als „gewöhnlich“; ein ausdrücklicher Bezug Linnés auf den Lebensraum am Weg ist nicht belegt",
+        "en": "Latin trivialis = common, ordinary; originally “of the crossroads”, from trivium = meeting of three roads. The BOU interprets the bird name as “common”; an explicit roadside-habitat intention by Linnaeus is not established",
+        "nl": "Latijn trivialis = gewoon, algemeen; oorspronkelijk „van het kruispunt”, bij trivium = driesprong. De BOU verklaart de vogelnaam als „gewoon”; een uitdrukkelijke verwijzing van Linnaeus naar een leefgebied langs wegen is niet bevestigd"
       },
       "uncertain": true,
-      "source": "wnve_trivialis"
+      "source": "jobling2010",
+      "page": 391,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 45,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "e:trochiloides": {
       "term": "trochiloides",
@@ -11612,9 +11709,9 @@
     "g:Estrilda": {
       "term": "Estrilda",
       "text": {
-        "de": "vom Namen astrild; genaue Herkunft umstritten",
-        "en": "from astrild; exact origin disputed",
-        "nl": "van astrild; precieze oorsprong omstreden"
+        "de": "aus dem älteren Artnamen Loxia astrild des Wellenastrilds gebildet. Für astrild wird ein deutscher oder niederländischer Vogelhaltername als Ursprung vermutet; eine sichere tiefere Herleitung fehlt",
+        "en": "formed from the Common Waxbill’s older species name Loxia astrild. A German or Dutch avicultural name has been proposed as the origin of astrild; its deeper derivation is unconfirmed",
+        "nl": "gevormd uit de oudere soortnaam Loxia astrild van het Sint-Helenafazantje. Als oorsprong van astrild is een Duitse of Nederlandse vogelhoudersnaam voorgesteld; de verdere afleiding is onbevestigd"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -12155,9 +12252,9 @@
     "g:Iduna": {
       "term": "Iduna",
       "text": {
-        "de": "gebildeter Name ohne sicher geklärte Herleitung",
-        "en": "coined name without a certain derivation",
-        "nl": "gevormde naam zonder zekere afleiding"
+        "de": "1840 von Keyserling und Blasius ohne Erklärung eingeführt. Jobling erwägt unter anderem lateinisch idoneus = passend, geeignet; solche Wortverbindungen sind Vermutungen und keine belegte Erklärung der Namensautoren",
+        "en": "introduced by Keyserling and Blasius in 1840 without explanation. Jobling considers, among other possibilities, Latin idoneus = suitable, appropriate; these word connections are conjectures, not a documented explanation by the naming authors",
+        "nl": "in 1840 door Keyserling en Blasius zonder uitleg ingevoerd. Jobling overweegt onder meer Latijn idoneus = passend, geschikt; zulke woordverbanden zijn vermoedens, geen gedocumenteerde verklaring van de naamgevers"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -12709,13 +12806,25 @@
     "g:Molothrus": {
       "term": "Molothrus",
       "text": {
-        "de": "historisch als ungebetener Gast gedeutet; genaue griechische Wortbildung umstritten",
-        "en": "historically interpreted as an uninvited guest; exact Greek word formation disputed",
-        "nl": "historisch uitgelegd als ongenode gast; precieze Griekse woordvorming omstreden"
+        "de": "von Swainson als „ungebetener Gast“ erklärt, mit Bezug auf das Legen in fremde Nester. Coues diskutiert griechisch molos = Kampf und throsko = springen sowie die Alternative molobros = Bettler, Schmarotzer; die genaue Wortbildung bleibt umstritten",
+        "en": "explained by Swainson as an “uninvited guest”, referring to laying in other birds’ nests. Coues discusses Greek molos = struggle and throsko = to leap, alongside the alternative molobros = beggar, parasite; the exact formation remains disputed",
+        "nl": "door Swainson verklaard als „ongenode gast”, verwijzend naar het leggen in andermans nesten. Coues bespreekt Grieks molos = strijd en throsko = springen, naast molobros = bedelaar, parasiet; de precieze woordvorming blijft omstreden"
       },
       "uncertain": true,
       "source": "coues1882",
-      "page": 62
+      "page": 62,
+      "additionalSources": [
+        {
+          "source": "mouchard2019",
+          "page": 375,
+          "scope": "nameHistory"
+        },
+        {
+          "source": "jobling2010",
+          "page": 258,
+          "scope": "wordComponent"
+        }
+      ]
     },
     "g:Monticola": {
       "term": "Monticola",
@@ -13568,13 +13677,25 @@
     "g:Porzana": {
       "term": "Porzana",
       "text": {
-        "de": "übernommener italienischer Rallenname; genaue regionale Herkunft umstritten",
-        "en": "borrowed Italian rail name; precise regional origin disputed",
-        "nl": "overgenomen Italiaanse rallennaam; precieze regionale herkomst omstreden"
+        "de": "über den älteren Artnamen Rallus porzana aus einem italienischen Rallennamen, auch sporzana oder sforzana. Die Quellen nennen unterschiedliche Regionen Italiens; die tiefere Wortherkunft ist ungeklärt",
+        "en": "via the older species name Rallus porzana from an Italian rail name, also sporzana or sforzana. Sources identify different Italian regions; the deeper word origin is unresolved",
+        "nl": "via de oudere soortnaam Rallus porzana uit een Italiaanse rallennaam, ook sporzana of sforzana. Bronnen noemen verschillende Italiaanse streken; de verdere woordherkomst is onopgehelderd"
       },
       "uncertain": true,
       "source": "mouchard2019",
-      "page": 120
+      "page": 120,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 315,
+          "scope": "wordMeaning"
+        },
+        {
+          "source": "bou1915",
+          "page": 301,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "g:Progne": {
       "term": "Progne",
@@ -13762,9 +13883,9 @@
     "g:Quelea": {
       "term": "Quelea",
       "text": {
-        "de": "möglicherweise aus einem alten Wachtelnamen; Übertragung ungeklärt; mittellateinisch qualea = Wachtel; warum der Name auf Webervögel übertragen wurde, ist ungeklärt",
-        "en": "possibly from an old quail name; reason for transfer unclear; Medieval Latin qualea = quail; why it was transferred to weaverbirds is unresolved",
-        "nl": "mogelijk uit een oude kwartelnaam; reden voor overdracht onduidelijk; middeleeuws Latijn qualea = kwartel; de overdracht op wevervogels is onopgehelderd"
+        "de": "vom älteren Artnamen Emberiza quelea abgeleitet. Für quelea vermutet Jobling mittellateinisch qualea = Wachtel; die Übertragung auf Webervögel ist ungeklärt, eine afrikanische Herkunft wurde ebenfalls vorgeschlagen",
+        "en": "derived from the older species name Emberiza quelea. For quelea, Jobling proposes Medieval Latin qualea = quail; its transfer to weaverbirds is unresolved, and an African origin has also been proposed",
+        "nl": "afgeleid van de oudere soortnaam Emberiza quelea. Voor quelea stelt Jobling middeleeuws Latijn qualea = kwartel voor; de overdracht op wevervogels is onopgehelderd, ook een Afrikaanse oorsprong is voorgesteld"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -13773,13 +13894,20 @@
     "g:Quiscalus": {
       "term": "Quiscalus",
       "text": {
-        "de": "vom Artnamen quiscula; Herleitung unsicher",
-        "en": "from the species name quiscula; derivation uncertain",
-        "nl": "van de soortnaam quiscula; afleiding onzeker"
+        "de": "vom älteren Artnamen Gracula quiscula abgeleitet. Die Herkunft von quiscula ist umstritten; vorgeschlagen sind Quisqueya, ein Name Hispaniolas, oder mittellateinische Vogelnamen wie quisquilla",
+        "en": "derived from the older species name Gracula quiscula. The origin of quiscula is disputed; proposals include Quisqueya, a name for Hispaniola, or Medieval Latin bird names such as quisquilla",
+        "nl": "afgeleid van de oudere soortnaam Gracula quiscula. De oorsprong van quiscula is omstreden; voorgesteld zijn Quisqueya, een naam voor Hispaniola, of middeleeuws Latijnse vogelnamen zoals quisquilla"
       },
       "uncertain": true,
       "source": "jobling2010",
-      "page": 328
+      "page": 328,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 329,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "g:Radjah": {
       "term": "Radjah",
@@ -13900,9 +14028,9 @@
     "g:Rollulus": {
       "term": "Rollulus",
       "text": {
-        "de": "vom Artnamen rouloul; weitere Herkunft unsicher",
-        "en": "from the species name rouloul; deeper origin uncertain",
-        "nl": "van de soortnaam rouloul; verdere oorsprong onzeker"
+        "de": "vom älteren Artnamen Phasianus rouloul abgeleitet; rouloul geht auf Sonnerats französischen Namen Rouloul de Malacca zurück. Die vorgeschlagene weitere malaiische Herkunft ist nicht sicher belegt",
+        "en": "derived from the older species name Phasianus rouloul; rouloul comes from Sonnerat’s French name Rouloul de Malacca. The proposed deeper Malay origin is unconfirmed",
+        "nl": "afgeleid van de oudere soortnaam Phasianus rouloul; rouloul gaat terug op Sonnerats Franse naam Rouloul de Malacca. De voorgestelde verdere Maleise oorsprong is onbevestigd"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -14180,13 +14308,20 @@
     "g:Surnia": {
       "term": "Surnia",
       "text": {
-        "de": "Herkunft nicht sicher geklärt",
-        "en": "origin uncertain",
-        "nl": "oorsprong onzeker"
+        "de": "bei Duméril als französisch Surnie für langschwänzige Eulen eingeführt. Die tiefere Wortherkunft ist ungeklärt; Jobling und die BOU behandeln den Namen als möglicherweise frei gebildet, nicht als sicher belegtes griechisches Wort",
+        "en": "introduced by Duméril as French Surnie for long-tailed owls. The deeper origin is unresolved; Jobling and the BOU treat the name as possibly invented, rather than a securely attested Greek word",
+        "nl": "door Duméril als Frans Surnie voor langstaartige uilen ingevoerd. De verdere oorsprong is onopgehelderd; Jobling en de BOU behandelen de naam als mogelijk verzonnen, niet als een zeker aangetoond Grieks woord"
       },
       "uncertain": true,
       "source": "jobling2010",
-      "page": 374
+      "page": 374,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 132,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "g:Suthora": {
       "term": "Suthora",
@@ -14312,9 +14447,9 @@
     "g:Tauraco": {
       "term": "Tauraco",
       "text": {
-        "de": "übernommener Turakoname; genaue Herkunft unsicher",
-        "en": "borrowed turaco name; exact origin uncertain",
-        "nl": "overgenomen toerakonaam; precieze oorsprong onzeker"
+        "de": "nach dem englischen Vogelnamen Touraco bei Edwards (1743). Dieser soll auf einem westafrikanischen Namen beruhen; die genaue Ausgangssprache und ursprüngliche Wortbedeutung sind nicht nachgewiesen",
+        "en": "from the English bird name Touraco used by Edwards (1743). It is said to derive from a West African name; the precise source language and original word meaning are undocumented",
+        "nl": "naar de Engelse vogelnaam Touraco bij Edwards (1743). Deze zou op een West-Afrikaanse naam berusten; de precieze brontaal en oorspronkelijke woordbetekenis zijn niet aangetoond"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -14598,13 +14733,20 @@
     "g:Xema": {
       "term": "Xema",
       "text": {
-        "de": "gebildeter Name ohne sicher belegte Wortbedeutung",
-        "en": "coined name without a certain literal meaning",
-        "nl": "gevormde naam zonder zekere letterlijke betekenis"
+        "de": "von Leach 1819 mit dem englischen Namen Xeme verwendet. Jobling und die BOU behandeln Xema als wahrscheinlich frei gebildeten Namen; eine bestimmte griechische Wortbedeutung ist nicht gesichert",
+        "en": "used by Leach in 1819 with the English name Xeme. Jobling and the BOU treat Xema as probably an invented name; a particular Greek word meaning is unconfirmed",
+        "nl": "door Leach in 1819 gebruikt met de Engelse naam Xeme. Jobling en de BOU behandelen Xema als waarschijnlijk een verzonnen naam; een bepaalde Griekse woordbetekenis is onbevestigd"
       },
       "uncertain": true,
       "source": "jobling2010",
-      "page": 410
+      "page": 410,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 261,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "g:Xenus": {
       "term": "Xenus",
@@ -14626,9 +14768,9 @@
     "g:Zapornia": {
       "term": "Zapornia",
       "text": {
-        "de": "nach Porzana, einem Rallennamen, umgebildet; kein reines Anagramm",
-        "en": "a reshaping of Porzana, a rail name; not an exact anagram",
-        "nl": "omvorming van Porzana, een rallennaam; geen zuiver anagram"
+        "de": "an den Rallennamen Porzana angelehnt; Jobling nennt es ein Anagramm, doch Zapornia enthält ein zusätzliches i. Porzana geht auf einen italienischen Vogelnamen zurück; die genaue Absicht der Umformung ist ungeklärt",
+        "en": "modelled on the rail name Porzana; Jobling calls it an anagram, but Zapornia contains an additional i. Porzana comes from an Italian bird name; the precise intention of the reshaping is unresolved",
+        "nl": "gevormd naar de rallennaam Porzana; Jobling noemt het een anagram, maar Zapornia bevat een extra i. Porzana gaat terug op een Italiaanse vogelnaam; de precieze bedoeling van de omvorming is onopgehelderd"
       },
       "uncertain": true,
       "source": "jobling2010",
@@ -17834,7 +17976,7 @@
       "scientificName": "Falco biarmicus",
       "parts": [
         "g:Falco",
-        "e:biarmicus"
+        "e:biarmicus:lanfal1"
       ]
     },
     "lanwar": {

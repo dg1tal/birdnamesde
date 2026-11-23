@@ -1,11 +1,30 @@
 {
   "Somateria fischeri": {
-    "epithet": ["zu Ehren des Zoologen Johann Gotthelf Fischer von Waldheim", "honours zoologist Johann Gotthelf Fischer von Waldheim", "vernoemd naar zoöloog Johann Gotthelf Fischer von Waldheim"]
+    "epithet": [
+      "zu Ehren des Zoologen Johann Gotthelf Fischer von Waldheim",
+      "honours zoologist Johann Gotthelf Fischer von Waldheim",
+      "vernoemd naar zoöloog Johann Gotthelf Fischer von Waldheim"
+    ]
   },
   "Falco naumanni": {
-    "epithet": ["zu Ehren des Ornithologen Johann Friedrich Naumann", "honours ornithologist Johann Friedrich Naumann", "vernoemd naar ornitholoog Johann Friedrich Naumann"]
+    "epithet": [
+      "zu Ehren des Ornithologen Johann Friedrich Naumann",
+      "honours ornithologist Johann Friedrich Naumann",
+      "vernoemd naar ornitholoog Johann Friedrich Naumann"
+    ]
   },
   "Branta sandvicensis": {
-    "epithet": ["von den Sandwichinseln, heute Hawaii; hier kein Bezug zum englischen Ort Sandwich", "of the Sandwich Islands, now Hawaii; not the English town of Sandwich here", "van de Sandwicheilanden, nu Hawaï; hier niet de Engelse plaats Sandwich"]
+    "epithet": [
+      "von den Sandwichinseln, heute Hawaii; hier kein Bezug zum englischen Ort Sandwich",
+      "of the Sandwich Islands, now Hawaii; not the English town of Sandwich here",
+      "van de Sandwicheilanden, nu Hawaï; hier niet de Engelse plaats Sandwich"
+    ]
+  },
+  "Falco biarmicus": {
+    "epithet": [
+      "beim Lannerfalken nach Jobling auf die Bartstreifen bezogen. Temminck übernahm biarmicus offenbar in dieser Bedeutung vom Bartmeisennamen; dies belegt keine Herkunft des Falken aus Bjarmaland",
+      "for the Lanner Falcon, Jobling interprets the name as referring to the moustachial stripes. Temminck apparently reused biarmicus in this sense from the reedling’s name; it does not establish an origin of the falcon in Bjarmaland",
+      "bij de lannervalk betrekt Jobling de naam op de baardstrepen. Temminck nam biarmicus kennelijk in die betekenis over van de naam van de baardman; dit bewijst geen herkomst van de valk uit Bjarmaland"
+    ]
   }
 }

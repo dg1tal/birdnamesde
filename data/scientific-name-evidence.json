@@ -22,7 +22,7 @@
     },
     "coues1882": {
       "title": "Elliott Coues (1882): The Coues Check List of North American Birds, 2. Auflage",
-      "url": "https://doi.org/10.5962/bhl.title.13938"
+      "url": "https://archive.org/details/coueschecklistof00couerich/page/62/mode/2up"
     },
     "cisticola2019": {
       "title": "Joan Morales Dumanjó & José Enrique Gargallo Gil (2019): Designacions catalanes del trist, tit, Cisticola juncidis, Estudis Romànics 41, S. 357–362",
@@ -423,6 +423,14 @@
     "vigors1825Psittacara": {
       "title": "Nicholas Aylward Vigors (1825): On a new genus of Psittacidae, Zoological Journal 2, S. 388–389",
       "url": "https://archive.org/details/zoologicaljourna02lond/page/388/mode/2up"
+    },
+    "beolens2014Atthis": {
+      "title": "Bo Beolens, Michael Watkins & Michael Grayson (2014; elektronische Ausgabe 2020): The Eponym Dictionary of Birds, Atthis",
+      "url": "https://api.pageplace.de/preview/DT0400.9781472982698_A39484113/preview-9781472982698_A39484113.pdf"
+    },
+    "lewisShortMenstruus": {
+      "title": "Charlton T. Lewis & Charles Short (1879): A Latin Dictionary, menstruus",
+      "url": "https://classics.andrewgadsden.com/lewisandshort/entry/n28707"
     }
   },
   "terms": {
@@ -432,11 +440,35 @@
     },
     "e:porzana": {
       "source": "mouchard2019",
-      "page": 120
+      "page": 120,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 315,
+          "scope": "wordMeaning"
+        },
+        {
+          "source": "bou1915",
+          "page": 301,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "g:Porzana": {
       "source": "mouchard2019",
-      "page": 120
+      "page": 120,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 315,
+          "scope": "wordMeaning"
+        },
+        {
+          "source": "bou1915",
+          "page": 301,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "e:cirrocephalus": {
       "source": "mouchard2019",
@@ -452,7 +484,14 @@
     },
     "e:plancus": {
       "source": "mouchard2019",
-      "page": 226
+      "page": 226,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 309,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "g:Chordeiles": {
       "source": "mouchard2019",
@@ -482,7 +521,19 @@
     },
     "g:Molothrus": {
       "source": "coues1882",
-      "page": 62
+      "page": 62,
+      "additionalSources": [
+        {
+          "source": "mouchard2019",
+          "page": 375,
+          "scope": "nameHistory"
+        },
+        {
+          "source": "jobling2010",
+          "page": 258,
+          "scope": "wordComponent"
+        }
+      ]
     },
     "g:Cisticola": {
       "source": "cisticola2019",
@@ -507,10 +558,25 @@
       ]
     },
     "e:atthis": {
-      "source": "wnve_atthis"
+      "source": "beolens2014Atthis",
+      "page": 39,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 60,
+          "scope": "dedication"
+        }
+      ]
     },
     "e:collurio": {
-      "source": "wnve_collurio"
+      "source": "wnve_collurio",
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 114,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "e:hiaticula": {
       "source": "jobling2010",
@@ -529,10 +595,19 @@
       ]
     },
     "e:trivialis": {
-      "source": "wnve_trivialis"
+      "source": "jobling2010",
+      "page": 391,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 45,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "e:githagineus": {
-      "source": "wnve_githagineus"
+      "source": "jobling2010",
+      "page": 173
     },
     "g:Garrulus": {
       "source": "wnve_Garrulus"
@@ -767,7 +842,8 @@
       "additionalSources": [
         {
           "source": "review20261108_3dabb8d30ef9",
-          "scope": "nameContext"
+          "scope": "nameContext",
+          "page": 148
         }
       ]
     },
@@ -1370,6 +1446,97 @@
         {
           "source": "vorobyev2020",
           "page": 802,
+          "scope": "wordComponent"
+        }
+      ]
+    },
+    "e:biarmicus": {
+      "source": "jobling2010",
+      "page": 71,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 54,
+          "scope": "nameHistory"
+        }
+      ]
+    },
+    "e:biarmicus:lanfal1": {
+      "source": "jobling2010",
+      "page": 71
+    },
+    "e:dougallii": {
+      "source": "jobling2010",
+      "page": 139,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 265,
+          "scope": "dedication"
+        }
+      ]
+    },
+    "e:rubetra": {
+      "source": "jobling2010",
+      "page": 339,
+      "additionalSources": [
+        {
+          "source": "vorobyev2020",
+          "page": 803,
+          "scope": "wordComponent"
+        }
+      ]
+    },
+    "g:Surnia": {
+      "source": "jobling2010",
+      "page": 374,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 132,
+          "scope": "wordMeaning"
+        }
+      ]
+    },
+    "g:Xema": {
+      "source": "jobling2010",
+      "page": 410,
+      "additionalSources": [
+        {
+          "source": "bou1915",
+          "page": 261,
+          "scope": "wordMeaning"
+        }
+      ]
+    },
+    "g:Quiscalus": {
+      "source": "jobling2010",
+      "page": 328,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 329,
+          "scope": "wordMeaning"
+        }
+      ]
+    },
+    "e:quiscula": {
+      "source": "jobling2010",
+      "page": 328,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 329,
+          "scope": "wordMeaning"
+        }
+      ]
+    },
+    "e:menstruus": {
+      "source": "jobling2010",
+      "page": 250,
+      "additionalSources": [
+        {
+          "source": "lewisShortMenstruus",
           "scope": "wordComponent"
         }
       ]

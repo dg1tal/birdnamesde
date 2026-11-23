@@ -78,6 +78,19 @@ assert(data.terms['g:Lophodytes'].additionalSources.some(r=>r.source==='bou1915'
 assert.equal(data.terms['e:rubecula'].uncertain,true,'The diminutive reading is not the only researched explanation');
 for(const key of ['e:rubecula','e:hiaticula'])
  assert(data.terms[key].additionalSources.some(r=>r.source==='vorobyev2020'));
+assert.equal(data.terms['e:rubetra'].uncertain,false,'Documented Latin/Greek word history resolves the former generic uncertainty');
+assert.equal(data.terms['e:atthis'].uncertain,true,'Conflicting identifications must remain qualified');
+assert.equal(data.terms['e:atthis'].source,'beolens2014Atthis');
+assert(data.terms['e:atthis'].additionalSources.some(r=>r.source==='jobling2010'&&r.scope==='dedication'));
+const reedlingPart=data.species[bird('Panurus biarmicus').id].parts[1];
+const lannerPart=data.species[bird('Falco biarmicus').id].parts[1];
+assert.notEqual(reedlingPart,lannerPart,'The reused epithet has different naming histories in the reedling and falcon');
+for(const language of ['de','en','nl']){
+ assert.notEqual(data.terms[reedlingPart].text[language],data.terms[lannerPart].text[language]);
+ for(const root of ['rubus','batis','batos'])assert(data.terms['e:rubetra'].text[language].includes(root));
+}
+for(const key of ['e:kundoo','g:Iduna','g:Surnia','g:Xema','g:Zapornia'])
+ assert.equal(data.terms[key].uncertain,true,`${key}: no conjectural root may become a certain derivation`);
 assert.notDeepEqual(data.terms['e:fuscatus'].text,data.terms['e:fuscescens'].text);
 assert.equal(data.terms['e:fuscescens'].text.en.split(';')[0],'brownish, becoming dusky');
 // Explanations must expose the roots, including mixed-language compounds and
