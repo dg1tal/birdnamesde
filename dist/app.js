@@ -398,18 +398,21 @@ function codeLegend(s,{ebird=true,dda=false,additional=[]}={}){
  return `<ul class="code-legend" aria-label="${english?'Code colour key':'Farblegende der Kürzel'}">${items}</ul>${dual?`<p class="code-origin-note">${english?'Split colour: scientific and banding code.':'Geteilte Farbe: wissenschaftlicher Kurzcode und Beringungscode.'}</p>`:''}`;
 }
 function codeGroups(s,answer=false,compact=false){
+ // Match the colour key while preserving the source ranking within each origin.
+ const originRank=code=>s.scientificCodes?.includes(code)?0:code===s.bandingCode?2:1;
+ const displayCodes=[...s.codes].sort((a,b)=>originRank(a)-originRank(b));
  const collisionList=codes=>codes.map(code=>{
   const others=birds.filter(b=>b.id!==s.id&&b.codes.includes(code));
   return others.length?`<li class="code-collision-origin">${codeMarkup(s,code)}<ul>${others.map(b=>`<li class="code-collision-species">${codeMarkup(b,code)} ${nameMarkup(b,english?'en':'de')}</li>`).join('')}</ul></li>`:'';
  }).join('');
  const collisions=codes=>{const list=collisionList(codes);return list?`<details class="code-collisions"><summary>${english?'Also for other species':'Auch für andere Arten'}</summary><ul>${list}</ul></details>`:'';};
  // Reference cards combine all origins; an answer shows only its accepted system.
- const groups=`<div class="species-code-items">${s.codes.map(code=>codeMarkup(s,code,answer)).join('')}${!answer?ddaCodeMarkup(s):''}</div>`;
+ const groups=`<div class="species-code-items">${displayCodes.map(code=>codeMarkup(s,code,answer)).join('')}${!answer?ddaCodeMarkup(s):''}</div>`;
  // The key also explains colours shown when the collision list is expanded.
  const additional=birds.filter(b=>b.id!==s.id&&b.codes.some(code=>s.codes.includes(code))).map(b=>({...b,codes:b.codes.filter(code=>s.codes.includes(code))}));
  const alias=scientificNameAliases(s)[0];
  const note=alias?`<p class="muted code-name-note">eBird/Clements 2026: <span class="scientific-name" data-name-content lang="la">${esc(alias.name)}</span><br>eBird/Clements 2025: <span class="scientific-name" data-name-content lang="la">${esc(s.sci)}</span><br>${english?'Same species; both names are accepted as scientific answers.':'Dieselbe Art; beide Namen werden als wissenschaftliche Antwort akzeptiert.'}</p>`:s.codes.some(code=>s.scientificCodes?.includes(code))&&s.scientificCodeName!==s.sci?`<p class="muted code-name-note">${english?'Scientific code for':'Wissenschaftlicher Kurzcode für'} <span class="scientific-name" data-name-content lang="la">${esc(s.scientificCodeName)}</span></p>`:'';
- return `<div class="species-codes${compact?' species-codes-compact':''}${answer?' answer-main answer-codes':''}" role="group" aria-label="${answer?(english?'Accepted eBird entry codes':'Akzeptierte eBird-Kurzcodes'):(english?'Bird abbreviations':'Artkürzel')}">${groups}${codeLegend(s,{dda:!answer,additional})}${!answer?ddaQuestionScope(s):''}${collisions(s.codes)}${note}<p class="muted code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</p></div>`;
+ return `<div class="species-codes${compact?' species-codes-compact':''}${answer?' answer-main answer-codes':''}" role="group" aria-label="${answer?(english?'Accepted eBird entry codes':'Akzeptierte eBird-Kurzcodes'):(english?'Bird abbreviations':'Artkürzel')}">${groups}${codeLegend(s,{dda:!answer,additional})}${!answer?ddaQuestionScope(s):''}${collisions(displayCodes)}${note}<p class="muted code-legend-note">${english?'Codes may refer to more than one species.':'Codes können mehrere Arten bezeichnen.'}</p></div>`;
 }
 
 function lookupAliases(s,language){
