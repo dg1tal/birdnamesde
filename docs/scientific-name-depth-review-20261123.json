@@ -63,7 +63,7 @@
     "scientificNameReproducibility": "passed",
     "moduleVersions": "passed",
     "gitDiffCheck": "passed",
-    "visualBrowserCheck": "Deferred by the user to this evening at the unlocked Mac, in the internal browser. No visual verification claimed for this revision."
+    "visualBrowserCheck": "Passed on 23 November 2026 on the published site in the internal browser. Desktop and mobile screenshots reviewed; no layout correction required."
   },
   "limitations": [
     "The prose explains historical naming, not diagnostic field marks or accepted alternative answers.",
@@ -1073,5 +1073,60 @@
     "g:Zonotrichia",
     "g:Zoothera",
     "g:Zosterops"
-  ]
+  ],
+  "visualReview": {
+    "date": "2026-11-23",
+    "url": "https://dg1tal.github.io/birdnamesde/",
+    "browser": "ChatGPT internal browser on the unlocked Mac",
+    "scientificNameRevision": "c774762",
+    "scenarios": [
+      {
+        "species": "Erithacus rubecula",
+        "language": "de",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theme": "dark",
+        "result": "Full expanded explanation, uncertainty label and Jobling reference readable; no clipping or horizontal overflow."
+      },
+      {
+        "species": "Dendrocopos major",
+        "language": "en",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "theme": "light",
+        "result": "English genus/epithet explanations and source pages displayed correctly within the German interface."
+      },
+      {
+        "species": "Carduelis carduelis",
+        "language": "nl",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "theme": "light",
+        "result": "Dutch explanations, two scoped supplementary references and long link titles wrap within the card."
+      },
+      {
+        "species": "Motacilla alba",
+        "language": "de",
+        "viewport": {
+          "width": 320,
+          "height": 800
+        },
+        "theme": "dark",
+        "result": "Long naming history wraps without horizontal overflow; Enter closes and Space opens the disclosure; Tab reaches the source link with a visible focus indicator."
+      }
+    ],
+    "consoleWarningsOrErrors": 0,
+    "layoutFixRequired": false,
+    "settingsRestored": true,
+    "limits": [
+      "Visual checks cover lookup cards and their shared scientific-name renderer. No learning round was started or graded.",
+      "Viewport emulation on the Mac, not a physical phone test. No screenreader speech check."
+    ]
+  }
 }
