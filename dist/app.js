@@ -16,7 +16,7 @@ import {encodeBackupFile,decodeBackupFile} from './backup-file.js?v=20261108-qua
 import {scientificNameAliases} from './scientific-name-aliases.js?v=20261108-quality1';
 import {lessonProgressText,completionMessage,attemptText,progressDefinitions,questionReason,questionReasonText} from './progress-copy.js?v=20261122-dda1';
 import {studyViewportMetrics,studyScrollDelta} from './study-viewport.js?v=20261101-keyboard5';
-import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261102-introfit1';
+import {studyPhotoHeight,introductionPhotoHeight} from './study-photo-layout.js?v=20261123-mobilephotos1';
 import {renderInformation} from './info-page.js?v=20261122-dda1';
 import {LEARNING_COUNTRIES,LEARNING_REGION_DEFAULTS,loadSharedUI,selectionMessage} from './learning-settings.js?v=20261123-introreason3';
 import {NAME_LANGUAGES,isNameLanguage,languageLabel,primaryName,acceptedNames,loadNameData,hasLanguagePair,targetName} from './name-languages.js?v=20261122-dda1';
@@ -92,8 +92,8 @@ function scheduleStudyPhotoLayout(){
   studyPhotoFrame=requestAnimationFrame(()=>{
     studyPhotoFrame=0;
     if(!document.body.classList.contains('studying'))return;
-    const introduction=$('.introduction');
-    const set=introduction?$('.introduction .photo-set'):$('#feedback .photo-set'),actions=introduction?$('.introduction .study-actions'):$('#feedback .study-actions');
+    const introduction=$('.introduction'),revealed=$('#revealed-answer');
+    const set=introduction?$('.introduction .photo-set'):revealed?$('#revealed-answer .photo-set'):$('#feedback .photo-set'),actions=introduction?$('.introduction .study-actions'):revealed?$('#answer-area .study-actions'):$('#feedback .study-actions');
     const visuals=set?[...set.querySelectorAll('.photo-visual')].filter(el=>el.getClientRects().length):[];
     if(!visuals.length||!actions)return;
     // In-card desktop actions follow the content; sizing against their position
@@ -101,7 +101,8 @@ function scheduleStudyPhotoLayout(){
     if(getComputedStyle(actions).position!=='fixed'){
       set.style.removeProperty('--intro-photo-height');set.style.removeProperty('--study-photo-height');return;
     }
-    if(introduction){
+    const mobile=window.matchMedia('(max-width:580px)').matches;
+    if(introduction||mobile){
       const rows=[];
       for(const visual of visuals){
         const top=visual.closest('.bird-photo').getBoundingClientRect().top;
@@ -109,12 +110,15 @@ function scheduleStudyPhotoLayout(){
         if(!row){row={top,height:0};rows.push(row);}
         row.height=Math.max(row.height,visual.getBoundingClientRect().height);
       }
-      const box=set.getBoundingClientRect(),card=introduction.getBoundingClientRect(),viewport=window.visualViewport;
+      const box=set.getBoundingClientRect(),card=(introduction||$('.question')).getBoundingClientRect(),viewport=window.visualViewport;
       const overhead=Math.max(0,box.height-rows.reduce((sum,row)=>sum+row.height,0))+Math.max(0,card.bottom-box.bottom);
-      const maxHeight=Math.max(160,Math.min(340,Math.floor(Math.min(...visuals.map(el=>el.getBoundingClientRect().width))*.9)));
-      const height=introductionPhotoHeight({maxHeight,photoTop:box.top+window.scrollY,viewportBottom:viewport?viewport.offsetTop+viewport.height:window.innerHeight,actionsTop:actions.getBoundingClientRect().top,overhead,rows:rows.length});
+      const minHeight=mobile?120:160;
+      const maxHeight=Math.max(minHeight,Math.min(mobile?180:340,Math.floor(Math.min(...visuals.map(el=>el.getBoundingClientRect().width))*.9)));
+      const fitHeight=introduction?introductionPhotoHeight:studyPhotoHeight;
+      const height=fitHeight({minHeight,maxHeight,photoTop:box.top+window.scrollY,viewportBottom:viewport?viewport.offsetTop+viewport.height:window.innerHeight,actionsTop:actions.getBoundingClientRect().top,overhead,rows:rows.length});
       const value=height+'px';
-      if(set.style.getPropertyValue('--intro-photo-height')!==value)set.style.setProperty('--intro-photo-height',value);
+      const property=introduction?'--intro-photo-height':'--study-photo-height';
+      if(set.style.getPropertyValue(property)!==value)set.style.setProperty(property,value);
       return;
     }
     const rowTop=Math.min(...visuals.map(el=>el.closest('.bird-photo').getBoundingClientRect().top));
@@ -131,9 +135,9 @@ function scheduleStudyPhotoLayout(){
 }
 function observeStudyPhotoLayout(){
   studyPhotoObserver.disconnect();
-  const introduction=$('.introduction');
-  if(!$(introduction?'.introduction .photo-set':'#feedback .photo-set'))return;
-  studyPhotoObserver.observe(introduction||$('.question'));studyPhotoObserver.observe($(introduction?'.introduction .study-actions':'#feedback .study-actions'));
+  const introduction=$('.introduction'),revealed=$('#revealed-answer');
+  if(!$(introduction?'.introduction .photo-set':revealed?'#revealed-answer .photo-set':'#feedback .photo-set'))return;
+  studyPhotoObserver.observe(introduction||$('.question'));studyPhotoObserver.observe($(introduction?'.introduction .study-actions':revealed?'#answer-area .study-actions':'#feedback .study-actions'));
   scheduleStudyPhotoLayout();
 }
 let studyVisibilityFrame=0,studyFocusPinned=true;
@@ -883,7 +887,7 @@ function renderQuestion() {
     queueFocus($('#answer'));
   }
   if(x.method==='flash') {
-    const reveal=()=>{x.revealed=true;save();area.innerHTML=`<div id="revealed-answer" tabindex="-1" role="group" aria-describedby="revealed-answer-content" aria-label="${english?'Revealed answer':'Aufgedeckte Antwort'}"><div id="revealed-answer-content">${nameAnswerMarkup(s,item.t)}${studyDetailsMarkup(s,item.t,x.sourceLanguage,true)}${x.photos?photoMarkup(s):''}${studyMoreMarkup(s,item.t,x.sourceLanguage,false)}</div></div><div class="actions study-actions"><button id="no">Nicht gewusst</button><button id="yes" class="primary">Gewusst</button></div>`;$('#no').onclick=()=>finish(false,s,item,'Nicht gewusst');$('#yes').onclick=()=>finish(true,s,item,'Gewusst');focusElement($('#revealed-answer'),{preventScroll:true});observeStudyActions();};
+    const reveal=()=>{x.revealed=true;save();area.innerHTML=`<div id="revealed-answer" tabindex="-1" role="group" aria-describedby="revealed-answer-content" aria-label="${english?'Revealed answer':'Aufgedeckte Antwort'}"><div id="revealed-answer-content">${nameAnswerMarkup(s,item.t)}${studyDetailsMarkup(s,item.t,x.sourceLanguage,true)}${x.photos?photoMarkup(s):''}${studyMoreMarkup(s,item.t,x.sourceLanguage,false)}</div></div><div class="actions study-actions"><button id="no">Nicht gewusst</button><button id="yes" class="primary">Gewusst</button></div>`;$('#no').onclick=()=>finish(false,s,item,'Nicht gewusst');$('#yes').onclick=()=>finish(true,s,item,'Gewusst');focusElement($('#revealed-answer'),{preventScroll:true});observeStudyActions();if(x.photos)observeStudyPhotoLayout();};
     if(x.revealed)reveal();else{area.innerHTML='<div class="study-actions"><button id="reveal" class="primary">Antwort aufdecken</button></div>';$('#reveal').onclick=reveal;queueFocus($('#reveal'));}
   }
   if(x.method==='mc'||x.method==='think') {

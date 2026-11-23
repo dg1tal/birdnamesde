@@ -1046,6 +1046,18 @@ body.studying .dda-codes.answer-main .code-dda{font-size:24px}
  body.studying .feedback .code-legend-note{font-size:12px;line-height:1.4}
 }
 
+/* Compact learning pictures remain uncropped and open at full size on tap. */
+@media(max-width:580px){
+ body.studying :is(.introduction,.feedback,#revealed-answer) .photo-set{margin:4px 0;gap:8px}
+ body.studying :is(.introduction,.feedback,#revealed-answer) .photo-set-multiple:not(.photo-set-illustrated){display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+ body.studying :is(.introduction,.feedback,#revealed-answer) .bird-photo{margin:0;min-width:0}
+ body.studying :is(.feedback,#revealed-answer) .photo-set .bird-photo :is(img,.study-photo-slot){height:var(--study-photo-height,160px);object-fit:contain}
+ body.studying .introduction .photo-set .bird-photo .photo-visual img{height:var(--intro-photo-height,160px)}
+ body.studying :is(.introduction,.feedback,#revealed-answer) .photo-label{margin-bottom:3px;font-size:13px}
+ body.studying :is(.introduction,.feedback,#revealed-answer) .bird-photo figcaption{margin-top:4px;font-size:12px;line-height:1.35}
+ body.studying :is(.introduction,.feedback,#revealed-answer) .photo-credit{margin-top:0}
+}
+
 /* Put progress and full-size round controls beside each other on phones. */
 @media(max-width:580px){
  body.studying .session>.meta{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px;margin:0 0 6px;padding:0}

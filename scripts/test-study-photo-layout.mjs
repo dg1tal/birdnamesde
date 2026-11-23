@@ -16,6 +16,20 @@ for(let photoTop=0;photoTop<1000;photoTop+=17){
 }
 console.log('PASS: adaptive photo height fits above actions, respects visual viewport, and preserves minimum size for long feedback.');
 
+// Mobile cards reserve captions and the reference disclosures beneath the pictures.
+const compact={minHeight:120,maxHeight:180};
+assert.equal(studyPhotoHeight({...compact,photoTop:300,viewportBottom:844,actionsTop:787,overhead:200}),180);
+assert.equal(studyPhotoHeight({...compact,photoTop:400,viewportBottom:844,actionsTop:787,overhead:220}),155);
+assert.equal(studyPhotoHeight({...compact,photoTop:500,viewportBottom:844,actionsTop:787,overhead:220}),120);
+assert.equal(studyPhotoHeight({...compact,photoTop:300,viewportBottom:844,actionsTop:787,overhead:200,rows:2}),137);
+assert.equal(studyPhotoHeight({...compact,photoTop:200,viewportBottom:500,actionsTop:787,overhead:140}),148);
+for(const rows of [1,2])for(const overhead of [80,160,240])for(let photoTop=100;photoTop<700;photoTop+=29){
+ const height=studyPhotoHeight({...compact,photoTop,viewportBottom:844,actionsTop:787,overhead,rows});
+ assert(height>=120&&height<=180);
+ if(787-photoTop-overhead-12>=120*rows)assert(photoTop+rows*height+overhead<=787-12);
+}
+console.log('PASS: compact mobile photo rows budget for captions, following reference sections and visual viewports.');
+
 const {introductionPhotoHeight}=await import('../dist/study-photo-layout.js');
 assert.equal(introductionPhotoHeight({photoTop:240,viewportBottom:900,actionsTop:820,overhead:80}),340);
 assert.equal(introductionPhotoHeight({photoTop:380,viewportBottom:800,actionsTop:730,overhead:95}),243);
