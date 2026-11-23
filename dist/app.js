@@ -1038,7 +1038,7 @@ try{let data=await(await fetch('species.json?v=20261107-scicodes1')).json();bird
 try{const names=await(await fetch('german-names.json')).json();germanNamesMeta=names.meta;for(const s of birds)s.germanNames=names.species[s.id]?.names||[];}catch(err){console.warn('Deutsche Alternativnamen nicht geladen',err)}
 try{const response=await fetch('dda-codes.json',{cache:'no-cache'});if(!response.ok)throw Error('DDA unavailable');const dda=validateDdaData(await response.json(),new Set(birds.map(s=>s.id)));ddaMeta=dda.meta;for(const bird of birds)bird.dda=dda.species[bird.id];}catch{console.warn('DDA abbreviations unavailable');}
 availableNameLanguages=await loadNameData(birds);
-try{const response=await fetch('scientific-names.json?v=20261123-all-origins');if(response.ok)nameOrigins=validateScientificNames(await response.json(),birds);}catch{console.warn('Scientific-name explanations unavailable');}
+try{const response=await fetch('scientific-names.json?v=20261123-origin-sources');if(response.ok)nameOrigins=validateScientificNames(await response.json(),birds);}catch{console.warn('Scientific-name explanations unavailable');}
 ui.learn.nameLanguage=isNameLanguage(ui.learn.nameLanguage)?ui.learn.nameLanguage:isNameLanguage(ui.learn.target)?ui.learn.target:defaultNameTarget;
 nameTarget=ui.learn.nameLanguage;
 ui.learn.codeSystem=ui.learn.codeSystem==='dda'?'dda':'ebird';
