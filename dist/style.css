@@ -547,6 +547,7 @@ body.studying .feedback .answer-name-with-code,body.studying #revealed-answer .a
 .code-scientific,body.dark .code-scientific{background:var(--sci-bg);color:var(--sci-ink);box-shadow:inset 0 0 0 1px currentColor}
 .code-legend{display:flex;flex-wrap:wrap;gap:3px 12px;list-style:none;padding:0;margin:0;color:var(--muted);font-size:.75rem;line-height:1.5}
 .code-legend li{display:inline-flex;align-items:center;gap:5px}
+.code-legend-short{display:none}
 .code-swatch{display:inline-block;flex:none;width:.75rem;height:.75rem;border-radius:3px}
 .code-origin-note{color:var(--muted);font-size:.75rem;line-height:1.5;margin:0}
 .code-name-note{font-size:13px;margin:6px 0 12px}
@@ -990,4 +991,9 @@ body.studying .dda-codes.answer-main .code-dda{font-size:24px}
 @media(max-width:580px){
  .species-code-items{gap:4px}
  body :is(.card,.study-reference-codes,.study-note-codes) .species-code-items>.code{font-size:clamp(1rem,4.6vw,1.125rem);padding:4px 3px;letter-spacing:.25px}
+ .code-legend{column-gap:6px}
+ .code-legend li{gap:3px}
+ .code-legend .code-swatch{width:.5rem;height:.5rem}
+ .code-legend-long{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .code-legend-short{display:inline}
 }

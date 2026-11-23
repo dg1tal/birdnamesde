@@ -387,12 +387,12 @@ function codeMarkup(s,code,answer=false){
 function codeLegend(s,{ebird=true,dda=false,additional=[]}={}){
  const sources=ebird?[s,...additional]:[];
  const origins=[
-  ['scientific',english?'Scientific':'Wissenschaftlich',sources.some(b=>b.codes.some(code=>b.scientificCodes?.includes(code)))],
-  ['common',english?'eBird (English)':'eBird (Englisch)',sources.some(b=>b.codes.some(code=>!b.scientificCodes?.includes(code)&&code!==b.bandingCode))],
-  ['banding',english?'Banding':'Beringung',sources.some(b=>b.codes.includes(b.bandingCode))],
-  ['dda','DDA',dda&&s.dda]
+  ['scientific',english?'Scientific':'Wissenschaftlich',sources.some(b=>b.codes.some(code=>b.scientificCodes?.includes(code))),english?'Sci.':'Wiss.'],
+  ['common',english?'eBird (English)':'eBird (Englisch)',sources.some(b=>b.codes.some(code=>!b.scientificCodes?.includes(code)&&code!==b.bandingCode)),'eBird EN'],
+  ['banding',english?'Banding':'Beringung',sources.some(b=>b.codes.includes(b.bandingCode)),english?'Banding':'Bering.'],
+  ['dda','DDA',dda&&s.dda,'DDA']
  ];
- const items=origins.filter(([, ,present])=>present).map(([type,label])=>`<li><span class="code-swatch code-${type}" aria-hidden="true"></span>${label}</li>`).join('');
+ const items=origins.filter(([, ,present])=>present).map(([type,label,,short])=>`<li><span class="code-swatch code-${type}" aria-hidden="true"></span>${label===short?label:`<span class="code-legend-long">${label}</span><span class="code-legend-short" title="${esc(label)}" aria-hidden="true">${short}</span>`}</li>`).join('');
  if(!items)return '';
  const dual=sources.some(b=>b.codes.some(code=>b.scientificCodes?.includes(code)&&code===b.bandingCode));
  return `<ul class="code-legend" aria-label="${english?'Code colour key':'Farblegende der Kürzel'}">${items}</ul>${dual?`<p class="code-origin-note">${english?'Split colour: scientific and banding code.':'Geteilte Farbe: wissenschaftlicher Kurzcode und Beringungscode.'}</p>`:''}`;
