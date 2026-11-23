@@ -1,25 +1,25 @@
 # Exact terms with geographical, borrowed, mythological or uncertain histories.
-aalge|übernommener dänischer Alkenname|borrowed Danish auk name|overgenomen Deense alkennaam
-alle|übernommener nordischer Entenname, hier auf einen Alken angewandt|borrowed Nordic duck name, applied here to an auk|overgenomen Noordse eendennaam, hier toegepast op een alkachtige
-aluco|übernommener italienischer Waldkauzname|borrowed Italian tawny owl name|overgenomen Italiaanse bosuilnaam
+aalge|übernommener dänischer Alkenname; dänisch Aalge, zu altnordisch Alka = Alk|borrowed Danish auk name; Danish Aalge, related to Old Norse Alka = auk|overgenomen Deense alkennaam; Deens Aalge, bij Oudnoords Alka = alk
+alle|übernommener nordischer Entenname, hier auf einen Alken angewandt; alle ist ein nordischer Lautname der Eisente, der auf den Krabbentaucher übertragen wurde|borrowed Nordic duck name, applied here to an auk; alle is a Nordic imitative name for the Long-tailed Duck, transferred to the Little Auk|overgenomen Noordse eendennaam, hier toegepast op een alkachtige; alle is een Noordse klanknaam voor de ijseend, overgedragen op de kleine alk
+aluco|übernommener italienischer Waldkauzname; italienisch Alocho oder Allocco = Waldkauz|borrowed Italian tawny owl name; Italian Alocho or Allocco = tawny owl|overgenomen Italiaanse bosuilnaam; Italiaans Alocho of Allocco = bosuil
 amazonica|aus Amazonien|of Amazonia|uit Amazonië
 americana americanus|amerikanisch|American|Amerikaans
 amurensis|aus dem Amurgebiet|of the Amur region|uit het Amoergebied
 antillarum|von den Antillen|of the Antilles|van de Antillen
-ararauna|übernommener Tupí-Papageienname; dunkler großer Papagei|borrowed Tupí parrot name; large dark parrot|overgenomen Tupí-papegaaiennaam; grote donkere papegaai
+ararauna|übernommener Tupí-Papageienname; dunkler großer Papagei; Tupí Arára úna = großer dunkler Papagei, ursprünglich für den Hyazinthara gebraucht|borrowed Tupí parrot name; large dark parrot; Tupí Arára úna = large dark parrot, originally used for the Hyacinth Macaw|overgenomen Tupí-papegaaiennaam; grote donkere papegaai; Tupí Arára úna = grote donkere papegaai, oorspronkelijk gebruikt voor de hyacintara
 astrild|Herkunft des übernommenen Vogelnamens umstritten|origin of the borrowed bird name disputed|oorsprong van de overgenomen vogelnaam omstreden|?
 atthis|Atthis, ein Name aus der griechischen Überlieferung; konkrete Bezugsperson unklar|Atthis, a name from Greek tradition; intended person unclear|Atthis, een naam uit de Griekse overlevering; bedoelde persoon onduidelijk|?
 aura|übernommener indigener Geiername|borrowed Indigenous vulture name|overgenomen inheemse gierennaam
-avosetta|übernommener venezianischer Säbelschnäblername|borrowed Venetian avocet name|overgenomen Venetiaanse klutennaam
+avosetta|übernommener venezianischer Säbelschnäblername; venezianisch Avosetta, ein Name des Säbelschnäblers|borrowed Venetian avocet name; Venetian Avosetta, an avocet name|overgenomen Venetiaanse klutennaam; Venetiaans Avosetta, een klutennaam
 bahamensis|von den Bahamas|of the Bahamas|van de Bahama's
-bakkamoena|übernommener singhalesischer Eulenname|borrowed Sinhala owl name|overgenomen Singalese uilennaam
+bakkamoena|übernommener singhalesischer Eulenname; singhalesisch Bakamuna, ein Name für verschiedene Eulen|borrowed Sinhala owl name; Sinhala Bakamuna, a name for various owls|overgenomen Singalese uilennaam; Singalees Bakamuna, een naam voor verschillende uilen
 barbara|aus der Berberei, Nordafrika|of Barbary, North Africa|uit Barbarije, Noord-Afrika
 bassanus|vom Bass Rock in Schottland|of Bass Rock, Scotland|van Bass Rock in Schotland
 bengalensis bengalus|aus Bengalen|of Bengal|uit Bengalen
 biarmicus|Herleitung umstritten; Bezug auf Bjarmaland oder auf einen Bart vorgeschlagen|derivation disputed; references to Bjarmaland or a beard have been proposed|afleiding omstreden; verwijzingen naar Bjarmaland of een baard zijn voorgesteld|?
 bonasia|alter Haselhuhnname; genaue Herleitung unsicher|old hazel grouse name; precise derivation uncertain|oude hazelhoennaam; precieze afleiding onzeker|?
-boobook|übernommener australischer Lautname einer Eule|borrowed Australian owl call-name|overgenomen Australische klanknaam voor een uil
-borin|übernommener italienischer Grasmückenname|borrowed Italian warbler name|overgenomen Italiaanse grasmussennaam
+boobook|übernommener australischer Lautname einer Eule; australischer indigener Lautname Boobook|borrowed Australian owl call-name; Indigenous Australian imitative name Boobook|overgenomen Australische klanknaam voor een uil; inheemse Australische klanknaam Boobook
+borin|übernommener italienischer Grasmückenname; Borin, ein regionaler italienischer Grasmückenname aus Genua|borrowed Italian warbler name; Borin, a regional Italian warbler name from Genoa|overgenomen Italiaanse grasmussennaam; Borin, een regionale Italiaanse grasmussennaam uit Genua
 californica|aus Kalifornien|of California|uit Californië
 calliope|Kalliope, Muse des Gesangs und der Dichtung|Calliope, Muse of song and poetry|Calliope, muze van zang en dichtkunst
 canadensis|aus Kanada|of Canada|uit Canada
@@ -28,35 +28,35 @@ canutus|möglicher Bezug auf König Knut; historische Deutung nicht sicher|possi
 capensis|vom Kap der Guten Hoffnung|of the Cape of Good Hope|van Kaap de Goede Hoop
 carolina carolinensis|aus Carolina in Nordamerika|of Carolina, North America|uit Carolina in Noord-Amerika
 castro|übernommener madeirischer Seevogelname; weitere Deutung unsicher|borrowed Madeiran seabird name; deeper interpretation uncertain|overgenomen Madeirese zeevogelnaam; verdere duiding onzeker|?
-cherrug|übernommener Hindi-Name eines weiblichen Sakerfalken|borrowed Hindi name for a female saker falcon|overgenomen Hindi-naam voor een vrouwelijke sakervalk
+cherrug|übernommener Hindi-Name eines weiblichen Sakerfalken; Hindi Charg, ein Name für das Weibchen des Sakerfalken|borrowed Hindi name for a female saker falcon; Hindi Charg, a name for the female Saker Falcon|overgenomen Hindi-naam voor een vrouwelijke sakervalk; Hindi Charg, een naam voor het vrouwtje van de sakervalk
 chilensis|chilenisch|Chilean|Chileens
-chukar|übernommener Hindi-Name des Chukarhuhns|borrowed Hindi chukar name|overgenomen Hindi-naam voor de chukarpatrijs
-cia|übernommener italienischer Ammernname|borrowed Italian bunting name|overgenomen Italiaanse gorzennaam
-cirlus|übernommener italienischer Ammernname|borrowed Italian bunting name|overgenomen Italiaanse gorzennaam
+chukar|übernommener Hindi-Name des Chukarhuhns; Hindi Chukor = Chukarhuhn|borrowed Hindi chukar name; Hindi Chukor = Chukar Partridge|overgenomen Hindi-naam voor de chukarpatrijs; Hindi Chukor = Aziatische steenpatrijs
+cia|übernommener italienischer Ammernname; italienisch Cia; als Lautname mit zirlare = zwitschern verbunden|borrowed Italian bunting name; Italian Cia; an imitative name linked to zirlare = to chirp|overgenomen Italiaanse gorzennaam; Italiaans Cia; als klanknaam verbonden met zirlare = tjilpen
+cirlus|übernommener italienischer Ammernname; italienisch Cirlo, zu zirlare = zwitschern|borrowed Italian bunting name; Italian Cirlo, related to zirlare = to chirp|overgenomen Italiaanse gorzennaam; Italiaans Cirlo, bij zirlare = tjilpen
 citrinella|kleiner gelber Vogel; aus einem italienischen Vogelnamen|small yellow bird; from an Italian bird name|kleine gele vogel; uit een Italiaanse vogelnaam
 columbianus|vom Columbia-Fluss in Nordamerika, kein Bezug zu Kolumbien|of the Columbia River, North America, not Colombia|van de Columbiarivier in Noord-Amerika, niet van Colombia
-contra|übernommener bengalischer Starname|borrowed Bengali starling name|overgenomen Bengaalse spreeuwennaam
+contra|übernommener bengalischer Starname; Contra, nach Albin (1738) ein in Bengalen gebrauchter Name dieses Stars|borrowed Bengali starling name; Contra, a name recorded by Albin (1738) for this starling in Bengal|overgenomen Bengaalse spreeuwennaam; Contra, volgens Albin (1738) een in Bengalen gebruikte naam voor deze spreeuw
 coromanda|von der Koromandelküste in Indien|of the Coromandel Coast, India|van de Coromandelkust in India
-coscoroba|übernommener südamerikanischer Schwanenname|borrowed South American swan name|overgenomen Zuid-Amerikaanse zwanennaam
+coscoroba|übernommener südamerikanischer Schwanenname; Coscoroba ist ein in Chile überlieferter Schwanenname|borrowed South American swan name; Coscoroba is a swan name recorded in Chile|overgenomen Zuid-Amerikaanse zwanennaam; Coscoroba is een in Chili overgeleverde zwanennaam
 crecca|aus dem schwedischen Krickentennamen|from the Swedish teal name|uit de Zweedse wintertalingnaam
 daurica dauurica dauuricus|aus Daurien in Südostsibirien|of Dauria, south-eastern Siberia|uit Daurië in Zuidoost-Siberië
 delawarensis|vom Delaware-Fluss in Nordamerika|of the Delaware River, North America|van de Delawarerivier in Noord-Amerika
 diomedea|Diomedes, Held der griechischen Mythologie|Diomedes, a hero of Greek mythology|Diomedes, een held uit de Griekse mythologie
 dominica|von Santo Domingo, Hispaniola|of Santo Domingo, Hispaniola|van Santo Domingo, Hispaniola
 dominicanus|Dominikanermönch; Vergleich mit schwarzweißer Ordenstracht|Dominican friar; compared with the black-and-white habit|dominicaner monnik; vergeleken met het zwart-witte habijt
-falcinellus|kleine Sichel; alter italienischer Ibisname|little sickle; an old Italian ibis name|kleine sikkel; een oude Italiaanse ibisnaam
-francolinus|übernommener Frankolinname|borrowed francolin name|overgenomen frankolijnennaam
+falcinellus|kleine Sichel; alter italienischer Ibisname; italienisch Falcinellus, ein alter Ibisname, als Verkleinerung zu lateinisch falx = Sichel|little sickle; an old Italian ibis name; Italian Falcinellus, an old ibis name, as a diminutive related to Latin falx = sickle|kleine sikkel; een oude Italiaanse ibisnaam; Italiaans Falcinellus, een oude ibisnaam, als verkleinvorm bij Latijn falx = sikkel
+francolinus|übernommener Frankolinname; über französisch francolin aus italienisch francolino, einem Frankolinnamen|borrowed francolin name; via French francolin from Italian francolino, a francolin name|overgenomen frankolijnennaam; via Frans francolin uit Italiaans francolino, een frankolijnennaam
 gambensis|aus Gambia|of Gambia|uit Gambia
-garzetta|übernommener italienischer Reihername|borrowed Italian egret name|overgenomen Italiaanse zilverreigernaam
+garzetta|übernommener italienischer Reihername; italienisch Garzetta = Seidenreiher|borrowed Italian egret name; Italian Garzetta = Little Egret|overgenomen Italiaanse zilverreigernaam; Italiaans Garzetta = kleine zilverreiger
 georgica|von Südgeorgien|of South Georgia|van Zuid-Georgië
 githagineus|wahrscheinlich mit der Kornrade, früher Githago, verglichen|probably compared with corn cockle, formerly Githago|waarschijnlijk vergeleken met bolderik, vroeger Githago|?
-grylle|übernommener gotländischer Alkenname|borrowed Gotland auk name|overgenomen Gotlandse alkennaam
+grylle|übernommener gotländischer Alkenname; gotländisch Grylle, ein lokaler Name eines Alken oder Tauchvogels|borrowed Gotland auk name; Gotlandic Grylle, a local name for an auk or diving bird|overgenomen Gotlandse alkennaam; Gotlands Grylle, een lokale naam voor een alkachtige of duikvogel
 hollandicus|aus Neuholland, dem historischen Namen Australiens|of New Holland, the historical name for Australia|uit Nieuw-Holland, de historische naam van Australië
 hortulana|Gartenvogel; aus dem italienischen Ortolannamen|garden bird; from the Italian ortolan name|tuinvogel; uit de Italiaanse ortolanennaam
 hottentota|historische, heute abwertende Bezeichnung für die Khoikhoi; keine Personenwidmung|historical, now derogatory name for the Khoikhoi; not a personal dedication|historische, nu beledigende naam voor de Khoikhoi; geen persoonlijke vernoeming
 hudsonicus hudsonius|von der Hudson Bay in Kanada|of Hudson Bay, Canada|van de Hudsonbaai in Canada
 iagoensis|von der Insel Santiago, Kapverden|of Santiago Island, Cape Verde|van het eiland Santiago, Kaapverdië
-immer|übernommener nordischer Seetauchername|borrowed Nordic diver name|overgenomen Noordse duikersnaam
+immer|norwegisch Immer, ein übernommener Name des Eistauchers; die tiefere Wortherkunft wird hier nicht weiter aufgeschlüsselt|Norwegian Immer, a borrowed name for the Great Northern Diver; the deeper origin is not analysed here|Noors Immer, een overgenomen naam voor de ijsduiker; de verdere herkomst wordt hier niet ontleed
 inca|Bezug auf die Inka und die Andenregion|refers to the Incas and the Andean region|verwijst naar de Inca's en het Andesgebied
 islandica|isländisch|Icelandic|IJslands
 jamaicensis|von Jamaika|of Jamaica|van Jamaica
@@ -65,14 +65,14 @@ javanica|von Java|of Java|van Java
 kundoo|Herkunft nicht sicher geklärt|origin uncertain|oorsprong onzeker|?
 lapponica lapponicus|aus Lappland|of Lapland|uit Lapland
 laysanensis|von der Insel Laysan, Hawaii|of Laysan Island, Hawaii|van het eiland Laysan, Hawaï
-lomvia|übernommener schwedischer Name eines Alken oder Tauchers|borrowed Swedish name for an auk or diver|overgenomen Zweedse naam voor een alkachtige of duiker
+lomvia|übernommener schwedischer Name eines Alken oder Tauchers; schwedisch Lomvia oder Lomvie, ein alter Alkenname|borrowed Swedish name for an auk or diver; Swedish Lomvia or Lomvie, an old auk name|overgenomen Zweedse naam voor een alkachtige of duiker; Zweeds Lomvia of Lomvie, een oude alkennaam
 luzonica|von Luzon, Philippinen|of Luzon, Philippines|van Luzon, Filipijnen
-macao|übernommener brasilianisch-portugiesischer Araname|borrowed Brazilian Portuguese macaw name|overgenomen Braziliaans-Portugese aranaam
+macao|übernommener brasilianisch-portugiesischer Araname; brasilianisch-portugiesisch Macao, ein Name für Aras|borrowed Brazilian Portuguese macaw name; Brazilian Portuguese Macao, a macaw name|overgenomen Braziliaans-Portugese aranaam; Braziliaans-Portugees Macao, een aranaam
 maccoa|von Macao; irrtümliche Herkunftsangabe für diese afrikanische Ente|of Macao; erroneous origin for this African duck|van Macau; onjuiste herkomstaanduiding voor deze Afrikaanse eend
 madagarensis|von Madagaskar|of Madagascar|van Madagaskar
 madeira|von Madeira|of Madeira|van Madeira
 magnolia|Magnolie, eine Pflanzengattung, die nach dem Botaniker Pierre Magnol benannt ist|magnolia, a plant genus named after botanist Pierre Magnol|magnolia, een plantengeslacht genoemd naar botanicus Pierre Magnol
-maja|übernommener philippinischer Name für einen Prachtfinken|borrowed Philippine munia name|overgenomen Filipijnse naam voor een prachtvink
+maja|philippinischer Vogelname; Tagalog Maya für einen kleinen Prachtfinken, daneben als Maja und Maia überliefert|Philippine bird name; Tagalog Maya for a small munia, also recorded as Maja and Maia|Filipijnse vogelnaam; Tagalog Maya voor een kleine prachtvink, ook overgeleverd als Maja en Maia
 malabaricus|von der Malabarküste in Indien|of the Malabar Coast, India|van de Malabarkust in India
 maldivarum|von den Malediven|of the Maldives|van de Malediven
 mantchuricum|aus der Mandschurei|of Manchuria|uit Mantsjoerije
@@ -82,50 +82,50 @@ mexicanus|mexikanisch|Mexican|Mexicaans
 moluccanus|von den Molukken|of the Moluccas|van de Molukken
 mongolus|mongolisch|Mongolian|Mongools
 mozambica|aus Mosambik|of Mozambique|uit Mozambique
-mugimaki|japanisch für Getreidesäer; übernommener Vogelname|Japanese for grain sower; a borrowed bird name|Japans voor graanzaaier; een overgenomen vogelnaam
-nenday|übernommener Guaraní-Papageienname|borrowed Guaraní parrot name|overgenomen Guaraní-papegaaiennaam
+mugimaki|japanisch für Getreidesäer; übernommener Vogelname; japanisch mugi = Weizen, Gerste und maki = Säen; der Vogel erscheint zur herbstlichen Aussaat|Japanese for grain sower; a borrowed bird name; Japanese mugi = wheat, barley and maki = sowing; the bird appears at autumn sowing time|Japans voor graanzaaier; een overgenomen vogelnaam; Japans mugi = tarwe, gerst en maki = zaaien; de vogel verschijnt tijdens de herfstzaai
+nenday|übernommener Guaraní-Papageienname; Guaraní Nenday oder Ñendáy, ein übernommener Sittichname|borrowed Guaraní parrot name; Guaraní Nenday or Ñendáy, a borrowed parakeet name|overgenomen Guaraní-papegaaiennaam; Guaraní Nenday of Ñendáy, een overgenomen parkietennaam
 nilotica|vom Nil|of the Nile|van de Nijl
 nipalensis|aus Nepal|of Nepal|uit Nepal
-novaeguineae|aus Neuguinea|of New Guinea|uit Nieuw-Guinea
+novaeguineae|aus Neuguinea; aus lateinisch novus|of New Guinea; from Latin novus|uit Nieuw-Guinea; uit Latijn novus
 novaehollandiae|aus Neuholland, dem historischen Namen Australiens|of New Holland, the historical name for Australia|uit Nieuw-Holland, de historische naam van Australië
 novaeseelandiae novaezelandiae|aus Neuseeland|of New Zealand|uit Nieuw-Zeeland
-noveboracensis|aus New York|of New York|uit New York
-nyroca|übernommener russischer Entenname|borrowed Russian duck name|overgenomen Russische eendennaam
-pacifica pacificus|zum Pazifik gehörig|of the Pacific|van de Stille Oceaan
+noveboracensis|aus New York; aus lateinisch novus|of New York; from Latin novus|uit New York; uit Latijn novus
+nyroca|übernommener russischer Entenname; russisch Nyrok = Tauchente|borrowed Russian duck name; Russian Nyrok = diving duck|overgenomen Russische eendennaam; Russisch Nyrok = duikeend
+pacifica pacificus|zum Pazifik gehörig; aus lateinisch pacificus|of the Pacific; from Latin pacificus|van de Stille Oceaan; uit Latijn pacificus
 patagonus|aus Patagonien|of Patagonia|uit Patagonië
-peposaca|übernommener Guaraní-Entenname|borrowed Guaraní duck name|overgenomen Guaraní-eendennaam
-petronia|übernommener italienischer Steinsperlingsname|borrowed Italian rock sparrow name|overgenomen Italiaanse rotsmusnaam
+peposaca|übernommener Guaraní-Entenname; Guaraní Peposaca, ein Name dieser Ente|borrowed Guaraní duck name; Guaraní Peposaca, a name for this duck|overgenomen Guaraní-eendennaam; Guaraní Peposaca, een naam voor deze eend
+petronia|übernommener italienischer Steinsperlingsname; italienisch Petronia, ein regionaler Name aus Bologna; zu lateinisch petronius = felsig|borrowed Italian rock sparrow name; Italian Petronia, a regional name from Bologna; related to Latin petronius = of rocks|overgenomen Italiaanse rotsmusnaam; Italiaans Petronia, een regionale naam uit Bologna; bij Latijn petronius = rotsachtig
 philadelphia philadelphicus|aus Philadelphia, USA|of Philadelphia, USA|uit Philadelphia, VS
 phoebe|vom englischen Lautnamen Phoebe; hier keine sichere Widmung an eine Göttin|from the English call-name Phoebe; not a certain dedication here to a goddess|van de Engelse klanknaam Phoebe; hier geen zekere vernoeming naar een godin
-pipixcan|übernommener indigener mexikanischer Möwenname|borrowed Indigenous Mexican gull name|overgenomen inheemse Mexicaanse meeuwennaam
-pleschanka|übernommener russischer Steinschmätzername, mit kahler Stelle verbunden|borrowed Russian wheatear name, associated with a bald patch|overgenomen Russische tapuitennaam, verbonden met een kale plek
+pipixcan|übernommener indigener mexikanischer Möwenname; Pipixcan, ein von Hernández (1651) überlieferter indigener mexikanischer Möwenname|borrowed Indigenous Mexican gull name; Pipixcan, an Indigenous Mexican gull name recorded by Hernández (1651)|overgenomen inheemse Mexicaanse meeuwennaam; Pipixcan, een door Hernández (1651) overgeleverde inheemse Mexicaanse meeuwennaam
+pleschanka|übernommener russischer Steinschmätzername, mit kahler Stelle verbunden; russisch Pleschanka, zu plesch = kahle Stelle am Kopf|borrowed Russian wheatear name, associated with a bald patch; Russian Pleschanka, related to plesch = bald spot on the head|overgenomen Russische tapuitennaam, verbonden met een kale plek; Russisch Pleschanka, bij plesch = kale plek op het hoofd
 pomarina|aus Pommern|of Pomerania|uit Pommeren
 porzana|übernommener italienischer Rallenname; genaue regionale Herkunft umstritten|borrowed Italian rail name; precise regional origin disputed|overgenomen Italiaanse rallennaam; precieze regionale herkomst omstreden|?
 puna|Puna, das Andenhochland|puna, the Andean high plateau|puna, het Andeshoogland
 quiscula|Herleitung unsicher; ein indigener Name Hispaniolas wurde vorgeschlagen|derivation uncertain; an Indigenous name for Hispaniola has been proposed|afleiding onzeker; een inheemse naam voor Hispaniola is voorgesteld|?
-radjah|übernommener molukkischer Entenname|borrowed Moluccan duck name|overgenomen Molukse eendennaam
+radjah|übernommener molukkischer Entenname; Radja, ein auf der Molukkeninsel Buru überlieferter Entenname|borrowed Moluccan duck name; Radja, a duck name recorded on Buru in the Moluccas|overgenomen Molukse eendennaam; Radja, een op het Molukse eiland Buru overgeleverde eendennaam
 rama|Rama aus der hinduistischen Mythologie|Rama of Hindu mythology|Rama uit de hindoeïstische mythologie
 rouloul|übernommener Name für den Straußwachtelvogel; weitere Herkunft unsicher|borrowed crested partridge name; deeper origin uncertain|overgenomen naam voor de roulroul; verdere oorsprong onzeker|?
 rubetra|alter Braunkehlchenname; genaue Herleitung unsicher|old whinchat name; exact derivation uncertain|oude paapjesnaam; precieze afleiding onzeker|?
 sandvicensis|von Sandwich in Kent, England; hier kein Bezug zu Hawaii|of Sandwich in Kent, England; not Hawaii here|van Sandwich in Kent, Engeland; hier niet Hawaï
 sandwichensis|vom Sandwich Sound, heute Prince William Sound in Alaska; hier kein Bezug zu Hawaii|of Sandwich Sound, now Prince William Sound in Alaska; not Hawaii here|van Sandwich Sound, nu Prince William Sound in Alaska; hier niet Hawaï
 scandiacus|skandinavisch|Scandinavian|Scandinavisch
-schach|lautnachahmender Name nach dem Ruf|imitative name based on the call|klanknabootsende naam naar de roep
+schach|lautnachahmender Name nach dem Ruf; vom lautnachahmenden Namen Scack, den Osbeck (1757) verwendete|imitative name based on the call; from the imitative name Scack used by Osbeck (1757)|klanknabootsende naam naar de roep; van de klanknaam Scack die Osbeck (1757) gebruikte
 senegalensis senegalus|aus Senegal|of Senegal|uit Senegal
 sibirica sibiricus|sibirisch|Siberian|Siberisch
-skua|übernommener färöischer Raubmöwenname|borrowed Faroese skua name|overgenomen Faeröerse jagersnaam
-spinoletta|übernommener italienischer Piepername|borrowed Italian pipit name|overgenomen Italiaanse piepernaam
-squatarola|übernommener venezianischer Regenpfeifername|borrowed Venetian plover name|overgenomen Venetiaanse plevierennaam
-sula|übernommener nordischer Tölpelname|borrowed Nordic gannet name|overgenomen Noordse gentennaam
-tadorna|übernommener europäischer Brandgansname|borrowed European shelduck name|overgenomen Europese bergeendennaam
-thula|indigener südamerikanischer Schwanenname, irrtümlich auf einen Reiher angewandt|Indigenous South American swan name, mistakenly applied to an egret|inheemse Zuid-Amerikaanse zwanennaam, ten onrechte op een zilverreiger toegepast
+skua|übernommener färöischer Raubmöwenname; über färöisch skúgvur oder skúir, zu altnordisch skúfr|borrowed Faroese skua name; via Faroese skúgvur or skúir, related to Old Norse skúfr|overgenomen Faeröerse jagersnaam; via Faeröers skúgvur of skúir, bij Oudnoords skúfr
+spinoletta|übernommener italienischer Piepername; italienisch Spipoletta, ein regionaler Piepername aus Florenz|borrowed Italian pipit name; Italian Spipoletta, a regional pipit name from Florence|overgenomen Italiaanse piepernaam; Italiaans Spipoletta, een regionale piepernaam uit Florence
+squatarola|übernommener venezianischer Regenpfeifername; venezianisch Sgatarola, ein Name für einen Regenpfeifer|borrowed Venetian plover name; Venetian Sgatarola, a plover name|overgenomen Venetiaanse plevierennaam; Venetiaans Sgatarola, een plevierennaam
+sula|übernommener nordischer Tölpelname; norwegisch Sula, aus altnordisch Súla = Tölpel|borrowed Nordic gannet name; Norwegian Sula, from Old Norse Súla = gannet|overgenomen Noordse gentennaam; Noors Sula, uit Oudnoords Súla = gent
+tadorna|übernommener europäischer Brandgansname; französisch tadorne = Brandgans; die ältere Herleitung ist umstritten|borrowed European shelduck name; French tadorne = shelduck; the earlier origin is disputed|overgenomen Europese bergeendennaam; Frans tadorne = bergeend; de oudere herkomst is omstreden
+thula|indigener südamerikanischer Schwanenname, irrtümlich auf einen Reiher angewandt; Thula ist ein araukanischer Name des Schwarzhalsschwans, von Molina auf den Schmuckreiher übertragen|Indigenous South American swan name, mistakenly applied to an egret; Thula is an Araucanian name for the Black-necked Swan, transferred by Molina to the Snowy Egret|inheemse Zuid-Amerikaanse zwanennaam, ten onrechte op een zilverreiger toegepast; Thula is een Araucaanse naam voor de zwarthalszwaan, door Molina overgedragen op de Amerikaanse kleine zilverreiger
 timneh|nach der Region der Temne in Sierra Leone|after the Temne region of Sierra Leone|naar het Temnegebied in Sierra Leone
-torda|übernommener gotländischer Tordalkname|borrowed Gotland razorbill name|overgenomen Gotlandse alkennaam
-totanus|übernommener italienischer Watvogelname|borrowed Italian wader name|overgenomen Italiaanse steltlopernaam
+torda|übernommener gotländischer Tordalkname; gotländisch Törd, ein lokaler Name des Tordalks|borrowed Gotland razorbill name; Gotlandic Törd, a local Razorbill name|overgenomen Gotlandse alkennaam; Gotlands Törd, een lokale alkennaam
+totanus|übernommener italienischer Watvogelname; italienisch Totano = Rotschenkel|borrowed Italian wader name; Italian Totano = redshank|overgenomen Italiaanse steltlopernaam; Italiaans Totano = tureluur
 tschutschensis|von der Tschuktschenhalbinsel|of the Chukchi Peninsula|van het Tsjoektsjenschiereiland
 uralensis|aus dem Ural|of the Ural Mountains|uit de Oeral
 urogallus|an Auerhahn angelehnter Name; keine einfache wörtliche Übersetzung|name modelled on German Auerhahn, capercaillie; no simple literal translation|naam naar het Duitse Auerhahn, auerhaan; geen eenvoudige letterlijke vertaling
 valisineria|nach einer Wasserpflanze der Gattung Vallisneria, benannt nach dem Naturkundler Antonio Vallisneri|after the aquatic plant genus Vallisneria, named for naturalist Antonio Vallisneri|naar het waterplantengeslacht Vallisneria, genoemd naar natuuronderzoeker Antonio Vallisneri
 virginianus|aus Virginia in Nordamerika|of Virginia, North America|uit Virginia in Noord-Amerika
-yelkouan|türkisch für Windverfolger; übernommener Sturmtauchername|Turkish for wind chaser; a borrowed shearwater name|Turks voor windvolger; een overgenomen pijlstormvogelnaam
+yelkouan|türkisch für Windverfolger; übernommener Sturmtauchername; türkisch yel = Wind und kovan = verfolgend, vertreibend; Yelkovan ist ein Sturmtauchername|Turkish for wind chaser; a borrowed shearwater name; Turkish yel = wind and kovan = chasing, driving away; Yelkovan is a shearwater name|Turks voor windvolger; een overgenomen pijlstormvogelnaam; Turks yel = wind en kovan = achtervolgend, verjagend; Yelkovan is een pijlstormvogelnaam
 yeltoniensis|vom Eltonsee in Russland|of Lake Elton, Russia|van het Eltonmeer in Rusland

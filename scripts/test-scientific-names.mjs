@@ -69,7 +69,27 @@ assert.equal(data.terms['e:richardi'].uncertain,false,'New research resolves the
 assert.equal(data.terms['g:Myiopsitta'].source,'mouchard2019');
 assert.equal(data.terms['g:Myiopsitta'].page,230);
 assert.notDeepEqual(data.terms['e:fuscatus'].text,data.terms['e:fuscescens'].text);
-assert.equal(data.terms['e:fuscescens'].text.en,'brownish, becoming dusky');
+assert.equal(data.terms['e:fuscescens'].text.en.split(';')[0],'brownish, becoming dusky');
+// Explanations must expose the roots, including mixed-language compounds and
+// diminutives, without inventing a throat component for the robin's epithet.
+for(const language of ['de','en','nl']){
+ const robin=renderScientificName(data,bird('Erithacus rubecula'),language);
+ for(const root of ['erithakos','ruber'])assert(robin.includes(root));
+ assert(!data.terms['e:rubecula'].text[language].includes('gula'));
+ for(const [key,roots] of Object.entries({
+  'g:Dendrocopos':['dendron','kopos'],
+  'g:Bombycilla':['bombux','cilla'],
+  'g:Arundinax':['arundo','anax'],
+  'e:fuligula':['fuligo','gula'],
+  'e:caryocatactes':['karyon','katagnumi'],
+  'e:phoenicuroides':['phoenicurus','-oides'],
+  'e:trochiloides':['trochilus','-oides']
+ }))for(const root of roots)assert(data.terms[key].text[language].includes(root),`${key}: ${language} needs ${root}`);
+ assert(data.terms['g:Forpus'].uncertain);
+ assert(data.terms['g:Erithacus'].uncertain);
+ assert(data.terms['g:Melanocorypha'].uncertain);
+ assert(!data.terms['g:Forpus'].text[language].includes('phoreo'),'A proposed root must not become a certain derivation');
+}
 for(const key of ['g:Cisticola','g:Aratinga','g:Poicephalus','g:Cyanoliseus','e:plancus','e:atthis','e:cirrocephalus']){
  assert.equal(data.terms[key].uncertain,true,key);
  const row=Object.entries(data.species).find(([,s])=>s.parts.includes(key));

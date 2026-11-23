@@ -9,7 +9,7 @@ Paths in code examples are relative to the repository root. UI labels use the En
 ## Scientific-name meanings
 
 Scientific-name meanings: `dist/scientific-names.json` supplies separate, concise
-editorial glosses of the genus and epithet for all 940 catalogue species, in German,
+editorial explanations of the genus and epithet for all 940 catalogue species, in German,
 English and Dutch. Explicit entries in `data/scientific-name-*.txt` are compiled by
 `python3 scripts/build-scientific-names.py`; `--check` verifies the tracked output.
 The reviewed source matches are recorded in
@@ -21,6 +21,21 @@ Uncertain derivations are marked. `data/scientific-name-overrides.json` resolves
 taxon-specific homonyms: the two Fischers, the two Naumanns, and the different
 Sandwich localities. Generic and specific names have separate case-sensitive
 entries; meanings are never inferred by stripping suffixes at runtime.
+
+The 23 November 2026 revision adds source languages, attested source words and
+the constituents of compounds, rather than stopping at a translated meaning.
+Diminutives explain their base word; borrowed bird names give the recorded form
+and language where known. Historical genus combinations are distinguished from
+direct lexical compounds. Ambiguous ancient bird names and disputed derivations
+are not assigned speculative roots. The review record and coverage are in
+[scientific-name-depth-review-20261123.json](scientific-name-depth-review-20261123.json).
+
+Further literature suggested by the user: Viktor Wember (2005), *Die Namen der
+Vögel Europas. Bedeutung der deutschen und wissenschaftlichen Namen*,
+Aula-Verlag, Wiebelsheim, ISBN 3-89104-678-2. The publication was checked
+bibliographically against the [Hamburg ornithological book review](https://ornithologie-hamburg.de/buchbesprechungen?start=50).
+Its full text was not available for this revision, so it is recorded as further
+reading and is not presented as a consulted source for individual derivations.
 
 The follow-up review is recorded in [scientific-name-followup-20261108.json](scientific-name-followup-20261108.json).
 `data/scientific-name-evidence.json` adds references with explicit scopes: word

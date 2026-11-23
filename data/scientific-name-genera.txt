@@ -1,413 +1,415 @@
 # Editorial glosses: explicit catalogue terms | German | English | Dutch.
 # Short factual glosses, independently phrased; uncertain histories are marked ?.
-Acanthis|alter Name eines Finkenvogels|ancient name for a finch-like bird|oude naam voor een vinkachtige vogel
-Accipiter|Habicht, Greifvogel|hawk|havik, roofvogel
-Acridotheres|Heuschreckenjäger|locust hunter|sprinkhanenjager
-Acrocephalus|Spitzkopf|pointed head|spitskop
-Actitis|Küstenbewohner|coast dweller|kustbewoner
-Aegithalos|alter Name einer Meise|ancient name for a tit|oude naam voor een mees
-Aegolius|alter Name einer Eule|ancient name for an owl|oude naam voor een uil
-Aegypius|alter Name eines Geiers|ancient name for a vulture|oude naam voor een gier
-Agapornis|Liebesvogel|love bird|liefdesvogel
-Agelaius|gesellig, in Scharen lebend|living in flocks|in groepen levend
-Agropsar|Feldstar|field starling|veldspreeuw
-Aix|alter Name eines Wasservogels|ancient name for a waterbird|oude naam voor een watervogel
-Alauda|Lerche|lark|leeuwerik
-Alca|aus einem nordischen Namen für den Tordalk|from a Nordic name for the Razorbill|uit een Noordse naam voor de alk
-Alcedo|Eisvogel|kingfisher|ijsvogel
-Alectoris|Henne, Rebhuhn|hen, partridge|hen, patrijs
-Alipiopsitta|Papagei; Widmung an den Zoologen Alípio de Miranda-Ribeiro|parrot; honours zoologist Alípio de Miranda-Ribeiro|papegaai; genoemd naar zoöloog Alípio de Miranda-Ribeiro
+Acanthis|alter Name eines Finkenvogels; aus griechisch akanthis|ancient name for a finch-like bird; from Greek akanthis|oude naam voor een vinkachtige vogel; uit Grieks akanthis
+Accipiter|Habicht, Greifvogel; aus lateinisch accipiter|hawk; from Latin accipiter|havik, roofvogel; uit Latijn accipiter
+Acridotheres|Heuschreckenjäger; aus griechisch akris = Heuschrecke und -theras = Jäger|locust hunter; from Greek akris = locust + -theras = hunter|sprinkhanenjager; uit Grieks akris = sprinkhaan en -theras = jager
+Acrocephalus|Spitzkopf; aus griechisch akros = oberst, höchst und kephale = Kopf|pointed head; from Greek akros = topmost, highest + kephale = head|spitskop; uit Grieks akros = bovenst, hoogst en kephale = kop
+Actitis|Küstenbewohner; griechisch aktites = Küstenbewohner, zu akte = Küste|coast dweller; Greek aktites = coast dweller, from akte = coast|kustbewoner; Grieks aktites = kustbewoner, bij akte = kust
+Aegithalos|alter Name einer Meise; aus griechisch aigithalos|ancient name for a tit; from Greek aigithalos|oude naam voor een mees; uit Grieks aigithalos
+Aegolius|alter Name einer Eule; aus lateinisch aegolius|ancient name for an owl; from Latin aegolius|oude naam voor een uil; uit Latijn aegolius
+Aegypius|alter Name eines Geiers; aus griechisch aigupios|ancient name for a vulture; from Greek aigupios|oude naam voor een gier; uit Grieks aigupios
+Agapornis|Liebesvogel; aus griechisch agape = Liebe und ornis = Vogel|love bird; from Greek agape = love + ornis = bird|liefdesvogel; uit Grieks agape = liefde en ornis = vogel
+Agelaius|gesellig, in Scharen lebend; aus griechisch agelaios|living in flocks; from Greek agelaios|in groepen levend; uit Grieks agelaios
+Agropsar|Feldstar; aus griechisch agros = Feld und psar = Star|field starling; from Greek agros = field + psar = starling|veldspreeuw; uit Grieks agros = veld en psar = spreeuw
+Aix|alter Name eines Wasservogels; aus griechisch aix|ancient name for a waterbird; from Greek aix|oude naam voor een watervogel; uit Grieks aix
+Alauda|Lerche; aus lateinisch alauda|lark; from Latin alauda|leeuwerik; uit Latijn alauda
+Alca|aus einem nordischen Namen für den Tordalk; norwegisch Alke = Tordalk|from a Nordic name for the Razorbill; Norwegian Alke = Razorbill|uit een Noordse naam voor de alk; Noors Alke = alk
+Alcedo|Eisvogel; aus lateinisch alcedo|kingfisher; from Latin alcedo|ijsvogel; uit Latijn alcedo
+Alectoris|Henne, Rebhuhn; aus griechisch alektoris|hen, partridge; from Greek alektoris|hen, patrijs; uit Grieks alektoris
+Alipiopsitta|Papagei; Widmung an den Zoologen Alípio de Miranda-Ribeiro; Alipio- nennt die geehrte Person; psitta bedeutet Papagei|parrot; honours zoologist Alípio de Miranda-Ribeiro; Alipio- names the honouree; psitta means parrot|papegaai; genoemd naar zoöloog Alípio de Miranda-Ribeiro; Alipio- noemt de geëerde persoon; psitta betekent papegaai
 Alisterus|Widmung an Alister William Mathews, den Sohn des Ornithologen Gregory Mathews|honours Alister William Mathews, son of ornithologist Gregory Mathews|genoemd naar Alister William Mathews, zoon van ornitholoog Gregory Mathews
-Alle|übernommener nordischer Entenname, hier auf einen Alken angewandt|a borrowed Nordic duck name, applied here to an auk|overgenomen Noordse eendennaam, hier toegepast op een alkachtige
-Alopochen|Fuchsgans|fox goose|vosgans
-Amazona|Amazonien|Amazonia|Amazonië
-Amblyramphus|stumpfer Schnabel|blunt bill|stompe snavel
-Anarhynchus|zurückgebogener Schnabel|backward-curved bill|achterwaarts gebogen snavel
-Anas|Ente|duck|eend
-Anser|Gans|goose|gans
-Anthus|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
+Alle|übernommener nordischer Entenname, hier auf einen Alken angewandt; alle ist ein nordischer Lautname der Eisente, der auf den Krabbentaucher übertragen wurde|a borrowed Nordic duck name, applied here to an auk; alle is a Nordic imitative name for the Long-tailed Duck, transferred to the Little Auk|overgenomen Noordse eendennaam, hier toegepast op een alkachtige; alle is een Noordse klanknaam voor de ijseend, overgedragen op de kleine alk
+Alopochen|Fuchsgans; aus griechisch alopos = fuchsartig und chen = Gans|fox goose; from Greek alopos = fox-like + chen = goose|vosgans; uit Grieks alopos = vosachtig en chen = gans
+Amazona|Amazonien; französisch Amazone, von Buffon für Papageien aus dem Amazonasgebiet verwendet|Amazonia; French Amazone, used by Buffon for parrots from Amazonia|Amazonië; Frans Amazone, door Buffon gebruikt voor papegaaien uit het Amazonegebied
+Amblyramphus|stumpfer Schnabel; aus griechisch amblus = stumpf und rhamphos = Schnabel|blunt bill; from Greek amblus = blunt + rhamphos = bill|stompe snavel; uit Grieks amblus = stomp en rhamphos = snavel
+Anarhynchus|zurückgebogener Schnabel; aus griechisch ana- = rückwärts und rhunkhos = Schnabel|backward-curved bill; from Greek ana- = backwards + rhunkhos = bill|achterwaarts gebogen snavel; uit Grieks ana- = achterwaarts en rhunkhos = snavel
+Anas|Ente; aus lateinisch anas|duck; from Latin anas|eend; uit Latijn anas
+Anser|Gans; aus lateinisch anser|goose; from Latin anser|gans; uit Latijn anser
+Anthus|alter Name eines kleinen Vogels; aus lateinisch anthus|ancient name for a small bird; from Latin anthus|oude naam voor een kleine vogel; uit Latijn anthus
 Antigone|Antigone aus der griechischen Mythologie|Antigone of Greek mythology|Antigone uit de Griekse mythologie
-Apus|fußlos; historische Vorstellung von Seglern|without feet; an old belief about swifts|zonder voeten; een oude opvatting over gierzwaluwen
-Aquila|Adler|eagle|arend
-Ara|aus einer indigenen südamerikanischen Lautbezeichnung für Aras|from an Indigenous South American call-name for macaws|uit een inheemse Zuid-Amerikaanse klanknaam voor ara's
+Apus|fußlos; historische Vorstellung von Seglern; aus griechisch a- = ohne und pous = Fuß|without feet; an old belief about swifts; from Greek a- = without + pous = foot|zonder voeten; een oude opvatting over gierzwaluwen; uit Grieks a- = zonder en pous = voet
+Aquila|Adler; aus lateinisch aquila|eagle; from Latin aquila|arend; uit Latijn aquila
+Ara|aus einer indigenen südamerikanischen Lautbezeichnung für Aras; Tupí Ará ist lautnachahmend und bezeichnet Aras oder in Zusammensetzungen Vögel|from an Indigenous South American call-name for macaws; Tupí Ará is imitative and denotes macaws or, in compounds, birds|uit een inheemse Zuid-Amerikaanse klanknaam voor ara's; Tupí Ará is klanknabootsend en duidt ara’s of, in samenstellingen, vogels aan
 Aratinga|Tupí-Papageienname; unter anderem als heller oder weißschnäbliger Papagei gedeutet|Tupí parrot name; interpretations include bright or white-billed parrot|Tupí-papegaaiennaam; onder meer uitgelegd als heldere papegaai of papegaai met witte snavel|?
-Ardea|Reiher|heron|reiger
-Ardenna|alter italienischer Name für einen Seevogel|old Italian name for a seabird|oude Italiaanse naam voor een zeevogel
-Ardeola|kleiner Reiher|small heron|kleine reiger
-Arenaria|zum Sand gehörig|of sand|van het zand
-Arundinax|Schilfherrscher|reed ruler|rietheerser
-Asio|alter Name einer Ohreule|ancient name for an eared owl|oude naam voor een ooruil
-Astur|Habicht|goshawk|havik
+Ardea|Reiher; aus lateinisch ardea|heron; from Latin ardea|reiger; uit Latijn ardea
+Ardenna|alter italienischer Name für einen Seevogel; über den von Aldrovandi verwendeten Namen Ardenna für die „Diomedeischen Vögel“|old Italian name for a seabird; via Aldrovandi’s name Ardenna for the “Diomedean birds”|oude Italiaanse naam voor een zeevogel; via Aldrovandi’s naam Ardenna voor de „Diomedeïsche vogels”
+Ardeola|kleiner Reiher; aus lateinisch ardeola; Verkleinerung von ardea = Reiher|small heron; from Latin ardeola; diminutive of ardea = heron|kleine reiger; uit Latijn ardeola; verkleinwoord van ardea = reiger
+Arenaria|zum Sand gehörig; aus lateinisch arenarius; zu lateinisch arena = Sand|of sand; from Latin arenarius; based on Latin arena = sand|van het zand; uit Latijn arenarius; bij Latijn arena = zand
+Arundinax|Schilfherrscher; aus lateinisch arundo = Schilf und griechisch anax = Herrscher|reed ruler; from Latin arundo = reed + Greek anax = ruler|rietheerser; uit Latijn arundo = riet en Grieks anax = heerser
+Asio|alter Name einer Ohreule; aus lateinisch asio|ancient name for an eared owl; from Latin asio|oude naam voor een ooruil; uit Latijn asio
+Astur|Habicht; aus lateinisch astur|goshawk; from Latin astur|havik; uit Latijn astur
 Athene|Athene, griechische Göttin mit der Eule als Begleittier|Athena, Greek goddess associated with the owl|Athene, Griekse godin die met de uil wordt verbonden
-Aythya|alter Name eines Wasservogels|ancient name for a waterbird|oude naam voor een watervogel
-Balearica|von den Balearen; historischer Ortsbezug|of the Balearic Islands; a historical place reference|van de Balearen; een historische plaatsverwijzing
+Aythya|alter Name eines Wasservogels; aus griechisch aithuia|ancient name for a waterbird; from Greek aithuia|oude naam voor een watervogel; uit Grieks aithuia
+Balearica|von den Balearen; nach lateinisch grui Balearicae, Plinius’ Bezeichnung für einen Kranich mit Kopfschmuck. Die damalige Artzuordnung ist unklar|of the Balearic Islands; from Latin grui Balearicae, Pliny’s name for a crane with a head tuft. The ancient species identification is unclear|van de Balearen; naar Latijn grui Balearicae, Plinius’ naam voor een kraanvogel met koptooi. De antieke soortaanduiding is onduidelijk
 Barnardius|Widmung an den Naturkundler Edward Barnard|honours naturalist Edward Barnard|genoemd naar natuuronderzoeker Edward Barnard
 Bartramia|Widmung an den Naturkundler William Bartram|honours naturalist William Bartram|genoemd naar natuuronderzoeker William Bartram
-Bolborhynchus|knolliger Schnabel|bulbous bill|knolvormige snavel
-Bombycilla|Seidenschwanz|silk tail|zijdestaart
-Botaurus|brüllender Stier; Anspielung auf den Ruf|bellowing bull; refers to the call|brullende stier; verwijst naar de roep
-Brachyramphus|kurzer Schnabel|short bill|korte snavel
-Branta|aus einem germanischen Namen für dunkle Gänse|from a Germanic name for dark geese|uit een Germaanse naam voor donkere ganzen
-Bubo|Uhu|eagle-owl|oehoe
-Bucanetes|Trompeter|trumpeter|trompetter
-Bucephala|Stierkopf|bull head|stierenkop
-Burhinus|große Nase, großer Schnabel|large nose or bill|grote neus of snavel
-Buteo|Bussard|buzzard|buizerd
-Butorides|einem Rohrdommelvogel ähnlich|resembling a bittern|lijkend op een roerdomp
-Cacatua|aus dem malaiischen Namen für Kakadus|from the Malay name for cockatoos|uit de Maleise naam voor kaketoes
-Cairina|aus Kairo; irrtümliche Herkunftsangabe|of Cairo; an erroneous origin|uit Caïro; een onjuiste herkomstaanduiding
-Calandrella|kleine Kalanderlerche|small calandra lark|kleine kalanderleeuwerik
-Calcarius|mit Sporen versehen|having spurs|met sporen
-Calidris|alter Name eines grauen Wasservogels|ancient name for a grey waterside bird|oude naam voor een grijze watervogel
+Bolborhynchus|knolliger Schnabel; aus griechisch bolbos = Knolle und rhunkhos = Schnabel|bulbous bill; from Greek bolbos = bulb + rhunkhos = bill|knolvormige snavel; uit Grieks bolbos = bol en rhunkhos = snavel
+Bombycilla|Seidenschwanz; aus griechisch bombux = Seide und neulateinisch cilla = Schwanz|silk tail; from Greek bombux = silk + Modern Latin cilla = tail|zijdestaart; uit Grieks bombux = zijde en Neolatijn cilla = staart
+Botaurus|Rohrdommel; aus mittellateinisch butaurus oder bootaurus. Der Ruf wurde mit dem Brüllen eines Stiers verglichen|bittern; from Medieval Latin butaurus or bootaurus. The call was compared with a bull’s bellow|roerdomp; uit middeleeuws Latijn butaurus of bootaurus. De roep werd vergeleken met het loeien van een stier
+Brachyramphus|kurzer Schnabel; aus griechisch brakhus = kurz und rhamphos = Schnabel|short bill; from Greek brakhus = short + rhamphos = bill|korte snavel; uit Grieks brakhus = kort en rhamphos = snavel
+Branta|aus einem germanischen Namen für dunkle Gänse; aus neulateinisch branta|from a Germanic name for dark geese; from Modern Latin branta|uit een Germaanse naam voor donkere ganzen; uit Neolatijn branta
+Bubo|Uhu; aus lateinisch bubo|eagle-owl; from Latin bubo|oehoe; uit Latijn bubo
+Bucanetes|Trompeter; aus griechisch bukanētēs|trumpeter; from Greek bukanētēs|trompetter; uit Grieks bukanētēs
+Bucephala|Stierkopf; aus griechisch bous = Rind, Stier und kephale = Kopf|bull head; from Greek bous = ox, bull + kephale = head|stierenkop; uit Grieks bous = rund, stier en kephale = kop
+Burhinus|große Nase, großer Schnabel; aus griechisch bous = Rind, Stier und rhis = Nase|large nose or bill; from Greek bous = ox, bull + rhis = nose|grote neus of snavel; uit Grieks bous = rund, stier en rhis = neus
+Buteo|Bussard; aus lateinisch buteo|buzzard; from Latin buteo|buizerd; uit Latijn buteo
+Butorides|einem Rohrdommelvogel ähnlich; vom früheren Gattungsnamen Butor = Rohrdommel und griechisch -oides = ähnlich|resembling a bittern; from the former genus name Butor = bittern and Greek -oides = resembling|lijkend op een roerdomp; van de vroegere geslachtsnaam Butor = roerdomp en Grieks -oides = gelijkend op
+Cacatua|aus dem malaiischen Namen für Kakadus; über malaiisch Kakatua, einen Kakadunamen|from the Malay name for cockatoos; via Malay Kakatua, a cockatoo name|uit de Maleise naam voor kaketoes; via Maleis Kakatua, een kaketoenaam
+Cairina|aus Kairo; irrtümliche Herkunftsangabe; italienisch Cairino = aus Kairo; der Name beruht auf einer falschen Herkunftsannahme|of Cairo; an erroneous origin; Italian Cairino = of Cairo; based on a mistaken origin|uit Caïro; een onjuiste herkomstaanduiding; Italiaans Cairino = uit Caïro; gebaseerd op een onjuiste herkomstaanname
+Calandrella|kleine Kalanderlerche; Verkleinerung von griechisch kalandros = Kalanderlerche|small calandra lark; diminutive of Greek kalandros = Calandra Lark|kleine kalanderleeuwerik; verkleinwoord van Grieks kalandros = kalanderleeuwerik
+Calcarius|mit Sporen versehen; aus lateinisch calcaria; zu lateinisch calcar = Sporn|having spurs; from Latin calcaria; based on Latin calcar = spur|met sporen; uit Latijn calcaria; bij Latijn calcar = spoor
+Calidris|alter Name eines grauen Wasservogels; aus griechisch kalidris oder skalidris|ancient name for a grey waterside bird; from Greek kalidris or skalidris|oude naam voor een grijze watervogel; uit Grieks kalidris of skalidris
 Calliope|Kalliope, Muse der griechischen Mythologie|Calliope, a Muse of Greek mythology|Calliope, een muze uit de Griekse mythologie
-Callipepla|schönes Gewand|beautiful robe|mooi gewaad
-Callonetta|schöne Ente|beautiful duck|mooie eend
-Calonectris|schöner Schwimmer|beautiful swimmer|mooie zwemmer
-Caprimulgus|Ziegenmelker; historischer Volksglaube|goat milker; an old folk belief|geitenmelker; een oud volksgeloof
-Caracara|übernommener Tupí-Name eines rufenden Greifvogels|borrowed Tupí name for a calling bird of prey|overgenomen Tupí-naam voor een roepende roofvogel
-Cardellina|kleiner Stieglitz|small goldfinch|kleine putter
-Cardinalis|Kardinal; Bezug auf die rote Kleidung|cardinal; refers to the red robes|kardinaal; verwijst naar de rode kleding
-Carduelis|Stieglitz; mit der Distel verbunden|goldfinch; associated with thistles|putter; verbonden met distels
-Carpodacus|Fruchtbeißer|fruit biter|vruchtenbijter
-Cathartes|Reiniger|cleanser|reiniger
-Catharus|rein, unbefleckt|clean, unmarked|rein, ongevlekt
-Cecropis|athenische Frau; Bezug auf den mythischen Kekrops|Athenian woman; refers to the mythical Cecrops|Atheense vrouw; verwijst naar de mythische Cecrops
-Cepphus|alter Name eines Seevogels|ancient name for a seabird|oude naam voor een zeevogel
-Cercotrichas|Schwanzdrossel|tail thrush|staartlijster
-Cereopsis|wachsartiges Gesicht|wax-like face|wasachtig gezicht
-Certhia|alter Name eines baumbewohnenden Vogels|ancient name for a tree-dwelling bird|oude naam voor een boombewonende vogel
+Callipepla|schönes Gewand; aus griechisch kallos = Schönheit und peplos = Gewand|beautiful robe; from Greek kallos = beauty + peplos = robe|mooi gewaad; uit Grieks kallos = schoonheid en peplos = gewaad
+Callonetta|schöne Ente; aus griechisch kallos = Schönheit und netta = Ente|beautiful duck; from Greek kallos = beauty + netta = duck|mooie eend; uit Grieks kallos = schoonheid en netta = eend
+Calonectris|schöner oder edler Schwimmer; griechisch kalos = schön, edel und der frühere Gattungsname Nectris für Sturmtaucher, zu nektris = Schwimmerin|beautiful or noble swimmer; Greek kalos = beautiful, noble and the former shearwater genus Nectris, related to nektris = female swimmer|mooie of edele zwemmer; Grieks kalos = mooi, edel en de vroegere pijlstormvogelnaam Nectris, bij nektris = zwemster
+Caprimulgus|Ziegenmelker; historischer Volksglaube; aus lateinisch capra = Ziege und mulgere = melken|goat milker; an old folk belief; from Latin capra = goat + mulgere = to milk|geitenmelker; een oud volksgeloof; uit Latijn capra = geit en mulgere = melken
+Caracara|übernommener Tupí-Name eines rufenden Greifvogels; Tupí Caracará = Schreier, lautnachahmender Greifvogelname|borrowed Tupí name for a calling bird of prey; Tupí Caracará = shrieker, an imitative raptor name|overgenomen Tupí-naam voor een roepende roofvogel; Tupí Caracará = schreeuwer, een klanknabootsende roofvogelnaam
+Cardellina|kleiner Stieglitz; Verkleinerung von italienisch Cardella = Stieglitz|small goldfinch; diminutive of Italian Cardella = goldfinch|kleine putter; verkleinwoord van Italiaans Cardella = putter
+Cardinalis|Kardinal; Bezug auf die rote Kleidung; mittellateinisch cardinalis = Kardinal, als Vergleich mit dessen scharlachroter Kleidung|cardinal; refers to the red robes; Medieval Latin cardinalis = cardinal, a comparison with his scarlet robes|kardinaal; verwijst naar de rode kleding; middeleeuws Latijn cardinalis = kardinaal, als vergelijking met diens scharlakenrode kleding
+Carduelis|Stieglitz; mit der Distel verbunden; lateinisch carduelis = Stieglitz, zu carduus = Distel|goldfinch; associated with thistles; Latin carduelis = goldfinch, related to carduus = thistle|putter; verbonden met distels; Latijn carduelis = putter, bij carduus = distel
+Carpodacus|Fruchtbeißer; aus griechisch karpos = Frucht und dakos = Beißer|fruit biter; from Greek karpos = fruit + dakos = biter|vruchtenbijter; uit Grieks karpos = vrucht en dakos = bijter
+Cathartes|Reiniger; aus griechisch kathartēs|cleanser; from Greek kathartēs|reiniger; uit Grieks kathartēs
+Catharus|rein, unbefleckt; aus griechisch katharos|clean, unmarked; from Greek katharos|rein, ongevlekt; uit Grieks katharos
+Cecropis|athenische Frau; Bezug auf den mythischen Kekrops; aus griechisch Kekropis|Athenian woman; refers to the mythical Cecrops; from Greek Kekropis|Atheense vrouw; verwijst naar de mythische Cecrops; uit Grieks Kekropis
+Cepphus|alter Name eines Seevogels; aus griechisch kepphos|ancient name for a seabird; from Greek kepphos|oude naam voor een zeevogel; uit Grieks kepphos
+Cercotrichas|Schwanzdrossel; aus griechisch kerkos = Schwanz und trikhas = Drossel|tail thrush; from Greek kerkos = tail + trikhas = thrush|staartlijster; uit Grieks kerkos = staart en trikhas = lijster
+Cereopsis|wachsartiges Gesicht; aus griechisch keros = Wachs und opsis = Gesicht, Aussehen|wax-like face; from Greek keros = wax + opsis = face, appearance|wasachtig gezicht; uit Grieks keros = was en opsis = gezicht, uiterlijk
+Certhia|alter Name eines baumbewohnenden Vogels; aus griechisch kerthios|ancient name for a tree-dwelling bird; from Greek kerthios|oude naam voor een boombewonende vogel; uit Grieks kerthios
 Cettia|Widmung an den Zoologen Francesco Cetti|honours zoologist Francesco Cetti|genoemd naar zoöloog Francesco Cetti
-Chaetura|Borstenschwanz|bristle tail|borstelstaart
-Charadrius|Vogel der Schluchten oder Flusstäler|bird of ravines or river valleys|vogel van kloven of rivierdalen
-Chenonetta|Gans-Ente|goose duck|gans-eend
-Chlidonias|schwalbenähnlich|swallow-like|zwaluwachtig
-Chloephaga|Grasfresser|grass eater|graseter
-Chloris|Grünfink|greenfinch|groenling
-Chondestes|Körnerfresser|grain eater|graaneter
+Chaetura|Borstenschwanz; aus griechisch khaite = Haar, Borste und oura = Schwanz|bristle tail; from Greek khaite = hair, bristle + oura = tail|borstelstaart; uit Grieks khaite = haar, borstel en oura = staart
+Charadrius|Vogel der Schluchten oder Flusstäler; aus spätlateinisch charadrius|bird of ravines or river valleys; from Late Latin charadrius|vogel van kloven of rivierdalen; uit Laatlatijn charadrius
+Chenonetta|Gans-Ente; aus griechisch chen = Gans und netta = Ente|goose duck; from Greek chen = goose + netta = duck|gans-eend; uit Grieks chen = gans en netta = eend
+Chlidonias|schwalbenähnlich; aus griechisch khelidonios|swallow-like; from Greek khelidonios|zwaluwachtig; uit Grieks khelidonios
+Chloephaga|Grasfresser; aus griechisch khloe = Gras und -phagos = fressend|grass eater; from Greek khloe = grass + -phagos = eating|graseter; uit Grieks khloe = gras en -phagos = etend
+Chloris|Grünfink; aus griechisch khloris|greenfinch; from Greek khloris|groenling; uit Grieks khloris
+Chondestes|Körnerfresser; aus griechisch khondros = grobes Korn und edestes = Esser|grain eater; from Greek khondros = coarse grain + edestes = eater|graaneter; uit Grieks khondros = grof graan en edestes = eter
 Chordeiles|vom Namensautor als Saite der Dämmerung erklärt; später auch anders gedeutet|explained by the naming author as a string of twilight; later interpretations differ|door de naamgever uitgelegd als snaar van de schemering; latere verklaringen verschillen|?
-Chroicocephalus|farbiger Kopf|coloured head|gekleurde kop
-Chrysolophus|Goldhaube|golden crest|gouden kuif
-Ciconia|Storch|stork|ooievaar
-Cinclus|alter Name eines kleinen Wasservogels|ancient name for a small waterside bird|oude naam voor een kleine watervogel
-Circaetus|Falkenadler|hawk eagle|havikarend
-Circus|kreisender Greifvogel|circling bird of prey|cirkelende roofvogel
-Cisticola|möglicherweise Zistrosenbewohner; auch als Bezug auf Korb oder Nest gedeutet|possibly rockrose dweller; also interpreted as referring to a basket or nest|mogelijk rotsroosbewoner; ook uitgelegd als verwijzing naar een mand of nest|?
-Clamator|Rufer, Schreier|shouter|roeper, schreeuwer
-Clanga|schreiender Adler|screaming eagle|schreeuwende arend
-Clangula|kleiner Rufer|small caller|kleine roeper
-Coccothraustes|Kernzerbrecher|kernel breaker|pittenbreker
-Coccyzus|Kuckucksrufer|cuckoo caller|koekoekroeper
-Colinus|aus einem indigenen mexikanischen Wachtelnamen|from an Indigenous Mexican quail name|uit een inheemse Mexicaanse kwartelnaam
-Coloeus|Dohle|jackdaw|kauw
-Columba|Taube|pigeon, dove|duif
-Copsychus|Amsel|blackbird|merel
-Coracias|alter Name eines Krähenvogels|ancient name for a crow-like bird|oude naam voor een kraaiachtige vogel
-Coragyps|Rabengeier|raven vulture|ravengier
-Corvus|Rabe, Krähe|raven, crow|raaf, kraai
-Coscoroba|übernommener südamerikanischer Schwanenname|borrowed South American swan name|overgenomen Zuid-Amerikaanse zwanennaam
-Coturnix|Wachtel|quail|kwartel
-Crex|alter, lautnachahmender Name eines Rallenvogels|ancient, imitative name for a rail-like bird|oude klanknabootsende naam voor een ralachtige vogel
-Crithagra|Gerstenfresser|barley eater|gersteter
-Crossoptilon|Fransenfeder|fringed feather|franjeveer
-Cuculus|Kuckuck|cuckoo|koekoek
-Curruca|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
-Cursorius|Läufer|runner|renner
-Cyanistes|bläulicher Vogel|bluish bird|blauwachtige vogel
-Cyanochen|blaue Gans|blue goose|blauwe gans
-Cyanocitta|blauer Häher|blue jay|blauwe gaai
-Cyanoliseus|mit Blau verbundener Name; genaue Herleitung des zweiten Bestandteils umstritten|a name referring to blue; exact derivation of the second component disputed|naam die naar blauw verwijst; precieze afleiding van het tweede deel omstreden|?
-Cyanoramphus|blauer Schnabel|blue bill|blauwe snavel
-Cygnus|Schwan|swan|zwaan
-Dacelo|Buchstabenumstellung von Alcedo, Eisvogel|anagram of Alcedo, kingfisher|anagram van Alcedo, ijsvogel
-Delichon|Buchstabenumstellung des griechischen Schwalbennamens|anagram of the Greek word for swallow|anagram van het Griekse woord voor zwaluw
-Dendrocopos Dendrocoptes|Baumhacker|tree cutter|boomhakker
-Dendrocygna|Baumschwan|tree swan|boomzwaan
-Diopsittaca|edler Papagei|noble parrot|edele papegaai
-Dolichonyx|lange Kralle|long claw|lange klauw
-Dromaius|Läufer|runner|renner
-Dryobates|Baumsteiger|tree walker|boomklimmer
-Dryocopus|Baumhacker|tree cutter|boomhakker
-Dumetella|kleiner Gebüschbewohner|small thicket dweller|kleine struikbewoner
-Eclectus|ausgewählt, erlesen|chosen, select|uitgekozen, uitgelezen
-Egretta|aus dem französischen Reihernamen|from the French name for an egret|uit de Franse naam voor een zilverreiger
-Elanus|Milan|kite|wouw
-Emberiza|aus einem alten deutschen Ammernamen|from an old German bunting name|uit een oude Duitse gorzennaam
-Empidonax|Mückenherrscher|gnat ruler|muggenheerser
-Entomyzon|Insektensauger|insect sucker|insectenzuiger
-Eolophus|Morgenrothaube|dawn crest|dageraadkuif
-Eophona|Morgenstimme|dawn voice|dageraadstem
-Eremophila|Einöden liebend|loving lonely open places|liefhebber van verlaten open vlakten
-Erithacus|alter Name eines kleinen, wohl rotbrüstigen Vogels|ancient name for a small, probably red-breasted bird|oude naam voor een kleine, vermoedelijk roodborstige vogel
-Erythrura|Rotschwanz|red tail|rode staart
+Chroicocephalus|farbiger Kopf; aus griechisch khroizo = färben und -kephalos = köpfig|coloured head; from Greek khroizo = to colour + -kephalos = headed|gekleurde kop; uit Grieks khroizo = kleuren en -kephalos = met een kop
+Chrysolophus|Goldhaube; aus griechisch khrusos = Gold und lophos = Haube|golden crest; from Greek khrusos = gold + lophos = crest|gouden kuif; uit Grieks khrusos = goud en lophos = kuif
+Ciconia|Storch; aus lateinisch ciconia|stork; from Latin ciconia|ooievaar; uit Latijn ciconia
+Cinclus|alter Name eines kleinen Wasservogels; aus griechisch kinklos|ancient name for a small waterside bird; from Greek kinklos|oude naam voor een kleine watervogel; uit Grieks kinklos
+Circaetus|Falkenadler; aus griechisch kirkos = Falke und aetos = Adler|hawk eagle; from Greek kirkos = hawk + aetos = eagle|havikarend; uit Grieks kirkos = valk en aetos = arend
+Circus|kreisender Greifvogel; aus griechisch kirkos|circling bird of prey; from Greek kirkos|cirkelende roofvogel; uit Grieks kirkos
+Cisticola|möglicherweise Zistrosenbewohner; auch als Bezug auf Korb oder Nest gedeutet; vorgeschlagen sind lateinisch cistus = Zistrose oder cista = Korb und -cola = Bewohner; die Benennungsabsicht ist nicht gesichert|possibly rockrose dweller; also interpreted as referring to a basket or nest; proposals include Latin cistus = rockrose or cista = basket and -cola = dweller; the intended derivation is unconfirmed|mogelijk rotsroosbewoner; ook uitgelegd als verwijzing naar een mand of nest; voorgesteld zijn Latijn cistus = rotsroos of cista = mand en -cola = bewoner; de bedoelde afleiding is onbevestigd|?
+Clamator|Rufer, Schreier; aus lateinisch clamator|shouter; from Latin clamator|roeper, schreeuwer; uit Latijn clamator
+Clanga|schreiender Adler; aus griechisch klangos|screaming eagle; from Greek klangos|schreeuwende arend; uit Grieks klangos
+Clangula|kleiner Rufer; Verkleinerungsbildung zu lateinisch clangere = erschallen|small caller; diminutive formation from Latin clangere = to resound|kleine roeper; verkleinvorm bij Latijn clangere = weerklinken
+Coccothraustes|Kernzerbrecher; aus griechisch kokkos = Kern, Samen und thrauo = zerbrechen|kernel breaker; from Greek kokkos = kernel, seed + thrauo = to break|pittenbreker; uit Grieks kokkos = pit, zaad en thrauo = breken
+Coccyzus|Kuckucksrufer; aus griechisch kokkuzo|cuckoo caller; from Greek kokkuzo|koekoekroeper; uit Grieks kokkuzo
+Colinus|aus einem indigenen mexikanischen Wachtelnamen; aus dem Nahuatl-Wachtelnamen Colin|from an Indigenous Mexican quail name; from the Nahuatl quail name Colin|uit een inheemse Mexicaanse kwartelnaam; uit de Nahuatl-kwartelnaam Colin
+Coloeus|Dohle; aus griechisch koloios|jackdaw; from Greek koloios|kauw; uit Grieks koloios
+Columba|Taube; aus lateinisch columba|pigeon, dove; from Latin columba|duif; uit Latijn columba
+Copsychus|Amsel; aus griechisch kopsukhos|blackbird; from Greek kopsukhos|merel; uit Grieks kopsukhos
+Coracias|alter Name eines Krähenvogels; aus griechisch korakias|ancient name for a crow-like bird; from Greek korakias|oude naam voor een kraaiachtige vogel; uit Grieks korakias
+Coragyps|Rabengeier; aus griechisch korax = Rabe und gups = Geier|raven vulture; from Greek korax = raven + gups = vulture|ravengier; uit Grieks korax = raaf en gups = gier
+Corvus|Rabe, Krähe; aus lateinisch corvus|raven, crow; from Latin corvus|raaf, kraai; uit Latijn corvus
+Coscoroba|übernommener südamerikanischer Schwanenname; Coscoroba ist ein in Chile überlieferter Name dieses Schwans|borrowed South American swan name; Coscoroba is a name recorded in Chile for this swan|overgenomen Zuid-Amerikaanse zwanennaam; Coscoroba is een in Chili overgeleverde naam voor deze zwaan
+Coturnix|Wachtel; aus lateinisch coturnix|quail; from Latin coturnix|kwartel; uit Latijn coturnix
+Crex|alter, lautnachahmender Name eines Rallenvogels; aus griechisch krex|ancient, imitative name for a rail-like bird; from Greek krex|oude klanknabootsende naam voor een ralachtige vogel; uit Grieks krex
+Crithagra|Gerstenfresser; aus griechisch krithe = Gerste und agra = Jagd|barley eater; from Greek krithe = barley + agra = hunting|gersteter; uit Grieks krithe = gerst en agra = jacht
+Crossoptilon|Fransenfeder; aus griechisch krossoi = Fransen und ptilon = Feder|fringed feather; from Greek krossoi = fringes + ptilon = feather|franjeveer; uit Grieks krossoi = franjes en ptilon = veer
+Cuculus|Kuckuck; aus lateinisch cuculus|cuckoo; from Latin cuculus|koekoek; uit Latijn cuculus
+Curruca|alter Name eines kleinen Vogels; aus lateinisch curruca|ancient name for a small bird; from Latin curruca|oude naam voor een kleine vogel; uit Latijn curruca
+Cursorius|Läufer; aus lateinisch cursorius|runner; from Latin cursorius|renner; uit Latijn cursorius
+Cyanistes|bläulicher Vogel; aus griechisch kuanos|bluish bird; from Greek kuanos|blauwachtige vogel; uit Grieks kuanos
+Cyanochen|blaue Gans; aus griechisch kuanos = dunkelblau und chen = Gans|blue goose; from Greek kuanos = dark blue + chen = goose|blauwe gans; uit Grieks kuanos = donkerblauw en chen = gans
+Cyanocitta|blauer Häher; aus griechisch kuanos = dunkelblau und kitta = Häher|blue jay; from Greek kuanos = dark blue + kitta = jay|blauwe gaai; uit Grieks kuanos = donkerblauw en kitta = gaai
+Cyanoliseus|mit Blau verbundener Name; genaue Herleitung des zweiten Bestandteils umstritten; griechisch kuanos = dunkelblau ist erkennbar; für den zweiten Teil gibt es verschiedene Erklärungen|a name referring to blue; exact derivation of the second component disputed; Greek kuanos = dark blue is identifiable; explanations of the second part differ|naam die naar blauw verwijst; precieze afleiding van het tweede deel omstreden; Grieks kuanos = donkerblauw is herkenbaar; verklaringen van het tweede deel verschillen|?
+Cyanoramphus|blauer Schnabel; aus griechisch kuanos = dunkelblau und rhamphos = Schnabel|blue bill; from Greek kuanos = dark blue + rhamphos = bill|blauwe snavel; uit Grieks kuanos = donkerblauw en rhamphos = snavel
+Cygnus|Schwan; aus lateinisch cygnus|swan; from Latin cygnus|zwaan; uit Latijn cygnus
+Dacelo|Buchstabenumstellung von Alcedo, Eisvogel; Alcedo ist das lateinische Wort für Eisvogel|anagram of Alcedo, kingfisher; Alcedo is the Latin word for kingfisher|anagram van Alcedo, ijsvogel; Alcedo is het Latijnse woord voor ijsvogel
+Delichon|Buchstabenumstellung des griechischen Schwalbennamens; umgestellt aus Chelidon, einem früheren Gattungsnamen; griechisch khelidon = Schwalbe|anagram of the Greek word for swallow; rearranged from Chelidon, a former genus name; Greek khelidon = swallow|anagram van het Griekse woord voor zwaluw; omgevormd uit Chelidon, een vroegere geslachtsnaam; Grieks khelidon = zwaluw
+Dendrocopos|Baumhacker; aus griechisch dendron = Baum und kopos = Schlag, Hieb|tree cutter; from Greek dendron = tree + kopos = striking|boomhakker; uit Grieks dendron = boom en kopos = slag, hakken
+Dendrocoptes|Baumhacker; aus griechisch dendron = Baum und kopto = schlagen, hacken|tree cutter; from Greek dendron = tree + kopto = to strike, to cut|boomhakker; uit Grieks dendron = boom en kopto = slaan, hakken
+Dendrocygna|Baumschwan; verbindet griechisch dendron = Baum mit Cygnus, dem Gattungsnamen der Schwäne (lateinisch cygnus = Schwan)|tree swan; combines Greek dendron = tree with Cygnus, the swan genus (Latin cygnus = swan)|boomzwaan; verbindt Grieks dendron = boom met Cygnus, de zwanengeslachtsnaam (Latijn cygnus = zwaan)
+Diopsittaca|edler Papagei; griechisch dios = edel, göttlich und psittake = Papagei|noble parrot; Greek dios = noble, divine and psittake = parrot|edele papegaai; Grieks dios = edel, goddelijk en psittake = papegaai
+Dolichonyx|lange Kralle; aus griechisch dolikhos = lang und onux = Kralle|long claw; from Greek dolikhos = long + onux = claw|lange klauw; uit Grieks dolikhos = lang en onux = klauw
+Dromaius|Läufer; aus griechisch dromaios|runner; from Greek dromaios|renner; uit Grieks dromaios
+Dryobates|Baumsteiger; aus griechisch druos = Wald und bates = Schreiter|tree walker; from Greek druos = woodland + bates = walker|boomklimmer; uit Grieks druos = bos en bates = loper
+Dryocopus|Baumhacker; aus griechisch drus = Baum und kopos = Schlag, Hieb|tree cutter; from Greek drus = tree + kopos = striking|boomhakker; uit Grieks drus = boom en kopos = slag, hakken
+Dumetella|kleiner Gebüschbewohner; zu lateinisch dumetum = Gebüsch|small thicket dweller; based on Latin dumetum = thicket|kleine struikbewoner; bij Latijn dumetum = struikgewas
+Eclectus|ausgewählt, erlesen; aus griechisch eklektos|chosen, select; from Greek eklektos|uitgekozen, uitgelezen; uit Grieks eklektos
+Egretta|aus dem französischen Reihernamen; französisch aigrette = kleiner Reiher, Verkleinerung von provenzalisch aigron = Reiher|from the French name for an egret; French aigrette = little heron, a diminutive of Provençal aigron = heron|uit de Franse naam voor een zilverreiger; Frans aigrette = kleine reiger, verkleinwoord van Provençaals aigron = reiger
+Elanus|Milan; aus griechisch elanos|kite; from Greek elanos|wouw; uit Grieks elanos
+Emberiza|aus einem alten deutschen Ammernamen; aus dem alten deutschen Ammernamen Embritz|from an old German bunting name; from the old German bunting name Embritz|uit een oude Duitse gorzennaam; uit de oude Duitse gorzennaam Embritz
+Empidonax|Mückenherrscher; aus griechisch empis = Mücke und anax = Herrscher|gnat ruler; from Greek empis = gnat + anax = ruler|muggenheerser; uit Grieks empis = mug en anax = heerser
+Entomyzon|Insektensauger; aus griechisch entoma = Insekten und muzao = saugen|insect sucker; from Greek entoma = insects + muzao = to suck|insectenzuiger; uit Grieks entoma = insecten en muzao = zuigen
+Eolophus|Morgenrothaube; aus griechisch eos = Morgenröte und lophos = Haube|dawn crest; from Greek eos = dawn + lophos = crest|dageraadkuif; uit Grieks eos = dageraad en lophos = kuif
+Eophona|Morgenstimme; aus griechisch eos = Morgenröte und phone = Stimme, Laut|dawn voice; from Greek eos = dawn + phone = voice, sound|dageraadstem; uit Grieks eos = dageraad en phone = stem, geluid
+Eremophila|Einöden liebend; aus griechisch eremos = Einöde, Wüste und phileo = lieben|loving lonely open places; from Greek eremos = wilderness, desert + phileo = to love|liefhebber van verlaten open vlakten; uit Grieks eremos = woestenij, woestijn en phileo = liefhebben
+Erithacus|über lateinisch erithacus aus griechisch erithakos, einem antiken Namen für einen kleinen Vogel, meist als Rotkehlchen gedeutet. Die tiefere Wortherkunft ist nicht sicher geklärt|via Latin erithacus from Greek erithakos, an ancient name for a small bird, usually identified with the robin. The deeper word origin is unresolved|via Latijn erithacus uit Grieks erithakos, een antieke naam voor een kleine vogel, meestal als roodborst geduid. De verdere woordherkomst is onopgehelderd|?
+Erythrura|Rotschwanz; aus griechisch eruthros = rot und oura = Schwanz|red tail; from Greek eruthros = red + oura = tail|rode staart; uit Grieks eruthros = rood en oura = staart
 Estrilda|vom Namen astrild; genaue Herkunft umstritten|from astrild; exact origin disputed|van astrild; precieze oorsprong omstreden|?
-Eudocimus|angesehen, geschätzt|esteemed, valued|geacht, gewaardeerd
-Eudromias|guter Läufer|good runner|goede renner
-Eumyias|guter Fliegenfänger|good flycatcher|goede vliegenvanger
-Euplectes|guter Weber|good weaver|goede wever
-Falco|Falke; mit der Sichel verbunden|falcon; associated with a sickle|valk; verbonden met een sikkel
-Ficedula|Feigenfresser; alter Vogelname|fig eater; an ancient bird name|vijgeneter; een oude vogelnaam
-Forpus|Herkunft des gebildeten Namens nicht sicher geklärt|origin of the coined name is uncertain|oorsprong van de gevormde naam onzeker|?
-Francolinus|aus dem italienischen Frankolinnamen|from the Italian francolin name|uit de Italiaanse frankolijnennaam
-Fratercula|kleiner Bruder, kleiner Mönch|little brother, little friar|kleine broeder, kleine monnik
-Fringilla|Fink|finch|vink
-Fulica|Blässhuhn|coot|meerkoet
-Fulmarus|stinkende Möwe, aus dem Altnordischen|foul gull, from Old Norse|stinkende meeuw, uit het Oudnoords
-Galerida|Haubenlerche|crested lark|kuifleeuwerik
-Gallinago|schnepfenartiger Vogel; zu gallina, Henne|snipe-like bird; from gallina, hen|snipachtige vogel; van gallina, hen
-Gallinula|kleine Henne|little hen|kleine hen
-Gallus|Hahn|cock|haan
-Garrulus|geschwätzig|chattering|babbelend
-Gavia|alter Name eines Seevogels|ancient name for a seabird|oude naam voor een zeevogel
-Gelochelidon|lachende Schwalbe|laughing swallow|lachende zwaluw
-Geokichla|Erddrossel|ground thrush|grondlijster
-Geopelia|Erdtaube|ground dove|grondduif
-Geothlypis|Erdvogel; Verbindung eines alten Vogelnamens mit Erde|ground bird; an ancient bird name combined with earth|grondvogel; een oude vogelnaam verbonden met aarde
-Geronticus|greisenhaft, alter Mann|old man, elderly|oude man, bejaard
-Glareola|Kiesbewohner|gravel dweller|grindbewoner
-Glaucidium|kleine Eule|small owl|kleine uil
-Gracula|kleiner Krähenvogel|small crow-like bird|kleine kraaiachtige vogel
-Gracupica|Krähen-Elster|crow magpie|kraai-ekster
-Grus|Kranich|crane|kraanvogel
-Gulosus|gefräßig|gluttonous|vraatzuchtig
-Gypaetus|Geieradler|vulture eagle|gierarend
-Gyps|Geier|vulture|gier
-Haematopus|Blutfuß|blood foot|bloedvoet
-Haemorhous|blutroter Bürzel|blood-red rump|bloedrode stuit
-Haliaeetus|Seeadler|sea eagle|zeearend
-Helopsaltes|Sumpfmusiker|marsh musician|moerasmuzikant
-Heteronetta|andersartige Ente|different duck|andersoortige eend
-Hieraaetus|Habichtsadler|hawk eagle|havikarend
-Himantopus|Riemenfuß|strap foot|riemvoet
-Hippolais|alter Name eines kleinen Vogels; genaue Deutung unsicher|ancient name for a small bird; precise interpretation uncertain|oude naam voor een kleine vogel; precieze duiding onzeker|?
-Hirundapus|Schwalben-Segler|swallow swift|zwaluw-gierzwaluw
-Hirundo|Schwalbe|swallow|zwaluw
-Histrionicus|Schauspieler|actor|toneelspeler
-Hydrobates|Wasserläufer|water walker|waterloper
-Hydrocoloeus|Wasserdohle|water jackdaw|waterkauw
-Hydroprogne|Wasserschwalbe|water swallow|waterzwaluw
-Hylocichla|Walddrossel|wood thrush|boslijster
-Ichthyaetus|Fischadler, als wörtliche Namensbedeutung|fish eagle, as the literal name meaning|arend die vis eet, als letterlijke naambetekenis
-Icterus|alter Name eines gelben Vogels|ancient name for a yellow bird|oude naam voor een gele vogel
+Eudocimus|angesehen, geschätzt; aus griechisch eu = gut, schön und dokimos = angesehen, geschätzt|esteemed, valued; from Greek eu = good, fine + dokimos = esteemed, valued|geacht, gewaardeerd; uit Grieks eu = goed, mooi en dokimos = geacht, gewaardeerd
+Eudromias|guter Läufer; aus griechisch eudromia|good runner; from Greek eudromia|goede renner; uit Grieks eudromia
+Eumyias|guter Fliegenfänger; aus griechisch eu = gut, schön und muia = Fliege|good flycatcher; from Greek eu = good, fine + muia = fly|goede vliegenvanger; uit Grieks eu = goed, mooi en muia = vlieg
+Euplectes|guter Weber; aus griechisch eu = gut, schön und plektos = geflochten|good weaver; from Greek eu = good, fine + plektos = plaited|goede wever; uit Grieks eu = goed, mooi en plektos = gevlochten
+Falco|Falke; mit der Sichel verbunden; aus spätlateinisch falco; zu lateinisch falx = Sichel|falcon; associated with a sickle; from Late Latin falco; based on Latin falx = sickle|valk; verbonden met een sikkel; uit Laatlatijn falco; bij Latijn falx = sikkel
+Ficedula|Feigenfresser; alter Vogelname; aus lateinisch ficedula|fig eater; an ancient bird name; from Latin ficedula|vijgeneter; een oude vogelnaam; uit Latijn ficedula
+Forpus|Herkunft nicht geklärt; ohne Erklärung eingeführter Gattungsname. Vorgeschlagene griechische Herleitungen und Buchstabenumstellungen sind nicht gesichert|origin unresolved; a genus name introduced without an explanation. Proposed Greek derivations and anagrams are unconfirmed|oorsprong onopgehelderd; geslachtsnaam zonder toelichting ingevoerd. Voorgestelde Griekse afleidingen en anagrammen zijn onbevestigd|?
+Francolinus|aus dem italienischen Frankolinnamen; über französisch francolin aus italienisch francolino, einem Frankolinnamen|from the Italian francolin name; via French francolin from Italian francolino, a francolin name|uit de Italiaanse frankolijnennaam; via Frans francolin uit Italiaans francolino, een frankolijnennaam
+Fratercula|kleiner Bruder, kleiner Mönch; aus mittellateinisch fraterculus; Verkleinerung von lateinisch frater = Bruder; mittellateinisch fraterculus = Mönch|little brother, little friar; from Medieval Latin fraterculus; diminutive of Latin frater = brother; Medieval Latin fraterculus = friar|kleine broeder, kleine monnik; uit middeleeuws Latijn fraterculus; verkleinwoord van Latijn frater = broeder; middeleeuws Latijn fraterculus = monnik
+Fringilla|Fink; aus lateinisch fringilla|finch; from Latin fringilla|vink; uit Latijn fringilla
+Fulica|Blässhuhn; aus lateinisch fulica|coot; from Latin fulica|meerkoet; uit Latijn fulica
+Fulmarus|stinkende Möwe, aus dem Altnordischen; altnordisch fulmar, zu ful- = stinkend und mar = Möwe; Bezug auf das übel riechende Magenöl|foul gull, from Old Norse; Old Norse fulmar, from ful- = foul and mar = gull; refers to the foul-smelling stomach oil|stinkende meeuw, uit het Oudnoords; Oudnoords fulmar, uit ful- = stinkend en mar = meeuw; verwijst naar de stinkende maagolie
+Galerida|Haubenlerche; aus lateinisch galerita; zu lateinisch galerum = Kappe|crested lark; from Latin galerita; based on Latin galerum = cap|kuifleeuwerik; uit Latijn galerita; bij Latijn galerum = kap
+Gallinago|schnepfenartiger Vogel; zu gallina, Henne; zu lateinisch gallina = Henne|snipe-like bird; from gallina, hen; based on Latin gallina = hen|snipachtige vogel; van gallina, hen; bij Latijn gallina = hen
+Gallinula|kleine Henne; aus lateinisch gallinula; zu lateinisch gallina = Henne|little hen; from Latin gallinula; based on Latin gallina = hen|kleine hen; uit Latijn gallinula; bij Latijn gallina = hen
+Gallus|Hahn; aus lateinisch gallus|cock; from Latin gallus|haan; uit Latijn gallus
+Garrulus|geschwätzig; aus lateinisch garrulus|chattering; from Latin garrulus|babbelend; uit Latijn garrulus
+Gavia|alter Name eines Seevogels; aus lateinisch gavia|ancient name for a seabird; from Latin gavia|oude naam voor een zeevogel; uit Latijn gavia
+Gelochelidon|lachende Schwalbe; aus griechisch gelao = lachen und khelidon = Schwalbe|laughing swallow; from Greek gelao = to laugh + khelidon = swallow|lachende zwaluw; uit Grieks gelao = lachen en khelidon = zwaluw
+Geokichla|Erddrossel; aus griechisch geo- = Erde, Boden und kikhle = Drossel|ground thrush; from Greek geo- = earth, ground + kikhle = thrush|grondlijster; uit Grieks geo- = aarde, grond en kikhle = lijster
+Geopelia|Erdtaube; aus griechisch geo- = Erde, Boden und peleia = Taube|ground dove; from Greek geo- = earth, ground + peleia = dove|grondduif; uit Grieks geo- = aarde, grond en peleia = duif
+Geothlypis|Erdvogel; Verbindung eines alten Vogelnamens mit Erde; aus griechisch geo- = Erde, Boden und thlupis = nicht sicher bestimmter kleiner Vogel|ground bird; an ancient bird name combined with earth; from Greek geo- = earth, ground + thlupis = unidentified small bird|grondvogel; een oude vogelnaam verbonden met aarde; uit Grieks geo- = aarde, grond en thlupis = niet zeker geïdentificeerd vogeltje
+Geronticus|greisenhaft, alter Mann; aus griechisch gerōn|old man, elderly; from Greek gerōn|oude man, bejaard; uit Grieks gerōn
+Glareola|Kiesbewohner; zu lateinisch glarea = Kies|gravel dweller; based on Latin glarea = gravel|grindbewoner; bij Latijn glarea = grind
+Glaucidium|kleine Eule; aus griechisch glaukidion; Verkleinerung von griechisch glaux = Eule|small owl; from Greek glaukidion; diminutive of Greek glaux = owl|kleine uil; uit Grieks glaukidion; verkleinwoord van Grieks glaux = uil
+Gracula|kleiner Krähenvogel; Verkleinerung zu lateinisch graculus, einem antiken Vogelnamen, später als Dohle gedeutet|small crow-like bird; diminutive related to Latin graculus, an ancient bird name later identified with the jackdaw|kleine kraaiachtige vogel; verkleinvorm bij Latijn graculus, een antieke vogelnaam, later als kauw geduid
+Gracupica|Krähen-Elster; aus lateinisch graculus = Dohle und pica = Elster|crow magpie; from Latin graculus = jackdaw + pica = magpie|kraai-ekster; uit Latijn graculus = kauw en pica = ekster
+Grus|Kranich; aus lateinisch grus|crane; from Latin grus|kraanvogel; uit Latijn grus
+Gulosus|gefräßig; aus lateinisch gulosus|gluttonous; from Latin gulosus|vraatzuchtig; uit Latijn gulosus
+Gypaetus|Geieradler; aus griechisch gups = Geier und aetos = Adler|vulture eagle; from Greek gups = vulture + aetos = eagle|gierarend; uit Grieks gups = gier en aetos = arend
+Gyps|Geier; aus griechisch gups|vulture; from Greek gups|gier; uit Grieks gups
+Haematopus|Blutfuß; aus griechisch haima = Blut und pous = Fuß|blood foot; from Greek haima = blood + pous = foot|bloedvoet; uit Grieks haima = bloed en pous = voet
+Haemorhous|blutroter Bürzel; aus griechisch haima = Blut und orrhos = Bürzel|blood-red rump; from Greek haima = blood + orrhos = rump|bloedrode stuit; uit Grieks haima = bloed en orrhos = stuit
+Haliaeetus|Seeadler; aus griechisch hali- = Meer und aetos = Adler|sea eagle; from Greek hali- = sea + aetos = eagle|zeearend; uit Grieks hali- = zee en aetos = arend
+Helopsaltes|Sumpfmusiker; aus griechisch helos = Sumpf und psaltes = Musiker, der ein Saiteninstrument spielt|marsh musician; from Greek helos = marsh and psaltes = musician playing a string instrument|moerasmuzikant; uit Grieks helos = moeras en psaltes = muzikant die een snaarinstrument bespeelt
+Heteronetta|andersartige Ente; aus griechisch heteros = anders und netta = Ente|different duck; from Greek heteros = different + netta = duck|andersoortige eend; uit Grieks heteros = anders en netta = eend
+Hieraaetus|Habichtsadler; aus griechisch hierax = Habicht, Falke und aetos = Adler|hawk eagle; from Greek hierax = hawk + aetos = eagle|havikarend; uit Grieks hierax = havik, valk en aetos = arend
+Himantopus|Riemenfuß; aus griechisch himas = Riemen und pous = Fuß|strap foot; from Greek himas = strap + pous = foot|riemvoet; uit Grieks himas = riem en pous = voet
+Hippolais|alter Name eines kleinen Vogels; genaue Deutung unsicher; über den früheren Artnamen hippolais aus griechisch hupolais, einem nicht sicher identifizierten bodenbrütenden Vogel; keine gesicherte weitere Zerlegung|ancient name for a small bird; precise interpretation uncertain; via the earlier species name hippolais from Greek hupolais, an unidentified ground-nesting bird; no secure further breakdown|oude naam voor een kleine vogel; precieze duiding onzeker; via de vroegere soortnaam hippolais uit Grieks hupolais, een niet zeker geïdentificeerde grondbroeder; geen zekere verdere ontleding|?
+Hirundapus|Schwalben-Segler; verbindet die Gattungsnamen Hirundo = Schwalbe und Apus = Segler; lateinisch hirundo = Schwalbe und griechisch apous = fußlos|swallow swift; combines the genera Hirundo = swallow and Apus = swift; Latin hirundo = swallow and Greek apous = footless|zwaluw-gierzwaluw; verbindt de geslachtsnamen Hirundo = zwaluw en Apus = gierzwaluw; Latijn hirundo = zwaluw en Grieks apous = voetloos
+Hirundo|Schwalbe; aus lateinisch hirundo|swallow; from Latin hirundo|zwaluw; uit Latijn hirundo
+Histrionicus|Schauspieler; lateinisch histrionicus = schauspielerartig, zu histrio = Schauspieler; Vergleich mit einem bunten Kostüm|actor; Latin histrionicus = like an actor, from histrio = actor; a comparison with a colourful costume|toneelspeler; Latijn histrionicus = als een toneelspeler, bij histrio = acteur; vergelijking met een bont kostuum
+Hydrobates|Wasserläufer; aus griechisch hudro- = Wasser und bates = Schreiter|water walker; from Greek hudro- = water + bates = walker|waterloper; uit Grieks hudro- = water en bates = loper
+Hydrocoloeus|Wasservogel; aus griechisch hudro- = Wasser und koloios, einem Vogelnamen, der meist Dohle, hier aber wohl einen Schwimmvogel bezeichnet. Die Zusammensetzung wird oft als „Wasserdohle“ wiedergegeben|water bird; Greek hudro- = water and koloios, a bird name usually meaning jackdaw but probably a swimming bird here. The compound is often rendered “water jackdaw”|watervogel; Grieks hudro- = water en koloios, een vogelnaam die meestal kauw betekent, maar hier waarschijnlijk een zwemvogel. Vaak weergegeven als „waterkauw”
+Hydroprogne|Wasserschwalbe; aus griechisch hudro- = Wasser und lateinisch progne = Schwalbe|water swallow; from Greek hudro- = water + Latin progne = swallow|waterzwaluw; uit Grieks hudro- = water en Latijn progne = zwaluw
+Hylocichla|Walddrossel; aus griechisch hule = Wald und kikhle = Drossel|wood thrush; from Greek hule = forest + kikhle = thrush|boslijster; uit Grieks hule = bos en kikhle = lijster
+Ichthyaetus|Fischadler, als wörtliche Namensbedeutung; aus griechisch ikhthus = Fisch und aetos = Adler|fish eagle, as the literal name meaning; from Greek ikhthus = fish + aetos = eagle|arend die vis eet, als letterlijke naambetekenis; uit Grieks ikhthus = vis en aetos = arend
+Icterus|alter Name eines gelben Vogels; aus griechisch ikteros|ancient name for a yellow bird; from Greek ikteros|oude naam voor een gele vogel; uit Grieks ikteros
 Iduna|gebildeter Name ohne sicher geklärte Herleitung|coined name without a certain derivation|gevormde naam zonder zekere afleiding|?
 Irania|Iran, Persien|Iran, Persia|Iran, Perzië
-Ixoreus|mit der Mistel verbunden|associated with mistletoe|verbonden met maretak
-Junco|Binse|rush|rus
-Jynx|Wendehals|wryneck|draaihals
-Lagopus|Hasenfuß|hare foot|hazenvoet
-Lamprotornis|glänzender Vogel|shining bird|glanzende vogel
-Lanius|Fleischer|butcher|slager
-Larosterna|Möwen-Seeschwalbe|gull tern|meeuw-stern
-Larus|Möwe, Seevogel|gull, seabird|meeuw, zeevogel
-Larvivora|Larvenfresser|larva eater|larveneter
+Ixoreus|mit der Mistel verbunden; aus griechisch ixos; verbindet griechisch ixos = Mistel mit Orpheus, einem früheren Gattungsnamen für Spottdrosseln; beruhte auf einer irrtümlich angenommenen Verwandtschaft|associated with mistletoe; from Greek ixos; combines Greek ixos = mistletoe with Orpheus, a former mockingbird genus; based on an incorrectly inferred relationship|verbonden met maretak; uit Grieks ixos; verbindt Grieks ixos = maretak met Orpheus, een vroegere spotlijstergeslachtsnaam; gebaseerd op een onjuist veronderstelde verwantschap
+Junco|Binse; aus mittellateinisch junco; zu lateinisch iuncus = Binse|rush; from Medieval Latin junco; based on Latin iuncus = rush|rus; uit middeleeuws Latijn junco; bij Latijn iuncus = rus
+Jynx|Wendehals; aus griechisch iunx|wryneck; from Greek iunx|draaihals; uit Grieks iunx
+Lagopus|Hasenfuß; aus griechisch lagos = Hase und pous = Fuß|hare foot; from Greek lagos = hare + pous = foot|hazenvoet; uit Grieks lagos = haas en pous = voet
+Lamprotornis|glänzender Vogel; aus griechisch lamprotes = Glanz und ornis = Vogel|shining bird; from Greek lamprotes = splendour + ornis = bird|glanzende vogel; uit Grieks lamprotes = glans en ornis = vogel
+Lanius|Fleischer; aus lateinisch lanius|butcher; from Latin lanius|slager; uit Latijn lanius
+Larosterna|Möwen-Seeschwalbe; Verbindung der Gattungsnamen Larus = Möwe und Sterna = Seeschwalbe|gull tern; a combination of the genera Larus = gull and Sterna = tern|meeuw-stern; verbinding van de geslachtsnamen Larus = meeuw en Sterna = stern
+Larus|Möwe, Seevogel; aus lateinisch larus|gull, seabird; from Latin larus|meeuw, zeevogel; uit Latijn larus
+Larvivora|Larvenfresser; aus neulateinisch larva = Larve, Raupe und lateinisch -vorus = fressend|larva eater; from Modern Latin larva = larva, caterpillar + Latin -vorus = eating|larveneter; uit Neolatijn larva = larve, rups en Latijn -vorus = etend
 Lathamus|Widmung an den Ornithologen John Latham|honours ornithologist John Latham|genoemd naar ornitholoog John Latham
-Leiothlypis|schlichter kleiner Vogel|plain small bird|eenvoudige kleine vogel
-Leiothrix|Glatthaar|smooth hair|glad haar
-Leptoptilos|dünne Feder|slender feather|dunne veer
-Leucophaeus|weißlich grau|whitish grey|witachtig grijs
-Limnodromus|Sumpfläufer|marsh runner|moerasrenner
-Limosa|schlammig, zum Schlamm gehörig|muddy, of mud|modderig, van de modder
-Linaria|mit Flachs verbunden|associated with flax|verbonden met vlas
-Locustella|kleine Heuschrecke|little grasshopper|kleine sprinkhaan
-Lonchura|Lanzenschwanz|spear tail|lansstaart
-Lophodytes|mit Haube; zweiter Bestandteil meist als Taucher gedeutet, Herleitung umstritten|with a crest; second component usually interpreted as diver, derivation disputed|met een kuif; tweede deel meestal uitgelegd als duiker, afleiding omstreden|?
-Lophophanes|mit sichtbarer Haube|showing a crest|met zichtbare kuif
-Lophura|Haubenschwanz|crested tail|kuifstaart
-Loxia|krumm, schräg; Bezug auf den Schnabel|crooked, slanting; refers to the bill|krom, schuin; verwijst naar de snavel
+Leiothlypis|schlichter kleiner Vogel; aus griechisch leios = glatt, schlicht und thlupis = nicht sicher bestimmter kleiner Vogel|plain small bird; from Greek leios = smooth, plain + thlupis = unidentified small bird|eenvoudige kleine vogel; uit Grieks leios = glad, eenvoudig en thlupis = niet zeker geïdentificeerd vogeltje
+Leiothrix|Glatthaar; aus griechisch leios = glatt, schlicht und thrix = Haar|smooth hair; from Greek leios = smooth, plain + thrix = hair|glad haar; uit Grieks leios = glad, eenvoudig en thrix = haar
+Leptoptilos|dünne Feder; aus griechisch leptos = dünn, zart und ptilon = Feder|slender feather; from Greek leptos = slender, delicate + ptilon = feather|dunne veer; uit Grieks leptos = dun, fijn en ptilon = veer
+Leucophaeus|weißlich grau; aus griechisch leukos = weiß und phaios = dunkel, graubraun|whitish grey; from Greek leukos = white + phaios = dusky, grey-brown|witachtig grijs; uit Grieks leukos = wit en phaios = donker, grijsbruin
+Limnodromus|Sumpfläufer; aus griechisch limne = Sumpf, See und -dromos = Läufer|marsh runner; from Greek limne = marsh, lake + -dromos = runner|moerasrenner; uit Grieks limne = moeras, meer en -dromos = renner
+Limosa|schlammig, zum Schlamm gehörig; zu lateinisch limus = Schlamm|muddy, of mud; based on Latin limus = mud|modderig, van de modder; bij Latijn limus = modder
+Linaria|mit Flachs verbunden; zu lateinisch linum = Flachs|associated with flax; based on Latin linum = flax|verbonden met vlas; bij Latijn linum = vlas
+Locustella|kleine Heuschrecke; zu lateinisch locusta = Heuschrecke|little grasshopper; based on Latin locusta = grasshopper|kleine sprinkhaan; bij Latijn locusta = sprinkhaan
+Lonchura|Lanzenschwanz; aus griechisch lonkhe = Lanze und oura = Schwanz|spear tail; from Greek lonkhe = spear + oura = tail|lansstaart; uit Grieks lonkhe = lans en oura = staart
+Lophodytes|mit Haube; zweiter Bestandteil meist als Taucher gedeutet, Herleitung umstritten; griechisch lophos = Haube; -dytes wird mit dytes = Taucher verbunden, die genaue Bildung ist umstritten|with a crest; second component usually interpreted as diver, derivation disputed; Greek lophos = crest; -dytes is linked to dytes = diver, but the exact formation is disputed|met een kuif; tweede deel meestal uitgelegd als duiker, afleiding omstreden; Grieks lophos = kuif; -dytes wordt verbonden met dytes = duiker, maar de precieze vorming is omstreden|?
+Lophophanes|mit sichtbarer Haube; aus griechisch lophos = Haube und -phanes = zeigend|showing a crest; from Greek lophos = crest + -phanes = showing|met zichtbare kuif; uit Grieks lophos = kuif en -phanes = tonend
+Lophura|Haubenschwanz; aus griechisch lophos = Haube und oura = Schwanz|crested tail; from Greek lophos = crest + oura = tail|kuifstaart; uit Grieks lophos = kuif en oura = staart
+Loxia|krumm, schräg; Bezug auf den Schnabel; aus griechisch loxos|crooked, slanting; refers to the bill; from Greek loxos|krom, schuin; verwijst naar de snavel; uit Grieks loxos
 Lullula|Verkleinerung des französischen Lautnamens Lulu|diminutive of the French call-name Lulu|verkleining van de Franse klanknaam Lulu
-Luscinia|Nachtigall|nightingale|nachtegaal
-Lymnocryptes|im Sumpf verborgen|hidden in the marsh|verborgen in het moeras
-Lyrurus|Leierschwanz|lyre tail|lierstaart
-Malacorhynchus|weicher Schnabel|soft bill|zachte snavel
-Mareca|aus einem brasilianisch-portugiesischen Entennamen|from a Brazilian Portuguese duck name|uit een Braziliaans-Portugese eendennaam
-Margaroperdix|Perlenrebhuhn|pearl partridge|parelpatrijs
-Marmaronetta|Marmorente|marbled duck|marmereend
-Megaceryle|großer Eisvogel|great kingfisher|grote ijsvogel
-Melanitta|schwarze Ente|black duck|zwarte eend
-Melanocorypha|Schwarzscheitel|black crown|zwarte kruin
-Meleagris|Perlhuhn|guineafowl|parelhoen
-Melopsittacus|Sangespapagei|song parrot|zangpapegaai
-Melospiza|Sangesfink|song finch|zangvink
-Menelikornis|Vogel; Widmung an Kaiser Menelik II. von Äthiopien|bird; honours Emperor Menelik II of Ethiopia|vogel; genoemd naar keizer Menelik II van Ethiopië
-Mergellus|kleiner Säger|small merganser|kleine zaagbek
-Mergus|Tauchvogel, Säger|diving bird, merganser|duikvogel, zaagbek
-Merops|Bienenfresser|bee-eater|bijeneter
-Microcarbo|kleiner Kormoran|small cormorant|kleine aalscholver
-Milvus|Milan|kite|wouw
-Mimus|Nachahmer|mimic|nabootser
-Mniotilta|Moospflücker|moss plucker|mosplukker
+Luscinia|Nachtigall; aus lateinisch luscinia|nightingale; from Latin luscinia|nachtegaal; uit Latijn luscinia
+Lymnocryptes|im Sumpf verborgen; aus griechisch limne = Sumpf, See und kruptos = verborgen|hidden in the marsh; from Greek limne = marsh, lake + kruptos = hidden|verborgen in het moeras; uit Grieks limne = moeras, meer en kruptos = verborgen
+Lyrurus|Leierschwanz; aus griechisch lura = Leier und oura = Schwanz|lyre tail; from Greek lura = lyre + oura = tail|lierstaart; uit Grieks lura = lier en oura = staart
+Malacorhynchus|weicher Schnabel; aus griechisch malakos = weich und rhunkhos = Schnabel|soft bill; from Greek malakos = soft + rhunkhos = bill|zachte snavel; uit Grieks malakos = zacht en rhunkhos = snavel
+Mareca|aus einem brasilianisch-portugiesischen Entennamen; brasilianisch-portugiesisch Marréco, ein Name für kleinere Enten|from a Brazilian Portuguese duck name; Brazilian Portuguese Marréco, a name for smaller ducks|uit een Braziliaans-Portugese eendennaam; Braziliaans-Portugees Marréco, een naam voor kleinere eenden
+Margaroperdix|Perlenrebhuhn; aus griechisch margaron = Perle und perdix = Rebhuhn|pearl partridge; from Greek margaron = pearl + perdix = partridge|parelpatrijs; uit Grieks margaron = parel en perdix = patrijs
+Marmaronetta|Marmorente; aus griechisch marmaros = Marmor und netta = Ente|marbled duck; from Greek marmaros = marble + netta = duck|marmereend; uit Grieks marmaros = marmer en netta = eend
+Megaceryle|großer Eisvogel; aus griechisch megas|great kingfisher; from Greek megas|grote ijsvogel; uit Grieks megas
+Melanitta|schwarze Ente; aus griechisch melas = schwarz und netta = Ente|black duck; from Greek melas = black + netta = duck|zwarte eend; uit Grieks melas = zwart en netta = eend
+Melanocorypha|griechisch melas = schwarz; der zweite Teil koruphos ist ein antiker Vogelname, hier wohl mit Namen für Lerchen oder Haubenvögel vermischt. Die oft genannte Übersetzung „Schwarzscheitel“ vereinfacht die unsichere Wortbildung|Greek melas = black; koruphos is an ancient bird name, apparently confused here with names for larks or crested birds. The common translation “black crown” simplifies an uncertain formation|Grieks melas = zwart; koruphos is een antieke vogelnaam, hier waarschijnlijk vermengd met namen voor leeuweriken of kuifvogels. De vertaling „zwarte kruin” vereenvoudigt de onzekere woordvorming|?
+Meleagris|Perlhuhn; aus griechisch meleagris|guineafowl; from Greek meleagris|parelhoen; uit Grieks meleagris
+Melopsittacus|Sangespapagei; aus griechisch melos = Gesang, Melodie und psittakos = Papagei|song parrot; from Greek melos = song, tune + psittakos = parrot|zangpapegaai; uit Grieks melos = zang, melodie en psittakos = papegaai
+Melospiza|Sangesfink; aus griechisch melos = Gesang, Melodie und spiza = Fink|song finch; from Greek melos = song, tune + spiza = finch|zangvink; uit Grieks melos = zang, melodie en spiza = vink
+Menelikornis|Vogel; Widmung an Kaiser Menelik II. von Äthiopien; griechisch ornis = Vogel bildet den zweiten Namensteil|bird; honours Emperor Menelik II of Ethiopia; Greek ornis = bird forms the second part|vogel; genoemd naar keizer Menelik II van Ethiopië; Grieks ornis = vogel vormt het tweede naamdeel
+Mergellus|kleiner Säger; Verkleinerung des Gattungsnamens Mergus; lateinisch mergus = Tauchvogel|small merganser; diminutive of the genus Mergus; Latin mergus = diving bird|kleine zaagbek; verkleinwoord van de geslachtsnaam Mergus; Latijn mergus = duikvogel
+Mergus|Tauchvogel, Säger; aus lateinisch mergus|diving bird, merganser; from Latin mergus|duikvogel, zaagbek; uit Latijn mergus
+Merops|Bienenfresser; aus griechisch merops|bee-eater; from Greek merops|bijeneter; uit Grieks merops
+Microcarbo|kleiner Kormoran; griechisch mikros = klein und der frühere Kormoran-Gattungsname Carbo (lateinisch carbo = Kohle, als Farbvergleich)|small cormorant; Greek mikros = small and the former cormorant genus Carbo (Latin carbo = coal, a colour comparison)|kleine aalscholver; Grieks mikros = klein en de vroegere aalscholvernaam Carbo (Latijn carbo = kool, als kleurvergelijking)
+Milvus|Milan; aus lateinisch milvus|kite; from Latin milvus|wouw; uit Latijn milvus
+Mimus|Nachahmer; aus lateinisch mimus|mimic; from Latin mimus|nabootser; uit Latijn mimus
+Mniotilta|Moospflücker; aus griechisch mnion = Moos, eigentlich Seetang und tillo = rupfen|moss plucker; from Greek mnion = moss, strictly seaweed + tillo = to pluck|mosplukker; uit Grieks mnion = mos, eigenlijk zeewier en tillo = plukken
 Molothrus|historisch als ungebetener Gast gedeutet; genaue griechische Wortbildung umstritten|historically interpreted as an uninvited guest; exact Greek word formation disputed|historisch uitgelegd als ongenode gast; precieze Griekse woordvorming omstreden|?
-Monticola|Bergbewohner|mountain dweller|bergbewoner
-Montifringilla|Bergfink|mountain finch|bergvink
-Morus|töricht; historische Bewertung der geringen Scheu|foolish; an old judgement of its lack of fear|dwaas; een oud oordeel over de geringe schuwheid
-Motacilla|alter Name einer Bachstelze; später als Schwanzbeweger gedeutet|ancient wagtail name; later interpreted as tail mover|oude kwikstaartnaam; later als staartbeweger uitgelegd
-Muscicapa|Fliegenfänger|flycatcher|vliegenvanger
-Myiopsitta|Mauspapagei; Bezug auf das mausgraue Gefieder trotz irreführender Schreibweise|mouse parrot; refers to mouse-grey plumage despite the misleading spelling|muispapegaai; verwijst naar het muisgrijze verenkleed ondanks de misleidende spelling
-Nannopterum|kleiner Flügel|small wing|kleine vleugel
-Neophema|neue Stimme|new voice|nieuwe stem
+Monticola|Bergbewohner; aus lateinisch mons = Berg und -cola = Bewohner|mountain dweller; from Latin mons = mountain + -cola = dweller|bergbewoner; uit Latijn mons = berg en -cola = bewoner
+Montifringilla|Bergfink; aus lateinisch mons = Berg und fringilla = Fink|mountain finch; from Latin mons = mountain + fringilla = finch|bergvink; uit Latijn mons = berg en fringilla = vink
+Morus|töricht; historische Bewertung der geringen Scheu; aus griechisch mōros|foolish; an old judgement of its lack of fear; from Greek mōros|dwaas; een oud oordeel over de geringe schuwheid; uit Grieks mōros
+Motacilla|alter Name einer Bachstelze; später als Schwanzbeweger gedeutet; lateinisch motacilla = Bachstelze; die spätere Zerlegung in motare = bewegen und cilla = Schwanz verwendet cilla in einer historisch irrtümlich entstandenen Bedeutung|ancient wagtail name; later interpreted as tail mover; Latin motacilla = wagtail; the later analysis as motare = to move and cilla = tail uses a historically mistaken meaning of cilla|oude kwikstaartnaam; later als staartbeweger uitgelegd; Latijn motacilla = kwikstaart; de latere ontleding in motare = bewegen en cilla = staart gebruikt een historisch onjuist ontstane betekenis van cilla
+Muscicapa|Fliegenfänger; aus lateinisch musca = Fliege und capere = fangen|flycatcher; from Latin musca = fly + capere = to catch|vliegenvanger; uit Latijn musca = vlieg en capere = vangen
+Myiopsitta|Mauspapagei; Bezug auf das mausgraue Gefieder trotz irreführender Schreibweise; aus griechisch mys (Genitiv myos) = Maus und neulateinisch psitta = Papagei; trotz der Schreibweise kein Bezug auf myia = Fliege|mouse parrot; refers to mouse-grey plumage despite the misleading spelling; from Greek mys (genitive myos) = mouse and Modern Latin psitta = parrot; despite the spelling, unrelated to myia = fly|muispapegaai; verwijst naar het muisgrijze verenkleed ondanks de misleidende spelling; uit Grieks mys (genitief myos) = muis en Neolatijn psitta = papegaai; ondanks de spelling geen verband met myia = vlieg
+Nannopterum|kleiner Flügel; aus griechisch nannos = Zwerg und pteron = Flügel, Feder|small wing; from Greek nannos = dwarf + pteron = wing, feather|kleine vleugel; uit Grieks nannos = dwerg en pteron = vleugel, veer
+Neophema|verbindet griechisch neos = neu mit dem früheren Papageien-Gattungsnamen Euphema, zu euphemos = wohlklingend. Häufig sinngemäß als „neue Stimme“ wiedergegeben|combines Greek neos = new with the former parrot genus Euphema, related to euphemos = sweet-sounding. Often paraphrased as “new voice”|verbindt Grieks neos = nieuw met de vroegere papegaaiennaam Euphema, bij euphemos = welluidend. Vaak vrij vertaald als „nieuwe stem”
 Neophron|Neophron aus der griechischen Mythologie, in einen Geier verwandelt|Neophron of Greek mythology, transformed into a vulture|Neophron uit de Griekse mythologie, veranderd in een gier
-Netta|Ente|duck|eend
+Netta|Ente; aus griechisch nētta|duck; from Greek nētta|eend; uit Grieks nētta
 Ninox|Verbindung von Nisus, Sperber, und Noctua, Eule|combines Nisus, sparrowhawk, and Noctua, owl|verbinding van Nisus, sperwer, en Noctua, uil
-Nucifraga|Nussknacker|nut breaker|notenkraker
-Numenius|Neumond; Bezug auf den gebogenen Schnabel|new moon; refers to the curved bill|nieuwe maan; verwijst naar de gebogen snavel
+Nucifraga|Nussknacker; aus lateinisch nux = Nuss und frangere = zerbrechen|nut breaker; from Latin nux = nut + frangere = to break|notenkraker; uit Latijn nux = noot en frangere = breken
+Numenius|Neumond; Bezug auf den gebogenen Schnabel; aus griechisch neos = neu und mene = Mond|new moon; refers to the curved bill; from Greek neos = new + mene = moon|nieuwe maan; verwijst naar de gebogen snavel; uit Grieks neos = nieuw en mene = maan
 Numida|aus Numidien, Nordafrika|of Numidia, North Africa|uit Numidië, Noord-Afrika
-Nycticorax|Nachtrabe|night raven|nachtraaf
-Nymphicus|nymphenartig; Bezug auf mythologische Nymphen|nymph-like; refers to mythological nymphs|nimfachtig; verwijst naar mythologische nimfen
+Nycticorax|Nachtrabe; aus griechisch nyx = Nacht und korax = Rabe|night raven; from Greek nyx = night + korax = raven|nachtraaf; uit Grieks nyx = nacht en korax = raaf
+Nymphicus|nymphenartig; Bezug auf mythologische Nymphen; aus lateinisch nymphicus|nymph-like; refers to mythological nymphs; from Latin nymphicus|nimfachtig; verwijst naar mythologische nimfen; uit Latijn nymphicus
 Oceanites|Okeaniden, Meeresnymphen der griechischen Mythologie|Oceanids, sea nymphs of Greek mythology|Oceaniden, zeenimfen uit de Griekse mythologie
-Oenanthe|Weinblüte; alter Vogelname|vine blossom; an ancient bird name|wijnbloesem; een oude vogelnaam
-Onychognathus|Krallenschnabel|claw bill|klauwsnavel
-Onychoprion|Krallensäge|claw saw|klauwzaag
-Oressochen|Berggans|mountain goose|berggans
-Oriolus|Pirol; mit Goldfarbe verbunden|oriole; associated with gold colouring|wielewaal; verbonden met goudkleur
-Otis|Trappe|bustard|trap
-Otus|Ohreule|eared owl|ooruil
-Oxyura|Spitzschwanz|pointed tail|spitsstaart
-Padda|Reisvogel, aus dem malaiischen Wort für Reis|rice bird, from the Malay word for rice|rijstvogel, van het Maleise woord voor rijst
-Pagophila|Eis liebend|ice loving|ijsliefhebber
+Oenanthe|Weinblüte; alter Vogelname; griechisch oinanthe = Weinblüte, aus oine = Weinrebe und anthos = Blüte; der Vogelname wurde mit dem Auftreten zur Weinlesezeit verbunden|vine blossom; an ancient bird name; Greek oinanthe = vine blossom, from oine = vine and anthos = blossom; the bird name was linked to its appearance at vintage time|wijnbloesem; een oude vogelnaam; Grieks oinanthe = wijnbloesem, uit oine = wijnstok en anthos = bloesem; de vogelnaam werd verbonden met het verschijnen rond de wijnoogst
+Onychognathus|Krallenschnabel; aus griechisch onux = Kralle und gnathos = Kiefer|claw bill; from Greek onux = claw + gnathos = jaw|klauwsnavel; uit Grieks onux = klauw en gnathos = kaak
+Onychoprion|Krallensäge; aus griechisch onux = Kralle und prion = Säge|claw saw; from Greek onux = claw + prion = saw|klauwzaag; uit Grieks onux = klauw en prion = zaag
+Oressochen|Berggans; aus griechisch oros = Berg und chen = Gans|mountain goose; from Greek oros = mountain + chen = goose|berggans; uit Grieks oros = berg en chen = gans
+Oriolus|Pirol; mit Goldfarbe verbunden; aus mittellateinisch oriolus oder oryolus, zu lateinisch aureolus = golden|oriole; associated with gold colouring; from Medieval Latin oriolus or oryolus, related to Latin aureolus = golden|wielewaal; verbonden met goudkleur; uit middeleeuws Latijn oriolus of oryolus, bij Latijn aureolus = goudkleurig
+Otis|Trappe; aus griechisch ōtis|bustard; from Greek ōtis|trap; uit Grieks ōtis
+Otus|Ohreule; aus lateinisch otus|eared owl; from Latin otus|ooruil; uit Latijn otus
+Oxyura|Spitzschwanz; aus griechisch oxus = spitz, scharf und oura = Schwanz|pointed tail; from Greek oxus = pointed, sharp + oura = tail|spitsstaart; uit Grieks oxus = spits, scherp en oura = staart
+Padda|Reisvogel, aus dem malaiischen Wort für Reis; malaiisch padi = Reis, über den englischen Vogelnamen Padda übernommen|rice bird, from the Malay word for rice; Malay padi = rice, adopted through the English bird name Padda|rijstvogel, van het Maleise woord voor rijst; Maleis padi = rijst, overgenomen via de Engelse vogelnaam Padda
+Pagophila|Eis liebend; aus griechisch pagos = Meereis und philos = liebend|ice loving; from Greek pagos = sea-ice + philos = loving|ijsliefhebber; uit Grieks pagos = zee-ijs en philos = liefhebbend
 Pandion|Pandion, mythischer König von Athen|Pandion, mythical king of Athens|Pandion, mythische koning van Athene
-Panurus|ganz Schwanz, sehr langer Schwanz|all tail, very long tail|geheel staart, zeer lange staart
-Parabuteo|einem Bussard nahe|near a buzzard|nabij een buizerd
+Panurus|ganz Schwanz, sehr langer Schwanz; aus griechisch panu = überaus und oura = Schwanz|all tail, very long tail; from Greek panu = exceedingly + oura = tail|geheel staart, zeer lange staart; uit Grieks panu = buitengewoon en oura = staart
+Parabuteo|einem Bussard nahe; aus griechisch para; griechisch para = nahe und Buteo, der Gattungsname der Bussarde|near a buzzard; from Greek para; Greek para = near and Buteo, the buzzard genus|nabij een buizerd; uit Grieks para; Grieks para = nabij en Buteo, de buizerdgeslachtsnaam
 Parkesia|Widmung an den Ornithologen Kenneth Carroll Parkes|honours ornithologist Kenneth Carroll Parkes|genoemd naar ornitholoog Kenneth Carroll Parkes
-Paroaria|aus einem indigenen südamerikanischen Vogelnamen|from an Indigenous South American bird name|uit een inheemse Zuid-Amerikaanse vogelnaam
-Parus|Meise|tit|mees
-Passer|Sperling|sparrow|mus
-Passerculus|kleiner Sperling|little sparrow|kleine mus
-Passerina|sperlingsartig|sparrow-like|musachtig
-Pastor|Hirte|shepherd|herder
-Pavo|Pfau|peacock|pauw
-Pelecanus|Pelikan|pelican|pelikaan
-Perdix|Rebhuhn|partridge|patrijs
-Periparus|einer Meise nahe|near a tit|nabij een mees
-Pernis|alter Name eines Greifvogels|ancient name for a bird of prey|oude naam voor een roofvogel
-Petrochelidon|Felsschwalbe|rock swallow|rotszwaluw
-Petronia|alter italienischer Name eines Steinsperlings|old Italian rock sparrow name|oude Italiaanse rotsmusnaam
-Phaethon|der Strahlende; auch eine Figur der griechischen Mythologie|the shining one; also a figure of Greek mythology|de stralende; ook een figuur uit de Griekse mythologie
-Phalacrocorax|Kahlrabe|bald raven|kale raaf
-Phalaropus|Blässhuhnfuß|coot foot|meerkoetvoet
-Phasianus|vom Fluss Phasis, heute Rioni im Kaukasus|of the River Phasis, now Rioni in the Caucasus|van de rivier Phasis, nu Rioni in de Kaukasus
-Pheucticus|scheu, zum Fliehen neigend|shy, inclined to flee|schuw, geneigd te vluchten
-Phoeniconaias|rote Wassernymphe|red water nymph|rode waternimf
-Phoenicopterus|Rotflügel|red wing|rode vleugel
-Phoenicurus|Rotschwanz|red tail|rode staart
-Phylloscopus|Blattsucher|leaf seeker|bladzoeker
-Pica|Elster|magpie|ekster
-Picoides|spechtähnlich|woodpecker-like|spechtachtig
-Picus|Specht|woodpecker|specht
-Pinicola|Kiefernbewohner|pine dweller|dennenbewoner
-Pionites|mit Pionus, einem Papageiennamen, verbunden|related to Pionus, a parrot name|verbonden met Pionus, een papegaaiennaam
-Pionus|fett, kräftig|fat, stout|dik, stevig
-Pipilo|zwitschern|to chirp|tjirpen
-Piranga|aus einem Tupí-Vogelnamen|from a Tupí bird name|uit een Tupí-vogelnaam
-Platalea|Löffler; mit breit verbunden|spoonbill; associated with broad|lepelaar; verbonden met breed
-Platycercus|Breitschwanz|broad tail|brede staart
-Plectrophenax|mit Sporn und Betrüger gebildet; Ersatzname für den Ammernamen Plectrophanes|formed with spur and impostor; replacement for the bunting name Plectrophanes|gevormd met spoor en bedrieger; vervangende naam voor de gorzennaam Plectrophanes
-Plectropterus|Spornflügel|spur wing|spoorvleugel
-Plegadis|Sichel; Bezug auf den Schnabel|sickle; refers to the bill|sikkel; verwijst naar de snavel
-Ploceus|Weber|weaver|wever
-Pluvialis|zum Regen gehörig|of rain|van de regen
-Podiceps|Steißfuß; Beine weit hinten am Körper|rump foot; legs far back on the body|stuitvoet; poten ver achter aan het lichaam
-Podilymbus|Verbindung von Podiceps und Colymbus, Tauchvogelnamen|combines Podiceps and Colymbus, diving-bird names|verbinding van Podiceps en Colymbus, namen voor duikvogels
-Poecile|bunt; alter Vogelname|variegated; an ancient bird name|bont; een oude vogelnaam
-Poicephalus|Kopf-Bezug; unter anderem als grau- oder dunkelköpfig gedeutet, genaue Herleitung umstritten|refers to the head; interpretations include grey- or dark-headed, exact derivation disputed|verwijst naar de kop; onder meer uitgelegd als grijs- of donkerkoppig, precieze afleiding omstreden|?
-Polysticta|viele Flecken|many spots|veel vlekken
-Polytelis|prächtig, kostbar|splendid, precious|prachtig, kostbaar
-Porphyrio|Purpurhuhn|purple gallinule|purperkoet
+Paroaria|aus einem indigenen südamerikanischen Vogelnamen; aus dem Tupí-Vogelnamen Tiéguacú paroára; von Buffon als Paroare übernommen|from an Indigenous South American bird name; from the Tupí bird name Tiéguacú paroára; adopted by Buffon as Paroare|uit een inheemse Zuid-Amerikaanse vogelnaam; uit de Tupí-vogelnaam Tiéguacú paroára; door Buffon overgenomen als Paroare
+Parus|Meise; aus lateinisch parus|tit; from Latin parus|mees; uit Latijn parus
+Passer|Sperling; aus lateinisch passer|sparrow; from Latin passer|mus; uit Latijn passer
+Passerculus|kleiner Sperling; aus lateinisch passerculus; zu lateinisch passer = Sperling|little sparrow; from Latin passerculus; based on Latin passer = sparrow|kleine mus; uit Latijn passerculus; bij Latijn passer = mus
+Passerina|sperlingsartig; aus lateinisch passerinus; zu lateinisch passer = Sperling|sparrow-like; from Latin passerinus; based on Latin passer = sparrow|musachtig; uit Latijn passerinus; bij Latijn passer = mus
+Pastor|Hirte; aus lateinisch pastor|shepherd; from Latin pastor|herder; uit Latijn pastor
+Pavo|Pfau; aus lateinisch pavo|peacock; from Latin pavo|pauw; uit Latijn pavo
+Pelecanus|Pelikan; aus griechisch pelekan|pelican; from Greek pelekan|pelikaan; uit Grieks pelekan
+Perdix|Rebhuhn; aus lateinisch perdix|partridge; from Latin perdix|patrijs; uit Latijn perdix
+Periparus|einer Meise nahe; aus griechisch peri; griechisch peri = ringsum, sehr und Parus, der Gattungsname der Meisen|near a tit; from Greek peri; Greek peri = all around, very and Parus, the tit genus|nabij een mees; uit Grieks peri; Grieks peri = rondom, zeer en Parus, de mezengeslachtsnaam
+Pernis|alter Name eines Greifvogels; aus griechisch pernēs|ancient name for a bird of prey; from Greek pernēs|oude naam voor een roofvogel; uit Grieks pernēs
+Petrochelidon|Felsschwalbe; aus griechisch petros = Fels und khelidon = Schwalbe|rock swallow; from Greek petros = rock + khelidon = swallow|rotszwaluw; uit Grieks petros = rots en khelidon = zwaluw
+Petronia|alter italienischer Name eines Steinsperlings; italienisch Petronia, ein regionaler Name aus Bologna; zu lateinisch petronius = felsig|old Italian rock sparrow name; Italian Petronia, a regional name from Bologna; related to Latin petronius = of rocks|oude Italiaanse rotsmusnaam; Italiaans Petronia, een regionale naam uit Bologna; bij Latijn petronius = rotsachtig
+Phaethon|der Strahlende; auch eine Figur der griechischen Mythologie; aus griechisch phaethōn|the shining one; also a figure of Greek mythology; from Greek phaethōn|de stralende; ook een figuur uit de Griekse mythologie; uit Grieks phaethōn
+Phalacrocorax|Kahlrabe; aus griechisch phalakros = kahlköpfig und korax = Rabe|bald raven; from Greek phalakros = bald-headed + korax = raven|kale raaf; uit Grieks phalakros = kaalhoofdig en korax = raaf
+Phalaropus|Blässhuhnfuß; aus griechisch phalaris = Blässhuhn und pous = Fuß|coot foot; from Greek phalaris = coot + pous = foot|meerkoetvoet; uit Grieks phalaris = meerkoet en pous = voet
+Phasianus|vom Fluss Phasis, heute Rioni im Kaukasus; aus lateinisch phasianus|of the River Phasis, now Rioni in the Caucasus; from Latin phasianus|van de rivier Phasis, nu Rioni in de Kaukasus; uit Latijn phasianus
+Pheucticus|scheu, zum Fliehen neigend; aus griechisch pheuktikos|shy, inclined to flee; from Greek pheuktikos|schuw, geneigd te vluchten; uit Grieks pheuktikos
+Phoeniconaias|rote Wassernymphe; aus griechisch phoinix = purpurrot und naias = Wassernymphe|red water nymph; from Greek phoinix = crimson + naias = water nymph|rode waternimf; uit Grieks phoinix = purperrood en naias = waternimf
+Phoenicopterus|Rotflügel; aus griechisch phoinix = purpurrot und pteron = Flügel, Feder|red wing; from Greek phoinix = crimson + pteron = wing, feather|rode vleugel; uit Grieks phoinix = purperrood en pteron = vleugel, veer
+Phoenicurus|Rotschwanz; aus griechisch phoinix = purpurrot und oura = Schwanz|red tail; from Greek phoinix = crimson + oura = tail|rode staart; uit Grieks phoinix = purperrood en oura = staart
+Phylloscopus|Blattsucher; aus griechisch phullon = Blatt und skopos = Beobachter, Sucher|leaf seeker; from Greek phullon = leaf + skopos = watcher, seeker|bladzoeker; uit Grieks phullon = blad en skopos = waarnemer, zoeker
+Pica|Elster; aus lateinisch pica|magpie; from Latin pica|ekster; uit Latijn pica
+Picoides|spechtähnlich; vom Gattungsnamen Picus = Specht und griechisch -oides = ähnlich|woodpecker-like; from the genus Picus = woodpecker and Greek -oides = resembling|spechtachtig; van de geslachtsnaam Picus = specht en Grieks -oides = gelijkend op
+Picus|Specht; aus lateinisch picus|woodpecker; from Latin picus|specht; uit Latijn picus
+Pinicola|Kiefernbewohner; aus lateinisch pinus = Kiefer und -cola = Bewohner|pine dweller; from Latin pinus = pine + -cola = dweller|dennenbewoner; uit Latijn pinus = den en -cola = bewoner
+Pionites|mit Pionus, einem Papageiennamen, verbunden; aus Pionus, einem Papageien-Gattungsnamen (griechisch pion = fett, kräftig), und -ites = ähnlich|related to Pionus, a parrot name; from Pionus, a parrot genus (Greek pion = fat, stout), and -ites = resembling|verbonden met Pionus, een papegaaiennaam; uit Pionus, een papegaaiengeslacht (Grieks pion = dik, stevig), en -ites = gelijkend op
+Pionus|fett, kräftig; aus griechisch piōn|fat, stout; from Greek piōn|dik, stevig; uit Grieks piōn
+Pipilo|zwitschern; aus lateinisch pipilo|to chirp; from Latin pipilo|tjirpen; uit Latijn pipilo
+Piranga|aus einem Tupí-Vogelnamen; aus dem Tupí-Vogelnamen Tijepiranga|from a Tupí bird name; from the Tupí bird name Tijepiranga|uit een Tupí-vogelnaam; uit de Tupí-vogelnaam Tijepiranga
+Platalea|Löffler; mit breit verbunden; aus lateinisch platalea|spoonbill; associated with broad; from Latin platalea|lepelaar; verbonden met breed; uit Latijn platalea
+Platycercus|Breitschwanz; aus griechisch platus = breit und kerkos = Schwanz|broad tail; from Greek platus = broad + kerkos = tail|brede staart; uit Grieks platus = breed en kerkos = staart
+Plectrophenax|mit Sporn und Betrüger gebildet; Ersatzname für den Ammernamen Plectrophanes; Plectrophanes enthält griechisch plektron = Sporn; phenax = Betrüger kennzeichnet hier den Ersatznamen|formed with spur and impostor; replacement for the bunting name Plectrophanes; Plectrophanes contains Greek plektron = spur; phenax = impostor marks the replacement name here|gevormd met spoor en bedrieger; vervangende naam voor de gorzennaam Plectrophanes; Plectrophanes bevat Grieks plektron = spoor; phenax = bedrieger duidt hier de vervangende naam aan
+Plectropterus|Spornflügel; aus griechisch plektron = Sporn und pteron = Flügel, Feder|spur wing; from Greek plektron = spur + pteron = wing, feather|spoorvleugel; uit Grieks plektron = spoor en pteron = vleugel, veer
+Plegadis|Sichel; Bezug auf den Schnabel; aus griechisch plēgas|sickle; refers to the bill; from Greek plēgas|sikkel; verwijst naar de snavel; uit Grieks plēgas
+Ploceus|Weber; aus griechisch plokeus|weaver; from Greek plokeus|wever; uit Grieks plokeus
+Pluvialis|zum Regen gehörig; zu lateinisch pluvia = Regen|of rain; based on Latin pluvia = rain|van de regen; bij Latijn pluvia = regen
+Podiceps|Steißfuß; Beine weit hinten am Körper; aus lateinisch podex = Steiß und pes = Fuß|rump foot; legs far back on the body; from Latin podex = rump + pes = foot|stuitvoet; poten ver achter aan het lichaam; uit Latijn podex = stuit en pes = voet
+Podilymbus|Verbindung von Podiceps und Colymbus, Tauchvogelnamen; Wortverschmelzung aus den Gattungsnamen Podiceps und Colymbus; keine direkte Übersetzung als ein einzelnes griechisches oder lateinisches Wort|combines Podiceps and Colymbus, diving-bird names; a blend of the genera Podiceps and Colymbus; not a direct translation of a single Greek or Latin word|verbinding van Podiceps en Colymbus, namen voor duikvogels; woordversmelting van de geslachtsnamen Podiceps en Colymbus; geen rechtstreekse vertaling van één Grieks of Latijns woord
+Poecile|bunt; alter Vogelname; aus griechisch poikilis|variegated; an ancient bird name; from Greek poikilis|bont; een oude vogelnaam; uit Grieks poikilis
+Poicephalus|Kopf-Bezug; unter anderem als grau- oder dunkelköpfig gedeutet, genaue Herleitung umstritten; meist mit griechisch phaios = grau, dunkel und kephale = Kopf verbunden; die ungewöhnliche Schreibweise lässt die genaue Bildung offen|refers to the head; interpretations include grey- or dark-headed, exact derivation disputed; usually linked to Greek phaios = grey, dusky and kephale = head; the unusual spelling leaves the exact formation unresolved|verwijst naar de kop; onder meer uitgelegd als grijs- of donkerkoppig, precieze afleiding omstreden; meestal verbonden met Grieks phaios = grijs, donker en kephale = kop; de ongewone spelling laat de precieze vorming open|?
+Polysticta|viele Flecken; aus griechisch polus = viel und stiktos = gefleckt|many spots; from Greek polus = many + stiktos = spotted|veel vlekken; uit Grieks polus = veel en stiktos = gevlekt
+Polytelis|prächtig, kostbar; aus griechisch polutelēs|splendid, precious; from Greek polutelēs|prachtig, kostbaar; uit Grieks polutelēs
+Porphyrio|Purpurhuhn; aus lateinisch porphyrio|purple gallinule; from Latin porphyrio|purperkoet; uit Latijn porphyrio
 Porzana|übernommener italienischer Rallenname; genaue regionale Herkunft umstritten|borrowed Italian rail name; precise regional origin disputed|overgenomen Italiaanse rallennaam; precieze regionale herkomst omstreden|?
-Progne|Prokne, in der griechischen Mythologie in eine Schwalbe verwandelt|Procne, transformed into a swallow in Greek mythology|Procne, in de Griekse mythologie veranderd in een zwaluw
-Prunella|aus dem deutschen Namen Braunelle|from the German bird name Braunelle|uit de Duitse vogelnaam Braunelle
-Psephotellus Psephotus|mit Mosaiksteinen besetzt|set with mosaic stones|met mozaïeksteentjes bezet
-Psittacara|Verbindung der Papageiennamen Psittacus und Ara|combines the parrot names Psittacus and Ara|verbinding van de papegaaiennamen Psittacus en Ara
-Psittacula|kleiner Papagei|small parrot|kleine papegaai
-Psittacus|Papagei|parrot|papegaai
-Pterodroma|Flügelläufer|wing runner|vleugelrenner
-Pterorhinus|Federnase|feather nose|verenneus
-Ptilopsis|Federgesicht|feather face|verengezicht
-Ptyonoprogne|Fächerschwalbe|fan swallow|waaierzwaluw
-Puffinus|aus einem englischen Namen für junge Sturmtaucher|from an English name for young shearwaters|uit een Engelse naam voor jonge pijlstormvogels
-Pycnonotus|dichter Rücken, dichtes Gefieder|dense back, dense plumage|dichte rug, dicht verenkleed
-Pyrrhocorax|Feuerrabe|flame raven|vuurraaf
-Pyrrhula|kleiner flammenfarbiger Vogel|small flame-coloured bird|kleine vlamkleurige vogel
-Pyrrhura|Feuerschwanz|flame tail|vuurstaart
-Quelea|möglicherweise aus einem alten Wachtelnamen; Übertragung ungeklärt|possibly from an old quail name; reason for transfer unclear|mogelijk uit een oude kwartelnaam; reden voor overdracht onduidelijk|?
+Progne|Prokne, in der griechischen Mythologie in eine Schwalbe verwandelt; aus lateinisch progne|Procne, transformed into a swallow in Greek mythology; from Latin progne|Procne, in de Griekse mythologie veranderd in een zwaluw; uit Latijn progne
+Prunella|aus dem deutschen Namen Braunelle; Braunelle ist eine Verkleinerungsbildung zu deutsch braun|from the German bird name Braunelle; Braunelle is a diminutive related to German braun = brown|uit de Duitse vogelnaam Braunelle; Braunelle is een verkleinvorm bij Duits braun = bruin
+Psephotellus|Verkleinerungsbildung zum Papageien-Gattungsnamen Psephotus; griechisch psephotos = mit Mosaiksteinen besetzt, zu psephos = Mosaikstein|diminutive of the parrot genus Psephotus; Greek psephotos = inlaid with mosaic stones, from psephos = mosaic stone|verkleinvorm van de papegaaiengeslachtsnaam Psephotus; Grieks psephotos = ingelegd met mozaïeksteentjes, bij psephos = mozaïeksteentje
+Psephotus|mit Mosaiksteinen besetzt; griechisch psephotos, zu psephos = Mosaikstein. Bezug auf die bunten Gefiederflecken|inlaid with mosaic stones; Greek psephotos, from psephos = mosaic stone. Refers to colourful plumage spots|ingelegd met mozaïeksteentjes; Grieks psephotos, bij psephos = mozaïeksteentje. Verwijst naar de bonte verenvlekken
+Psittacara|Papageienname; als Verbindung von Psittacus und Ara gedeutet. Jobling erklärt ihn aus griechisch psittake = Papagei und kara = Kopf; die Herleitungen sind nicht einheitlich|parrot name; interpreted as combining Psittacus and Ara. Jobling instead gives Greek psittake = parrot and kara = head; derivations differ|papegaaiennaam; uitgelegd als verbinding van Psittacus en Ara. Jobling geeft Grieks psittake = papegaai en kara = kop; de afleidingen verschillen|?
+Psittacula|kleiner Papagei; Verkleinerung von lateinisch psittacus = Papagei|small parrot; diminutive of Latin psittacus = parrot|kleine papegaai; verkleinwoord van Latijn psittacus = papegaai
+Psittacus|Papagei; aus lateinisch psittacus|parrot; from Latin psittacus|papegaai; uit Latijn psittacus
+Pterodroma|Flügelläufer; aus griechisch pteron = Flügel, Feder und -dromos = Läufer|wing runner; from Greek pteron = wing, feather + -dromos = runner|vleugelrenner; uit Grieks pteron = vleugel, veer en -dromos = renner
+Pterorhinus|Federnase; aus griechisch pteron = Flügel, Feder und rhis = Nase|feather nose; from Greek pteron = wing, feather + rhis = nose|verenneus; uit Grieks pteron = vleugel, veer en rhis = neus
+Ptilopsis|Federgesicht; aus griechisch ptilon = Feder und opsis = Gesicht, Aussehen|feather face; from Greek ptilon = feather + opsis = face, appearance|verengezicht; uit Grieks ptilon = veer en opsis = gezicht, uiterlijk
+Ptyonoprogne|Fächerschwalbe; aus griechisch ptuon = Fächer und lateinisch progne = Schwalbe|fan swallow; from Greek ptuon = fan + Latin progne = swallow|waaierzwaluw; uit Grieks ptuon = waaier en Latijn progne = zwaluw
+Puffinus|aus einem englischen Namen für junge Sturmtaucher; englisch Puffin bezeichnete ursprünglich junge, als Speise konservierte Sturmtaucher; erst später den Papageitaucher|from an English name for young shearwaters; English Puffin originally denoted young shearwaters preserved as food; only later the puffin|uit een Engelse naam voor jonge pijlstormvogels; Engels Puffin duidde oorspronkelijk jonge, als voedsel geconserveerde pijlstormvogels aan; pas later de papegaaiduiker
+Pycnonotus|dichter Rücken, dichtes Gefieder; aus griechisch puknos = dicht und noton = Rücken|dense back, dense plumage; from Greek puknos = dense + noton = back|dichte rug, dicht verenkleed; uit Grieks puknos = dicht en noton = rug
+Pyrrhocorax|Feuerrabe; aus griechisch purrhos = feuerrot und korax = Rabe|flame raven; from Greek purrhos = flame-red + korax = raven|vuurraaf; uit Grieks purrhos = vuurrood en korax = raaf
+Pyrrhula|kleiner flammenfarbiger Vogel; griechisch pyrrhoulas, ein antiker Vogelname, zu pyrrhos = feuerrot|small flame-coloured bird; Greek pyrrhoulas, an ancient bird name, related to pyrrhos = flame-red|kleine vlamkleurige vogel; Grieks pyrrhoulas, een antieke vogelnaam, bij pyrrhos = vuurrood
+Pyrrhura|Feuerschwanz; aus griechisch purrhos = feuerrot und oura = Schwanz|flame tail; from Greek purrhos = flame-red + oura = tail|vuurstaart; uit Grieks purrhos = vuurrood en oura = staart
+Quelea|möglicherweise aus einem alten Wachtelnamen; Übertragung ungeklärt; mittellateinisch qualea = Wachtel; warum der Name auf Webervögel übertragen wurde, ist ungeklärt|possibly from an old quail name; reason for transfer unclear; Medieval Latin qualea = quail; why it was transferred to weaverbirds is unresolved|mogelijk uit een oude kwartelnaam; reden voor overdracht onduidelijk; middeleeuws Latijn qualea = kwartel; de overdracht op wevervogels is onopgehelderd|?
 Quiscalus|vom Artnamen quiscula; Herleitung unsicher|from the species name quiscula; derivation uncertain|van de soortnaam quiscula; afleiding onzeker|?
-Radjah|übernommener molukkischer Entenname|borrowed Moluccan duck name|overgenomen Molukse eendennaam
-Rallus|Ralle|rail|ral
-Recurvirostra|aufwärts gebogener Schnabel|upcurved bill|opgewipte snavel
-Regulus|kleiner König|little king|kleine koning
-Remiz|aus dem polnischen Namen der Beutelmeise|from the Polish name for the Penduline Tit|uit de Poolse naam voor de buidelmees
+Radjah|übernommener molukkischer Entenname; Radja, ein auf der Molukkeninsel Buru überlieferter Entenname|borrowed Moluccan duck name; Radja, a duck name recorded on Buru in the Moluccas|overgenomen Molukse eendennaam; Radja, een op het Molukse eiland Buru overgeleverde eendennaam
+Rallus|Ralle; latinisierter Rallenname; französisch râle, niederländisch ral oder deutsch Ralle als Vorlage diskutiert|rail; a Latinised rail name; French râle, Dutch ral or German Ralle have been proposed as its source|ral; gelatiniseerde rallennaam; Frans râle, Nederlands ral of Duits Ralle zijn als bron voorgesteld
+Recurvirostra|aufwärts gebogener Schnabel; aus lateinisch recurvus = zurückgebogen und rostrum = Schnabel|upcurved bill; from Latin recurvus = bent backwards + rostrum = bill|opgewipte snavel; uit Latijn recurvus = teruggebogen en rostrum = snavel
+Regulus|kleiner König; zu lateinisch rex = König|little king; based on Latin rex = king|kleine koning; bij Latijn rex = koning
+Remiz|aus dem polnischen Namen der Beutelmeise; polnisch remiz = Beutelmeise|from the Polish name for the Penduline Tit; Polish remiz = penduline tit|uit de Poolse naam voor de buidelmees; Pools remiz = buidelmees
 Rhea|übernommener Name für den Nandu; weitere Herleitung unsicher|borrowed name for the rhea; deeper derivation uncertain|overgenomen naam voor de nandoe; verdere afleiding onzeker|?
-Rhodospiza|Rosenfink|rose finch|rozenvink
-Rhodostethia|Rosenbrust|rose breast|roze borst
-Riparia|zum Flussufer gehörig|of river banks|van rivieroevers
-Rissa|aus einem isländischen Möwennamen|from an Icelandic gull name|uit een IJslandse meeuwennaam
+Rhodospiza|Rosenfink; aus griechisch rhodon = Rose und spiza = Fink|rose finch; from Greek rhodon = rose + spiza = finch|rozenvink; uit Grieks rhodon = roos en spiza = vink
+Rhodostethia|Rosenbrust; aus griechisch rhodon = Rose und stethos = Brust|rose breast; from Greek rhodon = rose + stethos = breast|roze borst; uit Grieks rhodon = roos en stethos = borst
+Riparia|zum Flussufer gehörig; zu lateinisch ripa = Flussufer|of river banks; based on Latin ripa = river bank|van rivieroevers; bij Latijn ripa = rivieroever
+Rissa|aus einem isländischen Möwennamen; isländisch Rita, über altnordisch Ryta, als Name der Dreizehenmöwe|from an Icelandic gull name; Icelandic Rita, via Old Norse Ryta, a name for the kittiwake|uit een IJslandse meeuwennaam; IJslands Rita, via Oudnoords Ryta, een naam voor de drieteenmeeuw
 Rollulus|vom Artnamen rouloul; weitere Herkunft unsicher|from the species name rouloul; deeper origin uncertain|van de soortnaam rouloul; verdere oorsprong onzeker|?
-Sarkidiornis|Fleischläppchen-Vogel|fleshy-wattled bird|vogel met vlezige lellen
-Saxicola|Felsbewohner|rock dweller|rotsbewoner
-Sayornis|Vogel; Widmung an den Naturkundler Thomas Say|bird; honours naturalist Thomas Say|vogel; genoemd naar natuuronderzoeker Thomas Say
-Scolopax|Waldschnepfe|woodcock|houtsnip
-Seiurus|Schwanzschüttler|tail shaker|staartschudder
-Serinus|aus dem französischen Girlitznamen|from the French serin name|uit de Franse naam voor de Europese kanarie
-Setophaga|Mottenfresser|moth eater|motteneter
-Sibirionetta|Sibirien-Ente|Siberian duck|Siberische eend
-Sicalis|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
-Sitta|Kleiber|nuthatch|boomklever
-Somateria|Wollkörper|wool body|wollig lichaam
-Spatula|kleiner Spatel, Löffel|small spatula, spoon|kleine spatel, lepel
-Sphyrapicus|Hammerspecht|hammer woodpecker|hamerspecht
-Spilopelia|Fleckentaube|spotted dove|gevlekte duif
-Spinus|Zeisig|siskin|sijs
-Stercorarius|zum Kot gehörig; historisches Missverständnis des Nahrungserwerbs|of dung; an old misunderstanding of its feeding|van mest; een oud misverstand over de voedselverwerving
-Sterna|aus einem alten Seeschwalbennamen|from an old tern name|uit een oude sternennaam
-Sternula|kleine Seeschwalbe|little tern|kleine stern
-Streptopelia|Halsbandtaube|collared dove|halsbandduif
-Strix|alter Name einer Eule|ancient owl name|oude uilennaam
-Sturnus|Star|starling|spreeuw
-Sula|aus einem nordischen Tölpelnamen|from a Nordic gannet name|uit een Noordse naam voor een gent
+Sarkidiornis|Fleischläppchen-Vogel; aus griechisch sarkidion = Fleischläppchen und ornis = Vogel|fleshy-wattled bird; from Greek sarkidion = small piece of flesh + ornis = bird|vogel met vlezige lellen; uit Grieks sarkidion = stukje vlees en ornis = vogel
+Saxicola|Felsbewohner; aus lateinisch saxum = Fels, Stein und -cola = Bewohner|rock dweller; from Latin saxum = rock, stone + -cola = dweller|rotsbewoner; uit Latijn saxum = rots, steen en -cola = bewoner
+Sayornis|Vogel; Widmung an den Naturkundler Thomas Say; griechisch ornis = Vogel bildet den zweiten Namensteil|bird; honours naturalist Thomas Say; Greek ornis = bird forms the second part|vogel; genoemd naar natuuronderzoeker Thomas Say; Grieks ornis = vogel vormt het tweede naamdeel
+Scolopax|Waldschnepfe; aus lateinisch scolopax|woodcock; from Latin scolopax|houtsnip; uit Latijn scolopax
+Seiurus|Schwanzschüttler; aus griechisch seio = schütteln und oura = Schwanz|tail shaker; from Greek seio = to shake + oura = tail|staartschudder; uit Grieks seio = schudden en oura = staart
+Serinus|aus dem französischen Girlitznamen; über französisch serin = Girlitz; dessen tiefere Herkunft ist unklar|from the French serin name; via French serin = serin; its deeper origin is unclear|uit de Franse naam voor de Europese kanarie; via Frans serin = Europese kanarie; de verdere herkomst is onduidelijk
+Setophaga|Mottenfresser; aus griechisch ses = Motte und -phagos = fressend|moth eater; from Greek ses = moth + -phagos = eating|motteneter; uit Grieks ses = mot en -phagos = etend
+Sibirionetta|Sibirien-Ente; verbindet Sibirien mit griechisch netta = Ente|Siberian duck; combines Siberia with Greek netta = duck|Siberische eend; verbindt Siberië met Grieks netta = eend
+Sicalis|alter Name eines kleinen Vogels; aus griechisch sikalis|ancient name for a small bird; from Greek sikalis|oude naam voor een kleine vogel; uit Grieks sikalis
+Sitta|Kleiber; aus griechisch sitte|nuthatch; from Greek sitte|boomklever; uit Grieks sitte
+Somateria|Wollkörper; aus griechisch soma = Körper und erion = Wolle|wool body; from Greek soma = body + erion = wool|wollig lichaam; uit Grieks soma = lichaam en erion = wol
+Spatula|kleiner Spatel, Löffel; aus lateinisch spatula|small spatula, spoon; from Latin spatula|kleine spatel, lepel; uit Latijn spatula
+Sphyrapicus|Hammerspecht; aus griechisch sphura = Hammer und pikos = Specht|hammer woodpecker; from Greek sphura = hammer + pikos = woodpecker|hamerspecht; uit Grieks sphura = hamer en pikos = specht
+Spilopelia|Fleckentaube; aus griechisch spilos = Fleck und peleia = Taube|spotted dove; from Greek spilos = spot + peleia = dove|gevlekte duif; uit Grieks spilos = vlek en peleia = duif
+Spinus|Zeisig; aus griechisch spinos|siskin; from Greek spinos|sijs; uit Grieks spinos
+Stercorarius|zum Kot gehörig; historisches Missverständnis des Nahrungserwerbs; aus lateinisch stercorarius; zu lateinisch stercus = Kot|of dung; an old misunderstanding of its feeding; from Latin stercorarius; based on Latin stercus = dung|van mest; een oud misverstand over de voedselverwerving; uit Latijn stercorarius; bij Latijn stercus = mest
+Sterna|aus einem alten Seeschwalbennamen; alte englische Seeschwalbennamen Stern, Stearn und Starn|from an old tern name; old English tern names Stern, Stearn and Starn|uit een oude sternennaam; oude Engelse sternennamen Stern, Stearn en Starn
+Sternula|kleine Seeschwalbe; Verkleinerung des Gattungsnamens Sterna = Seeschwalbe|little tern; diminutive of the genus Sterna = tern|kleine stern; verkleinwoord van de geslachtsnaam Sterna = stern
+Streptopelia|Halsbandtaube; aus griechisch streptos = Halsband, Halskette und peleia = Taube|collared dove; from Greek streptos = collar, neck-chain + peleia = dove|halsbandduif; uit Grieks streptos = halsband, halsketting en peleia = duif
+Strix|alter Name einer Eule; aus lateinisch strix|ancient owl name; from Latin strix|oude uilennaam; uit Latijn strix
+Sturnus|Star; aus lateinisch sturnus|starling; from Latin sturnus|spreeuw; uit Latijn sturnus
+Sula|aus einem nordischen Tölpelnamen; norwegisch Sula, aus altnordisch Súla = Tölpel|from a Nordic gannet name; Norwegian Sula, from Old Norse Súla = gannet|uit een Noordse naam voor een gent; Noors Sula, uit Oudnoords Súla = gent
 Surnia|Herkunft nicht sicher geklärt|origin uncertain|oorsprong onzeker|?
-Suthora|übernommener nepalesischer Vogelname|borrowed Nepalese bird name|overgenomen Nepalese vogelnaam
-Sylvia|Waldbewohnerin|woodland dweller|bosbewoonster
-Synthliboramphus|zusammengedrückter Schnabel|compressed bill|samengedrukte snavel
-Syrmaticus|mit langer Schleppe|with a long train|met lange sleep
-Syrrhaptes|zusammengenäht; Bezug auf die verbundenen Zehen|sewn together; refers to the joined toes|aaneengenaaid; verwijst naar de verbonden tenen
-Tachybaptus|Schnelltaucher|fast diver|snelle duiker
-Tachycineta|sich schnell bewegend|moving quickly|snel bewegend
-Tachymarptis|Schnellgreifer|fast catcher|snelle grijper
-Tadorna|übernommener europäischer Brandgansname|borrowed European shelduck name|overgenomen Europese bergeendennaam
-Taeniopygia|Bänderbürzel|banded rump|gebandeerde stuit
-Tarsiger|Sohlenträger|sole bearer|zolendrager
+Suthora|übernommener nepalesischer Vogelname; nepalesisch Suthora, ein Name einer Papageimeise|borrowed Nepalese bird name; Nepalese Suthora, a parrotbill name|overgenomen Nepalese vogelnaam; Nepalees Suthora, een diksnavelmezennaam
+Sylvia|Waldbewohnerin; zu lateinisch silva (auch sylva) = Wald|woodland dweller; related to Latin silva (also sylva) = woodland|bosbewoonster; bij Latijn silva (ook sylva) = bos
+Synthliboramphus|zusammengedrückter Schnabel; aus griechisch sunthlibo = zusammendrücken und rhamphos = Schnabel|compressed bill; from Greek sunthlibo = to compress + rhamphos = bill|samengedrukte snavel; uit Grieks sunthlibo = samendrukken en rhamphos = snavel
+Syrmaticus|mit langer Schleppe; aus griechisch surma|with a long train; from Greek surma|met lange sleep; uit Grieks surma
+Syrrhaptes|zusammengenäht; Bezug auf die verbundenen Zehen; aus griechisch surrhaptos|sewn together; refers to the joined toes; from Greek surrhaptos|aaneengenaaid; verwijst naar de verbonden tenen; uit Grieks surrhaptos
+Tachybaptus|Schnelltaucher; aus griechisch takhus = schnell und bapto = untertauchen|fast diver; from Greek takhus = fast + bapto = to sink under|snelle duiker; uit Grieks takhus = snel en bapto = onderduiken
+Tachycineta|sich schnell bewegend; aus griechisch takhukinētos|moving quickly; from Greek takhukinētos|snel bewegend; uit Grieks takhukinētos
+Tachymarptis|Schnellgreifer; aus griechisch takhus = schnell und marptis = Greifer|fast catcher; from Greek takhus = fast + marptis = seizer|snelle grijper; uit Grieks takhus = snel en marptis = grijper
+Tadorna|übernommener europäischer Brandgansname; über französisch tadorne = Brandgans; die ältere Herleitung ist umstritten|borrowed European shelduck name; via French tadorne = shelduck; the earlier derivation is disputed|overgenomen Europese bergeendennaam; via Frans tadorne = bergeend; de oudere afleiding is omstreden
+Taeniopygia|Bänderbürzel; aus griechisch tainia = Band und puge = Bürzel|banded rump; from Greek tainia = band + puge = rump|gebandeerde stuit; uit Grieks tainia = band en puge = stuit
+Tarsiger|Sohlenträger; aus griechisch tarsos = Fußsohle und lateinisch -ger = tragend|sole bearer; from Greek tarsos = sole of the foot + Latin -ger = bearing|zolendrager; uit Grieks tarsos = voetzool en Latijn -ger = dragend
 Tauraco|übernommener Turakoname; genaue Herkunft unsicher|borrowed turaco name; exact origin uncertain|overgenomen toerakonaam; precieze oorsprong onzeker|?
-Tetrao|alter Name eines Hühnervogels|ancient name for a gamebird|oude naam voor een hoenderachtige
-Tetrastes|mit Tetrao, einem Hühnervogelnamen, verwandt|related to Tetrao, a gamebird name|verwant aan Tetrao, een hoendernaam
-Tetrax|alter Name eines Hühnervogels|ancient name for a gamebird|oude naam voor een hoenderachtige
-Thalassarche|Meeresbeherrscher|sea ruler|zeeheerser
-Thalasseus|Fischer; griechische Berufsbezeichnung, keine Personenwidmung|fisherman; a Greek occupational term, not a dedication to a person|visser; een Griekse beroepsaanduiding, geen persoonsnaam
-Thectocercus|zugespitzter Schwanz|sharpened tail|toegespitste staart
-Theristicus|Ernter, Schnitter|harvester, reaper|oogster, maaier
-Thinornis|Strandvogel|shore bird|strandvogel
-Threskiornis|heiliger Vogel|sacred bird|heilige vogel
-Tichodroma|Mauerläufer|wall runner|muurloper
-Tragopan|alter Name eines sagenhaften Vogels|ancient name for a fabulous bird|oude naam voor een fabelvogel
-Trichoglossus|Haarzunge|hair tongue|haartong
-Tringa|alter Name eines Watvogels|ancient name for a wading bird|oude naam voor een waadvogel
-Trochalopteron|runder Flügel|rounded wing|ronde vleugel
-Troglodytes|Höhlenbewohner|cave dweller|holbewoner
-Turdus|Drossel|thrush|lijster
-Tyrannus|Herrscher, Tyrann|ruler, tyrant|heerser, tiran
-Tyto|Eule|owl|uil
-Upupa|Wiedehopf; lautnachahmender Name|hoopoe; an imitative name|hop; een klanknabootsende naam
-Uraeginthus|Schwanz; mit einem nicht sicher identifizierten antiken Vogelnamen gebildet|tail; combined with an ancient bird name of uncertain identification|staart; gecombineerd met een antieke vogelnaam waarvan de identificatie onzeker is|?
-Uria|alter Name eines Wasservogels|ancient name for a waterbird|oude naam voor een watervogel
-Vanellus|kleiner Fächer; alter Kiebitzname|little fan; an old lapwing name|kleine waaier; een oude kievitnaam
-Vermivora|Wurmfresser|worm eater|wormeneter
-Vidua|Witwe|widow|weduwe
-Vireo|alter Name eines grünen Vogels|ancient name for a green bird|oude naam voor een groene vogel
-Xanthocephalus|Gelbkopf|yellow head|gele kop
+Tetrao|alter Name eines Hühnervogels; aus lateinisch tetrao|ancient name for a gamebird; from Latin tetrao|oude naam voor een hoenderachtige; uit Latijn tetrao
+Tetrastes|mit Tetrao, einem Hühnervogelnamen, verwandt; aus griechisch tetras; griechisch tetras = Hühnervogel und -astes = Handelnder; nach einem antiken Vogelnamen gebildet|related to Tetrao, a gamebird name; from Greek tetras; Greek tetras = gamebird and -astes = agent; formed from an ancient bird name|verwant aan Tetrao, een hoendernaam; uit Grieks tetras; Grieks tetras = hoender en -astes = handelende persoon; gevormd bij een antieke vogelnaam
+Tetrax|alter Name eines Hühnervogels; aus griechisch tetrax|ancient name for a gamebird; from Greek tetrax|oude naam voor een hoenderachtige; uit Grieks tetrax
+Thalassarche|Meeresbeherrscher; aus griechisch thalassa = Meer und arkhe = Herrschaft|sea ruler; from Greek thalassa = sea + arkhe = command|zeeheerser; uit Grieks thalassa = zee en arkhe = heerschappij
+Thalasseus|Fischer; griechische Berufsbezeichnung, keine Personenwidmung; aus griechisch thalasseus|fisherman; a Greek occupational term, not a dedication to a person; from Greek thalasseus|visser; een Griekse beroepsaanduiding, geen persoonsnaam; uit Grieks thalasseus
+Thectocercus|zugespitzter Schwanz; aus griechisch thektos = zugespitzt und kerkos = Schwanz|sharpened tail; from Greek thektos = sharpened + kerkos = tail|toegespitste staart; uit Grieks thektos = toegespitst en kerkos = staart
+Theristicus|Ernter, Schnitter; aus griechisch theristikos|harvester, reaper; from Greek theristikos|oogster, maaier; uit Grieks theristikos
+Thinornis|Strandvogel; aus griechisch this = Strand, Sand und ornis = Vogel|shore bird; from Greek this = beach, sand + ornis = bird|strandvogel; uit Grieks this = strand, zand en ornis = vogel
+Threskiornis|heiliger Vogel; aus griechisch threskeia = religiöse Verehrung und ornis = Vogel|sacred bird; from Greek threskeia = religious worship + ornis = bird|heilige vogel; uit Grieks threskeia = religieuze verering en ornis = vogel
+Tichodroma|Mauerläufer; aus griechisch teikhos = Mauer und -dromos = Läufer|wall runner; from Greek teikhos = wall + -dromos = runner|muurloper; uit Grieks teikhos = muur en -dromos = renner
+Tragopan|alter Name eines sagenhaften Vogels; aus lateinisch tragopan|ancient name for a fabulous bird; from Latin tragopan|oude naam voor een fabelvogel; uit Latijn tragopan
+Trichoglossus|Haarzunge; aus griechisch thrix = Haar und glossa = Zunge|hair tongue; from Greek thrix = hair + glossa = tongue|haartong; uit Grieks thrix = haar en glossa = tong
+Tringa|alter Name eines Watvogels; aus neulateinisch tringa; über griechisch trungas, einen antiken Namen eines nicht sicher bestimmten Watvogels|ancient name for a wading bird; from Modern Latin tringa; via Greek trungas, an ancient name for an unidentified wading bird|oude naam voor een waadvogel; uit Neolatijn tringa; via Grieks trungas, een antieke naam voor een niet zeker geïdentificeerde waadvogel
+Trochalopteron|runder Flügel; aus griechisch trokhalos = rund und pteron = Flügel, Feder|rounded wing; from Greek trokhalos = round + pteron = wing, feather|ronde vleugel; uit Grieks trokhalos = rond en pteron = vleugel, veer
+Troglodytes|Höhlenbewohner; aus griechisch trogle = Höhle und dutes = Taucher|cave dweller; from Greek trogle = cave + dutes = diver|holbewoner; uit Grieks trogle = hol en dutes = duiker
+Turdus|Drossel; aus lateinisch turdus|thrush; from Latin turdus|lijster; uit Latijn turdus
+Tyrannus|Herrscher, Tyrann; aus lateinisch tyrannus|ruler, tyrant; from Latin tyrannus|heerser, tiran; uit Latijn tyrannus
+Tyto|Eule; aus griechisch tuto|owl; from Greek tuto|uil; uit Grieks tuto
+Upupa|Wiedehopf; lautnachahmender Name; aus lateinisch upupa|hoopoe; an imitative name; from Latin upupa|hop; een klanknabootsende naam; uit Latijn upupa
+Uraeginthus|Schwanz; mit einem nicht sicher identifizierten antiken Vogelnamen gebildet; aus griechisch oura = Schwanz und aiginthos = nicht sicher bestimmter Vogel|tail; combined with an ancient bird name of uncertain identification; from Greek oura = tail + aiginthos = unidentified bird|staart; gecombineerd met een antieke vogelnaam waarvan de identificatie onzeker is; uit Grieks oura = staart en aiginthos = niet zeker geïdentificeerde vogel|?
+Uria|alter Name eines Wasservogels; aus griechisch ouria|ancient name for a waterbird; from Greek ouria|oude naam voor een watervogel; uit Grieks ouria
+Vanellus|kleiner Fächer; alter Kiebitzname; zu lateinisch vannus = Getreideschwinge, Fächer|little fan; an old lapwing name; based on Latin vannus = winnowing fan|kleine waaier; een oude kievitnaam; bij Latijn vannus = wan, waaier
+Vermivora|Wurmfresser; aus lateinisch vermis = Wurm und -vorus = fressend|worm eater; from Latin vermis = worm + -vorus = eating|wormeneter; uit Latijn vermis = worm en -vorus = etend
+Vidua|Witwe; aus lateinisch vidua|widow; from Latin vidua|weduwe; uit Latijn vidua
+Vireo|alter Name eines grünen Vogels; aus lateinisch vireo|ancient name for a green bird; from Latin vireo|oude naam voor een groene vogel; uit Latijn vireo
+Xanthocephalus|Gelbkopf; aus griechisch xanthos = gelb und -kephalos = köpfig|yellow head; from Greek xanthos = yellow + -kephalos = headed|gele kop; uit Grieks xanthos = geel en -kephalos = met een kop
 Xema|gebildeter Name ohne sicher belegte Wortbedeutung|coined name without a certain literal meaning|gevormde naam zonder zekere letterlijke betekenis|?
-Xenus|Fremder|stranger|vreemdeling
+Xenus|Fremder; aus griechisch xenos|stranger; from Greek xenos|vreemdeling; uit Grieks xenos
 Zapornia|nach Porzana, einem Rallennamen, umgebildet; kein reines Anagramm|a reshaping of Porzana, a rail name; not an exact anagram|omvorming van Porzana, een rallennaam; geen zuiver anagram|?
 Zenaida|Widmung an Zénaïde Bonaparte, die Frau des Ornithologen Charles Lucien Bonaparte|honours Zénaïde Bonaparte, wife of ornithologist Charles Lucien Bonaparte|genoemd naar Zénaïde Bonaparte, vrouw van ornitholoog Charles Lucien Bonaparte
-Zonotrichia|Bänderhaar|banded hair|gebandeerd haar
-Zoothera|Tierjäger|animal hunter|dierenjager
-Zosterops|Gürtelauge; Bezug auf den Augenring|girdled eye; refers to the eye-ring|gordeloog; verwijst naar de oogring
+Zonotrichia|Bänderhaar; aus griechisch zone = Band, Gürtel und thrix = Haar|banded hair; from Greek zone = band, girdle + thrix = hair|gebandeerd haar; uit Grieks zone = band, gordel en thrix = haar
+Zoothera|Tierjäger; aus griechisch zoon = Tier und -theras = Jäger|animal hunter; from Greek zoon = animal + -theras = hunter|dierenjager; uit Grieks zoon = dier en -theras = jager
+Zosterops|Gürtelauge; Bezug auf den Augenring; aus griechisch zoster = Gürtel und ops = Auge, Gesicht|girdled eye; refers to the eye-ring; from Greek zoster = girdle + ops = eye, face|gordeloog; verwijst naar de oogring; uit Grieks zoster = gordel en ops = oog, gezicht
 Melophus|schwarze Haube; aus griechisch melas (schwarz) und lophos (Haube)|black crest; from Greek melas (black) and lophos (crest)|zwarte kuif; uit Grieks melas (zwart) en lophos (kuif)
 Nannus|Zwerg; aus griechisch nannos|dwarf; from Greek nannos|dwerg; uit Grieks nannos
 Schoeniclus|vom früheren Artnamen der Rohrammer, Fringilla schoeniclus; griechischer Name eines nicht sicher bestimmten kleinen Wasservogels|from the Reed Bunting’s former name, Fringilla schoeniclus; a Greek name for an unidentified small waterside bird|van de vroegere naam van de rietgors, Fringilla schoeniclus; een Griekse naam voor een niet zeker geïdentificeerd klein vogeltje bij het water

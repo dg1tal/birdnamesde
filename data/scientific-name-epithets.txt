@@ -1,543 +1,572 @@
 # Explicitly grouped spelling/gender variants; no runtime suffix guessing.
-acuminata acuta|zugespitzt|pointed|toegespitst
-acuticaudatus caudacutus|spitzschwänzig|pointed-tailed|spitsstaartig
-adscitus|hinzugefügt, aufgenommen|added, admitted|toegevoegd, opgenomen
-aedon|Nachtigall|nightingale|nachtegaal
+acuminata|zugespitzt; aus lateinisch acuminatus|pointed; from Latin acuminatus|toegespitst; uit Latijn acuminatus
+acuta|zugespitzt; aus lateinisch acutus|pointed; from Latin acutus|toegespitst; uit Latijn acutus
+acuticaudatus|spitzschwänzig; aus lateinisch acutus = spitz und cauda = Schwanz|pointed-tailed; from Latin acutus = pointed + cauda = tail|spitsstaartig; uit Latijn acutus = spits en cauda = staart
+caudacutus|spitzschwänzig; aus lateinisch cauda = Schwanz und acutus = spitz|pointed-tailed; from Latin cauda = tail + acutus = pointed|spitsstaartig; uit Latijn cauda = staart en acutus = spits
+adscitus|hinzugefügt, aufgenommen; aus lateinisch adscitus|added, admitted; from Latin adscitus|toegevoegd, opgenomen; uit Latijn adscitus
+aedon|Nachtigall; aus griechisch aedon|nightingale; from Greek aedon|nachtegaal; uit Grieks aedon
 aegyptiaca aegyptius|ägyptisch|Egyptian|Egyptisch
-aeruginosus|rostfarben|rust-coloured|roestkleurig
-aestiva|sommerlich|of summer|van de zomer
-aethereus|zum Himmel gehörig|of the sky|van de hemel
+aeruginosus|rostfarben; aus lateinisch aeruginosus; zu lateinisch aerugo = Kupferrost|rust-coloured; from Latin aeruginosus; based on Latin aerugo = copper rust|roestkleurig; uit Latijn aeruginosus; bij Latijn aerugo = koperroest
+aestiva|sommerlich; aus lateinisch aestivus|of summer; from Latin aestivus|van de zomer; uit Latijn aestivus
+aethereus|zum Himmel gehörig; aus lateinisch aetherius|of the sky; from Latin aetherius|van de hemel; uit Latijn aetherius
 aethiopicus|äthiopisch; historischer Afrikabezug|Ethiopian; a historical African reference|Ethiopisch; een historische verwijzing naar Afrika
 afer africanus|afrikanisch|African|Afrikaans
-affinis|verwandt, ähnlich|related, similar|verwant, gelijkend
-agricola|Bauer, Landwirt|farmer|landbouwer
-alba albus|weiß|white|wit
-albellus albeola|weißlich, kleiner weißer Vogel|whitish, small white bird|witachtig, kleine witte vogel
-albicilla|Weißschwanz|white tail|witte staart
-albicollis|weißhalsig|white-necked|withalzig
-albifrons|weißstirnig|white-fronted|witvoorhoofdig
-alcyon|alter Name eines Eisvogels|ancient kingfisher name|oude ijsvogelnaam
+affinis|verwandt, ähnlich; aus lateinisch adfinis|related, similar; from Latin adfinis|verwant, gelijkend; uit Latijn adfinis
+agricola|Bauer, Landwirt; aus lateinisch ager = Feld und -cola = Bewohner|farmer; from Latin ager = field + -cola = dweller|landbouwer; uit Latijn ager = veld en -cola = bewoner
+alba albus|weiß; aus lateinisch albus|white; from Latin albus|wit; uit Latijn albus
+albellus albeola|weißlich, kleiner weißer Vogel; Verkleinerungsbildung zu lateinisch albus = weiß|whitish, small white bird; a diminutive of Latin albus = white|witachtig, kleine witte vogel; verkleinvorm bij Latijn albus = wit
+albicilla|Weißschwanz; lateinisch albus = weiß und neulateinisch cilla = Schwanz; cilla beruht auf einer historisch irrtümlichen Wortdeutung|white tail; Latin albus = white and Modern Latin cilla = tail; cilla reflects a historical misinterpretation|witte staart; Latijn albus = wit en Neolatijn cilla = staart; cilla berust op een historische verkeerde woorduitleg
+albicollis|weißhalsig; aus lateinisch albus = weiß und collum = Hals|white-necked; from Latin albus = white + collum = neck|withalzig; uit Latijn albus = wit en collum = hals
+albifrons|weißstirnig; aus lateinisch albus = weiß und frons = Stirn|white-fronted; from Latin albus = white + frons = forehead|witvoorhoofdig; uit Latijn albus = wit en frons = voorhoofd
+alcyon|alter Name eines Eisvogels; aus lateinisch alcyon|ancient kingfisher name; from Latin alcyon|oude ijsvogelnaam; uit Latijn alcyon
 alexandrinus|aus Alexandria|of Alexandria|uit Alexandrië
-alnorum|der Erlen|of alders|van elzen
-alpestris alpina|zum Hochgebirge gehörig|of high mountains|van het hooggebergte
-amoena|lieblich, reizvoll|pleasing, charming|lieflijk, bekoorlijk
-anaethetus|unachtsam|heedless|onoplettend
-angustirostris|schmalschnäblig|narrow-billed|smalsnavelig
-anser|Gans|goose|gans
-antiquus|alt, altertümlich|ancient|oud, ouderwets
-apiaster|Bienenfresser|bee-eater|bijeneter
-apivorus|Bienen fressend|bee-eating|bijen etend
-apricaria|sonnige Plätze aufsuchend|seeking sunny places|zonnige plaatsen opzoekend
-apus|fußlos; historischer Seglername, keine anatomische Beschreibung|footless; an old swift name, not an anatomical description|voetloos; een oude gierzwaluwnaam, geen anatomische beschrijving
-aquaticus|zum Wasser gehörig|of water|van het water
-arborea|zum Baum gehörig|of trees|van bomen
+alnorum|der Erlen; aus lateinisch alnorum|of alders; from Latin alnorum|van elzen; uit Latijn alnorum
+alpestris|zum Hochgebirge gehörig; aus lateinisch alpestris|of high mountains; from Latin alpestris|van het hooggebergte; uit Latijn alpestris
+alpina|zum Hochgebirge gehörig; aus lateinisch alpinus|of high mountains; from Latin alpinus|van het hooggebergte; uit Latijn alpinus
+amoena|lieblich, reizvoll; aus lateinisch amoenus|pleasing, charming; from Latin amoenus|lieflijk, bekoorlijk; uit Latijn amoenus
+anaethetus|unachtsam; aus griechisch anaisthētos|heedless; from Greek anaisthētos|onoplettend; uit Grieks anaisthētos
+angustirostris|schmalschnäblig; aus lateinisch angustus = schmal und rostrum = Schnabel|narrow-billed; from Latin angustus = narrow + rostrum = bill|smalsnavelig; uit Latijn angustus = smal en rostrum = snavel
+anser|Gans; aus lateinisch anser|goose; from Latin anser|gans; uit Latijn anser
+antiquus|alt, altertümlich; aus lateinisch antiquus|ancient; from Latin antiquus|oud, ouderwets; uit Latijn antiquus
+apiaster|Bienenfresser; lateinisch apiastra = Bienenfresser, zu apis = Biene|bee-eater; Latin apiastra = bee-eater, related to apis = bee|bijeneter; Latijn apiastra = bijeneter, bij apis = bij
+apivorus|Bienen fressend; aus lateinisch apis = Biene und -vorus = fressend|bee-eating; from Latin apis = bee + -vorus = eating|bijen etend; uit Latijn apis = bij en -vorus = etend
+apricaria|sonnige Plätze aufsuchend; aus lateinisch apricari|seeking sunny places; from Latin apricari|zonnige plaatsen opzoekend; uit Latijn apricari
+apus|fußlos; historischer Seglername, keine anatomische Beschreibung; aus griechisch a- = ohne und pous = Fuß|footless; an old swift name, not an anatomical description; from Greek a- = without + pous = foot|voetloos; een oude gierzwaluwnaam, geen anatomische beschrijving; uit Grieks a- = zonder en pous = voet
+aquaticus|zum Wasser gehörig; aus lateinisch aquaticus; zu lateinisch aqua = Wasser|of water; from Latin aquaticus; based on Latin aqua = water|van het water; uit Latijn aquaticus; bij Latijn aqua = water
+arborea|zum Baum gehörig; aus lateinisch arboreus; zu lateinisch arbor = Baum|of trees; from Latin arboreus; based on Latin arbor = tree|van bomen; uit Latijn arboreus; bij Latijn arbor = boom
 arctica|nördlich, arktisch|northern, Arctic|noordelijk, arctisch
-arcuata|bogenförmig|bow-shaped|boogvormig
-argentatus|versilbert|silvery|verzilverd
-arquata|gebogen; historischer Brachvogelname|curved; an old curlew name|gebogen; een oude wulpennaam
-arundinaceus|zum Schilf gehörig|of reeds|van het riet
-arvensis|zum Acker gehörig|of fields|van akkers
+arcuata|bogenförmig; aus lateinisch arcuatus; zu lateinisch arcus = Bogen|bow-shaped; from Latin arcuatus; based on Latin arcus = bow|boogvormig; uit Latijn arcuatus; bij Latijn arcus = boog
+argentatus|versilbert; aus lateinisch argentatus|silvery; from Latin argentatus|verzilverd; uit Latijn argentatus
+arquata|gebogen; historischer Brachvogelname; aus mittellateinisch arquata|curved; an old curlew name; from Medieval Latin arquata|gebogen; een oude wulpennaam; uit middeleeuws Latijn arquata
+arundinaceus|zum Schilf gehörig; aus lateinisch arundinaceus|of reeds; from Latin arundinaceus|van het riet; uit Latijn arundinaceus
+arvensis|zum Acker gehörig; aus lateinisch arvensis; zu lateinisch arvum = Feld|of fields; from Latin arvensis; based on Latin arvum = field|van akkers; uit Latijn arvensis; bij Latijn arvum = veld
 asiaticus|asiatisch|Asian|Aziatisch
-ater atra|schwarz|black|zwart
-atratus|schwarz gekleidet|clad in black|in zwart gekleed
-atricapilla|schwarzköpfig|black-capped|zwartkoppig
-atricilla|Schwarzschwanz; historisch unpassende Benennung|black tail; a historically inappropriate name|zwarte staart; een historisch onjuiste benaming
-atrifrons|schwarzstirnig|black-fronted|zwartvoorhoofdig
-atrogularis|schwarzkehlig|black-throated|zwartkeelig
-aurea aureola aureolus|golden, goldfarben|golden|goudkleurig
-auritum auritus|mit Ohren versehen|eared|met oren
-aurocapilla|goldköpfig|gold-capped|goudkoppig
-australis|südlich|southern|zuidelijk
-autumnalis|herbstlich|of autumn|van de herfst
-bacchus|Bacchus, Gott des Weines|Bacchus, god of wine|Bacchus, god van de wijn
-barbatus|bärtig|bearded|gebaard
+ater atra|schwarz; aus lateinisch ater|black; from Latin ater|zwart; uit Latijn ater
+atratus|schwarz gekleidet; aus lateinisch atratus|clad in black; from Latin atratus|in zwart gekleed; uit Latijn atratus
+atricapilla|schwarzköpfig; aus lateinisch ater = schwarz und capillus = Kopfhaar|black-capped; from Latin ater = black + capillus = hair of the head|zwartkoppig; uit Latijn ater = zwart en capillus = hoofdhaar
+atricilla|Schwarzschwanz; historisch unpassende Benennung; aus lateinisch ater = schwarz und neulateinisch cilla = Schwanz|black tail; a historically inappropriate name; from Latin ater = black + Modern Latin cilla = tail|zwarte staart; een historisch onjuiste benaming; uit Latijn ater = zwart en Neolatijn cilla = staart
+atrifrons|schwarzstirnig; aus lateinisch ater = schwarz und frons = Stirn|black-fronted; from Latin ater = black + frons = forehead|zwartvoorhoofdig; uit Latijn ater = zwart en frons = voorhoofd
+atrogularis|schwarzkehlig; aus lateinisch ater = schwarz und gula = Kehle|black-throated; from Latin ater = black + gula = throat|zwartkeelig; uit Latijn ater = zwart en gula = keel
+aurea|golden, goldfarben; aus lateinisch aureus; zu lateinisch aurum = Gold|golden; from Latin aureus; based on Latin aurum = gold|goudkleurig; uit Latijn aureus; bij Latijn aurum = goud
+aureola|golden, goldfarben; aus lateinisch aureolus; zu lateinisch aurum = Gold|golden; from Latin aureolus; based on Latin aurum = gold|goudkleurig; uit Latijn aureolus; bij Latijn aurum = goud
+aureolus|golden, goldfarben; lateinisch aureolus = golden, zu aurum = Gold|golden; Latin aureolus = golden, from aurum = gold|goudkleurig; Latijn aureolus = goudkleurig, bij aurum = goud
+auritum auritus|mit Ohren versehen; aus lateinisch auritus; zu lateinisch auris = Ohr|eared; from Latin auritus; based on Latin auris = ear|met oren; uit Latijn auritus; bij Latijn auris = oor
+aurocapilla|goldköpfig; aus lateinisch aurum = Gold und capillus = Kopfhaar|gold-capped; from Latin aurum = gold + capillus = hair of the head|goudkoppig; uit Latijn aurum = goud en capillus = hoofdhaar
+australis|südlich; aus lateinisch australis|southern; from Latin australis|zuidelijk; uit Latijn australis
+autumnalis|herbstlich; aus lateinisch autumnalis|of autumn; from Latin autumnalis|van de herfst; uit Latijn autumnalis
+bacchus|Bacchus, Gott des Weines; aus lateinisch bacchus|Bacchus, god of wine; from Latin bacchus|Bacchus, god van de wijn; uit Latijn bacchus
+barbatus|bärtig; aus lateinisch barbatus; zu lateinisch barba = Bart|bearded; from Latin barbatus; based on Latin barba = beard|gebaard; uit Latijn barbatus; bij Latijn barba = baard
 bernicla|alter Gänsename; mit der Legende der Entstehung aus Entenmuscheln verbunden|old goose name; linked to the legend of geese growing from barnacles|oude ganzennaam; verbonden met de legende dat ganzen uit eendenmossels ontstaan
-bicolor|zweifarbig|two-coloured|tweekleurig
-bimaculata|zweifleckig|two-spotted|tweevlekkig
-borealis|nördlich|northern|noordelijk
-brachydactyla|kurzzehig|short-toed|korttenig
-brachyrhynchus|kurzschnäblig|short-billed|kortsnavelig
-brevipes|kurzfüßig|short-footed|kortvoetig
-bruniceps|braunköpfig|brown-headed|bruinkoppig
-bubo|Uhu|eagle-owl|oehoe
-buccinator|Trompeter|trumpeter|trompetter
-buteo|Bussard|buzzard|buizerd
-cachinnans|laut lachend|laughing loudly|luid lachend
-caerulescens|bläulich|bluish|blauwachtig
-caeruleus|blau|blue|blauw
-caesia|blaugrau|blue-grey|blauwgrijs
+bicolor|zweifarbig; aus lateinisch bi- = zwei und color = Farbe|two-coloured; from Latin bi- = two + color = colour|tweekleurig; uit Latijn bi- = twee en color = kleur
+bimaculata|zweifleckig; aus lateinisch bi- = zwei und maculatus = gefleckt|two-spotted; from Latin bi- = two + maculatus = spotted|tweevlekkig; uit Latijn bi- = twee en maculatus = gevlekt
+borealis|nördlich; aus lateinisch borealis|northern; from Latin borealis|noordelijk; uit Latijn borealis
+brachydactyla|kurzzehig; aus griechisch brakhus = kurz und daktulos = Finger, Zehe|short-toed; from Greek brakhus = short + daktulos = finger, toe|korttenig; uit Grieks brakhus = kort en daktulos = vinger, teen
+brachyrhynchus|kurzschnäblig; aus griechisch brakhus = kurz und rhunkhos = Schnabel|short-billed; from Greek brakhus = short + rhunkhos = bill|kortsnavelig; uit Grieks brakhus = kort en rhunkhos = snavel
+brevipes|kurzfüßig; lateinisch brevis = kurz und pes = Fuß|short-footed; Latin brevis = short and pes = foot|kortvoetig; Latijn brevis = kort en pes = voet
+bruniceps|braunköpfig; aus mittellateinisch brunus = braun und lateinisch caput = Kopf|brown-headed; from Medieval Latin brunus = brown + Latin caput = head|bruinkoppig; uit middeleeuws Latijn brunus = bruin en Latijn caput = kop
+bubo|Uhu; aus lateinisch bubo|eagle-owl; from Latin bubo|oehoe; uit Latijn bubo
+buccinator|Trompeter; aus lateinisch bucinator|trumpeter; from Latin bucinator|trompetter; uit Latijn bucinator
+buteo|Bussard; aus lateinisch buteo|buzzard; from Latin buteo|buizerd; uit Latijn buteo
+cachinnans|laut lachend; aus lateinisch cachinnans|laughing loudly; from Latin cachinnans|luid lachend; uit Latijn cachinnans
+caerulescens|bläulich werdend; lateinische Wortbildung zu caeruleus = blau, mit der Endung -escens für ein Werden oder eine Annäherung an eine Farbe|becoming bluish; a Latin formation from caeruleus = blue, with -escens indicating becoming or approaching a colour|blauwachtig wordend; Latijnse woordvorming bij caeruleus = blauw, met -escens voor een verandering of kleurnuance
+caeruleus|blau; aus lateinisch caeruleus|blue; from Latin caeruleus|blauw; uit Latijn caeruleus
+caesia|blaugrau; aus lateinisch caesius|blue-grey; from Latin caesius|blauwgrijs; uit Latijn caesius
 caffer|historische, heute abwertende Bezeichnung für Bewohner des südlichen Afrikas|historical, now derogatory term for inhabitants of southern Africa|historische, nu beledigende aanduiding voor inwoners van zuidelijk Afrika
-calandra|Kalanderlerche; alter Lerchenname|calandra lark; an old lark name|kalanderleeuwerik; een oude leeuwerikennaam
-caligata|gestiefelt|booted|gelaarsd
-campestris|zum offenen Feld gehörig|of open fields|van open velden
-cana canus|grau, grauweiß|grey, grey-white|grijs, grijswit
+calandra|Kalanderlerche; alter Lerchenname; aus griechisch kalandros|calandra lark; an old lark name; from Greek kalandros|kalanderleeuwerik; een oude leeuwerikennaam; uit Grieks kalandros
+caligata|gestiefelt; aus lateinisch caligatusbooted; zu lateinisch caliga = Stiefel|booted; from Latin caligatusbooted; based on Latin caliga = boot|gelaarsd; uit Latijn caligatusbooted; bij Latijn caliga = laars
+campestris|zum offenen Feld gehörig; aus lateinisch campester; zu lateinisch campus = Feld, Ebene|of open fields; from Latin campester; based on Latin campus = field, plain|van open velden; uit Latijn campester; bij Latijn campus = veld, vlakte
+cana canus|grau, grauweiß; aus lateinisch canus|grey, grey-white; from Latin canus|grijs, grijswit; uit Latijn canus
 canaria|von den Kanarischen Inseln|of the Canary Islands|van de Canarische Eilanden
-cannabina|mit Hanf verbunden|associated with hemp|verbonden met hennep
-canorus|wohlklingend|melodious|welluidend
-cantillans|leise singend, zwitschernd|singing softly, chirping|zacht zingend, tjilpend
-carbo|Kohle; Bezug auf die dunkle Farbe|coal; refers to the dark colour|kool; verwijst naar de donkere kleur
-cardinalis|Kardinal; Bezug auf die rote Kleidung|cardinal; refers to the red robes|kardinaal; verwijst naar de rode kleding
-carduelis|Stieglitz; mit der Distel verbunden|goldfinch; associated with thistles|putter; verbonden met distels
-caryocatactes|Nussknacker|nut breaker|notenkraker
+cannabina|mit Hanf verbunden; lateinisch cannabinus = aus Hanf, zu cannabis = Hanf; der Name verweist auf Nahrungspflanzen|associated with hemp; Latin cannabinus = made of hemp, from cannabis = hemp; refers to food plants|verbonden met hennep; Latijn cannabinus = van hennep, bij cannabis = hennep; verwijst naar voedselplanten
+canorus|wohlklingend; aus lateinisch canorus|melodious; from Latin canorus|welluidend; uit Latijn canorus
+cantillans|leise singend, zwitschernd; aus lateinisch cantillans|singing softly, chirping; from Latin cantillans|zacht zingend, tjilpend; uit Latijn cantillans
+carbo|Kohle; Bezug auf die dunkle Farbe; aus lateinisch carbo|coal; refers to the dark colour; from Latin carbo|kool; verwijst naar de donkere kleur; uit Latijn carbo
+cardinalis|Kardinal; Bezug auf die rote Kleidung; aus mittellateinisch cardinalis|cardinal; refers to the red robes; from Medieval Latin cardinalis|kardinaal; verwijst naar de rode kleding; uit middeleeuws Latijn cardinalis
+carduelis|Stieglitz; mit der Distel verbunden; aus lateinisch carduelis; lateinisch carduelis = Stieglitz, zu carduus = Distel|goldfinch; associated with thistles; from Latin carduelis; Latin carduelis = goldfinch, related to carduus = thistle|putter; verbonden met distels; uit Latijn carduelis; Latijn carduelis = putter, bij carduus = distel
+caryocatactes|Nussknacker; griechisch karyon = Nuss und katagnumi = zerbrechen|nut breaker; Greek karyon = nut and katagnumi = to shatter|notenkraker; Grieks karyon = noot en katagnumi = verbrijzelen
 caspia|vom Kaspischen Meer|of the Caspian Sea|van de Kaspische Zee
-castanea|kastanienbraun|chestnut-coloured|kastanjebruin
-castaneothorax|kastanienbraune Brust|chestnut breast|kastanjebruine borst
-caudatus|mit einem Schwanz versehen|tailed|met een staart
-cedrorum|der Zedern, hier auch Wacholder gemeint|of cedars, also referring here to junipers|van ceders, hier ook verwijzend naar jeneverbessen
-certhiola|kleiner baumläuferartiger Vogel|small treecreeper-like bird|kleine boomkruiperachtige vogel
-cervinus|hirschfarben, bräunlich|deer-coloured, brownish|hertkleurig, bruinachtig
-chalybaeus|stahlfarben|steel-coloured|staalkleurig
-chloris|Grünfink|greenfinch|groenling
-chloropterus|grünflügelig|green-winged|groenvleugelig
-chloropus|grünfüßig|green-footed|groenvoetig
-chrysaetos|Goldadler|golden eagle|gouden arend
-chrysophrys|goldbrauig|golden-browed|goudwenkbrauwig
-chrysoptera|goldflügelig|golden-winged|goudvleugelig
-ciconia|Storch|stork|ooievaar
-cinclus|alter Name eines kleinen Wasservogels|ancient name for a small waterside bird|oude naam voor een kleine watervogel
-cinerascens|aschgrau werdend|becoming ash-grey|asgrijs wordend
-cinerea cinereus|aschgrau|ash-grey|asgrijs
-cioides|dem Vogel mit dem Namen cia ähnlich|resembling the bird named cia|lijkend op de vogel met de naam cia
-ciris|Kiris, Vogel aus einer griechischen Verwandlungssage|Ciris, a bird in a Greek transformation myth|Ciris, een vogel uit een Griekse veranderingsmythe
-cirrhata|gelockt, mit Kopfschmuck|curled, crested|gekruld, met kopversiering
-cirrocephalus|als grauköpfig gemeint; Wortbildung unklar, da der griechische Farbstamm gelblich bedeutet|intended as grey-headed; formation unclear because the Greek colour stem means yellowish|bedoeld als grijskoppig; woordvorming onduidelijk omdat de Griekse kleurstam geelachtig betekent|?
-citreola citrina|zitronengelb|lemon-yellow|citroengeel
-clamator|Schreier; alter Eulenname|shouter; an ancient owl name|schreeuwer; een oude uilennaam
-clanga|schreiender Adler|screaming eagle|schreeuwende arend
-clangula|kleiner Rufer|small caller|kleine roeper
-clypeata|mit einem Schild versehen; Bezug auf den breiten Schnabel|shield-bearing; refers to the broad bill|schilddragend; verwijst naar de brede snavel
-coccothraustes|Kernzerbrecher|kernel breaker|pittenbreker
-coelebs|unverheiratet; Bezug auf historische Beobachtungen getrennt überwinternder Geschlechter|unmarried; refers to historical observations of the sexes wintering separately|ongehuwd; verwijst naar historische waarnemingen van gescheiden overwinterende geslachten
-coelestis|himmlisch|heavenly|hemels
+castanea|kastanienbraun; aus lateinisch castaneus|chestnut-coloured; from Latin castaneus|kastanjebruin; uit Latijn castaneus
+castaneothorax|kastanienbraune Brust; aus lateinisch castaneus = kastanienbraun und thorax = Brust|chestnut breast; from Latin castaneus = chestnut-brown + thorax = breast|kastanjebruine borst; uit Latijn castaneus = kastanjebruin en thorax = borst
+caudatus|mit einem Schwanz versehen; aus lateinisch caudatus; zu lateinisch cauda = Schwanz|tailed; from Latin caudatus; based on Latin cauda = tail|met een staart; uit Latijn caudatus; bij Latijn cauda = staart
+cedrorum|der Zedern, hier auch Wacholder gemeint; aus lateinisch cedrorum; zu lateinisch cedrus = Zeder|of cedars, also referring here to junipers; from Latin cedrorum; based on Latin cedrus = cedar|van ceders, hier ook verwijzend naar jeneverbessen; uit Latijn cedrorum; bij Latijn cedrus = ceder
+certhiola|kleiner baumläuferartiger Vogel; Verkleinerung des Gattungsnamens Certhia = Baumläufer|small treecreeper-like bird; diminutive of the genus Certhia = treecreeper|kleine boomkruiperachtige vogel; verkleinwoord van de geslachtsnaam Certhia = boomkruiper
+cervinus|hirschfarben, bräunlich; aus lateinisch cervinus|deer-coloured, brownish; from Latin cervinus|hertkleurig, bruinachtig; uit Latijn cervinus
+chalybaeus|stahlfarben; aus lateinisch chalybeius|steel-coloured; from Latin chalybeius|staalkleurig; uit Latijn chalybeius
+chloris|Grünfink; aus griechisch khloris|greenfinch; from Greek khloris|groenling; uit Grieks khloris
+chloropterus|grünflügelig; aus griechisch khloros = grün, gelbgrün und pteron = Flügel, Feder|green-winged; from Greek khloros = green, yellow-green + pteron = wing, feather|groenvleugelig; uit Grieks khloros = groen, geelgroen en pteron = vleugel, veer
+chloropus|grünfüßig; aus griechisch khloros = grün, gelbgrün und pous = Fuß|green-footed; from Greek khloros = green, yellow-green + pous = foot|groenvoetig; uit Grieks khloros = groen, geelgroen en pous = voet
+chrysaetos|Goldadler; aus griechisch khrusos = Gold und aetos = Adler|golden eagle; from Greek khrusos = gold + aetos = eagle|gouden arend; uit Grieks khrusos = goud en aetos = arend
+chrysophrys|goldbrauig; aus griechisch khrusos = Gold und ophrus = Augenbraue|golden-browed; from Greek khrusos = gold + ophrus = eyebrow|goudwenkbrauwig; uit Grieks khrusos = goud en ophrus = wenkbrauw
+chrysoptera|goldflügelig; aus griechisch khrusos = Gold und pteron = Flügel, Feder|golden-winged; from Greek khrusos = gold + pteron = wing, feather|goudvleugelig; uit Grieks khrusos = goud en pteron = vleugel, veer
+ciconia|Storch; aus lateinisch ciconia|stork; from Latin ciconia|ooievaar; uit Latijn ciconia
+cinclus|alter Name eines kleinen Wasservogels; aus griechisch kinklos|ancient name for a small waterside bird; from Greek kinklos|oude naam voor een kleine watervogel; uit Grieks kinklos
+cinerascens|aschgrau werdend; aus spätlateinisch cinerescens; zu lateinisch cinis = Asche|becoming ash-grey; from Late Latin cinerescens; based on Latin cinis = ash|asgrijs wordend; uit Laatlatijn cinerescens; bij Latijn cinis = as
+cinerea cinereus|aschgrau; aus lateinisch cinereus; zu lateinisch cinis = Asche|ash-grey; from Latin cinereus; based on Latin cinis = ash|asgrijs; uit Latijn cinereus; bij Latijn cinis = as
+cioides|dem Vogel mit dem Namen cia ähnlich; verbindet cia, den Artnamen der Zippammer, mit griechisch -oides = ähnlich|resembling the bird named cia; combines cia, the Rock Bunting’s epithet, with Greek -oides = resembling|lijkend op de vogel met de naam cia; verbindt cia, de soortnaam van de grijze gors, met Grieks -oides = gelijkend op
+ciris|Kiris, Vogel aus einer griechischen Verwandlungssage; aus lateinisch ciris|Ciris, a bird in a Greek transformation myth; from Latin ciris|Ciris, een vogel uit een Griekse veranderingsmythe; uit Latijn ciris
+cirrhata|gelockt, mit Kopfschmuck; aus lateinisch cirratus; zu lateinisch cirrus = Haarlocke|curled, crested; from Latin cirratus; based on Latin cirrus = curl of hair|gekruld, met kopversiering; uit Latijn cirratus; bij Latijn cirrus = haarlok
+cirrocephalus|als grauköpfig gemeint; Wortbildung unklar, da der griechische Farbstamm gelblich bedeutet; griechisch kirrhos = gelblich, orangebraun und kephale = Kopf; die beabsichtigte graue Farbe stimmt nicht mit der griechischen Grundbedeutung überein|intended as grey-headed; formation unclear because the Greek colour stem means yellowish; Greek kirrhos = yellowish, orange-brown and kephale = head; the intended grey colour differs from the Greek root meaning|bedoeld als grijskoppig; woordvorming onduidelijk omdat de Griekse kleurstam geelachtig betekent; Grieks kirrhos = geelachtig, oranjebruin en kephale = kop; de bedoelde grijze kleur wijkt af van de Griekse grondbetekenis|?
+citreola|zitronengelb; aus neulateinisch citreolus|lemon-yellow; from Modern Latin citreolus|citroengeel; uit Neolatijn citreolus
+citrina|zitronengelb; aus lateinisch citrinus|lemon-yellow; from Latin citrinus|citroengeel; uit Latijn citrinus
+clamator|Schreier; alter Eulenname; aus lateinisch clamator|shouter; an ancient owl name; from Latin clamator|schreeuwer; een oude uilennaam; uit Latijn clamator
+clanga|schreiender Adler; aus griechisch klangos|screaming eagle; from Greek klangos|schreeuwende arend; uit Grieks klangos
+clangula|kleiner Rufer; Verkleinerungsbildung zu lateinisch clangere = erschallen|small caller; diminutive formation from Latin clangere = to resound|kleine roeper; verkleinvorm bij Latijn clangere = weerklinken
+clypeata|mit einem Schild versehen; Bezug auf den breiten Schnabel; lateinisch clypeatus = schildtragend, zu clypeus = Schild|shield-bearing; refers to the broad bill; Latin clypeatus = shield-bearing, from clypeus = shield|schilddragend; verwijst naar de brede snavel; Latijn clypeatus = schilddragend, bij clypeus = schild
+coccothraustes|Kernzerbrecher; aus griechisch kokkos = Kern, Samen und thrauo = zerbrechen|kernel breaker; from Greek kokkos = kernel, seed + thrauo = to break|pittenbreker; uit Grieks kokkos = pit, zaad en thrauo = breken
+coelebs|unverheiratet; Bezug auf historische Beobachtungen getrennt überwinternder Geschlechter; aus lateinisch caelebs|unmarried; refers to historical observations of the sexes wintering separately; from Latin caelebs|ongehuwd; verwijst naar historische waarnemingen van gescheiden overwinterende geslachten; uit Latijn caelebs
+coelestis|himmlisch; aus lateinisch coelestis|heavenly; from Latin coelestis|hemels; uit Latijn coelestis
 colchicus|aus Kolchis, einer historischen Region am Schwarzen Meer|of Colchis, a historical Black Sea region|uit Colchis, een historische streek aan de Zwarte Zee
-collaris|mit Halsband|collared|met halsband
-collurio|antiker Vogelname; Zuordnung zu Würgern oder Drosseln unsicher|ancient bird name; identification as a shrike or thrush uncertain|antieke vogelnaam; identificatie als klauwier of lijster onzeker|?
-collybita|Geldwechsler; der Gesang wurde mit Münzklang verglichen|money changer; the song was compared with clinking coins|geldwisselaar; de zang werd met klinkende munten vergeleken
-columbarius|taubenartig, zu Tauben gehörig|pigeon-like, of pigeons|duifachtig, van duiven
-communis|gewöhnlich, verbreitet|common, widespread|gewoon, algemeen
-conspicillata|mit Brille|spectacled|met bril
-corax|Rabe|raven|raaf
-cornix corone|Krähe|crow|kraai
-coronata coronatus|gekrönt|crowned|gekroond
-coturnix|Wachtel|quail|kwartel
-crassirostris|dickschnäblig|thick-billed|diksnavelig
-crex|alter, lautnachahmender Rallenname|ancient, imitative rail name|oude klanknabootsende rallennaam
-crispus|gekräuselt|curled|gekruld
-cristata cristatus|mit Haube|crested|met kuif
-cristatellus|mit kleiner Haube|small-crested|met kleine kuif
-crumenifer|Beutelträger; Bezug auf den Kehlsack|pouch bearer; refers to the throat pouch|buideldrager; verwijst naar de keelzak
-cucullatus|mit Kapuze|hooded|met kap
-cuneata|keilförmig|wedge-shaped|wigvormig
-cunicularia|in Erdhöhlen lebend|living in burrows|in holen levend
-curruca|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
-cursor|Läufer|runner|renner
-curvirostra|krummschnäblig|curved-billed|kromsnavelig
-cyane cyanea cyaneus cyanus|blau, dunkelblau|blue, dark blue|blauw, donkerblauw
-cyanocephala|blauköpfig|blue-headed|blauwkoppig
-cyanoptera|blauflügelig|blue-winged|blauwvleugelig
-cyanotis|blauohrig|blue-eared|met blauwe oren
-cyanurus|blauschwänzig|blue-tailed|blauwstaartig
-cygnoides|schwanenähnlich|swan-like|zwaanachtig
-cygnus|Schwan|swan|zwaan
-decaocto|achtzehn; mit einer griechischen Sage verbunden|eighteen; associated with a Greek legend|achttien; verbonden met een Griekse legende
-delicata|zart, fein|delicate|teer, fijn
-deserta deserti|zur Wüste gehörig|of the desert|van de woestijn
-discolor|verschiedenfarbig|differently coloured|verschillend gekleurd
-discors|abweichend, ungleich|differing, unlike|afwijkend, ongelijk
-dissimilis|unähnlich|dissimilar|ongelijkend
-domesticus|zum Haus gehörig|of the house|van het huis
-dubius|zweifelhaft|doubtful|twijfelachtig
-dumetorum|der Gebüsche|of thickets|van struikgewas
-eburnea|elfenbeinfarben|ivory-coloured|ivoorkleurig
-elegans|elegant, geschmackvoll|elegant|elegant
-enucleator|Kernentferner|kernel remover|pittenverwijderaar
-epops|Wiedehopf|hoopoe|hop
-eremita|Einsiedler|hermit|kluizenaar
-erithacus|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
-erythrinus|rot|red|rood
-erythropthalmus|rotäugig|red-eyed|roodogig
-erythropus|rotfüßig|red-footed|roodvoetig
-erythrorhyncha|rotschnäblig|red-billed|roodsnavelig
-eunomus|wohlgeordnet|well ordered|goed geordend
-eupatria|von edler Herkunft|of noble ancestry|van edele afkomst
+collaris|mit Halsband; aus lateinisch collaris; zu lateinisch collum = Hals|collared; from Latin collaris; based on Latin collum = neck|met halsband; uit Latijn collaris; bij Latijn collum = hals
+collurio|antiker Vogelname; Zuordnung zu Würgern oder Drosseln unsicher; aus griechisch kollourion, einem antiken Vogelnamen; die Artzuordnung bleibt unsicher|ancient bird name; identification as a shrike or thrush uncertain; from Greek kollourion, an ancient bird name; the species identification remains uncertain|antieke vogelnaam; identificatie als klauwier of lijster onzeker; uit Grieks kollourion, een antieke vogelnaam; de soortidentificatie blijft onzeker|?
+collybita|Geldwechsler; der Gesang wurde mit Münzklang verglichen; aus lateinisch collybista|money changer; the song was compared with clinking coins; from Latin collybista|geldwisselaar; de zang werd met klinkende munten vergeleken; uit Latijn collybista
+columbarius|taubenartig, zu Tauben gehörig; aus lateinisch columbarius|pigeon-like, of pigeons; from Latin columbarius|duifachtig, van duiven; uit Latijn columbarius
+communis|gewöhnlich, verbreitet; aus lateinisch communis|common, widespread; from Latin communis|gewoon, algemeen; uit Latijn communis
+conspicillata|mit Brille; aus lateinisch conspicillum|spectacled; from Latin conspicillum|met bril; uit Latijn conspicillum
+corax|Rabe; aus griechisch korax|raven; from Greek korax|raaf; uit Grieks korax
+cornix|Krähe; aus lateinisch cornix|crow; from Latin cornix|kraai; uit Latijn cornix
+corone|Krähe; aus griechisch korone|crow; from Greek korone|kraai; uit Grieks korone
+coronata coronatus|gekrönt; aus lateinisch coronatus; zu lateinisch corona = Krone|crowned; from Latin coronatus; based on Latin corona = crown|gekroond; uit Latijn coronatus; bij Latijn corona = kroon
+coturnix|Wachtel; aus lateinisch coturnix|quail; from Latin coturnix|kwartel; uit Latijn coturnix
+crassirostris|dickschnäblig; aus lateinisch crassus = dick und rostrum = Schnabel|thick-billed; from Latin crassus = thick + rostrum = bill|diksnavelig; uit Latijn crassus = dik en rostrum = snavel
+crex|alter, lautnachahmender Rallenname; aus griechisch krex|ancient, imitative rail name; from Greek krex|oude klanknabootsende rallennaam; uit Grieks krex
+crispus|gekräuselt; aus lateinisch crispus|curled; from Latin crispus|gekruld; uit Latijn crispus
+cristata cristatus|mit Haube; aus lateinisch cristatus; zu lateinisch crista = Haube|crested; from Latin cristatus; based on Latin crista = crest|met kuif; uit Latijn cristatus; bij Latijn crista = kuif
+cristatellus|mit kleiner Haube; Verkleinerung von lateinisch cristatus = mit Haube, zu crista = Haube|small-crested; diminutive of Latin cristatus = crested, from crista = crest|met kleine kuif; verkleinwoord van Latijn cristatus = met kuif, bij crista = kuif
+crumenifer|Beutelträger; Bezug auf den Kehlsack; aus lateinisch crumena = Beutel und -fer = tragend|pouch bearer; refers to the throat pouch; from Latin crumena = pouch + -fer = carrying|buideldrager; verwijst naar de keelzak; uit Latijn crumena = buidel en -fer = dragend
+cucullatus|mit Kapuze; aus spätlateinisch cucullatus; zu lateinisch cucullus = Kapuze|hooded; from Late Latin cucullatus; based on Latin cucullus = hood|met kap; uit Laatlatijn cucullatus; bij Latijn cucullus = kap
+cuneata|keilförmig; aus lateinisch cuneatus; zu lateinisch cuneus = Keil|wedge-shaped; from Latin cuneatus; based on Latin cuneus = wedge|wigvormig; uit Latijn cuneatus; bij Latijn cuneus = wig
+cunicularia|in Erdhöhlen lebend; aus lateinisch cunicularius; zu lateinisch cuniculus = unterirdischer Gang|living in burrows; from Latin cunicularius; based on Latin cuniculus = underground passage|in holen levend; uit Latijn cunicularius; bij Latijn cuniculus = onderaardse gang
+curruca|alter Name eines kleinen Vogels; aus lateinisch curruca|ancient name for a small bird; from Latin curruca|oude naam voor een kleine vogel; uit Latijn curruca
+cursor|Läufer; lateinisch cursor = Läufer, zu currere = laufen|runner; Latin cursor = runner, from currere = to run|renner; Latijn cursor = renner, bij currere = rennen
+curvirostra|krummschnäblig; aus lateinisch curvus = gekrümmt und rostrum = Schnabel|curved-billed; from Latin curvus = curved + rostrum = bill|kromsnavelig; uit Latijn curvus = gekromd en rostrum = snavel
+cyane cyanea cyaneus|blau, dunkelblau; aus lateinisch cyaneus|blue, dark blue; from Latin cyaneus|blauw, donkerblauw; uit Latijn cyaneus
+cyanus|blau, dunkelblau; aus griechisch kuanos|blue, dark blue; from Greek kuanos|blauw, donkerblauw; uit Grieks kuanos
+cyanocephala|blauköpfig; aus griechisch kuanos = dunkelblau und kephale = Kopf|blue-headed; from Greek kuanos = dark blue + kephale = head|blauwkoppig; uit Grieks kuanos = donkerblauw en kephale = kop
+cyanoptera|blauflügelig; aus griechisch kuanos = dunkelblau und pteron = Flügel, Feder|blue-winged; from Greek kuanos = dark blue + pteron = wing, feather|blauwvleugelig; uit Grieks kuanos = donkerblauw en pteron = vleugel, veer
+cyanotis|blauohrig; aus griechisch kuanos = dunkelblau und ous = Ohr|blue-eared; from Greek kuanos = dark blue + ous = ear|met blauwe oren; uit Grieks kuanos = donkerblauw en ous = oor
+cyanurus|blauschwänzig; aus griechisch kuanos = dunkelblau und oura = Schwanz|blue-tailed; from Greek kuanos = dark blue + oura = tail|blauwstaartig; uit Grieks kuanos = donkerblauw en oura = staart
+cygnoides|schwanenähnlich; lateinisch cygnus = Schwan und griechisch -oides = ähnlich|swan-like; Latin cygnus = swan and Greek -oides = resembling|zwaanachtig; Latijn cygnus = zwaan en Grieks -oides = gelijkend op
+cygnus|Schwan; aus lateinisch cygnus|swan; from Latin cygnus|zwaan; uit Latijn cygnus
+decaocto|achtzehn; aus griechisch deka = zehn und okto = acht. Mit einer griechischen Sage über eine schlecht entlohnte Magd verbunden|eighteen; from Greek deka = ten and okto = eight. Linked to a Greek legend about a poorly paid maidservant|achttien; uit Grieks deka = tien en okto = acht. Verbonden met een Griekse sage over een slecht betaalde dienstmeid
+delicata|zart, fein; aus lateinisch delicatus|delicate; from Latin delicatus|teer, fijn; uit Latijn delicatus
+deserta|zur Wüste gehörig; aus lateinisch desertus|of the desert; from Latin desertus|van de woestijn; uit Latijn desertus
+deserti|zur Wüste gehörig; aus lateinisch desertum|of the desert; from Latin desertum|van de woestijn; uit Latijn desertum
+discolor|verschiedenfarbig; aus lateinisch discolor|differently coloured; from Latin discolor|verschillend gekleurd; uit Latijn discolor
+discors|abweichend, ungleich; aus lateinisch discors|differing, unlike; from Latin discors|afwijkend, ongelijk; uit Latijn discors
+dissimilis|unähnlich; aus lateinisch dissimilis|dissimilar; from Latin dissimilis|ongelijkend; uit Latijn dissimilis
+domesticus|zum Haus gehörig; aus lateinisch domesticus; zu lateinisch domus = Haus|of the house; from Latin domesticus; based on Latin domus = house|van het huis; uit Latijn domesticus; bij Latijn domus = huis
+dubius|zweifelhaft; aus lateinisch dubius|doubtful; from Latin dubius|twijfelachtig; uit Latijn dubius
+dumetorum|der Gebüsche; aus lateinisch dumetorum; zu lateinisch dumetum = Gebüsch|of thickets; from Latin dumetorum; based on Latin dumetum = thicket|van struikgewas; uit Latijn dumetorum; bij Latijn dumetum = struikgewas
+eburnea|elfenbeinfarben; aus lateinisch eburneus|ivory-coloured; from Latin eburneus|ivoorkleurig; uit Latijn eburneus
+elegans|elegant, geschmackvoll; aus lateinisch elegans|elegant; from Latin elegans|elegant; uit Latijn elegans
+enucleator|Kernentferner; lateinisch enucleare = den Kern entfernen, aus e- = heraus und nucleus = Kern|kernel remover; Latin enucleare = to remove the kernel, from e- = out and nucleus = kernel|pittenverwijderaar; Latijn enucleare = de pit verwijderen, uit e- = uit en nucleus = pit
+epops|Wiedehopf; aus griechisch epops|hoopoe; from Greek epops|hop; uit Grieks epops
+eremita|Einsiedler; aus lateinisch eremita|hermit; from Latin eremita|kluizenaar; uit Latijn eremita
+erithacus|alter Name eines kleinen Vogels; aus griechisch erithakos|ancient name for a small bird; from Greek erithakos|oude naam voor een kleine vogel; uit Grieks erithakos
+erythrinus|rot; aus lateinisch erythros|red; from Latin erythros|rood; uit Latijn erythros
+erythropthalmus|rotäugig; aus griechisch eruthros = rot und ophthalmos = Auge|red-eyed; from Greek eruthros = red + ophthalmos = eye|roodogig; uit Grieks eruthros = rood en ophthalmos = oog
+erythropus|rotfüßig; aus griechisch eruthros = rot und pous = Fuß|red-footed; from Greek eruthros = red + pous = foot|roodvoetig; uit Grieks eruthros = rood en pous = voet
+erythrorhyncha|rotschnäblig; aus griechisch eruthros = rot und rhunkhos = Schnabel|red-billed; from Greek eruthros = red + rhunkhos = bill|roodsnavelig; uit Grieks eruthros = rood en rhunkhos = snavel
+eunomus|wohlgeordnet; aus griechisch eunomos|well ordered; from Greek eunomos|goed geordend; uit Grieks eunomos
+eupatria|von edler Herkunft; aus griechisch eupatereia|of noble ancestry; from Greek eupatereia|van edele afkomst; uit Grieks eupatereia
 europaea europaeus|europäisch|European|Europees
-excubitor|Wächter|sentinel|schildwacht
-exilis|klein, schlank|small, slender|klein, slank
-eximius|außergewöhnlich|exceptional|uitzonderlijk
-fabalis|zu Bohnen gehörig|of beans|van bonen
-falcata|sichelförmig|sickle-shaped|sikkelvormig
-familiaris|vertraut, zum Haus gehörig|familiar, of the household|vertrouwd, huiselijk
-farinosa|mehlig, bestäubt|mealy, dusted|melig, bestoven
-fasciata|gebändert|banded|gebandeerd
-ferina|wild, zum Wild gehörig|wild, of game|wild, van het wild
-ferruginea|rostfarben|rust-coloured|roestkleurig
-flammea flammeus|flammenfarben|flame-coloured|vlamkleurig
-flava|gelb|yellow|geel
-flaveola|gelblich|yellowish|geelachtig
-flavifrons|gelbstirnig|yellow-fronted|geelvoorhoofdig
-flavipes|gelbfüßig|yellow-footed|geelvoetig
-flavirostra flavirostris|gelbschnäblig|yellow-billed|geelsnavelig
-flaviventris|gelbbäuchig|yellow-bellied|geelbuikig
-fluviatilis|zum Fluss gehörig|of rivers|van rivieren
-formosa|schön; hier kein Bezug zur Insel Taiwan|beautiful; not a reference here to Taiwan|mooi; hier geen verwijzing naar Taiwan
+excubitor|Wächter; aus lateinisch excubitor|sentinel; from Latin excubitor|schildwacht; uit Latijn excubitor
+exilis|klein, schlank; aus lateinisch exilis|small, slender; from Latin exilis|klein, slank; uit Latijn exilis
+eximius|außergewöhnlich; aus lateinisch eximius|exceptional; from Latin eximius|uitzonderlijk; uit Latijn eximius
+fabalis|zu Bohnen gehörig; aus lateinisch fabalis; zu lateinisch faba = Bohne|of beans; from Latin fabalis; based on Latin faba = bean|van bonen; uit Latijn fabalis; bij Latijn faba = boon
+falcata|sichelförmig; zu lateinisch falx = Sichel|sickle-shaped; based on Latin falx = sickle|sikkelvormig; bij Latijn falx = sikkel
+familiaris|vertraut, zum Haus gehörig; aus lateinisch familiaris|familiar, of the household; from Latin familiaris|vertrouwd, huiselijk; uit Latijn familiaris
+farinosa|mehlig, bestäubt; aus lateinisch farinosus; zu lateinisch farina = Mehl|mealy, dusted; from Latin farinosus; based on Latin farina = flour|melig, bestoven; uit Latijn farinosus; bij Latijn farina = meel
+fasciata|gebändert; aus spätlateinisch fasciatus; zu lateinisch fascia = Band|banded; from Late Latin fasciatus; based on Latin fascia = band|gebandeerd; uit Laatlatijn fasciatus; bij Latijn fascia = band
+ferina|wild, zum Wild gehörig; aus lateinisch ferinus|wild, of game; from Latin ferinus|wild, van het wild; uit Latijn ferinus
+ferruginea|rostfarben; aus lateinisch ferrugineus; zu lateinisch ferrugo = Eisenrost|rust-coloured; from Latin ferrugineus; based on Latin ferrugo = iron rust|roestkleurig; uit Latijn ferrugineus; bij Latijn ferrugo = ijzerroest
+flammea|flammenfarben; zu lateinisch flamma = Flamme|flame-coloured; based on Latin flamma = flame|vlamkleurig; bij Latijn flamma = vlam
+flammeus|flammenfarben; aus lateinisch flammeus; zu lateinisch flamma = Flamme|flame-coloured; from Latin flammeus; based on Latin flamma = flame|vlamkleurig; uit Latijn flammeus; bij Latijn flamma = vlam
+flava|gelb; aus lateinisch flavus|yellow; from Latin flavus|geel; uit Latijn flavus
+flaveola|gelblich; Verkleinerungsbildung zu lateinisch flavus = gelb|yellowish; diminutive formation from Latin flavus = yellow|geelachtig; verkleinvorm bij Latijn flavus = geel
+flavifrons|gelbstirnig; aus lateinisch flavus = gelb und frons = Stirn|yellow-fronted; from Latin flavus = yellow + frons = forehead|geelvoorhoofdig; uit Latijn flavus = geel en frons = voorhoofd
+flavipes|gelbfüßig; aus lateinisch flavus = gelb und pes = Fuß|yellow-footed; from Latin flavus = yellow + pes = foot|geelvoetig; uit Latijn flavus = geel en pes = voet
+flavirostra flavirostris|gelbschnäblig; aus lateinisch flavus = gelb und rostrum = Schnabel|yellow-billed; from Latin flavus = yellow + rostrum = bill|geelsnavelig; uit Latijn flavus = geel en rostrum = snavel
+flaviventris|gelbbäuchig; aus lateinisch flavus = gelb und venter = Bauch|yellow-bellied; from Latin flavus = yellow + venter = belly|geelbuikig; uit Latijn flavus = geel en venter = buik
+fluviatilis|zum Fluss gehörig; aus lateinisch fluviatilis|of rivers; from Latin fluviatilis|van rivieren; uit Latijn fluviatilis
+formosa|schön; hier kein Bezug zur Insel Taiwan; aus lateinisch formosus|beautiful; not a reference here to Taiwan; from Latin formosus|mooi; hier geen verwijzing naar Taiwan; uit Latijn formosus
 franciscanus|franziskanisch; Bezug auf die Kleidung des Ordens|Franciscan; refers to the order's clothing|franciscaans; verwijst naar de kleding van de orde
-frugilegus|Früchte sammelnd|gathering fruits|vruchten verzamelend
-fucata|bemalt|painted|beschilderd
-fulicarius|blässhuhnartig|coot-like|meerkoetachtig
-fuligula|Rußkehle|sooty throat|roetkeel
-fulva fulvus|gelbbraun|tawny|geelbruin
-funereus|düster, zum Begräbnis gehörig|gloomy, funereal|somber, rouwachtig
-fusca fuscus|dunkelbraun, dunkel|dark brown, dusky|donkerbruin, donker
-fuscescens|bräunlich, dunkel werdend|brownish, becoming dusky|bruinachtig, donker wordend
-fuscatus|verdunkelt, dunkel gefärbt|darkened, dusky|donker gekleurd
-fuscicollis|braunhalsig|brown-necked|bruinhalzig
-galactotes|milchfarben|milk-coloured|melkkleurig
-galbula|alter Name des Pirols|ancient oriole name|oude wielewaalnaam
-galericulata|mit kleiner Kappe|small-capped|met kleine kap
-galerita|mit Haube|crested|met kuif
+frugilegus|Früchte sammelnd; aus lateinisch frux = Frucht und legere = sammeln|gathering fruits; from Latin frux = fruit + legere = to gather|vruchten verzamelend; uit Latijn frux = vrucht en legere = verzamelen
+fucata|bemalt; aus lateinisch fucatus|painted; from Latin fucatus|beschilderd; uit Latijn fucatus
+fulicarius|blässhuhnartig; aus lateinisch fulica; zu lateinisch fulica = Blässhuhn|coot-like; from Latin fulica; based on Latin fulica = coot|meerkoetachtig; uit Latijn fulica; bij Latijn fulica = meerkoet
+fuligula|Rußkehle; aus lateinisch fuligo = Ruß und gula = Kehle|sooty throat; from Latin fuligo = soot + gula = throat|roetkeel; uit Latijn fuligo = roet en gula = keel
+fulva fulvus|gelbbraun; aus lateinisch fulvus|tawny; from Latin fulvus|geelbruin; uit Latijn fulvus
+funereus|düster, zum Begräbnis gehörig; aus lateinisch funereus|gloomy, funereal; from Latin funereus|somber, rouwachtig; uit Latijn funereus
+fusca fuscus|dunkelbraun, dunkel; aus lateinisch fuscus|dark brown, dusky; from Latin fuscus|donkerbruin, donker; uit Latijn fuscus
+fuscescens|bräunlich, dunkel werdend; aus neulateinisch fuscescens; zu lateinisch fuscare = verdunkeln und fuscus = dunkelbraun|brownish, becoming dusky; from Modern Latin fuscescens; related to Latin fuscare = to darken and fuscus = dark brown|bruinachtig, donker wordend; uit Neolatijn fuscescens; bij Latijn fuscare = verdonkeren en fuscus = donkerbruin
+fuscatus|verdunkelt, dunkel gefärbt; zu lateinisch fuscare = verdunkeln und fuscus = dunkelbraun|darkened, dusky; related to Latin fuscare = to darken and fuscus = dark brown|donker gekleurd; bij Latijn fuscare = verdonkeren en fuscus = donkerbruin
+fuscicollis|braunhalsig; aus lateinisch fusca = dunkelbraun und collum = Hals|brown-necked; from Latin fusca = dark brown + collum = neck|bruinhalzig; uit Latijn fusca = donkerbruin en collum = hals
+galactotes|milchfarben; aus griechisch gala (Genitiv galaktos) = Milch und -otes = ähnlich|milk-coloured; from Greek gala (genitive galaktos) = milk and -otes = resembling|melkkleurig; uit Grieks gala (genitief galaktos) = melk en -otes = gelijkend op
+galbula|alter Name des Pirols; aus lateinisch galbula|ancient oriole name; from Latin galbula|oude wielewaalnaam; uit Latijn galbula
+galericulata|mit kleiner Kappe; aus lateinisch galericulum; zu lateinisch galerum = Kappe|small-capped; from Latin galericulum; based on Latin galerum = cap|met kleine kap; uit Latijn galericulum; bij Latijn galerum = kap
+galerita|mit Haube; zu lateinisch galerum = Kappe|crested; based on Latin galerum = cap|met kuif; bij Latijn galerum = kap
 gallicus|aus Gallien, Frankreich|of Gaul, France|uit Gallië, Frankrijk
-gallinago|Schnepfe; mit Henne verbunden|snipe; associated with hen|snip; verbonden met hen
-gallopavo|Hahn-Pfau; historischer Truthuhnname|cock peacock; an old turkey name|haan-pauw; een oude kalkoenennaam
-gallus|Hahn|cock|haan
-garrulus|geschwätzig|chattering|babbelend
-gentilis|edel, vornehm|noble|edel, voornaam
-glacialis|eisig, zum Eis gehörig|icy, of ice|ijzig, van het ijs
-glandarius|zu Eicheln gehörig|of acorns|van eikels
-glareola|zum Kies gehörig|of gravel|van grind
-glaucescens|graublau werdend|becoming grey-blue|grijsblauw wordend
-glaucoides|dem Vogel namens glaucus ähnlich|resembling the bird named glaucus|lijkend op de vogel met de naam glaucus
-graculus|alter Name eines Krähenvogels|ancient name for a crow-like bird|oude naam voor een kraaiachtige vogel
+gallinago|Schnepfe; mit Henne verbunden; aus neulateinisch gallinagowoodcock; zu lateinisch gallina = Henne|snipe; associated with hen; from Modern Latin gallinagowoodcock; based on Latin gallina = hen|snip; verbonden met hen; uit Neolatijn gallinagowoodcock; bij Latijn gallina = hen
+gallopavo|Hahn-Pfau; historischer Truthuhnname; aus lateinisch gallus = Hahn und pavo = Pfau|cock peacock; an old turkey name; from Latin gallus = cock + pavo = peacock|haan-pauw; een oude kalkoenennaam; uit Latijn gallus = haan en pavo = pauw
+gallus|Hahn; aus lateinisch gallus|cock; from Latin gallus|haan; uit Latijn gallus
+garrulus|geschwätzig; aus lateinisch garrulus|chattering; from Latin garrulus|babbelend; uit Latijn garrulus
+gentilis|edel, vornehm; aus lateinisch gentilis|noble; from Latin gentilis|edel, voornaam; uit Latijn gentilis
+glacialis|eisig, zum Eis gehörig; aus lateinisch glacialis|icy, of ice; from Latin glacialis|ijzig, van het ijs; uit Latijn glacialis
+glandarius|zu Eicheln gehörig; aus lateinisch glandarius; zu lateinisch glans = Eichel|of acorns; from Latin glandarius; based on Latin glans = acorn|van eikels; uit Latijn glandarius; bij Latijn glans = eikel
+glareola|zum Kies gehörig; zu lateinisch glarea = Kies|of gravel; based on Latin glarea = gravel|van grind; bij Latijn glarea = grind
+glaucescens|graublau werdend; aus neulateinisch glaucescens|becoming grey-blue; from Modern Latin glaucescens|grijsblauw wordend; uit Neolatijn glaucescens
+glaucoides|dem Vogel namens glaucus ähnlich; verbindet glaucus, einen älteren Möwen-Artnamen, mit griechisch -oides = ähnlich; lateinisch glaucus = graublau|resembling the bird named glaucus; combines glaucus, an earlier gull epithet, with Greek -oides = resembling; Latin glaucus = blue-grey|lijkend op de vogel met de naam glaucus; verbindt glaucus, een oudere meeuwensoortnaam, met Grieks -oides = gelijkend op; Latijn glaucus = blauwgrijs
+graculus|alter Name eines Krähenvogels; aus lateinisch graculus|ancient name for a crow-like bird; from Latin graculus|oude naam voor een kraaiachtige vogel; uit Latijn graculus
 graeca|griechisch|Greek|Grieks
-grammacus|mit Linien, gestreift|lined, striped|met lijnen, gestreept
-gravis|schwer|heavy|zwaar
-gregarius|gesellig, in Scharen lebend|living in flocks|in groepen levend
-grisea griseus|grau|grey|grijs
-grisegena|grauwangig|grey-cheeked|grijswangig
-griseolus|graulich|greyish|grijzig
-grus|Kranich|crane|kraanvogel
-gularis gutturalis|zur Kehle gehörig|of the throat|van de keel
-guttata guttatus|gefleckt|spotted|gevlekt
-haemastica|blutrot|blood-red|bloedrood
-haematonotus|blutroter Rücken|blood-red back|bloedrode rug
-haliaetus|Seeadler|sea eagle|zeearend
-heliaca|zur Sonne gehörig|of the sun|van de zon
-herodias|Reiher|heron|reiger
-hiaticula|Spaltenbewohner; Deutung als kleiner Spaltenbewohner umstritten|cleft dweller; interpretation as small cleft dweller disputed|spleetbewoner; uitleg als kleine spleetbewoner omstreden|?
-himantopus|Riemenfuß|strap foot|riemvoet
-hirundo|Schwalbe|swallow|zwaluw
+grammacus|mit Linien, gestreift; aus lateinisch grammicus|lined, striped; from Latin grammicus|met lijnen, gestreept; uit Latijn grammicus
+gravis|schwer; aus lateinisch gravis|heavy; from Latin gravis|zwaar; uit Latijn gravis
+gregarius|gesellig, in Scharen lebend; aus lateinisch gregarius|living in flocks; from Latin gregarius|in groepen levend; uit Latijn gregarius
+grisea|grau; aus mittellateinisch griseus|grey; from Medieval Latin griseus|grijs; uit middeleeuws Latijn griseus
+griseus|grau; aus mittellateinisch griseus|grey; from Medieval Latin griseus|grijs; uit middeleeuws Latijn griseus
+grisegena|grauwangig; aus mittellateinisch griseus = grau und lateinisch gena = Wange|grey-cheeked; from Medieval Latin griseus = grey + Latin gena = cheek|grijswangig; uit middeleeuws Latijn griseus = grijs en Latijn gena = wang
+griseolus|graulich; aus neulateinisch griseolus|greyish; from Modern Latin griseolus|grijzig; uit Neolatijn griseolus
+grus|Kranich; aus lateinisch grus|crane; from Latin grus|kraanvogel; uit Latijn grus
+gularis|zur Kehle gehörig; aus neulateinisch gularis; zu lateinisch gula = Kehle|of the throat; from Modern Latin gularis; based on Latin gula = throat|van de keel; uit Neolatijn gularis; bij Latijn gula = keel
+gutturalis|zur Kehle gehörig; aus mittellateinisch gutturalisof; zu lateinisch guttur = Kehle|of the throat; from Medieval Latin gutturalisof; based on Latin guttur = throat|van de keel; uit middeleeuws Latijn gutturalisof; bij Latijn guttur = keel
+guttata guttatus|gefleckt; aus lateinisch guttatus; zu lateinisch gutta = Tropfen|spotted; from Latin guttatus; based on Latin gutta = drop|gevlekt; uit Latijn guttatus; bij Latijn gutta = druppel
+haemastica|blutrot; aus griechisch haimatikos|blood-red; from Greek haimatikos|bloedrood; uit Grieks haimatikos
+haematonotus|blutroter Rücken; aus griechisch haima = Blut und noton = Rücken|blood-red back; from Greek haima = blood + noton = back|bloedrode rug; uit Grieks haima = bloed en noton = rug
+haliaetus|Seeadler; aus griechisch hali- = Meer und aetos = Adler|sea eagle; from Greek hali- = sea + aetos = eagle|zeearend; uit Grieks hali- = zee en aetos = arend
+heliaca|zur Sonne gehörig; aus griechisch hēliakos|of the sun; from Greek hēliakos|van de zon; uit Grieks hēliakos
+herodias|Reiher; aus griechisch herodios|heron; from Greek herodios|reiger; uit Grieks herodios
+hiaticula|Spaltenbewohner; Deutung als kleiner Spaltenbewohner umstritten; lateinisch hiatus = Öffnung, Spalte; der zweite Bestandteil wird mit -cola = Bewohner verbunden, die genaue Bildung ist umstritten|cleft dweller; interpretation as small cleft dweller disputed; Latin hiatus = opening, cleft; the second part is linked to -cola = dweller, but the exact formation is disputed|spleetbewoner; uitleg als kleine spleetbewoner omstreden; Latijn hiatus = opening, spleet; het tweede deel wordt verbonden met -cola = bewoner, maar de precieze vorming is omstreden|?
+himantopus|Riemenfuß; aus griechisch himas = Riemen und pous = Fuß|strap foot; from Greek himas = strap + pous = foot|riemvoet; uit Grieks himas = riem en pous = voet
+hirundo|Schwalbe; aus lateinisch hirundo|swallow; from Latin hirundo|zwaluw; uit Latijn hirundo
 hispanica|spanisch|Spanish|Spaans
 hispaniolensis|spanisch; hier kein Bezug zur Insel Hispaniola|Spanish; not a reference here to Hispaniola|Spaans; hier geen verwijzing naar Hispaniola
-histrionicus|Schauspieler|actor|toneelspeler
-holochlorus|ganz grün|entirely green|geheel groen
-holosericeus|ganz seidig|entirely silky|geheel zijdeachtig
-hordeaceus|zur Gerste gehörig|of barley|van gerst
-hortensis|zum Garten gehörig|of gardens|van tuinen
-hybrida|Mischling; historische Deutung|hybrid; a historical interpretation|bastaard; een historische interpretatie
-hyemalis|winterlich|of winter|van de winter
-hyperboreus|weit im Norden lebend|living in the far north|in het verre noorden levend
-hypoleuca hypoleucos|unten weiß|white below|van onderen wit
+histrionicus|Schauspieler; aus lateinisch histrionicus|actor; from Latin histrionicus|toneelspeler; uit Latijn histrionicus
+holochlorus|ganz grün; aus griechisch holos = ganz und khloros = grün, gelbgrün|entirely green; from Greek holos = entire + khloros = green, yellow-green|geheel groen; uit Grieks holos = geheel en khloros = groen, geelgroen
+holosericeus|ganz seidig; aus griechisch holos = ganz und serikos = seidig|entirely silky; from Greek holos = entire + serikos = silken|geheel zijdeachtig; uit Grieks holos = geheel en serikos = zijdeachtig
+hordeaceus|zur Gerste gehörig; aus lateinisch hordeaceus; zu lateinisch hordeum = Gerste|of barley; from Latin hordeaceus; based on Latin hordeum = barley|van gerst; uit Latijn hordeaceus; bij Latijn hordeum = gerst
+hortensis|zum Garten gehörig; aus lateinisch hortensis; zu lateinisch hortus = Garten|of gardens; from Latin hortensis; based on Latin hortus = garden|van tuinen; uit Latijn hortensis; bij Latijn hortus = tuin
+hybrida|Mischling; historische Deutung; aus lateinisch hybrida|hybrid; a historical interpretation; from Latin hybrida|bastaard; een historische interpretatie; uit Latijn hybrida
+hyemalis|winterlich; aus lateinisch hiemalis; zu lateinisch hiems = Winter|of winter; from Latin hiemalis; based on Latin hiems = winter|van de winter; uit Latijn hiemalis; bij Latijn hiems = winter
+hyperboreus|weit im Norden lebend; aus griechisch huper = jenseits und boreas = Nordwind, Norden|living in the far north; from Greek huper = beyond + boreas = north wind, north|in het verre noorden levend; uit Grieks huper = voorbij en boreas = noordenwind, noorden
+hypoleuca hypoleucos|unten weiß; aus griechisch hupo = unter und leukos = weiß|white below; from Greek hupo = under + leukos = white|van onderen wit; uit Grieks hupo = onder en leukos = wit
 iberiae ibericus|von der Iberischen Halbinsel|of the Iberian Peninsula|van het Iberisch Schiereiland
-ibis|Ibis; alter Vogelname|ibis; an ancient bird name|ibis; een oude vogelnaam
-ichthyaetus|Fischadler, als wörtliche Namensbedeutung|fish eagle, as the literal name meaning|arend die vis eet, als letterlijke naambetekenis
-icterina|gelblich; mit einem alten gelben Vogelnamen verbunden|yellowish; linked to an ancient yellow-bird name|geelachtig; verbonden met een oude naam voor een gele vogel
-ignicapilla|Feuerkopf|fire cap|vuurkop
+ibis|Ibis; alter Vogelname; aus lateinisch ibis|ibis; an ancient bird name; from Latin ibis|ibis; een oude vogelnaam; uit Latijn ibis
+ichthyaetus|Fischadler, als wörtliche Namensbedeutung; aus griechisch ikhthus = Fisch und aetos = Adler|fish eagle, as the literal name meaning; from Greek ikhthus = fish + aetos = eagle|arend die vis eet, als letterlijke naambetekenis; uit Grieks ikhthus = vis en aetos = arend
+icterina|gelblich; mit einem alten gelben Vogelnamen verbunden; aus griechisch ikteros|yellowish; linked to an ancient yellow-bird name; from Greek ikteros|geelachtig; verbonden met een oude naam voor een gele vogel; uit Grieks ikteros
+ignicapilla|Feuerkopf; aus lateinisch ignis = Feuer und capillus = Kopfhaar|fire cap; from Latin ignis = fire + capillus = hair of the head|vuurkop; uit Latijn ignis = vuur en capillus = hoofdhaar
 iliacus|alter Drosselname; über Gazas lateinische Übersetzung einer antiken Bezeichnung übernommen|old thrush name adopted through Gaza’s Latin translation of an ancient name|oude lijsternaam, overgenomen via Gaza’s Latijnse vertaling van een antieke benaming
 indicus|indisch|Indian|Indiaas
-inornatus|ungeschmückt|unadorned|onversierd
-interpres|Vermittler, Übersetzer; historischer Name|interpreter, intermediary; a historical name|tolk, bemiddelaar; een historische naam
-isabellina isabellinus|isabellfarben, sandfarben|isabelline, sandy-coloured|isabelkleurig, zandkleurig
+inornatus|ungeschmückt; aus lateinisch inornatus|unadorned; from Latin inornatus|onversierd; uit Latijn inornatus
+interpres|Vermittler, Übersetzer; historischer Name; aus lateinisch interpres|interpreter, intermediary; a historical name; from Latin interpres|tolk, bemiddelaar; een historische naam; uit Latijn interpres
+isabellina isabellinus|isabellfarben, sandfarben; aus neulateinisch isabellinus|isabelline, sandy-coloured; from Modern Latin isabellinus|isabelkleurig, zandkleurig; uit Neolatijn isabellinus
 italiae|aus Italien|of Italy|uit Italië
-jocosus|scherzhaft, fröhlich|jocular, cheerful|schertsend, vrolijk
-jubata jubatus|mit Mähne|maned|met manen
-juncidis|zu Binsen gehörig|of rushes|van russen
-lagopus|Hasenfuß|hare foot|hazenvoet
-lanceolata lanceolatus|lanzettförmig|lance-shaped|lancetvormig
-languida|träge, matt|languid|loom, traag
-lateralis|seitlich, zur Seite gehörig|lateral, of the side|zijdelings, van de zijde
-lentiginosus|sommersprossig|freckled|gesproet
-leucocephala leucocephalos leucocephalus|weißköpfig|white-headed|witkoppig
-leucogaster|weißbäuchig|white-bellied|witbuikig
-leucomela leucomelanos|weiß und schwarz|white and black|wit en zwart
-leucophrys|weißbrauig|white-browed|witwenkbrauwig
-leucophthalmus|weißäugig|white-eyed|witogig
-leucopsis|weißgesichtig|white-faced|witgezicht
-leucoptera leucopterus|weißflügelig|white-winged|witvleugelig
-leucopyga leucorhous|weißbürzelig|white-rumped|witstuitig
-leucorodia|Weißreiher; alter Löfflername|white heron; an ancient spoonbill name|witte reiger; een oude lepelaarnaam
-leucotis|weißohrig|white-eared|witorig
-leucotos|weißrückig|white-backed|witruggig
-leucurus|weißschwänzig|white-tailed|witstaartig
-limosa|schlammig|muddy|modderig
-lineola|kleine Linie|little line|klein lijntje
-livia|blaugrau; alter Taubenname|blue-grey; an ancient pigeon name|blauwgrijs; een oude duivennaam
-lobatus|mit Lappen versehen|lobed|gelobd
-longicauda longicaudus|langschwänzig|long-tailed|langstaartig
+jocosus|scherzhaft, fröhlich; aus lateinisch iocosus|jocular, cheerful; from Latin iocosus|schertsend, vrolijk; uit Latijn iocosus
+jubata jubatus|mit Mähne; aus lateinisch iubatus|maned; from Latin iubatus|met manen; uit Latijn iubatus
+juncidis|zu Binsen gehörig; zu lateinisch iuncus = Binse|of rushes; based on Latin iuncus = rush|van russen; bij Latijn iuncus = rus
+lagopus|Hasenfuß; aus griechisch lagos = Hase und pous = Fuß|hare foot; from Greek lagos = hare + pous = foot|hazenvoet; uit Grieks lagos = haas en pous = voet
+lanceolata lanceolatus|lanzettförmig; aus lateinisch lanceolatus; zu lateinisch lanceola = kleine Lanze|lance-shaped; from Latin lanceolatus; based on Latin lanceola = small lance|lancetvormig; uit Latijn lanceolatus; bij Latijn lanceola = kleine lans
+languida|träge, matt; aus lateinisch languidus|languid; from Latin languidus|loom, traag; uit Latijn languidus
+lateralis|seitlich, zur Seite gehörig; aus lateinisch lateralis; zu lateinisch latus = Seite|lateral, of the side; from Latin lateralis; based on Latin latus = side|zijdelings, van de zijde; uit Latijn lateralis; bij Latijn latus = zijde
+lentiginosus|sommersprossig; aus lateinisch lentiginosus|freckled; from Latin lentiginosus|gesproet; uit Latijn lentiginosus
+leucocephala leucocephalos leucocephalus|weißköpfig; aus griechisch leukos = weiß und kephale = Kopf|white-headed; from Greek leukos = white + kephale = head|witkoppig; uit Grieks leukos = wit en kephale = kop
+leucogaster|weißbäuchig; aus griechisch leukos = weiß und gaster = Bauch|white-bellied; from Greek leukos = white + gaster = belly|witbuikig; uit Grieks leukos = wit en gaster = buik
+leucomela leucomelanos|weiß und schwarz; aus griechisch leukos = weiß und melas = schwarz|white and black; from Greek leukos = white + melas = black|wit en zwart; uit Grieks leukos = wit en melas = zwart
+leucophrys|weißbrauig; aus griechisch leukos = weiß und ophrus = Augenbraue|white-browed; from Greek leukos = white + ophrus = eyebrow|witwenkbrauwig; uit Grieks leukos = wit en ophrus = wenkbrauw
+leucophthalmus|weißäugig; aus griechisch leukos = weiß und ophthalmos = Auge|white-eyed; from Greek leukos = white + ophthalmos = eye|witogig; uit Grieks leukos = wit en ophthalmos = oog
+leucopsis|weißgesichtig; aus griechisch leukos = weiß und opsis = Gesicht, Aussehen|white-faced; from Greek leukos = white + opsis = face, appearance|witgezicht; uit Grieks leukos = wit en opsis = gezicht, uiterlijk
+leucoptera leucopterus|weißflügelig; aus griechisch leukos = weiß und pteron = Flügel, Feder|white-winged; from Greek leukos = white + pteron = wing, feather|witvleugelig; uit Grieks leukos = wit en pteron = vleugel, veer
+leucopyga|weißbürzelig; aus griechisch leukos = weiß und puge = Bürzel|white-rumped; from Greek leukos = white + puge = rump|witstuitig; uit Grieks leukos = wit en puge = stuit
+leucorhous|weißbürzelig; aus griechisch leukos = weiß und orrhos = Bürzel|white-rumped; from Greek leukos = white + orrhos = rump|witstuitig; uit Grieks leukos = wit en orrhos = stuit
+leucorodia|Weißreiher; alter Löfflername; aus griechisch leukos = weiß und erodios = Reiher|white heron; an ancient spoonbill name; from Greek leukos = white + erodios = heron|witte reiger; een oude lepelaarnaam; uit Grieks leukos = wit en erodios = reiger
+leucotis|weißohrig; aus griechisch leukos = weiß und ous = Ohr|white-eared; from Greek leukos = white + ous = ear|witorig; uit Grieks leukos = wit en ous = oor
+leucotos|weißrückig; aus griechisch leukos = weiß und noton = Rücken|white-backed; from Greek leukos = white + noton = back|witruggig; uit Grieks leukos = wit en noton = rug
+leucurus|weißschwänzig; aus griechisch leukos = weiß und oura = Schwanz|white-tailed; from Greek leukos = white + oura = tail|witstaartig; uit Grieks leukos = wit en oura = staart
+limosa|schlammig; aus lateinisch limosus; zu lateinisch limus = Schlamm|muddy; from Latin limosus; based on Latin limus = mud|modderig; uit Latijn limosus; bij Latijn limus = modder
+lineola|kleine Linie; aus lateinisch lineola|little line; from Latin lineola|klein lijntje; uit Latijn lineola
+livia|blaugrau; alter Taubenname; aus lateinisch livia|blue-grey; an ancient pigeon name; from Latin livia|blauwgrijs; een oude duivennaam; uit Latijn livia
+lobatus|mit Lappen versehen; aus neulateinisch lobatus|lobed; from Modern Latin lobatus|gelobd; uit Neolatijn lobatus
+longicauda longicaudus|langschwänzig; aus lateinisch longus = lang und cauda = Schwanz|long-tailed; from Latin longus = long + cauda = tail|langstaartig; uit Latijn longus = lang en cauda = staart
 ludovicianus|aus Louisiana|of Louisiana|uit Louisiana
-lugubris|trauernd, düster|mournful, gloomy|treurend, somber
-luscinia|Nachtigall|nightingale|nachtegaal
-luscinioides|nachtigallenähnlich|nightingale-like|nachtegaalachtig
-lutea luteus|gelb|yellow|geel
-macroura macrourus|langschwänzig|long-tailed|langstaartig
-macularius maculatus|gefleckt|spotted|gevlekt
-major|größer|larger|groter
-marila|Kohlenglut, Kohlenstaub|embers, coal dust|gloeiende kolen, kolenstof
-marinus|zum Meer gehörig|of the sea|van de zee
-maritima|zur Meeresküste gehörig|of sea coasts|van zeekusten
-martius|dem römischen Gott Mars zugehörig|of the Roman god Mars|van de Romeinse god Mars
+lugubris|trauernd, düster; aus lateinisch lugubris|mournful, gloomy; from Latin lugubris|treurend, somber; uit Latijn lugubris
+luscinia|Nachtigall; aus lateinisch luscinia|nightingale; from Latin luscinia|nachtegaal; uit Latijn luscinia
+luscinioides|nachtigallenähnlich; aus lateinisch luscinia|nightingale-like; from Latin luscinia|nachtegaalachtig; uit Latijn luscinia
+lutea|gelb; aus lateinisch luteus|yellow; from Latin luteus|geel; uit Latijn luteus
+luteus|gelb; aus lateinisch luteus|yellow; from Latin luteus|geel; uit Latijn luteus
+macroura macrourus|langschwänzig; aus griechisch makros = lang und oura = Schwanz|long-tailed; from Greek makros = long + oura = tail|langstaartig; uit Grieks makros = lang en oura = staart
+macularius|gefleckt; aus lateinisch macula; zu lateinisch macula = Fleck|spotted; from Latin macula; based on Latin macula = spot|gevlekt; uit Latijn macula; bij Latijn macula = vlek
+maculatus|gefleckt; aus lateinisch maculatus; zu lateinisch macula = Fleck|spotted; from Latin maculatus; based on Latin macula = spot|gevlekt; uit Latijn maculatus; bij Latijn macula = vlek
+major|größer; aus lateinisch maior|larger; from Latin maior|groter; uit Latijn maior
+marila|Kohlenglut, Kohlenstaub; aus griechisch marile|embers, coal dust; from Greek marile|gloeiende kolen, kolenstof; uit Grieks marile
+marinus|zum Meer gehörig; aus lateinisch marinus; zu lateinisch mare = Meer|of the sea; from Latin marinus; based on Latin mare = sea|van de zee; uit Latijn marinus; bij Latijn mare = zee
+maritima|zur Meeresküste gehörig; aus lateinisch maritimus|of sea coasts; from Latin maritimus|van zeekusten; uit Latijn maritimus
+martius|dem römischen Gott Mars zugehörig; lateinisch Martius = dem Mars geweiht. Spechte galten als Vögel dieses Gottes|of the Roman god Mars; Latin Martius = dedicated to Mars. Woodpeckers were associated with this god|van de Romeinse god Mars; Latijn Martius = aan Mars gewijd. Spechten werden met deze god verbonden
 mauretanicus|aus Mauretanien im antiken Sinn, Nordwestafrika|of ancient Mauretania, north-west Africa|uit het oude Mauretanië, Noordwest-Afrika
 maurus|maurisch, dunkel; historischer Farbvergleich|Moorish, dark; a historical colour comparison|Moors, donker; een historische kleurvergelijking
-maximus|der größte|largest|de grootste
-media medius|mittlere Größe, in der Mitte|middle, intermediate|middelgroot, in het midden
-megarhynchos|großer Schnabel|large bill|grote snavel
-melancoryphus|schwarzscheitelig|black-crowned|zwartkruinig
-melanocephala melanocephalus|schwarzköpfig|black-headed|zwartkoppig
-melanoleuca|schwarz und weiß|black and white|zwart en wit
-melanopis|schwarzgesichtig|black-faced|zwartgezicht
-melanopogon|schwarzbärtig|black-bearded|zwartgebaard
-melanophris|schwarzbrauig|black-browed|zwartwenkbrauwig
-melanopterus|schwarzflügelig|black-winged|zwartvleugelig
-melanotos|schwarzrückig|black-backed|zwartruggig
-meleagris|Perlhuhn|guineafowl|parelhoen
-melodia|Gesang|song|zang
-melpoda|singend, Sänger|singing, singer|zingend, zanger
-membranaceus|häutig, membranartig|membranous|vliezig
-menstruus|historischer Name mit Menstruationsbezug; genaue Benennungsabsicht unklar|historical name referring to menstruation; precise naming motive unclear|historische naam met een verwijzing naar menstruatie; precieze naamgevingsreden onduidelijk|?
-merganser|Tauchgans|diving goose|duikgans
-merula|Amsel|blackbird|merel
-migrans migratoria migratorius|wandernd, ziehend|migrating|trekkend
-miles|Soldat|soldier|soldaat
-militaris|soldatisch|military|militair
-milvus|Milan|kite|wouw
-minimus|der kleinste|smallest|de kleinste
-minor|kleiner|smaller|kleiner
-minuta minutus|klein|small|klein
-minutilla|sehr klein|very small|zeer klein
-modestus|bescheiden, schlicht|modest, plain|bescheiden, eenvoudig
-modularis|melodisch singend|singing melodiously|melodieus zingend
-mollis|weich|soft|zacht
-mollissima|sehr weich|very soft|zeer zacht
-monachus|Mönch; Bezug auf die Färbung|monk; refers to the colouring|monnik; verwijst naar de kleur
-monedula|Dohle|jackdaw|kauw
-monorhis|ein Nasenloch; historischer Name|one nostril; a historical name|één neusgat; een historische naam
-montanella|kleiner Bergvogel|small mountain bird|kleine bergvogel
-montanus|zum Berg gehörig|of mountains|van bergen
-montifringilla|Bergfink|mountain finch|bergvink
-morinellus|kleiner Tor; historische Anspielung auf geringe Scheu|little fool; an old reference to its lack of fear|kleine dwaas; een oude verwijzing naar de geringe schuwheid
-moschata|nach Moschus duftend|musky|naar muskus ruikend
-muraria|zur Mauer gehörig|of walls|van muren
-mustelina|wieselfarben|weasel-coloured|wezelkleurig
-muta|stumm|mute|stom
-muticus|gestutzt, ohne spitzen Fortsatz|blunted, lacking a pointed projection|afgeknot, zonder puntig uitsteeksel
-naevia naevius|gefleckt|spotted|gevlekt
-nana|Zwerg|dwarf|dwerg
-nebularia|zum Nebel gehörig|of mist|van de nevel
-niger nigra|schwarz|black|zwart
-nigricollis|schwarzhalsig|black-necked|zwarthalzig
-nigrigenis|schwarzwangig|black-cheeked|zwartwangig
-nisoria|sperberartig|sparrowhawk-like|sperwerachtig
-nisus|Sperber; alter Vogelname mit mythologischem Bezug|sparrowhawk; an old bird name with a mythological connection|sperwer; een oude vogelnaam met een mythologisch verband
-nitidus|glänzend|shining|glanzend
-nivalis|zum Schnee gehörig|of snow|van de sneeuw
-nobilis|edel|noble|edel
-noctua|Nachteule|night owl|nachtuil
+maximus|der größte; aus lateinisch maximus|largest; from Latin maximus|de grootste; uit Latijn maximus
+media medius|mittlere Größe, in der Mitte; aus lateinisch medius|middle, intermediate; from Latin medius|middelgroot, in het midden; uit Latijn medius
+megarhynchos|großer Schnabel; aus griechisch megas = groß und rhunkhos = Schnabel|large bill; from Greek megas = great + rhunkhos = bill|grote snavel; uit Grieks megas = groot en rhunkhos = snavel
+melancoryphus|schwarzscheitelig; aus griechisch melas = schwarz und koruphe = Scheitel|black-crowned; from Greek melas = black + koruphe = crown of the head|zwartkruinig; uit Grieks melas = zwart en koruphe = kruin
+melanocephala melanocephalus|schwarzköpfig; aus griechisch melas = schwarz und kephale = Kopf|black-headed; from Greek melas = black + kephale = head|zwartkoppig; uit Grieks melas = zwart en kephale = kop
+melanoleuca|schwarz und weiß; aus griechisch melas = schwarz und leukos = weiß|black and white; from Greek melas = black + leukos = white|zwart en wit; uit Grieks melas = zwart en leukos = wit
+melanopis|schwarzgesichtig; aus griechisch melas = schwarz und ops = Auge, Gesicht|black-faced; from Greek melas = black + ops = eye, face|zwartgezicht; uit Grieks melas = zwart en ops = oog, gezicht
+melanopogon|schwarzbärtig; aus griechisch melas = schwarz und pogon = Bart|black-bearded; from Greek melas = black + pogon = beard|zwartgebaard; uit Grieks melas = zwart en pogon = baard
+melanophris|schwarzbrauig; aus griechisch melas = schwarz und ophrus = Augenbraue|black-browed; from Greek melas = black + ophrus = eyebrow|zwartwenkbrauwig; uit Grieks melas = zwart en ophrus = wenkbrauw
+melanopterus|schwarzflügelig; aus griechisch melas = schwarz und pteron = Flügel, Feder|black-winged; from Greek melas = black + pteron = wing, feather|zwartvleugelig; uit Grieks melas = zwart en pteron = vleugel, veer
+melanotos|schwarzrückig; aus griechisch melas = schwarz und noton = Rücken|black-backed; from Greek melas = black + noton = back|zwartruggig; uit Grieks melas = zwart en noton = rug
+meleagris|Perlhuhn; aus griechisch meleagris|guineafowl; from Greek meleagris|parelhoen; uit Grieks meleagris
+melodia|Gesang; aus griechisch melōdia|song; from Greek melōdia|zang; uit Grieks melōdia
+melpoda|singend, Sänger; aus griechisch melpodos|singing, singer; from Greek melpodos|zingend, zanger; uit Grieks melpodos
+membranaceus|häutig, membranartig; aus lateinisch membranaceus; zu lateinisch membrana = Haut|membranous; from Latin membranaceus; based on Latin membrana = membrane|vliezig; uit Latijn membranaceus; bij Latijn membrana = vlies
+menstruus|historischer Name mit Menstruationsbezug; genaue Benennungsabsicht unklar; aus lateinisch menstruus|historical name referring to menstruation; precise naming motive unclear; from Latin menstruus|historische naam met een verwijzing naar menstruatie; precieze naamgevingsreden onduidelijk; uit Latijn menstruus|?
+merganser|Tauchgans; aus lateinisch mergus = Tauchvogel und anser = Gans|diving goose; from Latin mergus = diving bird + anser = goose|duikgans; uit Latijn mergus = duikvogel en anser = gans
+merula|Amsel; aus lateinisch merula|blackbird; from Latin merula|merel; uit Latijn merula
+migrans|wandernd, ziehend; aus lateinisch migrans|migrating; from Latin migrans|trekkend; uit Latijn migrans
+migratoria migratorius|wandernd, ziehend; aus lateinisch migrator|migrating; from Latin migrator|trekkend; uit Latijn migrator
+miles|Soldat; aus lateinisch miles|soldier; from Latin miles|soldaat; uit Latijn miles
+militaris|soldatisch; aus lateinisch militaris|military; from Latin militaris|militair; uit Latijn militaris
+milvus|Milan; aus lateinisch milvus|kite; from Latin milvus|wouw; uit Latijn milvus
+minimus|der kleinste; aus lateinisch minimus|smallest; from Latin minimus|de kleinste; uit Latijn minimus
+minor|kleiner; aus lateinisch minor|smaller; from Latin minor|kleiner; uit Latijn minor
+minuta minutus|klein; aus lateinisch minutus|small; from Latin minutus|klein; uit Latijn minutus
+minutilla|sehr klein; aus mittellateinisch minutellus|very small; from Medieval Latin minutellus|zeer klein; uit middeleeuws Latijn minutellus
+modestus|bescheiden, schlicht; aus lateinisch modestus|modest, plain; from Latin modestus|bescheiden, eenvoudig; uit Latijn modestus
+modularis|melodisch singend; aus lateinisch modulus|singing melodiously; from Latin modulus|melodieus zingend; uit Latijn modulus
+mollis|weich; aus lateinisch mollis|soft; from Latin mollis|zacht; uit Latijn mollis
+mollissima|sehr weich; aus lateinisch mollissimus|very soft; from Latin mollissimus|zeer zacht; uit Latijn mollissimus
+monachus|Mönch; Bezug auf die Färbung; aus mittellateinisch monachus|monk; refers to the colouring; from Medieval Latin monachus|monnik; verwijst naar de kleur; uit middeleeuws Latijn monachus
+monedula|Dohle; aus lateinisch monedula|jackdaw; from Latin monedula|kauw; uit Latijn monedula
+monorhis|ein Nasenloch; historischer Name; aus griechisch monos = einzeln und rhis = Nase|one nostril; a historical name; from Greek monos = single + rhis = nose|één neusgat; een historische naam; uit Grieks monos = enkel en rhis = neus
+montanella|kleiner Bergvogel; zu lateinisch mons = Berg|small mountain bird; based on Latin mons = mountain|kleine bergvogel; bij Latijn mons = berg
+montanus|zum Berg gehörig; aus lateinisch montanus; zu lateinisch mons = Berg|of mountains; from Latin montanus; based on Latin mons = mountain|van bergen; uit Latijn montanus; bij Latijn mons = berg
+montifringilla|Bergfink; aus lateinisch mons = Berg und fringilla = Fink|mountain finch; from Latin mons = mountain + fringilla = finch|bergvink; uit Latijn mons = berg en fringilla = vink
+morinellus|kleiner Tor; historische Anspielung auf geringe Scheu; Verkleinerung zu griechisch moros = töricht; historische Wertung der geringen Fluchtdistanz|little fool; an old reference to its lack of fear; a diminutive related to Greek moros = foolish; a historical judgement of its short escape distance|kleine dwaas; een oude verwijzing naar de geringe schuwheid; verkleinvorm bij Grieks moros = dwaas; historische beoordeling van de geringe vluchtafstand
+moschata|nach Moschus duftend; spätlateinisch moschatus = nach Moschus duftend, zu muscus = Moschus|musky; Late Latin moschatus = musky, from muscus = musk|naar muskus ruikend; Laatlatijn moschatus = naar muskus ruikend, bij muscus = muskus
+muraria|zur Mauer gehörig; aus mittellateinisch murarius; zu lateinisch murus = Mauer|of walls; from Medieval Latin murarius; based on Latin murus = wall|van muren; uit middeleeuws Latijn murarius; bij Latijn murus = muur
+mustelina|wieselfarben; aus lateinisch mustelinus; zu lateinisch mustela = Wiesel|weasel-coloured; from Latin mustelinus; based on Latin mustela = weasel|wezelkleurig; uit Latijn mustelinus; bij Latijn mustela = wezel
+muta|stumm; aus lateinisch mutus|mute; from Latin mutus|stom; uit Latijn mutus
+muticus|gestutzt, ohne spitzen Fortsatz; aus lateinisch muticus|blunted, lacking a pointed projection; from Latin muticus|afgeknot, zonder puntig uitsteeksel; uit Latijn muticus
+naevia naevius|gefleckt; aus lateinisch naevius|spotted; from Latin naevius|gevlekt; uit Latijn naevius
+nana|Zwerg; aus lateinisch nanus|dwarf; from Latin nanus|dwerg; uit Latijn nanus
+nebularia|zum Nebel gehörig; aus lateinisch nebula; zu lateinisch nebula = Nebel|of mist; from Latin nebula; based on Latin nebula = mist|van de nevel; uit Latijn nebula; bij Latijn nebula = nevel
+niger nigra|schwarz; aus lateinisch niger|black; from Latin niger|zwart; uit Latijn niger
+nigricollis|schwarzhalsig; aus lateinisch niger = schwarz und collum = Hals|black-necked; from Latin niger = black + collum = neck|zwarthalzig; uit Latijn niger = zwart en collum = hals
+nigrigenis|schwarzwangig; aus lateinisch niger = schwarz und gena = Wange|black-cheeked; from Latin niger = black + gena = cheek|zwartwangig; uit Latijn niger = zwart en gena = wang
+nisoria|sperberartig; aus mittellateinisch nisus|sparrowhawk-like; from Medieval Latin nisus|sperwerachtig; uit middeleeuws Latijn nisus
+nisus|Sperber; alter Vogelname mit mythologischem Bezug; aus mittellateinisch nisus|sparrowhawk; an old bird name with a mythological connection; from Medieval Latin nisus|sperwer; een oude vogelnaam met een mythologisch verband; uit middeleeuws Latijn nisus
+nitidus|glänzend; aus lateinisch nitidus|shining; from Latin nitidus|glanzend; uit Latijn nitidus
+nivalis|zum Schnee gehörig; aus lateinisch nivalis; zu lateinisch nix = Schnee|of snow; from Latin nivalis; based on Latin nix = snow|van de sneeuw; uit Latijn nivalis; bij Latijn nix = sneeuw
+nobilis|edel; aus lateinisch nobilis|noble; from Latin nobilis|edel; uit Latijn nobilis
+noctua|Nachteule; zu lateinisch nox = Nacht|night owl; based on Latin nox = night|nachtuil; bij Latijn nox = nacht
 nubicus|aus Nubien|of Nubia|uit Nubië
-nycthemera|Nacht und Tag; Bezug auf Schwarz und Weiß|night and day; refers to black and white|nacht en dag; verwijst naar zwart en wit
-nycticorax|Nachtrabe|night raven|nachtraaf
-obscurus|dunkel|dark|donker
-obsoleta|abgenutzt, unscheinbar|worn, indistinct|versleten, onopvallend
-oceanicus|zum Ozean gehörig|of the ocean|van de oceaan
-ochrocephala|ockerköpfig|ochre-headed|okerkoppig
-ochropus|ockerfüßig|ochre-footed|okervoetig
-ochruros|ockerschwänzig|ochre-tailed|okerstaartig
-oedicnemus|geschwollenes Schienbein; Bezug auf das Beingelenk|swollen shin; refers to the leg joint|gezwollen scheen; verwijst naar het pootgewricht
-oenanthe|Weinblüte; alter Vogelname|vine blossom; an ancient bird name|wijnbloesem; een oude vogelnaam
-oenas|Taube|pigeon, dove|duif
-olivacea olivaceus|olivfarben|olive-coloured|olijfkleurig
-olivetorum|der Olivenhaine|of olive groves|van olijfgaarden
-olor|Schwan|swan|zwaan
-onocrotalus|alter Pelikanname|ancient pelican name|oude pelikanennaam
-opaca|dunkel, schattig|dark, shady|donker, schaduwrijk
-oratrix|Rednerin|female orator|redenaarster
-orientalis|östlich|eastern|oostelijk
-oriolus|Pirol|oriole|wielewaal
-orix|Reis; keine Widmung an eine Person und kein Bezug zur Oryxantilope|rice; not a personal dedication or a reference to the oryx antelope|rijst; geen persoonlijke vernoeming of verwijzing naar de oryxantilope
-oryzivora oryzivorus|Reis fressend|rice-eating|rijst etend
-ostralegus|Austern sammelnd|oyster gathering|oesters verzamelend
-otus|Ohreule|eared owl|ooruil
-pallida pallidus|blass|pale|bleek
-palpebrosus|mit auffälligen Augenlidern|with conspicuous eyelids|met opvallende oogleden
-paludicola|Sumpfbewohner|marsh dweller|moerasbewoner
-palumbus|Ringeltaube|woodpigeon|houtduif
-palustris|zum Sumpf gehörig|of marshes|van moerassen
-paradisaea|zum Paradies gehörig|of paradise|van het paradijs
-paradoxus|ungewöhnlich, unerwartet|unusual, unexpected|ongewoon, onverwacht
-parasiticus|parasitisch; Bezug auf das Abjagen von Nahrung|parasitic; refers to stealing food|parasitair; verwijst naar het roven van voedsel
-parva|klein|small|klein
-passerinum|sperlingsartig|sparrow-like|musachtig
-pelagica pelagicus|zum offenen Meer gehörig|of the open sea|van de open zee
-pendulinus|hängend|hanging|hangend
-penelope|Penelope aus der griechischen Mythologie; auch alter Entenname|Penelope of Greek mythology; also an ancient duck name|Penelope uit de Griekse mythologie; ook een oude eendennaam
-pennatus|gefiedert|feathered|bevederd
-percnopterus|dunkelflügelig|dark-winged|donkervleugelig
-perdix|Rebhuhn|partridge|patrijs
-peregrina peregrinus|fremd, auswärts wandernd|foreign, wandering abroad|vreemd, rondtrekkend
+nycthemera|Nacht und Tag; Bezug auf Schwarz und Weiß; aus griechisch nyx = Nacht und hemera = Tag|night and day; refers to black and white; from Greek nyx = night + hemera = day|nacht en dag; verwijst naar zwart en wit; uit Grieks nyx = nacht en hemera = dag
+nycticorax|Nachtrabe; aus griechisch nyx = Nacht und korax = Rabe|night raven; from Greek nyx = night + korax = raven|nachtraaf; uit Grieks nyx = nacht en korax = raaf
+obscurus|dunkel; aus lateinisch obscurus|dark; from Latin obscurus|donker; uit Latijn obscurus
+obsoleta|abgenutzt, unscheinbar; aus lateinisch obsoletus|worn, indistinct; from Latin obsoletus|versleten, onopvallend; uit Latijn obsoletus
+oceanicus|zum Ozean gehörig; aus mittellateinisch oceanicus|of the ocean; from Medieval Latin oceanicus|van de oceaan; uit middeleeuws Latijn oceanicus
+ochrocephala|ockerköpfig; aus griechisch okhros = ockerfarben und kephale = Kopf|ochre-headed; from Greek okhros = ochre-coloured + kephale = head|okerkoppig; uit Grieks okhros = okerkleurig en kephale = kop
+ochropus|ockerfüßig; aus griechisch okhros = ockerfarben und pous = Fuß|ochre-footed; from Greek okhros = ochre-coloured + pous = foot|okervoetig; uit Grieks okhros = okerkleurig en pous = voet
+ochruros|ockerschwänzig; aus griechisch okhros = ockerfarben und oura = Schwanz|ochre-tailed; from Greek okhros = ochre-coloured + oura = tail|okerstaartig; uit Grieks okhros = okerkleurig en oura = staart
+oedicnemus|geschwollenes Schienbein; Bezug auf das Beingelenk; aus griechisch oideo = schwellen und kneme = Schienbein|swollen shin; refers to the leg joint; from Greek oideo = to swell + kneme = shin|gezwollen scheen; verwijst naar het pootgewricht; uit Grieks oideo = zwellen en kneme = scheenbeen
+oenanthe|Weinblüte; alter Vogelname; aus griechisch oinanthe; griechisch oinanthe = Weinblüte, aus oine = Weinrebe und anthos = Blüte; der Vogelname wurde mit dem Auftreten zur Weinlesezeit verbunden|vine blossom; an ancient bird name; from Greek oinanthe; Greek oinanthe = vine blossom, from oine = vine and anthos = blossom; the bird name was linked to its appearance at vintage time|wijnbloesem; een oude vogelnaam; uit Grieks oinanthe; Grieks oinanthe = wijnbloesem, uit oine = wijnstok en anthos = bloesem; de vogelnaam werd verbonden met het verschijnen rond de wijnoogst
+oenas|Taube; aus griechisch oinas|pigeon, dove; from Greek oinas|duif; uit Grieks oinas
+olivacea olivaceus|olivfarben; aus neulateinisch olivaceus; zu lateinisch oliva = Olive|olive-coloured; from Modern Latin olivaceus; based on Latin oliva = olive|olijfkleurig; uit Neolatijn olivaceus; bij Latijn oliva = olijf
+olivetorum|der Olivenhaine; aus lateinisch olivetorum|of olive groves; from Latin olivetorum|van olijfgaarden; uit Latijn olivetorum
+olor|Schwan; aus lateinisch olor|swan; from Latin olor|zwaan; uit Latijn olor
+onocrotalus|alter Pelikanname; aus griechisch onokrotalos|ancient pelican name; from Greek onokrotalos|oude pelikanennaam; uit Grieks onokrotalos
+opaca|dunkel, schattig; aus lateinisch opacus|dark, shady; from Latin opacus|donker, schaduwrijk; uit Latijn opacus
+oratrix|Rednerin; aus lateinisch oratrix|female orator; from Latin oratrix|redenaarster; uit Latijn oratrix
+orientalis|östlich; aus lateinisch orientalis|eastern; from Latin orientalis|oostelijk; uit Latijn orientalis
+oriolus|Pirol; aus mittellateinisch oryolus|oriole; from Medieval Latin oryolus|wielewaal; uit middeleeuws Latijn oryolus
+orix|Reis; keine Widmung an eine Person und kein Bezug zur Oryxantilope; aus lateinisch oryza|rice; not a personal dedication or a reference to the oryx antelope; from Latin oryza|rijst; geen persoonlijke vernoeming of verwijzing naar de oryxantilope; uit Latijn oryza
+oryzivora oryzivorus|Reis fressend; aus lateinisch oryza; lateinisch oryza = Reis und -vorus = fressend|rice-eating; from Latin oryza; Latin oryza = rice and -vorus = eating|rijst etend; uit Latijn oryza; Latijn oryza = rijst en -vorus = etend
+ostralegus|Austern sammelnd; lateinisch ostrea = Auster und legere = sammeln|oyster gathering; Latin ostrea = oyster and legere = to gather|oesters verzamelend; Latijn ostrea = oester en legere = verzamelen
+otus|Ohreule; aus lateinisch otus|eared owl; from Latin otus|ooruil; uit Latijn otus
+pallida|blass; aus lateinisch pallidus|pale; from Latin pallidus|bleek; uit Latijn pallidus
+pallidus|blass; aus lateinisch pallidus|pale; from Latin pallidus|bleek; uit Latijn pallidus
+palpebrosus|mit auffälligen Augenlidern; aus lateinisch palpebrae|with conspicuous eyelids; from Latin palpebrae|met opvallende oogleden; uit Latijn palpebrae
+paludicola|Sumpfbewohner; aus lateinisch palus = Sumpf und -cola = Bewohner|marsh dweller; from Latin palus = marsh + -cola = dweller|moerasbewoner; uit Latijn palus = moeras en -cola = bewoner
+palumbus|Ringeltaube; aus lateinisch palumbes|woodpigeon; from Latin palumbes|houtduif; uit Latijn palumbes
+palustris|zum Sumpf gehörig; aus lateinisch paluster; zu lateinisch palus = Sumpf|of marshes; from Latin paluster; based on Latin palus = marsh|van moerassen; uit Latijn paluster; bij Latijn palus = moeras
+paradisaea|zum Paradies gehörig; aus spätlateinisch paradisus|of paradise; from Late Latin paradisus|van het paradijs; uit Laatlatijn paradisus
+paradoxus|ungewöhnlich, unerwartet; aus griechisch paradoxos|unusual, unexpected; from Greek paradoxos|ongewoon, onverwacht; uit Grieks paradoxos
+parasiticus|parasitisch; Bezug auf das Abjagen von Nahrung; aus lateinisch parasiticus|parasitic; refers to stealing food; from Latin parasiticus|parasitair; verwijst naar het roven van voedsel; uit Latijn parasiticus
+parva|klein; aus lateinisch parvus|small; from Latin parvus|klein; uit Latijn parvus
+passerinum|sperlingsartig; aus lateinisch passerinus|sparrow-like; from Latin passerinus|musachtig; uit Latijn passerinus
+pelagica pelagicus|zum offenen Meer gehörig; aus lateinisch pelagicus|of the open sea; from Latin pelagicus|van de open zee; uit Latijn pelagicus
+pendulinus|hängend; aus lateinisch pendulus|hanging; from Latin pendulus|hangend; uit Latijn pendulus
+penelope|Penelope aus der griechischen Mythologie; auch alter Entenname; aus griechisch pēnelops|Penelope of Greek mythology; also an ancient duck name; from Greek pēnelops|Penelope uit de Griekse mythologie; ook een oude eendennaam; uit Grieks pēnelops
+pennatus|gefiedert; aus lateinisch pennatus|feathered; from Latin pennatus|bevederd; uit Latijn pennatus
+percnopterus|dunkelflügelig; griechisch perknos = dunkel und pteron = Flügel|dark-winged; Greek perknos = dark and pteron = wing|donkervleugelig; Grieks perknos = donker en pteron = vleugel
+perdix|Rebhuhn; aus lateinisch perdix|partridge; from Latin perdix|patrijs; uit Latijn perdix
+peregrina|fremd, auswärts wandernd; aus lateinisch peregrinus|foreign, wandering abroad; from Latin peregrinus|vreemd, rondtrekkend; uit Latijn peregrinus
+peregrinus|Wanderer, Fremder; lateinisch peregrinus = fremd, auswärtig. Mittellateinisch falco peregrinus bezeichnete einen zugewanderten oder auf dem Zug gefangenen Falken|wanderer, foreigner; Latin peregrinus = foreign, from abroad. Medieval Latin falco peregrinus denoted an immigrant falcon or one caught on migration|zwerver, vreemdeling; Latijn peregrinus = vreemd, uitheems. Middeleeuws Latijn falco peregrinus duidde op een binnengetrokken of op trek gevangen valk
 persicus|persisch|Persian|Perzisch
-personata|maskiert|masked|gemaskerd
-perspicillata|mit Brille|spectacled|met bril
-petrosus|felsig, zum Fels gehörig|rocky, of rocks|rotsig, van rotsen
-phaeopus|braunfüßig; alter Regenbrachvogelname|brown-footed; an old whimbrel name|bruinvoetig; een oude regenwulpennaam
-philomelos|Gesang liebend|song loving|zangliefhebber
-phoeniceus|purpurrot, scharlachrot|purple-red, scarlet|purperrood, scharlakenrood
-phoenicuroides|rotschwanzähnlich|redstart-like|roodstaartachtig
-phoenicurus|Rotschwanz|red tail|rode staart
-pica|Elster|magpie|ekster
-picta pictus|bemalt|painted|beschilderd
-pilaris|historisch gebildeter Drosselname; beruht auf einer Verwechslung von griechischen Wörtern für Drossel und Haar|historical thrush name formed through confusion between Greek words for thrush and hair|historisch gevormde lijsternaam door verwarring van Griekse woorden voor lijster en haar
+personata|maskiert; aus lateinisch personatus|masked; from Latin personatus|gemaskerd; uit Latijn personatus
+perspicillata|mit Brille; aus neulateinisch perspicillatus|spectacled; from Modern Latin perspicillatus|met bril; uit Neolatijn perspicillatus
+petrosus|felsig, zum Fels gehörig; aus lateinisch petrosus|rocky, of rocks; from Latin petrosus|rotsig, van rotsen; uit Latijn petrosus
+phaeopus|braunfüßig; alter Regenbrachvogelname; aus mittellateinisch phaeopus; aus griechisch phaios = dunkel und pous = Fuß|brown-footed; an old whimbrel name; from Medieval Latin phaeopus; from Greek phaios = dusky and pous = foot|bruinvoetig; een oude regenwulpennaam; uit middeleeuws Latijn phaeopus; uit Grieks phaios = donker en pous = voet
+philomelos|Gesang liebend; aus lateinisch philomela; griechisch philos = liebend und melos = Gesang|song loving; from Latin philomela; Greek philos = loving and melos = song|zangliefhebber; uit Latijn philomela; Grieks philos = liefhebbend en melos = zang
+phoeniceus|purpurrot, scharlachrot; aus griechisch phoinikeos|purple-red, scarlet; from Greek phoinikeos|purperrood, scharlakenrood; uit Grieks phoinikeos
+phoenicuroides|rotschwanzähnlich; vom früheren Artnamen phoenicurus für einen rotschwänzigen Würger und griechisch -oides = ähnlich; kein direkter Verweis auf die heutige Rotschwanz-Gattung nötig|redstart-like; from the earlier shrike epithet phoenicurus and Greek -oides = resembling; it need not refer directly to the modern redstart genus|roodstaartachtig; van de vroegere klauwierennaam phoenicurus en Grieks -oides = gelijkend op; hoeft niet rechtstreeks naar het huidige roodstaartengeslacht te verwijzen
+phoenicurus|Rotschwanz; aus griechisch phoinix = purpurrot und oura = Schwanz|red tail; from Greek phoinix = crimson + oura = tail|rode staart; uit Grieks phoinix = purperrood en oura = staart
+pica|Elster; aus lateinisch pica|magpie; from Latin pica|ekster; uit Latijn pica
+picta pictus|bemalt; aus lateinisch pictus|painted; from Latin pictus|beschilderd; uit Latijn pictus
+pilaris|historisch gebildeter Drosselname; beruht auf einer Verwechslung von griechischen Wörtern für Drossel und Haar; aus lateinisch pilare|historical thrush name formed through confusion between Greek words for thrush and hair; from Latin pilare|historisch gevormde lijsternaam door verwarring van Griekse woorden voor lijster en haar; uit Latijn pilare
 plancus|als plattfüßig oder als antiker Adlername gedeutet; Benennungsabsicht umstritten|interpreted as flat-footed or as an ancient eagle name; naming intention disputed|uitgelegd als platvoetig of als antieke arendsnaam; naamgevingsbedoeling omstreden|?
-platalea|Löffler|spoonbill|lepelaar
-platyrhynchos|breitschnäblig|broad-billed|breedsnavelig
-plumbeitarsus|bleifarbener Lauf|lead-coloured tarsus|loodkleurige loop
-podiceps|Steißfuß|rump foot|stuitvoet
-poecilorhyncha|buntschnäblig|variegated-billed|bontsnavelig
-poliocephala poliocephalus|grauköpfig|grey-headed|grijskoppig
-polychloros|viel Grün, sehr grün|much green, very green|veel groen, zeer groen
-polyglotta polyglottos|vielsprachig|many-tongued|veeltalig
-pomarinus|Deckelnase; Bezug auf die Schnabelbedeckung, kein Bezug zu Pommern|covered nose; refers to the bill covering, not to Pomerania|bedekte neus; verwijst naar de snavelbedekking, niet naar Pommeren
-porphyrio|Purpurhuhn|purple gallinule|purperkoet
-pratensis|zur Wiese gehörig|of meadows|van weiden
-pratincola|Wiesenbewohner|meadow dweller|weidebewoner
-proregulus|möglicherweise dem Goldhähnchen nahe; auch als kleiner Herrscher gedeutet|possibly close to the goldcrest; also interpreted as petty monarch|mogelijk nabij het goudhaantje; ook uitgelegd als kleine heerser|?
-psittacea|papageienartig|parrot-like|papegaaiachtig
-puffinus|übernommener Sturmtauchername|borrowed shearwater name|overgenomen pijlstormvogelnaam
-pugnax|kämpferisch|pugnacious|strijdlustig
-pulchella|hübsch|pretty|mooi
-punctulata|fein gepunktet|finely spotted|fijn gestippeld
-purpurea purpureus|purpurfarben|purple|purperkleurig
-pusilla pusillus|sehr klein|very small|zeer klein
-pygargus|Weißbürzel|white rump|witte stuit
-pygmaeus|zwergenhaft|dwarfish|dwergachtig
-pyrrhocorax|Feuerrabe|flame raven|vuurraaf
-pyrrhonota|feuerfarbener Rücken|flame-coloured back|vlamkleurige rug
-pyrrhula|kleiner flammenfarbiger Vogel|small flame-coloured bird|kleine vlamkleurige vogel
-pytyopsittacus|Kiefernpapagei|pine parrot|dennenpapegaai
-quelea|möglicherweise aus einem alten Wachtelnamen; Übertragung ungeklärt|possibly from an old quail name; reason for transfer unclear|mogelijk uit een oude kwartelnaam; reden voor overdracht onduidelijk|?
-querquedula|alter Knäkentenname|ancient garganey name|oude zomertalingnaam
-ralloides|rallenähnlich|rail-like|ralachtig
-regalis|königlich|royal|koninklijk
-regulorum|der kleinen Könige|of little kings|van kleine koningen
-regulus|kleiner König|little king|kleine koning
-religiosa|heilig, religiös|sacred, religious|heilig, religieus
-rhynchotis|ähnlicher Schnabel; Vergleich mit einer anderen Ente|similar bill; a comparison with another duck|gelijkende snavel; een vergelijking met een andere eend
-ridibundus|lachend|laughing|lachend
-riparia|zum Flussufer gehörig|of river banks|van rivieroevers
-rosea roseata roseus|rosenfarben|rose-coloured|rozekleurig
-roseicapilla|rosenköpfig|rose-capped|rozekoppig
-roseicollis|rosenhalsig|rose-necked|rozehalzig
-roseogrisea|rosengrau|rose-grey|rozegrijs
-rubecula|Rotkehlchen; alter Vogelname|robin; an old bird name|roodborst; een oude vogelnaam
-ruber rufa|rot|red|rood
-rubescens|rötlich werdend|becoming reddish|roodachtig wordend
-rubicola|Brombeerbewohner|bramble dweller|braambewoner
-rubidiceps|rotköpfig|red-headed|roodkoppig
-rubripes|rotfüßig|red-footed|roodvoetig
-rufescens|rötlich werdend|becoming reddish|roodachtig wordend
-ruficollis|rothalsig|red-necked|roodhalzig
-rufina rufinus|goldrot, rötlich|golden-red, reddish|goudrood, roodachtig
-rufula rufulus|rötlich|reddish|roodachtig
-rupestris|zum Fels gehörig|of rocks|van rotsen
-rupicola|Felsbewohner|rock dweller|rotsbewoner
-rustica rusticus|ländlich|rural|landelijk
-rusticola|Landbewohner; historischer Waldschnepfenname|country dweller; an old woodcock name|landbewoner; een oude houtsnipnaam
-rusticolus|Landbewohner|country dweller|landbewoner
-ruticilla|Rotschwanz|red tail|rode staart
-rutila rutilus|rötlich, goldrot|reddish, golden-red|roodachtig, goudrood
+platalea|Löffler; aus griechisch platus = breit|spoonbill; from Greek platus = broad|lepelaar; uit Grieks platus = breed
+platyrhynchos|breitschnäblig; aus griechisch platus = breit und rhunkhos = Schnabel|broad-billed; from Greek platus = broad + rhunkhos = bill|breedsnavelig; uit Grieks platus = breed en rhunkhos = snavel
+plumbeitarsus|bleifarbener Lauf; aus lateinisch plumbeus; lateinisch plumbeus = bleifarben und griechisch tarsos = Fußsohle, hier Lauf|lead-coloured tarsus; from Latin plumbeus; Latin plumbeus = lead-coloured and Greek tarsos = sole of the foot, here the tarsus|loodkleurige loop; uit Latijn plumbeus; Latijn plumbeus = loodkleurig en Grieks tarsos = voetzool, hier de loop
+podiceps|Steißfuß; aus lateinisch podex; lateinisch podex (Genitiv podicis) = Steiß und pes = Fuß|rump foot; from Latin podex; Latin podex (genitive podicis) = rump and pes = foot|stuitvoet; uit Latijn podex; Latijn podex (genitief podicis) = stuit en pes = voet
+poecilorhyncha|buntschnäblig; aus griechisch poikilos; griechisch poikilos = bunt, gefleckt und rhynkhos = Schnabel|variegated-billed; from Greek poikilos; Greek poikilos = variegated, spotted and rhynkhos = bill|bontsnavelig; uit Grieks poikilos; Grieks poikilos = bont, gevlekt en rhynkhos = snavel
+poliocephala|grauköpfig; aus griechisch polios; griechisch polios = grau und kephale = Kopf|grey-headed; from Greek polios; Greek polios = grey and kephale = head|grijskoppig; uit Grieks polios; Grieks polios = grijs en kephale = kop
+poliocephalus|grauköpfig; aus griechisch polios = grau und kephale = Kopf|grey-headed; from Greek polios = grey + kephale = head|grijskoppig; uit Grieks polios = grijs en kephale = kop
+polychloros|viel Grün, sehr grün; aus griechisch polu; griechisch poly- = viel, sehr und chloros = grün|much green, very green; from Greek polu; Greek poly- = much, very and chloros = green|veel groen, zeer groen; uit Grieks polu; Grieks poly- = veel, zeer en chloros = groen
+polyglotta|vielsprachig; aus griechisch poluglōttos; griechisch polyglottos = vielzüngig, aus polys = viel und glossa = Zunge|many-tongued; from Greek poluglōttos; Greek polyglottos = many-tongued, from polys = many and glossa = tongue|veeltalig; uit Grieks poluglōttos; Grieks polyglottos = veeltongig, uit polys = veel en glossa = tong
+polyglottos|vielsprachig; aus griechisch polus = viel und glossa = Zunge|many-tongued; from Greek polus = many + glossa = tongue|veeltalig; uit Grieks polus = veel en glossa = tong
+pomarinus|Deckelnase; Bezug auf die Schnabelbedeckung, kein Bezug zu Pommern; aus griechisch poma = Deckel und rhis = Nase|covered nose; refers to the bill covering, not to Pomerania; from Greek poma = cover + rhis = nose|bedekte neus; verwijst naar de snavelbedekking, niet naar Pommeren; uit Grieks poma = deksel en rhis = neus
+porphyrio|Purpurhuhn; aus lateinisch porphyrio|purple gallinule; from Latin porphyrio|purperkoet; uit Latijn porphyrio
+pratensis|zur Wiese gehörig; aus lateinisch pratensis; zu lateinisch pratum = Wiese|of meadows; from Latin pratensis; based on Latin pratum = meadow|van weiden; uit Latijn pratensis; bij Latijn pratum = weide
+pratincola|Wiesenbewohner; aus lateinisch pratum = Wiese und incola = Bewohner|meadow dweller; from Latin pratum = meadow + incola = inhabitant|weidebewoner; uit Latijn pratum = weide en incola = bewoner
+proregulus|möglicherweise dem Goldhähnchen nahe; auch als kleiner Herrscher gedeutet; griechisch pro = nahe und der ältere Artname regulus des Goldhähnchens sind eine vorgeschlagene Herleitung|possibly close to the goldcrest; also interpreted as petty monarch; Greek pro = near and the Goldcrest’s earlier epithet regulus form one proposed derivation|mogelijk nabij het goudhaantje; ook uitgelegd als kleine heerser; Grieks pro = nabij en de vroegere goudhanensoortnaam regulus vormen een voorgestelde afleiding|?
+psittacea|papageienartig; aus neulateinisch psittaceus|parrot-like; from Modern Latin psittaceus|papegaaiachtig; uit Neolatijn psittaceus
+puffinus|übernommener Sturmtauchername; englisch Puffin bezeichnete ursprünglich junge, als Speise konservierte Sturmtaucher; erst später den Papageitaucher|borrowed shearwater name; English Puffin originally denoted young shearwaters preserved as food; only later the puffin|overgenomen pijlstormvogelnaam; Engels Puffin duidde oorspronkelijk jonge, als voedsel geconserveerde pijlstormvogels aan; pas later de papegaaiduiker
+pugnax|kämpferisch; aus lateinisch pugnax|pugnacious; from Latin pugnax|strijdlustig; uit Latijn pugnax
+pulchella|hübsch; aus lateinisch pulchellus|pretty; from Latin pulchellus|mooi; uit Latijn pulchellus
+punctulata|fein gepunktet; aus neulateinisch punctulatus|finely spotted; from Modern Latin punctulatus|fijn gestippeld; uit Neolatijn punctulatus
+purpurea purpureus|purpurfarben; aus lateinisch purpureus|purple; from Latin purpureus|purperkleurig; uit Latijn purpureus
+pusilla pusillus|sehr klein; aus lateinisch pusillus|very small; from Latin pusillus|zeer klein; uit Latijn pusillus
+pygargus|Weißbürzel; griechisch pyge = Bürzel und argos = weiß; als älterer Vogelname übernommen|white rump; Greek pyge = rump and argos = white; adopted as an older bird name|witte stuit; Grieks pyge = stuit en argos = wit; als oudere vogelnaam overgenomen
+pygmaeus|zwergenhaft; aus lateinisch pygmaeus|dwarfish; from Latin pygmaeus|dwergachtig; uit Latijn pygmaeus
+pyrrhocorax|Feuerrabe; aus griechisch purrhos = feuerrot und korax = Rabe|flame raven; from Greek purrhos = flame-red + korax = raven|vuurraaf; uit Grieks purrhos = vuurrood en korax = raaf
+pyrrhonota|feuerfarbener Rücken; aus griechisch purrhos = feuerrot und noton = Rücken|flame-coloured back; from Greek purrhos = flame-red + noton = back|vlamkleurige rug; uit Grieks purrhos = vuurrood en noton = rug
+pyrrhula|kleiner flammenfarbiger Vogel; aus griechisch purrhoulas|small flame-coloured bird; from Greek purrhoulas|kleine vlamkleurige vogel; uit Grieks purrhoulas
+pytyopsittacus|Kiefernpapagei; aus griechisch pitus = Kiefer und psittakos = Papagei|pine parrot; from Greek pitus = pine + psittakos = parrot|dennenpapegaai; uit Grieks pitus = den en psittakos = papegaai
+quelea|möglicherweise aus einem alten Wachtelnamen; Übertragung ungeklärt; aus mittellateinisch qualea|possibly from an old quail name; reason for transfer unclear; from Medieval Latin qualea|mogelijk uit een oude kwartelnaam; reden voor overdracht onduidelijk; uit middeleeuws Latijn qualea|?
+querquedula|alter Knäkentenname; aus lateinisch querquedula|ancient garganey name; from Latin querquedula|oude zomertalingnaam; uit Latijn querquedula
+ralloides|rallenähnlich; vom Gattungsnamen Rallus = Ralle und griechisch -oides = ähnlich|rail-like; from the genus Rallus = rail and Greek -oides = resembling|ralachtig; van de geslachtsnaam Rallus = ral en Grieks -oides = gelijkend op
+regalis|königlich; aus lateinisch regalisroyal; zu lateinisch rex = König|royal; from Latin regalisroyal; based on Latin rex = king|koninklijk; uit Latijn regalisroyal; bij Latijn rex = koning
+regulorum|der kleinen Könige; aus lateinisch regulorumof; zu lateinisch rex = König|of little kings; from Latin regulorumof; based on Latin rex = king|van kleine koningen; uit Latijn regulorumof; bij Latijn rex = koning
+regulus|kleiner König; aus lateinisch regulusprince; zu lateinisch rex = König|little king; from Latin regulusprince; based on Latin rex = king|kleine koning; uit Latijn regulusprince; bij Latijn rex = koning
+religiosa|heilig, religiös; aus lateinisch religiosus|sacred, religious; from Latin religiosus|heilig, religieus; uit Latijn religiosus
+rhynchotis|ähnlicher Schnabel; Vergleich mit einer anderen Ente; aus griechisch rhunkhos|similar bill; a comparison with another duck; from Greek rhunkhos|gelijkende snavel; een vergelijking met een andere eend; uit Grieks rhunkhos
+ridibundus|lachend; aus lateinisch ridibundus|laughing; from Latin ridibundus|lachend; uit Latijn ridibundus
+riparia|zum Flussufer gehörig; aus lateinisch riparius; zu lateinisch ripa = Flussufer|of river banks; from Latin riparius; based on Latin ripa = river bank|van rivieroevers; uit Latijn riparius; bij Latijn ripa = rivieroever
+rosea roseus|rosenfarben; aus lateinisch roseus; zu lateinisch rosa = Rose|rose-coloured; from Latin roseus; based on Latin rosa = rose|rozekleurig; uit Latijn roseus; bij Latijn rosa = roos
+roseata|rosenfarben; aus mittellateinisch roseatus; zu lateinisch rosa = Rose|rose-coloured; from Medieval Latin roseatus; based on Latin rosa = rose|rozekleurig; uit middeleeuws Latijn roseatus; bij Latijn rosa = roos
+roseicapilla|rosenköpfig; aus lateinisch roseus = rosenfarben und capillus = Kopfhaar|rose-capped; from Latin roseus = rose-coloured + capillus = hair of the head|rozekoppig; uit Latijn roseus = rozekleurig en capillus = hoofdhaar
+roseicollis|rosenhalsig; aus lateinisch roseus = rosenfarben und collum = Hals|rose-necked; from Latin roseus = rose-coloured + collum = neck|rozehalzig; uit Latijn roseus = rozekleurig en collum = hals
+roseogrisea|rosengrau; aus lateinisch roseus = rosenfarben und mittellateinisch griseus = grau|rose-grey; from Latin roseus = rose-coloured + Medieval Latin griseus = grey|rozegrijs; uit Latijn roseus = rozekleurig en middeleeuws Latijn griseus = grijs
+rubecula|mittellateinisch rubecula = Rotkehlchen; Verkleinerungsform zu lateinisch ruber = rot, sinngemäß „kleines Rotes“. Bezieht sich auf die rötliche Brust und Kehle|Medieval Latin rubecula = robin; a diminutive of Latin ruber = red, roughly “little red one”. Refers to the reddish breast and throat|middeleeuws Latijn rubecula = roodborst; verkleinwoord bij Latijn ruber = rood, ongeveer „klein rood vogeltje”. Verwijst naar de roodachtige borst en keel
+ruber|rot; aus lateinisch ruber|red; from Latin ruber|rood; uit Latijn ruber
+rufa|rot; aus lateinisch rufus|red; from Latin rufus|rood; uit Latijn rufus
+rubescens|rötlich werdend; aus lateinisch rubescens; zu lateinisch ruber = rot|becoming reddish; from Latin rubescens; based on Latin ruber = red|roodachtig wordend; uit Latijn rubescens; bij Latijn ruber = rood
+rubicola|Brombeerbewohner; lateinisch rubus = Brombeerstrauch und -cola = Bewohner|bramble dweller; Latin rubus = bramble and -cola = dweller|braambewoner; Latijn rubus = braamstruik en -cola = bewoner
+rubidiceps|rotköpfig; aus lateinisch rubidus = rötlich und caput = Kopf|red-headed; from Latin rubidus = ruddy + caput = head|roodkoppig; uit Latijn rubidus = roodachtig en caput = kop
+rubripes|rotfüßig; aus lateinisch ruber = rot und pes = Fuß|red-footed; from Latin ruber = red + pes = foot|roodvoetig; uit Latijn ruber = rood en pes = voet
+rufescens|rötlich werdend; lateinisch rufescens = rötlich werdend, zu rufescere = sich röten und rufus = rotbraun|becoming reddish; Latin rufescens = becoming reddish, from rufescere = to redden and rufus = rufous|roodachtig wordend; Latijn rufescens = roodachtig wordend, bij rufescere = rood worden en rufus = roodbruin
+ruficollis|rothalsig; aus lateinisch rufus = rotbraun und collum = Hals|red-necked; from Latin rufus = rufous + collum = neck|roodhalzig; uit Latijn rufus = roodbruin en collum = hals
+rufina rufinus|goldrot, rötlich; aus mittellateinisch rufinus; zu lateinisch rufus = rotbraun|golden-red, reddish; from Medieval Latin rufinus; based on Latin rufus = rufous|goudrood, roodachtig; uit middeleeuws Latijn rufinus; bij Latijn rufus = roodbruin
+rufula rufulus|rötlich; aus lateinisch rufulus; zu lateinisch rufus = rotbraun|reddish; from Latin rufulus; based on Latin rufus = rufous|roodachtig; uit Latijn rufulus; bij Latijn rufus = roodbruin
+rupestris|zum Fels gehörig; aus neulateinisch rupestris; zu lateinisch rupes = Fels|of rocks; from Modern Latin rupestris; based on Latin rupes = rock|van rotsen; uit Neolatijn rupestris; bij Latijn rupes = rots
+rupicola|Felsbewohner; aus lateinisch rupes = Fels und -cola = Bewohner|rock dweller; from Latin rupes = rock + -cola = dweller|rotsbewoner; uit Latijn rupes = rots en -cola = bewoner
+rustica|ländlich; aus lateinisch rusticus; zu lateinisch rus = Land|rural; from Latin rusticus; based on Latin rus = countryside|landelijk; uit Latijn rusticus; bij Latijn rus = platteland
+rusticus|ländlich; aus lateinisch rusticus|rural; from Latin rusticus|landelijk; uit Latijn rusticus
+rusticola|Landbewohner; historischer Waldschnepfenname; aus lateinisch rusticula|country dweller; an old woodcock name; from Latin rusticula|landbewoner; een oude houtsnipnaam; uit Latijn rusticula
+rusticolus|Landbewohner; aus lateinisch rusticola|country dweller; from Latin rusticola|landbewoner; uit Latijn rusticola
+ruticilla|Rotschwanz; lateinisch rutilus = rötlich, goldrot und neulateinisch cilla = Schwanz|red tail; Latin rutilus = reddish, golden-red and Modern Latin cilla = tail|rode staart; Latijn rutilus = roodachtig, goudrood en Neolatijn cilla = staart
+rutila|rötlich, goldrot; aus lateinisch rutilus|reddish, golden-red; from Latin rutilus|roodachtig, goudrood; uit Latijn rutilus
+rutilus|rötlich, goldrot; aus lateinisch rutilus|reddish, golden-red; from Latin rutilus|roodachtig, goudrood; uit Latijn rutilus
 sarda|von Sardinien|of Sardinia|van Sardinië
-satyra|Satyr, mythisches Waldwesen|satyr, a mythical woodland being|sater, een mythisch boswezen
-saxatilis|zwischen Felsen lebend|living among rocks|tussen rotsen levend
-scapularis|zur Schulter gehörig|of the shoulder|van de schouder
-schistisagus|Schiefermantel|slate cloak|leisteenmantel
-schoeniclus|alter Name eines schilfbewohnenden Vogels|ancient name for a reed-dwelling bird|oude naam voor een rietbewonende vogel
-schoenobaenus|Schilfgänger|reed walker|rietloper
-scirpaceus|zum Schilf gehörig|of reeds|van het riet
-scolopaceus|schnepfenartig|snipe-like|snipachtig
-scops|alter Name einer kleinen Eule|ancient name for a small owl|oude naam voor een kleine uil
+satyra|Satyr, mythisches Waldwesen; aus lateinisch satyrus|satyr, a mythical woodland being; from Latin satyrus|sater, een mythisch boswezen; uit Latijn satyrus
+saxatilis|zwischen Felsen lebend; aus lateinisch saxatilis; zu lateinisch saxum = Fels|living among rocks; from Latin saxatilis; based on Latin saxum = rock|tussen rotsen levend; uit Latijn saxatilis; bij Latijn saxum = rots
+scapularis|zur Schulter gehörig; aus spätlateinisch scapula|of the shoulder; from Late Latin scapula|van de schouder; uit Laatlatijn scapula
+schistisagus|Schiefermantel; aus spätlateinisch schistus = Schiefer und lateinisch sagus = Mantel|slate cloak; from Late Latin schistus = slate + Latin sagus = cloak|leisteenmantel; uit Laatlatijn schistus = leisteen en Latijn sagus = mantel
+schoeniclus|alter Name eines schilfbewohnenden Vogels; aus griechisch skhoiniklos|ancient name for a reed-dwelling bird; from Greek skhoiniklos|oude naam voor een rietbewonende vogel; uit Grieks skhoiniklos
+schoenobaenus|Schilfgänger; aus griechisch skhoinos = Schilf und baino = schreiten|reed walker; from Greek skhoinos = reed + baino = to walk|rietloper; uit Grieks skhoinos = riet en baino = lopen
+scirpaceus|zum Schilf gehörig; aus lateinisch scirpus; zu lateinisch scirpus = Binse, Schilf|of reeds; from Latin scirpus; based on Latin scirpus = rush, reed|van het riet; uit Latijn scirpus; bij Latijn scirpus = rus, riet
+scolopaceus|schnepfenartig; aus lateinisch scolopax|snipe-like; from Latin scolopax|snipachtig; uit Latijn scolopax
+scops|alter Name einer kleinen Eule; aus griechisch skōps|ancient name for a small owl; from Greek skōps|oude naam voor een kleine uil; uit Grieks skōps
 scotica|schottisch|Scottish|Schots
-semipalmatus|halb mit Schwimmhäuten versehen|partly web-footed|gedeeltelijk zwemvliezig
-senator|Senator; Vergleich mit römischer Amtskleidung|senator; compared with Roman official dress|senator; vergeleken met Romeinse ambtskleding
-senilis|greisenhaft|elderly|bejaard
-serinus|übernommener Girlitzname|borrowed serin name|overgenomen naam voor de Europese kanarie
-serrator|Säger|sawyer|zager
-serrirostris|Sägeschnabel|saw bill|zaagsnavel
-sibilans sibilatrix|pfeifend, Pfeifer|whistling, whistler|fluitend, fluiter
-solitaria solitarius|einsam|solitary|eenzaam
-solstitialis|zur Sonnenwende gehörig|of the solstice|van de zonnewende
-sparsa|besprenkelt|sprinkled|besprenkeld
-sparverius|Sperber; alter Greifvogelname|sparrowhawk; an old raptor name|sperwer; een oude roofvogelnaam
-spectabilis|sehenswert, prächtig|remarkable, splendid|bezienswaardig, prachtig
-spilogaster|Fleckenbauch|spotted belly|gevlekte buik
-spinosus|dornig|thorny|doornig
-spinus|Zeisig|siskin|sijs
-splendens|glänzend|shining|glanzend
-spodiogenys|aschgraue Wange|ash-grey cheek|asgrijze wang
-spodocephala spodocephalus|aschgrauköpfig|ash-grey-headed|asgrijskoppig
-sponsa|Braut|bride|bruid
-stagnatilis|zu Teichen gehörig|of pools|van poelen
-stellaris stellata|sternartig, mit Sternflecken|star-like, star-spotted|sterachtig, met stervlekken
-strepera|lärmend|noisy|luidruchtig
-striata|gestreift|striped|gestreept
-sturninus|starenartig|starling-like|spreeuwachtig
-subalpina|unterhalb der Alpen, am Gebirgsfuß|below the Alps, at the mountain foot|onder de Alpen, aan de bergvoet
-subbuteo|einem Bussard nahe; vergleichender Name|near a buzzard; a comparative name|nabij een buizerd; een vergelijkende naam
-subis|alter Vogelname, auf Schwalben übertragen|ancient bird name, applied to swallows|oude vogelnaam, toegepast op zwaluwen
-subminuta|dem Vogel mit dem Namen minuta nahe|close to the bird named minuta|nabij de vogel met de naam minuta
-subruficollis|rötlicher Hals|reddish neck|roodachtige hals
-superciliosa|mit auffälliger Augenbraue|with a conspicuous eyebrow|met opvallende wenkbrauw
+semipalmatus|halb mit Schwimmhäuten versehen; aus lateinisch semi- = halb und palmatus = mit Schwimmhäuten|partly web-footed; from Latin semi- = half + palmatus = webbed|gedeeltelijk zwemvliezig; uit Latijn semi- = half en palmatus = met zwemvliezen
+senator|Senator; Vergleich mit römischer Amtskleidung; aus lateinisch senator|senator; compared with Roman official dress; from Latin senator|senator; vergeleken met Romeinse ambtskleding; uit Latijn senator
+senilis|greisenhaft; aus lateinisch senilis|elderly; from Latin senilis|bejaard; uit Latijn senilis
+serinus|übernommener Girlitzname; über französisch serin = Girlitz; dessen tiefere Herkunft ist unklar|borrowed serin name; via French serin = serin; its deeper origin is unclear|overgenomen naam voor de Europese kanarie; via Frans serin = Europese kanarie; de verdere herkomst is onduidelijk
+serrator|Säger; mittellateinisch serrator = Säger, zu lateinisch serra = Säge|sawyer; Medieval Latin serrator = sawyer, related to Latin serra = saw|zager; middeleeuws Latijn serrator = zager, bij Latijn serra = zaag
+serrirostris|Sägeschnabel; aus lateinisch serra = Säge und rostrum = Schnabel|saw bill; from Latin serra = saw + rostrum = bill|zaagsnavel; uit Latijn serra = zaag en rostrum = snavel
+sibilans|pfeifend, Pfeifer; aus lateinisch sibilans|whistling, whistler; from Latin sibilans|fluitend, fluiter; uit Latijn sibilans
+sibilatrix|pfeifend, Pfeifer; aus lateinisch sibilatrix; zu lateinisch sibilare = pfeifen|whistling, whistler; from Latin sibilatrix; related to Latin sibilare = to whistle|fluitend, fluiter; uit Latijn sibilatrix; bij Latijn sibilare = fluiten
+solitaria solitarius|einsam; aus lateinisch solitarius|solitary; from Latin solitarius|eenzaam; uit Latijn solitarius
+solstitialis|zur Sonnenwende gehörig; aus lateinisch solstitialis|of the solstice; from Latin solstitialis|van de zonnewende; uit Latijn solstitialis
+sparsa|besprenkelt; aus lateinisch sparsus|sprinkled; from Latin sparsus|besprenkeld; uit Latijn sparsus
+sparverius|Sperber; alter Greifvogelname; aus mittellateinisch sparverius|sparrowhawk; an old raptor name; from Medieval Latin sparverius|sperwer; een oude roofvogelnaam; uit middeleeuws Latijn sparverius
+spectabilis|sehenswert, prächtig; aus lateinisch spectabilis|remarkable, splendid; from Latin spectabilis|bezienswaardig, prachtig; uit Latijn spectabilis
+spilogaster|Fleckenbauch; aus griechisch spilos = Fleck und gaster = Bauch|spotted belly; from Greek spilos = spot + gaster = belly|gevlekte buik; uit Grieks spilos = vlek en gaster = buik
+spinosus|dornig; aus lateinisch spinosus; zu lateinisch spina = Dorn|thorny; from Latin spinosus; based on Latin spina = thorn|doornig; uit Latijn spinosus; bij Latijn spina = doorn
+spinus|Zeisig; aus griechisch spinos|siskin; from Greek spinos|sijs; uit Grieks spinos
+splendens|glänzend; aus lateinisch splendens|shining; from Latin splendens|glanzend; uit Latijn splendens
+spodiogenys|aschgraue Wange; aus griechisch spodios = aschfarben und genus = Wange|ash-grey cheek; from Greek spodios = ash-coloured + genus = cheek|asgrijze wang; uit Grieks spodios = askleurig en genus = wang
+spodocephala|aschgrauköpfig; aus griechisch spodos = Asche und kephale = Kopf|ash-grey-headed; from Greek spodos = ash + kephale = head|asgrijskoppig; uit Grieks spodos = as en kephale = kop
+spodocephalus|aschgrauköpfig; griechisch spodos = Asche und kephale = Kopf|ash-grey-headed; Greek spodos = ash and kephale = head|asgrijskoppig; Grieks spodos = as en kephale = kop
+sponsa|Braut; aus lateinisch sponsa|bride; from Latin sponsa|bruid; uit Latijn sponsa
+stagnatilis|zu Teichen gehörig; aus lateinisch stagnatilis; zu lateinisch stagnum = Teich, Tümpel|of pools; from Latin stagnatilis; based on Latin stagnum = pool, pond|van poelen; uit Latijn stagnatilis; bij Latijn stagnum = poel, vijver
+stellaris|sternartig, mit Sternflecken; aus lateinisch stellaris; zu lateinisch stella = Stern|star-like, star-spotted; from Latin stellaris; based on Latin stella = star|sterachtig, met stervlekken; uit Latijn stellaris; bij Latijn stella = ster
+stellata|sternartig, mit Sternflecken; aus lateinisch stellatus; zu lateinisch stella = Stern|star-like, star-spotted; from Latin stellatus; based on Latin stella = star|sterachtig, met stervlekken; uit Latijn stellatus; bij Latijn stella = ster
+strepera|lärmend; aus spätlateinisch streperus|noisy; from Late Latin streperus|luidruchtig; uit Laatlatijn streperus
+striata|gestreift; aus lateinisch striatus; zu lateinisch stria = Furche|striped; from Latin striatus; based on Latin stria = furrow|gestreept; uit Latijn striatus; bij Latijn stria = groef
+sturninus|starenartig; aus lateinisch sturninus|starling-like; from Latin sturninus|spreeuwachtig; uit Latijn sturninus
+subalpina|unterhalb der Alpen, am Gebirgsfuß; aus lateinisch subalpinus|below the Alps, at the mountain foot; from Latin subalpinus|onder de Alpen, aan de bergvoet; uit Latijn subalpinus
+subbuteo|einem Bussard nahe; vergleichender Name; aus lateinisch sub = unter, nahe und buteo = Bussard|near a buzzard; a comparative name; from Latin sub = under, near + buteo = buzzard|nabij een buizerd; een vergelijkende naam; uit Latijn sub = onder, nabij en buteo = buizerd
+subis|alter Vogelname, auf Schwalben übertragen; aus lateinisch subis|ancient bird name, applied to swallows; from Latin subis|oude vogelnaam, toegepast op zwaluwen; uit Latijn subis
+subminuta|dem Vogel mit dem Namen minuta nahe; aus lateinisch sub; hier lateinisch sub = nahe und minuta, der Artname des Zwergstrandläufers; bedeutet „dem Zwergstrandläufer nahe“|close to the bird named minuta; from Latin sub; here Latin sub = near and minuta, the Little Stint’s epithet; means “close to the Little Stint”|nabij de vogel met de naam minuta; uit Latijn sub; hier Latijn sub = nabij en minuta, de soortnaam van de kleine strandloper; betekent „nabij de kleine strandloper”
+subruficollis|rötlicher Hals; lateinisch subrufus = rötlich und neulateinisch -collis = halsig, zu lateinisch collum = Hals|reddish neck; Latin subrufus = reddish and Modern Latin -collis = necked, from Latin collum = neck|roodachtige hals; Latijn subrufus = roodachtig en Neolatijn -collis = met een hals, bij Latijn collum = hals
+superciliosa|mit auffälliger Augenbraue; aus lateinisch superciliosus; zu lateinisch supercilium = Augenbraue|with a conspicuous eyebrow; from Latin superciliosus; based on Latin supercilium = eyebrow|met opvallende wenkbrauw; uit Latijn superciliosus; bij Latijn supercilium = wenkbrauw
 svecica|schwedisch|Swedish|Zweeds
-sylvicola|Waldbewohner|woodland dweller|bosbewoner
+sylvicola|Waldbewohner; zu lateinisch silva (auch sylva) = Wald; -cola = Bewohner|woodland dweller; related to Latin silva (also sylva) = woodland; -cola = dweller|bosbewoner; bij Latijn silva (ook sylva) = bos; -cola = bewoner
 syriacus|syrisch|Syrian|Syrisch
-tadornoides|brandgansähnlich|shelduck-like|bergeendachtig
-tarda|langsam|slow|langzaam
-tenellipes|zarte Füße|delicate feet|tere voeten
-tenuirostris|dünnschnäblig|slender-billed|dunsnavelig
-tetrax tetrix|alter Name eines Hühnervogels|ancient name for a gamebird|oude naam voor een hoenderachtige
-thalassinus|meergrün|sea-green|zeegroen
-tigrina|tigerartig, gestreift|tiger-like, striped|tijgerachtig, gestreept
-tinnunculus|kleiner Klingler; alter Falkenname|little ringer; an old falcon name|kleine klingelaar; een oude valkennaam
-torquatus|mit Halsring|collared|met halsring
+tadornoides|brandgansähnlich; vom früheren Artnamen tadorna der Brandgans und griechisch -oides = ähnlich|shelduck-like; from tadorna, the shelduck’s earlier epithet, and Greek -oides = resembling|bergeendachtig; van tadorna, de vroegere soortnaam van de bergeend, en Grieks -oides = gelijkend op
+tarda|langsam; aus lateinisch tarda|slow; from Latin tarda|langzaam; uit Latijn tarda
+tenellipes|zarte Füße; aus lateinisch tenellus = zart und pes = Fuß|delicate feet; from Latin tenellus = delicate + pes = foot|tere voeten; uit Latijn tenellus = teer en pes = voet
+tenuirostris|dünnschnäblig; aus lateinisch tenuis = dünn, schlank und rostrum = Schnabel|slender-billed; from Latin tenuis = thin, slender + rostrum = bill|dunsnavelig; uit Latijn tenuis = dun, slank en rostrum = snavel
+tetrax|alter Name eines Hühnervogels; aus griechisch tetrax|ancient name for a gamebird; from Greek tetrax|oude naam voor een hoenderachtige; uit Grieks tetrax
+tetrix|alter Name eines Hühnervogels; aus griechisch tetrix|ancient name for a gamebird; from Greek tetrix|oude naam voor een hoenderachtige; uit Grieks tetrix
+thalassinus|meergrün; aus lateinisch thalassinus|sea-green; from Latin thalassinus|zeegroen; uit Latijn thalassinus
+tigrina|tigerartig, gestreift; aus lateinisch tigrinus|tiger-like, striped; from Latin tigrinus|tijgerachtig, gestreept; uit Latijn tigrinus
+tinnunculus|kleiner Klingler; alter Falkenname; lateinisch tinnunculus = Turmfalke, zu tinnulus = schrill klingend|little ringer; an old falcon name; Latin tinnunculus = kestrel, related to tinnulus = shrill-sounding|kleine klingelaar; een oude valkennaam; Latijn tinnunculus = torenvalk, bij tinnulus = schel klinkend
+torquatus|mit Halsring; aus lateinisch torquatus; zu lateinisch torques = Halskette|collared; from Latin torquatus; based on Latin torques = neck-chain|met halsring; uit Latijn torquatus; bij Latijn torques = halsketting
 torquilla|von drehen; Bezug auf die Kopfbewegungen|from twisting; refers to the head movements|van draaien; verwijst naar de kopbewegingen
-trichas|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
-tricolor|dreifarbig|three-coloured|driekleurig
-tridactyla tridactylus|dreizehig|three-toed|drietenig
-tristis|traurig, düster|sad, gloomy|treurig, somber
-trivialis|gewöhnlich oder an Wegen vorkommend; konkrete Benennungsabsicht unklar|common or of roadsides; specific naming intention unclear|gewoon of van wegkanten; concrete naamgevingsbedoeling onduidelijk|?
-trochiloides|dem Vogel namens trochilus ähnlich|resembling the bird named trochilus|lijkend op de vogel met de naam trochilus
-trochilus|alter Name eines kleinen Vogels|ancient name for a small bird|oude naam voor een kleine vogel
-troglodytes|Höhlenbewohner|cave dweller|holbewoner
-turtur|Turteltaube; lautnachahmender Name|turtle dove; an imitative name|tortelduif; een klanknabootsende naam
-tyrannus|Herrscher, Tyrann|ruler, tyrant|heerser, tiran
-ulula|alter Eulenname|ancient owl name|oude uilennaam
-undata undulata undulatus|gewellt, mit Wellenzeichnung|wavy, with wavy markings|gegolfd, met golftekening
-unicinctus|mit einem Band|single-banded|met één band
-urbicum|zur Stadt gehörig|of towns|van steden
-ustulatus|angesengt|scorched|verschroeid
-vanellus|kleiner Fächer; alter Kiebitzname|little fan; an old lapwing name|kleine waaier; een oude kievitnaam
-varia varius|bunt, verschiedenfarbig|variegated|bont, veelkleurig
-variegata|bunt gezeichnet|variegated|bont getekend
-velatus|verschleiert|veiled|gesluierd
-veredus|Kurierpferd; Vergleich mit schnellem Laufen|courier horse; a comparison with fast running|koerierspaard; een vergelijking met snel lopen
-versicolor|vielfarbig, wechselnd gefärbt|many-coloured, changing colour|veelkleurig, wisselend gekleurd
-vespertinus|abendlich|of evening|van de avond
-viduata|verwitwet; Bezug auf die Färbung|widowed; refers to the colouring|verweduwd; verwijst naar de kleur
-vipio|historischer Kranichname|historical crane name|historische kraanvogelnaam
-virescens|grünlich werdend|becoming greenish|groenachtig wordend
-virgo|Jungfrau|maiden|maagd
-viridigenalis|grünwangig|green-cheeked|groenwangig
-viridis|grün|green|groen
-viscivorus|Mistel fressend|mistletoe-eating|maretak etend
-vittata|gebändert|banded|gebandeerd
-vociferus|laut rufend|calling loudly|luid roepend
-vulgaris|gewöhnlich, verbreitet|common, widespread|gewoon, algemeen
-xanthocephalus|gelbköpfig|yellow-headed|geelkoppig
-xanthops|gelbgesichtig|yellow-faced|geelgezicht
-zonarius|mit Gürtel|belted|met gordel
-zonorhyncha|gebänderter Schnabel|banded bill|gebandeerde snavel
+trichas|alter Name eines kleinen Vogels; aus griechisch trikhas|ancient name for a small bird; from Greek trikhas|oude naam voor een kleine vogel; uit Grieks trikhas
+tricolor|dreifarbig; aus lateinisch tri- = drei und color = Farbe|three-coloured; from Latin tri- = three + color = colour|driekleurig; uit Latijn tri- = drie en color = kleur
+tridactyla tridactylus|dreizehig; griechisch tri- = drei und daktylos = Zehe|three-toed; Greek tri- = three and daktylos = toe|drietenig; Grieks tri- = drie en daktylos = teen
+tristis|traurig, düster; aus lateinisch tristis|sad, gloomy; from Latin tristis|treurig, somber; uit Latijn tristis
+trivialis|gewöhnlich oder an Wegen vorkommend; konkrete Benennungsabsicht unklar; lateinisch trivialis = gewöhnlich, zu trivium = öffentlicher Weg oder Kreuzung; der genaue Bezug zum Vogel bleibt offen|common or of roadsides; specific naming intention unclear; Latin trivialis = common, from trivium = public way or crossroads; the precise reference to the bird remains unresolved|gewoon of van wegkanten; concrete naamgevingsbedoeling onduidelijk; Latijn trivialis = gewoon, bij trivium = openbare weg of kruispunt; de precieze verwijzing naar de vogel blijft open|?
+trochiloides|dem Vogel namens trochilus ähnlich; vom früheren Namen Motacilla trochilus des Fitis und griechisch -oides = ähnlich|resembling the bird named trochilus; from the Willow Warbler’s earlier name Motacilla trochilus and Greek -oides = resembling|lijkend op de vogel met de naam trochilus; van de vroegere fitisnaam Motacilla trochilus en Grieks -oides = gelijkend op
+trochilus|alter Name eines kleinen Vogels; aus griechisch trokhilos|ancient name for a small bird; from Greek trokhilos|oude naam voor een kleine vogel; uit Grieks trokhilos
+troglodytes|Höhlenbewohner; aus griechisch trogle = Höhle und dutes = Taucher|cave dweller; from Greek trogle = cave + dutes = diver|holbewoner; uit Grieks trogle = hol en dutes = duiker
+turtur|Turteltaube; lautnachahmender Name; aus lateinisch turtur|turtle dove; an imitative name; from Latin turtur|tortelduif; een klanknabootsende naam; uit Latijn turtur
+tyrannus|Herrscher, Tyrann; aus lateinisch tyrannus|ruler, tyrant; from Latin tyrannus|heerser, tiran; uit Latijn tyrannus
+ulula|alter Eulenname; aus lateinisch ulula|ancient owl name; from Latin ulula|oude uilennaam; uit Latijn ulula
+undata|gewellt, mit Wellenzeichnung; aus mittellateinisch undatus; zu lateinisch unda = Welle|wavy, with wavy markings; from Medieval Latin undatus; based on Latin unda = wave|gegolfd, met golftekening; uit middeleeuws Latijn undatus; bij Latijn unda = golf
+undulata undulatus|gewellt, mit Wellenzeichnung; aus lateinisch undulatus; zu lateinisch unda = Welle|wavy, with wavy markings; from Latin undulatus; based on Latin unda = wave|gegolfd, met golftekening; uit Latijn undulatus; bij Latijn unda = golf
+unicinctus|mit einem Band; aus lateinisch uni- = einzeln und cinctus = gegürtet|single-banded; from Latin uni- = single + cinctus = girdled|met één band; uit Latijn uni- = enkel en cinctus = omgord
+urbicum|zur Stadt gehörig; aus lateinisch urbicus; zu lateinisch urbs = Stadt|of towns; from Latin urbicus; based on Latin urbs = town|van steden; uit Latijn urbicus; bij Latijn urbs = stad
+ustulatus|angesengt; aus lateinisch ustulatus|scorched; from Latin ustulatus|verschroeid; uit Latijn ustulatus
+vanellus|kleiner Fächer; alter Kiebitzname; aus mittellateinisch vanellus; zu lateinisch vannus = Getreideschwinge, Fächer|little fan; an old lapwing name; from Medieval Latin vanellus; based on Latin vannus = winnowing fan|kleine waaier; een oude kievitnaam; uit middeleeuws Latijn vanellus; bij Latijn vannus = wan, waaier
+varia varius|bunt, verschiedenfarbig; aus lateinisch varius|variegated; from Latin varius|bont, veelkleurig; uit Latijn varius
+variegata|bunt gezeichnet; aus lateinisch variegatus|variegated; from Latin variegatus|bont getekend; uit Latijn variegatus
+velatus|verschleiert; aus lateinisch velatus|veiled; from Latin velatus|gesluierd; uit Latijn velatus
+veredus|Kurierpferd; Vergleich mit schnellem Laufen; aus lateinisch veredus|courier horse; a comparison with fast running; from Latin veredus|koerierspaard; een vergelijking met snel lopen; uit Latijn veredus
+versicolor|vielfarbig, wechselnd gefärbt; aus lateinisch vertere = wechseln und color = Farbe|many-coloured, changing colour; from Latin vertere = to change + color = colour|veelkleurig, wisselend gekleurd; uit Latijn vertere = veranderen en color = kleur
+vespertinus|abendlich; aus lateinisch vespertinus; zu lateinisch vesper = Abend|of evening; from Latin vespertinus; based on Latin vesper = evening|van de avond; uit Latijn vespertinus; bij Latijn vesper = avond
+viduata|verwitwet; Bezug auf die Färbung; aus lateinisch viduata|widowed; refers to the colouring; from Latin viduata|verweduwd; verwijst naar de kleur; uit Latijn viduata
+vipio|historischer Kranichname; aus lateinisch vipio|historical crane name; from Latin vipio|historische kraanvogelnaam; uit Latijn vipio
+virescens|grünlich werdend; aus lateinisch virescens|becoming greenish; from Latin virescens|groenachtig wordend; uit Latijn virescens
+virgo|Jungfrau; aus lateinisch virgo|maiden; from Latin virgo|maagd; uit Latijn virgo
+viridigenalis|grünwangig; aus lateinisch viridis = grün und gena = Wange|green-cheeked; from Latin viridis = green + gena = cheek|groenwangig; uit Latijn viridis = groen en gena = wang
+viridis|grün; aus lateinisch viridis|green; from Latin viridis|groen; uit Latijn viridis
+viscivorus|Mistel fressend; aus lateinisch viscum = Mistel und -vorus = fressend|mistletoe-eating; from Latin viscum = mistletoe + -vorus = eating|maretak etend; uit Latijn viscum = maretak en -vorus = etend
+vittata|gebändert; aus lateinisch vittatus; zu lateinisch vitta = Band|banded; from Latin vittatus; based on Latin vitta = band|gebandeerd; uit Latijn vittatus; bij Latijn vitta = band
+vociferus|laut rufend; aus lateinisch vociferus|calling loudly; from Latin vociferus|luid roepend; uit Latijn vociferus
+vulgaris|gewöhnlich, verbreitet; aus lateinisch vulgaris|common, widespread; from Latin vulgaris|gewoon, algemeen; uit Latijn vulgaris
+xanthocephalus|gelbköpfig; aus griechisch xanthos = gelb und -kephalos = köpfig|yellow-headed; from Greek xanthos = yellow + -kephalos = headed|geelkoppig; uit Grieks xanthos = geel en -kephalos = met een kop
+xanthops|gelbgesichtig; aus griechisch xanthos = gelb und ops = Auge, Gesicht|yellow-faced; from Greek xanthos = yellow + ops = eye, face|geelgezicht; uit Grieks xanthos = geel en ops = oog, gezicht
+zonarius|mit Gürtel; aus lateinisch zonarius; zu lateinisch zona = Gürtel|belted; from Latin zonarius; based on Latin zona = girdle|met gordel; uit Latijn zonarius; bij Latijn zona = gordel
+zonorhyncha|gebänderter Schnabel; aus griechisch zone = Band, Gürtel und rhunkhos = Schnabel|banded bill; from Greek zone = band, girdle + rhunkhos = bill|gebandeerde snavel; uit Grieks zone = band, gordel en rhunkhos = snavel

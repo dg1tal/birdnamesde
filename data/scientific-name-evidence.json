@@ -403,6 +403,18 @@
     "review20261108_fbdcc3c4f8c4": {
       "title": "Wiktionary: ξένος (Ancient Greek)",
       "url": "https://en.wiktionary.org/w/index.php?oldid=92375823"
+    },
+    "lewisShortCarduelis": {
+      "title": "Lewis & Short (1879): A Latin Dictionary, carduelis (Perseus / Scaife ATLAS)",
+      "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Alat.ls.perseus-eng2-n6780/"
+    },
+    "nisanyanYelkovan": {
+      "title": "Nişanyan Sözlük: yelkovan",
+      "url": "https://www.nisanyansozluk.com/kelime/yelkovan"
+    },
+    "birdlifeCalonectris": {
+      "title": "BirdLife International (2021): Scopoli’s Shearwater, name origin",
+      "url": "https://www.birdlife.org/news/2021/07/28/seabird-month-scopolis-shearwater-calonectris-diomedea/"
     }
   },
   "terms": {
@@ -1254,6 +1266,58 @@
     "g:Schoeniclus": {
       "source": "jobling2010",
       "page": 350
+    },
+    "g:Erithacus": {
+      "source": "jobling2010",
+      "page": 148
+    },
+    "g:Gallus": {
+      "source": "jobling2010",
+      "page": 170
+    },
+    "e:gallus": {
+      "source": "jobling2010",
+      "page": 170
+    },
+    "g:Psittacula": {
+      "source": "jobling2010",
+      "page": 321
+    },
+    "g:Sylvia": {
+      "source": "jobling2010",
+      "page": 375
+    },
+    "g:Carduelis": {
+      "additionalSources": [
+        {
+          "source": "lewisShortCarduelis",
+          "scope": "wordComponent"
+        }
+      ]
+    },
+    "e:carduelis": {
+      "additionalSources": [
+        {
+          "source": "lewisShortCarduelis",
+          "scope": "wordComponent"
+        }
+      ]
+    },
+    "e:yelkouan": {
+      "additionalSources": [
+        {
+          "source": "nisanyanYelkovan",
+          "scope": "wordComponent"
+        }
+      ]
+    },
+    "g:Calonectris": {
+      "additionalSources": [
+        {
+          "source": "birdlifeCalonectris",
+          "scope": "wordComponent"
+        }
+      ]
     }
   }
 }

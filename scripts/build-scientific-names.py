@@ -112,8 +112,8 @@ def build():
         species[bird['id']] = {'scientificName': name, 'parts': parts}
     assert reviewed_evidence['terms'].keys() <= terms.keys(), 'Unknown reviewed term'
     return {'version': 1, 'languages': list(LANGUAGES),
-            'meta': {'date': '2026-11-09', 'catalogueSha256': hashlib.sha256(raw).hexdigest(),
-                     'editorial': 'Independent concise glosses in German, English and Dutch. Sources document name histories, not translations of entire dictionary entries. Uncertain origins are explicitly marked. Personal and geographical homonyms use taxon-specific overrides.'},
+            'meta': {'date': '2026-11-23', 'catalogueSha256': hashlib.sha256(raw).hexdigest(),
+                     'editorial': 'Independent explanations in German, English and Dutch: source languages, attested word forms, constituents and historical naming contexts. Sources document derivations, not translations of entire dictionary entries. Uncertain origins are explicitly marked; no roots are inferred from spelling alone. Personal and geographical homonyms use taxon-specific overrides.'},
             'sources': sources, 'terms': dict(sorted(terms.items())), 'species': dict(sorted(species.items()))}
 
 
