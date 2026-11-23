@@ -90,6 +90,8 @@ for(const bird of birds){
  assert(!markupContext.studyDetailsMarkup(bird,'code','de',true).includes('species-codes'),'Code learning already shows the answer codes');
 }
 const blackbirdAnswer=markupContext.nameAnswerMarkup(blackbird,'en');
+assert(!markupContext.studyDetailsMarkup(blackbird,'en','sci',true).includes('reference-name'),'A scientific question already shows the scientific name');
+assert(markupContext.studyDetailsMarkup(blackbird,'en','sci',true).includes('species-codes'),'Scientific questions retain their code reference');
 assert.match(blackbirdAnswer,/variant-label">US/);assert.match(blackbirdAnswer,/variant-label">GB/);
 assert(blackbirdAnswer.includes('Common Blackbird'));assert(!blackbirdAnswer.includes('Ebenfalls akzeptiert'));assert(!blackbirdAnswer.includes('Also accepted'));
 assert.match(markupContext.nameAnswerMarkup(blackbird,'de'),/Alternative deutsche Namen:.*Schwarzdrossel/s);
@@ -132,6 +134,9 @@ assert(styles.includes('--common-bg:#4a4226;--common-ink:#f4e7b9;'));
 const knot=birds.find(b=>b.de==='Anadyrknutt');
 const cate=markupContext.codeGroups(knot,false,true);
 assert.match(cate,/code-collision-origin.*code-scientific/s);
+const stint=birds.find(b=>b.de==='Temminckstrandläufer');
+const stintKey=markupContext.codeGroups(stint).match(/<ul class="code-legend"[^>]*>([\s\S]*?)<\/ul>/)[1];
+for(const type of ['scientific','banding','common'])assert(stintKey.includes(`code-${type}`),'The key must also explain origins in the collision list');
 for(const [name,type] of [['Raubseeschwalbe','code-banding'],['Fahlente','code-common']]){
  const row=cate.split('class="code-collision-species"').find(part=>part.includes(`>${name}</span>`));
  assert(row.includes(type),`${name}: collision uses that species' own code origin`);

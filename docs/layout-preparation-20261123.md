@@ -1,6 +1,6 @@
 # Card layout preparation — 23 November 2026
 
-Status: implementation prepared and automated checks passed. The user approved committing and publishing before visual browser review; that review remains open until the Mac is unlocked. No browser preview or screenshots were attempted.
+Status: the initial implementation was published as `f8aa49a` after automated checks. The deferred visual review was completed in the internal browser on 23 November; see [results, corrections and screenshots](layout-review-20261123.md). Physical mobile keyboard, 200% browser zoom and forced-colour checks remain unverified.
 
 ## Prepared changes
 

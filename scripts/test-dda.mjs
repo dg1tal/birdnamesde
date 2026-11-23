@@ -83,6 +83,10 @@ for(const english of [false,true]){
  }
  assert(!ctx.codeGroups(absent).includes('code-dda'),'Unavailable DDA data has no badge or legend entry');
  const scoped=birds.find(b=>b.de==='Felsentaube');assert(ctx.ddaQuestionScope(scoped).includes('Straßentaube'));
+ const scopedAnswer=ctx.nameAnswerMarkup(scoped,'dda');
+ assert(!scopedAnswer.includes('dda-scope'),'The question already shows the DDA scope; the answer must not repeat it');
+ assert.equal((ctx.ddaQuestionScope(scoped)+scopedAnswer).split('class="dda-scope"').length-1,1);
+ assert(ctx.codeGroups(scoped).includes('dda-scope'),'Standalone references retain the scope note');
 }
 assert(!ctx.ddaQuestionScope(blackbird));
 assert(dailyNewNamesText([{t:'dda'}],'en').includes('Code'));assert(!dailyNewNamesText([{t:'dda'}],'en').includes('Vogelname'));
