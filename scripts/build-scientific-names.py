@@ -58,8 +58,8 @@ def build():
                            'url': 'https://doi.org/10.1016/j.ympev.2018.03.029'},
         'goffiniana2004': {'title': 'Roselaar & Michels (2004), Systematic notes on Asian birds 48',
                           'url': 'https://repository.naturalis.nl/pub/215560/ZV350_183-196.pdf'},
-        'sibirionetta': {'title': 'The Key to Scientific Names: Sibirionetta (reference transcription)',
-                        'url': 'https://www.worldbirdnames.com/bird/baikal-teal/422.html'},
+        'sibirionetta': {'title': 'Hans von Boetticher (1929): Kritische Betrachtungen über Anatiden, S. 11',
+                        'url': 'https://www.zobodat.at/pdf/Anzeiger-Ornith-Ges-Bayerns_2_1_0010-0015.pdf'},
     }
     supplements = {'Alipiopsitta': 'alipiopsitta2006', 'Helopsaltes': 'helopsaltes2018',
                    'goffiniana': 'goffiniana2004', 'Sibirionetta': 'sibirionetta'}

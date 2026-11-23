@@ -93,6 +93,46 @@ for(const key of ['e:kundoo','g:Iduna','g:Surnia','g:Xema','g:Zapornia'])
  assert.equal(data.terms[key].uncertain,true,`${key}: no conjectural root may become a certain derivation`);
 assert.notDeepEqual(data.terms['e:fuscatus'].text,data.terms['e:fuscescens'].text);
 assert.equal(data.terms['e:fuscescens'].text.en.split(';')[0],'brownish, becoming dusky');
+// Regression checks from the complete review of previously unmarked terms.
+// These catch semantic/source-scope errors as well as extraction artefacts.
+assert.equal(data.terms['g:Acrocephalus'].text.en.split(';')[0],'high head');
+assert(data.terms['g:Junco'].text.en.includes('junco = Reed Bunting'));
+assert(data.terms['g:Junco'].text.en.includes('iuncus = rush'));
+assert(data.terms['g:Gallinago'].text.en.startsWith('hen-like'));
+assert(data.terms['g:Periparus'].text.en.includes('peri = all around, very'));
+assert(data.terms['e:phoenicuroides'].text.en.startsWith('resembling the shrike'));
+assert(data.terms['e:pilaris'].text.en.includes('pilus = hair'));
+assert(!data.terms['e:pilaris'].text.en.includes('pilare'));
+assert(data.terms['e:penelope'].text.en.startsWith('an ancient duck name'));
+assert(data.terms['e:platalea'].text.en.includes('Latin platalea = spoonbill'));
+assert.equal(data.terms['e:audouinii'].source,'review20261108_fb72b3252776');
+assert.equal(data.terms['e:audouinii'].page,464);
+assert(data.terms['e:audouinii'].additionalSources.some(r=>r.source==='review20261108_5b51bea962ec'&&r.scope==='identity'));
+assert.equal(data.terms['g:Sibirionetta'].page,11);
+assert(data.sources[data.terms['g:Sibirionetta'].source].url.startsWith('https://www.zobodat.at/'));
+assert.equal(data.terms['g:Thalasseus'].source,'jobling2010');
+assert.equal(data.terms['g:Thalasseus'].page,383);
+assert(data.terms['g:Thalasseus'].additionalSources.some(r=>r.source==='mouchard2019'&&r.page===160));
+assert.equal(data.terms['e:philomelos'].source,'hanzab2006SongThrush');
+for(const key of ['g:Entomyzon','g:Hydrocoloeus','g:Pandion','g:Thalasseus','e:moschata','e:philomelos'])
+ assert.equal(data.terms[key].uncertain,true,`${key}: competing analyses must remain visible`);
+for(const language of ['de','en','nl']){
+ for(const key of ['g:Glareola','e:glareola'])assert(data.terms[key].text[language].includes('glarea'));
+ for(const row of Object.values(data.terms))
+  assert(!/caligatusbooted|gallinagowoodcock|gutturalisof|regalisroyal|regulorumof|regulusprince/.test(row.text[language]));
+}
+const unmarkedAudit=JSON.parse(readFileSync('docs/scientific-name-unmarked-review-20261123.json'));
+const auditedKeys=new Set(unmarkedAudit.terms.map(r=>r.termKey));
+assert.equal(auditedKeys.size,1191,'The systematic review must account for every starting unmarked term');
+const canonical=value=>Array.isArray(value)?value.map(canonical):value&&typeof value==='object'?Object.fromEntries(Object.keys(value).sort().map(k=>[k,canonical(value[k])])):value;
+for(const row of unmarkedAudit.terms){
+ assert.equal(row.afterSha256,createHash('sha256').update(JSON.stringify(canonical(data.terms[row.termKey]))).digest('hex'),`${row.termKey}: review record must describe the published entry`);
+ assert(row.consultedPassages.length>0,`${row.termKey}: source check must be recorded`);
+ for(const ref of row.consultedPassages)assert(data.sources[ref.source],`${row.termKey}: registered source`);
+}
+const previouslyUncertain=Object.keys(data.terms).filter(key=>!auditedKeys.has(key));
+assert.equal(previouslyUncertain.length,47);
+assert(previouslyUncertain.every(key=>data.terms[key].uncertain));
 // Explanations must expose the roots, including mixed-language compounds and
 // diminutives, without inventing a throat component for the robin's epithet.
 for(const language of ['de','en','nl']){

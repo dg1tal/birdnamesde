@@ -42,6 +42,22 @@ The shared epithet `biarmicus` now has separate reedling/falcon histories, while
 `rubetra` distinguishes its documented word formation from uncertain historical
 bird identifications. The review lists consulted passages and unavailable sources.
 
+The [systematic review of previously unmarked terms](scientific-name-unmarked-review-20261123.json)
+then covered all 1,191 remaining entries: 389 genera and 802 epithets, including
+taxon-specific overrides. It revised 49 explanations in German, English and Dutch,
+corrected reference records for ten terms, and added 18 uncertainty markers.
+In total, 55 entries used by 76 species changed; the earlier 47 uncertain entries
+were retained unchanged. Corrections include `Acrocephalus` (high rather than
+pointed head), the bird/plant distinction in `Junco`, diminutives in `Glareola`
+and `Dumetella`, and taxon-specific readings of `pilaris` and `phoenicuroides`.
+Competing analyses for `Entomyzon`, `moschata`, `philomelos` and `Thalasseus`
+are attributed and qualified. `Sibirionetta` now cites Boetticher’s original
+1929 proposal; the `audouinii` dedication cites Payraudeau, with BnF restricted
+to person identity. The per-term report records consulted entries, cross-references,
+source-spelling variants and before/after hashes. It also distinguishes fresh
+full-text checks from the published abstract used for `richardi` and the earlier
+DHLE finding carried forward for `aura`, whose page was unavailable in this pass.
+
 Further literature suggested by the user: Viktor Wember (2005), *Die Namen der
 Vögel Europas. Bedeutung der deutschen und wissenschaftlichen Namen*,
 Aula-Verlag, Wiebelsheim, ISBN 3-89104-678-2. The publication was checked

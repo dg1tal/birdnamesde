@@ -28,8 +28,8 @@
       "url": "https://repository.naturalis.nl/pub/215560/ZV350_183-196.pdf"
     },
     "sibirionetta": {
-      "title": "The Key to Scientific Names: Sibirionetta (reference transcription)",
-      "url": "https://www.worldbirdnames.com/bird/baikal-teal/422.html"
+      "title": "Hans von Boetticher (1929): Kritische Betrachtungen über Anatiden, S. 11",
+      "url": "https://www.zobodat.at/pdf/Anzeiger-Ornith-Ges-Bayerns_2_1_0010-0015.pdf"
     },
     "mouchard2019": {
       "title": "Alejandro Mouchard (2019): Etimología de los nombres científicos de las aves de Argentina",
@@ -462,6 +462,10 @@
     "lewisShortMenstruus": {
       "title": "Charlton T. Lewis & Charles Short (1879): A Latin Dictionary, menstruus",
       "url": "https://classics.andrewgadsden.com/lewisandshort/entry/n28707"
+    },
+    "hanzab2006SongThrush": {
+      "title": "Higgins, Peter & Cowling (Hrsg., 2006): Handbook of Australian, New Zealand & Antarctic Birds, 7B, S. 1877, Turdus philomelos",
+      "url": "https://www.nzbirdsonline.org.nz/assets/95597/1691918560-344_song-20thrush.pdf"
     }
   },
   "terms": {
@@ -1109,20 +1113,20 @@
     "e:arquata": {
       "term": "arquata",
       "text": {
-        "de": "gebogen; historischer Brachvogelname; aus mittellateinisch arquata",
-        "en": "curved; an old curlew name; from Medieval Latin arquata",
-        "nl": "gebogen; een oude wulpennaam; uit middeleeuws Latijn arquata"
+        "de": "mittellateinisch arquata = Brachvogel; meist mit lateinisch arcuatus = bogenförmig und arcus = Bogen erklärt. Jobling nennt daneben die ältere Vermutung eines Bezugs auf arquatus morbus = Gelbsucht und einen Vogel-Volksglauben; der ursprüngliche Benennungsgrund ist nicht eindeutig belegt",
+        "en": "Medieval Latin arquata = curlew; usually explained through Latin arcuatus = bow-shaped and arcus = bow. Jobling also reports an older proposal linking it to arquatus morbus = jaundice and bird folklore; the original naming motive is not unambiguously documented",
+        "nl": "middeleeuws Latijn arquata = wulp; meestal verklaard via Latijn arcuatus = boogvormig en arcus = boog. Jobling noemt daarnaast een ouder vermoeden van een verband met arquatus morbus = geelzucht en vogelvolksgeloof; het oorspronkelijke naamgevingsmotief is niet eenduidig gedocumenteerd"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 56
     },
     "e:arundinaceus": {
       "term": "arundinaceus",
       "text": {
-        "de": "zum Schilf gehörig; aus lateinisch arundinaceus",
-        "en": "of reeds; from Latin arundinaceus",
-        "nl": "van het riet; uit Latijn arundinaceus"
+        "de": "schilfartig; aus lateinisch arundinaceus = wie Schilf, zu arundo = Schilf",
+        "en": "reed-like; from Latin arundinaceus = like a reed, from arundo = reed",
+        "nl": "rietachtig; uit Latijn arundinaceus = als riet, bij arundo = riet"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -1264,11 +1268,12 @@
         "nl": "vernoemd naar natuuronderzoeker Jean-Victor Audouin"
       },
       "uncertain": false,
-      "source": "review20261108_5b51bea962ec",
+      "source": "review20261108_fb72b3252776",
+      "page": 464,
       "additionalSources": [
         {
-          "source": "review20261108_fb72b3252776",
-          "scope": "dedication"
+          "source": "review20261108_5b51bea962ec",
+          "scope": "identity"
         }
       ]
     },
@@ -1373,9 +1378,9 @@
     "e:bacchus": {
       "term": "bacchus",
       "text": {
-        "de": "Bacchus, Gott des Weines; aus lateinisch bacchus",
-        "en": "Bacchus, god of wine; from Latin bacchus",
-        "nl": "Bacchus, god van de wijn; uit Latijn bacchus"
+        "de": "weinfarben; lateinisch bacchus = Wein, verbunden mit Bacchus, dem römischen Gott des Weins",
+        "en": "wine-coloured; Latin bacchus = wine, associated with Bacchus, the Roman god of wine",
+        "nl": "wijnkleurig; Latijn bacchus = wijn, verbonden met Bacchus, de Romeinse wijngod"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -1821,9 +1826,9 @@
     "e:caligata": {
       "term": "caligata",
       "text": {
-        "de": "gestiefelt; aus lateinisch caligatusbooted; zu lateinisch caliga = Stiefel",
-        "en": "booted; from Latin caligatusbooted; based on Latin caliga = boot",
-        "nl": "gelaarsd; uit Latijn caligatusbooted; bij Latijn caliga = laars"
+        "de": "gestiefelt; aus lateinisch caligatus; zu lateinisch caliga = Stiefel",
+        "en": "booted; from Latin caligatus; based on Latin caliga = boot",
+        "nl": "gelaarsd; uit Latijn caligatus; bij Latijn caliga = laars"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -2108,9 +2113,9 @@
     "e:cedrorum": {
       "term": "cedrorum",
       "text": {
-        "de": "der Zedern, hier auch Wacholder gemeint; aus lateinisch cedrorum; zu lateinisch cedrus = Zeder",
-        "en": "of cedars, also referring here to junipers; from Latin cedrorum; based on Latin cedrus = cedar",
-        "nl": "van ceders, hier ook verwijzend naar jeneverbessen; uit Latijn cedrorum; bij Latijn cedrus = ceder"
+        "de": "der Zedern; lateinisch cedrorum ist der Genitiv Plural von cedrus = Zeder",
+        "en": "of cedars; Latin cedrorum is the genitive plural of cedrus = cedar",
+        "nl": "van ceders; Latijn cedrorum is de tweede naamval meervoud van cedrus = ceder"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -2118,10 +2123,6 @@
       "additionalSources": [
         {
           "source": "review20261108_9664bb89a2f5",
-          "scope": "wordComponent"
-        },
-        {
-          "source": "review20261108_f304f7c75797",
           "scope": "wordComponent"
         }
       ]
@@ -3348,20 +3349,20 @@
     "e:erithacus": {
       "term": "erithacus",
       "text": {
-        "de": "alter Name eines kleinen Vogels; aus griechisch erithakos",
-        "en": "ancient name for a small bird; from Greek erithakos",
-        "nl": "oude naam voor een kleine vogel; uit Grieks erithakos"
+        "de": "aus griechisch erithakos, einem antiken Vogelnamen; beim Graupapagei verweist Jobling auf einen Stimmen nachahmenden Vogel. Die antike Art ist nicht sicher bestimmt",
+        "en": "from Greek erithakos, an ancient bird name; for the Grey Parrot, Jobling refers to a mimetic bird. The ancient species is unidentified",
+        "nl": "uit Grieks erithakos, een antieke vogelnaam; bij de grijze roodstaart verwijst Jobling naar een vogel die stemmen nabootst. De antieke soort is niet zeker geïdentificeerd"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 149
     },
     "e:erythrinus": {
       "term": "erythrinus",
       "text": {
-        "de": "rot; aus lateinisch erythros",
-        "en": "red; from Latin erythros",
-        "nl": "rood; uit Latijn erythros"
+        "de": "rot; lateinische Namensbildung mit dem zugrunde liegenden griechischen Wort eruthros = rot",
+        "en": "red; a Latin name formation based on Greek eruthros = red",
+        "nl": "rood; een Latijnse naamvorming op basis van Grieks eruthros = rood"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -3920,9 +3921,9 @@
     "e:galericulata": {
       "term": "galericulata",
       "text": {
-        "de": "mit kleiner Kappe; aus lateinisch galericulum; zu lateinisch galerum = Kappe",
-        "en": "small-capped; from Latin galericulum; based on Latin galerum = cap",
-        "nl": "met kleine kap; uit Latijn galericulum; bij Latijn galerum = kap"
+        "de": "mit kleiner Kappe oder Perücke; aus lateinisch galericulum = Perücke, einer Verkleinerung von galerum = Kappe",
+        "en": "with a small cap or wig; from Latin galericulum = wig, a diminutive of galerum = cap",
+        "nl": "met een klein kapje of pruik; uit Latijn galericulum = pruik, een verkleinwoord van galerum = kap"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -3953,9 +3954,9 @@
     "e:gallinago": {
       "term": "gallinago",
       "text": {
-        "de": "Schnepfe; mit Henne verbunden; aus neulateinisch gallinagowoodcock; zu lateinisch gallina = Henne",
-        "en": "snipe; associated with hen; from Modern Latin gallinagowoodcock; based on Latin gallina = hen",
-        "nl": "snip; verbonden met hen; uit Neolatijn gallinagowoodcock; bij Latijn gallina = hen"
+        "de": "hennenähnlich; neulateinisch gallinago = Schnepfe, aus lateinisch gallina = Henne und -ago = ähnlich gebildet",
+        "en": "hen-like; Modern Latin gallinago = woodcock or snipe, formed from Latin gallina = hen and -ago = resembling",
+        "nl": "henachtig; Neolatijn gallinago = houtsnip of snip, gevormd uit Latijn gallina = hen en -ago = gelijkend op"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -4085,9 +4086,9 @@
     "e:glareola": {
       "term": "glareola",
       "text": {
-        "de": "zum Kies gehörig; zu lateinisch glarea = Kies",
-        "en": "of gravel; based on Latin glarea = gravel",
-        "nl": "van grind; bij Latijn glarea = grind"
+        "de": "Verkleinerungsbildung zu lateinisch glarea = Kies",
+        "en": "a diminutive formation from Latin glarea = gravel",
+        "nl": "verkleinvorm van Latijn glarea = grind"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -4129,19 +4130,13 @@
     "e:goffiniana": {
       "term": "goffiniana",
       "text": {
-        "de": "zu Ehren des niederländischen Marineoffiziers Andreas Leopold Goffin",
-        "en": "honours Dutch naval officer Andreas Leopold Goffin",
-        "nl": "vernoemd naar de Nederlandse marineofficier Andreas Leopold Goffin"
+        "de": "zu Ehren von Andreas Leopold Goffin; Roselaar und Michels behielten 2004 bei der Neubeschreibung die Widmung von Finschs älterem Namen bei",
+        "en": "honours Andreas Leopold Goffin; in their 2004 description Roselaar and Michels retained the dedication of Finsch’s earlier name",
+        "nl": "vernoemd naar Andreas Leopold Goffin; Roselaar en Michels behielden bij hun beschrijving in 2004 de vernoeming uit Finschs eerdere naam"
       },
       "uncertain": false,
       "source": "goffiniana2004",
-      "additionalSources": [
-        {
-          "source": "review20261108_e73f3c07b93c",
-          "scope": "dedication",
-          "page": 187
-        }
-      ]
+      "page": 187
     },
     "e:graculus": {
       "term": "graculus",
@@ -4346,9 +4341,9 @@
     "e:gutturalis": {
       "term": "gutturalis",
       "text": {
-        "de": "zur Kehle gehörig; aus mittellateinisch gutturalisof; zu lateinisch guttur = Kehle",
-        "en": "of the throat; from Medieval Latin gutturalisof; based on Latin guttur = throat",
-        "nl": "van de keel; uit middeleeuws Latijn gutturalisof; bij Latijn guttur = keel"
+        "de": "zur Kehle gehörig; aus mittellateinisch gutturalis; zu lateinisch guttur = Kehle",
+        "en": "of the throat; from Medieval Latin gutturalis; based on Latin guttur = throat",
+        "nl": "van de keel; uit middeleeuws Latijn gutturalis; bij Latijn guttur = keel"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -4788,9 +4783,9 @@
     "e:iliacus": {
       "term": "iliacus",
       "text": {
-        "de": "alter Drosselname; über Gazas lateinische Übersetzung einer antiken Bezeichnung übernommen",
-        "en": "old thrush name adopted through Gaza’s Latin translation of an ancient name",
-        "nl": "oude lijsternaam, overgenomen via Gaza’s Latijnse vertaling van een antieke benaming"
+        "de": "alter Drosselname; über Gazas lateinische Wiedergabe des griechischen Vogelnamens ilias, auch illas",
+        "en": "an old thrush name; through Gaza’s Latin rendering of the Greek bird name ilias, also illas",
+        "nl": "oude lijsternaam; via Gaza’s Latijnse weergave van de Griekse vogelnaam ilias, ook illas"
       },
       "uncertain": false,
       "source": "bou1915",
@@ -5010,9 +5005,9 @@
     "e:juncidis": {
       "term": "juncidis",
       "text": {
-        "de": "zu Binsen gehörig; zu lateinisch iuncus = Binse",
-        "en": "of rushes; based on Latin iuncus = rush",
-        "nl": "van russen; bij Latijn iuncus = rus"
+        "de": "zu lateinisch iuncus = Binse gebildet; Jobling erklärt den Namen als Verkleinerungsbildung",
+        "en": "formed from Latin iuncus = rush; Jobling explains the name as a diminutive formation",
+        "nl": "gevormd bij Latijn iuncus = rus; Jobling verklaart de naam als een verkleinvorm"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -5456,9 +5451,9 @@
     "e:luscinioides": {
       "term": "luscinioides",
       "text": {
-        "de": "nachtigallenähnlich; aus lateinisch luscinia",
-        "en": "nightingale-like; from Latin luscinia",
-        "nl": "nachtegaalachtig; uit Latijn luscinia"
+        "de": "nachtigallenähnlich; aus lateinisch luscinia = Nachtigall und griechisch -oides = ähnlich",
+        "en": "nightingale-like; from Latin luscinia = nightingale and Greek -oides = resembling",
+        "nl": "nachtegaalachtig; uit Latijn luscinia = nachtegaal en Grieks -oides = gelijkend op"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -6345,11 +6340,11 @@
     "e:moschata": {
       "term": "moschata",
       "text": {
-        "de": "nach Moschus duftend; spätlateinisch moschatus = nach Moschus duftend, zu muscus = Moschus",
-        "en": "musky; Late Latin moschatus = musky, from muscus = musk",
-        "nl": "naar muskus ruikend; Laatlatijn moschatus = naar muskus ruikend, bij muscus = muskus"
+        "de": "unterschiedlich gedeutet: Jobling leitet den Namen von neulateinisch Moschatus = aus Moskowien, zu Moscovia, ab und verweist auf den alten Namen „Muscovy Duck“. Daneben nennt er spätlateinisch moschatus = nach Moschus duftend; die Benennungsabsicht ist nicht eindeutig",
+        "en": "interpreted differently: Jobling derives the name from Modern Latin Moschatus = of Muscovy, from Moscovia, and cites the old name “Muscovy Duck”. He also notes Late Latin moschatus = musky; the naming intention is not unambiguous",
+        "nl": "verschillend uitgelegd: Jobling leidt de naam af van Neolatijn Moschatus = uit Moskovië, bij Moscovia, en verwijst naar de oude naam „Muscovy Duck”. Daarnaast noemt hij Laatlatijn moschatus = naar muskus ruikend; de bedoeling van de naamgeving is niet eenduidig"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 260
     },
@@ -7231,9 +7226,9 @@
     "e:penelope": {
       "term": "penelope",
       "text": {
-        "de": "Penelope aus der griechischen Mythologie; auch alter Entenname; aus griechisch pēnelops",
-        "en": "Penelope of Greek mythology; also an ancient duck name; from Greek pēnelops",
-        "nl": "Penelope uit de Griekse mythologie; ook een oude eendennaam; uit Grieks pēnelops"
+        "de": "antiker Entenname; aus griechisch penelops, einem Namen für eine Ente mit purpurfarbenen Streifen. Diese Enten wurden in einer Sage mit der Rettung der Penelope aus dem Meer verbunden",
+        "en": "an ancient duck name; from Greek penelops, a name for a duck with purple stripes. In a legend these ducks were associated with rescuing Penelope from the sea",
+        "nl": "antieke eendennaam; uit Grieks penelops, een naam voor een eend met purperen strepen. In een sage werden deze eenden verbonden met de redding van Penelope uit zee"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -7396,13 +7391,20 @@
     "e:philomelos": {
       "term": "philomelos",
       "text": {
-        "de": "Gesang liebend; aus lateinisch philomela; griechisch philos = liebend und melos = Gesang",
-        "en": "song loving; from Latin philomela; Greek philos = loving and melos = song",
-        "nl": "zangliefhebber; uit Latijn philomela; Grieks philos = liefhebbend en melos = zang"
+        "de": "als „Gesang liebend“ gedeutet: griechisch philo- = liebend und melos = Gesang, so HANZAB. Jobling verweist dagegen auf lateinisch philomela = Nachtigall. Beide Bezüge werden diskutiert; Brehms genaue Benennungsabsicht ist damit nicht sicher belegt",
+        "en": "interpreted as “song loving”: Greek philo- = loving and melos = song, as in HANZAB. Jobling instead refers to Latin philomela = nightingale. Both associations are discussed; Brehm’s precise naming intention is not securely established by them",
+        "nl": "uitgelegd als „zangliefhebbend”: Grieks philo- = liefhebbend en melos = zang, zoals in HANZAB. Jobling verwijst daarentegen naar Latijn philomela = nachtegaal. Beide verbanden worden besproken; Brehms precieze bedoeling is daarmee niet zeker aangetoond"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 303
+      "uncertain": true,
+      "source": "hanzab2006SongThrush",
+      "page": 1877,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 303,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "e:phoebe": {
       "term": "phoebe",
@@ -7429,9 +7431,9 @@
     "e:phoenicuroides": {
       "term": "phoenicuroides",
       "text": {
-        "de": "rotschwanzähnlich; vom früheren Artnamen phoenicurus für einen rotschwänzigen Würger und griechisch -oides = ähnlich; kein direkter Verweis auf die heutige Rotschwanz-Gattung nötig",
-        "en": "redstart-like; from the earlier shrike epithet phoenicurus and Greek -oides = resembling; it need not refer directly to the modern redstart genus",
-        "nl": "roodstaartachtig; van de vroegere klauwierennaam phoenicurus en Grieks -oides = gelijkend op; hoeft niet rechtstreeks naar het huidige roodstaartengeslacht te verwijzen"
+        "de": "ähnlich dem früher Lanius phoenicurus genannten Würger; aus dessen Artnamen phoenicurus und griechisch -oides = ähnlich. Der Vergleich bezieht sich hier auf den Braunwürger",
+        "en": "resembling the shrike formerly named Lanius phoenicurus; from that epithet phoenicurus and Greek -oides = resembling. The comparison here is with the Brown Shrike",
+        "nl": "lijkend op de klauwier die vroeger Lanius phoenicurus heette; uit diens soortnaam phoenicurus en Grieks -oides = gelijkend op. De vergelijking betreft hier de bruine klauwier"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -7484,9 +7486,9 @@
     "e:pilaris": {
       "term": "pilaris",
       "text": {
-        "de": "historisch gebildeter Drosselname; beruht auf einer Verwechslung von griechischen Wörtern für Drossel und Haar; aus lateinisch pilare",
-        "en": "historical thrush name formed through confusion between Greek words for thrush and hair; from Latin pilare",
-        "nl": "historisch gevormde lijsternaam door verwarring van Griekse woorden voor lijster en haar; uit Latijn pilare"
+        "de": "historisch gebildeter Drosselname; Jobling erklärt ihn durch eine Verwechslung von griechisch trikhas = Drossel mit thrix, Genitiv trikhos = Haar, das ins Lateinische als pilus = Haar übertragen wurde",
+        "en": "a historical thrush name; Jobling explains it through confusion of Greek trikhas = thrush with thrix, genitive trikhos = hair, rendered into Latin as pilus = hair",
+        "nl": "historisch gevormde lijsternaam; Jobling verklaart hem door verwarring van Grieks trikhas = lijster met thrix, tweede naamval trikhos = haar, dat in het Latijn als pilus = haar werd weergegeven"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -7531,9 +7533,9 @@
     "e:platalea": {
       "term": "platalea",
       "text": {
-        "de": "Löffler; aus griechisch platus = breit",
-        "en": "spoonbill; from Greek platus = broad",
-        "nl": "lepelaar; uit Grieks platus = breed"
+        "de": "Löffler; aus lateinisch platalea = Löffler. Jobling verbindet den Namen mit griechisch platea = breit",
+        "en": "spoonbill; from Latin platalea = spoonbill. Jobling links the name with Greek platea = broad",
+        "nl": "lepelaar; uit Latijn platalea = lepelaar. Jobling verbindt de naam met Grieks platea = breed"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -8001,9 +8003,9 @@
     "e:regalis": {
       "term": "regalis",
       "text": {
-        "de": "königlich; aus lateinisch regalisroyal; zu lateinisch rex = König",
-        "en": "royal; from Latin regalisroyal; based on Latin rex = king",
-        "nl": "koninklijk; uit Latijn regalisroyal; bij Latijn rex = koning"
+        "de": "königlich; aus lateinisch regalis; zu lateinisch rex = König",
+        "en": "royal; from Latin regalis; based on Latin rex = king",
+        "nl": "koninklijk; uit Latijn regalis; bij Latijn rex = koning"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -8012,9 +8014,9 @@
     "e:regulorum": {
       "term": "regulorum",
       "text": {
-        "de": "der kleinen Könige; aus lateinisch regulorumof; zu lateinisch rex = König",
-        "en": "of little kings; from Latin regulorumof; based on Latin rex = king",
-        "nl": "van kleine koningen; uit Latijn regulorumof; bij Latijn rex = koning"
+        "de": "der kleinen Könige; lateinisch regulorum ist der Genitiv Plural von regulus = kleiner König, einer Verkleinerung von rex = König",
+        "en": "of little kings; Latin regulorum is the genitive plural of regulus = little king, a diminutive of rex = king",
+        "nl": "van kleine koningen; Latijn regulorum is de tweede naamval meervoud van regulus = kleine koning, een verkleinwoord van rex = koning"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -8023,9 +8025,9 @@
     "e:regulus": {
       "term": "regulus",
       "text": {
-        "de": "kleiner König; aus lateinisch regulusprince; zu lateinisch rex = König",
-        "en": "little king; from Latin regulusprince; based on Latin rex = king",
-        "nl": "kleine koning; uit Latijn regulusprince; bij Latijn rex = koning"
+        "de": "kleiner König; aus lateinisch regulus; zu lateinisch rex = König",
+        "en": "little king; from Latin regulus; based on Latin rex = king",
+        "nl": "kleine koning; uit Latijn regulus; bij Latijn rex = koning"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -8426,11 +8428,11 @@
     "e:rusticola": {
       "term": "rusticola",
       "text": {
-        "de": "Landbewohner; historischer Waldschnepfenname; aus lateinisch rusticula",
-        "en": "country dweller; an old woodcock name; from Latin rusticula",
-        "nl": "landbewoner; een oude houtsnipnaam; uit Latijn rusticula"
+        "de": "aus lateinisch rusticula, einem antiken Namen für einen Hühnervogel, dessen genaue Art nicht sicher bestimmt ist; später auf die Waldschnepfe angewandt",
+        "en": "from Latin rusticula, an ancient gamebird name of uncertain species identity, later applied to the Woodcock",
+        "nl": "uit Latijn rusticula, een antieke naam voor een hoenderachtige waarvan de precieze soort niet zeker is, later toegepast op de houtsnip"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 344
     },
@@ -8774,7 +8776,7 @@
         "en": "borrowed serin name; via French serin = serin; its deeper origin is unclear",
         "nl": "overgenomen naam voor de Europese kanarie; via Frans serin = Europese kanarie; de verdere herkomst is onduidelijk"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 354,
       "additionalSources": [
@@ -9008,11 +9010,11 @@
     "e:spinus": {
       "term": "spinus",
       "text": {
-        "de": "Zeisig; aus griechisch spinos",
-        "en": "siskin; from Greek spinos",
-        "nl": "sijs; uit Grieks spinos"
+        "de": "aus griechisch spinos, einem nicht sicher bestimmten antiken Vogelnamen; später für den Erlenzeisig verwendet, dessen früherer Name Fringilla spinus auch den Gattungsnamen Spinus lieferte",
+        "en": "from Greek spinos, an unidentified ancient bird name; later applied to the Eurasian Siskin, whose earlier name Fringilla spinus also supplied the genus name Spinus",
+        "nl": "uit Grieks spinos, een niet zeker geïdentificeerde antieke vogelnaam; later gebruikt voor de sijs, waarvan de vroegere naam Fringilla spinus ook de geslachtsnaam Spinus leverde"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 362
     },
@@ -9312,11 +9314,11 @@
     "e:tadorna": {
       "term": "tadorna",
       "text": {
-        "de": "übernommener europäischer Brandgansname; französisch tadorne = Brandgans; die ältere Herleitung ist umstritten",
-        "en": "borrowed European shelduck name; French tadorne = shelduck; the earlier origin is disputed",
-        "nl": "overgenomen Europese bergeendennaam; Frans tadorne = bergeend; de oudere herkomst is omstreden"
+        "de": "übernommener Brandgansname; Jobling nennt französisch tadorne = Brandgans, während die British Ornithologists’ Union eine italienische Herkunft angibt. Der genaue Entlehnungsweg ist nicht eindeutig",
+        "en": "a borrowed shelduck name; Jobling gives French tadorne = shelduck, whereas the British Ornithologists’ Union gives an Italian origin. The precise borrowing route is not unambiguous",
+        "nl": "overgenomen bergeendennaam; Jobling noemt Frans tadorne = bergeend, terwijl de British Ornithologists’ Union een Italiaanse herkomst noemt. De precieze ontleningsweg is niet eenduidig"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 377
     },
@@ -10131,9 +10133,9 @@
     "g:Acrocephalus": {
       "term": "Acrocephalus",
       "text": {
-        "de": "Spitzkopf; aus griechisch akros = oberst, höchst und kephale = Kopf",
-        "en": "pointed head; from Greek akros = topmost, highest + kephale = head",
-        "nl": "spitskop; uit Grieks akros = bovenst, hoogst en kephale = kop"
+        "de": "Hochkopf; aus griechisch akros = oberst, höchst und kephale = Kopf. Die häufige Übersetzung „Spitzkopf“ beruht laut der Quelle auf einer Fehlübersetzung von akros",
+        "en": "high head; from Greek akros = topmost, highest and kephale = head. The source explicitly rejects the familiar translation “pointed head” as a mistranslation of akros",
+        "nl": "hoge kop; uit Grieks akros = bovenst, hoogst en kephale = kop. Volgens de bron berust de gebruikelijke vertaling „spitskop” op een verkeerde vertaling van akros"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -10291,7 +10293,8 @@
         "nl": "papegaai; genoemd naar zoöloog Alípio de Miranda-Ribeiro; Alipio- noemt de geëerde persoon; psitta betekent papegaai"
       },
       "uncertain": false,
-      "source": "alipiopsitta2006"
+      "source": "alipiopsitta2006",
+      "page": 174
     },
     "g:Alisterus": {
       "term": "Alisterus",
@@ -10407,9 +10410,9 @@
     "g:Antigone": {
       "term": "Antigone",
       "text": {
-        "de": "Antigone aus der griechischen Mythologie",
-        "en": "Antigone of Greek mythology",
-        "nl": "Antigone uit de Griekse mythologie"
+        "de": "vom früheren Artnamen Ardea antigone übernommen. Gemeint ist Antigone, Tochter des trojanischen Königs Laomedon, die in einen Storch verwandelt wurde; laut Jobling verwechselte Linnaeus dies mit der Kranich-Verwandlung der Gerana",
+        "en": "adopted from the earlier species name Ardea antigone. This refers to Antigone, daughter of King Laomedon of Troy, who was transformed into a stork; Jobling says Linnaeus confused this with Gerana’s transformation into a crane",
+        "nl": "overgenomen uit de vroegere soortnaam Ardea antigone. Het gaat om Antigone, dochter van koning Laomedon van Troje, die in een ooievaar veranderde; volgens Jobling verwarde Linnaeus dit met Gerana’s verandering in een kraanvogel"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -10424,7 +10427,14 @@
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 52
+      "page": 51,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 52,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "g:Aquila": {
       "term": "Aquila",
@@ -10528,9 +10538,9 @@
     "g:Astur": {
       "term": "Astur",
       "text": {
-        "de": "Habicht; aus lateinisch astur",
-        "en": "goshawk; from Latin astur",
-        "nl": "havik; uit Latijn astur"
+        "de": "Habicht, Greifvogel; aus spätlateinisch astur, einem Habichtnamen",
+        "en": "hawk; from Late Latin astur, a hawk name",
+        "nl": "havik, roofvogel; uit Laatlatijn astur, een haviknaam"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -11577,9 +11587,9 @@
     "g:Dumetella": {
       "term": "Dumetella",
       "text": {
-        "de": "kleiner Gebüschbewohner; zu lateinisch dumetum = Gebüsch",
-        "en": "small thicket dweller; based on Latin dumetum = thicket",
-        "nl": "kleine struikbewoner; bij Latijn dumetum = struikgewas"
+        "de": "Verkleinerungsbildung zu lateinisch dumetum = Gebüsch",
+        "en": "a diminutive formation from Latin dumetum = thicket",
+        "nl": "verkleinvorm van Latijn dumetum = struikgewas"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -11643,11 +11653,11 @@
     "g:Entomyzon": {
       "term": "Entomyzon",
       "text": {
-        "de": "Insektensauger; aus griechisch entoma = Insekten und muzao = saugen",
-        "en": "insect sucker; from Greek entoma = insects + muzao = to suck",
-        "nl": "insectenzuiger; uit Grieks entoma = insecten en muzao = zuigen"
+        "de": "unterschiedlich gedeutet: Jobling nennt griechisch entoma = Insekten und muzao = saugen, also „Insektensauger“. Er führt daneben eine Deutung nach Higgins und anderen an, die den Namen auf einen Einschnitt und die Nasenöffnungen bezieht; die Wortanalyse ist damit nicht eindeutig",
+        "en": "interpreted differently: Jobling gives Greek entoma = insects and muzao = to suck, hence “insect sucker”. He also reports an analysis by Higgins and colleagues referring to a notch and the nostrils; the word formation is therefore not unambiguous",
+        "nl": "verschillend uitgelegd: Jobling noemt Grieks entoma = insecten en muzao = zuigen, dus „insectenzuiger”. Daarnaast vermeldt hij een uitleg van Higgins en anderen die naar een inkeping en de neusgaten verwijst; de woordvorming is daarmee niet eenduidig"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 147
     },
@@ -11863,9 +11873,9 @@
     "g:Gallinago": {
       "term": "Gallinago",
       "text": {
-        "de": "schnepfenartiger Vogel; zu gallina, Henne; zu lateinisch gallina = Henne",
-        "en": "snipe-like bird; from gallina, hen; based on Latin gallina = hen",
-        "nl": "snipachtige vogel; van gallina, hen; bij Latijn gallina = hen"
+        "de": "hennenähnlich; neulateinisch gallinago = Schnepfe, aus lateinisch gallina = Henne und -ago = ähnlich gebildet",
+        "en": "hen-like; Modern Latin gallinago = woodcock or snipe, formed from Latin gallina = hen and -ago = resembling",
+        "nl": "henachtig; Neolatijn gallinago = houtsnip of snip, gevormd uit Latijn gallina = hen en -ago = gelijkend op"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -11896,9 +11906,9 @@
     "g:Garrulus": {
       "term": "Garrulus",
       "text": {
-        "de": "geschwätzig; aus lateinisch garrulus",
-        "en": "chattering; from Latin garrulus",
-        "nl": "babbelend; uit Latijn garrulus"
+        "de": "Schwätzer; lateinisch garrulus kann „geschwätzig“ oder als Hauptwort „Schwätzer“ bedeuten, zu garrire = schwatzen",
+        "en": "chatterer; Latin garrulus can mean “chattering” or, as a noun, “chatterer”, related to garrire = to chatter",
+        "nl": "babbelaar; Latijn garrulus kan „babbelend” of als zelfstandig naamwoord „babbelaar” betekenen, bij garrire = babbelen"
       },
       "uncertain": false,
       "source": "wnve_Garrulus"
@@ -11972,9 +11982,9 @@
     "g:Glareola": {
       "term": "Glareola",
       "text": {
-        "de": "Kiesbewohner; zu lateinisch glarea = Kies",
-        "en": "gravel dweller; based on Latin glarea = gravel",
-        "nl": "grindbewoner; bij Latijn glarea = grind"
+        "de": "Verkleinerungsbildung zu lateinisch glarea = Kies",
+        "en": "a diminutive formation from Latin glarea = gravel",
+        "nl": "verkleinvorm van Latijn glarea = grind"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -11994,9 +12004,9 @@
     "g:Gracula": {
       "term": "Gracula",
       "text": {
-        "de": "kleiner Krähenvogel; Verkleinerung zu lateinisch graculus, einem antiken Vogelnamen, später als Dohle gedeutet",
-        "en": "small crow-like bird; diminutive related to Latin graculus, an ancient bird name later identified with the jackdaw",
-        "nl": "kleine kraaiachtige vogel; verkleinvorm bij Latijn graculus, een antieke vogelnaam, later als kauw geduid"
+        "de": "aus dem lateinischen Vogelnamen graculus; der antike Vogel ist nicht sicher bestimmt und wurde von späteren Autoren mit der Dohle gleichgesetzt",
+        "en": "from the Latin bird name graculus; the ancient bird is unidentified and was equated with the jackdaw by later authors",
+        "nl": "uit de Latijnse vogelnaam graculus; de antieke vogel is niet zeker geïdentificeerd en werd door latere auteurs met de kauw gelijkgesteld"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -12197,11 +12207,11 @@
     "g:Hydrocoloeus": {
       "term": "Hydrocoloeus",
       "text": {
-        "de": "Wasservogel; aus griechisch hudro- = Wasser und koloios, einem Vogelnamen, der meist Dohle, hier aber wohl einen Schwimmvogel bezeichnet. Die Zusammensetzung wird oft als „Wasserdohle“ wiedergegeben",
-        "en": "water bird; Greek hudro- = water and koloios, a bird name usually meaning jackdaw but probably a swimming bird here. The compound is often rendered “water jackdaw”",
-        "nl": "watervogel; Grieks hudro- = water en koloios, een vogelnaam die meestal kauw betekent, maar hier waarschijnlijk een zwemvogel. Vaak weergegeven als „waterkauw”"
+        "de": "griechisch hudro- = Wasser und koloios = Vogelname. Jobling versteht darunter hier einen Schwimmvogel, vielleicht einen Kormoran; die verbreitete Übersetzung „Wasserdohle“ setzt dagegen die sonstige Bedeutung „Dohle“ voraus. Der zweite Bestandteil ist nicht eindeutig gedeutet",
+        "en": "Greek hudro- = water and koloios = a bird name. Jobling interprets it here as a web-footed bird, perhaps a cormorant; the common translation “water jackdaw” instead assumes its usual meaning “jackdaw”. The second component is not unambiguously interpreted",
+        "nl": "Grieks hudro- = water en koloios = vogelnaam. Jobling verstaat hieronder hier een zwemvogel, misschien een aalscholver; de gebruikelijke vertaling „waterkauw” gaat juist uit van de gewone betekenis „kauw”. Het tweede deel is niet eenduidig uitgelegd"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 196
     },
@@ -12285,9 +12295,9 @@
     "g:Junco": {
       "term": "Junco",
       "text": {
-        "de": "Binse; aus mittellateinisch junco; zu lateinisch iuncus = Binse",
-        "en": "rush; from Medieval Latin junco; based on Latin iuncus = rush",
-        "nl": "rus; uit middeleeuws Latijn junco; bij Latijn iuncus = rus"
+        "de": "aus mittellateinisch junco = Rohrammer; dieser Vogelname geht auf lateinisch iuncus = Binse zurück",
+        "en": "from Medieval Latin junco = Reed Bunting; this bird name is derived from Latin iuncus = rush",
+        "nl": "uit middeleeuws Latijn junco = rietgors; deze vogelnaam gaat terug op Latijn iuncus = rus"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -12641,13 +12651,20 @@
     "g:Megaceryle": {
       "term": "Megaceryle",
       "text": {
-        "de": "großer Eisvogel; aus griechisch megas",
-        "en": "great kingfisher; from Greek megas",
-        "nl": "grote ijsvogel; uit Grieks megas"
+        "de": "großer Eisvogel; aus griechisch megas = groß und dem Eisvogel-Gattungsnamen Ceryle. Dieser geht auf griechisch kerulos zurück, einen nicht sicher bestimmten antiken Vogelnamen",
+        "en": "great kingfisher; from Greek megas = great and the kingfisher genus Ceryle. That name derives from Greek kerulos, an unidentified ancient bird name",
+        "nl": "grote ijsvogel; uit Grieks megas = groot en de ijsvogelgeslachtsnaam Ceryle. Die naam gaat terug op Grieks kerulos, een niet zeker geïdentificeerde antieke vogelnaam"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 245
+      "page": 245,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 97,
+          "scope": "wordComponent"
+        }
+      ]
     },
     "g:Melanitta": {
       "term": "Melanitta",
@@ -12674,13 +12691,20 @@
     "g:Meleagris": {
       "term": "Meleagris",
       "text": {
-        "de": "Perlhuhn; aus griechisch meleagris",
-        "en": "guineafowl; from Greek meleagris",
-        "nl": "parelhoen; uit Grieks meleagris"
+        "de": "Perlhuhn; aus griechisch meleagris. Der Name wurde infolge einer historischen Verwechslung von Perlhuhn und Truthuhn auf die amerikanischen Truthühner angewandt",
+        "en": "guineafowl; from Greek meleagris. Historical confusion between guineafowl and turkeys led to the name being applied to the American turkeys",
+        "nl": "parelhoen; uit Grieks meleagris. Door een historische verwarring tussen parelhoen en kalkoen werd de naam op de Amerikaanse kalkoenen toegepast"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 249
+      "page": 248,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 249,
+          "scope": "nameHistory"
+        }
+      ]
     },
     "g:Melophus": {
       "term": "Melophus",
@@ -12795,9 +12819,9 @@
     "g:Mniotilta": {
       "term": "Mniotilta",
       "text": {
-        "de": "Moospflücker; aus griechisch mnion = Moos, eigentlich Seetang und tillo = rupfen",
-        "en": "moss plucker; from Greek mnion = moss, strictly seaweed + tillo = to pluck",
-        "nl": "mosplukker; uit Grieks mnion = mos, eigenlijk zeewier en tillo = plukken"
+        "de": "Moospflücker nach Vieillots Erklärung; griechisch mnion wurde von ihm mit „Moos“ wiedergegeben, während Jobling „Meeresalgen“ angibt; tillo = rupfen",
+        "en": "moss plucker in Vieillot’s explanation; he rendered Greek mnion as “moss”, whereas Jobling gives “seaweed”; tillo = to pluck",
+        "nl": "mosplukker volgens Vieillots uitleg; hij gaf Grieks mnion weer als „mos”, terwijl Jobling „zeewier” noemt; tillo = plukken"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -13143,11 +13167,11 @@
     "g:Pandion": {
       "term": "Pandion",
       "text": {
-        "de": "Pandion, mythischer König von Athen",
-        "en": "Pandion, mythical king of Athens",
-        "nl": "Pandion, mythische koning van Athene"
+        "de": "Pandion, Name zweier mythischer Könige von Athen. Jobling vermutet einen Bezug zu Pandion II., dessen Sohn Nisus in einen Greifvogel verwandelt wurde; welchen Pandion Savigny meinte, ist nicht sicher belegt",
+        "en": "Pandion, the name of two mythical kings of Athens. Jobling suggests a reference to Pandion II, whose son Nisus was transformed into a bird of prey; which Pandion Savigny intended is not securely documented",
+        "nl": "Pandion, de naam van twee mythische koningen van Athene. Jobling vermoedt een verwijzing naar Pandion II, wiens zoon Nisus in een roofvogel veranderde; welke Pandion Savigny bedoelde, is niet zeker gedocumenteerd"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 290
     },
@@ -13286,9 +13310,9 @@
     "g:Periparus": {
       "term": "Periparus",
       "text": {
-        "de": "einer Meise nahe; aus griechisch peri; griechisch peri = ringsum, sehr und Parus, der Gattungsname der Meisen",
-        "en": "near a tit; from Greek peri; Greek peri = all around, very and Parus, the tit genus",
-        "nl": "nabij een mees; uit Grieks peri; Grieks peri = rondom, zeer en Parus, de mezengeslachtsnaam"
+        "de": "gebildet aus griechisch peri = ringsum, sehr und dem Meisen-Gattungsnamen Parus, zu lateinisch parus = Meise",
+        "en": "formed from Greek peri = all around, very and the tit genus Parus, from Latin parus = tit",
+        "nl": "gevormd uit Grieks peri = rondom, zeer en de mezengeslachtsnaam Parus, bij Latijn parus = mees"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -13545,11 +13569,11 @@
     "g:Plectrophenax": {
       "term": "Plectrophenax",
       "text": {
-        "de": "mit Sporn und Betrüger gebildet; Ersatzname für den Ammernamen Plectrophanes; Plectrophanes enthält griechisch plektron = Sporn; phenax = Betrüger kennzeichnet hier den Ersatznamen",
-        "en": "formed with spur and impostor; replacement for the bunting name Plectrophanes; Plectrophanes contains Greek plektron = spur; phenax = impostor marks the replacement name here",
-        "nl": "gevormd met spoor en bedrieger; vervangende naam voor de gorzennaam Plectrophanes; Plectrophanes bevat Grieks plektron = spoor; phenax = bedrieger duidt hier de vervangende naam aan"
+        "de": "aus griechisch plektron = Sporn und phenax = Betrüger; als Ersatzname für den Ammernamen Plectrophanes eingeführt. Der Grund für die Wahl von „Betrüger“ ist nicht belegt",
+        "en": "from Greek plektron = spur and phenax = impostor; introduced as a replacement for the bunting name Plectrophanes. The reason for choosing “impostor” is not documented",
+        "nl": "uit Grieks plektron = spoor en phenax = bedrieger; ingevoerd als vervangende naam voor de gorzennaam Plectrophanes. De reden voor de keuze van „bedrieger” is niet gedocumenteerd"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "bou1915",
       "page": 34
     },
@@ -13622,11 +13646,11 @@
     "g:Poecile": {
       "term": "Poecile",
       "text": {
-        "de": "bunt; alter Vogelname; aus griechisch poikilis",
-        "en": "variegated; an ancient bird name; from Greek poikilis",
-        "nl": "bont; een oude vogelnaam; uit Grieks poikilis"
+        "de": "aus griechisch poikilis, einem antiken Namen für einen nicht sicher bestimmten kleinen Vogel; seine genaue Bedeutung und die Vogelart sind ungeklärt",
+        "en": "from Greek poikilis, an ancient name for an unidentified small bird; its precise meaning and species identification remain unresolved",
+        "nl": "uit Grieks poikilis, een antieke naam voor een niet zeker geïdentificeerd vogeltje; de precieze betekenis en vogelsoort zijn niet opgehelderd"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 311
     },
@@ -13927,7 +13951,7 @@
         "en": "rail; a Latinised rail name; French râle, Dutch ral or German Ralle have been proposed as its source",
         "nl": "ral; gelatiniseerde rallennaam; Frans râle, Nederlands ral of Duits Ralle zijn als bron voorgesteld"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 330
     },
@@ -14115,7 +14139,7 @@
         "en": "from the French serin name; via French serin = serin; its deeper origin is unclear",
         "nl": "uit de Franse naam voor de Europese kanarie; via Frans serin = Europese kanarie; de verdere herkomst is onduidelijk"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 354,
       "additionalSources": [
@@ -14144,12 +14168,20 @@
     "g:Sibirionetta": {
       "term": "Sibirionetta",
       "text": {
-        "de": "Sibirien-Ente; verbindet Sibirien mit griechisch netta = Ente",
-        "en": "Siberian duck; combines Siberia with Greek netta = duck",
-        "nl": "Siberische eend; verbindt Siberië met Grieks netta = eend"
+        "de": "Sibirien-Ente; verbindet Sibirien mit griechisch netta = Ente. Boetticher begründete den 1929 eingeführten Untergattungsnamen ausdrücklich mit dem Verbreitungsgebiet der Gluckente",
+        "en": "Siberian duck; combines Siberia with Greek netta = duck. Boetticher explicitly based the subgenus name introduced in 1929 on the Baikal Teal’s distribution",
+        "nl": "Siberische eend; verbindt Siberië met Grieks netta = eend. Boetticher baseerde de in 1929 ingevoerde ondergeslachtsnaam uitdrukkelijk op het verspreidingsgebied van de Siberische taling"
       },
       "uncertain": false,
-      "source": "sibirionetta"
+      "source": "sibirionetta",
+      "page": 11,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 269,
+          "scope": "wordComponent"
+        }
+      ]
     },
     "g:Sicalis": {
       "term": "Sicalis",
@@ -14220,11 +14252,11 @@
     "g:Spinus": {
       "term": "Spinus",
       "text": {
-        "de": "Zeisig; aus griechisch spinos",
-        "en": "siskin; from Greek spinos",
-        "nl": "sijs; uit Grieks spinos"
+        "de": "aus griechisch spinos, einem nicht sicher bestimmten antiken Vogelnamen; später für den Erlenzeisig verwendet, dessen früherer Name Fringilla spinus auch den Gattungsnamen Spinus lieferte",
+        "en": "from Greek spinos, an unidentified ancient bird name; later applied to the Eurasian Siskin, whose earlier name Fringilla spinus also supplied the genus name Spinus",
+        "nl": "uit Grieks spinos, een niet zeker geïdentificeerde antieke vogelnaam; later gebruikt voor de sijs, waarvan de vroegere naam Fringilla spinus ook de geslachtsnaam Spinus leverde"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 362
     },
@@ -14414,11 +14446,11 @@
     "g:Tadorna": {
       "term": "Tadorna",
       "text": {
-        "de": "übernommener europäischer Brandgansname; über französisch tadorne = Brandgans; die ältere Herleitung ist umstritten",
-        "en": "borrowed European shelduck name; via French tadorne = shelduck; the earlier derivation is disputed",
-        "nl": "overgenomen Europese bergeendennaam; via Frans tadorne = bergeend; de oudere afleiding is omstreden"
+        "de": "übernommener Brandgansname; Jobling nennt französisch tadorne = Brandgans, während die British Ornithologists’ Union eine italienische Herkunft angibt. Der genaue Entlehnungsweg ist nicht eindeutig",
+        "en": "a borrowed shelduck name; Jobling gives French tadorne = shelduck, whereas the British Ornithologists’ Union gives an Italian origin. The precise borrowing route is not unambiguous",
+        "nl": "overgenomen bergeendennaam; Jobling noemt Frans tadorne = bergeend, terwijl de British Ornithologists’ Union een Italiaanse herkomst noemt. De precieze ontleningsweg is niet eenduidig"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
       "page": 377
     },
@@ -14502,13 +14534,20 @@
     "g:Thalasseus": {
       "term": "Thalasseus",
       "text": {
-        "de": "Fischer; griechische Berufsbezeichnung, keine Personenwidmung; aus griechisch thalasseus",
-        "en": "fisherman; a Greek occupational term, not a dedication to a person; from Greek thalasseus",
-        "nl": "visser; een Griekse beroepsaanduiding, geen persoonsnaam; uit Grieks thalasseus"
+        "de": "Name mit Meer-Bezug: Jobling erklärt griechisch thalasseus als „Fischer“, zu thalassa = Meer. Mouchard deutet ihn über thalassios = zum Meer gehörig und weist darauf hin, dass Boie keine Erklärung gab; die genaue Wortwahl ist unterschiedlich gedeutet",
+        "en": "a name referring to the sea: Jobling explains Greek thalasseus as “fisherman”, from thalassa = sea. Mouchard interprets it through thalassios = maritime and notes that Boie gave no explanation; the exact word choice is interpreted differently",
+        "nl": "een naam met een verwijzing naar de zee: Jobling verklaart Grieks thalasseus als „visser”, bij thalassa = zee. Mouchard legt hem uit via thalassios = maritiem en vermeldt dat Boie geen verklaring gaf; de precieze woordkeuze wordt verschillend uitgelegd"
       },
-      "uncertain": false,
-      "source": "mouchard2019",
-      "page": 160
+      "uncertain": true,
+      "source": "jobling2010",
+      "page": 383,
+      "additionalSources": [
+        {
+          "source": "mouchard2019",
+          "page": 160,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "g:Thectocercus": {
       "term": "Thectocercus",

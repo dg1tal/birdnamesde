@@ -431,6 +431,10 @@
     "lewisShortMenstruus": {
       "title": "Charlton T. Lewis & Charles Short (1879): A Latin Dictionary, menstruus",
       "url": "https://classics.andrewgadsden.com/lewisandshort/entry/n28707"
+    },
+    "hanzab2006SongThrush": {
+      "title": "Higgins, Peter & Cowling (Hrsg., 2006): Handbook of Australian, New Zealand & Antarctic Birds, 7B, S. 1877, Turdus philomelos",
+      "url": "https://www.nzbirdsonline.org.nz/assets/95597/1691918560-344_song-20thrush.pdf"
     }
   },
   "terms": {
@@ -502,8 +506,15 @@
       "page": 236
     },
     "g:Thalasseus": {
-      "source": "mouchard2019",
-      "page": 160
+      "source": "jobling2010",
+      "page": 383,
+      "additionalSources": [
+        {
+          "source": "mouchard2019",
+          "page": 160,
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "g:Diopsittaca": {
       "source": "ridgway1916",
@@ -661,11 +672,12 @@
       ]
     },
     "e:audouinii": {
-      "source": "review20261108_5b51bea962ec",
+      "source": "review20261108_fb72b3252776",
+      "page": 464,
       "additionalSources": [
         {
-          "source": "review20261108_fb72b3252776",
-          "scope": "dedication"
+          "source": "review20261108_5b51bea962ec",
+          "scope": "identity"
         }
       ]
     },
@@ -725,10 +737,6 @@
       "additionalSources": [
         {
           "source": "review20261108_9664bb89a2f5",
-          "scope": "wordComponent"
-        },
-        {
-          "source": "review20261108_f304f7c75797",
           "scope": "wordComponent"
         }
       ]
@@ -830,13 +838,8 @@
       ]
     },
     "e:goffiniana": {
-      "additionalSources": [
-        {
-          "source": "review20261108_e73f3c07b93c",
-          "scope": "dedication",
-          "page": 187
-        }
-      ]
+      "source": "goffiniana2004",
+      "page": 187
     },
     "e:granti": {
       "additionalSources": [
@@ -1538,6 +1541,63 @@
         {
           "source": "lewisShortMenstruus",
           "scope": "wordComponent"
+        }
+      ]
+    },
+    "e:philomelos": {
+      "source": "hanzab2006SongThrush",
+      "page": 1877,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 303,
+          "scope": "wordMeaning"
+        }
+      ]
+    },
+    "g:Sibirionetta": {
+      "source": "sibirionetta",
+      "page": 11,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 269,
+          "scope": "wordComponent"
+        }
+      ]
+    },
+    "g:Megaceryle": {
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 97,
+          "scope": "wordComponent"
+        }
+      ]
+    },
+    "g:Alipiopsitta": {
+      "source": "alipiopsitta2006",
+      "page": 174
+    },
+    "g:Apus": {
+      "source": "jobling2010",
+      "page": 51,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 52,
+          "scope": "wordMeaning"
+        }
+      ]
+    },
+    "g:Meleagris": {
+      "source": "jobling2010",
+      "page": 248,
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "page": 249,
+          "scope": "nameHistory"
         }
       ]
     }
