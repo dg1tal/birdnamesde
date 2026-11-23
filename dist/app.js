@@ -902,7 +902,7 @@ function renderQuestion() {
       focusElement(area.querySelector('[data-choice]'));observeStudyActions();
     };
     if(x.method==='mc'||item.optionsVisible)showChoices();else{
-      area.innerHTML=`<p class="muted">${english?'Try to remember, then reveal the choices when ready.':'Versuche dich zu erinnern. Zeige dann die Auswahl an, wenn du bereit bist.'}</p><div class="study-actions"><button id="show-choices" class="primary" aria-describedby="question-name question-context">${english?'Show answer options':'Antwortmöglichkeiten anzeigen'}</button><button id="unknown">${english?'I don’t know':'Weiß ich nicht'}</button></div>`;
+      area.innerHTML=`<p class="muted">${english?'Try to remember, then reveal the choices when ready.':'Versuche dich zu erinnern. Zeige dann die Auswahl an, wenn du bereit bist.'}</p><div class="study-actions"><button id="show-choices" class="primary" aria-label="${english?'Show answer options':'Antwortmöglichkeiten anzeigen'}" title="${english?'Show answer options':'Antwortmöglichkeiten anzeigen'}" aria-describedby="question-name question-context"><span class="study-control-long">${english?'Show answer options':'Antwortmöglichkeiten anzeigen'}</span><span class="study-control-short" aria-hidden="true">${english?'Show choices':'Auswahl anzeigen'}</span></button><button id="unknown">${english?'I don’t know':'Weiß ich nicht'}</button></div>`;
       $('#show-choices').onclick=showChoices;queueFocus($('#show-choices'));
     }
   }
