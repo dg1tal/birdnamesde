@@ -41,11 +41,14 @@ python3 scripts/update-dda.py --check
 python3 scripts/build-scientific-names.py --check
 python3 scripts/build-ebd-seasonal.py --check
 python3 scripts/check-private-ebd.py
+python3 scripts/check-personal-paths.py
 node scripts/validate-photos.mjs
 for file in dist/*.js; do node --check "$file" || exit 1; done
 git diff --exit-code -- dist data
 git diff --check
 ```
+
+The personal-path check rejects absolute home-directory paths in tracked files. It also runs in the existing Python test suite in CI. Use repository-relative paths or environment variables such as `$HOME` in examples. Run it before committing; a CI failure cannot undo an already public push.
 
 No build step is required. Serve `dist/` as static assets, for example with `python3 -m http.server 8000 --directory dist`. The Pages workflow runs the deployment checks and refreshes regional/current data before uploading this directory. `scripts/finalize-data.py` regenerates data and is not a read-only check; run it only when intentionally updating the dataset.
 

@@ -10,15 +10,16 @@ Learning progress and existing rounds are retained. New seasonal rounds snapshot
 ## Reproduce
 
 Use completed country archives explicitly, never a directory glob while downloads
-are in progress. The working checkout is `$HOME/git/birdnamesde`.
+are in progress. Run these commands from the repository root. The examples use
+`$HOME/EBD/downloads/` for private archives; adjust that directory to your local setup.
 
 ```sh
 python3 scripts/import-ebd.py \
-  $HOME/EBD/downloads/ebd_DE_smp_relSep-2026.zip \
-  $HOME/EBD/downloads/ebd_NL_smp_relSep-2026.zip \
-  $HOME/EBD/downloads/ebd_GB_smp_relSep-2026.zip \
-  $HOME/EBD/downloads/ebd_FI_202101_202512_smp_relOct-2026.zip \
-  $HOME/EBD/downloads/ebd_FR_202101_202512_smp_relOct-2026.zip
+  "$HOME/EBD/downloads/ebd_DE_smp_relSep-2026.zip" \
+  "$HOME/EBD/downloads/ebd_NL_smp_relSep-2026.zip" \
+  "$HOME/EBD/downloads/ebd_GB_smp_relSep-2026.zip" \
+  "$HOME/EBD/downloads/ebd_FI_202101_202512_smp_relOct-2026.zip" \
+  "$HOME/EBD/downloads/ebd_FR_202101_202512_smp_relOct-2026.zip"
 python3 scripts/build-ebd-seasonal.py
 python3 -m unittest discover -s scripts -p 'test_ebd*.py'
 python3 scripts/build-ebd-seasonal.py --check

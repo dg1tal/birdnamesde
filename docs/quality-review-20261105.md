@@ -82,7 +82,7 @@ Physische Mobilgeräte und tatsächliche Screenreader-Ausgabe bleiben ungeprüft
 
 ## Ergebnis und Prüfstand
 
-Geprüfter Checkout: `8fd1c9dc39fa5d528af8e4da05e60f3f31b8215c` in `$HOME/git/birdnamesde`.
+Geprüfter Checkout: `8fd1c9dc39fa5d528af8e4da05e60f3f31b8215c` im kanonischen Projekt-Checkout.
 
 Die vorhandenen automatisierten Prüfungen bestehen vollständig. Auch die geprüften zentralen Browserabläufe funktionieren. Die gezielte Untersuchung der Übergänge zwischen Katalogerweiterung, gespeicherten Runden und Lernmodell ergibt dennoch **einen P1-, zwei P2- und einen P3-Funktionsbefund**. Dazu kommen **zwei P3-Wartungsbefunde**. Die wichtigsten Lücken betreffen die Wiederherstellung großer Runden, Fehler beim Laden beschädigter Speicherstände und die Validierung importierter Kontextdaten.
 
