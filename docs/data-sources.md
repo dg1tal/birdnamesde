@@ -133,9 +133,9 @@ The official workbook source is
 https://cornell.box.com/s/zjci66divvqnz00k98r7pmmb6kpc69zs
 (`eBird_Taxonomy_v2025_5-tab_30Oct2025.xlsx`). Review candidates, exclusions,
 missing names/codes and the complete output diff before activating another
-catalogue. Reimport all three private EBD country archives using the commands in
+catalogue. Reimport all five private EBD country archives using the commands in
 [ebd-import.md](ebd-import.md), then regenerate the seasonal release. The new release ID is
-`ebd-relSep-2026-2021-2025-catalog-v2`; the sampling period, checklist rules and
+`ebd-relSepOct-2026-2021-2025-catalog-v3`; the sampling period, checklist rules and
 thresholds are unchanged. Regional and current-notable caches carry the catalogue
 fingerprint; an older catalogue's fresh cache cannot suppress the required first
 refresh. Older paused lessons and progress remain keyed by the same IDs.
@@ -198,6 +198,7 @@ aggregate is reviewed before activation; `scripts/build-ebd-seasonal.py` generat
 the active app data from it. The raw data remain outside Git and Pages. Both the
 preview and published aggregates are derived eBird data excluded from the MIT code
 licence. See [ebd-import.md](ebd-import.md) for reproduction, filters and source terms.
+Finnish and French 2021–2025 aggregates from the October 2026 release were activated on 24 November 2026, alongside the retained September source countries. Exact reviewed source-concept rollups are recorded in `data/ebd-taxon-crosswalk.json`; each country’s source release is kept in new round snapshots.
 Run `python3 -m unittest discover -s scripts -p 'test_ebd*.py'`,
 `python3 scripts/build-ebd-seasonal.py --check` and
 `python3 scripts/check-private-ebd.py` before committing an update.

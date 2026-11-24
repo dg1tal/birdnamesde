@@ -1,4 +1,4 @@
-import {seasonLabel} from './hybrid-learning.js?v=20261123-countries1';
+import {seasonLabel} from './hybrid-learning.js?v=20261124-ebd1';
 
 export const SELECTION_REASONS=['saved','selected','current','frequent','medium','rare','seasonal','seasonal-fallback','recent','regional'];
 

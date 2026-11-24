@@ -1,5 +1,5 @@
-import {NAME_LANGUAGES,isNameLanguage,primaryName} from './name-languages.js?v=20261123-countries1';
-import {LEARNING_COUNTRIES} from './learning-settings.js?v=20261123-countries1';
+import {NAME_LANGUAGES,isNameLanguage,primaryName} from './name-languages.js?v=20261124-ebd1';
+import {LEARNING_COUNTRIES} from './learning-settings.js?v=20261124-ebd1';
 
 export const LOOKUP_PAGE_SIZE=60;
 export function lookupSettings(saved,learningRegion='DE',english=false,countries=LEARNING_COUNTRIES.map(c=>c.code)){

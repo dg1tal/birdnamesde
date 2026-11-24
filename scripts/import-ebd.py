@@ -58,6 +58,26 @@ def taxon_mapping():
     return sorted(catalog), scientific, mapping
 
 
+def reviewed_crosswalk(release, catalog):
+    source = json.loads((ROOT / 'data/ebd-taxon-crosswalk.json').read_text())
+    if source.get('version') != 1:
+        raise ValueError('Invalid reviewed taxon crosswalk')
+    if release != source['sourceRelease']:
+        return {}
+    with (ROOT / 'data/taxonomy.csv').open(encoding='utf-8-sig', newline='') as stream:
+        targets = {r['SPECIES_CODE']: r for r in csv.DictReader(stream) if r['CATEGORY'] == 'species'}
+    result = {}
+    for row in source['mappings']:
+        target = targets.get(row['targetSpeciesId'])
+        if not target or row['targetSpeciesId'] not in catalog or target['TAXON_CONCEPT_ID'] != row['targetConceptId'] or target['SCI_NAME'] != row['targetScientificName']:
+            raise ValueError('Crosswalk target differs from retained taxonomy')
+        key = (row['sourceConceptId'], row['sourceCategory'], row['sourceScientificName'])
+        if key in result or row['sourceCategory'] not in {'species', 'issf'} or row['relation'] not in {'sourceGroupToRetainedSpecies', 'narrowerSourceToRetainedSpecies'}:
+            raise ValueError('Invalid or duplicate crosswalk mapping')
+        result[key] = row['targetSpeciesId']
+    return result
+
+
 def select_checklists(records, country, labels, stats, local_codes=None):
     representatives = {}
     for identifier, group, cc, state, state_name, county, county_name, date, complete, protocol in records:
@@ -97,10 +117,12 @@ def select_checklists(records, country, labels, stats, local_codes=None):
     return selected
 
 
-def collect_detections(records, selected, catalog, scientific, mapping, stats):
+def collect_detections(records, selected, catalog, scientific, mapping, stats, crosswalk=None):
     positions = {bird: n for n, bird in enumerate(catalog)}
     detections = defaultdict(int)
     unmatched = Counter()
+    crosswalk = crosswalk or {}
+    reviewed_concepts = {key[0] for key in crosswalk}
     for identifier, concept, category, sci, approved, exotic, count in records:
         stats['observationRows'] += 1
         if identifier not in selected or approved != '1' or exotic == 'X':
@@ -114,6 +136,12 @@ def collect_detections(records, selected, catalog, scientific, mapping, stats):
             except ValueError:
                 raise ValueError('Invalid observation count') from None
         bird = mapping.get(concept)
+        if bird is None and concept in reviewed_concepts:
+            bird = crosswalk.get((concept, category, sci))
+            if bird is None:
+                raise ValueError('Source taxon differs from reviewed concept/category/name tuple')
+            stats['reviewedTaxonRollupRows'] += 1
+            stats['reviewedTaxonRollup:' + concept] += 1
         if bird is None:
             if sci in scientific:
                 # Never silently reconcile a changed taxon concept by name alone.
@@ -157,26 +185,31 @@ def aggregate(selected, detections, catalog, labels):
 
 
 def import_archive(path, catalog, scientific, mapping):
-    match = re.fullmatch(r'ebd_(DE|NL|GB)_smp_(rel[A-Za-z]{3}-\d{4})\.zip', path.name)
+    match = re.fullmatch(r'ebd_([A-Z]{2})(?:_(\d{6})_(\d{6}))?_smp_(rel[A-Za-z]{3}-\d{4})\.zip', path.name)
     if not match:
-        raise ValueError('Expected an explicitly named DE, NL or GB country sampling ZIP')
-    country, release = match.groups()
+        raise ValueError('Expected an explicitly named country sampling ZIP')
+    country, start, end, release = match.groups()
+    config = next((c for c in json.loads((ROOT / 'data/region-countries.json').read_text()) if c['code'] == country), None)
+    if config is None:
+        raise ValueError('Unsupported EBD country: '+country)
+    if start is not None and (start, end) != ('202101', '202512'):
+        raise ValueError('Country download must cover the entire 2021–2025 period')
     before = path.stat()
+    crosswalk = reviewed_crosswalk(release, catalog)
     stats = Counter()
-    labels = {country: {'DE': 'Deutschland', 'NL': 'Nederland', 'GB': 'United Kingdom'}[country]}
+    labels = {country: config['nameDe']}
     stem = path.stem
     print(f'{country}: reading sampling events', flush=True)
     with zipfile.ZipFile(path) as archive:
         # Reading required members to EOF also checks their ZIP CRCs.
         terms = archive.read('terms_of_use.txt').decode('utf-8-sig')
         citation = archive.read('recommended_citation.txt').decode('utf-8-sig').strip()
-        config = next(c for c in json.loads((ROOT / 'data/region-countries.json').read_text()) if c['code'] == country)
         local_codes = None if config.get('includeLocalRegions') else {
             r['code'] for entries in config.get('localRegions', {}).values() for r in entries}
         selected = select_checklists(rows(archive, stem + '_sampling.txt', SAMPLING_FIELDS), country, labels, stats, local_codes)
         print(f'{country}: {len(selected)} independent complete checklists; reading observations', flush=True)
         detections, unmatched = collect_detections(rows(archive, stem + '.txt', OBS_FIELDS),
-                                                  selected, catalog, scientific, mapping, stats)
+                                                  selected, catalog, scientific, mapping, stats, crosswalk)
     if unmatched:
         raise ValueError(f'{country}: unresolved catalog taxon concepts: {", ".join(unmatched)}')
     regions = aggregate(selected, detections, catalog, labels)
@@ -188,6 +221,9 @@ def import_archive(path, catalog, scientific, mapping):
     provenance = {'country': country, 'release': release, 'archive': path.name, 'sha256': sha256,
                   'citation': citation, 'statistics': dict(stats), 'unresolvedCatalogTaxa': unmatched,
                   'originalDataPublished': False}
+    if crosswalk:
+        provenance['taxonCrosswalk'] = {'file': 'data/ebd-taxon-crosswalk.json',
+                                      'sha256': hashlib.sha256((ROOT / 'data/ebd-taxon-crosswalk.json').read_bytes()).hexdigest()}
     print(f'{country}: {len(regions)} regional aggregates ready', flush=True)
     return regions, provenance, terms
 

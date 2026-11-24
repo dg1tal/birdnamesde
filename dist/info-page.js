@@ -1,8 +1,8 @@
-import {DDA_SOURCE} from './code-targets.js?v=20261123-countries1';
-import {seasonalDatasetText} from './hybrid-learning.js?v=20261123-countries1';
-import {NAME_LANGUAGES,languageLabel} from './name-languages.js?v=20261123-countries1';
+import {DDA_SOURCE} from './code-targets.js?v=20261124-ebd1';
+import {seasonalDatasetText} from './hybrid-learning.js?v=20261124-ebd1';
+import {NAME_LANGUAGES,languageLabel} from './name-languages.js?v=20261124-ebd1';
 
-export const INFO_REVIEWED='2026-11-05';
+export const INFO_REVIEWED='2026-11-24';
 export const SOURCE_TITLES_EN=Object.freeze({
  'https://support.ebird.org/en/support/solutions/articles/48000804865':'eBird: multilingual bird names and four-letter codes (30 October 2025)',
  'https://www.birds.cornell.edu/clementschecklist/download/':'Cornell: eBird/Clements v2025 taxonomy downloads',
@@ -34,15 +34,15 @@ export function renderInformation({english,birds,meta,germanNamesMeta={},photos=
  const freshness=f.listCount?choose(`${f.regionCount} Gebiete einschließlich Länderlisten; ${f.listCount} verfügbare Artenlisten. Letzte erfolgreiche Listenaktualisierungen: `,`${f.regionCount} areas including country-wide lists; ${f.listCount} available species lists. Last successful list updates: `)+(f.oldest===f.newest?stamp(f.newest):`${stamp(f.oldest)} – ${stamp(f.newest)}`):choose('Regionale Daten sind in dieser Ansicht derzeit nicht verfügbar. Verfügbare Saisondaten können weiterhin genutzt werden; fehlende Listen werden beim Lernen gekennzeichnet.','Regional data is currently unavailable in this view. Available seasonal data can still be used; missing lists are labelled in the learning settings.');
  const sources=meta.sources.map(s=>`<li>${link(s.url,english?SOURCE_TITLES_EN[s.url]||s.title:s.title)}</li>`).join('');
  const originalSources=english?`<details><summary>Original source titles</summary><ul data-name-content>${meta.sources.map(s=>`<li>${link(s.url,s.title)}</li>`).join('')}</ul></details>`:'';
- const seasonalCoverage=seasonal?.regions?['DE','NL','GB'].map(code=>{
+ const seasonalCoverage=seasonal?.regions?seasonal.regions.filter(r=>!r.code.includes('-')).map(r=>r.code).map(code=>{
   const entries=seasonal.regions.filter(r=>r.code===code||r.code.startsWith(code+'-'));
   const count=entries.filter(r=>Object.values(r.seasons).some(s=>s.sample>0)).length;
   const supported=entries.filter(r=>['winter','spring','summer','autumn'].every(k=>r.seasons[k]?.sample>=300&&r.seasons[k]?.years>=3)).length;
-  return `${choose(...({DE:['Deutschland','Germany'],NL:['Niederlande','Netherlands'],GB:['Vereinigtes Königreich','United Kingdom']})[code])}: ${count} ${choose(`${count===1?'Gebiet':'Gebiete'} mit historischen Stichproben, davon`,`${count===1?'area':'areas'} with historical samples, of which`)} ${supported} ${choose('in allen vier Jahreszeiten ausreichend belegt','have sufficient samples in all four seasons')}`;
+  return `${choose(...({DE:['Deutschland','Germany'],NL:['Niederlande','Netherlands'],GB:['Vereinigtes Königreich','United Kingdom'],FI:['Finnland','Finland'],FR:['Frankreich','France']})[code])}: ${count} ${choose(`${count===1?'Gebiet':'Gebiete'} mit historischen Stichproben, davon`,`${count===1?'area':'areas'} with historical samples, of which`)} ${supported} ${choose('in allen vier Jahreszeiten ausreichend belegt','have sufficient samples in all four seasons')}${seasonal.dataset?.countryReleases?.[code]?' ('+choose('Ausgabe ','release ')+(english?seasonal.dataset.countryReleases[code]:seasonal.dataset.countryReleases[code].replaceAll('October','Oktober'))+')':''}`;
  }).join('; '):'';
  const seasonalIntro=seasonal?.dataset?esc(seasonalDatasetText(seasonal.dataset,english))+'. '+esc(seasonalCoverage)+'. ':choose('Saisonale Daten sind derzeit nicht verfügbar. ','Seasonal data is currently unavailable. ');
  const credit=seasonal?.credit;
- const ebirdReferences=credit?`<h3>${choose('eBird-Daten und Danksagung','eBird data and acknowledgement')}</h3><p>${esc(choose(credit.acknowledgement.de,credit.acknowledgement.en))}</p><ul><li><span lang="en">${esc(credit.datasetCitation)}</span> · ${link(credit.dataSourceURL,choose('EBD-Datenquelle','EBD data source'))}</li><li><span lang="en">${link(credit.primaryReference.url,credit.primaryReference.citation)}</span></li></ul>`:'';
+ const ebirdReferences=credit?`<h3>${choose('eBird-Daten und Danksagung','eBird data and acknowledgement')}</h3><p>${esc(choose(credit.acknowledgement.de,credit.acknowledgement.en))}</p><ul>${(credit.datasetCitations||[credit.datasetCitation]).map(citation=>`<li><span lang="en">${esc(citation)}</span></li>`).join('')}<li>${link(credit.dataSourceURL,choose('EBD-Datenquelle','EBD data source'))}</li><li><span lang="en">${link(credit.primaryReference.url,credit.primaryReference.citation)}</span></li></ul>`:'';
  const blocks=[
  ['scope',choose('Artenbestand und Datenstand','Species coverage and data version'),
   `<p>${choose('Der Katalog vereinigt eBird-Artennachweise aus Deutschland, den Niederlanden, UK, Finnland und Frankreich einschließlich historischer Seltenheiten und behält die ursprüngliche deutsche Auswahl bei. Die Artabgrenzungen bleiben auf v2025 festgelegt. Bei zwölf geprüften Umbenennungen wird der wissenschaftliche Name von 2026 verwendet; der Name von 2025 bleibt sichtbar. Beide Namen werden als wissenschaftliche Lernantwort akzeptiert. Nachweise sind weder Brutstatus noch ein Beleg für eine etablierte Population.','The catalogue combines eBird species records from Germany, the Netherlands, the UK, Finland and France, including historical rarities, and retains the original German selection. Species limits remain pinned to v2025. Twelve verified name changes use the 2026 scientific name, with the 2025 name also shown. Both names are accepted as scientific answers. Occurrence records establish neither breeding status nor a self-sustaining population.')}</p><p>${download('catalog-review.json',choose('Katalogstand, Länderabdeckung und ausgeschlossene Quelltaxa (JSON)','Catalogue version, country coverage and excluded source taxa (JSON)'))}</p>`+

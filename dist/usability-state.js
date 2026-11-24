@@ -1,5 +1,5 @@
-import {isNameLanguage} from './name-languages.js?v=20261123-countries1';
-import {family} from './learning-model.js?v=20261123-countries1';
+import {isNameLanguage} from './name-languages.js?v=20261124-ebd1';
+import {family} from './learning-model.js?v=20261124-ebd1';
 
 export function statsContext(value,learn){
  const sourceLanguage=isNameLanguage(value?.sourceLanguage)?value.sourceLanguage:learn.sourceLanguage;

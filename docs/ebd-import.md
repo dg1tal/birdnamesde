@@ -5,7 +5,7 @@ of 5 November 2026, `scripts/build-ebd-seasonal.py` uses the reviewed aggregate 
 generate the active `dist/seasonal-species.json`, its provenance/terms, and the
 bilingual method and coverage page. The app's daily API refresh is unchanged.
 Learning progress and existing rounds are retained. New seasonal rounds snapshot
-`ebd-relSep-2026-2021-2025-catalog-v2`; old rounds without source metadata stay unassigned.
+`ebd-relSepOct-2026-2021-2025-catalog-v3`; old rounds without source metadata stay unassigned.
 
 ## Reproduce
 
@@ -16,7 +16,9 @@ are in progress. The working checkout is `$HOME/git/birdnamesde`.
 python3 scripts/import-ebd.py \
   $HOME/EBD/downloads/ebd_DE_smp_relSep-2026.zip \
   $HOME/EBD/downloads/ebd_NL_smp_relSep-2026.zip \
-  $HOME/EBD/downloads/ebd_GB_smp_relSep-2026.zip
+  $HOME/EBD/downloads/ebd_GB_smp_relSep-2026.zip \
+  $HOME/EBD/downloads/ebd_FI_202101_202512_smp_relOct-2026.zip \
+  $HOME/EBD/downloads/ebd_FR_202101_202512_smp_relOct-2026.zip
 python3 scripts/build-ebd-seasonal.py
 python3 -m unittest discover -s scripts -p 'test_ebd*.py'
 python3 scripts/build-ebd-seasonal.py --check
@@ -58,9 +60,9 @@ GB is larger than DE and NL combined; processing can take several minutes.
   the app applies ≥300 checklists and ≥3 years with ≥100 checklists each.
 - Winter uses December, January and February of each calendar year, matching the
   existing app convention. Other seasons are March–May, June–August, September–November.
-- Country and state/province aggregates are generated. Local aggregates follow
+- Country and first-level regional aggregates are generated for DE, NL, GB, FI and FR. Local aggregates follow
   `data/region-countries.json`: Garmisch-Partenkirchen in DE, all source local regions
-  in GB, none in NL. Source county codes outside their declared state are omitted
+  in GB, none in NL, FI or FR. Source county codes outside their declared state are omitted
   from local rollups and counted in the audit; country/state evidence is retained.
 
 These rules can produce different counts and group membership from histogram
@@ -76,9 +78,15 @@ and publications derived wholly or partly from eBird data; the dataset supplies
 the relevant citation. The EBD-specific guidance explicitly points to the supplied
 `recommended_citation.txt` rather than the generic website citation.
 
-All three archives contain the same citation, reproduced verbatim:
+The September archives contain this citation, reproduced verbatim:
 
 > eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026.
+
+The Finnish and French October archives supply their separate citation:
+
+> eBird Basic Dataset. Version: EBD_relOct-2026. Cornell Lab of Ornithology, Ithaca, New York. Oct 2026.
+
+Both exact citations and each country’s source release are published. Their supplied terms are identical; the releases are not relabelled as one source month.
 
 The general project reference identified by the citation guidance is also included:
 
@@ -156,7 +164,7 @@ thresholds, unexpected releases, unresolved catalog concepts, overlapping groups
 inconsistent annual samples or source codes missing from the reviewed hierarchy.
 It generates all four published artifacts together. `--check` in CI detects stale
 artifacts; daily API refreshes never modify the historical aggregates. New EBD
-releases require a new dataset ID and review of the source period and metadata.
+releases require a new dataset ID and review of the source period and metadata. The current builder explicitly requires the reviewed September sources for DE/NL/GB and October sources for FI/FR; other release combinations are rejected.
 
 The historical histogram builder is retained only for archival reproduction;
 invoking it overwrites seasonal outputs and will fail the active EBD artifact check.
@@ -164,3 +172,23 @@ To roll back an app release, restore all matching data/code/method/cache-version
 changes from Git together. Learning storage does not require migration or reset.
 
 The catalogue expansion on 5 November 2026 reran all three archives for the 940-species country union. Published seasonal data and dataset metadata now carry the catalogue fingerprint. Denominators, independent-checklist selection, source release, period and frequency thresholds are unchanged.
+
+
+## Finland and France activation, 24 November 2026
+
+The date-filtered country ZIP names (`202101_202512`) are accepted only when they cover the complete existing analysis period. All five completed archives were read to EOF and checked by ZIP CRC, SHA-256, size and modification time. The preceding 144 DE/NL/GB regional seasonal values and denominators reproduce exactly; no existing frequency group changed.
+
+| Country | Source release | Independent complete checklists, 2021–2025 | Regional aggregates |
+| --- | --- | ---: | ---: |
+| Finland | October 2026 | 111,255 | 20 |
+| France | October 2026 | 238,323 | 14 |
+
+Both country-wide selections pass the sample gate in all four seasons. All 13 French regions pass in all seasons. Of Finland’s 19 regions, seven pass all four seasons, five pass some seasons and seven pass none. Insufficient region/seasons keep the labelled regional-occurrence fallback. The active data now contain 178 exact regional aggregates. The reviewed live API hierarchy has 191 regions; 13 UK local codes have no historical sample and fall back explicitly.
+
+`data/ebd-taxon-crosswalk.json` records six exact source-concept/category/EBD-name tuples reviewed against the checksum-pinned official 2026 workbook and Cornell’s taxonomic accounts. Four newly defined/revised infraspecific groups roll up to unchanged retained species. The narrower 2026 European Robin concept and a new Mediterranean Flycatcher subgroup intentionally roll up to the broader retained 2025 species; they are not treated as equivalent concepts. Unknown concepts do not gain a name-only match. Category/name drift for a reviewed concept stops the import. Ambiguous domestic goose aggregates and out-of-catalogue swift concepts remain excluded.
+
+The full October source taxon inventory was checked for additional missing descendants, including source names differing from the retained species name. The extra flycatcher subgroup occurs in the archive but has no eligible accepted observation in the selected independent complete checklists; its reviewed mapping is tested explicitly. The existing 2025 REPORT_AS mappings already cover the two 2026 flycatcher species concepts. Bitset deduplication keeps multiple source taxa on one checklist to one retained-species detection.
+
+The source crosswalk hash and per-concept rollup row counts are recorded in the preview provenance. Activation rejects mismatched crosswalk hashes, country releases, citations or missing national aggregates. Published method and information pages show all five countries and both supplied source citations. New round snapshots store the selected country’s exact release. Existing paused rounds, progress and their earlier dataset metadata remain unchanged.
+
+Validation for the five-country activation: all 32 Node regression scripts, the npm smoke test, all 62 Python tests, catalogue/DDA/scientific-name/EBD reproducibility checks and media validation pass. Browser QA verified the national autumn defaults (Finland 127 species, France 167) and the explicit Åland fallback (243 historical autumn checklists, no year reaching 100), without affecting a saved production lesson. Raw archives remain outside the repository.

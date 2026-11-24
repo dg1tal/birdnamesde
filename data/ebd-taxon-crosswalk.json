@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-24",
+  "sourceRelease": "relOct-2026",
+  "targetTaxonomy": "eBird/Clements v2025",
+  "sourceWorkbookUrl": "https://cornell.box.com/s/fjp112mh25nlvbyr1p28r9ya7nriblls",
+  "sourceWorkbookSha256": "989a1c4e9524c6b0fb3b8a69f99bad98f80706cd183e934bc620c6dd24e70e62",
+  "notes": [
+    "Exact source concept, category and EBD parent scientific name are required; no name-only matching or inferred concept equivalence.",
+    "Four new/redefined 2026 infraspecific source groups roll up to their unchanged parent species in the retained 2025 catalogue.",
+    "The 2026 European Robin source species is narrower than the retained 2025 European Robin. This is an intentional rollup to the broader historical species, not an assertion of equal concepts.",
+    "Muscicapa striata and M. tyrrhenica source species concepts are already retained as 2025 infraspecific concepts with REPORT_AS=spofly1. Slash categories remain excluded.",
+    "Original observations, checklist IDs, observer data and locations are not part of this review.",
+    "The new source subgroup Muscicapa tyrrhenica tyrrhenica is within the 2026 Mediterranean Flycatcher, whose complete source concept is already a supported 2025 subgroup of retained Muscicapa striata. It rolls up to the broader 2025 species. Ambiguous Anser domestic aggregates and Apus affinis/nipalensis are not given a guessed parent."
+  ],
+  "mappings": [
+    {
+      "sourceConceptId": "avibase-237C00F6",
+      "sourceCategory": "issf",
+      "sourceScientificName": "Garrulus glandarius",
+      "sourceTaxonId": "eurjay2",
+      "sourceParentSpeciesConceptId": "avibase-D8D10F2C",
+      "targetSpeciesId": "eurjay1",
+      "targetConceptId": "avibase-D8D10F2C",
+      "targetScientificName": "Garrulus glandarius",
+      "relation": "sourceGroupToRetainedSpecies",
+      "evidenceUrl": "https://www.birds.cornell.edu/clementschecklist/updates-and-corrections-october-2026-page-4/"
+    },
+    {
+      "sourceConceptId": "avibase-8E40136C",
+      "sourceCategory": "issf",
+      "sourceScientificName": "Pyrrhula pyrrhula",
+      "sourceTaxonId": "eurbul2",
+      "sourceParentSpeciesConceptId": "avibase-24764DC7",
+      "targetSpeciesId": "eurbul",
+      "targetConceptId": "avibase-24764DC7",
+      "targetScientificName": "Pyrrhula pyrrhula",
+      "relation": "sourceGroupToRetainedSpecies",
+      "evidenceUrl": "https://www.birds.cornell.edu/clementschecklist/updates-and-corrections-october-2026-page-4/"
+    },
+    {
+      "sourceConceptId": "avibase-2B2F596B",
+      "sourceCategory": "issf",
+      "sourceScientificName": "Prunella modularis",
+      "sourceTaxonId": "dunnoc10",
+      "sourceParentSpeciesConceptId": "avibase-26530C86",
+      "targetSpeciesId": "dunnoc1",
+      "targetConceptId": "avibase-26530C86",
+      "targetScientificName": "Prunella modularis",
+      "relation": "sourceGroupToRetainedSpecies",
+      "evidenceUrl": "https://www.birds.cornell.edu/clementschecklist/updates-and-corrections-october-2026-page-4/"
+    },
+    {
+      "sourceConceptId": "avibase-D49753CA",
+      "sourceCategory": "issf",
+      "sourceScientificName": "Dendrocoptes medius",
+      "sourceTaxonId": "miswoo2",
+      "sourceParentSpeciesConceptId": "avibase-504B2FD4",
+      "targetSpeciesId": "miswoo1",
+      "targetConceptId": "avibase-504B2FD4",
+      "targetScientificName": "Dendrocoptes medius",
+      "relation": "sourceGroupToRetainedSpecies",
+      "evidenceUrl": "https://www.birds.cornell.edu/clementschecklist/updates-and-corrections-october-2026-page-3/"
+    },
+    {
+      "sourceConceptId": "avibase-E68C3C70",
+      "sourceCategory": "species",
+      "sourceScientificName": "Erithacus rubecula",
+      "sourceTaxonId": "eurrob1",
+      "sourceParentSpeciesConceptId": "avibase-E68C3C70",
+      "targetSpeciesId": "eurrob1",
+      "targetConceptId": "avibase-C809B2B9",
+      "targetScientificName": "Erithacus rubecula",
+      "relation": "narrowerSourceToRetainedSpecies",
+      "evidenceUrl": "https://www.birds.cornell.edu/clementschecklist/updates-and-corrections-october-2026/"
+    },
+    {
+      "sourceConceptId": "avibase-D2FB64EC",
+      "sourceCategory": "issf",
+      "sourceScientificName": "Muscicapa tyrrhenica",
+      "sourceTaxonId": "spofly10",
+      "sourceParentSpeciesConceptId": "avibase-CBFA2D2B",
+      "targetSpeciesId": "spofly1",
+      "targetConceptId": "avibase-EE8206E7",
+      "targetScientificName": "Muscicapa striata",
+      "relation": "narrowerSourceToRetainedSpecies",
+      "evidenceUrl": "https://www.birds.cornell.edu/clementschecklist/updates-and-corrections-october-2026/"
+    }
+  ]
+}

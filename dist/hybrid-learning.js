@@ -1,4 +1,4 @@
-import {regionalSelection} from './regions.js?v=20261123-countries1';
+import {regionalSelection} from './regions.js?v=20261124-ebd1';
 const DAY=86400000;
 export const FREQUENCY_GROUPS=['frequent','medium','rare'];
 export function frequencyGroups(value){return Array.isArray(value)?FREQUENCY_GROUPS.filter(g=>value.includes(g)):['frequent','medium'];}
@@ -6,11 +6,12 @@ export function frequencyLabel(group,english=false){return ({frequent:['Häufig'
 export function seasonAt(now=new Date()) {return ['winter','winter','spring','spring','spring','summer','summer','summer','autumn','autumn','autumn','winter'][now.getMonth()];}
 export function seasonLabel(season,english=false){return ({winter:['Winter (Dez–Feb)','Winter (Dec–Feb)'],spring:['Frühjahr (Mär–Mai)','Spring (Mar–May)'],summer:['Sommer (Jun–Aug)','Summer (Jun–Aug)'],autumn:['Herbst (Sep–Nov)','Autumn (Sep–Nov)']})[season]?.[+english]||'';}
 export function validSeasonalDataset(d){
- return !!d&&typeof d==='object'&&!Array.isArray(d)&&typeof d.id==='string'&&/^[a-zA-Z0-9][a-zA-Z0-9.-]{0,99}$/.test(d.id)&&['eBird Basic Dataset','eBird histogram exports'].includes(d.source)&&typeof d.release==='string'&&d.release.length>0&&d.release.length<=80&&typeof d.period==='string'&&/^\d{4}–\d{4}$/.test(d.period);
+ return !!d&&typeof d==='object'&&!Array.isArray(d)&&typeof d.id==='string'&&/^[a-zA-Z0-9][a-zA-Z0-9.-]{0,99}$/.test(d.id)&&['eBird Basic Dataset','eBird histogram exports'].includes(d.source)&&typeof d.release==='string'&&d.release.length>0&&d.release.length<=80&&typeof d.period==='string'&&/^\d{4}–\d{4}$/.test(d.period)&&
+  (d.countryReleases===undefined||!!d.countryReleases&&typeof d.countryReleases==='object'&&!Array.isArray(d.countryReleases)&&Object.entries(d.countryReleases).length>0&&Object.entries(d.countryReleases).every(([code,release])=>/^[A-Z]{2}$/.test(code)&&typeof release==='string'&&release.length>0&&release.length<=80));
 }
 export function seasonalDatasetText(d,english=false){
  if(!validSeasonalDataset(d))return english?'Data source was not stored for this round.':'Die Datenquelle wurde für diese Runde nicht gespeichert.';
- return `${d.source} · ${english?'release':'Ausgabe'} ${d.release} · ${d.period}`;
+ return `${d.source} · ${english?'release':'Ausgabe'} ${english?d.release:d.release.replaceAll('October','Oktober')} · ${d.period}`;
 }
 export function regionalSnapshot(h){
  return {season:h.season,seasonalReady:h.seasonalReady,seasonalRequested:h.seasonalRequested,selectedGroups:h.frequencyGroups?[...h.selectedGroups]:null,additions:structuredClone(h.additions),seasonalDataset:h.seasonalDataset?structuredClone(h.seasonalDataset):null};
@@ -63,5 +64,10 @@ export function hybridSelection(regions,seasonal,current,cfg,ids,now=new Date(),
  const currentFresh=!!available&&Number.isFinite(Date.parse(available.updatedAt))&&now.getTime()-Date.parse(available.updatedAt)<=3*DAY&&Date.parse(available.updatedAt)<=now.getTime()+300000;
  const records=cfg.region&&includeReports?validCurrentRecords(available,ids,now.getTime()):[];
  const additions=records.filter(r=>!base.includes(r.id));
- return {ids:[...new Set([...base,...additions.map(r=>r.id)])],baseIds:base,additions,season,frequencyGroups:groups,selectedGroups,seasonalReady,seasonalRequested:cfg.regionMode==='seasonal',seasonalDataset:cfg.regionMode==='seasonal'&&seasonal?.dataset?structuredClone(seasonal.dataset):null,sample:list?.sample||0,years:list?.years||0,available:!!cfg.region&&(seasonalReady||!!fallback||additions.length>0),currentFresh,currentUpdatedAt:currentFresh?available.updatedAt:null};
+ const seasonalDataset=cfg.regionMode==='seasonal'&&seasonal?.dataset?structuredClone(seasonal.dataset):null;
+ if(seasonalDataset?.countryReleases){
+  seasonalDataset.release=seasonalDataset.countryReleases[cfg.region.split('-')[0]]||seasonalDataset.release;
+  delete seasonalDataset.countryReleases;
+ }
+ return {ids:[...new Set([...base,...additions.map(r=>r.id)])],baseIds:base,additions,season,frequencyGroups:groups,selectedGroups,seasonalReady,seasonalRequested:cfg.regionMode==='seasonal',seasonalDataset,sample:list?.sample||0,years:list?.years||0,available:!!cfg.region&&(seasonalReady||!!fallback||additions.length>0),currentFresh,currentUpdatedAt:currentFresh?available.updatedAt:null};
 }

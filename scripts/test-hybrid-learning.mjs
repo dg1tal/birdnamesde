@@ -56,18 +56,25 @@ console.log('PASS: frequency boundaries, defaults, empty selection, automatic cu
 const realIds=new Set(catalogue.map(s=>s.id));
 await loadNameData(catalogue,async path=>({ok:true,json:async()=>JSON.parse(readFileSync('dist/'+path))}));
 const realRegions={regions:['DE','NL','GB','DE-SL','NL-DR','GB-ENG-HAL'].map(code=>({code,all:{ids:[catalogue[0].id]},recent:{ids:[catalogue[1].id]}}))};
-// New countries have no reviewed seasonal source yet. Keep their own lists,
-// current additions and language pairs without using another country's sample.
+// The new countries use their own reviewed seasonal samples and October source.
+// Missing seasonal data must still fall back to that country's own record list.
 for(const [country,region,baseId,extraId,language] of [
  ['FI','FI-18','sibjay1','gyhchi','fi'],['FR','FR-COR','cornut1','corfin1','fr']]){
  for(const code of [country,region]){
   const geography={regions:[{code,all:{ids:[baseId]},recent:{ids:[extraId]}}]};
   const records={regions:[{code,updatedAt:now.toISOString(),records:[{...record,id:extraId}]}]};
-  const chosen=hybridSelection(geography,published,records,{region:code,regionMode:'seasonal'},realIds,now);
+  const seasonalChoice=hybridSelection(geography,published,records,{region:code,regionMode:'seasonal'},realIds,now);
+  assert(seasonalChoice.seasonalReady);
+  assert.deepEqual(new Set(seasonalChoice.baseIds),new Set(published.regions.find(r=>r.code===code).seasons.autumn.ids));
+  assert.equal(seasonalChoice.seasonalDataset.release,'October 2026');
+  assert(!('countryReleases' in seasonalChoice.seasonalDataset));
+  assert(seasonalDatasetText(seasonalChoice.seasonalDataset).includes('Oktober 2026'));
+  const withoutCountry={...published,regions:published.regions.filter(r=>r.code!==country&&!r.code.startsWith(country+'-'))};
+  const chosen=hybridSelection(geography,withoutCountry,records,{region:code,regionMode:'seasonal'},realIds,now);
   assert(chosen.available);assert(!chosen.seasonalReady);assert.deepEqual(chosen.baseIds,[baseId]);
   assert.deepEqual(chosen.ids,[baseId,extraId]);
   assert.deepEqual(hybridSelection(geography,published,null,{region:code,regionMode:'recent'},realIds,now).baseIds,[extraId]);
-  assert(!hybridSelection(null,published,null,{region:code,regionMode:'seasonal'},realIds,now).available);
+  assert(!hybridSelection(null,withoutCountry,null,{region:code,regionMode:'seasonal'},realIds,now).available);
   const selectedBirds=catalogue.filter(s=>chosen.ids.includes(s.id));
   for(const [sourceLanguage,nameLanguage] of [['de',language],[language,'en']]){
    const round=dailyLearningPlan({birds:catalogue,settings:{region:code,sourceLanguage,nameLanguage,target:nameLanguage,method:'text'},selection:{pool:selectedBirds,hybrid:chosen},records:{},ledger:null,now:+now,random:()=>.5});
@@ -80,6 +87,7 @@ for(const region of ['DE','NL','GB']){
  assert(selected.seasonalReady);
  assert.deepEqual(new Set(selected.baseIds),new Set(published.regions.find(r=>r.code===region).seasons.autumn.ids));
  assert.equal(selected.seasonalDataset.id,published.dataset.id);
+ assert.equal(selected.seasonalDataset.release,'September 2026');
  assert.deepEqual(hybridSelection(realRegions,published,{regions:[]},{region,regionMode:'recent'},realIds,now).baseIds,[catalogue[1].id]);
 }
 for(const region of ['DE-SL','NL-DR','GB-ENG-HAL']){
@@ -104,6 +112,12 @@ assert(seasonalDatasetText(frozen.seasonalDataset).includes('September 2026'));
 assert.equal(validateLesson({...lesson,regionalContext:{...lesson.regionalContext,seasonalDataset:{id:'bad'}}},ids),null);
 assert.throws(()=>validateSeasonal({...published,dataset:{id:'bad'}},realIds));
 console.log('PASS: EBD selection in all countries, exact regional fallbacks, independent 30-day lists, notable additions and immutable/legacy dataset snapshots.');
+const aland={regions:[{code:'FI-01',all:{ids:[catalogue[0].id]}}]};
+const alandFallback=hybridSelection(aland,published,null,{region:'FI-01',regionMode:'seasonal'},realIds,now);
+assert(!alandFallback.seasonalReady);assert.deepEqual(alandFallback.baseIds,[catalogue[0].id]);
+for(const releaseMap of [[],{}, {FI:''}, {FI:42}, {'FI-bad':'October 2026'}]){
+ assert.throws(()=>validateSeasonal({...published,dataset:{...published.dataset,countryReleases:releaseMap}},realIds));
+}
 
 for(const region of ['', 'UNKNOWN', 'DE-MISSING']){
  const selection=hybridSelection(null,null,null,{region,regionMode:'all'},ids,now);

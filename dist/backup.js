@@ -1,8 +1,8 @@
-import {validateSavedSpecies} from './usability-state.js?v=20261123-countries1';
-import {validateDaily} from './progress-validation.js?v=20261123-countries1';
-export {validateDaily} from './progress-validation.js?v=20261123-countries1';
-import {migrateRecords} from './learning-model.js?v=20261123-countries1';
-import {validProgress} from './logic.js?v=20261123-countries1';
+import {validateSavedSpecies} from './usability-state.js?v=20261124-ebd1';
+import {validateDaily} from './progress-validation.js?v=20261124-ebd1';
+export {validateDaily} from './progress-validation.js?v=20261124-ebd1';
+import {migrateRecords} from './learning-model.js?v=20261124-ebd1';
+import {validProgress} from './logic.js?v=20261124-ebd1';
 
 export function inspectBackup(value,ids){
  const records=validProgress(value,ids);

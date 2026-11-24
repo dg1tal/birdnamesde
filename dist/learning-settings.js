@@ -1,5 +1,5 @@
-import {isCodeTarget} from './code-targets.js?v=20261123-countries1';
-import {validateLesson} from './study-state.js?v=20261123-countries1';
+import {isCodeTarget} from './code-targets.js?v=20261124-ebd1';
+import {validateLesson} from './study-state.js?v=20261124-ebd1';
 
 // Countries remain selectable if a regional snapshot is temporarily unavailable.
 export const LEARNING_COUNTRIES=[

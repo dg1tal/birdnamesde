@@ -100,13 +100,15 @@ Neither the country download archives nor raw observation or sampling-event
 records are published here. The seasonal data files contain derived aggregates:
 regional species groups and summary checklist counts.
 
-The seasonal frequency groups for Germany, the Netherlands and the UK are derived
-from the **eBird Basic Dataset (EBD), September 2026 release**, restricted to
-2021–2025. Regional occurrence lists and current notable reports use the eBird API.
+The seasonal frequency groups use the **eBird Basic Dataset (EBD)**: September 2026
+for Germany, the Netherlands and the UK; October 2026 for Finland and France.
+All five countries use 2021–2025. Regional occurrence lists and current notable reports use the eBird API.
 
-Source dataset used to calculate the seasonal aggregates:
+Source datasets used to calculate the seasonal aggregates:
 
 > eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026.
+
+> eBird Basic Dataset. Version: EBD_relOct-2026. Cornell Lab of Ornithology, Ithaca, New York. Oct 2026.
 
 General eBird project reference:
 

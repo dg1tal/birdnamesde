@@ -1,7 +1,7 @@
-import {normalize} from './logic.js?v=20261123-countries1';
-import {NAME_LANGUAGES,acceptedNames} from './name-languages.js?v=20261123-countries1';
-import {sortLookup} from './lookup-settings.js?v=20261123-countries1';
-import {scientificNameAliases} from './scientific-name-aliases.js?v=20261123-countries1';
+import {normalize} from './logic.js?v=20261124-ebd1';
+import {NAME_LANGUAGES,acceptedNames} from './name-languages.js?v=20261124-ebd1';
+import {sortLookup} from './lookup-settings.js?v=20261124-ebd1';
+import {scientificNameAliases} from './scientific-name-aliases.js?v=20261124-ebd1';
 
 const variants=value=>[...new Set([normalize(value),normalize(value.toLowerCase().replace(/ae/g,'ä').replace(/oe/g,'ö').replace(/ue/g,'ü'))])].filter(Boolean);
 const contains=(field,token)=>token.some(value=>field.normalized.includes(value));

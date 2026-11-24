@@ -7,7 +7,12 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DATASET_ID = 'ebd-relSep-2026-2021-2025-catalog-v2'
+DATASET_ID = 'ebd-relSepOct-2026-2021-2025-catalog-v3'
+REVIEWED_RELEASES = {'DE': 'relSep-2026', 'NL': 'relSep-2026', 'GB': 'relSep-2026',
+                     'FI': 'relOct-2026', 'FR': 'relOct-2026'}
+RELEASE_LABELS = {'relSep-2026': 'September 2026', 'relOct-2026': 'October 2026'}
+REVIEWED_CITATIONS = {release: f'eBird Basic Dataset. Version: EBD_{release}. Cornell Lab of Ornithology, Ithaca, New York. {month} 2026.'
+                      for release, month in [('relSep-2026', 'Sep'), ('relOct-2026', 'Oct')]}
 SEASONS = ('winter', 'spring', 'summer', 'autumn')
 TERMS = 'https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/'
 
@@ -30,21 +35,28 @@ def build(preview, region_snapshot, species_ids):
     if any(preview.get('method', {}).get(k) != v for k, v in expected_method.items()):
         raise ValueError('Selection rules changed; review before activation')
     sources = preview['provenance']
-    if {p['country'] for p in sources} != {'DE', 'NL', 'GB'} or len(sources) != 3:
-        raise ValueError('All three countries are required')
-    if any(p['release'] != 'relSep-2026' or p['unresolvedCatalogTaxa'] or p['originalDataPublished'] for p in sources):
+    if {p['country'] for p in sources} != set(REVIEWED_RELEASES) or len(sources) != len(REVIEWED_RELEASES):
+        raise ValueError('All five reviewed country sources are required')
+    if any(p['release'] != REVIEWED_RELEASES[p['country']] or p['unresolvedCatalogTaxa'] or p['originalDataPublished'] for p in sources):
         raise ValueError('Unreviewed source release or taxonomy')
+    crosswalk_sha = digest(ROOT / 'data/ebd-taxon-crosswalk.json')
+    if any(p['release'] == 'relOct-2026' and p.get('taxonCrosswalk') !=
+           {'file': 'data/ebd-taxon-crosswalk.json', 'sha256': crosswalk_sha} for p in sources):
+        raise ValueError('October source does not use the reviewed taxon crosswalk')
     labels = {r['code']: r for r in region_snapshot['regions']}
     bycode = {r['code']: r for r in preview['regions']}
     if len(labels) != len(region_snapshot['regions']) or len(bycode) != len(preview['regions']):
         raise ValueError('Duplicate regions')
     if bycode.keys() - labels.keys():
         raise ValueError('EBD region not available in the reviewed API hierarchy')
-    citations = {p['citation'] for p in sources}
-    if len(citations) != 1 or not next(iter(citations)).strip():
-        raise ValueError('Source citations differ or are empty; review before activation')
+    if {code for code in bycode if '-' not in code} != set(REVIEWED_RELEASES):
+        raise ValueError('Missing country seasonal aggregate')
+    if any(p['citation'] != REVIEWED_CITATIONS[p['release']] for p in sources):
+        raise ValueError('Citation does not match the reviewed country release')
+    citations = list(dict.fromkeys(p['citation'] for p in sources))
     credit = {k: v for k, v in load(ROOT / 'data/ebird-citation.json').items() if k != 'citationGuidelinesURL'}
-    credit['datasetCitation'] = next(iter(citations))
+    credit['datasetCitations'] = citations
+    credit['datasetCitation'] = ' '.join(citations)
     regions = []
     for code, region in sorted(bycode.items()):
         if set(region['seasons']) != set(SEASONS):
@@ -68,7 +80,9 @@ def build(preview, region_snapshot, species_ids):
             seasons[season] = {k: value[k] for k in ('sample', 'years', 'ids', 'groups')}
         regions.append({'code': code, 'seasons': seasons})
     fingerprint = hashlib.sha256('\n'.join(sorted(species_ids)).encode()).hexdigest()
-    dataset = {'catalogFingerprint':fingerprint, 'id': DATASET_ID, 'source': 'eBird Basic Dataset', 'release': 'September 2026', 'period': '2021–2025'}
+    dataset = {'catalogFingerprint':fingerprint, 'id': DATASET_ID, 'source': 'eBird Basic Dataset',
+               'release': 'September/October 2026', 'period': '2021–2025',
+               'countryReleases': {p['country']: RELEASE_LABELS[p['release']] for p in sources}}
     output = {'catalogFingerprint':fingerprint, 'version': 1, 'experimental': False, 'dataset': dataset,
               'source': dataset['source'], 'period': dataset['period'], 'credit': credit, 'preparedAt': preview['preparedAt'],
               'terms': TERMS, 'termsFile': 'ebd-terms.txt', 'provenance': 'seasonal-provenance.json', 'regions': regions}
@@ -102,21 +116,23 @@ def method_page(data, audit, snapshot):
             rows.append(f'<tr><th scope="row">{label}<br><small>{esc(code)}</small></th>{"".join(cells)}</tr>')
         return '<div class="seasonal-coverage" tabindex="0" role="region" aria-label="Datenabdeckung / Seasonal coverage"><table><caption>Stichprobe / Sample 2021–2025</caption><thead><tr><th scope="col">Region</th>' + ''.join(f'<th scope="col">{s}</th>' for s in ['Winter','Frühjahr / Spring','Sommer / Summer','Herbst / Autumn']) + '</tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>'
     coverage = []
-    for country in ['DE', 'NL', 'GB']:
+    for country in REVIEWED_RELEASES:
         regions = [r for r in snapshot['regions'] if r['code'] == country or r['code'].startswith(country + '-')]
         coverage.append(f'<h3>{esc(regions[0]["nameDe"])} / {esc(regions[0]["nameEn"])}</h3>')
+        coverage.append(f'<p>EBD_{esc(REVIEWED_RELEASES[country])}</p>')
         coverage.append(table([r for r in regions if r['code'].count('-') < 2]))
         local = [r for r in regions if r['code'].count('-') == 2]
         if local:
             coverage.append(f'<details><summary>Lokale Regionen / Local regions ({len(local)})</summary>{table(local)}</details>')
     credit = data['credit']
-    citations = f'<li>{esc(credit["datasetCitation"])}</li><li><a href="{esc(credit["primaryReference"]["url"])}">{esc(credit["primaryReference"]["citation"])}</a></li>'
+    citations = ''.join(f'<li>{esc(citation)}</li>' for citation in credit['datasetCitations'])
+    citations += f'<li><a href="{esc(credit["primaryReference"]["url"])}">{esc(credit["primaryReference"]["citation"])}</a></li>'
     return f'''<!doctype html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Saisonale Auswahl – Daten und Methode</title><link rel="stylesheet" href="style.css?v=20261120-mobileui1"><script defer src="standalone-page.js?v=20261120-mobileui1"></script></head><body><main class="standalone-information">
 <p class="standalone-navigation"><a href="./#lernen">Zurück zum Lernen / Back to learning</a><a href="#method-en" lang="en">English explanation</a></p>
 <h1>Saisonale Häufigkeitsstufen und aktuelle Ergänzungen</h1>
 <p>Die Gruppen beschreiben historische Meldeanteile, keine Bestandsgröße, Lernschwierigkeit oder persönliche Sichtungswahrscheinlichkeit.</p>
-<p>Grundlage ist das eBird Basic Dataset (EBD), Ausgabe September 2026. Ausgewertet werden ausschließlich 2021–2025 für Deutschland, die Niederlande und das Vereinigte Königreich. Die Daten wurden am 5. November 2026 aufbereitet. Die App enthält saisonale Stichproben für {len(bycode)} exakt zugeordnete Regionen. Die Zuordnung wurde gegen den öffentlichen eBird-Regionsstand der App vom {esc(snapshot['snapshotGeneratedAt'][:10])} geprüft. Finnland und Frankreich verwenden derzeit die regionalen Nachweislisten, da für diese Länder noch keine saisonalen EBD-Daten aufbereitet wurden. Neue Regionslisten bleiben ohne passende historische Daten bei der regionalen Artenliste.</p>
+<p>Grundlage ist das eBird Basic Dataset (EBD): Ausgabe September 2026 für Deutschland, die Niederlande und das Vereinigte Königreich, Ausgabe Oktober 2026 für Finnland und Frankreich. Ausgewertet werden ausschließlich 2021–2025. Aufbereitet am {esc(data["preparedAt"])}. Die App enthält saisonale Stichproben für {len(bycode)} exakt zugeordnete Regionen. Die Zuordnung wurde gegen den öffentlichen eBird-Regionsstand der App vom {esc(snapshot['snapshotGeneratedAt'][:10])} geprüft. Neue Regionslisten bleiben ohne passende historische Daten bei der regionalen Artenliste.</p>
 <h2>Berechnung und Auswahl</h2>
 <p>Verwendet werden vollständige Checklisten der Beobachtungstypen Stationary, Traveling und Area. Zufallsbeobachtungen, historische Protokolle und spezialisierte Erfassungen werden ausgeschlossen. Es gibt keinen zusätzlichen Filter für Dauer oder Entfernung. Geteilte Checklisten zählen einmal: Pro Gruppe wird die vollständige Checkliste mit der lexikografisch kleinsten Kennung verwendet. Nachweise anderer Gruppenkopien werden nicht hinzugefügt. Vollständige Listen ohne Nachweis einer Lernart bleiben in der Stichprobe.</p>
 <p>Eine Art zählt je Checkliste höchstens einmal. Berücksichtigt werden bestätigte Datensätze (APPROVED = 1) mit positiver Anzahl oder X als Anwesenheitsangabe. Als Gefangenschaftsflüchtlinge markierte Nachweise (EXOTIC CODE = X) werden ausgeschlossen. Arten und unterstützte unterartliche Einträge werden über die offiziellen Taxonkennungen und Artzuordnungen auf den bestehenden Lernkatalog abgebildet; Hybriden und mehrdeutige Bestimmungen werden ausgeschlossen. Der saisonale Import selbst verändert keine Artabgrenzungen.</p>
@@ -132,7 +148,7 @@ def method_page(data, audit, snapshot):
 <p>Die abgeleiteten Daten unterliegen den <a href="{TERMS}">eBird Data Access Terms of Use</a>. <a href="ebd-terms.txt">Vollständige mitgelieferte Bedingungen / Full supplied terms</a>. Die MIT-Lizenz des Programmcodes gilt nicht für diese Daten. Die Bedingungen verlangen insbesondere Quellenangabe, nichtkommerzielle Nutzung, Nutzung für den beantragten Zweck und dieselben Bedingungen bei Weitergabe abgeleiteter Daten. Originaldaten, Beobachter- und Checklistenkennungen, Koordinaten und Kommentare werden nicht veröffentlicht. Keine Bestätigung oder Empfehlung durch Cornell oder eBird.</p>
 <p><a href="seasonal-species.json">Saisonale Artenauswahl / Seasonal species (JSON)</a> · <a href="seasonal-provenance.json">Herkunft, Methode und Prüfsummen / Provenance, method and hashes (JSON)</a></p>
 <section lang="en" id="method-en"><h2>Seasonal selection and current additions</h2>
-<p>Seasonal groups use the eBird Basic Dataset, September 2026 release, restricted to 2021–2025 in Germany, the Netherlands and the UK. Prepared 5 November 2026. Historical samples cover {len(bycode)} exactly matched app regions. Finland and France currently use the regional occurrence lists because seasonal EBD data have not yet been prepared for these countries. The seasonal import itself does not change species limits or taxon IDs.</p>
+<p>Seasonal groups use the eBird Basic Dataset: September 2026 for Germany, the Netherlands and the UK; October 2026 for Finland and France. All five countries use only 2021–2025. Prepared {esc(data["preparedAt"])}. Historical samples cover {len(bycode)} exactly matched app regions. The seasonal import itself does not change species limits or taxon IDs.</p>
 <p>Only complete Stationary, Traveling and Area checklists are eligible; incidental, historical and specialized surveys are excluded. No additional duration or distance filter is applied. One complete checklist per shared group is selected by its lexicographically smallest identifier. Reports from other copies are not combined. Lists without catalog detections remain in the denominator. Only approved positive counts or X presence records are counted; escapees are excluded. Exact official taxon concepts and parent-species links combine supported infraspecific records, once per species per checklist. Hybrids and ambiguous taxa are excluded. These filters and group deduplication can change results compared with the previous histogram exports.</p>
 <p>Frequency is the proportion of eligible checklists reporting a species. Frequent ≥10%; medium ≥1% and &lt;10%; rare &gt;0% and &lt;1%. Frequent and medium remain the default. Zero/missing reports are not rare. A seasonal list needs ≥300 checklists overall and ≥3 years with ≥100 checklists each. Otherwise the regional list is used, visibly labelled. Winter combines December, January and February of each calendar year; spring March–May, summer June–August, autumn September–November. These are selection rules for this learning app, not population estimates, learning difficulty or detection probabilities. Effort, survey locations and withheld sensitive data affect results; missing accepted records do not prove absence.</p>
 <p>Daily API updates remain separate: regional lists include all-time and last-30-days modes; valid recent notable reports automatically supplement the selected base without changing historical groups or duplicating species. Reports expire 14 days after observation at 00:00 UTC; snapshots older than three days are ignored. Species and name-language filters still apply; progress filters apply to custom rounds. Due reviews remain eligible beyond the current species selection. Existing and paused rounds retain their original selection and report dates. New seasonal rounds store the dataset version. Older rounds are not assigned a new source retrospectively; learning progress and review dates are preserved. EBD aggregates are updated only after a new local import.</p>
@@ -153,7 +169,7 @@ def main():
     catalog = load(ROOT / 'dist/species.json')
     ids = {s['id'] for s in catalog['species']}
     data, audit = build(preview, snapshot, ids)
-    audit['inputs'] = {str(p.relative_to(ROOT)): digest(p) for p in [preview_path, regions_path, ROOT / 'data/taxonomy.csv', ROOT / 'data/ebird-citation.json', ROOT / 'data/ebd-seasonal-preview.terms.txt', Path(__file__).resolve()]}
+    audit['inputs'] = {str(p.relative_to(ROOT)): digest(p) for p in [preview_path, regions_path, ROOT / 'data/taxonomy.csv', ROOT / 'data/ebird-citation.json', ROOT / 'data/ebd-seasonal-preview.terms.txt', Path(__file__).resolve(), ROOT / 'scripts/import-ebd.py', ROOT / 'data/ebd-taxon-crosswalk.json']}
     files = {ROOT / 'dist/seasonal-species.json': json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n',
              ROOT / 'dist/seasonal-provenance.json': json.dumps(audit, ensure_ascii=False, indent=2) + '\n',
              ROOT / 'dist/ebd-terms.txt': (ROOT / 'data/ebd-seasonal-preview.terms.txt').read_text(),

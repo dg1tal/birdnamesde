@@ -2,12 +2,19 @@
   "catalogFingerprint": "db71ac7826adc0ac39b342e8699951e219026c1449fe8a7fdcc3e62e47701c8f",
   "dataset": {
     "catalogFingerprint": "db71ac7826adc0ac39b342e8699951e219026c1449fe8a7fdcc3e62e47701c8f",
-    "id": "ebd-relSep-2026-2021-2025-catalog-v2",
+    "id": "ebd-relSepOct-2026-2021-2025-catalog-v3",
     "source": "eBird Basic Dataset",
-    "release": "September 2026",
-    "period": "2021–2025"
+    "release": "September/October 2026",
+    "period": "2021–2025",
+    "countryReleases": {
+      "DE": "September 2026",
+      "NL": "September 2026",
+      "GB": "September 2026",
+      "FI": "October 2026",
+      "FR": "October 2026"
+    }
   },
-  "preparedAt": "2026-11-05",
+  "preparedAt": "2026-11-24",
   "terms": "https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/",
   "method": {
     "observationTypes": [
@@ -75,6 +82,54 @@
       },
       "unresolvedCatalogTaxa": {},
       "originalDataPublished": false
+    },
+    {
+      "country": "FI",
+      "release": "relOct-2026",
+      "archive": "ebd_FI_202101_202512_smp_relOct-2026.zip",
+      "sha256": "00f41505944294cb577a47ed4dc71b10ed05569d582b800fc0af73703a9a7bae",
+      "citation": "eBird Basic Dataset. Version: EBD_relOct-2026. Cornell Lab of Ornithology, Ithaca, New York. Oct 2026.",
+      "statistics": {
+        "samplingRows": 213423,
+        "eligibleSamplingRows": 124315,
+        "independentChecklists": 111255,
+        "observationRows": 2085857,
+        "reviewedTaxonRollupRows": 20135,
+        "reviewedTaxonRollup:avibase-8E40136C": 1299,
+        "reviewedTaxonRollup:avibase-E68C3C70": 17837,
+        "reviewedTaxonRollup:avibase-237C00F6": 999
+      },
+      "unresolvedCatalogTaxa": {},
+      "originalDataPublished": false,
+      "taxonCrosswalk": {
+        "file": "data/ebd-taxon-crosswalk.json",
+        "sha256": "c23398cf4deb6bfb78bbd73051d44be0f4ab762a3d0eb5b175d78e0991643ad4"
+      }
+    },
+    {
+      "country": "FR",
+      "release": "relOct-2026",
+      "archive": "ebd_FR_202101_202512_smp_relOct-2026.zip",
+      "sha256": "8b4a11f3f648e15243c60f7f43ac1a6f300842eb0d45bf81292013f44d5abef0",
+      "citation": "eBird Basic Dataset. Version: EBD_relOct-2026. Cornell Lab of Ornithology, Ithaca, New York. Oct 2026.",
+      "statistics": {
+        "samplingRows": 521743,
+        "eligibleSamplingRows": 264328,
+        "independentChecklists": 238323,
+        "observationRows": 5202193,
+        "reviewedTaxonRollupRows": 96913,
+        "reviewedTaxonRollup:avibase-E68C3C70": 93700,
+        "reviewedTaxonRollup:avibase-237C00F6": 2575,
+        "reviewedTaxonRollup:avibase-8E40136C": 632,
+        "reviewedTaxonRollup:avibase-2B2F596B": 4,
+        "reviewedTaxonRollup:avibase-D49753CA": 2
+      },
+      "unresolvedCatalogTaxa": {},
+      "originalDataPublished": false,
+      "taxonCrosswalk": {
+        "file": "data/ebd-taxon-crosswalk.json",
+        "sha256": "c23398cf4deb6bfb78bbd73051d44be0f4ab762a3d0eb5b175d78e0991643ad4"
+      }
     }
   ],
   "credit": {
@@ -87,12 +142,16 @@
       "de": "Wir danken dem Cornell Lab of Ornithology für die Bereitstellung der eBird-Daten und den eBird-Beitragenden für ihre Beobachtungen.",
       "en": "We thank the Cornell Lab of Ornithology for providing the eBird data and the eBird contributors for their observations."
     },
-    "datasetCitation": "eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026."
+    "datasetCitations": [
+      "eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026.",
+      "eBird Basic Dataset. Version: EBD_relOct-2026. Cornell Lab of Ornithology, Ithaca, New York. Oct 2026."
+    ],
+    "datasetCitation": "eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026. eBird Basic Dataset. Version: EBD_relOct-2026. Cornell Lab of Ornithology, Ithaca, New York. Oct 2026."
   },
   "regionMatch": {
     "source": "https://dg1tal.github.io/birdnamesde/regions.json",
-    "snapshotGeneratedAt": "2026-11-04T12:18:00Z",
-    "checkedAt": "2026-11-05",
+    "snapshotGeneratedAt": "2026-11-23T21:49:04Z",
+    "checkedAt": "2026-11-24",
     "matchedCodes": [
       "DE",
       "DE-BB",
@@ -112,6 +171,40 @@
       "DE-SN",
       "DE-ST",
       "DE-TH",
+      "FI",
+      "FI-01",
+      "FI-02",
+      "FI-03",
+      "FI-04",
+      "FI-05",
+      "FI-06",
+      "FI-07",
+      "FI-08",
+      "FI-09",
+      "FI-10",
+      "FI-11",
+      "FI-12",
+      "FI-13",
+      "FI-14",
+      "FI-15",
+      "FI-16",
+      "FI-17",
+      "FI-18",
+      "FI-19",
+      "FR",
+      "FR-ARA",
+      "FR-BFC",
+      "FR-BRE",
+      "FR-COR",
+      "FR-CVL",
+      "FR-GES",
+      "FR-HDF",
+      "FR-IDF",
+      "FR-NAQ",
+      "FR-NOR",
+      "FR-OCC",
+      "FR-PAC",
+      "FR-PDL",
       "GB",
       "GB-ENG",
       "GB-ENG-BDF",
@@ -240,17 +333,31 @@
       "NL-ZH"
     ],
     "withoutHistoricalSample": [
-      "GB-ENG-HAL"
+      "GB-ENG-HAL",
+      "GB-ENG-IOS",
+      "GB-SCT-AYR",
+      "GB-SCT-CAI",
+      "GB-SCT-CLD",
+      "GB-SCT-CLI",
+      "GB-SCT-FAI",
+      "GB-SCT-FTH",
+      "GB-SCT-MAY",
+      "GB-WLS-DRE",
+      "GB-WLS-FAE",
+      "GB-WLS-FRY",
+      "GB-WLS-GAE"
     ],
     "unmatchedEbdCodes": []
   },
   "originalDataPublished": false,
   "inputs": {
-    "data/ebd-seasonal-preview.json": "7dc4dda1e4a2cb56f349acb1c7b33c4276cceccc242a9aa25c8682bbad14f807",
-    "data/ebd-region-match.json": "0f8af750e8973f410c25be29a2ef22fd203d2582b0499954db87ae3c0116602d",
+    "data/ebd-seasonal-preview.json": "154fff626335c9daf334a20bf5a2a23332e4ceaada42814db665b52c593d7489",
+    "data/ebd-region-match.json": "c2f1f16eb952e6efdfc4e7182dad9088d2236767b8d1a1d6ca13be21d49a700d",
     "data/taxonomy.csv": "38ae7e68a03b651e8056e2f4abfad898533a12dbd9343f0e01cb2723ec20aaeb",
     "data/ebird-citation.json": "1ee4dd5aaf34f6f6c305ac9ab9565b90b304c266886f17813fc86b37890076d4",
     "data/ebd-seasonal-preview.terms.txt": "e07599e66ec0aa0f03c6366077b0f7f74fe0bd85f898d1e8bbf4544fcd5bda52",
-    "scripts/build-ebd-seasonal.py": "c17b942f2ad89bfe4a3958c6d60f26d637837d215d7f8de21137a4d13a7cb994"
+    "scripts/build-ebd-seasonal.py": "8063e3d925282d4d15f94e1dbab3733b091e18114263fee8ab996641b54c0713",
+    "scripts/import-ebd.py": "e42731abba05f335c48d76e49b2eadd400b6f1091b942257109ae416b52d2a48",
+    "data/ebd-taxon-crosswalk.json": "c23398cf4deb6bfb78bbd73051d44be0f4ab762a3d0eb5b175d78e0991643ad4"
   }
 }

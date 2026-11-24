@@ -5,6 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 import zipfile
+from unittest.mock import patch
 
 spec = importlib.util.spec_from_file_location('ebd', Path(__file__).with_name('import-ebd.py'))
 m = importlib.util.module_from_spec(spec)
@@ -105,6 +106,66 @@ class EBDTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     list(m.rows(z, 'bad.txt', m.SAMPLING_FIELDS))
 
+    def test_date_filtered_country_archives_and_rejected_ranges(self):
+        catalog, scientific, mapping = m.taxon_mapping()
+        concept = next(c for c, bird in mapping.items() if bird == catalog[0])
+        for country, state in [('FI', 'FI-18'), ('FR', 'FR-IDF')]:
+            with tempfile.TemporaryDirectory() as directory:
+                path = Path(directory) / f'ebd_{country}_202101_202512_smp_relOct-2026.zip'
+                sampling = ('S1', '', country, state, 'Fixture region', '', '', '2025-12-31', '1', 'Traveling')
+                with zipfile.ZipFile(path, 'w') as z:
+                    z.writestr(path.stem + '_sampling.txt', '\t'.join(m.SAMPLING_FIELDS) + '\n' + '\t'.join(sampling) + '\n')
+                    z.writestr(path.stem + '.txt', '\t'.join(m.OBS_FIELDS) + '\n' + '\t'.join(('S1', concept, 'species', '', '1', '', 'X')) + '\n')
+                    z.writestr('terms_of_use.txt', 'fixture terms')
+                    z.writestr('recommended_citation.txt', 'fixture citation')
+                regions, provenance, _ = m.import_archive(path, catalog, scientific, mapping)
+                self.assertEqual({r['code'] for r in regions}, {country, state})
+                self.assertEqual(provenance['release'], 'relOct-2026')
+                self.assertEqual(regions[0]['seasons']['winter']['ids'], [catalog[0]])
+        for name in ['ebd_FI_202201_202512_smp_relOct-2026.zip', 'ebd_FR_202101_202511_smp_relOct-2026.zip',
+                     'ebd_ES_smp_relOct-2026.zip', 'random.zip']:
+            with self.assertRaises(ValueError):
+                m.import_archive(Path(name), catalog, scientific, mapping)
+
+    def test_reviewed_2026_rollups_require_exact_tuples_and_keep_2025_species(self):
+        catalog, scientific, mapping = m.taxon_mapping()
+        crosswalk = m.reviewed_crosswalk('relOct-2026', catalog)
+        self.assertEqual(len(crosswalk), 6)
+        self.assertEqual(m.reviewed_crosswalk('relSep-2026', catalog), {})
+        selected, _, _ = self.select([sample()])
+        for (concept, category, name), target in crosswalk.items():
+            records = [('S1', concept, category, name, '1', '', 'X'),
+                       ('S1', concept, category, name, '1', '', '2')]
+            stats = Counter()
+            detected, unresolved = m.collect_detections(records, selected, catalog, scientific, mapping, stats, crosswalk)
+            self.assertEqual(unresolved, {})
+            self.assertEqual(detected['S1'], 1 << catalog.index(target))
+            self.assertEqual(stats['reviewedTaxonRollupRows'], 2)
+            for wrong_category, wrong_name in [('form', name), (category, 'Different source taxon')]:
+                with self.assertRaises(ValueError):
+                    m.collect_detections([('S1', concept, wrong_category, wrong_name, '1', '', 'X')],
+                                         selected, catalog, scientific, mapping, Counter(), crosswalk)
+        unreviewed = [('S1', 'unreviewed', 'species', 'Erithacus rubecula', '1', '', '1')]
+        detected, unresolved = m.collect_detections(unreviewed, selected, catalog, scientific, mapping, Counter(), crosswalk)
+        self.assertEqual(dict(detected), {})
+        self.assertEqual(unresolved, {'Erithacus rubecula': 1})
+        # An ambiguous slash remains excluded even if it reuses a reviewed CID.
+        detected, _ = m.collect_detections([('S1', 'avibase-E68C3C70', 'slash', 'Erithacus rubecula', '1', '', 'X')],
+                                         selected, catalog, scientific, mapping, Counter(), crosswalk)
+        self.assertEqual(dict(detected), {})
+
+    def test_crosswalk_target_drift_is_rejected(self):
+        catalog = m.taxon_mapping()[0]
+        source = json.loads((m.ROOT / 'data/ebd-taxon-crosswalk.json').read_text())
+        source['mappings'][0]['targetConceptId'] = 'different-concept'
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'data').mkdir()
+            (root / 'data/ebd-taxon-crosswalk.json').write_text(json.dumps(source))
+            (root / 'data/taxonomy.csv').write_bytes((m.ROOT / 'data/taxonomy.csv').read_bytes())
+            with patch.object(m, 'ROOT', root), self.assertRaises(ValueError):
+                m.reviewed_crosswalk('relOct-2026', catalog)
+
     def test_publication_guard_rejects_renamed_raw_files(self):
         spec = importlib.util.spec_from_file_location('guard', Path(__file__).with_name('check-private-ebd.py'))
         guard = importlib.util.module_from_spec(spec)
@@ -125,7 +186,7 @@ class EBDTests(unittest.TestCase):
         data = json.loads(path.read_text())
         catalog = set(m.taxon_mapping()[0])
         countries = {p['country'] for p in data['provenance']}
-        self.assertEqual(countries, {'DE', 'NL', 'GB'})
+        self.assertEqual(countries, {'DE', 'NL', 'GB', 'FI', 'FR'})
         self.assertEqual(data['status'], 'import-preview-not-active')
         self.assertTrue(all(not p['originalDataPublished'] for p in data['provenance']))
         for audit in data['provenance']:

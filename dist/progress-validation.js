@@ -1,5 +1,5 @@
-import {isCodeTarget} from './code-targets.js?v=20261123-countries1';
-import {isNameLanguage} from './name-languages.js?v=20261123-countries1';
+import {isCodeTarget} from './code-targets.js?v=20261124-ebd1';
+import {isNameLanguage} from './name-languages.js?v=20261124-ebd1';
 
 const object=value=>!!value&&typeof value==='object'&&!Array.isArray(value);
 const invalid=()=>{throw Error('Ungültige Lernwerte.');};
