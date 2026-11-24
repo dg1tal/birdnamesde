@@ -128,7 +128,9 @@ def method_page(data, audit, snapshot):
     citations = ''.join(f'<li>{esc(citation)}</li>' for citation in credit['datasetCitations'])
     citations += f'<li><a href="{esc(credit["primaryReference"]["url"])}">{esc(credit["primaryReference"]["citation"])}</a></li>'
     return f'''<!doctype html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Saisonale Auswahl – Daten und Methode</title><link rel="stylesheet" href="style.css?v=20261120-mobileui1"><script defer src="standalone-page.js?v=20261120-mobileui1"></script></head><body><main class="standalone-information">
+<html lang="de"><head><meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Saisonale Auswahl – Daten und Methode</title><link rel="stylesheet" href="style.css?v=20261120-mobileui1"><script defer src="standalone-page.js?v=20261120-mobileui1"></script></head><body><main class="standalone-information">
 <p class="standalone-navigation"><a href="./#lernen">Zurück zum Lernen / Back to learning</a><a href="#method-en" lang="en">English explanation</a></p>
 <h1>Saisonale Häufigkeitsstufen und aktuelle Ergänzungen</h1>
 <p>Die Gruppen beschreiben historische Meldeanteile, keine Bestandsgröße, Lernschwierigkeit oder persönliche Sichtungswahrscheinlichkeit.</p>
