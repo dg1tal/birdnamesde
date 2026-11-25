@@ -197,9 +197,9 @@ body.studying .photo-set-multiple .bird-photo img,body.studying .photo-set-multi
 .name-sources summary{cursor:pointer;min-height:26px;padding:3px 0}
 .name-sources ul{padding-left:20px;margin:8px 0}
 .name-sources li{margin:6px 0}
-.scientific-origin{font-size:14px;line-height:1.5;text-align:left;overflow-wrap:anywhere;margin:8px 0;color:var(--ink)}
-.scientific-origin summary{cursor:pointer;min-height:44px;padding:11px 0;color:var(--muted);font-weight:500}
-.scientific-origin[open] summary{color:var(--ink)}
+.scientific-origin,.lookup-copy{font-size:14px;line-height:1.5;text-align:left;overflow-wrap:anywhere;margin:8px 0;color:var(--ink)}
+.scientific-origin summary,.lookup-copy>summary{cursor:pointer;min-height:44px;padding:11px 0;color:var(--muted);font-weight:500}
+.scientific-origin[open] summary,.lookup-copy[open]>summary{color:var(--ink)}
 .scientific-origin-content{padding:4px 12px 10px;border-left:2px solid var(--line)}
 .scientific-origin .scientific-origin-name{font-size:16px;margin:0 0 10px}
 .scientific-origin dl{margin:0;display:grid;gap:12px}
@@ -728,9 +728,8 @@ button.filter-chip{min-height:44px}
 .card>.species-codes{clear:both;padding-top:10px;margin-top:10px;gap:6px}
 .card .lookup-status{padding-top:12px;border-top:1px solid var(--line);font-size:12px}
 .card .scientific-origin{clear:both}
-.lookup-copy{margin:12px 0;border-top:1px solid var(--line)}
-.lookup-copy>summary{color:var(--accent);font-weight:600}
-.lookup-copy textarea{display:block;width:100%;margin:8px 0 12px;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--soft);color:var(--ink);font:inherit;line-height:1.6;resize:vertical}
+.card .lookup-copy{margin:4px 0 0;padding-top:0}
+.lookup-copy textarea{display:block;width:100%;margin:4px 0 8px;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--soft);color:var(--ink);font:inherit;line-height:1.6;resize:vertical}
 .lookup-copy textarea:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .lookup-copy-status:empty{display:none}
 #setup{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:16px;align-items:start}

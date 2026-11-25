@@ -458,7 +458,7 @@ function lookupCopyText(s){
 }
 function lookupCopyMarkup(s){
  const text=lookupCopyText(s);
- return `<details class="lookup-copy"><summary>${english?'All names for copying':'Alle Namen zum Kopieren'}</summary><textarea readonly data-name-content rows="${text.split('\n').length+1}" aria-label="${english?'All bird names':'Alle Vogelnamen'}" spellcheck="false">${esc(text)}</textarea><button type="button" data-copy-names>${english?'Copy names':'Namen kopieren'}</button><p class="lookup-copy-status form-note" role="status"></p></details>`;
+ return `<details class="lookup-copy"><summary>${english?'All names for copying':'Alle Namen zum Kopieren'}</summary><textarea readonly data-name-content rows="${text.split('\n').length}" aria-label="${english?'All bird names':'Alle Vogelnamen'}" spellcheck="false">${esc(text)}</textarea><button type="button" data-copy-names>${english?'Copy names':'Namen kopieren'}</button><p class="lookup-copy-status form-note" role="status"></p></details>`;
 }
 async function copyLookupNames(button){
  const section=button.closest('.lookup-copy'),text=section.querySelector('textarea'),status=section.querySelector('[role="status"]');
@@ -476,11 +476,11 @@ function lookupNameList(s){
   const value=!name?`<span class="muted">${english?'Name unavailable':'Name nicht verfügbar'}</span>`:language.code==='en'?englishNames(s):nameMarkup(s,language.code);
   return `<div><dt>${esc(languageLabel(language.code,english?'en':'de'))}</dt><dd>${value}${language.code==='de'?lookupAliasMarkup(s,'de')+germanNames(s):''}</dd></div>`;
  }).join('');
- return `<dl class="lookup-name-list">${rows}</dl>${scientificNameMarkup(s,ui.lookup.mainLanguage)}${lookupCopyMarkup(s)}`;
+ return `<dl class="lookup-name-list">${rows}</dl>${scientificNameMarkup(s,ui.lookup.mainLanguage)}`;
 }
 function card(s,inHit=false){
  const language=ui.lookup.mainLanguage,hasName=!!primaryName(s,language),germanStatus=showGermanStatus(s,ui.lookup.region);
- return `<article class="card">${saveSpeciesButton(s)}${inHit?'':`<h2><span class="card-language-label">${esc(languageLabel(hasName?language:'sci',english?'en':'de'))}</span>${language==='en'&&s.enGB?'<span class="variant-label">US</span> ':''}${nameMarkup(s,hasName?language:'sci')}</h2>`}${!hasName?`<p class="muted lookup-aliases">${english?'Name unavailable in':'Name nicht verfügbar auf'} ${esc(languageLabel(language,english?'en':'de'))}</p>`:''}${language==='de'?lookupAliasMarkup(s,'de')+germanNames(s):language==='en'?nameVariants(s,'en'):''}${lookupNameList(s)}${codeGroups(s)}<p class="answer-species-link">${ebirdLink(s)}</p><div class="tags lookup-status"><span>${esc(t(s.group))}</span>${germanStatus&&s.status.length?`<span>${english?'In Germany:':'In Deutschland:'} ${s.status.map(v=>esc(t(v))).join(' · ')}</span>`:''}</div>${germanStatus&&s.note?`<p class="lookup-note">${esc(t(s.note))}</p>`:''}${lookupPhotos?photoMarkup(s):''}</article>`;
+ return `<article class="card">${saveSpeciesButton(s)}${inHit?'':`<h2><span class="card-language-label">${esc(languageLabel(hasName?language:'sci',english?'en':'de'))}</span>${language==='en'&&s.enGB?'<span class="variant-label">US</span> ':''}${nameMarkup(s,hasName?language:'sci')}</h2>`}${!hasName?`<p class="muted lookup-aliases">${english?'Name unavailable in':'Name nicht verfügbar auf'} ${esc(languageLabel(language,english?'en':'de'))}</p>`:''}${language==='de'?lookupAliasMarkup(s,'de')+germanNames(s):language==='en'?nameVariants(s,'en'):''}${lookupNameList(s)}${codeGroups(s)}<p class="answer-species-link">${ebirdLink(s)}</p><div class="tags lookup-status"><span>${esc(t(s.group))}</span>${germanStatus&&s.status.length?`<span>${english?'In Germany:':'In Deutschland:'} ${s.status.map(v=>esc(t(v))).join(' · ')}</span>`:''}</div>${germanStatus&&s.note?`<p class="lookup-note">${esc(t(s.note))}</p>`:''}${lookupPhotos?photoMarkup(s):''}${lookupCopyMarkup(s)}</article>`;
 }
 function lookupCountryControl(state){
  const countries=regionalData?.countries||LEARNING_COUNTRIES;
