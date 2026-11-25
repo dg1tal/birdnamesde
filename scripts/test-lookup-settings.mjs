@@ -61,3 +61,43 @@ console.log('PASS: lookup migration, independent geography/languages, sorting/fa
 
 assert(!context.card(birds.find(s=>s.id==='eurbla'),true).includes('<h2>'),'Expanded hit uses its summary heading');
 assert.equal((birds.slice(0,5).map(s=>context.card(s)).join('').match(/<h2>/g)||[]).length,5,'Every unsearched card retains its heading');
+
+const blackbird=birds.find(s=>s.id==='eurbla');
+const copiedNames=context.lookupCopyText(blackbird);
+assert.deepEqual(copiedNames.split('\n'),[
+ primaryName(blackbird,'sci'),'🇩🇪 Amsel (Schwarzdrossel)',
+ '🇬🇧 Common Blackbird','🇺🇸 Eurasian Blackbird',
+ ...['nl','fr','fi'].map(code=>({nl:'🇳🇱',fr:'🇫🇷',fi:'🇫🇮'}[code])+' '+primaryName(blackbird,code))
+]);
+ui.lookup.mainLanguage='sci';ui.lookup.nameLanguages=['sci'];
+assert.equal(context.lookupCopyText(blackbird),copiedNames,'Copy includes every available language independently of display settings');
+assert(context.lookupCopyText(birds.find(s=>s.de==='Stieglitz')).includes('🇩🇪 Stieglitz (Distelfink)'));
+assert(!context.lookupCopyText(birds.find(s=>s.de==='Stieglitz')).includes('Augsburger Nachtwächter'),'Historical names remain in the sourced details');
+assert(context.lookupCopyText(birds.find(s=>s.de==='Haussperling')).includes('🇩🇪 Haussperling (Spatz)'));
+assert(context.lookupCopyText(birds.find(s=>s.de==='Nachtschwalbe')).includes('🇩🇪 Nachtschwalbe (Ziegenmelker)'));
+assert.equal(context.lookupCopyText(birds.find(s=>s.de==='Nachtschwalbe')).split('Ziegenmelker').length,2,'Duplicate alternatives appear once');
+const minimal={sci:'Testus testus',de:'Test <bird>',en:'Test Bird',aliases:{de:[]}};
+assert.equal(context.lookupCopyText(minimal),'Testus testus\n🇩🇪 Test <bird>\n🇬🇧 Test Bird','Unavailable names are omitted');
+const copyMarkup=context.lookupCopyMarkup(minimal);
+assert(copyMarkup.includes('<textarea readonly data-name-content'));
+assert(copyMarkup.includes('Test &lt;bird&gt;'));
+assert(!copyMarkup.includes('<bird>'));
+assert(!copyMarkup.includes('<details class="lookup-copy" open'),'Copy view starts collapsed');
+
+let selected=false,focused=false,clipboardText='';
+const text={value:copiedNames,focus(){focused=true;},select(){selected=true;}};
+const status={textContent:''};
+const copyButton={closest:()=>({querySelector:selector=>selector==='textarea'?text:status})};
+context.navigator={clipboard:{writeText:async value=>{clipboardText=value;}}};
+await context.copyLookupNames(copyButton);
+assert.equal(clipboardText,copiedNames);assert.equal(status.textContent,'Namen kopiert.');
+assert(!selected&&!focused,'Successful copying preserves focus');
+context.navigator={clipboard:{writeText:async()=>{throw Error('Clipboard denied');}}};
+await context.copyLookupNames(copyButton);
+assert(selected&&focused);assert.equal(status.textContent,'Bitte den markierten Text manuell kopieren.');
+context.navigator={};selected=false;
+await context.copyLookupNames(copyButton);assert(selected,'Unavailable clipboard also supports manual copying');
+context.english=true;
+assert(context.lookupCopyMarkup(blackbird).includes('All names for copying'));
+assert.equal(context.lookupCopyText(blackbird),copiedNames,'Interface translation preserves copied bird names');
+console.log('PASS: copy format, scientific-first ordering, flags, German alternatives, complete language selection, escaping, clipboard and manual fallback.');

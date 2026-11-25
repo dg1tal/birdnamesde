@@ -728,6 +728,11 @@ button.filter-chip{min-height:44px}
 .card>.species-codes{clear:both;padding-top:10px;margin-top:10px;gap:6px}
 .card .lookup-status{padding-top:12px;border-top:1px solid var(--line);font-size:12px}
 .card .scientific-origin{clear:both}
+.lookup-copy{margin:12px 0;border-top:1px solid var(--line)}
+.lookup-copy>summary{color:var(--accent);font-weight:600}
+.lookup-copy textarea{display:block;width:100%;margin:8px 0 12px;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--soft);color:var(--ink);font:inherit;line-height:1.6;resize:vertical}
+.lookup-copy textarea:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.lookup-copy-status:empty{display:none}
 #setup{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:16px;align-items:start}
 #setup>.panel{margin:0;min-width:0}
 #setup>.shared-learning{grid-column:2;grid-row:1}

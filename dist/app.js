@@ -85,6 +85,7 @@ document.addEventListener('click',event=>{
  photoInvoker=button;$('#close-photo').onclick=()=>dialog.close();dialog.showModal();dialog.scrollTop=0;$('#close-photo').focus({preventScroll:true});
 });
 document.addEventListener('error',event=>{const img=event.target;if(img instanceof HTMLImageElement&&img.classList.contains('species-photo')){const figure=img.closest('.bird-photo');img.parentElement.hidden=true;figure.querySelector('.photo-error').hidden=false;}},true);
+document.addEventListener('click',event=>{const button=event.target.closest('[data-copy-names]');if(button)copyLookupNames(button);});
 let studyPhotoFrame=0;
 const studyPhotoObserver=new ResizeObserver(scheduleStudyPhotoLayout);
 function scheduleStudyPhotoLayout(){
@@ -438,13 +439,44 @@ function germanNames(s,acceptedShown=false){
  return `<div class="german-names">${groups.map(([status,label])=>{const a=names.filter(n=>n.status===status&&!(acceptedShown&&status==='alternative'&&!n.ambiguous));return a.length?`<p><span class="muted">${esc(t(label))}:</span> ${a.map(n=>`${nameMarkup({de:n.name},'de')}${n.region?' ('+esc(t(n.region))+')':''}${n.ambiguous?' <span class="muted">(mehrdeutig)</span>':''}`).join(' · ')}</p>`:'';}).join('')}<details class="name-sources"><summary>Quellen zu deutschen Namen</summary><ul>${names.map(n=>`<li><strong data-name-content lang="de">${esc(n.name)}:</strong> ${esc(t(n.note))} <a href="${esc(n.source)}" target="_blank" rel="noopener noreferrer">${esc(n.sourceTitle)} ↗</a></li>`).join('')}</ul></details></div>`;
 }
 
+function lookupCopyText(s){
+ const lines=[primaryName(s,'sci')];
+ for(const language of NAME_LANGUAGES.filter(l=>l.code!=='sci')){
+  let name=primaryName(s,language.code);if(!name)continue;
+  if(language.code==='de'){
+   const key=name=>name.toLocaleLowerCase('de').replace(/[\s‐‑–—-]/g,'');
+   const seen=new Set([key(name)]);
+   const alternatives=[...lookupAliases(s,'de'),...(s.germanNames||[]).filter(n=>n.status==='alternative').map(n=>n.name)].filter(value=>{const normalized=key(value);if(seen.has(normalized))return false;seen.add(normalized);return true;});
+   if(alternatives.length)name+=' ('+alternatives.join(', ')+')';
+  }
+  if(language.code==='en'){
+   lines.push('🇬🇧 '+(s.enGB||name));
+   if(s.enGB&&s.enGB!==name)lines.push('🇺🇸 '+name);
+  }else lines.push(({de:'🇩🇪',nl:'🇳🇱',fr:'🇫🇷',fi:'🇫🇮'}[language.code])+' '+name);
+ }
+ return lines.join('\n');
+}
+function lookupCopyMarkup(s){
+ const text=lookupCopyText(s);
+ return `<details class="lookup-copy"><summary>${english?'All names for copying':'Alle Namen zum Kopieren'}</summary><textarea readonly data-name-content rows="${text.split('\n').length+1}" aria-label="${english?'All bird names':'Alle Vogelnamen'}" spellcheck="false">${esc(text)}</textarea><button type="button" data-copy-names>${english?'Copy names':'Namen kopieren'}</button><p class="lookup-copy-status form-note" role="status"></p></details>`;
+}
+async function copyLookupNames(button){
+ const section=button.closest('.lookup-copy'),text=section.querySelector('textarea'),status=section.querySelector('[role="status"]');
+ try{
+  await navigator.clipboard.writeText(text.value);
+  status.textContent=english?'Names copied.':'Namen kopiert.';
+ }catch{
+  text.focus();text.select();
+  status.textContent=english?'Please copy the selected text manually.':'Bitte den markierten Text manuell kopieren.';
+ }
+}
 function lookupNameList(s){
  const rows=lookupLanguages(ui.lookup).filter(language=>language.code!=='sci'||primaryName(s,ui.lookup.mainLanguage)).map(language=>{
   const name=primaryName(s,language.code);
   const value=!name?`<span class="muted">${english?'Name unavailable':'Name nicht verfügbar'}</span>`:language.code==='en'?englishNames(s):nameMarkup(s,language.code);
   return `<div><dt>${esc(languageLabel(language.code,english?'en':'de'))}</dt><dd>${value}${language.code==='de'?lookupAliasMarkup(s,'de')+germanNames(s):''}</dd></div>`;
  }).join('');
- return `<dl class="lookup-name-list">${rows}</dl>${scientificNameMarkup(s,ui.lookup.mainLanguage)}`;
+ return `<dl class="lookup-name-list">${rows}</dl>${scientificNameMarkup(s,ui.lookup.mainLanguage)}${lookupCopyMarkup(s)}`;
 }
 function card(s,inHit=false){
  const language=ui.lookup.mainLanguage,hasName=!!primaryName(s,language),germanStatus=showGermanStatus(s,ui.lookup.region);
