@@ -6,7 +6,7 @@
     "nl"
   ],
   "meta": {
-    "date": "2026-11-23",
+    "date": "2026-11-26",
     "catalogueSha256": "ab89626ac87634601095b28ccec612b21c3a8db5d8006c2b2d2b26a47aff7dfc",
     "editorial": "Independent explanations in German, English and Dutch: source languages, attested word forms, constituents and historical naming contexts. Sources document derivations, not translations of entire dictionary entries. Uncertain origins are explicitly marked; no roots are inferred from spelling alone. Personal and geographical homonyms use taxon-specific overrides."
   },
@@ -474,6 +474,138 @@
     "hanzab2006SongThrush": {
       "title": "Higgins, Peter & Cowling (Hrsg., 2006): Handbook of Australian, New Zealand & Antarctic Birds, 7B, Turdus philomelos",
       "url": "https://www.nzbirdsonline.org.nz/assets/95597/1691918560-344_song-20thrush.pdf"
+    },
+    "beolens2014": {
+      "title": "Bo Beolens, Michael Watkins & Michael Grayson, The Eponym Dictionary of Birds (2014; e-book 2020)",
+      "url": "https://www.bloomsbury.com/uk/eponym-dictionary-of-birds-9781472982698/"
+    },
+    "sykes1832Kundoo": {
+      "title": "William Henry Sykes (1832), Catalogue of the Mammalia and Birds Observed in Dukhun, East Indies",
+      "url": "https://darwin-online.org.uk/converted/pdf/1831_Sykes_catalogue_catalogue_Dukhun_A6059.pdf"
+    },
+    "pittie2004Kundoo": {
+      "title": "Aasheesh Pittie (2004), A dictionary of scientific bird names originating from the Indian region",
+      "url": "https://www.researchgate.net/publication/316681811_A_dictionary_of_scientific_bird_names_originating_from_the_Indian_region"
+    },
+    "reigTheuringBrehm": {
+      "title": "Abilio Reig-Ferrer & Michael Theuring-Kolbe (eds.), Kleine Schriften der Naturforscherfamilie Brehm, Teil III, Band 1",
+      "url": "https://www.forstbuch.de/wp-content/uploads/2020/08/Brehm_Teil3_Band_1-Leseprobe.pdf"
+    },
+    "joblingBowAdalberti": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), adalberti",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=adalberti"
+    },
+    "joblingBowAbdimii": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), abdimii",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=abdimii"
+    },
+    "joblingBowAdamsii": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), adamsii",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=adamsii"
+    },
+    "joblingBowAmherstiae": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), amherstiae",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=amherstiae"
+    },
+    "joblingBowBernieri": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), bernieri",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=bernieri"
+    },
+    "mnhnBernier": {
+      "title": "Muséum national d’Histoire naturelle, Alphonse Charles Joseph Bernier (collection records)",
+      "url": "https://science.mnhn.fr/all/list?recordedBy=Bernier%2C+Alphonse+Charles+Joseph"
+    },
+    "joblingBowKundoo": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), kundoo",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=kundoo"
+    },
+    "joblingBowIliaca": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), iliaca",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=iliaca"
+    },
+    "joblingBowExaminandus": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), examinandus",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=examinandus"
+    },
+    "joblingBowAlbellus": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), albellus",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=albellus"
+    },
+    "joblingBowAnarhynchus": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), Anarhynchus",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=Anarhynchus"
+    },
+    "joblingBowAythya": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), Aythya",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=Aythya"
+    },
+    "joblingBowBranta": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), Branta",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=Branta"
+    },
+    "joblingBowCurruca": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), Curruca",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=Curruca"
+    },
+    "joblingBowGalbula": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), galbula",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=galbula"
+    },
+    "joblingBowAedon": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), aedon",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=aedon"
+    },
+    "joblingBowEunomus": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), eunomus",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=eunomus"
+    },
+    "joblingBowTheklae": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), theklae",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=theklae"
+    },
+    "reigThekla": {
+      "title": "Abilio Reig-Ferrer, Aves españolas con nombres de persona (II): una nueva especie ibérica dedicada a una mujer, Thekla Brehm",
+      "url": "https://dialnet.unirioja.es/descarga/articulo/3732398.pdf"
+    },
+    "joblingBowLomvia": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), lomvia",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=lomvia"
+    },
+    "joblingBowPeposaca": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), peposaca",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=peposaca"
+    },
+    "joblingBowIduna": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), Iduna",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=Iduna"
+    },
+    "joblingBowSuthora": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), Suthora",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=Suthora"
+    },
+    "joblingBowTrichoglossus": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), Trichoglossus",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=Trichoglossus"
+    },
+    "joblingBowOnocrotalus": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), onocrotalus",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=onocrotalus"
+    },
+    "joblingBowTadorna": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), Tadorna",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=Tadorna"
+    },
+    "joblingBowChloris": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), Chloris",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=Chloris"
+    },
+    "joblingBowFrancolinus": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), Francolinus",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=Francolinus"
+    },
+    "joblingBowPipixcan": {
+      "title": "James A. Jobling (ed.), The Key to Scientific Names (Birds of the World), pipixcan",
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search?q=pipixcan"
     }
   },
   "terms": {
@@ -491,13 +623,19 @@
     "e:abdimii": {
       "term": "abdimii",
       "text": {
-        "de": "zu Ehren von Bey El-Arnaut Abdim, einem osmanischen Gouverneur im Sudan",
-        "en": "honours Bey El-Arnaut Abdim, an Ottoman governor in Sudan",
-        "nl": "vernoemd naar Bey El-Arnaut Abdim, een Ottomaanse gouverneur in Soedan"
+        "de": "zu Ehren von Abdim Bey, Gouverneur von Dongola im heutigen Sudan. Hemprich und Ehrenberg bezeichneten ihn als Freund und Beschützer",
+        "en": "honours Abdim Bey, governor of Dongola in present-day Sudan. Hemprich and Ehrenberg described him as their friend and protector",
+        "nl": "vernoemd naar Abdim Bey, gouverneur van Dongola in het huidige Soedan. Hemprich en Ehrenberg beschreven hem als hun vriend en beschermheer"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 29
+      "source": "joblingBowAbdimii",
+      "additionalSources": [
+        {
+          "source": "beolens2014",
+          "scope": "identity",
+          "page": 14
+        }
+      ]
     },
     "e:acuminata": {
       "term": "acuminata",
@@ -535,24 +673,46 @@
     "e:adalberti": {
       "term": "adalberti",
       "text": {
-        "de": "zu Ehren des preußischen Admirals Prinz Heinrich Wilhelm Adalbert von Preußen (1811–1873)",
-        "en": "honours the Prussian admiral Prince Heinrich Wilhelm Adalbert of Prussia (1811–1873)",
-        "nl": "vernoemd naar de Pruisische admiraal prins Heinrich Wilhelm Adalbert van Pruisen (1811–1873)"
+        "de": "zu Ehren von Adalbert Wilhelm von Bayern (1828–1875), einem Sohn Ludwigs I. Christian Ludwig Brehm nannte den bayerischen Prinzen in einem Brief zur Benennung des Adlers",
+        "en": "honours Prince Adalbert Wilhelm of Bavaria (1828–1875), a son of Ludwig I. Christian Ludwig Brehm named the Bavarian prince in a letter about the eagle’s naming",
+        "nl": "vernoemd naar prins Adalbert Wilhelm van Beieren (1828–1875), een zoon van Lodewijk I. Christian Ludwig Brehm noemde de Beierse prins in een brief over de naamgeving van de arend"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 31
+      "source": "joblingBowAdalberti",
+      "additionalSources": [
+        {
+          "source": "beolens2014",
+          "scope": "identity",
+          "page": 15
+        },
+        {
+          "source": "reigTheuringBrehm",
+          "scope": "dedication",
+          "page": 5
+        }
+      ]
     },
     "e:adamsii": {
       "term": "adamsii",
       "text": {
-        "de": "zu Ehren des Arktisreisenden und Arztes Edward Adams",
-        "en": "honours Arctic explorer and surgeon Edward Adams",
-        "nl": "vernoemd naar poolreiziger en arts Edward Adams"
+        "de": "zu Ehren des Marinearztes Edward Adams, der an der Suche nach der verschollenen Franklin-Expedition in der Arktis teilnahm",
+        "en": "honours naval surgeon Edward Adams, who took part in the Arctic search for the missing Franklin expedition",
+        "nl": "vernoemd naar marinearts Edward Adams, die in het Noordpoolgebied hielp zoeken naar de vermiste Franklinexpeditie"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 31
+      "page": 31,
+      "additionalSources": [
+        {
+          "source": "joblingBowAdamsii",
+          "scope": "identity"
+        },
+        {
+          "source": "beolens2014",
+          "scope": "identity",
+          "page": 15
+        }
+      ]
     },
     "e:adscitus": {
       "term": "adscitus",
@@ -574,13 +734,19 @@
     "e:aedon": {
       "term": "aedon",
       "text": {
-        "de": "Nachtigall; aus griechisch aedon",
-        "en": "nightingale; from Greek aedon",
-        "nl": "nachtegaal; uit Grieks aedon"
+        "de": "Nachtigall. Lateinisch aëdon geht auf griechisch aēdōn = Nachtigall zurück, verwandt mit aeidō = singen",
+        "en": "nightingale. Latin aëdon comes from Greek aēdōn = nightingale, related to aeidō = to sing",
+        "nl": "nachtegaal. Latijn aëdon komt van Grieks aēdōn = nachtegaal, verwant met aeidō = zingen"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 32
+      "page": 32,
+      "additionalSources": [
+        {
+          "source": "joblingBowAedon",
+          "scope": "wordComponent"
+        }
+      ]
     },
     "e:aegyptiaca": {
       "term": "aegyptiaca",
@@ -712,13 +878,19 @@
     "e:albellus": {
       "term": "albellus",
       "text": {
-        "de": "weißlich, kleiner weißer Vogel; Verkleinerungsbildung zu lateinisch albus = weiß",
-        "en": "whitish, small white bird; a diminutive of Latin albus = white",
-        "nl": "witachtig, kleine witte vogel; verkleinvorm bij Latijn albus = wit"
+        "de": "alter lateinischer Name des Zwergsägers. Albellus ist eine Verkleinerungsbildung zu lateinisch albus = weiß. Linné übernahm den Namen 1758 als Beiwort",
+        "en": "an older Latin name for the Smew. Albellus is a diminutive of Latin albus = white. Linnaeus adopted it as an epithet in 1758",
+        "nl": "oude Latijnse naam voor het nonnetje. Albellus is een verkleinvorm van Latijn albus = wit. Linnaeus nam de naam in 1758 over als epitheton"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 38
+      "page": 38,
+      "additionalSources": [
+        {
+          "source": "joblingBowAlbellus",
+          "scope": "nameHistory"
+        }
+      ]
     },
     "e:albeola": {
       "term": "albeola",
@@ -927,9 +1099,9 @@
     "e:amherstiae": {
       "term": "amherstiae",
       "text": {
-        "de": "zu Ehren von Sarah, Gräfin Amherst",
-        "en": "honours Sarah, Countess Amherst",
-        "nl": "vernoemd naar Sarah, gravin Amherst"
+        "de": "zu Ehren von Sarah Archer, Gräfin Amherst. Ein Exemplar, das ihr Mann nach London schickte, diente Leadbeater zur Erstbeschreibung",
+        "en": "honours Sarah Archer, Countess Amherst. A specimen sent to London by her husband was used by Leadbeater for the original description",
+        "nl": "vernoemd naar Sarah Archer, gravin Amherst. Leadbeater gebruikte voor de eerste beschrijving een exemplaar dat haar man naar Londen stuurde"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -938,6 +1110,15 @@
         {
           "source": "review20261108_676b9fbb090d",
           "scope": "dedication"
+        },
+        {
+          "source": "joblingBowAmherstiae",
+          "scope": "identity"
+        },
+        {
+          "source": "beolens2014",
+          "scope": "nameContext",
+          "page": 28
         }
       ]
     },
@@ -1507,13 +1688,20 @@
     "e:baroli": {
       "term": "baroli",
       "text": {
-        "de": "zu Ehren des Sammlers und Philanthropen Carlo Tancredi Falletti di Barolo",
-        "en": "honours collector and philanthropist Carlo Tancredi Falletti di Barolo",
-        "nl": "vernoemd naar verzamelaar en filantroop Carlo Tancredi Falletti di Barolo"
+        "de": "zu Ehren von Carlo Tancredi Falletti, Marchese di Barolo, einem Philanthropen und Bürgermeister von Turin",
+        "en": "honours Carlo Tancredi Falletti, Marchese di Barolo, a philanthropist and mayor of Turin",
+        "nl": "vernoemd naar Carlo Tancredi Falletti, markies van Barolo, een filantroop en burgemeester van Turijn"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 67
+      "page": 67,
+      "additionalSources": [
+        {
+          "source": "beolens2014",
+          "scope": "identity",
+          "page": 52
+        }
+      ]
     },
     "e:bassanus": {
       "term": "bassanus",
@@ -1574,13 +1762,18 @@
     "e:bernieri": {
       "term": "bernieri",
       "text": {
-        "de": "zu Ehren des Arztes und Sammlers J. A. Bernier",
-        "en": "honours surgeon and collector J. A. Bernier",
-        "nl": "vernoemd naar arts en verzamelaar J. A. Bernier"
+        "de": "zu Ehren von Alphonse Charles Joseph Bernier, einem französischen Marinearzt, der auf Madagaskar naturkundliche Belege sammelte",
+        "en": "honours Alphonse Charles Joseph Bernier, a French naval surgeon who collected natural history specimens in Madagascar",
+        "nl": "vernoemd naar Alphonse Charles Joseph Bernier, een Franse marinearts die op Madagaskar natuurhistorische specimens verzamelde"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 70
+      "source": "joblingBowBernieri",
+      "additionalSources": [
+        {
+          "source": "mnhnBernier",
+          "scope": "identity"
+        }
+      ]
     },
     "e:biarmicus": {
       "term": "biarmicus",
@@ -2941,13 +3134,12 @@
     "e:curruca": {
       "term": "curruca",
       "text": {
-        "de": "alter Name eines kleinen Vogels; aus lateinisch curruca",
-        "en": "ancient name for a small bird; from Latin curruca",
-        "nl": "oude naam voor een kleine vogel; uit Latijn curruca"
+        "de": "Jobling nennt den alten schwedischen Namen Kruka für die Klappergrasmücke als mögliche Vorlage. Auch das lateinische curruca bei Juvenal, ein nicht bestimmter kleiner Vogel, wird mit dem Namen verbunden",
+        "en": "Jobling suggests the obsolete Swedish Kruka, a name for the Lesser Whitethroat, as a possible source. The Latin curruca in Juvenal, an unidentified small bird, is also associated with the name",
+        "nl": "Jobling noemt het verouderde Zweedse Kruka, een naam voor de braamsluiper, als mogelijke bron. Ook het Latijnse curruca bij Juvenalis, een niet geïdentificeerde kleine vogel, wordt met de naam in verband gebracht"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 125
+      "uncertain": true,
+      "source": "joblingBowCurruca"
     },
     "e:cursor": {
       "term": "cursor",
@@ -3544,13 +3736,19 @@
     "e:eunomus": {
       "term": "eunomus",
       "text": {
-        "de": "wohlgeordnet; aus griechisch eunomos",
-        "en": "well ordered; from Greek eunomos",
-        "nl": "goed geordend; uit Grieks eunomos"
+        "de": "wohlgeordnet, aus griechisch eunomos, mit eu = gut und nomos = Brauch, Ordnung",
+        "en": "well ordered, from Greek eunomos, with eu = well and nomos = custom or order",
+        "nl": "goed geordend, uit Grieks eunomos, met eu = goed en nomos = gebruik, orde"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 152
+      "page": 152,
+      "additionalSources": [
+        {
+          "source": "joblingBowEunomus",
+          "scope": "wordComponent"
+        }
+      ]
     },
     "e:eupatria": {
       "term": "eupatria",
@@ -3594,13 +3792,12 @@
     "e:examinandus": {
       "term": "examinandus",
       "text": {
-        "de": "von Jobling mit lateinisch examinatus = sorgfältig, nachdenklich und examinare = prüfen, erwägen verbunden. Die abweichende Schreibform examinandus wird dort nicht gesondert erklärt; die genaue Benennungsabsicht bleibt offen",
-        "en": "linked by Jobling to Latin examinatus = careful, thoughtful and examinare = examine, consider. That source does not separately explain the different form examinandus; the precise naming intention remains unresolved",
-        "nl": "door Jobling verbonden met Latijn examinatus = zorgvuldig, bedachtzaam en examinare = onderzoeken, overwegen. De afwijkende vorm examinandus wordt daar niet afzonderlijk verklaard; de precieze bedoeling van de naam blijft open"
+        "de": "zu prüfen, zu untersuchen. Jobling erklärt die Form examinandus in der Online-Ausgabe über lateinisch examinare = prüfen, erwägen und examen = Prüfung. Die Benennungsabsicht bleibt offen",
+        "en": "to be examined or considered. In the online edition Jobling links examinandus to Latin examinare = to examine or consider and examen = examination. The naming intention remains unclear",
+        "nl": "te onderzoeken, te beoordelen. In de online editie verbindt Jobling examinandus met Latijn examinare = onderzoeken, overwegen en examen = onderzoek. De bedoeling achter de naam blijft onduidelijk"
       },
       "uncertain": true,
-      "source": "jobling2010",
-      "page": 154
+      "source": "joblingBowExaminandus"
     },
     "e:excubitor": {
       "term": "excubitor",
@@ -4061,13 +4258,19 @@
     "e:galbula": {
       "term": "galbula",
       "text": {
-        "de": "alter Name des Pirols; aus lateinisch galbula",
-        "en": "ancient oriole name; from Latin galbula",
-        "nl": "oude wielewaalnaam; uit Latijn galbula"
+        "de": "aus lateinisch galbulus, einem alten Namen für einen gelblichen Vogel, der mit dem Pirol verbunden wurde. Für den Baltimoretrupial übernahm Linné einen Namen, den Catesby bereits für diesen amerikanischen Vogel verwendet hatte",
+        "en": "from Latin galbulus, an old name for a yellowish bird associated with the oriole. For the Baltimore Oriole, Linnaeus used a name Catesby had already applied to this American bird",
+        "nl": "uit Latijn galbulus, een oude naam voor een geelachtige vogel die met de wielewaal in verband werd gebracht. Voor de Baltimoretroepiaal nam Linnaeus een naam over die Catesby al voor deze Amerikaanse vogel gebruikte"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 169
+      "page": 169,
+      "additionalSources": [
+        {
+          "source": "joblingBowGalbula",
+          "scope": "nameHistory"
+        }
+      ]
     },
     "e:galericulata": {
       "term": "galericulata",
@@ -4984,13 +5187,12 @@
     "e:iliaca": {
       "term": "iliaca",
       "text": {
-        "de": "zu den Flanken gehörig; aus lateinisch iliacus, zu ile = Flanken",
-        "en": "of the flanks; from Latin iliacus, related to ile = flanks",
-        "nl": "van de flanken; uit Latijn iliacus, bij ile = flanken"
+        "de": "wohl ein älterer Drosselname. Jobling verbindet Merrems „Drosselfinken“ mit Gazas lateinisch iliacus, einer Wiedergabe von griechisch ilias oder illas für eine Drossel",
+        "en": "probably an old thrush name. Jobling links Merrem’s “thrush-finch” to Gaza’s Latin iliacus, a rendering of Greek ilias or illas for a kind of thrush",
+        "nl": "waarschijnlijk een oude lijsternaam. Jobling verbindt Merrems „lijstervink” met Gaza’s Latijnse iliacus, een weergave van Grieks ilias of illas voor een soort lijster"
       },
-      "uncertain": false,
-      "source": "jobling2010",
-      "page": 202
+      "uncertain": true,
+      "source": "joblingBowIliaca"
     },
     "e:iliacus": {
       "term": "iliacus",
@@ -5272,13 +5474,24 @@
     "e:kundoo": {
       "term": "kundoo",
       "text": {
-        "de": "Herkunft nicht sicher geklärt",
-        "en": "origin uncertain",
-        "nl": "oorsprong onzeker"
+        "de": "Sykes nannte den Vogel 1832 „Mango Bird“. Jobling führt nach Aasheesh Pittie eine mögliche Herleitung aus einem tamilischen Wort für Mango an. Sykes erklärte das Beiwort nicht",
+        "en": "Sykes called the bird “Mango Bird” in 1832. Jobling credits Aasheesh Pittie with a possible derivation from a Tamil word for mango. Sykes gave no explanation of the epithet",
+        "nl": "Sykes noemde de vogel in 1832 „Mango Bird”. Jobling noemt op gezag van Aasheesh Pittie een mogelijke afleiding van een Tamil woord voor mango. Sykes lichtte het epitheton niet toe"
       },
       "uncertain": true,
-      "source": "jobling2010",
-      "page": 216
+      "source": "joblingBowKundoo",
+      "additionalSources": [
+        {
+          "source": "sykes1832Kundoo",
+          "scope": "nameContext",
+          "page": 87
+        },
+        {
+          "source": "pittie2004Kundoo",
+          "scope": "nameHistory",
+          "page": 14
+        }
+      ]
     },
     "e:lagopus": {
       "term": "lagopus",
@@ -5652,13 +5865,12 @@
     "e:lomvia": {
       "term": "lomvia",
       "text": {
-        "de": "übernommener schwedischer Name eines Alken oder Tauchers; schwedisch Lomvia oder Lomvie, ein alter Alkenname",
-        "en": "borrowed Swedish name for an auk or diver; Swedish Lomvia or Lomvie, an old auk name",
-        "nl": "overgenomen Zweedse naam voor een alkachtige of duiker; Zweeds Lomvia of Lomvie, een oude alkennaam"
+        "de": "aus schwedisch Lomvia, einem alten Dialektnamen für die Trottellumme. Jobling führt ihn auf altnordisch Langve oder Langivia zurück",
+        "en": "from Swedish Lomvia, an old dialect name for the Common Murre. Jobling traces it to Old Norse Langve or Langivia",
+        "nl": "uit Zweeds Lomvia, een oude dialectnaam voor de zeekoet. Jobling leidt die af van Oudnoords Langve of Langivia"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 229
+      "source": "joblingBowLomvia"
     },
     "e:longicauda": {
       "term": "longicauda",
@@ -7228,13 +7440,19 @@
     "e:onocrotalus": {
       "term": "onocrotalus",
       "text": {
-        "de": "alter Pelikanname; aus griechisch onokrotalos",
-        "en": "ancient pelican name; from Greek onokrotalos",
-        "nl": "oude pelikanennaam; uit Grieks onokrotalos"
+        "de": "alter Pelikanname, aus lateinisch onocrotalus = Pelikan, nach griechisch onokrotalos",
+        "en": "an old pelican name, from Latin onocrotalus = pelican, via Greek onokrotalos",
+        "nl": "oude pelikanennaam, uit Latijn onocrotalus = pelikaan, teruggaand op Grieks onokrotalos"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 282
+      "page": 282,
+      "additionalSources": [
+        {
+          "source": "joblingBowOnocrotalus",
+          "scope": "wordComponent"
+        }
+      ]
     },
     "e:opaca": {
       "term": "opaca",
@@ -7603,13 +7821,18 @@
     "e:peposaca": {
       "term": "peposaca",
       "text": {
-        "de": "übernommener Guaraní-Entenname; Guaraní Peposaca, ein Name dieser Ente",
-        "en": "borrowed Guaraní duck name; Guaraní Peposaca, a name for this duck",
-        "nl": "overgenomen Guaraní-eendennaam; Guaraní Peposaca, een naam voor deze eend"
+        "de": "von Guaraní Peposacá, „auffällige Flügel“. Der von Azara aufgezeichnete Entenname spielt auf die im Flug sichtbaren weißen Schwungfedern an",
+        "en": "from Guaraní Peposacá, “showy wings”. The duck name recorded by Azara refers to the white flight feathers visible when the bird flies",
+        "nl": "van Guaraní Peposacá, „opvallende vleugels”. De door Azara opgetekende eendennaam verwijst naar de witte slagpennen die in de vlucht zichtbaar zijn"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 297
+      "source": "joblingBowPeposaca",
+      "additionalSources": [
+        {
+          "source": "mouchard2019",
+          "scope": "nameContext"
+        }
+      ]
     },
     "e:percnopterus": {
       "term": "percnopterus",
@@ -7870,13 +8093,19 @@
     "e:pipixcan": {
       "term": "pipixcan",
       "text": {
-        "de": "übernommener indigener mexikanischer Möwenname; Pipixcan, ein von Hernández (1651) überlieferter indigener mexikanischer Möwenname",
-        "en": "borrowed Indigenous Mexican gull name; Pipixcan, an Indigenous Mexican gull name recorded by Hernández (1651)",
-        "nl": "overgenomen inheemse Mexicaanse meeuwennaam; Pipixcan, een door Hernández (1651) overgeleverde inheemse Mexicaanse meeuwennaam"
+        "de": "übernommener Nahuatl-Name für eine Möwe. Jobling nennt neben Pipixcan auch die verwandte Form Apipipitzcatototl. Hernández überlieferte Pipixcan 1651",
+        "en": "borrowed Nahuatl name for a gull. Jobling lists the related form Apipipitzcatototl alongside Pipixcan. Hernández recorded Pipixcan in 1651",
+        "nl": "overgenomen Nahuatl-naam voor een meeuw. Jobling noemt naast Pipixcan ook de verwante vorm Apipipitzcatototl. Hernández tekende Pipixcan in 1651 op"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 308
+      "page": 308,
+      "additionalSources": [
+        {
+          "source": "joblingBowPipixcan",
+          "scope": "wordMeaning"
+        }
+      ]
     },
     "e:plancus": {
       "term": "plancus",
@@ -9845,13 +10074,18 @@
     "e:theklae": {
       "term": "theklae",
       "text": {
-        "de": "zu Ehren von Thekla Brehm (1832–1858), Tochter des Ornithologen Christian Ludwig Brehm",
-        "en": "honours Thekla Brehm (1832–1858), daughter of ornithologist Christian Ludwig Brehm",
-        "nl": "vernoemd naar Thekla Brehm (1832–1858), dochter van ornitholoog Christian Ludwig Brehm"
+        "de": "zu Ehren von Thekla Klothilde Bertha Brehm (1833–1857). In der Erstbeschreibung widmete Alfred Brehm die Lerche seiner verstorbenen Schwester",
+        "en": "honours Thekla Klothilde Bertha Brehm (1833–1857). In the original description Alfred Brehm dedicated the lark to his late sister",
+        "nl": "vernoemd naar Thekla Klothilde Bertha Brehm (1833–1857). In de eerste beschrijving droeg Alfred Brehm de leeuwerik op aan zijn overleden zus"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 384
+      "source": "joblingBowTheklae",
+      "additionalSources": [
+        {
+          "source": "reigThekla",
+          "scope": "dedication"
+        }
+      ]
     },
     "e:thula": {
       "term": "thula",
@@ -10886,13 +11120,19 @@
     "g:Anarhynchus": {
       "term": "Anarhynchus",
       "text": {
-        "de": "zurückgebogener Schnabel; aus griechisch ana- = rückwärts und rhunkhos = Schnabel",
-        "en": "backward-curved bill; from Greek ana- = backwards + rhunkhos = bill",
-        "nl": "achterwaarts gebogen snavel; uit Grieks ana- = achterwaarts en rhunkhos = snavel"
+        "de": "zurückgebogener Schnabel, aus griechisch ana- = rückwärts und rhunkhos = Schnabel. Die Erstbeschreibung der Gattung hebt die seitlich abgebogene Schnabelspitze des Schiefschnabels hervor",
+        "en": "backward-curved bill, from Greek ana- = backwards and rhunkhos = bill. The original genus description highlights the sideways bend at the tip of the Wrybill’s bill",
+        "nl": "achterwaarts gebogen snavel, uit Grieks ana- = achterwaarts en rhunkhos = snavel. De eerste geslachtsbeschrijving benadrukt de zijdelings gebogen snavelpunt van de scheefsnavelplevier"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 46
+      "page": 46,
+      "additionalSources": [
+        {
+          "source": "joblingBowAnarhynchus",
+          "scope": "nameHistory"
+        }
+      ]
     },
     "g:Anas": {
       "term": "Anas",
@@ -11080,13 +11320,19 @@
     "g:Aythya": {
       "term": "Aythya",
       "text": {
-        "de": "alter Name eines Wasservogels; aus griechisch aithuia",
-        "en": "ancient name for a waterbird; from Greek aithuia",
-        "nl": "oude naam voor een watervogel; uit Grieks aithuia"
+        "de": "alter griechischer Name aithuia für einen Seevogel, den schon Aristoteles erwähnte. Welche Vogelart damit gemeint war, ist unklar",
+        "en": "ancient Greek aithuia, a seabird name already used by Aristotle. The bird it referred to is uncertain",
+        "nl": "oud-Grieks aithuia, een zeevogelnaam die Aristoteles al gebruikte. Welke vogel ermee bedoeld werd, is onzeker"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
-      "page": 64
+      "page": 64,
+      "additionalSources": [
+        {
+          "source": "joblingBowAythya",
+          "scope": "nameHistory"
+        }
+      ]
     },
     "g:Balearica": {
       "term": "Balearica",
@@ -11175,13 +11421,19 @@
     "g:Branta": {
       "term": "Branta",
       "text": {
-        "de": "aus einem germanischen Namen für dunkle Gänse; aus neulateinisch branta",
-        "en": "from a Germanic name for dark geese; from Modern Latin branta",
-        "nl": "uit een Germaanse naam voor donkere ganzen; uit Neolatijn branta"
+        "de": "mittelalterlicher lateinischer Name für die Ringelgans. Jobling leitet branta von altnordisch Brandgás ab, einem Namen, der sich auf die dunkle Färbung bezieht",
+        "en": "medieval Latin name for the Brent Goose. Jobling traces branta to Old Norse Brandgás, a name referring to the dark colour",
+        "nl": "middeleeuwse Latijnse naam voor de rotgans. Jobling leidt branta af van Oudnoords Brandgás, een naam die naar de donkere kleur verwijst"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 77
+      "page": 77,
+      "additionalSources": [
+        {
+          "source": "joblingBowBranta",
+          "scope": "nameHistory"
+        }
+      ]
     },
     "g:Bubo": {
       "term": "Bubo",
@@ -11600,9 +11852,9 @@
     "g:Chloris": {
       "term": "Chloris",
       "text": {
-        "de": "Grünfink; aus griechisch khloris",
-        "en": "greenfinch; from Greek khloris",
-        "nl": "groenling; uit Grieks khloris"
+        "de": "von Loxia chloris, Linnés ursprünglichem wissenschaftlichem Namen des Grünfinks. Das frühere Beiwort geht auf griechisch khloris = Grünfink zurück",
+        "en": "from Loxia chloris, Linnaeus’s original scientific name for the European Greenfinch. The earlier epithet comes from Greek khloris = greenfinch",
+        "nl": "uit Loxia chloris, de oorspronkelijke wetenschappelijke naam van Linnaeus voor de groenling. Het eerdere epitheton komt van Grieks khloris = groenling"
       },
       "uncertain": false,
       "source": "jobling2010",
@@ -11611,6 +11863,10 @@
         {
           "source": "review20261108_73f37a6bae4e",
           "scope": "wordMeaning"
+        },
+        {
+          "source": "joblingBowChloris",
+          "scope": "nameHistory"
         }
       ]
     },
@@ -11920,13 +12176,19 @@
     "g:Curruca": {
       "term": "Curruca",
       "text": {
-        "de": "alter Name eines kleinen Vogels; aus lateinisch curruca",
-        "en": "ancient name for a small bird; from Latin curruca",
-        "nl": "oude naam voor een kleine vogel; uit Latijn curruca"
+        "de": "aus lateinisch curruca oder curuca, dem Namen eines nicht sicher bestimmbaren kleinen Vogels bei Juvenal. Bechstein führte Curruca 1802 als Gattungsnamen ein",
+        "en": "from Latin curruca or curuca, an unidentified small bird mentioned by Juvenal. Bechstein introduced Curruca as a genus name in 1802",
+        "nl": "uit Latijn curruca of curuca, een niet geïdentificeerde kleine vogel bij Juvenalis. Bechstein voerde Curruca in 1802 als geslachtsnaam in"
       },
-      "uncertain": false,
+      "uncertain": true,
       "source": "jobling2010",
-      "page": 125
+      "page": 125,
+      "additionalSources": [
+        {
+          "source": "joblingBowCurruca",
+          "scope": "nameHistory"
+        }
+      ]
     },
     "g:Cursorius": {
       "term": "Cursorius",
@@ -12349,13 +12611,19 @@
     "g:Francolinus": {
       "term": "Francolinus",
       "text": {
-        "de": "aus dem italienischen Frankolinnamen; über französisch francolin aus italienisch francolino, einem Frankolinnamen",
-        "en": "from the Italian francolin name; via French francolin from Italian francolino, a francolin name",
-        "nl": "uit de Italiaanse frankolijnennaam; via Frans francolin uit Italiaans francolino, een frankolijnennaam"
+        "de": "von Tetrao francolinus, Linnés älterem wissenschaftlichem Namen des Halsbandfrankolins. Das Beiwort geht über französisch francolin auf italienisch francolino zurück",
+        "en": "from Tetrao francolinus, Linnaeus’s earlier scientific name for the Black Francolin. The epithet comes via French francolin from Italian francolino",
+        "nl": "uit Tetrao francolinus, de eerdere wetenschappelijke naam van Linnaeus voor de zwarte frankolijn. Het epitheton komt via Frans francolin uit Italiaans francolino"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 163
+      "page": 163,
+      "additionalSources": [
+        {
+          "source": "joblingBowFrancolinus",
+          "scope": "nameHistory"
+        }
+      ]
     },
     "g:Fratercula": {
       "term": "Fratercula",
@@ -12826,13 +13094,19 @@
     "g:Iduna": {
       "term": "Iduna",
       "text": {
-        "de": "1840 von Keyserling und Blasius ohne Erklärung eingeführt. Jobling erwägt unter anderem lateinisch idoneus = passend, geeignet; solche Wortverbindungen sind Vermutungen und keine belegte Erklärung der Namensautoren",
-        "en": "introduced by Keyserling and Blasius in 1840 without explanation. Jobling considers, among other possibilities, Latin idoneus = suitable, appropriate; these word connections are conjectures, not a documented explanation by the naming authors",
-        "nl": "in 1840 door Keyserling en Blasius zonder uitleg ingevoerd. Jobling overweegt onder meer Latijn idoneus = passend, geschikt; zulke woordverbanden zijn vermoedens, geen gedocumenteerde verklaring van de naamgevers"
+        "de": "1840 von Keyserling und Blasius ohne Erklärung eingeführt. Jobling verbindet den Namen heute mit Iðunn aus der nordischen Mythologie, die zur Rettung vor einem Riesen in einen Sperling verwandelt wurde. Die Benennungsabsicht bleibt offen",
+        "en": "introduced by Keyserling and Blasius in 1840 without explanation. Jobling now associates the name with Iðunn from Norse mythology, who was turned into a sparrow to rescue her from a giant. The naming intention remains unclear",
+        "nl": "in 1840 zonder uitleg ingevoerd door Keyserling en Blasius. Jobling verbindt de naam nu met Iðunn uit de Noordse mythologie, die in een mus werd veranderd om haar van een reus te redden. De bedoeling achter de naam blijft onduidelijk"
       },
       "uncertain": true,
-      "source": "jobling2010",
-      "page": 202
+      "source": "joblingBowIduna",
+      "additionalSources": [
+        {
+          "source": "jobling2010",
+          "scope": "nameHistory",
+          "page": 202
+        }
+      ]
     },
     "g:Irania": {
       "term": "Irania",
@@ -14988,13 +15262,12 @@
     "g:Suthora": {
       "term": "Suthora",
       "text": {
-        "de": "übernommener nepalesischer Vogelname; nepalesisch Suthora, ein Name einer Papageimeise",
-        "en": "borrowed Nepalese bird name; Nepalese Suthora, a parrotbill name",
-        "nl": "overgenomen Nepalese vogelnaam; Nepalees Suthora, een diksnavelmezennaam"
+        "de": "von Hodgson als gekürzte Form des in Nepal gebräuchlichen Vogelnamens Sugathora eingeführt. Er verglich die Bedeutung mit „Papageischnabel“",
+        "en": "introduced by Hodgson as a shortening of Sugathora, a bird name used in Nepal. He glossed it as approximately “parrot bill”",
+        "nl": "door Hodgson ingevoerd als verkorting van Sugathora, een vogelnaam uit Nepal. Hij gaf ongeveer „papegaaiensnavel” als betekenis"
       },
       "uncertain": false,
-      "source": "jobling2010",
-      "page": 375
+      "source": "joblingBowSuthora"
     },
     "g:Sylvia": {
       "term": "Sylvia",
@@ -15076,13 +15349,12 @@
     "g:Tadorna": {
       "term": "Tadorna",
       "text": {
-        "de": "übernommener Brandgansname; Jobling nennt französisch tadorne = Brandgans, während die British Ornithologists’ Union eine italienische Herkunft angibt. Der genaue Entlehnungsweg ist nicht eindeutig",
-        "en": "a borrowed shelduck name; Jobling gives French tadorne = shelduck, whereas the British Ornithologists’ Union gives an Italian origin. The precise borrowing route is not unambiguous",
-        "nl": "overgenomen bergeendennaam; Jobling noemt Frans tadorne = bergeend, terwijl de British Ornithologists’ Union een Italiaanse herkomst noemt. De precieze ontleningsweg is niet eenduidig"
+        "de": "aus dem Beiwort tadorna, das Linné 1758 für die Brandgans in Anas tadorna verwendete. Boie benutzte es 1822 als Gattungsnamen",
+        "en": "from the epithet tadorna, used by Linnaeus in 1758 for the Common Shelduck in Anas tadorna. Boie used it as a genus name in 1822",
+        "nl": "uit het epitheton tadorna, dat Linnaeus in 1758 voor de bergeend gebruikte in Anas tadorna. Boie gebruikte het in 1822 als geslachtsnaam"
       },
-      "uncertain": true,
-      "source": "jobling2010",
-      "page": 377
+      "uncertain": false,
+      "source": "joblingBowTadorna"
     },
     "g:Taeniopygia": {
       "term": "Taeniopygia",
@@ -15248,13 +15520,19 @@
     "g:Trichoglossus": {
       "term": "Trichoglossus",
       "text": {
-        "de": "Haarzunge; aus griechisch thrix = Haar und glossa = Zunge",
-        "en": "hair tongue; from Greek thrix = hair + glossa = tongue",
-        "nl": "haartong; uit Grieks thrix = haar en glossa = tong"
+        "de": "Haarzunge, aus griechisch thrix = Haar und glossa = Zunge. Der Name bezieht sich auf die bürstenartigen Borsten an der Zungenspitze",
+        "en": "hair tongue, from Greek thrix = hair and glossa = tongue. The name refers to the brushlike bristles at the tip of the tongue",
+        "nl": "haartong, uit Grieks thrix = haar en glossa = tong. De naam verwijst naar de borstelachtige haren aan de punt van de tong"
       },
       "uncertain": false,
       "source": "jobling2010",
-      "page": 389
+      "page": 389,
+      "additionalSources": [
+        {
+          "source": "joblingBowTrichoglossus",
+          "scope": "nameHistory"
+        }
+      ]
     },
     "g:Tringa": {
       "term": "Tringa",

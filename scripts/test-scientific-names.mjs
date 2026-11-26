@@ -122,11 +122,18 @@ for(const language of ['de','en','nl']){
   assert(!/caligatusbooted|gallinagowoodcock|gutturalisof|regalisroyal|regulorumof|regulusprince/.test(row.text[language]));
 }
 const unmarkedAudit=JSON.parse(readFileSync('docs/scientific-name-unmarked-review-20261123.json'));
+const sourceComparison=JSON.parse(readFileSync('docs/scientific-name-source-comparison-20261126.json'));
+const revisedTerms=new Map(sourceComparison.terms.map(row=>[row.termKey,row]));
 const auditedKeys=new Set(unmarkedAudit.terms.map(r=>r.termKey));
 assert.equal(auditedKeys.size,1191,'The systematic review must account for every starting unmarked term');
 const canonical=value=>Array.isArray(value)?value.map(canonical):value&&typeof value==='object'?Object.fromEntries(Object.keys(value).sort().map(k=>[k,canonical(value[k])])):value;
+const termHash=key=>createHash('sha256').update(JSON.stringify(canonical(data.terms[key]))).digest('hex');
+assert.equal(revisedTerms.size,sourceComparison.coverage.updatedEntries);
+for(const row of revisedTerms.values()){
+ assert.equal(row.afterSha256,termHash(row.termKey),`${row.termKey}: new source review must describe the published entry`);
+}
 for(const row of unmarkedAudit.terms){
- assert.equal(row.afterSha256,createHash('sha256').update(JSON.stringify(canonical(data.terms[row.termKey]))).digest('hex'),`${row.termKey}: review record must describe the published entry`);
+ assert.equal(row.afterSha256,revisedTerms.get(row.termKey)?.beforeSha256??termHash(row.termKey),`${row.termKey}: original review must match the next revision or the published entry`);
  assert(row.consultedPassages.length>0,`${row.termKey}: source check must be recorded`);
  for(const ref of row.consultedPassages)assert(data.sources[ref.source],`${row.termKey}: registered source`);
 }
@@ -140,7 +147,11 @@ for(const row of countryExtension.species){
  for(const part of ['genus','epithet'])assert(row[part+'Source'].printedPage>0);
 }
 assert.equal(data.terms['g:Perisoreus'].uncertain,true,'Competing suggestions are not a settled derivation');
-assert.equal(data.terms['e:examinandus'].uncertain,true,'Do not conceal the dictionary’s different spelling examinatus');
+assert.equal(data.terms['e:examinandus'].uncertain,true,'The literal meaning does not establish the naming intention');
+assert(text('Aquila adalberti').includes('Adalbert Wilhelm of Bavaria'));
+assert(text('Galerida theklae').includes('1833–1857'));
+assert(text('Oriolus kundoo').includes('possible derivation'));
+assert.equal(data.terms['e:iliaca'].uncertain,true,'Merrem’s word formation is inferred from historical names');
 assert.equal(data.terms['g:Fringillaria'].page,164,'The current combination needs its own genus source');
 assert.equal(data.species.houbun3.scientificName,'Fringillaria sahari');
 assert(data.terms['e:heinei'].additionalSources.some(r=>r.source==='heineanumHeinei'&&r.scope==='dedication'));

@@ -1,0 +1,207 @@
+{
+  "date": "2026-11-26",
+  "catalogueSha256": "ab89626ac87634601095b28ccec612b21c3a8db5d8006c2b2d2b26a47aff7dfc",
+  "sources": {
+    "key": {
+      "url": "https://birdsoftheworld.org/bow/key-to-scientific-names/search",
+      "access": "Public search, with case-sensitive filtering for genus and epithet after retrieval. Exact headword groups are allowed. A match identifies candidate text, with the relevant taxon checked separately for each adopted finding.",
+      "queries": 1228,
+      "retrievedQueries": 1228,
+      "responseContentsSha256": "a69effb8a699db7166318d950bb771efe3732da6e84ac66087ed463fcc9c14c0"
+    },
+    "eponymDictionary": {
+      "url": "https://www.bloomsbury.com/uk/eponym-dictionary-of-birds-9781472982698/",
+      "access": "Publisher preview of the electronic edition. The printed pages through p. 61 were searched against the catalogue, including displayed alternative combinations.",
+      "previewUrl": "https://api.pageplace.de/preview/DT0400.9781472982698_A39484113/preview-9781472982698_A39484113.pdf",
+      "previewSha256": "d620af6c9ff8b126960fdd27ed0a93e6bd98caed8d78b38991eb027cba2ebf98",
+      "fullTextCompared": false
+    }
+  },
+  "method": [
+    "Search every current and alternate scientific-name component used by the catalogue. Compare exact Key headwords with the existing English explanations and the extracted 2010 print entries.",
+    "Screen for new word origins, competing interpretations, name transfers and explicit dedications. Check the applicable taxon, original descriptions quoted by the Key and corroborating publications where available. Publish original short explanations in German, English and Dutch.",
+    "Match catalogue binomials against the accessible eponym dictionary text and confirm the selected passages and printed page numbers. Related subspecies and homonyms are kept out of the species explanation unless the source supports the catalogue taxon."
+  ],
+  "coverage": {
+    "catalogueSpecies": 994,
+    "publishedExplanationEntriesWithKeyMatches": 1294,
+    "updatedEntries": 29,
+    "affectedSpecies": 74
+  },
+  "terms": [
+    {
+      "termKey": "e:abdimii",
+      "finding": "The Key reproduces the dedication, which explains the authors’ relationship to the governor. Beolens and colleagues confirm the identification.",
+      "beforeSha256": "f950b71fa925b1d8e6b7b8a87639ab05b159a4fd5d03aec2efb4b1e5efe23549",
+      "afterSha256": "f9d79fbcb5e7fc435202df9a0a651825af3e1c71bdf6bf03e1da22f0b02c9b49"
+    },
+    {
+      "termKey": "e:adalberti",
+      "finding": "Both dictionaries identify the Bavarian prince. A published account of Brehm’s correspondence corroborates the dedication and corrects the previous identification as the Prussian prince.",
+      "beforeSha256": "1301125d9c1aa3f259a7c1667ddd0de6509215e025efb8539a8c6f4afd71cb6c",
+      "afterSha256": "ffed5dc11cc36bb0e409a324a3df877b28d9ea48ff033bd2815441f0b2abb30f"
+    },
+    {
+      "termKey": "e:adamsii",
+      "finding": "The eponym dictionary specifies Edward Adams’s role in the Franklin search. Jobling distinguishes the diver’s dedicatee from other people named Adams.",
+      "beforeSha256": "07436b2813903b4da679d65e479f526c97c782d13ff14dfbe36d741e5b1ec1d6",
+      "afterSha256": "29865f8b47fbe698fe254d28ccb2043c5ae27c02f5bb30fdc29f7af4b54518da"
+    },
+    {
+      "termKey": "e:aedon",
+      "finding": "The Key supplies the Latin form and the underlying Greek verb.",
+      "beforeSha256": "f4970d9b322cbdd23d57ee26f02f8d99be2d622da8a6f5732c1d66ccfc8a42cb",
+      "afterSha256": "f8f52ab472ab01275d9be366f9f64a4e271cb50a785fc02c11ae81964a7c993f"
+    },
+    {
+      "termKey": "e:albellus",
+      "finding": "The Key documents the older bird name Albellus in the references cited by Linnaeus. The similar albeola has a separate naming history.",
+      "beforeSha256": "df57c534f10d06b108eb58d164797fe66f31c00b2ca3ea005f83111109419d35",
+      "afterSha256": "1c94c095f90abb4db91f57711d0ad23adad4ec035b8f4e5422f16991ec81a171"
+    },
+    {
+      "termKey": "e:amherstiae",
+      "finding": "The Key supplies her birth surname. The eponym dictionary documents the connection between the Amherst household and the specimen Leadbeater described.",
+      "beforeSha256": "aa6549eec03dd389b3fa99dfb814428e3f908f584ffbf6810dc56385f64794df",
+      "afterSha256": "706643eb51f497db58336a34b048c1287b6cf3618ff3b1e3f5fa115b1a657434"
+    },
+    {
+      "termKey": "e:baroli",
+      "finding": "The eponym dictionary supplies his title and public role, making the connection between baroli and the title di Barolo clear.",
+      "beforeSha256": "55198f14663b053f3af77d55230fca5bcecf0ba3d5b6e2797d7151dfa41b9e16",
+      "afterSha256": "42e63f813934d66657caa54a10a835d48d29ebdeb678c331d59e40ba3336ead0"
+    },
+    {
+      "termKey": "e:bernieri",
+      "finding": "Jobling identifies the teal’s dedicatee by full name and collecting role. The Paris museum uses the form Alphonse Charles Joseph Bernier.",
+      "beforeSha256": "f2961444fa032a72a10fb62061ce2e98bb2dca2cae04e10679ba00e802cfc56e",
+      "afterSha256": "6f32cc37ea7aeca02d064ef9964ef07822a46c2794640ce6da65c3692547aec7"
+    },
+    {
+      "termKey": "e:curruca",
+      "finding": "The online Key distinguishes the specific epithet, linked to Swedish Kruka, from the Latin tradition of the genus name.",
+      "beforeSha256": "070bb3497ee026b95f57b72959127976a3609aa1bdf9deedd8648e8c41a47721",
+      "afterSha256": "d2971fca5b38e4bc79c5947ff62619a6a3cc0caa0f254f7cd388117c399b381d"
+    },
+    {
+      "termKey": "e:eunomus",
+      "finding": "The Key gives the Greek components of the epithet. Its suggested allusion to plumage is left out because that interpretation is an inference.",
+      "beforeSha256": "e32659b00dbdb0de2045cc54a91dedd99622d8b16d4ed43d479ebb0ac6ce9f6c",
+      "afterSha256": "90de51787d7c30c1af510a0ffae1dddf37dbfb4adb93ce26a5467f40e3fb607b"
+    },
+    {
+      "termKey": "e:examinandus",
+      "finding": "The online edition treats the actual spelling examinandus, where the printed edition referred to examinatus. The Latin gerundive supports the literal translation.",
+      "beforeSha256": "c5e2956b8cf2a558f3ba763eb04b5a7361119dbfa4aa7dbebef2d19b76c90417",
+      "afterSha256": "641e6892581f8a70b33522ee0a8a5db3f14161f6daee1b30a37a3ffe8968c5c3"
+    },
+    {
+      "termKey": "e:galbula",
+      "finding": "The Key includes the Catesby-to-Linnaeus naming chain, which explains the transfer of the old bird name to the New World species.",
+      "beforeSha256": "460be4ad3900edac2088b5b0b47bc223457d5f61427f244a4beff7ee249eeff8",
+      "afterSha256": "73c1dcedd076aba9764e319bbda98c447edb0d0d413b95abd92bb326fbd04643"
+    },
+    {
+      "termKey": "e:iliaca",
+      "finding": "The Key distinguishes Merrem’s Fox Sparrow from other applications of the epithet. Its proposed link to the old thrush name explains Merrem’s German bird name.",
+      "beforeSha256": "158303d213008f1c9b022105afe92b62300c2c69004fcf6d61d8b2674634c11e",
+      "afterSha256": "eabcd18010ae390de027dbede160f6023a51e84a17f3aa07ad9ae20143ba12d0"
+    },
+    {
+      "termKey": "e:kundoo",
+      "finding": "The Key now gives Pittie’s Tamil suggestion. Sykes used the English name but gives no etymology, as Pittie’s 2004 dictionary also notes.",
+      "beforeSha256": "1cb7ee930010cae2447b9bcf4b5d4b7d766a1563b8f7e1f2c0a7b51754a0af3e",
+      "afterSha256": "f620c3b83999583642858053921ac7deb93cc6266883ce2fd0e3c7c5a3e939b1"
+    },
+    {
+      "termKey": "e:lomvia",
+      "finding": "The Key identifies the species denoted by the Swedish dialect term and gives the proposed Old Norse forms.",
+      "beforeSha256": "fdd3bc7d14106b23daf1b6d1e559af43c6c2dc539f3229b7ea7b7d38d7ca54d4",
+      "afterSha256": "1f67d231b16ce89f2f666b24695303229735ae9fd2c36126899e074286ea42f8"
+    },
+    {
+      "termKey": "e:onocrotalus",
+      "finding": "The Key documents the Latin pelican name adopted by Linnaeus and its Greek antecedent.",
+      "beforeSha256": "630c28aa069905ba9bbd0f8230de0a1cf029baab2968a948ca9b640e7141985d",
+      "afterSha256": "12c34481aad36db702219408ec09f3dbdf6fb018577900d8dce066afa0f50872"
+    },
+    {
+      "termKey": "e:peposaca",
+      "finding": "The Key gives a meaning for the Guaraní name. Mouchard documents Azara’s explanation and the reference to the white flight feathers.",
+      "beforeSha256": "709c095ced13a5951cc16446abec5ffefbf748f88c750bdf7fd1f9aa928ef969",
+      "afterSha256": "37eb960ecd95ac5c94cc858fb32d7b90e847b0e13a2c6b2d005eaa9c86aa1f03"
+    },
+    {
+      "termKey": "e:pipixcan",
+      "finding": "The Key specifies Nahuatl and documents related names for the gull.",
+      "beforeSha256": "8d9f82873d1b20a5c58e9ee3f654f54e5247c0477b9b5993ab7217d420551003",
+      "afterSha256": "88c3480580bea3bfcbfa4f47ed6b2643b581382619569a1b15391e54adacc5de"
+    },
+    {
+      "termKey": "e:theklae",
+      "finding": "The Key corrects the dates. Reig-Ferrer reproduces Alfred Brehm’s dedication in the original description.",
+      "beforeSha256": "c5456fca11053d712a0c77323c6216313e800c11ff50b0b2b92f87f434806109",
+      "afterSha256": "c2b2174c66f0d8aa34685419b9f02aceb0bb0bf0168a0dba59318781b913531c"
+    },
+    {
+      "termKey": "g:Anarhynchus",
+      "finding": "The original diagnosis reproduced by the Key supplies the connection between the roots and the unusual bill of the type species.",
+      "beforeSha256": "3088424b4d9fc16d1a089c9c7ed039531aa0794623b416cdcba192d3bb884443",
+      "afterSha256": "a3eeb1d59f75a21901eb7d1690bd9e8a12b44b413ff6532f7f1507e2f63b7f14"
+    },
+    {
+      "termKey": "g:Aythya",
+      "finding": "The Key identifies Aristotle as an early witness and distinguishes the Greek word from later identifications of the bird in classical texts.",
+      "beforeSha256": "91f0530457fd936a0a9531a4414144d7d7abe55373bf398ddc555e2b502b6d56",
+      "afterSha256": "389dc2e53ccc7151ab3ea98781e8c9efd2fffae499b062301cff2e28ad80a465"
+    },
+    {
+      "termKey": "g:Branta",
+      "finding": "The Key supplies the historical form Brandgás and the Brent Goose as the bird to which the Latin name originally applied.",
+      "beforeSha256": "e9ba7ed559c75092cd979e486c3be69db320e6e190723af9b4351e2b8a3362fd",
+      "afterSha256": "c82ea990b995034419ac088f526bedf4d90051b5d7d6e227793d43dfe4d1d5ef"
+    },
+    {
+      "termKey": "g:Chloris",
+      "finding": "The Key identifies the immediate source of the genus in Linnaeus’s earlier binomial.",
+      "beforeSha256": "e74db10c46c65663fdd6fa29a8d041d586b5ca3fa0475e82a996109fdfb37467",
+      "afterSha256": "45a8a1d229fd1c651bf0cc13fdf5f5e123aa046a43f482ce1462de7ca780216b"
+    },
+    {
+      "termKey": "g:Curruca",
+      "finding": "The Key gives the classical source and the date of Bechstein’s genus. The old bird identity remains uncertain.",
+      "beforeSha256": "7c0349854404c906c5b72f2ac3ca37559690166aba0c614c6e6b0f7d2fee5696",
+      "afterSha256": "7541a399afc30a5c13c87c09bb51da8ecaa21dc6daf238f4fc63e04c0973393b"
+    },
+    {
+      "termKey": "g:Francolinus",
+      "finding": "The Key documents the genus name’s origin in Linnaeus’s earlier epithet.",
+      "beforeSha256": "52ca7eac81e2305de5ee013516358c4630f0086cf920c18baf2771b463c5064b",
+      "afterSha256": "d9117763611b0a94764f30e9d61f1394d828b304d1bdf6149b4aa1aae30e4982"
+    },
+    {
+      "termKey": "g:Iduna",
+      "finding": "The online edition gives a different proposal from the printed book. The first description offers no explanation, so the proposed origin remains qualified.",
+      "beforeSha256": "4a8a29a36efe0663c55ff308e4d8090dd7000da0d5314e3688ecaa390e7cd798",
+      "afterSha256": "8996fbcf7e60dc90df8092e22309634c620e7a85e825e42d345d71069f2b0c3a"
+    },
+    {
+      "termKey": "g:Suthora",
+      "finding": "The original description reproduced by the Key gives the unshortened form and its meaning.",
+      "beforeSha256": "f749e3186fdb2708fc8f85b574e1caee41d8f824199155c1e86960d71bd7e6ca",
+      "afterSha256": "b0a51b40d370d1c72c2569877a389ee00c2cb2029816999c75782797373400d9"
+    },
+    {
+      "termKey": "g:Tadorna",
+      "finding": "The Key documents the immediate source of the genus name in the earlier epithet.",
+      "beforeSha256": "a6a75db6e4d37332f1b9089b449df60ecfea18e11b37fcf77242c58ce27859c9",
+      "afterSha256": "c883217be2f6b6389df251d872a90248e637965ed4bab26ef5cd3864842ba339"
+    },
+    {
+      "termKey": "g:Trichoglossus",
+      "finding": "Vigors and Horsfield’s description reproduced by the Key gives the roots and describes the brush at the tip of the tongue.",
+      "beforeSha256": "78e692da6352be0cd507e7939bcdad79550564684349d621467ca98813c27e76",
+      "afterSha256": "591625b810c84ab07438db3f0395f03c54aa767df5c3586b238cbc2dea7bf804"
+    }
+  ]
+}

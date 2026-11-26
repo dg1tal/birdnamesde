@@ -58,6 +58,17 @@ source-spelling variants and before/after hashes. It also distinguishes fresh
 full-text checks from the published abstract used for `richardi` and the earlier
 DHLE finding carried forward for `aura`, whose page was unavailable in this pass.
 
+The [26 November source comparison](scientific-name-source-comparison-20261126.json)
+queried Jobling’s online *Key to Scientific Names* for every current and alternate
+name component in the 994-species catalogue. It compared search entries with the
+2010 dictionary and the existing explanations. The electronic edition of
+Beolens, Watkins and Grayson’s *The Eponym Dictionary of Birds* was checked
+through the publisher preview up to printed page 61. The review records the
+scope for each source and identifies all 29 revised explanations. Among other
+changes, it identifies the Bavarian prince honoured in `adalberti` and records
+the original contexts of `theklae`, `Suthora` and `peposaca`. The newly reported
+Tamil derivation of `kundoo` remains a proposal.
+
 Further literature suggested by the user: Viktor Wember (2005), *Die Namen der
 Vögel Europas. Bedeutung der deutschen und wissenschaftlichen Namen*,
 Aula-Verlag, Wiebelsheim, ISBN 3-89104-678-2. The publication was checked
