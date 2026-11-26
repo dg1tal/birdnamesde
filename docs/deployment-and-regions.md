@@ -2,7 +2,7 @@
 
 [Back to the README](../README.md)
 
-Reviewed against commit `62f79cb` on 20 November 2026.
+Reviewed against application commit `0058ab6` on 26 November 2026.
 
 Paths in code examples are relative to the repository root. UI labels use the English interface. Dated review reports retain their release-specific results; the thematic guides describe the documented current behavior.
 

@@ -2,7 +2,7 @@
 
 [Back to the README](../README.md)
 
-Reviewed against commit `62f79cb` on 20 November 2026.
+Reviewed against application commit `0058ab6` on 26 November 2026.
 
 Paths in code examples are relative to the repository root. UI labels use the English interface. Dated review reports retain their release-specific results; the thematic guides describe the documented current behavior.
 
@@ -12,13 +12,13 @@ German and English interface choices are visible in the desktop header; phones g
 
 Dutch names for the expanded catalogue come from the `Dutch` column of the retained official `eBird_Taxonomy_v2025_5-tab_30Oct2025.xlsx` records. Reproduce them with `python3 scripts/build-name-language.py --language nl --column Dutch`. `dist/languages/nl.json` records provenance and exact official names. Names are literal official records; the catalogue expansion retains the pinned v2025 taxonomy without speculative translations. Dutch names are searchable and shown in lookup alongside the existing names, photos and attribution.
 
-Finnish names use the same retained workbook’s `Finnish` column: `python3 scripts/build-name-language.py --language fi --column Finnish`. `dist/languages/fi.json` contains 933 sourced names for the 940-species catalogue. The seven species without Finnish names are excluded whenever the question or answer requires Finnish; no names are guessed. Finnish names are also searchable and available in lookup. Scientific-name explanations for French and Finnish questions use the German/English interface language.
+Finnish names use the same retained workbook’s `Finnish` column: `python3 scripts/build-name-language.py --language fi --column Finnish`. `dist/languages/fi.json` contains 986 sourced names for the 994-species catalogue. The eight species without Finnish names are excluded whenever the question or answer requires Finnish; no names are guessed. Finnish names are also searchable and available in lookup. Scientific-name explanations for French and Finnish questions use the German/English interface language.
 
-French names use the retained workbook’s global `French` column: `python3 scripts/build-name-language.py --language fr --column French`. `dist/languages/fr.json` records the exact names and provenance for all 940 catalogue species. French is available for questions, answers, lookup and language-specific progress, independently of the German/English interface.
+French names use the retained workbook’s global `French` column: `python3 scripts/build-name-language.py --language fr --column French`. `dist/languages/fr.json` records the exact names and provenance for all 994 catalogue species. French is available for questions, answers, lookup and language-specific progress, independently of the German/English interface.
 
 `dist/name-languages.js` is the shared registry and resolver for names, labels, accepted alternatives and Unicode-aware answer comparison. To add another language, add its registry entry and a sourced JSON file in the same version-1 schema. Session and progress validation derive supported name targets from this registry. UI translations remain separate in `dist/i18n.js`; bird names marked `data-name-content` are never transformed by UI translation.
 
-Progress records retain the outer `species-id:target` keys: `:en`, `:de`, `:code`, `:nl`, `:fr`, `:fi` and `:sci`. Within each record, `contexts` separates question language and method family: text uses recall, flashcards use self-assessment, and direct choice/“Think first” share recognition. Changing direction or method family does not transfer secure status. See [Backup and restore flow](learning-and-storage.md#backup-and-restore-flow) for export contents and legacy compatibility.
+Progress records retain the outer `species-id:target` keys: `:en`, `:de`, `:code`, `:dda`, `:nl`, `:fr`, `:fi` and `:sci`. Within each record, `contexts` separates question language and method family: text uses recall, flashcards use self-assessment, and direct choice/“Think first” share recognition. Changing direction or method family does not transfer secure status. See [Backup and restore flow](learning-and-storage.md#backup-and-restore-flow) for export contents and legacy compatibility.
 
 New lessons save the selected names explicitly, so changing setup does not alter an existing queue. Legacy lessons recover their original question language on migration. Statistics use independent question-name, answer-name and method-family selectors for secure/due counts; aggregate answer totals retain historical answers across methods.
 
@@ -110,8 +110,9 @@ storage initialization. Opening/reading storage is bounded to ten seconds; late
 callbacks cannot publish state or start normal writes after a timeout. Backups use version 3; versions 1 and 2 remain importable. IndexedDB database version 1 remains unchanged.
 
 Round recovery uses the catalogue size and `RULES.maxRetries`: at most two initial
-targets per species, each with its permitted extra attempts (5,640 entries for
-940 species and two retries). Large v1/v2 rounds retain their queue, counters,
+targets per species, each with its permitted extra attempts. The limit is
+`speciesCount × 2 × (1 + RULES.maxRetries)`: 5,964 entries for the current
+994 species and two retries. Large v1/v2 rounds retain their queue, counters,
 feedback and draft instead of being discarded at the former 1,878-entry limit.
 
 `dist/progress-validation.js` owns shared record and daily-ledger validation;

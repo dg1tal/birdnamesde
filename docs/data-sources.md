@@ -2,14 +2,14 @@
 
 [Back to the README](../README.md)
 
-Reviewed against commit `62f79cb` on 20 November 2026.
+Reviewed against application commit `0058ab6` on 26 November 2026.
 
 Paths in code examples are relative to the repository root. UI labels use the English interface. Dated review reports retain their release-specific results; the thematic guides describe the documented current behavior.
 
 ## Scientific-name meanings
 
 Scientific-name meanings: `dist/scientific-names.json` supplies separate, concise
-editorial explanations of the genus and epithet for all 940 catalogue species, in German,
+editorial explanations of the genus and epithet for all 994 catalogue species, in German,
 English and Dutch. Explicit entries in `data/scientific-name-*.txt` are compiled by
 `python3 scripts/build-scientific-names.py`; `--check` verifies the tracked output.
 The reviewed source matches are recorded in
@@ -164,6 +164,15 @@ Search still includes every available language and alias. Results render 60 card
 at a time. Only German selections display the retained German status and notes;
 those national statements never become subregional breeding claims.
 
+The collapsed **All names for copying** section sits at the bottom of each lookup
+species card. It includes the current scientific name first, then every available
+name language with country flags, regardless of the displayed language selection.
+German alternatives are deduplicated; distinct British and US English names get
+separate lines. Missing names are omitted. **Copy names** writes the plain text to
+the clipboard; unavailable or denied clipboard access focuses and selects the
+read-only text field for manual copying. The format, escaping, language coverage
+and clipboard fallback are covered by `scripts/test-lookup-settings.mjs`.
+
 New species need no local picture: the existing gallery fallback handles missing
 media. Existing pictures and licences are retained. A species can only enter a
 study language pair if both required names exist, and code questions require an
@@ -183,7 +192,22 @@ The [quick-code policy](#official-quick-code-policy) describes the mixed source 
 
 Run `python3 scripts/audit-codes.py` to validate all catalogue code fields against the saved literal source records and regenerate [quick-code-audit.json](quick-code-audit.json). The report lists every ambiguous code, its species and source types. In the current 994-species catalogue, 218 of 2,069 distinct accepted codes match multiple species. There are 45 common-name/banding collisions and 14 scientific/banding collisions (categories can overlap). Adding banding codes to scientific and common-name codes creates 49 additional ambiguous codes; some ambiguities already exist within a single source type. These are catalogue counts, not worldwide counts. Three-letter source entries are outside the app's four-letter code policy.
 
-Banding codes use teal badges in lookup and learning answers. Scientific codes retain purple badges; a code with both roles keeps purple and lists both roles in its accessible description and tooltip. Other badges represent English quick codes. A bilingual legend shows only the source types present on that card, labelled scientific, eBird and banding, in the matching badge style using smaller proportional text. It warns that codes can match multiple species. Each ambiguous code lists the other species from the complete app catalogue in its tooltip and accessible description; badge colours describe the source type for the current species, regardless of roles at other species. Accepted answers and code ordering are unchanged.
+Banding codes use teal badges, scientific codes use purple, English-name eBird
+codes use their own palette, and DDA abbreviations use blue. A code with both
+scientific and banding origins uses a single split-colour badge, with both origins
+in its accessible description, tooltip and a text explanation. Reference cards
+combine eBird and available DDA codes; accepted-answer cards show only the selected
+code system. eBird badges are displayed in scientific, English-name and banding
+groups, preserving the source ranking within each group. The accepted code values
+and stored source ranking are unchanged.
+
+The bilingual colour key includes origins from the species and its expandable
+collision list. Each ambiguous code lists other matching species from the complete
+catalogue, with a badge carrying that species' own provenance, as well as naming
+the matches in the original badge's tooltip and accessible description. A warning
+explains that codes can match multiple species. See the [23 November layout
+review](layout-review-20261123.md) for the shared row, complete collision legend
+and answer-system separation checks.
 
 ## Species photos and illustrations
 

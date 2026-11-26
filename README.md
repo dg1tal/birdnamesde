@@ -6,7 +6,7 @@ Look up bird names and learn them with short, spaced-repetition practice rounds.
 
 ## Features on mobile
 
-Current interface, reviewed on 20 November 2026. The screenshots below use the German interface in a mobile browser viewport.
+The screenshots below show the German interface as captured on 20 November 2026. Later card-layout changes are documented in the [23 November layout review](docs/layout-review-20261123.md); the screenshots have not been refreshed for those changes or the new name-copying control.
 
 <table>
   <tr>
@@ -50,6 +50,10 @@ Current interface, reviewed on 20 November 2026. The screenshots below use the G
 Captured on 20 November 2026 at 430 × 932 CSS pixels using a separate local preview. Lookup and feedback are scrolled to show their details. Statistics show a completed three-question example round; the next-review date belongs to that example. These are browser viewport captures, not physical-device tests. Click an image to view it at full size.
 
 Photos visible in the feedback screenshot: Charles J. Sharp, [male](https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_male_Drenthe.jpg) and [female](https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_female_Drenthe.jpg) Great Spotted Woodpecker, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+## Copy bird names
+
+At the bottom of a lookup species card, open **All names for copying** and choose **Copy names**. The text starts with the current scientific name, followed by all available name languages, including German alternatives and distinct British/US English names. It includes languages hidden by the lookup display settings. If clipboard access is unavailable, the app selects the text for manual copying.
 
 ## Save birds for later practice
 
@@ -140,7 +144,9 @@ The photos and illustrations in `dist/images/` retain their individual licenses 
 | [Deployment and regional data](docs/deployment-and-regions.md) | GitHub Pages, regional API refresh, seasonal selection and current reports |
 | [Private EBD import](docs/ebd-import.md) | Aggregate calculation, review and activation; raw records remain outside Git |
 | [Search design](docs/search-design-20261108.md) | Multilingual lookup ranking and match provenance |
-| [Current UI review](docs/ui-review-20261120.md) | Mobile navigation, controls, answer cards, contents lists and verification limits |
-| [Documentation and screenshot review](docs/documentation-review-20261120.md) | Current documentation corrections and README capture provenance |
+| [App-wide UI review · 20 November](docs/ui-review-20261120.md) | Mobile navigation, controls, answer cards, contents lists and verification limits |
+| [Card layout review · 23 November](docs/layout-review-20261123.md) | Compact learning cards, code legends, collision lists and viewport screenshots |
+| [Documentation review · 26 November](docs/documentation-review-20261126.md) | Current catalogue counts, copying, code display and documentation verification |
+| [README screenshot provenance · 20 November](docs/documentation-review-20261120.md) | Capture states, dates and verification limits for the README gallery |
 
 Dated reviews in `docs/` record the scope and results of individual releases. Start with the thematic guides above for current behavior.

@@ -2,7 +2,7 @@
 
 [Back to the README](../README.md)
 
-Reviewed against commit `62f79cb` on 20 November 2026.
+Reviewed against application commit `0058ab6` on 26 November 2026.
 
 Paths in code examples are relative to the repository root. UI labels use the English interface. Dated review reports retain their release-specific results; the thematic guides describe the documented current behavior.
 
@@ -15,7 +15,7 @@ Paths in code examples are relative to the repository root. UI labels use the En
 - `dist/practice-queue.js`: custom and direct-continuation practice queues.
 - `dist/learning-method.js`: bilingual learning-method explanations and research references.
 - `dist/learning-selection-copy.js`: shared species-selection and daily introduction wording.
-- `dist/app.js`: lookup, daily/custom learning, text/flashcard/direct-choice/think-first answers, IndexedDB persistence, statistics, JSON export/import and theme.
+- `dist/app.js`: lookup and name copying, daily/custom learning, text/flashcard/direct-choice/think-first answers, IndexedDB persistence, statistics, JSON export/import and theme.
 - `dist/study-state.js`: serializable lesson recovery, single grading and separate first-question/retry progress.
 - `dist/style.css`: shared responsive layout, light/dark themes and mobile controls.
 - `dist/lookup-settings.js`: persisted geography, title/sort language and additional-name selection.
@@ -106,7 +106,14 @@ The report frame contained no scripts and an unloaded stylesheet (`link.sheet` w
 
 The current layout uses a shared bird mark, navigation icons, view headings, surfaces and controls in both themes. Phones group language/theme controls under **Display**, stack narrow filters and use 16px form text. Image credits/name-source disclosures have touch-sized targets. Information pages have collapsible contents lists; native dialogs keep Close reachable even with long species names. The generated seasonal page shares theme handling and keeps wide tables internally scrollable.
 
-See [the app-wide 20 November review](ui-review-20261120.md) and [the README capture/review record](documentation-review-20261120.md). The latter records fresh viewport screenshots, not a repeat of every earlier device-size or accessibility check.
+See [the app-wide 20 November review](ui-review-20261120.md) and the later
+[23 November card-layout review](layout-review-20261123.md) for compact learning
+cards, the shared code row, collision legends and viewport screenshots. The
+[README capture record](documentation-review-20261120.md) describes the gallery
+as captured on 20 November; those images predate the later layout and name-copying
+changes. The [26 November documentation review](documentation-review-20261126.md)
+checks the guides against current code and data without claiming a new browser,
+device-size or accessibility audit.
 
 ## Earlier UI reviews
 
