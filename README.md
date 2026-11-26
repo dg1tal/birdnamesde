@@ -6,14 +6,14 @@ Look up bird names and learn them with short, spaced-repetition practice rounds.
 
 ## Features on mobile
 
-The screenshots below show the German interface as captured on 20 November 2026. Later card-layout changes are documented in the [23 November layout review](docs/layout-review-20261123.md); the screenshots have not been refreshed for those changes or the new name-copying control.
+The screenshots below show the current German interface, captured on 26 November 2026. They include the compact learning cards and current code legends; the name-copying view is shown below the gallery.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>Find names across languages</h3>
       <p>Search names and codes, then open a species to compare German, English, Dutch, French, Finnish and scientific names.</p>
-      <a href="docs/screenshots/mobile-lookup.jpg"><img src="docs/screenshots/mobile-lookup.jpg" width="280" alt="Expanded mobile lookup card for Blaumeise with English, Dutch, French, Finnish and scientific names plus official codes"></a>
+      <a href="docs/screenshots/mobile-lookup.jpg"><img src="docs/screenshots/mobile-lookup.jpg" width="280" alt="Expanded Blaumeise lookup card with multilingual names, scientific and English eBird codes, DDA abbreviation and the collapsed name-copying control"></a>
     </td>
     <td width="50%" valign="top">
       <h3>Build a daily learning habit</h3>
@@ -25,19 +25,19 @@ The screenshots below show the German interface as captured on 20 November 2026.
     <td width="50%" valign="top">
       <h3>Practise bird names</h3>
       <p>Think first, then reveal the choices. Text input, flashcards and direct multiple choice are also available.</p>
-      <a href="docs/screenshots/mobile-practice.jpg"><img src="docs/screenshots/mobile-practice.jpg" width="280" alt="Mobile German-to-English think-first question for Buntspecht after revealing four answer choices"></a>
+      <a href="docs/screenshots/mobile-practice.jpg"><img src="docs/screenshots/mobile-practice.jpg" width="280" alt="Compact German-to-English think-first question for Eichelhäher with four revealed choices and the mobile progress and action bars"></a>
     </td>
     <td width="50%" valign="top">
       <h3>Keep track of your progress</h3>
       <p>View started species, secure learning targets and scheduled reviews using independent language and method selectors.</p>
-      <a href="docs/screenshots/mobile-progress.jpg"><img src="docs/screenshots/mobile-progress.jpg" width="280" alt="Mobile learning statistics after a three-question example round, showing the language and method selectors and next scheduled review"></a>
+      <a href="docs/screenshots/mobile-progress.jpg"><img src="docs/screenshots/mobile-progress.jpg" width="280" alt="Mobile learning statistics with language, code-system and method selectors, three started species, no secure names and the example's next scheduled review"></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>Understand each answer</h3>
       <p>Feedback separates the accepted name, scientific reference and official codes. Pictures and their credits follow, with further explanations below.</p>
-      <a href="docs/screenshots/mobile-feedback.jpg"><img src="docs/screenshots/mobile-feedback.jpg" width="280" alt="Correct Buntspecht answer with Great Spotted Woodpecker, Dendrocopos major, official codes and a credited comparison photo"></a>
+      <a href="docs/screenshots/mobile-feedback.jpg"><img src="docs/screenshots/mobile-feedback.jpg" width="280" alt="Complete correct Eichelhäher answer with Eurasian Jay, Garrulus glandarius, eBird and DDA codes, a credited photo, folded explanations and the Next action"></a>
     </td>
     <td width="50%" valign="top">
       <h3>Save birds for later</h3>
@@ -47,13 +47,17 @@ The screenshots below show the German interface as captured on 20 November 2026.
   </tr>
 </table>
 
-Captured on 20 November 2026 at 430 × 932 CSS pixels using a separate local preview. Lookup and feedback are scrolled to show their details. Statistics show a completed three-question example round; the next-review date belongs to that example. These are browser viewport captures, not physical-device tests. Click an image to view it at full size.
+Captured on 26 November 2026 at 430 × 932 CSS pixels, in the light theme, using a separate local preview. Lookup is scrolled to show the species details; the feedback card fits in one viewport. Statistics show a completed three-question example round with Eichelhäher, Tannenmeise and Kampfläufer; the next-review date belongs to that example. These are unedited browser viewport captures, not physical-device tests. Click an image to view it at full size. See the [capture record](docs/readme-screenshots-20261126.md) for states and verification limits.
 
-Photos visible in the feedback screenshot: Charles J. Sharp, [male](https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_male_Drenthe.jpg) and [female](https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_female_Drenthe.jpg) Great Spotted Woodpecker, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+Photo visible in the feedback screenshot: I, Luc Viatour, [Eurasian Jay (*Garrulus glandarius*)](https://commons.wikimedia.org/wiki/File:Garrulus_glandarius_1_Luc_Viatour.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
 ## Copy bird names
 
 At the bottom of a lookup species card, open **All names for copying** and choose **Copy names**. The text starts with the current scientific name, followed by all available name languages, including German alternatives and distinct British/US English names. It includes languages hidden by the lookup display settings. If clipboard access is unavailable, the app selects the text for manual copying.
+
+<a href="docs/screenshots/mobile-copy-names.jpg"><img src="docs/screenshots/mobile-copy-names.jpg" width="280" alt="Expanded Amsel name-copying section with Turdus merula, Schwarzdrossel, British and US English names, Dutch, French and Finnish names, and the successful copy confirmation"></a>
+
+The Amsel example is scrolled to the copying section. All seven lines are visible, and **Namen kopiert.** (“Names copied”) confirms the clipboard action.
 
 ## Save birds for later practice
 
@@ -147,6 +151,6 @@ The photos and illustrations in `dist/images/` retain their individual licenses 
 | [App-wide UI review · 20 November](docs/ui-review-20261120.md) | Mobile navigation, controls, answer cards, contents lists and verification limits |
 | [Card layout review · 23 November](docs/layout-review-20261123.md) | Compact learning cards, code legends, collision lists and viewport screenshots |
 | [Documentation review · 26 November](docs/documentation-review-20261126.md) | Current catalogue counts, copying, code display and documentation verification |
-| [README screenshot provenance · 20 November](docs/documentation-review-20261120.md) | Capture states, dates and verification limits for the README gallery |
+| [README screenshots · 26 November](docs/readme-screenshots-20261126.md) | Current gallery, copying example, capture states and verification limits |
 
 Dated reviews in `docs/` record the scope and results of individual releases. Start with the thematic guides above for current behavior.

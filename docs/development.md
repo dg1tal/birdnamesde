@@ -109,9 +109,10 @@ The current layout uses a shared bird mark, navigation icons, view headings, sur
 See [the app-wide 20 November review](ui-review-20261120.md) and the later
 [23 November card-layout review](layout-review-20261123.md) for compact learning
 cards, the shared code row, collision legends and viewport screenshots. The
-[README capture record](documentation-review-20261120.md) describes the gallery
-as captured on 20 November; those images predate the later layout and name-copying
-changes. The [26 November documentation review](documentation-review-20261126.md)
+[26 November README capture record](readme-screenshots-20261126.md) documents
+seven current mobile viewport screenshots, including the compact answer card
+and successful name copying. The [20 November capture record](documentation-review-20261120.md)
+links its archived images. The [26 November documentation review](documentation-review-20261126.md)
 checks the guides against current code and data without claiming a new browser,
 device-size or accessibility audit.
 

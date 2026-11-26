@@ -5,6 +5,10 @@ and deployment guides against application commit `0058ab6`, its tracked datasets
 and the current Pages workflow. Earlier dated reports retain their original
 release scope and verification results.
 
+The subsequent [README screenshot refresh](readme-screenshots-20261126.md)
+replaces the gallery and documents a separate browser capture pass. The checks
+and screenshot limitations below describe the preceding documentation-only update.
+
 ## Corrections and additions
 
 - Corrected current coverage to 994 catalogue species, 986 Finnish names (eight
