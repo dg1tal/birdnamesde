@@ -1,17 +1,15 @@
 # Private EBD import and active seasonal release
 
-The EBD importer prepares an intermediate aggregate for review. Since the release
-of 5 November 2026, `scripts/build-ebd-seasonal.py` uses the reviewed aggregate to
-generate the active `dist/seasonal-species.json`, its provenance/terms, and the
-bilingual method and coverage page. The app's daily API refresh is unchanged.
-Learning progress and existing rounds are retained. New seasonal rounds snapshot
-`ebd-relSepOct-2026-2021-2025-catalog-v3`; old rounds without source metadata stay unassigned.
+[README](../README.md)
+
+`import-ebd.py` streams private ZIP archives into a reviewable aggregate.
+`build-ebd-seasonal.py` publishes seasonal groups, provenance, terms and the
+bilingual coverage page. The active dataset is
+`ebd-relSepOct-2026-2021-2025-catalog-v3`. Raw EBD stays outside Git and Pages.
 
 ## Reproduce
 
-Use completed country archives explicitly, never a directory glob while downloads
-are in progress. Run these commands from the repository root. The examples use
-`$HOME/EBD/downloads/` for private archives; adjust that directory to your local setup.
+Run from the repository root with completed archives named explicitly:
 
 ```sh
 python3 scripts/import-ebd.py \
@@ -26,170 +24,114 @@ python3 scripts/build-ebd-seasonal.py --check
 python3 scripts/check-private-ebd.py
 ```
 
-The outputs are `data/ebd-seasonal-preview.json` and its adjacent `.terms.txt`.
-`--output /private/tmp/ebd-preview.json` can be used for a local review instead.
-Only ZIP members for sampling events, accepted observations, citation and terms
-are read. Observation data are never extracted, copied into Git or sent over the
-network. Full observation and sampling streams are read to EOF, checking ZIP CRCs;
-archive SHA-256, size and modification-time checks document source integrity.
-GB is larger than DE and NL combined; processing can take several minutes.
+The importer writes `data/ebd-seasonal-preview.json` and adjacent `.terms.txt`;
+use `--output /tmp/ebd-preview.json` for a separate review. It reads sampling,
+accepted-observation, citation and terms members to EOF and verifies ZIP CRCs,
+SHA-256, size and modification time. Raw records are never extracted or uploaded.
+Processing the UK archive can take several minutes. Date-filtered ZIPs must cover
+the full 2021–2025 period.
 
 ## Selection and calculation
 
-- Period: 2021–2025, matching the existing seasonal baseline. The September 2026
-  release also contains 2026 observations, which are deliberately excluded.
-- Complete checklists only (`ALL SPECIES REPORTED = 1`); observation types
-  Stationary, Traveling and Area. Specialized surveys, incidental and historical
-  protocols are excluded. No additional duration/distance filter is imposed.
-- One actual complete checklist per shared group, chosen by the lexicographically
-  smallest sampling-event identifier. Selection is independent of archive row order;
-  records from other copies are not unioned into the selected list. Complete,
-  eligible lists without catalog detections remain in the denominator.
-- Accepted (`APPROVED = 1`) positive counts and `X` presence records only. Escapees
-  (`EXOTIC CODE = X`) are excluded; naturalized and provisional exotic codes remain.
-- Species and supported infraspecific records are mapped through exact taxon
-  concept IDs in `data/taxonomy.csv` and its official `REPORT_AS` species links.
-  Multiple taxon records for a species on one checklist count only once. Hybrids,
-  slash taxa and unidentified taxa are excluded. An unknown concept with an exact
-  catalog scientific name stops the import for review rather than guessing a map.
-- Reporting frequency is the number of selected checklists reporting a species
-  divided by **all** selected complete checklists for that region/season. It is
-  not an individual count, population estimate or detection probability. Missing
-  approved records are not evidence of true absence; sensitive data may be withheld.
-- Groups: frequent ≥10%, medium ≥1% and <10%, rare >0% and <1%. Zero detections
-  do not form a group. Groups are retained even below the sample gate, for inspection;
-  the app applies ≥300 checklists and ≥3 years with ≥100 checklists each.
-- Winter uses December, January and February of each calendar year, matching the
-  existing app convention. Other seasons are March–May, June–August, September–November.
-- Country and first-level regional aggregates are generated for DE, NL, GB, FI and FR. Local aggregates follow
-  `data/region-countries.json`: Garmisch-Partenkirchen in DE, all source local regions
-  in GB, none in NL, FI or FR. Source county codes outside their declared state are omitted
-  from local rollups and counted in the audit; country/state evidence is retained.
+- **Period/seasons:** 2021–2025. Winter is December/January/February of each
+  calendar year; spring March–May, summer June–August, autumn September–November.
+- **Checklists:** `ALL SPECIES REPORTED = 1`, Stationary/Traveling/Area only.
+  No extra duration/distance filter. For each shared group choose the actual
+  checklist with the lexicographically smallest sampling-event ID; never union
+  copies. Eligible lists without catalogue detections stay in the denominator.
+- **Observations:** `APPROVED = 1`, positive counts or `X` presence. Exclude
+  escapees (`EXOTIC CODE = X`); retain naturalized/provisional exotic codes.
+- **Taxa:** exact concept IDs and REPORT_AS links in `data/taxonomy.csv`, plus
+  reviewed tuples in `data/ebd-taxon-crosswalk.json`. Deduplicate species per
+  checklist. Exclude hybrids, slash/unidentified taxa and unsupported concepts.
+  Unknown concepts sharing a catalogue scientific name stop import for review.
+- **Frequency:** checklists reporting the species divided by all eligible
+  independent complete checklists in that region/season. Frequent ≥10%,
+  Medium 1–<10%, Rare >0–<1%; zero detections form no group.
+- **Sample gate:** ≥300 independent complete checklists overall and ≥3 years
+  with ≥100 each. Preview groups below the gate remain inspectable; the app
+  uses its labelled regional-occurrence fallback.
+- **Geography:** country/first-level regions for DE/NL/GB/FI/FR; local rollups for
+  Garmisch-Partenkirchen and configured UK regions. County/state mismatches omit
+  the local rollup but retain country/state evidence and an audit count.
 
-These rules can produce different counts and group membership from histogram
-exports. The import is a reproducible educational selection, not a reconstruction
-of eBird's bar charts or a statistical abundance model.
+Reporting frequency is not abundance or detection probability. Sensitive data
+may be withheld; missing accepted records do not establish absence. These groups
+can differ from eBird histogram exports.
 
-## Source acknowledgement and citation
+## Coverage
 
-Source attribution was checked on 5 November 2026 against the supplied archive
-terms and the [official eBird citation guidance](https://science.ebird.org/en/use-ebird-data/citation).
-The terms require full and appropriate acknowledgement and citation in materials
-and publications derived wholly or partly from eBird data; the dataset supplies
-the relevant citation. The EBD-specific guidance explicitly points to the supplied
-`recommended_citation.txt` rather than the generic website citation.
-
-The September archives contain this citation, reproduced verbatim:
-
-> eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026.
-
-The Finnish and French October archives supply their separate citation:
-
-> eBird Basic Dataset. Version: EBD_relOct-2026. Cornell Lab of Ornithology, Ithaca, New York. Oct 2026.
-
-Both exact citations and each country’s source release are published. Their supplied terms are identical; the releases are not relabelled as one source month.
-
-The general project reference identified by the citation guidance is also included:
-
-Sullivan, B.L., C.L. Wood, M.J. Iliff, R.E. Bonney, D. Fink, and S. Kelling. 2009. eBird: a citizen-based bird observation network in the biological sciences. Biological Conservation 142: 2282-2292.
-[DOI](https://doi.org/10.1016/j.biocon.2009.05.006).
-
-The original bibliography in `dist/species.json` concerns taxonomy, names and the
-editorial species catalogue. It remains applicable. EBD supplies the seasonal
-groups; the API supplies regional occurrence lists and current notable reports.
-The retired histogram exports are not presented as the active seasonal source.
-No Status and Trends product or GBIF/EOD release is used for this EBD analysis.
-
-`data/ebird-citation.json` retains the source/guidance links, project reference and
-bilingual acknowledgement to Cornell and the eBird contributors. The generator
-copies the source credits and supplied dataset citation into both published JSON
-artifacts and the method page. The citation-guidance URL is retained here as a
-development verification reference, not published as a data-source credit. The main information page displays the same credits.
-The README and this document include the dataset citation for repository users.
-
-## Public repository and terms
-
-Raw archives stay under `$HOME/EBD/`, outside Git. The public preview contains
-regional names/codes, grouped catalog species IDs, annual sample totals, methods,
-source hashes and citation. It contains no checklist IDs, observer IDs, coordinates,
-comments or individual observation dates. Source archive names are not download links.
-
-The preview and accompanying terms are excluded from the project's MIT code licence.
-They are derived eBird data and remain under the complete terms copied from the
-archives in `data/ebd-seasonal-preview.terms.txt`, also available at
-<https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/>.
-The intended educational use matches the purpose declared in the user's data request.
-There is no endorsement by Cornell or eBird. When the EBD-derived product is published,
-the supplied terms also require an electronic copy to be sent to eBird. No message is
-sent automatically by the importer or this workflow.
-
-The ignore rules and `check-private-ebd.py` catch archives and typical raw filenames;
-the guard also checks the first line for a raw observation/sampling header, including
-renamed files. Run it before committing, since a CI check cannot undo a public push.
-The Pages workflow publishes only `dist/`. The intermediate preview is not fetched
-by the app; the compact active aggregates, source terms and provenance are public.
-
-## Import reviewed on 5 November 2026
-
-All three September 2026 archives were read successfully, with no unresolved catalog
-taxon concepts. The resulting preview covers 144 currently configured regions.
-
-| Country | Independent complete checklists, 2021–2025 | Regional aggregates |
-| --- | ---: | ---: |
-| Germany | 323,771 | 18 |
-| Netherlands | 111,224 | 13 |
-| United Kingdom | 1,377,253 | 113 |
-
-The country aggregates pass the sample gates in all four seasons. Fifteen of the
-16 German states pass in all seasons; Saarland passes in none. Garmisch-Partenkirchen
-passes in spring/summer. Eleven Dutch provinces pass in all seasons; Drenthe passes
-in spring/summer only. All four UK constituent countries pass in all seasons;
-individual local regions still require their own sample gate.
-
-There were 49 eligible German sampling rows with a county/state hierarchy mismatch;
-the county rollup was omitted as described above. The two other archives had none.
-The archived source names and hashes, total input rows, pre/post-group checklist
-counts, annual samples and per-season groups are recorded in the preview itself.
-
-## Activation and future updates
-
-`data/ebd-region-match.json` retains the minimal public API labels and hierarchy
-reviewed for activation (145 selectable regions). Every EBD code matches exactly;
-GB-ENG-HAL has no historical sample. No name-based or nearest-region substitution is
-performed. New API regions without matching EBD data use the existing regional-list
-fallback. The published coverage page includes the reviewed hierarchy, with explicit
-zero-sample fallback cells for Halton.
-
-Run the builder after a reviewed import. It rejects changed periods, selection
-thresholds, unexpected releases, unresolved catalog concepts, overlapping groups,
-inconsistent annual samples or source codes missing from the reviewed hierarchy.
-It generates all four published artifacts together. `--check` in CI detects stale
-artifacts; daily API refreshes never modify the historical aggregates. New EBD
-releases require a new dataset ID and review of the source period and metadata. The current builder explicitly requires the reviewed September sources for DE/NL/GB and October sources for FI/FR; other release combinations are rejected.
-
-The historical histogram builder is retained only for archival reproduction;
-invoking it overwrites seasonal outputs and will fail the active EBD artifact check.
-To roll back an app release, restore all matching data/code/method/cache-version
-changes from Git together. Learning storage does not require migration or reset.
-
-The catalogue expansion on 5 November 2026 reran all three archives for the 940-species country union. Published seasonal data and dataset metadata now carry the catalogue fingerprint. Denominators, independent-checklist selection, source release, period and frequency thresholds are unchanged.
-
-
-## Finland and France activation, 24 November 2026
-
-The date-filtered country ZIP names (`202101_202512`) are accepted only when they cover the complete existing analysis period. All five completed archives were read to EOF and checked by ZIP CRC, SHA-256, size and modification time. The preceding 144 DE/NL/GB regional seasonal values and denominators reproduce exactly; no existing frequency group changed.
-
-| Country | Source release | Independent complete checklists, 2021–2025 | Regional aggregates |
+| Country | Source release | Independent complete checklists | Aggregates |
 | --- | --- | ---: | ---: |
+| Germany | September 2026 | 323,771 | 18 |
+| Netherlands | September 2026 | 111,224 | 13 |
+| United Kingdom | September 2026 | 1,377,253 | 113 |
 | Finland | October 2026 | 111,255 | 20 |
 | France | October 2026 | 238,323 | 14 |
 
-Both country-wide selections pass the sample gate in all four seasons. All 13 French regions pass in all seasons. Of Finland’s 19 regions, seven pass all four seasons, five pass some seasons and seven pass none. Insufficient region/seasons keep the labelled regional-occurrence fallback. The active data now contain 178 exact regional aggregates. The reviewed live API hierarchy has 191 regions; 13 UK local codes have no historical sample and fall back explicitly.
+All national selections pass in every season. Regional exceptions: Saarland
+passes none; Garmisch-Partenkirchen and Drenthe pass spring/summer only. All UK
+constituent countries and all 13 French regions pass all seasons. Finland has
+seven regions passing all seasons, five some, and seven none. Local UK regions
+need their own gate. The preview records annual/per-season samples and groups.
 
-`data/ebd-taxon-crosswalk.json` records six exact source-concept/category/EBD-name tuples reviewed against the checksum-pinned official 2026 workbook and Cornell’s taxonomic accounts. Four newly defined/revised infraspecific groups roll up to unchanged retained species. The narrower 2026 European Robin concept and a new Mediterranean Flycatcher subgroup intentionally roll up to the broader retained 2025 species; they are not treated as equivalent concepts. Unknown concepts do not gain a name-only match. Category/name drift for a reviewed concept stops the import. Ambiguous domestic goose aggregates and out-of-catalogue swift concepts remain excluded.
+## Activation and future updates
 
-The full October source taxon inventory was checked for additional missing descendants, including source names differing from the retained species name. The extra flycatcher subgroup occurs in the archive but has no eligible accepted observation in the selected independent complete checklists; its reviewed mapping is tested explicitly. The existing 2025 REPORT_AS mappings already cover the two 2026 flycatcher species concepts. Bitset deduplication keeps multiple source taxa on one checklist to one retained-species detection.
+`data/ebd-region-match.json` records the reviewed 191-region API hierarchy.
+All 178 aggregates match exact IDs; 13 UK codes lack historical samples. There
+is no name/nearest-region substitution. The coverage page shows fallbacks.
 
-The source crosswalk hash and per-concept rollup row counts are recorded in the preview provenance. Activation rejects mismatched crosswalk hashes, country releases, citations or missing national aggregates. Published method and information pages show all five countries and both supplied source citations. New round snapshots store the selected country’s exact release. Existing paused rounds, progress and their earlier dataset metadata remain unchanged.
+The builder rejects changed periods/thresholds, unexpected releases, unresolved
+concepts, overlapping groups, inconsistent samples, missing national aggregates,
+crosswalk/citation mismatches and codes absent from the hierarchy. Review new
+releases and assign a new dataset ID. Generate all four published artifacts
+together; `--check` detects stale outputs. Daily API refreshes do not alter EBD
+aggregates. New rounds snapshot sources; paused rounds retain their earlier queue
+and metadata, including absent source metadata on legacy rounds.
 
-Validation for the five-country activation: all 32 Node regression scripts, the npm smoke test, all 62 Python tests, catalogue/DDA/scientific-name/EBD reproducibility checks and media validation pass. Browser QA verified the national autumn defaults (Finland 127 species, France 167) and the explicit Åland fallback (243 historical autumn checklists, no year reaching 100), without affecting a saved production lesson. Raw archives remain outside the repository.
+The October import added FI/FR without changing the 144 DE/NL/GB aggregates.
+Six reviewed concept/category/name tuples roll up revised infraspecific groups
+and narrower 2026 Robin/Flycatcher concepts into retained 2025 species. These are
+rollups, not claims of equivalent concepts. Category/name drift stops import;
+ambiguous domestic geese and out-of-catalogue swifts remain excluded. The crosswalk
+hash and per-concept counts are recorded in preview provenance.
+
+`build-seasonal.py` is the retired histogram builder; it overwrites active outputs
+and fails the EBD reproducibility check. Rollbacks must restore matching code,
+data, method page and cache versions together; learning storage needs no reset.
+
+## Source acknowledgement and citation
+
+Use the archives' `recommended_citation.txt`, as specified by the
+[eBird citation guidance](https://science.ebird.org/en/use-ebird-data/citation):
+
+> eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026.
+
+> eBird Basic Dataset. Version: EBD_relOct-2026. Cornell Lab of Ornithology, Ithaca, New York. Oct 2026.
+
+General reference: Sullivan, B.L., C.L. Wood, M.J. Iliff, R.E. Bonney, D. Fink, and
+S. Kelling. 2009. eBird: a citizen-based bird observation network in the biological
+sciences. Biological Conservation 142: 2282–2292.
+[DOI](https://doi.org/10.1016/j.biocon.2009.05.006).
+
+`data/ebird-citation.json` supplies these credits and the acknowledgement to
+Cornell and eBird contributors for the generated JSON/method/information pages.
+Each country's release remains explicit. EBD supplies seasonal groups; the API
+supplies regional/current records; `species.json` retains taxonomy/name sources.
+
+## Public repository and terms
+
+The preview publishes region labels/codes, grouped species IDs, sample totals,
+methods, hashes and citations. It contains no checklist/observer IDs, coordinates,
+comments or individual observation dates. Only compact aggregates, provenance and
+terms are served by the app; the preview itself is not fetched.
+
+Derived data are outside the MIT code licence and retain the full archive terms
+in `data/ebd-seasonal-preview.terms.txt` and `dist/ebd-terms.txt`, also available at
+[eBird Data Access Terms](https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/).
+Attribution does not imply endorsement. The supplied terms require an electronic
+copy of the published derived product to be sent to eBird; tooling sends no message.
+
+Keep raw archives under `$HOME/EBD/` or another directory outside Git.
+`check-private-ebd.py` checks filenames and raw observation/sampling headers;
+run it before committing. The educational use follows the declared data request.

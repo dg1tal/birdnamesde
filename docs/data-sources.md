@@ -1,136 +1,34 @@
 # Data sources and reproduction
 
-[Back to the README](../README.md)
-
-Reviewed against application commit `0058ab6` on 26 November 2026.
-
-Paths in code examples are relative to the repository root. UI labels use the English interface. Dated review reports retain their release-specific results; the thematic guides describe the documented current behavior.
-
-## Scientific-name meanings
-
-Scientific-name meanings: `dist/scientific-names.json` supplies separate, concise
-editorial explanations of the genus and epithet for all 994 catalogue species, in German,
-English and Dutch. Explicit entries in `data/scientific-name-*.txt` are compiled by
-`python3 scripts/build-scientific-names.py`; `--check` verifies the tracked output.
-The reviewed source matches are recorded in
-[scientific-name-feasibility-20261107.json](scientific-name-feasibility-20261107.json). Jobling (2010) is the main
-etymological reference; individual pages and supplementary publications are linked
-with the explanations. No source dictionary text is bundled. Glosses are short
-editorial renderings, not translations of entire entries or new accepted answers.
-Uncertain derivations are marked. `data/scientific-name-overrides.json` resolves
-taxon-specific homonyms: the two Fischers, the two Naumanns, and the different
-Sandwich localities. Generic and specific names have separate case-sensitive
-entries; meanings are never inferred by stripping suffixes at runtime.
-
-The 23 November 2026 revision adds source languages, attested source words and
-the constituents of compounds, rather than stopping at a translated meaning.
-Diminutives explain their base word; borrowed bird names give the recorded form
-and language where known. Historical genus combinations are distinguished from
-direct lexical compounds. Ambiguous ancient bird names and disputed derivations
-are not assigned speculative roots. The review record and coverage are in
-[scientific-name-depth-review-20261123.json](scientific-name-depth-review-20261123.json).
-A subsequent [targeted content review](scientific-name-content-review-20261123.json)
-checked 20 terms, including 16 previously marked uncertain, and corrected or
-qualified nine explanations in all three languages. In particular, the robin’s
-`rubecula` now distinguishes the diminutive analysis from a competing historical
-hypothesis rather than presenting one word formation as settled.
-The subsequent [systematic uncertainty review](scientific-name-uncertainty-review-20261123.json)
-covers all 31 remaining marked terms: together, these two content reviews cover
-every term marked uncertain at the start of that pass. Thirty existing glosses
-were revised in German, English and Dutch; `kundoo` was retained as unresolved.
-The shared epithet `biarmicus` now has separate reedling/falcon histories, while
-`rubetra` distinguishes its documented word formation from uncertain historical
-bird identifications. The review lists consulted passages and unavailable sources.
-
-The [systematic review of previously unmarked terms](scientific-name-unmarked-review-20261123.json)
-then covered all 1,191 remaining entries: 389 genera and 802 epithets, including
-taxon-specific overrides. It revised 49 explanations in German, English and Dutch,
-corrected reference records for ten terms, and added 18 uncertainty markers.
-In total, 55 entries used by 76 species changed; the earlier 47 uncertain entries
-were retained unchanged. Corrections include `Acrocephalus` (high rather than
-pointed head), the bird/plant distinction in `Junco`, diminutives in `Glareola`
-and `Dumetella`, and taxon-specific readings of `pilaris` and `phoenicuroides`.
-Competing analyses for `Entomyzon`, `moschata`, `philomelos` and `Thalasseus`
-are attributed and qualified. `Sibirionetta` now cites Boetticher’s original
-1929 proposal; the `audouinii` dedication cites Payraudeau, with BnF restricted
-to person identity. The per-term report records consulted entries, cross-references,
-source-spelling variants and before/after hashes. It also distinguishes fresh
-full-text checks from the published abstract used for `richardi` and the earlier
-DHLE finding carried forward for `aura`, whose page was unavailable in this pass.
-
-The [26 November source comparison](scientific-name-source-comparison-20261126.json)
-queried Jobling’s online *Key to Scientific Names* for every current and alternate
-name component in the 994-species catalogue. It compared search entries with the
-2010 dictionary and the existing explanations. The electronic edition of
-Beolens, Watkins and Grayson’s *The Eponym Dictionary of Birds* was checked
-through the publisher preview up to printed page 61. The review records the
-scope for each source and identifies all 29 revised explanations. Among other
-changes, it identifies the Bavarian prince honoured in `adalberti` and records
-the original contexts of `theklae`, `Suthora` and `peposaca`. The newly reported
-Tamil derivation of `kundoo` remains a proposal.
-
-Further literature suggested by the user: Viktor Wember (2005), *Die Namen der
-Vögel Europas. Bedeutung der deutschen und wissenschaftlichen Namen*,
-Aula-Verlag, Wiebelsheim, ISBN 3-89104-678-2. The publication was checked
-bibliographically against the [Hamburg ornithological book review](https://ornithologie-hamburg.de/buchbesprechungen?start=50).
-Its full text was not available for this revision, so it is recorded as further
-reading and is not presented as a consulted source for individual derivations.
-
-The follow-up review is recorded in [scientific-name-followup-20261108.json](scientific-name-followup-20261108.json).
-`data/scientific-name-evidence.json` adds references with explicit scopes: word
-meaning, word component, naming history, dedication, person identity or naming
-context. These labels appear in the explanation language. A partial reference
-supplements the main source; it does not certify the entire explanation or turn
-a description without a dedication into evidence for one.
-
-The closed disclosure appears below lookup names, in introductions, and after
-grading/revealing an answer. It never appears alongside an unanswered question or
-answer choices. Study uses the session's question language; lookup uses its title
-language. French, Finnish and scientific-name questions/titles fall back to the interface language.
-All three prose languages are independent of the German/English interface.
-Source titles retain their original language. Loading failures omit this optional
-content without affecting lessons. A changed scientific combination cannot reuse
-an explanation merely because the species ID stayed the same.
-
-Validation checks complete three-language coverage, exact current scientific
-names, source links, ambiguous dedications/localities, safe rendering, language
-selection and graceful failure. The initial feasibility categories are preliminary
-and are not runtime translation rules. The data remain outside the code's MIT grant.
+[README](../README.md) · Commands run from the repository root.
 
 ## Taxonomy and national selection
 
-Official taxonomy CSV: https://www.birds.cornell.edu/clementschecklist/wp-content/uploads/2026/04/eBird_taxonomy_v2025-4.csv
+The 994-species catalogue combines all-time eBird country lists for DE (597 mapped
+species), NL (587), GB (875), FI (483) and FR (659), retaining the original 313
+German entries. Occurrence includes historical rarities and introduced/escaped
+birds; it does not establish breeding or establishment status.
 
-Official eBird workbook: `eBird_Taxonomy_v2025_5-tab_30Oct2025.xlsx`, from the “Download all common names” link on https://support.ebird.org/en/support/solutions/articles/48000804865 . The workbook includes `full_sparse`, `4_letter_codes`, and `species_groups`. Store the download temporarily as `data/names.xlsx`; `scripts/build-data.py` extracts those sheets using openpyxl. Full temporary source downloads are excluded from Git. `data/official-records.json` preserves the literal workbook records used for the selected species; it is the input for routine regeneration and validation.
+| Source or record | Purpose |
+| --- | --- |
+| [Official v2025 CSV](https://www.birds.cornell.edu/clementschecklist/wp-content/uploads/2026/04/eBird_taxonomy_v2025-4.csv), saved as `data/taxonomy.csv` | Species concepts and REPORT_AS links |
+| [Official v2025 workbook](https://cornell.box.com/s/zjci66divvqnz00k98r7pmmb6kpc69zs), `eBird_Taxonomy_v2025_5-tab_30Oct2025.xlsx` | Common names and retained taxonomy, pinned by SHA-256 |
+| `data/official-records.json` | Literal workbook records for regeneration |
+| `data/catalog-country-lists.json` / `dist/catalog-review.json` | Source lists, retrieval date and excluded/unmapped taxa |
+| `data/catalog-baseline.json` | Original IDs, names, codes and editorial metadata |
+| [DDA report](https://www.dda-web.de/downloads/publications/statusreports/vid_bestandssituation_2025.pdf), `data/selection.json` | Original German breeding/wintering selection |
 
-DDA report: https://www.dda-web.de/downloads/publications/statusreports/vid_bestandssituation_2025.pdf . Regular native breeders (I) and established introduced breeders (III), excluding extinct populations, are the foundation. The report's wintering/resting waterbird tables add regular nonbreeders. `data/selection.json` preserves extracted fact rows. Additions cover regular winter landbirds and coastal migrants, with occurrence statuses checked against DO-G's national checklist v3.2 (2019). The selection is editorial, not a national checklist or independent peer-reviewed product. Later DDA notes correct Aquatic Warbler and Little Gull breeding extinction. Domestic Swan Goose is excluded as a domestic form without a matching species-level eBird concept; feral pigeon is retained under Rock Pigeon with an explicit note. Merged Redpoll and Tundra Swan concepts are documented in species notes.
-
-## Official quick-code policy
-
-Entry codes are literal `sci_quick_codes`, `com_quick_codes` and `banding_code` entries from the official `eBird_Taxonomy_v2026_5-tab_27Oct2026.xlsx` workbook, available through the same eBird Bird Names download page (Box link and SHA-256 in `data/code-records.json`). Species limits and common names remain pinned to v2025; twelve concept-verified scientific name changes use the 2026 name for display and learning, with the 2025 name also shown and accepted. `spofly1` (Spotted Flycatcher) retains its official 2025 codes because that ID is a slash in v2026; the exception is recorded explicitly. Scientific quick codes are primary and visibly labelled in both lookup and study cards. No code is generated from a name.
-
-`scripts/code_policy.py --workbook /path/to/eBird_Taxonomy_v2026_5-tab_27Oct2026.xlsx` imports the checksum-verified source and updates the catalogue. Without `--workbook`, it regenerates code fields from the saved records. The full source species table supplies worldwide collision counts across scientific codes, common-name variants and banding codes, counting each species once per code. The retained 2025 Spotted Flycatcher concept is included. Scientific codes lead the list. Within scientific and other candidates separately, prefer the fewest matching species worldwide; ties prefer the banding code, then alphabetical order. All other current candidates remain accepted and searchable. This selects ANFA/ANSE for the two bean geese, TUME for Blackbird and GAGL for Eurasian Jay. `scientificCodes` identifies the highlighted badges; `scientificCodeName` preserves the exact source name. Where the v2026 scientific name differs from the retained v2025 catalogue name, both views display both dated names and explain that both are accepted. Some species have no unique official code. The saved source includes the relevant literal records, global counts, source provenance and exception, and routine catalogue rebuilding applies this policy to retained and added species alike.
-
-Historical numeric `level` metadata remains in the catalogue for compatibility; species packages no longer control the interface or learning selection. See [learning contexts and scheduling](learning-and-storage.md#learning-progress-terminology).
+The German baseline is editorial: DDA categories I/III excluding extinct
+populations, plus regular nonbreeders and migrants checked against DO-G v3.2
+(2019). Species notes document later status corrections and merged concepts.
+Feral pigeon is retained as Rock Pigeon; domestic Swan Goose has no separate
+species entry. The legacy `finalize-data.py` refuses to overwrite the union.
 
 ## Catalogue and lookup
 
-The catalogue now contains 994 species: the union of public all-time eBird country
-lists for DE (597 mapped species), NL (587), GB/UK (875), FI (483) and FR (659), retaining all 313
-original German entries. Historical rarities and recorded introduced/escaped birds
-may occur in these lists. Membership is an occurrence record, not a breeding or
-establishment classification. Source taxa that cannot be mapped to one v2025
-species are listed in `dist/catalog-review.json`; the source lists and retrieval
-date are retained in `data/catalog-country-lists.json`. The exact official v2025
-workbook is pinned by SHA-256, while `data/taxonomy.csv` supplies species/concept
-and REPORT_AS links. The original catalogue is retained in
-`data/catalog-baseline.json` to verify IDs, names, codes, aliases and editorial
-metadata. The old Germany-only `finalize-data.py` refuses to overwrite this union.
-
-Run the manual **Review catalogue sources** Actions workflow to obtain fresh
-unfiltered national lists and official first-level region references using the existing eBird secret. Its artifact contains
-public taxon IDs only. Catalogue updates require review; they are not part of the
-daily Pages refresh. To regenerate from the reviewed source workbook:
+Run **Review catalogue sources** in Actions to fetch national taxon lists and
+first-level regions with the repository eBird secret. Review additions and
+exclusions before rebuilding; daily regional refreshes do not expand the catalogue.
 
 ```sh
 python3 scripts/build-catalog.py --workbook /tmp/birdnames-v2025.xlsx --countries data/catalog-country-lists.json
@@ -140,125 +38,143 @@ python3 scripts/build-name-language.py --language fr --column French
 python3 scripts/validate-data.py
 ```
 
-The official workbook source is
-https://cornell.box.com/s/zjci66divvqnz00k98r7pmmb6kpc69zs
-(`eBird_Taxonomy_v2025_5-tab_30Oct2025.xlsx`). Review candidates, exclusions,
-missing names/codes and the complete output diff before activating another
-catalogue. Reimport all five private EBD country archives using the commands in
-[ebd-import.md](ebd-import.md), then regenerate the seasonal release. The new release ID is
-`ebd-relSepOct-2026-2021-2025-catalog-v3`; the sampling period, checklist rules and
-thresholds are unchanged. Regional and current-notable caches carry the catalogue
-fingerprint; an older catalogue's fresh cache cannot suppress the required first
-refresh. Older paused lessons and progress remain keyed by the same IDs.
+Dutch and French cover all 994 species; Finnish covers 986. Names come from the
+workbook columns shown above and are stored in `dist/languages/`. Missing names
+exclude the affected learning pair. After catalogue changes, reimport all five
+private EBD archives and regenerate the [seasonal release](ebd-import.md).
+Catalogue fingerprints invalidate regional/current caches; progress keeps its IDs.
 
-Lookup first adopts the learning country (not its subregion), then independently
-remembers its own geography. Existing saved lookup regions are retained. Country
-selection is available in **Search area and display**; the shared catalogue is
-available under **All supported countries**. Active geography remains visible
-when the controls are collapsed. Optional subregion and 30-day controls apply within one
-country. Reset preserves country and name languages, clearing search, species
-group, subregion and period. Title/sort language and additional name languages are
-independent of geography and study settings. Scientific names and codes remain
-visible; missing title names use the scientific name with an explicit notice.
-Search still includes every available language and alias. Results render 60 cards
-at a time. Only German selections display the retained German status and notes;
-those national statements never become subregional breeding claims.
+Lookup initially adopts the learning country, then remembers its own geography.
+**Search area and display** controls country, optional subregion/30-day filter,
+main name and additional languages. **All supported countries** searches the union.
+Reset preserves country/name languages and clears other filters. Search covers
+all available languages and aliases, loading 60 results at a time. Missing title
+names use a labelled scientific-name fallback. German status notes appear only
+for German selections. Ranking is described in [search design](search-design-20261108.md).
 
-The collapsed **All names for copying** section sits at the bottom of each lookup
-species card. It includes the current scientific name first, then every available
-name language with country flags, regardless of the displayed language selection.
-German alternatives are deduplicated; distinct British and US English names get
-separate lines. Missing names are omitted. **Copy names** writes the plain text to
-the clipboard; unavailable or denied clipboard access focuses and selects the
-read-only text field for manual copying. The format, escaping, language coverage
-and clipboard fallback are covered by `scripts/test-lookup-settings.mjs`.
+**All names for copying** includes the current scientific name, every available
+language, deduplicated German alternatives and distinct British/US English lines,
+regardless of display settings. Denied clipboard access selects the text for
+manual copying. Tests: `scripts/test-lookup-settings.mjs`.
 
-New species need no local picture: the existing gallery fallback handles missing
-media. Existing pictures and licences are retained. A species can only enter a
-study language pair if both required names exist, and code questions require an
-actual official code. Coverage and counts in the information view are dynamic.
+## Official quick-code policy
 
-Checks: `node scripts/test-lookup-settings.mjs`,
-`python3 -m unittest discover -s scripts -p 'test_catalog.py'`, the existing complete
-Node/Python suite, data validation, EBD reproducibility and media validation.
+Codes are literal `sci_quick_codes`, `com_quick_codes` and `banding_code` values
+from `eBird_Taxonomy_v2026_5-tab_27Oct2026.xlsx`; source URL, SHA-256 and worldwide
+collision counts are in `data/code-records.json`. Names/species limits stay at
+v2025. Twelve concept-verified scientific combinations use the 2026 display name;
+both dated names are shown and accepted. `spofly1` retains 2025 codes because its
+2026 ID denotes a slash taxon. Code values are never generated from names.
 
-## German alternative and historical names
+Scientific candidates rank first. Within scientific/other candidates, prefer the
+fewest matching species worldwide, then banding codes, then alphabetical order.
+All candidates remain accepted/searchable; some species lack a unique code.
+`scientificCodes` identifies scientific badges; `scientificCodeName` keeps the
+source name. `python3 scripts/code_policy.py --workbook /path/to/workbook.xlsx` imports a
+checksum-verified source; without that option it reuses saved records.
 
-`dist/german-names.json` adds a sourced editorial overlay without changing the eBird species dataset. Names are separated into current alternatives (including regional and traditional names) and historical attestations, with per-name source and usage notes. `dist/logic.js` includes these names in search; English and code answers retain their existing acceptance rules. When German participates in a learning pair, current alternatives appear in the answer/reference area in both directions; ambiguous alternatives are labelled separately from accepted answers. Historical names and their qualifications remain in source disclosures. See [german-names-update-20261022.md](german-names-update-20261022.md) and run `node scripts/test-german-names.mjs`.
+The stored `sci` remains the 2025 provenance/media key. Explanations must match
+`primaryName(species, 'sci')` exactly. Shared IDs or spelling do not establish
+concept equivalence; Spotted Flycatcher, European Robin and Great Horned Owl
+require separate migration decisions. See the [identity review](catalog-identity-review-20261108.md).
 
 ## Code collision audit
 
-The [quick-code policy](#official-quick-code-policy) describes the mixed source versions and accepted scientific-name updates. The stored `sci` field remains the 2025 source key for provenance and media; explanations instead match the displayed name from `primaryName(species, 'sci')`, including the twelve reviewed 2026 combinations. The validator and renderer reject stale explanations whose exact name does not match; the original `sci` field is not reused by species ID alone. No concept equivalence is inferred from a shared species ID, code or similar spelling. Concept changes for Spotted Flycatcher, European Robin and Great Horned Owl remain migration decisions for a future taxonomy update. See [the identity review](catalog-identity-review-20261108.md) and [the quality review and fixes](quality-review-20261108.md).
+`python3 scripts/audit-codes.py` validates codes and regenerates
+[quick-code-audit.json](quick-code-audit.json). Of 2,069 accepted codes, 218 are
+ambiguous within the catalogue. There are 45 common-name/banding and 14
+scientific/banding collisions; categories overlap. Adding banding codes creates
+49 additional ambiguous codes. Three-letter entries are outside the four-letter
+eBird policy. These catalogue counts differ from worldwide ranking counts.
 
-Run `python3 scripts/audit-codes.py` to validate all catalogue code fields against the saved literal source records and regenerate [quick-code-audit.json](quick-code-audit.json). The report lists every ambiguous code, its species and source types. In the current 994-species catalogue, 218 of 2,069 distinct accepted codes match multiple species. There are 45 common-name/banding collisions and 14 scientific/banding collisions (categories can overlap). Adding banding codes to scientific and common-name codes creates 49 additional ambiguous codes; some ambiguities already exist within a single source type. These are catalogue counts, not worldwide counts. Three-letter source entries are outside the app's four-letter code policy.
+Scientific badges are purple, banding teal and DDA blue; English-name eBird codes
+have a separate palette. Dual-origin badges split their colours. The legend
+includes origins shown in expanded collisions, whose badges retain each species'
+provenance. Display groups preserve source ranking within each origin. References
+show available systems; accepted-answer cards show only the selected system.
 
-Banding codes use teal badges, scientific codes use purple, English-name eBird
-codes use their own palette, and DDA abbreviations use blue. A code with both
-scientific and banding origins uses a single split-colour badge, with both origins
-in its accessible description, tooltip and a text explanation. Reference cards
-combine eBird and available DDA codes; accepted-answer cards show only the selected
-code system. eBird badges are displayed in scientific, English-name and banding
-groups, preserving the source ranking within each group. The accepted code values
-and stored source ranking are unchanged.
+## Scientific-name meanings
 
-The bilingual colour key includes origins from the species and its expandable
-collision list. Each ambiguous code lists other matching species from the complete
-catalogue, with a badge carrying that species' own provenance, as well as naming
-the matches in the original badge's tooltip and accessible description. A warning
-explains that codes can match multiple species. See the [23 November layout
-review](layout-review-20261123.md) for the shared row, complete collision legend
-and answer-system separation checks.
+`dist/scientific-names.json` explains genus and epithet for all 994 species in
+German, English and Dutch. Entries in `data/scientific-name-*.txt` compile with
+`python3 scripts/build-scientific-names.py`; `--check` verifies the output.
+Jobling (2010), online *Key to Scientific Names* and linked supplementary sources
+support short editorial explanations. Source languages, roots, compounds,
+dedications and uncertainty are recorded per term; dictionary text is not bundled.
+
+`data/scientific-name-overrides.json` separates homonyms and taxon-specific
+histories. `data/scientific-name-evidence.json` labels reference scope (meaning,
+component, history, dedication, identity or context). Explanations appear during
+introductions, answer reveals and lookup, never beside unanswered questions.
+Study uses question language, lookup its title language; French/Finnish/scientific
+selections use the interface language. Loading failure omits optional explanations.
+
+| Review | Evidence |
+| --- | --- |
+| Initial coverage and source scope | [Feasibility](scientific-name-feasibility-20261107.json), [follow-up](scientific-name-followup-20261108.json) |
+| Word roots and disputed terms | [Depth](scientific-name-depth-review-20261123.json), [content](scientific-name-content-review-20261123.json), [uncertainty](scientific-name-uncertainty-review-20261123.json) |
+| Previously unmarked terms | [Systematic review](scientific-name-unmarked-review-20261123.json) |
+| Online Jobling and eponyms | [26 November comparison](scientific-name-source-comparison-20261126.json) |
+
+The last review checked all current/alternate components online and the publisher
+preview of Beolens, Watkins and Grayson's *The Eponym Dictionary of Birds* through
+printed page 61. It records 29 revisions; the Tamil derivation of `kundoo` remains
+a proposal. Further reading, not consulted in full: Viktor Wember (2005),
+*Die Namen der Vögel Europas*, Aula-Verlag, ISBN 3-89104-678-2.
+
+## German alternative and historical names
+
+`dist/german-names.json` overlays sourced current alternatives and historical
+attestations, with usage notes. Current alternatives are searchable and shown
+when German participates in learning; ambiguous names are labelled separately
+from accepted answers. Historical names remain in source disclosures. See the
+[German-name review](german-names-update-20261022.md).
 
 ## Species photos and illustrations
 
-`dist/photos.json` maps every species ID to locally served Wikimedia Commons and iNaturalist photos in `dist/images/`. Eight historical scientific illustrations are clearly labeled; converted, cropped or PDF-rendered assets record their transformation and original legend. Existing photos remain unchanged. A primary record can contain `additional` records, with `sexes` and German `label` fields for a photographed male, female or pair. Each image retains its own author, optional required attribution, image title, source description URL, license and license URL, download URL, source SHA-1 when provided and local SHA-256. The browser loads all displayed pictures locally. It shows source and license links beside each image; full titles and optional attribution are available under Image credit. Failed image loads provide the eBird species gallery. Learning photos appear during first introductions and after grading; feedback also includes a permanent eBird species link. Lesson images are prepared by the existing lesson cache when pictures are enabled. `data/photo-sex-review.json` records the scope and source evidence of the sex review; size alone cannot be compared using these photos.
+All 994 species have media: 1,420 photographs and eight labelled historical
+illustrations, stored locally in `dist/images/`. `dist/photos.json` records each
+image's author/required attribution, title, source, licence, download URL,
+source SHA-1 where available and local SHA-256. Transformations and original
+legends are recorded for derived illustrations. Cards show credits and licences;
+failed loads link to the eBird gallery.
 
-Images were selected from the corresponding English Wikipedia species articles, with scientific-name redirects and Wikidata P225 taxon names checked. Four taxonomic exceptions are documented in `data/commons-taxon-exceptions.json`; the Thrush Nightingale uses an alternative Wikidata P18 photo under CC BY-SA 4.0. `data/commons-photo-sources.json` retains the retrieved file metadata, including descriptions and licensing information. Image licenses apply separately to each image.
+There are at most two images per species. `data/photo-sex-review.json` records
+explicit both-sex evidence for 370 species; single-image or unestablished states
+do not imply monomorphism. Discovery uses Wikipedia, scientific-name redirects
+and Wikidata P225. Records are retained in `data/commons-photo-sources.json`,
+`data/commons-taxon-exceptions.json` and `data/inaturalist-photo-sources.json`.
 
-Run `node scripts/validate-photos.mjs` to verify coverage, taxon mappings, attribution, licenses and local file hashes. `python scripts/fetch-commons-photos.py` restores missing image files from their recorded source URLs and verifies their hashes. It uses only the Python standard library and does not overwrite an existing file with different bytes. Derived illustration assets must be restored from Git; their source file is not byte-identical to the displayed conversion/crop/PDF render. See [illustrations-update-20261021.md](illustrations-update-20261021.md).
+```sh
+node scripts/validate-photos.mjs
+python3 scripts/fetch-commons-photos.py
+```
 
-The 23 November 2026 Finland/France extension adds 68 licensed photos for its 54 new species. All 994 species have media, with 1,420 photographs and eight illustrations; 370 species have explicit both-sex source evidence. See [the extension photo review](photos-finland-france-20261123.md).
-
-The 5 November 2026 expansion added images for all 627 newly catalogued species: the 940-species catalogue now includes 1,352 photographs and eight labelled historical illustrations. Both sexes have explicit source evidence for 356 species. Eleven recognised comparison gaps remain flagged; “single-image” and “not-established” review states do not establish that a species is monomorphic. The original 313 species’ records and assets are preserved and checked against `data/photo-baseline-20261105.json`.
-
-Redundant unlabelled lead images have been removed where two labelled comparison images exist. A validator enforces at most two images per species in the manifest, which is shared by lookup, image dialogs and learning.
-
-The acquisition commands in `scripts/collect-commons-photos.py` stage candidates for review rather than publish automatically. Use its `--help` for discovery, sex searches, source enrichment and staging phases. `scripts/collect-inaturalist-photos.py` supplements missing candidates with exact research-grade taxon matches and compatible individual-photo licenses. `data/inaturalist-photo-sources.json` retains selected taxon, photo-license and explicit sex-annotation evidence without observation coordinates. See [the acquisition review](photos-expansion-20261105.md) for selection decisions, limitations and remaining gaps.
+The fetcher restores missing originals and verifies hashes; it rejects existing
+different bytes. Restore converted/cropped/PDF illustrations from Git.
+`python3 scripts/collect-commons-photos.py --help` describes discovery, sex-search, enrichment and
+staging. `scripts/collect-inaturalist-photos.py` supplements exact research-grade taxon
+matches with compatible photo licences. Both stage candidates for review.
+[Acquisition decisions](photos-expansion-20261105.md) and the
+[FI/FR extension](photos-finland-france-20261123.md) record review limits.
 
 ## EBD import and activation
 
-`scripts/import-ebd.py` streams explicitly selected private country ZIP archives from
-`$HOME/EBD/downloads/` into `data/ebd-seasonal-preview.json`. This intermediate
-aggregate is reviewed before activation; `scripts/build-ebd-seasonal.py` generates
-the active app data from it. The raw data remain outside Git and Pages. Both the
-preview and published aggregates are derived eBird data excluded from the MIT code
-licence. See [ebd-import.md](ebd-import.md) for reproduction, filters and source terms.
-Finnish and French 2021–2025 aggregates from the October 2026 release were activated on 24 November 2026, alongside the retained September source countries. Exact reviewed source-concept rollups are recorded in `data/ebd-taxon-crosswalk.json`; each country’s source release is kept in new round snapshots.
-Run `python3 -m unittest discover -s scripts -p 'test_ebd*.py'`,
-`python3 scripts/build-ebd-seasonal.py --check` and
-`python3 scripts/check-private-ebd.py` before committing an update.
+[Private EBD import](ebd-import.md) documents source archives, aggregation rules,
+terms and release `ebd-relSepOct-2026-2021-2025-catalog-v3`. Raw records stay outside
+Git. `data/ebd-taxon-crosswalk.json` records reviewed source-concept rollups;
+rounds retain each country's release.
 
 ## DDA breeding-survey abbreviations
 
-The [interactive DDA list](https://www.dda-web.de/monitoring/mhb/artkuerzel) is the
-source for DDA abbreviations. Retrieved 22 November 2026 through the same public
-`/api/species/abbreviations` endpoint used by that page. The page still states
-28 February 2020. Its 262 records contain 261 active mapped entries and one
-explicitly deprecated Swan Goose record repeating `Hög`; that record is excluded.
-Compared with the supplied PDF, no abbreviation changed. Five display names
-changed: Brachvogel (Großer), Höckergans (Schwanengans), Kleinsumpfhuhn,
-Nachtschwalbe (Ziegenmelker), and Zitronenzeisig.
+The [interactive DDA list](https://www.dda-web.de/monitoring/mhb/artkuerzel) uses
+`/api/species/abbreviations`. The reviewed 22 November 2026 response has 262 rows:
+261 active mapped entries and a deprecated duplicate Swan Goose `Hög`. The page's
+source date is 28 February 2020. `data/dda-code-records.json` retains source rows,
+hash, fetch time and reviewed concept mappings, including narrower-scope notes.
+Mixed case and umlauts are preserved.
 
-`data/dda-code-records.json` retains allowlisted source rows, the response hash,
-fetch time and reviewed mappings from DDA IDs to catalogue IDs. The scientific
-name is checked against each reviewed mapping. Lesser Redpoll, feral Rock Pigeon
-and domestic Swan Goose have explicit narrower-scope notes. The source name is
-shown in their DDA questions; no new catalogue taxa are created.
-
-`python3 scripts/update-dda.py --from-records` regenerates the committed
-`dist/dda-codes.json` bootstrap without network access. `--check` verifies it.
-The deployed snapshot is updated separately by the daily Pages workflow; see
-[deployment and regional data](deployment-and-regions.md#dda-abbreviation-refresh).
-New IDs or changed scientific concepts appear in its `meta.review` list until
-reviewed; deprecated entries appear in `meta.deprecated` and are not searchable
-or learnable. Original mixed case and umlauts are preserved.
+`python3 scripts/update-dda.py --from-records` regenerates the bootstrap;
+`--check` verifies it. New IDs/concepts require review; deprecated rows are excluded.
+The [deployment guide](deployment-and-regions.md#dda-abbreviation-refresh) covers
+live refreshes. Run the [full checks](development.md#checks) after data updates.

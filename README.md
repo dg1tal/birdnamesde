@@ -1,156 +1,157 @@
 # BirdNames DE
 
-Look up bird names and learn them with short, spaced-repetition practice rounds. The catalogue covers 994 species recorded in Germany, the Netherlands, the United Kingdom, Finland and France, with German, English, Dutch, French, Finnish and scientific names. The interface is available in German and English.
+Look up and learn bird names with spaced practice. The catalogue covers 994 species
+recorded in Germany, the Netherlands, the UK, Finland and France, with German,
+English, Dutch, French, Finnish and scientific names. Interface: German or English.
 
-**[Open BirdNames DE](https://dg1tal.github.io/birdnamesde/)** — use it in your desktop or mobile browser, without an account.
+**[Open BirdNames DE](https://dg1tal.github.io/birdnamesde/)** — desktop or mobile,
+no account required.
 
 ## Features on mobile
 
-The screenshots below show the current German interface, captured on 26 November 2026. They include the compact learning cards and current code legends; the name-copying view is shown below the gallery.
+German interface, captured on 26 November 2026. Click images for full size.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>Find names across languages</h3>
-      <p>Search names and codes, then open a species to compare German, English, Dutch, French, Finnish and scientific names.</p>
-      <a href="docs/screenshots/mobile-lookup.jpg"><img src="docs/screenshots/mobile-lookup.jpg" width="280" alt="Expanded Blaumeise lookup card with multilingual names, scientific and English eBird codes, DDA abbreviation and the collapsed name-copying control"></a>
+      <p>Search any name or code; open a result to compare languages.</p>
+      <a href="docs/screenshots/mobile-lookup.jpg"><img src="docs/screenshots/mobile-lookup.jpg" width="280" alt="Blaumeise details: multilingual names, eBird/DDA codes and copying control"></a>
     </td>
     <td width="50%" valign="top">
       <h3>Build a daily learning habit</h3>
-      <p>Choose your region, season and languages. Daily rounds introduce a few new targets and bring back scheduled reviews.</p>
-      <a href="docs/screenshots/mobile-daily-learning.jpg"><img src="docs/screenshots/mobile-daily-learning.jpg" width="280" alt="Mobile daily round with three new English bird names, collapsed settings and the current German autumn selection"></a>
+      <p>Choose region, season and languages; review due targets and learn new ones.</p>
+      <a href="docs/screenshots/mobile-daily-learning.jpg"><img src="docs/screenshots/mobile-daily-learning.jpg" width="280" alt="Daily round: three new English names, Germany/autumn and collapsed settings"></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>Practise bird names</h3>
-      <p>Think first, then reveal the choices. Text input, flashcards and direct multiple choice are also available.</p>
-      <a href="docs/screenshots/mobile-practice.jpg"><img src="docs/screenshots/mobile-practice.jpg" width="280" alt="Compact German-to-English think-first question for Eichelhäher with four revealed choices and the mobile progress and action bars"></a>
+      <p>Reveal choices when ready, or use text entry, flashcards or direct multiple choice.</p>
+      <a href="docs/screenshots/mobile-practice.jpg"><img src="docs/screenshots/mobile-practice.jpg" width="280" alt="Eichelhäher question: four revealed choices, progress and mobile actions"></a>
     </td>
     <td width="50%" valign="top">
       <h3>Keep track of your progress</h3>
-      <p>View started species, secure learning targets and scheduled reviews using independent language and method selectors.</p>
-      <a href="docs/screenshots/mobile-progress.jpg"><img src="docs/screenshots/mobile-progress.jpg" width="280" alt="Mobile learning statistics with language, code-system and method selectors, three started species, no secure names and the example's next scheduled review"></a>
+      <p>Track started species, secure targets and scheduled reviews by language and method.</p>
+      <a href="docs/screenshots/mobile-progress.jpg"><img src="docs/screenshots/mobile-progress.jpg" width="280" alt="Statistics: language/system/method selectors, three started species, zero secure names and next review"></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>Understand each answer</h3>
-      <p>Feedback separates the accepted name, scientific reference and official codes. Pictures and their credits follow, with further explanations below.</p>
-      <a href="docs/screenshots/mobile-feedback.jpg"><img src="docs/screenshots/mobile-feedback.jpg" width="280" alt="Complete correct Eichelhäher answer with Eurasian Jay, Garrulus glandarius, eBird and DDA codes, a credited photo, folded explanations and the Next action"></a>
+      <p>See accepted names, scientific references, codes, credited pictures and explanations.</p>
+      <a href="docs/screenshots/mobile-feedback.jpg"><img src="docs/screenshots/mobile-feedback.jpg" width="280" alt="Correct Eichelhäher answer: Eurasian Jay, Garrulus glandarius, codes, credited photo and Next"></a>
     </td>
     <td width="50%" valign="top">
       <h3>Save birds for later</h3>
-      <p>Keep a personal species list and practise it with your choice of languages and answer method.</p>
-      <a href="docs/screenshots/mobile-saved-species.jpg"><img src="docs/screenshots/mobile-saved-species.jpg" width="280" alt="Mobile saved-species list containing Blaumeise and the language and answer-method controls for practising it"></a>
+      <p>Practise a saved list with your chosen languages and method.</p>
+      <a href="docs/screenshots/mobile-saved-species.jpg"><img src="docs/screenshots/mobile-saved-species.jpg" width="280" alt="Saved Blaumeise with language and method controls"></a>
     </td>
   </tr>
 </table>
 
-Captured on 26 November 2026 at 430 × 932 CSS pixels, in the light theme, using a separate local preview. Lookup is scrolled to show the species details; the feedback card fits in one viewport. Statistics show a completed three-question example round with Eichelhäher, Tannenmeise and Kampfläufer; the next-review date belongs to that example. These are unedited browser viewport captures, not physical-device tests. Click an image to view it at full size. See the [capture record](docs/readme-screenshots-20261126.md) for states and verification limits.
+430 × 932 CSS pixels, light theme, isolated local preview. Statistics show a
+three-question example round. [Capture states and limits](docs/readme-screenshots-20261126.md).
 
-Photo visible in the feedback screenshot: I, Luc Viatour, [Eurasian Jay (*Garrulus glandarius*)](https://commons.wikimedia.org/wiki/File:Garrulus_glandarius_1_Luc_Viatour.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+Feedback photo: I, Luc Viatour,
+[Eurasian Jay](https://commons.wikimedia.org/wiki/File:Garrulus_glandarius_1_Luc_Viatour.jpg),
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
 ## Copy bird names
 
-At the bottom of a lookup species card, open **All names for copying** and choose **Copy names**. The text starts with the current scientific name, followed by all available name languages, including German alternatives and distinct British/US English names. It includes languages hidden by the lookup display settings. If clipboard access is unavailable, the app selects the text for manual copying.
+Open **All names for copying → Copy names** at the bottom of a species card.
+The text includes the scientific name, all available languages, German alternatives
+and distinct British/US names, regardless of display settings. If clipboard access
+fails, the text is selected for manual copying.
 
-<a href="docs/screenshots/mobile-copy-names.jpg"><img src="docs/screenshots/mobile-copy-names.jpg" width="280" alt="Expanded Amsel name-copying section with Turdus merula, Schwarzdrossel, British and US English names, Dutch, French and Finnish names, and the successful copy confirmation"></a>
-
-The Amsel example is scrolled to the copying section. All seven lines are visible, and **Namen kopiert.** (“Names copied”) confirms the clipboard action.
+<a href="docs/screenshots/mobile-copy-names.jpg"><img src="docs/screenshots/mobile-copy-names.jpg" width="280" alt="Amsel copying section: scientific and multilingual names, German alternative and copy confirmation"></a>
 
 ## Save birds for later practice
 
-Use **Save species** on a species card or in search-result details, then open **Saved species** from Lookup or Learn. A saved-species round uses only that list, independently of regional, seasonal and progress filters. It never replaces an existing paused round.
+Choose **Save species**, then open **Saved species** from Lookup or Learn. Saved
+rounds use only that list; resume or end a paused round before starting another.
 
 ## How learning works
 
-Choose the names or codes you want to practise, your question and answer languages, and a region. Seasonal frequency groups help select new species; current notable reports can add species to that selection. These are occurrence-based learning filters, not sighting predictions.
+Choose a region, question/answer languages and text entry, flashcards, multiple
+choice or “Think first”. Daily rounds prioritise due reviews and introduce at most
+three new targets per day across languages and methods. Custom rounds allow more.
+Started targets remain eligible for review when region/season filters change.
 
-Your daily round prioritises due reviews and introduces at most three new names or codes per day across languages and methods. New targets are introduced before they are tested. Started targets stay eligible for scheduled reviews when you change your region or season. You can also build a custom round or continue practising after the daily round.
-
-Choose text input, flashcards, multiple choice or “Think first”, which initially hides the choices. Photos appear during introductions and after answers when pictures are enabled. Statistics distinguish recognition, free recall and self-assessment; progress in one method or language direction does not automatically count as secure knowledge in another.
-
-German alternatives are visible during introductions, answer reveals and feedback whenever German is the question or answer language. Ambiguous alternatives such as Spatz are labelled and shown separately from accepted answers; historical names and source notes remain available in disclosures.
-
-On phones, **Display** groups interface-language and theme controls. **Learning method** and **Data & privacy** include collapsible contents lists. The app explains its scheduling rules and research references under **Learning method**. See [learning, languages and storage](docs/learning-and-storage.md) for implementation details.
+Photos appear during introductions and after answers. Progress stays separate by
+language direction and method family. German alternatives are shown when relevant;
+ambiguous names are labelled. The in-app **Learning method** page explains the
+schedule; [learning and storage](docs/learning-and-storage.md) documents the rules.
 
 ## Privacy and limits
 
-Learning progress is stored in your browser on your device. There is no authentication, analytics, server-side progress database or automatic account/device sync. Browser privacy settings or storage cleanup can remove local progress.
+Progress and saved species stay in your browser. There are no accounts, analytics
+or automatic device sync. Browser cleanup can remove them.
 
-Use **Statistics → Back up and restore progress** to export a portable backup. Backups use `.json`, or `.json.gz` for large exports when browser compression is available. Importing a checked backup replaces the destination browser’s progress after confirmation. Saved species are included in version-3 backups; older backups retain the destination browser’s saved-species list. Other preferences and paused rounds are not included. Before changing browsers or site domains, export from the old location first.
+Use **Statistics → Back up and restore progress** to export `.json` or `.json.gz`.
+Confirmed import replaces progress; preferences and paused rounds are excluded.
+Export from the old browser/origin before moving. [Backup details](docs/learning-and-storage.md#backup-and-restore-flow).
 
-There is no promised offline mode. The app loads its data and photos from static hosting; regional eBird updates run through GitHub Actions, and the browser does not contact the eBird API. Country-list membership records occurrence, including historical rarities and some introduced or escaped birds; it does not establish breeding status. See the in-app **Data & privacy** page for coverage, source periods and limitations.
+The app requires static hosting and has no guaranteed offline mode. eBird API
+refreshes run through GitHub Actions; the browser loads published data. Regional
+filters describe occurrence, not sighting probability or breeding status.
 
 ## Run locally and check
 
-The app has no runtime dependencies or build step. From the repository root, serve `dist/`:
+No build step or npm install is needed. From the repository root:
 
 ```sh
 python3 -m http.server 8000 --directory dist
 ```
 
-Open [localhost:8000](http://localhost:8000/). No npm install is needed. Run the baseline application check with:
-
-```sh
-npm test
-```
-
-CI also runs the complete Node/Python suites, data reproducibility checks and photo validation before deployment. See [development and verification](docs/development.md) for the full commands and CI runtime versions. The [Pages workflow](.github/workflows/pages.yml) publishes `dist/` from `main`; [deployment and regional data](docs/deployment-and-regions.md) describes hosting and refresh configuration.
+Open [localhost:8000](http://localhost:8000/). Run `npm test` for the baseline check;
+[development](docs/development.md) lists the full CI checks. The
+[Pages workflow](.github/workflows/pages.yml) publishes `dist/` from `main`.
 
 ## Data sources and acknowledgement
 
-Taxonomy and common names use the reviewed eBird/Clements 2025 catalogue. Official quick codes come from the 2026 workbook, with documented exceptions and concept-verified scientific-name updates. DDA breeding-survey abbreviations use the interactive DDA web list, are checked in the daily publication workflow, and have separate learning progress from eBird codes. National lists cover DE, NL, GB, FI and FR; regional occurrence lists and current notable reports use the eBird API. Scientific-name explanations give source languages, word roots and naming histories for the displayed scientific name, including the reviewed 2026 combinations, with linked references principally from Jobling (2010). Dutch and French cover all 994 species; Finnish covers 986. Missing names exclude a species from the affected learning pair rather than falling back to another language. Photos and illustrations have individual source credits and licences.
+Taxonomy/common names use eBird/Clements 2025; official quick codes use the 2026
+workbook with reviewed exceptions. DDA supplies separate breeding-survey codes.
+Dutch/French cover all 994 species; Finnish covers 986. Name explanations primarily
+use Jobling (2010). [Sources and reproduction](docs/data-sources.md).
 
-**The eBird Basic Dataset (EBD) itself is not included in this repository.**
-Neither the country download archives nor raw observation or sampling-event
-records are published here. The seasonal data files contain derived aggregates:
-regional species groups and summary checklist counts.
-
-The seasonal frequency groups use the **eBird Basic Dataset (EBD)**: September 2026
-for Germany, the Netherlands and the UK; October 2026 for Finland and France.
-All five countries use 2021–2025. Regional occurrence lists and current notable reports use the eBird API.
-
-Source datasets used to calculate the seasonal aggregates:
+Seasonal groups use **EBD observations from 2021–2025**: September 2026 release for
+DE/NL/GB, October for FI/FR. Regional lists/current reports use the eBird API.
+**Raw EBD archives and observation records are not included**; only derived
+regional groups and sample counts are published.
 
 > eBird Basic Dataset. Version: EBD_relSep-2026. Cornell Lab of Ornithology, Ithaca, New York. Sep 2026.
 
 > eBird Basic Dataset. Version: EBD_relOct-2026. Cornell Lab of Ornithology, Ithaca, New York. Oct 2026.
 
-General eBird project reference:
-
-Sullivan, B.L., C.L. Wood, M.J. Iliff, R.E. Bonney, D. Fink, and S. Kelling. 2009. eBird: a citizen-based bird observation network in the biological sciences. Biological Conservation 142: 2282-2292.
+Sullivan, B.L., C.L. Wood, M.J. Iliff, R.E. Bonney, D. Fink, and S. Kelling. 2009.
+eBird: a citizen-based bird observation network in the biological sciences.
+Biological Conservation 142: 2282–2292.
 [DOI](https://doi.org/10.1016/j.biocon.2009.05.006).
 
-We thank the Cornell Lab of Ornithology for providing the eBird data and the eBird
-contributors for their observations. The source EBD is available through the
-[official eBird data access page](https://science.ebird.org/en/use-ebird-data/download-ebird-data-products).
-Derived data retain the [eBird Data Access Terms of Use](https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/),
-including the full terms distributed in `dist/ebd-terms.txt`; they are excluded from
-the code's MIT licence. Attribution does not imply endorsement by Cornell or eBird.
-
-Source records, workbook links, DDA selection provenance, code policy, scientific-name references and image acquisition details are collected in [data sources and reproduction](docs/data-sources.md). The [EBD import guide](docs/ebd-import.md) documents seasonal aggregate calculation and source terms.
+Thanks to Cornell Lab of Ornithology and eBird contributors.
+[Source EBD](https://science.ebird.org/en/use-ebird-data/download-ebird-data-products).
+Derived data retain the [eBird Data Access Terms](https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/),
+also in `dist/ebd-terms.txt`. Attribution does not imply endorsement.
 
 ## License and third-party material
 
-The original application code in `dist/` (HTML, CSS and JavaScript), the code in `scripts/`, and project configuration are licensed under the [MIT License](LICENSE), copyright (c) 2026 DG1TAL. A copy of the license in `dist/LICENSE` accompanies the hosted application. This grant does not cover the JSON datasets, images, or other third-party material in this repository.
-
-The photos and illustrations in `dist/images/` retain their individual licenses and attribution requirements, recorded per image in `dist/photos.json`. The eBird/Clements taxonomy, common names, quick codes, EBD-derived seasonal groups and API-derived regional data are sourced from Cornell Lab of Ornithology/eBird; this project's MIT license does not grant rights to those materials. Review the [eBird API terms](https://www.birds.cornell.edu/home/ebird-api-terms-of-use/) and [eBird data access terms](https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/) before reusing or redistributing them. Other source material and editorial provenance are documented in [data sources and reproduction](docs/data-sources.md).
+Application code, scripts and configuration: [MIT](LICENSE), © 2026 DG1TAL;
+`dist/LICENSE` accompanies the hosted app. This excludes JSON datasets, images
+and other third-party material. Image credits/licences are in `dist/photos.json`.
+eBird materials retain their [API](https://www.birds.cornell.edu/home/ebird-api-terms-of-use/)
+and [data access terms](https://www.birds.cornell.edu/home/ebird-data-access-terms-of-use/).
 
 ## Further documentation
 
 | Guide | Contents |
 | --- | --- |
-| [Development and verification](docs/development.md) | Modules, full checks, optional tooling, photo cache and accessibility verification |
-| [Learning, languages and storage](docs/learning-and-storage.md) | Scheduling, language contexts, lesson recovery, backups and storage compatibility |
-| [Data sources and reproduction](docs/data-sources.md) | Taxonomy, catalogue, names, codes, photo provenance and reproduction commands |
-| [Deployment and regional data](docs/deployment-and-regions.md) | GitHub Pages, regional API refresh, seasonal selection and current reports |
-| [Private EBD import](docs/ebd-import.md) | Aggregate calculation, review and activation; raw records remain outside Git |
-| [Search design](docs/search-design-20261108.md) | Multilingual lookup ranking and match provenance |
-| [App-wide UI review · 20 November](docs/ui-review-20261120.md) | Mobile navigation, controls, answer cards, contents lists and verification limits |
-| [Card layout review · 23 November](docs/layout-review-20261123.md) | Compact learning cards, code legends, collision lists and viewport screenshots |
-| [Documentation review · 26 November](docs/documentation-review-20261126.md) | Current catalogue counts, copying, code display and documentation verification |
-| [README screenshots · 26 November](docs/readme-screenshots-20261126.md) | Current gallery, copying example, capture states and verification limits |
+| [Development](docs/development.md) | Modules, checks, dependencies, accessibility |
+| [Learning and storage](docs/learning-and-storage.md) | Scheduling, saved species, backups, recovery |
+| [Data sources](docs/data-sources.md) | Taxonomy, names, codes, photos, reproduction |
+| [Deployment and regions](docs/deployment-and-regions.md) | Pages, API refreshes, seasonal selection |
+| [Private EBD import](docs/ebd-import.md) | Archives, aggregation, coverage, terms |
+| [Search design](docs/search-design-20261108.md) | Ranking and match provenance |
 
-Dated reviews in `docs/` record the scope and results of individual releases. Start with the thematic guides above for current behavior.
+Dated reports in `docs/` record individual reviews; the guides above describe
+current behavior.
